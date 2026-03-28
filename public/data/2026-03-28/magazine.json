@@ -1,0 +1,375 @@
+{
+  "date": "2026-03-28",
+  "issueNumber": 1,
+  "cover": {
+    "mainHeadline": "GPT-5 출시 임박: OpenAI, 사전 공개 행사 전격 예고",
+    "mainExcerpt": "OpenAI가 다음 달 GPT-5 공개 행사를 예고했다. 내부 테스트에서 추론 능력이 GPT-4o 대비 3배 향상됐으며, 멀티모달 실시간 처리와 100만 토큰 컨텍스트 윈도우를 지원한다고 알려졌다.",
+    "headlines": [
+      "Apple, M4 Ultra 탑재 Mac Studio 전격 발표 — M3 대비 2.5배 성능",
+      "Rust 언어, Linux 커널 핵심 드라이버 레이어 첫 도입 완료",
+      "GitHub Copilot Workspace GA — 자율 코딩 에이전트 본격 시대"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "h1",
+      "title": "GPT-5 출시 임박: OpenAI, 사전 공개 행사 전격 예고",
+      "excerpt": "OpenAI가 다음 달 GPT-5 공개 행사를 예고했다. 내부 테스트에서 추론 능력이 GPT-4o 대비 3배 향상됐으며, 멀티모달 실시간 처리와 100만 토큰 컨텍스트 윈도우를 지원한다고 알려졌다. 가격은 현행 API 대비 40% 인하를 검토 중이다.",
+      "url": "https://openai.com/news",
+      "source": "OpenAI",
+      "category": "AI",
+      "publishedAt": "2026-03-28T06:00:00Z",
+      "readTime": 5,
+      "imageGradient": 0
+    },
+    {
+      "id": "h2",
+      "title": "Apple, M4 Ultra 탑재 Mac Studio 전격 발표",
+      "excerpt": "Apple이 M4 Ultra 칩을 탑재한 신형 Mac Studio를 공개했다. 전작 M3 대비 CPU 2.5배, GPU 3배 성능 향상을 달성했으며, Neural Engine은 AI 추론에서 초당 38조 회 연산을 처리한다.",
+      "url": "https://www.apple.com/newsroom",
+      "source": "Apple",
+      "category": "Hardware",
+      "publishedAt": "2026-03-28T08:30:00Z",
+      "readTime": 4,
+      "imageGradient": 1
+    },
+    {
+      "id": "h3",
+      "title": "Rust, Linux 커널 핵심 드라이버 레이어 첫 도입",
+      "excerpt": "Linux 재단이 Rust로 작성된 드라이버 코드가 커널 핵심 레이어에 처음으로 병합됐다고 발표했다. Linus Torvalds는 \"C와 Rust의 공존이 커널의 미래\"라고 밝혔다.",
+      "url": "https://kernel.org",
+      "source": "Linux Foundation",
+      "category": "Open Source",
+      "publishedAt": "2026-03-28T07:15:00Z",
+      "readTime": 6,
+      "imageGradient": 2
+    },
+    {
+      "id": "h4",
+      "title": "Anthropic, Claude 3.7 Sonnet 하이브리드 추론 공개",
+      "excerpt": "Anthropic이 확장 사고(Extended Thinking) 모드를 갖춘 Claude 3.7 Sonnet을 출시했다. 수학·코딩 벤치마크에서 GPT-4o를 압도하며, 토큰 효율도 30% 향상됐다.",
+      "url": "https://www.anthropic.com/news",
+      "source": "Anthropic",
+      "category": "AI",
+      "publishedAt": "2026-03-28T05:00:00Z",
+      "readTime": 5,
+      "imageGradient": 3
+    },
+    {
+      "id": "h5",
+      "title": "Microsoft, OpenAI와 독점 계약 일부 해소 — AI 생태계 다변화",
+      "excerpt": "Microsoft가 OpenAI와 맺은 독점 클라우드 계약 일부를 조정한다고 밝혔다. 이로써 OpenAI는 AWS·Google Cloud와도 협력이 가능해지며, 클라우드 AI 경쟁이 가속화될 전망이다.",
+      "url": "https://blogs.microsoft.com",
+      "source": "Microsoft",
+      "category": "Business",
+      "publishedAt": "2026-03-28T09:00:00Z",
+      "readTime": 4,
+      "imageGradient": 4
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "ai1",
+        "title": "Google DeepMind, Gemini 2.5 Pro 멀티모달 추론 돌파구",
+        "excerpt": "Gemini 2.5 Pro가 영상·오디오·텍스트를 동시에 처리하는 네이티브 멀티모달 추론을 공개했다. 1시간짜리 강의 영상을 요약하고 Q&A까지 실시간으로 처리하는 데모가 공개됐다.",
+        "url": "https://deepmind.google/blog",
+        "source": "Google DeepMind",
+        "category": "AI",
+        "publishedAt": "2026-03-28T06:30:00Z",
+        "readTime": 5,
+        "imageGradient": 5
+      },
+      {
+        "id": "ai2",
+        "title": "Meta, Llama 4 Scout·Maverick 오픈소스 공개",
+        "excerpt": "Meta가 Llama 4 Scout(17B)과 Maverick(400B)을 오픈소스로 공개했다. Scout는 단일 H100 GPU에서 실행 가능하며, Maverick은 멀티모달 능력에서 GPT-4V를 상회한다.",
+        "url": "https://ai.meta.com/blog",
+        "source": "Meta AI",
+        "category": "AI",
+        "publishedAt": "2026-03-28T07:00:00Z",
+        "readTime": 6,
+        "imageGradient": 6
+      },
+      {
+        "id": "ai3",
+        "title": "Hugging Face, SmolVLM2 경량 비전 모델 공개",
+        "excerpt": "Hugging Face가 2B 파라미터 멀티모달 모델 SmolVLM2를 공개했다. 모바일 기기에서 실시간 이미지 이해가 가능하며, Apache 2.0 라이선스로 상업적 사용이 허용된다.",
+        "url": "https://huggingface.co/blog",
+        "source": "Hugging Face",
+        "category": "AI",
+        "publishedAt": "2026-03-28T08:00:00Z",
+        "readTime": 4,
+        "imageGradient": 7
+      },
+      {
+        "id": "ai4",
+        "title": "Karpathy, LLM OS 아키텍처 신규 에세이 공개",
+        "excerpt": "Andrej Karpathy가 LLM을 운영체제처럼 설계하는 'LLM OS' 개념을 심화 발전시킨 에세이를 공개했다. 메모리, I/O, 프로세스 스케줄링 개념을 AI에 적용한 프레임워크를 제시한다.",
+        "url": "https://karpathy.bearblog.dev",
+        "source": "Andrej Karpathy",
+        "category": "AI Research",
+        "publishedAt": "2026-03-28T10:00:00Z",
+        "readTime": 12,
+        "imageGradient": 0
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "dt1",
+        "title": "GitHub Copilot Workspace GA — 자율 코딩 에이전트 시대",
+        "excerpt": "GitHub Copilot Workspace가 정식 출시됐다. Issue를 입력하면 계획 수립, 코드 작성, 테스트, PR까지 자동으로 처리하는 자율 에이전트 모드가 핵심 기능이다.",
+        "url": "https://github.blog",
+        "source": "GitHub",
+        "category": "Dev Tools",
+        "publishedAt": "2026-03-28T09:00:00Z",
+        "readTime": 5,
+        "imageGradient": 1
+      },
+      {
+        "id": "dt2",
+        "title": "Bun 2.0 출시 — Node.js 호환성 완전 달성",
+        "excerpt": "Bun 2.0이 출시됐다. Node.js 호환성이 99.8%에 도달했으며, 패키지 설치 속도는 npm 대비 최대 30배 빠르다. 빌트인 SQLite 지원이 추가됐다.",
+        "url": "https://bun.sh/blog",
+        "source": "Bun",
+        "category": "Runtime",
+        "publishedAt": "2026-03-28T11:00:00Z",
+        "readTime": 4,
+        "imageGradient": 2
+      },
+      {
+        "id": "dt3",
+        "title": "VS Code 2026 로드맵 공개 — AI-First IDE로 전환",
+        "excerpt": "Microsoft가 VS Code의 2026년 로드맵을 공개했다. 에이전트 통합 강화, 멀티모달 디버깅, AI 기반 리팩토링이 핵심이며, GitHub Copilot과의 통합이 더욱 깊어진다.",
+        "url": "https://code.visualstudio.com",
+        "source": "Microsoft",
+        "category": "Dev Tools",
+        "publishedAt": "2026-03-28T08:00:00Z",
+        "readTime": 6,
+        "imageGradient": 3
+      },
+      {
+        "id": "dt4",
+        "title": "Next.js 15.2 — Partial Prerendering 안정화",
+        "excerpt": "Next.js 15.2가 출시됐다. Partial Prerendering(PPR)이 안정 버전에 진입했으며, Turbopack이 기본 번들러로 전환됐다. 콜드 스타트 시간이 40% 단축됐다.",
+        "url": "https://nextjs.org/blog",
+        "source": "Vercel",
+        "category": "Framework",
+        "publishedAt": "2026-03-28T07:30:00Z",
+        "readTime": 5,
+        "imageGradient": 4
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "bt1",
+        "title": "Microsoft, Activision Blizzard 인수 후 첫 연간 실적 공개",
+        "excerpt": "Microsoft가 Activision Blizzard 인수 완료 후 첫 연간 실적을 공개했다. 게이밍 부문 매출이 전년 대비 47% 증가했으며, Xbox Game Pass 구독자가 4000만 명을 돌파했다.",
+        "url": "https://blogs.microsoft.com",
+        "source": "Microsoft",
+        "category": "Business",
+        "publishedAt": "2026-03-28T14:00:00Z",
+        "readTime": 5,
+        "imageGradient": 5
+      },
+      {
+        "id": "bt2",
+        "title": "Google, 광고 사업 분리 명령 불복 — 항소 준비",
+        "excerpt": "법원의 Google 광고 사업 분리 명령에 대해 Google이 항소를 준비 중인 것으로 확인됐다. 법무부는 강제 분리가 경쟁 촉진의 유일한 방법이라고 맞서고 있다.",
+        "url": "https://blog.google",
+        "source": "Google",
+        "category": "Regulation",
+        "publishedAt": "2026-03-28T13:00:00Z",
+        "readTime": 6,
+        "imageGradient": 6
+      },
+      {
+        "id": "bt3",
+        "title": "Apple Vision Pro 2, 8월 출시 확정 — 가격 30% 인하",
+        "excerpt": "Apple이 Vision Pro 2를 오는 8월 출시한다고 공식 확인했다. 무게가 25% 줄었으며, 가격은 2,499달러로 전작 대비 30% 인하된다. 새 EyeSight 기술로 외부 디스플레이가 더욱 자연스러워졌다.",
+        "url": "https://www.apple.com/newsroom",
+        "source": "Apple",
+        "category": "Hardware",
+        "publishedAt": "2026-03-28T10:00:00Z",
+        "readTime": 4,
+        "imageGradient": 7
+      },
+      {
+        "id": "bt4",
+        "title": "Amazon, AGI 연구소 'Project Olympus' 설립",
+        "excerpt": "Amazon이 자체 AGI 연구소 'Project Olympus'를 설립한다고 발표했다. 향후 3년간 100억 달러를 투자하며, Anthropic 투자와는 별개의 독립 연구 기관으로 운영된다.",
+        "url": "https://www.aboutamazon.com",
+        "source": "Amazon",
+        "category": "AI",
+        "publishedAt": "2026-03-28T11:30:00Z",
+        "readTime": 5,
+        "imageGradient": 0
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tw1",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "GPT-5는 제가 지금까지 본 것 중 가장 인상적인 모델입니다. 추론 능력이 질적으로 다른 수준입니다. 곧 공개합니다.",
+        "url": "https://x.com/sama",
+        "publishedAt": "2026-03-28T09:15:00Z",
+        "metrics": { "likes": 48200, "retweets": 8900, "replies": 2100 }
+      },
+      {
+        "id": "tw2",
+        "author": "Andrej Karpathy",
+        "handle": "karpathy",
+        "content": "LLM은 단순한 텍스트 예측기가 아닙니다. 점점 더 OS에 가까워지고 있고, 우리는 그 위에서 앱을 개발하고 있습니다. 이 관점이 중요한 이유를 정리했습니다.",
+        "url": "https://x.com/karpathy",
+        "publishedAt": "2026-03-28T10:30:00Z",
+        "metrics": { "likes": 31500, "retweets": 6200, "replies": 890 }
+      },
+      {
+        "id": "tw3",
+        "author": "Yann LeCun",
+        "handle": "ylecun",
+        "content": "현재의 LLM 아키텍처로는 AGI에 도달할 수 없습니다. 세계 모델(world model)이 없는 시스템은 근본적으로 한계가 있습니다. 우리는 다른 방향을 봐야 합니다.",
+        "url": "https://x.com/ylecun",
+        "publishedAt": "2026-03-28T08:45:00Z",
+        "metrics": { "likes": 22300, "retweets": 4100, "replies": 3200 }
+      },
+      {
+        "id": "tw4",
+        "author": "Demis Hassabis",
+        "handle": "demishassabis",
+        "content": "Gemini 2.5 Pro의 멀티모달 추론 능력을 보면, 과학적 발견에서 AI의 역할이 완전히 새로운 단계에 접어들었음을 느낍니다. 흥미로운 시대입니다.",
+        "url": "https://x.com/demishassabis",
+        "publishedAt": "2026-03-28T11:00:00Z",
+        "metrics": { "likes": 18700, "retweets": 3400, "replies": 650 }
+      },
+      {
+        "id": "tw5",
+        "author": "Geoffrey Hinton",
+        "handle": "geoffreyhinton",
+        "content": "AI 안전성 연구에 더 많은 자원이 투입돼야 합니다. 기능 개발 속도와 안전성 연구 속도의 불균형이 우려됩니다.",
+        "url": "https://x.com/geoffreyhinton",
+        "publishedAt": "2026-03-28T07:30:00Z",
+        "metrics": { "likes": 15600, "retweets": 4800, "replies": 1200 }
+      },
+      {
+        "id": "tw6",
+        "author": "Evan Spiegel",
+        "handle": "evanspiegel",
+        "content": "Snap의 새 AR 안경 Spectacles 4가 출시됩니다. AI와 결합된 AR이 스마트폰을 대체하는 미래, 우리는 그 첫 걸음을 내딛고 있습니다.",
+        "url": "https://x.com/evanspiegel",
+        "publishedAt": "2026-03-28T12:00:00Z",
+        "metrics": { "likes": 12400, "retweets": 2100, "replies": 890 }
+      },
+      {
+        "id": "tw7",
+        "author": "Linus Torvalds",
+        "handle": "torvalds",
+        "content": "Rust 드라이버 코드가 드디어 커널 메인라인에 들어갔습니다. 완벽하지는 않지만, 올바른 방향입니다. C와 Rust는 공존할 수 있습니다.",
+        "url": "https://x.com/torvalds",
+        "publishedAt": "2026-03-28T06:00:00Z",
+        "metrics": { "likes": 28900, "retweets": 7600, "replies": 1800 }
+      },
+      {
+        "id": "tw8",
+        "author": "Paul Graham",
+        "handle": "paulg",
+        "content": "지금 스타트업을 시작하기에 가장 좋은 시기는 AI가 아직 '충분히 좋지 않은' 영역을 찾는 것입니다. 그게 당신의 기회입니다.",
+        "url": "https://x.com/paulg",
+        "publishedAt": "2026-03-28T13:30:00Z",
+        "metrics": { "likes": 19800, "retweets": 3900, "replies": 720 }
+      },
+      {
+        "id": "tw9",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "OpenAI에서 가장 어려운 문제는 기술이 아니라 조직입니다. 수백 명의 사람들이 AGI를 향해 함께 달리는 것, 그게 진짜 도전입니다.",
+        "url": "https://x.com/gdb",
+        "publishedAt": "2026-03-28T08:00:00Z",
+        "metrics": { "likes": 11200, "retweets": 2300, "replies": 480 }
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "qb1",
+        "title": "Docker Desktop 4.30, WSL2 성능 40% 향상",
+        "excerpt": "Docker가 Windows 환경에서 WSL2 통합을 강화한 4.30 업데이트를 출시했다.",
+        "url": "https://www.docker.com/blog",
+        "source": "Docker",
+        "category": "Dev Tools",
+        "publishedAt": "2026-03-28T09:30:00Z",
+        "imageGradient": 1
+      },
+      {
+        "id": "qb2",
+        "title": "Cloudflare Workers AI, 새 추론 모델 4종 추가",
+        "excerpt": "Cloudflare가 엣지에서 실행 가능한 소형 추론 모델 4종을 Workers AI에 추가했다.",
+        "url": "https://blog.cloudflare.com",
+        "source": "Cloudflare",
+        "category": "Cloud",
+        "publishedAt": "2026-03-28T10:15:00Z",
+        "imageGradient": 2
+      },
+      {
+        "id": "qb3",
+        "title": "Netflix, 실시간 스트리밍 기술 블로그 오픈소스 공개",
+        "excerpt": "Netflix Engineering이 자사 실시간 추천 시스템의 핵심 컴포넌트를 오픈소스로 공개했다.",
+        "url": "https://netflixtechblog.com",
+        "source": "Netflix",
+        "category": "Engineering",
+        "publishedAt": "2026-03-28T11:45:00Z",
+        "imageGradient": 3
+      },
+      {
+        "id": "qb4",
+        "title": "Hacker News: 'Show HN' 베스트 — Rust로 작성한 터미널 AI",
+        "excerpt": "단 200줄 Rust로 만든 터미널 기반 AI 어시스턴트가 HN에서 화제가 됐다.",
+        "url": "https://news.ycombinator.com",
+        "source": "Hacker News",
+        "category": "Community",
+        "publishedAt": "2026-03-28T07:00:00Z",
+        "imageGradient": 4
+      },
+      {
+        "id": "qb5",
+        "title": "LangChain v0.3, 멀티 에이전트 프레임워크 대폭 개선",
+        "excerpt": "LangChain이 LangGraph 기반 멀티 에이전트 오케스트레이션을 강화한 v0.3을 출시했다.",
+        "url": "https://blog.langchain.dev",
+        "source": "LangChain",
+        "category": "AI",
+        "publishedAt": "2026-03-28T08:30:00Z",
+        "imageGradient": 5
+      },
+      {
+        "id": "qb6",
+        "title": "NVIDIA Blackwell GPU, 클라우드 공급 정상화 시작",
+        "excerpt": "NVIDIA Blackwell GPU의 공급이 안정화되면서 주요 클라우드 업체들이 인스턴스 제공을 확대하고 있다.",
+        "url": "https://blogs.nvidia.com",
+        "source": "NVIDIA",
+        "category": "Hardware",
+        "publishedAt": "2026-03-28T12:30:00Z",
+        "imageGradient": 6
+      },
+      {
+        "id": "qb7",
+        "title": "GeekNews 주간 베스트: Bun 2.0 vs Deno 2.0 비교",
+        "excerpt": "GeekNews에서 Bun 2.0과 Deno 2.0의 성능·호환성 비교 글이 이번 주 최다 추천을 받았다.",
+        "url": "https://news.hada.io",
+        "source": "GeekNews",
+        "category": "Community",
+        "publishedAt": "2026-03-28T06:30:00Z",
+        "imageGradient": 7
+      },
+      {
+        "id": "qb8",
+        "title": "Stability AI, Stable Diffusion 4 오픈 베타 시작",
+        "excerpt": "Stability AI가 Stable Diffusion 4의 오픈 베타를 시작했다. 사진 현실성과 텍스트 렌더링이 크게 향상됐다.",
+        "url": "https://stability.ai/news",
+        "source": "Stability AI",
+        "category": "AI",
+        "publishedAt": "2026-03-28T14:00:00Z",
+        "imageGradient": 0
+      }
+    ]
+  }
+}

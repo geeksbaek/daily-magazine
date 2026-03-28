@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg: #FAFAF7;
+    --bg-surface: #FFFFFF;
+    --bg-raised: #F4F4EE;
+    --text: #1A1A14;
+    --text-secondary: #5C5B4C;
+    --text-muted: #A8A898;
+    --border: #E2E2D8;
+    --border-strong: #C8C8BA;
+    --accent: #C8102E;
+    --accent-hover: #A80D26;
+  }
+
+  .dark {
+    --bg: #0E0E0A;
+    --bg-surface: #161612;
+    --bg-raised: #1E1E18;
+    --text: #F0F0E8;
+    --text-secondary: #A8A898;
+    --text-muted: #5C5B4C;
+    --border: #2A2A22;
+    --border-strong: #3A3A30;
+    --accent: #FF3355;
+    --accent-hover: #FF5577;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: 'DM Sans', system-ui, sans-serif;
+    margin: 0;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  ::selection {
+    background-color: var(--accent);
+    color: white;
+  }
+}
+
+@layer components {
+  .section-rule {
+    border-color: var(--border-strong);
+  }
+
+  .card-hover {
+    transition: opacity 0.15s ease;
+  }
+  .card-hover:hover {
+    opacity: 0.8;
+  }
+
+  /* Article gradient placeholders */
+  .grad-0 { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%); }
+  .grad-1 { background: linear-gradient(135deg, #2d1b69 0%, #11998e 100%); }
+  .grad-2 { background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%); }
+  .grad-3 { background: linear-gradient(135deg, #200122 0%, #6f0000 100%); }
+  .grad-4 { background: linear-gradient(135deg, #093028 0%, #237a57 100%); }
+  .grad-5 { background: linear-gradient(135deg, #1a1a1a 0%, #4a4a4a 100%); }
+  .grad-6 { background: linear-gradient(135deg, #0d0d0d 0%, #1c3a5e 100%); }
+  .grad-7 { background: linear-gradient(135deg, #3a0000 0%, #1a0a00 100%); }
+
+  .section-tag {
+    @apply text-[10px] font-mono tracking-widest uppercase;
+    color: var(--accent);
+    letter-spacing: 0.2em;
+  }
+
+  .divider {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 0;
+  }
+
+  .divider-strong {
+    border: none;
+    border-top: 1px solid var(--border-strong);
+    margin: 0;
+  }
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-strong);
+}
+
+/* Smooth section snap for desktop */
+@media (min-width: 1024px) {
+  .magazine-scroll {
+    scroll-snap-type: y proximity;
+  }
+  .magazine-section {
+    scroll-snap-align: start;
+  }
+}
