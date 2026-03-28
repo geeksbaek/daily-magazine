@@ -9,6 +9,16 @@
         "Rust 언어, Linux 커널 핵심 드라이버 레이어 첫 도입",
         "GitHub Copilot Workspace GA 출시"
       ]
+    },
+    {
+      "date": "2026-03-28",
+      "issueNumber": 2,
+      "mainHeadline": "AI가 맞춤형 의학을 앞당기다: ChatGPT와 AlphaFold로 반려견 암 백신 개발",
+      "headlines": [
+        "Stargate 미시간 현장, 첫 철골 구조물 설치 시작",
+        "VS Code 1.114 릴리스: TypeScript 6.0 탑재",
+        "Cloudflare, AST로 Workflow 코드를 시각적 다이어그램으로 변환"
+      ]
     }
   ]
 }
