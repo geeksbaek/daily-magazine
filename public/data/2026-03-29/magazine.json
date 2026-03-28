@@ -329,19 +329,6 @@
           "retweets": 0,
           "replies": 0
         }
-      },
-      {
-        "id": "tweet_ClaudeCodeLog",
-        "author": "Claude Code Changelog",
-        "handle": "ClaudeCodeLog",
-        "content": "Claude Code 2.1.86이 출시됐습니다. 26개의 CLI 변경 사항과 5개의 시스템 프롬프트 변경 사항. 주요 내용: 프록시가 요청 본문 파싱 없이 세션을 그룹화할 수 있도록 X-Claude-Code-Session-Id 헤더 추가, 에스컬레이션 전 진단/수정 시도를 요구하는 debug-before-escalate 규칙 추가.",
-        "url": "https://x.com/ClaudeCodeLog/status/2037653369305628847",
-        "publishedAt": "2026-03-27T22:09:55.000Z",
-        "metrics": {
-          "likes": 0,
-          "retweets": 0,
-          "replies": 0
-        }
       }
     ],
     "reddit_pulse": [
