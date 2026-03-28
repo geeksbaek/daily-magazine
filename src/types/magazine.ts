@@ -24,6 +24,25 @@ export interface Tweet {
   }
 }
 
+export interface RedditPost {
+  id: string
+  title: string
+  originalTitle?: string
+  url: string
+  subreddit: string
+  score: number
+  publishedAt: string
+}
+
+export interface CommunityPost {
+  id: string
+  title: string
+  url: string
+  recommend: number
+  views: number
+  publishedAt: string
+}
+
 export interface Magazine {
   date: string
   issueNumber: number
@@ -38,6 +57,8 @@ export interface Magazine {
     dev_tools: Article[]
     big_tech: Article[]
     twitter_pulse: Tweet[]
+    reddit_pulse: RedditPost[]
+    community_pulse: CommunityPost[]
     quick_bites: Article[]
   }
   podcast?: {

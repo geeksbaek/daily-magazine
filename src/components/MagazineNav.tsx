@@ -16,7 +16,9 @@ const SECTIONS = [
   { id: 'ai-ml', label: 'AI & ML' },
   { id: 'dev-tools', label: 'Dev Tools' },
   { id: 'big-tech', label: 'Big Tech' },
-  { id: 'twitter-pulse', label: 'Twitter Pulse' },
+  { id: 'twitter-pulse', label: 'Twitter' },
+  { id: 'reddit-pulse', label: 'Reddit' },
+  { id: 'community-pulse', label: 'Community' },
   { id: 'quick-bites', label: 'Quick Bites' },
 ]
 
