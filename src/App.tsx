@@ -8,6 +8,7 @@ import NewsSection from './components/NewsSection'
 import TwitterPulse from './components/TwitterPulse'
 import QuickBites from './components/QuickBites'
 import Archive from './components/Archive'
+import PodcastPlayer from './components/PodcastPlayer'
 
 const BASE = import.meta.env.BASE_URL
 
@@ -149,6 +150,9 @@ export default function App() {
       ) : magazine ? (
         <>
           <Cover magazine={magazine} onReadIssue={handleReadIssue} />
+          {magazine.podcast && (
+            <PodcastPlayer podcast={magazine.podcast} date={currentDate} />
+          )}
           <Highlights articles={magazine.highlights} />
           <NewsSection
             id="ai-ml"

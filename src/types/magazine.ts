@@ -40,6 +40,11 @@ export interface Magazine {
     twitter_pulse: Tweet[]
     quick_bites: Article[]
   }
+  podcast?: {
+    url: string      // podcast 파일 경로 (예: "./podcast.mp3")
+    duration: number // 초 단위 전체 길이
+    transcript: string // 대본 텍스트
+  }
 }
 
 export interface ArchiveEntry {
