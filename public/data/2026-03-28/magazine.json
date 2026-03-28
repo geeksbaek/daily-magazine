@@ -19,7 +19,7 @@
       "source": "X / Sam Altman",
       "category": "ai_ml",
       "publishedAt": "2026-03-27T05:10:30.000Z",
-      "readTime": "2min",
+      "readTime": 2,
       "imageGradient": 0
     },
     {
@@ -30,7 +30,7 @@
       "source": "X / Sam Altman",
       "category": "big_tech",
       "publishedAt": "2026-03-27T19:17:35.000Z",
-      "readTime": "1min",
+      "readTime": 1,
       "imageGradient": 1
     },
     {
@@ -41,7 +41,7 @@
       "source": "Visual Studio Code",
       "category": "dev_tools",
       "publishedAt": "2026-03-27T17:00:00+00:00",
-      "readTime": "3min",
+      "readTime": 3,
       "imageGradient": 2
     },
     {
@@ -52,7 +52,7 @@
       "source": "Google Cloud AI Blog",
       "category": "ai_ml",
       "publishedAt": "2026-03-27T16:00:00+00:00",
-      "readTime": "8min",
+      "readTime": 8,
       "imageGradient": 3
     },
     {
@@ -63,7 +63,7 @@
       "source": "Cloudflare Blog",
       "category": "dev_tools",
       "publishedAt": "2026-03-27T13:00:00+00:00",
-      "readTime": "6min",
+      "readTime": 6,
       "imageGradient": 4
     }
   ],
@@ -77,7 +77,7 @@
         "source": "Google Cloud AI",
         "category": "ai_ml",
         "publishedAt": "2026-03-27T16:00:00+00:00",
-        "readTime": "8min",
+        "readTime": 8,
         "imageGradient": 0
       },
       {
@@ -88,7 +88,7 @@
         "source": "Google Blog",
         "category": "ai_ml",
         "publishedAt": "2026-03-27T16:00:00+00:00",
-        "readTime": "4min",
+        "readTime": 4,
         "imageGradient": 1
       },
       {
@@ -99,7 +99,7 @@
         "source": "OpenAI Developers",
         "category": "ai_ml",
         "publishedAt": "2026-03-27T22:29:55.000Z",
-        "readTime": "2min",
+        "readTime": 2,
         "imageGradient": 2
       },
       {
@@ -110,7 +110,7 @@
         "source": "OpenAI News",
         "category": "ai_ml",
         "publishedAt": "2026-03-27T22:00:00+00:00",
-        "readTime": "5min",
+        "readTime": 5,
         "imageGradient": 3
       },
       {
@@ -121,7 +121,7 @@
         "source": "LangChain Blog",
         "category": "ai_ml",
         "publishedAt": "2026-03-27T14:00:00+00:00",
-        "readTime": "17min",
+        "readTime": 17,
         "imageGradient": 4
       },
       {
@@ -132,7 +132,7 @@
         "source": "Google Blog",
         "category": "ai_ml",
         "publishedAt": "2026-03-27T15:49:00+00:00",
-        "readTime": "4min",
+        "readTime": 4,
         "imageGradient": 5
       }
     ],
@@ -145,7 +145,7 @@
         "source": "VS Code",
         "category": "dev_tools",
         "publishedAt": "2026-03-27T17:00:00+00:00",
-        "readTime": "3min",
+        "readTime": 3,
         "imageGradient": 0
       },
       {
@@ -156,7 +156,7 @@
         "source": "Cloudflare Blog",
         "category": "dev_tools",
         "publishedAt": "2026-03-27T13:00:00+00:00",
-        "readTime": "6min",
+        "readTime": 6,
         "imageGradient": 1
       },
       {
@@ -167,7 +167,7 @@
         "source": "Claude Code Log",
         "category": "dev_tools",
         "publishedAt": "2026-03-27T22:09:55.000Z",
-        "readTime": "3min",
+        "readTime": 3,
         "imageGradient": 2
       },
       {
@@ -178,7 +178,7 @@
         "source": "Felix Rieseberg",
         "category": "dev_tools",
         "publishedAt": "2026-03-27T18:04:54.000Z",
-        "readTime": "1min",
+        "readTime": 1,
         "imageGradient": 3
       },
       {
@@ -189,7 +189,7 @@
         "source": "Docker Blog",
         "category": "dev_tools",
         "publishedAt": "2026-03-27T14:24:40+00:00",
-        "readTime": "8min",
+        "readTime": 8,
         "imageGradient": 4
       }
     ],
@@ -202,7 +202,7 @@
         "source": "X / Sam Altman",
         "category": "big_tech",
         "publishedAt": "2026-03-27T19:17:35.000Z",
-        "readTime": "1min",
+        "readTime": 1,
         "imageGradient": 0
       },
       {
@@ -213,7 +213,7 @@
         "source": "Google Blog",
         "category": "big_tech",
         "publishedAt": "2026-03-27T21:00:00+00:00",
-        "readTime": "5min",
+        "readTime": 5,
         "imageGradient": 1
       },
       {
@@ -224,7 +224,7 @@
         "source": "OpenAI Developers",
         "category": "big_tech",
         "publishedAt": "2026-03-27T18:00:00.000Z",
-        "readTime": "2min",
+        "readTime": 2,
         "imageGradient": 2
       }
     ],
@@ -309,8 +309,8 @@
       },
       {
         "id": "tw7",
-        "author": "Boris Cherny",
-        "handle": "bcherny",
+        "author": "Lydia Hallie",
+        "handle": "lydiahallie",
         "content": "Claude Code hooks에 if 필드가 추가되었습니다. 퍼미션 규칙 문법으로 훅 실행 조건을 필터링할 수 있어, 특정 bash 명령에만 훅을 적용할 때 유용합니다.",
         "url": "https://x.com/lydiahallie/status/2037573738670297583",
         "publishedAt": "2026-03-28T01:53:30+09:00",
@@ -356,7 +356,7 @@
         "source": "GeekNews",
         "category": "quick_bites",
         "publishedAt": "2026-03-28T03:33:02+00:00",
-        "readTime": "2min",
+        "readTime": 2,
         "imageGradient": 0
       },
       {
@@ -367,7 +367,7 @@
         "source": "GeekNews",
         "category": "quick_bites",
         "publishedAt": "2026-03-28T02:45:30+00:00",
-        "readTime": "2min",
+        "readTime": 2,
         "imageGradient": 1
       },
       {
@@ -378,7 +378,7 @@
         "source": "GeekNews",
         "category": "quick_bites",
         "publishedAt": "2026-03-28T02:34:01+00:00",
-        "readTime": "2min",
+        "readTime": 2,
         "imageGradient": 2
       },
       {
@@ -389,7 +389,7 @@
         "source": "GeekNews",
         "category": "quick_bites",
         "publishedAt": "2026-03-28T00:53:17+00:00",
-        "readTime": "2min",
+        "readTime": 2,
         "imageGradient": 3
       },
       {
@@ -400,7 +400,7 @@
         "source": "GeekNews",
         "category": "quick_bites",
         "publishedAt": "2026-03-28T00:50:17+00:00",
-        "readTime": "2min",
+        "readTime": 2,
         "imageGradient": 4
       },
       {
@@ -411,7 +411,7 @@
         "source": "GeekNews",
         "category": "quick_bites",
         "publishedAt": "2026-03-28T00:47:16+00:00",
-        "readTime": "2min",
+        "readTime": 2,
         "imageGradient": 5
       },
       {
@@ -422,7 +422,7 @@
         "source": "GeekNews",
         "category": "quick_bites",
         "publishedAt": "2026-03-28T00:45:01+00:00",
-        "readTime": "2min",
+        "readTime": 2,
         "imageGradient": 6
       },
       {
@@ -433,7 +433,7 @@
         "source": "GeekNews",
         "category": "quick_bites",
         "publishedAt": "2026-03-28T00:44:16+00:00",
-        "readTime": "2min",
+        "readTime": 2,
         "imageGradient": 7
       },
       {
@@ -444,7 +444,7 @@
         "source": "GeekNews",
         "category": "quick_bites",
         "publishedAt": "2026-03-28T00:41:16+00:00",
-        "readTime": "2min",
+        "readTime": 2,
         "imageGradient": 0
       },
       {
@@ -455,7 +455,7 @@
         "source": "GeekNews",
         "category": "quick_bites",
         "publishedAt": "2026-03-28T00:41:02+00:00",
-        "readTime": "2min",
+        "readTime": 2,
         "imageGradient": 1
       }
     ]
