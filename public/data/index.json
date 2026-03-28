@@ -3,11 +3,11 @@
     {
       "date": "2026-03-29",
       "issueNumber": 2,
-      "mainHeadline": "Claude Code 2.1.86 업데이트 & Stargate 미시간 착공 — AI 인프라 시대가 열린다",
+      "mainHeadline": "4비트 LLM 양자화 TurboQuant 화제 & AI 에코챔버 경고 — 오늘의 AI 씬",
       "headlines": [
-        "OpenAI Codex, Slack·Figma·Notion·Gmail 플러그인 공식 출시로 업무 도구 통합 가속",
-        "레이 커즈와일 비판글 인기 — '특이점은 30만 년 더 걸릴 것' (추천 46, 조회 4,555)",
-        "AI 논문, 사상 첫 Nature 게재 성공 — 인간 심사 통과로 학계 충격"
+        "TurboQuant: 거의 손실 없는 4비트 LLM 가중치 양자화 기법 r/MachineLearning 화제",
+        "Karpathy, LLM 에코챔버 경험 공유 — \"반대 주장을 물으니 내 논증을 무너뜨렸다\"",
+        "단 한 줄의 Kubernetes 수정으로 연간 600시간 절약 — HN 주목 사례"
       ]
     },
     {
