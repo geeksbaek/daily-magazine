@@ -1,65 +1,54 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, createContext, useContext } from 'react'
 
-export type ThemeId = 'classic' | 'dark' | 'terminal' | 'sepia' | 'cyber'
+export type ThemeId = 'editorial' | 'brutalist' | 'terminal' | 'broadsheet' | 'dashboard'
 
 export interface ThemeInfo {
   id: ThemeId
   nameKo: string
+  desc: string
   isDark: boolean
-  accent: string   // swatch accent color
-  bg: string       // swatch background color
+  accent: string
+  bg: string
 }
 
 export const THEMES: ThemeInfo[] = [
-  { id: 'classic',  nameKo: '클래식', isDark: false, accent: '#C8102E', bg: '#FAFAF7' },
-  { id: 'dark',     nameKo: '다크',   isDark: true,  accent: '#FF3355', bg: '#0E0E0A' },
-  { id: 'terminal', nameKo: '터미널', isDark: true,  accent: '#00FF85', bg: '#080808' },
-  { id: 'sepia',    nameKo: '세피아', isDark: false, accent: '#C05800', bg: '#F6F0E4' },
-  { id: 'cyber',    nameKo: '사이버', isDark: true,  accent: '#00D4FF', bg: '#060818' },
+  { id: 'editorial',  nameKo: '에디토리얼', desc: '클래식 매거진',   isDark: false, accent: '#C8102E', bg: '#FAFAF7' },
+  { id: 'brutalist',  nameKo: '브루탈리스트', desc: '로우 & 볼드',    isDark: false, accent: '#FF0000', bg: '#FFFFFF' },
+  { id: 'terminal',   nameKo: '터미널',     desc: '해커 스타일',    isDark: true,  accent: '#00FF85', bg: '#080808' },
+  { id: 'broadsheet', nameKo: '뉴스페이퍼', desc: '브로드시트 신문', isDark: false, accent: '#1a1a1a', bg: '#F2EDE4' },
+  { id: 'dashboard',  nameKo: '대시보드',   desc: '테크 HUD',      isDark: true,  accent: '#00D4FF', bg: '#060818' },
 ]
 
+/* ── Context (so any component can read themeId) ── */
+const Ctx = createContext<ThemeId>('editorial')
+export const ThemeProvider = Ctx.Provider
+export function useThemeId(): ThemeId { return useContext(Ctx) }
+
+/* ── Core hook ── */
 function getSystemDefault(): ThemeId {
-  if (typeof window === 'undefined') return 'classic'
-  return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'classic'
+  if (typeof window === 'undefined') return 'editorial'
+  return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dashboard' : 'editorial'
 }
 
 function applyTheme(id: ThemeId) {
   const root = document.documentElement
-  // Remove all existing theme classes
   THEMES.forEach(t => root.classList.remove(`theme-${t.id}`))
-  // Apply the chosen theme class
   root.classList.add(`theme-${id}`)
-  // Toggle Tailwind .dark class for dark: utility support
   const info = THEMES.find(t => t.id === id)
-  if (info?.isDark) {
-    root.classList.add('dark')
-  } else {
-    root.classList.remove('dark')
-  }
+  if (info?.isDark) { root.classList.add('dark') } else { root.classList.remove('dark') }
 }
 
-const STORAGE_KEY = 'gd-theme-v2'
+const KEY = 'gd-theme-v2'
 
 export function useTheme() {
-  const [themeId, setThemeIdState] = useState<ThemeId>(() => {
-    const stored = localStorage.getItem(STORAGE_KEY) as ThemeId | null
-    if (stored && THEMES.find(t => t.id === stored)) return stored
+  const [themeId, set] = useState<ThemeId>(() => {
+    const s = localStorage.getItem(KEY) as ThemeId | null
+    if (s && THEMES.find(t => t.id === s)) return s
     return getSystemDefault()
   })
 
-  // Apply on initial mount (before first render completes)
-  useEffect(() => {
-    applyTheme(themeId)
-  }, [])
+  useEffect(() => { applyTheme(themeId) }, [])
+  useEffect(() => { applyTheme(themeId); localStorage.setItem(KEY, themeId) }, [themeId])
 
-  // Apply whenever themeId changes
-  useEffect(() => {
-    applyTheme(themeId)
-    localStorage.setItem(STORAGE_KEY, themeId)
-  }, [themeId])
-
-  const setTheme = (id: ThemeId) => setThemeIdState(id)
-  const currentTheme = THEMES.find(t => t.id === themeId)!
-
-  return { themeId, theme: currentTheme, setTheme }
+  return { themeId, theme: THEMES.find(t => t.id === themeId)!, setTheme: set }
 }
