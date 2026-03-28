@@ -19,6 +19,16 @@
         "VS Code 1.114 릴리스: TypeScript 6.0 탑재",
         "Cloudflare, AST로 Workflow 코드를 시각적 다이어그램으로 변환"
       ]
+    },
+    {
+      "date": "2026-03-28",
+      "issueNumber": 3,
+      "mainHeadline": "Claude Code 2.1.86 대규모 업데이트: 26가지 CLI 변경 및 PowerShell 네이티브 지원",
+      "headlines": [
+        "OpenAI Codex, Slack·Figma·Notion·Gmail 플러그인 공식 출시",
+        "VS Code 1.114 릴리스 — 새로운 기능 대거 업데이트",
+        "Sam Altman, 미시간 Stargate 현장 첫 철골 구조물 설치 공개"
+      ]
     }
   ]
 }
