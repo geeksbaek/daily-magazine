@@ -3,193 +3,270 @@
   "issueNumber": 3,
   "cover": {
     "mainHeadline": "Claude Code 2.1.86 대규모 업데이트: 26가지 CLI 변경 및 PowerShell 네이티브 지원",
-    "mainExcerpt": "Anthropic이 Claude Code 2.1.86을 출시했습니다. 26개의 CLI 변경사항과 5개의 시스템 프롬프트 업데이트가 포함되었으며, 프록시 세션 추적을 위한 X-Claude-Code-Session-Id 헤더 추가와 PowerShell 네이티브 지원이 주요 하이라이트입니다. 또한 OpenAI의 Codex는 Slack, Figma, Notion, Gmail 등 주요 도구와 즉시 연동 가능한 플러그인을 출시했습니다.",
+    "mainExcerpt": "Anthropic이 Claude Code 2.1.86을 배포했다. 26개의 CLI 변경 사항과 함께 PowerShell 네이티브 실행 지원, X-Claude-Code-Session-Id 헤더 추가, 훅의 if 조건 필터링 등 개발자 경험을 크게 개선하는 기능들이 포함됐다. 같은 날 OpenAI는 Codex 플러그인을 Slack·Figma·Notion·Gmail과 연동하며 AI 코딩 에이전트 생태계 경쟁이 본격화됐다.",
     "headlines": [
       "OpenAI Codex, Slack·Figma·Notion·Gmail 플러그인 공식 출시",
-      "VS Code 1.114 릴리스 — 새로운 기능 대거 업데이트",
-      "Sam Altman, 미시간 Stargate 현장 첫 철골 구조물 설치 공개"
+      "VS Code 1.114 릴리스 — AI 편집 워크플로우 및 Copilot 대폭 개선",
+      "Google, 관리형 MCP 서버로 프로덕션 AI 에이전트 구축 가이드 공개"
     ]
   },
   "highlights": [
     {
-      "id": "h1",
-      "title": "Claude Code 2.1.86 대규모 업데이트 출시",
-      "excerpt": "Claude Code가 2.1.86 버전으로 업데이트되었습니다. 프록시 세션 그룹핑을 위한 X-Claude-Code-Session-Id 헤더 추가, debug-before-escalate 규칙 도입, PowerShell 네이티브 지원, hooks에 if 필드 추가 등 26가지 CLI 변경사항이 포함됩니다.",
-      "url": "https://x.com/ClaudeCodeLog/status/2037653369305628847",
-      "source": "Claude Code Changelog",
+      "id": "851e36c4",
+      "title": "Z.AI Coding Plan, GLM-5.1 모델 지원 — Claude Code·OpenClaw에서 전환 방법",
+      "excerpt": "Z.AI가 새로운 코딩 플랜을 출시하며 GLM-5.1 모델을 지원하기 시작했다. Claude Code 및 OpenClaw에서 Z.AI로 전환하는 방법과 설정 가이드를 제공한다.",
+      "url": "https://news.hada.io/topic?id=27943",
+      "source": "GeekNews",
       "category": "ai",
-      "publishedAt": "2026-03-27T22:09:55.000Z",
-      "readTime": 3,
-      "imageGradient": 0
+      "publishedAt": "2026-03-28T11:45:30+09:00",
+      "readTime": 4,
+      "imageGradient": 7
     },
     {
-      "id": "h2",
-      "title": "OpenAI Codex 플러그인 출시 — Slack, Figma, Notion, Gmail 즉시 연동",
-      "excerpt": "OpenAI의 코딩 에이전트 Codex가 플러그인 기능을 정식 출시했습니다. Slack, Figma, Notion, Gmail, Google Drive 등 핵심 협업 도구와 즉시 연동이 가능하며, Codex 앱·CLI·IDE 확장 모두에서 사용할 수 있습니다.",
+      "id": "2ad998f8",
+      "title": "Codex 플러그인 출시 — Slack, Figma, Notion, Gmail 등 주요 도구와 즉시 연동",
+      "excerpt": "OpenAI Codex가 Slack, Figma, Notion, Gmail 플러그인을 공식 출시했다. 코딩 에이전트가 이제 주요 협업 도구와 직접 연동되어 작업 자동화가 가능해졌다.",
       "url": "https://news.hada.io/topic?id=27942",
       "source": "GeekNews",
       "category": "ai",
-      "publishedAt": "2026-03-28T02:34:01.000Z",
-      "readTime": 4,
-      "imageGradient": 1
+      "publishedAt": "2026-03-28T11:34:01+09:00",
+      "readTime": 7,
+      "imageGradient": 0
     },
     {
-      "id": "h3",
-      "title": "Visual Studio Code 1.114 릴리스",
-      "excerpt": "VS Code 1.114이 출시되었습니다. 새로운 편집기 기능, 향상된 GitHub Copilot 통합, 성능 개선 등 다양한 업데이트가 포함되었습니다. 개발자들을 위한 생산성 향상 기능이 다수 추가되었습니다.",
+      "id": "bda35ade",
+      "title": "Visual Studio Code 1.114",
+      "excerpt": "VS Code 1.114가 출시됐다. GitHub Copilot 개선, 새로운 AI 편집 워크플로우, 멀티루트 워크스페이스 강화, 터미널 UX 개선 등이 포함됐다. 특히 인라인 채팅과 코드 액션 AI 제안 기능이 크게 향상됐다.",
       "url": "https://code.visualstudio.com/updates/v1_114",
-      "source": "Visual Studio Code",
+      "source": "Visual Studio Code - Code Editing. Redefined.",
       "category": "dev_tools",
-      "publishedAt": "2026-03-27T00:00:00.000Z",
-      "readTime": 5,
-      "imageGradient": 2
-    },
-    {
-      "id": "h4",
-      "title": "STADLER, OpenAI로 230년 기업의 지식 업무 혁신",
-      "excerpt": "230년 역사의 철도 차량 제조 기업 STADLER가 OpenAI를 도입해 지식 업무 방식을 혁신하고 있습니다. AI를 활용한 문서 처리, 기술 지원, 업무 자동화를 통해 직원 생산성이 크게 향상되었습니다.",
-      "url": "https://openai.com/index/stadler",
-      "source": "OpenAI",
-      "category": "ai",
-      "publishedAt": "2026-03-27T00:00:00.000Z",
-      "readTime": 4,
-      "imageGradient": 3
-    },
-    {
-      "id": "h5",
-      "title": "Stargate 미시간 현장, 첫 철골 구조물 설치 시작",
-      "excerpt": "Sam Altman이 X(구 트위터)를 통해 Oracle 및 Related Digital과 협력하는 미시간 Stargate AI 데이터센터 현장에 첫 철골 구조물이 설치되었다고 발표했습니다. OpenAI의 대규모 AI 인프라 투자가 본격화되고 있습니다.",
-      "url": "https://x.com/sama/status/2037610000122839116",
-      "source": "Sam Altman",
-      "category": "big_tech",
-      "publishedAt": "2026-03-27T19:17:35.000Z",
-      "readTime": 2,
+      "publishedAt": "2026-04-02T02:00:00+09:00",
+      "readTime": 7,
       "imageGradient": 4
+    },
+    {
+      "id": "85b15edb",
+      "title": "How to build production-ready AI agents with Google-managed MCP servers",
+      "excerpt": "Google Cloud가 관리형 MCP 서버를 활용한 프로덕션급 AI 에이전트 구축 방법을 소개했다. Vertex AI의 에이전트 빌더와 통합된 MCP 서버를 통해 도구 호출, 컨텍스트 관리, 스케일링이 훨씬 쉬워졌다. 실제 엔터프라이즈 배포 패턴과 모니터링 방법도 함께 다뤘다.",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/how-to-build-ai-agents-with-google-managed-mcp-servers/",
+      "source": "AI & Machine Learning",
+      "category": "ai",
+      "publishedAt": "2026-03-28T01:00:00+09:00",
+      "readTime": 7,
+      "imageGradient": 0
+    },
+    {
+      "id": "7b674092",
+      "title": "Find out what’s new in the Gemini app in March's Gemini Drop.",
+      "excerpt": "구글이 2026년 3월 Gemini 앱 업데이트(Gemini Drop)를 발표했다. 새로운 음성 기능, 향상된 이미지 분석, Gemini Advanced 구독자를 위한 확장 컨텍스트 윈도우 등이 포함됐다.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-drop-updates-march-2026/",
+      "source": "Gemini",
+      "category": "ai",
+      "publishedAt": "2026-03-28T01:00:00+09:00",
+      "readTime": 7,
+      "imageGradient": 2
     }
   ],
   "sections": {
     "ai_ml": [
       {
-        "id": "ai1",
-        "title": "STADLER, OpenAI 도입으로 230년 기업 지식 업무 혁신",
-        "excerpt": "230년 역사의 철도 차량 제조사 STADLER가 OpenAI 솔루션을 도입해 지식 업무 방식을 혁신하고 있습니다. AI 기반 문서 처리와 기술 지원 자동화로 직원 생산성이 향상되었으며, 엔터프라이즈 AI 도입의 성공 사례로 주목받고 있습니다.",
-        "url": "https://openai.com/index/stadler",
-        "source": "OpenAI",
+        "id": "85b15edb",
+        "title": "How to build production-ready AI agents with Google-managed MCP servers",
+        "excerpt": "Google Cloud가 관리형 MCP 서버를 활용한 프로덕션급 AI 에이전트 구축 방법을 소개했다. Vertex AI의 에이전트 빌더와 통합된 MCP 서버를 통해 도구 호출, 컨텍스트 관리, 스케일링이 훨씬 쉬워졌다. 실제 엔터프라이즈 배포 패턴과 모니터링 방법도 함께 다뤘다.",
+        "url": "https://cloud.google.com/blog/products/ai-machine-learning/how-to-build-ai-agents-with-google-managed-mcp-servers/",
+        "source": "AI & Machine Learning",
         "category": "ai",
-        "publishedAt": "2026-03-27T00:00:00.000Z",
-        "readTime": 4,
+        "publishedAt": "2026-03-28T01:00:00+09:00",
+        "readTime": 7,
         "imageGradient": 0
       },
       {
-        "id": "ai2",
-        "title": "OpenAI Codex 플러그인 출시 — 주요 협업 도구와 즉시 연동",
-        "excerpt": "OpenAI 코딩 에이전트 Codex가 플러그인 기능을 출시하며 Slack, Figma, Notion, Gmail, Google Drive 등과 즉시 연동됩니다. Skills, Apps, MCP 등 세 가지 플러그인 유형을 지원하며 개발자 워크플로를 크게 개선할 전망입니다.",
-        "url": "https://news.hada.io/topic?id=27942",
-        "source": "GeekNews",
+        "id": "f09dc8c6",
+        "title": "Easy as a green run: How Vail Resorts built an AI assistant to automate personalized recommendations",
+        "excerpt": "Vail Resorts가 Google Cloud AI를 활용해 스키 리조트 운영을 자동화하는 AI 어시스턴트를 구축했다. 슬로프 상태, 리프트 운행, 날씨 정보를 실시간으로 통합 관리하며 직원들의 업무 효율을 크게 높였다.",
+        "url": "https://cloud.google.com/blog/products/ai-machine-learning/how-vail-resorts-built-an-ai-assistant-to-automate-personalized-recommendations/",
+        "source": "AI & Machine Learning",
         "category": "ai",
-        "publishedAt": "2026-03-28T02:34:01.000Z",
-        "readTime": 4,
+        "publishedAt": "2026-03-28T01:00:00+09:00",
+        "readTime": 7,
         "imageGradient": 1
       },
       {
-        "id": "ai3",
-        "title": ".claude/ 폴더 구조 심층 분석",
-        "excerpt": "Claude Code 사용자들이 활용하는 .claude/ 디렉토리 구조를 분석한 글이 GeekNews에서 화제입니다. 프로젝트별 커스터마이징과 AI 에이전트 설정 최적화 방법을 상세히 다룹니다.",
-        "url": "https://news.hada.io/topic?id=27938",
-        "source": "GeekNews",
+        "id": "7b674092",
+        "title": "Find out what’s new in the Gemini app in March's Gemini Drop.",
+        "excerpt": "구글이 2026년 3월 Gemini 앱 업데이트(Gemini Drop)를 발표했다. 새로운 음성 기능, 향상된 이미지 분석, Gemini Advanced 구독자를 위한 확장 컨텍스트 윈도우 등이 포함됐다.",
+        "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-drop-updates-march-2026/",
+        "source": "Gemini",
         "category": "ai",
-        "publishedAt": "2026-03-28T08:00:00.000Z",
-        "readTime": 3,
+        "publishedAt": "2026-03-28T01:00:00+09:00",
+        "readTime": 7,
+        "imageGradient": 2
+      },
+      {
+        "id": "7543ce1b",
+        "title": "STADLER reshapes knowledge work at a 230-year-old company",
+        "excerpt": "230년 역사의 철도 차량 제조사 STADLER가 OpenAI와 협력해 엔지니어링 문서 검색, 기술 지원, 지식 관리를 AI로 혁신하고 있다. 방대한 기술 매뉴얼과 설계 도면을 AI가 분석해 직원들의 생산성을 향상시켰다.",
+        "url": "https://openai.com/index/stadler",
+        "source": "OpenAI News",
+        "category": "ai",
+        "publishedAt": "2026-03-28T07:00:00+09:00",
+        "readTime": 7,
+        "imageGradient": 3
+      },
+      {
+        "id": "5ff19dca",
+        "title": "How Google Does It: An inside look at cybersecurity",
+        "excerpt": "Google이 내부 사이버보안 운영 방식을 공개했다. 제로 트러스트 아키텍처, 자동화된 취약점 탐지, AI 기반 위협 인텔리전스 시스템 등 Google의 보안 철학과 실무를 상세히 설명했다.",
+        "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/how-google-does-it-security-series/",
+        "source": "The Official Google Blog",
+        "category": "ai",
+        "publishedAt": "2026-03-28T06:00:00+09:00",
+        "readTime": 7,
         "imageGradient": 5
       },
       {
-        "id": "ai4",
-        "title": "Z.AI Coding Plan, GLM-5.1 모델로 Claude Code 대안 등장",
-        "excerpt": "Z.AI가 GLM-5.1 모델을 탑재한 Coding Plan을 출시하며 Claude Code와 OpenClaw의 대안으로 부상하고 있습니다. 한국 개발자들 사이에서 비용 효율적인 AI 코딩 도구로 주목받고 있습니다.",
+        "id": "7b674092",
+        "title": "Find out what’s new in the Gemini app in March's Gemini Drop.",
+        "excerpt": "Title: Find out what’s new in the Gemini app in March's Gemini Drop. URL Source: Published Time: 2026-03-27T16:00:00+00:00 Markdown Content: Gemini Drops: New updates to the Gemini app, March 2026 Ski",
+        "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-drop-updates-march-2026/",
+        "source": "The Official Google Blog",
+        "category": "ai",
+        "publishedAt": "2026-03-28T01:00:00+09:00",
+        "readTime": 7,
+        "imageGradient": 6
+      },
+      {
+        "id": "1f389f92",
+        "title": "MLB pitches AI-powered commentary in its play-by-play app",
+        "excerpt": "MLB가 AI 기반 야구 중계 해설 시스템을 공식 앱에 도입했다. 실시간 투구 분석, 타자 통계, 게임 상황에 맞는 자동 해설 생성으로 팬들의 관람 경험을 개선하고 있다.",
+        "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/mlb-scout-insights/",
+        "source": "The Official Google Blog",
+        "category": "ai",
+        "publishedAt": "2026-03-28T00:49:00+09:00",
+        "readTime": 7,
+        "imageGradient": 7
+      },
+      {
+        "id": "141b6afa",
+        "title": "Show GN: Ghostmeet - 셀프호스팅 AI 미팅 비서  (실시간 자막 + 요약, Chrome 확장)",
+        "excerpt": "셀프호스팅 AI 미팅 비서 Ghostmeet를 소개한다. Chrome 확장 프로그램으로 실시간 자막 생성과 회의 요약을 제공하며, 데이터가 자체 서버에만 저장돼 프라이버시를 보장한다.",
+        "url": "https://news.hada.io/topic?id=27947",
+        "source": "GeekNews",
+        "category": "ai",
+        "publishedAt": "2026-03-28T15:36:39+09:00",
+        "readTime": 5,
+        "imageGradient": 4
+      },
+      {
+        "id": "38da6d06",
+        "title": "Show GN: 31개의 LLM을 교차검증 체계로 엮은 100% 자율 주식 매매 시스템",
+        "excerpt": "31개의 LLM을 교차 검증 체계로 연결한 완전 자율 주식 매매 시스템이다. 각 모델의 판단을 상호 검증하고 컨센서스를 형성해 매매 결정을 내리는 독창적인 아키텍처를 소개한다.",
+        "url": "https://news.hada.io/topic?id=27946",
+        "source": "GeekNews",
+        "category": "ai",
+        "publishedAt": "2026-03-28T13:48:03+09:00",
+        "readTime": 6,
+        "imageGradient": 5
+      },
+      {
+        "id": "851e36c4",
+        "title": "Z.AI Coding Plan, GLM-5.1 모델 지원 — Claude Code·OpenClaw에서 전환 방법",
+        "excerpt": "Z.AI가 새로운 코딩 플랜을 출시하며 GLM-5.1 모델을 지원하기 시작했다. Claude Code 및 OpenClaw에서 Z.AI로 전환하는 방법과 설정 가이드를 제공한다.",
         "url": "https://news.hada.io/topic?id=27943",
         "source": "GeekNews",
         "category": "ai",
-        "publishedAt": "2026-03-28T02:45:30+00:00",
+        "publishedAt": "2026-03-28T11:45:30+09:00",
+        "readTime": 4,
+        "imageGradient": 7
+      },
+      {
+        "id": "2ad998f8",
+        "title": "Codex 플러그인 출시 — Slack, Figma, Notion, Gmail 등 주요 도구와 즉시 연동",
+        "excerpt": "OpenAI Codex가 Slack, Figma, Notion, Gmail 플러그인을 공식 출시했다. 코딩 에이전트가 이제 주요 협업 도구와 직접 연동되어 작업 자동화가 가능해졌다.",
+        "url": "https://news.hada.io/topic?id=27942",
+        "source": "GeekNews",
+        "category": "ai",
+        "publishedAt": "2026-03-28T11:34:01+09:00",
+        "readTime": 7,
+        "imageGradient": 0
+      },
+      {
+        "id": "91cf9a2c",
+        "title": "Against the Smartphone Theory of Everything",
+        "excerpt": "<p>Article URL: <a href=\"https://www.theargumentmag.com/p/against-the-smartphone-theory-of\">https://www.theargumentmag.com/p/against-the-smartphone-theory-of</a></p>\n<p>Comments URL: <a href=\"https://",
+        "url": "https://www.theargumentmag.com/p/against-the-smartphone-theory-of",
+        "source": "Hacker News",
+        "category": "ai",
+        "publishedAt": "2026-03-28T23:32:30+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "54346a84",
+        "title": "Microsoft takes up residence next to OpenAI, Oracle",
+        "excerpt": "<p>Article URL: <a href=\"https://www.theregister.com/2026/03/27/microsoft_ai_crusoe/\">https://www.theregister.com/2026/03/27/microsoft_ai_crusoe/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombin",
+        "url": "https://www.theregister.com/2026/03/27/microsoft_ai_crusoe/",
+        "source": "Hacker News",
+        "category": "ai",
+        "publishedAt": "2026-03-28T23:29:34+09:00",
         "readTime": 3,
         "imageGradient": 6
+      },
+      {
+        "id": "5080a0dd",
+        "title": "Show HN: Cursorlag – add a lag trail to your cursor",
+        "excerpt": "<p>Article URL: <a href=\"https://cursorlag.velocifyer.com/\">https://cursorlag.velocifyer.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47554915\">https://news.ycombinator.",
+        "url": "https://cursorlag.velocifyer.com/",
+        "source": "Hacker News",
+        "category": "ai",
+        "publishedAt": "2026-03-28T23:26:28+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "d56d00f9",
+        "title": "The Generative AI Policy Landscape in Open Source",
+        "excerpt": "오픈소스 생태계에서 생성 AI 정책 지형이 어떻게 변화하고 있는지 분석했다. 라이선스 논쟁, 모델 가중치 공개 여부, 커뮤니티 거버넌스 등 핵심 이슈를 다뤘다.",
+        "url": "https://redmonk.com/kholterhoff/2026/02/26/generative-ai-policy-landscape-in-open-source/",
+        "source": "Hacker News",
+        "category": "ai",
+        "publishedAt": "2026-03-28T23:26:07+09:00",
+        "readTime": 3,
+        "imageGradient": 2
       }
     ],
     "dev_tools": [
       {
-        "id": "dev1",
-        "title": "VS Code 1.114 릴리스: 개발 생산성 대폭 향상",
-        "excerpt": "Visual Studio Code 1.114이 출시되었습니다. GitHub Copilot 통합 강화, 새로운 편집기 기능, TypeScript 지원 개선, 성능 최적화가 주요 변경사항입니다. 전 세계 수천만 개발자들이 사용하는 에디터의 중요한 업데이트입니다.",
+        "id": "bda35ade",
+        "title": "Visual Studio Code 1.114",
+        "excerpt": "VS Code 1.114가 출시됐다. GitHub Copilot 개선, 새로운 AI 편집 워크플로우, 멀티루트 워크스페이스 강화, 터미널 UX 개선 등이 포함됐다. 특히 인라인 채팅과 코드 액션 AI 제안 기능이 크게 향상됐다.",
         "url": "https://code.visualstudio.com/updates/v1_114",
-        "source": "Visual Studio Code",
+        "source": "Visual Studio Code - Code Editing. Redefined.",
         "category": "dev_tools",
-        "publishedAt": "2026-03-27T00:00:00.000Z",
-        "readTime": 5,
-        "imageGradient": 2
-      },
-      {
-        "id": "dev2",
-        "title": "jq보다 빠른 JSON 처리 도구 jsongrep 등장",
-        "excerpt": "jq보다 빠른 성능을 자랑하는 JSON 검색 도구 jsongrep이 개발자 커뮤니티에서 주목받고 있습니다. Rust로 작성된 이 도구는 대용량 JSON 파일 처리에서 탁월한 성능을 보여줍니다.",
-        "url": "https://news.hada.io/topic?id=27940",
-        "source": "GeekNews",
-        "category": "dev_tools",
-        "publishedAt": "2026-03-28T00:50:17+00:00",
-        "readTime": 3,
-        "imageGradient": 3
-      },
-      {
-        "id": "dev3",
-        "title": "Show HN: Java 로그 스캐너 성능 872ms→78ms 최적화 사례",
-        "excerpt": "한 개발자가 Java 로그 스캐너의 처리 속도를 872ms에서 78ms로 약 11배 향상시킨 최적화 과정을 공유했습니다. JVM 프로파일링과 알고리즘 개선을 통한 실전 성능 튜닝 사례입니다.",
-        "url": "https://github.com/Yosefnago/java-deep-dive",
-        "source": "Hacker News",
-        "category": "dev_tools",
-        "publishedAt": "2026-03-28T10:19:35+00:00",
-        "readTime": 4,
-        "imageGradient": 7
+        "publishedAt": "2026-04-02T02:00:00+09:00",
+        "readTime": 7,
+        "imageGradient": 4
       }
     ],
     "big_tech": [
       {
-        "id": "bt1",
-        "title": "Stargate 미시간 현장, 첫 철골 구조물 설치 시작",
-        "excerpt": "Sam Altman이 Oracle 및 Related Digital과 협력 중인 미시간 Stargate AI 데이터센터 현장에 이번 주 첫 철골 구조물이 설치되었다고 발표했습니다. OpenAI의 수십억 달러 AI 인프라 투자 프로젝트가 물리적 형태를 갖추기 시작했습니다.",
-        "url": "https://x.com/sama/status/2037610000122839116",
-        "source": "X / Sam Altman",
+        "id": "f7caef01",
+        "title": "Microsoft tells crusty old kernel drivers to get with the Windows HCP",
+        "excerpt": "<p>Article URL: <a href=\"https://www.theregister.com/2026/03/27/microsoft_kernel_trust/\">https://www.theregister.com/2026/03/27/microsoft_kernel_trust/</a></p>\n<p>Comments URL: <a href=\"https://news.y",
+        "url": "https://www.theregister.com/2026/03/27/microsoft_kernel_trust/",
+        "source": "Hacker News",
         "category": "big_tech",
-        "publishedAt": "2026-03-27T19:17:35.000Z",
-        "readTime": 2,
-        "imageGradient": 4
-      },
-      {
-        "id": "bt2",
-        "title": "Google의 사이버보안 방어 전략 공개",
-        "excerpt": "구글이 자사의 사이버보안 방어 방법론을 공개 블로그를 통해 공유했습니다. AI 기반 위협 탐지, 제로 트러스트 아키텍처, 내부 보안 문화 구축 방법 등 Google이 수십 년간 축적한 보안 노하우가 담겨 있습니다.",
-        "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/how-google-does-it-security-series/",
-        "source": "Google Blog",
-        "category": "big_tech",
-        "publishedAt": "2026-03-27T21:00:00+00:00",
-        "readTime": 5,
-        "imageGradient": 5
-      },
-      {
-        "id": "bt3",
-        "title": "Windows 11 Microsoft 계정 강제 요구 폐지 추진",
-        "excerpt": "Windows 11 설치 시 Microsoft 계정 로그인을 강제하는 정책을 폐지하려는 움직임이 일고 있습니다. 사용자 프라이버시와 로컬 계정 사용권에 대한 지속적인 요구가 반영된 변화입니다.",
-        "url": "https://news.hada.io/topic?id=27939",
-        "source": "GeekNews",
-        "category": "big_tech",
-        "publishedAt": "2026-03-28T00:47:16+00:00",
+        "publishedAt": "2026-03-28T23:30:33+09:00",
         "readTime": 3,
-        "imageGradient": 6
+        "imageGradient": 4
       }
     ],
     "twitter_pulse": [
       {
-        "id": "tw1",
+        "id": "971a5704",
         "author": "Sam Altman",
         "handle": "sama",
-        "content": "이번 주 Oracle 및 Related Digital과 함께하는 미시간 Stargate 현장에 첫 철골 구조물이 세워졌습니다.",
+        "content": "Oracle과 Related Digital과 함께 진행 중인 미시간 Stargate 현장에서 이번 주 첫 번째 철골 구조물이 세워졌습니다.",
         "url": "https://x.com/sama/status/2037610000122839116",
         "publishedAt": "2026-03-27T19:17:35.000Z",
         "metrics": {
@@ -199,10 +276,10 @@
         }
       },
       {
-        "id": "tw2",
+        "id": "c0c12558",
         "author": "Greg Brockman",
         "handle": "gdb",
-        "content": "Codex의 사용 사례는 Skills와 같습니다 — 단, 인간을 위한 것이죠.",
+        "content": "Codex의 사용 사례는 Skills와 비슷한데, 사람을 위한 것이에요.",
         "url": "https://x.com/gdb/status/2037732675897770123",
         "publishedAt": "2026-03-28T03:25:03.000Z",
         "metrics": {
@@ -212,10 +289,10 @@
         }
       },
       {
-        "id": "tw3",
+        "id": "d14a33cd",
         "author": "Lydia Hallie",
         "handle": "lydiahallie",
-        "content": "Claude Code에 hooks에 `if` 필드가 추가되었습니다. 권한 규칙 문법을 사용해 특정 bash 커맨드에만 hook을 적용할 수 있어 훨씬 유연한 설정이 가능합니다!",
+        "content": "Claude Code가 훅에 `if` 필드를 지원하기 시작했습니다. 권한 규칙 문법으로 훅 실행 조건을 필터링할 수 있어, 모든 bash 명령이 아닌 특정 명령에만 훅을 적용할 때 유용합니다!",
         "url": "https://x.com/lydiahallie/status/2037573738670297583",
         "publishedAt": "2026-03-27T16:53:30.000Z",
         "metrics": {
@@ -225,10 +302,10 @@
         }
       },
       {
-        "id": "tw4",
+        "id": "f9a59c71",
         "author": "Felix Rieseberg",
         "handle": "felixrieseberg",
-        "content": "Claude Code가 이제 PowerShell을 네이티브로 지원합니다! 작지만 기쁜 기능 업데이트입니다.",
+        "content": "흥미로운 기능 업데이트: Claude Code가 이제 PowerShell을 네이티브로 실행할 수 있습니다!",
         "url": "https://x.com/felixrieseberg/status/2037591709765545985",
         "publishedAt": "2026-03-27T18:04:54.000Z",
         "metrics": {
@@ -238,10 +315,10 @@
         }
       },
       {
-        "id": "tw5",
+        "id": "08c34366",
         "author": "Felix Rieseberg",
         "handle": "felixrieseberg",
-        "content": "오늘 Cowork에서 ECONNRESET 오류를 경험하셨다면 사과드립니다. 근본 원인을 찾아 수정 배포했습니다. 48시간의 추적 끝에 결론은 항상 그렇듯 'DNS 문제'였습니다.",
+        "content": "오늘/어제 6:00 UTC에 Cowork에서 ECONNRESET 오류를 경험하셨다면 사과드립니다! 근본 원인을 파악하고 수정을 배포했습니다. 저희 팀은 48시간 동안 추적한 끝에 \"결국 DNS 문제였다\"는 결론을 내렸습니다.",
         "url": "https://x.com/felixrieseberg/status/2037581995791008254",
         "publishedAt": "2026-03-27T17:26:18.000Z",
         "metrics": {
@@ -251,10 +328,23 @@
         }
       },
       {
-        "id": "tw6",
+        "id": "921bff20",
+        "author": "Box",
+        "handle": "Box",
+        "content": "Box가 Codex 내에서 플러그인을 출시했습니다. Box의 콘텐츠를 가져와 코딩 에이전트의 힘으로 워크플로우를 자동화할 수 있습니다. 어닝콜 문서를 처리해 구조화된 데이터를 대규모로 추출하는 예시를 확인해보세요.",
+        "url": "https://x.com/Box/status/2037563341431058497",
+        "publishedAt": "2026-03-27T16:12:11.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "7de4b3ba",
         "author": "OpenAI Developers",
         "handle": "OpenAIDevs",
-        "content": "실제 업무를 처리하는 음성 에이전트를 만들어보세요. gpt-realtime-1.5를 사용해 싱가포르 의료 클리닉용 접수 데모를 구현했습니다. 환자와 자연스럽게 대화하고 예약을 실시간으로 처리합니다.",
+        "content": "실제 작업을 수행하는 음성 에이전트를 만들어보세요. gpt-realtime-1.5로 싱가포르 헬스 클리닉의 안내 데모를 구축했습니다. 환자와 자연스럽게 대화하고, 필요한 정보를 수집하며, 실시간으로 예약을 처리합니다.",
         "url": "https://x.com/OpenAIDevs/status/2037658400004477278",
         "publishedAt": "2026-03-27T22:29:55.000Z",
         "metrics": {
@@ -264,25 +354,12 @@
         }
       },
       {
-        "id": "tw7",
+        "id": "74afd5c3",
         "author": "Claude Code Changelog",
         "handle": "ClaudeCodeLog",
-        "content": "Claude Code 2.1.86이 출시되었습니다. 26가지 CLI 변경, 5가지 시스템 프롬프트 변경. 주요 업데이트: 프록시 세션 그룹핑용 X-Claude-Code-Session-Id 헤더 추가, 에스컬레이션 전 온콜 진단/수정 시도를 요구하는 debug-before-escalate 규칙 추가.",
+        "content": "Claude Code 2.1.86이 출시됐습니다. 26개 CLI 변경, 5개 시스템 프롬프트 변경이 포함됩니다. 주요 사항: 프록시가 바디 파싱 없이 세션을 그룹핑할 수 있도록 X-Claude-Code-Session-Id 헤더 추가, 에스컬레이션 전 온콜 진단/수정 시도를 요구하는 debug-before-escalate 규칙 추가.",
         "url": "https://x.com/ClaudeCodeLog/status/2037653369305628847",
         "publishedAt": "2026-03-27T22:09:55.000Z",
-        "metrics": {
-          "likes": 0,
-          "retweets": 0,
-          "replies": 0
-        }
-      },
-      {
-        "id": "tw8",
-        "author": "Box",
-        "handle": "Box",
-        "content": "Box가 Codex 내 플러그인을 출시했습니다. Box의 콘텐츠를 가져와 코딩 에이전트의 힘으로 워크플로를 자동화할 수 있습니다. 수익 보고서 문서에서 구조화된 데이터를 대규모로 추출하는 예시를 확인하세요.",
-        "url": "https://x.com/Box/status/2037563341431058497",
-        "publishedAt": "2026-03-27T16:12:11.000Z",
         "metrics": {
           "likes": 0,
           "retweets": 0,
@@ -292,59 +369,125 @@
     ],
     "quick_bites": [
       {
-        "id": "qb1",
-        "title": "Show GN: 서버에 아무것도 남지 않는 Markdown 메시지 공유 도구 messagetolink",
-        "excerpt": "서버에 어떤 데이터도 저장되지 않는 보안 마크다운 메시지 공유 도구가 GeekNews에 소개되었습니다.",
-        "url": "https://news.hada.io/topic?id=27949",
+        "id": "45fb6938",
+        "title": "Show GN: 접근성 떨어지는 KOCW 같은 국내 강의들을 YouTube로 옮기고 있습니다",
+        "excerpt": "Title: 접근성 떨어지는 KOCW 같은 국내 강의들을 YouTube로 옮기고 있습니다 URL Source: Published Time: 2026-03-28T23:06:44+09:00 Markdown Content: 접근성 떨어지는 KOCW 같은 국내 강의들을 YouTube로 옮기고 있습니다 | GeekNews GeekNews최신글댓글예전글AskShowG",
+        "url": "https://news.hada.io/topic?id=27953",
         "source": "GeekNews",
         "category": "quick_bites",
-        "publishedAt": "2026-03-28T07:49:55+00:00",
-        "readTime": 2,
+        "publishedAt": "2026-03-28T23:06:44+09:00",
+        "readTime": 5,
         "imageGradient": 0
       },
       {
-        "id": "qb2",
-        "title": "Show GN: Ghostmeet — 셀프호스팅 AI 미팅 비서",
-        "excerpt": "실시간 자막과 요약 기능을 제공하는 셀프호스팅 AI 미팅 비서 Ghostmeet이 소개되었습니다. Chrome 확장으로 쉽게 사용 가능합니다.",
-        "url": "https://news.hada.io/topic?id=27947",
+        "id": "5a557ce1",
+        "title": "바보야, 문제는 경계야",
+        "excerpt": "Title: 바보야, 문제는 경계야 URL Source: Published Time: 2026-03-28T21:59:12+09:00 Markdown Content: 소프트웨어 개발의 핵심 난제들은 대부분 코드 내부가 아니라 코드와 코드, 시스템과 시스템이 만나는 경계(Boundary) 에서 발생한다는 주장 경계 = 서로 다른 관심사·책임·맥락이 만나는 지점",
+        "url": "https://news.hada.io/topic?id=27952",
         "source": "GeekNews",
         "category": "quick_bites",
-        "publishedAt": "2026-03-28T06:36:39+00:00",
-        "readTime": 2,
+        "publishedAt": "2026-03-28T21:59:12+09:00",
+        "readTime": 4,
         "imageGradient": 1
       },
       {
-        "id": "qb3",
-        "title": "JWST, 토성의 '불가사의한 밝기' 수십 년 미스터리 해결",
-        "excerpt": "제임스 웹 우주망원경(JWST)이 수십 년간 천문학자들을 괴롭혀 온 토성의 예상치 못한 밝기 현상의 원인을 마침내 밝혀냈습니다.",
-        "url": "https://phys.org/news/2026-03-jwst-decades-mystery-saturn.html",
-        "source": "Hacker News",
+        "id": "899af126",
+        "title": "Show GN: messagetolink — 서버에 아무것도 남지 않는 Markdown 메시지 공유 도구",
+        "excerpt": "Title: messagetolink — 서버에 아무것도 남지 않는 Markdown 메시지 공유 도구 URL Source: Published Time: 2026-03-28T16:49:55+09:00 Markdown Content: messagetolink — 서버에 아무것도 남지 않는 Markdown 메시지 공유 도구 | GeekNews GeekNews최신",
+        "url": "https://news.hada.io/topic?id=27949",
+        "source": "GeekNews",
         "category": "quick_bites",
-        "publishedAt": "2026-03-28T10:19:10+00:00",
-        "readTime": 3,
+        "publishedAt": "2026-03-28T16:49:55+09:00",
+        "readTime": 5,
         "imageGradient": 2
       },
       {
-        "id": "qb4",
-        "title": "CSS로 구현한 Doom 게임",
-        "excerpt": "개발자가 JavaScript 없이 순수 CSS만으로 클래식 게임 Doom을 구현하는 데 성공했습니다. 웹 기술의 창의적 한계를 탐구한 실험적 프로젝트입니다.",
-        "url": "https://nielsleenheer.com/articles/2026/css-is-doomed-rendering-doom-in-3d-with-css/",
+        "id": "34b3e1c6",
+        "title": "MacOS 26을 일관되게 나쁘게 만들기 (진심으로)",
+        "excerpt": "MacOS 26(차기 macOS)의 일관성 없는 디자인 방향에 대한 비판적 분석이다. Liquid Glass UI 철학이 기존 macOS 사용성을 저해하고 있다는 개발자들의 의견을 정리했다.",
+        "url": "https://news.hada.io/topic?id=27948",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-03-28T16:33:09+09:00",
+        "readTime": 7,
+        "imageGradient": 3
+      },
+      {
+        "id": "f5860bf1",
+        "title": "고양이와 함께 재택근무하는 사람을 위한 책상",
+        "excerpt": "Title: 고양이와 함께 재택근무하는 사람을 위한 책상 URL Source: Published Time: 2026-03-28T12:33:02+09:00 Markdown Content: 고양이와 함께 재택근무하는 사람을 위한 책상 | GeekNews GeekNews최신글댓글예전글AskShowGN⁺Weekly | 글등록 로그인 ▲;) 고양이와 함께 재택근무하",
+        "url": "https://news.hada.io/topic?id=27945",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-03-28T12:33:02+09:00",
+        "readTime": 7,
+        "imageGradient": 6
+      },
+      {
+        "id": "4bc0efa2",
+        "title": ".claude/ 폴더 구조 분석",
+        "excerpt": ".claude/ 폴더의 구조를 상세히 분석한 글이다. CLAUDE.md 설정, 커스텀 명령어, 훅 스크립트, 메모리 시스템 등 Claude Code의 로컬 설정 체계를 완전히 해부했다.",
+        "url": "https://news.hada.io/topic?id=27941",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-03-28T09:53:17+09:00",
+        "readTime": 7,
+        "imageGradient": 1
+      },
+      {
+        "id": "4bd98a7c",
+        "title": "New Consulting Contracts in Texas Will Muzzle Authors and Harm Students",
+        "excerpt": "<p>Article URL: <a href=\"https://bookriot.com/texas-esc-1-discriminatory-contracts/\">https://bookriot.com/texas-esc-1-discriminatory-contracts/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinat",
+        "url": "https://bookriot.com/texas-esc-1-discriminatory-contracts/",
         "source": "Hacker News",
         "category": "quick_bites",
-        "publishedAt": "2026-03-28T10:20:45+00:00",
+        "publishedAt": "2026-03-28T23:31:33+09:00",
         "readTime": 3,
         "imageGradient": 3
       },
       {
-        "id": "qb5",
-        "title": "Show GN: 31개 LLM 교차검증으로 구성된 100% 자율 주식 매매 시스템",
-        "excerpt": "31개의 LLM을 교차검증 체계로 연결해 완전 자율적으로 작동하는 주식 매매 시스템이 GeekNews에 소개됐습니다.",
-        "url": "https://news.hada.io/topic?id=27946",
-        "source": "GeekNews",
+        "id": "204031fe",
+        "title": "ICAO issued new power bank restriction on flight",
+        "excerpt": "<p>Article URL: <a href=\"https://www.icao.int/news/new-power-bank-restrictions-will-safeguard-international-aviation\">https://www.icao.int/news/new-power-bank-restrictions-will-safeguard-international",
+        "url": "https://www.icao.int/news/new-power-bank-restrictions-will-safeguard-international-aviation",
+        "source": "Hacker News",
         "category": "quick_bites",
-        "publishedAt": "2026-03-28T04:48:03+00:00",
+        "publishedAt": "2026-03-28T23:30:30+09:00",
         "readTime": 3,
-        "imageGradient": 4
+        "imageGradient": 5
+      },
+      {
+        "id": "97344d35",
+        "title": "Sharpee Interactive Fiction and Computer Science",
+        "excerpt": "<p>Article URL: <a href=\"https://github.com/ChicagoDave/sharpee/blob/main/docs/architecture/sharpee-computer-science.md\">https://github.com/ChicagoDave/sharpee/blob/main/docs/architecture/sharpee-comp",
+        "url": "https://github.com/ChicagoDave/sharpee/blob/main/docs/architecture/sharpee-computer-science.md",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-03-28T23:29:03+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      },
+      {
+        "id": "2b185bbf",
+        "title": "When Fake Supplements Work",
+        "excerpt": "<p>Article URL: <a href=\"https://nautil.us/when-fake-supplements-work-1279324\">https://nautil.us/when-fake-supplements-work-1279324</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?",
+        "url": "https://nautil.us/when-fake-supplements-work-1279324",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-03-28T23:28:27+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "eed07404",
+        "title": "How Not to Interview (Interesting People)",
+        "excerpt": "<p>Article URL: <a href=\"https://om.co/2026/03/19/how-not-to-interview-interesting-people/\">https://om.co/2026/03/19/how-not-to-interview-interesting-people/</a></p>\n<p>Comments URL: <a href=\"https://",
+        "url": "https://om.co/2026/03/19/how-not-to-interview-interesting-people/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-03-28T23:25:42+09:00",
+        "readTime": 3,
+        "imageGradient": 3
       }
     ]
   }
