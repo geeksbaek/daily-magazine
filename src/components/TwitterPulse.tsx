@@ -1,6 +1,6 @@
 import type { Tweet } from '../types/magazine'
 import SectionHeader from './SectionHeader'
-import { timeAgo, formatMetric } from '../utils/format'
+import { timeAgo } from '../utils/format'
 
 interface Props {
   tweets: Tweet[]
@@ -75,29 +75,7 @@ function TweetCard({ tweet }: { tweet: Tweet }) {
         {tweet.content}
       </p>
 
-      {/* Metrics */}
-      {tweet.metrics && (
-        <div className="flex items-center gap-4 mt-3 pt-3 border-t" style={{ borderColor: 'var(--border)' }}>
-          <span className="flex items-center gap-1 text-[11px] font-mono" style={{ color: 'var(--text-muted)' }}>
-            <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
-              <path d="M6 1L7.5 4.5H11L8 7l1.5 3.5L6 8.5 2.5 10.5 4 7 1 4.5h3.5L6 1z" stroke="currentColor" strokeWidth="1" strokeLinejoin="round"/>
-            </svg>
-            {formatMetric(tweet.metrics.likes)}
-          </span>
-          <span className="flex items-center gap-1 text-[11px] font-mono" style={{ color: 'var(--text-muted)' }}>
-            <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
-              <path d="M2 4l2-2 2 2M4 2v6a2 2 0 002 2h2M10 8l-2 2-2-2M8 10V4a2 2 0 00-2-2H4" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"/>
-            </svg>
-            {formatMetric(tweet.metrics.retweets)}
-          </span>
-          <span className="flex items-center gap-1 text-[11px] font-mono" style={{ color: 'var(--text-muted)' }}>
-            <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
-              <path d="M1 1h10v7H7l-3 3V8H1V1z" stroke="currentColor" strokeWidth="1" strokeLinejoin="round"/>
-            </svg>
-            {formatMetric(tweet.metrics.replies)}
-          </span>
-        </div>
-      )}
+
     </a>
   )
 }
