@@ -344,7 +344,224 @@
         }
       }
     ],
-    "reddit_pulse": [],
+    "reddit_pulse": [
+      {
+        "id": "reddit_MachineLearning_001",
+        "title": "TikTok 동영상에서 데이터셋 생성하기",
+        "originalTitle": "[P] Create datasets from TikTok videos",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1s5g7xj/p_create_datasets_from_tiktok_videos/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-03-28T05:50:02+09:00"
+      },
+      {
+        "id": "reddit_MachineLearning_002",
+        "title": "[D] Many times I feel additional experiments during the rebuttal make my paper worse",
+        "originalTitle": "[D] Many times I feel additional experiments during the rebuttal make my paper worse",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1s5j8bg/d_many_times_i_feel_additional_experiments_during/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-03-28T07:46:11+09:00"
+      },
+      {
+        "id": "reddit_MachineLearning_003",
+        "title": "[R] Controlled experiment: giving an LLM agent access to CS papers during automated hyperparameter search improves results by 3.2%",
+        "originalTitle": "[R] Controlled experiment: giving an LLM agent access to CS papers during automated hyperparameter search improves results by 3.2%",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1s5jpgz/r_controlled_experiment_giving_an_llm_agent/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-03-28T08:05:45+09:00"
+      },
+      {
+        "id": "reddit_LocalLLaMA_004",
+        "title": "#OpenSource4o 운동 확산 — GPT-4o 오픈소스 공개 요구",
+        "originalTitle": "#OpenSource4o Movement Trending on Twitter/X - Release Opensource of GPT-4o",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s5g1v9/opensource4o_movement_trending_on_twitterx/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-03-28T05:43:24+09:00"
+      },
+      {
+        "id": "reddit_LocalLLaMA_005",
+        "title": "Google TurboQuant로 MacBook Air에서 Qwen 로컬 실행",
+        "originalTitle": "Google TurboQuant running Qwen Locally on MacAir",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s5kdu0/google_turboquant_running_qwen_locally_on_macair/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-03-28T08:33:47+09:00"
+      },
+      {
+        "id": "reddit_LocalLLaMA_006",
+        "title": "GLM-5.1 모델 가중치, 4월 6~7일 공개 예정",
+        "originalTitle": "GLM-5.1 model weight will be released on April 6 or April 7",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s5l23i/glm51_model_weight_will_be_released_on_april_6_or/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-03-28T09:01:50+09:00"
+      },
+      {
+        "id": "reddit_artificial_007",
+        "title": "AI 정렬 문제는 실제 위험인가, 과대평가인가?",
+        "originalTitle": "Is AI misalignment actually a real problem or are we overthinking it?",
+        "url": "https://www.reddit.com/r/artificial/comments/1s591jb/is_ai_misalignment_actually_a_real_problem_or_are/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-03-28T01:28:03+09:00"
+      },
+      {
+        "id": "reddit_artificial_008",
+        "title": "도시가 자율주행차 허용 전 고려해야 할 것들",
+        "originalTitle": "What Cities Need To Consider Before Allowing Self-Driving Cars",
+        "url": "https://www.reddit.com/r/artificial/comments/1s59xi1/what_cities_need_to_consider_before_allowing/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-03-28T01:59:53+09:00"
+      },
+      {
+        "id": "reddit_artificial_009",
+        "title": "Right now AI made people work more. When you think people will work less if that will ever happen.",
+        "originalTitle": "Right now AI made people work more. When you think people will work less if that will ever happen.",
+        "url": "https://www.reddit.com/r/artificial/comments/1s5cmca/right_now_ai_made_people_work_more_when_you_think/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-03-28T03:35:54+09:00"
+      },
+      {
+        "id": "reddit_OpenAI_010",
+        "title": "Bernie Sanders in the US Senate: The godfather of AI thinks there's a 10-20% chance of human extinction",
+        "originalTitle": "Bernie Sanders in the US Senate: The godfather of AI thinks there's a 10-20% chance of human extinction",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1s5bg6l/bernie_sanders_in_the_us_senate_the_godfather_of/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-03-28T02:53:16+09:00"
+      },
+      {
+        "id": "reddit_OpenAI_011",
+        "title": "Claude Vs Gemini",
+        "originalTitle": "Claude Vs Gemini",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1s5i5tx/claude_vs_gemini/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-03-28T07:03:31+09:00"
+      },
+      {
+        "id": "reddit_OpenAI_012",
+        "title": "저커버그, 머스크 등 OpenAI 인수 시도했었다",
+        "originalTitle": "Zuckerberg, Musk and others wanted to buy OpenAI",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1s5iv7w/zuckerberg_musk_and_others_wanted_to_buy_openai/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-03-28T07:31:23+09:00"
+      },
+      {
+        "id": "reddit_ClaudeAI_013",
+        "title": "[Showcase] (World Visualizer) Is claude dumb for you today?",
+        "originalTitle": "[Showcase] (World Visualizer) Is claude dumb for you today?",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1s5bc5e/showcase_world_visualizer_is_claude_dumb_for_you/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-03-28T02:49:14+09:00"
+      },
+      {
+        "id": "reddit_ClaudeAI_014",
+        "title": "Claude Code on Windows: 6 critical bugs closed as \"not planned\" — is Anthropic aware that 70% of the world and nearly all enterprise IT runs Windows?",
+        "originalTitle": "Claude Code on Windows: 6 critical bugs closed as \"not planned\" — is Anthropic aware that 70% of the world and nearly all enterprise IT runs Windows?",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1s5cbrn/claude_code_on_windows_6_critical_bugs_closed_as/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-03-28T03:25:01+09:00"
+      },
+      {
+        "id": "reddit_ClaudeAI_015",
+        "title": "2 prompts = 100% session usage for Pro account, 40 prompts = 7% session usage for Max 20X account. The math isn't mathing..",
+        "originalTitle": "2 prompts = 100% session usage for Pro account, 40 prompts = 7% session usage for Max 20X account. The math isn't mathing..",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1s5f5fq/2_prompts_100_session_usage_for_pro_account_40/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-03-28T05:09:08+09:00"
+      },
+      {
+        "id": "reddit_programming_016",
+        "title": "실수로 만든 최고 속도 C# CSV 파서",
+        "originalTitle": "How I accidentally made the fastest C# CSV parser",
+        "url": "https://www.reddit.com/r/programming/comments/1s59ff3/how_i_accidentally_made_the_fastest_c_csv_parser/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-03-28T01:41:48+09:00"
+      },
+      {
+        "id": "reddit_programming_017",
+        "title": "다익스트라 최단경로 알고리즘 시각적 탐구",
+        "originalTitle": "Dijkstra's Shortest-Path Algorithm: A visual exploration, following Sedgewick",
+        "url": "https://www.reddit.com/r/programming/comments/1s5etpi/dijkstras_shortestpath_algorithm_a_visual/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-03-28T04:57:20+09:00"
+      },
+      {
+        "id": "reddit_programming_018",
+        "title": "GitHub Actions가 엔지니어링 팀을 서서히 죽이고 있다",
+        "originalTitle": "GitHub Actions Is Slowly Killing Your Engineering Team - Ian Duncan",
+        "url": "https://www.reddit.com/r/programming/comments/1s5ja3a/github_actions_is_slowly_killing_your_engineering/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-03-28T07:48:07+09:00"
+      },
+      {
+        "id": "reddit_singularity_019",
+        "title": "NPR: AI가 기존 관점을 강화하고 갈등 해결 의지를 약화시킨다는 연구",
+        "originalTitle": "NPR: AI affirms our own viewpoints and harms willingness to resolve conflict, study finds",
+        "url": "https://www.reddit.com/r/singularity/comments/1s59gis/npr_ai_affirms_our_own_viewpoints_and_harms/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-03-28T01:42:54+09:00"
+      },
+      {
+        "id": "reddit_singularity_020",
+        "title": "New LLM Persuasion Benchmark: models try to move each other's stated positions in multi-turn conversations. GPT-5.4 (high) is the strongest persuader. Claude Opus 4.6 (high) is second. Xiaomi MiMo V2 Pro and Gemini 3.1 Pro Preview are the softest targets.",
+        "originalTitle": "New LLM Persuasion Benchmark: models try to move each other's stated positions in multi-turn conversations. GPT-5.4 (high) is the strongest persuader. Claude Opus 4.6 (high) is second. Xiaomi MiMo V2 Pro and Gemini 3.1 Pro Preview are the softest targets.",
+        "url": "https://www.reddit.com/r/singularity/comments/1s59uz7/new_llm_persuasion_benchmark_models_try_to_move/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-03-28T01:57:23+09:00"
+      },
+      {
+        "id": "reddit_singularity_021",
+        "title": "DeepMind’s New AI Just Changed Science Forever",
+        "originalTitle": "DeepMind’s New AI Just Changed Science Forever",
+        "url": "https://www.reddit.com/r/singularity/comments/1s5a0h1/deepminds_new_ai_just_changed_science_forever/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-03-28T02:02:34+09:00"
+      },
+      {
+        "id": "reddit_ExperiencedDevs_022",
+        "title": "Experienced dev but without 'industry standard' knowledge, how to prepare for mid level or senior interviews?",
+        "originalTitle": "Experienced dev but without 'industry standard' knowledge, how to prepare for mid level or senior interviews?",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1s5kskw/experienced_dev_but_without_industry_standard/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-03-28T08:51:05+09:00"
+      },
+      {
+        "id": "reddit_ExperiencedDevs_023",
+        "title": "Are male Devs with long hair less employable?",
+        "originalTitle": "Are male Devs with long hair less employable?",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1s5laaq/are_male_devs_with_long_hair_less_employable/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-03-28T09:11:36+09:00"
+      },
+      {
+        "id": "reddit_ExperiencedDevs_024",
+        "title": "What explains the dramatic shift in dev culture from the relaxed wlb-focused 2010s to what we have today?",
+        "originalTitle": "What explains the dramatic shift in dev culture from the relaxed wlb-focused 2010s to what we have today?",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1s5nkcb/what_explains_the_dramatic_shift_in_dev_culture/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-03-28T10:55:07+09:00"
+      }
+    ],
     "community_pulse": [
       {
         "id": "dc_1076700",
