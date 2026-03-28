@@ -216,17 +216,6 @@
         "readTime": 5,
         "imageGradient": 1
       },
-      {
-        "id": "bt3",
-        "title": "Codex 플러그인 & Box 연동 출시",
-        "excerpt": "OpenAI가 Codex에 플러그인 기능과 Box 연동을 출시했습니다. Box 내 콘텐츠를 가져와 코딩 에이전트를 통해 워크플로를 자동화할 수 있으며, 실용적인 워크플로 갤러리도 제공됩니다.",
-        "url": "https://x.com/OpenAIDevs/status/2037590000000000000",
-        "source": "OpenAI Developers",
-        "category": "big_tech",
-        "publishedAt": "2026-03-27T18:00:00.000Z",
-        "readTime": 2,
-        "imageGradient": 2
-      }
     ],
     "twitter_pulse": [
       {
