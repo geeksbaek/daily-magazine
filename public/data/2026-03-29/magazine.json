@@ -1,0 +1,542 @@
+{
+  "date": "2026-03-29",
+  "issueNumber": 2,
+  "cover": {
+    "mainHeadline": "Claude Code 2.1.86 업데이트 & Stargate 미시간 착공 — AI 인프라 시대가 열린다",
+    "mainExcerpt": "Claude Code 2.1.86이 26개의 CLI 변경사항과 함께 출시됐다. PowerShell 네이티브 지원, 훅 조건부 실행(`if` 필드), X-Claude-Code-Session-Id 헤더 등 개발자 경험을 크게 향상시키는 기능들이 추가됐다. 한편 Sam Altman은 미시간 Stargate 사이트에서 첫 번째 철골 빔이 세워졌다고 발표하며, Oracle·Related Digital과의 협력으로 대규모 AI 데이터센터 인프라가 본격화됨을 알렸다.",
+    "headlines": [
+      "OpenAI Codex, Slack·Figma·Notion·Gmail 플러그인 공식 출시로 업무 도구 통합 가속",
+      "레이 커즈와일 비판글 인기 — '특이점은 30만 년 더 걸릴 것' (추천 46, 조회 4,555)",
+      "AI 논문, 사상 첫 Nature 게재 성공 — 인간 심사 통과로 학계 충격"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_002",
+      "title": "PromptPaste: Claude Code와 Codex CLI를 위한 음성 입력 도구",
+      "excerpt": "Claude Code와 OpenAI Codex CLI에 음성으로 명령을 입력할 수 있는 macOS 앱 PromptPaste가 출시됐다. 음성을 텍스트로 변환해 터미널에 자동 입력해주는 방식으로, AI 코딩 워크플로우를 더욱 자연스럽게 만든다.",
+      "url": "https://www.promptpasteapp.com/",
+      "source": "Hacker News",
+      "category": "ai_ml",
+      "publishedAt": "2026-03-29T01:02:33+09:00",
+      "readTime": 6,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_004",
+      "title": "소프트웨어의 패러다임 전환: 탐색(Navigate)에서 호출(Invoke)로",
+      "excerpt": "소프트웨어 사용 패러다임이 메뉴와 버튼을 클릭하는 '탐색'에서 AI 에이전트를 '호출'하는 방식으로 전환되고 있다. 에이전트 레이어가 기존 소프트웨어 인터페이스를 재작성하고 있다는 분석이다.",
+      "url": "https://opuslabs.substack.com/p/the-agent-layer-is-rewriting-software",
+      "source": "Hacker News",
+      "category": "ai_ml",
+      "publishedAt": "2026-03-29T01:00:34+09:00",
+      "readTime": 6,
+      "imageGradient": 3
+    },
+    {
+      "id": "rss_010",
+      "title": "유출된 Anthropic 모델, '전례 없는 사이버 보안 위험' 제시",
+      "excerpt": "Anthropic의 비공개 AI 모델이 유출되어 전례 없는 사이버 보안 위험을 제시한다는 보고서가 나왔다. 법원은 이와 관련해 Anthropic의 가처분 신청을 인용했다.",
+      "url": "https://gizmodo.com/leaked-anthropic-model-presents-unprecedented-cybersecurity-risks-much-to-pentagons-pleasure-2000739088",
+      "source": "Hacker News",
+      "category": "ai_ml",
+      "publishedAt": "2026-03-29T00:48:34+09:00",
+      "readTime": 3,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_019",
+      "title": "OpenAI Codex, Slack·Figma·Notion·Gmail 플러그인 공식 출시",
+      "excerpt": "OpenAI Codex가 Slack, Figma, Notion, Gmail 등 주요 업무 도구와 연동되는 플러그인을 공식 출시했다. AI 코딩 에이전트가 실제 업무 환경과 더욱 긴밀하게 통합된다.",
+      "url": "https://news.hada.io/topic?id=27942",
+      "source": "GeekNews",
+      "category": "ai_ml",
+      "publishedAt": "2026-03-28T11:34:01+09:00",
+      "readTime": 3,
+      "imageGradient": 2
+    },
+    {
+      "id": "rss_021",
+      "title": "OpenAI, 230년 역사 기업 STADLER의 지식 업무를 AI로 혁신",
+      "excerpt": "230년 역사의 철도 차량 제조사 STADLER가 OpenAI를 도입해 기술 문서화, 품질 관리, 영업 프로세스를 혁신했다. AI 도구를 통해 직원들은 반복 업무에서 벗어나 고부가가치 작업에 집중할 수 있게 됐다.",
+      "url": "https://openai.com/index/stadler",
+      "source": "OpenAI News",
+      "category": "ai_ml",
+      "publishedAt": "2026-03-28T07:00:00+09:00",
+      "readTime": 6,
+      "imageGradient": 4
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_001",
+        "title": "르네상스 성채의 군사적 눈송이 — 별 모양 요새의 우연한 아름다움",
+        "excerpt": "Popular Searches Critical thinkingPhilosophyEmotional IntelligenceFree Will Latest Videos Latest Articles * Topics ## Philosophy * Ethics * Religion * Flourishing * Knowledge * Philosophy of Science * Philosophy of Art * Language * Political Theory *",
+        "url": "https://bigthink.com/strange-maps/star-forts/",
+        "source": "Hacker News",
+        "category": "ai_ml",
+        "publishedAt": "2026-03-29T01:02:59+09:00",
+        "readTime": 6,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_002",
+        "title": "PromptPaste: Claude Code와 Codex CLI를 위한 음성 입력 도구",
+        "excerpt": "Claude Code와 OpenAI Codex CLI에 음성으로 명령을 입력할 수 있는 macOS 앱 PromptPaste가 출시됐다. 음성을 텍스트로 변환해 터미널에 자동 입력해주는 방식으로, AI 코딩 워크플로우를 더욱 자연스럽게 만든다.",
+        "url": "https://www.promptpasteapp.com/",
+        "source": "Hacker News",
+        "category": "ai_ml",
+        "publishedAt": "2026-03-29T01:02:33+09:00",
+        "readTime": 6,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_004",
+        "title": "소프트웨어의 패러다임 전환: 탐색(Navigate)에서 호출(Invoke)로",
+        "excerpt": "소프트웨어 사용 패러다임이 메뉴와 버튼을 클릭하는 '탐색'에서 AI 에이전트를 '호출'하는 방식으로 전환되고 있다. 에이전트 레이어가 기존 소프트웨어 인터페이스를 재작성하고 있다는 분석이다.",
+        "url": "https://opuslabs.substack.com/p/the-agent-layer-is-rewriting-software",
+        "source": "Hacker News",
+        "category": "ai_ml",
+        "publishedAt": "2026-03-29T01:00:34+09:00",
+        "readTime": 6,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_006",
+        "title": "Explanation for why we don't see two-foot-long dragonflies anymore fails",
+        "excerpt": "Article URL: Comments URL: Points: 2 # Comments: 0",
+        "url": "https://arstechnica.com/science/2026/03/leading-explanation-for-ancient-giant-flying-insects-gets-squashed/",
+        "source": "Hacker News",
+        "category": "ai_ml",
+        "publishedAt": "2026-03-29T00:53:10+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_008",
+        "title": "벤치마크에서 이겼지만 여전히 실패했다 — AI 평가의 함정",
+        "excerpt": "Article URL: Comments URL: Points: 1 # Comments: 0",
+        "url": "https://www.tarc.blog/essays/beating_the_benchmark.html",
+        "source": "Hacker News",
+        "category": "ai_ml",
+        "publishedAt": "2026-03-29T00:50:25+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_010",
+        "title": "유출된 Anthropic 모델, '전례 없는 사이버 보안 위험' 제시",
+        "excerpt": "Anthropic의 비공개 AI 모델이 유출되어 전례 없는 사이버 보안 위험을 제시한다는 보고서가 나왔다. 법원은 이와 관련해 Anthropic의 가처분 신청을 인용했다.",
+        "url": "https://gizmodo.com/leaked-anthropic-model-presents-unprecedented-cybersecurity-risks-much-to-pentagons-pleasure-2000739088",
+        "source": "Hacker News",
+        "category": "ai_ml",
+        "publishedAt": "2026-03-29T00:48:34+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_011",
+        "title": "이란 학교 폭격의 책임을 AI에 돌린 사건, 더 근본적인 문제",
+        "excerpt": "AI 시스템에 학교 폭격 결정의 책임을 돌린 이란 사건을 분석하며, 이것이 단순한 기술 문제가 아닌 책임 소재와 거버넌스의 근본적 문제임을 지적한다.",
+        "url": "https://news.hada.io/topic?id=27954",
+        "source": "GeekNews",
+        "category": "ai_ml",
+        "publishedAt": "2026-03-28T23:33:25+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_016",
+        "title": "31개 LLM 교차검증 기반의 100% 자율 주식 매매 시스템",
+        "excerpt": "31개의 LLM이 서로 교차 검증하는 방식으로 주식 매매 결정을 내리는 자율 시스템을 개발한 사례. 단일 모델의 편향을 줄이고 신뢰도를 높이는 앙상블 방식을 채택했다.",
+        "url": "https://news.hada.io/topic?id=27946",
+        "source": "GeekNews",
+        "category": "ai_ml",
+        "publishedAt": "2026-03-28T13:48:03+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_018",
+        "title": "Z.AI Coding Plan, GLM-5.1 모델 지원 — Claude Code 대안으로 주목",
+        "excerpt": "Z.AI가 GLM-5.1 모델을 지원하는 코딩 플랜을 출시했다. Claude Code나 OpenClaw 사용자들이 더 저렴한 대안으로 전환하는 방법을 안내한다.",
+        "url": "https://news.hada.io/topic?id=27943",
+        "source": "GeekNews",
+        "category": "ai_ml",
+        "publishedAt": "2026-03-28T11:45:30+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_019",
+        "title": "OpenAI Codex, Slack·Figma·Notion·Gmail 플러그인 공식 출시",
+        "excerpt": "OpenAI Codex가 Slack, Figma, Notion, Gmail 등 주요 업무 도구와 연동되는 플러그인을 공식 출시했다. AI 코딩 에이전트가 실제 업무 환경과 더욱 긴밀하게 통합된다.",
+        "url": "https://news.hada.io/topic?id=27942",
+        "source": "GeekNews",
+        "category": "ai_ml",
+        "publishedAt": "2026-03-28T11:34:01+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_020",
+        "title": ".claude/ 폴더 구조 심층 분석 — Claude Code 파워유저 필독",
+        "excerpt": "Claude Code의 .claude/ 폴더 구조를 심층 분석한 자료. CLAUDE.md, memory/, skills/ 등 각 디렉토리의 역할과 최적 활용법을 설명해 Claude Code 파워유저에게 필수적인 가이드다.",
+        "url": "https://news.hada.io/topic?id=27941",
+        "source": "GeekNews",
+        "category": "ai_ml",
+        "publishedAt": "2026-03-28T09:53:17+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_021",
+        "title": "OpenAI, 230년 역사 기업 STADLER의 지식 업무를 AI로 혁신",
+        "excerpt": "230년 역사의 철도 차량 제조사 STADLER가 OpenAI를 도입해 기술 문서화, 품질 관리, 영업 프로세스를 혁신했다. AI 도구를 통해 직원들은 반복 업무에서 벗어나 고부가가치 작업에 집중할 수 있게 됐다.",
+        "url": "https://openai.com/index/stadler",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-03-28T07:00:00+09:00",
+        "readTime": 6,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_022",
+        "title": "Google이 사이버 보안을 다루는 방법: 내부 보안 전략 공개",
+        "excerpt": "Google이 자사 내부 사이버 보안 체계를 공개했다. 제로 트러스트 아키텍처, 취약점 탐지 자동화, AI 기반 위협 대응 시스템 등 Google이 수십억 사용자를 보호하는 방법을 상세히 설명한다.",
+        "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/how-google-does-it-security-series/",
+        "source": "The Official Google Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-03-28T06:00:00+09:00",
+        "readTime": 6,
+        "imageGradient": 5
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_013",
+        "title": "바보야, 문제는 경계야 — AI 시대의 경계 설정",
+        "excerpt": "AI 시대에 진짜 문제는 기술의 한계가 아니라 경계(boundary)의 부재라는 주장. 개인, 조직, 사회 차원에서 명확한 경계를 설정하지 않으면 AI가 모든 것을 침범할 수 있다는 통찰을 담았다.",
+        "url": "https://news.hada.io/topic?id=27952",
+        "source": "GeekNews",
+        "category": "dev_tools",
+        "publishedAt": "2026-03-28T21:59:12+09:00",
+        "readTime": 6,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_014",
+        "title": "messagetolink: 서버에 기록 없는 Markdown 메시지 공유 도구",
+        "excerpt": "비밀번호, 접속 정보, 안내 메모 등 글 형태로 된 정보들을 누군가에게 전달할 때 링크 하나로 보낼 수 있습니다. 마크다운으로 메시지를 작성하면 전체 내용이 URL의 해시 프래그먼트(#)에 인코딩됩니다. 해시 프래그먼트는 서버로 전송되지 않으므로 서버에는 메시지 데이터가 일절 남지 않습니다. 비밀번호",
+        "url": "https://news.hada.io/topic?id=27949",
+        "source": "GeekNews",
+        "category": "dev_tools",
+        "publishedAt": "2026-03-28T16:49:55+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      }
+    ],
+    "big_tech": [],
+    "twitter_pulse": [
+      {
+        "id": "tweet_karpathy",
+        "author": "Andrej Karpathy",
+        "handle": "karpathy",
+        "content": "블로그 초안을 작성하고 LLM으로 4시간 동안 논리를 개선했다. 설득력이 대단했다! 재미로 반대 주장을 요청했더니... LLM이 내 논리를 완전히 논파하며 반대가 사실이라고 확신시켰다. LLM에는 자아(ego)가 없다. 그냥 최적화할 뿐.",
+        "url": "https://x.com/karpathy/status/2037921699824607591",
+        "publishedAt": "2026-03-28T15:56:10.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_sama",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "미시간 스타게이트 사이트에서 이번 주 Oracle·Related Digital과 함께 첫 번째 철골 빔이 세워졌다.",
+        "url": "https://x.com/sama/status/2037610000122839116",
+        "publishedAt": "2026-03-27T19:17:35.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_gdb",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "Codex 사용 사례는 Skills과 같다. 단지 인간을 위한 것일 뿐.",
+        "url": "https://x.com/gdb/status/2037732675897770123",
+        "publishedAt": "2026-03-28T03:25:03.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_lydiahallie",
+        "author": "Lydia Hallie",
+        "handle": "lydiahallie",
+        "content": "Claude Code에 훅(Hook)의 `if` 필드가 추가됐다. 권한 규칙 문법을 사용해 훅이 실행될 조건을 필터링한다. 모든 bash 명령이 아니라 일부에만 훅을 적용하고 싶을 때 유용하다.",
+        "url": "https://x.com/lydiahallie/status/2037573738670297583",
+        "publishedAt": "2026-03-27T16:53:30.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_felixrieseberg_1",
+        "author": "Felix Rieseberg",
+        "handle": "felixrieseberg",
+        "content": "Claude Code가 이제 PowerShell을 네이티브로 지원한다! 작은 기능 업데이트지만 흥분된다.",
+        "url": "https://x.com/felixrieseberg/status/2037591709765545985",
+        "publishedAt": "2026-03-27T18:04:54.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_felixrieseberg_2",
+        "author": "Felix Rieseberg",
+        "handle": "felixrieseberg",
+        "content": "오늘 Cowork에서 ECONNRESET 오류를 경험하셨다면 죄송합니다! 근본 원인을 찾아 수정을 배포했습니다. 48시간의 추적 끝에 언제나처럼 'DNS 문제'였습니다.",
+        "url": "https://x.com/felixrieseberg/status/2037581995791008254",
+        "publishedAt": "2026-03-27T17:26:18.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_OpenAIDevs",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "실제 업무를 수행하는 음성 에이전트를 만들어 보세요. 싱가포르 건강 클리닉의 gpt-realtime-1.5 기반 접수 담당 데모를 구축했습니다. 환자와 자연스럽게 대화하고, 정보를 수집하고, 실시간으로 예약을 잡습니다.",
+        "url": "https://x.com/OpenAIDevs/status/2037658400004477278",
+        "publishedAt": "2026-03-27T22:29:55.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_ClaudeCodeLog",
+        "author": "Claude Code Changelog",
+        "handle": "ClaudeCodeLog",
+        "content": "Claude Code 2.1.86이 출시됐습니다. 26개의 CLI 변경 사항과 5개의 시스템 프롬프트 변경 사항. 주요 내용: 프록시가 요청 본문 파싱 없이 세션을 그룹화할 수 있도록 X-Claude-Code-Session-Id 헤더 추가, 에스컬레이션 전 진단/수정 시도를 요구하는 debug-before-escalate 규칙 추가.",
+        "url": "https://x.com/ClaudeCodeLog/status/2037653369305628847",
+        "publishedAt": "2026-03-27T22:09:55.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "reddit_pulse": [],
+    "community_pulse": [
+      {
+        "id": "dc_1076700",
+        "title": "테렌스 타오 5.4pro로 논문에 필요한 수학적 증명 도움을 받음",
+        "url": "https://gall.dcinside.com/mgallery/board/view/?id=thesingularity&no=1076700",
+        "recommend": 12,
+        "views": 352,
+        "publishedAt": "2026-03-29T00:04:00+09:00"
+      },
+      {
+        "id": "dc_1076497",
+        "title": "GPT-5.4, USAMO에서 95점",
+        "url": "https://gall.dcinside.com/mgallery/board/view/?id=thesingularity&no=1076497",
+        "recommend": 24,
+        "views": 1290,
+        "publishedAt": "2026-03-28T23:00:00+09:00"
+      },
+      {
+        "id": "dc_1076405",
+        "title": "\"레이 커즈와일은 사짜 사기꾼. 특이점은 30만년은 더 걸릴 것\"",
+        "url": "https://gall.dcinside.com/mgallery/board/view/?id=thesingularity&no=1076405",
+        "recommend": 46,
+        "views": 4555,
+        "publishedAt": "2026-03-28T20:00:00+09:00"
+      },
+      {
+        "id": "dc_1076226",
+        "title": "김대식 교수 \"인간은 진화적으로 세상을 선형으로 해석한다\"",
+        "url": "https://gall.dcinside.com/mgallery/board/view/?id=thesingularity&no=1076226",
+        "recommend": 30,
+        "views": 3847,
+        "publishedAt": "2026-03-28T18:00:00+09:00"
+      },
+      {
+        "id": "dc_1075868",
+        "title": "앤트로픽 곧 큰 거 온다 카더라 모음",
+        "url": "https://gall.dcinside.com/mgallery/board/view/?id=thesingularity&no=1075868",
+        "recommend": 33,
+        "views": 5279,
+        "publishedAt": "2026-03-28T17:00:00+09:00"
+      },
+      {
+        "id": "dc_1075667",
+        "title": "수노 SUNO 5.5) 한국어 랩",
+        "url": "https://gall.dcinside.com/mgallery/board/view/?id=thesingularity&no=1075667",
+        "recommend": 26,
+        "views": 3121,
+        "publishedAt": "2026-03-28T14:00:00+09:00"
+      },
+      {
+        "id": "dc_1075651",
+        "title": "장문) arc agi 3 문제가 '범용 하네스'로 해결된다는건...",
+        "url": "https://gall.dcinside.com/mgallery/board/view/?id=thesingularity&no=1075651",
+        "recommend": 30,
+        "views": 1915,
+        "publishedAt": "2026-03-28T13:30:00+09:00"
+      },
+      {
+        "id": "dc_1075641",
+        "title": "(속보) 한국도 씨댄스 풀렸다.",
+        "url": "https://gall.dcinside.com/mgallery/board/view/?id=thesingularity&no=1075641",
+        "recommend": 26,
+        "views": 6360,
+        "publishedAt": "2026-03-28T13:00:00+09:00"
+      },
+      {
+        "id": "dc_1075281",
+        "title": "[속보] 중국 AGI '통통' 깜짝 발표 (벌써 6살 수준)",
+        "url": "https://gall.dcinside.com/mgallery/board/view/?id=thesingularity&no=1075281",
+        "recommend": 23,
+        "views": 9066,
+        "publishedAt": "2026-03-27T22:00:00+09:00"
+      },
+      {
+        "id": "dc_1074991",
+        "title": "AI가 작성한 논문 인간 심사 통과..사상 첫 '네이처' 게재",
+        "url": "https://gall.dcinside.com/mgallery/board/view/?id=thesingularity&no=1074991",
+        "recommend": 32,
+        "views": 4782,
+        "publishedAt": "2026-03-27T20:00:00+09:00"
+      },
+      {
+        "id": "dc_1074802",
+        "title": "미 정부 '블랙리스트' 제동…법원, 앤트로픽 가처분 신청 인용",
+        "url": "https://gall.dcinside.com/mgallery/board/view/?id=thesingularity&no=1074802",
+        "recommend": 26,
+        "views": 3624,
+        "publishedAt": "2026-03-27T18:00:00+09:00"
+      },
+      {
+        "id": "dc_1074755",
+        "title": "구글 ㄹㅇ 양자컴퓨터 쓰고있나본데..?",
+        "url": "https://gall.dcinside.com/mgallery/board/view/?id=thesingularity&no=1074755",
+        "recommend": 14,
+        "views": 6884,
+        "publishedAt": "2026-03-27T17:30:00+09:00"
+      },
+      {
+        "id": "dc_1074626",
+        "title": "뇌를 투명화하기",
+        "url": "https://gall.dcinside.com/mgallery/board/view/?id=thesingularity&no=1074626",
+        "recommend": 21,
+        "views": 4064,
+        "publishedAt": "2026-03-27T16:00:00+09:00"
+      },
+      {
+        "id": "dc_1074619",
+        "title": "머스크) 다음 주에 그록 이매진 대작 출시 예정",
+        "url": "https://gall.dcinside.com/mgallery/board/view/?id=thesingularity&no=1074619",
+        "recommend": 20,
+        "views": 3286,
+        "publishedAt": "2026-03-27T15:30:00+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_003",
+        "title": "How a Bill Gates-Backed Company Landed in a Fight Between Congo and Belgium",
+        "excerpt": "Article URL: Comments URL: Points: 1 # Comments: 0",
+        "url": "https://www.wsj.com/world/africa/congo-belgium-bill-gates-company-6d0e4be0",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-03-29T01:01:56+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_005",
+        "title": "Phos-Chek Fire Retardant",
+        "excerpt": "**Phos-Chek** is a brand of long-term[[1]]( retardants, class A foams, and gels manufactured by Perimeter Solutions, headquartered in Clayton, Missouri, United States.[[2]]( []( A Modular Airborne FireFighting System equipped C-130E Hercules from the",
+        "url": "https://en.wikipedia.org/wiki/Phos-Chek",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-03-29T00:54:55+09:00",
+        "readTime": 6,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_007",
+        "title": "When Coupled Volcanoes Talk, These Researchers Listen",
+        "excerpt": "Article URL: Comments URL: Points: 2 # Comments: 0",
+        "url": "https://www.quantamagazine.org/when-coupled-volcanoes-talk-these-researchers-listen-20260327/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-03-29T00:52:27+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_009",
+        "title": "당신의 기술(Skill)은 제값을 하고 있나요?",
+        "excerpt": "Article URL: Comments URL: Points: 2 # Comments: 0",
+        "url": "https://efexen.substack.com/p/does-your-skill-earn-its-keep",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-03-29T00:49:08+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_012",
+        "title": "KOCW 강의를 YouTube로 이관하는 오픈소스 프로젝트",
+        "excerpt": "KOCW에 있는 한국 대학 공개강의들을 비롯해 여러 강의를 YouTube에 올리는 프로젝트를 시작했습니다 목표는 접근성이 떨어지면서 재업로드해도 저작권 문제가 없는 국내 강의들을 아카이브하려고 합니다. KOCW 웹사이트에는 훌륭한 강의로 가득하지만, HTTPS를 미지원하며 모바일 환경 접속이 비교적 불",
+        "url": "https://news.hada.io/topic?id=27953",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-03-28T23:06:44+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_015",
+        "title": "macOS 26을 일관되게 나쁘게 만들기 (UX 비판)",
+        "excerpt": "MacOS 26에서는 창 모서리의 불일치와 과도한 둥근 디자인 이 주요 문제로 지적됨 일부 사용자는 System Integrity Protection(SIP) 을 비활성화해 시스템 루트 접근 후 수정 작업을 수행함 작성자는 기존 해킹 코드를 수정해 모든 창의 모서리를 ...",
+        "url": "https://news.hada.io/topic?id=27948",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-03-28T16:33:09+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_017",
+        "title": "고양이와 함께하는 재택근무를 위한 특별 책상 디자인",
+        "excerpt": "Title: 고양이와 함께 재택근무하는 사람을 위한 책상 URL Source: Published Time: 2026-03-28T12:33:02+09:00 Markdown Content: # 고양이와 함께 재택근무하는 사람을 위한 책상 | GeekNews GeekNews최신글댓글예전글AskShowGN⁺Weekly | 글등록 로그인 ▲;) # 고양이와 함께 재",
+        "url": "https://news.hada.io/topic?id=27945",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-03-28T12:33:02+09:00",
+        "readTime": 6,
+        "imageGradient": 0
+      }
+    ]
+  }
+}
