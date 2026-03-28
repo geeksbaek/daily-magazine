@@ -12,7 +12,7 @@ export default function Cover({ magazine, onReadIssue }: Props) {
   return (
     <section
       className="relative min-h-screen flex flex-col magazine-section"
-      style={{ backgroundColor: '#0A0A07' }}
+      style={{ backgroundColor: 'var(--cover-bg)' }}
     >
       {/* Subtle grain texture overlay */}
       <div
@@ -29,7 +29,7 @@ export default function Cover({ magazine, onReadIssue }: Props) {
         <div className="flex items-center justify-between py-6 border-b border-white/10">
           <div className="flex items-baseline gap-4">
             <h1 className="font-serif font-black text-[28px] md:text-[36px] tracking-[-0.02em] text-white leading-none">
-              GEEK<span className="text-[#FF3355]">/</span>DAILY
+              GEEK<span style={{ color: 'var(--cover-accent)' }}>/</span>DAILY
             </h1>
             <span className="text-white/30 font-mono text-[11px] tracking-widest">
               TECH · CULTURE · CODE
@@ -49,8 +49,9 @@ export default function Cover({ magazine, onReadIssue }: Props) {
         <div className="flex-1 flex flex-col justify-center py-12 lg:py-16">
           <div className="max-w-[900px]">
             <div className="flex items-center gap-3 mb-5">
-              <div className="w-2 h-2 bg-[#FF3355] rounded-full" />
-              <span className="text-[#FF3355] font-mono text-[10px] tracking-[0.3em] uppercase">
+              <div className="w-2 h-2 rounded-full" style={{ backgroundColor: 'var(--cover-accent)' }} />
+              <span className="font-mono text-[10px] tracking-[0.3em] uppercase"
+                style={{ color: 'var(--cover-accent)' }}>
                 Today's Lead Story
               </span>
             </div>
@@ -94,8 +95,10 @@ export default function Cover({ magazine, onReadIssue }: Props) {
               <span className="font-mono text-[11px] tracking-[0.2em] uppercase">Read Issue</span>
               <div className="flex items-center gap-1">
                 <div className="w-6 h-[1px] bg-white/40 group-hover:w-10 transition-all duration-300" />
-                <svg width="8" height="12" viewBox="0 0 8 12" fill="none" className="text-white/40 group-hover:text-white transition-colors">
-                  <path d="M1 1l6 5-6 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                <svg width="8" height="12" viewBox="0 0 8 12" fill="none"
+                  className="text-white/40 group-hover:text-white transition-colors">
+                  <path d="M1 1l6 5-6 5" stroke="currentColor" strokeWidth="1.5"
+                    strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </div>
             </button>

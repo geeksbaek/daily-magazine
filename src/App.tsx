@@ -15,7 +15,7 @@ const BASE = import.meta.env.BASE_URL
 type View = 'magazine' | 'archive'
 
 export default function App() {
-  const { theme, toggle } = useTheme()
+  const { themeId, setTheme } = useTheme()
   const [view, setView] = useState<View>('magazine')
   const [magazine, setMagazine] = useState<Magazine | null>(null)
   const [archiveIndex, setArchiveIndex] = useState<ArchiveIndex | null>(null)
@@ -30,7 +30,6 @@ export default function App() {
         if (!idxRes.ok) throw new Error('Archive index not found')
         const idx: ArchiveIndex = await idxRes.json()
         setArchiveIndex(idx)
-
         if (idx.issues.length > 0) {
           const latest = idx.issues[0]
           setCurrentDate(latest.date)
@@ -69,31 +68,22 @@ export default function App() {
 
   const handleReadIssue = () => {
     const el = document.getElementById('highlights')
-    if (el) {
-      window.scrollTo({ top: el.offsetTop - 72, behavior: 'smooth' })
-    }
+    if (el) window.scrollTo({ top: el.offsetTop - 72, behavior: 'smooth' })
   }
 
   if (loading) {
     return (
-      <div
-        className="min-h-screen flex items-center justify-center"
-        style={{ backgroundColor: 'var(--bg)' }}
-      >
+      <div className="min-h-screen flex items-center justify-center"
+        style={{ backgroundColor: 'var(--bg)' }}>
         <div className="text-center">
-          <div
-            className="font-serif font-black text-[24px] mb-6"
-            style={{ color: 'var(--text)', letterSpacing: '-0.02em' }}
-          >
+          <div className="font-serif font-black text-[24px] mb-6"
+            style={{ color: 'var(--text)', letterSpacing: '-0.02em' }}>
             GEEK<span style={{ color: 'var(--accent)' }}>/</span>DAILY
           </div>
           <div className="flex items-center gap-2 justify-center">
             {[0, 150, 300].map(delay => (
-              <div
-                key={delay}
-                className="w-1.5 h-1.5 rounded-full animate-bounce"
-                style={{ backgroundColor: 'var(--accent)', animationDelay: `${delay}ms` }}
-              />
+              <div key={delay} className="w-1.5 h-1.5 rounded-full animate-bounce"
+                style={{ backgroundColor: 'var(--accent)', animationDelay: `${delay}ms` }} />
             ))}
           </div>
         </div>
@@ -103,25 +93,18 @@ export default function App() {
 
   if (error) {
     return (
-      <div
-        className="min-h-screen flex items-center justify-center"
-        style={{ backgroundColor: 'var(--bg)' }}
-      >
+      <div className="min-h-screen flex items-center justify-center"
+        style={{ backgroundColor: 'var(--bg)' }}>
         <div className="text-center max-w-sm px-6">
-          <div
-            className="font-serif font-black text-[24px] mb-6"
-            style={{ color: 'var(--text)', letterSpacing: '-0.02em' }}
-          >
+          <div className="font-serif font-black text-[24px] mb-6"
+            style={{ color: 'var(--text)', letterSpacing: '-0.02em' }}>
             GEEK<span style={{ color: 'var(--accent)' }}>/</span>DAILY
           </div>
           <p className="text-[14px] mb-4 font-sans" style={{ color: 'var(--text-secondary)' }}>
             {error}
           </p>
-          <button
-            onClick={() => window.location.reload()}
-            className="text-[12px] font-mono underline"
-            style={{ color: 'var(--accent)' }}
-          >
+          <button onClick={() => window.location.reload()}
+            className="text-[12px] font-mono underline" style={{ color: 'var(--accent)' }}>
             다시 시도
           </button>
         </div>
@@ -135,8 +118,8 @@ export default function App() {
         <MagazineNav
           date={currentDate}
           issueNumber={magazine.issueNumber}
-          theme={theme}
-          onToggleTheme={toggle}
+          themeId={themeId}
+          onSetTheme={setTheme}
           onShowArchive={() => setView('archive')}
         />
       )}
@@ -155,30 +138,19 @@ export default function App() {
           )}
           <Highlights articles={magazine.highlights} />
           <NewsSection
-            id="ai-ml"
-            number="02"
-            title="AI & Machine Learning"
-            subtitle="인공지능 · 머신러닝"
-            articles={magazine.sections.ai_ml}
-            accentColor="#7C3AED"
-            bgAlternate
+            id="ai-ml" number="02" title="AI & Machine Learning"
+            subtitle="인공지능 · 머신러닝" articles={magazine.sections.ai_ml}
+            accentColor="#7C3AED" bgAlternate
           />
           <NewsSection
-            id="dev-tools"
-            number="03"
-            title="Developer Tools"
-            subtitle="개발 도구 · 플랫폼"
-            articles={magazine.sections.dev_tools}
+            id="dev-tools" number="03" title="Developer Tools"
+            subtitle="개발 도구 · 플랫폼" articles={magazine.sections.dev_tools}
             accentColor="#0891B2"
           />
           <NewsSection
-            id="big-tech"
-            number="04"
-            title="Big Tech"
-            subtitle="빅테크 · 산업 동향"
-            articles={magazine.sections.big_tech}
-            accentColor="#1D4ED8"
-            bgAlternate
+            id="big-tech" number="04" title="Big Tech"
+            subtitle="빅테크 · 산업 동향" articles={magazine.sections.big_tech}
+            accentColor="#1D4ED8" bgAlternate
           />
           <TwitterPulse tweets={magazine.sections.twitter_pulse} />
           <QuickBites articles={magazine.sections.quick_bites} />

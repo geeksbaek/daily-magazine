@@ -1,11 +1,13 @@
 import { useEffect, useState } from 'react'
 import { formatIssueDate } from '../utils/format'
+import ThemeSwitcher from './ThemeSwitcher'
+import type { ThemeId } from '../hooks/useTheme'
 
 interface Props {
   date: string
   issueNumber: number
-  theme: 'light' | 'dark'
-  onToggleTheme: () => void
+  themeId: ThemeId
+  onSetTheme: (id: ThemeId) => void
   onShowArchive: () => void
 }
 
@@ -18,7 +20,7 @@ const SECTIONS = [
   { id: 'quick-bites', label: 'Quick Bites' },
 ]
 
-export default function MagazineNav({ date, issueNumber, theme, onToggleTheme, onShowArchive }: Props) {
+export default function MagazineNav({ date, issueNumber, themeId, onSetTheme, onShowArchive }: Props) {
   const [activeSection, setActiveSection] = useState('')
   const [scrolled, setScrolled] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
@@ -26,13 +28,10 @@ export default function MagazineNav({ date, issueNumber, theme, onToggleTheme, o
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 60)
-
-      // Track active section
       const sectionEls = SECTIONS.map(s => ({
         id: s.id,
         el: document.getElementById(s.id),
       })).filter(s => s.el)
-
       const scrollPos = window.scrollY + 120
       let current = ''
       for (const { id, el } of sectionEls) {
@@ -40,17 +39,13 @@ export default function MagazineNav({ date, issueNumber, theme, onToggleTheme, o
       }
       setActiveSection(current)
     }
-
     window.addEventListener('scroll', handleScroll, { passive: true })
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
   const scrollTo = (id: string) => {
     const el = document.getElementById(id)
-    if (el) {
-      const top = el.offsetTop - 72
-      window.scrollTo({ top, behavior: 'smooth' })
-    }
+    if (el) window.scrollTo({ top: el.offsetTop - 72, behavior: 'smooth' })
     setMenuOpen(false)
   }
 
@@ -72,24 +67,16 @@ export default function MagazineNav({ date, issueNumber, theme, onToggleTheme, o
       <div className="max-w-[1440px] mx-auto px-6 lg:px-10">
         <div className="flex items-center justify-between h-[60px]">
           {/* Logo */}
-          <button
-            onClick={scrollToCover}
-            className="flex items-center gap-3 shrink-0"
-          >
+          <button onClick={scrollToCover} className="flex items-center gap-3 shrink-0">
             <span
               className="font-serif font-black text-[18px] tracking-[-0.02em] leading-none"
               style={{ color: 'var(--text)' }}
             >
-              GEEK
-              <span style={{ color: 'var(--accent)' }}>/</span>
-              DAILY
+              GEEK<span style={{ color: 'var(--accent)' }}>/</span>DAILY
             </span>
             <span
               className="hidden sm:block text-[10px] font-mono tracking-widest border px-1.5 py-0.5"
-              style={{
-                color: 'var(--text-muted)',
-                borderColor: 'var(--border)',
-              }}
+              style={{ color: 'var(--text-muted)', borderColor: 'var(--border)' }}
             >
               #{String(issueNumber).padStart(3, '0')}
             </span>
@@ -113,9 +100,9 @@ export default function MagazineNav({ date, issueNumber, theme, onToggleTheme, o
           </div>
 
           {/* Right controls */}
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-1">
             <span
-              className="hidden md:block text-[11px] font-mono"
+              className="hidden md:block text-[11px] font-mono mr-1"
               style={{ color: 'var(--text-muted)' }}
             >
               {formatIssueDate(date)}
@@ -134,31 +121,8 @@ export default function MagazineNav({ date, issueNumber, theme, onToggleTheme, o
               아카이브
             </button>
 
-            {/* Theme toggle */}
-            <button
-              onClick={onToggleTheme}
-              className="w-8 h-8 flex items-center justify-center transition-colors"
-              style={{ color: 'var(--text-secondary)' }}
-              title={theme === 'dark' ? '라이트 모드' : '다크 모드'}
-            >
-              {theme === 'dark' ? (
-                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                  <circle cx="8" cy="8" r="3.5" stroke="currentColor" strokeWidth="1.2"/>
-                  <line x1="8" y1="1" x2="8" y2="2.5" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round"/>
-                  <line x1="8" y1="13.5" x2="8" y2="15" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round"/>
-                  <line x1="1" y1="8" x2="2.5" y2="8" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round"/>
-                  <line x1="13.5" y1="8" x2="15" y2="8" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round"/>
-                  <line x1="3.05" y1="3.05" x2="4.11" y2="4.11" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round"/>
-                  <line x1="11.89" y1="11.89" x2="12.95" y2="12.95" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round"/>
-                  <line x1="3.05" y1="12.95" x2="4.11" y2="11.89" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round"/>
-                  <line x1="11.89" y1="4.11" x2="12.95" y2="3.05" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round"/>
-                </svg>
-              ) : (
-                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                  <path d="M13.5 9.5A6 6 0 0 1 6.5 2.5a6 6 0 1 0 7 7z" stroke="currentColor" strokeWidth="1.2" strokeLinejoin="round"/>
-                </svg>
-              )}
-            </button>
+            {/* Theme switcher */}
+            <ThemeSwitcher themeId={themeId} onSetTheme={onSetTheme} />
 
             {/* Mobile menu toggle */}
             <button
@@ -187,10 +151,7 @@ export default function MagazineNav({ date, issueNumber, theme, onToggleTheme, o
       {menuOpen && (
         <div
           className="lg:hidden border-t"
-          style={{
-            backgroundColor: 'var(--bg-surface)',
-            borderColor: 'var(--border)',
-          }}
+          style={{ backgroundColor: 'var(--bg-surface)', borderColor: 'var(--border)' }}
         >
           <div className="max-w-[1440px] mx-auto px-6 py-3 flex flex-col gap-0">
             {SECTIONS.map(s => (

@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @layer base {
+  /* ── Default (Classic) ─────────────────────────────────────────── */
   :root {
     --bg: #FAFAF7;
     --bg-surface: #FFFFFF;
@@ -14,8 +15,92 @@
     --border-strong: #C8C8BA;
     --accent: #C8102E;
     --accent-hover: #A80D26;
+    --cover-bg: #0A0A07;
+    --cover-accent: #FF3355;
   }
 
+  /* ── Theme 1: Classic (크래식) ─────────────────────────────────── */
+  html.theme-classic {
+    --bg: #FAFAF7;
+    --bg-surface: #FFFFFF;
+    --bg-raised: #F4F4EE;
+    --text: #1A1A14;
+    --text-secondary: #5C5B4C;
+    --text-muted: #A8A898;
+    --border: #E2E2D8;
+    --border-strong: #C8C8BA;
+    --accent: #C8102E;
+    --accent-hover: #A80D26;
+    --cover-bg: #0A0A07;
+    --cover-accent: #FF3355;
+  }
+
+  /* ── Theme 2: Dark (다크) ──────────────────────────────────────── */
+  html.theme-dark {
+    --bg: #0E0E0A;
+    --bg-surface: #161612;
+    --bg-raised: #1E1E18;
+    --text: #F0F0E8;
+    --text-secondary: #A8A898;
+    --text-muted: #5C5B4C;
+    --border: #2A2A22;
+    --border-strong: #3A3A30;
+    --accent: #FF3355;
+    --accent-hover: #FF5577;
+    --cover-bg: #050504;
+    --cover-accent: #FF3355;
+  }
+
+  /* ── Theme 3: Terminal (터미널) ────────────────────────────────── */
+  html.theme-terminal {
+    --bg: #080808;
+    --bg-surface: #0F0F0F;
+    --bg-raised: #141414;
+    --text: #C8FFDC;
+    --text-secondary: #5CBF80;
+    --text-muted: #2A5C40;
+    --border: #0F2A1C;
+    --border-strong: #1A4028;
+    --accent: #00FF85;
+    --accent-hover: #00CC6A;
+    --cover-bg: #030303;
+    --cover-accent: #00FF85;
+  }
+
+  /* ── Theme 4: Sepia (세피아) ───────────────────────────────────── */
+  html.theme-sepia {
+    --bg: #F6F0E4;
+    --bg-surface: #FDFAF3;
+    --bg-raised: #EDE4D2;
+    --text: #2C1D0E;
+    --text-secondary: #6B4C30;
+    --text-muted: #A88C6A;
+    --border: #D6C4A0;
+    --border-strong: #BCA878;
+    --accent: #C05800;
+    --accent-hover: #9A4600;
+    --cover-bg: #180D07;
+    --cover-accent: #F09000;
+  }
+
+  /* ── Theme 5: Cyber (사이버) ───────────────────────────────────── */
+  html.theme-cyber {
+    --bg: #060818;
+    --bg-surface: #0A0E28;
+    --bg-raised: #0F1535;
+    --text: #D0E8FF;
+    --text-secondary: #5888B8;
+    --text-muted: #2A3E58;
+    --border: #122040;
+    --border-strong: #1C3058;
+    --accent: #00D4FF;
+    --accent-hover: #00AADD;
+    --cover-bg: #020510;
+    --cover-accent: #00D4FF;
+  }
+
+  /* ── Tailwind dark utilities compat ────────────────────────────── */
+  /* Applied alongside dark themes for dark: utilities in components  */
   .dark {
     --bg: #0E0E0A;
     --bg-surface: #161612;
@@ -27,6 +112,17 @@
     --border-strong: #3A3A30;
     --accent: #FF3355;
     --accent-hover: #FF5577;
+  }
+
+  /* Terminal theme overrides: monospace font throughout */
+  html.theme-terminal body {
+    font-family: 'DM Mono', monospace;
+    letter-spacing: 0.01em;
+  }
+  html.theme-terminal .font-serif {
+    font-family: 'DM Mono', monospace !important;
+    font-weight: 700 !important;
+    letter-spacing: -0.02em;
   }
 
   html {
