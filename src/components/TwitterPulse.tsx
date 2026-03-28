@@ -76,7 +76,7 @@ function TweetCard({ tweet }: { tweet: Tweet }) {
       </p>
 
       {/* Metrics */}
-      {tweet.metrics && (
+      {tweet.metrics && (tweet.metrics.likes > 0 || tweet.metrics.retweets > 0 || tweet.metrics.replies > 0) && (
         <div className="flex items-center gap-4 mt-3 pt-3 border-t" style={{ borderColor: 'var(--border)' }}>
           <span className="flex items-center gap-1 text-[11px] font-mono" style={{ color: 'var(--text-muted)' }}>
             <svg width="12" height="12" viewBox="0 0 12 12" fill="none">

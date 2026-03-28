@@ -40,12 +40,12 @@ export default function QuickBites({ articles }: Props) {
 
         {/* Footer */}
         <div
-          className="mt-12 pt-8 border-t flex items-center justify-between"
+          className="mt-12 pt-8 border-t flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 sm:gap-0"
           style={{ borderColor: 'var(--border)' }}
         >
-          <div className="flex items-baseline gap-3">
+          <div className="flex items-baseline gap-3 flex-wrap">
             <span
-              className="font-serif font-black text-[20px] tracking-[-0.02em]"
+              className="font-serif font-black text-[18px] sm:text-[20px] tracking-[-0.02em]"
               style={{ color: 'var(--text)' }}
             >
               GEEK<span style={{ color: 'var(--accent)' }}>/</span>DAILY
