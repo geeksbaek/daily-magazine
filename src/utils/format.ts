@@ -23,12 +23,13 @@ export function formatIssueDate(dateStr: string): string {
 }
 
 export function timeAgo(isoString: string): string {
-  const now = new Date('2026-03-28T15:00:00Z')
+  const now = new Date()
   const past = new Date(isoString)
   const diffMs = now.getTime() - past.getTime()
   const diffMins = Math.floor(diffMs / 60000)
   const diffHours = Math.floor(diffMins / 60)
 
+  if (diffMins < 1) return '방금 전'
   if (diffMins < 60) return `${diffMins}분 전`
   if (diffHours < 24) return `${diffHours}시간 전`
   return `${Math.floor(diffHours / 24)}일 전`

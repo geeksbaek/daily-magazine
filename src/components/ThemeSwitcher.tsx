@@ -38,7 +38,7 @@ export default function ThemeSwitcher({ themeId, onSetTheme }: Props) {
 
       {open && (
         <div className="absolute right-0 top-full mt-1 border shadow-xl z-50 py-1 min-w-[160px]"
-          style={{ backgroundColor: 'var(--bg-surface)', borderColor: 'var(--border)', borderRadius: themeId === 'brutalist' ? 0 : '8px' }}>
+          style={{ backgroundColor: 'var(--bg-surface)', borderColor: 'var(--border)', borderRadius: '8px' }}>
           {THEMES.map(t => {
             const active = themeId === t.id
             return (
@@ -50,7 +50,7 @@ export default function ThemeSwitcher({ themeId, onSetTheme }: Props) {
                   color: active ? 'var(--text)' : 'var(--text-secondary)',
                 }}>
                 <div className="w-4 h-4 overflow-hidden flex-shrink-0 border"
-                  style={{ borderColor: 'var(--border-strong)', borderRadius: t.id === 'brutalist' ? 0 : '3px' }}>
+                  style={{ borderColor: 'var(--border-strong)', borderRadius: '3px' }}>
                   <div className="w-full h-full flex">
                     <div style={{ backgroundColor: t.bg, flex: 1 }} />
                     <div style={{ backgroundColor: t.accent, width: '5px' }} />
