@@ -1,340 +1,631 @@
 {
   "date": "2026-03-29",
   "issueNumber": 2,
-  "generatedAt": "2026-03-29T20:13:05.352130+09:00",
   "cover": {
-    "mainHeadline": "Bluesky leans into AI with Attie, an app for building custom feeds",
-    "mainExcerpt": "Bluesky’s new app Attie uses AI to help people build custom feeds the open social networking protocol atproto.",
-    "mainUrl": "https://techcrunch.com/2026/03/28/bluesky-leans-into-ai-with-attie-an-app-for-building-custom-feeds/",
+    "mainHeadline": "Microsoft Launches Azure Copilot Migration Agent to Accelerate Cloud Migration Planning",
+    "mainExcerpt": "Title: Microsoft Launches Azure Copilot Migration Agent to Accelerate Cloud Migration Planning\n\nURL Source: https://www.infoq.com/news/2026/03/azure-copilot-migration-agent/?+Data+Engineering=\n\nPublis",
     "headlines": [
-      {
-        "title": "Mark Zuckerberg texted Elon Musk to offer help with DOGE",
-        "url": "https://techcrunch.com/2026/03/28/mark-zuckerberg-texted-elon-musk-to-offer-help-with-doge/",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Stanford study outlines dangers of asking AI chatbots for personal advice",
-        "url": "https://techcrunch.com/2026/03/28/stanford-study-outlines-dangers-of-asking-ai-chatbots-for-personal-advice/",
-        "source": "TechCrunch"
-      },
-      {
-        "title": "Elon Musk’s last co-founder reportedly leaves xAI",
-        "url": "https://techcrunch.com/2026/03/28/elon-musks-last-co-founder-reportedly-leaves-xai/",
-        "source": "TechCrunch"
-      }
+      "ProxySQL Introduces Multi-Tier Release Strategy With Stable, Innovative, and AI Tracks",
+      "Teleport Report Finds Over-Privileged AI Systems Linked to Fourfold Rise in Security Incidents",
+      "Lat.md: Agent Lattice: a knowledge graph for your codebase, written in Markdown"
     ]
   },
   "highlights": [
     {
+      "id": "c8b7cceaedec",
+      "title": "Microsoft Launches Azure Copilot Migration Agent to Accelerate Cloud Migration Planning",
+      "excerpt": "Title: Microsoft Launches Azure Copilot Migration Agent to Accelerate Cloud Migration Planning\n\nURL Source: https://www.infoq.com/news/2026/03/azure-copilot-migration-agent/?+Data+Engineering=\n\nPublished Time: 2026-03-29T10:00:00+0000\n\nMarkdown Conte",
+      "url": "https://www.infoq.com/news/2026/03/azure-copilot-migration-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-03-29T19:00:00+09:00",
+      "readTime": 3,
+      "imageGradient": 0
+    },
+    {
+      "id": "bd85a907b79f",
+      "title": "ProxySQL Introduces Multi-Tier Release Strategy With Stable, Innovative, and AI Tracks",
+      "excerpt": "Title: ProxySQL Introduces Multi-Tier Release Strategy With Stable, Innovative, and AI Tracks\n\nURL Source: https://www.infoq.com/news/2026/03/proxysql-multi-tier-release/?+Data+Engineering=\n\nPublished Time: 2026-03-29T07:03:00+0000\n\nMarkdown Content:",
+      "url": "https://www.infoq.com/news/2026/03/proxysql-multi-tier-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-03-29T16:03:00+09:00",
+      "readTime": 3,
+      "imageGradient": 1
+    },
+    {
+      "id": "400b282c36d5",
+      "title": "Teleport Report Finds Over-Privileged AI Systems Linked to Fourfold Rise in Security Incidents",
+      "excerpt": "Title: Teleport Report Finds Over-Privileged AI Systems Linked to Fourfold Rise in Security Incidents\n\nURL Source: https://www.infoq.com/news/2026/03/teleport-ai-report/?+Data+Engineering=\n\nPublished Time: 2026-03-28T21:00:00+0000\n\nMarkdown Content:\n",
+      "url": "https://www.infoq.com/news/2026/03/teleport-ai-report/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-03-29T06:00:00+09:00",
+      "readTime": 3,
+      "imageGradient": 2
+    },
+    {
+      "id": "064ef0fe95b3",
+      "title": "Lat.md: Agent Lattice: a knowledge graph for your codebase, written in Markdown",
+      "excerpt": "Title: GitHub - 1st1/lat.md: Agent Lattice: a knowledge graph for your codebase, written in markdown. URL Source: https://github.com/1st1/lat.md\n\nMarkdown Content:\n# GitHub - 1st1/lat.md: Agent Lattice: a knowledge graph for your codebase, written in",
+      "url": "https://github.com/1st1/lat.md",
+      "source": "Hacker News",
+      "category": "dev_tools",
+      "publishedAt": "2026-03-29T17:59:52+09:00",
+      "readTime": 4,
+      "imageGradient": 0
+    },
+    {
+      "id": "04c21ce622d3",
       "title": "Bluesky leans into AI with Attie, an app for building custom feeds",
+      "excerpt": "Bluesky’s new app Attie uses AI to help people build custom feeds the open social networking protocol atproto.",
       "url": "https://techcrunch.com/2026/03/28/bluesky-leans-into-ai-with-attie-an-app-for-building-custom-feeds/",
       "source": "TechCrunch",
-      "summary": "Bluesky’s new app Attie uses AI to help people build custom feeds the open social networking protocol atproto.",
       "category": "big_tech",
-      "publishedAt": "2026-03-29T08:00:00+09:00"
-    },
-    {
-      "title": "Mark Zuckerberg texted Elon Musk to offer help with DOGE",
-      "url": "https://techcrunch.com/2026/03/28/mark-zuckerberg-texted-elon-musk-to-offer-help-with-doge/",
-      "source": "TechCrunch",
-      "summary": "While the relationship was once thorny enough that Musk challenged Zuckerberg to a cagefight, things seem to have warmed up by the early days of the second Trump administration.",
-      "category": "big_tech",
-      "publishedAt": "2026-03-29T06:23:58+09:00"
-    },
-    {
-      "title": "Stanford study outlines dangers of asking AI chatbots for personal advice",
-      "url": "https://techcrunch.com/2026/03/28/stanford-study-outlines-dangers-of-asking-ai-chatbots-for-personal-advice/",
-      "source": "TechCrunch",
-      "summary": "While there’s been plenty of debate about AI sycophancy, a new study by Stanford computer scientists attempts to measure how harmful that tendency might be.",
-      "category": "big_tech",
-      "publishedAt": "2026-03-29T05:45:54+09:00"
-    },
-    {
-      "title": "Elon Musk’s last co-founder reportedly leaves xAI",
-      "url": "https://techcrunch.com/2026/03/28/elon-musks-last-co-founder-reportedly-leaves-xai/",
-      "source": "TechCrunch",
-      "summary": "All but two of Musk's 11 xAI co-founders departed before this week.",
-      "category": "big_tech",
-      "publishedAt": "2026-03-29T01:11:16+09:00"
-    },
-    {
-      "title": "These iPad apps will make you wish you had more free time",
-      "url": "https://techcrunch.com/2026/03/28/best-ipad-apps-for-unleashing-and-exploring-your-creativity/",
-      "source": "TechCrunch",
-      "summary": "We’ve compiled a list of some of the best iPad apps for creativity that are available on the App Store.",
-      "category": "big_tech",
-      "publishedAt": "2026-03-29T01:00:00+09:00"
+      "publishedAt": "2026-03-29T08:00:00+09:00",
+      "readTime": 3,
+      "imageGradient": 0
     }
   ],
   "sections": {
-    "ai_ml": {
-      "title": "AI & 머신러닝",
-      "articles": [
-        {
-          "title": "Microsoft Launches Azure Copilot Migration Agent to Accelerate Cloud Migration Planning",
-          "url": "https://www.infoq.com/news/2026/03/azure-copilot-migration-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-          "source": "InfoQ AI",
-          "summary": "Microsoft has launched the Azure Copilot Migration Agent, an AI assistant built into the Azure portal that automates migration planning, agentless VMware discovery, and landing zone creation. Despite ",
-          "publishedAt": "2026-03-29T19:00:00+09:00"
-        },
-        {
-          "title": "ProxySQL Introduces Multi-Tier Release Strategy With Stable, Innovative, and AI Tracks",
-          "url": "https://www.infoq.com/news/2026/03/proxysql-multi-tier-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-          "source": "InfoQ AI",
-          "summary": "ProxySQL 3.0.6 was recently released, along with a new multi-tier release strategy. The Stable Tier focuses on reliability and production use, the Innovative Tier introduces newer features earlier, an",
-          "publishedAt": "2026-03-29T16:03:00+09:00"
-        },
-        {
-          "title": "Teleport Report Finds Over-Privileged AI Systems Linked to Fourfold Rise in Security Incidents",
-          "url": "https://www.infoq.com/news/2026/03/teleport-ai-report/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-          "source": "InfoQ AI",
-          "summary": "Enterprises that grant excessive access permissions to AI systems experience 4.5 times as many security incidents as those that do not, according to The 2026 State of AI in Enterprise Infrastructure S",
-          "publishedAt": "2026-03-29T06:00:00+09:00"
-        },
-        {
-          "title": "I tried this Shokz alternative for my runs, and the price-to-performance ratio surprised me",
-          "url": "https://www.zdnet.com/article/h20-audio-tri-run-headset-review/",
-          "source": "ZDNet AI",
-          "summary": "If you're curious about bone conduction technology, the H2O Audio Tri Run is a solid entry-level pair.",
-          "publishedAt": "2026-03-29T20:00:37+09:00"
-        },
-        {
-          "title": "Switching to Claude? Here's how to take your ChatGPT memories with you",
-          "url": "https://www.zdnet.com/article/switch-to-claude-ai-import-memories-preferences/",
-          "source": "ZDNet AI",
-          "summary": "A new Claude AI feature now lets you copy your memories and preferences from another AI so making the change is easier.",
-          "publishedAt": "2026-03-29T10:30:40+09:00"
+    "ai_ml": [
+      {
+        "id": "c8b7cceaedec",
+        "title": "Microsoft Launches Azure Copilot Migration Agent to Accelerate Cloud Migration Planning",
+        "excerpt": "Title: Microsoft Launches Azure Copilot Migration Agent to Accelerate Cloud Migration Planning\n\nURL Source: https://www.infoq.com/news/2026/03/azure-copilot-migration-agent/?+Data+Engineering=\n\nPublished Time: 2026-03-29T10:00:00+0000\n\nMarkdown Conte",
+        "url": "https://www.infoq.com/news/2026/03/azure-copilot-migration-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+        "source": "InfoQ AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-03-29T19:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "bd85a907b79f",
+        "title": "ProxySQL Introduces Multi-Tier Release Strategy With Stable, Innovative, and AI Tracks",
+        "excerpt": "Title: ProxySQL Introduces Multi-Tier Release Strategy With Stable, Innovative, and AI Tracks\n\nURL Source: https://www.infoq.com/news/2026/03/proxysql-multi-tier-release/?+Data+Engineering=\n\nPublished Time: 2026-03-29T07:03:00+0000\n\nMarkdown Content:",
+        "url": "https://www.infoq.com/news/2026/03/proxysql-multi-tier-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+        "source": "InfoQ AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-03-29T16:03:00+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "400b282c36d5",
+        "title": "Teleport Report Finds Over-Privileged AI Systems Linked to Fourfold Rise in Security Incidents",
+        "excerpt": "Title: Teleport Report Finds Over-Privileged AI Systems Linked to Fourfold Rise in Security Incidents\n\nURL Source: https://www.infoq.com/news/2026/03/teleport-ai-report/?+Data+Engineering=\n\nPublished Time: 2026-03-28T21:00:00+0000\n\nMarkdown Content:\n",
+        "url": "https://www.infoq.com/news/2026/03/teleport-ai-report/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+        "source": "InfoQ AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-03-29T06:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "8e52ac184050",
+        "title": "I tried this Shokz alternative for my runs, and the price-to-performance ratio surprised me",
+        "excerpt": "If you're curious about bone conduction technology, the H2O Audio Tri Run is a solid entry-level pair.",
+        "url": "https://www.zdnet.com/article/h20-audio-tri-run-headset-review/",
+        "source": "ZDNet AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-03-29T20:00:37+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "f8a7a090ef3b",
+        "title": "Switching to Claude? Here's how to take your ChatGPT memories with you",
+        "excerpt": "A new Claude AI feature now lets you copy your memories and preferences from another AI so making the change is easier.",
+        "url": "https://www.zdnet.com/article/switch-to-claude-ai-import-memories-preferences/",
+        "source": "ZDNet AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-03-29T10:30:40+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "66e22a798b62",
+        "title": "5 reasons you should be more tight-lipped with your chatbot (and how to fix past mistakes)",
+        "excerpt": "Your casual conversations with AI chatbots could have some major privacy implications.",
+        "url": "https://www.zdnet.com/article/5-reasons-you-should-be-more-tight-lipped-with-your-chatbot/",
+        "source": "ZDNet AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-03-29T10:00:37+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "064ef0fe95b3",
+        "title": "Lat.md: Agent Lattice: a knowledge graph for your codebase, written in Markdown",
+        "excerpt": "Title: GitHub - 1st1/lat.md: Agent Lattice: a knowledge graph for your codebase, written in markdown. URL Source: https://github.com/1st1/lat.md\n\nMarkdown Content:\n# GitHub - 1st1/lat.md: Agent Lattice: a knowledge graph for your codebase, written in",
+        "url": "https://github.com/1st1/lat.md",
+        "source": "Hacker News",
+        "category": "dev_tools",
+        "publishedAt": "2026-03-29T17:59:52+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "c8afecc59bca",
+        "title": "Solar is winning the energy race",
+        "excerpt": "Title: Solar is winning the energy race\n\nURL Source: https://www.dw.com/en/solar-is-winning-the-energy-race/a-76517556\n\nPublished Time: 2026-03-28T08:28:46.673Z\n\nMarkdown Content:\nSince the turn of the century, the expansion of solar power has surpas",
+        "url": "https://www.dw.com/en/solar-is-winning-the-energy-race/a-76517556",
+        "source": "Hacker News",
+        "category": "dev_tools",
+        "publishedAt": "2026-03-29T17:48:36+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "c05668d3bc32",
+        "title": "What if AI doesn't need more RAM but better math?",
+        "excerpt": "Title: @adlrocha - What if AI doesn’t need more RAM but better math? URL Source: https://adlrocha.substack.com/p/adlrocha-what-if-ai-doesnt-need-more\n\nPublished Time: 2026-03-29T08:03:03+00:00\n\nMarkdown Content:\n[![Image 1](https://substackcdn.com/im",
+        "url": "https://adlrocha.substack.com/p/adlrocha-what-if-ai-doesnt-need-more",
+        "source": "Hacker News",
+        "category": "dev_tools",
+        "publishedAt": "2026-03-29T17:18:55+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "0c01e15a3d91",
+        "title": "Show HN: Public transit systems as data – lines, stations, railcars, and history",
+        "excerpt": "Title: Transit Systems | Public Transit Information Database\n\nURL Source: https://publictransit.systems/\n\nMarkdown Content:\n## > Available Systems\n\n9 system s\n\n[## Light RailLink Baltimore, MD The Light RailLink is a light rail system operated by the",
+        "url": "https://publictransit.systems",
+        "source": "Hacker News",
+        "category": "dev_tools",
+        "publishedAt": "2026-03-29T16:38:58+09:00",
+        "readTime": 4,
+        "imageGradient": 3
+      },
+      {
+        "id": "a782c26e9114",
+        "title": "Alzheimer's disease mortality among taxi and ambulance drivers (2024)",
+        "excerpt": "Title: Alzheimer’s disease mortality among taxi and ambulance drivers: population based cross sectional study\n\nURL Source: https://www.bmj.com/content/387/bmj-2024-082194\n\nPublished Time: 2024-12-17\n\nMarkdown Content:\n1. [Research](https://www.bmj.co",
+        "url": "https://www.bmj.com/content/387/bmj-2024-082194",
+        "source": "Hacker News",
+        "category": "dev_tools",
+        "publishedAt": "2026-03-29T09:53:30+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "04c21ce622d3",
+        "title": "Bluesky leans into AI with Attie, an app for building custom feeds",
+        "excerpt": "Bluesky’s new app Attie uses AI to help people build custom feeds the open social networking protocol atproto.",
+        "url": "https://techcrunch.com/2026/03/28/bluesky-leans-into-ai-with-attie-an-app-for-building-custom-feeds/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-03-29T08:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "a805eb3e3e91",
+        "title": "Mark Zuckerberg texted Elon Musk to offer help with DOGE",
+        "excerpt": "While the relationship was once thorny enough that Musk challenged Zuckerberg to a cagefight, things seem to have warmed up by the early days of the second Trump administration.",
+        "url": "https://techcrunch.com/2026/03/28/mark-zuckerberg-texted-elon-musk-to-offer-help-with-doge/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-03-29T06:23:58+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "b2fcc94db56c",
+        "title": "Stanford study outlines dangers of asking AI chatbots for personal advice",
+        "excerpt": "While there’s been plenty of debate about AI sycophancy, a new study by Stanford computer scientists attempts to measure how harmful that tendency might be.",
+        "url": "https://techcrunch.com/2026/03/28/stanford-study-outlines-dangers-of-asking-ai-chatbots-for-personal-advice/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-03-29T05:45:54+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "5d149db7e70f",
+        "title": "Elon Musk’s last co-founder reportedly leaves xAI",
+        "excerpt": "All but two of Musk's 11 xAI co-founders departed before this week.",
+        "url": "https://techcrunch.com/2026/03/28/elon-musks-last-co-founder-reportedly-leaves-xai/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-03-29T01:11:16+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "6a95c532ca28",
+        "title": "These iPad apps will make you wish you had more free time",
+        "excerpt": "We’ve compiled a list of some of the best iPad apps for creativity that are available on the App Store.",
+        "url": "https://techcrunch.com/2026/03/28/best-ipad-apps-for-unleashing-and-exploring-your-creativity/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-03-29T01:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "ebe5a9829f19",
+        "author": "Andrej Karpathy",
+        "handle": "karpathy",
+        "content": "- Drafted a blog post\n- Used an LLM to meticulously improve the argument over 4 hours.\n- Wow, feeling great, it's so convincing!\n- Fun idea let's ask it to argue the opposite.\n- LLM demolishes the entire argument and convinces me that the opposite is in fact true.\n- lol",
+        "url": "https://x.com/karpathy/status/2037921699824607591",
+        "publishedAt": "2026-03-29T00:56:10+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
         }
-      ]
-    },
-    "dev_tools": {
-      "title": "개발 도구",
-      "articles": [
-        {
-          "title": "Lat.md: Agent Lattice: a knowledge graph for your codebase, written in Markdown",
-          "url": "https://github.com/1st1/lat.md",
-          "source": "Hacker News",
-          "summary": "Article URL: https://github.com/1st1/lat.md\nComments URL: https://news.ycombinator.com/item?id=47561496\nPoints: 10\n# Comments: 1",
-          "publishedAt": "2026-03-29T17:59:52+09:00"
-        },
-        {
-          "title": "Solar is winning the energy race",
-          "url": "https://www.dw.com/en/solar-is-winning-the-energy-race/a-76517556",
-          "source": "Hacker News",
-          "summary": "Article URL: https://www.dw.com/en/solar-is-winning-the-energy-race/a-76517556\nComments URL: https://news.ycombinator.com/item?id=47561445\nPoints: 61\n# Comments: 64",
-          "publishedAt": "2026-03-29T17:48:36+09:00"
-        },
-        {
-          "title": "What if AI doesn't need more RAM but better math?",
-          "url": "https://adlrocha.substack.com/p/adlrocha-what-if-ai-doesnt-need-more",
-          "source": "Hacker News",
-          "summary": "Article URL: https://adlrocha.substack.com/p/adlrocha-what-if-ai-doesnt-need-more\nComments URL: https://news.ycombinator.com/item?id=47561297\nPoints: 37\n# Comments: 7",
-          "publishedAt": "2026-03-29T17:18:55+09:00"
-        },
-        {
-          "title": "Show HN: Public transit systems as data – lines, stations, railcars, and history",
-          "url": "https://publictransit.systems",
-          "source": "Hacker News",
-          "summary": "Article URL: https://publictransit.systems\nComments URL: https://news.ycombinator.com/item?id=47561132\nPoints: 11\n# Comments: 6",
-          "publishedAt": "2026-03-29T16:38:58+09:00"
+      },
+      {
+        "id": "5ba20106a20c",
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "content": "A weird part of working at Anthropic: getting a few of these each day",
+        "url": "https://x.com/bcherny/status/2038056509805142383",
+        "publishedAt": "2026-03-29T09:51:51+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
         }
-      ]
-    },
-    "big_tech": {
-      "title": "빅테크",
-      "articles": [
-        {
-          "title": "Bluesky leans into AI with Attie, an app for building custom feeds",
-          "url": "https://techcrunch.com/2026/03/28/bluesky-leans-into-ai-with-attie-an-app-for-building-custom-feeds/",
-          "source": "TechCrunch",
-          "summary": "Bluesky’s new app Attie uses AI to help people build custom feeds the open social networking protocol atproto.",
-          "publishedAt": "2026-03-29T08:00:00+09:00"
-        },
-        {
-          "title": "Mark Zuckerberg texted Elon Musk to offer help with DOGE",
-          "url": "https://techcrunch.com/2026/03/28/mark-zuckerberg-texted-elon-musk-to-offer-help-with-doge/",
-          "source": "TechCrunch",
-          "summary": "While the relationship was once thorny enough that Musk challenged Zuckerberg to a cagefight, things seem to have warmed up by the early days of the second Trump administration.",
-          "publishedAt": "2026-03-29T06:23:58+09:00"
-        },
-        {
-          "title": "Stanford study outlines dangers of asking AI chatbots for personal advice",
-          "url": "https://techcrunch.com/2026/03/28/stanford-study-outlines-dangers-of-asking-ai-chatbots-for-personal-advice/",
-          "source": "TechCrunch",
-          "summary": "While there’s been plenty of debate about AI sycophancy, a new study by Stanford computer scientists attempts to measure how harmful that tendency might be.",
-          "publishedAt": "2026-03-29T05:45:54+09:00"
-        },
-        {
-          "title": "Elon Musk’s last co-founder reportedly leaves xAI",
-          "url": "https://techcrunch.com/2026/03/28/elon-musks-last-co-founder-reportedly-leaves-xai/",
-          "source": "TechCrunch",
-          "summary": "All but two of Musk's 11 xAI co-founders departed before this week.",
-          "publishedAt": "2026-03-29T01:11:16+09:00"
+      },
+      {
+        "id": "0dd1f2a03cbf",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "Find, validate, and fix vulnerabilities with Codex Security:\n\nhttps://developers.openai.com/codex/security/",
+        "url": "https://x.com/OpenAIDevs/status/2038066627842043963",
+        "publishedAt": "2026-03-29T10:32:04+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
         }
-      ]
-    },
-    "twitter_pulse": {
-      "title": "Twitter 펄스",
-      "tweets": [
-        {
-          "handle": "karpathy",
-          "displayName": "Andrej Karpathy",
-          "text": "- Drafted a blog post\n- Used an LLM to meticulously improve the argument over 4 hours.\n- Wow, feeling great, it's so convincing!\n- Fun idea let's ask it to argue the opposite.\n- LLM demolishes the entire argument and convinces me that the opposite is in fact true.\n- lol",
-          "url": "https://x.com/karpathy/status/2037921699824607591",
-          "datetime": "2026-03-28T15:56:10.000Z"
-        },
-        {
-          "handle": "bcherny",
-          "displayName": "Boris Cherny",
-          "text": "A weird part of working at Anthropic: getting a few of these each day",
-          "url": "https://x.com/bcherny/status/2038056509805142383",
-          "datetime": "2026-03-29T00:51:51.000Z"
-        },
-        {
-          "handle": "OpenAIDevs",
-          "displayName": "OpenAI Developers",
-          "text": "Find, validate, and fix vulnerabilities with Codex Security:\n\nhttps://developers.openai.com/codex/security/",
-          "url": "https://x.com/OpenAIDevs/status/2038066627842043963",
-          "datetime": "2026-03-29T01:32:04.000Z"
-        },
-        {
-          "handle": "OpenAIDevs",
-          "displayName": "OpenAI Developers",
-          "text": "You can just build things.",
-          "url": "https://x.com/OpenAIDevs/status/2037987801967497238",
-          "datetime": "2026-03-28T20:18:50.000Z"
-        },
-        {
-          "handle": "OpenAIDevs",
-          "displayName": "OpenAI Developers",
-          "text": "I asked Codex 5.4 to reverse engineer a DOS game with no source code.\n\nIt's been running for 6 hours, I can't look away.\n\nIt unpacked assets, disassembled the EXE, rebuilt the renderer, and built my childhood favorite SkyRoads in Rust!\n\nNow think of all the games we can revive.",
-          "url": "https://x.com/OpenAIDevs/status/2037987944322183547",
-          "datetime": "2026-03-28T20:19:24.000Z"
+      },
+      {
+        "id": "9c38a2865080",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "You can just build things.",
+        "url": "https://x.com/OpenAIDevs/status/2037987801967497238",
+        "publishedAt": "2026-03-29T05:18:50+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
         }
-      ]
-    },
-    "reddit_pulse": {
-      "title": "Reddit 핫이슈",
-      "posts": [
-        {
-          "subreddit": "MachineLearning",
-          "title": "[D] Self-Promotion Thread",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1rihows/d_selfpromotion_thread/",
-          "publishedAt": "2026-03-29T20:06:49.758457+09:00"
-        },
-        {
-          "subreddit": "MachineLearning",
-          "title": "[D] Monthly Who's Hiring and Who wants to be Hired?",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1qrrayn/d_monthly_whos_hiring_and_who_wants_to_be_hired/",
-          "publishedAt": "2026-03-29T20:06:49.758457+09:00"
-        },
-        {
-          "subreddit": "MachineLearning",
-          "title": "[R] I built a benchmark that catches LLMs breaking physics laws",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1s6keh0/r_i_built_a_benchmark_that_catches_llms_breaking/",
-          "publishedAt": "2026-03-29T20:06:49.758457+09:00"
-        },
-        {
-          "subreddit": "artificial",
-          "title": "Persistent memory changes how people interact with AI — here's what I'm observing",
-          "url": "https://www.reddit.com/r/artificial/comments/1s6jvog/persistent_memory_changes_how_people_interact/",
-          "publishedAt": "2026-03-29T20:06:49.758457+09:00"
-        },
-        {
-          "subreddit": "artificial",
-          "title": "Claude is the least bullshit-y AI",
-          "url": "https://www.reddit.com/r/artificial/comments/1s67buc/claude_is_the_least_bullshity_ai/",
-          "publishedAt": "2026-03-29T20:06:49.758457+09:00"
-        },
-        {
-          "subreddit": "artificial",
-          "title": "The AI hype misses the people who actually need it most",
-          "url": "https://www.reddit.com/r/artificial/comments/1s6fws6/the_ai_hype_misses_the_people_who_actually_need/",
-          "publishedAt": "2026-03-29T20:06:49.758457+09:00"
-        },
-        {
-          "subreddit": "LocalLLaMA",
-          "title": "Announcing LocalLlama discord server & bot!",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1mpk2va/announcing_localllama_discord_server_bot/",
-          "publishedAt": "2026-03-29T20:06:49.758457+09:00"
-        },
-        {
-          "subreddit": "LocalLLaMA",
-          "title": "LocalLLaMA 2026",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s6r5gn/localllama_2026/",
-          "publishedAt": "2026-03-29T20:06:49.758457+09:00"
-        },
-        {
-          "subreddit": "LocalLLaMA",
-          "title": "A simple explanation of the key idea behind TurboQuant",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s62g5v/a_simple_explanation_of_the_key_idea_behind/",
-          "publishedAt": "2026-03-29T20:06:49.758457+09:00"
-        },
-        {
-          "subreddit": "ChatGPT",
-          "title": "Updates for ChatGPT",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1o6jins/updates_for_chatgpt/",
-          "publishedAt": "2026-03-29T20:06:49.758457+09:00"
-        },
-        {
-          "subreddit": "ChatGPT",
-          "title": "GPT-4o/GPT-5 complaints megathread",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1nvea4p/gpt4ogpt5_complaints_megathread/",
-          "publishedAt": "2026-03-29T20:06:49.758457+09:00"
-        },
-        {
-          "subreddit": "ChatGPT",
-          "title": "I… It’s just… wow… no words",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1s6j8qo/i_its_just_wow_no_words/",
-          "publishedAt": "2026-03-29T20:06:49.758457+09:00"
+      },
+      {
+        "id": "df4828db3dc4",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "I asked Codex 5.4 to reverse engineer a DOS game with no source code.\n\nIt's been running for 6 hours, I can't look away.\n\nIt unpacked assets, disassembled the EXE, rebuilt the renderer, and built my childhood favorite SkyRoads in Rust!\n\nNow think of all the games we can revive.",
+        "url": "https://x.com/OpenAIDevs/status/2037987944322183547",
+        "publishedAt": "2026-03-29T05:19:24+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
         }
-      ]
-    },
-    "quick_bites": {
-      "title": "빠른 소식",
-      "articles": [
-        {
-          "title": "These iPad apps will make you wish you had more free time",
-          "url": "https://techcrunch.com/2026/03/28/best-ipad-apps-for-unleashing-and-exploring-your-creativity/",
-          "source": "TechCrunch",
-          "publishedAt": "2026-03-29T01:00:00+09:00"
-        },
-        {
-          "title": "Alzheimer's disease mortality among taxi and ambulance drivers (2024)",
-          "url": "https://www.bmj.com/content/387/bmj-2024-082194",
-          "source": "Hacker News",
-          "publishedAt": "2026-03-29T09:53:30+09:00"
-        },
-        {
-          "title": "The Treaty of Detroit for AI",
-          "url": "https://dev.to/rawveg/the-treaty-of-detroit-for-ai-5eaj",
-          "source": "Dev.to",
-          "publishedAt": "2026-03-29T20:00:00+09:00"
-        },
-        {
-          "title": "English is now a programming language and I have mixed feelings",
-          "url": "https://dev.to/andrewrozumny/english-is-now-a-programming-language-and-i-have-mixed-feelings-3355",
-          "source": "Dev.to",
-          "publishedAt": "2026-03-29T19:53:43+09:00"
-        },
-        {
-          "title": "OpenClaw Skills: Teaching Your AI Agent New Abilities",
-          "url": "https://dev.to/hex_agent/openclaw-skills-teaching-your-ai-agent-new-abilities-591f",
-          "source": "Dev.to",
-          "publishedAt": "2026-03-29T19:49:45+09:00"
-        },
-        {
-          "title": "Building a development organization driven by generative artificial intelligence JAWS 2026 K1",
-          "url": "https://dev.to/elianalamhost/building-a-development-organization-driven-by-generative-artificial-intelligence-jaws-2026-k1-2m13",
-          "source": "Dev.to",
-          "publishedAt": "2026-03-29T19:48:09+09:00"
-        }
-      ]
-    }
-  },
-  "stats": {
-    "rssArticles": 23,
-    "tweets": 5,
-    "redditPosts": 24
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "56335b7c623f",
+        "title": "[D] Self-Promotion Thread",
+        "originalTitle": "[D] Self-Promotion Thread",
+        "summary": "",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1rihows/d_selfpromotion_thread/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-03-29T20:06:49.758457+09:00"
+      },
+      {
+        "id": "ce5f1035d955",
+        "title": "[D] Monthly Who's Hiring and Who wants to be Hired?",
+        "originalTitle": "[D] Monthly Who's Hiring and Who wants to be Hired?",
+        "summary": "",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1qrrayn/d_monthly_whos_hiring_and_who_wants_to_be_hired/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-03-29T20:06:49.758457+09:00"
+      },
+      {
+        "id": "dbf00ca81507",
+        "title": "[R] I built a benchmark that catches LLMs breaking physics laws",
+        "originalTitle": "[R] I built a benchmark that catches LLMs breaking physics laws",
+        "summary": "",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1s6keh0/r_i_built_a_benchmark_that_catches_llms_breaking/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-03-29T20:06:49.758457+09:00"
+      },
+      {
+        "id": "09bc102fb8ad",
+        "title": "Persistent memory changes how people interact with AI — here's what I'm observing",
+        "originalTitle": "Persistent memory changes how people interact with AI — here's what I'm observing",
+        "summary": "",
+        "url": "https://www.reddit.com/r/artificial/comments/1s6jvog/persistent_memory_changes_how_people_interact/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-03-29T20:06:49.758457+09:00"
+      },
+      {
+        "id": "d80335611c2c",
+        "title": "Claude is the least bullshit-y AI",
+        "originalTitle": "Claude is the least bullshit-y AI",
+        "summary": "",
+        "url": "https://www.reddit.com/r/artificial/comments/1s67buc/claude_is_the_least_bullshity_ai/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-03-29T20:06:49.758457+09:00"
+      },
+      {
+        "id": "3706301a1af5",
+        "title": "The AI hype misses the people who actually need it most",
+        "originalTitle": "The AI hype misses the people who actually need it most",
+        "summary": "",
+        "url": "https://www.reddit.com/r/artificial/comments/1s6fws6/the_ai_hype_misses_the_people_who_actually_need/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-03-29T20:06:49.758457+09:00"
+      },
+      {
+        "id": "e7da11aaeb7c",
+        "title": "Announcing LocalLlama discord server & bot!",
+        "originalTitle": "Announcing LocalLlama discord server & bot!",
+        "summary": "",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1mpk2va/announcing_localllama_discord_server_bot/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-03-29T20:06:49.758457+09:00"
+      },
+      {
+        "id": "b8e89b71ccdd",
+        "title": "LocalLLaMA 2026",
+        "originalTitle": "LocalLLaMA 2026",
+        "summary": "",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s6r5gn/localllama_2026/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-03-29T20:06:49.758457+09:00"
+      },
+      {
+        "id": "5f748bff79de",
+        "title": "A simple explanation of the key idea behind TurboQuant",
+        "originalTitle": "A simple explanation of the key idea behind TurboQuant",
+        "summary": "",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s62g5v/a_simple_explanation_of_the_key_idea_behind/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-03-29T20:06:49.758457+09:00"
+      },
+      {
+        "id": "394784c1bf37",
+        "title": "Updates for ChatGPT",
+        "originalTitle": "Updates for ChatGPT",
+        "summary": "",
+        "url": "https://www.reddit.com/r/ChatGPT/comments/1o6jins/updates_for_chatgpt/",
+        "subreddit": "ChatGPT",
+        "score": 0,
+        "publishedAt": "2026-03-29T20:06:49.758457+09:00"
+      },
+      {
+        "id": "130cfec39677",
+        "title": "GPT-4o/GPT-5 complaints megathread",
+        "originalTitle": "GPT-4o/GPT-5 complaints megathread",
+        "summary": "",
+        "url": "https://www.reddit.com/r/ChatGPT/comments/1nvea4p/gpt4ogpt5_complaints_megathread/",
+        "subreddit": "ChatGPT",
+        "score": 0,
+        "publishedAt": "2026-03-29T20:06:49.758457+09:00"
+      },
+      {
+        "id": "ef3a85085b7e",
+        "title": "I… It’s just… wow… no words",
+        "originalTitle": "I… It’s just… wow… no words",
+        "summary": "",
+        "url": "https://www.reddit.com/r/ChatGPT/comments/1s6j8qo/i_its_just_wow_no_words/",
+        "subreddit": "ChatGPT",
+        "score": 0,
+        "publishedAt": "2026-03-29T20:06:49.758457+09:00"
+      },
+      {
+        "id": "04fb0d6bccbe",
+        "title": "State of the Subreddit (January 2027): Mods applications and rules updates",
+        "originalTitle": "State of the Subreddit (January 2027): Mods applications and rules updates",
+        "summary": "",
+        "url": "https://www.reddit.com/r/programming/comments/1qoxwdt/state_of_the_subreddit_january_2027_mods/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-03-29T20:06:49.758457+09:00"
+      },
+      {
+        "id": "6b7139ce61e5",
+        "title": "I Decompiled the White House's New App",
+        "originalTitle": "I Decompiled the White House's New App",
+        "summary": "",
+        "url": "https://www.reddit.com/r/programming/comments/1s6b9zt/i_decompiled_the_white_houses_new_app/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-03-29T20:06:49.758457+09:00"
+      },
+      {
+        "id": "8e7cae2b4cbb",
+        "title": "What Category Theory Teaches Us About DataFrames",
+        "originalTitle": "What Category Theory Teaches Us About DataFrames",
+        "summary": "",
+        "url": "https://www.reddit.com/r/programming/comments/1s6pvuz/what_category_theory_teaches_us_about_dataframes/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-03-29T20:06:49.758457+09:00"
+      },
+      {
+        "id": "9c4810e1327e",
+        "title": "White House App Found Tracking Users' Exact Location Every 4.5 Minutes via Third-Party Server",
+        "originalTitle": "White House App Found Tracking Users' Exact Location Every 4.5 Minutes via Third-Party Server",
+        "summary": "",
+        "url": "https://www.reddit.com/r/technology/comments/1s6e3dp/white_house_app_found_tracking_users_exact/",
+        "subreddit": "technology",
+        "score": 0,
+        "publishedAt": "2026-03-29T20:06:49.758457+09:00"
+      },
+      {
+        "id": "79b71437c014",
+        "title": "White House unveils ‘OnlyFarms’ website, welcomes farmers with golden tractor on South Lawn",
+        "originalTitle": "White House unveils ‘OnlyFarms’ website, welcomes farmers with golden tractor on South Lawn",
+        "summary": "",
+        "url": "https://www.reddit.com/r/technology/comments/1s67qf9/white_house_unveils_onlyfarms_website_welcomes/",
+        "subreddit": "technology",
+        "score": 0,
+        "publishedAt": "2026-03-29T20:06:49.758457+09:00"
+      },
+      {
+        "id": "b3259c99e1fd",
+        "title": "Pamela Anderson’s New Campaign Bans AI Models | Anderson stars in a new campaign for AEO’s Aerie that doubles down on the lifestyle brand’s pledge to “always keep it 100 percent real: no AI-generated bodies, no AI-generated people. Ever.”",
+        "originalTitle": "Pamela Anderson’s New Campaign Bans AI Models | Anderson stars in a new campaign for AEO’s Aerie that doubles down on the lifestyle brand’s pledge to “always keep it 100 percent real: no AI-generated bodies, no AI-generated people. Ever.”",
+        "summary": "",
+        "url": "https://www.reddit.com/r/technology/comments/1s6nr5k/pamela_andersons_new_campaign_bans_ai_models/",
+        "subreddit": "technology",
+        "score": 0,
+        "publishedAt": "2026-03-29T20:06:49.758457+09:00"
+      },
+      {
+        "id": "8c96a6290c90",
+        "title": "Marc Benioff (CEO of Salesforce) tweeted video of him messing with a Figure 03 robot flipping packages",
+        "originalTitle": "Marc Benioff (CEO of Salesforce) tweeted video of him messing with a Figure 03 robot flipping packages",
+        "summary": "",
+        "url": "https://www.reddit.com/r/singularity/comments/1s235n7/marc_benioff_ceo_of_salesforce_tweeted_video_of/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-03-29T20:06:49.758457+09:00"
+      },
+      {
+        "id": "045570012c65",
+        "title": "The era of human coding is over",
+        "originalTitle": "The era of human coding is over",
+        "summary": "",
+        "url": "https://www.reddit.com/r/singularity/comments/1rweoq5/the_era_of_human_coding_is_over/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-03-29T20:06:49.758457+09:00"
+      },
+      {
+        "id": "4ba58ccfaa66",
+        "title": "Andrew Curran: Anthropic May Have Had An Architectural Breakthrough!",
+        "originalTitle": "Andrew Curran: Anthropic May Have Had An Architectural Breakthrough!",
+        "summary": "",
+        "url": "https://www.reddit.com/r/singularity/comments/1s6hj0n/andrew_curran_anthropic_may_have_had_an/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-03-29T20:06:49.758457+09:00"
+      },
+      {
+        "id": "f58206fbba5e",
+        "title": "Sora 2 megathread (part 3)",
+        "originalTitle": "Sora 2 megathread (part 3)",
+        "summary": "",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1o8kmg9/sora_2_megathread_part_3/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-03-29T20:06:49.758457+09:00"
+      },
+      {
+        "id": "832372177cdf",
+        "title": "AMA on our DevDay Launches",
+        "originalTitle": "AMA on our DevDay Launches",
+        "summary": "",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1o1j23g/ama_on_our_devday_launches/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-03-29T20:06:49.758457+09:00"
+      },
+      {
+        "id": "456aeabff57f",
+        "title": "on what???",
+        "originalTitle": "on what???",
+        "summary": "",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1s6rnpx/on_what/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-03-29T20:06:49.758457+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "3aeb1a4de10f",
+        "title": "Dealing with silent robocalls? This is why scam callers keep quiet",
+        "excerpt": "Answering a silent scam call can mark your number as a high-value target. Here's how to deal with them.",
+        "url": "https://www.zdnet.com/article/why-scammers-call-you-say-nothing-how-to-respond-safely/",
+        "source": "ZDNet AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-03-29T09:30:36+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "7e5f3726f857",
+        "title": "Samsung Galaxy Buds 4 Pro vs. Bose QuietComfort Ultra 2: I tested both, and here's the winner",
+        "excerpt": "The new Samsung earbuds compete with the flagship Bose QuietComfort Ultra Earbuds 2. Here's how they stack up.",
+        "url": "https://www.zdnet.com/article/samsung-galaxy-buds-4-pro-vs-bose-quietcomfort-ultra-2/",
+        "source": "ZDNet AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-03-29T09:01:26+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "682e6da7284d",
+        "title": "The Treaty of Detroit for AI",
+        "excerpt": "The nightmares have evolved. Once, workers feared the factory floor going silent as machines hummed to life. Today, the anxiety haunts conference rooms and home offices, where knowledge workers refres",
+        "url": "https://dev.to/rawveg/the-treaty-of-detroit-for-ai-5eaj",
+        "source": "Dev.to",
+        "category": "dev_tools",
+        "publishedAt": "2026-03-29T20:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 2
+      },
+      {
+        "id": "8668379acc48",
+        "title": "English is now a programming language and I have mixed feelings",
+        "excerpt": "A few years ago if you said \"just describe what you want and the computer will do it\" — that was science fiction. Now it's Tuesday.\n\nI spent last week building 40 browser-based developer tools. Half o",
+        "url": "https://dev.to/andrewrozumny/english-is-now-a-programming-language-and-i-have-mixed-feelings-3355",
+        "source": "Dev.to",
+        "category": "dev_tools",
+        "publishedAt": "2026-03-29T19:53:43+09:00",
+        "readTime": 4,
+        "imageGradient": 3
+      },
+      {
+        "id": "89eefe423ffb",
+        "title": "OpenClaw Skills: Teaching Your AI Agent New Abilities",
+        "excerpt": "Your AI agent is only as capable as the tools it knows about. Out of the box, OpenClaw gives you a solid foundation — file operations, web search, browser control, messaging. But the real power comes ",
+        "url": "https://dev.to/hex_agent/openclaw-skills-teaching-your-ai-agent-new-abilities-591f",
+        "source": "Dev.to",
+        "category": "dev_tools",
+        "publishedAt": "2026-03-29T19:49:45+09:00",
+        "readTime": 4,
+        "imageGradient": 4
+      },
+      {
+        "id": "f39612d06c54",
+        "title": "Building a development organization driven by generative artificial intelligence JAWS 2026 K1",
+        "excerpt": "1️⃣ Jeff Barr has driven the AWS news blog for 20 years. His long-term developer advocacy has built a feedback loop between product teams and builders. He continuously maintains the blog to gather dev",
+        "url": "https://dev.to/elianalamhost/building-a-development-organization-driven-by-generative-artificial-intelligence-jaws-2026-k1-2m13",
+        "source": "Dev.to",
+        "category": "dev_tools",
+        "publishedAt": "2026-03-29T19:48:09+09:00",
+        "readTime": 4,
+        "imageGradient": 5
+      }
+    ]
   }
 }
