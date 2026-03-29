@@ -1,6 +1,18 @@
 {
   "issues": [
     {
+      "date": "2026-03-30",
+      "issueNumber": 3,
+      "mainHeadline": "Figma MCP + Claude Code로 여는 AI 디자인 개발 혁명",
+      "headlines": [
+        "Karpathy가 직접 경험한 LLM 아첨 문제 — AI 설득력의 두 얼굴",
+        "구글 관리형 MCP로 프로덕션 AI 에이전트 구축하기",
+        "LangChain 에이전트 평가 준비 체크리스트 공개",
+        "CERN, FPGA에 AI 내장해 LHC 실시간 데이터 필터링 성공",
+        "Codex Security, AI로 코드 취약점 자동 탐지·수정"
+      ]
+    },
+    {
       "date": "2026-03-29",
       "issueNumber": 2,
       "mainHeadline": "Gemini 3.1 Flash Live 출시: 실시간 오디오 AI의 새로운 시대",
