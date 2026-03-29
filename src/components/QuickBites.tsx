@@ -96,7 +96,7 @@ export default function QuickBites({ articles }: Props) {
     >
       <div className="max-w-[1440px] mx-auto px-6 lg:px-10">
         <SectionHeader
-          number="08"
+          number="09"
           title="Quick Bites"
           subtitle="간략 뉴스 요약"
           color="#F59E0B"

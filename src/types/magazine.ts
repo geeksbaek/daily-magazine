@@ -16,6 +16,7 @@ export interface Tweet {
   author: string
   handle: string
   content: string
+  thread?: string[] // 자기 답글로 이어쓰기한 내용 (순서대로)
   context?: string // 트윗 맥락 설명 — 배경 지식 없이도 이해 가능하도록
   url: string
   publishedAt: string
@@ -42,6 +43,7 @@ export interface ThreadsPost {
   author: string
   handle: string
   content: string
+  thread?: string[] // 자기 댓글로 이어쓰기한 내용 (순서대로)
   context?: string // 게시물 맥락 설명 — 배경 지식 없이도 이해 가능하도록
   url: string
   publishedAt: string

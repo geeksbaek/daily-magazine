@@ -107,7 +107,7 @@ export default function RedditPulse({ posts }: Props) {
     >
       <div className="max-w-[1440px] mx-auto px-6 lg:px-10">
         <SectionHeader
-          number="06"
+          number="07"
           title="Reddit Pulse"
           subtitle="레딧 하이라이트"
           color="#FF4500"

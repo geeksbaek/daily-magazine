@@ -66,13 +66,28 @@ function ThreadsCard({ post }: { post: ThreadsPost }) {
         </div>
       </div>
 
-      {/* Post content */}
-      <p
-        className="text-[13px] leading-relaxed font-sans whitespace-pre-line"
-        style={{ color: 'var(--text-secondary)' }}
-      >
-        {post.content}
-      </p>
+      {/* Post content — thread chain displayed as one */}
+      <div className="space-y-0">
+        <p
+          className="text-[13px] leading-relaxed font-sans whitespace-pre-line"
+          style={{ color: 'var(--text-secondary)' }}
+        >
+          {post.content}
+        </p>
+        {post.thread && post.thread.length > 0 && post.thread.map((text, i) => (
+          <div key={i} className="flex gap-2.5 mt-2 pt-2">
+            <div className="flex flex-col items-center shrink-0">
+              <div className="w-px flex-1" style={{ backgroundColor: 'var(--border-strong)', minHeight: '100%' }} />
+            </div>
+            <p
+              className="text-[13px] leading-relaxed font-sans whitespace-pre-line"
+              style={{ color: 'var(--text-secondary)' }}
+            >
+              {text}
+            </p>
+          </div>
+        ))}
+      </div>
 
       {/* Context explanation */}
       {post.context && (
@@ -116,7 +131,7 @@ export default function ThreadsPulse({ posts }: Props) {
     >
       <div className="max-w-[1440px] mx-auto px-6 lg:px-10">
         <SectionHeader
-          number="05.5"
+          number="06"
           title="Threads Pulse"
           subtitle="Threads 하이라이트"
           color="#000000"

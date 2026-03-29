@@ -75,7 +75,7 @@ export default function CommunityPulse({ posts }: Props) {
     >
       <div className="max-w-[1440px] mx-auto px-6 lg:px-10">
         <SectionHeader
-          number="07"
+          number="08"
           title="Community Pulse"
           subtitle="디시인사이드 · 특이점갤"
           color="#1D8CE0"

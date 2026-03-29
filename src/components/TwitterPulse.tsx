@@ -67,13 +67,28 @@ function TweetCard({ tweet }: { tweet: Tweet }) {
         </span>
       </div>
 
-      {/* Tweet content */}
-      <p
-        className="text-[13px] leading-relaxed font-sans"
-        style={{ color: 'var(--text-secondary)' }}
-      >
-        {tweet.content}
-      </p>
+      {/* Tweet content — thread chain displayed as one */}
+      <div className="space-y-0">
+        <p
+          className="text-[13px] leading-relaxed font-sans"
+          style={{ color: 'var(--text-secondary)' }}
+        >
+          {tweet.content}
+        </p>
+        {tweet.thread && tweet.thread.length > 0 && tweet.thread.map((text, i) => (
+          <div key={i} className="flex gap-2.5 mt-2 pt-2">
+            <div className="flex flex-col items-center shrink-0">
+              <div className="w-px flex-1" style={{ backgroundColor: 'var(--border-strong)', minHeight: '100%' }} />
+            </div>
+            <p
+              className="text-[13px] leading-relaxed font-sans"
+              style={{ color: 'var(--text-secondary)' }}
+            >
+              {text}
+            </p>
+          </div>
+        ))}
+      </div>
 
       {/* Context explanation — the key improvement */}
       {tweet.context && (
@@ -140,9 +155,9 @@ export default function TwitterPulse({ tweets }: Props) {
       <div className="max-w-[1440px] mx-auto px-6 lg:px-10">
         <SectionHeader
           number="05"
-          title="Twitter Pulse"
+          title="X Pulse"
           subtitle="X(트위터) 하이라이트"
-          color="#1DA1F2"
+          color="#000000"
         />
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">

@@ -63,6 +63,35 @@ JSON.stringify(results);
 
 **중요: 리트윗인 경우 링크의 handle과 프로필의 handle이 다를 수 있음. 트윗 URL에서 추출한 actualHandle을 author/handle로 사용할 것. 프로필 페이지의 handle로 덮어쓰지 말 것.**
 
+### 스레드(이어쓰기) 수집
+
+X에서는 한 사용자가 자기 트윗에 답글(self-reply)로 내용을 이어가는 "스레드" 문화가 있음. 같은 사람이 연속으로 올린 트윗들은 하나의 스레드로 합쳐야 함.
+
+판별 방법:
+- 같은 프로필 페이지에서 연속된 article 요소들 중, 같은 handle의 트윗이 시간순으로 이어져 있으면 스레드
+- 트윗 내부에 "Show this thread" / "이 스레드 표시" 링크가 있으면 스레드의 일부
+
+수집 시:
+1. 첫 번째 트윗의 `content`에 본문 텍스트를 넣고
+2. 이어지는 자기 답글들의 텍스트를 `thread: string[]` 배열에 순서대로 담음
+3. URL은 첫 번째 트윗의 URL을 사용
+4. 하나의 Tweet 객체로 저장 (여러 개로 분리하지 않음)
+
+결과 예시:
+```json
+{
+  "id": "tweet-123",
+  "author": "Andrej Karpathy",
+  "handle": "karpathy",
+  "content": "첫 번째 트윗 내용",
+  "thread": ["이어쓰기 2번째 내용", "이어쓰기 3번째 내용"],
+  "context": "맥락 설명...",
+  "url": "https://x.com/karpathy/status/123...",
+  "publishedAt": "...",
+  "metrics": {...}
+}
+```
+
 ## Step 2.5: Threads 수집
 
 Chrome MCP(mcp__Claude_in_Chrome__)로 Threads 계정의 최근 게시물을 수집해줘.
@@ -97,13 +126,28 @@ JSON.stringify(posts);
 
 결과를 /tmp/threads_results.json에 저장.
 
+### 스레드(이어쓰기) 수집
+
+Threads에서도 자기 게시물에 댓글로 내용을 이어가는 문화가 있음. 같은 사람이 자기 글에 댓글을 달아 이어가는 경우 하나의 게시물로 합쳐야 함.
+
+판별 방법:
+- 게시물 상세 페이지(post URL)에 들어가면 원글 아래에 같은 작성자의 연속 댓글이 있음
+- 프로필 피드에서는 같은 시간대에 연속된 게시물이면 스레드일 가능성 높음
+
+수집 시:
+1. 첫 번째 게시물의 `content`에 본문 텍스트를 넣고
+2. 이어지는 자기 댓글들의 텍스트를 `thread: string[]` 배열에 순서대로 담음
+3. URL은 첫 번째 게시물의 URL을 사용
+4. 하나의 ThreadsPost 객체로 저장 (여러 개로 분리하지 않음)
+
 각 Threads 게시물 형식:
 ```json
 {
   "id": "post ID (URL에서 추출)",
   "author": "CHOI",
   "handle": "choi.openai",
-  "content": "게시물 원문 (한국어인 경우 그대로)",
+  "content": "첫 번째 게시물 원문 (한국어인 경우 그대로)",
+  "thread": ["이어쓰기 2번째 내용", "이어쓰기 3번째 내용"],
   "context": "게시물 맥락 설명 (2-4문장)",
   "url": "https://www.threads.com/@choi.openai/post/...",
   "publishedAt": "ISO datetime",
@@ -255,6 +299,7 @@ JSON.stringify(results.slice(0, 20));
     "dev_tools": [개발 도구 관련 기사들],
     "big_tech": [빅테크 관련 기사들],
     "twitter_pulse": [트윗들],
+    "threads_pulse": [Threads 게시물들],
     "reddit_pulse": [Reddit 게시물들],
     "community_pulse": [디시인사이드 게시물들],
     "quick_bites": [짧은 뉴스들]
