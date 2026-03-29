@@ -3,11 +3,12 @@
     {
       "date": "2026-03-29",
       "issueNumber": 2,
-      "mainHeadline": "Microsoft Launches Azure Copilot Migration Agent to Accelerate Cloud Migration Planning",
+      "mainHeadline": "Gemini 3.1 Flash Live 출시: 실시간 오디오 AI의 새로운 시대",
       "headlines": [
-        "ProxySQL Introduces Multi-Tier Release Strategy With Stable, Innovative, and AI Tracks",
-        "Teleport Report Finds Over-Privileged AI Systems Linked to Fourfold Rise in Security Incidents",
-        "Lat.md: Agent Lattice: a knowledge graph for your codebase, written in Markdown"
+        "Gemini 3.1 Flash Live, 실시간 오디오 AI 성능 대폭 향상",
+        "Claude Code, `if` 조건부 훅 지원으로 개발자 생산성 향상",
+        "2027년 봇이 인터넷 트래픽 점령 전망… 웹 패러다임 대전환",
+        "OpenAI Codex, DOS 게임 소스코드 없이 Rust로 재구현 성공"
       ]
     },
     {
