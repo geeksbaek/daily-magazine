@@ -2,6 +2,7 @@ export interface Article {
   id: string
   title: string
   excerpt: string
+  body?: string // 상세 본문 — 원문을 완전히 이해할 수 있는 수준의 장문 요약
   url: string
   source: string
   category: string
@@ -15,6 +16,7 @@ export interface Tweet {
   author: string
   handle: string
   content: string
+  context?: string // 트윗 맥락 설명 — 배경 지식 없이도 이해 가능하도록
   url: string
   publishedAt: string
   metrics?: {
@@ -28,6 +30,7 @@ export interface RedditPost {
   id: string
   title: string
   originalTitle?: string
+  summary?: string // 게시물 맥락 설명 — 왜 화제인지, 어떤 토론이 오갔는지
   url: string
   subreddit: string
   score: number

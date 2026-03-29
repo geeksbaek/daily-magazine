@@ -1,6 +1,6 @@
 import type { Article } from '../types/magazine'
 import SectionHeader from './SectionHeader'
-import { FeaturedCard, StandardCard } from './ArticleCard'
+import MagazineArticle from './MagazineArticle'
 
 interface Props {
   articles: Article[]
@@ -24,36 +24,53 @@ export default function Highlights({ articles }: Props) {
           subtitle="주요 뉴스 딥다이브"
         />
 
-        {/* Primary grid: featured + 2 secondary */}
-        <div className="grid grid-cols-1 lg:grid-cols-[5fr_3fr] gap-8 lg:gap-10 mb-0">
-          {/* Large featured */}
-          {featured && (
-            <div className="border-b pb-8 lg:border-b-0 lg:pb-0 lg:border-r lg:pr-10"
-              style={{ borderColor: 'var(--border)' }}>
-              <FeaturedCard article={featured} size="large" />
-            </div>
-          )}
-
-          {/* 2 stacked secondary */}
-          <div className="flex flex-col">
-            {secondary.map(article => (
-              <StandardCard key={article.id} article={article} showImage />
-            ))}
+        {/* Primary: featured article with magazine layout */}
+        {featured && (
+          <div
+            className="pb-10 mb-8 border-b"
+            style={{ borderColor: 'var(--border)' }}
+          >
+            <MagazineArticle article={featured} variant="featured" />
           </div>
-        </div>
+        )}
 
-        {/* Tertiary row */}
-        {tertiary.length > 0 && (
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-0 border-t mt-0"
-            style={{ borderColor: 'var(--border)' }}>
-            {tertiary.map((article, i) => (
+        {/* Secondary: 2-column magazine layout */}
+        {secondary.length > 0 && (
+          <div
+            className="grid grid-cols-1 lg:grid-cols-2 gap-0 mb-0"
+          >
+            {secondary.map((article, i) => (
               <div
                 key={article.id}
-                className={`${i === 0 && tertiary.length > 1 ? 'md:border-r md:pr-8' : 'md:pl-8'}`}
+                className={`py-6 ${
+                  i === 0 && secondary.length > 1
+                    ? 'lg:border-r lg:pr-8'
+                    : 'lg:pl-8'
+                }`}
                 style={{ borderColor: 'var(--border)' }}
               >
-                <StandardCard article={article} showImage={false} />
+                <MagazineArticle
+                  article={article}
+                  variant="standard"
+                  showDecoration={false}
+                />
               </div>
+            ))}
+          </div>
+        )}
+
+        {/* Tertiary row: compact cards */}
+        {tertiary.length > 0 && (
+          <div
+            className="border-t pt-2"
+            style={{ borderColor: 'var(--border)' }}
+          >
+            {tertiary.map(article => (
+              <MagazineArticle
+                key={article.id}
+                article={article}
+                variant="compact"
+              />
             ))}
           </div>
         )}

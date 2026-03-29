@@ -74,6 +74,16 @@ function PostCard({ post }: { post: RedditPost }) {
         </p>
       )}
 
+      {/* Summary/context explanation */}
+      {post.summary && (
+        <p
+          className="mt-2 text-[12px] leading-relaxed font-sans"
+          style={{ color: 'var(--text-secondary)' }}
+        >
+          {post.summary}
+        </p>
+      )}
+
       {post.score > 0 && (
         <div className="flex items-center gap-1 mt-2" style={{ color: 'var(--text-muted)' }}>
           <svg width="12" height="12" viewBox="0 0 12 12" fill="none">

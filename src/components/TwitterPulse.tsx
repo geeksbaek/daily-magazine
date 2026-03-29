@@ -67,13 +67,41 @@ function TweetCard({ tweet }: { tweet: Tweet }) {
         </span>
       </div>
 
-      {/* Content */}
+      {/* Tweet content */}
       <p
         className="text-[13px] leading-relaxed font-sans"
         style={{ color: 'var(--text-secondary)' }}
       >
         {tweet.content}
       </p>
+
+      {/* Context explanation — the key improvement */}
+      {tweet.context && (
+        <div
+          className="mt-3 pt-3 border-t"
+          style={{ borderColor: 'var(--border)' }}
+        >
+          <div className="flex items-start gap-2">
+            <svg
+              width="14"
+              height="14"
+              viewBox="0 0 14 14"
+              fill="none"
+              className="shrink-0 mt-0.5"
+              style={{ color: 'var(--text-muted)' }}
+            >
+              <circle cx="7" cy="7" r="5.5" stroke="currentColor" strokeWidth="1" />
+              <path d="M7 4.5v3M7 9.5v0" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" />
+            </svg>
+            <p
+              className="text-[12px] leading-relaxed font-sans"
+              style={{ color: 'var(--text-muted)' }}
+            >
+              {tweet.context}
+            </p>
+          </div>
+        </div>
+      )}
 
       {/* Metrics */}
       {tweet.metrics && (tweet.metrics.likes > 0 || tweet.metrics.retweets > 0 || tweet.metrics.replies > 0) && (
