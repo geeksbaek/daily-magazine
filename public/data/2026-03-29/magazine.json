@@ -633,6 +633,48 @@
         "imageGradient": 4,
         "body": "이 글은 1990년대 세가 새턴 시대의 게임 개발 환경에서 표현의 자유와 검열 사이의 긴장 관계를 역사적으로 고찰합니다. 당시 세가의 콘텐츠 가이드라인은 종교적 상징, 정치적 메시지, 특정 폭력 묘사 등을 엄격히 제한했으며, 일부 개발자들은 이런 제약을 창의적으로 우회하는 기법을 발전시켰습니다. 이 시대의 검열 경험은 현재 모바일 앱스토어의 콘텐츠 정책과 유사한 구조적 패턴을 보입니다."
       }
+    ],
+    "threads_pulse": [
+      {
+        "id": "DWdhVgIjwz8",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "이번 주, 구글, 오픈AI, 앤트로픽, 메타, 마이크로소프트, 중국까지 정말 놀라운 업데이트를 연이어 내놓은 한 주였는데요.",
+        "context": "CHOI(@choi.openai)는 국내 대표 AI 뉴스 크리에이터로, 주요 AI 기업들의 업데이트를 한국어로 빠르게 전달합니다. 이 게시물은 2026년 3월 마지막 주 AI 업계의 동시다발적 업데이트(구글 Gemma 4, OpenAI Codex 5.4, Anthropic Claude 업데이트 등)를 종합 정리하는 시리즈의 도입부입니다.",
+        "url": "https://www.threads.com/@choi.openai/post/DWdhVgIjwz8",
+        "publishedAt": "2026-03-29T08:14:38.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "DWdhV8iD2uC",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "모델 성능은 완벽히 유지되는데, 메모리 사용량은 6분의 1로 줄고 속도는 8배 빨라졌습니다.\n구글 리서치에서 LLM의 고질적인 메모리 병목 문제를 해결할 새로운 압축 알고리즘 'TurboQuant'를 공개했습니다.\n기존 벡터 양자화 방식이 가지던 추가 메모리 부담을 PolarQuant와 QJL이라는 수학적 기법을 통해 완전히 없앤 것이 특징인데요.\n가장 눈여겨볼 점은 이러한 극단적인 압축을 거치고도 정확도 손실이 전혀 발생하지 않는다는 사실입니다.",
+        "context": "구글 리서치의 TurboQuant 논문을 한국어로 쉽게 풀어 설명한 게시물입니다. 이 양자화 기법은 Reddit r/MachineLearning과 r/LocalLLaMA에서도 동시에 화제가 되고 있으며, LLM의 메모리 효율을 획기적으로 개선할 수 있는 기술로 주목받고 있습니다. 매거진의 Reddit 섹션에서도 같은 주제가 다뤄지고 있어 교차 확인이 가능합니다.",
+        "url": "https://www.threads.com/@choi.openai/post/DWdhV8iD2uC",
+        "publishedAt": "2026-03-29T08:14:42.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "DWdWl1QAbqr",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "무거운 브라우저 렌더링 엔진에만 의존하던 UI 기술이, 자체 연산을 통해 성능의 한계를 직접 뚫어내는 방식으로 진화하고 있습니다.",
+        "context": "UI 렌더링 기술의 새로운 패러다임 전환을 다룬 게시물입니다. 기존 DOM 기반 브라우저 렌더링의 성능 한계를 벗어나, WebGL이나 Canvas 기반 자체 렌더링 엔진을 구축하는 트렌드를 설명합니다. Figma, Notion 등이 채택한 접근법과 관련이 있습니다.",
+        "url": "https://www.threads.com/@choi.openai/post/DWdWl1QAbqr",
+        "publishedAt": "2026-03-29T06:05:00.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "DWdMfLBj8gz",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "AI 에이전트가 드디어 실생활에 들어오기 시작했습니다. 이번 주 공개된 주요 AI 에이전트 업데이트들을 정리합니다.",
+        "context": "OpenAI Codex의 에이전트 기능 강화, Anthropic Claude의 Computer Use 확장, Google의 Gemini Agent 등 주요 AI 기업들이 동시에 AI 에이전트 제품을 출시/업데이트한 상황을 종합적으로 분석합니다. AI 에이전트가 연구 단계를 넘어 실제 제품으로 빠르게 전환되는 시점임을 강조합니다.",
+        "url": "https://www.threads.com/@choi.openai/post/DWdMfLBj8gz",
+        "publishedAt": "2026-03-29T05:00:00.000Z",
+        "platform": "threads"
+      }
     ]
   }
 }

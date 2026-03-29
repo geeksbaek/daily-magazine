@@ -37,6 +37,17 @@ export interface RedditPost {
   publishedAt: string
 }
 
+export interface ThreadsPost {
+  id: string
+  author: string
+  handle: string
+  content: string
+  context?: string // 게시물 맥락 설명 — 배경 지식 없이도 이해 가능하도록
+  url: string
+  publishedAt: string
+  platform: 'threads'
+}
+
 export interface CommunityPost {
   id: string
   title: string
@@ -60,6 +71,7 @@ export interface Magazine {
     dev_tools: Article[]
     big_tech: Article[]
     twitter_pulse: Tweet[]
+    threads_pulse: ThreadsPost[]
     reddit_pulse: RedditPost[]
     community_pulse: CommunityPost[]
     quick_bites: Article[]

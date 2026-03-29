@@ -63,6 +63,54 @@ JSON.stringify(results);
 
 **중요: 리트윗인 경우 링크의 handle과 프로필의 handle이 다를 수 있음. 트윗 URL에서 추출한 actualHandle을 author/handle로 사용할 것. 프로필 페이지의 handle로 덮어쓰지 말 것.**
 
+## Step 2.5: Threads 수집
+
+Chrome MCP(mcp__Claude_in_Chrome__)로 Threads 계정의 최근 게시물을 수집해줘.
+
+계정 목록:
+- @choi.openai
+
+수집 방법:
+1. navigate → 3초 대기 → javascript_tool로 파싱:
+```javascript
+const posts = [];
+document.querySelectorAll('div[data-pressable-container="true"]').forEach(el => {
+  const postLink = el.querySelector('a[href*="/post/"]');
+  if (!postLink) return;
+  const timeEl = el.querySelector('time');
+  const datetime = timeEl ? timeEl.getAttribute('datetime') : '';
+  const spans = el.querySelectorAll('span');
+  let bodyText = '';
+  spans.forEach(s => {
+    const t = (s.innerText || '').trim();
+    if (t.length > 20 && !t.match(/좋아요|답글|팔로워|팔로잉|공유/) && !t.match(/^\d+시간$|^\d+일$/)) {
+      if (!bodyText || t.length > bodyText.length) bodyText = t;
+    }
+  });
+  if (bodyText) posts.push({text: bodyText, link: postLink.href, datetime});
+});
+// 중복 제거 후 48시간 이내만 필터
+JSON.stringify(posts);
+```
+
+2. 스크롤 후 재파싱하여 추가 게시물 수집
+
+결과를 /tmp/threads_results.json에 저장.
+
+각 Threads 게시물 형식:
+```json
+{
+  "id": "post ID (URL에서 추출)",
+  "author": "CHOI",
+  "handle": "choi.openai",
+  "content": "게시물 원문 (한국어인 경우 그대로)",
+  "context": "게시물 맥락 설명 (2-4문장)",
+  "url": "https://www.threads.com/@choi.openai/post/...",
+  "publishedAt": "ISO datetime",
+  "platform": "threads"
+}
+```
+
 ## Step 3: Reddit 수집
 
 **⚠️ Reddit은 Chrome MCP가 아닌 Python feedparser + Reddit RSS 피드로 수집할 것!**

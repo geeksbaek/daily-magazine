@@ -6,6 +6,7 @@ import Cover from './components/Cover'
 import Highlights from './components/Highlights'
 import NewsSection from './components/NewsSection'
 import TwitterPulse from './components/TwitterPulse'
+import ThreadsPulse from './components/ThreadsPulse'
 import RedditPulse from './components/RedditPulse'
 import CommunityPulse from './components/CommunityPulse'
 import QuickBites from './components/QuickBites'
@@ -128,6 +129,7 @@ export default function App() {
             <NewsSection id="big-tech" number="04" title="Big Tech"
               subtitle="빅테크 · 산업 동향" articles={magazine.sections.big_tech} accentColor="#1D4ED8" bgAlternate />
             <TwitterPulse tweets={magazine.sections.twitter_pulse} />
+            {magazine.sections.threads_pulse && <ThreadsPulse posts={magazine.sections.threads_pulse} />}
             {magazine.sections.reddit_pulse && <RedditPulse posts={magazine.sections.reddit_pulse} />}
             {magazine.sections.community_pulse && <CommunityPulse posts={magazine.sections.community_pulse} />}
             <QuickBites articles={magazine.sections.quick_bites} />
