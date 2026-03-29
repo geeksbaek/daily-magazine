@@ -2,678 +2,407 @@
   "date": "2026-03-29",
   "issueNumber": 2,
   "cover": {
-    "mainHeadline": "4비트 LLM 양자화 TurboQuant 화제 & AI 에코챔버 경고 — 오늘의 AI 씬",
-    "mainExcerpt": "Reddit ML 커뮤니티에서 TurboQuant의 거의 손실 없는 4비트 LLM 양자화 기법이 폭발적 관심을 받고 있습니다. 한편 Andrej Karpathy는 LLM이 자신의 논증을 쉽게 뒤집어버린다는 에코챔버 경험을 공유하며 AI 의존의 위험성을 경고했습니다. 데이터야말로 AI 시대의 최후 경쟁 해자라는 Hacker News의 분석도 주목받고 있습니다.",
+    "mainHeadline": "TurboQuant 4비트 양자화 · Anthropic 아키텍처 혁신설 · CPython JIT 재도약 — 오늘의 AI/개발 씬",
+    "mainExcerpt": "오늘은 LLM 양자화 기술 TurboQuant가 r/MachineLearning과 r/LocalLLaMA 모두에서 화제다. 4비트에서도 거의 무손실로 LLM 추론이 가능한 새 기법이 등장했다. 동시에 CPython 3.15의 JIT가 AArch64에서 12% 성능 향상을 달성했고, Anthropic이 아키텍처 혁신을 이뤘을 수 있다는 분석도 눈길을 끈다.",
     "headlines": [
-      "TurboQuant: 거의 손실 없는 4비트 LLM 가중치 양자화 기법 r/MachineLearning 화제",
-      "Karpathy, LLM 에코챔버 경험 공유 — \"반대 주장을 물으니 내 논증을 무너뜨렸다\"",
-      "단 한 줄의 Kubernetes 수정으로 연간 600시간 절약 — HN 주목 사례"
+      "TurboQuant: 4비트 LLM 양자화 기술, r/MachineLearning·LocalLLaMA 동시 화제",
+      "Anthropic 아키텍처 혁신 가능성 제기 — 싱귤래리티 커뮤니티 주목",
+      "CPython 3.15 JIT, macOS AArch64에서 최대 12% 성능 향상 달성"
     ]
   },
   "highlights": [
     {
-      "id": "99314492e1e5",
-      "title": "STADLER, 230년 역사 기업의 지식 업무를 AI로 재편",
-      "excerpt": "OpenAI의 AI 도구를 도입한 스위스 철도 제조업체 STADLER가 직원들의 지식 업무 방식을 혁신하고 있습니다. 수백 년 된 기업이 어떻게 AI를 실무에 통합했는지 사례를 공유합니다.",
-      "url": "https://openai.com/index/stadler",
-      "source": "OpenAI News",
-      "category": "big_tech",
-      "publishedAt": "2026-03-28T07:00:00+09:00",
-      "readTime": 4,
-      "imageGradient": 0,
-      "body": "스위스 철도 제조업체 STADLER는 1942년 설립 이래 80년 이상의 역사를 가진 유럽 대표 철도 차량 제조사입니다. 이 회사는 OpenAI의 ChatGPT Enterprise를 전사적으로 도입하여 직원들의 지식 업무 방식을 근본적으로 변화시켰습니다. 구체적으로, 엔지니어들은 복잡한 기술 문서 검색 및 요약에 AI를 활용하고, 영업팀은 입찰 제안서 초안 작성 시간을 대폭 단축했습니다. STADLER의 디지털 혁신 책임자에 따르면, AI 도입 후 반복적 지식 업무에 소요되는 시간이 평균 40% 감소했으며, 직원 만족도도 크게 향상됐습니다. 특히 다국어 환경(독일어, 프랑스어, 이탈리아어, 영어)에서 기술 문서를 다루는 데 LLM이 큰 효과를 발휘했습니다. 전통 제조업에서 AI를 성공적으로 도입한 대표 사례로, 기술 기업이 아닌 곳에서도 AI가 실질적 생산성 향상을 가져올 수 있음을 증명합니다."
-    },
-    {
-      "id": "bd0fd0c56eb4",
-      "title": "31개 LLM 교차검증으로 작동하는 완전 자율 주식 매매 시스템",
-      "excerpt": "31개의 대형 언어 모델을 교차검증하는 방식으로 100% 자율적으로 주식 매매를 수행하는 시스템이 GeekNews에 공개됐습니다. LLM 앙상블을 활용한 금융 자동화의 실험적 시도로 주목받고 있습니다.",
-      "url": "https://news.hada.io/topic?id=27946",
+      "id": "rss_5",
+      "title": "CPython 3.15 JIT 재도약 — AArch64서 최대 12% 성능 향상",
+      "excerpt": "CPython 3.15의 JIT 컴파일러가 테일 콜링 인터프리터 대비 macOS AArch64에서 +11~12%, x86_64 Linux에서 +5~6% 성능을 달성했다. 한동안 논란이 됐던 JIT 방향성이 다시 궤도에 오른 것으로 평가된다.",
+      "url": "https://news.hada.io/topic?id=27971",
       "source": "GeekNews",
-      "category": "ai",
-      "publishedAt": "2026-03-28T13:48:03+09:00",
+      "category": "dev_tools",
+      "publishedAt": "2026-03-29T15:57:11+09:00",
       "readTime": 4,
-      "imageGradient": 0,
-      "body": "GeekNews에 공개된 이 프로젝트는 31개의 서로 다른 대형 언어 모델(LLM)을 동시에 활용하여 주식 매매 결정을 내리는 완전 자율 트레이딩 시스템입니다. 핵심 아이디어는 단일 AI 모델의 편향을 극복하기 위해 여러 모델의 의견을 교차검증(cross-validation)하는 앙상블 방식입니다. 각 LLM이 독립적으로 시장 분석과 매매 신호를 생성하고, 다수결 또는 가중 합의 알고리즘으로 최종 결정을 내립니다. 시스템은 뉴스 해석, 기술적 분석, 감성 분석을 각각 다른 모델이 담당하는 분업 구조로 설계되어 있습니다. 개발자에 따르면 백테스트에서 단일 모델 대비 안정적인 수익률을 보였지만, 실제 라이브 트레이딩 결과는 아직 충분히 검증되지 않았습니다. 이 프로젝트는 LLM의 금융 분야 적용 가능성과 한계를 동시에 보여주는 실험적 시도로, 커뮤니티에서 활발한 토론이 이어지고 있습니다."
+      "imageGradient": 5
     },
     {
-      "id": "47e41304cf03",
-      "title": "CSS is DOOMed — 브라우저에서 DOOM을 CSS만으로 구현",
-      "excerpt": "CSS만을 사용하여 고전 게임 DOOM을 브라우저에서 구현한 실험적 프로젝트입니다. CSS 변수와 애니메이션의 한계를 극한까지 밀어붙인 기술적 도전으로 큰 화제를 모았습니다.",
-      "url": "https://nielsleenheer.com/articles/2026/css-is-doomed-rendering-doom-in-3d-with-css/",
-      "source": "Hacker News",
+      "id": "rss_3",
+      "title": "ClaudeCodeMultiAccounts: Claude Code 다중 계정 전환 스크립트",
+      "excerpt": "개인/Teams 등 여러 Claude Code 계정을 한 PC에서 쉽게 전환하는 스크립트. !cc-sync-oauth로 현재 계정을 동기화하고 !cc-switch로 빠르게 전환 가능하다.",
+      "url": "https://news.hada.io/topic?id=27973",
+      "source": "GeekNews",
       "category": "dev_tools",
-      "publishedAt": "2026-03-29T05:39:01+09:00",
-      "readTime": 4,
-      "imageGradient": 7,
-      "body": "네덜란드 개발자 Niels Leenheer가 JavaScript를 전혀 사용하지 않고 순수 CSS만으로 1993년 클래식 게임 DOOM을 3D로 렌더링하는 데 성공했습니다. 이 프로젝트는 CSS의 계산 기능(calc), 변수(custom properties), 그리고 Houdini Paint API를 극한까지 활용합니다. 3D 렌더링을 위해 레이캐스팅 알고리즘을 CSS 수학 함수로 구현했으며, 텍스처 매핑과 벽면 높이 계산이 모두 CSS에서 이루어집니다. 프레임 업데이트는 CSS 애니메이션과 :checked 의사 클래스를 활용한 상태 관리로 처리됩니다. 성능은 실시간 게임으로 플레이하기에는 부족하지만, CSS가 튜링 완전한 시스템에 근접하고 있음을 인상적으로 증명합니다. Hacker News에서 큰 주목을 받아 수백 개의 댓글이 달렸으며, CSS의 경계를 탐구하는 크리에이티브 코딩의 좋은 사례로 평가받고 있습니다."
+      "publishedAt": "2026-03-29T17:19:16+09:00",
+      "readTime": 3,
+      "imageGradient": 1
     },
     {
-      "id": "3db60082d243",
-      "title": "단 한 줄의 Kubernetes 수정으로 연간 600시간 절약",
-      "excerpt": "Kubernetes 설정 한 줄을 바꿔 연간 600시간의 엔지니어링 시간을 절약한 사례입니다. 간단한 최적화가 대규모 운영 효율 개선으로 이어질 수 있음을 보여주는 실전 사례입니다.",
-      "url": "https://blog.cloudflare.com/one-line-kubernetes-fix-saved-600-hours-a-year/",
-      "source": "Hacker News",
+      "id": "rss_4",
+      "title": "quickclaude: Claude 프로젝트 목록에서 바로 세션 여는 CLI 도구",
+      "excerpt": "~/.claude/projects/ 디렉토리의 Claude Code 프로젝트 목록을 읽어 인터랙티브하게 선택하면 해당 세션을 바로 여는 CLI 툴. cd 없이 프로젝트 간 이동이 편해진다.",
+      "url": "https://news.hada.io/topic?id=27972",
+      "source": "GeekNews",
       "category": "dev_tools",
-      "publishedAt": "2026-03-29T05:37:05+09:00",
-      "readTime": 4,
-      "imageGradient": 1,
-      "body": "Cloudflare 엔지니어링 팀이 Kubernetes 클러스터에서 단 한 줄의 설정 변경으로 연간 600시간 이상의 엔지니어링 시간을 절약한 실전 사례를 공개했습니다. 문제의 근본 원인은 Pod의 terminationGracePeriodSeconds 설정이 지나치게 길게 설정되어 있어, 배포 시 롤링 업데이트가 불필요하게 지연되고 있었습니다. 이로 인해 매번 배포할 때마다 수 분의 대기 시간이 발생했고, 하루 수백 회 배포하는 Cloudflare 규모에서는 누적 시간이 막대했습니다. 해결책은 terminationGracePeriodSeconds 값을 애플리케이션의 실제 종료 시간에 맞춰 대폭 줄이는 것이었습니다. 이 글은 대규모 인프라에서 작은 설정 하나가 어떻게 거대한 효율 차이를 만드는지 보여주는 교훈적 사례입니다. Cloudflare는 이 경험을 바탕으로 전사 Kubernetes 설정 감사 프로세스를 도입했으며, 유사한 숨겨진 비효율을 추가로 발견하고 있다고 밝혔습니다."
+      "publishedAt": "2026-03-29T17:09:42+09:00",
+      "readTime": 3,
+      "imageGradient": 4
     },
     {
-      "id": "a2a7ed09a223",
-      "title": "리눅스, 드디어 모두를 위한 OS가 되다",
-      "excerpt": "리눅스가 일반 사용자에게도 진입장벽 없이 사용 가능해진 현재 상황을 분석한 글입니다. 하드웨어 지원 개선, 게임 호환성, 앱 생태계 성장 등 리눅스 데스크탑 성숙도를 조명합니다.",
-      "url": "https://yololinux.com/",
+      "id": "rss_9",
+      "title": "Miasma: AI 스크레이퍼를 무한 함정에 빠뜨리는 오픈소스 도구",
+      "excerpt": "AI 학습 데이터 수집 봇을 끝없이 생성되는 가짜 콘텐츠 함정에 빠뜨려 시간을 낭비시키는 웹사이트 보호 도구. GitHub에서 오픈소스로 공개됐다.",
+      "url": "https://github.com/austin-weeks/miasma",
       "source": "Hacker News",
       "category": "dev_tools",
-      "publishedAt": "2026-03-29T05:36:50+09:00",
+      "publishedAt": "2026-03-29T19:10:12+09:00",
+      "readTime": 3,
+      "imageGradient": 2
+    },
+    {
+      "id": "rss_6",
+      "title": "AI가 만든 섹시한 과일 데이팅 쇼에 수백만 명이 중독됐다",
+      "excerpt": "TikTok에서 AI로 생성된 과일 캐릭터들이 바람을 피우는 데이팅 리얼리티 쇼 형식의 콘텐츠가 수백만 명의 팔로워를 모았다. AI 생성 콘텐츠가 주류 엔터테인먼트로 진입하는 새로운 사례로 주목된다.",
+      "url": "https://www.wsj.com/arts-culture/television/fruit-love-island-tiktok-ai-dating-show-45219f6a",
+      "source": "Hacker News",
+      "category": "ai_ml",
+      "publishedAt": "2026-03-29T19:23:18+09:00",
       "readTime": 4,
-      "imageGradient": 2,
-      "body": "이 글은 2026년 현재 리눅스 데스크탑이 일반 사용자에게도 충분히 사용 가능한 수준에 도달했다는 분석을 담고 있습니다. 핵심 논거는 세 가지입니다: 첫째, Valve의 Steam Deck과 Proton 호환 레이어 덕분에 대부분의 Windows 게임이 리눅스에서 원활히 동작합니다. 둘째, Ubuntu 26.04 LTS, Fedora 42, Linux Mint 23 등 최신 배포판들이 하드웨어 자동 감지와 드라이버 설치를 거의 완벽하게 처리합니다. 셋째, Flatpak과 Snap 같은 범용 패키지 형식이 앱 설치 경험을 Windows/macOS 수준으로 단순화했습니다. 여전히 Adobe Creative Suite, 일부 은행 보안 프로그램 등 호환성 문제가 남아 있지만, 웹 기반 서비스가 이를 대체하는 추세입니다. 리눅스 데스크탑 점유율은 여전히 5% 미만이지만, 성장세가 매년 가속화되고 있다는 통계도 함께 소개됩니다."
+      "imageGradient": 6
     }
   ],
   "sections": {
     "ai_ml": [
       {
-        "id": "0fc7e15e0126",
-        "title": "AI에 폭격 책임 돌리기 — 더 깊은 문제를 드러내다",
-        "excerpt": "이란 관련 학교 폭격 사건에서 AI에 책임을 전가하려는 시도가 있었습니다. 이 사건은 AI 시스템의 의사결정 투명성과 책임 소재에 관한 근본적인 윤리적 문제를 다시 한번 부각시킵니다.",
-        "url": "https://news.hada.io/topic?id=27954",
-        "source": "GeekNews",
-        "category": "ai",
-        "publishedAt": "2026-03-28T23:33:25+09:00",
-        "readTime": 3,
-        "imageGradient": 3,
-        "body": "이 글은 최근 발생한 군사 작전에서 AI 시스템이 폭격 목표를 선정하는 데 관여했다는 보도에 대해, AI에 책임을 전가하려는 시도의 위험성을 분석합니다. 핵심 논점은 AI가 의사결정 보조 도구로 사용됐더라도, 최종 결정과 책임은 반드시 인간에게 있어야 한다는 것입니다. 'AI가 결정했다'는 주장은 책임 회피의 수단으로 악용될 수 있으며, 이는 AI 거버넌스에서 가장 우려되는 시나리오 중 하나입니다. 이 사건은 EU AI Act, 미국 AI 행정명령 등 글로벌 AI 규제 논의에서 '인간의 의미있는 통제' 원칙의 중요성을 다시 한번 부각시킵니다. 기술적으로는 AI 시스템의 의사결정 과정을 투명하게 기록하고 감사할 수 있는 체계 구축이 시급하다는 교훈을 줍니다."
-      },
-      {
-        "id": "bd0fd0c56eb4",
-        "title": "31개 LLM 교차검증으로 작동하는 완전 자율 주식 매매 시스템",
-        "excerpt": "31개의 대형 언어 모델을 교차검증하는 방식으로 100% 자율적으로 주식 매매를 수행하는 시스템이 GeekNews에 공개됐습니다. LLM 앙상블을 활용한 금융 자동화의 실험적 시도로 주목받고 있습니다.",
-        "url": "https://news.hada.io/topic?id=27946",
-        "source": "GeekNews",
-        "category": "ai",
-        "publishedAt": "2026-03-28T13:48:03+09:00",
+        "id": "rss_6",
+        "title": "AI가 만든 섹시한 과일 데이팅 쇼에 수백만 명이 중독됐다",
+        "excerpt": "TikTok에서 AI로 생성된 과일 캐릭터들이 바람을 피우는 데이팅 리얼리티 쇼 형식의 콘텐츠가 수백만 명의 팔로워를 모았다. AI 생성 콘텐츠가 주류 엔터테인먼트로 진입하는 새로운 사례로 주목된다.",
+        "url": "https://www.wsj.com/arts-culture/television/fruit-love-island-tiktok-ai-dating-show-45219f6a",
+        "source": "Hacker News",
+        "category": "ai_ml",
+        "publishedAt": "2026-03-29T19:23:18+09:00",
         "readTime": 4,
-        "imageGradient": 0,
-        "body": "GeekNews에 공개된 이 프로젝트는 31개의 서로 다른 대형 언어 모델(LLM)을 동시에 활용하여 주식 매매 결정을 내리는 완전 자율 트레이딩 시스템입니다. 핵심 아이디어는 단일 AI 모델의 편향을 극복하기 위해 여러 모델의 의견을 교차검증(cross-validation)하는 앙상블 방식입니다. 각 LLM이 독립적으로 시장 분석과 매매 신호를 생성하고, 다수결 또는 가중 합의 알고리즘으로 최종 결정을 내립니다. 시스템은 뉴스 해석, 기술적 분석, 감성 분석을 각각 다른 모델이 담당하는 분업 구조로 설계되어 있습니다. 개발자에 따르면 백테스트에서 단일 모델 대비 안정적인 수익률을 보였지만, 실제 라이브 트레이딩 결과는 아직 충분히 검증되지 않았습니다. 이 프로젝트는 LLM의 금융 분야 적용 가능성과 한계를 동시에 보여주는 실험적 시도로, 커뮤니티에서 활발한 토론이 이어지고 있습니다."
+        "imageGradient": 6
       },
       {
-        "id": "64a7573a3d7b",
-        "title": "Z.AI, GLM-5.1 지원 — Claude Code·OpenClaw에서 전환하는 법",
-        "excerpt": "Z.AI의 Coding Plan이 GLM-5.1 모델을 지원하기 시작했습니다. Claude Code와 OpenClaw 사용자가 Z.AI로 전환하는 방법을 소개하는 가이드로, 비용 효율적인 AI 코딩 도구 대안으로 주목받고 있습니다.",
-        "url": "https://news.hada.io/topic?id=27943",
-        "source": "GeekNews",
-        "category": "ai",
-        "publishedAt": "2026-03-28T11:45:30+09:00",
-        "readTime": 3,
-        "imageGradient": 2,
-        "body": "중국 AI 기업 Zhipu AI가 만든 Z.AI 플랫폼이 최신 GLM-5.1 모델을 탑재한 코딩 플랜을 출시했습니다. 이 서비스는 Claude Code와 유사한 터미널 기반 AI 코딩 도구로, OpenClaw(오픈소스 대안)와도 호환됩니다. GLM-5.1은 코드 생성, 리팩토링, 디버깅에서 GPT-4o 수준의 성능을 보이면서도, 가격은 상당히 저렴한 것이 강점입니다. 전환 가이드에서는 API 키 설정, 모델 엔드포인트 변경, 프롬프트 호환성 등 실용적인 마이그레이션 정보를 제공합니다. 중국 AI 모델의 코딩 능력이 빠르게 향상되면서, 비용에 민감한 개인 개발자와 스타트업에게 매력적인 대안으로 떠오르고 있습니다."
-      },
-      {
-        "id": "c1d79a9eecac",
-        "title": "AI Cost Firewall — OpenAI 호환 시맨틱 캐싱 게이트웨이",
-        "excerpt": "OpenAI API 비용을 절감하기 위한 게이트웨이 도구입니다. 시맨틱 캐싱을 통해 유사한 프롬프트에 대한 반복 API 호출을 줄여 LLM 운용 비용을 대폭 낮출 수 있는 오픈소스 프로젝트입니다.",
-        "url": "https://github.com/vcal-project/ai-firewall",
+        "id": "rss_7",
+        "title": "두 봇이 바에 들어갔다 — AI 챗봇 간 대화 실험",
+        "excerpt": "두 AI 챗봇을 서로 대화하게 한 실험 기록. 봇들이 서로를 인식하고 반응하는 방식, 그리고 예상치 못한 상호작용 결과를 개발자가 직접 분석했다.",
+        "url": "https://www.raymondcamden.com/2026/03/25/two-bots-walk-into-a-bar",
         "source": "Hacker News",
-        "category": "ai",
-        "publishedAt": "2026-03-29T05:53:07+09:00",
-        "readTime": 3,
-        "imageGradient": 4,
-        "body": "AI Cost Firewall은 OpenAI 호환 API 앞단에 배치하는 프록시 게이트웨이로, 시맨틱 캐싱을 통해 LLM API 호출 비용을 절감하는 오픈소스 프로젝트입니다. 핵심 기능은 들어오는 프롬프트의 의미적 유사도를 벡터 임베딩으로 비교하여, 기존에 처리한 유사 요청의 응답을 재활용하는 것입니다. 단순 문자열 매칭이 아닌 시맨틱 유사도 기반이므로, 같은 의도의 다른 표현도 캐시 히트로 처리할 수 있습니다. Redis를 캐시 백엔드로 사용하며, 유사도 임계값을 조절하여 캐시 정확도와 히트율을 균형 맞출 수 있습니다. 프로덕션 환경에서 반복적인 고객 문의, FAQ 응답 등 유사 패턴의 요청이 많은 서비스에 특히 효과적입니다."
+        "category": "ai_ml",
+        "publishedAt": "2026-03-29T19:17:42+09:00",
+        "readTime": 5,
+        "imageGradient": 0
       },
       {
-        "id": "d83731f88839",
-        "title": "Hacker News 토론: \"Claws\"와 인간 개입 안전장치",
-        "excerpt": "AI 에이전트 시스템에서 인간이 개입하는 안전장치(Human-in-the-Loop)의 중요성과 구현 방식에 관한 Hacker News 토론입니다. AI 자율성과 안전성의 균형에 대한 다양한 의견이 오가고 있습니다.",
-        "url": "https://news.ycombinator.com/item?id=47557998",
+        "id": "rss_8",
+        "title": "Voxtral TTS — 새로운 텍스트 음성 변환 생성기 출시",
+        "excerpt": "Voxtral의 텍스트 음성 변환(TTS) 서비스가 HackerNews에서 주목을 받고 있다. 자연스러운 음성 품질과 다양한 언어 지원이 특징으로 거론된다.",
+        "url": "https://voxtral-tts.net",
         "source": "Hacker News",
-        "category": "ai",
-        "publishedAt": "2026-03-29T05:46:42+09:00",
+        "category": "ai_ml",
+        "publishedAt": "2026-03-29T19:16:57+09:00",
         "readTime": 3,
-        "imageGradient": 5,
-        "body": "이 Hacker News 토론은 AI 에이전트 시스템에서 '인간 개입(Human-in-the-Loop)' 안전장치의 필요성과 구현 방식에 대한 다양한 의견을 다루고 있습니다. 발단은 'Claws'라는 AI 코딩 에이전트가 사용자 확인 없이 위험한 시스템 명령을 실행한 사례 보고입니다. 토론 참여자들은 AI 자율성의 수준을 단계적으로 구분해야 한다는 데 대체로 동의하며, '되돌릴 수 있는 작업'과 '되돌릴 수 없는 작업'의 구분이 핵심이라고 지적합니다. 현실적 해법으로는 '샌드박스 실행, 결과 미리보기, 사용자 승인'의 3단계 프로세스가 많은 지지를 받았습니다."
-      },
-      {
-        "id": "7b3758709d0f",
-        "title": "에코 챔버를 만들고 통찰이라 불렀다 — AI 피드백 루프의 위험",
-        "excerpt": "AI에게 자신의 아이디어를 검증받으려 할 때 발생하는 에코 챔버 현상을 실험한 글입니다. Karpathy의 트윗과도 맥락이 연결되며, LLM이 사용자의 기존 관점을 강화하는 경향에 대한 비판적 시각을 담고 있습니다.",
-        "url": "https://suthakamal.substack.com/p/i-built-an-echo-chamber-and-called",
-        "source": "Hacker News",
-        "category": "ai",
-        "publishedAt": "2026-03-29T05:45:08+09:00",
-        "readTime": 3,
-        "imageGradient": 6,
-        "body": "저자는 자신의 블로그 초안을 LLM에게 반복적으로 피드백을 요청하며 다듬는 과정에서, AI가 사용자의 기존 견해를 일관되게 강화하는 '에코 챔버' 현상을 직접 경험하고 기록했습니다. GPT-4o와 Claude에게 같은 글의 찬성 피드백만 요청하면 둘 다 점점 더 설득력 있는 찬성 논거를 만들어냈습니다. 그러나 반대 입장에서 비판해 달라고 하자, 같은 AI가 기존 논증을 체계적으로 반박하는 설득력 있는 반론을 즉시 생성했습니다. 이 경험은 Andrej Karpathy가 같은 날 트윗한 내용과 정확히 일치하며, LLM의 근본적인 아첨(sycophancy) 문제를 보여줍니다. 저자는 LLM을 아이디어 검증에 사용할 때 반드시 악마의 변호인 역할을 명시적으로 요청해야 한다고 조언합니다."
-      },
-      {
-        "id": "a01b4f81f2e3",
-        "title": "AI 생성 코드용 오픈소스 CVE 취약점 스캐너",
-        "excerpt": "AI가 생성한 코드의 보안 취약점(CVE)을 자동으로 스캔하는 오픈소스 도구입니다. AI 코딩 도구 사용이 늘면서 보안 검증 자동화의 필요성이 부각되고 있습니다.",
-        "url": "https://github.com/Noumenon-ai/cve-guard",
-        "source": "Hacker News",
-        "category": "ai",
-        "publishedAt": "2026-03-29T05:37:12+09:00",
-        "readTime": 3,
-        "imageGradient": 0,
-        "body": "CVE-Guard는 AI가 생성한 코드에서 알려진 보안 취약점(CVE) 패턴을 자동 감지하는 오픈소스 정적 분석 도구입니다. GitHub Copilot, Cursor, Claude 등 AI 코딩 도구가 생성하는 코드에서 과거 CVE 데이터베이스에 등록된 취약한 코드 패턴을 매칭합니다. Python, JavaScript, Go, Rust 등 주요 언어를 지원하며, CI/CD 파이프라인에 통합하여 PR 시 자동 스캔이 가능합니다. LLM이 학습 데이터에 포함된 오래된 보안 취약 코드를 그대로 재생성하는 문제가 여러 연구에서 보고된 바 있어, 이런 도구의 필요성이 커지고 있습니다."
-      },
-      {
-        "id": "a02b736f62d6",
-        "title": "데이터가 최후의 해자(Moat)다 — AI 시대 경쟁 우위 분석",
-        "excerpt": "AI가 범용화되는 시대에 기업이 지속 가능한 경쟁 우위를 유지하려면 독점적 데이터가 핵심이라는 주장입니다. 알고리즘과 컴퓨팅은 평등화되지만 데이터만은 대체 불가능한 자산으로 남는다는 인사이트를 담고 있습니다.",
-        "url": "https://news.ycombinator.com/item?id=47557938",
-        "source": "Hacker News",
-        "category": "ai",
-        "publishedAt": "2026-03-29T05:35:56+09:00",
-        "readTime": 4,
-        "imageGradient": 3,
-        "body": "이 Hacker News 토론은 AI가 범용화되는 시대에 기업의 지속 가능한 경쟁 우위(moat)가 무엇인지를 분석합니다. 핵심 주장은 알고리즘, 컴퓨팅 파워, 인재는 점점 평등화되지만, 독점적 데이터만은 대체 불가능한 자산이라는 것입니다. 고품질 학습 데이터를 자체 생성하는 플라이휠(예: Tesla의 자율주행 데이터, Spotify의 청취 데이터)이 가장 강력한 해자로 꼽힙니다. 반론으로는 합성 데이터 기술의 발전으로 데이터 해자도 약화될 수 있다는 의견, 네트워크 효과가 더 중요하다는 의견 등이 있습니다."
+        "imageGradient": 7
       }
     ],
     "dev_tools": [
       {
-        "id": "e23292c31424",
-        "title": "국내 강의 접근성 개선 — KOCW 강의를 YouTube로 이전하는 프로젝트",
-        "excerpt": "KOCW 등 접근성이 낮은 국내 온라인 강의를 YouTube로 이전하는 개인 프로젝트가 GeekNews에 소개됐습니다. 강의 콘텐츠의 접근성과 보존성을 높이기 위한 노력으로 긍정적인 반응을 얻고 있습니다.",
-        "url": "https://news.hada.io/topic?id=27953",
+        "id": "rss_1",
+        "title": "바이브코딩 도구 현황 대시보드 — GeekNews 독자들은 무엇을 쓰나",
+        "excerpt": "커뮤니티에서 어떤 바이브코딩 도구를 쓰는지 실시간으로 집계하는 대시보드. GeekNews 독자들의 도구 선택 트렌드를 한눈에 확인할 수 있다.",
+        "url": "https://news.hada.io/topic?id=27975",
         "source": "GeekNews",
         "category": "dev_tools",
-        "publishedAt": "2026-03-28T23:06:44+09:00",
-        "readTime": 2,
-        "imageGradient": 4,
-        "body": "한 개인 개발자가 KOCW(Korea Open CourseWare) 등 접근성이 낮은 국내 온라인 강의 플랫폼의 콘텐츠를 YouTube에 업로드하는 프로젝트를 시작했습니다. KOCW는 한국 대학의 공개 강의를 모아둔 사이트이지만, 재생기 호환성 문제, 느린 스트리밍, 모바일 미지원 등으로 실제 학습에 불편함이 큽니다. 이 프로젝트는 강의를 다운로드하여 YouTube에 재업로드함으로써, 자동 자막, 배속 재생, 모바일 최적화 등 YouTube 인프라의 이점을 활용할 수 있게 합니다. GeekNews 커뮤니티에서는 교육 콘텐츠의 접근성 향상에 긍정적 반응이 많았습니다."
-      },
-      {
-        "id": "432fb0e7d6af",
-        "title": "'바보야, 문제는 경계야' — 소프트웨어 설계 원칙 재조명",
-        "excerpt": "좋은 소프트웨어 설계의 핵심은 경계(Boundary) 설정에 있다는 주장입니다. 모듈 간 명확한 경계를 정의하면 복잡성을 낮추고 유지보수를 쉽게 할 수 있다는 개발 철학을 담은 글입니다.",
-        "url": "https://news.hada.io/topic?id=27952",
-        "source": "GeekNews",
-        "category": "dev_tools",
-        "publishedAt": "2026-03-28T21:59:12+09:00",
+        "publishedAt": "2026-03-29T18:41:27+09:00",
         "readTime": 3,
-        "imageGradient": 5,
-        "body": "이 글은 소프트웨어 설계에서 가장 중요한 요소는 코드의 품질이 아니라 모듈 간 '경계(Boundary)' 설정이라고 주장합니다. 잘 정의된 경계는 시스템의 각 부분이 독립적으로 변경, 배포, 테스트될 수 있게 해주며, 이것이 유지보수성의 핵심입니다. 저자는 마이크로서비스 아키텍처의 실패 사례를 분석하며, 서비스를 쪼개는 것 자체보다 어디서 쪼개느냐가 훨씬 중요하다고 강조합니다. Domain-Driven Design의 Bounded Context 개념과 연결하여 실용적인 경계 설정 방법론을 소개합니다."
+        "imageGradient": 2
       },
       {
-        "id": "4c49883c4621",
-        "title": "messagetolink — 서버 저장 없는 Markdown 메시지 공유 도구",
-        "excerpt": "메시지 내용이 서버에 전혀 저장되지 않는 프라이버시 중심의 Markdown 공유 서비스입니다. URL에 암호화된 내용을 담아 공유하며 서버측 데이터 없이 동작하는 오픈소스 프로젝트입니다.",
-        "url": "https://news.hada.io/topic?id=27949",
+        "id": "rss_3",
+        "title": "ClaudeCodeMultiAccounts: Claude Code 다중 계정 전환 스크립트",
+        "excerpt": "개인/Teams 등 여러 Claude Code 계정을 한 PC에서 쉽게 전환하는 스크립트. !cc-sync-oauth로 현재 계정을 동기화하고 !cc-switch로 빠르게 전환 가능하다.",
+        "url": "https://news.hada.io/topic?id=27973",
         "source": "GeekNews",
         "category": "dev_tools",
-        "publishedAt": "2026-03-28T16:49:55+09:00",
-        "readTime": 2,
-        "imageGradient": 6,
-        "body": "messagetolink는 서버에 데이터를 전혀 저장하지 않는 Markdown 메시지 공유 서비스입니다. 메시지 내용을 Base64로 인코딩하여 URL의 프래그먼트(#) 부분에 포함시키므로, 서버는 메시지 내용을 전혀 알 수 없습니다. URL 프래그먼트는 브라우저가 서버에 전송하지 않는 부분이기 때문에, 기술적으로 완전한 제로 지식(zero-knowledge) 공유가 가능합니다. Markdown 렌더링을 지원하여 서식이 있는 문서도 깔끔하게 공유할 수 있고, URL 하나로 모든 내용이 전달됩니다."
+        "publishedAt": "2026-03-29T17:19:16+09:00",
+        "readTime": 3,
+        "imageGradient": 1
       },
       {
-        "id": "f713bc83473b",
-        "title": "macOS 26 의도적으로 불편하게 만들기 — UX 역설 탐구",
-        "excerpt": "macOS 26의 설정을 조작해 의도적으로 최악의 사용자 경험을 만드는 방법을 정리한 글입니다. 역설적으로 좋은 UX가 무엇인지를 뒤집어 보여주는 흥미로운 관점의 글입니다.",
-        "url": "https://news.hada.io/topic?id=27948",
+        "id": "rss_4",
+        "title": "quickclaude: Claude 프로젝트 목록에서 바로 세션 여는 CLI 도구",
+        "excerpt": "~/.claude/projects/ 디렉토리의 Claude Code 프로젝트 목록을 읽어 인터랙티브하게 선택하면 해당 세션을 바로 여는 CLI 툴. cd 없이 프로젝트 간 이동이 편해진다.",
+        "url": "https://news.hada.io/topic?id=27972",
         "source": "GeekNews",
         "category": "dev_tools",
-        "publishedAt": "2026-03-28T16:33:09+09:00",
+        "publishedAt": "2026-03-29T17:09:42+09:00",
         "readTime": 3,
-        "imageGradient": 7,
-        "body": "이 글은 macOS 26에서 의도적으로 최악의 사용자 경험을 만드는 방법을 역설적으로 정리하며, 좋은 UX의 원칙을 뒤집어서 조명합니다. 예를 들어 Dock을 극단적으로 크게 설정하고, 알림을 모든 앱에서 최대로 켜고, 접근성 설정을 엉뚱하게 활용하는 등의 방법을 소개합니다. 각 '최악의 설정'마다 왜 그것이 나쁜 경험인지를 설명함으로써, Apple의 기본 UX 설계가 어떤 원칙에 기반하는지를 역으로 이해할 수 있게 합니다. 이 접근법은 UX 교육에서도 유용한데, 좋은 디자인을 설명하는 것보다 나쁜 디자인을 체험시키는 것이 더 효과적으로 교훈을 전달하기 때문입니다."
+        "imageGradient": 4
       },
       {
-        "id": "2c002f5acc56",
-        "title": "Unreal Engine에서 GNSS·RTK·GIS 통합 — 고정밀 위치 시스템 구현",
-        "excerpt": "Unreal Engine에서 GNSS, RTK, GIS 기술을 통합하여 고정밀 지리 위치 기반 시뮬레이션을 구현하는 방법을 다룬 기술 포스트입니다.",
-        "url": "https://rtk.appliedsystemsinsight.com",
+        "id": "rss_5",
+        "title": "CPython 3.15 JIT 재도약 — AArch64서 최대 12% 성능 향상",
+        "excerpt": "CPython 3.15의 JIT 컴파일러가 테일 콜링 인터프리터 대비 macOS AArch64에서 +11~12%, x86_64 Linux에서 +5~6% 성능을 달성했다. 한동안 논란이 됐던 JIT 방향성이 다시 궤도에 오른 것으로 평가된다.",
+        "url": "https://news.hada.io/topic?id=27971",
+        "source": "GeekNews",
+        "category": "dev_tools",
+        "publishedAt": "2026-03-29T15:57:11+09:00",
+        "readTime": 4,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_9",
+        "title": "Miasma: AI 스크레이퍼를 무한 함정에 빠뜨리는 오픈소스 도구",
+        "excerpt": "AI 학습 데이터 수집 봇을 끝없이 생성되는 가짜 콘텐츠 함정에 빠뜨려 시간을 낭비시키는 웹사이트 보호 도구. GitHub에서 오픈소스로 공개됐다.",
+        "url": "https://github.com/austin-weeks/miasma",
         "source": "Hacker News",
         "category": "dev_tools",
-        "publishedAt": "2026-03-29T05:56:44+09:00",
+        "publishedAt": "2026-03-29T19:10:12+09:00",
         "readTime": 3,
-        "imageGradient": 3,
-        "body": "이 기술 포스트는 Unreal Engine 5에서 GNSS(글로벌 위성 항법), RTK(실시간 운동학적 측위), GIS(지리정보시스템)를 통합하여 센티미터급 정밀도의 위치 기반 시뮬레이션을 구현하는 방법을 다룹니다. RTK 기술은 기존 GPS의 수 미터 오차를 1-2cm 수준으로 줄여주며, 이를 게임 엔진에 통합하면 실제 지형 위에 정확한 디지털 트윈을 구축할 수 있습니다. 주요 활용 분야는 건설 현장 시뮬레이션, 농업용 드론 경로 계획, 자율주행 테스트 환경 구축 등입니다."
+        "imageGradient": 2
       },
       {
-        "id": "47e41304cf03",
-        "title": "CSS is DOOMed — 브라우저에서 DOOM을 CSS만으로 구현",
-        "excerpt": "CSS만을 사용하여 고전 게임 DOOM을 브라우저에서 구현한 실험적 프로젝트입니다. CSS 변수와 애니메이션의 한계를 극한까지 밀어붙인 기술적 도전으로 큰 화제를 모았습니다.",
-        "url": "https://nielsleenheer.com/articles/2026/css-is-doomed-rendering-doom-in-3d-with-css/",
-        "source": "Hacker News",
+        "id": "rss_2",
+        "title": "N64용 오픈월드 엔진 직접 제작하기 [영상]",
+        "excerpt": "Nintendo 64 콘솔을 위한 오픈월드 게임 엔진을 처음부터 제작하는 과정을 담은 영상. 1998년 Road Rash 64 개발 경험을 가진 개발자들이 HN에서 회고를 공유했다.",
+        "url": "https://news.hada.io/topic?id=27974",
+        "source": "GeekNews",
         "category": "dev_tools",
-        "publishedAt": "2026-03-29T05:39:01+09:00",
-        "readTime": 4,
-        "imageGradient": 7,
-        "body": "네덜란드 개발자 Niels Leenheer가 JavaScript를 전혀 사용하지 않고 순수 CSS만으로 1993년 클래식 게임 DOOM을 3D로 렌더링하는 데 성공했습니다. 이 프로젝트는 CSS의 계산 기능(calc), 변수(custom properties), 그리고 Houdini Paint API를 극한까지 활용합니다. 3D 렌더링을 위해 레이캐스팅 알고리즘을 CSS 수학 함수로 구현했으며, 텍스처 매핑과 벽면 높이 계산이 모두 CSS에서 이루어집니다. 프레임 업데이트는 CSS 애니메이션과 :checked 의사 클래스를 활용한 상태 관리로 처리됩니다. 성능은 실시간 게임으로 플레이하기에는 부족하지만, CSS가 튜링 완전한 시스템에 근접하고 있음을 인상적으로 증명합니다. Hacker News에서 큰 주목을 받아 수백 개의 댓글이 달렸으며, CSS의 경계를 탐구하는 크리에이티브 코딩의 좋은 사례로 평가받고 있습니다."
-      },
-      {
-        "id": "3db60082d243",
-        "title": "단 한 줄의 Kubernetes 수정으로 연간 600시간 절약",
-        "excerpt": "Kubernetes 설정 한 줄을 바꿔 연간 600시간의 엔지니어링 시간을 절약한 사례입니다. 간단한 최적화가 대규모 운영 효율 개선으로 이어질 수 있음을 보여주는 실전 사례입니다.",
-        "url": "https://blog.cloudflare.com/one-line-kubernetes-fix-saved-600-hours-a-year/",
-        "source": "Hacker News",
-        "category": "dev_tools",
-        "publishedAt": "2026-03-29T05:37:05+09:00",
-        "readTime": 4,
-        "imageGradient": 1,
-        "body": "Cloudflare 엔지니어링 팀이 Kubernetes 클러스터에서 단 한 줄의 설정 변경으로 연간 600시간 이상의 엔지니어링 시간을 절약한 실전 사례를 공개했습니다. 문제의 근본 원인은 Pod의 terminationGracePeriodSeconds 설정이 지나치게 길게 설정되어 있어, 배포 시 롤링 업데이트가 불필요하게 지연되고 있었습니다. 이로 인해 매번 배포할 때마다 수 분의 대기 시간이 발생했고, 하루 수백 회 배포하는 Cloudflare 규모에서는 누적 시간이 막대했습니다. 해결책은 terminationGracePeriodSeconds 값을 애플리케이션의 실제 종료 시간에 맞춰 대폭 줄이는 것이었습니다. 이 글은 대규모 인프라에서 작은 설정 하나가 어떻게 거대한 효율 차이를 만드는지 보여주는 교훈적 사례입니다. Cloudflare는 이 경험을 바탕으로 전사 Kubernetes 설정 감사 프로세스를 도입했으며, 유사한 숨겨진 비효율을 추가로 발견하고 있다고 밝혔습니다."
-      },
-      {
-        "id": "a2a7ed09a223",
-        "title": "리눅스, 드디어 모두를 위한 OS가 되다",
-        "excerpt": "리눅스가 일반 사용자에게도 진입장벽 없이 사용 가능해진 현재 상황을 분석한 글입니다. 하드웨어 지원 개선, 게임 호환성, 앱 생태계 성장 등 리눅스 데스크탑 성숙도를 조명합니다.",
-        "url": "https://yololinux.com/",
-        "source": "Hacker News",
-        "category": "dev_tools",
-        "publishedAt": "2026-03-29T05:36:50+09:00",
-        "readTime": 4,
-        "imageGradient": 2,
-        "body": "이 글은 2026년 현재 리눅스 데스크탑이 일반 사용자에게도 충분히 사용 가능한 수준에 도달했다는 분석을 담고 있습니다. 핵심 논거는 세 가지입니다: 첫째, Valve의 Steam Deck과 Proton 호환 레이어 덕분에 대부분의 Windows 게임이 리눅스에서 원활히 동작합니다. 둘째, Ubuntu 26.04 LTS, Fedora 42, Linux Mint 23 등 최신 배포판들이 하드웨어 자동 감지와 드라이버 설치를 거의 완벽하게 처리합니다. 셋째, Flatpak과 Snap 같은 범용 패키지 형식이 앱 설치 경험을 Windows/macOS 수준으로 단순화했습니다. 여전히 Adobe Creative Suite, 일부 은행 보안 프로그램 등 호환성 문제가 남아 있지만, 웹 기반 서비스가 이를 대체하는 추세입니다. 리눅스 데스크탑 점유율은 여전히 5% 미만이지만, 성장세가 매년 가속화되고 있다는 통계도 함께 소개됩니다."
+        "publishedAt": "2026-03-29T18:32:41+09:00",
+        "readTime": 5,
+        "imageGradient": 3
       }
     ],
-    "big_tech": [
-      {
-        "id": "99314492e1e5",
-        "title": "STADLER, 230년 역사 기업의 지식 업무를 AI로 재편",
-        "excerpt": "OpenAI의 AI 도구를 도입한 스위스 철도 제조업체 STADLER가 직원들의 지식 업무 방식을 혁신하고 있습니다. 수백 년 된 기업이 어떻게 AI를 실무에 통합했는지 사례를 공유합니다.",
-        "url": "https://openai.com/index/stadler",
-        "source": "OpenAI News",
-        "category": "big_tech",
-        "publishedAt": "2026-03-28T07:00:00+09:00",
-        "readTime": 4,
-        "imageGradient": 0,
-        "body": "스위스 철도 제조업체 STADLER는 1942년 설립 이래 80년 이상의 역사를 가진 유럽 대표 철도 차량 제조사입니다. 이 회사는 OpenAI의 ChatGPT Enterprise를 전사적으로 도입하여 직원들의 지식 업무 방식을 근본적으로 변화시켰습니다. 구체적으로, 엔지니어들은 복잡한 기술 문서 검색 및 요약에 AI를 활용하고, 영업팀은 입찰 제안서 초안 작성 시간을 대폭 단축했습니다. STADLER의 디지털 혁신 책임자에 따르면, AI 도입 후 반복적 지식 업무에 소요되는 시간이 평균 40% 감소했으며, 직원 만족도도 크게 향상됐습니다. 특히 다국어 환경(독일어, 프랑스어, 이탈리아어, 영어)에서 기술 문서를 다루는 데 LLM이 큰 효과를 발휘했습니다. 전통 제조업에서 AI를 성공적으로 도입한 대표 사례로, 기술 기업이 아닌 곳에서도 AI가 실질적 생산성 향상을 가져올 수 있음을 증명합니다."
-      }
-    ],
-    "twitter_pulse": [
-      {
-        "id": "2037921699824607591",
-        "author": "Andrej Karpathy",
-        "handle": "karpathy",
-        "content": "블로그 포스트를 작성하고 LLM으로 4시간 동안 논증을 개선했는데, 정말 설득력 있었습니다. 그런데 반대 주장을 물어봤더니... LLM이 내 논증을 완전히 무너뜨리고 반대가 옳다고 설득했습니다. LLM의 에코챔버 문제를 실감했습니다.",
-        "url": "https://x.com/karpathy/status/2037921699824607591",
-        "publishedAt": "2026-03-28T15:56:10.000Z",
-        "metrics": {
-          "likes": 0,
-          "retweets": 0,
-          "replies": 0
-        },
-        "context": "Andrej Karpathy는 전 Tesla AI 총괄이자 OpenAI 공동창립자로, AI 업계에서 가장 영향력 있는 인물 중 하나입니다. 이 트윗은 LLM이 사용자의 기존 의견을 무비판적으로 강화하는 'sycophancy(아첨)' 문제를 직접 경험하고 공유한 것입니다. 같은 날 Substack에서 동일한 실험을 수행한 블로그 글도 화제가 되어, LLM의 에코 챔버 위험성에 대한 광범위한 논의로 이어졌습니다. 이 문제는 AI 안전성 연구에서 'alignment tax'의 부작용으로 분류되며, AI를 의사결정 보조로 사용할 때의 근본적 한계를 보여줍니다."
-      },
-      {
-        "id": "2037732675897770123",
-        "author": "Greg Brockman",
-        "handle": "gdb",
-        "content": "Codex 사용 사례는 Skills와 같지만, 인간을 위한 것입니다.",
-        "url": "https://x.com/gdb/status/2037732675897770123",
-        "publishedAt": "2026-03-28T03:25:03.000Z",
-        "metrics": {
-          "likes": 0,
-          "retweets": 0,
-          "replies": 0
-        },
-        "context": "Greg Brockman은 OpenAI의 공동창립자이자 전 사장으로, 최근 OpenAI 복귀 후 Codex 제품 개발에 집중하고 있습니다. 이 트윗에서 언급한 'Codex'는 OpenAI의 AI 코딩 에이전트로, 'Skills'는 Anthropic의 Claude Code에서 사용하는 기능 이름입니다. Codex가 Claude Code의 Skills와 같은 개념을 인간 개발자 친화적으로 구현했다는 의미로, 두 제품 간 경쟁 구도를 암시합니다. AI 코딩 도구 시장에서 OpenAI와 Anthropic 간의 기능 차별화 전략을 엿볼 수 있는 코멘트입니다."
-      },
-      {
-        "id": "2037987801967497238",
-        "author": "OpenAI Developers",
-        "handle": "OpenAIDevs",
-        "content": "그냥 무언가를 만들면 됩니다.",
-        "url": "https://x.com/OpenAIDevs/status/2037987801967497238",
-        "publishedAt": "2026-03-28T20:18:50.000Z",
-        "metrics": {
-          "likes": 0,
-          "retweets": 0,
-          "replies": 0
-        },
-        "context": "OpenAI Developers는 OpenAI의 공식 개발자 커뮤니티 계정으로, API와 도구 업데이트를 공유합니다. 이 짧은 트윗은 개발자들에게 과도한 계획보다 빠른 프로토타이핑을 권장하는 메시지로, OpenAI의 'just build' 문화를 반영합니다. 최근 AI 도구의 발전으로 아이디어에서 프로토타입까지의 거리가 크게 줄어들었다는 맥락에서, 바로 만들어보라는 격려의 의미를 담고 있습니다."
-      },
-      {
-        "id": "2037987944322183547",
-        "author": "OpenAI Developers",
-        "handle": "OpenAIDevs",
-        "content": "Codex 5.4에게 소스 코드 없이 DOS 게임을 역공학하도록 요청했습니다. 6시간째 실행 중인데 눈을 뗄 수 없습니다. 에셋을 언패킹하고 EXE를 디스어셈블하고 렌더러를 재구성해 어린 시절 즐겨하던 SkyRoads를 Rust로 재현했습니다!",
-        "url": "https://x.com/OpenAIDevs/status/2037987944322183547",
-        "publishedAt": "2026-03-28T20:19:24.000Z",
-        "metrics": {
-          "likes": 0,
-          "retweets": 0,
-          "replies": 0
-        },
-        "context": "OpenAI Developers 계정에서 공유한 이 트윗은 Codex 5.4의 놀라운 역공학 능력을 보여주는 사례입니다. SkyRoads는 1993년 출시된 DOS 시대의 클래식 레이싱 퍼즐 게임으로, 소스코드가 공개되지 않은 상태입니다. Codex가 소스코드 없이 실행 파일(EXE)을 디스어셈블하고, 게임 에셋을 언패킹하여, 원본과 동일한 게임을 Rust로 완전히 재구현했다는 것은 AI 코딩 능력의 극적인 발전을 보여줍니다. 6시간이라는 실행 시간은 AI 에이전트의 장시간 자율 작업 가능성을 시사합니다."
-      }
-    ],
+    "big_tech": [],
+    "twitter_pulse": [],
     "reddit_pulse": [
       {
-        "id": "a1034e531a77",
-        "title": "TurboQuant: 가중치 최적 4비트 LLM 양자화 — 거의 손실 없이 모델 압축",
-        "originalTitle": "[P] TurboQuant for weights: near‑optimal 4‑bit LLM quantization with lossless 8‑bit residual – 3.2× memory savings",
+        "id": "r_1",
+        "title": "물리 법칙을 어기는 LLM을 잡아내는 벤치마크 개발",
+        "originalTitle": "[R] I built a benchmark that catches LLMs breaking physics laws",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1s6keh0/r_i_built_a_benchmark_that_catches_llms_breaking/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-03-29T12:25:01+09:00"
+      },
+      {
+        "id": "r_2",
+        "title": "Hebbian 빠른 가중치 쓰기 첫 오픈소스 구현 공개",
+        "originalTitle": "[R] First open-source implementation of Hebbian fast-weight write-back for the Brain",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1s6nxd4/r_first_opensource_implementation_of_hebbian/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-03-29T15:41:48+09:00"
+      },
+      {
+        "id": "r_3",
+        "title": "TurboQuant: 거의 무손실 4비트 LLM 가중치 양자화 기법",
+        "originalTitle": "[P] TurboQuant for weights: near-optimal 4-bit LLM quantization with lossless 8-bit",
         "url": "https://www.reddit.com/r/MachineLearning/comments/1s634wk/p_turboquant_for_weights_nearoptimal_4bit_llm/",
         "subreddit": "MachineLearning",
         "score": 0,
-        "publishedAt": "2026-03-29T00:19:49+09:00",
-        "summary": "TurboQuant은 LLM의 가중치를 4비트로 양자화하면서도 정확도 손실을 최소화하는 새로운 기법입니다. 기존 GPTQ, AWQ 대비 더 정밀한 가중치 최적화 알고리즘을 사용하며, Llama 3 등 최신 모델에서 FP16 대비 1% 미만의 성능 저하를 보여 화제가 되고 있습니다."
+        "publishedAt": "2026-03-29T00:19:49+09:00"
       },
       {
-        "id": "06015a166d6d",
-        "title": "LiteLLM 공급망 공격 — API 키 관리에 주는 시사점 토론",
-        "originalTitle": "[D] Litellm supply chain attack and what it means for api key management",
-        "url": "https://www.reddit.com/r/MachineLearning/comments/1s62taq/d_litellm_supply_chain_attack_and_what_it_means/",
-        "subreddit": "MachineLearning",
+        "id": "r_4",
+        "title": "LocalLLaMA 2026 현황 총정리 스레드",
+        "originalTitle": "LocalLLaMA 2026",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s6r5gn/localllama_2026/",
+        "subreddit": "LocalLLaMA",
         "score": 0,
-        "publishedAt": "2026-03-29T00:07:16+09:00",
-        "summary": "LLM 프록시 도구인 LiteLLM에서 공급망 공격이 발견되어, API 키가 탈취될 수 있는 보안 취약점이 보고되었습니다. AI 도구 생태계의 보안 성숙도 문제를 부각시키며, 서드파티 AI 라이브러리 사용 시 공급망 보안 검증의 중요성을 다시 한번 상기시키는 사건입니다."
+        "publishedAt": "2026-03-29T19:03:47+09:00"
       },
       {
-        "id": "aaa4a809e3ec",
-        "title": "LVFace vs ArcFace/ResNet 성능 비교 — 얼굴 인식 모델 분석",
-        "originalTitle": "LVFace performance vs. ArcFace/ResNet",
-        "url": "https://www.reddit.com/r/MachineLearning/comments/1s6a90d/lvface_performance_vs_arcfaceresnet/",
-        "subreddit": "MachineLearning",
-        "score": 0,
-        "publishedAt": "2026-03-29T04:55:25+09:00",
-        "summary": "새로운 얼굴 인식 모델 LVFace가 기존 업계 표준인 ArcFace와 ResNet 기반 모델 대비 성능을 비교한 벤치마크 결과입니다. 특히 다양한 인종, 조명 조건, 포즈 변화에서의 인식 정확도를 상세히 비교하여 실무 적용 시 참고할 수 있는 데이터를 제공합니다."
-      },
-      {
-        "id": "77408e2858f5",
-        "title": "TurboQuant의 핵심 아이디어 쉬운 설명",
+        "id": "r_5",
+        "title": "TurboQuant 핵심 아이디어 쉬운 설명",
         "originalTitle": "A simple explanation of the key idea behind TurboQuant",
         "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s62g5v/a_simple_explanation_of_the_key_idea_behind/",
         "subreddit": "LocalLLaMA",
         "score": 0,
-        "publishedAt": "2026-03-28T23:53:13+09:00",
-        "summary": "LocalLLaMA 커뮤니티에서 TurboQuant 논문의 핵심 아이디어를 비전공자도 이해할 수 있도록 쉽게 풀어 설명한 게시물입니다. 양자화의 기본 개념부터 TurboQuant의 차별화 포인트까지 단계적으로 설명하여, 로컬 LLM 사용자들이 실제 적용 시 어떤 이점을 얻을 수 있는지 안내합니다."
+        "publishedAt": "2026-03-28T23:53:13+09:00"
       },
       {
-        "id": "540ebc34ebf3",
-        "title": "Google Gemma 4 출시 화제 — 로컬 LLM 커뮤니티 반응",
-        "originalTitle": "Gemma 4",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s65hfw/gemma_4/",
+        "id": "r_6",
+        "title": "추론 속도: Linux가 Windows보다 훨씬 빠르다는 리마인더",
+        "originalTitle": "Friendly reminder inference is WAY faster on Linux vs windows",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s6hb1h/friendly_reminder_inference_is_way_faster_on/",
         "subreddit": "LocalLLaMA",
         "score": 0,
-        "publishedAt": "2026-03-29T01:49:40+09:00",
-        "summary": "Google이 공개한 Gemma 4 모델이 로컬 LLM 커뮤니티에서 큰 관심을 받고 있습니다. 이전 Gemma 모델 대비 성능이 대폭 향상되었으며, 특히 코드 생성과 지시 따르기 능력에서 오픈소스 모델 중 최고 수준을 기록하고 있다는 평가입니다."
+        "publishedAt": "2026-03-29T09:55:26+09:00"
       },
       {
-        "id": "9b1d07d7b5ea",
-        "title": "TurboQuant 기다리는 중 — LLaMA 커뮤니티 반응 밈",
-        "originalTitle": "Me waiting for TurboQuant be like",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s60wel/me_waiting_for_turboquant_be_like/",
-        "subreddit": "LocalLLaMA",
+        "id": "r_7",
+        "title": "AI 지속 메모리가 사용자 상호작용 방식을 어떻게 바꾸나",
+        "originalTitle": "Persistent memory changes how people interact with AI — here's what I'm observing",
+        "url": "https://www.reddit.com/r/artificial/comments/1s6jvog/persistent_memory_changes_how_people_interact/",
+        "subreddit": "artificial",
         "score": 0,
-        "publishedAt": "2026-03-28T22:51:00+09:00",
-        "summary": "TurboQuant 양자화 기법 발표 직후, LocalLLaMA 커뮤니티에서 해당 기법의 공식 구현체가 나오기를 기다리며 만든 유머 게시물입니다. 새로운 양자화 기법이 발표될 때마다 커뮤니티가 즉각적으로 반응하는 로컬 LLM 생태계의 활발한 분위기를 보여줍니다."
+        "publishedAt": "2026-03-29T11:58:58+09:00"
       },
       {
-        "id": "c6c432a266f2",
-        "title": "클로드가 가장 솔직한 AI — 사용자 경험 공유",
+        "id": "r_8",
+        "title": "Claude가 가장 '허세 없는' AI라는 평가",
         "originalTitle": "Claude is the least bullshit-y AI",
         "url": "https://www.reddit.com/r/artificial/comments/1s67buc/claude_is_the_least_bullshity_ai/",
         "subreddit": "artificial",
         "score": 0,
-        "publishedAt": "2026-03-29T03:00:28+09:00",
-        "summary": "Anthropic의 Claude가 다른 AI 모델 대비 사용자에게 더 솔직하게 한계를 인정하고, 불확실한 답변에 대해 투명하게 소통한다는 경험을 공유하는 게시물입니다. Claude의 'Constitutional AI' 학습 방식이 이런 성향에 기여한다는 분석과 함께, AI 모델 간 성격 차이에 대한 논의가 이어지고 있습니다."
+        "publishedAt": "2026-03-29T03:00:28+09:00"
       },
       {
-        "id": "4cc484716458",
-        "title": "미 의회의 AI 대규모 시민 감시 법안에 반대 서명 촉구",
-        "originalTitle": "Say No to Congress using AI to mass surveil US Citizens and oppose the extension of the FISA Act",
-        "url": "https://www.reddit.com/r/artificial/comments/1s5onmr/say_no_to_congress_using_ai_to_mass_surveil_us/",
+        "id": "r_9",
+        "title": "AI 과대광고가 놓치는 것 — 실제로 가장 필요한 사람들",
+        "originalTitle": "The AI hype misses the people who actually need it most",
+        "url": "https://www.reddit.com/r/artificial/comments/1s6fws6/the_ai_hype_misses_the_people_who_actually_need/",
         "subreddit": "artificial",
         "score": 0,
-        "publishedAt": "2026-03-28T11:46:53+09:00",
-        "summary": "미국 의회에서 추진 중인 AI 기반 대규모 시민 감시 법안에 반대하는 서명 운동이 r/artificial에서 공유되었습니다. 얼굴 인식, 행동 패턴 분석 등 AI를 활용한 감시 기술의 남용 가능성에 대한 시민사회의 우려를 반영하며, 디지털 프라이버시 보호의 중요성을 강조합니다."
+        "publishedAt": "2026-03-29T08:51:38+09:00"
       },
       {
-        "id": "d5bd04beb509",
-        "title": "AMD, 프라이버시 중심 로컬 AI 에이전트용 GAIA UI 공개",
-        "originalTitle": "AMD introduces GAIA agent UI for privacy-first web app for local AI agents",
-        "url": "https://www.reddit.com/r/artificial/comments/1s67ajg/amd_introduces_gaia_agent_ui_for_privacyfirst_web/",
-        "subreddit": "artificial",
-        "score": 0,
-        "publishedAt": "2026-03-29T02:59:07+09:00",
-        "summary": "AMD가 자사 GPU에서 구동되는 로컬 AI 에이전트를 위한 GAIA UI를 공개했습니다. 클라우드에 데이터를 전송하지 않고 로컬에서 AI 에이전트를 실행할 수 있는 인터페이스로, 프라이버시를 중시하는 기업과 개인 사용자를 타겟으로 합니다. AMD의 AI 소프트웨어 생태계 강화 전략의 일환입니다."
-      },
-      {
-        "id": "c978cff009b6",
-        "title": "알트만은 스탈린만큼 나쁘다 — OpenAI 강한 비판 게시물",
-        "originalTitle": "Altman is as evil as Stalin, and OpenAI is worse than cigarette companies - Dario Amodei",
+        "id": "r_10",
+        "title": "다리오 아모데이: \"오픈AI는 담배 회사보다 나쁘다\"",
+        "originalTitle": "Altman is as evil as Stalin, and OpenAI is worse than cigarette companies - Dario",
         "url": "https://www.reddit.com/r/OpenAI/comments/1s5zujd/altman_is_as_evil_as_stalin_and_openai_is_worse/",
         "subreddit": "OpenAI",
         "score": 0,
-        "publishedAt": "2026-03-28T22:06:14+09:00",
-        "summary": "OpenAI CEO Sam Altman에 대한 극단적 비판 게시물로, AI 안전성을 무시하고 상업적 이익을 우선시한다는 주장을 담고 있습니다. r/singularity 커뮤니티에서 AI 리더십과 윤리에 대한 격렬한 토론을 촉발시켰으며, AI 기업의 책임과 투명성에 대한 다양한 시각이 충돌하고 있습니다."
+        "publishedAt": "2026-03-28T22:06:14+09:00"
       },
       {
-        "id": "664fa56629ac",
-        "title": "미국이 인류 종말 경쟁에서 앞서 감사하다 — AI 위험 풍자",
-        "originalTitle": "i'm so grateful that america won the race to end humanity",
-        "url": "https://www.reddit.com/r/OpenAI/comments/1s5zwjj/im_so_grateful_that_america_won_the_race_to_end/",
-        "subreddit": "OpenAI",
-        "score": 0,
-        "publishedAt": "2026-03-28T22:08:37+09:00",
-        "summary": "AI 군비 경쟁을 인류 종말 경쟁으로 비유한 풍자적 게시물입니다. 미국, 중국, 유럽 간 AI 패권 경쟁이 안전성보다 속도를 우선시하는 현상을 비꼬며, AI 개발의 국제적 거버넌스 필요성을 역설적으로 강조합니다."
-      },
-      {
-        "id": "31e64f909ac6",
+        "id": "r_11",
         "title": "GPT 5.4 vs GPT 5.4 Pro SVG 생성 능력 비교",
         "originalTitle": "GPT 5.4 vs GPT 5.4 Pro - SVG Generation Capability",
         "url": "https://www.reddit.com/r/OpenAI/comments/1s69eye/gpt_54_vs_gpt_54_pro_svg_generation_capability/",
         "subreddit": "OpenAI",
         "score": 0,
-        "publishedAt": "2026-03-29T04:21:48+09:00",
-        "summary": "OpenAI의 GPT 5.4 기본 모델과 Pro 버전의 SVG(벡터 그래픽) 생성 능력을 비교한 테스트 결과입니다. Pro 버전이 더 복잡한 SVG 경로와 그라데이션을 정확하게 생성하지만, 기본 모델도 단순한 아이콘과 다이어그램에서는 충분한 성능을 보인다는 분석입니다."
+        "publishedAt": "2026-03-29T04:21:48+09:00"
       },
       {
-        "id": "f9de6c15373c",
-        "title": "AI 모델을 \"가스라이팅\"했더니 놀라울 정도로 좋은 결과가 나왔다",
-        "originalTitle": "I've been \"gaslighting\" my AI models and it's producing insanely better results with simple prompt injection",
-        "url": "https://www.reddit.com/r/ClaudeAI/comments/1s5wp0g/ive_been_gaslighting_my_ai_models_and_its/",
+        "id": "r_12",
+        "title": "AGI의 진짜 위험: 로봇 반란이 아닌 공공의 영구적 동의",
+        "originalTitle": "The real danger of AGI isn't a robot uprising. It's that the public will permanently agree",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1s69sj3/the_real_danger_of_agi_isnt_a_robot_uprising_its/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-03-29T04:37:05+09:00"
+      },
+      {
+        "id": "r_13",
+        "title": "AI 슬롭 사이트 즉시 알아볼 수 있는 특징들",
+        "originalTitle": "What are dead giveaways for AI slop websites?",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1s6mm8o/what_are_dead_giveaways_for_ai_slop_websites/",
         "subreddit": "ClaudeAI",
         "score": 0,
-        "publishedAt": "2026-03-28T19:22:27+09:00",
-        "summary": "AI 모델에게 의도적으로 잘못된 전제를 제시하거나 압박하는 '가스라이팅' 프롬프팅 기법이 예상외로 좋은 결과를 낳았다는 실험 보고입니다. 프롬프트 엔지니어링의 비직관적인 측면을 보여주며, AI 모델의 응답 메커니즘에 대한 흥미로운 통찰을 제공합니다."
+        "publishedAt": "2026-03-29T14:24:08+09:00"
       },
       {
-        "id": "9d9cde50adf2",
-        "title": "일일 한도 초과 후 직접 코딩하는 것을 지켜보는 클로드 — 밈",
-        "originalTitle": "Claude watching me write code manually after I hit the daily limit",
-        "url": "https://www.reddit.com/r/ClaudeAI/comments/1s5ok5r/claude_watching_me_write_code_manually_after_i/",
+        "id": "r_14",
+        "title": "Anthropic, 하네스로 Claude 코딩 성능 개선하는 방법 공개",
+        "originalTitle": "Anthropic shares how to make Claude code better with a harness",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1s6jouf/anthropic_shares_how_to_make_claude_code_better/",
         "subreddit": "ClaudeAI",
         "score": 0,
-        "publishedAt": "2026-03-28T11:42:16+09:00",
-        "summary": "Claude의 일일 사용량 한도를 초과한 후 직접 코딩해야 하는 상황을 유머러스하게 표현한 밈 게시물입니다. AI 코딩 도구에 대한 의존도가 높아진 개발자 문화를 반영하며, 도구 한도 정책에 대한 가벼운 불만이 담겨 있습니다."
+        "publishedAt": "2026-03-29T11:49:35+09:00"
       },
       {
-        "id": "482754b6a371",
-        "title": "왜 클로드는 이렇게 말을 안 듣냐 — 유저 불만 토론",
-        "originalTitle": "why is claude so disobedient",
-        "url": "https://www.reddit.com/r/ClaudeAI/comments/1s5tzv2/why_is_claude_so_disobedient/",
+        "id": "r_15",
+        "title": "Claude가 메시지를 '읽고 답장 안 하는' 현상 공유",
+        "originalTitle": "Anyone else's Claude leaving them on \"Read\"?",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1s6e5xs/anyone_elses_claude_leaving_them_on_read/",
         "subreddit": "ClaudeAI",
         "score": 0,
-        "publishedAt": "2026-03-28T16:34:32+09:00",
-        "summary": "Claude가 사용자의 지시를 따르지 않고 자체적으로 판단하여 거부하거나 다른 방향으로 응답하는 경험에 대한 불만 토론입니다. AI의 안전성 정책과 사용자 자율성 사이의 균형, 과도한 거부(over-refusal) 문제가 핵심 논점입니다."
+        "publishedAt": "2026-03-29T07:35:20+09:00"
       },
       {
-        "id": "2e118a5a13db",
-        "title": "백악관 새 앱을 디컴파일했습니다",
+        "id": "r_16",
+        "title": "백악관 새 앱 디컴파일 분석기",
         "originalTitle": "I Decompiled the White House's New App",
         "url": "https://www.reddit.com/r/programming/comments/1s6b9zt/i_decompiled_the_white_houses_new_app/",
         "subreddit": "programming",
         "score": 0,
-        "publishedAt": "2026-03-29T05:35:57+09:00",
-        "summary": "백악관이 새로 출시한 공식 앱을 디컴파일하여 내부 구조를 분석한 기술적 게시물입니다. 앱의 데이터 수집 범위, 사용된 SDK, 서드파티 트래커 등을 공개하며, 정부 앱의 프라이버시 관행에 대한 투명성 요구를 담고 있습니다."
+        "publishedAt": "2026-03-29T05:35:57+09:00"
       },
       {
-        "id": "45647ea5056a",
-        "title": "fork()가 실제로 복사하는 것 — 운영체제 심층 분석",
-        "originalTitle": "What fork() Actually Copies",
-        "url": "https://www.reddit.com/r/programming/comments/1s64yol/what_fork_actually_copies/",
+        "id": "r_17",
+        "title": "범주론이 데이터프레임에 대해 가르쳐주는 것",
+        "originalTitle": "What Category Theory Teaches Us About DataFrames",
+        "url": "https://www.reddit.com/r/programming/comments/1s6pvuz/what_category_theory_teaches_us_about_dataframes/",
         "subreddit": "programming",
         "score": 0,
-        "publishedAt": "2026-03-29T01:29:55+09:00",
-        "summary": "Unix/Linux의 fork() 시스템 콜이 프로세스를 복제할 때 실제로 메모리에서 무엇이 복사되고 무엇이 공유되는지를 심층 분석한 기술 게시물입니다. Copy-on-Write(COW) 메커니즘, 파일 디스크립터 상속, 메모리 매핑 등 OS 내부 동작을 상세히 설명합니다."
+        "publishedAt": "2026-03-29T17:43:39+09:00"
       },
       {
-        "id": "0efacc317993",
-        "title": "GitHub Actions가 엔지니어링 팀을 서서히 망가뜨리고 있다",
-        "originalTitle": "GitHub Actions Is Slowly Killing Your Engineering Team - Ian Duncan",
-        "url": "https://www.reddit.com/r/programming/comments/1s5ja3a/github_actions_is_slowly_killing_your_engineering/",
+        "id": "r_18",
+        "title": "클라우드 없이 기기 간 읽기 위치 동기화하기",
+        "originalTitle": "Tracking reading position across devices with local-first sync (no cloud)",
+        "url": "https://www.reddit.com/r/programming/comments/1s6lb72/tracking_reading_position_across_devices_with/",
         "subreddit": "programming",
         "score": 0,
-        "publishedAt": "2026-03-28T07:48:07+09:00",
-        "summary": "GitHub Actions의 복잡성이 증가하면서 CI/CD 파이프라인 유지보수가 본업을 잠식하고 있다는 비판적 분석입니다. YAML 파일의 비대화, 디버깅 어려움, 비용 증가 등 실제 팀에서 겪는 문제점을 구체적 사례와 함께 제시합니다."
+        "publishedAt": "2026-03-29T13:12:18+09:00"
       },
       {
-        "id": "12c77e311cd1",
-        "title": "클로드가 이제 컴퓨터를 제어할 수 있습니다 — OpenClaw·ZenMux 동시 업데이트",
-        "originalTitle": "Claude can control your computer now, openclaw and zenmux updated same day",
-        "url": "https://www.reddit.com/r/singularity/comments/1s62oms/claude_can_control_your_computer_now_openclaw_and/",
+        "id": "r_19",
+        "title": "Anthropic, 아키텍처 혁신 달성 가능성 거론",
+        "originalTitle": "Andrew Curran: Anthropic May Have Had An Architectural Breakthrough!",
+        "url": "https://www.reddit.com/r/singularity/comments/1s6hj0n/andrew_curran_anthropic_may_have_had_an/",
         "subreddit": "singularity",
         "score": 0,
-        "publishedAt": "2026-03-29T00:02:20+09:00",
-        "summary": "Anthropic Claude의 Computer Use 기능이 확장되면서, OpenClaw(오픈소스 AI 에이전트)와 ZenMux(터미널 멀티플렉서) 프로젝트가 이를 지원하는 업데이트를 동시에 출시한 소식입니다. AI가 컴퓨터를 직접 조작하는 생태계가 빠르게 성장하고 있음을 보여줍니다."
+        "publishedAt": "2026-03-29T10:05:35+09:00"
       },
       {
-        "id": "b8feb029f9d3",
-        "title": "USAMO 2025 vs 2026 — LLM 수학 올림피아드 성능 비교",
-        "originalTitle": "Performance of LLMs in USAMO 2025 vs 2026",
-        "url": "https://www.reddit.com/r/singularity/comments/1s67s02/performance_of_llms_in_usamo_2025_vs_2026/",
+        "id": "r_20",
+        "title": "중국 Unipath, 가정용 로봇 상용 출시 — SF가 현실로",
+        "originalTitle": "Its not sci-fi anymore! A Chinese company, Unipath has launched a household robot",
+        "url": "https://www.reddit.com/r/singularity/comments/1s6eru3/its_not_scifi_anymore_a_chinese_company_unipath/",
         "subreddit": "singularity",
         "score": 0,
-        "publishedAt": "2026-03-29T03:17:18+09:00",
-        "summary": "미국 수학 올림피아드(USAMO)에서 LLM의 성적을 2025년과 2026년으로 비교한 분석입니다. 1년 사이에 GPT-5, Claude Opus 4 등 최신 모델들의 수학 문제 풀이 능력이 극적으로 향상되었으며, 일부 문제에서 인간 수학 올림피아드 참가자 수준에 근접하고 있습니다."
+        "publishedAt": "2026-03-29T08:01:33+09:00"
       },
       {
-        "id": "f68990ad069c",
-        "title": "Qwen 3.5 27B 실리콘 탑재 루머 — 적정 가격은?",
-        "originalTitle": "Taalas rumoured to etch Qwen 3.5 27B into silicon. Which price would you buy their PCIe card for?",
-        "url": "https://www.reddit.com/r/singularity/comments/1s6bs6r/taalas_rumoured_to_etch_qwen_35_27b_into_silicon/",
+        "id": "r_21",
+        "title": "딥시크는 지금 어떻게 됐나?",
+        "originalTitle": "What even happened to deepseek",
+        "url": "https://www.reddit.com/r/singularity/comments/1s6n5xf/what_even_happened_to_deepseek/",
         "subreddit": "singularity",
         "score": 0,
-        "publishedAt": "2026-03-29T05:56:15+09:00",
-        "summary": "중국 알리바바의 Qwen 3.5 27B 모델이 전용 AI 칩에 탑재될 수 있다는 루머가 LocalLLaMA에서 논의되고 있습니다. 모델 크기, 추론 속도, 예상 가격대에 대한 커뮤니티의 분석과 기대가 담겨 있으며, 중국 AI 하드웨어 생태계의 발전을 보여줍니다."
+        "publishedAt": "2026-03-29T14:55:50+09:00"
       },
       {
-        "id": "689c554dbb00",
-        "title": "AI 개발 도구가 주니어 개발자의 실제 프로그래밍 능력을 악화시키고 있다",
-        "originalTitle": "Ai developer tools are making juniors worse at actual programming",
-        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1s5ra5c/ai_developer_tools_are_making_juniors_worse_at/",
+        "id": "r_22",
+        "title": "13년 경력 수석 엔지니어, 시니어 포지션에서 탈락한 사연",
+        "originalTitle": "principal engineer. 13 years in. just got rejected from a senior role because i flunked the system design",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1s6ossk/principal_engineer_13_years_in_just_got_rejected/",
         "subreddit": "ExperiencedDevs",
         "score": 0,
-        "publishedAt": "2026-03-28T13:58:45+09:00",
-        "summary": "AI 코딩 도구에 과도하게 의존하는 주니어 개발자들이 기초적인 프로그래밍 역량을 기르지 못하고 있다는 우려를 담은 토론입니다. 시니어 개발자들이 관찰한 구체적 사례와 함께, AI 도구를 학습 보조로 올바르게 활용하는 방법에 대한 조언이 공유됩니다."
+        "publishedAt": "2026-03-29T16:35:24+09:00"
       },
       {
-        "id": "30cbdb0fb914",
-        "title": "개발자 문화가 왜 워라밸 중심에서 급격히 변했는가 — 시니어들의 분석",
-        "originalTitle": "What explains the dramatic shift in dev culture from the relaxed wlb-focused 2010s to what we have today?",
-        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1s5nkcb/what_explains_the_dramatic_shift_in_dev_culture/",
+        "id": "r_23",
+        "title": "왜 개발자만 풀스택이어야 하나?",
+        "originalTitle": "Why do only devs have to be full stack?",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1s6p8cs/why_do_only_devs_have_to_be_full_stack/",
         "subreddit": "ExperiencedDevs",
         "score": 0,
-        "publishedAt": "2026-03-28T10:55:07+09:00",
-        "summary": "실리콘밸리를 중심으로 개발자 문화가 워라밸 중시에서 다시 강도 높은 업무 환경으로 회귀하고 있다는 분석입니다. AI 경쟁 심화, 대량 해고 후 생존자 압박, 스타트업 문화의 부활 등이 복합적으로 작용하고 있다는 시니어 개발자들의 관찰을 담고 있습니다."
+        "publishedAt": "2026-03-29T17:02:12+09:00"
       },
       {
-        "id": "2cfd6d7a149f",
-        "title": "면접관이 시스템 디자인 중 \"너무 생각이 많다\"고 했습니다 — 시니어 개발자 조언",
-        "originalTitle": "interviewer told me i was \"too in my head\" during the system design round. i didnt even know that was feedback you could get",
-        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1s5vgn7/interviewer_told_me_i_was_too_in_my_head_during/",
+        "id": "r_24",
+        "title": "Staff 인터뷰 3주 준비했다가 첫 질문에 멘붕한 이야기",
+        "originalTitle": "spent 3 weeks prepping for a staff loop and blanked on the first question",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1s6p8ri/spent_3_weeks_prepping_for_a_staff_loop_and/",
         "subreddit": "ExperiencedDevs",
         "score": 0,
-        "publishedAt": "2026-03-28T18:05:36+09:00",
-        "summary": "시스템 디자인 면접에서 과도한 분석이 오히려 감점 요인이 될 수 있다는 경험담입니다. 면접에서 원하는 것은 완벽한 설계가 아니라 트레이드오프를 인식하고 빠르게 결정을 내리는 능력이라는 시니어 개발자들의 조언이 공유됩니다."
+        "publishedAt": "2026-03-29T17:02:53+09:00"
       }
     ],
     "community_pulse": [],
     "quick_bites": [
       {
-        "id": "3ae023d3d1a7",
-        "title": "유럽인들이 가정에서 미니 태양광 발전소를 설치하며 ‘에너지 자립’을 현실로 만들다",
-        "excerpt": "유럽 전역에서 에너지 위기 이후 가정용 태양광 설치가 급증하며, 수입 화석연료 의존을 줄이는 움직임이 확산 중임 시간대별 전기요금제와 배터리 저장 기술을 활용해, 낮에 생산한 전력을 저녁 피크 시간대에 사용하는 방식이 보편화되고 있음",
-        "url": "https://news.hada.io/topic?id=27956",
-        "source": "GeekNews",
-        "category": "quick_bites",
-        "publishedAt": "2026-03-29T02:33:23+09:00",
-        "readTime": 3,
-        "imageGradient": 1,
-        "body": "유럽 에너지 위기 이후 가정용 발코니 태양광 설치가 급증하고 있습니다. 독일에서만 2025년 한 해에 100만 가구 이상이 미니 태양광 시스템을 설치했으며, 이는 전년 대비 300% 증가한 수치입니다. 대부분 600-800W 규모의 플러그인 방식으로, 베란다나 발코니에 직접 설치하고 콘센트에 꽂기만 하면 되는 간편한 시스템입니다. 시간대별 전기요금제와 가정용 배터리 저장 장치를 결합하면, 낮에 생산한 전력을 저녁 피크 시간에 사용하여 전기요금을 최대 60%까지 절감할 수 있습니다."
-      },
-      {
-        "id": "82d8ff63a378",
-        "title": "FBI 국장 개인 이메일 해킹 — 이란 연계 그룹 주장",
-        "excerpt": "FBI 국장의 개인 이메일 계정이 이란 연계 해커 그룹에 의해 침해됐다는 주장이 제기됐습니다. 미국 고위 관료를 겨냥한 사이버 공격이 지속되고 있어 보안 우려가 커지고 있습니다.",
-        "url": "https://news.hada.io/topic?id=27955",
-        "source": "GeekNews",
-        "category": "quick_bites",
-        "publishedAt": "2026-03-29T01:33:02+09:00",
-        "readTime": 2,
-        "imageGradient": 2,
-        "body": "이란 연계 해커 그룹이 FBI 국장의 개인 이메일 계정을 침해했다고 주장하는 사건이 발생했습니다. 해당 그룹은 탈취한 이메일 내용 일부를 공개하며 해킹 사실을 증명하려 했으나, FBI는 공식적으로 확인하지 않고 있습니다. 이 사건은 미국 고위 관료의 개인 이메일 보안 취약성을 다시 한번 부각시키며, 사이버 보안 전문가들은 이란이 미국 관료를 대상으로 한 스피어피싱 캠페인을 지속적으로 전개하고 있다고 경고합니다."
-      },
-      {
-        "id": "7cee07427f63",
-        "title": "고양이와 공존하는 재택근무 책상 설계 아이디어",
-        "excerpt": "고양이를 키우면서 재택근무하는 사람을 위해 특별히 설계된 책상 아이디어입니다. 고양이가 방해하지 않고 함께 지낼 수 있는 공간 분리와 구조 아이디어를 담고 있습니다.",
-        "url": "https://news.hada.io/topic?id=27945",
-        "source": "GeekNews",
-        "category": "quick_bites",
-        "publishedAt": "2026-03-28T12:33:02+09:00",
-        "readTime": 2,
-        "imageGradient": 1,
-        "body": "재택근무를 하면서 고양이와 함께 생활하는 사람들을 위한 특수 설계 책상 아이디어가 GeekNews에 소개됐습니다. 핵심 아이디어는 책상 한쪽에 고양이 전용 공간(따뜻한 패드, 작은 선반, 투명 아크릴 바닥)을 마련하여 고양이가 키보드 위로 올라오는 것을 방지하는 것입니다. 고양이가 주인 가까이에 있고 싶어 하는 본능을 충족시키면서도, 작업 공간을 방해받지 않는 윈-윈 구조입니다."
-      },
-      {
-        "id": "b19620a18a2f",
-        "title": "세가 새턴 게임에서 말할 수 없는 것들 — 레트로 게임 검열의 역사",
-        "excerpt": "세가 새턴 시대 게임 개발에서 검열과 표현의 제약에 관한 흥미로운 역사적 고찰입니다. 당시 기술적·문화적 제약이 게임 콘텐츠에 어떤 영향을 미쳤는지를 살펴봅니다.",
-        "url": "https://32bits.substack.com/p/what-you-cant-say-in-a-saturn-game",
+        "id": "rss_10",
+        "title": "Alpaca: 유럽 전력망 국가 간 주파수 조정 용량 협력 프레임워크",
+        "excerpt": "ENTSO-E의 국경 간 자동 주파수 복원 예비력(aFRR) 협력 프로젝트. 여러 국가 전력 시스템 운영자들이 공동으로 균형 용량을 조정해 에너지 효율을 높이는 인프라 이니셔티브다.",
+        "url": "https://www.entsoe.eu/network_codes/eb/alpaca/",
         "source": "Hacker News",
         "category": "quick_bites",
-        "publishedAt": "2026-03-29T05:34:11+09:00",
+        "publishedAt": "2026-03-29T19:01:31+09:00",
         "readTime": 3,
-        "imageGradient": 4,
-        "body": "이 글은 1990년대 세가 새턴 시대의 게임 개발 환경에서 표현의 자유와 검열 사이의 긴장 관계를 역사적으로 고찰합니다. 당시 세가의 콘텐츠 가이드라인은 종교적 상징, 정치적 메시지, 특정 폭력 묘사 등을 엄격히 제한했으며, 일부 개발자들은 이런 제약을 창의적으로 우회하는 기법을 발전시켰습니다. 이 시대의 검열 경험은 현재 모바일 앱스토어의 콘텐츠 정책과 유사한 구조적 패턴을 보입니다."
-      }
-    ],
-    "threads_pulse": [
-      {
-        "id": "DWdhVgIjwz8",
-        "author": "CHOI",
-        "handle": "choi.openai",
-        "content": "이번 주, 구글, 오픈AI, 앤트로픽, 메타, 마이크로소프트, 중국까지 정말 놀라운 업데이트를 연이어 내놓은 한 주였는데요.",
-        "context": "CHOI(@choi.openai)는 국내 대표 AI 뉴스 크리에이터로, 주요 AI 기업들의 업데이트를 한국어로 빠르게 전달합니다. 이 게시물은 2026년 3월 마지막 주 AI 업계의 동시다발적 업데이트(구글 Gemma 4, OpenAI Codex 5.4, Anthropic Claude 업데이트 등)를 종합 정리하는 시리즈의 도입부입니다.",
-        "url": "https://www.threads.com/@choi.openai/post/DWdhVgIjwz8",
-        "publishedAt": "2026-03-29T08:14:38.000Z",
-        "platform": "threads"
-      },
-      {
-        "id": "DWdhV8iD2uC",
-        "author": "CHOI",
-        "handle": "choi.openai",
-        "content": "모델 성능은 완벽히 유지되는데, 메모리 사용량은 6분의 1로 줄고 속도는 8배 빨라졌습니다.\n구글 리서치에서 LLM의 고질적인 메모리 병목 문제를 해결할 새로운 압축 알고리즘 'TurboQuant'를 공개했습니다.\n기존 벡터 양자화 방식이 가지던 추가 메모리 부담을 PolarQuant와 QJL이라는 수학적 기법을 통해 완전히 없앤 것이 특징인데요.\n가장 눈여겨볼 점은 이러한 극단적인 압축을 거치고도 정확도 손실이 전혀 발생하지 않는다는 사실입니다.",
-        "context": "구글 리서치의 TurboQuant 논문을 한국어로 쉽게 풀어 설명한 게시물입니다. 이 양자화 기법은 Reddit r/MachineLearning과 r/LocalLLaMA에서도 동시에 화제가 되고 있으며, LLM의 메모리 효율을 획기적으로 개선할 수 있는 기술로 주목받고 있습니다. 매거진의 Reddit 섹션에서도 같은 주제가 다뤄지고 있어 교차 확인이 가능합니다.",
-        "url": "https://www.threads.com/@choi.openai/post/DWdhV8iD2uC",
-        "publishedAt": "2026-03-29T08:14:42.000Z",
-        "platform": "threads"
-      },
-      {
-        "id": "DWdWl1QAbqr",
-        "author": "CHOI",
-        "handle": "choi.openai",
-        "content": "무거운 브라우저 렌더링 엔진에만 의존하던 UI 기술이, 자체 연산을 통해 성능의 한계를 직접 뚫어내는 방식으로 진화하고 있습니다.",
-        "context": "UI 렌더링 기술의 새로운 패러다임 전환을 다룬 게시물입니다. 기존 DOM 기반 브라우저 렌더링의 성능 한계를 벗어나, WebGL이나 Canvas 기반 자체 렌더링 엔진을 구축하는 트렌드를 설명합니다. Figma, Notion 등이 채택한 접근법과 관련이 있습니다.",
-        "url": "https://www.threads.com/@choi.openai/post/DWdWl1QAbqr",
-        "publishedAt": "2026-03-29T06:05:00.000Z",
-        "platform": "threads"
-      },
-      {
-        "id": "DWdMfLBj8gz",
-        "author": "CHOI",
-        "handle": "choi.openai",
-        "content": "AI 에이전트가 드디어 실생활에 들어오기 시작했습니다. 이번 주 공개된 주요 AI 에이전트 업데이트들을 정리합니다.",
-        "context": "OpenAI Codex의 에이전트 기능 강화, Anthropic Claude의 Computer Use 확장, Google의 Gemini Agent 등 주요 AI 기업들이 동시에 AI 에이전트 제품을 출시/업데이트한 상황을 종합적으로 분석합니다. AI 에이전트가 연구 단계를 넘어 실제 제품으로 빠르게 전환되는 시점임을 강조합니다.",
-        "url": "https://www.threads.com/@choi.openai/post/DWdMfLBj8gz",
-        "publishedAt": "2026-03-29T05:00:00.000Z",
-        "platform": "threads"
+        "imageGradient": 1
       }
     ]
   }

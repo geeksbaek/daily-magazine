@@ -3,11 +3,11 @@
     {
       "date": "2026-03-29",
       "issueNumber": 2,
-      "mainHeadline": "4비트 LLM 양자화 TurboQuant 화제 & AI 에코챔버 경고 — 오늘의 AI 씬",
+      "mainHeadline": "TurboQuant 4비트 양자화 · Anthropic 아키텍처 혁신설 · CPython JIT 재도약 — 오늘의 AI/개발 씬",
       "headlines": [
-        "TurboQuant: 거의 손실 없는 4비트 LLM 가중치 양자화 기법 r/MachineLearning 화제",
-        "Karpathy, LLM 에코챔버 경험 공유 — \"반대 주장을 물으니 내 논증을 무너뜨렸다\"",
-        "단 한 줄의 Kubernetes 수정으로 연간 600시간 절약 — HN 주목 사례"
+        "TurboQuant: 4비트 LLM 양자화 기술, r/MachineLearning·LocalLLaMA 동시 화제",
+        "Anthropic 아키텍처 혁신 가능성 제기 — 싱귤래리티 커뮤니티 주목",
+        "CPython 3.15 JIT, macOS AArch64에서 최대 12% 성능 향상 달성"
       ]
     },
     {
