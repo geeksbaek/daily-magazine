@@ -178,7 +178,7 @@ export default function MagazineArticle({
   }, [measureWidth])
 
   // Use pretext to estimate text metrics
-  const textContent = article.body || article.excerpt
+  const textContent = article.body || article.excerpt || (article as any).content || (article as any).summary || ""
   const pretextMetrics = usePretextMetrics(
     textContent,
     bodyWidth > 0 ? bodyWidth : 600,
@@ -186,7 +186,7 @@ export default function MagazineArticle({
     22
   )
 
-  const displayText = article.body || article.excerpt
+  const displayText = article.body || article.excerpt || (article as any).content || (article as any).summary || ""
   const firstChar = displayText.charAt(0)
   const restText = displayText.slice(1)
 
@@ -316,7 +316,7 @@ function CompactMagazineCard({
   article: Article
   decoration: { svg: ReactNode; color: string; bgColor: string }
 }) {
-  const displayText = article.body || article.excerpt
+  const displayText = article.body || article.excerpt || (article as any).content || (article as any).summary || ""
 
   return (
     <article
