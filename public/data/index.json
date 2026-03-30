@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-03-31",
+      "issueNumber": 4,
+      "mainHeadline": "Claude Code, 마우스와 키보드로 컴퓨터를 직접 조작하다",
+      "headlines": [
+        "Mistral, 유럽 AI 인프라 구축에 8억 3천만 달러 투자 유치",
+        "C++26 표준 완성 — 정적 반사·계약 프로그래밍 포함",
+        "OpenAI Codex 데이터: 개발자들, 잠자는 동안 AI에게 작업 위임"
+      ]
+    },
+    {
       "date": "2026-03-30",
       "issueNumber": 3,
       "mainHeadline": "Figma MCP + Claude Code로 여는 AI 디자인 개발 혁명",
