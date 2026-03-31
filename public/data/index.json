@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-04-01",
+      "issueNumber": 5,
+      "mainHeadline": "OpenAI, 1220억 달러 펀딩 완료 — 기업가치 8520억 달러로 AI 역사 새로 쓰다",
+      "headlines": [
+        "Claude Code, 컴퓨터 직접 제어 — 마우스·키보드까지 자율 조작",
+        "npm axios 공급망 공격 — 주간 3억 다운로드 라이브러리 감염",
+        "Google Veo 3.1 Lite 공개 — 가장 비용 효율적인 AI 비디오 생성"
+      ]
+    },
+    {
       "date": "2026-03-31",
       "issueNumber": 4,
       "mainHeadline": "Claude Code, 마우스와 키보드로 컴퓨터를 직접 조작하다",

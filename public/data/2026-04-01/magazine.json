@@ -1,0 +1,653 @@
+{
+  "date": "2026-04-01",
+  "issueNumber": 5,
+  "cover": {
+    "mainHeadline": "OpenAI, 1220억 달러 펀딩 완료 — 기업가치 8520억 달러로 AI 역사 새로 쓰다",
+    "mainExcerpt": "OpenAI가 역사상 최대 규모의 사모 펀딩을 완료하며 기업가치 8520억 달러를 달성했다. 같은 날 Claude Code에 컴퓨터 직접 제어(Computer Use) 기능이 추가되고, npm axios 공급망 공격이 전 세계 개발자들을 긴장시켰다.",
+    "headlines": [
+      "Claude Code, 컴퓨터 직접 제어 — 마우스·키보드까지 자율 조작",
+      "npm axios 공급망 공격 — 주간 3억 다운로드 라이브러리 감염",
+      "Google Veo 3.1 Lite 공개 — 가장 비용 효율적인 AI 비디오 생성"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_001",
+      "title": "OpenAI, AI 가속화 다음 단계 선언 — 1220억 달러 펀딩 완료, 기업가치 8520억 달러",
+      "excerpt": "OpenAI가 총 1220억 달러의 투자를 유치하며 기업가치 8520억 달러를 달성했다. 이는 비상장 기업 역사상 최대 규모의 펀딩으로, AI 기술 접근성 확대와 글로벌 인프라 구축에 사용될 예정이다.",
+      "body": "OpenAI가 1220억 달러의 펀딩 라운드를 마감하며 기업가치 8520억 달러를 공식화했다. 이번 투자는 AI 인프라 확장, 연구 가속화, 전 세계적인 AI 접근성 확대에 집중 투입될 예정이다. OpenAI는 유용한 지능을 조기에 사람들 손에 쥐어주고 전 세계적으로 접근성을 확산시키는 것이 AI 혜택을 넓히는 가장 빠른 방법이라고 밝혔다. 이 자금은 IPO 전 마지막 대규모 사모 펀딩으로 평가받고 있다.",
+      "url": "https://openai.com/index/accelerating-the-next-phase-ai",
+      "source": "OpenAI News",
+      "category": "ai_ml",
+      "publishedAt": "2026-03-31T22:00:00+09:00",
+      "readTime": 4,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_005",
+      "title": "Claude Code에 컴퓨터 사용(Computer Use) 기능 추가 — 마우스·키보드 직접 제어",
+      "excerpt": "Anthropic이 Claude Code에 Computer Use 기능을 통합했다. 이제 Claude가 터미널에서 직접 앱을 열고 UI를 클릭하며 빌드한 소프트웨어를 테스트할 수 있다. Pro·Max 플랜 리서치 프리뷰로 출시됐다.",
+      "body": "Claude Code의 Computer Use는 AI 코딩 어시스턴트가 코드 작성을 넘어 실제 GUI 환경을 제어하는 새로운 패러다임을 열었다. Mac에서 컴파일된 SwiftUI 앱, Electron 빌드, CLI가 없는 GUI 도구까지 모든 앱을 대상으로 동작한다. 허용할 앱을 명시적으로 지정하고 조회/클릭 권한을 선택할 수 있어 보안을 유지하면서도 강력한 자동화가 가능하다.",
+      "url": "https://x.com/claudeai/status/2038663014098899416",
+      "source": "Claude",
+      "category": "dev_tools",
+      "publishedAt": "2026-04-01T06:20:44.593312+09:00",
+      "readTime": 3,
+      "imageGradient": 2
+    },
+    {
+      "id": "rss_011",
+      "title": "npm axios 공급망 공격 — 주간 3억 다운로드 라이브러리 감염",
+      "excerpt": "가장 인기 있는 JavaScript HTTP 클라이언트 라이브러리 axios가 npm 공급망 공격을 당했다. 악성 버전이 배포되어 원격 접근 트로이목마가 포함됐으며, Andrej Karpathy도 영향을 받았다고 밝혔다.",
+      "body": "axios는 주간 3억 다운로드를 기록하는 npm 최인기 HTTP 라이브러리다. 공격자가 악성 버전(axios@1.14.1, axios@0.30.4)을 배포하여 원격 접근 트로이목마(RAT)를 삽입했다. Andrej Karpathy는 X에서 직접 영향을 받았다고 공유했다. JavaScript Weekly도 이번 사건을 주요 뉴스로 다뤘으며, 개발자들에게 즉시 패치 버전으로 업데이트를 권고했다.",
+      "url": "https://javascriptweekly.com/issues/779",
+      "source": "JavaScript Weekly",
+      "category": "big_tech",
+      "publishedAt": "2026-04-01T06:20:44.593352+09:00",
+      "readTime": 4,
+      "imageGradient": 5
+    },
+    {
+      "id": "rss_002",
+      "title": "Google, Veo 3.1 Lite 공개 — 가장 비용 효율적인 비디오 생성 모델",
+      "excerpt": "Google이 Veo 3.1 Lite를 출시했다. 비용 효율성을 강조한 최신 비디오 생성 모델로, 개발자와 기업이 저렴하게 AI 동영상을 제작할 수 있도록 설계됐다.",
+      "body": "Google의 Veo 3.1 Lite는 Veo 시리즈 최신 멤버로, 이전 모델 대비 뛰어난 비용 효율성을 제공한다. 개발자 API를 통해 접근 가능하며, 텍스트 프롬프트로 고품질 동영상을 생성할 수 있다. Google은 이 모델이 AI 비디오 제작을 대중화하는 데 기여할 것으로 기대하고 있으며, Reddit r/singularity에서도 큰 주목을 받고 있다.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/veo-3-1-lite/",
+      "source": "Google",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-01T01:00:00+09:00",
+      "readTime": 3,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_006",
+      "title": "Docker Sandboxes 출시 — AI 에이전트를 안전하게 'YOLO 모드'로 실행",
+      "excerpt": "Docker가 AI 에이전트를 격리된 샌드박스 환경에서 실행할 수 있는 Docker Sandboxes를 출시했다. 에이전트가 임의 코드를 실행하더라도 호스트 시스템에 영향을 주지 않는다.",
+      "body": "Docker Sandboxes는 AI 에이전트의 코드 실행을 컨테이너로 격리하여 보안 리스크를 최소화한다. 개발자들이 AI 에이전트에게 더 많은 자율성을 부여하면서도 시스템 안전성을 보장할 수 있게 한다. LLM이 생성하는 예측 불가능한 코드를 실행하는 MCP 서버나 에이전트 파이프라인에 특히 유용하다.",
+      "url": "https://www.docker.com/blog/docker-sandboxes-run-agents-in-yolo-mode-safely/",
+      "source": "Docker",
+      "category": "dev_tools",
+      "publishedAt": "2026-04-01T01:39:16+09:00",
+      "readTime": 4,
+      "imageGradient": 3
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_001",
+        "title": "OpenAI, AI 가속화 다음 단계 선언 — 1220억 달러 펀딩 완료, 기업가치 8520억 달러",
+        "excerpt": "OpenAI가 총 1220억 달러의 투자를 유치하며 기업가치 8520억 달러를 달성했다. 이는 비상장 기업 역사상 최대 규모의 펀딩으로, AI 기술 접근성 확대와 글로벌 인프라 구축에 사용될 예정이다.",
+        "body": "OpenAI가 1220억 달러의 펀딩 라운드를 마감하며 기업가치 8520억 달러를 공식화했다. 이번 투자는 AI 인프라 확장, 연구 가속화, 전 세계적인 AI 접근성 확대에 집중 투입될 예정이다. OpenAI는 유용한 지능을 조기에 사람들 손에 쥐어주고 전 세계적으로 접근성을 확산시키는 것이 AI 혜택을 넓히는 가장 빠른 방법이라고 밝혔다. 이 자금은 IPO 전 마지막 대규모 사모 펀딩으로 평가받고 있다.",
+        "url": "https://openai.com/index/accelerating-the-next-phase-ai",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-03-31T22:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_002",
+        "title": "Google, Veo 3.1 Lite 공개 — 가장 비용 효율적인 비디오 생성 모델",
+        "excerpt": "Google이 Veo 3.1 Lite를 출시했다. 비용 효율성을 강조한 최신 비디오 생성 모델로, 개발자와 기업이 저렴하게 AI 동영상을 제작할 수 있도록 설계됐다.",
+        "body": "Google의 Veo 3.1 Lite는 Veo 시리즈 최신 멤버로, 이전 모델 대비 뛰어난 비용 효율성을 제공한다. 개발자 API를 통해 접근 가능하며, 텍스트 프롬프트로 고품질 동영상을 생성할 수 있다. Google은 이 모델이 AI 비디오 제작을 대중화하는 데 기여할 것으로 기대하고 있으며, Reddit r/singularity에서도 큰 주목을 받고 있다.",
+        "url": "https://blog.google/innovation-and-ai/technology/ai/veo-3-1-lite/",
+        "source": "Google",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-01T01:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_003",
+        "title": "Hugging Face, Granite 4.0 3B Vision 공개 — 엔터프라이즈용 소형 멀티모달 모델",
+        "excerpt": "IBM과 Hugging Face가 공동 개발한 Granite 4.0 3B Vision이 출시됐다. 30억 파라미터 규모로 이미지와 텍스트를 동시에 처리하며, 기업 환경에서 경량으로 배포 가능하다.",
+        "body": "Granite 4.0 3B Vision은 IBM의 엔터프라이즈 AI 전략의 일환으로 개발된 소형 멀티모달 모델이다. 30억 파라미터로 이미지-텍스트 이해 태스크를 처리하며, 온프레미스 및 에지 환경 배포를 겨냥했다. Hugging Face 플랫폼에서 오픈소스로 제공되어 기업들이 자체 인프라에서 활용할 수 있다.",
+        "url": "https://huggingface.co/blog/ibm-granite/granite-4-vision",
+        "source": "Hugging Face",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-01T00:10:41+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_004",
+        "title": "TRL v1.0 정식 출시 — AI 포스트 트레이닝의 새로운 기준",
+        "excerpt": "Hugging Face의 TRL(Transformers Reinforcement Learning) 라이브러리가 v1.0을 출시했다. RLHF, DPO 등 최신 포스트 트레이닝 기법을 지원하며, 빠르게 진화하는 LLM 훈련 방법론에 발맞춘다.",
+        "body": "TRL v1.0은 대형 언어 모델의 포스트 트레이닝을 위한 핵심 라이브러리가 성숙 단계에 진입했음을 알린다. RLHF, DPO, PPO 등 다양한 강화학습 기반 훈련 방법론을 지원하며, Hugging Face 생태계와 완벽 통합된다. 연구자와 엔지니어 모두를 위한 일관된 API를 제공하는 것이 핵심 목표다.",
+        "url": "https://huggingface.co/blog/trl-v1",
+        "source": "Hugging Face",
+        "category": "ai_ml",
+        "publishedAt": "2026-03-31T09:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_005",
+        "title": "Claude Code에 컴퓨터 사용(Computer Use) 기능 추가 — 마우스·키보드 직접 제어",
+        "excerpt": "Anthropic이 Claude Code에 Computer Use 기능을 통합했다. 이제 Claude가 터미널에서 직접 앱을 열고 UI를 클릭하며 빌드한 소프트웨어를 테스트할 수 있다. Pro·Max 플랜 리서치 프리뷰로 출시됐다.",
+        "body": "Claude Code의 Computer Use는 AI 코딩 어시스턴트가 코드 작성을 넘어 실제 GUI 환경을 제어하는 새로운 패러다임을 열었다. Mac에서 컴파일된 SwiftUI 앱, Electron 빌드, CLI가 없는 GUI 도구까지 모든 앱을 대상으로 동작한다. 허용할 앱을 명시적으로 지정하고 조회/클릭 권한을 선택할 수 있어 보안을 유지하면서도 강력한 자동화가 가능하다.",
+        "url": "https://x.com/claudeai/status/2038663014098899416",
+        "source": "Claude",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-01T06:20:44.593312+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_006",
+        "title": "Docker Sandboxes 출시 — AI 에이전트를 안전하게 'YOLO 모드'로 실행",
+        "excerpt": "Docker가 AI 에이전트를 격리된 샌드박스 환경에서 실행할 수 있는 Docker Sandboxes를 출시했다. 에이전트가 임의 코드를 실행하더라도 호스트 시스템에 영향을 주지 않는다.",
+        "body": "Docker Sandboxes는 AI 에이전트의 코드 실행을 컨테이너로 격리하여 보안 리스크를 최소화한다. 개발자들이 AI 에이전트에게 더 많은 자율성을 부여하면서도 시스템 안전성을 보장할 수 있게 한다. LLM이 생성하는 예측 불가능한 코드를 실행하는 MCP 서버나 에이전트 파이프라인에 특히 유용하다.",
+        "url": "https://www.docker.com/blog/docker-sandboxes-run-agents-in-yolo-mode-safely/",
+        "source": "Docker",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-01T01:39:16+09:00",
+        "readTime": 4,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_007",
+        "title": "GitHub Copilot Applied Science, 에이전트 주도 개발 방식 공개",
+        "excerpt": "GitHub Copilot 팀이 에이전트 주도 개발(Agent-driven development) 방법론을 블로그로 공개했다. AI 에이전트가 코드 리뷰, 테스트 작성, 버그 수정을 자율적으로 수행하는 워크플로우를 소개한다.",
+        "body": "GitHub Copilot Applied Science 팀은 에이전트 주도 개발이 소프트웨어 엔지니어링의 미래라고 주장한다. 이 방식에서는 AI 에이전트가 개발 사이클 전반에 걸쳐 자율적으로 작업을 수행하며, 인간 개발자는 고수준 방향 설정과 코드 검토에 집중할 수 있다. Copilot 팀 내부에서 실제로 활용한 사례와 교훈을 함께 공유했다.",
+        "url": "https://github.blog/ai-and-ml/github-copilot/agent-driven-development-in-copilot-applied-science/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-01T01:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_008",
+        "title": "LangChain + MongoDB 파트너십 — AI 에이전트 풀스택 솔루션",
+        "excerpt": "LangChain과 MongoDB가 공식 파트너십을 발표했다. AI 에이전트 개발을 위한 통합 스택으로, 벡터 검색부터 상태 관리, 대화 이력 저장까지 원스톱으로 제공한다.",
+        "body": "LangChain과 MongoDB의 파트너십은 AI 에이전트 개발에 필요한 데이터 레이어를 표준화한다. MongoDB Atlas의 벡터 검색 기능과 LangChain의 에이전트 프레임워크가 결합되어, 개발자가 장기 메모리와 상태를 가진 AI 에이전트를 쉽게 구축할 수 있다. 기업용 AI 에이전트 구축의 복잡성을 대폭 줄여줄 것으로 기대된다.",
+        "url": "https://blog.langchain.com/announcing-the-langchain-mongodb-partnership-the-ai-agent-stack-that-runs-on-the-database-you-already-trust/",
+        "source": "LangChain",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-01T02:00:21+09:00",
+        "readTime": 4,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_009",
+        "title": "Cloudflare, 프로그래머블 플로우 보호 출시 — 맞춤형 DDoS 완화 로직",
+        "excerpt": "Cloudflare가 기업 맞춤형 DDoS 완화 규칙을 작성할 수 있는 Programmable Flow Protection을 출시했다. 기존 자동화 방어에 더해 고급 사용자 지정 로직을 추가할 수 있다.",
+        "body": "Cloudflare의 Programmable Flow Protection은 L3/L4 DDoS 방어를 사용자가 직접 프로그래밍할 수 있게 한다. 특정 트래픽 패턴에 맞춤 대응 규칙을 작성하고, Cloudflare의 전 세계 네트워크에서 초저지연으로 실행된다. 기존 Magic Firewall과 통합되어 더욱 정교한 네트워크 보안 전략을 구현할 수 있다.",
+        "url": "https://blog.cloudflare.com/programmable-flow-protection/",
+        "source": "Cloudflare",
+        "category": "dev_tools",
+        "publishedAt": "2026-03-31T22:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 2
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_010",
+        "title": "Claude Code 소스코드 NPM 맵 파일 통해 유출 — 내부 구조 공개",
+        "excerpt": "Claude Code의 소스코드가 NPM 레지스트리에 올라간 맵 파일을 통해 의도치 않게 노출됐다. 개발자들이 Anthropic의 내부 코드 구조와 프롬프트 설계를 확인하면서 큰 관심을 모았다.",
+        "body": "Claude Code npm 패키지에 포함된 소스맵 파일이 축소된 JavaScript 코드의 원본 소스를 그대로 노출시켰다. Reddit, GeekNews 등에서 빠르게 확산되며 Anthropic의 agentic loop 구조, 컨텍스트 로딩 방식, 내부 프롬프트 등이 분석됐다. Anthropic은 이후 해당 파일을 제거했으나, 이미 여러 분석 글과 클린룸 재작성 프로젝트(claw-code)가 등장했다.",
+        "url": "https://www.reddit.com/r/programming/comments/1s8kni4/claude_codes_source_leaked_via_a_map_file_in/",
+        "source": "Reddit/프로그래밍",
+        "category": "big_tech",
+        "publishedAt": "2026-04-01T06:20:44.593351+09:00",
+        "readTime": 5,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_011",
+        "title": "npm axios 공급망 공격 — 주간 3억 다운로드 라이브러리 감염",
+        "excerpt": "가장 인기 있는 JavaScript HTTP 클라이언트 라이브러리 axios가 npm 공급망 공격을 당했다. 악성 버전이 배포되어 원격 접근 트로이목마가 포함됐으며, Andrej Karpathy도 영향을 받았다고 밝혔다.",
+        "body": "axios는 주간 3억 다운로드를 기록하는 npm 최인기 HTTP 라이브러리다. 공격자가 악성 버전(axios@1.14.1, axios@0.30.4)을 배포하여 원격 접근 트로이목마(RAT)를 삽입했다. Andrej Karpathy는 X에서 직접 영향을 받았다고 공유했다. JavaScript Weekly도 이번 사건을 주요 뉴스로 다뤘으며, 개발자들에게 즉시 패치 버전으로 업데이트를 권고했다.",
+        "url": "https://javascriptweekly.com/issues/779",
+        "source": "JavaScript Weekly",
+        "category": "big_tech",
+        "publishedAt": "2026-04-01T06:20:44.593352+09:00",
+        "readTime": 4,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_012",
+        "title": "NVIDIA, 에너지 리더들과 전력 유연성 AI 인프라 가속화",
+        "excerpt": "NVIDIA가 에너지 업계 파트너들과 협력하여 전력 유연성 AI 인프라를 구축한다. 데이터센터의 급증하는 전력 수요를 지속 가능하게 관리하기 위한 전략을 발표했다.",
+        "body": "NVIDIA의 에너지 파트너십은 AI 데이터센터 전력 소비 문제를 정면으로 다룬다. 전력 유연성 솔루션을 통해 AI 인프라가 전력망 부하를 실시간으로 조절할 수 있게 하며, 재생 에너지와의 통합도 포함된다. 글로벌 AI 인프라 확장이 전력 인프라에 미치는 압박을 완화하기 위한 산업 차원의 협력 모델을 제시한다.",
+        "url": "https://blogs.nvidia.com/blog/energy-efficiency-ai-factories-grid/",
+        "source": "NVIDIA",
+        "category": "big_tech",
+        "publishedAt": "2026-04-01T00:00:51+09:00",
+        "readTime": 4,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_013",
+        "title": "Atlassian Rovo Dev, 긴 세션에서도 유용성 유지 — MCP 압축 기술 공개",
+        "excerpt": "Atlassian이 Rovo Dev 에이전트의 장기 세션 유용성을 유지하는 에이전트 컨텍스트 정리(Agent Context Pruning) 기술을 공개했다. MCP 도구 과부하를 방지하는 MCP Compression도 함께 발표됐다.",
+        "body": "Rovo Dev 팀은 AI 에이전트가 긴 코딩 세션에서 컨텍스트 창을 효율적으로 관리하는 방법을 공개했다. 불필요한 히스토리를 자동 정리하는 Agent Context Pruning과 MCP 도구 수가 많을 때 성능 저하를 막는 MCP Compression 기술이 핵심이다. 실제로 Rovo Dev를 사용해 2주 만에 120개 PR을 처리한 사례도 함께 공유됐다.",
+        "url": "https://www.atlassian.com/blog/developer/rovo-dev-keeps-long-sessions-useful",
+        "source": "Atlassian",
+        "category": "big_tech",
+        "publishedAt": "2026-03-31T09:10:34+09:00",
+        "readTime": 5,
+        "imageGradient": 5
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Andrej Karpathy",
+        "handle": "karpathy",
+        "content": "이번엔 npm axios가 공급망 공격을 당했습니다. 주간 3억 다운로드를 기록하는 가장 인기 있는 HTTP 클라이언트 라이브러리입니다. 며칠 전 gmail/gcal CLI 실험 중 googleworkspace/cli에서 불러온 사용 흔적을 발견했습니다. 설치된 버전은 (다행히도)...",
+        "context": "OpenAI 공동창업자 출신의 AI 연구자 Andrej Karpathy가 npm axios 공급망 공격의 피해자 중 한 명임을 직접 공개했다. 전 세계 3억 다운로드/주를 기록하는 라이브러리가 감염된 중대한 보안 사건으로, AI 개발자들도 직접 영향을 받았음을 보여주는 사례다.",
+        "url": "https://x.com/karpathy/status/2038849654423798197",
+        "publishedAt": "2026-03-31T05:23:32.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Mark Chen",
+        "handle": "markchen90",
+        "content": "자동 압축(auto compaction) 기능이 정말 잘 만들어졌다고 자부합니다. Codex가 훨씬 오래 일관성을 유지하는 것을 직접 느끼실 수 있을 겁니다!",
+        "context": "OpenAI의 Mark Chen이 Codex의 새 자동 압축 기능을 언급했다. 이 기능은 긴 작업 세션에서 Codex가 컨텍스트 일관성을 유지하도록 도와주는 핵심 개선사항으로, AI 코딩 에이전트의 장기 세션 품질을 높이는 중요한 진전이다.",
+        "url": "https://x.com/markchen90/status/2038816186725720108",
+        "publishedAt": "2026-03-31T03:10:32.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "오늘, 기업가치 8520억 달러 기준으로 1220억 달러의 확약 자본으로 최신 펀딩 라운드를 마감했습니다. AI 혜택을 확산시키는 가장 빠른 방법은 유용한 지능을 일찍 사람들 손에 쥐어주고 전 세계적으로 접근성이 복리처럼 불어나도록 하는 것입니다. 이 자금은 우리에게 필요한 자원을...",
+        "context": "OpenAI가 역사상 최대 규모의 사모 펀딩인 1220억 달러 투자 유치를 공식 발표했다. 기업가치는 8520억 달러로 평가받았으며, 이는 비상장 기업 중 최고 수준이다. AI 인프라 및 접근성 확대에 투자할 계획이다.",
+        "url": "https://x.com/OpenAI/status/2039085161971896807",
+        "publishedAt": "2026-03-31T20:59:21.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "개발자들은 자는 동안에도 일을 처리합니다. Codex 사용 최신 데이터에 따르면, 개발자들은 하루 마무리 시간에 리팩터링, 아키텍처 계획 같은 장시간·고난이도 작업을 Codex에 위임합니다.",
+        "context": "OpenAI Developers 계정이 Codex 실제 사용 패턴을 공유했다. 오후 11시에 시작된 작업이 다른 시간대보다 3시간 이상 실행될 확률이 60% 높다는 데이터는 AI 코딩 에이전트가 개발자의 비동기 작업 방식을 바꾸고 있음을 보여준다.",
+        "url": "https://x.com/OpenAIDevs/status/2038707501492056401",
+        "publishedAt": "2026-03-30T19:58:40.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Felix Rieseberg",
+        "handle": "felixrieseberg",
+        "content": "Claude Code에도 Computer Use가 추가됐습니다. Cowork와 동일하게, 특정 앱만 허용하고 모델이 보기만 할지 클릭·타이핑까지 할지 선택할 수 있습니다.",
+        "context": "Anthropic의 Felix Rieseberg가 Claude Code의 Computer Use 기능을 직접 소개했다. 이미 Cowork 데스크톱 앱에서 제공되던 컴퓨터 제어 기능이 CLI 도구인 Claude Code에도 통합되어, 개발자가 터미널에서 GUI 앱을 직접 제어할 수 있게 됐다.",
+        "url": "https://x.com/felixrieseberg/status/2038669701195378879",
+        "publishedAt": "2026-03-30T17:28:28.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Claude Code의 자동 모드(Auto mode)가 이제 Enterprise 플랜 및 API 사용자에게 제공됩니다. 사용해보려면 설치를 업데이트하고 claude --enable-auto-mode를 실행하세요.",
+        "context": "Anthropic의 공식 Claude 계정이 Claude Code 자동 모드의 Enterprise 및 API 확대 출시를 발표했다. 자동 모드는 Claude가 사람의 개입 없이 더 자율적으로 복잡한 작업을 처리할 수 있게 해주는 기능으로, 기업 고객과 API 개발자에게 본격 제공된다.",
+        "url": "https://x.com/claudeai/status/2038693742094246032",
+        "publishedAt": "2026-03-30T19:03:59.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "content": "Claude Code에서 잘 알려지지 않은 숨겨진 기능들을 소개하고 싶습니다. 제가 가장 자주 쓰는 것들 위주로 공유합니다.",
+        "context": "Anthropic의 Boris Cherny가 Claude Code의 숨겨진 팁과 기능들을 소개하는 스레드를 시작했다. /voice 명령어로 음성 입력이 가능하다는 팁 등 실무에서 유용한 팁들이 담겨 있어 Claude Code 사용자들의 큰 호응을 얻었다.",
+        "url": "https://x.com/bcherny/status/2038454336355999749",
+        "publishedAt": "2026-03-30T03:12:41.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "Lydia Hallie",
+        "handle": "lydiahallie",
+        "content": "Claude Code에서 예상보다 훨씬 빠르게 사용 한도에 도달하는 문제를 인지하고 있습니다. 현재 원인 조사 중이며, 업데이트가 생기면 바로 공유하겠습니다!",
+        "context": "Anthropic의 Lydia Hallie가 Claude Code 사용 한도 예상치 못한 초과 문제에 대해 공식적으로 인지했음을 발표했다. 많은 개발자들이 갑작스럽게 한도에 도달하는 문제를 겪고 있었으며, Reddit에서도 Bun 버그와 연관 가능성이 제기됐다.",
+        "url": "https://x.com/lydiahallie/status/2038686571676008625",
+        "publishedAt": "2026-03-30T18:35:30.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "TurboQuant 저자, OpenReview에 직접 답변 올려",
+        "originalTitle": "[D] TurboQuant author replies on OpenReview",
+        "summary": "머신러닝 커뮤니티에서 TurboQuant 논문의 저자가 OpenReview 리뷰어들의 비판에 직접 반박 답변을 달아 논쟁이 이어지고 있다. 논문 리뷰 시스템의 공정성과 투명성에 대한 논의로 확산됐다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1s8yni2/d_turboquant_author_replies_on_openreview/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-04-01T05:11:22+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "ICML 2026 리뷰 정책 논쟁 — 100개 응답이 시사하는 것",
+        "originalTitle": "[D] ICML 2026 review policy debate: 100 responses suggest Policy B may score higher, while Policy A shows higher confidence",
+        "summary": "ICML 2026의 새 리뷰 정책에 대해 연구자 100명 이상이 의견을 제시했다. 대부분이 정책 변경에 우려를 표명하며 학술 커뮤니티 내 피어 리뷰 문화 개선이 필요하다는 목소리가 높다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1s8rpuo/d_icml_2026_review_policy_debate_100_responses/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-04-01T01:06:53+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "arXiv 논문을 요약해주는 개인 연구 신문 직접 만들었습니다",
+        "originalTitle": "[P] I built a personal research newspaper to funnel arXiv",
+        "summary": "개발자가 arXiv에서 관심 분야 논문을 자동 수집하고 요약해주는 개인 연구 신문 도구를 직접 제작했다. 오픈소스로 공개되어 AI 연구자들의 큰 관심을 받고 있다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1s8ls28/p_i_built_a_personal_research_newspaper_to_funnel/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-03-31T21:17:28+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "Claude Code 소스코드, NPM 레지스트리 맵 파일 통해 유출됨",
+        "originalTitle": "Claude code source code has been leaked via a map file in their npm registry",
+        "summary": "Claude Code npm 패키지에 포함된 소스맵 파일이 내부 소스코드를 노출시켰다. LocalLLaMA 커뮤니티에서 빠르게 분석되며 Anthropic의 agentic loop 구조가 공개됐다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s8ijfb/claude_code_source_code_has_been_leaked_via_a_map/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-03-31T18:25:04+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "시작할 때 vs 지금 근황",
+        "originalTitle": "How it started vs How it's going",
+        "summary": "LocalLLaMA 유저들이 로컬 LLM의 초기 상태와 현재를 비교하는 밈을 공유했다. AI 모델 성능 향상 속도를 유머러스하게 표현한 게시물이다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s8r3w3/how_it_started_vs_how_its_going/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-04-01T00:45:00+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "그냥 친절한 오픈소스 기여자",
+        "originalTitle": "Just a helpful open-source contributor",
+        "summary": "오픈소스 기여자를 자처하며 실제로는 홍보성 코드를 올리는 행위를 풍자한 게시물이 LocalLLaMA에서 화제가 됐다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1s8rb48/just_a_helpful_opensource_contributor/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-04-01T00:52:25+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "진짜 AI 문제는 지능이 아니라 책임감 아닐까요?",
+        "originalTitle": "What if the real AI problem is not intelligence, but responsibility?",
+        "summary": "AI의 진짜 문제가 지능 수준이 아니라 책임감(responsiveness)과 신뢰성에 있다는 논의가 r/artificial에서 활발히 이루어졌다. AI 안전성과 정렬 문제에 대한 새로운 관점을 제시한다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1s8u4jm/what_if_the_real_ai_problem_is_not_intelligence/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-04-01T02:32:17+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "Newsom 주지사, AI 기업에 안전 계획 의무화 행정명령 서명",
+        "originalTitle": "Newsom signs executive order requiring AI companies to have safety, privacy guardrails",
+        "summary": "캘리포니아 주지사 Gavin Newsom이 AI 기업들에게 안전 계획을 의무적으로 수립하도록 하는 행정명령에 서명했다. AI 거버넌스 강화의 일환으로 업계에 상당한 영향을 미칠 전망이다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1s8ge2h/newsom_signs_executive_order_requiring_ai/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-03-31T16:12:06+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "AI가 실제로 세상을 지배하는 방식",
+        "originalTitle": "The actual way that AI will take over the world",
+        "summary": "AI가 극적인 방식이 아닌 일상적이고 점진적인 방식으로 세상을 장악해 나가는 과정을 묘사한 글이 r/artificial에서 큰 공감을 얻었다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1s8y5zs/the_actual_way_that_ai_will_take_over_the_world/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-04-01T04:54:34+09:00"
+      },
+      {
+        "id": "reddit_010",
+        "title": "OpenAI, 역대 최대 1220억 달러 펀딩 완료 — IPO 임박 기대",
+        "originalTitle": "OpenAI closes record $122 billion funding round as IPO anticipation grows, valuing the company at $852 billion",
+        "summary": "OpenAI가 1220억 달러 역대 최대 규모의 사모 펀딩을 완료했다는 소식이 r/OpenAI에서 활발히 논의되고 있다. IPO 준비 신호로 해석하는 의견이 많다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1s8z0aj/openai_closes_record_122_billion_funding_round_as/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-04-01T05:24:13+09:00"
+      },
+      {
+        "id": "reddit_011",
+        "title": "LLM에게 50시간 넘게 솔로 RPG 캠페인 GM 시켜봤습니다",
+        "originalTitle": "I had LLMs GM/DM solo campaigns for 50+ hours so you didn't have to. AMA",
+        "summary": "LLM을 솔로 TTRPG 캠페인의 게임 마스터로 활용해 50시간 이상 진행한 경험을 공유한 게시물이 r/OpenAI에서 큰 인기를 끌었다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1s8repj/i_had_llms_gmdm_solo_campaigns_for_50_hours_so/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-04-01T00:56:04+09:00"
+      },
+      {
+        "id": "reddit_012",
+        "title": "초지능 경쟁의 유일한 승자는 초지능 자체",
+        "originalTitle": "The only winner of a race to superintelligence is the superintelligence itself",
+        "summary": "초지능을 향한 경쟁에서 유일한 승자는 초지능 자체라는 철학적 논의가 r/OpenAI에서 이루어졌다. AI 안전과 경쟁 구도에 대한 깊이 있는 토론을 담고 있다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1s8rqa5/the_only_winner_of_a_race_to_superintelligence_is/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-04-01T01:07:19+09:00"
+      },
+      {
+        "id": "reddit_013",
+        "title": "Claude Code 유출 소스 파헤쳐봤더니 Anthropic의 코드가...",
+        "originalTitle": "i dug through claude code's leaked source and anthropic's codebase is absolutely unhinged",
+        "summary": "유출된 Claude Code 소스코드를 분석한 결과를 r/ClaudeAI에 올린 게시물이 주목받았다. Anthropic의 코딩 스타일과 내부 구조에 대한 흥미로운 발견이 담겨 있다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1s8lkkm/i_dug_through_claude_codes_leaked_source_and/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-03-31T21:07:47+09:00"
+      },
+      {
+        "id": "reddit_014",
+        "title": "여러분, AI한테 욕하지 마세요.",
+        "originalTitle": "Guys, stop bad mouthing your AI.",
+        "summary": "AI에게 부정적이거나 비하하는 말을 쓰면 성능에 영향을 미친다는 주장이 r/ClaudeAI에서 논의됐다. 실제로 대화 톤이 AI 응답 품질에 영향을 준다는 경험담이 이어졌다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1s8tf4q/guys_stop_bad_mouthing_your_ai/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-04-01T02:07:33+09:00"
+      },
+      {
+        "id": "reddit_015",
+        "title": "Claude Code 소스코드, NPM 레지스트리 맵 파일 통해 유출됨",
+        "originalTitle": "Claude code source code has been leaked via a map file in their npm registry",
+        "summary": "Claude Code npm 패키지에 포함된 소스맵 파일이 내부 소스코드를 노출시켰다. LocalLLaMA 커뮤니티에서 빠르게 분석되며 Anthropic의 agentic loop 구조가 공개됐다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1s8ifm6/claude_code_source_code_has_been_leaked_via_a_map/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-03-31T18:18:32+09:00"
+      },
+      {
+        "id": "reddit_016",
+        "title": "Claude Code 소스코드, NPM 레지스트리 맵 파일로 유출",
+        "originalTitle": "Claude Code's source leaked via a map file in their NPM registry",
+        "summary": "r/programming에서도 Claude Code 소스코드 유출 사건이 주요 화제로 올라왔다. 개발자 커뮤니티에서 소스맵 파일 관리의 중요성과 보안 시사점을 논의하고 있다.",
+        "url": "https://www.reddit.com/r/programming/comments/1s8kni4/claude_codes_source_leaked_via_a_map_file_in/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-03-31T20:22:57+09:00"
+      },
+      {
+        "id": "reddit_017",
+        "title": "Bun 버그가 Claude Code 사용량 급증의 근본 원인이었을 수도",
+        "originalTitle": "A bug in Bun may have been the root cause of the Claude Code source code leak.",
+        "summary": "Bun JavaScript 런타임의 버그가 Claude Code 사용량 급증의 원인이었을 수 있다는 분석이 r/programming에서 올라와 주목받았다.",
+        "url": "https://www.reddit.com/r/programming/comments/1s8t8hp/a_bug_in_bun_may_have_been_the_root_cause_of_the/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-04-01T02:01:01+09:00"
+      },
+      {
+        "id": "reddit_018",
+        "title": "예측: Shopify CEO의 Pull Request는 절대 머지되지 않을 것",
+        "originalTitle": "Prediction: The Shopify CEO's Pull Request Will Never Be Merged Nor Closed",
+        "summary": "Shopify CEO Tobi Lutke가 직접 올린 Pull Request가 실제로 머지될 가능성에 대한 예측 글이 개발자 커뮤니티에서 화제가 됐다.",
+        "url": "https://www.reddit.com/r/programming/comments/1s8i9sp/prediction_the_shopify_ceos_pull_request_will/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-03-31T18:08:41+09:00"
+      },
+      {
+        "id": "reddit_019",
+        "title": "Claude Code 소스코드, NPM 레지스트리 맵 파일 통해 유출됨",
+        "originalTitle": "Claude code source code has been leaked via a map file in their npm registry",
+        "summary": "Claude Code npm 패키지에 포함된 소스맵 파일이 내부 소스코드를 노출시켰다. LocalLLaMA 커뮤니티에서 빠르게 분석되며 Anthropic의 agentic loop 구조가 공개됐다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1s8izpi/claude_code_source_code_has_been_leaked_via_a_map/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-03-31T18:52:20+09:00"
+      },
+      {
+        "id": "reddit_020",
+        "title": "양자 컴퓨터, 1만 큐비트로 가장 강력한 암호 해독 가능",
+        "originalTitle": "Quantum computers need just 10,000 qubits to break the most secure encryption, scientists warn",
+        "summary": "최신 연구에 따르면 1만 큐비트 수준의 양자 컴퓨터로 현재 가장 강력한 RSA 암호를 해독할 수 있다고 한다. 양자 암호 전환의 시급성을 높이는 연구 결과다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1s8txf4/quantum_computers_need_just_10000_qubits_to_break/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-04-01T02:25:23+09:00"
+      },
+      {
+        "id": "reddit_021",
+        "title": "Google, Veo 3.1 Lite 공개",
+        "originalTitle": "Google introduced Veo 3.1 Lite",
+        "summary": "Google이 비용 효율적인 비디오 생성 모델 Veo 3.1 Lite를 공개했다는 소식이 r/singularity에서도 주목받았다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1s8swqq/google_introduced_veo_31_lite/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-04-01T01:49:42+09:00"
+      },
+      {
+        "id": "reddit_022",
+        "title": "좋지 않은 아키텍처 결정에 어떻게 반대 의견을 내시나요?",
+        "originalTitle": "How do you push back on poor architectural decisions without creating friction?",
+        "summary": "아키텍처 문제가 있는 결정에 경력자로서 어떻게 의견을 개진하는지에 대한 토론이 r/ExperiencedDevs에서 풍부한 조언과 함께 공유됐다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1s8x8se/how_do_you_push_back_on_poor_architectural/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-04-01T04:22:00+09:00"
+      },
+      {
+        "id": "reddit_023",
+        "title": "배포 주기가 느린 벤더사와 일하는 법",
+        "originalTitle": "Working with vendors who release infrequently",
+        "summary": "배포 주기가 느린 외부 벤더와의 협업에서 발생하는 문제들을 다룬 토론이 경험 많은 개발자들의 실용적인 조언과 함께 이어졌다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1s8pzfj/working_with_vendors_who_release_infrequently/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-04-01T00:04:17+09:00"
+      },
+      {
+        "id": "reddit_024",
+        "title": "6주 스프린트를 진지하게 고려해보세요",
+        "originalTitle": "You should really consider 6 week sprints",
+        "summary": "2주 스프린트 대신 6주 스프린트를 사용할 것을 강력히 권장하는 글이 r/ExperiencedDevs에서 활발한 토론을 불러일으켰다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1s87p0k/you_should_really_consider_6_week_sprints/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-03-31T09:00:56+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_014",
+        "title": "Fitbit에 AI 개인 건강 코치 기능 추가 예정",
+        "excerpt": "Google이 Fitbit에 AI 기반 개인 건강 코치 기능을 도입한다고 발표했다. 사용자의 건강 데이터를 분석하여 맞춤형 운동·수면·영양 조언을 제공할 예정이다.",
+        "url": "https://blog.google/products-and-platforms/devices/fitbit/fitbit-personal-health-coach-new-features/",
+        "source": "Google",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-01T01:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_015",
+        "title": "Ollama, 애플 실리콘에서 MLX 기반으로 전환 — 성능 향상 기대",
+        "excerpt": "Ollama가 애플 실리콘 Mac에서 MLX 프레임워크를 기본으로 사용하도록 업데이트됐다. 애플 M1/M2/M3/M4 칩에 최적화된 로컬 LLM 추론 속도가 대폭 향상될 전망이다.",
+        "url": "https://news.hada.io/topic?id=28049",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-03-31T18:09:19+09:00",
+        "readTime": 2,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_016",
+        "title": "Google Maps, 350개 이상 EV 차량의 배터리 예측 및 여행 계획 간소화",
+        "excerpt": "Google Maps가 전기차 350여 종의 배터리 소모를 예측하고 최적 경로와 충전소를 함께 안내하는 기능을 강화했다.",
+        "url": "https://blog.google/products-and-platforms/products/maps/google-maps-simplifies-battery-predictions-and-trip-planning-for-350-android-auto-ev-models/",
+        "source": "Google",
+        "category": "quick_bites",
+        "publishedAt": "2026-03-31T00:30:00+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_017",
+        "title": "Kaggle, AI 에이전트 프롬프트 인젝션 평가를 위한 자동 시험 출시",
+        "excerpt": "Kaggle이 AI 에이전트의 프롬프트 인젝션 취약점을 자동으로 평가하는 시험 시스템을 출시했다. 별도 설정 없이 LLM 에이전트의 보안 강도를 측정할 수 있다.",
+        "url": "https://www.kaggle.com/blog/standardized-agent-exams",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-01T05:56:32+09:00",
+        "readTime": 2,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_018",
+        "title": "Bun 버그가 Claude Code 사용량 폭증의 원인이었을 가능성 제기",
+        "excerpt": "Reddit에서 Claude Code 사용 한도 초과 문제의 근본 원인이 Bun 런타임의 버그일 수 있다는 분석이 올라와 주목받았다.",
+        "url": "https://www.reddit.com/r/programming/comments/1s8t8hp/a_bug_in_bun_may_have_been_the_root_cause_of_the/",
+        "source": "Reddit",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-01T06:20:44.593391+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      }
+    ]
+  }
+}
