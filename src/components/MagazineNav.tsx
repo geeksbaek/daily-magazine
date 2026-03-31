@@ -19,7 +19,6 @@ const SECTIONS = [
   { id: 'twitter-pulse', label: 'X' },
   { id: 'threads-pulse', label: 'Threads' },
   { id: 'reddit-pulse', label: 'Reddit' },
-  { id: 'community-pulse', label: 'Community' },
   { id: 'quick-bites', label: 'Quick Bites' },
 ]
 
