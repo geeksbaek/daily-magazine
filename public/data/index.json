@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-04-02",
+      "issueNumber": 6,
+      "mainHeadline": "OpenAI, 1220억 달러 펀딩 완료 — 기업가치 8520억 달러로 AI 역사 새로 써",
+      "headlines": [
+        "GKE 추론 게이트웨이: 실시간·비동기 AI 추론을 동일 인프라에서 운영",
+        "구글 AI, 2026년 3월 주요 업데이트 총정리 — Gemini부터 DeepMind까지",
+        "Gradient Labs, OpenAI로 모든 은행 고객에게 AI 계좌 관리자 제공"
+      ]
+    },
+    {
       "date": "2026-04-01",
       "issueNumber": 5,
       "mainHeadline": "OpenAI, 1220억 달러 펀딩 완료 — 기업가치 8520억 달러로 AI 역사 새로 쓰다",
