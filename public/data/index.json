@@ -1,6 +1,17 @@
 {
   "issues": [
     {
+      "date": "2026-04-03",
+      "issueNumber": 7,
+      "mainHeadline": "구글 Gemma 4 출시 — 바이트 대비 최강 오픈 멀티모달 AI의 등장",
+      "headlines": [
+        "OpenAI, 기술 팟캐스트 네트워크 TBPN 인수 — AI의 미디어 생태계 진출",
+        "GitHub Copilot /fleet: 여러 AI 에이전트 동시 병렬 실행 지원",
+        "Cloudflare EmDash: 플러그인 보안 문제 없는 WordPress 대안 출시",
+        "Docker Offload 정식 출시, Docker Sandboxes로 에이전트 안전 실행"
+      ]
+    },
+    {
       "date": "2026-04-02",
       "issueNumber": 6,
       "mainHeadline": "OpenAI, 1220억 달러 펀딩 완료 — 기업가치 8520억 달러로 AI 역사 새로 써",
