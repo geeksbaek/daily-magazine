@@ -1,6 +1,12 @@
 {
   "issues": [
     {
+      "date": "2026-04-04",
+      "issueNumber": 8,
+      "title": "Gemma 4 공개 & Claude Windows 상륙 — AI 생태계 대격변",
+      "excerpt": "구글 DeepMind가 바이트 대비 최강의 오픈 모델 Gemma 4를 공개했습니다. 같은 날 Anthropic은 Claude Computer Use를 Windows로 확장하고 Microsoft 365를 전 플랜에 통..."
+    },
+    {
       "date": "2026-04-03",
       "issueNumber": 7,
       "mainHeadline": "구글 Gemma 4 출시 — 바이트 대비 최강 오픈 멀티모달 AI의 등장",

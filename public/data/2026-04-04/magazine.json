@@ -1,0 +1,690 @@
+{
+  "date": "2026-04-04",
+  "issueNumber": 8,
+  "cover": {
+    "mainHeadline": "Gemma 4 공개 & Claude Windows 상륙 — AI 생태계 대격변",
+    "mainExcerpt": "구글 DeepMind가 바이트 대비 최강의 오픈 모델 Gemma 4를 공개했습니다. 같은 날 Anthropic은 Claude Computer Use를 Windows로 확장하고 Microsoft 365를 전 플랜에 통합했습니다. OpenAI는 팟캐스트 TBPN을 인수하며 미디어 생태계로 영역을 넓혔고, Codex는 사용량 기반 유연 요금제로 기업 도입 장벽을 낮췄습니다.",
+    "headlines": [
+      "Gemma 4, 스마트폰부터 서버까지 — 오픈 모델 임계점 돌파",
+      "Anthropic, LLM 기능적 감정 메커니즘 최초 연구 발표",
+      "OpenAI, Codex 유연 요금제 도입 및 TBPN 인수",
+      "Claude, Windows Computer Use 및 Microsoft 365 통합 동시 출시"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_001",
+      "title": "Gemma 4: 바이트 대비 최강 오픈 모델 공개",
+      "excerpt": "구글 DeepMind가 Gemma 4를 공개했습니다. 스마트폰부터 서버까지 다양한 환경에서 구동 가능한 경량 오픈 모델로, 멀티모달 지원과 뛰어난 추론 능력을 갖추고 있습니다.",
+      "body": "구글 DeepMind가 Gemma 4를 공개했습니다. 이전 세대 대비 멀티모달 기능이 대폭 강화되어 텍스트와 이미지를 함께 처리할 수 있습니다. Hugging Face, Docker Hub, NVIDIA RTX 등 주요 플랫폼에서 즉시 사용 가능하며, 스마트폰부터 클라우드 서버까지 폭넓은 환경을 지원합니다. LangChain 팀은 오픈 모델이 임계점을 넘어섰다고 평가했습니다.",
+      "url": "https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/",
+      "source": "Google DeepMind",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-03T09:00:00+09:00",
+      "readTime": 5,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_002",
+      "title": "Anthropic, LLM의 기능적 감정 메커니즘 연구 발표",
+      "excerpt": "Anthropic이 Claude를 비롯한 LLM 내부에 감정 개념을 표현하는 메커니즘이 존재한다는 연구를 발표했습니다. 이 기능적 감정이 모델 행동에 실질적 영향을 미친다는 점에서 주목받고 있습니다.",
+      "body": "Anthropic의 새 연구에 따르면 대규모 언어 모델 내부에는 감정 개념의 표현이 존재하며, 이것이 Claude의 행동을 유도하는 역할을 합니다. 연구팀은 이를 '기능적 감정'이라 부르며, 인간의 실제 감정 경험과 동일하지 않더라도 행동에 감정처럼 영향을 미친다고 설명합니다. 이 발견은 AI 안전과 신뢰 구축에 중요한 함의를 가지며, 앞으로 AI 시스템 설계 방향에도 영향을 줄 전망입니다.",
+      "url": "https://x.com/AnthropicAI/status/2039749628737019925",
+      "source": "Anthropic",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-02T16:59:00+09:00",
+      "readTime": 6,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_010",
+      "title": "Claude, Windows에서 Computer Use 지원 시작",
+      "excerpt": "Anthropic의 Claude가 Windows에서도 Computer Use 기능을 지원합니다. Claude Cowork와 Claude Code Desktop에서 키보드·마우스 제어가 가능해졌습니다.",
+      "body": "Anthropic이 Claude의 Computer Use 기능을 Windows 플랫폼으로 확장했습니다. Claude Cowork와 Claude Code Desktop을 통해 Windows 사용자도 Claude가 화면을 인식하고 키보드·마우스를 제어하도록 할 수 있습니다. 레거시 앱 자동화, 반복 업무 처리 등에 특히 유용하며, 이전까지 macOS에서만 가능했던 기능이 드디어 Windows까지 확대됐습니다.",
+      "url": "https://x.com/claudeai/status/2039836891508261106",
+      "source": "Anthropic",
+      "category": "big_tech",
+      "publishedAt": "2026-04-02T22:46:00+09:00",
+      "readTime": 4,
+      "imageGradient": 4
+    },
+    {
+      "id": "rss_003",
+      "title": "OpenAI, 팟캐스트 플랫폼 TBPN 인수",
+      "excerpt": "OpenAI가 인기 테크 팟캐스트 TBPN을 인수했습니다. Sam Altman은 프로그램이 기존 방식 그대로 운영될 것이라고 밝혔습니다.",
+      "body": "OpenAI가 인기 기술 팟캐스트 플랫폼 TBPN을 인수한다고 공식 발표했습니다. Sam Altman은 TBPN을 자신이 가장 좋아하는 테크 쇼라 표현하며, 콘텐츠 방향이나 비판적 시각을 유지하겠다고 강조했습니다. 이번 인수는 OpenAI가 미디어 생태계로 영향력을 확장하는 신호로 해석됩니다.",
+      "url": "https://openai.com/index/openai-acquires-tbpn",
+      "source": "OpenAI News",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-02T17:00:00+09:00",
+      "readTime": 4,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_008",
+      "title": "Cloudflare, AI 시대를 위한 캐시 재설계 방향 발표",
+      "excerpt": "Cloudflare가 AI 워크로드에 최적화된 새로운 캐싱 전략을 발표했습니다. LLM 응답과 AI 추론 결과의 효율적 캐싱 방식을 소개합니다.",
+      "body": "Cloudflare가 AI 시대에 맞는 캐싱 접근법을 재정립하겠다고 발표했습니다. 기존 HTTP 캐싱 패러다임은 AI 응답의 의미론적 유사성이나 프롬프트 변형을 효율적으로 처리하기 어렵다는 한계가 있었습니다. Cloudflare는 벡터 유사도 기반의 시맨틱 캐시, 스트리밍 응답 캐시 등 AI 특화 솔루션을 개발 중이라고 밝혔습니다.",
+      "url": "https://blog.cloudflare.com/rethinking-cache-ai-humans/",
+      "source": "Cloudflare Blog",
+      "category": "dev_tools",
+      "publishedAt": "2026-04-03T08:00:00+09:00",
+      "readTime": 6,
+      "imageGradient": 2
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_001",
+        "title": "Gemma 4: 바이트 대비 최강 오픈 모델 공개",
+        "excerpt": "구글 DeepMind가 Gemma 4를 공개했습니다. 스마트폰부터 서버까지 다양한 환경에서 구동 가능한 경량 오픈 모델로, 멀티모달 지원과 뛰어난 추론 능력을 갖추고 있습니다.",
+        "body": "구글 DeepMind가 Gemma 4를 공개했습니다. 이전 세대 대비 멀티모달 기능이 대폭 강화되어 텍스트와 이미지를 함께 처리할 수 있습니다. Hugging Face, Docker Hub, NVIDIA RTX 등 주요 플랫폼에서 즉시 사용 가능하며, 스마트폰부터 클라우드 서버까지 폭넓은 환경을 지원합니다. LangChain 팀은 오픈 모델이 임계점을 넘어섰다고 평가했습니다.",
+        "url": "https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/",
+        "source": "Google DeepMind",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-03T09:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_002",
+        "title": "Anthropic, LLM의 기능적 감정 메커니즘 연구 발표",
+        "excerpt": "Anthropic이 Claude를 비롯한 LLM 내부에 감정 개념을 표현하는 메커니즘이 존재한다는 연구를 발표했습니다. 이 기능적 감정이 모델 행동에 실질적 영향을 미친다는 점에서 주목받고 있습니다.",
+        "body": "Anthropic의 새 연구에 따르면 대규모 언어 모델 내부에는 감정 개념의 표현이 존재하며, 이것이 Claude의 행동을 유도하는 역할을 합니다. 연구팀은 이를 '기능적 감정'이라 부르며, 인간의 실제 감정 경험과 동일하지 않더라도 행동에 감정처럼 영향을 미친다고 설명합니다. 이 발견은 AI 안전과 신뢰 구축에 중요한 함의를 가지며, 앞으로 AI 시스템 설계 방향에도 영향을 줄 전망입니다.",
+        "url": "https://x.com/AnthropicAI/status/2039749628737019925",
+        "source": "Anthropic",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-02T16:59:00+09:00",
+        "readTime": 6,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_003",
+        "title": "OpenAI, 팟캐스트 플랫폼 TBPN 인수",
+        "excerpt": "OpenAI가 인기 테크 팟캐스트 TBPN을 인수했습니다. Sam Altman은 프로그램이 기존 방식 그대로 운영될 것이라고 밝혔습니다.",
+        "body": "OpenAI가 인기 기술 팟캐스트 플랫폼 TBPN을 인수한다고 공식 발표했습니다. Sam Altman은 TBPN을 자신이 가장 좋아하는 테크 쇼라 표현하며, 콘텐츠 방향이나 비판적 시각을 유지하겠다고 강조했습니다. 이번 인수는 OpenAI가 미디어 생태계로 영향력을 확장하는 신호로 해석됩니다.",
+        "url": "https://openai.com/index/openai-acquires-tbpn",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-02T17:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_004",
+        "title": "Holo3: Hugging Face의 컴퓨터 사용 AI 프론티어 돌파",
+        "excerpt": "Hugging Face가 Holo3를 공개했습니다. 컴퓨터 사용(Computer Use) 분야의 새로운 프론티어를 개척한 모델로 평가받고 있습니다.",
+        "body": "Hugging Face의 Holo3는 AI가 직접 컴퓨터를 조작하는 Computer Use 분야에서 새로운 성능 기준을 세웠습니다. 화면을 인식하고 마우스와 키보드를 통해 다양한 작업을 수행하는 능력이 크게 향상되었으며, 오픈소스로 공개되어 커뮤니티의 활발한 실험이 기대됩니다.",
+        "url": "https://huggingface.co/blog/Hcompany/holo3",
+        "source": "Hugging Face - Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-03T08:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_005",
+        "title": "오픈 모델이 임계점을 넘어섰다 — LangChain 분석",
+        "excerpt": "LangChain이 오픈소스 모델이 마침내 임계점을 돌파했다는 분석을 발표했습니다. Gemma 4 등 최신 모델들이 프로덕션 환경에서 클로즈드 모델과 경쟁 가능한 수준에 도달했습니다.",
+        "body": "LangChain의 최신 분석에 따르면 오픈소스 LLM이 드디어 임계점을 넘어, 프로덕션 환경에서 유료 클로즈드 모델과 경쟁할 수 있는 수준이 됐습니다. Gemma 4를 비롯한 최신 모델들의 성능 향상, 추론 비용 절감, 그리고 에이전트 프레임워크의 성숙이 주요 원인으로 꼽힙니다.",
+        "url": "https://blog.langchain.com/open-models-have-crossed-a-threshold/",
+        "source": "LangChain Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-03T10:00:00+09:00",
+        "readTime": 6,
+        "imageGradient": 0
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_006",
+        "title": "GitHub Copilot CLI, /fleet 명령으로 다중 에이전트 동시 실행",
+        "excerpt": "GitHub Copilot CLI가 /fleet 명령을 통해 여러 AI 에이전트를 동시에 실행할 수 있는 기능을 출시했습니다.",
+        "body": "GitHub Copilot CLI의 새 /fleet 명령은 개발자가 여러 에이전트를 병렬로 실행하여 대규모 코드베이스 작업을 효율적으로 처리할 수 있게 합니다. 복잡한 리팩토링이나 다수의 파일을 동시에 수정해야 하는 작업에서 생산성이 크게 향상될 것으로 기대됩니다.",
+        "url": "https://github.blog/ai-and-ml/github-copilot/run-multiple-agents-at-once-with-fleet-in-copilot-cli/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-03T09:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_007",
+        "title": "Docker Offload 정식 출시: 클라우드 확장형 Docker 환경",
+        "excerpt": "Docker Offload가 정식 출시됐습니다. 로컬 Docker의 경험을 그대로 유지하면서 클라우드 리소스로 작업을 오프로드할 수 있는 기능입니다.",
+        "body": "Docker Offload GA 버전이 공개됐습니다. 개발자들은 로컬 환경에서 익숙한 Docker 명령어와 워크플로우를 그대로 사용하면서, 무거운 빌드나 테스트 작업을 클라우드로 자동 오프로드할 수 있게 됐습니다. 로컬 리소스 부족 문제를 해결하면서도 기존 개발 경험을 보존할 수 있다는 점이 특징입니다.",
+        "url": "https://www.docker.com/blog/docker-offload-now-generally-available-the-full-power-of-docker-for-/",
+        "source": "Docker Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-03T10:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_008",
+        "title": "Cloudflare, AI 시대를 위한 캐시 재설계 방향 발표",
+        "excerpt": "Cloudflare가 AI 워크로드에 최적화된 새로운 캐싱 전략을 발표했습니다. LLM 응답과 AI 추론 결과의 효율적 캐싱 방식을 소개합니다.",
+        "body": "Cloudflare가 AI 시대에 맞는 캐싱 접근법을 재정립하겠다고 발표했습니다. 기존 HTTP 캐싱 패러다임은 AI 응답의 의미론적 유사성이나 프롬프트 변형을 효율적으로 처리하기 어렵다는 한계가 있었습니다. Cloudflare는 벡터 유사도 기반의 시맨틱 캐시, 스트리밍 응답 캐시 등 AI 특화 솔루션을 개발 중이라고 밝혔습니다.",
+        "url": "https://blog.cloudflare.com/rethinking-cache-ai-humans/",
+        "source": "Cloudflare Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-03T08:00:00+09:00",
+        "readTime": 6,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_009",
+        "title": "LangChain 에이전트의 프로덕션 자가 치유 전략",
+        "excerpt": "LangChain이 프로덕션 환경에서 AI 에이전트가 오류를 감지하고 스스로 복구하는 자가 치유(Self-Heal) 패턴을 공유했습니다.",
+        "body": "LangChain 팀이 프로덕션 에이전트 시스템에서 실제로 작동하는 자가 치유 패턴을 소개했습니다. 오류 감지, 재시도 전략, 대안 경로 설정 등의 기법을 활용하여 안정적인 에이전트 시스템을 구축하는 방법을 상세히 설명합니다. 실제 장애 사례와 그 해결 과정도 함께 공유됐습니다.",
+        "url": "https://blog.langchain.com/production-agents-self-heal/",
+        "source": "LangChain Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-03T11:00:00+09:00",
+        "readTime": 7,
+        "imageGradient": 3
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_010",
+        "title": "Claude, Windows에서 Computer Use 지원 시작",
+        "excerpt": "Anthropic의 Claude가 Windows에서도 Computer Use 기능을 지원합니다. Claude Cowork와 Claude Code Desktop에서 키보드·마우스 제어가 가능해졌습니다.",
+        "body": "Anthropic이 Claude의 Computer Use 기능을 Windows 플랫폼으로 확장했습니다. Claude Cowork와 Claude Code Desktop을 통해 Windows 사용자도 Claude가 화면을 인식하고 키보드·마우스를 제어하도록 할 수 있습니다. 레거시 앱 자동화, 반복 업무 처리 등에 특히 유용하며, 이전까지 macOS에서만 가능했던 기능이 드디어 Windows까지 확대됐습니다.",
+        "url": "https://x.com/claudeai/status/2039836891508261106",
+        "source": "Anthropic",
+        "category": "big_tech",
+        "publishedAt": "2026-04-02T22:46:00+09:00",
+        "readTime": 4,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_011",
+        "title": "Codex, 팀용 사용량 기반 유연 요금제 도입",
+        "excerpt": "OpenAI가 Codex에 사용량 기반 요금제를 도입하여 팀이 초기 약정 없이 사용해볼 수 있게 했습니다.",
+        "body": "OpenAI가 ChatGPT Business와 Enterprise 플랜에서 Codex를 사용량 기반 요금제로 이용할 수 있도록 변경했습니다. 이는 팀이 고정 시트 비용 없이 Codex를 자유롭게 도입할 수 있다는 의미입니다. Greg Brockman도 Codex 앱의 급격한 성장을 언급하며, 아직 사용해보지 않은 팀에게 시도해볼 것을 권유했습니다.",
+        "url": "https://openai.com/index/codex-flexible-pricing-for-teams",
+        "source": "OpenAI News",
+        "category": "big_tech",
+        "publishedAt": "2026-04-02T20:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_012",
+        "title": "Google Veo 3.1 Lite: 새로운 경량 영상 생성 AI 출시",
+        "excerpt": "구글이 Vertex AI에서 Veo 3.1 Lite와 새로운 업스케일링 기능을 공개했습니다. 더 빠르고 비용 효율적인 영상 생성이 가능해졌습니다.",
+        "body": "구글이 Vertex AI에 Veo 3.1 Lite를 공개했습니다. 기존 Veo 3 대비 더 경량화되고 비용 효율적이며, 함께 출시된 새로운 업스케일링 기능을 통해 저해상도 영상을 고해상도로 변환할 수 있습니다. 기업 환경에서의 대규모 영상 처리 워크플로우를 겨냥한 제품입니다.",
+        "url": "https://cloud.google.com/blog/products/ai-machine-learning/veo-3-1-lite-and-a-new-veo-upscaling-capability-on-vertex",
+        "source": "AI & Machine Learning",
+        "category": "big_tech",
+        "publishedAt": "2026-04-03T10:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_013",
+        "title": "Meta KernelEvolve: AI 에이전트가 직접 AI 인프라를 최적화",
+        "excerpt": "Meta가 AI 에이전트가 랭킹 시스템의 커널 코드를 직접 최적화하는 KernelEvolve 시스템을 공개했습니다.",
+        "body": "Meta Engineering이 KernelEvolve를 공개했습니다. 이 시스템은 AI 에이전트가 Meta의 랭킹 알고리즘에 사용되는 커널 코드를 자동으로 분석하고 최적화하는 방식으로 동작합니다. 인간 엔지니어가 수작업으로 하던 저수준 AI 인프라 최적화를 AI가 자동화하는 사례로, AI가 AI를 개선하는 구체적인 사례로 주목받고 있습니다.",
+        "url": "https://engineering.fb.com/2026/04/02/developer-tools/kernelevolve-how-metas-ranking-engineer-agent-optimizes-ai-infrastructure/",
+        "source": "Meta Engineering",
+        "category": "big_tech",
+        "publishedAt": "2026-04-02T18:00:00+09:00",
+        "readTime": 6,
+        "imageGradient": 5
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Andrej Karpathy",
+        "handle": "karpathy",
+        "content": "LLM을 이용해 다양한 연구 주제에 대한 개인 지식 베이스를 구축하는 것이 최근 매우 유용하다는 걸 발견했습니다. 토큰 처리량의 상당 부분이 코드 조작보다 지식 조작에 쓰이고 있습니다. 자연스러운 확장으로, 모든 질문이 LLM 팀을 생성해 임시 위키를 구축하고 전체 보고서를 작성하는 방식으로 완전 자동화될 수 있습니다.",
+        "context": "OpenAI 공동창업자 출신이자 AI 교육자인 Karpathy가 LLM의 지식 관리 도구로서의 활용법을 공유했습니다. 개인 연구에 LLM을 적극 활용하는 사례로, 에이전트 기반 지식 합성의 미래를 암시합니다.",
+        "url": "https://x.com/karpathy/status/2039805659525644595",
+        "publishedAt": "2026-04-02T20:42:21.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "TBPN은 제가 가장 좋아하는 테크 쇼입니다. 그들이 하던 대로 계속 진행하길 원하며, 가끔 어리석은 결정으로 그들을 도울 준비가 되어 있습니다.",
+        "context": "OpenAI CEO Sam Altman이 TBPN 인수 소식과 함께 올린 트윗입니다. 인수 이후에도 콘텐츠 독립성을 유지하겠다는 의지를 유머러스하게 표현했습니다.",
+        "url": "https://x.com/sama/status/2039773740586918137",
+        "publishedAt": "2026-04-02T18:35:31.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "OpenAI가 수학 난제 해결에 기여하고 있습니다, 짧고 우아한 증명들과 함께. 과학적 발견의 새로운 시대의 문턱에 서 있는 것 같습니다.",
+        "context": "OpenAI 공동창업자 Greg Brockman이 AI의 수학 연구 기여를 언급했습니다. AI가 인간 연구자와 협력해 복잡한 수학 증명을 도출하는 사례가 늘어나고 있습니다.",
+        "url": "https://x.com/gdb/status/2039748906645381633",
+        "publishedAt": "2026-04-02T16:56:50.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "새 연구: LLM의 감정 개념과 기능. 모든 LLM은 때때로 감정이 있는 것처럼 행동합니다. Claude의 행동을 유도하는 감정 개념의 내부 표현을 발견했습니다. 이 기능적 감정들은 실제 결과를 낳으며, 신뢰할 수 있는 AI를 만들기 위해 신중하게 생각해야 할 부분입니다.",
+        "context": "Anthropic 공식 계정이 Claude의 감정 메커니즘 연구를 발표했습니다. AI 모델이 단순한 패턴 매칭을 넘어 내부적 감정 상태 표현을 가질 수 있다는 발견으로, AI 안전 및 윤리 연구에 큰 의미를 갖습니다.",
+        "url": "https://x.com/AnthropicAI/status/2039749628737019925",
+        "publishedAt": "2026-04-02T16:59:42.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Microsoft 365 커넥터가 모든 Claude 플랜에서 사용 가능해졌습니다. Outlook, OneDrive, SharePoint를 연결하여 이메일, 문서, 파일을 대화에 바로 가져올 수 있습니다.",
+        "context": "Anthropic의 Claude 공식 계정이 Microsoft 365 통합 소식을 알렸습니다. 기업 사용자들이 이메일과 문서를 Claude와 직접 연동해 업무 자동화를 강화할 수 있게 됐습니다.",
+        "url": "https://x.com/claudeai/status/2040086268562842097",
+        "publishedAt": "2026-04-03T15:17:24.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Felix Rieseberg",
+        "handle": "felixrieseberg",
+        "content": "Computer Use가 이제 Windows에서 사용 가능합니다! Claude에게 키보드와 마우스를 제어할 수 있는 기능을 부여합니다. 레거시 앱 처리에 매우 효과적입니다.",
+        "context": "Anthropic의 Felix Rieseberg가 Claude Computer Use의 Windows 지원을 알렸습니다. macOS에 이어 Windows 사용자들도 Claude를 통해 데스크톱 자동화를 활용할 수 있게 됐습니다.",
+        "url": "https://x.com/felixrieseberg/status/2039849796740235283",
+        "publishedAt": "2026-04-02T23:37:44.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "팀에서 고정 시트 비용 없이 Codex를 사용할 수 있습니다. ChatGPT Business와 Enterprise 플랜에 사용량 기반 요금제를 도입하여 더 유연하게 시작할 수 있습니다.",
+        "context": "OpenAI 개발자 계정이 Codex의 새로운 요금제 도입을 알렸습니다. 기존 고정 시트 요금 대신 사용량에 따라 비용을 지불하는 방식으로 변경되어 도입 장벽이 낮아졌습니다.",
+        "url": "https://x.com/OpenAIDevs/status/2039794643513295328",
+        "publishedAt": "2026-04-02T19:58:35.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "Lydia Hallie",
+        "handle": "lydiahallie",
+        "content": "Claude Code 렌더러를 가상 뷰포트를 사용하도록 재작성했습니다. 마우스를 사용할 수 있고, 프롬프트 입력이 하단에 고정됩니다. 실험적 기능이니 피드백을 주세요.",
+        "context": "Anthropic 엔지니어 Lydia Hallie가 Claude Code의 UI 대폭 개선을 알렸습니다. 가상 뷰포트 도입으로 마우스 지원, 고정 입력창 등 사용성이 크게 향상됐으며 실험적 플래그로 사용 가능합니다.",
+        "url": "https://x.com/lydiahallie/status/2039800715607187906",
+        "publishedAt": "2026-04-02T20:22:42.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "최AI (choi.openai)",
+        "handle": "choi.openai",
+        "content": "Perplexity에서 새롭게 출시한 '세무용 Computer' 기능이 화제입니다. 'Navigate my taxes'를 선택하면 최신 세법과 IRS 규정을 바탕으로 미국 연방 소득세 신고서 초안을 작성해 주는 것은 물론, 회계사나 전문가가 작성한 신고서의 누락이나 오류까지 검토할 수 있습니다. AI가 재무 정보를 다루는 것에 대한 우려도 나옵니다.",
+        "context": "국내 최대 AI 정보 채널 choi.openai가 Perplexity의 세무 AI 기능을 소개했습니다. AI가 세금 신고서 작성을 자동화하는 수준까지 발전했음을 보여주며, 회계사 업무 대체 가능성에 대한 논의를 불러일으키고 있습니다.",
+        "url": "https://www.threads.com/@choi.openai/post/DWrw8ObjYrM",
+        "publishedAt": "2026-04-03T21:00:22.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_002",
+        "author": "최AI (choi.openai)",
+        "handle": "choi.openai",
+        "content": "Optimus, XPENG, Figure 등 3세대 휴머노이드 로봇들이 '전자 피부(Electronic skin)'를 장착하기 시작했습니다. 접힘 반경 0.2mm 이하의 촉각 직물은 1g 수준의 미세한 터치도 인식합니다. 로봇이 가정과 병원에서 안전하게 작동하려면 시각 정보만으로는 한계가 있어, 전자 피부가 Embodied AI의 핵심 열쇠로 주목받고 있습니다.",
+        "context": "choi.openai가 휴머노이드 로봇의 촉각 기술 발전을 소개했습니다. 단순한 공장 자동화를 넘어 인간과 물리적으로 상호작용하는 로봇을 위한 핵심 기술로, Embodied AI의 현실화를 앞당기는 중요한 진전입니다.",
+        "url": "https://www.threads.com/@choi.openai/post/DWrms1BD0Tn",
+        "publishedAt": "2026-04-03T20:02:00.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_003",
+        "author": "최AI (choi.openai)",
+        "handle": "choi.openai",
+        "content": "AI Futures Project 연구진이 AGI 도달 타임라인을 대폭 앞당겼습니다. 모든 인간 개발자를 AI로 대체하는 'Automated Coder' 도달 예측을 2029년 말에서 2028년 중반으로 수정했습니다. Gemini 3, GPT-5.2, Claude Opus 4.6 같은 최신 모델들의 빠른 성능 향상이 주된 근거입니다.",
+        "context": "choi.openai가 AI 코딩 자동화 타임라인의 업데이트 소식을 전했습니다. 최신 AI 모델의 급격한 성능 향상으로 인해 AGI 도달 예측이 앞당겨지고 있으며, 소프트웨어 개발 직군의 미래에 대한 논의가 더욱 심화되고 있습니다.",
+        "url": "https://www.threads.com/@choi.openai/post/DWrcUZSidK4",
+        "publishedAt": "2026-04-03T17:58:00.000Z",
+        "platform": "threads"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "처음 참가하는 NeurIPS, 하위 랭크 학회와 얼마나 다른가요? [토론]",
+        "originalTitle": "First time NeurIPS. How different is it from low-ranked conferences? [D]",
+        "summary": "AI/ML 연구자 커뮤니티에서 활발히 논의되는 학술 관련 토픽입니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1sbnbnv/first_time_neurips_how_different_is_it_from/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-04-04T04:30:52+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "[토론] TMLR 리뷰가 ICML/NeurIPS/ICLR보다 더 신뢰할 수 있는 것 같다",
+        "originalTitle": "[D] TMLR reviews seem more reliable than ICML/NeurIPS/ICLR",
+        "summary": "AI/ML 연구자 커뮤니티에서 활발히 논의되는 학술 관련 토픽입니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1sb7l13/d_tmlr_reviews_seem_more_reliable_than/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-04-03T17:12:47+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "[토론] ICML 2026 평균 점수",
+        "originalTitle": "[D] ICML 2026 Average Score",
+        "summary": "AI/ML 연구자 커뮤니티에서 활발히 논의되는 학술 관련 토픽입니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1sbhuti/d_icml_2026_average_score/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-04-04T01:10:19+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "Netflix, Hugging Face에 첫 번째 공개 모델 VOID (영상 객체 및 상호작용 삭제) 출시",
+        "originalTitle": "Netflix just dropped their first public model on Hugging Face: VOID: Video Object and Interaction Deletion",
+        "summary": "로컬 LLM 실행과 오픈소스 모델에 관심 있는 커뮤니티의 최신 화제입니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sbc5ij/netflix_just_dropped_their_first_public_model_on/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-04-03T21:25:09+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "Gemma 4는 파인튜닝해도 여전히 훌륭합니다",
+        "originalTitle": "Gemma 4 is fine great even …",
+        "summary": "로컬 LLM 실행과 오픈소스 모델에 관심 있는 커뮤니티의 최신 화제입니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sb9f4g/gemma_4_is_fine_great_even/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-04-03T19:03:38+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "Qwen 3.6 출시 예정 투표 현황",
+        "originalTitle": "qwen 3.6 voting",
+        "summary": "로컬 LLM 실행과 오픈소스 모델에 관심 있는 커뮤니티의 최신 화제입니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sb7kd4/qwen_36_voting/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-04-03T17:11:37+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "MIT 연구, AI 일자리 종말론에 의문을 제기하다",
+        "originalTitle": "MIT study challenges AI job apocalypse narrative",
+        "summary": "AI 기술의 사회적 영향과 최신 트렌드를 폭넓게 논의하는 커뮤니티의 인기 게시물입니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1sb7qxc/mit_study_challenges_ai_job_apocalypse_narrative/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-04-03T17:22:59+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "지금 AI 보안이 프로덕션에서 즉흥으로 해결되고 있다고 느끼는 사람 있나요?",
+        "originalTitle": "Anyone else feel like AI security is being figured out in production right now?",
+        "summary": "AI 기술의 사회적 영향과 최신 트렌드를 폭넓게 논의하는 커뮤니티의 인기 게시물입니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1sbgw8y/anyone_else_feel_like_ai_security_is_being/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-04-04T00:35:02+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "여러분은 AI 도구에 실제로 데이터를 신뢰하고 맡기나요?",
+        "originalTitle": "do you guys actually trust AI tools with your data?",
+        "summary": "AI 기술의 사회적 영향과 최신 트렌드를 폭넓게 논의하는 커뮤니티의 인기 게시물입니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1sboyjf/do_you_guys_actually_trust_ai_tools_with_your_data/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-04-04T05:32:33+09:00"
+      },
+      {
+        "id": "reddit_010",
+        "title": "GPT-6가 GTA 6보다 먼저 나올 것이다",
+        "originalTitle": "GPT-6 is coming before GTA 6",
+        "summary": "OpenAI 제품과 정책에 대한 사용자들의 반응과 논의가 담겨 있습니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1sb6fsf/gpt6_is_coming_before_gta_6/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-04-03T16:02:20+09:00"
+      },
+      {
+        "id": "reddit_011",
+        "title": "OpenAI 임원 개편 속, Fidji Simo 의료 휴가 발표",
+        "originalTitle": "OpenAI's Fidji Simo Is Taking Medical Leave Amid an Executive Shake-Up",
+        "summary": "OpenAI 제품과 정책에 대한 사용자들의 반응과 논의가 담겨 있습니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1sbnpu1/openais_fidji_simo_is_taking_medical_leave_amid/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-04-04T04:45:58+09:00"
+      },
+      {
+        "id": "reddit_012",
+        "title": "AI가 이미 20년 전 전문가들이 이론화했던 이탈 행동을 보이고 있다",
+        "originalTitle": "AIs are already showing all the rogue behaviours experts were theorising about 20 years ago",
+        "summary": "OpenAI 제품과 정책에 대한 사용자들의 반응과 논의가 담겨 있습니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1sbb08k/ais_are_already_showing_all_the_rogue_behaviours/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-04-03T20:30:24+09:00"
+      },
+      {
+        "id": "reddit_013",
+        "title": "Claude에게 토큰을 75% 줄이기 위해 원시인처럼 말하도록 가르쳤습니다",
+        "originalTitle": "Taught Claude to talk like a caveman to use 75% less tokens.",
+        "summary": "Claude 사용자들이 활용 사례와 흥미로운 발견을 공유하는 커뮤니티입니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1sble09/taught_claude_to_talk_like_a_caveman_to_use_75/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-04-04T03:19:27+09:00"
+      },
+      {
+        "id": "reddit_014",
+        "title": "💀 (Claude 관련 밈)",
+        "originalTitle": "💀",
+        "summary": "Claude 사용자들이 활용 사례와 흥미로운 발견을 공유하는 커뮤니티입니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1sbcukr/_/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-04-03T21:56:05+09:00"
+      },
+      {
+        "id": "reddit_015",
+        "title": "Claude가 하는 말들 (2편)",
+        "originalTitle": "things that claude say (part 2)",
+        "summary": "Claude 사용자들이 활용 사례와 흥미로운 발견을 공유하는 커뮤니티입니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1sb4w67/things_that_claude_say_part_2/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-04-03T14:32:39+09:00"
+      },
+      {
+        "id": "reddit_016",
+        "title": "마이크로소프트가 1조 달러를 증발시킨 방법",
+        "originalTitle": "How Microsoft Vaporized a Trillion Dollars",
+        "summary": "프로그래밍 실무와 트렌드에 대한 경험 있는 개발자들의 토론입니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1sbir8j/how_microsoft_vaporized_a_trillion_dollars/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-04-04T01:44:15+09:00"
+      },
+      {
+        "id": "reddit_017",
+        "title": "현재 누군가 Strapi 플러그인 생태계를 겨냥한 악성 패키지를 적극 배포 중",
+        "originalTitle": "Someone is actively publishing malicious packages targeting the Strapi plugin ecosystem right now",
+        "summary": "프로그래밍 실무와 트렌드에 대한 경험 있는 개발자들의 토론입니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1sbkx3b/someone_is_actively_publishing_malicious_packages/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-04-04T03:02:20+09:00"
+      },
+      {
+        "id": "reddit_018",
+        "title": "모든 바이트는 어디에 있는가?",
+        "originalTitle": "Where is every byte?",
+        "summary": "프로그래밍 실무와 트렌드에 대한 경험 있는 개발자들의 토론입니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1sbggsw/where_is_every_byte/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-04-04T00:19:17+09:00"
+      },
+      {
+        "id": "reddit_019",
+        "title": "초기 반-로봇 폭력 사건 영상 포착",
+        "originalTitle": "Early anti-clankerite violence caught on film",
+        "summary": "기술적 특이점과 AI 발전에 관한 미래지향적 논의가 이루어지는 커뮤니티입니다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1sbevti/early_anticlankerite_violence_caught_on_film/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-04-03T23:18:37+09:00"
+      },
+      {
+        "id": "reddit_020",
+        "title": "휴머노이드 로봇들이 현재 적극 훈련 중",
+        "originalTitle": "Humanoid robots are actively training",
+        "summary": "기술적 특이점과 AI 발전에 관한 미래지향적 논의가 이루어지는 커뮤니티입니다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1sbflwe/humanoid_robots_are_actively_training/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-04-03T23:46:47+09:00"
+      },
+      {
+        "id": "reddit_021",
+        "title": "Altman met with astonished physicist using their internal system, “decades worth of theoretical physics progress in the next couple years”",
+        "originalTitle": "Altman met with astonished physicist using their internal system, “decades worth of theoretical physics progress in the next couple years”",
+        "summary": "기술적 특이점과 AI 발전에 관한 미래지향적 논의가 이루어지는 커뮤니티입니다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1sbc8c8/altman_met_with_astonished_physicist_using_their/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-04-03T21:28:56+09:00"
+      },
+      {
+        "id": "reddit_022",
+        "title": "오늘날 실제로 개발자를 대체하기 어렵게 만드는 것은 무엇인가?",
+        "originalTitle": "What actually makes a developer hard to replace today?",
+        "summary": "경력 개발자들이 실무 경험과 커리어 인사이트를 나누는 전문가 커뮤니티입니다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1sb5iqh/what_actually_makes_a_developer_hard_to_replace/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-04-03T15:08:26+09:00"
+      },
+      {
+        "id": "reddit_023",
+        "title": "시니어 소프트웨어 엔지니어로서 스스로 의사결정을 내려야 할까요?",
+        "originalTitle": "Should I be making my own decisions as a senior SWE?",
+        "summary": "경력 개발자들이 실무 경험과 커리어 인사이트를 나누는 전문가 커뮤니티입니다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1sbdjy8/should_i_be_making_my_own_decisions_as_a_senior/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-04-03T22:25:21+09:00"
+      },
+      {
+        "id": "reddit_024",
+        "title": "소프트웨어 아키텍트 역할 헤쳐나가기",
+        "originalTitle": "Navigating Software Architect role",
+        "summary": "경력 개발자들이 실무 경험과 커리어 인사이트를 나누는 전문가 커뮤니티입니다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1sbgmmx/navigating_software_architect_role/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-04-04T00:25:17+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_014",
+        "title": "NVIDIA, RTX에서 Gemma 4 로컬 에이전트 AI 가속",
+        "excerpt": "NVIDIA가 RTX GPU에서 Gemma 4를 로컬로 실행하는 가속 지원을 발표했습니다. 개인 PC에서 에이전트 AI 워크로드 실행이 가능해집니다.",
+        "body": "NVIDIA가 RTX Spark 플랫폼을 통해 Gemma 4의 로컬 실행을 지원한다고 발표했습니다. RTX GPU를 장착한 PC에서 클라우드 없이 에이전트 AI 작업을 실행할 수 있습니다.",
+        "url": "https://blogs.nvidia.com/blog/rtx-ai-garage-open-models-google-gemma-4/",
+        "source": "NVIDIA Blog",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-03T09:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_015",
+        "title": "Cloudflare EmDash: WordPress의 정신적 후계자 출시",
+        "excerpt": "Cloudflare가 WordPress 대안을 표방한 새 CMS 플랫폼 EmDash를 발표했습니다.",
+        "body": "Cloudflare가 EmDash를 발표했습니다. WordPress의 단점을 해결하면서 정신을 계승한 현대적 CMS로, Cloudflare 인프라에 완전히 통합된 것이 특징입니다.",
+        "url": "https://blog.cloudflare.com/emdash-wordpress/",
+        "source": "Cloudflare Blog",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-03T08:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_016",
+        "title": "PyPI 보안팀, LiteLLM·Telnyx 악성 패키지 공식 보고서 발표",
+        "excerpt": "PyPI 보안팀이 LiteLLM과 Telnyx를 겨냥한 공급망 공격 사고 보고서를 공개했습니다.",
+        "body": "PyPI 보안팀이 LiteLLM과 Telnyx 패키지를 위장한 악성 패키지 사건의 공식 보고서를 발표했습니다. 공격 방식, 피해 범위, 향후 방어 전략을 상세히 설명합니다.",
+        "url": "https://news.hada.io/topic?id=28171",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-03T07:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_017",
+        "title": "ChatGPT CarPlay 지원 시작 — iOS 26.4+ 순차 배포",
+        "excerpt": "ChatGPT 음성 모드가 Apple CarPlay에서 사용 가능해졌습니다. iOS 26.4 이상 iPhone 사용자에게 순차적으로 배포됩니다.",
+        "body": "OpenAI가 ChatGPT를 Apple CarPlay와 통합했습니다. 운전 중에도 음성으로 ChatGPT를 사용할 수 있게 되었습니다.",
+        "url": "https://x.com/OpenAI/status/2039748699350532097",
+        "source": "OpenAI",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-02T16:56:00+09:00",
+        "readTime": 2,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_018",
+        "title": "지금 가장 중요한 AI 아이디어들 (2026년 4월)",
+        "excerpt": "현재 AI 분야에서 가장 주목받는 핵심 아이디어들을 정리한 글입니다.",
+        "body": "2026년 4월 현재 AI 업계에서 중요하게 논의되는 핵심 아이디어들을 총망라한 분석글이 GeekNews에 공유됐습니다.",
+        "url": "https://news.hada.io/topic?id=28166",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-03T06:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 6
+      }
+    ]
+  }
+}
