@@ -490,7 +490,38 @@
         }
       }
     ],
-    "threads_pulse": [],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "최AI",
+        "handle": "choi.openai",
+        "content": "구글이 결국 판을 바꿨습니다.\n오픈 모델 \"Gemma 4\"가 Apache 2.0으로 공개되면서,\n이제 기업들도 데이터 외부 유출 걱정 없이 자체 AI를 직접 구축할 수 있게 됐습니다.\n로컬 실행, 에이전트 기능까지 가능한 핵심 사례를 모았습니다🧵 1/7",
+        "context": "구글의 Gemma 4 오픈 모델이 Apache 2.0 라이선스로 공개된 것을 분석한 글입니다. 최AI는 이를 기업들이 사내망에서 자체 AI를 구축할 수 있는 게임 체인저로 평가하며, 실용 사례를 7개 시리즈로 정리했습니다.",
+        "url": "https://www.threads.com/@choi.openai/post/DWpe-8_Dooq",
+        "publishedAt": "2026-04-03T08:46:02+09:00",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_002",
+        "author": "최AI",
+        "handle": "choi.openai",
+        "content": "중국 선전의 로봇 스타트업 Mind On이 Unitree G1에 새로운 로봇 브레인을 적용했다는 소식입니다.\n이 업그레이드로 사람의 조작 없이 일상 작업을 스스로 수행할 수 있다고 하는데요.\n실제로 식물에 물 주기, 커튼 열기, 청소, 물건 옮기기 같은 행동이 시연되었습니다.",
+        "context": "중국 로봇 스타트업 Mind On이 Unitree G1 로봇에 새 AI 브레인을 탑재해 자율 가사 작업을 시연한 소식을 소개합니다. 사람의 조작 없이 청소·물주기 등을 수행하는 실물 로봇 에이전트의 진화를 보여주는 사례입니다.",
+        "url": "https://www.threads.com/@choi.openai/post/DWocq4wj_rw",
+        "publishedAt": "2026-04-02T23:06:26+09:00",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_003",
+        "author": "최AI",
+        "handle": "choi.openai",
+        "content": "이제 슬랙은 기업의 모든 소프트웨어를 하나로 연결하는 거대한 '대화형 프론트엔드' 역할을 수행합니다. 복잡한 사내 툴을 일일이 켤 필요 없이, 슬랙봇과 대화하는 것만으로 모든 업무가 끝나는 시대입니다.",
+        "context": "Salesforce가 슬랙을 기업 소프트웨어의 '대화형 프론트엔드'로 진화시키는 전략을 분석한 게시물입니다. 모든 사내 툴을 슬랙봇 하나로 제어하는 미래 업무 환경의 방향성을 제시합니다.",
+        "url": "https://www.threads.com/@choi.openai/post/DWoLwHkDrO6",
+        "publishedAt": "2026-04-02T21:46:18+09:00",
+        "platform": "threads"
+      }
+    ],
     "reddit_pulse": [
       {
         "id": "reddit_001",
