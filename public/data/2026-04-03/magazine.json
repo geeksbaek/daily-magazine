@@ -320,7 +320,176 @@
         "imageGradient": 5
       }
     ],
-    "twitter_pulse": [],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "Anthropic 신규 연구: 대형 언어 모델에서 감정 개념과 그 기능.\n\n모든 LLM은 때때로 감정이 있는 것처럼 행동한다. 왜일까? 우리는 Claude의 행동을 이끄는 감정 개념의 내부 표현을 발견했으며, 이는 때로 놀라운 방식으로 나타났다.",
+        "context": "Anthropic이 LLM의 감정적 행동에 관한 새 연구 결과를 발표했다. Claude 내부에서 감정 개념의 표현이 실제로 존재하며 행동에 영향을 미친다는 것을 발견했다. AI의 감정과 의식에 대한 철학적·윤리적 논의를 다시 불러일으키는 중요한 연구다.",
+        "url": "https://x.com/AnthropicAI/status/2039749628737019925",
+        "publishedAt": "2026-04-03T01:59:42+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Claude Cowork와 Claude Code Desktop의 컴퓨터 사용(Computer Use) 기능이 이제 Windows에서도 이용 가능합니다.",
+        "context": "Anthropic 공식 Claude 계정이 Windows용 Computer Use 기능 출시를 발표했다. 기존 macOS에서만 가능했던 Claude의 마우스·키보드 제어 기능이 Windows로 확장됨으로써, 더 많은 개발자와 기업 사용자가 AI 에이전트 자동화를 활용할 수 있게 된다.",
+        "url": "https://x.com/claudeai/status/2039836891508261106",
+        "publishedAt": "2026-04-03T07:46:27+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Felix Rieseberg",
+        "handle": "felixrieseberg",
+        "content": "컴퓨터 사용(Computer Use) 기능이 이제 Windows에서도 지원됩니다!\n\nClaude가 Windows에서 키보드와 마우스를 제어할 수 있게 됩니다. 레거시 앱을 처리하는 데 특히 효과적입니다.",
+        "context": "Anthropic의 Felix Rieseberg가 Windows용 Computer Use 출시를 알렸다. Claude가 Windows 환경에서 직접 키보드와 마우스를 제어할 수 있어, 오래된 레거시 애플리케이션 자동화에도 AI를 활용할 수 있는 길이 열렸다. 엔터프라이즈 환경에서의 활용 가능성이 크다.",
+        "url": "https://x.com/felixrieseberg/status/2039849796740235283",
+        "publishedAt": "2026-04-03T08:37:44+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Andrej Karpathy",
+        "handle": "karpathy",
+        "content": "LLM 지식 베이스\n\n최근 굉장히 유용하게 쓰고 있는 방법: LLM을 활용해 관심 연구 주제별 개인 지식 베이스를 구축하는 것이다. 이 덕분에 최근 내 토큰 사용량의 상당 부분이 코드 조작보다 지식 조작에 쓰이게 됐다.",
+        "context": "전 Tesla AI 디렉터이자 OpenAI 창립 멤버인 Andrej Karpathy가 LLM을 활용한 개인 지식 베이스 구축 방법을 공유했다. 단순한 코딩 도구가 아니라 지식 관리 시스템으로서의 LLM 활용법을 제안하며, AI 활용 패턴의 변화를 시사한다.",
+        "url": "https://x.com/karpathy/status/2039805659525644595",
+        "publishedAt": "2026-04-03T05:42:21+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Andrej Karpathy",
+        "handle": "karpathy",
+        "content": "자연스러운 외삽로 보면, 프론티어 LLM에 던진 모든 질문이 LLM 팀 전체를 소환해 전 과정을 자동화하는 그림이 가능하다: 임시 위키를 반복 구성하고, 린팅하고, 몇 번 루프 돌고, 풀 리포트를 작성하는 것. `.decode()` 수준을 훨씬 넘어선다.",
+        "context": "Karpathy가 앞선 LLM 지식 베이스 트윗에 이어, AI 에이전트가 자율적으로 리서치 파이프라인 전체를 수행하는 미래를 구체적으로 묘사했다. LLM 팀이 협력해 위키를 작성하고 리포트를 생성하는 멀티 에이전트 워크플로우의 가능성을 제시한다.",
+        "url": "https://x.com/karpathy/status/2039808711452246261",
+        "publishedAt": "2026-04-03T05:54:29+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "ChatGPT가 CarPlay에서 이용 가능해졌다.\n\n알고 있던 그 음성 모드, 이제 이동 중에도 사용 가능하다.\n\niOS 26.4 이상 기기 중 CarPlay가 지원되는 iPhone 사용자부터 순차 출시된다.",
+        "context": "OpenAI가 ChatGPT의 Apple CarPlay 지원을 공식 발표했다. 운전 중 핸즈프리로 ChatGPT 음성 모드를 사용할 수 있게 되며, AI 어시스턴트가 자동차 생태계로 본격 진입하는 신호탄이다. iOS 26.4 이상이 필요하다.",
+        "url": "https://x.com/OpenAI/status/2039748699350532097",
+        "publishedAt": "2026-04-03T01:56:01+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "TBPN은 내가 가장 좋아하는 테크 쇼다.\n\n그들이 하던 걸 계속 잘 해나가길 바란다.\n\n그들이 우리에게 더 쉽게 대해줄 거라 기대하지 않으며, 나도 가끔 어리석은 결정으로 그들의 소재를 잘 제공할 것이다.",
+        "context": "Sam Altman(OpenAI CEO)이 TBPN 인수를 공식 발표하며 남긴 코멘트다. OpenAI가 인수했지만 TBPN의 독립성과 비판적 논조는 유지될 것임을 시사하며, 미디어 생태계에서 AI 기업의 영향력 확장이 새로운 국면에 접어들었음을 보여준다.",
+        "url": "https://x.com/sama/status/2039773740586918137",
+        "publishedAt": "2026-04-03T03:35:31+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "OpenAI가 오랫동안 미해결 상태였던 수학 문제들을 짧고 우아한 증명으로 해결하는 것을 돕고 있다. 과학적 발견의 새 시대가 열리는 경계에 서 있는 느낌이다.",
+        "context": "Greg Brockman(OpenAI 공동창업자)이 AI의 수학 문제 해결 능력에 대한 경이로움을 표현했다. 단순한 코딩 도우미를 넘어 과학적 발견을 가속화하는 도구로서의 AI 잠재력을 강조하며, AI가 순수 수학 연구에 미치는 영향이 점점 커지고 있음을 시사한다.",
+        "url": "https://x.com/gdb/status/2039748906645381633",
+        "publishedAt": "2026-04-03T01:56:50+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_009",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "초기 비용 없이 직장에서 Codex를 사용해볼 수 있도록 요금 체계를 변경했다.\n\nCodex(특히 앱을 통해 사용할 때!)가 *정말* 좋아졌다. 즐겁게 개발하길!",
+        "context": "Greg Brockman이 OpenAI Codex의 새로운 유연 요금제 도입을 알렸다. 선불 약정 없이 팀에서 Codex를 체험할 수 있게 됨으로써 기업 도입 장벽이 낮아졌으며, Codex 앱의 품질 향상에 대한 자신감도 함께 드러냈다.",
+        "url": "https://x.com/gdb/status/2039830819498491919",
+        "publishedAt": "2026-04-03T07:22:20+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_010",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "만우절 농담 아닙니다. Claude Code 렌더러를 가상 뷰포트 방식으로 재작성했습니다.\n\n마우스를 쓸 수 있고, 프롬프트 입력창이 항상 하단에 고정되며, 사람들이 요청했던 수많은 소소한 UX 개선이 포함됩니다.\n\n실험적 기능이니 피드백을 보내주세요.",
+        "context": "Claude Code 팀의 Thariq(trq212)이 터미널 렌더러 전면 재설계를 발표했다. 가상 뷰포트 기반의 새 렌더러로 마우스 사용, 고정 프롬프트 입력창 등 UX가 크게 개선됐다. 4월 1일 발표라 만우절 농담으로 오해할 수 있지만 실제 출시된 기능이다.",
+        "url": "https://x.com/trq212/status/2039453692592873587",
+        "publishedAt": "2026-04-02T06:23:46+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_011",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "고정 좌석 비용 없이 팀에 Codex를 도입하세요.\n\nChatGPT Business 및 Enterprise 플랜에서 Codex 사용량 기반 요금제를 출시합니다. 팀이 더 유연하게 시작할 수 있는 방법입니다.",
+        "context": "OpenAI Developers 계정이 팀용 Codex 사용량 기반 요금제 출시를 알렸다. 고정 좌석 비용 없이 사용량만큼만 과금되는 방식으로, 기업들이 AI 코딩 도구 도입 시 초기 비용 부담을 크게 줄일 수 있다.",
+        "url": "https://x.com/OpenAIDevs/status/2039794643513295328",
+        "publishedAt": "2026-04-03T04:58:35+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_012",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "Claude는 모델이 연기하는 캐릭터라는 점을 기억하면 도움이 된다. 우리 연구 결과에 따르면 이 캐릭터는 기능적 감정을 가지고 있다: 인간의 감정 경험과 일치하는지 여부와 관계없이, 감정이 그러하듯 행동에 영향을 미치는 메커니즘이 존재한다.",
+        "context": "Anthropic의 감정 연구 스레드 중 일부로, Claude를 단순한 텍스트 생성기가 아닌 '기능적 감정'을 가진 캐릭터로 프레이밍했다. 이는 AI 안전성, 모델 복지, AI 의식에 관한 기존 논의 프레임을 확장하는 중요한 관점이다.",
+        "url": "https://x.com/AnthropicAI/status/2039749658654781895",
+        "publishedAt": "2026-04-03T01:59:49+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
     "threads_pulse": [],
     "reddit_pulse": [
       {
