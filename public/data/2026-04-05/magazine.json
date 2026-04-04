@@ -1,0 +1,558 @@
+{
+  "date": "2026-04-05",
+  "issueNumber": 9,
+  "cover": {
+    "mainHeadline": "구글 Gemma 4 전격 공개 — 바이트 대비 최강 멀티모달 오픈 AI의 귀환",
+    "mainExcerpt": "구글 DeepMind가 Gemma 4 시리즈를 전격 공개했습니다. 1B~27B 규모의 네 가지 모델로 구성된 이번 릴리스는 멀티모달 추론, 코드 생성, 다국어 이해에서 동급 최강 성능을 자랑합니다. OpenAI는 기술 팟캐스트 네트워크 TBPN을 인수하며 미디어 생태계 진출을 공식화했고, Docker Offload가 정식 출시되어 클라우드 오프로딩이 프로덕션으로 진입했습니다.",
+    "headlines": [
+      "OpenAI, 기술 팟캐스트 네트워크 TBPN 인수 — AI의 미디어 패권 경쟁 본격화",
+      "Docker Offload 정식 GA — 온프레미스 워크로드를 클라우드로 즉시 오프로드",
+      "VS Code 1.115 출시 — 에이전트 코딩 워크플로 대폭 강화",
+      "Cloudflare, AI 시대 맞춤 캐시 아키텍처 재설계 예고"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_h01",
+      "title": "Gemma 4: 바이트 대비 최강 오픈 멀티모달 모델 출시",
+      "excerpt": "구글 DeepMind가 Gemma 4 시리즈를 공개했습니다. 1B·4B·12B·27B 네 가지 크기로, 멀티모달 입력(이미지·오디오·비디오)과 128K 컨텍스트를 지원합니다.",
+      "body": "구글 DeepMind가 Gemma 4 시리즈를 공개했습니다. 1B·4B·12B·27B 네 가지 크기로 구성되며, 모든 모델이 멀티모달 입력(이미지·오디오·비디오)과 최대 128K 토큰의 긴 컨텍스트 윈도우를 지원합니다. Gemma 4 27B는 동급 최강 성능을 자랑하며, LMSYS Chatbot Arena에서 GPT-4o mini·Llama 3.3 70B를 앞섰습니다. 특히 128언어 지원과 ShieldGemma 4 안전 모델이 함께 출시되어 엔터프라이즈 적용 가능성을 높였습니다. Hugging Face와 Google Cloud Vertex AI에서 즉시 사용 가능하며, NVIDIA RTX 및 DGX Spark에서 로컬 실행도 지원됩니다.",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemma-4-available-on-google-cloud/",
+      "source": "AI & Machine Learning",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-03T01:00:00+09:00",
+      "readTime": 6,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_h02",
+      "title": "OpenAI, 기술 팟캐스트 TBPN 인수 — AI의 미디어 생태계 진출",
+      "excerpt": "OpenAI가 기술·비즈니스 팟캐스트 네트워크 TBPN을 전격 인수했습니다. 이번 인수로 OpenAI는 AI 기술 담론의 미디어 플랫폼을 직접 보유하게 됩니다.",
+      "body": "OpenAI가 기술·비즈니스 팟캐스트 네트워크 TBPN을 전격 인수했습니다. Fidji Simo CPO가 전사에 공유한 메모에 따르면, TBPN은 강력한 편집 감각과 깊은 오디언스 이해도, 기술·비즈니스·문화 분야 핵심 인사들을 연결하는 능력으로 높은 평가를 받았습니다. TBPN의 Jordi Hays와 John Coogan이 OpenAI에 합류하며, 기존 콘텐츠 운영은 계속됩니다. AI 기업이 직접 미디어 네트워크를 인수하는 것은 이례적으로, 기술 담론의 주도권을 확보하려는 전략으로 해석됩니다.",
+      "url": "https://openai.com/index/openai-acquires-tbpn",
+      "source": "OpenAI News",
+      "category": "big_tech",
+      "publishedAt": "2026-04-02T19:30:00+09:00",
+      "readTime": 4,
+      "imageGradient": 4
+    },
+    {
+      "id": "rss_h03",
+      "title": "Docker Offload 정식 출시 — 클라우드 오프로딩으로 로컬 제약 해방",
+      "excerpt": "Docker Offload가 정식 GA로 출시됐습니다. 로컬 환경에서 실행하기 무거운 컨테이너 워크로드를 클라우드로 즉각 오프로드하는 새 워크플로를 제공합니다.",
+      "body": "Docker Offload가 정식 GA로 전환됐습니다. 이 기능을 통해 개발자는 로컬 머신의 CPU·메모리 제약 없이 컨테이너 기반 워크로드를 클라우드로 즉각 오프로드할 수 있습니다. 특히 AI 에이전트용 Docker Sandboxes가 함께 도입되어 격리된 환경에서 에이전트가 안전하게 실행될 수 있습니다. 기존 docker run 명령과 동일한 인터페이스를 유지하면서 클라우드 자원을 투명하게 활용할 수 있어, 에이전트 개발 시 보안과 확장성을 동시에 확보할 수 있습니다.",
+      "url": "https://www.docker.com/blog/docker-offload-generally-available/",
+      "source": "Docker Blog",
+      "category": "dev_tools",
+      "publishedAt": "2026-04-05T09:00:00+09:00",
+      "readTime": 5,
+      "imageGradient": 2
+    },
+    {
+      "id": "rss_h04",
+      "title": "Claude Code, 23년간 숨겨진 Linux 커널 취약점 발견",
+      "excerpt": "Anthropic의 Claude Code가 23년간 탐지되지 않은 Linux 커널의 취약점을 발견해 화제가 됐습니다. AI 보조 코드 분석의 새로운 가능성을 보여줬습니다.",
+      "body": "Anthropic의 Claude Code가 23년간 숨겨져 있던 Linux 커널의 취약점을 스스로 발견했다는 소식이 화제입니다. 이 취약점은 코드 분석 과정에서 자동으로 탐지됐으며, AI 기반 정적 분석 도구가 전통적인 보안 감사 방법으로는 찾기 어려운 레거시 버그를 발굴할 수 있음을 보여줍니다. 특히 수십 년 된 코드베이스에서 패턴 인식을 통한 취약점 탐지가 가능해짐에 따라, AI 보안 도구에 대한 관심이 더욱 높아질 것으로 예상됩니다.",
+      "url": "https://news.hada.io/topic?id=21001",
+      "source": "GeekNews",
+      "category": "big_tech",
+      "publishedAt": "2026-04-05T09:00:00+09:00",
+      "readTime": 4,
+      "imageGradient": 4
+    },
+    {
+      "id": "rss_h05",
+      "title": "VS Code 1.115 출시 — 에이전트 편집과 MCP 통합 강화",
+      "excerpt": "Visual Studio Code 1.115가 출시됐습니다. Copilot 에이전트 편집 모드 개선, MCP(Model Context Protocol) 서버 통합, 테스트 커버리지 UI 업그레이드가 핵심입니다.",
+      "body": "Visual Studio Code 1.115가 공식 출시됐습니다. 이번 버전의 핵심은 Copilot 에이전트 모드의 대폭 강화로, 멀티 파일 편집 및 터미널 명령 실행 능력이 개선됐습니다. MCP(Model Context Protocol) 서버와의 통합이 공식 지원되어 외부 도구·데이터 소스를 에디터 안에서 직접 연결할 수 있습니다. 또한 인라인 테스트 커버리지 시각화 기능이 추가되어 코드 품질 파악이 쉬워졌습니다. 노트북 편집기 성능 개선과 새로운 프로파일링 도구도 포함됩니다.",
+      "url": "https://code.visualstudio.com/updates/v1_115",
+      "source": "Visual Studio Code",
+      "category": "dev_tools",
+      "publishedAt": "2026-04-09T02:00:00+09:00",
+      "readTime": 7,
+      "imageGradient": 2
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_a01",
+        "title": "Gemma 4: 바이트 대비 최강 오픈 멀티모달 모델 — Hugging Face 완전 분석",
+        "excerpt": "구글 DeepMind의 Gemma 4가 Hugging Face에 상륙했습니다. 온디바이스 멀티모달 AI의 새 기준을 제시하는 1B~27B 모델 패밀리로, 즉시 파인튜닝과 배포가 가능합니다.",
+        "body": "Hugging Face에서 분석한 Gemma 4는 멀티모달 추론과 긴 컨텍스트 이해에서 뛰어난 성능을 보입니다. ShieldGemma 4 안전 모델과 함께 제공되며, transformers 라이브러리를 통해 즉시 사용 가능합니다. 소규모 1B·4B 모델은 스마트폰·엣지 디바이스에서도 실행 가능해 온디바이스 AI 시대를 앞당깁니다.",
+        "url": "https://huggingface.co/blog/gemma4",
+        "source": "Hugging Face - Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-02T09:00:00+09:00",
+        "readTime": 8,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_a02",
+        "title": "Google Veo 3.1 Lite 공개 — 가장 비용 효율적인 AI 비디오 생성 모델",
+        "excerpt": "구글이 Veo 3.1 Lite와 새로운 업스케일링 기능을 Vertex AI에서 공개했습니다. 기존 Veo보다 훨씬 저렴한 비용으로 고품질 AI 비디오 생성이 가능해졌습니다.",
+        "body": "구글이 Vertex AI에서 Veo 3.1 Lite와 비디오 업스케일링 기능을 발표했습니다. Veo 3.1 Lite는 엔터프라이즈용 비디오 생성을 위한 비용 효율적인 옵션으로, 기존 Veo 3 대비 더 낮은 비용으로 높은 품질의 비디오를 생성할 수 있습니다. 새 업스케일링 기능은 기존 비디오의 해상도를 AI로 향상시키는 기능을 추가합니다. 광고·마케팅·엔터테인먼트 업계의 AI 비디오 활용이 더욱 가속화될 것으로 전망됩니다.",
+        "url": "https://cloud.google.com/blog/products/ai-machine-learning/veo-3-1-lite-and-a-new-veo-upscaling-capability-on-vertex-ai/",
+        "source": "AI & Machine Learning",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-04T01:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_a03",
+        "title": "LangChain: 프로덕션 AI 에이전트의 자가 치유 설계 방법",
+        "excerpt": "LangChain 팀이 프로덕션에서 AI 에이전트가 실패를 스스로 감지하고 복구하는 자가 치유 패턴을 공개했습니다. 에이전트 신뢰성 확보의 실전 가이드입니다.",
+        "body": "LangChain 블로그에서 에이전트 자가 치유(self-healing) 아키텍처를 상세히 설명했습니다. 핵심 패턴은 에러 감지 루프, 재시도 전략, 폴백 플래너 세 가지입니다. 에이전트가 실패했을 때 단순 재시도가 아니라 오류 원인을 분석하고 다른 경로를 시도하는 방식으로 신뢰성을 높입니다. LangGraph를 활용한 상태 머신 기반 구현 예제도 포함돼 있어 프로덕션 적용에 바로 활용 가능합니다.",
+        "url": "https://blog.langchain.com/production-agents-self-heal/",
+        "source": "LangChain Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-04T02:01:03+09:00",
+        "readTime": 6,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_a04",
+        "title": "오픈 모델이 임계점을 넘었다 — LangChain의 분석",
+        "excerpt": "LangChain CEO가 오픈 모델이 프로덕션 사용의 임계점을 넘었다고 선언했습니다. Gemma 4를 포함한 최신 오픈 모델들이 GPT-4 급 성능을 무료로 제공하고 있습니다.",
+        "body": "LangChain의 분석에 따르면 2026년 오픈 소스 AI 모델은 결정적인 변곡점에 진입했습니다. Gemma 4, Llama 3.3 등 최신 오픈 모델이 12개월 전 최고 수준의 클로즈드 모델과 동등한 성능을 보이며, 비용은 무료입니다. 이는 AI 애플리케이션 개발의 패러다임을 바꾸고 있으며, 비용·프라이버시·커스터마이징 측면에서 오픈 모델 중심의 아키텍처로 전환을 가속화할 것으로 예상됩니다.",
+        "url": "https://blog.langchain.com/open-models-have-crossed-a-threshold/",
+        "source": "LangChain Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-03T02:51:54+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_a05",
+        "title": "NVIDIA, RTX와 DGX Spark에서 Gemma 4 로컬 에이전트 AI 가속",
+        "excerpt": "NVIDIA가 RTX GPU와 DGX Spark에서 Gemma 4를 완전 지원합니다. 로컬 환경에서 멀티모달 에이전트 AI를 구동하는 새 기준이 마련됐습니다.",
+        "body": "NVIDIA가 RTX 시리즈와 신형 DGX Spark에서 Gemma 4 모델의 최적화 실행을 지원합니다. NVIDIA TensorRT-LLM을 통해 최대 4배 빠른 추론이 가능하며, 로컬에서 멀티모달 입력 처리와 128K 컨텍스트를 동시에 처리할 수 있습니다. 이는 개인 개발자부터 엔터프라이즈까지 클라우드 의존 없이 고성능 AI 에이전트를 운용할 수 있게 해줍니다. NVIDIA AI Workbench와의 통합으로 원클릭 실행 환경도 제공됩니다.",
+        "url": "https://blogs.nvidia.com/blog/rtx-ai-garage-open-models-google-gemma-4/",
+        "source": "NVIDIA Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-03T01:15:58+09:00",
+        "readTime": 5,
+        "imageGradient": 1
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_d01",
+        "title": "VS Code 1.115 정식 출시 — 에이전트 편집·MCP 통합·테스트 커버리지 대폭 강화",
+        "excerpt": "Visual Studio Code 1.115가 공식 출시됐습니다. Copilot 에이전트 편집 모드 강화, MCP 서버 공식 통합, 인라인 테스트 커버리지 시각화가 핵심 업데이트입니다.",
+        "body": "VS Code 1.115의 주요 변경 사항은 Copilot Edits(에이전트 편집 모드)의 성능 개선으로, 멀티 파일 변경과 터미널 명령 실행이 더욱 안정적입니다. MCP(Model Context Protocol) 서버가 공식 지원돼 IDE 내에서 외부 도구를 직접 연결할 수 있습니다. 인라인 테스트 커버리지 시각화로 코드 품질을 에디터에서 바로 파악하고, 노트북 성능도 전반적으로 개선됐습니다.",
+        "url": "https://code.visualstudio.com/updates/v1_115",
+        "source": "Visual Studio Code",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-09T02:00:00+09:00",
+        "readTime": 7,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_d02",
+        "title": "Docker Offload 정식 GA — 로컬 제약을 넘어 클라우드로 즉시 오프로드",
+        "excerpt": "Docker Offload가 GA(정식 출시) 단계로 진입했습니다. 로컬 환경의 무거운 워크로드를 투명하게 클라우드로 오프로드하고, AI 에이전트용 격리 샌드박스도 제공합니다.",
+        "body": "Docker Offload가 정식 출시됐습니다. 기존 docker run 명령어와 동일한 인터페이스로 컨테이너 워크로드를 클라우드로 투명하게 오프로드할 수 있습니다. AI 에이전트용 Docker Sandboxes는 에이전트가 파일 시스템, 브라우저, 코드 실행 등 잠재적으로 위험한 작업을 격리된 환경에서 안전하게 수행하도록 지원합니다. 가격은 온디맨드 사용량 기반이며, Docker Desktop과 완전 통합됩니다.",
+        "url": "https://www.docker.com/blog/docker-offload-generally-available/",
+        "source": "Docker Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-05T09:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_d03",
+        "title": "Cloudflare, AI 시대를 위해 캐시를 근본부터 재설계한다",
+        "excerpt": "Cloudflare가 AI 추론 워크로드 특성에 맞춘 캐시 아키텍처 재검토 계획을 발표했습니다. 시맨틱 캐싱과 토큰 레벨 캐싱을 통해 비용·지연 문제를 해결합니다.",
+        "body": "Cloudflare가 전통적인 HTTP 캐시가 AI 시대에 맞지 않는다는 문제의식을 공유했습니다. AI LLM 호출은 동일 입력에도 다른 응답이 나오거나, 스트리밍 응답 방식으로 인해 기존 캐싱 전략이 무력화됩니다. Cloudflare는 시맨틱 유사도 기반 캐싱, 프롬프트 해싱, 토큰 레벨 응답 캐싱 등 AI 특화 캐시 전략을 도입하여 추론 비용을 최대 70% 절감할 수 있는 솔루션을 개발 중입니다.",
+        "url": "https://blog.cloudflare.com/rethinking-cache-ai-humans/",
+        "source": "Cloudflare Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-02T22:00:00+09:00",
+        "readTime": 6,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_d04",
+        "title": "Envoy, AI 에이전트 네트워킹을 위한 미래지향 인프라로 진화",
+        "excerpt": "Google Cloud가 Envoy 프록시를 AI 에이전트 시대에 맞게 재포지셔닝했습니다. 에이전트 간 통신, 토큰 스트리밍, LLM 게이트웨이 기능이 통합됩니다.",
+        "body": "Google Cloud가 오픈소스 프록시 Envoy를 AI 에이전트 네트워킹의 핵심 인프라로 제시했습니다. 기존 마이크로서비스 트래픽 관리에서 나아가 에이전트 간 오케스트레이션, LLM API 게이트웨이, 토큰 레벨 스트리밍 지원이 추가됩니다. 에이전트 간 인증·권한 관리와 재시도 로직을 표준화하여 멀티 에이전트 시스템의 복잡성을 줄일 수 있습니다.",
+        "url": "https://cloud.google.com/blog/products/networking/the-case-for-envoy-networking-in-the-agentic-ai-era/",
+        "source": "AI & Machine Learning",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-04T01:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_d05",
+        "title": "GitHub, 수백만 라인 Diff의 렌더링 성능을 10배 개선한 방법",
+        "excerpt": "GitHub 엔지니어링 팀이 대규모 Diff 렌더링의 성능 병목을 해결한 과정을 공유했습니다. DOM 가상화와 레이지 로딩으로 10배 이상의 성능 향상을 달성했습니다.",
+        "body": "GitHub 블로그에서 수십만 줄 규모 Diff의 렌더링 성능 최적화 사례를 공유했습니다. 기존 DOM 직접 렌더링 방식에서 가상 스크롤 기반으로 전환하고, 뷰포트 내 요소만 렌더링하는 레이지 로딩을 도입했습니다. 특히 AI 코드 생성 도구 사용 증가로 인해 한 번에 수천 라인이 변경되는 대형 Diff가 늘어남에 따라 이 개선이 실질적인 체감 성능 향상으로 이어졌습니다. 메모이제이션과 WebWorker 병렬 처리도 함께 적용됐습니다.",
+        "url": "https://github.blog/engineering/architecture-optimization/the-uphill-climb-of-making-diff-lines-performant/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-04T01:00:00+09:00",
+        "readTime": 6,
+        "imageGradient": 2
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_b01",
+        "title": "OpenAI, 기술 팟캐스트 TBPN 인수 — AI 미디어 제국 건설의 시작",
+        "excerpt": "OpenAI가 기술·비즈니스 팟캐스트 네트워크 TBPN을 인수했습니다. AI 기업이 직접 미디어 플랫폼을 확보하는 새로운 전략적 행보입니다.",
+        "body": "OpenAI가 기술·비즈니스 팟캐스트 네트워크 TBPN을 전격 인수했습니다. TBPN은 실리콘밸리·기술 업계 핵심 인사들을 게스트로 초대하는 영향력 있는 팟캐스트 네트워크입니다. OpenAI CPO Fidji Simo는 편집 역량과 오디언스 네트워크를 인수 이유로 꼽았습니다. 이번 결정은 AI 기술과 관련한 공론장을 직접 운영하려는 전략으로, 경쟁사·규제·여론 형성에서 유리한 위치를 점하려는 의도로 분석됩니다.",
+        "url": "https://openai.com/index/openai-acquires-tbpn",
+        "source": "OpenAI News",
+        "category": "big_tech",
+        "publishedAt": "2026-04-02T19:30:00+09:00",
+        "readTime": 4,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_b02",
+        "title": "Claude Code, 23년간 숨겨진 Linux 커널 취약점 자동 발견",
+        "excerpt": "Anthropic의 Claude Code가 23년간 미탐지된 Linux 커널 취약점을 AI 코드 분석으로 발굴했습니다. AI 보안 분석의 새 지평을 여는 사례입니다.",
+        "body": "Anthropic의 Claude Code가 23년간 존재해온 Linux 커널의 취약점을 자동으로 발견한 사례가 공개됐습니다. 이는 AI 보조 정적 분석이 전통적인 보안 감사 방법으로 찾기 어려운 깊은 레거시 버그를 발굴할 수 있음을 실증합니다. 특히 복잡한 C 코드에서의 메모리 처리 오류나 레이스 컨디션 같은 미묘한 버그를 AI가 독립적으로 탐지한 점이 주목됩니다. AI 기반 보안 도구의 실용성에 대한 업계 신뢰가 더욱 높아질 것으로 전망됩니다.",
+        "url": "https://news.hada.io/topic?id=28207",
+        "source": "GeekNews",
+        "category": "big_tech",
+        "publishedAt": "2026-04-05T04:41:06+09:00",
+        "readTime": 4,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_b03",
+        "title": "Gemini API, 비용-신뢰성 균형 조절 기능 신규 추가",
+        "excerpt": "구글이 Gemini API에 비용과 신뢰성 사이의 균형을 사용자가 조절할 수 있는 새 기능을 추가했습니다. 예산과 SLA 요구에 따라 추론 전략을 유연하게 설정할 수 있습니다.",
+        "body": "구글이 Gemini API에 비용-신뢰성 트레이드오프를 API 레벨에서 조절할 수 있는 기능을 추가했습니다. 개발자는 요청별로 응답 속도 우선, 비용 최소화, 최고 품질 중 하나를 선택할 수 있습니다. 내부적으로는 라우팅 로직이 동적으로 모델 크기와 추론 방식을 조절합니다. 엔터프라이즈 워크로드에서 SLA와 예산을 동시에 맞춰야 하는 팀에 특히 유용하며, 토큰 예산 설정과 폴백 전략도 함께 지원됩니다.",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-cost-reliability/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-04-05T09:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_b04",
+        "title": "Meta KernelEvolve: AI가 AI 인프라의 랭킹 알고리즘을 직접 최적화",
+        "excerpt": "Meta가 AI 기반 랭킹 엔지니어 에이전트 KernelEvolve를 공개했습니다. AI가 AI 인프라 커널을 자동 진화시켜 추론 효율을 높이는 메타 엔지니어링 사례입니다.",
+        "body": "Meta Engineering 블로그에서 KernelEvolve를 소개했습니다. 이는 Meta의 AI 랭킹 시스템에 사용되는 CUDA 커널을 AI 에이전트가 직접 탐색·최적화하는 시스템입니다. 에이전트는 성능 프로파일링 데이터를 분석해 커널 파라미터와 알고리즘을 변형하고, 실험을 자동으로 실행하여 최적 구성을 찾습니다. 이를 통해 수동 튜닝 대비 2~3배 빠른 최적화 사이클을 달성했으며, AI가 자신의 인프라를 개선하는 재귀적 자동화의 실제 사례로 주목받고 있습니다.",
+        "url": "https://engineering.fb.com/2026/04/02/developer-tools/kernelevolve-how-metas-ranking-engineer-agent-optimizes-ai-infrastructure/",
+        "source": "Meta Engineering",
+        "category": "big_tech",
+        "publishedAt": "2026-04-03T04:59:46+09:00",
+        "readTime": 5,
+        "imageGradient": 4
+      }
+    ],
+    "twitter_pulse": [],
+    "threads_pulse": [],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "KDD 리뷰 토론 — 머신러닝 컨퍼런스 심사 과정의 내막",
+        "originalTitle": "[D] KDD Review Discussion",
+        "summary": "r/MachineLearning에서 KDD 2026 심사 과정에 대한 심층 토론이 진행 중입니다. 리뷰 기준의 일관성, 구두 발표 채점 방식, 피어 리뷰 투명성 등 컨퍼런스 심사의 구조적 문제를 짚습니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1sci9nh/d_kdd_review_discussion/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-04-05T04:27:24+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "ML 10년 이상 경력자들이 말하는 공론이 완전히 틀린 부분들",
+        "originalTitle": "[D] Those of you with 10+ years in ML — what is the public completely wrong about?",
+        "summary": "r/MachineLearning의 인기 게시물입니다. [D] Those of you with 10+ years in ML — what is the public completely wrong about? 관련 다양한 의견과 경험이 공유되고 있습니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1sbzxwn/d_those_of_you_with_10_years_in_ml_what_is_the/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-04-04T13:43:55+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "MCGrad: 서브그룹별 ML 모델 캘리브레이션 교정 도구",
+        "originalTitle": "[P] MCGrad: fix calibration of your ML model in subgroups",
+        "summary": "ML 모델이 전체 성능은 좋아도 특정 서브그룹에서 캘리브레이션이 틀어지는 문제를 해결하는 MCGrad 도구가 공개됐습니다. 공정성과 신뢰도 향상에 유용한 오픈소스입니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1scjzer/p_mcgrad_fix_calibration_of_your_ml_model_in/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-04-05T05:36:01+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "Gemma 4 31B, FoodTruck 벤치마크에서 다수의 프론티어 모델 제압",
+        "originalTitle": "Gemma 4 31B beats several frontier models on the FoodTruck Bench",
+        "summary": "r/LocalLLaMA의 인기 게시물입니다. Gemma 4 31B beats several frontier models on the FoodTruck Bench 관련 다양한 의견과 경험이 공유되고 있습니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sci5h6/gemma_4_31b_beats_several_frontier_models_on_the/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-04-05T04:22:55+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "애플 연구: 단순한 자기 증류만으로 코드 생성 품질이 대폭 향상된다",
+        "originalTitle": "Apple: Embarrassingly Simple Self-Distillation Improves Code Generation",
+        "summary": "애플 연구팀이 복잡한 구조 없이 자기 증류만으로 코드 생성 품질을 크게 향상시킨 논문을 발표했습니다. 단순한 기법이 실제로 강력한 결과를 낸다는 점에서 커뮤니티의 주목을 받고 있습니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sc7uwa/apple_embarrassingly_simple_selfdistillation/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-04-04T21:22:13+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "Don’t buy the DGX Spark: NVFP4 Still Missing After 6 Months",
+        "originalTitle": "Don’t buy the DGX Spark: NVFP4 Still Missing After 6 Months",
+        "summary": "r/LocalLLaMA의 인기 게시물입니다. Don’t buy the DGX Spark: NVFP4 Still Missing After 6 Months 관련 다양한 의견과 경험이 공유되고 있습니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1scf1x8/dont_buy_the_dgx_spark_nvfp4_still_missing_after/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-04-05T02:22:19+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "OpenAI CEO 샘 알트먼, 가족에게 성적 학대 혐의로 고발",
+        "originalTitle": "OpenAI CEO Sam Altman accused of sexual abuse by family member",
+        "summary": "r/artificial에서 OpenAI CEO 샘 알트먼이 가족에게 성적 학대 혐의로 고발된 사건을 논의하고 있습니다. AI 업계 리더십에 대한 신뢰와 거버넌스 문제가 다시금 주목받고 있습니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1sc3kpj/openai_ceo_sam_altman_accused_of_sexual_abuse_by/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-04-04T17:11:57+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "사람들이 AI가 시키는 것과 다르게 행동할 때 불안해하는 현상?",
+        "originalTitle": "People anxious about deviating from what AI tells them to do?",
+        "summary": "r/artificial의 인기 게시물입니다. People anxious about deviating from what AI tells them to do? 관련 다양한 의견과 경험이 공유되고 있습니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1sc2lip/people_anxious_about_deviating_from_what_ai_tells/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-04-04T16:13:35+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "클로드가 모든 곳에 보인다 — AI 대화 비서의 일상 침투",
+        "originalTitle": "I am seeing Claude everywhere",
+        "summary": "r/artificial 유저가 일상 속 다양한 서비스와 앱에서 Claude AI가 사용되는 것을 발견하고 공유했습니다. Anthropic Claude의 B2B 확산 속도가 체감되고 있다는 내용입니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1scaqpe/i_am_seeing_claude_everywhere/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-04-04T23:31:53+09:00"
+      },
+      {
+        "id": "reddit_010",
+        "title": "웃어야 할지 울어야 할지 — OpenAI와 AI 업계의 현실",
+        "originalTitle": "I don't know whether to laugh or cry",
+        "summary": "OpenAI 관련 최신 소식과 AI 업계의 역설적인 상황들을 두고 커뮤니티가 유머와 우려 사이에서 반응하는 게시물입니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1scbpic/i_dont_know_whether_to_laugh_or_cry/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-04-05T00:10:54+09:00"
+      },
+      {
+        "id": "reddit_011",
+        "title": "AI 하이프 사이클의 이중성",
+        "originalTitle": "The duality of the AI hype cycle.",
+        "summary": "AI 기대감의 극단적 진동 — 과대 기대와 환멸 사이를 오가는 AI 하이프 사이클의 이중성을 분석하는 커뮤니티 토론입니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1sc8s58/the_duality_of_the_ai_hype_cycle/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-04-04T22:06:22+09:00"
+      },
+      {
+        "id": "reddit_012",
+        "title": "나보다 AI가 잘한다 — 개발자들의 솔직한 고백",
+        "originalTitle": "AI is better than me😭",
+        "summary": "개발자들이 AI가 자신보다 코딩을 잘한다는 사실을 실감하는 사례들을 공유합니다. 유머러스하면서도 현직 개발자들의 심리적 부담을 반영한 게시물입니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1sc2wyl/ai_is_better_than_me/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-04-04T16:32:22+09:00"
+      },
+      {
+        "id": "reddit_013",
+        "title": "Claude 구독으로 써드파티 앱 사용하기 — 변경된 정책 정리",
+        "originalTitle": "Using third-party harnesses with your Claude subscriptions",
+        "summary": "Anthropic이 써드파티 앱을 통한 Claude 구독 연동을 제한하면서, 사용자들이 대안을 논의하고 있습니다. API 전환 방법과 비용 비교가 주요 내용입니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1sbtmru/using_thirdparty_harnesses_with_your_claude/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-04-04T08:42:54+09:00"
+      },
+      {
+        "id": "reddit_014",
+        "title": "Claude를 1998년으로 보냈더니 내 어린 시절 컴퓨터를 재현했다",
+        "originalTitle": "I sent Claude to 1998 and it rebuilt my childhood computer!",
+        "summary": "Claude에게 1998년 컴퓨터 환경을 재현해달라고 요청한 실험 게시물로, 향수와 AI 능력에 대한 커뮤니티의 긍정적 반응이 모였습니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1scameo/i_sent_claude_to_1998_and_it_rebuilt_my_childhood/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-04-04T23:26:49+09:00"
+      },
+      {
+        "id": "reddit_015",
+        "title": "Claude 요금 상황에 대한 인간적 시각 — 당사자 관점에서",
+        "originalTitle": "Some human written nuance and perspective on the rates situation, from someone in the industry.",
+        "summary": "r/ClaudeAI의 인기 게시물입니다. Some human written nuance and perspective on the rates situation, from someone in the industry. 관련 다양한 의견과 경험이 공유되고 있습니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1scdilx/some_human_written_nuance_and_perspective_on_the/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-04-05T01:22:43+09:00"
+      },
+      {
+        "id": "reddit_016",
+        "title": "N64의 불법(?) 3D 렌더링 기법들 — 당시 개발자들의 천재적 해킹",
+        "originalTitle": "ILLEGAL 3D Rendering Techniques (N64)",
+        "summary": "N64 개발자들이 하드웨어 한계를 극복하기 위해 사용한 비공식 3D 렌더링 트릭들을 분석합니다. 프로그래밍 역사의 흥미로운 이면을 보여주는 인기 게시물입니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1sceczs/illegal_3d_rendering_techniques_n64/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-04-05T01:55:31+09:00"
+      },
+      {
+        "id": "reddit_017",
+        "title": "유지보수 불가능한 코드 작성법 (1999년 고전 가이드)",
+        "originalTitle": "How To Write Unmaintainable Code (1999)",
+        "summary": "1999년에 쓰인 \"유지보수 불가능한 코드 작성 가이드\"가 r/programming에서 다시 회자되고 있습니다. 반면교사로서의 고전이 현대 개발자들에게도 공감을 주는 유머입니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1sbuv3p/how_to_write_unmaintainable_code_1999/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-04-04T09:37:08+09:00"
+      },
+      {
+        "id": "reddit_018",
+        "title": "예시가 최고의 문서다",
+        "originalTitle": "Examples are the best documentation",
+        "summary": "코드 문서화에서 예시가 왜 가장 효과적인지 논의하는 r/programming 인기 글입니다. 개발자 문서 작성 철학에 대한 실용적 통찰이 담겨 있습니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1sc2sh9/examples_are_the_best_documentation/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-04-04T16:24:54+09:00"
+      },
+      {
+        "id": "reddit_019",
+        "title": "이란, 미국 AI 인프라 스타게이트 파괴 위협",
+        "originalTitle": "Iran just threatened to blow up stargate",
+        "summary": "r/singularity에서 이란이 미국의 AI 인프라 스타게이트 파괴를 위협했다는 소식을 분석합니다. AI 인프라가 지정학적 분쟁의 새 표적이 되는 시대의 시작을 알리는 신호로 평가됩니다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1sci4c8/iran_just_threatened_to_blow_up_stargate/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-04-05T04:21:40+09:00"
+      },
+      {
+        "id": "reddit_020",
+        "title": "웨어러블 촉각 감지 직물 — 휴머노이드 로봇이 느끼게 하다",
+        "originalTitle": "Wearable touch-sensing fabrics: the next step for humanoid robots, to feel... and respond accordingly",
+        "summary": "r/singularity의 인기 게시물입니다. Wearable touch-sensing fabrics: the next step for humanoid robots, to feel... and respond accordingly 관련 다양한 의견과 경험이 공유되고 있습니다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1scfyth/wearable_touchsensing_fabrics_the_next_step_for/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-04-05T02:57:26+09:00"
+      },
+      {
+        "id": "reddit_021",
+        "title": "그래도 인간은 괜찮다 — AI 커뮤니티의 훈훈한 반전",
+        "originalTitle": "Some meatbags are alright",
+        "summary": "r/singularity에서 AI 발전 속에서도 인간의 가치를 재확인하는 따뜻한 사례를 공유한 게시물입니다. 기술 커뮤니티에서 드문 훈훈한 인간미를 보여줍니다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1sbtbba/some_meatbags_are_alright/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-04-04T08:29:07+09:00"
+      },
+      {
+        "id": "reddit_022",
+        "title": "이 Postgres 사용이 미쳤다고? — Postgres 사용을 멈춰야 할 시점은?",
+        "originalTitle": "Is this use of Postgres insane? At what point should you STOP using Postgres for everything?",
+        "summary": "r/ExperiencedDevs의 인기 게시물입니다. Is this use of Postgres insane? At what point should you STOP using Postgres for everything? 관련 다양한 의견과 경험이 공유되고 있습니다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1scgolz/is_this_use_of_postgres_insane_at_what_point/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-04-05T03:24:43+09:00"
+      },
+      {
+        "id": "reddit_023",
+        "title": "AI 어시스턴트로 배운 주니어 개발자들이 대거 취업 시장에 진입하고 있다",
+        "originalTitle": "Junior devs who learned to code with AI assistants are mass entering the job market. How is your team handling it?",
+        "summary": "r/ExperiencedDevs의 인기 게시물입니다. Junior devs who learned to code with AI assistants are mass entering the job market. How is your team handling it? 관련 다양한 의견과 경험이 공유되고 있습니다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1sbv2eo/junior_devs_who_learned_to_code_with_ai/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-04-04T09:46:46+09:00"
+      },
+      {
+        "id": "reddit_024",
+        "title": "기업들이 AI 투자 대비 실제로 수익을 올리고 있을까?",
+        "originalTitle": "Are companies actually making commensurate revenue from AI?",
+        "summary": "AI 투자 대비 실제 수익을 내고 있는 기업이 얼마나 되는지 의문을 제기하는 토론입니다. 엔터프라이즈 AI 도입의 ROI 현실을 솔직하게 논의하는 r/ExperiencedDevs의 인기 글입니다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1scepgy/are_companies_actually_making_commensurate/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-04-05T02:08:44+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_q01",
+        "title": "Claude, 써드파티 앱에서 구독 기반 사용 불가 — Anthropic 정책 강화",
+        "excerpt": "Anthropic이 써드파티 앱에서 Claude 구독을 연동해 사용하는 방식을 차단했습니다. 공식 API를 통해서만 접근이 가능해집니다.",
+        "body": "Anthropic이 써드파티 하네스(harness) 앱에서 Claude 구독 계정을 연동해 사용하는 방식을 제한했습니다. 이전에는 일부 타사 앱들이 Claude.ai 계정을 통해 Claude를 호출하는 방식을 제공했으나, 이제는 공식 API 키를 통해서만 접근 가능합니다. 이는 서비스 안정성과 이용 약관 준수를 위한 조치로, 비공식 접근 방식으로 Claude를 통합한 앱 개발자들은 API로 마이그레이션해야 합니다.",
+        "url": "https://news.hada.io/topic?id=28190",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-04T12:13:55+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_q02",
+        "title": "AI 문서 어시스턴트를 위한 RAG 대체 가상 파일시스템 구축 가이드",
+        "excerpt": "RAG 없이 가상 파일시스템으로 AI 문서 어시스턴트를 구축하는 방법이 공개됐습니다. 문서 검색 정확도를 높이면서 복잡도를 줄이는 새 접근법입니다.",
+        "body": "GeekNews에 소개된 새 접근법은 전통적인 RAG(Retrieval-Augmented Generation) 대신 가상 파일시스템 추상화를 사용해 AI 문서 어시스턴트를 구축합니다. 이 방식은 문서를 디렉토리 구조로 모델링하여 LLM이 파일 시스템처럼 탐색할 수 있게 합니다. 검색 정확도와 응답 일관성이 개선되고 벡터 DB 운영 복잡도가 줄어드는 이점이 있습니다.",
+        "url": "https://news.hada.io/",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-05T09:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_q03",
+        "title": "SSH 인증서로 더 안전하고 편리한 SSH 인프라 구축하기",
+        "excerpt": "SSH 키 대신 SSH 인증서를 사용하면 인프라 전체의 접근 제어가 중앙화되고, 만료·폐기 관리가 훨씬 쉬워집니다.",
+        "body": "GeekNews가 소개한 SSH 인증서 가이드는 전통적인 공개키 기반 SSH에서 인증서 기반 인증으로 전환하는 방법을 설명합니다. 인증서 방식은 CA(인증 기관)를 통해 단기 인증서를 발급하므로, 키 로테이션·폐기·만료 관리가 자동화됩니다. 특히 대규모 엔지니어링 팀에서 수백 대 서버의 SSH 접근 정책을 중앙에서 일관되게 관리할 수 있어 보안 감사에 유리합니다.",
+        "url": "https://news.hada.io/",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-05T09:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_q04",
+        "title": "OpenAI Codex, 팀 대상 유연한 요금제 출시",
+        "excerpt": "OpenAI가 Codex 코드 생성 서비스에 팀·엔터프라이즈 맞춤형 유연한 요금제를 도입했습니다. 사용량 기반으로 비용을 최적화할 수 있습니다.",
+        "body": "OpenAI가 Codex에 팀을 위한 유연한 가격 정책을 도입했습니다. 기존 고정 요금제에서 벗어나 팀 규모와 사용량에 따라 최적화된 플랜을 선택할 수 있습니다. API 토큰 기반 과금으로 실제 사용량만 지불하며, 대형 팀에는 볼륨 할인도 제공됩니다. 이는 Codex를 기업 개발 워크플로에 더 폭넓게 통합하기 위한 전략의 일환입니다.",
+        "url": "https://openai.com/index/codex-flexible-pricing-for-teams",
+        "source": "OpenAI News",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-02T19:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_q05",
+        "title": "소프트웨어 공급망 방어: 모든 엔지니어링 팀이 알아야 할 것",
+        "excerpt": "Docker 블로그에서 현대 소프트웨어 공급망 공격의 실태와 팀 차원에서 방어하는 핵심 전략을 공유했습니다.",
+        "body": "Docker 블로그가 소프트웨어 공급망 공격의 최신 트렌드와 방어 전략을 정리했습니다. SolarWinds, Log4Shell, XZ Utils 사태 등 최근 대형 공급망 공격 사례를 분석하고, SBOM(소프트웨어 자재 명세서) 생성, 컨테이너 이미지 서명, 의존성 자동 스캔 등 실천 가능한 방어 체계를 제시합니다. 특히 CI/CD 파이프라인에서의 공급망 무결성 검증 방법이 핵심 내용입니다.",
+        "url": "https://www.docker.com/blog/defending-software-supply-chain/",
+        "source": "Docker Blog",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-05T09:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 6
+      }
+    ]
+  }
+}

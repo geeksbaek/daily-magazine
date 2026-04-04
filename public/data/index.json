@@ -1,6 +1,12 @@
 {
   "issues": [
     {
+      "date": "2026-04-05",
+      "issueNumber": 9,
+      "title": "구글 Gemma 4 전격 공개 — 바이트 대비 최강 멀티모달 오픈 AI의 귀환",
+      "excerpt": "구글 DeepMind가 Gemma 4 시리즈를 전격 공개했습니다. 1B~27B 규모의 네 가지 모델로 구성된 이번 릴리스는 멀티모달 추론, 코드 생성, 다국어 이해에서 동급 최강 성능을 자랑합니다. OpenAI는 기..."
+    },
+    {
       "date": "2026-04-04",
       "issueNumber": 8,
       "title": "Gemma 4 공개 & Claude Windows 상륙 — AI 생태계 대격변",
