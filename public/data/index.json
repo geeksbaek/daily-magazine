@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-04-07",
+      "issueNumber": 11,
+      "mainHeadline": "Anthropic 연매출 300억 달러 돌파 — Google·Broadcom과 기가와트급 TPU 계약",
+      "headlines": [
+        "이란, OpenAI 아부다비 스타게이트 데이터센터 공격 위협",
+        "OpenAI 안전 펠로우십 신설 — 독립 AI 안전 연구자 육성",
+        "샘 알트먼 신뢰 위기 — New Yorker 탐사 보도 파장"
+      ]
+    },
+    {
       "date": "2026-04-06",
       "issueNumber": 10,
       "mainHeadline": "AI 창작물 진위 논쟁 — 'AI 없이 만들었다'를 증명할 수 있는가",
