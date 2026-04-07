@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-04-08",
+      "issueNumber": 12,
+      "mainHeadline": "Anthropic, Project Glasswing 발표 — AI로 소프트웨어 취약점 자동 탐지하는 Claude Mythos Preview 공개",
+      "headlines": [
+        "OpenAI, 독립 AI 안전 연구자 육성하는 Safety Fellowship 신설",
+        "Cloudflare, 2029년 완전한 포스트 양자 보안 달성 로드맵 공개",
+        "GitHub Copilot CLI, 멀티 모델 조합으로 세컨드 오피니언 기능 추가"
+      ]
+    },
+    {
       "date": "2026-04-07",
       "issueNumber": 11,
       "mainHeadline": "Anthropic 연매출 300억 달러 돌파 — Google·Broadcom과 기가와트급 TPU 계약",
