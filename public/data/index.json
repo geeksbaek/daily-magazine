@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-04-09",
+      "issueNumber": 13,
+      "mainHeadline": "Anthropic, Claude Mythos Preview & Managed Agents로 AI 에이전트 시대 가속",
+      "headlines": [
+        "OpenAI Codex, 주간 사용자 300만 돌파 — 사용 한도 일시 해제",
+        "Meta Superintelligence Labs, 첫 모델 Muse Spark 기습 공개",
+        "OpenAI, 아동 안전 블루프린트 및 안전성 펠로우십 발표"
+      ]
+    },
+    {
       "date": "2026-04-08",
       "issueNumber": 12,
       "mainHeadline": "Anthropic, Project Glasswing 발표 — AI로 소프트웨어 취약점 자동 탐지하는 Claude Mythos Preview 공개",

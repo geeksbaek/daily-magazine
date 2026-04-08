@@ -1,0 +1,869 @@
+{
+  "date": "2026-04-09",
+  "issueNumber": 13,
+  "cover": {
+    "mainHeadline": "Anthropic, Claude Mythos Preview & Managed Agents로 AI 에이전트 시대 가속",
+    "mainExcerpt": "Anthropic이 사이버 보안 특화 AI 모델 Claude Mythos Preview와 에이전트 배포 인프라 Managed Agents를 동시에 공개했습니다. 한편 OpenAI의 코딩 도구 Codex는 주간 사용자 300만 명을 돌파했습니다.",
+    "headlines": [
+      "OpenAI Codex, 주간 사용자 300만 돌파 — 사용 한도 일시 해제",
+      "Meta Superintelligence Labs, 첫 모델 Muse Spark 기습 공개",
+      "OpenAI, 아동 안전 블루프린트 및 안전성 펠로우십 발표"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_001",
+      "title": "New GKE Cloud Storage FUSE Profiles take the guesswork out of configuring AI storage",
+      "excerpt": "Title: Optimize AI/ML workloads with GKE Cloud Storage FUSE Profiles URL Source: https://cloud.google.com/blog/products/containers-kubernetes/optimize-aiml-workloads-with-gke-cloud-storage-fuse-profil",
+      "body": "AI & Machine Learning가 공개한 'New GKE Cloud Storage FUSE Profiles take the guesswork out of configuring AI storage'에 관한 심층 분석. AI & Machine Learning 소식: New GKE Cloud Storage FUSE Profiles take the guesswork out of configuring AI storage. Title: Optimize AI/ML workloads with GKE Cloud Storage FUSE Profiles URL Source: https://cloud.google.com/blog/products/containers-kubernetes/optimize-aiml-workloads-with-gke-cloud-storage-fuse-profiles/ Published Time: 2026-04-08 Markdow",
+      "url": "https://cloud.google.com/blog/products/containers-kubernetes/optimize-aiml-workloads-with-gke-cloud-storage-fuse-profiles/",
+      "source": "AI & Machine Learning",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-09T01:30:00+09:00",
+      "readTime": 4,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_002",
+      "title": "Gemini 노트북으로 프로젝트를 더 스마트하게 관리하세요",
+      "excerpt": "Title: Try notebooks in Gemini to easily keep track of projects URL Source: https://blog.google/innovation-and-ai/products/gemini-app/notebooks-gemini-notebooklm/ Published Time: 2026-04-08T13:45:00+0",
+      "body": "Gemini가 공개한 'Gemini 노트북으로 프로젝트를 더 스마트하게 관리하세요'에 관한 심층 분석. Gemini 소식: Gemini 노트북으로 프로젝트를 더 스마트하게 관리하세요. Title: Try notebooks in Gemini to easily keep track of projects URL Source: https://blog.google/innovation-and-ai/products/gemini-app/notebooks-gemini-notebooklm/ Published Time: 2026-04-08T13:45:00+00:00 Markdown Content: # Google introduces Notebooks in Gemini, a project management tool synced with Not",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/notebooks-gemini-notebooklm/",
+      "source": "Gemini",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-08T22:45:00+09:00",
+      "readTime": 4,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_070",
+      "title": "Introducing Learn Mode: your personal coding tutor in Google Colab",
+      "excerpt": "Colab Learning logo",
+      "body": "The Official Google Blog가 공개한 'Introducing Learn Mode: your personal coding tutor in Google Colab'에 관한 심층 분석. The Official Google Blog 소식: Introducing Learn Mode: your personal coding tutor in Google Colab. Colab Learning logo",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/colab-updates/",
+      "source": "The Official Google Blog",
+      "category": "big_tech",
+      "publishedAt": "2026-04-09T01:00:00+09:00",
+      "readTime": 4,
+      "imageGradient": 4
+    },
+    {
+      "id": "rss_071",
+      "title": "The new, AI-powered Google Finance is expanding to more than 100 countries.",
+      "excerpt": "Google Finance brings AI tools to 100+ countries. Use AI to research stocks and follow live earnings in your preferred language.",
+      "body": "The Official Google Blog가 공개한 'The new, AI-powered Google Finance is expanding to more than 100 countries.'에 관한 심층 분석. The Official Google Blog 소식: The new, AI-powered Google Finance is expanding to more than 100 countries.. Google Finance brings AI tools to 100+ countries. Use AI to research stocks and follow live earnings in your preferred language.",
+      "url": "https://blog.google/products-and-platforms/products/search/google-finance-expansion/",
+      "source": "The Official Google Blog",
+      "category": "big_tech",
+      "publishedAt": "2026-04-09T00:00:00+09:00",
+      "readTime": 4,
+      "imageGradient": 4
+    },
+    {
+      "id": "rss_050",
+      "title": "Visual Studio Code 1.115 업데이트 출시",
+      "excerpt": "Learn what's new in Visual Studio Code 1.115 Read the full article",
+      "body": "Visual Studio Code - Code Editing. Redefined.가 공개한 'Visual Studio Code 1.115 업데이트 출시'에 관한 심층 분석. Visual Studio Code - Code Editing. Redefined. 소식: Visual Studio Code 1.115 업데이트 출시. Learn what's new in Visual Studio Code 1.115 Read the full article",
+      "url": "https://code.visualstudio.com/updates/v1_115",
+      "source": "Visual Studio Code - Code Editing. Redefined.",
+      "category": "dev_tools",
+      "publishedAt": "2026-04-09T02:00:00+09:00",
+      "readTime": 4,
+      "imageGradient": 2
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_001",
+        "title": "GKE Cloud Storage FUSE 프로파일로 GCS 기반 쿠버네티스 워크로드 설정 간소화",
+        "excerpt": "Google Cloud가 GKE에서 Cloud Storage FUSE 프로파일을 출시했습니다. GCS 기반 쿠버네티스 워크로드 구성의 복잡성을 크게 줄일 수 있습니다.",
+        "body": "Google Cloud가 GKE에서 Cloud Storage FUSE 프로파일을 출시했습니다. GCS 기반 쿠버네티스 워크로드 구성의 복잡성을 크게 줄일 수 있습니다.",
+        "url": "https://cloud.google.com/blog/products/containers-kubernetes/optimize-aiml-workloads-with-gke-cloud-storage-fuse-profiles/",
+        "source": "AI & Machine Learning",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-09T01:30:00+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_002",
+        "title": "Gemini 노트북으로 프로젝트를 더 스마트하게 관리하세요",
+        "excerpt": "Title: Try notebooks in Gemini to easily keep track of projects URL Source: https://blog.google/innovation-and-ai/products/gemini-app/notebooks-gemini-notebooklm/ Published Time: 2026-04-08T13:45:00+0",
+        "body": "Gemini 소식: Gemini 노트북으로 프로젝트를 더 스마트하게 관리하세요. Title: Try notebooks in Gemini to easily keep track of projects URL Source: https://blog.google/innovation-and-ai/products/gemini-app/notebooks-gemini-notebooklm/ Published Time: 2026-04-08T13:45:00+00:00 Markdown Content: # Google introduces Notebooks in Gemini, a project management tool synced with NotebookLM [Skip to main content](https://blog.google/innovation-and-ai/products/gemini-app/notebo",
+        "url": "https://blog.google/innovation-and-ai/products/gemini-app/notebooks-gemini-notebooklm/",
+        "source": "Gemini",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-08T22:45:00+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_003",
+        "title": "OpenAI, 아동 안전 블루프린트 발표",
+        "excerpt": "Title: Introducing the Child Safety Blueprint URL Source: https://openai.com/index/introducing-child-safety-blueprint Markdown Content: # Introducing the Child Safety Blueprint | OpenAI [Skip to main ",
+        "body": "OpenAI News 소식: OpenAI, 아동 안전 블루프린트 발표. Title: Introducing the Child Safety Blueprint URL Source: https://openai.com/index/introducing-child-safety-blueprint Markdown Content: # Introducing the Child Safety Blueprint | OpenAI [Skip to main content](https://openai.com/index/introducing-child-safety-blueprint#main) [](https://openai.com/) * [Research](https://openai.com/research/index/) * Products * [Business](https://openai.com/business/",
+        "url": "https://openai.com/index/introducing-child-safety-blueprint",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-08T14:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_004",
+        "title": "OpenAI 엔터프라이즈 AI: 다음 단계로의 진입",
+        "excerpt": "Title: The next phase of enterprise AI URL Source: https://openai.com/index/next-phase-of-enterprise-ai Markdown Content: I just wrapped my first 90 days with OpenAI and have had the opportunity to me",
+        "body": "OpenAI News 소식: OpenAI 엔터프라이즈 AI: 다음 단계로의 진입. Title: The next phase of enterprise AI URL Source: https://openai.com/index/next-phase-of-enterprise-ai Markdown Content: I just wrapped my first 90 days with OpenAI and have had the opportunity to meet with hundreds of our customers. What has struck me most is their immense sense of urgency and readiness. I’ve spent my entire career at the intersection of technology and enterprise transformation,",
+        "url": "https://openai.com/index/next-phase-of-enterprise-ai",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-08T09:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_005",
+        "title": "ALTK-Evolve: AI 에이전트를 위한 실전 학습 프레임워크",
+        "excerpt": "Hugging Face에서 발표한 ALTK-Evolve 프레임워크는 AI 에이전트가 작업 수행 중 지속적으로 학습하고 개선하는 방법을 제공합니다.",
+        "body": "Hugging Face에서 발표한 ALTK-Evolve 프레임워크는 AI 에이전트가 작업 수행 중 지속적으로 학습하고 개선하는 방법을 제공합니다.",
+        "url": "https://huggingface.co/blog/ibm-research/altk-evolve",
+        "source": "Hugging Face - Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-08T23:27:42+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_050",
+        "title": "Visual Studio Code 1.115 업데이트 출시",
+        "excerpt": "Learn what's new in Visual Studio Code 1.115 Read the full article",
+        "body": "Visual Studio Code - Code Editing. Redefined. 소식: Visual Studio Code 1.115 업데이트 출시. Learn what's new in Visual Studio Code 1.115 Read the full article",
+        "url": "https://code.visualstudio.com/updates/v1_115",
+        "source": "Visual Studio Code - Code Editing. Redefined.",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-09T02:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_051",
+        "title": "GitHub Universe 컨퍼런스가 돌아옵니다",
+        "excerpt": "GitHub Universe 연간 컨퍼런스가 다시 열립니다. 개발자와 팀을 위한 최신 GitHub 기능과 미래 로드맵을 발표할 예정입니다.",
+        "body": "GitHub Universe 연간 컨퍼런스가 다시 열립니다. 개발자와 팀을 위한 최신 GitHub 기능과 미래 로드맵을 발표할 예정입니다.",
+        "url": "https://github.blog/news-insights/company-news/github-universe-is-back-we-want-you-to-take-the-stage/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-09T01:35:46+09:00",
+        "readTime": 4,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_052",
+        "title": "스마트한 자동화로 개발자 시간을 되찾으세요 — Docker",
+        "excerpt": "Docker가 반복적인 작업을 자동화하여 개발자 생산성을 높이는 방법을 소개합니다. 불필요한 작업에 낭비되는 시간을 줄이고 핵심 개발에 집중할 수 있게 해줍니다.",
+        "body": "Docker가 반복적인 작업을 자동화하여 개발자 생산성을 높이는 방법을 소개합니다. 불필요한 작업에 낭비되는 시간을 줄이고 핵심 개발에 집중할 수 있게 해줍니다.",
+        "url": "https://www.docker.com/blog/reclaim-developer-hours-through-smarter-vulnerability-prioritization-with-docker-and-mend-io/",
+        "source": "Docker Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-09T03:23:51+09:00",
+        "readTime": 4,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_053",
+        "title": "바이트코드에서 바이트까지: Cloudflare Workers 자동화",
+        "excerpt": "Cloudflare Workers의 빌드 및 배포 파이프라인을 자동화하는 방법을 설명합니다. 개발부터 프로덕션까지의 워크플로우를 간소화합니다.",
+        "body": "Cloudflare Workers의 빌드 및 배포 파이프라인을 자동화하는 방법을 설명합니다. 개발부터 프로덕션까지의 워크플로우를 간소화합니다.",
+        "url": "https://blog.cloudflare.com/from-bpf-to-packet/",
+        "source": "Cloudflare Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-08T22:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_054",
+        "title": "파일럿에서 프로덕션으로: Atlassian의 AI 도입 전략",
+        "excerpt": "Atlassian이 AI 기능을 실험적인 파일럿 단계에서 프로덕션 레벨로 확장한 경험을 공유합니다. 실용적인 AI 도입 전략을 담고 있습니다.",
+        "body": "Atlassian이 AI 기능을 실험적인 파일럿 단계에서 프로덕션 레벨로 확장한 경험을 공유합니다. 실용적인 AI 도입 전략을 담고 있습니다.",
+        "url": "https://www.atlassian.com/blog/artificial-intelligence/from-pilots-to-productivity-how-one-ai-leader-operationalizes-enterprise-ai",
+        "source": "Atlassian Developer Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-09T05:20:49+09:00",
+        "readTime": 4,
+        "imageGradient": 2
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_070",
+        "title": "Google, 'Learn Mode' 소개: 새로운 AI 학습 경험",
+        "excerpt": "Google이 사용자 맞춤형 학습 경험을 제공하는 Learn Mode를 소개했습니다. AI를 활용해 개인화된 교육 콘텐츠를 제공하는 새로운 기능입니다.",
+        "body": "Google이 사용자 맞춤형 학습 경험을 제공하는 Learn Mode를 소개했습니다. AI를 활용해 개인화된 교육 콘텐츠를 제공하는 새로운 기능입니다.",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/colab-updates/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-04-09T01:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_071",
+        "title": "새로운 AI 기반 Google 검색 경험",
+        "excerpt": "Google이 AI로 완전히 새롭게 재설계한 검색 경험을 발표했습니다. 더 스마트하고 직관적인 검색 결과를 제공합니다.",
+        "body": "Google이 AI로 완전히 새롭게 재설계한 검색 경험을 발표했습니다. 더 스마트하고 직관적인 검색 결과를 제공합니다.",
+        "url": "https://blog.google/products-and-platforms/products/search/google-finance-expansion/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-04-09T00:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_072",
+        "title": "AI가 리테일을 바꾸고 있습니다 — Google의 분석",
+        "excerpt": "Google이 AI가 리테일 산업에 가져오는 변화를 분석했습니다. 개인화, 재고 관리, 고객 경험 향상 등 다양한 분야에서 AI의 역할이 커지고 있습니다.",
+        "body": "Google이 AI가 리테일 산업에 가져오는 변화를 분석했습니다. 개인화, 재고 관리, 고객 경험 향상 등 다양한 분야에서 AI의 역할이 커지고 있습니다.",
+        "url": "https://blog.google/products/ads-commerce/retail-sales-ai/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-04-08T22:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_073",
+        "title": "신뢰하되 카나리로 검증하라: Meta의 설정 관리 전략",
+        "excerpt": "Meta Engineering 블로그에서 대규모 설정 변경을 안전하게 관리하는 'Trust But Canary' 전략을 소개합니다. 카나리 배포를 활용한 리스크 최소화 방법입니다.",
+        "body": "Meta Engineering 블로그에서 대규모 설정 변경을 안전하게 관리하는 'Trust But Canary' 전략을 소개합니다. 카나리 배포를 활용한 리스크 최소화 방법입니다.",
+        "url": "https://engineering.fb.com/2026/04/08/security/trust-but-canary-configuration-safety-at-scale-meta-tech-podcast/",
+        "source": "Meta Engineering",
+        "category": "big_tech",
+        "publishedAt": "2026-04-09T03:25:26+09:00",
+        "readTime": 4,
+        "imageGradient": 4
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "Codex 주간 사용자 300만 명 달성을 기념해 사용 한도를 일시 해제합니다.\n1000만 명 달성까지 100만 명씩 늘어날 때마다 동일하게 진행할 예정입니다. 마음껏 빌드하세요!",
+        "context": "OpenAI CEO 샘 알트만이 Codex 주간 사용자 수 관련 발표를 공유했습니다. OpenAI의 코딩 AI 도구 Codex가 빠른 성장세를 보이고 있습니다.",
+        "url": "https://x.com/sama/status/2041658719839383945",
+        "publishedAt": "2026-04-07T23:25:45.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Jacob Trefethen",
+        "handle": "JacobTref",
+        "content": "알츠하이머는 의학계에서 가장 해결하기 어려운 난제 중 하나이자 가장 큰 피해를 주는 질병입니다.\nOpenAI Foundation은 AI가 이 복잡한 문제에 적합하다고 믿습니다. 질병 매핑, 신약 설계 등을 연구하는 과학자들에게 1억 달러 이상을 지원합니다.",
+        "context": "OpenAI Foundation이 알츠하이머 연구에 1억 달러 이상을 투자한다는 소식을 공유했습니다.",
+        "url": "https://x.com/JacobTref/status/2041876743666200980",
+        "publishedAt": "2026-04-08T13:52:06.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Kevin Weil",
+        "handle": "kevinweil",
+        "content": "참고로, @hemal이 Prism이 Codex로 구동되기 때문에 몇 시간 만에 간단한 스킬로 이것을 만들었습니다. 앞으로 더 많은 것들이 나올 예정입니다.\nAI를 활용해 과학을 가속화하는 제품을 만들고 싶다면, Prism 수석 디자이너를 채용 중입니다!",
+        "context": "OpenAI CPO 케빈 웨일이 Prism의 새 기능 Paper Review를 소개했습니다. AI를 통한 과학 논문 검증 워크플로우입니다.",
+        "url": "https://x.com/kevinweil/status/2041592093718749659",
+        "publishedAt": "2026-04-07T19:01:00.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Kevin Weil",
+        "handle": "kevinweil",
+        "content": "오늘 Prism에 Paper Review가 새롭게 출시되었습니다. 기술 및 과학 논문 검토를 위한 AI 워크플로우입니다.\nAI 슬롭의 반대 개념으로, AI를 활용해 과학적 엄밀성, 정확성, 재현성을 향상시킵니다.",
+        "context": "OpenAI CPO 케빈 웨일이 Prism의 새 기능 Paper Review를 소개했습니다. AI를 통한 과학 논문 검증 워크플로우입니다.",
+        "url": "https://x.com/kevinweil/status/2041573799775367525",
+        "publishedAt": "2026-04-07T17:48:19.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Dario Amodei",
+        "handle": "DarioAmodei",
+        "content": "점점 강력해지는 AI 시스템이 초래하는 사이버 위협에 맞서기 위해 세계 최고의 기업들이 Project Glasswing에 합류한 것을 자랑스럽게 생각합니다.",
+        "context": "Anthropic CEO 다리오 아모데이가 Project Glasswing 출시와 사이버 보안에서의 AI 위협에 대해 언급했습니다. AI 기반 사이버 위협의 현실과 대응 방향을 강조했습니다.",
+        "url": "https://x.com/DarioAmodei/status/2041580334693720511",
+        "publishedAt": "2026-04-07T18:14:17.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Dario Amodei",
+        "handle": "DarioAmodei",
+        "content": "이것을 잘못 처리하면 분명한 위험이 있지만, 올바르게 해낸다면 AI 기반 사이버 위협 시대 이전보다 훨씬 더 안전한 인터넷과 세상을 만들 수 있습니다.",
+        "context": "Anthropic CEO 다리오 아모데이가 Project Glasswing 출시와 사이버 보안에서의 AI 위협에 대해 언급했습니다. AI 기반 사이버 위협의 현실과 대응 방향을 강조했습니다.",
+        "url": "https://x.com/DarioAmodei/status/2041580341794615631",
+        "publishedAt": "2026-04-07T18:14:18.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "Dario Amodei",
+        "handle": "DarioAmodei",
+        "content": "사이버는 프론티어 AI 모델의 첫 번째 명확하고 즉각적인 위험이지만 마지막이 아닐 것입니다. 이 도전에 함께 맞서 극복할 수 있다면, 앞으로 더 어려운 과제들을 해결하는 청사진이 될 것입니다.",
+        "context": "Anthropic CEO 다리오 아모데이가 Project Glasswing 출시와 사이버 보안에서의 AI 위협에 대해 언급했습니다. AI 기반 사이버 위협의 현실과 대응 방향을 강조했습니다.",
+        "url": "https://x.com/DarioAmodei/status/2041580360021369064",
+        "publishedAt": "2026-04-07T18:14:22.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "Project Glasswing 소개: 세계에서 가장 중요한 소프트웨어를 보호하기 위한 긴급 이니셔티브입니다.\n최신 프론티어 모델인 Claude Mythos Preview로 구동되며, 최고 수준의 인간 전문가에 버금가는 소프트웨어 취약점 탐지 능력을 갖추고 있습니다.",
+        "context": "Anthropic 공식 계정이 Claude Managed Agents와 Project Glasswing을 발표했습니다. 에이전트 개발 인프라와 사이버 보안 모델 출시 소식입니다.",
+        "url": "https://x.com/AnthropicAI/status/2041578392852517128",
+        "publishedAt": "2026-04-07T18:06:34.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_009",
+        "author": "Alex Albert",
+        "handle": "alexalbert__",
+        "content": "Managed Agents는 어떻게 보면 주말 에이전트 프로젝트를 가장 빠르게 만들 수 있는 방법인 동시에, 수백만 사용자에게 배포할 수 있는 가장 견고한 방법이기도 합니다.\n에이전트 자체 호스팅의 복잡성을 제거하면서도 높은 유연성을 제공합니다.",
+        "context": "Anthropic의 Alex Albert가 Claude Managed Agents와 Claude Mythos Preview 모델에 대해 트윗했습니다.",
+        "url": "https://x.com/alexalbert__/status/2041941720611614786",
+        "publishedAt": "2026-04-08T18:10:18.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_010",
+        "author": "Alex Albert",
+        "handle": "alexalbert__",
+        "content": "두 달 전 Claude Opus 4.6을 출시했습니다. 오늘은 새 모델인 Claude Mythos Preview에 대한 정보를 공유합니다.",
+        "context": "Anthropic의 Alex Albert가 Claude Managed Agents와 Claude Mythos Preview 모델에 대해 트윗했습니다.",
+        "url": "https://x.com/alexalbert__/status/2041579938537775160",
+        "publishedAt": "2026-04-07T18:12:42.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_011",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "Managed Agents는 단순함과 복잡함의 올바른 균형을 갖춘 최초의 '클라우드 속 에이전트' API입니다.\n샌드박스 관리 방법 같은 구현 세부 사항은 추상화되어 있지만, 모델 실행 방식에 대한 제어권은 충분히 확보됩니다.",
+        "context": "Anthropic 팀의 Thariq이 Claude Managed Agents의 기술적 특징과 에이전트 결과 정의 개념을 설명했습니다.",
+        "url": "https://x.com/trq212/status/2041935792596304030",
+        "publishedAt": "2026-04-08T17:46:44.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_012",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "제가 가장 좋아하는 개념 중 하나는 에이전트가 기준을 충족할 때까지 작업을 수행하는 결과 정의(define outcomes) 개념입니다.",
+        "context": "Anthropic 팀의 Thariq이 Claude Managed Agents의 기술적 특징과 에이전트 결과 정의 개념을 설명했습니다.",
+        "url": "https://x.com/trq212/status/2041935803660841031",
+        "publishedAt": "2026-04-08T17:46:47.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_013",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Claude Managed Agents 소개: 대규모로 에이전트를 빌드하고 배포하는 데 필요한 모든 것.\n성능에 최적화된 에이전트 하네스와 프로덕션 인프라를 결합해, 며칠 만에 프로토타입에서 런칭까지 가능합니다.\n현재 Claude 플랫폼에서 퍼블릭 베타로 이용 가능합니다.",
+        "context": "Claude 공식 계정이 에이전트 빌드와 배포를 위한 Claude Managed Agents 퍼블릭 베타를 발표했습니다.",
+        "url": "https://x.com/claudeai/status/2041927687460024721",
+        "publishedAt": "2026-04-08T17:14:32.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_014",
+        "author": "Felix Rieseberg",
+        "handle": "felixrieseberg",
+        "content": "Claude Mythos Preview에 대해 이야기해봅시다.\n이 모델이 Anthropic 내부에서 얼마나 큰 변화를 가져왔는지 과장하기 어렵습니다. 보안 취약점을 식별하는 능력은 모델 역량의 의미 있는 도약처럼 느껴집니다. GPT-3 같은 또 다른 순간으로 느껴집니다.",
+        "context": "Felix Rieseberg가 Claude Mythos Preview의 사이버 보안 취약점 탐지 능력을 상세히 설명했습니다.",
+        "url": "https://x.com/felixrieseberg/status/2041586309966524919",
+        "publishedAt": "2026-04-07T18:38:01.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_015",
+        "author": "Felix Rieseberg",
+        "handle": "felixrieseberg",
+        "content": "OpenAI의 성장 방식이 궁금하다면 @TheAmolAvasare와 @lennysan의 대화를 확인해보세요.\n지난 몇 달 동안 연간 반복 수익(run rate revenue)이 90억 달러에서 300억 달러로 성장했습니다.",
+        "context": "Felix Rieseberg가 Claude Mythos Preview의 사이버 보안 취약점 탐지 능력을 상세히 설명했습니다.",
+        "url": "https://x.com/felixrieseberg/status/2041746930540384577",
+        "publishedAt": "2026-04-08T05:16:16.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_016",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "엔지니어링 블로그 신규 포스트: Managed Agents를 구축하는 것은 컴퓨팅의 오래된 문제를 해결하는 과정이었습니다: '아직 생각도 못한 프로그램을 위한 시스템을 어떻게 설계할까?' 자세히 읽어보세요.",
+        "context": "Anthropic 공식 계정이 Claude Managed Agents와 Project Glasswing을 발표했습니다. 에이전트 개발 인프라와 사이버 보안 모델 출시 소식입니다.",
+        "url": "https://x.com/AnthropicAI/status/2041929199976640948",
+        "publishedAt": "2026-04-08T17:20:33.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_017",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "Claude Mythos Preview가 발견한 소프트웨어 취약점 및 익스플로잇에 대한 상세 기술 보고서를 이곳에서 확인할 수 있습니다.",
+        "context": "Anthropic 공식 계정이 Claude Managed Agents와 Project Glasswing을 발표했습니다. 에이전트 개발 인프라와 사이버 보안 모델 출시 소식입니다.",
+        "url": "https://x.com/AnthropicAI/status/2041579352681087005",
+        "publishedAt": "2026-04-07T18:10:00.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_018",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "Codex는 작업 컨텍스트를 하나로 통합하여 더 명확한 우선순위로 더 나은 결정을 내릴 수 있게 해줍니다.",
+        "context": "OpenAI 개발자 계정이 Codex 팁과 주간 사용자 300만 명 달성 소식을 공유했습니다.",
+        "url": "https://x.com/OpenAIDevs/status/2041983360780939416",
+        "publishedAt": "2026-04-08T20:55:46.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_019",
+        "author": "Tibo",
+        "handle": "thsottiaux",
+        "content": "이제 매주 300만 명이 Codex를 사용합니다 — 약 한 달 전 200만 명에서 증가했습니다. 놀라운 성장세입니다. 이를 기념하여 사용 한도를 초기화하고 있으며, 계속 초기화할 예정입니다.",
+        "context": "OpenAI Codex가 주간 사용자 300만 명을 돌파했다는 성장 소식입니다.",
+        "url": "https://x.com/thsottiaux/status/2041655710346572085",
+        "publishedAt": "2026-04-07T23:13:48.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_020",
+        "author": "ChatGPT",
+        "handle": "ChatGPTapp",
+        "content": "수백만 건의 대화들 💬",
+        "context": "ChatGPT 공식 계정의 최근 업데이트 소식입니다.",
+        "url": "https://x.com/ChatGPTapp/status/2041330936592454018",
+        "publishedAt": "2026-04-07T01:43:16.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "이제 진짜 \"딸깍\"으로 에이전트를 배포하는 시대가 왔습니다.\n앤트로픽이 에이전트 개발과 배포를 위한 전용 인프라 'Claude Managed Agents'를 퍼블릭 베타로 공개했습니다. 기존에는 에이전트를 프로덕션 환경에 적용하려면 몇 달간 인프라 작업과 씨름해야 했지만, 이제는 작업과 도구, 가드레일만 설정하면 앤트로픽의 인프라 위에서 며칠 만에 배포가 가능해졌습니다.",
+        "context": "AI 인플루언서 CHOI가 최신 AI 뉴스를 한국어로 요약 정리한 Threads 게시물입니다.",
+        "url": "https://www.threads.com/@choi.openai/post/DW4iA28j3pg",
+        "publishedAt": "2026-04-08T20:00:03.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "드디어 Meta Superintelligence Labs(MSL)가 기초부터 새롭게 구축한 AI 파이프라인의 첫 모델, 'Muse Spark'를 기습 공개했습니다. 여러 AI 에이전트가 동시에 생각하는 'Contemplating mode'를 도입해 제미나이 딥 씽크나 GPT Pro와 맞먹는 깊은 추론 능력을 확보했습니다.",
+        "context": "AI 인플루언서 CHOI가 최신 AI 뉴스를 한국어로 요약 정리한 Threads 게시물입니다.",
+        "url": "https://www.threads.com/@choi.openai/post/DW4XcuGD1Pj",
+        "publishedAt": "2026-04-08T18:27:44.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_003",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "지금도 빠르지만 앞으로는 더 빠른 미래가 기다리고 있습니다. Claude Mythos Preview가 사이버 보안 취약점 발견에서 사실상 최고 수준의 인간 전문가와 동등한 능력을 보여주고 있습니다.",
+        "context": "AI 인플루언서 CHOI가 최신 AI 뉴스를 한국어로 요약 정리한 Threads 게시물입니다.",
+        "url": "https://www.threads.com/@choi.openai/post/DW32vvtj7zq",
+        "publishedAt": "2026-04-08T13:41:58.000Z",
+        "platform": "threads"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "[해외소식] [D] Dealing with an unprofessional reviewer using fake refer",
+        "originalTitle": "[D] Dealing with an unprofessional reviewer using fake references and personal attacks in ICML26",
+        "summary": "머신러닝 연구자 커뮤니티에서 화제가 된 게시물입니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1sg0pk1/d_dealing_with_an_unprofessional_reviewer_using/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-04-09T03:10:07+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "[해외소식] [D] How are reviewers able to get away without providing ack",
+        "originalTitle": "[D] How are reviewers able to get away without providing acknowledgement in ICML 2026?",
+        "summary": "머신러닝 연구자 커뮤니티에서 화제가 된 게시물입니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1sftb6h/d_how_are_reviewers_able_to_get_away_without/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-04-08T22:45:56+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "ICML 2026 제 논문 탈락인가요? [D]",
+        "originalTitle": "ICML 2026 am I cooked? [D]",
+        "summary": "머신러닝 연구자 커뮤니티에서 화제가 된 게시물입니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1sg188m/icml_2026_am_i_cooked_d/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-04-09T03:28:42+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "kepler-452b 모델, GGUF 버전은 언제 나오나요?",
+        "originalTitle": "kepler-452b. GGUF when?",
+        "summary": "로컬 AI 모델 실행에 관심 있는 커뮤니티에서 주목받고 있습니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sftj52/kepler452b_gguf_when/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-04-08T22:54:21+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "[해외소식] It finally happened, I actually had a use case for a local L",
+        "originalTitle": "It finally happened, I actually had a use case for a local LLM and it was brilliant",
+        "summary": "로컬 AI 모델 실행에 관심 있는 커뮤니티에서 주목받고 있습니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sg2686/it_finally_happened_i_actually_had_a_use_case_for/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-04-09T04:02:41+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "메타, 오픈소스 포기하지 않았다",
+        "originalTitle": "Meta has not given up on open-source",
+        "summary": "로컬 AI 모델 실행에 관심 있는 커뮤니티에서 주목받고 있습니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sfzdrv/meta_has_not_given_up_on_opensource/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-04-09T02:23:00+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "12년 전 AI가 생성한 소의 모습",
+        "originalTitle": "this is how an AI generated cow looked 12 years ago",
+        "summary": "AI 전반에 대한 다양한 관점과 토론이 이루어지는 커뮤니티입니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1sfqix8/this_is_how_an_ai_generated_cow_looked_12_years/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-04-08T20:48:30+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "Project Glasswing은 본질적으로 카르텔 행위다",
+        "originalTitle": "Project Glasswing is inherently Cartel Behaviour",
+        "summary": "AI 전반에 대한 다양한 관점과 토론이 이루어지는 커뮤니티입니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1sg1mxm/project_glasswing_is_inherently_cartel_behaviour/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-04-09T03:43:40+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "최고의 AI 회의 녹음기를 만드는 것은 무엇인가?",
+        "originalTitle": "What actually makes something the best AI meeting recorder?",
+        "summary": "AI 전반에 대한 다양한 관점과 토론이 이루어지는 커뮤니티입니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1sfu0m9/what_actually_makes_something_the_best_ai_meeting/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-04-08T23:12:15+09:00"
+      },
+      {
+        "id": "reddit_010",
+        "title": "[해외소식] Monetization truly doesn’t care how big your user base is. P",
+        "originalTitle": "Monetization truly doesn’t care how big your user base is. People will always pay for what is working best for them in the moment. Entrepreneurial lesson of this era",
+        "summary": "OpenAI 관련 뉴스와 토론이 모이는 커뮤니티입니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1sftdkl/monetization_truly_doesnt_care_how_big_your_user/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-04-08T22:48:26+09:00"
+      },
+      {
+        "id": "reddit_011",
+        "title": "Joanne Jang, OpenAI 퇴사",
+        "originalTitle": "Joanne Jang , has left OpenAI",
+        "summary": "OpenAI 관련 뉴스와 토론이 모이는 커뮤니티입니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1sfigi4/joanne_jang_has_left_openai/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-04-08T13:07:43+09:00"
+      },
+      {
+        "id": "reddit_012",
+        "title": "[해외소식] Former OpenAI exec: \"The truth is, we're building portals fr",
+        "originalTitle": "Former OpenAI exec: \"The truth is, we're building portals from which we're genuinely summoning aliens ... The portals currently exist in the US, and China, and Sam has added one in the Middle East ... It's the most reckless thing that has been done.\"",
+        "summary": "OpenAI 관련 뉴스와 토론이 모이는 커뮤니티입니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1sg0kpp/former_openai_exec_the_truth_is_were_building/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-04-09T03:05:20+09:00"
+      },
+      {
+        "id": "reddit_013",
+        "title": "Claude Managed Agents 출시, 현재 퍼블릭 베타",
+        "originalTitle": "Introducing Claude Managed Agents, now in public beta.",
+        "summary": "Claude AI 사용자들의 경험과 토론이 공유되는 커뮤니티입니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1sfz7a5/introducing_claude_managed_agents_now_in_public/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-04-09T02:16:42+09:00"
+      },
+      {
+        "id": "reddit_014",
+        "title": "Opus 4.6의 추론 노력에 변화가 생겼습니다",
+        "originalTitle": "Something happened to Opus 4.6's reasoning effort",
+        "summary": "Claude AI 사용자들의 경험과 토론이 공유되는 커뮤니티입니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1sfw9b5/something_happened_to_opus_46s_reasoning_effort/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-04-09T00:32:50+09:00"
+      },
+      {
+        "id": "reddit_015",
+        "title": "[해외소식] I gave Claude my dead game's 30-year-old files and asked it ",
+        "originalTitle": "I gave Claude my dead game's 30-year-old files and asked it to bring the game back to life",
+        "summary": "Claude AI 사용자들의 경험과 토론이 공유되는 커뮤니티입니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1sfsz67/i_gave_claude_my_dead_games_30yearold_files_and/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-04-08T22:32:42+09:00"
+      },
+      {
+        "id": "reddit_016",
+        "title": "파이프라인 연산자가 너무 좋습니다",
+        "originalTitle": "I Am Very Fond of the Pipeline Operator",
+        "summary": "프로그래밍 관련 팁, 토론, 뉴스가 공유되는 커뮤니티입니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1sfoqwq/i_am_very_fond_of_the_pipeline_operator/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-04-08T19:15:50+09:00"
+      },
+      {
+        "id": "reddit_017",
+        "title": "기본적으로 멀티코어를 쓰자 — Ryan Fleury의 글",
+        "originalTitle": "Multi-Core By Default - by Ryan Fleury - Digital Grove",
+        "summary": "프로그래밍 관련 팁, 토론, 뉴스가 공유되는 커뮤니티입니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1sfozxd/multicore_by_default_by_ryan_fleury_digital_grove/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-04-08T19:30:03+09:00"
+      },
+      {
+        "id": "reddit_018",
+        "title": "예제로 배우는 칼만 필터",
+        "originalTitle": "Kalman Filter Explained Through Examples",
+        "summary": "프로그래밍 관련 팁, 토론, 뉴스가 공유되는 커뮤니티입니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1sg2bmz/kalman_filter_explained_through_examples/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-04-09T04:08:00+09:00"
+      },
+      {
+        "id": "reddit_019",
+        "title": "'From Inside the Meat' — 단편 영화",
+        "originalTitle": "From Inside the Meat - short film",
+        "summary": "AI 특이점과 미래 기술에 대한 토론 커뮤니티입니다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1sg07os/from_inside_the_meat_short_film/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-04-09T02:52:25+09:00"
+      },
+      {
+        "id": "reddit_020",
+        "title": "Muse Spark, Meta Superintelligence Labs의 첫 모델",
+        "originalTitle": "Muse Spark, first model from Meta Superintelligence Labs",
+        "summary": "AI 특이점과 미래 기술에 대한 토론 커뮤니티입니다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1sfxfv3/muse_spark_first_model_from_meta/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-04-09T01:15:04+09:00"
+      },
+      {
+        "id": "reddit_021",
+        "title": "Claude Opus vs Mythos 비교",
+        "originalTitle": "Claude Opus vs Mythos",
+        "summary": "AI 특이점과 미래 기술에 대한 토론 커뮤니티입니다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1sg2wwj/claude_opus_vs_mythos/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-04-09T04:29:10+09:00"
+      },
+      {
+        "id": "reddit_022",
+        "title": "[해외소식] You should really consider letting some plates hit the floor",
+        "originalTitle": "You should really consider letting some plates hit the floor.",
+        "summary": "경험 많은 개발자들이 커리어와 기술에 대해 논의하는 커뮤니티입니다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1sfw7o5/you_should_really_consider_letting_some_plates/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-04-09T00:31:11+09:00"
+      },
+      {
+        "id": "reddit_023",
+        "title": "[해외소식] Company wants to do multiple interview rounds and fly me out",
+        "originalTitle": "Company wants to do multiple interview rounds and fly me out before offer, I said no",
+        "summary": "경험 많은 개발자들이 커리어와 기술에 대해 논의하는 커뮤니티입니다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1sfz3em/company_wants_to_do_multiple_interview_rounds_and/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-04-09T02:13:04+09:00"
+      },
+      {
+        "id": "reddit_024",
+        "title": "여러분 회사에서는 어떤 노트북을 지급하나요?",
+        "originalTitle": "What laptop does your company give you?",
+        "summary": "경험 많은 개발자들이 커리어와 기술에 대해 논의하는 커뮤니티입니다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1sfs5iw/what_laptop_does_your_company_give_you/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-04-08T22:00:03+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_080",
+        "title": "모든 시대를 바꾼 GPU의 30년 연대기",
+        "excerpt": "1996년부터 2025년까지의 49종 GPU를 시대별로 정리해, 기술 발전과 시장 변화를 시각화한 데이터 스토리 각 세대는 트랜지스터 수·소비전력·가격·대표 게임을 기준으로 구분되며, GPU의 진화 흐름을 한눈에 보여줌 Voodoo Graphics에...",
+        "body": "GeekNews 소식: 모든 시대를 바꾼 GPU의 30년 연대기. 1996년부터 2025년까지의 49종 GPU를 시대별로 정리해, 기술 발전과 시장 변화를 시각화한 데이터 스토리 각 세대는 트랜지스터 수·소비전력·가격·대표 게임을 기준으로 구분되며, GPU의 진화 흐름을 한눈에 보여줌 Voodoo Graphics에...",
+        "url": "https://news.hada.io/topic?id=28319",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-09T04:33:05+09:00",
+        "readTime": 4,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_081",
+        "title": "Cloudflare에서 Bunny.net으로 전환",
+        "excerpt": "중앙집중화된 Cloudflare 의존성을 줄이기 위해 개인 블로그를 bunny.net으로 이전한 사례 bunny.net은 슬로베니아 기반의 유럽 CDN 서비스로, 전 세계적으로 빠른 성능과 효율적인 PoP 네트워크를 제공 도메인 등록은...",
+        "body": "GeekNews 소식: Cloudflare에서 Bunny.net으로 전환. 중앙집중화된 Cloudflare 의존성을 줄이기 위해 개인 블로그를 bunny.net으로 이전한 사례 bunny.net은 슬로베니아 기반의 유럽 CDN 서비스로, 전 세계적으로 빠른 성능과 효율적인 PoP 네트워크를 제공 도메인 등록은...",
+        "url": "https://news.hada.io/topic?id=28318",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-09T00:32:50+09:00",
+        "readTime": 4,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_082",
+        "title": "Show GN: Screening Watch -- 현재 상영중인 영화의 상영관 정보를 한 눈에 확인",
+        "excerpt": "현재 상영중인 영화의 상영관 정보를 한 눈에 확인할 수 있는 웹서비스를 만들었습니다. 현재 롯데시네마 멀티플렉스와 소규모 독립영화관들을 포함한 162개의 극장에서 데이터를 수집해 영화 개봉관 현황을 한 눈에 파악할 수 있습니다. 주요 기능 현재 상영중인 영화 목록 및 극장 수",
+        "body": "GeekNews 소식: Show GN: Screening Watch -- 현재 상영중인 영화의 상영관 정보를 한 눈에 확인. 현재 상영중인 영화의 상영관 정보를 한 눈에 확인할 수 있는 웹서비스를 만들었습니다. 현재 롯데시네마 멀티플렉스와 소규모 독립영화관들을 포함한 162개의 극장에서 데이터를 수집해 영화 개봉관 현황을 한 눈에 파악할 수 있습니다. 주요 기능 현재 상영중인 영화 목록 및 극장 수",
+        "url": "https://news.hada.io/topic?id=28317",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-08T21:42:20+09:00",
+        "readTime": 4,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_083",
+        "title": "캄보디아, 지뢰 탐지 영웅 쥐 ‘마가와’ 기념 동상 공개",
+        "excerpt": "캄보디아 시엠립에서 지뢰 탐지 쥐 마가와(Magawa) 를 기리는 세계 최초의 동상이 공개됨 마가와는 5년간 100개 이상의 지뢰와 폭발물을 찾아내며 141,000㎡의 땅을 정화한 공로를 남김 벨기에 자선단체 Apopo에서 훈련받은 아프리카 자...",
+        "body": "GeekNews 소식: 캄보디아, 지뢰 탐지 영웅 쥐 ‘마가와’ 기념 동상 공개. 캄보디아 시엠립에서 지뢰 탐지 쥐 마가와(Magawa) 를 기리는 세계 최초의 동상이 공개됨 마가와는 5년간 100개 이상의 지뢰와 폭발물을 찾아내며 141,000㎡의 땅을 정화한 공로를 남김 벨기에 자선단체 Apopo에서 훈련받은 아프리카 자...",
+        "url": "https://news.hada.io/topic?id=28316",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-08T21:32:19+09:00",
+        "readTime": 4,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_084",
+        "title": "백엔드 코딩 에이전트 개발자가 리뷰한 Claude Code 소스 코드 분석 (AutoBe vs Claude Code)",
+        "excerpt": "저는 AutoBe라는 오픈소스 백엔드 자동생성 에이전트를 만들고 있습니다. 2026년 4월, Anthropic 엔지니어가 .npmignore 없이 npm publish를 실행하는 바람에 Claude Code 전체 소스코드(51만 2천 줄, 1,900개 파일)가 npm에 공개됐습니다. 마침 AutoBE에 오케스트레이션을 본격적으",
+        "body": "GeekNews 소식: 백엔드 코딩 에이전트 개발자가 리뷰한 Claude Code 소스 코드 분석 (AutoBe vs Claude Code). 저는 AutoBe라는 오픈소스 백엔드 자동생성 에이전트를 만들고 있습니다. 2026년 4월, Anthropic 엔지니어가 .npmignore 없이 npm publish를 실행하는 바람에 Claude Code 전체 소스코드(51만 2천 줄, 1,900개 파일)가 npm에 공개됐습니다. 마침 AutoBE에 오케스트레이션을 본격적으",
+        "url": "https://news.hada.io/topic?id=28315",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-08T19:24:46+09:00",
+        "readTime": 4,
+        "imageGradient": 6
+      }
+    ]
+  }
+}
