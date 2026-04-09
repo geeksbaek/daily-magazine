@@ -1,0 +1,849 @@
+{
+  "date": "2026-04-10",
+  "issueNumber": 14,
+  "cover": {
+    "mainHeadline": "Claude Cowork 유료 전 플랜 정식 출시 — AI 데스크톱 자동화 새 시대",
+    "mainExcerpt": "Anthropic이 Claude Cowork를 모든 유료 플랜에 정식 출시했습니다. 역할 기반 접근 제어, 지출 한도 설정, OpenTelemetry 지원이 추가되었으며, Opus 어드바이저 + Sonnet 실행 전략으로 비용 절감과 성능 향상을 동시에 달성할 수 있습니다. OpenAI는 Codex 주간 사용자 300만 돌파를 기념해 $100 Pro 티어를 신설하며 경쟁에 불을 지폈습니다.",
+    "headlines": [
+      "OpenAI, Codex 300만 사용자 돌파 기념 — 새 $100 Pro 티어 출시",
+      "Anthropic, Opus 어드바이저 + Sonnet 실행 전략으로 비용 대비 성능 극대화",
+      "GKE AI 추론 보안 강화 — 게이트웨이 가드레일 아키텍처 공개"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_001",
+      "title": "게이트웨이 가드레일: GKE에서 AI 추론 보안 강화하기",
+      "excerpt": "AI & Machine Learning의 새로운 발표입니다. Title: Securing AI inference on GKE with Model Armor URL Source: https://cloud.google.com/blog/products/identity-security/securing-ai-inference-on-gke-with-model-armor/ Published Time: 2026-04-10 Mark...",
+      "body": "Title: Securing AI inference on GKE with Model Armor URL Source: https://cloud.google.com/blog/products/identity-security/securing-ai-inference-on-gke-with-model-armor/ Published Time: 2026-04-10 Markdown Content: Enterprises are rapidly moving AI workloads from experimentation to production on Google Kubernetes Engine (GKE), using its scalability to serve powerful inference endpoints. However, as these models handle increasingly sensitive data, they introduce unique AI-driven attack vectors — from prompt injection to sensitive data leakage — that traditional firewalls aren't designed to catch",
+      "url": "https://cloud.google.com/blog/products/identity-security/securing-ai-inference-on-gke-with-model-armor/",
+      "source": "AI & Machine Learning",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-10T02:30:00+09:00",
+      "readTime": 8,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_002",
+      "title": "에스티 로더의 Cloud Run 워커 풀 활용 AI 추론 사례",
+      "excerpt": "AI & Machine Learning의 새로운 발표입니다. Title: Cloud Run worker pools at Estee Lauder Companies URL Source: https://cloud.google.com/blog/products/serverless/cloud-run-worker-pools-at-estee-lauder-companies/ Published Time: 2026-04-09 Markd...",
+      "body": "Title: Cloud Run worker pools at Estee Lauder Companies URL Source: https://cloud.google.com/blog/products/serverless/cloud-run-worker-pools-at-estee-lauder-companies/ Published Time: 2026-04-09 Markdown Content: Cloud Run has long provided developers with a straightforward, opinionated platform for running code. You can easily deploy request-driven web applications using Cloud Run services, or execute run-to-completion batch processing with Cloud Run jobs. However, as developers build more complex applications, like pipelines that process continuous streams of data or distributed AI workloads",
+      "url": "https://cloud.google.com/blog/products/serverless/cloud-run-worker-pools-at-estee-lauder-companies/",
+      "source": "AI & Machine Learning",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-10T01:00:00+09:00",
+      "readTime": 8,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_003",
+      "title": "Gemini 앱, 인터랙티브 3D 시뮬레이션 생성 기능 출시",
+      "excerpt": "Gemini의 새로운 발표입니다. Title: The Gemini app can now generate interactive simulations and models. URL Source: https://blog.google/innovation-and-ai/products/gemini-app/3d-models-charts/ Published Time: 2026-04-09T16:00:00+0...",
+      "body": "Title: The Gemini app can now generate interactive simulations and models. URL Source: https://blog.google/innovation-and-ai/products/gemini-app/3d-models-charts/ Published Time: 2026-04-09T16:00:00+00:00 Markdown Content: # Generate 3D models and interactive charts with the Gemini app [Skip to main content](https://blog.google/innovation-and-ai/products/gemini-app/3d-models-charts/#jump-content) [The Keyword](https://blog.google/) The Gemini app can now generate interactive simulations and models. [Share](https://blog.google/innovation-and-ai/products/gemini-app/3d-models-charts/) [x.com](htt",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/3d-models-charts/",
+      "source": "Gemini",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-10T01:00:00+09:00",
+      "readTime": 8,
+      "imageGradient": 2
+    },
+    {
+      "id": "rss_008",
+      "title": "JetBrains IntelliJ IDEA: Spring Data JPA 활용 가이드",
+      "excerpt": "IntelliJ IDEA : IntelliJ IDEA – the IDE for Professional Development in Java and Kotlin | The JetBrains Blog의 새로운 발표입니다. This post was written together with&#160;Thorben Janssen, who has more than 20 years of experience with JPA and Hibernate and is the author of “Hibernate Tips: More than 70 Solutions to Common Hiberna...",
+      "body": "This post was written together with&#160;Thorben Janssen, who has more than 20 years of experience with JPA and Hibernate and is the author of “Hibernate Tips: More than 70 Solutions to Common Hibernate Problems” and the JPA newsletter. Spring Data JDBC provides a simple and predictable persistence model. It focuses on aggregate roots, constructor-based mapping, [&#8230;]",
+      "url": "https://blog.jetbrains.com/idea/2026/04/using-spring-data-jdbc-with-kotlin/",
+      "source": "IntelliJ IDEA : IntelliJ IDEA – the IDE for Professional Development in Java and Kotlin | The JetBrains Blog",
+      "category": "dev_tools",
+      "publishedAt": "2026-04-09T20:46:14+09:00",
+      "readTime": 3,
+      "imageGradient": 2
+    },
+    {
+      "id": "rss_011",
+      "title": "Fitbit’s personal health coach is expanding to reach 37 countries and 32 languag",
+      "excerpt": "The Official Google Blog의 새로운 발표입니다. The Fitbit personal health coach Public Preview is now in more regions and adds VO2 Max to help people track cardio performance....",
+      "body": "The Fitbit personal health coach Public Preview is now in more regions and adds VO2 Max to help people track cardio performance.",
+      "url": "https://blog.google/products-and-platforms/devices/fitbit/fitbit-personal-health-coach-expansion/",
+      "source": "The Official Google Blog",
+      "category": "big_tech",
+      "publishedAt": "2026-04-10T02:30:00+09:00",
+      "readTime": 3,
+      "imageGradient": 4
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_001",
+        "title": "게이트웨이 가드레일: GKE에서 AI 추론 보안 강화하기",
+        "excerpt": "AI & Machine Learning의 새로운 발표입니다. Title: Securing AI inference on GKE with Model Armor URL Source: https://cloud.google.com/blog/products/identity-security/securing-ai-inference-on-gke-with-model-armor/ Published Time: 2026-04-10 Mark...",
+        "body": "Title: Securing AI inference on GKE with Model Armor URL Source: https://cloud.google.com/blog/products/identity-security/securing-ai-inference-on-gke-with-model-armor/ Published Time: 2026-04-10 Markdown Content: Enterprises are rapidly moving AI workloads from experimentation to production on Google Kubernetes Engine (GKE), using its scalability to serve powerful inference endpoints. However, as these models handle increasingly sensitive data, they introduce unique AI-driven attack vectors — from prompt injection to sensitive data leakage — that traditional firewalls aren't designed to catch",
+        "url": "https://cloud.google.com/blog/products/identity-security/securing-ai-inference-on-gke-with-model-armor/",
+        "source": "AI & Machine Learning",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-10T02:30:00+09:00",
+        "readTime": 8,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_002",
+        "title": "에스티 로더의 Cloud Run 워커 풀 활용 AI 추론 사례",
+        "excerpt": "AI & Machine Learning의 새로운 발표입니다. Title: Cloud Run worker pools at Estee Lauder Companies URL Source: https://cloud.google.com/blog/products/serverless/cloud-run-worker-pools-at-estee-lauder-companies/ Published Time: 2026-04-09 Markd...",
+        "body": "Title: Cloud Run worker pools at Estee Lauder Companies URL Source: https://cloud.google.com/blog/products/serverless/cloud-run-worker-pools-at-estee-lauder-companies/ Published Time: 2026-04-09 Markdown Content: Cloud Run has long provided developers with a straightforward, opinionated platform for running code. You can easily deploy request-driven web applications using Cloud Run services, or execute run-to-completion batch processing with Cloud Run jobs. However, as developers build more complex applications, like pipelines that process continuous streams of data or distributed AI workloads",
+        "url": "https://cloud.google.com/blog/products/serverless/cloud-run-worker-pools-at-estee-lauder-companies/",
+        "source": "AI & Machine Learning",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-10T01:00:00+09:00",
+        "readTime": 8,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_003",
+        "title": "Gemini 앱, 인터랙티브 3D 시뮬레이션 생성 기능 출시",
+        "excerpt": "Gemini의 새로운 발표입니다. Title: The Gemini app can now generate interactive simulations and models. URL Source: https://blog.google/innovation-and-ai/products/gemini-app/3d-models-charts/ Published Time: 2026-04-09T16:00:00+0...",
+        "body": "Title: The Gemini app can now generate interactive simulations and models. URL Source: https://blog.google/innovation-and-ai/products/gemini-app/3d-models-charts/ Published Time: 2026-04-09T16:00:00+00:00 Markdown Content: # Generate 3D models and interactive charts with the Gemini app [Skip to main content](https://blog.google/innovation-and-ai/products/gemini-app/3d-models-charts/#jump-content) [The Keyword](https://blog.google/) The Gemini app can now generate interactive simulations and models. [Share](https://blog.google/innovation-and-ai/products/gemini-app/3d-models-charts/) [x.com](htt",
+        "url": "https://blog.google/innovation-and-ai/products/gemini-app/3d-models-charts/",
+        "source": "Gemini",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-10T01:00:00+09:00",
+        "readTime": 8,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_004",
+        "title": "OpenAI 팬 모드 콘테스트 공지",
+        "excerpt": "OpenAI News의 새로운 발표입니다. Title: OpenAI Full Fan Mode Contest: Terms & Conditions URL Source: https://openai.com/index/full-fan-mode-contest-terms-conditions Markdown Content: # OpenAI Full Fan Mode Contest: Terms & Conditions...",
+        "body": "Title: OpenAI Full Fan Mode Contest: Terms & Conditions URL Source: https://openai.com/index/full-fan-mode-contest-terms-conditions Markdown Content: # OpenAI Full Fan Mode Contest: Terms & Conditions | OpenAI [Skip to main content](https://openai.com/index/full-fan-mode-contest-terms-conditions#main) [](https://openai.com/) * [Research](https://openai.com/research/index/) * Products * [Business](https://openai.com/business/) * [Developers](https://openai.com/api/) * [Company](https://openai.com/about/) * [Foundation(opens in a new window)](https://openaifoundation.org/) Log in[Try ChatGPT(ope",
+        "url": "https://openai.com/index/full-fan-mode-contest-terms-conditions",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-09T09:00:00+09:00",
+        "readTime": 8,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_005",
+        "title": "Waypoint-1.5: 더 정교한 인터랙티브 세계 생성 모델 공개",
+        "excerpt": "Hugging Face - Blog에서 새로운 소식을 발표했습니다.",
+        "body": "Hugging Face - Blog가 Waypoint-1.5: Higher-Fidelity Interactive Worlds for Everyday GPUs에 대한 새로운 내용을 공개했습니다.",
+        "url": "https://huggingface.co/blog/waypoint-1-5",
+        "source": "Hugging Face - Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-09T09:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_006",
+        "title": "Sentence Transformers로 멀티모달 임베딩·리랭커 모델 구현",
+        "excerpt": "Hugging Face - Blog에서 새로운 소식을 발표했습니다.",
+        "body": "Hugging Face - Blog가 Multimodal Embedding & Reranker Models with Sentence Transformers에 대한 새로운 내용을 공개했습니다.",
+        "url": "https://huggingface.co/blog/multimodal-sentence-transformers",
+        "source": "Hugging Face - Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-09T09:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_007",
+        "title": "Interrupt 2026 프리뷰: 엔터프라이즈 규모의 에이전트",
+        "excerpt": "LangChain Blog의 새로운 발표입니다. This year, we're doing it again. Interrupt 2026 is May 13–14 at The Midway in San Francisco, and the lineup, the format, and the scale have all leveled up....",
+        "body": "This year, we're doing it again. Interrupt 2026 is May 13–14 at The Midway in San Francisco, and the lineup, the format, and the scale have all leveled up.",
+        "url": "https://blog.langchain.com/previewing-interrupt-2026-agents-at-enterprise-scale/",
+        "source": "LangChain Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-10T02:00:06+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_008",
+        "title": "JetBrains IntelliJ IDEA: Spring Data JPA 활용 가이드",
+        "excerpt": "IntelliJ IDEA : IntelliJ IDEA – the IDE for Professional Development in Java and Kotlin | The JetBrains Blog의 새로운 발표입니다. This post was written together with&#160;Thorben Janssen, who has more than 20 years of experience with JPA and Hibernate and is the author of “Hibernate Tips: More than 70 Solutions to Common Hiberna...",
+        "body": "This post was written together with&#160;Thorben Janssen, who has more than 20 years of experience with JPA and Hibernate and is the author of “Hibernate Tips: More than 70 Solutions to Common Hibernate Problems” and the JPA newsletter. Spring Data JDBC provides a simple and predictable persistence model. It focuses on aggregate roots, constructor-based mapping, [&#8230;]",
+        "url": "https://blog.jetbrains.com/idea/2026/04/using-spring-data-jdbc-with-kotlin/",
+        "source": "IntelliJ IDEA : IntelliJ IDEA – the IDE for Professional Development in Java and Kotlin | The JetBrains Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-09T20:46:14+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_009",
+        "title": "VS Code 1.116 릴리스 — AI 편집 워크플로우 대폭 개선",
+        "excerpt": "Visual Studio Code - Code Editing. Redefined.의 새로운 발표입니다. Learn what's new in Visual Studio Code 1.116 (Insiders) Read the full article...",
+        "body": "Learn what's new in Visual Studio Code 1.116 (Insiders) Read the full article",
+        "url": "https://code.visualstudio.com/updates/v1_116",
+        "source": "Visual Studio Code - Code Editing. Redefined.",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-16T02:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_010",
+        "title": "GitHub 가용성 리포트: 2026년 3월 서비스 현황",
+        "excerpt": "GitHub Blog의 새로운 발표입니다. In March, we experienced four incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: March 2026 appeared first on The GitHub Blog....",
+        "body": "In March, we experienced four incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: March 2026 appeared first on The GitHub Blog.",
+        "url": "https://github.blog/news-insights/company-news/github-availability-report-march-2026/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-09T11:21:17+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_011",
+        "title": "The Official Google Blog 신규 발표: The Official Google Blog: Fitbit’s personal health coach is ",
+        "excerpt": "The Official Google Blog의 새로운 발표입니다. The Fitbit personal health coach Public Preview is now in more regions and adds VO2 Max to help people track cardio performance....",
+        "body": "The Fitbit personal health coach Public Preview is now in more regions and adds VO2 Max to help people track cardio performance.",
+        "url": "https://blog.google/products-and-platforms/devices/fitbit/fitbit-personal-health-coach-expansion/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-04-10T02:30:00+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_012",
+        "title": "400개 이상의 캠퍼스가 Google AI를 업무에 활용하는 방법",
+        "excerpt": "The Official Google Blog의 새로운 발표입니다. A man looks at a computer smiling...",
+        "body": "A man looks at a computer smiling",
+        "url": "https://blog.google/products-and-platforms/products/education/google-ai-accelerator/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-04-10T01:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_013",
+        "title": "Gemini 앱 신기능: 인터랙티브 시뮬레이션 생성 공개",
+        "excerpt": "The Official Google Blog의 새로운 발표입니다. Text reading 'Visualize how fractals work' written into an AI prompt box...",
+        "body": "Text reading 'Visualize how fractals work' written into an AI prompt box",
+        "url": "https://blog.google/innovation-and-ai/products/gemini-app/3d-models-charts/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-04-10T01:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_014",
+        "title": "Chrome 안드로이드 개발자 버전 업데이트 출시",
+        "excerpt": "Google Chrome Releases의 새로운 발표입니다. Hi everyone! We've just released Chrome Dev 149 (149.0.7779.2) for Android. It's now available on Google Play.You can see a partial list of the changes in the Git log. For details on new features, che...",
+        "body": "Hi everyone! We've just released Chrome Dev 149 (149.0.7779.2) for Android. It's now available on Google Play.You can see a partial list of the changes in the Git log. For details on new features, check out the Chromium blog, and for details on web platform updates, check here.If you find a new issue, please let us know by filing a bug.Chrome Release TeamGoogle Chrome",
+        "url": "http://chromereleases.googleblog.com/2026/04/chrome-dev-for-android-update_0130689879.html",
+        "source": "Google Chrome Releases",
+        "category": "big_tech",
+        "publishedAt": "2026-04-10T03:28:32+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Andrej Karpathy",
+        "handle": "karpathy",
+        "content": "타임라인을 보면 AI 역량에 대한 이해 격차가 커지고 있습니다. 가장 큰 문제는 시기와 사용 등급입니다. 많은 사람들이 작년에 ChatGPT 무료 버전을 써보고 그것을 바탕으로 AI에 대한 인식을 형성했는데, 이는 현재 AI 능력을 심각하게 과소평가하게 만듭니다.",
+        "context": "Andrej Karpathy는 Tesla의 전 AI 책임자이자 OpenAI 공동 창업자로, AI 분야의 깊은 통찰로 주목받는 연구자입니다.",
+        "url": "https://x.com/karpathy/status/2042334451611693415",
+        "publishedAt": "2026-04-10T05:10:52+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Andrej Karpathy",
+        "handle": "karpathy",
+        "content": "'OpenClaw 모멘트'가 그토록 큰 반향을 일으킨 이유는, 비기술 일반인들이 처음으로 최신 에이전틱 AI 모델을 직접 경험했기 때문이라는 분석이 있습니다. 이는 AI 대중화의 중요한 전환점입니다.",
+        "context": "Andrej Karpathy는 Tesla의 전 AI 책임자이자 OpenAI 공동 창업자로, AI 분야의 깊은 통찰로 주목받는 연구자입니다.",
+        "url": "https://x.com/karpathy/status/2042341482531864741",
+        "publishedAt": "2026-04-10T05:38:48+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "Codex에 대한 뜨거운 반응이 정말 기쁩니다. 큰 요청에 답해 월 $100의 새로운 ChatGPT Pro 티어를 출시합니다.",
+        "context": "Sam Altman은 OpenAI CEO로, AI 산업의 핵심 의사결정자입니다.",
+        "url": "https://x.com/sama/status/2042342572958630332",
+        "publishedAt": "2026-04-10T05:43:08+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "Codex 주간 사용자 300만 명 돌파를 기념해 사용 한도를 초기화합니다. 100만 명씩 증가할 때마다 1,000만 명까지 계속 리셋할 예정입니다. 즐겁게 만들어 보세요!",
+        "context": "Sam Altman은 OpenAI CEO로, AI 산업의 핵심 의사결정자입니다.",
+        "url": "https://x.com/sama/status/2041658719839383945",
+        "publishedAt": "2026-04-08T08:25:45+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "기존 $200 Pro 티어는 여전히 최고 사용량 옵션으로 유지됩니다. 기존 Pro 사용자를 위해 2배 Codex 사용 프로모션을 5월 31일까지 연장하고, Codex 사용 한도도 재초기화했습니다.",
+        "context": "OpenAI는 ChatGPT, Codex 등을 운영하는 세계 선도적 AI 기업입니다.",
+        "url": "https://x.com/OpenAI/status/2042296046009626989",
+        "publishedAt": "2026-04-10T02:38:16+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "ChatGPT Pro·Plus 구독 플랜을 업데이트합니다. 새로운 월 $100 Pro 티어를 도입하며, 이 티어는 Plus 대비 5배의 Codex 사용량을 제공해 장시간 고집중 Codex 세션에 최적화되어 있습니다.",
+        "context": "OpenAI는 ChatGPT, Codex 등을 운영하는 세계 선도적 AI 기업입니다.",
+        "url": "https://x.com/OpenAI/status/2042295688323875316",
+        "publishedAt": "2026-04-10T02:36:50+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "엔지니어링 블로그 신규 포스트: Managed Agents 구축 — 장기 실행 에이전트를 위한 호스팅 서비스 개발은 '아직 만들어지지 않은 프로그램을 위한 시스템 설계'라는 컴퓨팅의 오랜 난제를 풀어야 했습니다.",
+        "context": "Anthropic은 Claude AI를 개발·운영하는 AI 안전 연구 중심 기업입니다.",
+        "url": "https://x.com/AnthropicAI/status/2041929199976640948",
+        "publishedAt": "2026-04-09T02:20:33+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Claude 플랫폼에 어드바이저 전략을 도입합니다. Opus를 어드바이저로, Sonnet 또는 Haiku를 실행자로 페어링하면, 훨씬 저렴한 비용으로 Opus에 준하는 에이전트 지능을 구현할 수 있습니다.",
+        "context": "Claude 공식 계정으로, Anthropic의 Claude AI 제품 최신 소식을 전합니다.",
+        "url": "https://x.com/claudeai/status/2042308622181339453",
+        "publishedAt": "2026-04-10T03:28:14+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_009",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "개발자들이 Codex로 더 많은 것을 할 수 있도록 전력을 다해 지원합니다.",
+        "context": "OpenAI 개발자 공식 계정으로, API·도구 업데이트 소식을 전합니다.",
+        "url": "https://x.com/OpenAIDevs/status/2042299379613384790",
+        "publishedAt": "2026-04-10T02:51:30+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_010",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "Codex는 작업 컨텍스트를 한데 모아 더 명확한 우선순위로 더 나은 결정을 내릴 수 있게 돕습니다.",
+        "context": "OpenAI 개발자 공식 계정으로, API·도구 업데이트 소식을 전합니다.",
+        "url": "https://x.com/OpenAIDevs/status/2041983360780939416",
+        "publishedAt": "2026-04-09T05:55:46+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_011",
+        "author": "Alex Albert",
+        "handle": "alexalbert__",
+        "content": "Sonnet이 Opus에게 '전화해 도움을 구하는' 전략은 성능을 높이면서도 총 비용을 줄여줍니다. 복잡한 태스크에서 토큰 낭비를 줄이기 때문입니다.",
+        "context": "Alex Albert는 Anthropic의 Claude 제품 팀에서 일하며, Claude API와 기능 개발을 이끌고 있습니다.",
+        "url": "https://x.com/alexalbert__/status/2042329150086922574",
+        "publishedAt": "2026-04-10T04:49:48+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_012",
+        "author": "Alex Albert",
+        "handle": "alexalbert__",
+        "content": "Managed Agents는 주말 에이전트 프로젝트를 빠르게 구성하는 가장 빠른 방법이자, 수백만 사용자에게 배포하는 가장 견고한 방법이기도 합니다. 자체 호스팅의 복잡성을 제거하면서도 높은 유연성을 유지합니다.",
+        "context": "Alex Albert는 Anthropic의 Claude 제품 팀에서 일하며, Claude API와 기능 개발을 이끌고 있습니다.",
+        "url": "https://x.com/alexalbert__/status/2041941720611614786",
+        "publishedAt": "2026-04-09T03:10:18+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_013",
+        "author": "Kevin Weil",
+        "handle": "kevinweil",
+        "content": "AI가 에르도스 문제 5개를 동시에 풀었습니다! 모델이 발전할수록 증명이 점점 더 우아해지고 있습니다.",
+        "context": "Kevin Weil은 OpenAI의 CPO로, 제품 전략을 총괄합니다.",
+        "url": "https://x.com/kevinweil/status/2042073869880848481",
+        "publishedAt": "2026-04-09T11:55:25+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_014",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "명시적으로 프롬프트해야 하지만, Claude Code의 Monitor Tool은 매우 강력합니다. 예: '개발 서버를 시작하고 MonitorTool로 오류를 감시해 주세요'",
+        "context": "Thariq는 Anthropic의 Claude Code 팀 리드로, AI 개발 도구 혁신을 이끌고 있습니다.",
+        "url": "https://x.com/trq212/status/2042335178388103559",
+        "publishedAt": "2026-04-10T05:13:45+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_015",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "'프롬프팅'은 글쓰기나 대중 연설처럼 매우 높은 레버리지를 갖는 기술로 계속 남을 것입니다. 이것은 에이전트와 대화하는 기술입니다. 제 목표는 인간과 에이전트 사이의 대역폭을 넓혀 서로를 더 잘 이해하게 만드는 것입니다.",
+        "context": "Thariq는 Anthropic의 Claude Code 팀 리드로, AI 개발 도구 혁신을 이끌고 있습니다.",
+        "url": "https://x.com/trq212/status/2042318547519762678",
+        "publishedAt": "2026-04-10T04:07:40+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_016",
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "content": "Claude Cowork, 정식 출시! 모든 유료 플랜 사용자에게 제공됩니다.",
+        "context": "Boris Cherny는 Anthropic의 Claude Cowork 제품 팀장으로, 데스크톱 AI 워크플로우를 개발합니다.",
+        "url": "https://x.com/bcherny/status/2042344772153848043",
+        "publishedAt": "2026-04-10T05:51:53+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_017",
+        "author": "Felix Rieseberg",
+        "handle": "felixrieseberg",
+        "content": "12주 전 연구 프리뷰로 출시한 Claude Cowork를 수백만 명이 업무에 활용하고 있으며, 매주 수십만 명이 새로 시도하고 있습니다. 사람들의 생산성을 높이는 잠재력이 정말 기대됩니다.",
+        "context": "Felix Rieseberg는 Anthropic의 Claude Cowork 개발 책임자로, AI 기반 업무 자동화를 이끌고 있습니다.",
+        "url": "https://x.com/felixrieseberg/status/2042272870940987422",
+        "publishedAt": "2026-04-10T01:06:10+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "앤트로픽이 데스크톱 환경에서 다단계 업무를 돕는 'Claude Cowork' 기능을 모든 유료 사용자에게 정식 출시했습니다. 역할 기반 권한 제어와 지출 한도 설정은 물론, 'OpenTelemetry' 지원이 새롭게 추가되었습니다.",
+        "context": "CHOI(@choi.openai)는 한국의 OpenAI·AI 관련 소식을 한국어로 전달하는 영향력 있는 Threads 계정입니다. 국내 AI 커뮤니티에서 높은 신뢰를 받고 있습니다.",
+        "url": "https://www.threads.net/@choi.openai/post/DW7I7vxD0vg",
+        "publishedAt": "2026-04-10T05:19:31+09:00",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "Meta 연구진이 평면(2D)으로 인식된 객체를 실제 3D 공간 좌표로 변환해주는 'Boxer' 모델을 오픈소스로 발표했습니다. 일전에 공개된 SAM 3 같은 비전 모델들이 2D로 물체를 찾아내면, 해당 모델이 초고속으로 물체의 3D 위치와 부피를 계산해 냅니다. RTX 4090 기준, 화면 속 30개의 객체를 동시에 3D로 변환하는 데 고작 20ms밖에 걸리지 않아 실시간 처리가 가능합니다.",
+        "context": "CHOI(@choi.openai)는 한국의 OpenAI·AI 관련 소식을 한국어로 전달하는 영향력 있는 Threads 계정입니다. 국내 AI 커뮤니티에서 높은 신뢰를 받고 있습니다.",
+        "url": "https://www.threads.net/@choi.openai/post/DW6d0c7jzpw",
+        "publishedAt": "2026-04-09T23:02:08+09:00",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_003",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "OpenAI가 Codex 주간 사용자 300만 명 돌파를 기념해 사용 한도를 초기화했습니다. 100만 명씩 증가할 때마다 1,000만 명까지 지속적으로 한도를 리셋할 예정입니다.",
+        "context": "CHOI(@choi.openai)는 한국의 OpenAI·AI 관련 소식을 한국어로 전달하는 영향력 있는 Threads 계정입니다. 국내 AI 커뮤니티에서 높은 신뢰를 받고 있습니다.",
+        "url": "https://www.threads.net/@choi.openai/post/DW6Yto7j9q9",
+        "publishedAt": "2026-04-09T22:18:17+09:00",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_004",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "구글 DeepMind가 AI 에이전트 협력 프레임워크 'Agent2Agent(A2A)' 프로토콜을 오픈소스로 공개했습니다. 서로 다른 회사의 AI 에이전트들이 표준화된 방식으로 대화하고 작업을 주고받을 수 있는 기반을 마련한 것입니다.",
+        "context": "CHOI(@choi.openai)는 한국의 OpenAI·AI 관련 소식을 한국어로 전달하는 영향력 있는 Threads 계정입니다. 국내 AI 커뮤니티에서 높은 신뢰를 받고 있습니다.",
+        "url": "https://www.threads.net/@choi.openai/post/DW6RRCCjRwX",
+        "publishedAt": "2026-04-09T21:12:57+09:00",
+        "platform": "threads"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "PCA 전처리로 비-마트료시카 임베딩도 압축 가능하게 만들기",
+        "originalTitle": "[P] PCA before truncation makes non-Matryoshka embeddings compressible: results on BGE-M3 [P]",
+        "summary": "r/MachineLearning 커뮤니티에서 화제가 되고 있는 게시물입니다. [P] PCA before truncation makes non-Matryoshka embeddings compressible: results on BGE-M3 [P]",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1sgt7ol/p_pca_before_truncation_makes_nonmatryoshka/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-04-10T00:40:29+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "Sutton & Barto의 강화학습 교재와 LLM 강화학습의 연결점",
+        "originalTitle": "Studying Sutton and Barto's RL book and its connections to RL for LLMs (e.g., tool use, math reasoning, agents, and so on)? [D]",
+        "summary": "r/MachineLearning 커뮤니티에서 화제가 되고 있는 게시물입니다. Studying Sutton and Barto's RL book and its connections to RL for LLMs (e.g., tool use, math reasoni",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1sgknct/studying_sutton_and_bartos_rl_book_and_its/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-04-09T18:21:23+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "Chris Fregly의 'AI 시스템 성능 엔지니어링' — 읽을 가치가 있나?",
+        "originalTitle": "AI Systems Performance Engineering by Chris Fregly - is it worth it? [D]",
+        "summary": "r/MachineLearning 커뮤니티에서 화제가 되고 있는 게시물입니다. AI Systems Performance Engineering by Chris Fregly - is it worth it? [D]",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1sgodjl/ai_systems_performance_engineering_by_chris/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-04-09T21:35:30+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "로컬 소형 LLM이 Mythos와 동일한 취약점을 발견했다",
+        "originalTitle": "Local (small) LLMs found the same vulnerabilities as Mythos",
+        "summary": "r/LocalLLaMA 커뮤니티에서 화제가 되고 있는 게시물입니다. Local (small) LLMs found the same vulnerabilities as Mythos",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sgrfp1/local_small_llms_found_the_same_vulnerabilities/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-04-09T23:36:58+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "Claude Opus는 0.5T × 10 = 약 5조 파라미터인가?",
+        "originalTitle": "Opus = 0.5T × 10 = ~5T parameters ?",
+        "summary": "r/LocalLLaMA 커뮤니티에서 화제가 되고 있는 게시물입니다. Opus = 0.5T × 10 = ~5T parameters ?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sh0dmo/opus_05t_10_5t_parameters/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-04-10T04:54:04+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "[LocalLLaMA] Gemma 4 on Llama.cpp should be stable now",
+        "originalTitle": "Gemma 4 on Llama.cpp should be stable now",
+        "summary": "r/LocalLLaMA 커뮤니티에서 화제가 되고 있는 게시물입니다. Gemma 4 on Llama.cpp should be stable now",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sgl3qz/gemma_4_on_llamacpp_should_be_stable_now/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-04-09T18:48:52+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "[artificial] White-collar workers are quietly rebelling against AI as 80% outright refuse adoption mandates",
+        "originalTitle": "White-collar workers are quietly rebelling against AI as 80% outright refuse adoption mandates",
+        "summary": "r/artificial 커뮤니티에서 화제가 되고 있는 게시물입니다. White-collar workers are quietly rebelling against AI as 80% outright refuse adoption mandates",
+        "url": "https://www.reddit.com/r/artificial/comments/1sgphq9/whitecollar_workers_are_quietly_rebelling_against/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-04-09T22:22:35+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "[artificial] US firm's humanoid robot tracks emotions with AI, recalls past conversations",
+        "originalTitle": "US firm's humanoid robot tracks emotions with AI, recalls past conversations",
+        "summary": "r/artificial 커뮤니티에서 화제가 되고 있는 게시물입니다. US firm's humanoid robot tracks emotions with AI, recalls past conversations",
+        "url": "https://www.reddit.com/r/artificial/comments/1sgs8ef/us_firms_humanoid_robot_tracks_emotions_with_ai/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-04-10T00:05:38+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "[artificial] Ohio man becomes first to be convicted under new AI statute for sexually explicit images",
+        "originalTitle": "Ohio man becomes first to be convicted under new AI statute for sexually explicit images",
+        "summary": "r/artificial 커뮤니티에서 화제가 되고 있는 게시물입니다. Ohio man becomes first to be convicted under new AI statute for sexually explicit images",
+        "url": "https://www.reddit.com/r/artificial/comments/1sh1gp5/ohio_man_becomes_first_to_be_convicted_under_new/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-04-10T05:33:18+09:00"
+      },
+      {
+        "id": "reddit_010",
+        "title": "[OpenAI] OpenAI launch $100 ChatGPT plan",
+        "originalTitle": "OpenAI launch $100 ChatGPT plan",
+        "summary": "r/OpenAI 커뮤니티에서 화제가 되고 있는 게시물입니다. OpenAI launch $100 ChatGPT plan",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1sgwqas/openai_launch_100_chatgpt_plan/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-04-10T02:45:13+09:00"
+      },
+      {
+        "id": "reddit_011",
+        "title": "[OpenAI] A private company now has powerful zero-day exploits of almost every software project you've heard of.",
+        "originalTitle": "A private company now has powerful zero-day exploits of almost every software project you've heard of.",
+        "summary": "r/OpenAI 커뮤니티에서 화제가 되고 있는 게시물입니다. A private company now has powerful zero-day exploits of almost every software project you've heard o",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1sgojy9/a_private_company_now_has_powerful_zeroday/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-04-09T21:43:26+09:00"
+      },
+      {
+        "id": "reddit_012",
+        "title": "[OpenAI] OpenAI 'pauses' its Stargate UK data center plan",
+        "originalTitle": "OpenAI 'pauses' its Stargate UK data center plan",
+        "summary": "r/OpenAI 커뮤니티에서 화제가 되고 있는 게시물입니다. OpenAI 'pauses' its Stargate UK data center plan",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1sgpv38/openai_pauses_its_stargate_uk_data_center_plan/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-04-09T22:37:17+09:00"
+      },
+      {
+        "id": "reddit_013",
+        "title": "[ClaudeAI] BREAKING: Anthropic’s new “Mythos” model reportedly found the One Piece before the Straw Hats",
+        "originalTitle": "BREAKING: Anthropic’s new “Mythos” model reportedly found the One Piece before the Straw Hats",
+        "summary": "r/ClaudeAI 커뮤니티에서 화제가 되고 있는 게시물입니다. BREAKING: Anthropic’s new “Mythos” model reportedly found the One Piece before the Straw Hats",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1sgs0b4/breaking_anthropics_new_mythos_model_reportedly/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-04-09T23:57:43+09:00"
+      },
+      {
+        "id": "reddit_014",
+        "title": "[ClaudeAI] We're bringing the advisor strategy to the Claude Platform.",
+        "originalTitle": "We're bringing the advisor strategy to the Claude Platform.",
+        "summary": "r/ClaudeAI 커뮤니티에서 화제가 되고 있는 게시물입니다. We're bringing the advisor strategy to the Claude Platform.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1sgy11x/were_bringing_the_advisor_strategy_to_the_claude/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-04-10T03:30:43+09:00"
+      },
+      {
+        "id": "reddit_015",
+        "title": "[ClaudeAI] Anthropic employees have had Mythos since Feb 24",
+        "originalTitle": "Anthropic employees have had Mythos since Feb 24",
+        "summary": "r/ClaudeAI 커뮤니티에서 화제가 되고 있는 게시물입니다. Anthropic employees have had Mythos since Feb 24",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1sgt2el/anthropic_employees_have_had_mythos_since_feb_24/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-04-10T00:35:14+09:00"
+      },
+      {
+        "id": "reddit_016",
+        "title": "[programming] How NASA Built Artemis II’s Fault-Tolerant Computer",
+        "originalTitle": "How NASA Built Artemis II’s Fault-Tolerant Computer",
+        "summary": "r/programming 커뮤니티에서 화제가 되고 있는 게시물입니다. How NASA Built Artemis II’s Fault-Tolerant Computer",
+        "url": "https://www.reddit.com/r/programming/comments/1sgnbec/how_nasa_built_artemis_iis_faulttolerant_computer/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-04-09T20:47:18+09:00"
+      },
+      {
+        "id": "reddit_017",
+        "title": "[programming] Tailslayer: a hedged reads solution for DRAM refresh latency",
+        "originalTitle": "Tailslayer: a hedged reads solution for DRAM refresh latency",
+        "summary": "r/programming 커뮤니티에서 화제가 되고 있는 게시물입니다. Tailslayer: a hedged reads solution for DRAM refresh latency",
+        "url": "https://www.reddit.com/r/programming/comments/1sgtkdf/tailslayer_a_hedged_reads_solution_for_dram/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-04-10T00:53:09+09:00"
+      },
+      {
+        "id": "reddit_018",
+        "title": "[programming] The AWS Lambda 'Kiss of Death'",
+        "originalTitle": "The AWS Lambda 'Kiss of Death'",
+        "summary": "r/programming 커뮤니티에서 화제가 되고 있는 게시물입니다. The AWS Lambda 'Kiss of Death'",
+        "url": "https://www.reddit.com/r/programming/comments/1sgzwez/the_aws_lambda_kiss_of_death/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-04-10T04:37:09+09:00"
+      },
+      {
+        "id": "reddit_019",
+        "title": "[singularity] AI generated cow, 2014",
+        "originalTitle": "AI generated cow, 2014",
+        "summary": "r/singularity 커뮤니티에서 화제가 되고 있는 게시물입니다. AI generated cow, 2014",
+        "url": "https://www.reddit.com/r/singularity/comments/1sgve5m/ai_generated_cow_2014/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-04-10T01:58:21+09:00"
+      },
+      {
+        "id": "reddit_020",
+        "title": "[singularity] Claude is now adopting the advisor strategy",
+        "originalTitle": "Claude is now adopting the advisor strategy",
+        "summary": "r/singularity 커뮤니티에서 화제가 되고 있는 게시물입니다. Claude is now adopting the advisor strategy",
+        "url": "https://www.reddit.com/r/singularity/comments/1sgy3v6/claude_is_now_adopting_the_advisor_strategy/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-04-10T03:33:26+09:00"
+      },
+      {
+        "id": "reddit_021",
+        "title": "[singularity] What my job feels like now",
+        "originalTitle": "What my job feels like now",
+        "summary": "r/singularity 커뮤니티에서 화제가 되고 있는 게시물입니다. What my job feels like now",
+        "url": "https://www.reddit.com/r/singularity/comments/1sgu7s6/what_my_job_feels_like_now/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-04-10T01:16:25+09:00"
+      },
+      {
+        "id": "reddit_022",
+        "title": "[ExperiencedDevs] I'm giving up; Becoming a yes man.",
+        "originalTitle": "I'm giving up; Becoming a yes man.",
+        "summary": "r/ExperiencedDevs 커뮤니티에서 화제가 되고 있는 게시물입니다. I'm giving up; Becoming a yes man.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1sgcy1e/im_giving_up_becoming_a_yes_man/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-04-09T11:22:05+09:00"
+      },
+      {
+        "id": "reddit_023",
+        "title": "[ExperiencedDevs] Why is communication so overlooked by Senior Devs?",
+        "originalTitle": "Why is communication so overlooked by Senior Devs?",
+        "summary": "r/ExperiencedDevs 커뮤니티에서 화제가 되고 있는 게시물입니다. Why is communication so overlooked by Senior Devs?",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1sgvmxb/why_is_communication_so_overlooked_by_senior_devs/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-04-10T02:06:50+09:00"
+      },
+      {
+        "id": "reddit_024",
+        "title": "[ExperiencedDevs] How do you handle so many meetings and not enough time to do actual work?",
+        "originalTitle": "How do you handle so many meetings and not enough time to do actual work?",
+        "summary": "r/ExperiencedDevs 커뮤니티에서 화제가 되고 있는 게시물입니다. How do you handle so many meetings and not enough time to do actual work?",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1sgvqwc/how_do_you_handle_so_many_meetings_and_not_enough/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-04-10T02:10:46+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_015",
+        "title": "OpenAI, 새 언어 모델 GPT-2를 위험성 이유로 전체 공개 보류",
+        "excerpt": "GPT-2는 8백만 개 웹페이지로 학습된 대규모 텍스트 생성 인공지능으로, 주어진 문장을 자연스럽게 이어 쓰는 능력을 보임 OpenAI는 이 모델이 가짜 뉴스나 온라인 사칭 등에 악용될 위험이 있다며 전체 모델 대신 축소 버전만 공개",
+        "body": "GPT-2는 8백만 개 웹페이지로 학습된 대규모 텍스트 생성 인공지능으로, 주어진 문장을 자연스럽게 이어 쓰는 능력을 보임 OpenAI는 이 모델이 가짜 뉴스나 온라인 사칭 등에 악용될 위험이 있다며 전체 모델 대신 축소 버전만 공개",
+        "url": "https://news.hada.io/topic?id=28361",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-10T04:32:51+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_016",
+        "title": "Anthropic의 청구 오류와 한 달 넘게 답변이 없는 지원 문제",
+        "excerpt": "3월 초 Anthropic 계정에서 약 180달러의 비정상 청구가 발생했으며, 사용자는 당시 Claude Max 구독자였음 사용 기록상 실제 활동이 거의 없었음에도 ‘Extra Usage’ 청구서 16건이 연속 발행되어 금액이 누적됨 동일한 잘못된...",
+        "body": "3월 초 Anthropic 계정에서 약 180달러의 비정상 청구가 발생했으며, 사용자는 당시 Claude Max 구독자였음 사용 기록상 실제 활동이 거의 없었음에도 ‘Extra Usage’ 청구서 16건이 연속 발행되어 금액이 누적됨 동일한 잘못된...",
+        "url": "https://news.hada.io/topic?id=28360",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-10T03:36:52+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_017",
+        "title": "간단한 레이더 예시로 이해하는 칼만 필터",
+        "excerpt": "칼만 필터는 잡음이 많은 환경에서 시스템의 상태를 추정하고 미래를 예측하는 최적 상태 추정 알고리듬 항공기 추적 레이더를 예시로, 거리와 속도 측정값을 이용해 예측과 업데이트 단계를 반복하며 정확도를 높이는 과정을 설명 각...",
+        "body": "칼만 필터는 잡음이 많은 환경에서 시스템의 상태를 추정하고 미래를 예측하는 최적 상태 추정 알고리듬 항공기 추적 레이더를 예시로, 거리와 속도 측정값을 이용해 예측과 업데이트 단계를 반복하며 정확도를 높이는 과정을 설명 각...",
+        "url": "https://news.hada.io/topic?id=28359",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-10T03:33:52+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_018",
+        "title": "Hormuz 해협은 열렸나요?",
+        "excerpt": "Hormuz 해협의 개방 상태를 실시간으로 표시하는 웹사이트로, 현재는 “NO”로 표시됨 지도는 Leaflet, OpenStreetMap, CARTO 데이터를 기반으로 구성되어 시각적 정보를 제공 Polymarket 예측 시장",
+        "body": "Hormuz 해협의 개방 상태를 실시간으로 표시하는 웹사이트로, 현재는 “NO”로 표시됨 지도는 Leaflet, OpenStreetMap, CARTO 데이터를 기반으로 구성되어 시각적 정보를 제공 Polymarket 예측 시장",
+        "url": "https://news.hada.io/topic?id=28357",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-10T01:32:24+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_019",
+        "title": "소프트웨어 개발자를 위한 USB: 사용자 공간 USB 드라이버 작성 입문",
+        "excerpt": "USB 드라이버 개발은 커널 수준의 작업으로 여겨지지만, 실제로는 소켓 프로그래밍과 유사한 난이도로 사용자 공간에서도 구현 가능함 libusb를 사용하면 커널 코드를 작성하지 않고도 장치 열거, 제어 전송, 데이터 송수신을 모두 수행할 수 있음 USB 통...",
+        "body": "USB 드라이버 개발은 커널 수준의 작업으로 여겨지지만, 실제로는 소켓 프로그래밍과 유사한 난이도로 사용자 공간에서도 구현 가능함 libusb를 사용하면 커널 코드를 작성하지 않고도 장치 열거, 제어 전송, 데이터 송수신을 모두 수행할 수 있음 USB 통...",
+        "url": "https://news.hada.io/topic?id=28356",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-10T01:04:06+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_020",
+        "title": "Show GN: Spring AI Playground - MCP 툴 작성부터 테스트, 외부 연동까지 지원하는 데스크톱 앱",
+        "excerpt": "안녕하세요. 최근 Claude Code나 Cursor 같은 AI 에이전트의 도움을 받아 MCP(Model Context Protocol) 툴 코드를 작성하고 활용하는 사례가 많아졌습니다. 하지만 막상 작성된 툴 코드를 실제 환경에서 돌려보고 검증하려고 하면 답답한 순간이 많았습니다. 이 툴이 정말 제대로 동작하는가?</l",
+        "body": "안녕하세요. 최근 Claude Code나 Cursor 같은 AI 에이전트의 도움을 받아 MCP(Model Context Protocol) 툴 코드를 작성하고 활용하는 사례가 많아졌습니다. 하지만 막상 작성된 툴 코드를 실제 환경에서 돌려보고 검증하려고 하면 답답한 순간이 많았습니다. 이 툴이 정말 제대로 동작하는가?</l",
+        "url": "https://news.hada.io/topic?id=28355",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-09T23:25:51+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      }
+    ]
+  }
+}
