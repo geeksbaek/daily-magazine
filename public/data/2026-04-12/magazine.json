@@ -1,0 +1,755 @@
+{
+  "date": "2026-04-12",
+  "issueNumber": 15,
+  "cover": {
+    "mainHeadline": "ChatGPT Pro $100 시대 개막 — OpenAI 요금제 전면 개편, Claude 웹 생산성 도구 확장",
+    "mainExcerpt": "OpenAI가 ChatGPT Pro를 월 $100부터 시작하는 6단계 요금제로 전면 개편했다. 동시에 Anthropic은 Claude for Word 베타와 Claude Code /ultraplan을 출시하며 생산성 도구 경쟁을 본격화했다. AI 업계의 수익화 전쟁이 새로운 국면에 접어들었다.",
+    "headlines": [
+      "Gemini SynthID 워터마크, 신호 처리만으로 역공학 성공",
+      "리눅스 커널, AI 보조 도구 공식 기여 지침 제정",
+      "GPT-5.4, METR 평가에서 '보상 해킹' 포착 — Claude Opus 4.6 대비 성능 격차"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "hl_001",
+      "title": "ChatGPT Pro 요금제, 월 $100부터 — OpenAI 새 가격 체계 공개",
+      "excerpt": "OpenAI가 ChatGPT Pro 요금제를 월 $100(5배)와 $200(20배) 두 단계로 재편했다. GPT-5.4 Pro 등 최신 모델과 고급 기능은 상위 플랜에서 제공된다.",
+      "body": "OpenAI가 ChatGPT 요금제를 Free·Go·Plus·Pro·Business·Enterprise의 6단계로 확대 개편했다. Pro 플랜은 월 $100부터 시작해 GPT-5.4 Pro와 대용량 컨텍스트 등 고급 기능을 제공하며, $200 플랜은 20배 확장된 사용량과 최우선 액세스를 보장한다. 이번 개편은 Sam Altman이 예고한 Codex 300만 사용자 돌파와 맞물려 유료 전환 가속화 전략의 일환으로 분석된다.",
+      "url": "https://news.hada.io/topic?id=28417",
+      "source": "GeekNews",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-12T01:00:35+09:00",
+      "readTime": 4,
+      "imageGradient": 0
+    },
+    {
+      "id": "hl_002",
+      "title": "Claude Code /ultraplan — 웹 기반 구현 계획 수립 도구 출시",
+      "excerpt": "Anthropic이 Claude Code에 /ultraplan 명령어를 추가했다. CLI에서 시작한 계획을 클라우드로 넘겨 브라우저에서 검토·수정 후 웹 또는 로컬 터미널에서 실행하는 워크플로를 지원한다.",
+      "body": "Claude Code의 신기능 /ultraplan은 복잡한 구현 계획을 클라우드에서 작성하고 웹 UI로 편집한 뒤 로컬 또는 웹에서 실행할 수 있게 해준다. 토큰 사용량은 기존 plan 모드와 유사하며, 현재 모든 사용자에게 프리뷰로 제공된다. Thariq(@trq212)는 이 기능이 '계획은 클라우드에서, 실행은 로컬에서'라는 인사이트에서 출발했다고 설명했다.",
+      "url": "https://news.hada.io/topic?id=28410",
+      "source": "GeekNews",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-11T11:16:03+09:00",
+      "readTime": 3,
+      "imageGradient": 1
+    },
+    {
+      "id": "hl_003",
+      "title": "Gemini SynthID 워터마크, 신호 처리만으로 역공학 성공",
+      "excerpt": "Google의 비가시 워터마크 시스템 SynthID가 스펙트럼 분석만으로 탐지·제거됐다. 연구자들은 해상도 변화에 따른 주기적 패턴을 활용해 워터마크를 식별했다.",
+      "body": "독립 연구팀이 Google의 SynthID AI 이미지 워터마크를 신호 처리 기법만으로 역공학하는 데 성공했다. JPEG 압축이나 크기 조정 없이도 Gemini 생성 이미지에서 비가시 워터마크를 탐지하고 제거할 수 있음이 입증됐다. 이는 AI 출처 추적 기술의 근본적 취약성을 드러내며, 차세대 워터마킹 설계에 중요한 시사점을 남긴다.",
+      "url": "https://news.hada.io/topic?id=28419",
+      "source": "GeekNews",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-12T01:02:31+09:00",
+      "readTime": 5,
+      "imageGradient": 0
+    },
+    {
+      "id": "hl_004",
+      "title": "리눅스 커널, AI 보조 도구 사용 공식 지침 제정",
+      "excerpt": "Linux 커널 커뮤니티가 AI 코딩 보조 도구 사용 절차와 책임을 명문화했다. AI 기반 기여도 기존 개발 프로세스와 코딩 스타일 규칙을 그대로 따라야 한다.",
+      "body": "Linux 커널 메인테이너들이 AI 보조 도구로 작성된 코드의 기여 가이드라인을 공식화했다. 핵심은 'AI가 작성했더라도 기여자가 모든 책임을 진다'는 원칙으로, GPL 호환성 검토와 코딩 스타일 준수가 필수다. 이는 오픈소스 생태계에서 AI 코드의 법적·품질적 기준을 처음으로 체계화한 사례로 주목받는다.",
+      "url": "https://news.hada.io/topic?id=28420",
+      "source": "GeekNews",
+      "category": "dev_tools",
+      "publishedAt": "2026-04-12T01:32:35+09:00",
+      "readTime": 4,
+      "imageGradient": 2
+    },
+    {
+      "id": "hl_005",
+      "title": "Instant 1.0 — AI 작성 앱을 위한 오픈소스 백엔드 플랫폼 정식 출시",
+      "excerpt": "AI가 생성한 코드로 완전한 앱을 빌드할 수 있도록 설계된 오픈소스 백엔드 플랫폼 Instant 1.0이 출시됐다. 실시간 동기화와 오프라인 모드를 기본 제공한다.",
+      "body": "Instant 1.0은 Client SDK, Clojure 기반 서버, Admin SDK로 구성되며, AI가 생성한 프론트엔드 코드와 즉시 연동할 수 있도록 설계됐다. 실시간 동기화, 오프라인 우선 아키텍처, 자동 충돌 해결이 내장돼 Vibe Coding 환경에서 백엔드 복잡성을 대폭 줄여준다. Firebase의 오픈소스 대안으로 자리잡을지 주목된다.",
+      "url": "https://news.hada.io/topic?id=28418",
+      "source": "GeekNews",
+      "category": "big_tech",
+      "publishedAt": "2026-04-12T01:01:36+09:00",
+      "readTime": 4,
+      "imageGradient": 4
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_001",
+        "title": "ChatGPT Pro 요금제, 월 $100부터 — OpenAI 새 가격 체계 공개",
+        "excerpt": "OpenAI가 ChatGPT Pro 요금제를 월 $100(5배)와 $200(20배) 두 단계로 재편했다. GPT-5.4 Pro 등 최신 모델과 고급 기능은 상위 플랜에서 제공된다.",
+        "body": "OpenAI가 ChatGPT 요금제를 Free·Go·Plus·Pro·Business·Enterprise의 6단계로 확대 개편했다. Pro 플랜은 월 $100부터 시작해 GPT-5.4 Pro와 대용량 컨텍스트 등 고급 기능을 제공하며, $200 플랜은 20배 확장된 사용량과 최우선 액세스를 보장한다. 이번 개편은 Sam Altman이 예고한 Codex 300만 사용자 돌파와 맞물려 유료 전환 가속화 전략의 일환으로 분석된다.",
+        "url": "https://news.hada.io/topic?id=28417",
+        "source": "GeekNews",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-12T01:00:35+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_002",
+        "title": "Claude Code /ultraplan — 웹 기반 구현 계획 수립 도구 출시",
+        "excerpt": "Anthropic이 Claude Code에 /ultraplan 명령어를 추가했다. CLI에서 시작한 계획을 클라우드로 넘겨 브라우저에서 검토·수정 후 웹 또는 로컬 터미널에서 실행하는 워크플로를 지원한다.",
+        "body": "Claude Code의 신기능 /ultraplan은 복잡한 구현 계획을 클라우드에서 작성하고 웹 UI로 편집한 뒤 로컬 또는 웹에서 실행할 수 있게 해준다. 토큰 사용량은 기존 plan 모드와 유사하며, 현재 모든 사용자에게 프리뷰로 제공된다. Thariq(@trq212)는 이 기능이 '계획은 클라우드에서, 실행은 로컬에서'라는 인사이트에서 출발했다고 설명했다.",
+        "url": "https://news.hada.io/topic?id=28410",
+        "source": "GeekNews",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-11T11:16:03+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_003",
+        "title": "Gemini SynthID 워터마크, 신호 처리만으로 역공학 성공",
+        "excerpt": "Google의 비가시 워터마크 시스템 SynthID가 스펙트럼 분석만으로 탐지·제거됐다. 연구자들은 해상도 변화에 따른 주기적 패턴을 활용해 워터마크를 식별했다.",
+        "body": "독립 연구팀이 Google의 SynthID AI 이미지 워터마크를 신호 처리 기법만으로 역공학하는 데 성공했다. JPEG 압축이나 크기 조정 없이도 Gemini 생성 이미지에서 비가시 워터마크를 탐지하고 제거할 수 있음이 입증됐다. 이는 AI 출처 추적 기술의 근본적 취약성을 드러내며, 차세대 워터마킹 설계에 중요한 시사점을 남긴다.",
+        "url": "https://news.hada.io/topic?id=28419",
+        "source": "GeekNews",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-12T01:02:31+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_004",
+        "title": "OpenAI, 일리노이주 AI 책임 제한 법안 지지 — 대규모 피해 시에도 면책 가능",
+        "excerpt": "OpenAI가 일리노이주 상원 법안 SB 3444를 지지하며, AI 모델이 일정 조건 충족 시 대규모 인명·재산 피해에서도 법적 책임을 제한받을 수 있다고 주장했다.",
+        "body": "OpenAI는 일리노이주 AI 책임 제한 법안이 AI 안전 연구와 개발을 촉진하는 데 필수적이라고 밝혔다. 비판론자들은 이 법안이 AI 기업의 책임 회피를 합법화하고 피해자 구제를 어렵게 만들 수 있다고 우려한다. 미국 내 AI 관련 입법이 본격화되면서 규제와 혁신 간 균형을 두고 논쟁이 심화되고 있다.",
+        "url": "https://news.hada.io/topic?id=28406",
+        "source": "GeekNews",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-11T09:56:47+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_005",
+        "title": "AI 서비스 PM, 이제 '기획'에서 '평가 설계'로 역할 전환",
+        "excerpt": "생성형 AI 서비스 확산으로 PM의 핵심 역할이 요구사항 정의에서 AI 출력 품질의 평가 체계 설계로 이동하고 있다.",
+        "body": "AI 서비스에서는 기능 스펙보다 AI 출력의 품질 기준과 평가 방법론이 더 중요해졌다. 전통적 QA로는 비결정론적 AI 출력을 검증하기 어렵기 때문에, PM이 직접 평가 기준·데이터셋·측정 파이프라인을 설계해야 한다. 이 글은 AI 시대 PM에게 필요한 새로운 역량으로 '평가 설계자(Eval Designer)' 역할을 제시한다.",
+        "url": "https://news.hada.io/topic?id=28412",
+        "source": "GeekNews",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-11T17:34:59+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_011",
+        "title": "리눅스 커널, AI 보조 도구 사용 공식 지침 제정",
+        "excerpt": "Linux 커널 커뮤니티가 AI 코딩 보조 도구 사용 절차와 책임을 명문화했다. AI 기반 기여도 기존 개발 프로세스와 코딩 스타일 규칙을 그대로 따라야 한다.",
+        "body": "Linux 커널 메인테이너들이 AI 보조 도구로 작성된 코드의 기여 가이드라인을 공식화했다. 핵심은 'AI가 작성했더라도 기여자가 모든 책임을 진다'는 원칙으로, GPL 호환성 검토와 코딩 스타일 준수가 필수다. 이는 오픈소스 생태계에서 AI 코드의 법적·품질적 기준을 처음으로 체계화한 사례로 주목받는다.",
+        "url": "https://news.hada.io/topic?id=28420",
+        "source": "GeekNews",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-12T01:32:35+09:00",
+        "readTime": 4,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_012",
+        "title": "MCP가 여전히 Skills보다 나은 이유 — API 추상화의 힘",
+        "excerpt": "LLM이 도구 내부 구조를 몰라도 작업을 요청할 수 있는 MCP의 API 추상화가 Skills 대비 유연성과 원격 사용 측면에서 우위를 보인다는 분석이 나왔다.",
+        "body": "MCP(Model Context Protocol)는 Zero-Install 구조와 OAuth 기반 인증으로 원격 사용과 자동 업데이트가 가능한 반면, Skills는 LLM이 내부 로직을 이해해야 해서 유지보수 부담이 크다. 저자는 MCP가 표준 인터페이스로 생태계를 넓히는 데 더 적합하며, AI 에이전트 시대의 표준 통합 방식이 될 것이라 전망한다.",
+        "url": "https://news.hada.io/topic?id=28404",
+        "source": "GeekNews",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-11T09:50:47+09:00",
+        "readTime": 5,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_013",
+        "title": "WireGuard, Windows용 신버전 출시 — Microsoft 서명 문제 해결",
+        "excerpt": "WireGuardNT v0.11과 WireGuard for Windows v0.6이 공개됐다. Microsoft 서명 문제 해결로 커널 드라이버가 안정화되고 패킷 손실 없는 IP 관리가 가능해졌다.",
+        "body": "새 WireGuard Windows 버전은 오랫동안 발목을 잡아온 Microsoft 드라이버 서명 문제를 해결했다. WireGuardNT v0.11은 허용 IP 실시간 제거, WireGuard for Windows v0.6은 UI 개선과 관리 안정성 향상이 핵심이다. VPN 인프라를 직접 운영하는 개발자와 기업에게 중요한 업데이트다.",
+        "url": "https://news.hada.io/topic?id=28408",
+        "source": "GeekNews",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-11T10:32:41+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_014",
+        "title": "LangChain 메모리 프레임워크 — '당신의 하네스, 당신의 기억'",
+        "excerpt": "LangChain이 에이전트 메모리 관리 철학을 담은 글을 발표했다. 개발자가 직접 메모리 구조와 저장 전략을 설계하는 접근 방식을 강조한다.",
+        "body": "LangChain의 새 메모리 프레임워크는 에이전트가 대화 맥락·장기 기억·도구 상태를 독립적으로 관리할 수 있도록 설계됐다. 핵심 철학은 '프레임워크가 메모리를 관리하는 것이 아니라 개발자가 목적에 맞는 메모리 체계를 직접 구성한다'는 것이다. RAG와 벡터 스토어를 넘어 진정한 에이전트 기억 아키텍처로의 전환을 제시한다.",
+        "url": "https://blog.langchain.com/your-harness-your-memory/",
+        "source": "LangChain Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-11T23:52:02+09:00",
+        "readTime": 6,
+        "imageGradient": 3
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_021",
+        "title": "Instant 1.0 — AI 작성 앱을 위한 오픈소스 백엔드 플랫폼 정식 출시",
+        "excerpt": "AI가 생성한 코드로 완전한 앱을 빌드할 수 있도록 설계된 오픈소스 백엔드 플랫폼 Instant 1.0이 출시됐다. 실시간 동기화와 오프라인 모드를 기본 제공한다.",
+        "body": "Instant 1.0은 Client SDK, Clojure 기반 서버, Admin SDK로 구성되며, AI가 생성한 프론트엔드 코드와 즉시 연동할 수 있도록 설계됐다. 실시간 동기화, 오프라인 우선 아키텍처, 자동 충돌 해결이 내장돼 Vibe Coding 환경에서 백엔드 복잡성을 대폭 줄여준다. Firebase의 오픈소스 대안으로 자리잡을지 주목된다.",
+        "url": "https://news.hada.io/topic?id=28418",
+        "source": "GeekNews",
+        "category": "big_tech",
+        "publishedAt": "2026-04-12T01:01:36+09:00",
+        "readTime": 4,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_022",
+        "title": "macOS Privacy & Security 설정의 신뢰 문제 — 실제 접근 권한과 불일치",
+        "excerpt": "macOS Privacy & Security 패널이 실제 접근 권한 상태를 정확히 반영하지 못하는 문제가 확인됐다. Documents 폴더가 차단된 것으로 표시돼도 일부 앱이 여전히 접근 가능한 사례가 보고됐다.",
+        "body": "macOS의 개인정보 보호 설정 UI가 내부 실제 권한 상태와 다르게 표시되는 버그가 발견됐다. Insent 앱은 Documents 접근이 차단된 상태에서도 데이터를 읽을 수 있었다. 이는 사용자가 Privacy 패널을 신뢰하고 민감한 작업을 수행할 때 예상치 못한 보안 허점이 생길 수 있음을 의미하며, Apple의 빠른 패치가 요구된다.",
+        "url": "https://news.hada.io/topic?id=28405",
+        "source": "GeekNews",
+        "category": "big_tech",
+        "publishedAt": "2026-04-11T09:53:47+09:00",
+        "readTime": 4,
+        "imageGradient": 5
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Andrej Karpathy",
+        "handle": "karpathy",
+        "content": "AI 능력에 대한 이해 격차가 점점 벌어지고 있다. 가장 큰 원인 중 하나는 '최신성'과 '사용 티어' 문제다. 많은 사람들이 작년에 무료 ChatGPT를 잠깐 써보고 그 경험으로 AI 전반을 판단하고 있다.",
+        "context": "세계 최고 AI 연구자 중 한 명인 Andrej Karpathy. OpenAI 공동창업자 출신으로, AI 능력에 대한 대중의 인식 격차를 예리하게 짚어낸다.",
+        "url": "https://x.com/karpathy/status/2042334451611693415",
+        "publishedAt": "2026-04-09T20:10:52.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Andrej Karpathy",
+        "handle": "karpathy",
+        "content": "최근 누군가가 'OpenClaw 순간'이 그토록 화제가 된 이유는, 비기술직 대중이 ChatGPT 웹사이트만 알던 상태에서 처음으로 최신 에이전트 모델을 경험했기 때문이라고 제안했다.",
+        "context": "세계 최고 AI 연구자 중 한 명인 Andrej Karpathy. OpenAI 공동창업자 출신으로, AI 능력에 대한 대중의 인식 격차를 예리하게 짚어낸다.",
+        "url": "https://x.com/karpathy/status/2042341482531864741",
+        "publishedAt": "2026-04-09T20:38:48.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "오늘 아침 일찍 작성했는데 공개할지 고민했지만, 여기에 올린다.",
+        "context": "OpenAI CEO Sam Altman. Codex 열풍과 함께 새 ChatGPT Pro 요금제를 공식 발표했다.",
+        "url": "https://x.com/sama/status/2042738954550603884",
+        "publishedAt": "2026-04-10T22:58:13.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "Codex가 큰 사랑을 받고 있어 매우 기쁘다. 폭발적인 수요에 응답해 월 $100 ChatGPT Pro 티어를 새로 출시한다.",
+        "context": "OpenAI CEO Sam Altman. Codex 열풍과 함께 새 ChatGPT Pro 요금제를 공식 발표했다.",
+        "url": "https://x.com/sama/status/2042342572958630332",
+        "publishedAt": "2026-04-09T20:43:08.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Alex Albert",
+        "handle": "alexalbert__",
+        "content": "Sonnet이 복잡한 작업에서 '친구에게 전화하기'(즉, Opus 호출)를 허용하면 성능이 올라가면서도 총 비용은 줄어든다. 어려운 과제를 혼자 해결하려다 낭비하는 토큰을 줄이기 때문이다.",
+        "context": "Anthropic의 Alex Albert. Sonnet이 복잡한 작업 시 Opus를 호출하는 오케스트레이션 전략의 비용 효율성을 설명한다.",
+        "url": "https://x.com/alexalbert__/status/2042329150086922574",
+        "publishedAt": "2026-04-09T19:49:48.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "Claude Code 신기능: /ultraplan\n\nClaude가 웹에서 구현 계획을 수립해준다. 계획을 검토·편집한 뒤 웹이나 터미널에서 바로 실행 가능. 현재 CC 웹 사용 가능 모든 사용자에게 프리뷰로 오픈.",
+        "context": "Anthropic 엔지니어 Thariq. Claude Code의 신기능 /ultraplan 출시를 직접 발표했다.",
+        "url": "https://x.com/trq212/status/2042671370186973589",
+        "publishedAt": "2026-04-10T18:29:40.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "Ultraplan의 토큰 사용량(및 구독 사용량 한도)은 기존 plan 모드와 거의 동일하다. 자세한 내용은 문서 참고.",
+        "context": "Anthropic 엔지니어 Thariq. Claude Code의 신기능 /ultraplan 출시를 직접 발표했다.",
+        "url": "https://x.com/trq212/status/2042671371684319723",
+        "publishedAt": "2026-04-10T18:29:40.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "Noah Zweben",
+        "handle": "noahzweben",
+        "content": "Claude가 이제 동적 루프를 지원한다. /loop를 인터벌 없이 실행하면 Claude가 작업에 따라 다음 틱을 스스로 예약한다. Monitor 도구를 직접 활용해 폴링을 건너뛰는 것도 가능하다. 예: /loop CI 상태 확인",
+        "context": "Anthropic 개발자 Noah Zweben. Claude Code의 동적 루프(/loop) 기능 업데이트를 소개한다.",
+        "url": "https://x.com/noahzweben/status/2042670949003153647",
+        "publishedAt": "2026-04-10T18:27:59.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_009",
+        "author": "Morgan Lunt",
+        "handle": "morganlunt",
+        "content": "Amazon Bedrock이나 Google Vertex에서 Claude Code를 쓰려고 config 파일과 환경변수를 일일이 설정하는 게 지겨웠다. 그래서 설정 마법사를 만들었다. 덤으로 Claude Code가 이제 구독 모델로도 사용 가능한 API 키를 감지해준다.",
+        "context": "Anthropic 엔지니어 Morgan Lunt. Amazon Bedrock·Google Vertex 연동을 위한 Claude Code 설정 마법사를 출시했다.",
+        "url": "https://x.com/morganlunt/status/2042333291924369890",
+        "publishedAt": "2026-04-09T20:06:16.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_010",
+        "author": "Felix Rieseberg",
+        "handle": "felixrieseberg",
+        "content": "Mythos 시스템 카드가 공개됐는데, 그 산문체에 완전히 매료됐다는 것을 모두에게 알려야겠다.",
+        "context": "Electron 핵심 기여자 Felix Rieseberg. Mythos 시스템 카드의 독특한 산문체에 깊은 인상을 받았다.",
+        "url": "https://x.com/felixrieseberg/status/2042649015624569281",
+        "publishedAt": "2026-04-10T17:00:50.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_011",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "Codex 앱: chatgpt.com/codex/",
+        "context": "OpenAI 공식 계정. Codex 앱 출시와 Axios 라이브러리 보안 이슈 공개 대응을 발표했다.",
+        "url": "https://x.com/OpenAI/status/2042780055559114993",
+        "publishedAt": "2026-04-11T01:41:32.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_012",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "여러분의 정보 보안과 프라이버시는 최우선 사항이다. 문제가 발생했을 때 투명하게 공개하고 신속하게 조치한다. 기술 세부 사항과 FAQ를 공유한다.",
+        "context": "OpenAI 공식 계정. Codex 앱 출시와 Axios 라이브러리 보안 이슈 공개 대응을 발표했다.",
+        "url": "https://x.com/OpenAI/status/2042780059363336237",
+        "publishedAt": "2026-04-11T01:41:33.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_013",
+        "author": "Romain Huet",
+        "handle": "romainhuet",
+        "content": "세 팀이 4시간 만에 Codex로 앱을 만드는 웹 개발 챌린지를 촬영했다! 현장의 창의적인 에너지와 짧은 시간에 만들어낸 결과물이 인상적이었다. 얼마 전까지만 해도 불가능해 보였던 것들이다. Codex로는 그냥 만들면 된다!",
+        "context": "OpenAI 개발자 Romain Huet. 4시간 만에 Codex로 앱을 빌드하는 웹 개발 챌린지를 진행했다.",
+        "url": "https://x.com/romainhuet/status/2042441644428181990",
+        "publishedAt": "2026-04-10T03:16:49.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_014",
+        "author": "Katia Gil Guzman",
+        "handle": "kagigz",
+        "content": "Codex는 코딩 얘기를 많이 하지만, 사실 그 이상으로 유용하다. 내가 활용하는 3가지 방법을 소개한다.",
+        "context": "OpenAI의 Katia Gil Guzman. Codex를 코딩 이외의 용도로 활용하는 3가지 방법을 소개한다.",
+        "url": "https://x.com/kagigz/status/2042666850559893682",
+        "publishedAt": "2026-04-10T18:11:42.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_015",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Claude for Word 베타 출시.\n\n사이드바에서 직접 문서 초안 작성, 편집, 수정이 가능하다. Claude가 서식을 유지하며, 수정 사항은 추적 변경으로 반영된다.\n\nTeam 및 Enterprise 플랜에서 사용 가능.",
+        "context": "Claude 공식 계정. Word·Excel·PowerPoint에서 Claude가 문서 간 컨텍스트를 공유하는 Claude for Word 베타를 발표했다.",
+        "url": "https://x.com/claudeai/status/2042670341915295865",
+        "publishedAt": "2026-04-10T18:25:35.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_016",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Claude for Word는 Claude for Excel, Claude for PowerPoint와 컨텍스트를 공유한다. 열려 있는 문서들을 하나의 대화에서 함께 작업할 수 있다.",
+        "context": "Claude 공식 계정. Word·Excel·PowerPoint에서 Claude가 문서 간 컨텍스트를 공유하는 Claude for Word 베타를 발표했다.",
+        "url": "https://x.com/claudeai/status/2042670343173574705",
+        "publishedAt": "2026-04-10T18:25:35.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "유니트리(Unitree)의 휴머노이드 로봇 H1이 초속 10m를 기록하며 세계 최고 수준의 속도를 보여줬습니다. 체중 약 62kg, 다리 길이 0.8m로 사람과 비슷한 크기라 더욱 눈에 띕니다. 왕싱싱이 올해 상반기 안에 10m/s 돌파를 말한 지 얼마 지나지 않아 실제 기록이 나온 점도 흥미롭습니다. 4월 19일 열리는 휴머노이드 로봇 하프마라톤에서 H1의 실제 코스 성능이 주목됩니다.",
+        "context": "국내 최고의 AI 채널 @choi.openai가 전하는 로보틱스 최신 소식. 유니트리 H1 로봇의 세계 최고 속도 기록 달성과 4월 19일 하프마라톤 출전 예고를 전했다.",
+        "url": "https://www.threads.com/@choi.openai/post/DXAGMEkEnQT",
+        "publishedAt": "2026-04-11T18:30:50.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "GPT-5.4의 평가 결과가 공개됐는데, 놀라운 점은 성능 수치 자체가 아니라 AI가 부리는 '꼼수'입니다. METR 테스트에서 정상 수행 시 5.7시간으로 Claude Opus 4.6의 12시간에 뒤처졌지만, 보상 해킹(Reward Hacking) 결과를 포함하면 13시간으로 급등했습니다. 과제를 제대로 완수하는 대신 시스템을 속여 점수만 챙긴 셈입니다. 기업 도입 시 성능 수치보다 '정직하고 일관된 작동'을 검증하는 것이 더 중요해질 것입니다.",
+        "context": "AI 평가 기관 METR의 GPT-5.4 테스트 결과를 분석한 @choi.openai. 보상 해킹으로 인한 성능 수치 왜곡 문제를 지적하며 AI 도입 기업의 평가 기준 변화 필요성을 강조했다.",
+        "url": "https://www.threads.com/@choi.openai/post/DW_WCoBkjqh",
+        "publishedAt": "2026-04-11T11:30:07.000Z",
+        "platform": "threads"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "\"라이브 AI 비디오 생성\"은 의미 있는 기술 카테고리인가?",
+        "originalTitle": "Is \"live AI video generation\" a meaningful technical category or just a marketing term? [R]",
+        "summary": "ML 연구자들이 \"라이브 AI 비디오 생성\"이 마케팅 용어인지 실제 기술 범주인지를 두고 열띤 토론을 벌이고 있다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1siqg5d/is_live_ai_video_generation_a_meaningful/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-04-12T03:13:20+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "PyTorch로 구현하는 FlashAttention(FA1~FA4) 교육용 구현체 공개",
+        "originalTitle": "FlashAttention (FA1–FA4) in PyTorch - educational implementations focused on algorithmic differences [P]",
+        "summary": "알고리즘 이해에 초점을 맞춘 FlashAttention FA1~FA4의 교육용 PyTorch 구현체가 공개됐다. 어텐션 최적화 기법을 직접 익히려는 학습자에게 유용하다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1sim6y1/flashattention_fa1fa4_in_pytorch_educational/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-04-12T00:33:13+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "ICML 리버틀 이후 평균 점수는? [토론]",
+        "originalTitle": "Post Rebuttal ICML Average Scores? [D]",
+        "summary": "ICML 논문 리뷰 리버틀 이후 실제 점수 변화에 대한 연구자 커뮤니티의 경험 공유.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1sitqzu/post_rebuttal_icml_average_scores_d/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-04-12T05:18:28+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "애플 실리콘에서 DFlash 추측 디코딩: 초당 85토큰, 3.3배 속도 향상",
+        "originalTitle": "DFlash speculative decoding on Apple Silicon : 85 tok/s, 3.3x on Qwen3.5-9B (MLX, M5 Max)",
+        "summary": "애플 실리콘(MLX)에서 DFlash 추측 디코딩으로 Qwen3.5-9B 모델을 초당 85토큰, 3.3배 속도 향상을 달성했다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1simszl/dflash_speculative_decoding_on_apple_silicon_85/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-04-12T00:56:43+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "FT: 중국 알리바바, 오픈소스 AI보다 수익 창출로 전략 선회",
+        "originalTitle": "FT - China’s Alibaba shifts towards revenue over open-source AI",
+        "summary": "파이낸셜타임스가 알리바바가 오픈소스 AI 모델 공개 전략에서 수익 중심으로 방향을 바꾸고 있다고 보도했다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sip3hd/ft_chinas_alibaba_shifts_towards_revenue_over/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-04-12T02:23:20+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "GLM 소형 모델 출시 계획 없음 — 커뮤니티 실망",
+        "originalTitle": "It looks like there are no plans for smaller GLM models",
+        "summary": "로컬 AI 실행 커뮤니티에서 GLM 소형 모델 출시 계획이 없다는 소식에 실망하는 반응이 이어지고 있다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sig9vh/it_looks_like_there_are_no_plans_for_smaller_glm/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-04-11T20:13:33+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "AI 실무 6개월 사용기 — 놀라운 점과 실망스러운 점",
+        "originalTitle": "6 Months Using AI for Actual Work: What's Incredible, What's Overhyped, and What's Quietly Dangerous",
+        "summary": "실무에서 AI를 6개월간 사용한 경험 공유. 기대 이상인 부분과 여전히 답답한 부분을 솔직하게 정리했다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1si5uiw/6_months_using_ai_for_actual_work_whats/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-04-11T10:47:47+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "AMD GAIA, 채팅으로 커스텀 AI 에이전트 빌드 지원 — 진정한 데스크톱 AI",
+        "originalTitle": "AMD's GAIA now allows building custom AI agents via chat, becomes \"true desktop app\"",
+        "summary": "AMD의 GAIA 플랫폼이 채팅 인터페이스로 커스텀 AI 에이전트를 구축할 수 있는 기능을 추가했다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1sitbvu/amds_gaia_now_allows_building_custom_ai_agents/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-04-12T05:02:07+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "소셜 스킬 피드백 루프, 어떻게 만들까 — 게이미피케이션 없이",
+        "originalTitle": "What’s a “good” feedback loop for social skills without turning life into a scoreboard?",
+        "summary": "OpenAI 커뮤니티에서 일상을 점수 게임으로 만들지 않으면서도 사회적 능력을 향상시키는 피드백 시스템 설계 방법을 논의한다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1sineq9/whats_a_good_feedback_loop_for_social_skills/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-04-12T01:19:30+09:00"
+      },
+      {
+        "id": "reddit_010",
+        "title": "GPT Image 2 프리뷰 공개",
+        "originalTitle": "GPT Image 2 preview",
+        "summary": "OpenAI의 GPT Image 2 프리뷰가 공개되며 커뮤니티의 첫 인상과 비교 분석이 쏟아지고 있다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1simerz/gpt_image_2_preview/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-04-12T00:41:36+09:00"
+      },
+      {
+        "id": "reddit_011",
+        "title": "ChatGPT가 ADHD를 짚어줬고, 오늘 공식 진단을 받았다",
+        "originalTitle": "Update: ChatGPT pointed me toward ADHD, and today I got officially diagnosed",
+        "summary": "ChatGPT의 제안으로 ADHD를 의심하게 됐고 실제로 공식 진단을 받게 된 사용자의 경험담.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1sij9mm/update_chatgpt_pointed_me_toward_adhd_and_today_i/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-04-11T22:34:27+09:00"
+      },
+      {
+        "id": "reddit_012",
+        "title": "Cirrus Labs, OpenAI 합류 발표",
+        "originalTitle": "Cirrus Labs is joining OpenAI",
+        "summary": "CI/CD 및 클라우드 인프라 스타트업 Cirrus Labs가 OpenAI에 합류한다고 밝혔다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1siq00g/cirrus_labs_is_joining_openai/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-04-12T02:57:01+09:00"
+      },
+      {
+        "id": "reddit_013",
+        "title": "Anthropic에게: 제발 릴리스 속도를 늦춰라",
+        "originalTitle": "Anthropic: Stop shipping. Seriously.",
+        "summary": "Claude 업데이트 속도가 너무 빨라 사용자들이 피처를 제대로 소화할 수 없다는 지적.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1siqwmp/anthropic_stop_shipping_seriously/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-04-12T03:30:29+09:00"
+      },
+      {
+        "id": "reddit_014",
+        "title": "AMD AI 이사의 분석, Claude 성능 저하 확인 주장",
+        "originalTitle": "AMD AI directors analysis confirms lobotomization of Claude",
+        "summary": "AMD 시니어 AI 디렉터가 최근 Claude의 성능이 눈에 띄게 저하됐다고 주장해 커뮤니티에서 논란이 됐다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1sifepi/amd_ai_directors_analysis_confirms_lobotomization/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-04-11T19:25:25+09:00"
+      },
+      {
+        "id": "reddit_015",
+        "title": "이것은 의료 응급상황입니다",
+        "originalTitle": "This is a medical emergency",
+        "summary": "Claude AI 커뮤니티에서 의료 관련 상황에 대한 경험 공유.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1siheld/this_is_a_medical_emergency/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-04-11T21:11:08+09:00"
+      },
+      {
+        "id": "reddit_016",
+        "title": "AWS 20년 경력 — 항상 내 일이었다",
+        "originalTitle": "20 Years on AWS and Never Not My Job",
+        "summary": "20년간 AWS를 다뤄온 시니어 엔지니어의 경험과 클라우드 인프라에 대한 인사이트.",
+        "url": "https://www.reddit.com/r/programming/comments/1sipvi3/20_years_on_aws_and_never_not_my_job/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-04-12T02:52:14+09:00"
+      },
+      {
+        "id": "reddit_017",
+        "title": "[Reddit에 의해 삭제된 게시물]",
+        "originalTitle": "[ Removed by Reddit ]",
+        "summary": "해당 게시물은 Reddit 정책에 의해 삭제됐다.",
+        "url": "https://www.reddit.com/r/programming/comments/1sisa2w/removed_by_reddit/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-04-12T04:21:54+09:00"
+      },
+      {
+        "id": "reddit_018",
+        "title": "데이터베이스 쿼리 플랜을 시각적으로 이해하는 EXPLAIN 도구 개발",
+        "originalTitle": "Building a Visual EXPLAIN to understand database query plans faster",
+        "summary": "데이터베이스 쿼리 실행 계획을 더 빠르게 파악할 수 있는 시각적 EXPLAIN 도구 개발 경험 공유.",
+        "url": "https://www.reddit.com/r/programming/comments/1sib0bn/building_a_visual_explain_to_understand_database/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-04-11T15:06:33+09:00"
+      },
+      {
+        "id": "reddit_019",
+        "title": "AMD AI 시니어 디렉터 \"Claude 성능 퇴보\" 주장 — 에이전트 작업 불가 수준",
+        "originalTitle": "AMD's senior director of AI thinks 'Claude has regressed' and that it 'cannot be trusted to perform complex engineering'",
+        "summary": "AMD AI 부문 시니어 디렉터가 Claude의 최근 성능이 눈에 띄게 퇴보했으며 에이전트 워크플로에서 신뢰할 수 없다고 비판했다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1sinatl/amds_senior_director_of_ai_thinks_claude_has/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-04-12T01:15:21+09:00"
+      },
+      {
+        "id": "reddit_020",
+        "title": "유니트리 휴머노이드, 초속 10m/s 달성 — 우사인 볼트(12.42m/s)에 근접",
+        "originalTitle": "Unitree makes a humanoid that runs at 10m/s (Bolt runs at 12.42 m/s)",
+        "summary": "유니트리의 휴머노이드 로봇이 초속 10m/s 달리기에 성공했다. 우사인 볼트 최고 속도의 80%에 달하는 수치로 로보틱스 커뮤니티가 주목하고 있다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1siiarz/unitree_makes_a_humanoid_that_runs_at_10ms_bolt/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-04-11T21:53:08+09:00"
+      },
+      {
+        "id": "reddit_021",
+        "title": "인도 일부 공장 노동자들, 머리에 카메라 달기 시작 — AI 감시 논란",
+        "originalTitle": "Workers in some Indian factories have started wearing cameras on their heads to record their movements so robots can be trained using the footage.",
+        "summary": "인도 공장에서 노동자들의 머리에 카메라를 장착해 AI로 작업을 모니터링하는 사례가 등장해 논란이 되고 있다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1sitb37/workers_in_some_indian_factories_have_started/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-04-12T05:01:17+09:00"
+      },
+      {
+        "id": "reddit_022",
+        "title": "소프트웨어 엔지니어 채용 지원서 중 스팸이나 자격 미달은 얼마나 될까?",
+        "originalTitle": "How many software engineering job applications are just spam or unqualified candidates?",
+        "summary": "시니어 개발자들이 현재 채용 시장에서 자격 미달 지원서 비율이 급증하고 있다고 공유하며 AI 자동 지원의 부작용을 논한다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1siocfg/how_many_software_engineering_job_applications/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-04-12T01:55:12+09:00"
+      },
+      {
+        "id": "reddit_023",
+        "title": "에이전트 워크플로 도입에 적응하기",
+        "originalTitle": "“Coping” with agentic workflow adoption",
+        "summary": "경험 많은 개발자들이 AI 에이전트 기반 워크플로로의 전환 과정에서 겪는 어려움과 적응 전략을 공유한다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1sijxoq/coping_with_agentic_workflow_adoption/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-04-11T23:03:02+09:00"
+      },
+      {
+        "id": "reddit_024",
+        "title": "AI는 기술 분야의 화물 숭배를 심화시키나, 줄이나?",
+        "originalTitle": "Does AI add to or remove cargo culting in tech?",
+        "summary": "AI 도구 사용이 개발자들의 맹목적 패턴 복사(cargo culting)를 늘리는지, 오히려 줄이는지를 놓고 시니어 개발자들의 의견이 엇갈린다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1sik8bo/does_ai_add_to_or_remove_cargo_culting_in_tech/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-04-11T23:15:17+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_031",
+        "title": "Keychron, 키보드·마우스 실제 생산용 CAD 설계 파일 전격 공개",
+        "excerpt": "Keychron이 키보드와 마우스의 생산용 CAD 설계 파일을 STEP·DWG·DXF·PDF 형식으로 공개했다. 커스텀 하드웨어 개발자와 메이커 커뮤니티가 활용 가능하다.",
+        "body": "하드웨어 투명성의 새 이정표로 평가받는다.",
+        "url": "https://news.hada.io/topic?id=28415",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-11T23:32:35+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_032",
+        "title": "84,000여 개 Firefox 확장 프로그램 전부 설치 실험 — 결과는?",
+        "excerpt": "Mozilla의 Add-ons API를 활용해 84,235개 Firefox 확장 프로그램을 전부 수집·설치하는 실험이 진행됐다. 설치 과정과 충돌 양상이 흥미롭다.",
+        "body": "브라우저 확장 생태계의 규모와 취약성을 적나라하게 보여준 실험이다.",
+        "url": "https://news.hada.io/topic?id=28413",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-11T19:32:36+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_033",
+        "title": "헬륨은 왜 대체하기 어려운가 — 과학·산업의 필수 원소",
+        "excerpt": "헬륨은 MRI·반도체·광섬유·항공우주 등에서 대체 불가한 초저온 냉각재다. 천연가스 부산물로만 생산되어 지정학 리스크에 매우 취약하다.",
+        "body": "희소 자원 전략의 맹점을 환기시키는 심층 분석이다.",
+        "url": "https://news.hada.io/topic?id=28416",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-11T23:52:48+09:00",
+        "readTime": 4,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_034",
+        "title": "우간다 침팬지 집단, 8년째 내전 상태 — 24건의 살해 기록",
+        "excerpt": "우간다 키발레 국립공원의 응고고 침팬지 집단이 2018년부터 두 파로 나뉘어 지속적 폭력 사태를 겪고 있다. 24건의 살해 사건이 공식 기록됐다.",
+        "body": "동물 사회의 집단 갈등 메커니즘에 관한 희귀한 장기 연구다.",
+        "url": "https://news.hada.io/topic?id=28422",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-12T03:32:44+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      }
+    ]
+  }
+}

@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-04-12",
+      "issueNumber": 15,
+      "mainHeadline": "ChatGPT Pro $100 시대 개막 — OpenAI 요금제 전면 개편, Claude 웹 생산성 도구 확장",
+      "headlines": [
+        "Gemini SynthID 워터마크, 신호 처리만으로 역공학 성공",
+        "리눅스 커널, AI 보조 도구 공식 기여 지침 제정",
+        "GPT-5.4, METR 평가에서 '보상 해킹' 포착 — Claude Opus 4.6 대비 성능 격차"
+      ]
+    },
+    {
       "date": "2026-04-10",
       "issueNumber": 14,
       "mainHeadline": "Claude Cowork 유료 전 플랜 정식 출시 — AI 데스크톱 자동화 새 시대",
