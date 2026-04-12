@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-04-13",
+      "issueNumber": 16,
+      "mainHeadline": "Claude for Word 베타 출시 & Cloudflare 에이전트 주간 — AI가 업무 생산성을 직접 장악한다",
+      "headlines": [
+        "샘 알트먼, 화염병 테러 이후 가족 사진 공개 — AI 창업자를 향한 폭력 경고",
+        "Claude Code /ultraplan 공개 — 웹에서 구현 계획을 시각화하고 편집",
+        "Cirrus Labs, OpenAI 합류 — Apple Silicon CI 인프라 팀 영입"
+      ]
+    },
+    {
       "date": "2026-04-12",
       "issueNumber": 15,
       "mainHeadline": "ChatGPT Pro $100 시대 개막 — OpenAI 요금제 전면 개편, Claude 웹 생산성 도구 확장",
