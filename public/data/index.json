@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-04-14",
+      "issueNumber": 17,
+      "mainHeadline": "AI 에이전트가 독립 컴퓨터를 갖는 시대 — Cloudflare Sandboxes GA 출시",
+      "headlines": [
+        "IEEE Spectrum 2026 AI 현황 — 12개 그래프로 읽는 인공지능의 지금",
+        "Mira Murati의 Thinking Machines, Workshop Labs 팀 합류 — AI 인재 영입 가속",
+        "Claude 성능 저하 논란 종결 — '노력 안 한 것' 캐시 TTL 문제가 원인"
+      ]
+    },
+    {
       "date": "2026-04-13",
       "issueNumber": 16,
       "mainHeadline": "Claude for Word 베타 출시 & Cloudflare 에이전트 주간 — AI가 업무 생산성을 직접 장악한다",
