@@ -1,6 +1,17 @@
 {
   "issues": [
     {
+      "date": "2026-04-15",
+      "issueNumber": 18,
+      "mainHeadline": "Claude Code 데스크톱 대규모 재설계 — 병렬 세션·통합 터미널 지원",
+      "headlines": [
+        "구글 딥마인드, 복잡한 추론 강화한 로봇 AI 'Gemini Robotics ER-1.6' 출시",
+        "OpenAI, Codex 수요 폭증에 월 $100 ChatGPT Pro 티어 신규 출시",
+        "마이크로소프트, 41% 저렴한 이미지 생성 모델 'MAI-Image-2-Efficient' 공개",
+        "엔비디아, 양자 컴퓨팅 가속용 오픈소스 AI 모델 'Ising' 공개"
+      ]
+    },
+    {
       "date": "2026-04-14",
       "issueNumber": 17,
       "mainHeadline": "AI 에이전트가 독립 컴퓨터를 갖는 시대 — Cloudflare Sandboxes GA 출시",

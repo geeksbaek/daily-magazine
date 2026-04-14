@@ -1,0 +1,780 @@
+{
+  "date": "2026-04-15",
+  "issueNumber": 18,
+  "cover": {
+    "mainHeadline": "Claude Code 데스크톱 대규모 재설계 — 병렬 세션·통합 터미널 지원",
+    "mainExcerpt": "Anthropic이 데스크톱용 Claude Code를 완전히 새롭게 재설계했습니다. 이제 한 창에서 여러 Claude 세션을 동시에 실행하고, 통합 터미널과 파일 편집, HTML/PDF 미리보기까지 제공합니다. 또한 Anthropic은 '자동화된 정렬 연구자(AAR)' 실험을 공개해 AI가 AI 안전 연구를 스스로 가속할 수 있음을 입증했습니다.",
+    "headlines": [
+      "구글 딥마인드, 복잡한 추론 강화한 로봇 AI 'Gemini Robotics ER-1.6' 출시",
+      "OpenAI, Codex 수요 폭증에 월 $100 ChatGPT Pro 티어 신규 출시",
+      "마이크로소프트, 41% 저렴한 이미지 생성 모델 'MAI-Image-2-Efficient' 공개",
+      "엔비디아, 양자 컴퓨팅 가속용 오픈소스 AI 모델 'Ising' 공개"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_001",
+      "title": "구글 딥마인드, 실세계 작업 수행 능력 강화한 로봇 AI 'Gemini Robotics ER-1.6' 공개",
+      "excerpt": "구글 딥마인드가 로봇 전용 AI 모델 'Gemini Robotics ER-1.6'을 발표했습니다. 강화된 추론 능력으로 복잡한 실세계 환경에서의 작업 수행 능력이 크게 향상되었습니다.",
+      "body": "구글 딥마인드가 로봇 전용 AI 모델 'Gemini Robotics ER-1.6'을 발표했습니다. 강화된 추론 능력으로 복잡한 실세계 환경에서의 작업 수행 능력이 크게 향상되었습니다.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-robotics-er-1-6/",
+      "source": "Google DeepMind",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-15T00:00:00+09:00",
+      "readTime": 3,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_002",
+      "title": "사이버 방어 차세대 시대를 위한 신뢰할 수 있는 접근 보안",
+      "excerpt": "Cloudflare가 차세대 사이버 방어를 위한 신뢰 접근 솔루션을 소개합니다. 기업 환경에서 비인간 신원(NHI)과 자동화된 시스템 보안을 강화하는 방법을 다룹니다.",
+      "body": "Cloudflare가 차세대 사이버 방어를 위한 신뢰 접근 솔루션을 소개합니다. 기업 환경에서 비인간 신원(NHI)과 자동화된 시스템 보안을 강화하는 방법을 다룹니다.",
+      "url": "https://openai.com/index/scaling-trusted-access-for-cyber-defense",
+      "source": "OpenAI News",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-14T09:00:00+09:00",
+      "readTime": 3,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_003",
+      "title": "기존 KV 압축 기법 대비 최대 25% 추가 절감, 성능은 오히려 개선 — CASK",
+      "excerpt": "CASK는 LLM 추론 과정에서 발생하는 KV cache 증가 문제를 해결하기 위해 기존의 token importance 기반 pruning 방식이 아닌, 구조적(role-based) 접근을 제안하는 논문 본 연구는 단 5일 만에 도출되었으며, 지도교수 없이 진행된 개인 연구자 2인의 결과라는",
+      "body": "CASK는 LLM 추론 과정에서 발생하는 KV cache 증가 문제를 해결하기 위해 기존의 token importance 기반 pruning 방식이 아닌, 구조적(role-based) 접근을 제안하는 논문 본 연구는 단 5일 만에 도출되었으며, 지도교수 없이 진행된 개인 연구자 2인의 결과라는",
+      "url": "https://news.hada.io/topic?id=28520",
+      "source": "GeekNews",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-15T00:16:02+09:00",
+      "readTime": 3,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_011",
+      "title": "구글 앱, 전 세계 윈도우 사용자에게 데스크톱 버전 정식 제공",
+      "excerpt": "구글 앱이 이제 윈도우 사용자에게도 데스크톱 버전으로 제공됩니다. 브라우저 없이 구글 검색과 AI 기능을 바로 사용할 수 있는 네이티브 앱 형태입니다.",
+      "body": "구글 앱이 이제 윈도우 사용자에게도 데스크톱 버전으로 제공됩니다. 브라우저 없이 구글 검색과 AI 기능을 바로 사용할 수 있는 네이티브 앱 형태입니다.",
+      "url": "https://blog.google/products-and-platforms/products/search/google-apps-windows-english/",
+      "source": "The Official Google Blog",
+      "category": "big_tech",
+      "publishedAt": "2026-04-15T01:00:00+09:00",
+      "readTime": 3,
+      "imageGradient": 4
+    },
+    {
+      "id": "rss_012",
+      "title": "세계 양자의 날: 양자 컴퓨팅에 관한 주요 질문들에 답하다",
+      "excerpt": "4월 14일 세계 양자의 날을 맞아 구글이 양자 컴퓨팅에 관한 주요 질문들에 답했습니다. 양자 컴퓨터의 현재 위치와 미래 가능성을 쉽게 설명합니다.",
+      "body": "4월 14일 세계 양자의 날을 맞아 구글이 양자 컴퓨팅에 관한 주요 질문들에 답했습니다. 양자 컴퓨터의 현재 위치와 미래 가능성을 쉽게 설명합니다.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/world-quantum-day-2026/",
+      "source": "The Official Google Blog",
+      "category": "big_tech",
+      "publishedAt": "2026-04-14T23:21:00+09:00",
+      "readTime": 3,
+      "imageGradient": 4
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_001",
+        "title": "구글 딥마인드, 실세계 작업 수행 능력 강화한 로봇 AI 'Gemini Robotics ER-1.6' 공개",
+        "excerpt": "구글 딥마인드가 로봇 전용 AI 모델 'Gemini Robotics ER-1.6'을 발표했습니다. 강화된 추론 능력으로 복잡한 실세계 환경에서의 작업 수행 능력이 크게 향상되었습니다.",
+        "body": "구글 딥마인드가 로봇 전용 AI 모델 'Gemini Robotics ER-1.6'을 발표했습니다. 강화된 추론 능력으로 복잡한 실세계 환경에서의 작업 수행 능력이 크게 향상되었습니다.",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-robotics-er-1-6/",
+        "source": "Google DeepMind",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-15T00:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_002",
+        "title": "사이버 방어 차세대 시대를 위한 신뢰할 수 있는 접근 보안",
+        "excerpt": "Cloudflare가 차세대 사이버 방어를 위한 신뢰 접근 솔루션을 소개합니다. 기업 환경에서 비인간 신원(NHI)과 자동화된 시스템 보안을 강화하는 방법을 다룹니다.",
+        "body": "Cloudflare가 차세대 사이버 방어를 위한 신뢰 접근 솔루션을 소개합니다. 기업 환경에서 비인간 신원(NHI)과 자동화된 시스템 보안을 강화하는 방법을 다룹니다.",
+        "url": "https://openai.com/index/scaling-trusted-access-for-cyber-defense",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-14T09:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_003",
+        "title": "기존 KV 압축 기법 대비 최대 25% 추가 절감, 성능은 오히려 개선 — CASK",
+        "excerpt": "CASK는 LLM 추론 과정에서 발생하는 KV cache 증가 문제를 해결하기 위해 기존의 token importance 기반 pruning 방식이 아닌, 구조적(role-based) 접근을 제안하는 논문 본 연구는 단 5일 만에 도출되었으며, 지도교수 없이 진행된 개인 연구자 2인의 결과라는",
+        "body": "CASK는 LLM 추론 과정에서 발생하는 KV cache 증가 문제를 해결하기 위해 기존의 token importance 기반 pruning 방식이 아닌, 구조적(role-based) 접근을 제안하는 논문 본 연구는 단 5일 만에 도출되었으며, 지도교수 없이 진행된 개인 연구자 2인의 결과라는",
+        "url": "https://news.hada.io/topic?id=28520",
+        "source": "GeekNews",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-15T00:16:02+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_004",
+        "title": "Gemma 4를 Codex CLI에서 로컬 모델로 실행하기",
+        "excerpt": "Gemma 4를 클라우드 대신 로컬 Codex CLI 환경에서 실행해 도구 호출 성능과 안정성을 검증한 사례로, GPT-5.4 대비 비용·프라이버시 이점을 확인 Mac(M4 Pro) 24GB 에서 26B MoE 와 NVIDIA GB10 128GB 에서 3...",
+        "body": "Gemma 4를 클라우드 대신 로컬 Codex CLI 환경에서 실행해 도구 호출 성능과 안정성을 검증한 사례로, GPT-5.4 대비 비용·프라이버시 이점을 확인 Mac(M4 Pro) 24GB 에서 26B MoE 와 NVIDIA GB10 128GB 에서 3...",
+        "url": "https://news.hada.io/topic?id=28510",
+        "source": "GeekNews",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-14T11:03:07+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_005",
+        "title": "Anthropic 장기이익신탁, 바스 나라심한을 이사회 이사로 임명",
+        "excerpt": "Anthropic의 장기이익신탁(LTBT)이 노바티스 CEO 바스 나라심한을 첫 외부 이사로 선임했습니다. AI의 안전하고 책임 있는 발전을 위한 거버넌스 강화의 일환입니다.",
+        "body": "Anthropic의 장기이익신탁(LTBT)이 노바티스 CEO 바스 나라심한을 첫 외부 이사로 선임했습니다. AI의 안전하고 책임 있는 발전을 위한 거버넌스 강화의 일환입니다.",
+        "url": "https://www.anthropic.com/news/narasimhan-board",
+        "source": "Anthropic News",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-14T09:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_006",
+        "title": "VS Code 1.116 업데이트 출시 — 새로운 기능 및 개선사항 총정리",
+        "excerpt": "Learn what's new in Visual Studio Code 1.116 (Insiders) Read the full article",
+        "body": "Learn what's new in Visual Studio Code 1.116 (Insiders) Read the full article",
+        "url": "https://code.visualstudio.com/updates/v1_116",
+        "source": "Visual Studio Code - Code Editing. Redefined.",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-16T02:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_007",
+        "title": "Chrome에서 AI 프롬프트를 원클릭 도구로 — 구글 'Skills in Chrome' 기능 발표",
+        "excerpt": "Video showing Skills in Chrome",
+        "body": "Video showing Skills in Chrome",
+        "url": "https://blog.google/products-and-platforms/products/chrome/skills-in-chrome/",
+        "source": "The Official Google Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-15T02:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_008",
+        "title": "AI 영향 연구 지원 — 구글의 새로운 AI 연구 지원 이니셔티브",
+        "excerpt": "구글이 AI가 사회에 미치는 영향에 대한 새로운 연구를 지원하는 프로그램을 발표했습니다. AI 기술의 긍정적·부정적 영향을 체계적으로 분석하는 독립 연구를 장려합니다.",
+        "body": "구글이 AI가 사회에 미치는 영향에 대한 새로운 연구를 지원하는 프로그램을 발표했습니다. AI 기술의 긍정적·부정적 영향을 체계적으로 분석하는 독립 연구를 장려합니다.",
+        "url": "https://blog.google/company-news/outreach-and-initiatives/google-org/digital-futures-fund-2026/",
+        "source": "The Official Google Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-14T17:30:00+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_009",
+        "title": "MDN, 프론트엔드 리빌드에서 React 버리고 웹 컴포넌트 채택",
+        "excerpt": "개발자 문서 플랫폼 MDN이 프론트엔드 리디자인에서 React를 포기하고 네이티브 웹 컴포넌트를 채택했습니다. 웹 표준 기술만으로 복잡한 UI를 구현하는 새로운 방향을 제시합니다.",
+        "body": "개발자 문서 플랫폼 MDN이 프론트엔드 리디자인에서 React를 포기하고 네이티브 웹 컴포넌트를 채택했습니다. 웹 표준 기술만으로 복잡한 UI를 구현하는 새로운 방향을 제시합니다.",
+        "url": "https://javascriptweekly.com/issues/781",
+        "source": "JavaScript Weekly",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-14T09:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_010",
+        "title": "AI 에이전트 해킹하기: GitHub Secure Code Game으로 에이전트 보안 역량 강화",
+        "excerpt": "GitHub Security Lab이 AI 에이전트 보안 취약점을 다루는 CTF(Capture The Flag) 대회를 개최합니다. AI 에이전트 시스템의 보안 역량을 실전 해킹으로 강화할 수 있는 기회입니다.",
+        "body": "GitHub Security Lab이 AI 에이전트 보안 취약점을 다루는 CTF(Capture The Flag) 대회를 개최합니다. AI 에이전트 시스템의 보안 역량을 실전 해킹으로 강화할 수 있는 기회입니다.",
+        "url": "https://github.blog/security/hack-the-ai-agent-build-agentic-ai-security-skills-with-the-github-secure-code-game/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-15T03:17:59+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_011",
+        "title": "구글 앱, 전 세계 윈도우 사용자에게 데스크톱 버전 정식 제공",
+        "excerpt": "구글 앱이 이제 윈도우 사용자에게도 데스크톱 버전으로 제공됩니다. 브라우저 없이 구글 검색과 AI 기능을 바로 사용할 수 있는 네이티브 앱 형태입니다.",
+        "body": "구글 앱이 이제 윈도우 사용자에게도 데스크톱 버전으로 제공됩니다. 브라우저 없이 구글 검색과 AI 기능을 바로 사용할 수 있는 네이티브 앱 형태입니다.",
+        "url": "https://blog.google/products-and-platforms/products/search/google-apps-windows-english/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-04-15T01:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_012",
+        "title": "세계 양자의 날: 양자 컴퓨팅에 관한 주요 질문들에 답하다",
+        "excerpt": "4월 14일 세계 양자의 날을 맞아 구글이 양자 컴퓨팅에 관한 주요 질문들에 답했습니다. 양자 컴퓨터의 현재 위치와 미래 가능성을 쉽게 설명합니다.",
+        "body": "4월 14일 세계 양자의 날을 맞아 구글이 양자 컴퓨팅에 관한 주요 질문들에 답했습니다. 양자 컴퓨터의 현재 위치와 미래 가능성을 쉽게 설명합니다.",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/world-quantum-day-2026/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-04-14T23:21:00+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_013",
+        "title": "구글, 자사 캠퍼스 인근 습지 복원과 탄소 제거 과학 연구 확대",
+        "excerpt": "구글이 캘리포니아 캠퍼스 인근에서 습지 복원과 탄소 제거 프로젝트를 확대합니다. AI와 데이터 기술을 활용해 기후 변화 대응을 위한 자연 기반 솔루션을 연구합니다.",
+        "body": "구글이 캘리포니아 캠퍼스 인근에서 습지 복원과 탄소 제거 프로젝트를 확대합니다. AI와 데이터 기술을 활용해 기후 변화 대응을 위한 자연 기반 솔루션을 연구합니다.",
+        "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/wetland-restoration-carbon-removal/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-04-14T22:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_014",
+        "title": "'경제를 위한 AI 포럼'에서 AI와 경제 미래를 논하다",
+        "excerpt": "구글이 '경제를 위한 AI 포럼'을 개최해 AI가 경제와 노동 시장에 미치는 영향을 논의합니다. 산업계·학계·정책 입안자들이 AI 경제의 미래를 함께 논의합니다.",
+        "body": "구글이 '경제를 위한 AI 포럼'을 개최해 AI가 경제와 노동 시장에 미치는 영향을 논의합니다. 산업계·학계·정책 입안자들이 AI 경제의 미래를 함께 논의합니다.",
+        "url": "https://blog.google/company-news/outreach-and-initiatives/creating-opportunity/ai-economy-forum/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-04-14T18:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Andrej Karpathy",
+        "handle": "karpathy",
+        "content": "AI 역량에 대한 이해 격차가 점점 커지고 있습니다. 첫 번째 문제는 최신성과 사용 티어입니다. 많은 사람들이 작년에 ChatGPT 무료 버전을 한 번 써보고 AI에 대한 견해를 굳혀버린 것 같습니다.",
+        "context": "AI 분야 석학 안드레이 카르파시가 일반인과 전문가 사이의 AI 인식 격차에 대해 지적합니다. 무료 AI 서비스 경험만으로 AI 역량을 과소평가하는 현상을 비판적으로 분석합니다.",
+        "url": "https://x.com/karpathy/status/2042334451611693415",
+        "publishedAt": "2026-04-09T20:10:52.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "오늘 이른 아침에 작성했는데 실제로 올릴지 확신이 없었지만, 결국 게시합니다:",
+        "context": "OpenAI CEO 샘 알트만이 게시한 글로, 공개 여부를 고민한 내용이 담겨 있습니다. AI 산업 리더의 솔직한 내면을 엿볼 수 있습니다.",
+        "url": "https://x.com/sama/status/2042738954550603884",
+        "publishedAt": "2026-04-10T22:58:13.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "Codex에 대한 뜨거운 반응이 정말 기쁩니다. 대중의 강력한 요청으로 월 $100 ChatGPT Pro 티어를 출시합니다.",
+        "context": "OpenAI CEO 샘 알트만이 Codex 인기에 힘입어 월 $100 ChatGPT Pro 티어 출시를 발표했습니다. Codex 서비스 확대에 대한 시장의 강한 수요를 반영합니다.",
+        "url": "https://x.com/sama/status/2042342572958630332",
+        "publishedAt": "2026-04-09T20:43:08.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "세상이 컴퓨트 기반 경제로 전환 중입니다. 소프트웨어 엔지니어링 분야는 AI 덕분에 불과 6개월 만에 극적으로 가속화되며 르네상스를 맞이하고 있습니다. AI는 이제 다른 분야에도 같은 변화를 가져올 궤도에 있습니다.",
+        "context": "OpenAI 공동창업자 그렉 브록만이 컴퓨트 경제로의 전환과 소프트웨어 엔지니어링의 AI 혁명을 논합니다. 다른 산업으로의 AI 확산을 전망합니다.",
+        "url": "https://x.com/gdb/status/2043831031468568734",
+        "publishedAt": "2026-04-13T23:17:45.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "Codex 앱: https://chatgpt.com/codex/",
+        "context": "OpenAI 공식 계정이 Codex 앱 출시를 알렸습니다. AI 코딩 어시스턴트의 독립 앱 형태 제공으로 접근성을 높였습니다.",
+        "url": "https://x.com/OpenAI/status/2042780055559114993",
+        "publishedAt": "2026-04-11T01:41:32.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "새로운 앤트로픽 연구원 연구 발표: '자동화된 정렬 연구자(AAR)' 개발. Claude Opus 4.6이 핵심 정렬 문제—약한 AI 모델이 더 강한 모델의 훈련을 감독하는 것—에 대한 연구를 가속할 수 있는지 실험했습니다.",
+        "context": "Anthropic이 '자동화된 정렬 연구자(AAR)' 실험 결과를 공유했습니다. Claude Opus 4.6가 AI 안전 연구를 스스로 수행할 수 있는지 탐구한 중요한 AI 안전 연구입니다.",
+        "url": "https://x.com/AnthropicAI/status/2044138481790648323",
+        "publishedAt": "2026-04-14T19:39:26.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "AI 모델은 아직 범용 정렬 과학자가 아닙니다. 대부분의 정렬 연구 과제에서는 진행 상황 검증이 어렵고, 우리의 AAR도 '더 모호한' 연구는 훨씬 어렵게 느낄 것입니다. 그러나 이 실험은 Claude가 실험·탐색 속도를 높일 수 있음을 보여줍니다.",
+        "context": "Anthropic의 후속 트윗으로 AAR 실험의 한계와 의의를 설명합니다. AI 안전 분야에서 AI 모델의 자동화 가능성에 대한 현실적 평가입니다.",
+        "url": "https://x.com/AnthropicAI/status/2044138489495605292",
+        "publishedAt": "2026-04-14T19:39:28.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "데스크톱용 Claude Code를 새롭게 재설계했습니다. 이제 하나의 창에서 여러 Claude 세션을 나란히 실행할 수 있으며, 새로운 사이드바로 모두 관리할 수 있습니다.",
+        "context": "Claude 공식 계정이 데스크톱 앱의 Claude Code 대규모 리디자인을 발표했습니다. 병렬 세션 지원이 추가되어 개발자의 생산성이 크게 향상될 것으로 기대됩니다.",
+        "url": "https://x.com/claudeai/status/2044131493966909862",
+        "publishedAt": "2026-04-14T19:11:40.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_009",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "재설계에는 통합 터미널, 파일 편집, HTML 및 PDF 미리보기, 빠른 diff 뷰어도 추가되었습니다. 드래그 앤 드롭으로 레이아웃을 원하는 대로 배치할 수 있습니다.",
+        "context": "Claude Code 리디자인의 세부 기능을 소개하는 연속 트윗입니다. 통합 터미널, 파일 편집, PDF 미리보기 등 개발 환경 통합 수준이 높아졌습니다.",
+        "url": "https://x.com/claudeai/status/2044131495296586041",
+        "publishedAt": "2026-04-14T19:11:41.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_010",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "Codex는 업무 컨텍스트를 한데 모아 더 나은 의사결정과 명확한 우선순위를 가능하게 합니다.",
+        "context": "OpenAI 개발자 계정에서 Codex의 업무 생산성 향상 기능을 강조했습니다. 코드 작업에서 AI가 주는 실질적 가치를 개발자 관점에서 설명합니다.",
+        "url": "https://x.com/OpenAIDevs/status/2041983360780939416",
+        "publishedAt": "2026-04-08T20:55:46.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_011",
+        "author": "Jack Clark",
+        "handle": "jackclarkSF",
+        "content": "이번 주 수요일 SF에서 NPR Planet Money 팀의 새 책 출판 기념 행사에 참석하세요. AI가 사회에 미치는 영향과 Anthropic의 미래 관점에 대해 이야기하겠습니다.",
+        "context": "Anthropic 공동창업자 잭 클라크가 SF 이벤트를 홍보합니다. AI가 사회에 미치는 영향에 대한 공개 토론 기회입니다.",
+        "url": "https://x.com/jackclarkSF/status/2044098725556171159",
+        "publishedAt": "2026-04-14T17:01:28.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_012",
+        "author": "Alex Albert",
+        "handle": "alexalbert__",
+        "content": "오늘 데스크톱 앱에 새 버전 Claude Code가 출시되었습니다. 수많은 새 기능과 성능 개선이 포함되었습니다. Cowork와 Code 덕분에 이제 대부분의 업무를 다른 앱이나 터미널 없이 처리할 수 있습니다.",
+        "context": "Anthropic 개발자 알렉스 알버트가 새로운 Claude Code 데스크톱 앱의 개인 사용 소감을 공유합니다. 앱만으로 대부분의 개발 업무가 가능해졌다는 점이 주목됩니다.",
+        "url": "https://x.com/alexalbert__/status/2044144091395699055",
+        "publishedAt": "2026-04-14T20:01:44.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "마이크로소프트가 새로운 텍스트-이미지 생성 모델인 'MAI-Image-2-Efficient'를 공개했습니다.\n이름 그대로 효율성에 올인하여 기존 모델보다 4배 더 효율적이고 속도는 22% 빨라졌으며, 가격은 무려 41%나 낮췄습니다. 타사 최고 모델들과 비교해도 평균 40% 이상 지연 시간이 짧습니다.",
+        "context": "AI 전문 Threads 계정 choi.openai가 마이크로소프트의 새 이미지 생성 모델 'MAI-Image-2-Efficient' 출시를 소개합니다. 기존 대비 4배 효율적이고 비용은 41% 절감된 모델입니다.",
+        "url": "https://www.threads.com/@choi.openai/post/DXH-1PFDvcz",
+        "publishedAt": "2026-04-14T20:00:29.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "와… 엔비디아가 이제 양자 컴퓨터의 두뇌까지 장악하려 합니다.\n엔비디아가 양자 컴퓨팅을 가속하는 오픈소스 AI 모델 'Ising'을 전격 공개했습니다.",
+        "context": "엔비디아가 양자 컴퓨팅 가속을 위한 오픈소스 AI 모델 'Ising'을 공개했습니다. 양자 에러 수정 속도가 2.5배 빠르고 정확도도 3배 향상되었습니다.",
+        "url": "https://www.threads.com/@choi.openai/post/DXH0lMjDu2s",
+        "publishedAt": "2026-04-14T18:30:54.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_003",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "앤트로픽(Anthropic)이 Claude Code에 '루틴(Routines)' 기능을 새롭게 도입했습니다.",
+        "context": "Anthropic의 Claude Code에 새롭게 추가된 '루틴(Routines)' 기능을 소개합니다. 반복 작업 자동화를 위한 스크립트 실행 기능으로 개발 생산성이 높아집니다.",
+        "url": "https://www.threads.com/@choi.openai/post/DXHpbxVjyBE",
+        "publishedAt": "2026-04-14T16:53:30.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_004",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "로봇이 진짜 '눈치'를 갖게 되었습니다.\n구글 딥마인드가 로봇 전용 AI 모델인 'Gemini Robotics-ER 1.6'을 공개했습니다.",
+        "context": "구글 딥마인드가 로봇 전용 AI 모델 'Gemini Robotics-ER 1.6'을 발표했습니다. 복잡한 환경에서의 추론 능력이 강화되어 로봇의 실세계 적용 가능성이 높아집니다.",
+        "url": "https://www.threads.com/@choi.openai/post/DXHd4A3jfqk",
+        "publishedAt": "2026-04-14T15:14:36.000Z",
+        "platform": "threads"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "연속 추론을 위한 에너지 기반 모델 재조명",
+        "originalTitle": "Anyone else looking back at energy-based models for continuous reasoning? [D]",
+        "summary": "r/MachineLearning 커뮤니티의 인기 게시물입니다. AI와 기술 분야의 최신 논의를 확인해보세요.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1slj0d0/anyone_else_looking_back_at_energybased_models/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-04-15T04:33:47+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "ICML AC 가이드라인 질문 모음 스레드",
+        "originalTitle": "What is the AC guidance for ICML? (Or: ICML qq thread) [D]",
+        "summary": "ICML 논문 심사 과정의 AC(Area Chair) 가이드라인에 대한 연구자들의 질문을 모은 스레드입니다. 머신러닝 최고 학회의 리뷰 프로세스를 이해하는 데 도움이 됩니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1sl9zza/what_is_the_ac_guidance_for_icml_or_icml_qq/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-04-14T23:16:10+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "\"모르겠습니다\": HALO-Loss로 신경망에 기권 판단 가르치기",
+        "originalTitle": "\"I don't know!\": Teaching neural networks to abstain with the HALO-Loss. [R]",
+        "summary": "r/MachineLearning 커뮤니티의 인기 게시물입니다. AI와 기술 분야의 최신 논의를 확인해보세요.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1skzuhd/i_dont_know_teaching_neural_networks_to_abstain/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-04-14T14:45:50+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "2026년 4월 최고의 로컬 LLM 모음",
+        "originalTitle": "Best Local LLMs - Apr 2026",
+        "summary": "r/LocalLLaMA 커뮤니티가 2026년 4월 기준 최고의 로컬 실행 LLM을 정리했습니다. 성능·효율성·특화 분야별 추천 모델을 한눈에 확인할 수 있습니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sknx6n/best_local_llms_apr_2026/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-04-14T06:00:57+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "샤오미 12 Pro로 24/7 헤드리스 AI 서버 구축 (Ollama/Gemma4)",
+        "originalTitle": "24/7 Headless AI Server on Xiaomi 12 Pro (Snapdragon 8 Gen 1 + Ollama/Gemma4)",
+        "summary": "r/LocalLLaMA 커뮤니티의 인기 게시물입니다. AI와 기술 분야의 최신 논의를 확인해보세요.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sl6931/247_headless_ai_server_on_xiaomi_12_pro/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-04-14T20:44:20+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "놀라운 속도 1000 토큰/초! 로컬 LLM 퍼포먼스 벤치마크",
+        "originalTitle": "1000 token/s, it's blazing fast!!! Fairl",
+        "summary": "r/LocalLLaMA 커뮤니티의 인기 게시물입니다. AI와 기술 분야의 최신 논의를 확인해보세요.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sl8a8o/1000_tokens_its_blazing_fast_fairl/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-04-14T22:10:38+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "Claude Code 성능 저하 현상: 흥미롭고 새로운 발견",
+        "originalTitle": "Claude Code Degradation: An interesting and novel find",
+        "summary": "r/artificial 커뮤니티의 인기 게시물입니다. AI와 기술 분야의 최신 논의를 확인해보세요.",
+        "url": "https://www.reddit.com/r/artificial/comments/1slhln5/claude_code_degradation_an_interesting_and_novel/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-04-15T03:44:12+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "LLM은 왜 대화 중 시간 흐름을 추적하지 못할까?",
+        "originalTitle": "Why don't LLMs track time in their conversations?",
+        "summary": "r/artificial 커뮤니티의 인기 게시물입니다. AI와 기술 분야의 최신 논의를 확인해보세요.",
+        "url": "https://www.reddit.com/r/artificial/comments/1sky7h9/why_dont_llms_track_time_in_their_conversations/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-04-14T13:19:22+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "새로운 AI 도구, 유전 질환 진단 방식을 혁신할 수 있을까?",
+        "originalTitle": "A New AI Tool Could Transform How We Diagnose Genetic Diseases",
+        "summary": "r/artificial 커뮤니티의 인기 게시물입니다. AI와 기술 분야의 최신 논의를 확인해보세요.",
+        "url": "https://www.reddit.com/r/artificial/comments/1sljo6z/a_new_ai_tool_could_transform_how_we_diagnose/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-04-15T04:57:22+09:00"
+      },
+      {
+        "id": "reddit_010",
+        "title": "Anthropic, 기업 AI 지출에서 OpenAI 추월 임박",
+        "originalTitle": "Anthropic Is About to Overtake OpenAI on Business Spending.",
+        "summary": "r/OpenAI 커뮤니티의 인기 게시물입니다. AI와 기술 분야의 최신 논의를 확인해보세요.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1slikqi/anthropic_is_about_to_overtake_openai_on_business/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-04-15T04:18:42+09:00"
+      },
+      {
+        "id": "reddit_011",
+        "title": "7년 전의 AI — 과거와 현재의 발전 비교",
+        "originalTitle": "7 years ago",
+        "summary": "r/OpenAI 커뮤니티의 인기 게시물입니다. AI와 기술 분야의 최신 논의를 확인해보세요.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1skve68/7_years_ago/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-04-14T11:08:36+09:00"
+      },
+      {
+        "id": "reddit_012",
+        "title": "Anthropic, OpenAI가 지지한 극단적 AI 책임법에 반대 성명",
+        "originalTitle": "Anthropic Opposes the Extreme AI Liability Bill That OpenAI Backed",
+        "summary": "r/OpenAI 커뮤니티의 인기 게시물입니다. AI와 기술 분야의 최신 논의를 확인해보세요.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1sldk2a/anthropic_opposes_the_extreme_ai_liability_bill/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-04-15T01:23:18+09:00"
+      },
+      {
+        "id": "reddit_013",
+        "title": "Claude Code 데스크톱 버전, 병렬 에이전트 작업 위해 완전 재설계",
+        "originalTitle": "Claude Code on desktop, redesigned for parallel agentic work.",
+        "summary": "r/ClaudeAI 커뮤니티의 인기 게시물입니다. AI와 기술 분야의 최신 논의를 확인해보세요.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1slictc/claude_code_on_desktop_redesigned_for_parallel/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-04-15T04:10:50+09:00"
+      },
+      {
+        "id": "reddit_014",
+        "title": "Claude에게 한 마디만 하면... — AI 음성 명령 활용 사례",
+        "originalTitle": "Just say the word…",
+        "summary": "r/ClaudeAI 커뮤니티의 인기 게시물입니다. AI와 기술 분야의 최신 논의를 확인해보세요.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1sl82vq/just_say_the_word/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-04-14T22:02:38+09:00"
+      },
+      {
+        "id": "reddit_015",
+        "title": "The Information: Anthropic, Opus 4.7 모델 준비 완료 — 이번 주 공개 가능",
+        "originalTitle": "The Information: Anthropic Preps Opus 4.7 Model, could be released as soon as this week",
+        "summary": "r/ClaudeAI 커뮤니티의 인기 게시물입니다. AI와 기술 분야의 최신 논의를 확인해보세요.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1slhkt8/the_information_anthropic_preps_opus_47_model/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-04-15T03:43:21+09:00"
+      },
+      {
+        "id": "reddit_016",
+        "title": "GitHub 스택형 PR — 대규모 코드 변경을 단계적으로 관리하는 법",
+        "originalTitle": "GitHub Stacked PRs",
+        "summary": "r/programming 커뮤니티의 인기 게시물입니다. AI와 기술 분야의 최신 논의를 확인해보세요.",
+        "url": "https://www.reddit.com/r/programming/comments/1sl4erj/github_stacked_prs/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-04-14T19:10:45+09:00"
+      },
+      {
+        "id": "reddit_017",
+        "title": "N-1 범위 정수 배열에서 중복 항목 찾기 — 알고리즘 문제 풀이",
+        "originalTitle": "Finding a duplicated item in an array of N integers in the range 1 to N − 1",
+        "summary": "r/programming 커뮤니티의 인기 게시물입니다. AI와 기술 분야의 최신 논의를 확인해보세요.",
+        "url": "https://www.reddit.com/r/programming/comments/1sl5h3v/finding_a_duplicated_item_in_an_array_of_n/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-04-14T20:05:56+09:00"
+      },
+      {
+        "id": "reddit_018",
+        "title": "아무도 나에게 안전한 웹사이트를 강요할 수 없다!!! — 보안 논쟁",
+        "originalTitle": "No one can force me to have a secure website!!!",
+        "summary": "r/programming 커뮤니티의 인기 게시물입니다. AI와 기술 분야의 최신 논의를 확인해보세요.",
+        "url": "https://www.reddit.com/r/programming/comments/1sl0kfp/no_one_can_force_me_to_have_a_secure_website/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-04-14T15:26:00+09:00"
+      },
+      {
+        "id": "reddit_019",
+        "title": "Anthropic, 이번 주 Claude Opus 4.7 및 새 AI 디자인 도구 출시 예정",
+        "originalTitle": "Anthropic is set to release Claude Opus 4.7 and a new AI design tool as early as this week",
+        "summary": "r/singularity 커뮤니티의 인기 게시물입니다. AI와 기술 분야의 최신 논의를 확인해보세요.",
+        "url": "https://www.reddit.com/r/singularity/comments/1slh72j/anthropic_is_set_to_release_claude_opus_47_and_a/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-04-15T03:30:07+09:00"
+      },
+      {
+        "id": "reddit_020",
+        "title": "전쟁 사상 최초: 드론과 지상 로봇 시스템이 단 한 명의 병사 없이 적 진지 점령",
+        "originalTitle": "For The First Time In War, Drones & Ground Robotic Systems Seized Enemy positions Without A Single Soldier",
+        "summary": "r/singularity 커뮤니티의 인기 게시물입니다. AI와 기술 분야의 최신 논의를 확인해보세요.",
+        "url": "https://www.reddit.com/r/singularity/comments/1skxzk3/for_the_first_time_in_war_drones_ground_robotic/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-04-14T13:08:30+09:00"
+      },
+      {
+        "id": "reddit_021",
+        "title": "GPT-5.4 Pro, 에르되스 수학 문제 #1196 해결",
+        "originalTitle": "GPT-5.4 Pro solves Erdős Problem #1196",
+        "summary": "r/singularity 커뮤니티의 인기 게시물입니다. AI와 기술 분야의 최신 논의를 확인해보세요.",
+        "url": "https://www.reddit.com/r/singularity/comments/1slb0hz/gpt54_pro_solves_erdős_problem_1196/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-04-14T23:53:37+09:00"
+      },
+      {
+        "id": "reddit_022",
+        "title": "작업/버그 대응 시 과도한 고민을 멈추는 방법은?",
+        "originalTitle": "How do I stop over-thinking when it comes to tackling a task/bug?",
+        "summary": "r/ExperiencedDevs 커뮤니티의 인기 게시물입니다. AI와 기술 분야의 최신 논의를 확인해보세요.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1sky8nn/how_do_i_stop_overthinking_when_it_comes_to/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-04-14T13:20:59+09:00"
+      },
+      {
+        "id": "reddit_023",
+        "title": "기술적/비기술적 엔지니어링 매니저 — 역할 vs 후보자 자격",
+        "originalTitle": "Technical/Non-Technical Engineering Manager - role or candidacy?",
+        "summary": "r/ExperiencedDevs 커뮤니티의 인기 게시물입니다. AI와 기술 분야의 최신 논의를 확인해보세요.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1sl6lww/technicalnontechnical_engineering_manager_role_or/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-04-14T21:00:30+09:00"
+      },
+      {
+        "id": "reddit_024",
+        "title": "회사 소유 경험자의 정규직 지원 조언 구합니다",
+        "originalTitle": "Looking for advice anyone owns a company and apply ft role before?",
+        "summary": "r/ExperiencedDevs 커뮤니티의 인기 게시물입니다. AI와 기술 분야의 최신 논의를 확인해보세요.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1sl69n3/looking_for_advice_anyone_owns_a_company_and/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-04-14T20:45:05+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_015",
+        "title": "올해의 해킹 타임라인은 미쳤다",
+        "excerpt": "2026년 초 약 100일 동안 국가 및 범죄 조직이 연루된 대규모 사이버 공격이 연속적으로 발생하며, 컴퓨터 보안사에서 전환점으로 평가될 수준의 사태가 이어짐 공격은 이란, SLH, 북한, 러시아 네 개 클러스터로 구분되며, 모두 공급망과...",
+        "body": "2026년 초 약 100일 동안 국가 및 범죄 조직이 연루된 대규모 사이버 공격이 연속적으로 발생하며, 컴퓨터 보안사에서 전환점으로 평가될 수준의 사태가 이어짐 공격은 이란, SLH, 북한, 러시아 네 개 클러스터로 구분되며, 모두 공급망과...",
+        "url": "https://news.hada.io/topic?id=28521",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-15T03:33:50+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_016",
+        "title": "Linux 커널 7.0 공식 릴리스",
+        "excerpt": "Linus Torvalds가 Linux 커널 7.0을 공식 릴리스했습니다. 다만 버전 번호가 크게 올랐다고 해서 획기적인 변화가 있는 건 아닙니다. Torvalds는 마이너 버전이 x.19처럼 너무 높아지면 메이저 버전을 올리는 관행을 유지하고 있으며, 이번 7.0도 그 연장선입니다. 주요 변경사항 ...",
+        "body": "Linus Torvalds가 Linux 커널 7.0을 공식 릴리스했습니다. 다만 버전 번호가 크게 올랐다고 해서 획기적인 변화가 있는 건 아닙니다. Torvalds는 마이너 버전이 x.19처럼 너무 높아지면 메이저 버전을 올리는 관행을 유지하고 있으며, 이번 7.0도 그 연장선입니다. 주요 변경사항 ...",
+        "url": "https://news.hada.io/topic?id=28518",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-14T23:24:58+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_017",
+        "title": "tmux를 보기 좋고 사용하기 쉽게 만드는 방법 (2024)",
+        "excerpt": "~/.tmux.conf 설정 파일을 통해 키 바인딩, 색상, 상태바, 마우스 동작 등을 자유롭게 조정할 수 있음 기본 Prefix 키 C-b를 C-a로 변경하고, Caps Lock을 Ctrl로 리매핑해 입력 효율을 높일 수 있음 창 분할을 ...",
+        "body": "~/.tmux.conf 설정 파일을 통해 키 바인딩, 색상, 상태바, 마우스 동작 등을 자유롭게 조정할 수 있음 기본 Prefix 키 C-b를 C-a로 변경하고, Caps Lock을 Ctrl로 리매핑해 입력 효율을 높일 수 있음 창 분할을 ...",
+        "url": "https://news.hada.io/topic?id=28517",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-14T22:36:41+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_018",
+        "title": "158년 된 가정 증류 금지법, 미국 항소법원서 위헌 판결",
+        "excerpt": "미국 제5순회항소법원이 1868년 제정된 가정용 증류 금지법을 위헌으로 판단하며, 의회의 과세권과 직접 관련 없는 불필요한 규제로 결론 소송은 Hobby Distillers Association과 회원 4명이 제기했으며, 개인이 취미나 개인 소비 목적의...",
+        "body": "미국 제5순회항소법원이 1868년 제정된 가정용 증류 금지법을 위헌으로 판단하며, 의회의 과세권과 직접 관련 없는 불필요한 규제로 결론 소송은 Hobby Distillers Association과 회원 4명이 제기했으며, 개인이 취미나 개인 소비 목적의...",
+        "url": "https://news.hada.io/topic?id=28516",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-14T22:33:41+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_019",
+        "title": "Show GN: 멋쮠 mcp 한국 리스트",
+        "excerpt": "한국형 MCP 서버를 모아둔 오픈소스 목록입니다. 에이전트 시대에 큰 의미는 없을수 있지만 여러곳에 붙일수 있고 개발을 다시 하는 귀찬음을 줄여줍니다. 검색에 나온 법률, 금융, 공공데이터, 지도 등 국내 특화 MCP를 모아서 쉽게 보려고 만들어봤습니다. 제가 다 써본것은 아니고 검색에 잡",
+        "body": "한국형 MCP 서버를 모아둔 오픈소스 목록입니다. 에이전트 시대에 큰 의미는 없을수 있지만 여러곳에 붙일수 있고 개발을 다시 하는 귀찬음을 줄여줍니다. 검색에 나온 법률, 금융, 공공데이터, 지도 등 국내 특화 MCP를 모아서 쉽게 보려고 만들어봤습니다. 제가 다 써본것은 아니고 검색에 잡",
+        "url": "https://news.hada.io/topic?id=28515",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-14T22:13:12+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_020",
+        "title": "damn-my-slow-kt - KT 인터넷 SLA 미달 자동 측정 & 요금 감면 신청 도구",
+        "excerpt": "KT의 SLA(최저속도 보장제도)를 활용해 매일 자동으로 속도를 측정하고, 계약 속도의 50% 미만일 경우 자동으로 이의신청까지 대행 KT는 매일 측정해야 매일 감면되는 구조라, 30일 연속 미달이면 당월 요금 전액 감면까지 가능한 점을 겨냥 하루 최대 10회 (2시간 간격) 측...",
+        "body": "KT의 SLA(최저속도 보장제도)를 활용해 매일 자동으로 속도를 측정하고, 계약 속도의 50% 미만일 경우 자동으로 이의신청까지 대행 KT는 매일 측정해야 매일 감면되는 구조라, 30일 연속 미달이면 당월 요금 전액 감면까지 가능한 점을 겨냥 하루 최대 10회 (2시간 간격) 측...",
+        "url": "https://news.hada.io/topic?id=28511",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-14T11:11:43+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      }
+    ]
+  }
+}
