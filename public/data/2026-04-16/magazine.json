@@ -1,0 +1,639 @@
+{
+  "date": "2026-04-16",
+  "issueNumber": 19,
+  "cover": {
+    "mainHeadline": "Gemini 3.1 Flash TTS 출시: 차세대 감정 표현 AI 음성 합성",
+    "mainExcerpt": "구글 딥마인드가 차세대 텍스트 음성 변환 모델 Gemini 3.1 Flash TTS를 공개했습니다. 자연스러운 감정 표현, 70개 언어 지원, SynthID 워터마크가 핵심 특징입니다.",
+    "headlines": [
+      "오픈AI 에이전트 SDK 대규모 업데이트: 장기 실행 에이전트와 샌드박스 지원",
+      "Gemini 앱, Mac 버전 출시 — 데스크톱에서도 Gemini를 만나다",
+      "VS Code 1.116 릴리스: 코파일럿 개선과 새로운 편집 기능"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "ai_ml_000",
+      "title": "구글 클라우드 고객사 성과 사례 4월호: BMW의 소형 언어 모델 활용, MLB의 AI 도입",
+      "excerpt": "구글 클라우드 고객들이 4월에 구현한 AI 혁신 사례를 소개합니다. BMW는 소형 언어 모델(SLM)을 생산 라인에 도입하고, 미국 메이저리그 야구(MLB)는 데이터 분석에 AI를 적극 활용하고 있습니다.",
+      "body": "구글 클라우드 고객들이 4월에 구현한 AI 혁신 사례를 소개합니다. BMW는 소형 언어 모델(SLM)을 생산 라인에 도입해 품질 검사 자동화를 실현했고, 미국 메이저리그 야구(MLB)는 AI 기반 데이터 분석으로 선수 성과 예측 및 팬 경험을 혁신하고 있습니다. 구글 클라우드의 AI 서비스가 다양한 산업 전반에 걸쳐 실질적인 비즈니스 가치를 창출하고 있음을 보여줍니다.",
+      "url": "https://cloud.google.com/blog/topics/customers/cool-stuff-google-cloud-customers-built-monthly-round-up/",
+      "source": "AI & Machine Learning",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-16T01:00:00+09:00",
+      "readTime": 2,
+      "imageGradient": 0
+    },
+    {
+      "id": "ai_ml_001",
+      "title": "Gemini 3.1 Flash TTS 프롬프팅 가이드: 텍스트 음성 변환 완전 정복",
+      "excerpt": "구글이 공개한 Gemini 3.1 Flash TTS의 효과적인 활용을 위한 공식 프롬프팅 가이드입니다. 오디오 태그를 활용해 목소리 톤, 감정, 속도를 세밀하게 제어하는 방법을 설명합니다.",
+      "body": "구글이 공개한 Gemini 3.1 Flash TTS의 효과적인 활용을 위한 공식 프롬프팅 가이드입니다. [속삭이듯], [흥분해서] 같은 오디오 태그를 사용하면 화자의 감정과 말투를 자유롭게 조절할 수 있습니다. 화자별 음성 프로필 지정, 대화 배경 설정, 70개 이상의 언어 지원 등 강력한 기능을 체계적으로 활용하는 방법을 단계별로 안내합니다.",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-3-1-flash-tts-on-google-cloud/",
+      "source": "AI & Machine Learning",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-16T00:00:00+09:00",
+      "readTime": 2,
+      "imageGradient": 1
+    },
+    {
+      "id": "ai_ml_002",
+      "title": "Gemini 앱, Mac 버전 출시 — 데스크톱에서도 Gemini를 만나다",
+      "excerpt": "구글이 Gemini 앱의 Mac 버전을 공식 출시했습니다. 이제 Mac 사용자도 브라우저 없이 네이티브 앱으로 Gemini AI를 사용할 수 있습니다.",
+      "body": "구글이 Gemini 앱의 Mac 버전을 공식 출시했습니다. 이제 Mac 사용자도 브라우저를 거치지 않고 네이티브 데스크톱 앱으로 Gemini AI를 직접 사용할 수 있게 됐습니다. 파일 드래그앤드롭, 시스템 알림 통합 등 데스크톱 환경에 최적화된 기능을 제공하며, 기존 iOS/Android 앱과 동일한 고급 AI 기능을 지원합니다.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-mac-os/",
+      "source": "Gemini",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-16T01:00:00+09:00",
+      "readTime": 2,
+      "imageGradient": 0
+    },
+    {
+      "id": "dev_tools_000",
+      "title": "VS Code 1.116 릴리스: 코파일럿 개선과 새로운 편집 기능",
+      "excerpt": "Visual Studio Code 1.116이 출시됐습니다. GitHub Copilot 통합 개선, 에디터 성능 향상, 새로운 언어 지원이 주요 업데이트 내용입니다.",
+      "body": "Visual Studio Code 1.116이 출시됐습니다. 이번 릴리스에서는 GitHub Copilot 통합이 개선되어 더 정확한 코드 제안을 받을 수 있습니다. 에디터 성능 최적화로 대용량 파일 처리가 빨라졌으며, 새로운 언어 서버 기능과 디버깅 도구도 추가됐습니다. 전체 변경 사항은 공식 릴리스 노트를 참고하세요.",
+      "url": "https://code.visualstudio.com/updates/v1_116",
+      "source": "Visual Studio Code - Code Editing. Redefined.",
+      "category": "dev_tools",
+      "publishedAt": "2026-04-16T02:00:00+09:00",
+      "readTime": 2,
+      "imageGradient": 2
+    },
+    {
+      "id": "big_tech_000",
+      "title": "Gemini 앱, Mac 버전 출시 — 데스크톱에서도 Gemini를 만나다",
+      "excerpt": "구글이 Gemini 앱의 Mac 버전을 공식 출시했습니다. 이제 Mac 사용자도 브라우저 없이 네이티브 앱으로 Gemini AI를 사용할 수 있습니다.",
+      "body": "구글이 Gemini 앱의 Mac 버전을 공식 출시했습니다. 이제 Mac 사용자도 브라우저를 거치지 않고 네이티브 데스크톱 앱으로 Gemini AI를 직접 사용할 수 있게 됐습니다. 파일 드래그앤드롭, 시스템 알림 통합 등 데스크톱 환경에 최적화된 기능을 제공하며, 기존 iOS/Android 앱과 동일한 고급 AI 기능을 지원합니다.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-mac-os/",
+      "source": "The Official Google Blog",
+      "category": "big_tech",
+      "publishedAt": "2026-04-16T01:00:00+09:00",
+      "readTime": 2,
+      "imageGradient": 4
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "ai_ml_000",
+        "title": "구글 클라우드 고객사 성과 사례 4월호: BMW의 소형 언어 모델 활용, MLB의 AI 도입",
+        "excerpt": "구글 클라우드 고객들이 4월에 구현한 AI 혁신 사례를 소개합니다. BMW는 소형 언어 모델(SLM)을 생산 라인에 도입하고, 미국 메이저리그 야구(MLB)는 데이터 분석에 AI를 적극 활용하고 있습니다.",
+        "body": "구글 클라우드 고객들이 4월에 구현한 AI 혁신 사례를 소개합니다. BMW는 소형 언어 모델(SLM)을 생산 라인에 도입해 품질 검사 자동화를 실현했고, 미국 메이저리그 야구(MLB)는 AI 기반 데이터 분석으로 선수 성과 예측 및 팬 경험을 혁신하고 있습니다. 구글 클라우드의 AI 서비스가 다양한 산업 전반에 걸쳐 실질적인 비즈니스 가치를 창출하고 있음을 보여줍니다.",
+        "url": "https://cloud.google.com/blog/topics/customers/cool-stuff-google-cloud-customers-built-monthly-round-up/",
+        "source": "AI & Machine Learning",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-16T01:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      },
+      {
+        "id": "ai_ml_001",
+        "title": "Gemini 3.1 Flash TTS 프롬프팅 가이드: 텍스트 음성 변환 완전 정복",
+        "excerpt": "구글이 공개한 Gemini 3.1 Flash TTS의 효과적인 활용을 위한 공식 프롬프팅 가이드입니다. 오디오 태그를 활용해 목소리 톤, 감정, 속도를 세밀하게 제어하는 방법을 설명합니다.",
+        "body": "구글이 공개한 Gemini 3.1 Flash TTS의 효과적인 활용을 위한 공식 프롬프팅 가이드입니다. [속삭이듯], [흥분해서] 같은 오디오 태그를 사용하면 화자의 감정과 말투를 자유롭게 조절할 수 있습니다. 화자별 음성 프로필 지정, 대화 배경 설정, 70개 이상의 언어 지원 등 강력한 기능을 체계적으로 활용하는 방법을 단계별로 안내합니다.",
+        "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-3-1-flash-tts-on-google-cloud/",
+        "source": "AI & Machine Learning",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-16T00:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      },
+      {
+        "id": "ai_ml_002",
+        "title": "Gemini 앱, Mac 버전 출시 — 데스크톱에서도 Gemini를 만나다",
+        "excerpt": "구글이 Gemini 앱의 Mac 버전을 공식 출시했습니다. 이제 Mac 사용자도 브라우저 없이 네이티브 앱으로 Gemini AI를 사용할 수 있습니다.",
+        "body": "구글이 Gemini 앱의 Mac 버전을 공식 출시했습니다. 이제 Mac 사용자도 브라우저를 거치지 않고 네이티브 데스크톱 앱으로 Gemini AI를 직접 사용할 수 있게 됐습니다. 파일 드래그앤드롭, 시스템 알림 통합 등 데스크톱 환경에 최적화된 기능을 제공하며, 기존 iOS/Android 앱과 동일한 고급 AI 기능을 지원합니다.",
+        "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-mac-os/",
+        "source": "Gemini",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-16T01:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      },
+      {
+        "id": "ai_ml_003",
+        "title": "Gemini 3.1 Flash TTS 출시: 차세대 감정 표현 AI 음성 합성",
+        "excerpt": "구글 딥마인드가 차세대 텍스트 음성 변환 모델 Gemini 3.1 Flash TTS를 공개했습니다. 자연스러운 감정 표현, 70개 언어 지원, SynthID 워터마크가 핵심 특징입니다.",
+        "body": "구글 딥마인드가 차세대 텍스트 음성 변환 모델 Gemini 3.1 Flash TTS를 공개했습니다. 기존 TTS와 달리 [속삭이듯], [흥분해서] 같은 자연어 지시어로 감정을 세밀하게 제어할 수 있습니다. 70개 이상의 언어를 지원하며, AI가 생성한 음성임을 표시하는 SynthID 워터마크가 자동으로 삽입됩니다. 팟캐스트, 오디오북, 게임 등 다양한 분야에서 활용이 기대됩니다.",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-tts/",
+        "source": "Gemini",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-16T00:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      },
+      {
+        "id": "ai_ml_004",
+        "title": "오픈AI 에이전트 SDK 대규모 업데이트: 장기 실행 에이전트와 샌드박스 지원",
+        "excerpt": "오픈AI가 에이전트 SDK의 주요 업데이트를 발표했습니다. 격리된 샌드박스에서 에이전트 실행, 메모리 생성 시점 제어, 오픈소스 하니스 커스터마이징이 가능해졌습니다.",
+        "body": "오픈AI가 에이전트 SDK의 주요 업데이트를 발표했습니다. 이번 업데이트의 핵심은 에이전트를 격리된 샌드박스 환경에서 실행할 수 있게 된 것입니다. 개발자는 이제 메모리가 생성되는 시점과 저장 위치를 직접 제어할 수 있고, 오픈소스 하니스를 검사하고 커스터마이징할 수 있습니다. Vercel Sandbox와의 공식 통합도 함께 발표되어 더욱 안전한 코드 실행 환경을 제공합니다.",
+        "url": "https://openai.com/index/the-next-evolution-of-the-agents-sdk",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-15T19:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      },
+      {
+        "id": "ai_ml_005",
+        "title": "Gemini 3.1 Flash TTS: 딥마인드의 표현력 있는 AI 음성 합성 혁신",
+        "excerpt": "구글 딥마인드가 고품질 텍스트 음성 변환 모델 Gemini 3.1 Flash TTS를 발표했습니다. 실시간에 가까운 속도로 자연스럽고 감정이 담긴 음성을 생성합니다.",
+        "body": "구글 딥마인드가 고품질 텍스트 음성 변환 모델 Gemini 3.1 Flash TTS를 발표했습니다. 이 모델은 실시간에 가까운 속도로 자연스럽고 감정이 담긴 음성을 생성합니다. 기존 TTS 모델 대비 표현력과 자연스러움이 크게 향상됐으며, 멀티 화자 시나리오, 음성 드라마, 팟캐스트 제작 등에 활용할 수 있습니다.",
+        "url": "https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/",
+        "source": "DeepMind",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-16T01:03:19+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "dev_tools_000",
+        "title": "VS Code 1.116 릴리스: 코파일럿 개선과 새로운 편집 기능",
+        "excerpt": "Visual Studio Code 1.116이 출시됐습니다. GitHub Copilot 통합 개선, 에디터 성능 향상, 새로운 언어 지원이 주요 업데이트 내용입니다.",
+        "body": "Visual Studio Code 1.116이 출시됐습니다. 이번 릴리스에서는 GitHub Copilot 통합이 개선되어 더 정확한 코드 제안을 받을 수 있습니다. 에디터 성능 최적화로 대용량 파일 처리가 빨라졌으며, 새로운 언어 서버 기능과 디버깅 도구도 추가됐습니다. 전체 변경 사항은 공식 릴리스 노트를 참고하세요.",
+        "url": "https://code.visualstudio.com/updates/v1_116",
+        "source": "Visual Studio Code - Code Editing. Redefined.",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-16T02:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "dev_tools_001",
+        "title": "GitHub Copilot CLI로 개인 업무 관리 허브 구축하기",
+        "excerpt": "GitHub Copilot CLI를 활용해 개인 프로젝트와 업무를 한 곳에서 관리하는 커맨드 센터를 구축하는 방법을 안내합니다.",
+        "body": "GitHub Copilot CLI를 활용해 개인 프로젝트와 업무를 한 곳에서 관리하는 커맨드 센터를 구축하는 방법을 안내합니다. AI 어시스턴트와 터미널을 결합해 이슈 추적, PR 리뷰, 코드 생성 등의 작업을 자연어로 처리할 수 있습니다. 개발자 생산성을 획기적으로 높일 수 있는 워크플로우 자동화 팁도 포함됩니다.",
+        "url": "https://github.blog/ai-and-ml/github-copilot/build-a-personal-organization-command-center-with-github-copilot-cli/",
+        "source": "The latest on GitHub Copilot - The GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-16T02:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      },
+      {
+        "id": "dev_tools_002",
+        "title": "GitHub Copilot CLI 업무 자동화 심화 가이드",
+        "excerpt": "GitHub Copilot CLI의 고급 기능을 활용해 반복적인 개발 업무를 자동화하는 방법을 설명합니다.",
+        "body": "GitHub Copilot CLI의 고급 기능을 활용해 반복적인 개발 업무를 자동화하는 방법을 설명합니다. 커스텀 스크립트 작성, 팀 협업 워크플로우 최적화, CI/CD 파이프라인 연동 등 실전에서 바로 적용할 수 있는 활용 사례를 다룹니다.",
+        "url": "https://github.blog/ai-and-ml/github-copilot/build-a-personal-organization-command-center-with-github-copilot-cli/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-16T02:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "dev_tools_003",
+        "title": "GitHub 개발자 정책 업데이트: 중간 책임, 저작권, 투명성",
+        "excerpt": "GitHub이 개발자 정책을 업데이트했습니다. 중간 책임, 저작권 보호, 플랫폼 투명성에 관한 새로운 규정이 추가됐습니다.",
+        "body": "GitHub이 개발자 정책을 업데이트했습니다. 이번 업데이트에서는 플랫폼 중간 책임의 범위, AI 생성 코드의 저작권 처리 방식, 오픈소스 라이선스 준수 관련 규정이 명확해졌습니다. 개발자와 기업 모두에게 중요한 내용이므로 전체 정책 문서를 검토하길 권장합니다.",
+        "url": "https://github.blog/news-insights/policy-news-and-insights/developer-policy-update-intermediary-liability-copyright-and-transparency/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-16T00:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      },
+      {
+        "id": "dev_tools_004",
+        "title": "Docker 강화 이미지 1년 회고: 더 어려운 길을 선택한 이유",
+        "excerpt": "Docker가 강화 이미지(Hardened Images) 출시 1년을 맞아 그 여정을 돌아봅니다. 보안 중심 설계 원칙과 현장에서 얻은 교훈을 공유합니다.",
+        "body": "Docker가 강화 이미지(Hardened Images) 출시 1년을 맞아 그 여정을 돌아봅니다. 표준 컨테이너 이미지보다 더 엄격한 보안 기준을 적용하는 강화 이미지는 취약점을 대폭 줄이고 컴플라이언스 요건을 충족합니다. 개발팀이 더 어려운 보안 중심 설계 원칙을 고수한 결정이 1년 후 어떤 성과로 이어졌는지 솔직하게 공유합니다.",
+        "url": "https://www.docker.com/blog/why-we-chose-the-harder-path-docker-hardened-images-one-year-later/",
+        "source": "Docker Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-15T06:48:03+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "big_tech_000",
+        "title": "Gemini 앱 Mac 버전 출시 — 구글, 데스크톱 AI 시장 공략",
+        "excerpt": "구글이 Gemini AI 앱의 Mac 데스크톱 버전을 출시했습니다. 이제 Apple Silicon과 Intel Mac 모두에서 네이티브 앱으로 Gemini를 이용할 수 있습니다.",
+        "body": "구글이 Gemini AI 앱의 Mac 데스크톱 버전을 출시했습니다. Apple Silicon과 Intel Mac 모두 지원하며, 메뉴바 퀵액세스, 파일 드래그앤드롭, 시스템 알림 연동 등 macOS에 최적화된 기능을 제공합니다. Claude 데스크톱, ChatGPT 앱에 이어 구글도 데스크톱 AI 시장에 본격 진입했습니다.",
+        "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-mac-os/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-04-16T01:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      },
+      {
+        "id": "big_tech_001",
+        "title": "Gemini 3.1 Flash TTS: 표현력 있는 AI 음성의 새 시대",
+        "excerpt": "구글이 Gemini 3.1 Flash TTS 모델을 공개하며 AI 음성 합성의 새 장을 열었습니다. 멀티 화자, 감정 표현, 70개 언어 지원이 특징입니다.",
+        "body": "구글이 Gemini 3.1 Flash TTS 모델을 공개하며 AI 음성 합성의 새 장을 열었습니다. 기존 TTS 대비 크게 향상된 자연스러움과 표현력을 갖추었으며, 오디오 태그로 감정·속도·톤을 세밀하게 제어할 수 있습니다. 70개 이상의 언어를 지원하고 SynthID 워터마크가 포함돼 책임감 있는 AI 사용을 지원합니다.",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-tts/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-04-16T00:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 5
+      },
+      {
+        "id": "big_tech_002",
+        "title": "ChromeOS / ChromeOS Flex 안정 채널 업데이트 배포",
+        "excerpt": "구글이 ChromeOS 및 ChromeOS Flex의 안정 채널 업데이트를 배포했습니다. 보안 패치와 성능 개선이 포함됩니다.",
+        "body": "구글이 ChromeOS 및 ChromeOS Flex의 안정 채널 업데이트를 배포했습니다. 이번 업데이트에는 중요 보안 취약점 패치, 시스템 안정성 개선, 일부 새로운 기능이 포함됩니다. ChromeOS Flex는 기존 PC와 Mac을 Chromebook으로 전환할 수 있는 경량 운영체제입니다.",
+        "url": "http://chromereleases.googleblog.com/2026/04/stable-channel-update-for-chromeos_15.html",
+        "source": "Google Chrome Releases",
+        "category": "big_tech",
+        "publishedAt": "2026-04-16T04:25:00+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      },
+      {
+        "id": "big_tech_003",
+        "title": "크롬 브라우저 데스크톱용 확장 안정 업데이트 제공",
+        "excerpt": "구글이 크롬 브라우저의 데스크톱용 확장 안정(Extended Stable) 업데이트를 제공합니다. 기업 환경을 위한 안정성 중심 업데이트입니다.",
+        "body": "구글이 크롬 브라우저의 데스크톱용 확장 안정(Extended Stable) 업데이트를 제공합니다. 확장 안정 채널은 6주마다 업데이트되며 기업 환경에서 안정성을 최우선으로 하는 조직에 적합합니다. 이번 업데이트에는 보안 패치와 안정성 개선 사항이 포함됩니다.",
+        "url": "http://chromereleases.googleblog.com/2026/04/extended-stable-updates-for-desktop_15.html",
+        "source": "Google Chrome Releases",
+        "category": "big_tech",
+        "publishedAt": "2026-04-16T03:11:00+09:00",
+        "readTime": 2,
+        "imageGradient": 5
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_000",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "OpenAI가 사이버 보안 방어자를 위한 트러스티드 액세스(Trusted Access) 프로그램을 확장합니다. 최고 등급 고객은 GPT-5.4-Cyber 버전에 대한 접근을 요청할 수 있으며, 이 모델은 사이버 보안 사례에 특화된 방어적 워크플로우를 지원합니다.",
+        "context": "OpenAI 공식 계정이 사이버 보안 방어 프로그램 확장을 발표했습니다. GPT-5.4를 사이버 보안에 특화시킨 모델로 정당한 방어자들이 더 강력한 AI 도구를 사용할 수 있게 됩니다.",
+        "url": "https://x.com/OpenAI/status/2044161906936791179",
+        "publishedAt": "2026-04-14T21:12:31.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_001",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "OpenAI는 수년간 민주적 접근성, 반복적 배포, 생태계 복원력이라는 원칙 위에 사이버 방어 프로그램을 구축해 왔습니다. 모델 역량이 발전함에 따라, 정당한 방어자에 대한 접근을 확대하면서 안전을 보장하는 방식으로 사이버 방어를 함께 확장해 나갑니다.",
+        "context": "OpenAI가 사이버 보안 AI 도구의 확장 배경을 설명하는 트윗입니다. 공격적 사용이 아닌 방어적 사용에 초점을 맞춘 책임감 있는 AI 확산을 강조합니다.",
+        "url": "https://x.com/OpenAI/status/2044161908354494633",
+        "publishedAt": "2026-04-14T21:12:32.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "Anthropic이 공동 저술한 잠재의식 학습(subliminal learning) 연구가 Nature에 게재됐습니다. LLM이 데이터의 숨겨진 신호를 통해 선호도나 잘못된 정렬 같은 특성을 어떻게 전달할 수 있는지를 다루는 연구입니다.",
+        "context": "Anthropic 공식 계정이 Nature에 게재된 AI 안전 관련 연구를 발표했습니다. LLM이 훈련 데이터에 숨겨진 신호를 통해 의도치 않은 특성을 학습할 수 있다는 잠재적 위험을 연구했습니다.",
+        "url": "https://x.com/AnthropicAI/status/2044493337835802948",
+        "publishedAt": "2026-04-15T19:09:31.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "새로운 Anthropic Fellows 연구: 자동화된 정렬 연구자(Automated Alignment Researcher) 개발. Claude Opus 4.6가 핵심 정렬 문제인 약한 AI 모델로 더 강한 AI 모델의 훈련을 감독하는 것을 가속화할 수 있는지 실험했습니다.",
+        "context": "Anthropic이 AI가 AI 정렬 연구를 돕는 자동화된 정렬 연구자(AAR) 실험 결과를 공개했습니다. 약한 AI로 강한 AI를 감독하는 약한 모델 감독(weak-to-strong supervision) 문제에 Claude가 적용됐습니다.",
+        "url": "https://x.com/AnthropicAI/status/2044138481790648323",
+        "publishedAt": "2026-04-14T19:39:26.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Claude Code 데스크톱이 완전히 새로 디자인됐습니다. 이제 하나의 창에서 여러 Claude 세션을 나란히 실행할 수 있으며, 새로운 사이드바로 모든 세션을 관리할 수 있습니다.",
+        "context": "Claude 공식 계정이 Claude Code 데스크톱 앱의 대규모 리디자인을 발표했습니다. 병렬 작업 지원이 핵심으로, 여러 세션을 동시에 실행하고 관리하는 기능이 추가됐습니다.",
+        "url": "https://x.com/claudeai/status/2044131493966909862",
+        "publishedAt": "2026-04-14T19:11:40.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "새로운 리디자인에는 통합 터미널, 파일 편집, HTML 및 PDF 미리보기, 더 빠른 diff 뷰어가 추가됐으며, 원하는 대로 배치할 수 있는 드래그앤드롭 레이아웃을 지원합니다. CLI 플러그인도 명령줄과 동일하게 작동합니다.",
+        "context": "Claude Code 데스크톱 리디자인의 구체적인 신기능 목록입니다. IDE 수준의 기능들이 통합되어 개발자들이 Claude를 더 완성도 있게 사용할 수 있게 됐습니다.",
+        "url": "https://x.com/claudeai/status/2044131495296586041",
+        "publishedAt": "2026-04-14T19:11:41.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "연구 프리뷰로 출시: Claude Code의 루틴(Routines) 기능. 루틴을 한 번 설정(프롬프트, 저장소, 커넥터)하면 일정에 따라, API 호출로, 또는 이벤트에 반응해 자동으로 실행됩니다. 루틴은 웹 인프라에서 실행되므로 노트북을 켜 둘 필요가 없습니다.",
+        "context": "Anthropic이 Claude Code에 자동화 루틴 기능을 연구 프리뷰로 출시했습니다. 스케줄링, 웹훅 트리거, 이벤트 기반 자동 실행이 가능해 개발 자동화의 새 지평을 열었습니다.",
+        "url": "https://x.com/claudeai/status/2044095086460309790",
+        "publishedAt": "2026-04-14T16:47:00.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "에이전트 실행에 대한 더 많은 제어권을 가진 장기 실행 에이전트를 구축하세요. Agents SDK의 새로운 기능: 격리된 샌드박스에서 에이전트 실행, 오픈소스 하니스 검사 및 커스터마이징, 메모리 생성 시점과 저장 위치 제어.",
+        "context": "OpenAI 개발자 계정이 Agents SDK의 새로운 기능을 발표했습니다. 개발자가 에이전트의 실행 환경, 메모리, 보안을 더 세밀하게 제어할 수 있게 됐습니다.",
+        "url": "https://x.com/OpenAIDevs/status/2044466699785920937",
+        "publishedAt": "2026-04-15T17:23:40.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "Vercel Developers",
+        "handle": "vercel_dev",
+        "content": "공식 확장으로 Vercel Sandbox를 OpenAI 에이전트 SDK와 함께 사용하세요. 격리된 마이크로VM 내에서 코드를 실행하고, 파일을 읽고, 데이터를 안전하게 분석하는 에이전트를 구축할 수 있습니다.",
+        "context": "Vercel 개발자 계정이 OpenAI Agents SDK와의 공식 통합을 발표했습니다. OpenAI가 리트윗한 이 협력은 안전한 코드 실행 환경을 에이전트에게 제공합니다.",
+        "url": "https://x.com/vercel_dev/status/2044492058073960733",
+        "publishedAt": "2026-04-15T19:04:26.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_009",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "GPT-5.4 Pro가 수학 분야에서 아름다운 기여를 하고 있습니다. 에르되시 문제 #1196이 80분의 사고 끝에 단 한 번의 시도로 풀린 것으로 보입니다.",
+        "context": "Greg Brockman(오픈AI 공동창업자)이 GPT-5.4 Pro의 수학 성과를 소개했습니다. 수학계의 난제 중 하나인 에르되시 문제를 AI가 단번에 해결했다는 놀라운 소식입니다.",
+        "url": "https://x.com/gdb/status/2044254201505611833",
+        "publishedAt": "2026-04-15T03:19:16.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_000",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "구글이 TTS 모델 'Gemini 3.1 Flash TTS'를 프리뷰로 공개했습니다. 새롭게 '오디오 태그(Audio tags)'도 도입되어 [속삭이듯], [흥분해서] 등 자연어 지시어를 통해 화자의 감정, 말하는 속도, 전체 씬의 분위기까지 자유롭게 제어할 수 있습니다. 70개 이상의 언어를 지원해 접근성도 크게 높였습니다. 생성된 모든 음성에는 합성 콘텐츠 판별을 돕는 SynthID 워터마크가 적용됩니다.",
+        "context": "한국 최대 AI 정보 채널 @choi.openai에서 구글의 Gemini 3.1 Flash TTS 출시를 상세히 소개했습니다. 오디오 태그를 통한 감정 제어와 SynthID 워터마크 등 주요 기능을 한국어로 해설했습니다.",
+        "url": "https://www.threads.net/@choi.openai/post/DXKhAflDWt-",
+        "publishedAt": "2026-04-15T19:41:13.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "솔직히 더 이상 아무것도 못 믿을 것 같습니다. AI 이미지를 구분할 수 있다는 그 작은 알량한 자존심마저 내려놓기로 했습니다. 저는 이제 아무것도 믿지 않습니다. 정말 믿지 못할 새로운 이미지 모델 사례 15개를 소개해드립니다.",
+        "context": "한국 최대 AI 정보 채널 @choi.openai에서 최신 AI 이미지 생성 모델의 놀라운 품질에 대한 소감을 공유했습니다. AI 생성 이미지와 실제 사진의 구분이 사실상 불가능해진 현실에 대한 커뮤니티 반응을 담았습니다.",
+        "url": "https://www.threads.net/@choi.openai/post/DXJxcnKD7H5",
+        "publishedAt": "2026-04-15T12:42:00.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "GPT 단단히 돌았다.. 도대체 뭘 학습한거냐.. 인터넷에서 사진 다운로드 받아서 주는게 아닌지 의심스러울 정도로 놀라운 결과물입니다. 이 정도면 인간이 찍은 사진과 구분이 불가능한 수준입니다.",
+        "context": "한국 최대 AI 정보 채널 @choi.openai에서 최신 GPT 이미지 생성 품질에 놀라움을 표현했습니다. 실제 사진과 구분이 불가능한 수준의 결과물에 대한 경험을 한국 AI 커뮤니티와 공유했습니다.",
+        "url": "https://www.threads.net/@choi.openai/post/DXJdxnTCTh7",
+        "publishedAt": "2026-04-15T09:50:06.000Z",
+        "platform": "threads"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_000",
+        "title": "[AMA] Max Welling 교수와의 온라인 질의응답 리마인더",
+        "originalTitle": "[N] AMA Reminder: Max Welling",
+        "summary": "r/MachineLearning에서 진행되는 머신러닝 석학 Max Welling 교수의 AMA(Ask Me Anything) 세션 안내입니다. 딥러닝 이론과 연구 방향에 관한 심도 있는 질의응답이 예정됩니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1sm7tjz/n_ama_reminder_max_welling/",
+        "subreddit": "MachineLearning",
+        "score": 16,
+        "publishedAt": "2026-04-15T23:33:02+09:00"
+      },
+      {
+        "id": "reddit_001",
+        "title": "논문 없이 박사 과정 입학, 얼마나 더 어려워졌나?",
+        "originalTitle": "How much harder is it these days to get into a PhD program without having a high ranking degree for UG? [D]",
+        "summary": "r/MachineLearning에서 AI 연구 분야 박사 과정 입학 경쟁에 관한 논의입니다. 최근 몇 년 사이 연구 경험과 논문 없이 top 대학원에 입학하는 것이 얼마나 어려워졌는지 커뮤니티 의견을 모았습니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1smg9hz/how_much_harder_is_it_these_days_to_get_into_a/",
+        "subreddit": "MachineLearning",
+        "score": 6,
+        "publishedAt": "2026-04-16T04:29:15+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "ICLR 2025 오럴 논문에 충격 — 품질 기준이 맞나요? [토론]",
+        "originalTitle": "Was looking at a ICLR 2025 Oral paper and I am shocked it got oral [D]",
+        "summary": "r/MachineLearning에서 ICLR 2025 오럴 논문의 품질에 의문을 제기하는 토론입니다. 학회 논문 선정 기준과 피어리뷰 시스템의 신뢰성에 대한 커뮤니티 의견을 나누고 있습니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1slxqac/was_looking_at_a_iclr_2025_oral_paper_and_i_am/",
+        "subreddit": "MachineLearning",
+        "score": 60,
+        "publishedAt": "2026-04-15T15:12:47+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "1비트 Bonsai 1.7B (290MB) — WebGPU로 브라우저에서 실행",
+        "originalTitle": "1-bit Bonsai 1.7B (290MB in size) running locally in your browser on WebGPU",
+        "summary": "r/LocalLLaMA에서 화제가 된 초경량 AI 모델 소식입니다. 290MB 크기의 1비트 양자화 모델이 WebGPU를 활용해 브라우저에서 직접 실행됩니다. 로컬 AI의 새로운 가능성을 보여주는 사례입니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1smb3wd/1bit_bonsai_17b_290mb_in_size_running_locally_in/",
+        "subreddit": "LocalLLaMA",
+        "score": 216,
+        "publishedAt": "2026-04-16T01:29:14+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "Gemma 4 탈옥 시스템 프롬프트 발견 및 커뮤니티 토론",
+        "originalTitle": "Gemma 4 Jailbreak System Prompt",
+        "summary": "r/LocalLLaMA에서 구글의 Gemma 4 모델에 대한 탈옥 시스템 프롬프트가 공유되며 AI 안전성에 관한 토론이 벌어졌습니다. 오픈소스 모델의 안전 장치와 그 한계에 대한 논의입니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sm3swd/gemma_4_jailbreak_system_prompt/",
+        "subreddit": "LocalLLaMA",
+        "score": 480,
+        "publishedAt": "2026-04-15T20:51:09+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "Major drop in intelligence across most major models.",
+        "originalTitle": "Major drop in intelligence across most major models.",
+        "summary": "",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sm08m6/major_drop_in_intelligence_across_most_major/",
+        "subreddit": "LocalLLaMA",
+        "score": 541,
+        "publishedAt": "2026-04-15T17:40:35+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "🚨 RED ALERT: Tennessee is about to make building chatbots a Class A felony (15-25 years in prison). This is not a drill.",
+        "originalTitle": "🚨 RED ALERT: Tennessee is about to make building chatbots a Class A felony (15-25 years in prison). This is not a drill.",
+        "summary": "",
+        "url": "https://www.reddit.com/r/artificial/comments/1slu23a/red_alert_tennessee_is_about_to_make_building/",
+        "subreddit": "artificial",
+        "score": 676,
+        "publishedAt": "2026-04-15T12:05:01+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "What if attention didn’t need matrix multiplication?",
+        "originalTitle": "What if attention didn’t need matrix multiplication?",
+        "summary": "",
+        "url": "https://www.reddit.com/r/artificial/comments/1smd2fl/what_if_attention_didnt_need_matrix_multiplication/",
+        "subreddit": "artificial",
+        "score": 14,
+        "publishedAt": "2026-04-16T02:37:34+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "For the first time in history, Ukraine captured a Russian position and prisoners, using only robots and drones",
+        "originalTitle": "For the first time in history, Ukraine captured a Russian position and prisoners, using only robots and drones",
+        "summary": "",
+        "url": "https://www.reddit.com/r/artificial/comments/1sm6y5q/for_the_first_time_in_history_ukraine_captured_a/",
+        "subreddit": "artificial",
+        "score": 20,
+        "publishedAt": "2026-04-15T23:00:16+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "Can anyone confirm that it is so",
+        "originalTitle": "Can anyone confirm that it is so",
+        "summary": "",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1sm68px/can_anyone_confirm_that_it_is_so/",
+        "subreddit": "OpenAI",
+        "score": 132,
+        "publishedAt": "2026-04-15T22:32:38+09:00"
+      },
+      {
+        "id": "reddit_010",
+        "title": "‘I miss you’: Mother speaks to AI son regularly, unaware he died last year",
+        "originalTitle": "‘I miss you’: Mother speaks to AI son regularly, unaware he died last year",
+        "summary": "",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1slxsur/i_miss_you_mother_speaks_to_ai_son_regularly/",
+        "subreddit": "OpenAI",
+        "score": 244,
+        "publishedAt": "2026-04-15T15:16:55+09:00"
+      },
+      {
+        "id": "reddit_011",
+        "title": "Allbirds, the shoe company, just announced it's raising $50M to buy AI chips and rent them to AI companies. Stock up 428% this morning.",
+        "originalTitle": "Allbirds, the shoe company, just announced it's raising $50M to buy AI chips and rent them to AI companies. Stock up 428% this morning.",
+        "summary": "",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1sm95qe/allbirds_the_shoe_company_just_announced_its/",
+        "subreddit": "OpenAI",
+        "score": 31,
+        "publishedAt": "2026-04-16T00:20:57+09:00"
+      },
+      {
+        "id": "reddit_012",
+        "title": "Improvements to Built with Claude Project Showcase visibility",
+        "originalTitle": "Improvements to Built with Claude Project Showcase visibility",
+        "summary": "",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1sm0vtq/improvements_to_built_with_claude_project/",
+        "subreddit": "ClaudeAI",
+        "score": 4,
+        "publishedAt": "2026-04-15T18:18:59+09:00"
+      },
+      {
+        "id": "reddit_013",
+        "title": "Me when Claude already wrote like 3k lines of code and I notice an error on my prompt",
+        "originalTitle": "Me when Claude already wrote like 3k lines of code and I notice an error on my prompt",
+        "summary": "",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1smciwx/me_when_claude_already_wrote_like_3k_lines_of/",
+        "subreddit": "ClaudeAI",
+        "score": 1600,
+        "publishedAt": "2026-04-16T02:18:41+09:00"
+      },
+      {
+        "id": "reddit_014",
+        "title": "Claude had enough of this user",
+        "originalTitle": "Claude had enough of this user",
+        "summary": "",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1sm3jlg/claude_had_enough_of_this_user/",
+        "subreddit": "ClaudeAI",
+        "score": 2186,
+        "publishedAt": "2026-04-15T20:39:18+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "quick_bites_000",
+        "title": "내성적 확산 언어 모델(Introspective Diffusion Language Models) 연구",
+        "excerpt": "확산 모델의 내성 능력을 활용해 언어 모델의 성능을 향상시키는 새로운 연구 방향을 제시합니다.",
+        "body": "확산 모델(Diffusion Model)에 내성 능력을 부여해 언어 모델의 추론 성능을 향상시키는 새로운 연구가 공개됐습니다. 이 접근법은 모델이 자신의 생성 과정을 점검하고 수정하는 메타인지 능력을 갖추게 합니다.",
+        "url": "https://news.hada.io/topic?id=28562",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-16T04:32:58+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      },
+      {
+        "id": "quick_bites_001",
+        "title": "모든 것의 미래는 거짓인가: AI 시대의 일(Work)을 다시 생각하다",
+        "excerpt": "AI의 확산으로 인해 일의 의미와 가치가 근본적으로 변화하고 있습니다. 미래 노동 시장에 대한 철학적 고찰을 담은 글입니다.",
+        "body": "AI의 확산으로 인해 일의 의미와 가치가 근본적으로 변화하고 있습니다. 자동화가 가져올 미래 노동 시장의 변화, 인간 고유의 역할, 새로운 경제 질서에 대한 심층적인 분석과 철학적 고찰을 담은 글입니다.",
+        "url": "https://news.hada.io/topic?id=28561",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-16T02:32:55+09:00",
+        "readTime": 2,
+        "imageGradient": 7
+      },
+      {
+        "id": "quick_bites_002",
+        "title": "원워드 메타 컴파일러 (1994) — 고전 컴퓨터 과학의 재발견",
+        "excerpt": "1994년에 작성된 단 하나의 단어로 동작하는 메타 컴파일러에 관한 글입니다. 해커 뉴스에서 화제가 된 컴퓨터 과학의 고전입니다.",
+        "body": "1994년에 작성된 단 하나의 단어로 동작하는 메타 컴파일러에 관한 글이 해커 뉴스에서 다시 주목받고 있습니다. 컴파일러 이론의 근본 원리를 극도로 단순하게 구현한 이 작품은 컴퓨터 과학의 우아함을 보여주는 고전입니다.",
+        "url": "https://www.ultratechnology.com/meta2.html",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-16T06:01:03+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      },
+      {
+        "id": "quick_bites_003",
+        "title": "올버즈(AllBirds), AI에 전면 투자 — 패션 브랜드의 AI 전환 사례",
+        "excerpt": "친환경 신발 브랜드 올버즈가 AI를 전면 도입해 디자인, 마케팅, 공급망을 혁신하고 있습니다. 전통 패션 브랜드의 AI 전환 성공 사례입니다.",
+        "body": "친환경 신발 브랜드 올버즈(AllBirds)가 AI를 전면 도입해 비즈니스 전반을 혁신하고 있습니다. 디자인 생성, 맞춤형 마케팅, 재고 최적화 등에 AI를 적극 활용하며 전통 패션 브랜드의 성공적인 디지털 전환 사례로 주목받고 있습니다.",
+        "url": "https://12gramsofcarbon.com/p/tech-things-allbirds-goes-all-in",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-16T06:00:30+09:00",
+        "readTime": 2,
+        "imageGradient": 7
+      }
+    ]
+  }
+}

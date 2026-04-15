@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-04-16",
+      "issueNumber": 19,
+      "mainHeadline": "Gemini 3.1 Flash TTS 출시: 차세대 감정 표현 AI 음성 합성",
+      "headlines": [
+        "오픈AI 에이전트 SDK 대규모 업데이트: 장기 실행 에이전트와 샌드박스 지원",
+        "Gemini 앱, Mac 버전 출시 — 데스크톱에서도 Gemini를 만나다",
+        "VS Code 1.116 릴리스: 코파일럿 개선과 새로운 편집 기능"
+      ]
+    },
+    {
       "date": "2026-04-15",
       "issueNumber": 18,
       "mainHeadline": "Claude Code 데스크톱 대규모 재설계 — 병렬 세션·통합 터미널 지원",
