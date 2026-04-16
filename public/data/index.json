@@ -1,6 +1,17 @@
 {
   "issues": [
     {
+      "date": "2026-04-17",
+      "issueNumber": 20,
+      "mainHeadline": "Claude Opus 4.7 vs Codex 컴퓨터 제어 — AI 에이전트 전쟁, 새 국면",
+      "headlines": [
+        "Claude Opus 4.7 출시 — 추론·에이전트·코딩 전 영역에서 역대 최고 성능",
+        "OpenAI Codex, 이제 컴퓨터를 직접 제어한다 — 브라우저·소프트웨어 자율 조작",
+        "GPT-Rosalind 공개 — 생명과학 특화 AI, MedQA 94.2% 달성",
+        "Chrome에 AI 모드 도입 — 브라우저가 웹을 대신 이해하고 답한다"
+      ]
+    },
+    {
       "date": "2026-04-16",
       "issueNumber": 19,
       "mainHeadline": "Gemini 3.1 Flash TTS 출시: 차세대 감정 표현 AI 음성 합성",
