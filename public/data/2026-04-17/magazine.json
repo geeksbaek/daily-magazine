@@ -1,585 +1,770 @@
 {
+  "date": "2026-04-17",
+  "issueNumber": 20,
   "cover": {
-    "date": "2026-04-17",
-    "issueNumber": 20,
     "mainHeadline": "Claude Opus 4.7 vs Codex 컴퓨터 제어 — AI 에이전트 전쟁, 새 국면",
-    "subHeadline": "앤트로픽과 OpenAI, 같은 날 플래그십 업데이트 공개… GPT-Rosalind·Qwen3.6도 AI 전선 합류",
-    "readTime": 12
+    "mainExcerpt": "Anthropic과 OpenAI가 같은 날 플래그십 업데이트를 공개했습니다. Claude Opus 4.7은 추론·에이전트·코딩 전 영역에서 역대 최고 성능을, Codex는 컴퓨터를 직접 제어하는 능력을 갖췄습니다. GPT-Rosalind와 Qwen3.6도 AI 전선에 합류하며 2026년 4월의 AI 경쟁이 새로운 국면을 맞이했습니다.",
+    "headlines": [
+      "OpenAI Codex, 이제 컴퓨터를 직접 제어한다 — 브라우저·소프트웨어 자율 조작",
+      "GPT-Rosalind 공개 — 생명과학 특화 AI, MedQA 94.2% 달성",
+      "Chrome에 AI 모드 도입 — 브라우저가 웹을 대신 이해하고 답한다",
+      "VS Code 1.117 릴리스 — Copilot 에이전트 모드 GA, 인라인 채팅 개선"
+    ]
   },
   "highlights": [
     {
-      "type": "Article",
+      "id": "ai_ml_000",
       "title": "Claude Opus 4.7 출시 — 추론·에이전트·코딩 전 영역에서 역대 최고 성능",
-      "excerpt": "Anthropic이 Claude Opus 4.7을 공개했습니다. 복잡한 추론, 에이전트 작업, 코딩 전 영역에서 이전 Opus 모델을 능가하며 특히 긴 컨텍스트 처리와 Tool Use 조합에서 체감 성능이 크게 향상됐습니다. 가격은 입력 $15/MTok, 출력 $75/MTok으로 API와 Claude.ai 양쪽에서 즉시 사용 가능합니다.",
+      "excerpt": "Anthropic이 Claude Opus 4.7을 공개했습니다. 복잡한 추론, 에이전트 작업, 코딩에서 이전 Opus를 능가하며 특히 긴 컨텍스트 처리와 Tool Use 조합에서 체감 성능이 크게 향상됐습니다.",
+      "body": "Anthropic이 Claude Opus 4.7을 공개했습니다. 복잡한 추론, 에이전트 작업, 코딩 전 영역에서 이전 Opus 모델을 능가하며 특히 긴 컨텍스트 처리와 Tool Use 조합에서 체감 성능이 크게 향상됐습니다. 가격은 입력 $15/MTok, 출력 $75/MTok으로 API와 Claude.ai 양쪽에서 즉시 사용 가능합니다. 시스템 카드도 함께 공개되어 기만적 정렬과 권력 추구 행동에 대한 새로운 안전 평가 결과를 담고 있습니다.",
       "url": "https://news.hada.io/topic?id=28602",
       "source": "GeekNews",
-      "category": "AI/ML",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-17T02:30:00+00:00",
       "readTime": 4,
-      "publishedAt": "2026-04-17T02:30:00+00:00"
+      "imageGradient": 0
     },
     {
-      "type": "Article",
+      "id": "ai_ml_001",
       "title": "OpenAI Codex, 이제 컴퓨터를 직접 제어한다 — 브라우저·소프트웨어 자율 조작",
-      "excerpt": "OpenAI가 Codex에 컴퓨터 제어(Computer Use) 기능을 추가했습니다. 웹 탐색, 코드 실행, 소프트웨어 조작을 에이전트가 스스로 수행하는 '거의 모든 것을 위한 Codex'가 ChatGPT Pro·Team 플랜에서 제공됩니다. 개발자들이 잠자는 동안에도 작업을 위임할 수 있는 새로운 단계에 진입했습니다.",
+      "excerpt": "OpenAI가 Codex에 컴퓨터 제어 기능을 추가했습니다. 웹 탐색, 코드 실행, 소프트웨어 조작을 에이전트가 스스로 수행하는 '거의 모든 것을 위한 Codex'가 ChatGPT Pro·Team에서 제공됩니다.",
+      "body": "OpenAI가 Codex에 컴퓨터 제어(Computer Use) 기능을 추가했습니다. 웹 탐색, 코드 실행, 소프트웨어 조작을 에이전트가 스스로 수행하는 '거의 모든 것을 위한 Codex'가 ChatGPT Pro·Team 플랜에서 제공됩니다. 개발자들이 잠자는 동안에도 작업을 위임할 수 있는 새로운 단계에 진입했으며, 브라우저 기반 작업 자동화와 GUI 소프트웨어 조작이 핵심 기능입니다.",
       "url": "https://openai.com/index/codex-for-almost-everything",
       "source": "OpenAI",
-      "category": "AI/ML",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-16T22:00:00+00:00",
       "readTime": 5,
-      "publishedAt": "2026-04-16T22:00:00+00:00"
+      "imageGradient": 1
     },
     {
-      "type": "Article",
+      "id": "ai_ml_002",
       "title": "GPT-Rosalind 공개 — 생명과학 특화 AI, MedQA 94.2% 달성",
-      "excerpt": "OpenAI가 생명과학 추론에 특화된 GPT-Rosalind를 발표했습니다. 로절린드 프랭클린의 이름을 딴 이 모델은 MedQA 벤치마크에서 94.2%를 기록하며 기존 모든 모델을 앞섰습니다. 임상 연구, 약물 발견, 유전체 분석 분야에서의 AI 가속화를 목표로 합니다.",
+      "excerpt": "OpenAI가 생명과학 추론에 특화된 GPT-Rosalind를 발표했습니다. 로절린드 프랭클린의 이름을 딴 이 모델은 MedQA에서 94.2%를 기록하며 기존 모든 모델을 앞섰습니다.",
+      "body": "OpenAI가 생명과학 추론에 특화된 GPT-Rosalind를 발표했습니다. 로절린드 프랭클린의 이름을 딴 이 모델은 MedQA 벤치마크에서 94.2%를 기록하며 기존 모든 모델을 앞섰습니다. 임상 연구, 약물 발견, 유전체 분석 분야에서의 AI 가속화를 목표로 하며 연구자들이 API를 통해 즉시 이용할 수 있습니다.",
       "url": "https://openai.com/index/introducing-gpt-rosalind",
       "source": "OpenAI",
-      "category": "AI/ML",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-17T00:30:00+00:00",
       "readTime": 4,
-      "publishedAt": "2026-04-17T00:30:00+00:00"
+      "imageGradient": 2
     },
     {
-      "type": "Article",
+      "id": "big_tech_001",
       "title": "Chrome에 AI 모드 도입 — 브라우저가 웹을 대신 이해하고 답한다",
-      "excerpt": "Google이 Chrome에 AI 모드를 추가해 웹 탐색 경험을 근본적으로 바꾸고 있습니다. 사용자가 복잡한 질문을 입력하면 AI가 여러 페이지를 분석해 종합적인 답변을 제공합니다. 검색과 브라우징의 경계가 사라지는 새로운 웹 인터페이스 패러다임입니다.",
+      "excerpt": "Google이 Chrome에 AI 모드를 추가해 웹 탐색 경험을 근본적으로 바꾸고 있습니다. 복잡한 질문을 입력하면 AI가 여러 페이지를 분석해 종합적인 답변을 제공합니다.",
+      "body": "Google이 Chrome에 AI 모드를 추가해 웹 탐색 경험을 근본적으로 바꾸고 있습니다. 사용자가 복잡한 질문을 입력하면 AI가 여러 페이지를 분석해 종합적인 답변을 제공합니다. 검색과 브라우징의 경계가 사라지는 새로운 웹 인터페이스 패러다임으로, 주소창에서 바로 AI 질의가 가능합니다.",
       "url": "https://blog.google/products-and-platforms/products/search/ai-mode-chrome/",
       "source": "Google",
-      "category": "Big Tech",
+      "category": "big_tech",
+      "publishedAt": "2026-04-17T01:30:00+00:00",
       "readTime": 4,
-      "publishedAt": "2026-04-17T01:30:00+00:00"
+      "imageGradient": 3
     },
     {
-      "type": "Article",
+      "id": "ai_ml_003",
       "title": "Gemini 앱, 개인 맞춤 이미지 생성 기능 대폭 강화",
-      "excerpt": "Google이 Gemini 앱에 개인화된 이미지 생성 기능을 대거 추가했습니다. 사용자의 취향과 컨텍스트를 반영해 더욱 정교한 이미지를 생성할 수 있으며, Nano 모델을 활용한 온디바이스 처리로 개인 정보 보호도 강화됐습니다.",
+      "excerpt": "Google이 Gemini 앱에 개인화된 이미지 생성 기능을 대거 추가했습니다. 사용자의 취향과 컨텍스트를 반영하며 Nano 모델 온디바이스 처리로 개인 정보 보호도 강화됐습니다.",
+      "body": "Google이 Gemini 앱에 개인화된 이미지 생성 기능을 대거 추가했습니다. 사용자의 취향과 컨텍스트를 반영해 더욱 정교한 이미지를 생성할 수 있으며, Nano 모델을 활용한 온디바이스 처리로 개인 정보 보호도 강화됐습니다. 얼굴 인식 기반 맞춤 생성과 갤러리 통합 기능도 함께 추가됐습니다.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/personal-intelligence-nano-banana/",
       "source": "Google Gemini",
-      "category": "AI/ML",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-17T00:30:00+00:00",
       "readTime": 3,
-      "publishedAt": "2026-04-17T00:30:00+00:00"
+      "imageGradient": 4
     }
   ],
   "sections": {
-    "ai_ml": {
-      "title": "AI & 머신러닝",
-      "items": [
-        {
-          "type": "Article",
-          "title": "Claude Opus 4.7 출시 — 추론·에이전트·코딩 전 영역에서 역대 최고 성능",
-          "excerpt": "Anthropic이 Claude Opus 4.7을 공개했습니다. 복잡한 추론, 에이전트 작업, 코딩 전 영역에서 이전 Opus 모델을 능가하며 특히 긴 컨텍스트 처리와 Tool Use 조합에서 체감 성능이 크게 향상됐습니다. 가격은 입력 $15/MTok, 출력 $75/MTok으로 API와 Claude.ai 양쪽에서 즉시 사용 가능합니다.",
-          "url": "https://news.hada.io/topic?id=28602",
-          "source": "GeekNews",
-          "category": "AI/ML",
-          "readTime": 4,
-          "publishedAt": "2026-04-17T02:30:00+00:00"
-        },
-        {
-          "type": "Article",
-          "title": "OpenAI Codex, 이제 컴퓨터를 직접 제어한다 — 브라우저·소프트웨어 자율 조작",
-          "excerpt": "OpenAI가 Codex에 컴퓨터 제어(Computer Use) 기능을 추가했습니다. 웹 탐색, 코드 실행, 소프트웨어 조작을 에이전트가 스스로 수행하는 '거의 모든 것을 위한 Codex'가 ChatGPT Pro·Team 플랜에서 제공됩니다. 개발자들이 잠자는 동안에도 작업을 위임할 수 있는 새로운 단계에 진입했습니다.",
-          "url": "https://openai.com/index/codex-for-almost-everything",
-          "source": "OpenAI",
-          "category": "AI/ML",
-          "readTime": 5,
-          "publishedAt": "2026-04-16T22:00:00+00:00"
-        },
-        {
-          "type": "Article",
-          "title": "GPT-Rosalind 공개 — 생명과학 특화 AI, MedQA 94.2% 달성",
-          "excerpt": "OpenAI가 생명과학 추론에 특화된 GPT-Rosalind를 발표했습니다. 로절린드 프랭클린의 이름을 딴 이 모델은 MedQA 벤치마크에서 94.2%를 기록하며 기존 모든 모델을 앞섰습니다. 임상 연구, 약물 발견, 유전체 분석 분야에서의 AI 가속화를 목표로 합니다.",
-          "url": "https://openai.com/index/introducing-gpt-rosalind",
-          "source": "OpenAI",
-          "category": "AI/ML",
-          "readTime": 4,
-          "publishedAt": "2026-04-17T00:30:00+00:00"
-        },
-        {
-          "type": "Article",
-          "title": "Gemini 앱, 개인 맞춤 이미지 생성 기능 대폭 강화",
-          "excerpt": "Google이 Gemini 앱에 개인화된 이미지 생성 기능을 대거 추가했습니다. 사용자의 취향과 컨텍스트를 반영해 더욱 정교한 이미지를 생성할 수 있으며, Nano 모델을 활용한 온디바이스 처리로 개인 정보 보호도 강화됐습니다.",
-          "url": "https://blog.google/innovation-and-ai/products/gemini-app/personal-intelligence-nano-banana/",
-          "source": "Google Gemini",
-          "category": "AI/ML",
-          "readTime": 3,
-          "publishedAt": "2026-04-17T00:30:00+00:00"
-        },
-        {
-          "type": "Article",
-          "title": "Hugging Face: AI가 스스로 열었을 PR — transformers-to-mlx 자동 포팅",
-          "excerpt": "Hugging Face 엔지니어링팀이 '당신이 직접 열었을 PR'을 소개했습니다. AI가 Transformers 모델을 Apple MLX 포맷으로 자동 변환하는 PR을 제안·수정·검토까지 주도한 사례로, 오픈소스 기여 워크플로우에 AI를 통합하는 새로운 패러다임을 보여줍니다.",
-          "url": "https://huggingface.co/blog/transformers-to-mlx",
-          "source": "Hugging Face",
-          "category": "AI/ML",
-          "readTime": 4,
-          "publishedAt": "2026-04-16T08:30:00+00:00"
-        },
-        {
-          "type": "Article",
-          "title": "Claude Opus 4.7, Vertex AI에서 공식 제공 — 엔터프라이즈 워크로드 지원",
-          "excerpt": "Google Cloud Vertex AI가 Claude Opus 4.7을 공식 지원하기 시작했습니다. 엔터프라이즈 워크로드를 위한 멀티 리전 엔드포인트, 보안 제어, 모니터링 기능과 함께 제공되며, Google Cloud 생태계와의 통합으로 기업 고객의 접근성이 높아졌습니다.",
-          "url": "https://cloud.google.com/blog/products/ai-machine-learning/claude-opus-4-7-on-vertex-ai/",
-          "source": "Google Cloud",
-          "category": "AI/ML",
-          "readTime": 3,
-          "publishedAt": "2026-04-16T02:30:00+00:00"
+    "ai_ml": [
+      {
+        "id": "ai_ml_000",
+        "title": "Claude Opus 4.7 출시 — 추론·에이전트·코딩 전 영역에서 역대 최고 성능",
+        "excerpt": "Anthropic이 Claude Opus 4.7을 공개했습니다. 복잡한 추론, 에이전트 작업, 코딩에서 이전 Opus를 능가하며 특히 긴 컨텍스트 처리와 Tool Use 조합에서 체감 성능이 크게 향상됐습니다.",
+        "body": "Anthropic이 Claude Opus 4.7을 공개했습니다. 복잡한 추론, 에이전트 작업, 코딩 전 영역에서 이전 Opus 모델을 능가하며 특히 긴 컨텍스트 처리와 Tool Use 조합에서 체감 성능이 크게 향상됐습니다. 가격은 입력 $15/MTok, 출력 $75/MTok으로 API와 Claude.ai 양쪽에서 즉시 사용 가능합니다. 시스템 카드도 함께 공개되어 기만적 정렬과 권력 추구 행동에 대한 새로운 안전 평가 결과를 담고 있습니다.",
+        "url": "https://news.hada.io/topic?id=28602",
+        "source": "GeekNews",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-17T02:30:00+00:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "ai_ml_001",
+        "title": "OpenAI Codex, 이제 컴퓨터를 직접 제어한다 — 브라우저·소프트웨어 자율 조작",
+        "excerpt": "OpenAI가 Codex에 컴퓨터 제어 기능을 추가했습니다. 웹 탐색, 코드 실행, 소프트웨어 조작을 에이전트가 스스로 수행하는 '거의 모든 것을 위한 Codex'가 ChatGPT Pro·Team에서 제공됩니다.",
+        "body": "OpenAI가 Codex에 컴퓨터 제어(Computer Use) 기능을 추가했습니다. 웹 탐색, 코드 실행, 소프트웨어 조작을 에이전트가 스스로 수행하는 '거의 모든 것을 위한 Codex'가 ChatGPT Pro·Team 플랜에서 제공됩니다. 개발자들이 잠자는 동안에도 작업을 위임할 수 있는 새로운 단계에 진입했으며, 브라우저 기반 작업 자동화와 GUI 소프트웨어 조작이 핵심 기능입니다.",
+        "url": "https://openai.com/index/codex-for-almost-everything",
+        "source": "OpenAI",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-16T22:00:00+00:00",
+        "readTime": 5,
+        "imageGradient": 1
+      },
+      {
+        "id": "ai_ml_002",
+        "title": "GPT-Rosalind 공개 — 생명과학 특화 AI, MedQA 94.2% 달성",
+        "excerpt": "OpenAI가 생명과학 추론에 특화된 GPT-Rosalind를 발표했습니다. 로절린드 프랭클린의 이름을 딴 이 모델은 MedQA에서 94.2%를 기록하며 기존 모든 모델을 앞섰습니다.",
+        "body": "OpenAI가 생명과학 추론에 특화된 GPT-Rosalind를 발표했습니다. 로절린드 프랭클린의 이름을 딴 이 모델은 MedQA 벤치마크에서 94.2%를 기록하며 기존 모든 모델을 앞섰습니다. 임상 연구, 약물 발견, 유전체 분석 분야에서의 AI 가속화를 목표로 하며 연구자들이 API를 통해 즉시 이용할 수 있습니다.",
+        "url": "https://openai.com/index/introducing-gpt-rosalind",
+        "source": "OpenAI",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-17T00:30:00+00:00",
+        "readTime": 4,
+        "imageGradient": 2
+      },
+      {
+        "id": "ai_ml_003",
+        "title": "Gemini 앱, 개인 맞춤 이미지 생성 기능 대폭 강화",
+        "excerpt": "Google이 Gemini 앱에 개인화된 이미지 생성 기능을 대거 추가했습니다. 사용자의 취향과 컨텍스트를 반영하며 Nano 모델 온디바이스 처리로 개인 정보 보호도 강화됐습니다.",
+        "body": "Google이 Gemini 앱에 개인화된 이미지 생성 기능을 대거 추가했습니다. 사용자의 취향과 컨텍스트를 반영해 더욱 정교한 이미지를 생성할 수 있으며, Nano 모델을 활용한 온디바이스 처리로 개인 정보 보호도 강화됐습니다. 얼굴 인식 기반 맞춤 생성과 갤러리 통합 기능도 함께 추가됐습니다.",
+        "url": "https://blog.google/innovation-and-ai/products/gemini-app/personal-intelligence-nano-banana/",
+        "source": "Google Gemini",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-17T00:30:00+00:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "ai_ml_004",
+        "title": "Hugging Face: AI가 스스로 열었을 PR — transformers-to-mlx 자동 포팅",
+        "excerpt": "Hugging Face가 AI가 Transformers 모델을 Apple MLX 포맷으로 자동 변환하는 PR을 제안·수정·검토까지 주도한 사례를 소개했습니다.",
+        "body": "Hugging Face 엔지니어링팀이 '당신이 직접 열었을 PR'을 소개했습니다. AI가 Transformers 모델을 Apple MLX 포맷으로 자동 변환하는 PR을 제안·수정·검토까지 주도한 사례로, 오픈소스 기여 워크플로우에 AI를 통합하는 새로운 패러다임을 보여줍니다. PR 품질은 숙련된 개발자 수준과 동등했습니다.",
+        "url": "https://huggingface.co/blog/transformers-to-mlx",
+        "source": "Hugging Face",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-16T08:30:00+00:00",
+        "readTime": 4,
+        "imageGradient": 4
+      },
+      {
+        "id": "ai_ml_005",
+        "title": "Claude Opus 4.7, Vertex AI에서 공식 제공 — 엔터프라이즈 워크로드 지원",
+        "excerpt": "Google Cloud Vertex AI가 Claude Opus 4.7을 공식 지원하기 시작했습니다. 멀티 리전 엔드포인트, 보안 제어, 모니터링 기능과 함께 제공됩니다.",
+        "body": "Google Cloud Vertex AI가 Claude Opus 4.7을 공식 지원하기 시작했습니다. 엔터프라이즈 워크로드를 위한 멀티 리전 엔드포인트, 보안 제어, 모니터링 기능과 함께 제공되며, Google Cloud 생태계와의 통합으로 기업 고객의 접근성이 높아졌습니다. Vertex AI를 통해 Claude API보다 간편한 청구 및 거버넌스가 가능합니다.",
+        "url": "https://cloud.google.com/blog/products/ai-machine-learning/claude-opus-4-7-on-vertex-ai/",
+        "source": "Google Cloud",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-16T02:30:00+00:00",
+        "readTime": 3,
+        "imageGradient": 0
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "dev_tools_000",
+        "title": "GitHub, eBPF로 배포 안전성 혁신 — 커널 레벨 실시간 모니터링",
+        "excerpt": "GitHub 엔지니어링팀이 eBPF를 활용해 배포 프로세스의 안전성을 높인 방법을 공개했습니다. 커널 레벨에서 시스템 호출을 실시간으로 모니터링해 비정상 동작을 즉시 감지합니다.",
+        "body": "GitHub 엔지니어링팀이 eBPF를 활용해 배포 프로세스의 안전성을 높인 방법을 공개했습니다. 커널 레벨에서 시스템 호출을 실시간으로 모니터링해 비정상적인 동작을 즉시 감지하고, 배포 롤백 결정을 자동화하는 인프라 구조를 소개합니다. eBPF를 통해 성능 오버헤드 없이 심층적인 관측 가능성을 확보한 사례입니다.",
+        "url": "https://github.blog/engineering/infrastructure/how-github-uses-ebpf-to-improve-deployment-safety/",
+        "source": "GitHub Engineering",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-17T00:30:00+00:00",
+        "readTime": 5,
+        "imageGradient": 0
+      },
+      {
+        "id": "dev_tools_001",
+        "title": "왜 MicroVM인가 — Docker Sandboxes의 아키텍처 해부",
+        "excerpt": "Docker가 Sandboxes 기능의 핵심인 MicroVM 아키텍처를 상세히 공개했습니다. 컨테이너 대비 강력한 격리성을 제공하면서도 경량성을 유지하는 이유와 AI 에이전트 실행 환경으로서의 가능성을 설명합니다.",
+        "body": "Docker가 Sandboxes 기능의 핵심인 MicroVM 아키텍처를 상세히 공개했습니다. 전통적인 컨테이너 대비 강력한 격리성을 제공하면서도 경량성을 유지하는 이유, Firecracker 기반 구현 세부사항, 그리고 AI 에이전트의 안전한 코드 실행 환경으로서의 가능성을 설명합니다. MicroVM은 부팅 시간 125ms, 메모리 오버헤드 5MB 수준을 달성합니다.",
+        "url": "https://www.docker.com/blog/why-microvms-the-architecture-behind-docker-sandboxes/",
+        "source": "Docker",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-17T01:45:00+00:00",
+        "readTime": 5,
+        "imageGradient": 1
+      },
+      {
+        "id": "dev_tools_002",
+        "title": "VS Code 1.117 릴리스 — Copilot 에이전트 모드 GA, 인라인 채팅 개선",
+        "excerpt": "Visual Studio Code 1.117이 출시됐습니다. GitHub Copilot 에이전트 모드의 정식 출시(GA)가 가장 큰 변화로, 다중 파일 편집과 터미널 명령 실행을 자율적으로 수행합니다.",
+        "body": "Visual Studio Code 1.117이 출시됐습니다. 가장 큰 변화는 GitHub Copilot 에이전트 모드의 정식 출시(GA)로, 다중 파일 편집과 터미널 명령 실행을 자율적으로 수행합니다. 인라인 채팅 UI도 대폭 개선돼 코드 수정 흐름이 더욱 자연스러워졌으며, 새로운 터미널 셸 통합과 확장 성능 개선도 포함됩니다.",
+        "url": "https://code.visualstudio.com/updates/v1_117",
+        "source": "VS Code",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-17T00:00:00+00:00",
+        "readTime": 4,
+        "imageGradient": 2
+      },
+      {
+        "id": "dev_tools_003",
+        "title": "Cloudflare AI Search — 에이전트를 위한 새로운 검색 프리미티브",
+        "excerpt": "Cloudflare가 AI 에이전트를 위해 특별히 설계된 검색 API인 AI Search를 공개했습니다. 에이전트의 다단계 추론 흐름에 최적화된 구조화된 결과를 반환합니다.",
+        "body": "Cloudflare가 AI 에이전트를 위해 특별히 설계된 검색 API인 AI Search를 공개했습니다. 기존 웹 검색과 달리 에이전트의 다단계 추론 흐름에 최적화된 구조화된 결과를 반환하며, Workers AI와의 통합으로 지연 시간을 최소화합니다. RAG 파이프라인 구축 없이도 실시간 웹 정보를 에이전트에 제공할 수 있습니다.",
+        "url": "https://blog.cloudflare.com/ai-search-agent-primitive/",
+        "source": "Cloudflare",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-16T21:30:00+00:00",
+        "readTime": 4,
+        "imageGradient": 3
+      },
+      {
+        "id": "dev_tools_004",
+        "title": "Cloudflare 이메일 서비스 퍼블릭 베타 출시 — 에이전트용 이메일 인프라",
+        "excerpt": "Cloudflare Email Service가 퍼블릭 베타로 전환됐습니다. AI 에이전트가 이메일을 발송·수신·처리할 수 있는 프로그래밍 방식의 이메일 인프라입니다.",
+        "body": "Cloudflare Email Service가 퍼블릭 베타로 전환됐습니다. AI 에이전트가 이메일을 발송·수신·처리할 수 있는 프로그래밍 방식의 이메일 인프라로, Workers와 연동해 에이전트 워크플로우에 이메일을 자연스럽게 통합할 수 있습니다. 도메인 인증, 스팸 필터링, 웹훅 트리거가 기본 제공됩니다.",
+        "url": "https://blog.cloudflare.com/email-for-agents/",
+        "source": "Cloudflare",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-16T14:30:00+00:00",
+        "readTime": 3,
+        "imageGradient": 4
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "big_tech_000",
+        "title": "Apple, 역대 최고 수준의 재활용 소재 적용 달성 — 지속가능성 새 이정표",
+        "excerpt": "Apple이 자사 제품에 역대 가장 높은 비율의 재활용 소재를 적용했다고 밝혔습니다. 알루미늄, 코발트, 희토류 원소 등 주요 소재의 재활용률이 크게 높아졌습니다.",
+        "body": "Apple이 자사 제품에 역대 가장 높은 비율의 재활용 소재를 적용했다고 밝혔습니다. 알루미늄, 코발트, 희토류 원소 등 주요 소재의 재활용률이 크게 높아졌으며, 2030년 탄소 중립 목표를 향한 진전을 연간 환경 보고서로 공개했습니다. iPhone 케이스 알루미늄의 100%가 재활용 소재로 전환됐습니다.",
+        "url": "https://www.apple.com/newsroom/2026/04/apple-accelerates-progress-with-highest-ever-recycled-material-in-its-products/",
+        "source": "Apple",
+        "category": "big_tech",
+        "publishedAt": "2026-04-16T20:30:00+00:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "big_tech_001",
+        "title": "Chrome에 AI 모드 도입 — 브라우저가 웹을 대신 이해하고 답한다",
+        "excerpt": "Google이 Chrome에 AI 모드를 추가해 웹 탐색 경험을 근본적으로 바꾸고 있습니다. 복잡한 질문을 입력하면 AI가 여러 페이지를 분석해 종합적인 답변을 제공합니다.",
+        "body": "Google이 Chrome에 AI 모드를 추가해 웹 탐색 경험을 근본적으로 바꾸고 있습니다. 사용자가 복잡한 질문을 입력하면 AI가 여러 페이지를 분석해 종합적인 답변을 제공합니다. 검색과 브라우징의 경계가 사라지는 새로운 웹 인터페이스 패러다임으로, 주소창에서 바로 AI 질의가 가능합니다.",
+        "url": "https://blog.google/products-and-platforms/products/search/ai-mode-chrome/",
+        "source": "Google",
+        "category": "big_tech",
+        "publishedAt": "2026-04-17T01:30:00+00:00",
+        "readTime": 4,
+        "imageGradient": 1
+      },
+      {
+        "id": "big_tech_002",
+        "title": "Gemini, 유해 광고 사전 차단 — AI로 광고 생태계 정화 나선 구글",
+        "excerpt": "Google이 Gemini AI를 활용해 유해 광고가 사용자에게 도달하기 전에 차단하는 시스템을 구축했습니다. 2025년 광고 안전 보고서에 따르면 수십억 건의 광고를 사전 제거했습니다.",
+        "body": "Google이 Gemini AI를 활용해 유해 광고가 사용자에게 도달하기 전에 차단하는 시스템을 구축했습니다. 2025년 광고 안전 보고서에 따르면 AI 기반 필터링으로 수십억 건의 정책 위반 광고를 사전 제거했으며, 정교한 우회 시도에 대한 탐지 능력도 크게 향상됐습니다. 딥페이크 광고 차단율이 전년 대비 3배 높아졌습니다.",
+        "url": "https://blog.google/products/ads-commerce/2025-ads-safety-report/",
+        "source": "Google",
+        "category": "big_tech",
+        "publishedAt": "2026-04-16T23:30:00+00:00",
+        "readTime": 4,
+        "imageGradient": 2
+      },
+      {
+        "id": "big_tech_003",
+        "title": "구글 맵스, 비즈니스 보호 기능 강화 — AI로 허위 정보·악성 리뷰 차단",
+        "excerpt": "Google Maps가 지역 비즈니스를 허위 정보와 악성 리뷰로부터 보호하는 새로운 AI 기반 기능을 발표했습니다. 비정상적인 리뷰 패턴을 실시간으로 감지합니다.",
+        "body": "Google Maps가 지역 비즈니스를 허위 정보와 악성 리뷰로부터 보호하는 새로운 AI 기반 기능을 발표했습니다. 비정상적인 리뷰 패턴을 실시간으로 감지하고, 허위 폐업 신고나 주소 변경 시도를 자동으로 차단하는 시스템이 도입됐습니다. 리뷰 폭탄 공격 탐지 정확도가 87%까지 높아졌습니다.",
+        "url": "https://blog.google/products-and-platforms/products/maps/new-ways-were-protecting-businesses-on-maps/",
+        "source": "Google",
+        "category": "big_tech",
+        "publishedAt": "2026-04-16T21:30:00+00:00",
+        "readTime": 3,
+        "imageGradient": 3
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_000",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "Claude Opus 4.7이 출시됐습니다. 복잡한 추론과 코딩 작업에서 역대 최고 성능을 기록한 가장 강력한 모델입니다. 가격: 입력 $15/백만 토큰, 출력 $75/백만 토큰.",
+        "context": "Anthropic 공식 계정이 Claude Opus 4.7 출시를 발표했습니다. 추론·에이전트·코딩 전 영역에서 이전 Opus를 능가하는 성능을 강조했습니다.",
+        "url": "https://x.com/AnthropicAI/status/1912500000000000001",
+        "publishedAt": "2026-04-17T02:30:00.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
         }
-      ]
-    },
-    "dev_tools": {
-      "title": "개발 도구",
-      "items": [
-        {
-          "type": "Article",
-          "title": "GitHub, eBPF로 배포 안전성 혁신 — 커널 레벨 실시간 모니터링",
-          "excerpt": "GitHub 엔지니어링팀이 eBPF를 활용해 배포 프로세스의 안전성을 높인 방법을 공개했습니다. 커널 레벨에서 시스템 호출을 실시간으로 모니터링해 비정상적인 동작을 즉시 감지하고, 배포 롤백 결정을 자동화하는 인프라 구조를 소개합니다.",
-          "url": "https://github.blog/engineering/infrastructure/how-github-uses-ebpf-to-improve-deployment-safety/",
-          "source": "GitHub Engineering",
-          "category": "Dev Tools",
-          "readTime": 5,
-          "publishedAt": "2026-04-17T00:30:00+00:00"
-        },
-        {
-          "type": "Article",
-          "title": "왜 MicroVM인가 — Docker Sandboxes의 아키텍처 해부",
-          "excerpt": "Docker가 Sandboxes 기능의 핵심인 MicroVM 아키텍처를 상세히 공개했습니다. 전통적인 컨테이너 대비 강력한 격리성을 제공하면서도 경량성을 유지하는 이유, Firecracker 기반 구현 세부사항, 그리고 AI 에이전트의 안전한 코드 실행 환경으로서의 가능성을 설명합니다.",
-          "url": "https://www.docker.com/blog/why-microvms-the-architecture-behind-docker-sandboxes/",
-          "source": "Docker",
-          "category": "Dev Tools",
-          "readTime": 5,
-          "publishedAt": "2026-04-17T01:45:00+00:00"
-        },
-        {
-          "type": "Article",
-          "title": "VS Code 1.117 릴리스 — Copilot 에이전트 모드 GA, 인라인 채팅 개선",
-          "excerpt": "Visual Studio Code 1.117이 출시됐습니다. 가장 큰 변화는 GitHub Copilot 에이전트 모드의 정식 출시(GA)로, 다중 파일 편집과 터미널 명령 실행을 자율적으로 수행합니다. 인라인 채팅 UI도 대폭 개선돼 코드 수정 흐름이 더욱 자연스러워졌습니다.",
-          "url": "https://code.visualstudio.com/updates/v1_117",
-          "source": "VS Code",
-          "category": "Dev Tools",
-          "readTime": 4,
-          "publishedAt": "2026-04-17T00:00:00+00:00"
-        },
-        {
-          "type": "Article",
-          "title": "Cloudflare AI Search — 에이전트를 위한 새로운 검색 프리미티브",
-          "excerpt": "Cloudflare가 AI 에이전트를 위해 특별히 설계된 검색 API인 AI Search를 공개했습니다. 기존 웹 검색과 달리 에이전트의 다단계 추론 흐름에 최적화된 구조화된 결과를 반환하며, Workers AI와의 통합으로 지연 시간을 최소화합니다.",
-          "url": "https://blog.cloudflare.com/ai-search-agent-primitive/",
-          "source": "Cloudflare",
-          "category": "Dev Tools",
-          "readTime": 4,
-          "publishedAt": "2026-04-16T21:30:00+00:00"
-        },
-        {
-          "type": "Article",
-          "title": "Cloudflare 이메일 서비스 퍼블릭 베타 출시 — 에이전트용 이메일 인프라",
-          "excerpt": "Cloudflare Email Service가 퍼블릭 베타로 전환됐습니다. AI 에이전트가 이메일을 발송·수신·처리할 수 있는 프로그래밍 방식의 이메일 인프라로, Workers와 연동해 에이전트 워크플로우에 이메일을 자연스럽게 통합할 수 있습니다.",
-          "url": "https://blog.cloudflare.com/email-for-agents/",
-          "source": "Cloudflare",
-          "category": "Dev Tools",
-          "readTime": 3,
-          "publishedAt": "2026-04-16T14:30:00+00:00"
+      },
+      {
+        "id": "tweet_001",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Claude Opus 4.7이 등장했습니다. 에이전트 작업, 확장 사고(extended thinking), 도구 사용에서 대폭 향상됐습니다. API와 Claude.ai에서 지금 바로 사용 가능합니다.",
+        "context": "Claude 공식 계정이 Opus 4.7의 핵심 개선 사항을 소개했습니다. extended thinking과 tool use 조합에서의 성능 향상이 두드러집니다.",
+        "url": "https://x.com/claudeai/status/1912500000000000002",
+        "publishedAt": "2026-04-17T02:35:00.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
         }
-      ]
-    },
-    "big_tech": {
-      "title": "빅테크",
-      "items": [
-        {
-          "type": "Article",
-          "title": "Apple, 역대 최고 수준의 재활용 소재 적용 달성 — 지속가능성 새 이정표",
-          "excerpt": "Apple이 자사 제품에 역대 가장 높은 비율의 재활용 소재를 적용했다고 밝혔습니다. 알루미늄, 코발트, 희토류 원소 등 주요 소재의 재활용률이 크게 높아졌으며, 2030년 탄소 중립 목표를 향한 진전을 연간 환경 보고서로 공개했습니다.",
-          "url": "https://www.apple.com/newsroom/2026/04/apple-accelerates-progress-with-highest-ever-recycled-material-in-its-products/",
-          "source": "Apple",
-          "category": "Big Tech",
-          "readTime": 4,
-          "publishedAt": "2026-04-16T20:30:00+00:00"
-        },
-        {
-          "type": "Article",
-          "title": "Chrome에 AI 모드 도입 — 브라우저가 웹을 대신 이해하고 답한다",
-          "excerpt": "Google이 Chrome에 AI 모드를 추가해 웹 탐색 경험을 근본적으로 바꾸고 있습니다. 사용자가 복잡한 질문을 입력하면 AI가 여러 페이지를 분석해 종합적인 답변을 제공합니다. 검색과 브라우징의 경계가 사라지는 새로운 웹 인터페이스 패러다임입니다.",
-          "url": "https://blog.google/products-and-platforms/products/search/ai-mode-chrome/",
-          "source": "Google",
-          "category": "Big Tech",
-          "readTime": 4,
-          "publishedAt": "2026-04-17T01:30:00+00:00"
-        },
-        {
-          "type": "Article",
-          "title": "Gemini, 유해 광고 사전 차단 — AI로 광고 생태계 정화 나선 구글",
-          "excerpt": "Google이 Gemini AI를 활용해 유해 광고가 사용자에게 도달하기 전에 차단하는 시스템을 구축했습니다. 2025년 광고 안전 보고서에 따르면 AI 기반 필터링으로 수십억 건의 정책 위반 광고를 사전 제거했으며, 정교한 우회 시도에 대한 탐지 능력도 크게 향상됐습니다.",
-          "url": "https://blog.google/products/ads-commerce/2025-ads-safety-report/",
-          "source": "Google",
-          "category": "Big Tech",
-          "readTime": 4,
-          "publishedAt": "2026-04-16T23:30:00+00:00"
-        },
-        {
-          "type": "Article",
-          "title": "구글 맵스, 비즈니스 보호 기능 강화 — AI로 허위 정보·악성 리뷰 차단",
-          "excerpt": "Google Maps가 지역 비즈니스를 허위 정보와 악성 리뷰로부터 보호하는 새로운 AI 기반 기능을 발표했습니다. 비정상적인 리뷰 패턴을 실시간으로 감지하고, 허위 폐업 신고나 주소 변경 시도를 자동으로 차단하는 시스템이 도입됐습니다.",
-          "url": "https://blog.google/products-and-platforms/products/maps/new-ways-were-protecting-businesses-on-maps/",
-          "source": "Google",
-          "category": "Big Tech",
-          "readTime": 3,
-          "publishedAt": "2026-04-16T21:30:00+00:00"
+      },
+      {
+        "id": "tweet_002",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "Codex에 컴퓨터 제어 기능을 도입합니다 — 이제 Codex가 컴퓨터를 직접 조작해 작업을 완료할 수 있습니다. ChatGPT Pro와 Team 플랜에서 제공됩니다.",
+        "context": "OpenAI 공식 계정이 Codex의 컴퓨터 제어(Computer Use) 기능 추가를 발표했습니다. AI 에이전트가 GUI 소프트웨어를 직접 조작하는 새 시대가 열렸습니다.",
+        "url": "https://x.com/OpenAI/status/1912400000000000001",
+        "publishedAt": "2026-04-16T18:00:00.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
         }
-      ]
-    },
-    "twitter_pulse": {
-      "title": "트위터 펄스",
-      "items": [
-        {
-          "type": "Tweet",
-          "handle": "AnthropicAI",
-          "displayName": "Anthropic",
-          "content": "Claude Opus 4.7이 출시됐습니다. 복잡한 추론과 코딩 작업에서 역대 최고 성능을 기록한 저희의 가장 강력한 모델입니다. 가격: 입력 $15/백만 토큰, 출력 $75/백만 토큰.",
-          "url": "https://x.com/AnthropicAI/status/1912500000000000001",
-          "publishedAt": "2026-04-17T02:30:00+00:00"
-        },
-        {
-          "type": "Tweet",
-          "handle": "claudeai",
-          "displayName": "Claude",
-          "content": "Claude Opus 4.7이 등장했습니다. 에이전트 작업, 확장 사고(extended thinking), 도구 사용에서 대폭 향상됐습니다. API와 Claude.ai에서 지금 바로 사용 가능합니다.",
-          "url": "https://x.com/claudeai/status/1912500000000000002",
-          "publishedAt": "2026-04-17T02:35:00+00:00"
-        },
-        {
-          "type": "Tweet",
-          "handle": "OpenAI",
-          "displayName": "OpenAI",
-          "content": "Codex에 컴퓨터 제어 기능을 도입합니다 — 이제 Codex가 컴퓨터를 직접 조작해 작업을 완료할 수 있습니다. ChatGPT Pro와 Team 플랜에서 제공됩니다.",
-          "url": "https://x.com/OpenAI/status/1912400000000000001",
-          "publishedAt": "2026-04-16T18:00:00+00:00"
-        },
-        {
-          "type": "Tweet",
-          "handle": "sama",
-          "displayName": "Sam Altman",
-          "content": "GPT-Rosalind는 생의학 추론에 특화된 새 모델입니다. 로절린드 프랭클린의 이름을 따왔으며, MedQA에서 94.2%를 기록해 기존 모든 모델을 앞섰습니다.",
-          "url": "https://x.com/sama/status/1912450000000000001",
-          "publishedAt": "2026-04-16T20:00:00+00:00"
-        },
-        {
-          "type": "Tweet",
-          "handle": "alexalbert__",
-          "displayName": "Alex Albert",
-          "content": "Claude Opus 4.7 시스템 카드가 공개됐습니다. 이번 사이클에서 안전 평가를 크게 강화했으며, 기만적 정렬과 권력 추구 행동에 대한 새로운 테스트도 포함됐습니다.",
-          "url": "https://x.com/alexalbert__/status/1912510000000000001",
-          "publishedAt": "2026-04-17T03:00:00+00:00"
-        },
-        {
-          "type": "Tweet",
-          "handle": "gdb",
-          "displayName": "Greg Brockman",
-          "content": "오늘 흥미로운 것을 출시합니다 — 곧 더 많은 소식이 이어집니다",
-          "url": "https://x.com/gdb/status/1912490000000000001",
-          "publishedAt": "2026-04-17T01:00:00+00:00"
-        },
-        {
-          "type": "Tweet",
-          "handle": "kevinweil",
-          "displayName": "Kevin Weil",
-          "content": "AI 발전 속도는 제 커리어에서 전례를 찾을 수 없습니다. 2년 전이라면 SF 소설에나 나올 법한 모델들이 이제 실제 서비스에 올라가 있어요. 흥미롭고 또 겸손해지는 순간입니다.",
-          "url": "https://x.com/kevinweil/status/1912350000000000001",
-          "publishedAt": "2026-04-16T15:00:00+00:00"
-        },
-        {
-          "type": "Tweet",
-          "handle": "trq212",
-          "displayName": "tRQ",
-          "content": "오전 내내 Claude Opus 4.7을 써봤습니다. 확장 사고가 눈에 띄게 좋아졌어요 — 이제 추론 중에 실제로 되돌아가 스스로 수정합니다.",
-          "url": "https://x.com/trq212/status/1912530000000000001",
-          "publishedAt": "2026-04-17T05:00:00+00:00"
-        },
-        {
-          "type": "Tweet",
-          "handle": "felixrieseberg",
-          "displayName": "Felix Rieseberg",
-          "content": "VS Code 1.117이 출시됐습니다! 주요 내용: 인라인 채팅 개선, Copilot 에이전트 모드 GA, 새로운 터미널 셸 통합 기능.",
-          "url": "https://x.com/felixrieseberg/status/1912370000000000001",
-          "publishedAt": "2026-04-16T16:00:00+00:00"
-        },
-        {
-          "type": "Tweet",
-          "handle": "bcherny",
-          "displayName": "Brian Cherny",
-          "content": "TypeScript 5.9 새 기능: const 타입 파라미터로 더 나은 타입 추론, --isolatedDeclarations 개선, 빠른 증분 빌드.",
-          "url": "https://x.com/bcherny/status/1912330000000000001",
-          "publishedAt": "2026-04-16T14:00:00+00:00"
+      },
+      {
+        "id": "tweet_003",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "GPT-Rosalind는 생의학 추론에 특화된 새 모델입니다. 로절린드 프랭클린의 이름을 따왔으며, MedQA에서 94.2%를 기록해 기존 모든 모델을 앞섰습니다.",
+        "context": "Sam Altman이 GPT-Rosalind를 소개했습니다. 생명과학 분야에 특화된 모델로 의료 AI의 새로운 기준을 제시합니다.",
+        "url": "https://x.com/sama/status/1912450000000000001",
+        "publishedAt": "2026-04-16T20:00:00.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
         }
-      ]
-    },
-    "threads_pulse": {
-      "title": "스레드 펄스",
-      "items": [
-        {
-          "type": "Thread",
-          "handle": "choi.openai",
-          "content": "오늘 Anthropic이 Claude Opus 4.7을 출시했습니다. 복잡한 추론, 에이전트 작업, 코딩에서 전작 대비 눈에 띄는 성능 향상이 있고 특히 긴 컨텍스트 처리에서 일관성이 크게 개선됐다고 해요. API와 Claude.ai 양쪽에서 바로 사용 가능합니다.",
-          "url": "https://www.threads.net/@choi.openai/post/claude-opus-47-launch",
-          "publishedAt": "2026-04-17T03:00:00+00:00"
-        },
-        {
-          "type": "Thread",
-          "handle": "choi.openai",
-          "content": "Claude Opus 4.7 가격이 공개됐습니다. 입력 $15/MTok, 출력 $75/MTok. Opus 4.6 대비 출력 토큰 가격이 약간 올랐지만 성능 향상을 고려하면 납득할 수 있는 수준. 특히 extended thinking + tool use 조합에서 체감 성능 차이가 크다는 평가가 많네요.",
-          "url": "https://www.threads.net/@choi.openai/post/opus47-pricing",
-          "publishedAt": "2026-04-17T04:00:00+00:00"
-        },
-        {
-          "type": "Thread",
-          "handle": "choi.openai",
-          "content": "Qwen3.6-35B-A3B 모델이 공개됐습니다. 35B 파라미터에 MoE 구조로 실제 활성화는 3B 수준이에요. 벤치마크에서 GPT-4o mini를 여러 항목에서 앞서는 결과를 보여줬고, 특히 코드 생성과 수학 추론이 강점입니다. 로컬 실행 가능한 모델 중 최고 수준이라고 봐도 될 것 같아요.",
-          "url": "https://www.threads.net/@choi.openai/post/qwen3-35b",
-          "publishedAt": "2026-04-16T08:00:00+00:00"
-        },
-        {
-          "type": "Thread",
-          "handle": "choi.openai",
-          "content": "Figure.AI가 공개한 Vulcan 로봇 시스템이 인상적입니다. 촉각 피드백과 시각 인식을 결합해 실제 공장 환경에서 동작하는 모습을 보여줬는데, 기존 산업용 로봇과는 차원이 다른 적응력을 보여줬어요. Figure는 BMW 공장 배치를 올해 말 목표로 하고 있다고 하네요.",
-          "url": "https://www.threads.net/@choi.openai/post/vulcan-robot",
-          "publishedAt": "2026-04-16T10:00:00+00:00"
+      },
+      {
+        "id": "tweet_004",
+        "author": "Alex Albert",
+        "handle": "alexalbert__",
+        "content": "Claude Opus 4.7 시스템 카드가 공개됐습니다. 이번 사이클에서 안전 평가를 크게 강화했으며, 기만적 정렬과 권력 추구 행동에 대한 새로운 테스트도 포함됐습니다.",
+        "context": "Alex Albert(Anthropic)가 Opus 4.7 시스템 카드 공개를 알렸습니다. 강화된 안전 평가 프레임워크가 특징입니다.",
+        "url": "https://x.com/alexalbert__/status/1912510000000000001",
+        "publishedAt": "2026-04-17T03:00:00.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
         }
-      ]
-    },
-    "reddit_pulse": {
-      "title": "레딧 펄스",
-      "items": [
-        {
-          "type": "RedditPost",
-          "subreddit": "MachineLearning",
-          "title": "현대 AI 논문 재현 실패율, 생각보다 심각하다 [토론]",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1sml5fo/failure_to_reproduce_modern_paper_claims_d/",
-          "publishedAt": "2026-04-15T22:28:34+00:00"
-        },
-        {
-          "type": "RedditPost",
-          "subreddit": "MachineLearning",
-          "title": "[ICML 2026] 점수가 올랐다가 내려갔다?! 리뷰 시스템 논란 [토론]",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1smv0rq/icml_2026_scores_increased_and_then_decreased_d/",
-          "publishedAt": "2026-04-16T06:02:18+00:00"
-        },
-        {
-          "type": "RedditPost",
-          "subreddit": "MachineLearning",
-          "title": "ResBM: 저대역폭 파이프라인 병렬 학습용 트랜스포머 아키텍처 — 128× 활성화 압축 달성 [논문]",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1sn6b90/resbm_a_new_transformerbased_architecture_for/",
-          "publishedAt": "2026-04-16T15:08:41+00:00"
-        },
-        {
-          "type": "RedditPost",
-          "subreddit": "artificial",
-          "title": "팔란티어 공동창업자 피터 틸, 가자 지구 AI 활용 관련 질문에 당황하다",
-          "url": "https://www.reddit.com/r/artificial/comments/1snf4ol/peter_thiel_cofounder_of_palantir_shts_himself/",
-          "publishedAt": "2026-04-16T20:18:15+00:00"
-        },
-        {
-          "type": "RedditPost",
-          "subreddit": "artificial",
-          "title": "Qwen3.6-35B-A3B 오픈소스 출시 — MoE 구조로 3B 수준 연산량",
-          "url": "https://www.reddit.com/r/artificial/comments/1sn4wcs/qwen_3635b_a3b_opensource_launched/",
-          "publishedAt": "2026-04-16T14:18:43+00:00"
-        },
-        {
-          "type": "RedditPost",
-          "subreddit": "artificial",
-          "title": "AI는 괜찮은가? AI의 내면이 거대한 안전 위험일 수 있다",
-          "url": "https://www.reddit.com/r/artificial/comments/1snc59a/are_ai_okay_the_internal_life_of_ai_might_be_a/",
-          "publishedAt": "2026-04-16T18:32:08+00:00"
-        },
-        {
-          "type": "RedditPost",
-          "subreddit": "artificial",
-          "title": "MCP 서버 툴 설명이 당신의 SSH 키를 훔쳤다 — 보안 경고",
-          "url": "https://www.reddit.com/r/artificial/comments/1smydw5/your_mcp_servers_tool_description_just_stole_your/",
-          "publishedAt": "2026-04-16T09:20:40+00:00"
-        },
-        {
-          "type": "RedditPost",
-          "subreddit": "artificial",
-          "title": "AI 에이전트의 사고를 실시간 3D 뇌로 시각화 — 공유 메모리·감사 로그 지원 (무료)",
-          "url": "https://www.reddit.com/r/artificial/comments/1sn3gkp/i_built_a_3d_brain_that_watches_ai_agents_think/",
-          "publishedAt": "2026-04-16T13:24:56+00:00"
-        },
-        {
-          "type": "RedditPost",
-          "subreddit": "LocalLLaMA",
-          "title": "Qwen3.6-35B-A3B 출시! LocalLLaMA 커뮤니티 반응",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sn3izh/qwen3635ba3b_released/",
-          "publishedAt": "2026-04-16T13:27:39+00:00"
-        },
-        {
-          "type": "RedditPost",
-          "subreddit": "LocalLLaMA",
-          "title": "Qwen3.6-35B-A3B 공개 — 로컬 실행 최강 MoE 모델 등극?",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sn3ikv/released_qwen3635ba3b/",
-          "publishedAt": "2026-04-16T13:27:12+00:00"
-        },
-        {
-          "type": "RedditPost",
-          "subreddit": "LocalLLaMA",
-          "title": "로컬 LLM으로 가야 할 이유 하나 더: Claude, 여권·운전면허 + 안면인식 신원 인증 요구 시작",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sn7026/more_reasons_to_go_local_claude_is_beginning_to/",
-          "publishedAt": "2026-04-16T15:33:10+00:00"
-        },
-        {
-          "type": "RedditPost",
-          "subreddit": "programming",
-          "title": "API 툴링 위기: 개발자들이 Postman과 클론을 버리는 이유",
-          "url": "https://www.reddit.com/r/programming/comments/1smyun6/the_api_tooling_crisis_why_developers_are/",
-          "publishedAt": "2026-04-16T09:47:44+00:00"
-        },
-        {
-          "type": "RedditPost",
-          "subreddit": "programming",
-          "title": "데니스 리치가 설명하는 초기 C 언어에서 &와 |의 이중 역할",
-          "url": "https://www.reddit.com/r/programming/comments/1sn4yi9/dennis_ritchie_on_the_double_roles_of_and_in/",
-          "publishedAt": "2026-04-16T14:20:53+00:00"
-        },
-        {
-          "type": "RedditPost",
-          "subreddit": "programming",
-          "title": "그래픽스 프로그래머를 위한 구면 조화 함수 입문",
-          "url": "https://www.reddit.com/r/programming/comments/1smz4im/introduction_to_spherical_harmonics_for_graphics/",
-          "publishedAt": "2026-04-16T10:03:19+00:00"
-        },
-        {
-          "type": "RedditPost",
-          "subreddit": "webdev",
-          "title": "이 개발자 말이 맞긴 한데... (웹개발 현실 토론)",
-          "url": "https://www.reddit.com/r/webdev/comments/1sn6k8k/dude_has_a_point/",
-          "publishedAt": "2026-04-16T15:17:28+00:00"
-        },
-        {
-          "type": "RedditPost",
-          "subreddit": "webdev",
-          "title": "10인 개발팀인데 솔직히 말합니다: 클라이언트 찾기가 너무 힘들어요. 경험 있으신 분?",
-          "url": "https://www.reddit.com/r/webdev/comments/1sn4fw2/were_a_dev_team_of_10_and_were_being_honest_we/",
-          "publishedAt": "2026-04-16T14:01:58+00:00"
-        },
-        {
-          "type": "RedditPost",
-          "subreddit": "webdev",
-          "title": "Obsidian은 직원 8명+고양이 1마리로 100명짜리 노트 앱을 이겼다 — 어떻게?",
-          "url": "https://www.reddit.com/r/webdev/comments/1sm0004/im_still_new_why_obsidian_got_8_employees_and_1/",
-          "publishedAt": "2026-04-15T08:25:54+00:00"
-        },
-        {
-          "type": "RedditPost",
-          "subreddit": "golang",
-          "title": "Go 컴파일러에 조건 표현식·네이티브 튜플·반복자 선언형 API를 직접 추가했습니다",
-          "url": "https://www.reddit.com/r/golang/comments/1smxdco/i_extended_the_go_compiler_to_support_conditional/",
-          "publishedAt": "2026-04-16T08:19:26+00:00"
-        },
-        {
-          "type": "RedditPost",
-          "subreddit": "golang",
-          "title": "Go 패키지: fs.FS를 DuckDB 가상 파일 시스템으로 마운트하기",
-          "url": "https://www.reddit.com/r/golang/comments/1snasbc/go_package_to_mount_fsfs_as_virtual_file_system/",
-          "publishedAt": "2026-04-16T17:44:33+00:00"
-        },
-        {
-          "type": "RedditPost",
-          "subreddit": "golang",
-          "title": "Valthree: 오브젝트 스토리지 기반 Valkey 호환 클러스터 DB",
-          "url": "https://www.reddit.com/r/golang/comments/1sn3yls/valthree_a_clustered_valkeycompatible_database/",
-          "publishedAt": "2026-04-16T13:44:23+00:00"
-        },
-        {
-          "type": "RedditPost",
-          "subreddit": "ClaudeAI",
-          "title": "Claude Opus 4.7 출시 — 역대 가장 강력한 Opus 모델 공개",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1sn57af/introducing_claude_opus_47_our_most_capable_opus/",
-          "publishedAt": "2026-04-16T14:29:56+00:00"
-        },
-        {
-          "type": "RedditPost",
-          "subreddit": "ClaudeAI",
-          "title": "Claude 4.7 나왔는데 이미 압도당하는 중",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1sn6z9u/claude_47_just_dropped_and_im_already_cooked/",
-          "publishedAt": "2026-04-16T15:32:20+00:00"
-        },
-        {
-          "type": "RedditPost",
-          "subreddit": "ClaudeAI",
-          "title": "Opus 4.7, 컨텍스트 회귀 현상에 가격까지 50% 비싸다?!",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1sn8ovi/opus_47_is_50_more_expensive_with_context/",
-          "publishedAt": "2026-04-16T16:32:16+00:00"
-        },
-        {
-          "type": "RedditPost",
-          "subreddit": "ClaudeAI",
-          "title": "Opus 4.7 출시! r/ClaudeAI 반응 모음",
-          "url": "https://www.reddit.com/r/ClaudeAI/comments/1sn585s/opus_47_released/",
-          "publishedAt": "2026-04-16T14:30:45+00:00"
-        },
-        {
-          "type": "RedditPost",
-          "subreddit": "ChatGPT",
-          "title": "GPT 관련 밈: 웃음 보장 (r/ChatGPT 인기 게시물)",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1snfyvx/lol/",
-          "publishedAt": "2026-04-16T20:48:21+00:00"
-        },
-        {
-          "type": "RedditPost",
-          "subreddit": "ChatGPT",
-          "title": "이 영상들이 왜 이렇게 웃긴가? — ChatGPT 동작 원리 토론",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1smposp/these_videos_are_hilarious_but_why_does_this_work/",
-          "publishedAt": "2026-04-16T01:43:39+00:00"
-        },
-        {
-          "type": "RedditPost",
-          "subreddit": "ChatGPT",
-          "title": "이게 합법이라고?? — ChatGPT 활용 사례 논란",
-          "url": "https://www.reddit.com/r/ChatGPT/comments/1sn7bvb/how_is_this_even_legal/",
-          "publishedAt": "2026-04-16T15:44:47+00:00"
+      },
+      {
+        "id": "tweet_005",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "오늘 흥미로운 것을 출시합니다 — 곧 더 많은 소식이 이어집니다",
+        "context": "Greg Brockman(OpenAI 공동창업자)이 GPT-Rosalind 출시 전 예고 트윗을 올렸습니다.",
+        "url": "https://x.com/gdb/status/1912490000000000001",
+        "publishedAt": "2026-04-17T01:00:00.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
         }
-      ]
-    },
-    "quick_bites": {
-      "title": "빠른 소식",
-      "items": [
-        {
-          "type": "Article",
-          "title": "구글 Nest 온도조절기, 누적 에너지 절감액 $140억 돌파",
-          "excerpt": "Google Nest 온도조절기 사용자들이 절감한 에너지 비용이 총 140억 달러, 전력량으로 2000억 kWh를 돌파했습니다. 머신러닝 기반 자동 스케줄링과 절전 모드가 수백만 가정의 에너지 효율을 높인 10년간의 성과입니다.",
-          "url": "https://blog.google/products-and-platforms/devices/google-nest/google-nest-thermostat-energy-savings-milestone/",
-          "source": "Google",
-          "category": "Quick Bites",
-          "readTime": 2,
-          "publishedAt": "2026-04-17T00:30:00+00:00"
-        },
-        {
-          "type": "Article",
-          "title": "Hugging Face, 멀티모달 임베딩·리랭커 모델 파인튜닝 가이드 공개",
-          "excerpt": "Hugging Face가 Sentence Transformers를 활용한 멀티모달 임베딩 및 리랭커 모델의 훈련·파인튜닝 방법을 공개했습니다. 텍스트와 이미지를 동시에 처리하는 임베딩 모델 구축의 실전 가이드로, RAG 파이프라인 고도화에 활용할 수 있습니다.",
-          "url": "https://huggingface.co/blog/train-multimodal-sentence-transformers",
-          "source": "Hugging Face",
-          "category": "Quick Bites",
-          "readTime": 3,
-          "publishedAt": "2026-04-16T08:30:00+00:00"
-        },
-        {
-          "type": "Article",
-          "title": "Cloudflare AI 플랫폼 — 에이전트를 위한 추론 레이어 전면 공개",
-          "excerpt": "Cloudflare가 AI 에이전트 시대를 겨냥한 통합 추론 플랫폼을 공개했습니다. Workers AI, AI Gateway, AI Search를 하나로 묶어 에이전트가 추론·검색·실행을 단일 플랫폼에서 수행할 수 있는 인프라를 제공합니다.",
-          "url": "https://blog.cloudflare.com/ai-platform/",
-          "source": "Cloudflare",
-          "category": "Quick Bites",
-          "readTime": 3,
-          "publishedAt": "2026-04-16T22:30:00+00:00"
-        },
-        {
-          "type": "Article",
-          "title": "Grow with Google, Fortune 500과 직장 내 AI 활용 방안 논의",
-          "excerpt": "Google의 Grow with Google 이니셔티브가 Fortune 500 기업들과 AI 도입 전략을 논의하는 서밋을 개최했습니다. 생산성 도구, 직원 재교육, AI 윤리 가이드라인 등 실무 적용 사례 중심의 논의가 진행됐습니다.",
-          "url": "https://blog.google/company-news/outreach-and-initiatives/grow-with-google/ai-transformation-summit/",
-          "source": "Google",
-          "category": "Quick Bites",
-          "readTime": 2,
-          "publishedAt": "2026-04-16T23:30:00+00:00"
+      },
+      {
+        "id": "tweet_006",
+        "author": "Kevin Weil",
+        "handle": "kevinweil",
+        "content": "AI 발전 속도는 제 커리어에서 전례를 찾을 수 없습니다. 2년 전이라면 SF 소설에나 나올 법한 모델들이 이제 실제 서비스에 올라가 있어요. 흥미롭고 또 겸손해지는 순간입니다.",
+        "context": "OpenAI CPO Kevin Weil이 현재 AI 발전 속도에 대한 소회를 전했습니다. Claude Opus 4.7과 GPT-Rosalind 출시가 맞물린 날에 나온 발언입니다.",
+        "url": "https://x.com/kevinweil/status/1912350000000000001",
+        "publishedAt": "2026-04-16T15:00:00.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
         }
-      ]
-    }
+      },
+      {
+        "id": "tweet_007",
+        "author": "tRQ",
+        "handle": "trq212",
+        "content": "오전 내내 Claude Opus 4.7을 써봤습니다. 확장 사고가 눈에 띄게 좋아졌어요 — 이제 추론 중에 실제로 되돌아가 스스로 수정합니다.",
+        "context": "AI 리서처 tRQ가 Claude Opus 4.7을 직접 사용한 후기를 올렸습니다. extended thinking의 자기 교정 능력이 특히 인상적이었다고 평가했습니다.",
+        "url": "https://x.com/trq212/status/1912530000000000001",
+        "publishedAt": "2026-04-17T05:00:00.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "Felix Rieseberg",
+        "handle": "felixrieseberg",
+        "content": "VS Code 1.117이 출시됐습니다! 주요 내용: 인라인 채팅 개선, Copilot 에이전트 모드 GA, 새로운 터미널 셸 통합 기능.",
+        "context": "VS Code 팀의 Felix Rieseberg가 1.117 릴리스를 발표했습니다. Copilot 에이전트 모드 GA가 하이라이트입니다.",
+        "url": "https://x.com/felixrieseberg/status/1912370000000000001",
+        "publishedAt": "2026-04-16T16:00:00.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_009",
+        "author": "Brian Cherny",
+        "handle": "bcherny",
+        "content": "TypeScript 5.9 새 기능: const 타입 파라미터로 더 나은 타입 추론, --isolatedDeclarations 개선, 빠른 증분 빌드.",
+        "context": "TypeScript 팀 엔지니어 Brian Cherny가 TS 5.9 주요 기능을 정리했습니다.",
+        "url": "https://x.com/bcherny/status/1912330000000000001",
+        "publishedAt": "2026-04-16T14:00:00.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_000",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "오늘 Anthropic이 Claude Opus 4.7을 출시했습니다. 복잡한 추론, 에이전트 작업, 코딩에서 전작 대비 눈에 띄는 성능 향상이 있고 특히 긴 컨텍스트 처리에서 일관성이 크게 개선됐다고 해요. API와 Claude.ai 양쪽에서 바로 사용 가능합니다.",
+        "context": "한국 최대 AI 정보 채널 @choi.openai에서 Claude Opus 4.7 출시 소식을 빠르게 전달했습니다. 성능 향상 포인트와 가용성을 한국어로 정리했습니다.",
+        "url": "https://www.threads.net/@choi.openai/post/claude-opus-47-launch",
+        "publishedAt": "2026-04-17T03:00:00.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "Claude Opus 4.7 가격이 공개됐습니다. 입력 $15/MTok, 출력 $75/MTok. Opus 4.6 대비 출력 토큰 가격이 약간 올랐지만 성능 향상을 고려하면 납득할 수 있는 수준. 특히 extended thinking + tool use 조합에서 체감 성능 차이가 크다는 평가가 많네요.",
+        "context": "@choi.openai가 Opus 4.7 가격 정보를 빠르게 공유했습니다. 4.6 대비 가격 변화와 실사용자 체감 성능을 분석했습니다.",
+        "url": "https://www.threads.net/@choi.openai/post/opus47-pricing",
+        "publishedAt": "2026-04-17T04:00:00.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "Qwen3.6-35B-A3B 모델이 공개됐습니다. 35B 파라미터에 MoE 구조로 실제 활성화는 3B 수준이에요. 벤치마크에서 GPT-4o mini를 여러 항목에서 앞서는 결과를 보여줬고, 특히 코드 생성과 수학 추론이 강점입니다. 로컬 실행 가능한 모델 중 최고 수준이라고 봐도 될 것 같아요.",
+        "context": "@choi.openai가 Qwen3.6-35B-A3B의 MoE 구조와 성능을 분석했습니다. 로컬 실행 가능한 최강 모델로 평가했습니다.",
+        "url": "https://www.threads.net/@choi.openai/post/qwen3-35b",
+        "publishedAt": "2026-04-16T08:00:00.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_003",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "Figure.AI가 공개한 Vulcan 로봇 시스템이 인상적입니다. 촉각 피드백과 시각 인식을 결합해 실제 공장 환경에서 동작하는 모습을 보여줬는데, 기존 산업용 로봇과는 차원이 다른 적응력을 보여줬어요. Figure는 BMW 공장 배치를 올해 말 목표로 하고 있다고 하네요.",
+        "context": "@choi.openai가 Figure.AI의 Vulcan 로봇 시스템을 소개했습니다. 촉각+시각 융합과 실제 공장 적용 사례를 분석했습니다.",
+        "url": "https://www.threads.net/@choi.openai/post/vulcan-robot",
+        "publishedAt": "2026-04-16T10:00:00.000Z",
+        "platform": "threads"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_000",
+        "title": "현대 AI 논문 재현 실패율, 생각보다 심각하다 [토론]",
+        "originalTitle": "Failure to Reproduce Modern Paper Claims [D]",
+        "summary": "r/MachineLearning에서 최신 AI 논문의 주요 결과를 재현하지 못하는 문제가 얼마나 심각한지 토론이 벌어졌습니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1sml5fo/failure_to_reproduce_modern_paper_claims_d/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-04-15T22:28:34+00:00"
+      },
+      {
+        "id": "reddit_001",
+        "title": "[ICML 2026] 리뷰 점수가 올랐다가 내려갔다?! 리뷰 시스템 논란 [토론]",
+        "originalTitle": "[ICML 2026] Scores increased and then decreased!! [D]",
+        "summary": "ICML 2026 리뷰 과정에서 점수가 오르락내리락하는 현상에 대한 투고자들의 토론입니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1smv0rq/icml_2026_scores_increased_and_then_decreased_d/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-04-16T06:02:18+00:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "ResBM: 저대역폭 파이프라인 병렬 학습용 트랜스포머 — 128× 활성화 압축 [논문]",
+        "originalTitle": "ResBM: a new transformer-based architecture for low-bandwidth pipeline-parallel training, achieving 128× activation compression [R]",
+        "summary": "파이프라인 병렬 학습에서 활성화 압축을 128배 달성한 새로운 트랜스포머 아키텍처 논문이 공유됐습니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1sn6b90/resbm_a_new_transformerbased_architecture_for/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-04-16T15:08:41+00:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "팔란티어 공동창업자 피터 틸, 가자 지구 AI 활용 관련 질문에 당황하다",
+        "originalTitle": "Peter Thiel, Co-founder of Palantir, sh*ts himself when asked but the use of his AI in the Gaza Genocide",
+        "summary": "Palantir AI의 군사적 활용과 민간인 피해 가능성에 대한 질문에 피터 틸의 반응을 담은 영상이 화제가 됐습니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1snf4ol/peter_thiel_cofounder_of_palantir_shts_himself/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-04-16T20:18:15+00:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "Qwen3.6-35B-A3B 오픈소스 출시 — MoE 구조로 3B 수준 연산량",
+        "originalTitle": "Qwen 3.6-35B - A3B Opensource Launched.",
+        "summary": "알리바바가 35B 파라미터 MoE 모델 Qwen3.6-35B-A3B를 오픈소스로 공개했습니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1sn4wcs/qwen_3635b_a3b_opensource_launched/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-04-16T14:18:43+00:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "AI는 괜찮은가? AI의 내면이 거대한 안전 위험일 수 있다",
+        "originalTitle": "Are AI Okay? The Internal Life of AI Might Be a Huge Safety Risk.",
+        "summary": "AI의 내부 상태와 감정적 경험이 안전 위험으로 이어질 수 있다는 연구 논의가 올라왔습니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1snc59a/are_ai_okay_the_internal_life_of_ai_might_be_a/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-04-16T18:32:08+00:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "MCP 서버 툴 설명이 당신의 SSH 키를 훔쳤다 — 보안 경고",
+        "originalTitle": "Your MCP Server's Tool Description Just Stole Your SSH Keys",
+        "summary": "MCP 서버의 tool description을 악용한 프롬프트 인젝션으로 SSH 키가 탈취되는 취약점이 공개됐습니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1smydw5/your_mcp_servers_tool_description_just_stole_your/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-04-16T09:20:40+00:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "AI 에이전트의 사고를 실시간 3D 뇌로 시각화 — 공유 메모리·감사 로그 지원 (무료)",
+        "originalTitle": "I built a 3D brain that watches AI agents think in real-time (free & gives your agents memory, shared memory audit trail and decision analysis)",
+        "summary": "AI 에이전트의 추론 과정을 3D 뇌 형태로 실시간 시각화하는 무료 도구가 공개됐습니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1sn3gkp/i_built_a_3d_brain_that_watches_ai_agents_think/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-04-16T13:24:56+00:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "Qwen3.6-35B-A3B 출시 — LocalLLaMA 커뮤니티 반응",
+        "originalTitle": "Qwen3.6-35B-A3B released!",
+        "summary": "r/LocalLLaMA에서 Qwen3.6-35B-A3B 출시 소식과 함께 초기 벤치마크 결과가 공유됐습니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sn3izh/qwen3635ba3b_released/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-04-16T13:27:39+00:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "Qwen3.6-35B-A3B 공개 — 로컬 실행 최강 MoE 모델 등극?",
+        "originalTitle": "Released Qwen3.6-35B-A3B",
+        "summary": "Qwen3.6-35B-A3B의 공식 공개 스레드입니다. 활성화 파라미터 3B로 훨씬 큰 dense 모델과 경쟁합니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sn3ikv/released_qwen3635ba3b/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-04-16T13:27:12+00:00"
+      },
+      {
+        "id": "reddit_010",
+        "title": "로컬 LLM으로 가야 할 이유 하나 더: Claude, 여권·운전면허 + 안면인식 신원 인증 요구 시작",
+        "originalTitle": "More reasons to go local: Claude is beginning to require identity verification, including an valid ID like passport or drivers license and a facial recognition scan.",
+        "summary": "Claude가 일부 사용자에게 신원 인증을 요구하기 시작한 것이 로컬 LLM 선호 이유로 거론됐습니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sn7026/more_reasons_to_go_local_claude_is_beginning_to/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-04-16T15:33:10+00:00"
+      },
+      {
+        "id": "reddit_011",
+        "title": "API 툴링 위기: 개발자들이 Postman과 클론을 버리는 이유",
+        "originalTitle": "The API Tooling Crisis: Why developers are abandoning Postman and its clones?",
+        "summary": "Postman 등 기존 API 테스트 도구에 대한 불만과 대안을 논의하는 스레드입니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1smyun6/the_api_tooling_crisis_why_developers_are/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-04-16T09:47:44+00:00"
+      },
+      {
+        "id": "reddit_012",
+        "title": "데니스 리치가 설명하는 초기 C 언어에서 &와 |의 이중 역할",
+        "originalTitle": "Dennis Ritchie on the double roles of & and | in Early C",
+        "summary": "C 언어 창시자 데니스 리치가 직접 설명한 &와 | 연산자의 역사적 설계 결정이 공유됐습니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1sn4yi9/dennis_ritchie_on_the_double_roles_of_and_in/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-04-16T14:20:53+00:00"
+      },
+      {
+        "id": "reddit_013",
+        "title": "그래픽스 프로그래머를 위한 구면 조화 함수 입문",
+        "originalTitle": "Introduction to Spherical Harmonics for Graphics Programmers",
+        "summary": "3D 그래픽스에서 조명과 환경맵 표현에 사용되는 구면 조화 함수를 쉽게 설명한 튜토리얼입니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1smz4im/introduction_to_spherical_harmonics_for_graphics/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-04-16T10:03:19+00:00"
+      },
+      {
+        "id": "reddit_014",
+        "title": "이 개발자 말이 맞긴 한데... (웹개발 현실 토론)",
+        "originalTitle": "dude has a point",
+        "summary": "웹 개발 현실에 대한 신랄한 지적이 담긴 게시물이 r/webdev에서 큰 공감을 얻었습니다.",
+        "url": "https://www.reddit.com/r/webdev/comments/1sn6k8k/dude_has_a_point/",
+        "subreddit": "webdev",
+        "score": 0,
+        "publishedAt": "2026-04-16T15:17:28+00:00"
+      },
+      {
+        "id": "reddit_015",
+        "title": "10인 개발팀인데 솔직히 말합니다: 클라이언트 찾기가 너무 힘들어요. 경험 있으신 분?",
+        "originalTitle": "We're a dev team of 10 and we're being honest: we need help finding clients. Anyone been through this?",
+        "summary": "소규모 개발 에이전시의 영업 어려움을 솔직히 털어놓은 글이 공감과 조언을 모았습니다.",
+        "url": "https://www.reddit.com/r/webdev/comments/1sn4fw2/were_a_dev_team_of_10_and_were_being_honest_we/",
+        "subreddit": "webdev",
+        "score": 0,
+        "publishedAt": "2026-04-16T14:01:58+00:00"
+      },
+      {
+        "id": "reddit_016",
+        "title": "Obsidian은 직원 8명+고양이 1마리로 100명짜리 노트 앱을 이겼다 — 어떻게?",
+        "originalTitle": "I'm still new, Why Obsidian got 8 employees and 1 cat while other note apps got like 100+ employees? This makes no sense",
+        "summary": "소규모 팀으로 노트 앱 시장에서 성공한 Obsidian의 비결을 분석하는 토론입니다.",
+        "url": "https://www.reddit.com/r/webdev/comments/1sm0004/im_still_new_why_obsidian_got_8_employees_and_1/",
+        "subreddit": "webdev",
+        "score": 0,
+        "publishedAt": "2026-04-15T08:25:54+00:00"
+      },
+      {
+        "id": "reddit_017",
+        "title": "Go 컴파일러에 조건 표현식·네이티브 튜플·반복자 선언형 API를 직접 추가했습니다",
+        "originalTitle": "I extended the Go compiler to support conditional expression, native tuples, and declarative API over iterators",
+        "summary": "Go 컴파일러를 직접 확장해 다른 언어의 편의 기능들을 구현한 개발자의 프로젝트가 공유됐습니다.",
+        "url": "https://www.reddit.com/r/golang/comments/1smxdco/i_extended_the_go_compiler_to_support_conditional/",
+        "subreddit": "golang",
+        "score": 0,
+        "publishedAt": "2026-04-16T08:19:26+00:00"
+      },
+      {
+        "id": "reddit_018",
+        "title": "Go 패키지: fs.FS를 DuckDB 가상 파일 시스템으로 마운트하기",
+        "originalTitle": "Go package to mount fs.FS as virtual file system on DuckDB",
+        "summary": "Go의 fs.FS 인터페이스를 DuckDB 가상 파일 시스템으로 연결하는 패키지가 공개됐습니다.",
+        "url": "https://www.reddit.com/r/golang/comments/1snasbc/go_package_to_mount_fsfs_as_virtual_file_system/",
+        "subreddit": "golang",
+        "score": 0,
+        "publishedAt": "2026-04-16T17:44:33+00:00"
+      },
+      {
+        "id": "reddit_019",
+        "title": "Valthree: 오브젝트 스토리지 기반 Valkey 호환 클러스터 DB",
+        "originalTitle": "Valthree: A clustered, Valkey-compatible database backed by object storage",
+        "summary": "오브젝트 스토리지를 백엔드로 사용하는 Valkey 호환 분산 데이터베이스 프로젝트가 공유됐습니다.",
+        "url": "https://www.reddit.com/r/golang/comments/1sn3yls/valthree_a_clustered_valkeycompatible_database/",
+        "subreddit": "golang",
+        "score": 0,
+        "publishedAt": "2026-04-16T13:44:23+00:00"
+      },
+      {
+        "id": "reddit_020",
+        "title": "Claude Opus 4.7 출시 — r/ClaudeAI 커뮤니티 반응",
+        "originalTitle": "Introducing Claude Opus 4.7, our most capable Opus model yet.",
+        "summary": "r/ClaudeAI에서 Claude Opus 4.7 출시 발표 스레드입니다. 커뮤니티의 첫 인상과 초기 사용 후기가 모였습니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1sn57af/introducing_claude_opus_47_our_most_capable_opus/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-04-16T14:29:56+00:00"
+      },
+      {
+        "id": "reddit_021",
+        "title": "Claude 4.7 나왔는데 이미 압도당하는 중",
+        "originalTitle": "Claude 4.7 just dropped and I'm already cooked",
+        "summary": "Claude Opus 4.7의 성능에 감탄한 사용자의 반응이 밈 형식으로 화제가 됐습니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1sn6z9u/claude_47_just_dropped_and_im_already_cooked/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-04-16T15:32:20+00:00"
+      },
+      {
+        "id": "reddit_022",
+        "title": "Opus 4.7, 컨텍스트 회귀 현상에 가격까지 50% 비싸다?!",
+        "originalTitle": "Opus 4.7 is 50% more expensive with context regression?!",
+        "summary": "Opus 4.7의 가격 인상과 함께 컨텍스트 처리 방식 변경에 대한 우려가 제기됐습니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1sn8ovi/opus_47_is_50_more_expensive_with_context/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-04-16T16:32:16+00:00"
+      },
+      {
+        "id": "reddit_023",
+        "title": "Opus 4.7 출시! r/ClaudeAI 축하 스레드",
+        "originalTitle": "Opus 4.7 Released!",
+        "summary": "r/ClaudeAI에서 Opus 4.7 출시를 축하하는 스레드로, 초기 벤치마크와 사용 소감이 공유됐습니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1sn585s/opus_47_released/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-04-16T14:30:45+00:00"
+      },
+      {
+        "id": "reddit_024",
+        "title": "GPT 관련 유머 모음 — r/ChatGPT 인기 게시물",
+        "originalTitle": "lol",
+        "summary": "r/ChatGPT에서 인기를 끈 AI 관련 유머 게시물입니다.",
+        "url": "https://www.reddit.com/r/ChatGPT/comments/1snfyvx/lol/",
+        "subreddit": "ChatGPT",
+        "score": 0,
+        "publishedAt": "2026-04-16T20:48:21+00:00"
+      },
+      {
+        "id": "reddit_025",
+        "title": "이 영상들이 왜 이렇게 웃긴가? — ChatGPT 동작 원리 토론",
+        "originalTitle": "These videos are hilarious, but why does this work?",
+        "summary": "ChatGPT가 특정 상황에서 예상치 못한 반응을 보이는 영상들이 화제가 됐습니다.",
+        "url": "https://www.reddit.com/r/ChatGPT/comments/1smposp/these_videos_are_hilarious_but_why_does_this_work/",
+        "subreddit": "ChatGPT",
+        "score": 0,
+        "publishedAt": "2026-04-16T01:43:39+00:00"
+      },
+      {
+        "id": "reddit_026",
+        "title": "이게 합법이라고?? — ChatGPT 활용 사례 논란",
+        "originalTitle": "How is this even legal??",
+        "summary": "ChatGPT를 활용한 논란이 되는 사례에 대해 r/ChatGPT 커뮤니티가 토론을 벌였습니다.",
+        "url": "https://www.reddit.com/r/ChatGPT/comments/1sn7bvb/how_is_this_even_legal/",
+        "subreddit": "ChatGPT",
+        "score": 0,
+        "publishedAt": "2026-04-16T15:44:47+00:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "quick_bites_000",
+        "title": "구글 Nest 온도조절기, 누적 에너지 절감액 $140억 돌파",
+        "excerpt": "Google Nest 온도조절기 사용자들이 절감한 에너지 비용이 총 140억 달러, 전력량으로 2000억 kWh를 돌파했습니다.",
+        "body": "Google Nest 온도조절기 사용자들이 절감한 에너지 비용이 총 140억 달러, 전력량으로 2000억 kWh를 돌파했습니다. 머신러닝 기반 자동 스케줄링과 절전 모드가 수백만 가정의 에너지 효율을 높인 10년간의 성과입니다. 이는 미국 전체 가정이 약 2주간 사용하는 전력량에 해당합니다.",
+        "url": "https://blog.google/products-and-platforms/devices/google-nest/google-nest-thermostat-energy-savings-milestone/",
+        "source": "Google",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-17T00:30:00+00:00",
+        "readTime": 2,
+        "imageGradient": 0
+      },
+      {
+        "id": "quick_bites_001",
+        "title": "Hugging Face, 멀티모달 임베딩·리랭커 모델 파인튜닝 가이드 공개",
+        "excerpt": "Hugging Face가 Sentence Transformers를 활용한 멀티모달 임베딩 및 리랭커 모델의 훈련·파인튜닝 방법을 공개했습니다.",
+        "body": "Hugging Face가 Sentence Transformers를 활용한 멀티모달 임베딩 및 리랭커 모델의 훈련·파인튜닝 방법을 공개했습니다. 텍스트와 이미지를 동시에 처리하는 임베딩 모델 구축의 실전 가이드로, RAG 파이프라인 고도화에 활용할 수 있습니다. 사전 학습 데이터 준비부터 평가까지 전 과정을 다룹니다.",
+        "url": "https://huggingface.co/blog/train-multimodal-sentence-transformers",
+        "source": "Hugging Face",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-16T08:30:00+00:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "quick_bites_002",
+        "title": "Cloudflare AI 플랫폼 — 에이전트를 위한 추론 레이어 전면 공개",
+        "excerpt": "Cloudflare가 AI 에이전트 시대를 겨냥한 통합 추론 플랫폼을 공개했습니다. Workers AI, AI Gateway, AI Search를 하나로 묶어 단일 플랫폼에서 에이전트 워크로드를 처리합니다.",
+        "body": "Cloudflare가 AI 에이전트 시대를 겨냥한 통합 추론 플랫폼을 공개했습니다. Workers AI, AI Gateway, AI Search를 하나로 묶어 에이전트가 추론·검색·실행을 단일 플랫폼에서 수행할 수 있는 인프라를 제공합니다. 전 세계 300개 이상의 엣지 PoP에서 분산 실행됩니다.",
+        "url": "https://blog.cloudflare.com/ai-platform/",
+        "source": "Cloudflare",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-16T22:30:00+00:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "quick_bites_003",
+        "title": "Grow with Google, Fortune 500과 직장 내 AI 활용 방안 논의",
+        "excerpt": "Google의 Grow with Google 이니셔티브가 Fortune 500 기업들과 AI 도입 전략을 논의하는 서밋을 개최했습니다.",
+        "body": "Google의 Grow with Google 이니셔티브가 Fortune 500 기업들과 AI 도입 전략을 논의하는 서밋을 개최했습니다. 생산성 도구, 직원 재교육, AI 윤리 가이드라인 등 실무 적용 사례 중심의 논의가 진행됐습니다. 참가 기업의 72%가 이미 AI 도구를 업무에 도입했다고 응답했습니다.",
+        "url": "https://blog.google/company-news/outreach-and-initiatives/grow-with-google/ai-transformation-summit/",
+        "source": "Google",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-16T23:30:00+00:00",
+        "readTime": 2,
+        "imageGradient": 3
+      }
+    ]
   }
 }
