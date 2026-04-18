@@ -3,12 +3,11 @@
     {
       "date": "2026-04-18",
       "issueNumber": 21,
-      "mainHeadline": "Claude Opus 4.7 & Claude Design 출시 — Anthropic, AI 에이전트·디자인 시대 선포",
+      "mainHeadline": "Claude Opus 4.7 출시: 더 강력해진 추론과 자체 검증 기능",
       "headlines": [
-        "OpenAI Codex, Mac 앱 직접 제어 — '거의 모든 것'을 위한 AI 에이전트로 진화",
-        "GPT-Rosalind 공개 — 생물학·신약 개발 특화 최전선 추론 모델 출시",
-        "Qwen3.6-35B 오픈소스 출시 — 효율적인 MoE 아키텍처로 로컬 AI 시장 공략",
-        "Kevin Weil, OpenAI 퇴사 — OpenAI for Science 팀 해산 및 분산"
+        "Codex, 이제 거의 모든 것이 가능해졌다",
+        "Anthropic Labs, Claude Design 공개",
+        "Gemini 3.1 Flash TTS: 차세대 표현력 있는 AI 음성"
       ]
     },
     {

@@ -2,157 +2,192 @@
   "date": "2026-04-18",
   "issueNumber": 21,
   "cover": {
-    "mainHeadline": "Claude Opus 4.7 & Claude Design 출시 — Anthropic, AI 에이전트·디자인 시대 선포",
-    "mainExcerpt": "Anthropic이 Claude Opus 4.7과 Claude Design을 동시 발표했습니다. Opus 4.7은 장시간 자율 작업에서 역대 최강 성능을 보여주며, Claude Design은 대화로 프로토타입과 슬라이드를 만드는 새로운 AI 디자인 도구입니다. 동시에 OpenAI도 Codex의 Mac 컴퓨터 제어 기능을 확장하고 생명과학 특화 모델 GPT-Rosalind를 출시하는 등 AI 경쟁이 한층 격화됐습니다.",
+    "mainHeadline": "Claude Opus 4.7 출시: 더 강력해진 추론과 자체 검증 기능",
+    "mainExcerpt": "Anthropic이 역대 가장 강력한 Opus 모델인 Claude Opus 4.7을 발표했습니다. 장기 작업 처리 능력 강화, 정밀한 지시 따르기, 결과 자체 검증 등 에이전트 작업에 최적화된 기능들이 대폭 개선되었습니다. Claude Design, Claude for Word 등 새로운 제품들도 함께 공개되었습니다.",
     "headlines": [
-      "OpenAI Codex, Mac 앱 직접 제어 — '거의 모든 것'을 위한 AI 에이전트로 진화",
-      "GPT-Rosalind 공개 — 생물학·신약 개발 특화 최전선 추론 모델 출시",
-      "Qwen3.6-35B 오픈소스 출시 — 효율적인 MoE 아키텍처로 로컬 AI 시장 공략",
-      "Kevin Weil, OpenAI 퇴사 — OpenAI for Science 팀 해산 및 분산"
+      "Codex, 이제 거의 모든 것이 가능해졌다",
+      "Anthropic Labs, Claude Design 공개",
+      "Gemini 3.1 Flash TTS: 차세대 표현력 있는 AI 음성"
     ]
   },
   "highlights": [
     {
-      "id": "rss_001",
-      "title": "Cloudflare, 서버리스 PostgreSQL 기업 Neon 인수 — 개발자 플랫폼 완성도 높인다",
-      "excerpt": "Building a Fast Multilingual OCR Model with Synthetic Data",
-      "body": "Title: Building a Fast Multilingual OCR Model with Synthetic Data URL Source: https://huggingface.co/blog/nvidia/nemotron-ocr-v2 Published Time: 2026-04-17T16:17:55.874Z Markdown Content: [Back to Articles](https://huggingface.co/blog) [![Image 1: Ryan Chesler's avatar](https://huggingface.co/avatars/a514f0d2b2f9937dd6fd97560f8319a8.svg)](https://huggingface.co/emelryan) Training a high-quality OC",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-ocr-v2",
-      "source": "Hugging Face - Blog",
+      "id": "ai_ml_002",
+      "title": "Claude Opus 4.7 출시",
+      "excerpt": "Anthropic이 Claude Opus 4.7을 발표했습니다. 역대 가장 강력한 Opus 모델로, 장기 작업을 더 철저하게 처리하고 지시를 더 정확하게 따르며 결과를 보고하기 전에 자체 검증합니다.",
+      "body": "Anthropic이 Claude Opus 4.7을 공식 발표했습니다. 이번 모델은 장기 실행 작업에서 더욱 꼼꼼하게 작동하고, 지시 사항을 더 정밀하게 따르며, 결과를 보고하기 전에 스스로 검증하는 기능이 강화되었습니다. Claude Code 해커톤도 함께 공개되어 개발자들이 10만 달러 규모의 API 크레딧 상금을 두고 경쟁할 수 있습니다.",
+      "url": "https://www.anthropic.com/news/claude-opus-4-7",
+      "source": "Anthropic News",
       "category": "ai_ml",
-      "publishedAt": "2026-04-18T01:17:55+09:00",
-      "readTime": 2,
-      "imageGradient": 0
+      "publishedAt": "2026-04-16T09:00:00+09:00",
+      "readTime": 4,
+      "imageGradient": 1
     },
     {
-      "id": "rss_002",
-      "title": "Gemini 3.1 Flash TTS 출시 — 감정 표현 강화된 차세대 AI 음성 합성",
-      "excerpt": "Illustration showing a person with a Pixel phone in a beach town farmers' market by the water",
-      "body": "7 ways to travel smarter this summer, with help from Google에 대한 자세한 내용은 원문을 참조하세요.",
+      "id": "dev_tools_001",
+      "title": "Visual Studio Code 1.117 업데이트",
+      "excerpt": "VS Code 1.117이 출시되었습니다. 다양한 성능 개선과 새로운 기능이 추가되었으며, 특히 AI 코딩 보조 기능이 한층 강화되었습니다.",
+      "body": "Learn what's new in Visual Studio Code 1.117 (Insiders) Read the full article",
+      "url": "https://code.visualstudio.com/updates/v1_117",
+      "source": "Visual Studio Code - Code Editing. Redefined.",
+      "category": "dev_tools",
+      "publishedAt": "2026-04-23T02:00:00+09:00",
+      "readTime": 1,
+      "imageGradient": 3
+    },
+    {
+      "id": "big_tech_001",
+      "title": "Google과 함께 더 스마트하게 여름 여행하는 7가지 방법",
+      "excerpt": "Google이 AI를 활용한 여름 여행 팁 7가지를 소개합니다. Google 검색, 지도, 번역 등 다양한 제품에서 AI 기능을 활용해 여행을 더 편리하고 효율적으로 만들 수 있습니다.",
+      "body": "Illustration showing a person with a Pixel phone in a beach town farmers' market by the water",
       "url": "https://blog.google/products-and-platforms/products/search/summer-travel-tips-google-search-ai/",
-      "source": "AI",
-      "category": "ai_ml",
+      "source": "The Official Google Blog",
+      "category": "big_tech",
       "publishedAt": "2026-04-17T23:00:00+09:00",
       "readTime": 1,
-      "imageGradient": 1
+      "imageGradient": 5
     },
     {
-      "id": "rss_003",
-      "title": "OpenAI, 에이전트 SDK 대규모 업데이트 — 장기 실행·샌드박스 지원",
-      "excerpt": "‘패시브 인컴’이 재정적 자유의 신화로 포장되며, 수많은 창업가들이 자동 수익 시스템 구축에 몰입함 실제로는 드롭쉬핑·제휴 마케팅·온라인 강의 판매가 반복되며, 고객의 필요보다 자동화 자체가 목적이 됨 이로 ...",
-      "body": "‘패시브 인컴’이 재정적 자유의 신화로 포장되며, 수많은 창업가들이 자동 수익 시스템 구축에 몰입함 실제로는 드롭쉬핑·제휴 마케팅·온라인 강의 판매가 반복되며, 고객의 필요보다 자동화 자체가 목적이 됨 이로 ...",
-      "url": "https://news.hada.io/topic?id=28638",
-      "source": "GeekNews",
+      "id": "ai_ml_002",
+      "title": "Anthropic Labs, Claude Design 공개",
+      "excerpt": "Anthropic Labs가 Claude Design을 출시했습니다. Claude와 대화하며 프로토타입, 슬라이드, 원페이저를 제작할 수 있는 비주얼 디자인 도구로, Claude Opus 4.7 기반의 비전 모델이 지원합니다.",
+      "body": "Introducing Claude Design by Anthropic Labs",
+      "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+      "source": "Anthropic News",
       "category": "ai_ml",
-      "publishedAt": "2026-04-18T01:32:49+09:00",
+      "publishedAt": "2026-04-17T09:00:00+09:00",
       "readTime": 1,
-      "imageGradient": 0
-    },
-    {
-      "id": "rss_004",
-      "title": "Hugging Face, SmolVLM 기반 고속 다국어 OCR 모델 공개",
-      "excerpt": "Zig 0.16.0 릴리즈 2026년 4월 14일에 공개됐습니다. 244명의 기여자가 8개월 동안 1,183개의 커밋을 쌓아서 만든 릴리즈입니다. I/O as an Interface — 이번 릴리즈의 핵심 이번 릴리즈에서 가장 큰 변화입니다.",
-      "body": "Zig 0.16.0 릴리즈 2026년 4월 14일에 공개됐습니다. 244명의 기여자가 8개월 동안 1,183개의 커밋을 쌓아서 만든 릴리즈입니다. I/O as an Interface — 이번 릴리즈의 핵심 이번 릴리즈에서 가장 큰 변화입니다. 파일시스템, 네트워킹, 타이머, 동기화처럼 블로킹이 생길 수 있는",
-      "url": "https://news.hada.io/topic?id=28637",
-      "source": "GeekNews",
-      "category": "ai_ml",
-      "publishedAt": "2026-04-18T00:59:55+09:00",
-      "readTime": 1,
-      "imageGradient": 1
-    },
-    {
-      "id": "rss_005",
-      "title": "OpenAI, 사이버 방어 생태계 가속화 — 보안 스타트업 지원 프로그램",
-      "excerpt": "Free Software Foundation(FSF) 이 Gmail 계정을 통해 대량의 스팸 메일이 발송된 사실을 확인 해당 계정에서 1만 건이 넘는 메일이 전송된 것으로 보고됨 FSF는 문제 해결을 위해 Google과의 직접적인 연락을 시도 중 스팸 발...",
-      "body": "Free Software Foundation(FSF) 이 Gmail 계정을 통해 대량의 스팸 메일이 발송된 사실을 확인 해당 계정에서 1만 건이 넘는 메일이 전송된 것으로 보고됨 FSF는 문제 해결을 위해 Google과의 직접적인 연락을 시도 중 스팸 발...",
-      "url": "https://news.hada.io/topic?id=28636",
-      "source": "GeekNews",
-      "category": "ai_ml",
-      "publishedAt": "2026-04-17T21:37:46+09:00",
-      "readTime": 1,
-      "imageGradient": 0
+      "imageGradient": 7
     }
   ],
   "sections": {
     "ai_ml": [
       {
-        "id": "rss_001",
-        "title": "Cloudflare, 서버리스 PostgreSQL 기업 Neon 인수 — 개발자 플랫폼 완성도 높인다",
-        "excerpt": "Building a Fast Multilingual OCR Model with Synthetic Data",
-        "body": "Title: Building a Fast Multilingual OCR Model with Synthetic Data URL Source: https://huggingface.co/blog/nvidia/nemotron-ocr-v2 Published Time: 2026-04-17T16:17:55.874Z Markdown Content: [Back to Articles](https://huggingface.co/blog) [![Image 1: Ryan Chesler's avatar](https://huggingface.co/avatars/a514f0d2b2f9937dd6fd97560f8319a8.svg)](https://huggingface.co/emelryan) Training a high-quality OC",
+        "id": "ai_ml_001",
+        "title": "합성 데이터로 빠른 다국어 OCR 모델 구축하기",
+        "excerpt": "Hugging Face가 합성 데이터를 활용해 빠르고 정확한 다국어 OCR 모델을 구축하는 방법을 공개했습니다. NVIDIA의 Nemotron OCR v2 모델을 중심으로 합성 데이터 생성 파이프라인을 소개합니다.",
+        "body": "",
         "url": "https://huggingface.co/blog/nvidia/nemotron-ocr-v2",
         "source": "Hugging Face - Blog",
         "category": "ai_ml",
         "publishedAt": "2026-04-18T01:17:55+09:00",
-        "readTime": 2,
+        "readTime": 1,
         "imageGradient": 0
       },
       {
-        "id": "rss_002",
-        "title": "Gemini 3.1 Flash TTS 출시 — 감정 표현 강화된 차세대 AI 음성 합성",
-        "excerpt": "Illustration showing a person with a Pixel phone in a beach town farmers' market by the water",
-        "body": "7 ways to travel smarter this summer, with help from Google에 대한 자세한 내용은 원문을 참조하세요.",
-        "url": "https://blog.google/products-and-platforms/products/search/summer-travel-tips-google-search-ai/",
-        "source": "AI",
+        "id": "ai_ml_002",
+        "title": "Claude Opus 4.7 출시",
+        "excerpt": "Anthropic이 Claude Opus 4.7을 발표했습니다. 역대 가장 강력한 Opus 모델로, 장기 작업을 더 철저하게 처리하고 지시를 더 정확하게 따르며 결과를 보고하기 전에 자체 검증합니다.",
+        "body": "Anthropic이 Claude Opus 4.7을 공식 발표했습니다. 이번 모델은 장기 실행 작업에서 더욱 꼼꼼하게 작동하고, 지시 사항을 더 정밀하게 따르며, 결과를 보고하기 전에 스스로 검증하는 기능이 강화되었습니다. Claude Code 해커톤도 함께 공개되어 개발자들이 10만 달러 규모의 API 크레딧 상금을 두고 경쟁할 수 있습니다.",
+        "url": "https://www.anthropic.com/news/claude-opus-4-7",
+        "source": "Anthropic News",
         "category": "ai_ml",
-        "publishedAt": "2026-04-17T23:00:00+09:00",
+        "publishedAt": "2026-04-16T09:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 7
+      },
+      {
+        "id": "ai_ml_003",
+        "title": "Anthropic Labs, Claude Design 공개",
+        "excerpt": "Anthropic Labs가 Claude Design을 출시했습니다. Claude와 대화하며 프로토타입, 슬라이드, 원페이저를 제작할 수 있는 비주얼 디자인 도구로, Claude Opus 4.7 기반의 비전 모델이 지원합니다.",
+        "body": "Introducing Claude Design by Anthropic Labs",
+        "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+        "source": "Anthropic News",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-17T09:00:00+09:00",
         "readTime": 1,
         "imageGradient": 1
       },
       {
-        "id": "rss_003",
-        "title": "OpenAI, 에이전트 SDK 대규모 업데이트 — 장기 실행·샌드박스 지원",
-        "excerpt": "‘패시브 인컴’이 재정적 자유의 신화로 포장되며, 수많은 창업가들이 자동 수익 시스템 구축에 몰입함 실제로는 드롭쉬핑·제휴 마케팅·온라인 강의 판매가 반복되며, 고객의 필요보다 자동화 자체가 목적이 됨 이로 ...",
-        "body": "‘패시브 인컴’이 재정적 자유의 신화로 포장되며, 수많은 창업가들이 자동 수익 시스템 구축에 몰입함 실제로는 드롭쉬핑·제휴 마케팅·온라인 강의 판매가 반복되며, 고객의 필요보다 자동화 자체가 목적이 됨 이로 ...",
-        "url": "https://news.hada.io/topic?id=28638",
-        "source": "GeekNews",
+        "id": "ai_ml_004",
+        "title": "WPP, G4 VM으로 휴머노이드 로봇 훈련 10배 가속",
+        "excerpt": "마케팅 그룹 WPP가 Google Cloud G4 가상 머신을 활용해 휴머노이드 로봇 훈련 속도를 10배 향상시켰습니다. 대규모 시뮬레이션과 강화학습을 결합한 혁신적인 접근 방식을 공개했습니다.",
+        "body": "Title: How WPP accelerates humanoid robot training 10x with G4 VMs URL Source: https://cloud.google.com/blog/products/infrastructure/wpp-humanoid-robots-ai-training/ Published Time: 2026-04-16 Markdown Content: **Editor’s note:**Today we hear from Perry Nightingale, SVP of Creative AI at WPP about the workflow that cuts training time for humanoid robots from days to minutes — plus access to the open-source code to do it yourself. Robots are pushing the boundaries of what content creators and directors can capture. These technologies have become critical in the film industry because they open up new possibilities for controlled camera moves in locations where traditional methods would be unsafe or infeasible. We’ve found that the programming for these robots is arguably as technical and com",
+        "url": "https://cloud.google.com/blog/products/infrastructure/wpp-humanoid-robots-ai-training/",
+        "source": "AI & Machine Learning",
         "category": "ai_ml",
-        "publishedAt": "2026-04-18T01:32:49+09:00",
+        "publishedAt": "2026-04-17T01:00:00+09:00",
         "readTime": 1,
-        "imageGradient": 0
+        "imageGradient": 2
       },
       {
-        "id": "rss_004",
-        "title": "Hugging Face, SmolVLM 기반 고속 다국어 OCR 모델 공개",
-        "excerpt": "Zig 0.16.0 릴리즈 2026년 4월 14일에 공개됐습니다. 244명의 기여자가 8개월 동안 1,183개의 커밋을 쌓아서 만든 릴리즈입니다. I/O as an Interface — 이번 릴리즈의 핵심 이번 릴리즈에서 가장 큰 변화입니다.",
-        "body": "Zig 0.16.0 릴리즈 2026년 4월 14일에 공개됐습니다. 244명의 기여자가 8개월 동안 1,183개의 커밋을 쌓아서 만든 릴리즈입니다. I/O as an Interface — 이번 릴리즈의 핵심 이번 릴리즈에서 가장 큰 변화입니다. 파일시스템, 네트워킹, 타이머, 동기화처럼 블로킹이 생길 수 있는",
-        "url": "https://news.hada.io/topic?id=28637",
-        "source": "GeekNews",
+        "id": "ai_ml_005",
+        "title": "Gemini 앱에서 개인화된 이미지 생성하는 새로운 방법",
+        "excerpt": "Google이 Gemini 앱에서 개인화된 이미지를 생성할 수 있는 새로운 기능을 선보였습니다. 사용자의 사진을 활용해 더욱 맞춤화된 이미지를 생성할 수 있어 창의적 표현의 폭이 넓어졌습니다.",
+        "body": "Title: New ways to create personalized images in the Gemini app URL Source: https://blog.google/innovation-and-ai/products/gemini-app/personal-intelligence-nano-banana/ Published Time: 2026-04-16T16:00:00+00:00 Markdown Content: # Personalize your images in the Gemini app with Nano Banana & Google Photos [Skip to main content](https://blog.google/innovation-and-ai/products/gemini-app/personal-intelligence-nano-banana/#jump-content) [The Keyword](https://blog.google/) New ways to create personalized images in the Gemini app [Share](https://blog.google/innovation-and-ai/products/gemini-app/personal-intelligence-nano-banana/) [x.com](https://twitter.com/intent/tweet?text=New%20ways%20to%20create%20personalized%20images%20in%20the%20Gemini%20app%20%40google&url=https://blog.google/innovation-a",
+        "url": "https://blog.google/innovation-and-ai/products/gemini-app/personal-intelligence-nano-banana/",
+        "source": "Gemini",
         "category": "ai_ml",
-        "publishedAt": "2026-04-18T00:59:55+09:00",
+        "publishedAt": "2026-04-17T01:00:00+09:00",
         "readTime": 1,
-        "imageGradient": 1
+        "imageGradient": 3
       },
       {
-        "id": "rss_005",
-        "title": "OpenAI, 사이버 방어 생태계 가속화 — 보안 스타트업 지원 프로그램",
-        "excerpt": "Free Software Foundation(FSF) 이 Gmail 계정을 통해 대량의 스팸 메일이 발송된 사실을 확인 해당 계정에서 1만 건이 넘는 메일이 전송된 것으로 보고됨 FSF는 문제 해결을 위해 Google과의 직접적인 연락을 시도 중 스팸 발...",
-        "body": "Free Software Foundation(FSF) 이 Gmail 계정을 통해 대량의 스팸 메일이 발송된 사실을 확인 해당 계정에서 1만 건이 넘는 메일이 전송된 것으로 보고됨 FSF는 문제 해결을 위해 Google과의 직접적인 연락을 시도 중 스팸 발...",
-        "url": "https://news.hada.io/topic?id=28636",
-        "source": "GeekNews",
+        "id": "ai_ml_006",
+        "title": "에이전트 기반 미래 구축: Google Cloud 미디어·엔터테인먼트 고객 사례 조명",
+        "excerpt": "Google Cloud가 미디어 및 엔터테인먼트 분야 고객들의 AI 에이전트 활용 사례를 공개했습니다. 콘텐츠 제작, 배포, 개인화 등 다양한 분야에서 AI가 혁신을 이끄는 모습을 소개합니다.",
+        "body": "Title: Agentic media & entertainment is here. See how our ecosystem helps build it URL Source: https://cloud.google.com/blog/products/media-entertainment/agentic-media-and-entertainment-is-here-see-how-our-ecosystem-helps-build-it/ Published Time: 2026-04-16 Markdown Content: As we gather in Las Vegas for [NAB Show 2026](https://www.nabshow.com/las-vegas/?gad_source=1&gad_campaignid=23481113509), the industry conversation has shifted. We are no longer asking if AI works; we’re now focused on how it scales. The era of AI experimentation is over — production-grade execution is here. At Google Cloud, we believe no studio or broadcaster should have to build this future in isolation. Our mission is to provide the agentic platform and AI and cloud tools that allow our partners to innovate at the",
+        "url": "https://cloud.google.com/blog/products/media-entertainment/agentic-media-and-entertainment-is-here-see-how-our-ecosystem-helps-build-it/",
+        "source": "AI & Machine Learning",
         "category": "ai_ml",
-        "publishedAt": "2026-04-17T21:37:46+09:00",
+        "publishedAt": "2026-04-16T22:15:00+09:00",
         "readTime": 1,
-        "imageGradient": 0
+        "imageGradient": 4
+      },
+      {
+        "id": "ai_ml_007",
+        "title": "Codex, 이제 거의 모든 것이 가능해졌다",
+        "excerpt": "OpenAI의 AI 에이전트 Codex가 대폭 업그레이드되었습니다. Mac 앱 사용, 더 많은 도구 연결, 이미지 생성, 이전 작업 학습, 작업 방식 기억, 반복 작업 자동화 등 종합 AI 어시스턴트로 진화했습니다.",
+        "body": "The updated Codex app for macOS and Windows adds computer use, in-app browsing, image generation, memory, and plugins to accelerate developer workflows.",
+        "url": "https://openai.com/index/codex-for-almost-everything",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-16T19:00:00+09:00",
+        "readTime": 1,
+        "imageGradient": 5
       }
     ],
     "dev_tools": [
       {
-        "id": "rss_dev_001",
-        "title": "Visual Studio Code 1.117 릴리스 — 코파일럿 통합 및 새 편집 기능",
-        "excerpt": "Learn what's new in Visual Studio Code 1.117 (Insiders) Read the full article",
-        "body": "Visual Studio Code 1.117에 대한 자세한 내용은 원문을 참조하세요.",
+        "id": "dev_tools_001",
+        "title": "Visual Studio Code 1.117 업데이트",
+        "excerpt": "VS Code 1.117이 출시되었습니다. 다양한 성능 개선과 새로운 기능이 추가되었으며, 특히 AI 코딩 보조 기능이 한층 강화되었습니다.",
+        "body": "Learn what's new in Visual Studio Code 1.117 (Insiders) Read the full article",
         "url": "https://code.visualstudio.com/updates/v1_117",
         "source": "Visual Studio Code - Code Editing. Redefined.",
         "category": "dev_tools",
         "publishedAt": "2026-04-23T02:00:00+09:00",
         "readTime": 1,
+        "imageGradient": 0
+      },
+      {
+        "id": "dev_tools_002",
+        "title": "ChromeOS 장기 지원 채널 업데이트",
+        "excerpt": "Google이 ChromeOS 장기 지원(LTS) 채널 업데이트를 배포했습니다. 기업 및 교육 환경에서 사용하는 ChromeOS 기기에 보안 패치와 안정성 개선이 포함되었습니다.",
+        "body": "A new LTS-138 version 138.0.7204.310 (Platform Version: 16295.95.0), is being rolled out for most ChromeOS devices. This version includes selected security fixes including:490118036 Medium CVE-2026-5291 Inappropriate implementation in WebGL.491516670 High CVE-2026-4679 Integer overflow in Fonts. Reported by GF,487117772 High CVE-2026-4449 Use after free in Blink.488188166 High CVE-2026-4674 Out of bounds read in CSS.484751092 High CVE-2026-4442 Heap buffer overflow in CSS.487768779 High CVE-2026-4451 Insufficient validation of untrusted input in Navigation.492213293 Medium CVE-2026-5292 Out of",
+        "url": "http://chromereleases.googleblog.com/2026/04/long-term-support-channel-update-for_17.html",
+        "source": "Google Chrome Releases",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-18T06:12:00+09:00",
+        "readTime": 1,
+        "imageGradient": 1
+      },
+      {
+        "id": "dev_tools_003",
+        "title": "AI 시대의 성장 전략: 기본은 자동화하고 창의성을 높여라",
+        "excerpt": "성장 전문가 Elena Verna가 AI 시대의 성장 전략을 조명합니다. 반복적인 작업은 AI로 자동화하고, 인간의 창의성과 판단력이 필요한 영역에 집중해야 한다는 통찰을 공유합니다.",
+        "body": "The former growth leader at Dropbox, Miro, and Amplitude on using AI to automate the basics — so humans can focus on the creative work that actually matters. The post Elena Verna on AI growth: Automate the basics, elevate the creative appeared first on Work Life by Atlassian.",
+        "url": "https://www.atlassian.com/blog/artificial-intelligence/elena-verna-on-ai-growth-automate-the-basics-elevate-the-creative",
+        "source": "Atlassian Developer Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-18T05:58:05+09:00",
+        "readTime": 1,
         "imageGradient": 2
       },
       {
-        "id": "rss_dev_002",
-        "title": "GitHub Copilot, AI 코드 완성 성능 대폭 향상 — 멀티파일 컨텍스트 지원",
-        "excerpt": "See how we created an emoji list generator during the Rubber Duck Thursday stream. The post Building an emoji list generator with the GitHub Copilot CLI appeared first on The GitHub Blog.",
+        "id": "dev_tools_004",
+        "title": "GitHub Copilot CLI로 이모지 목록 생성기 만들기",
+        "excerpt": "GitHub가 Rubber Duck Thursday 스트림에서 GitHub Copilot CLI를 활용해 이모지 목록 생성기를 제작하는 과정을 공개했습니다. AI 지원 개발의 실제 사례를 보여줍니다.",
         "body": "See how we created an emoji list generator during the Rubber Duck Thursday stream. The post Building an emoji list generator with the GitHub Copilot CLI appeared first on The GitHub Blog.",
         "url": "https://github.blog/ai-and-ml/github-copilot/building-an-emoji-list-generator-with-the-github-copilot-cli/",
         "source": "The latest on GitHub Copilot - The GitHub Blog",
@@ -162,351 +197,99 @@
         "imageGradient": 3
       },
       {
-        "id": "rss_dev_003",
-        "title": "Google Chrome 최신 업데이트 — 새 보안 기능 및 성능 개선",
-        "excerpt": "Changes to the status page will provide more specific data, so you'll have better insight into the overall health of the platform.",
+        "id": "dev_tools_005",
+        "title": "Chrome Dev 데스크톱 업데이트",
+        "excerpt": "Google Chrome 개발자 채널의 새로운 데스크톱 업데이트가 배포되었습니다. 최신 웹 표준 지원과 성능 개선이 포함된 개발자 프리뷰 버전입니다.",
+        "body": "The Dev channel has been updated to 149.0.7795.2 for Windows, Mac and Linux.A partial list of changes is available in the Git log. Interested in switching release channels? Find out how. If you find a new issue, please let us know by filing a bug. The community help forum is also a great place to reach out for help or learn about common issues.Chrome Release TeamGoogle Chrome",
+        "url": "http://chromereleases.googleblog.com/2026/04/chrome-dev-for-desktop-update_043178600.html",
+        "source": "Google Chrome Releases",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-18T01:58:34+09:00",
+        "readTime": 1,
+        "imageGradient": 4
+      },
+      {
+        "id": "dev_tools_006",
+        "title": "GitHub 상태 페이지의 투명성 강화",
+        "excerpt": "GitHub가 서비스 상태 페이지를 개선하여 더욱 투명한 정보 제공을 시작했습니다. 사용자들이 서비스 장애와 유지보수 상황을 더 명확하게 파악할 수 있게 되었습니다.",
         "body": "Changes to the status page will provide more specific data, so you'll have better insight into the overall health of the platform. The post Bringing more transparency to GitHub’s status page appeared first on The GitHub Blog.",
         "url": "https://github.blog/news-insights/company-news/bringing-more-transparency-to-githubs-status-page/",
         "source": "GitHub Blog",
         "category": "dev_tools",
         "publishedAt": "2026-04-18T01:00:00+09:00",
         "readTime": 1,
-        "imageGradient": 2
-      },
-      {
-        "id": "rss_dev_004",
-        "title": "Cloudflare AI Gateway 업데이트 — AI 트래픽 모니터링·비용 최적화",
-        "excerpt": "The Agent Readiness score can help site owners understand how well their websites support AI agents.",
-        "body": "The Agent Readiness score can help site owners understand how well their websites support AI agents. Here we explore new standards, share Radar data, and detail how we made Cloudflare’s docs the most agent-friendly on the web.",
-        "url": "https://blog.cloudflare.com/agent-readiness/",
-        "source": "Cloudflare Blog",
-        "category": "dev_tools",
-        "publishedAt": "2026-04-17T22:05:00+09:00",
-        "readTime": 1,
-        "imageGradient": 3
-      },
-      {
-        "id": "rss_dev_005",
-        "title": "Hacker News 주목 프로젝트: 실시간 글로벌 인텔리전스 대시보드",
-        "excerpt": "Today, we’re excited to give you a sneak peek of our support for shared compression dictionaries, show you how it improves page load times, and reveal when you’ll be able to try the beta yourself.",
-        "body": "Today, we’re excited to give you a sneak peek of our support for shared compression dictionaries, show you how it improves page load times, and reveal when you’ll be able to try the beta yourself.",
-        "url": "https://blog.cloudflare.com/shared-dictionaries/",
-        "source": "Cloudflare Blog",
-        "category": "dev_tools",
-        "publishedAt": "2026-04-17T22:02:00+09:00",
-        "readTime": 1,
-        "imageGradient": 2
+        "imageGradient": 5
       }
     ],
     "big_tech": [
       {
-        "id": "rss_big_001",
-        "title": "구글, AI 기반 디자인 도구 'Stitch' 공개 — Figma에 도전장",
-        "excerpt": "Illustration showing a person with a Pixel phone in a beach town farmers' market by the water",
-        "body": "7 ways to travel smarter this summer, with help from Google에 대한 자세한 내용은 원문을 참조하세요.",
+        "id": "big_tech_001",
+        "title": "Google과 함께 더 스마트하게 여름 여행하는 7가지 방법",
+        "excerpt": "Google이 AI를 활용한 여름 여행 팁 7가지를 소개합니다. Google 검색, 지도, 번역 등 다양한 제품에서 AI 기능을 활용해 여행을 더 편리하고 효율적으로 만들 수 있습니다.",
+        "body": "Illustration showing a person with a Pixel phone in a beach town farmers' market by the water",
         "url": "https://blog.google/products-and-platforms/products/search/summer-travel-tips-google-search-ai/",
         "source": "The Official Google Blog",
         "category": "big_tech",
         "publishedAt": "2026-04-17T23:00:00+09:00",
         "readTime": 1,
-        "imageGradient": 4
+        "imageGradient": 0
       },
       {
-        "id": "rss_big_002",
-        "title": "Google Chrome AI 모드 업데이트 — 브라우저가 웹을 대신 이해",
-        "excerpt": "Illustrations of two women at a beach, buildings next to water, and the view of a sunset from a hotel window",
+        "id": "big_tech_002",
+        "title": "올여름 인기 여행지와 액티비티 트렌드 미리 보기",
+        "excerpt": "Google이 AI 기반 검색 데이터를 분석해 올여름 인기 여행지와 액티비티 트렌드를 공개했습니다. 여행 계획 수립에 도움이 되는 실용적인 정보들이 담겨 있습니다.",
         "body": "Illustrations of two women at a beach, buildings next to water, and the view of a sunset from a hotel window",
         "url": "https://blog.google/products-and-platforms/products/travel/2026-travel-trends/",
         "source": "The Official Google Blog",
         "category": "big_tech",
         "publishedAt": "2026-04-17T23:00:00+09:00",
         "readTime": 1,
-        "imageGradient": 5
+        "imageGradient": 1
       },
       {
-        "id": "rss_big_003",
-        "title": "구글, 개발자 플랫폼 전반 AI 통합 강화 발표",
-        "excerpt": "The Dev channel has been updated to 149.0.7795.2 for Windows, Mac and Linux.A partial list of changes is available in the Git log. Interested in switching release channels? Find out how.",
-        "body": "The Dev channel has been updated to 149.0.7795.2 for Windows, Mac and Linux.A partial list of changes is available in the Git log. Interested in switching release channels? Find out how. If you find a new issue, please let us know by filing a bug. The community help forum is also a great place to reach out for help or learn about common issues.Chrome Release TeamGoogle Chrome",
-        "url": "http://chromereleases.googleblog.com/2026/04/chrome-dev-for-desktop-update_043178600.html",
-        "source": "Google Chrome Releases",
+        "id": "big_tech_003",
+        "title": "Chrome의 AI 모드로 웹을 새롭게 탐색하다",
+        "excerpt": "Google Chrome에 AI 기반 웹 탐색 모드가 추가되었습니다. 검색 결과를 AI가 요약하고 관련 정보를 자동으로 연결해주어 더 효율적인 정보 탐색이 가능해집니다.",
+        "body": "AI Mode in Chrome",
+        "url": "https://blog.google/products-and-platforms/products/search/ai-mode-chrome/",
+        "source": "The Official Google Blog",
         "category": "big_tech",
-        "publishedAt": "2026-04-18T01:58:34+09:00",
+        "publishedAt": "2026-04-17T02:00:00+09:00",
+        "readTime": 1,
+        "imageGradient": 2
+      },
+      {
+        "id": "big_tech_004",
+        "title": "투표 시작: 구글 두들 우승자 선정에 참여하세요",
+        "excerpt": "Google이 다음 Doodle for Google 우승자 선정을 위한 공개 투표를 시작했습니다. 전국 학생들의 창의적인 작품 중 최종 우승작을 선정하는 과정에 모든 사람이 참여할 수 있습니다.",
+        "body": "Illustrated shapes with eyes on graph paper.",
+        "url": "https://blog.google/company-news/inside-google/doodles/2026-voting/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-04-17T01:30:00+09:00",
+        "readTime": 1,
+        "imageGradient": 3
+      },
+      {
+        "id": "big_tech_005",
+        "title": "Meta의 용량 효율성: 통합 AI 에이전트가 성능을 최적화하는 방법",
+        "excerpt": "Meta가 통합 AI 에이전트를 활용해 인프라 용량 효율성을 높이는 방법을 공개했습니다. 자동화된 최적화 시스템이 성능과 비용 효율성을 동시에 개선하는 과정을 설명합니다.",
+        "body": "We&#8217;re sharing insights into Meta&#8217;s Capacity Efficiency Program, where we&#8217;ve built an AI agent platform that helps automate finding and fixing performance issues throughout our infrastructure. By leveraging encoded domain expertise across a unified, standardized tool interface these agents help save power and free up engineers&#8217; time away from addressing performance issues to innovating on [...] Read More... The post Capacity Efficiency at Meta: How Unified AI Agents Optimize Performance at Hyperscale appeared first on Engineering at Meta.",
+        "url": "https://engineering.fb.com/2026/04/16/developer-tools/capacity-efficiency-at-meta-how-unified-ai-agents-optimize-performance-at-hyperscale/",
+        "source": "Meta Engineering",
+        "category": "big_tech",
+        "publishedAt": "2026-04-17T01:00:34+09:00",
         "readTime": 1,
         "imageGradient": 4
-      },
-      {
-        "id": "rss_big_004",
-        "title": "마이크로소프트, 애저 AI 서비스 신규 기능 다수 추가",
-        "excerpt": "Beta Channel Update for ChromeOS / ChromeOS Flex",
-        "body": "The ChromeOS Beta channel is being updated to OS version 16610.38.0 (Browser version 147.0.7727.105) for most ChromeOS devices.If you find new issues, please let us know one of the following ways:File a bugVisit our ChromeOS communitiesGeneral: Chromebook Help CommunityBeta Specific: ChromeOS Beta Help CommunityReport an issue or send feedback on ChromeInterested in switching channels? Find out ho",
-        "url": "http://chromereleases.googleblog.com/2026/04/beta-channel-update-for-chromeos.html",
-        "source": "Google Chrome Releases",
-        "category": "big_tech",
-        "publishedAt": "2026-04-17T23:07:00+09:00",
-        "readTime": 1,
-        "imageGradient": 5
       }
     ],
     "twitter_pulse": [
       {
         "id": "tweet_001",
-        "author": "Sam Altman",
-        "handle": "sama",
-        "content": "모두가 Codex로 전환하고 있어서 기쁩니다. 그런데 Tibo, 나를 rate limit하거나 더 나쁜 모델을 쓰게 만들기 시작한다면...",
-        "context": "OpenAI CEO 샘 알트먼. OpenAI의 Codex가 빠르게 확산되는 상황에서 자신도 헤비 유저임을 암시하며 유머러스하게 언급.",
-        "url": "https://x.com/sama/status/2044921348540264614",
-        "publishedAt": "2026-04-16T23:30:16.000Z",
-        "metrics": {
-          "likes": 0,
-          "retweets": 0,
-          "replies": 0
-        }
-      },
-      {
-        "id": "tweet_002",
-        "author": "Greg Brockman",
-        "handle": "gdb",
-        "content": "Codex는 모두를 위한 것입니다. 최대한 활용하는 방법을 알아보세요:",
-        "context": "OpenAI 공동창업자 그렉 브록만. Codex의 다양한 기능들을 시리즈로 소개하며 오픈소스화와 활용법을 알리고 있음.",
-        "url": "https://x.com/gdb/status/2045208278033142227",
-        "publishedAt": "2026-04-17T18:30:26.000Z",
-        "metrics": {
-          "likes": 0,
-          "retweets": 0,
-          "replies": 0
-        }
-      },
-      {
-        "id": "tweet_003",
-        "author": "Greg Brockman",
-        "handle": "gdb",
-        "content": "Codex가 할 수 있는 일을 먼저 제안해주는 기능:",
-        "context": "OpenAI 공동창업자 그렉 브록만. Codex의 다양한 기능들을 시리즈로 소개하며 오픈소스화와 활용법을 알리고 있음.",
-        "url": "https://x.com/gdb/status/2045227305816281404",
-        "publishedAt": "2026-04-17T19:46:02.000Z",
-        "metrics": {
-          "likes": 0,
-          "retweets": 0,
-          "replies": 0
-        }
-      },
-      {
-        "id": "tweet_004",
-        "author": "Greg Brockman",
-        "handle": "gdb",
-        "content": "Codex는 오픈소스입니다. 누구나 그 위에 멋진 앱을 만들 수 있습니다:",
-        "context": "OpenAI 공동창업자 그렉 브록만. Codex의 다양한 기능들을 시리즈로 소개하며 오픈소스화와 활용법을 알리고 있음.",
-        "url": "https://x.com/gdb/status/2045214436689072136",
-        "publishedAt": "2026-04-17T18:54:54.000Z",
-        "metrics": {
-          "likes": 0,
-          "retweets": 0,
-          "replies": 0
-        }
-      },
-      {
-        "id": "tweet_005",
-        "author": "Greg Brockman",
-        "handle": "gdb",
-        "content": "작은 디테일들이 중요합니다",
-        "context": "OpenAI 공동창업자 그렉 브록만. Codex의 다양한 기능들을 시리즈로 소개하며 오픈소스화와 활용법을 알리고 있음.",
-        "url": "https://x.com/gdb/status/2044998874566406314",
-        "publishedAt": "2026-04-17T04:38:20.000Z",
-        "metrics": {
-          "likes": 0,
-          "retweets": 0,
-          "replies": 0
-        }
-      },
-      {
-        "id": "tweet_006",
-        "author": "Kevin Weil",
-        "handle": "kevinweil",
-        "content": "오늘이 OpenAI에서의 마지막 날입니다. OpenAI for Science 팀이 다른 연구팀으로 분산됩니다. 최고제품책임자에서 연구팀에 합류하고 OpenAI for Science를 시작한 2년이었습니다. 과학 가속화는 가장 중요한 일 중 하나가 될 것입니다.",
-        "context": "OpenAI의 전 CPO 케빈 웨일. OpenAI for Science 팀 해산과 함께 OpenAI를 떠나며 2년간의 여정을 회고. AI 과학 가속화의 중요성 강조.",
-        "url": "https://x.com/kevinweil/status/2045230426210648348",
-        "publishedAt": "2026-04-17T19:58:26.000Z",
-        "metrics": {
-          "likes": 0,
-          "retweets": 0,
-          "replies": 0
-        }
-      },
-      {
-        "id": "tweet_007",
-        "author": "Kevin Weil",
-        "handle": "kevinweil",
-        "content": "새로운 Codex 컴퓨터 사용 기능이 충격적으로 뛰어납니다",
-        "context": "OpenAI의 전 CPO 케빈 웨일. OpenAI for Science 팀 해산과 함께 OpenAI를 떠나며 2년간의 여정을 회고. AI 과학 가속화의 중요성 강조.",
-        "url": "https://x.com/kevinweil/status/2045004924682195027",
-        "publishedAt": "2026-04-17T05:02:23.000Z",
-        "metrics": {
-          "likes": 0,
-          "retweets": 0,
-          "replies": 0
-        }
-      },
-      {
-        "id": "tweet_008",
-        "author": "Jack Clark",
-        "handle": "jackclarkSF",
-        "content": "5월 20일 옥스퍼드에서 '변화는 불가피하다. 자율성은 그렇지 않다'라는 제목의 강연을 합니다. 많은 분들이 들어주셨으면 하고, 이후에 발표할 계획도 있습니다.",
-        "context": "Anthropic 공동창업자 잭 클라크. AI 자율성에 관한 철학적 강연 예고와 자녀 육아 중 AI 연구를 병행하는 일상을 공유.",
-        "url": "https://x.com/jackclarkSF/status/2045204607971074116",
-        "publishedAt": "2026-04-17T18:15:51.000Z",
-        "metrics": {
-          "likes": 0,
-          "retweets": 0,
-          "replies": 0
-        }
-      },
-      {
-        "id": "tweet_009",
-        "author": "Jack Clark",
-        "handle": "jackclarkSF",
-        "content": "아이가 잠을 못 자서 소파에 옆에 앉혀두고 저정밀 훈련에 관한 화웨이 논문을 읽었습니다. 뉴스레터를 쓰면서 아이가 오리 흉내를 내달라고 할 때마다 잠시 멈추는 게 묘하게 아름다웠습니다.",
-        "context": "Anthropic 공동창업자 잭 클라크. AI 자율성에 관한 철학적 강연 예고와 자녀 육아 중 AI 연구를 병행하는 일상을 공유.",
-        "url": "https://x.com/jackclarkSF/status/2044994317106987464",
-        "publishedAt": "2026-04-17T04:20:14.000Z",
-        "metrics": {
-          "likes": 0,
-          "retweets": 0,
-          "replies": 0
-        }
-      },
-      {
-        "id": "tweet_010",
-        "author": "Alex Albert",
-        "handle": "alexalbert__",
-        "content": "이제 비전이 있는 모든 사람이 (Claude의 약간의 도움을 받아) 매우 고품질의 디자인을 만들 수 있습니다",
-        "context": "Anthropic의 Alex Albert. Claude Opus 4.7 출시 후 초기 버그 수정 완료를 알리며, 누구나 Claude로 고품질 디자인을 만들 수 있음을 강조.",
-        "url": "https://x.com/alexalbert__/status/2045165630421364853",
-        "publishedAt": "2026-04-17T15:40:58.000Z",
-        "metrics": {
-          "likes": 0,
-          "retweets": 0,
-          "replies": 0
-        }
-      },
-      {
-        "id": "tweet_011",
-        "author": "Alex Albert",
-        "handle": "alexalbert__",
-        "content": "어제 Opus 4.7을 처음 사용할 때 발생했던 많은 버그가 수정되었습니다. 인내해주셔서 감사합니다",
-        "context": "Anthropic의 Alex Albert. Claude Opus 4.7 출시 후 초기 버그 수정 완료를 알리며, 누구나 Claude로 고품질 디자인을 만들 수 있음을 강조.",
-        "url": "https://x.com/alexalbert__/status/2045159041283064095",
-        "publishedAt": "2026-04-17T15:14:47.000Z",
-        "metrics": {
-          "likes": 0,
-          "retweets": 0,
-          "replies": 0
-        }
-      },
-      {
-        "id": "tweet_012",
-        "author": "Claude",
-        "handle": "claudeai",
-        "content": "Claude Code 해커톤이 Opus 4.7로 돌아왔습니다.\n\n전 세계 빌더들과 함께 Claude Code 팀이 함께하는 1주일, 10만 달러 API 크레딧 상금 풀!\n\n일요일까지 지원하세요: https://cerebralvalley.ai/e/built-with-4-7-hackathon",
-        "context": "Anthropic의 Claude 공식 계정. Claude Opus 4.7, Claude Design, Claude for Word 등 대규모 신기능 출시 소식을 연달아 발표.",
-        "url": "https://x.com/claudeai/status/2045248224659644654",
-        "publishedAt": "2026-04-17T21:09:10.000Z",
-        "metrics": {
-          "likes": 0,
-          "retweets": 0,
-          "replies": 0
-        }
-      },
-      {
-        "id": "tweet_013",
-        "author": "Claude",
-        "handle": "claudeai",
-        "content": "Claude for Word가 Pro 및 Max 플랜에서 Opus 4.7과 함께 사용 가능합니다: https://claude.com/claude-for-word",
-        "context": "Anthropic의 Claude 공식 계정. Claude Opus 4.7, Claude Design, Claude for Word 등 대규모 신기능 출시 소식을 연달아 발표.",
-        "url": "https://x.com/claudeai/status/2045222254699511855",
-        "publishedAt": "2026-04-17T19:25:58.000Z",
-        "metrics": {
-          "likes": 0,
-          "retweets": 0,
-          "replies": 0
-        }
-      },
-      {
-        "id": "tweet_014",
-        "author": "Claude",
-        "handle": "claudeai",
-        "content": "Anthropic Labs의 Claude Design 소개: Claude와 대화로 프로토타입, 슬라이드, 원페이저를 만드세요.\n\nClaude Opus 4.7 기반, Pro·Max·Team·Enterprise 플랜에서 리서치 프리뷰로 출시 중입니다.",
-        "context": "Anthropic의 Claude 공식 계정. Claude Opus 4.7, Claude Design, Claude for Word 등 대규모 신기능 출시 소식을 연달아 발표.",
-        "url": "https://x.com/claudeai/status/2045156267690213649",
-        "publishedAt": "2026-04-17T15:03:46.000Z",
-        "metrics": {
-          "likes": 0,
-          "retweets": 0,
-          "replies": 0
-        }
-      },
-      {
-        "id": "tweet_015",
-        "author": "Claude",
-        "handle": "claudeai",
-        "content": "Claude Opus 4.7 출시 — 역대 가장 뛰어난 Opus 모델.\n\n장시간 작업을 더 철저히 처리하고, 지시를 더 정확히 따르며, 결과를 보고하기 전 스스로 검증합니다.\n\n가장 어려운 작업을 최소한의 감독으로 맡길 수 있습니다.",
-        "context": "Anthropic의 Claude 공식 계정. Claude Opus 4.7, Claude Design, Claude for Word 등 대규모 신기능 출시 소식을 연달아 발표.",
-        "url": "https://x.com/claudeai/status/2044785261393977612",
-        "publishedAt": "2026-04-16T14:29:31.000Z",
-        "metrics": {
-          "likes": 0,
-          "retweets": 0,
-          "replies": 0
-        }
-      },
-      {
-        "id": "tweet_016",
-        "author": "ClaudeDevs",
-        "handle": "ClaudeDevs",
-        "content": "가상 해커톤이 돌아왔습니다! 전 세계 개발자들과 Opus 4.7로 일주일간 빌딩하세요.\n\nClaude Code 팀이 일주일 내내 함께하며, 10만 달러 API 크레딧 상금 풀!",
-        "context": "Claude 개발자 공식 채널. Opus 4.7 관련 버그 수정, rate limit 조정, 해커톤 개최 등 개발자 관련 업데이트를 신속하게 공유.",
-        "url": "https://x.com/ClaudeDevs/status/2045248429232914770",
-        "publishedAt": "2026-04-17T21:09:59.000Z",
-        "metrics": {
-          "likes": 0,
-          "retweets": 0,
-          "replies": 0
-        }
-      },
-      {
-        "id": "tweet_017",
-        "author": "ClaudeDevs",
-        "handle": "ClaudeDevs",
-        "content": "일부 사용자들이 Opus 4.7이 일반 코드 편집을 '악성코드일 수 있음' 경고로 거부하는 현상을 경험했습니다. 이는 모델이 신중한 게 아니라 우리 쪽 버그였습니다.\n\n구버전 빌드에 Opus 4.7에는 필요 없는 구형 안전 프롬프트가 적용됐습니다. `claude update`를 실행하거나 앱을 재시작하세요.",
-        "context": "Claude 개발자 공식 채널. Opus 4.7 관련 버그 수정, rate limit 조정, 해커톤 개최 등 개발자 관련 업데이트를 신속하게 공유.",
-        "url": "https://x.com/ClaudeDevs/status/2045238786339299431",
-        "publishedAt": "2026-04-17T20:31:40.000Z",
-        "metrics": {
-          "likes": 0,
-          "retweets": 0,
-          "replies": 0
-        }
-      },
-      {
-        "id": "tweet_018",
-        "author": "ClaudeDevs",
-        "handle": "ClaudeDevs",
-        "content": "Opus 4.7의 긴 컨텍스트 요청에 대한 rate limit이 제대로 조정되지 않던 버그를 수정했습니다.\n\n5시간 및 주간 rate limit을 초기화했습니다. Opus 4.7을 즐기세요!",
-        "context": "Claude 개발자 공식 채널. Opus 4.7 관련 버그 수정, rate limit 조정, 해커톤 개최 등 개발자 관련 업데이트를 신속하게 공유.",
-        "url": "https://x.com/ClaudeDevs/status/2044868953206612154",
-        "publishedAt": "2026-04-16T20:02:04.000Z",
-        "metrics": {
-          "likes": 0,
-          "retweets": 0,
-          "replies": 0
-        }
-      },
-      {
-        "id": "tweet_019",
         "author": "OpenAI",
         "handle": "OpenAI",
-        "content": "이제 거의 모든 것을 위한 Codex.\n\nMac 앱을 직접 사용하고, 더 많은 도구에 연결하며, 이미지를 생성하고, 이전 작업을 학습하며, 업무 방식을 기억하고, 반복적 작업을 자동으로 처리합니다.",
-        "context": "OpenAI 공식 계정. Codex의 Mac 컴퓨터 사용 확장과 생명과학 특화 모델 GPT-Rosalind 출시 소식 발표.",
+        "content": "Codex, 이제 거의 모든 것이 가능합니다.\n\nMac 앱 사용, 더 많은 도구 연결, 이미지 생성, 이전 작업 학습, 작업 방식 기억, 그리고 지속적이고 반복적인 작업까지 처리할 수 있습니다.",
+        "context": "OpenAI가 AI 에이전트 Codex의 기능을 대폭 확장했습니다. 단순한 코딩 보조를 넘어 맥 앱 제어, 이미지 생성, 자율 작업 실행까지 가능한 종합 AI 에이전트로 진화했습니다.",
         "url": "https://x.com/OpenAI/status/2044827705406062670",
         "publishedAt": "2026-04-16T17:18:10.000Z",
         "metrics": {
@@ -516,13 +299,13 @@
         }
       },
       {
-        "id": "tweet_020",
+        "id": "tweet_002",
         "author": "OpenAI",
         "handle": "OpenAI",
-        "content": "GPT-Rosalind 소개 — 생물학, 신약 개발, 중개 의학 연구를 지원하는 최전선 추론 모델.",
-        "context": "OpenAI 공식 계정. Codex의 Mac 컴퓨터 사용 확장과 생명과학 특화 모델 GPT-Rosalind 출시 소식 발표.",
-        "url": "https://x.com/OpenAI/status/2044861690911850863",
-        "publishedAt": "2026-04-16T19:33:13.000Z",
+        "content": "새로운 생명과학 모델 시리즈를 더 깊이 알아보세요. 연구 책임자 @joyjiao12와 제품 책임자 Yunyun Wang이 OpenAI 팟캐스트에서 생물학, 신약 개발 등을 위한 모델 구축 방법을 논의했습니다.",
+        "context": "OpenAI가 생명과학 연구 전용 AI 모델 시리즈를 공개하며 과학 분야 AI 연구에 본격 진출했습니다. GPT-Rosalind를 비롯한 이 시리즈는 신약 개발과 생물학 연구를 가속화할 전망입니다.",
+        "url": "https://x.com/OpenAI/status/2044938017530577210",
+        "publishedAt": "2026-04-17T00:36:31.000Z",
         "metrics": {
           "likes": 0,
           "retweets": 0,
@@ -530,11 +313,109 @@
         }
       },
       {
-        "id": "tweet_021",
+        "id": "tweet_003",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "모두가 Codex로 전환하는 것은 좋지만, Tibo, 나에게 속도 제한을 걸거나 더 나쁜 모델을 사용하게 하면...",
+        "context": "OpenAI CEO Sam Altman이 Codex 사용 폭증으로 인한 요청 제한 가능성에 가볍게 농담을 건넸습니다. Codex의 폭발적 인기와 동시에 인프라 확장 압박을 엿볼 수 있는 트윗입니다.",
+        "url": "https://x.com/sama/status/2044921348540264614",
+        "publishedAt": "2026-04-16T23:30:16.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Claude Opus 4.7을 소개합니다. 지금까지 가장 뛰어난 Opus 모델입니다.\n\n장기 작업을 더 철저하게 처리하고, 지시를 더 정확하게 따르며, 결과를 보고하기 전에 자체 검증합니다.",
+        "context": "Anthropic이 Claude Opus 4.7을 공식 발표했습니다. 향상된 추론 능력과 자체 검증 기능으로 더욱 신뢰할 수 있는 AI 어시스턴트가 되었으며, 복잡한 에이전트 작업에 최적화되었습니다.",
+        "url": "https://x.com/claudeai/status/2044785261393977612",
+        "publishedAt": "2026-04-16T14:29:31.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Anthropic Labs의 Claude Design을 소개합니다. Claude와 대화하며 프로토타입, 슬라이드, 원페이저를 만들어보세요.\n\nClaude Opus 4.7 기반 비전 모델 탑재. 리서치 프리뷰로 이용 가능합니다.",
+        "context": "Anthropic Labs가 Claude Design을 공개했습니다. 자연어 대화만으로 전문적인 디자인 결과물을 만들 수 있어 비개발자도 고품질 결과물을 제작할 수 있게 되었습니다.",
+        "url": "https://x.com/claudeai/status/2045156267690213649",
+        "publishedAt": "2026-04-17T15:03:46.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Claude for Word가 이제 Pro 및 Max 플랜에서 Opus 4.7과 함께 사용 가능합니다.",
+        "context": "Claude가 Microsoft Word와 통합되어 문서 작성 도구 안에서 직접 AI 지원을 받을 수 있게 되었습니다. 가장 강력한 Claude Opus 4.7 모델과 함께 Pro, Max 구독자에게 제공됩니다.",
+        "url": "https://x.com/claudeai/status/2045222254699511855",
+        "publishedAt": "2026-04-17T19:25:58.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Claude Code 해커톤이 Opus 4.7과 함께 돌아왔습니다.\n\n전 세계 빌더들이 Claude Code 팀과 함께 일주일을 보내며 10만 달러 상당의 API 크레딧 상금을 두고 경쟁합니다. 일요일까지 신청하세요.",
+        "context": "Anthropic이 Opus 4.7을 활용한 Claude Code 해커톤을 개최합니다. 전 세계 개발자들이 참여하는 대규모 AI 개발 대회로, 우수 프로젝트에 10만 달러 규모의 API 크레딧이 상금으로 제공됩니다.",
+        "url": "https://x.com/claudeai/status/2045248224659644654",
+        "publishedAt": "2026-04-17T21:09:10.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "ClaudeDevs",
+        "handle": "ClaudeDevs",
+        "content": "v2.1.113부터 Claude Code npm 패키지가 JavaScript 빌드 대신 네이티브 바이너리를 제공합니다.\n\n동일한 설치 명령, 더 빠른 시작, CLI 실행에 더 이상 Node.js가 필요 없습니다.",
+        "context": "Claude Code가 네이티브 바이너리 배포 방식으로 전환했습니다. Node.js 의존성이 제거되어 설치와 실행이 더욱 간편해졌으며, 시작 속도도 대폭 향상되었습니다.",
+        "url": "https://x.com/ClaudeDevs/status/2045267790018543736",
+        "publishedAt": "2026-04-17T22:26:55.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_009",
+        "author": "ClaudeDevs",
+        "handle": "ClaudeDevs",
+        "content": "Claude 구독에서 Opus 4.7 장문 컨텍스트 요청에 대한 요청 제한이 제대로 조정되지 않던 버그를 수정했습니다.\n\n5시간 및 주간 요청 제한을 초기화했습니다. Opus 4.7을 마음껏 즐기세요!",
+        "context": "Anthropic이 Opus 4.7 출시 초기의 요청 제한 버그를 수정하고 한도를 초기화했습니다. 장기 컨텍스트 처리 시 잘못 계산되던 문제가 빠르게 해결되어 정상적인 서비스가 재개되었습니다.",
+        "url": "https://x.com/ClaudeDevs/status/2044868953206612154",
+        "publishedAt": "2026-04-16T20:02:04.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_010",
         "author": "OpenAI Developers",
         "handle": "OpenAIDevs",
-        "content": "Codex가 이제 코딩에서 그 주변의 모든 것까지 더 많은 업무를 도와드립니다.",
-        "context": "OpenAI 개발자 공식 채널. Codex가 코딩 이상으로 전반적인 워크플로우를 지원하게 됐음을 알림.",
+        "content": "Codex가 이제 코딩부터 관련 업무 전반까지 더 많은 작업을 도와드립니다.",
+        "context": "OpenAI 개발자 공식 계정에서 Codex의 새로운 기능을 소개했습니다. 코딩 지원을 넘어 업무 전반을 포괄하는 종합 AI 도구로 발전하고 있습니다.",
         "url": "https://x.com/OpenAIDevs/status/2044828214867202519",
         "publishedAt": "2026-04-16T17:20:12.000Z",
         "metrics": {
@@ -544,13 +425,167 @@
         }
       },
       {
-        "id": "tweet_022",
+        "id": "tweet_011",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "Stargate는 컴퓨트 기반 경제의 수요를 충족하기 위한 첫 걸음입니다.",
+        "context": "OpenAI 공동 창업자 Greg Brockman이 Stargate 데이터센터 이니셔티브의 의미를 강조했습니다. 급격히 증가하는 AI 컴퓨팅 수요를 충족하기 위한 대규모 인프라 구축 프로젝트입니다.",
+        "url": "https://x.com/gdb/status/2045279841482928271",
+        "publishedAt": "2026-04-17T23:14:48.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_012",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "Codex가 이제 할 수 있는 작업을 능동적으로 제안합니다.",
+        "context": "Greg Brockman이 Codex의 새로운 능동적 작업 제안 기능을 소개했습니다. 사용자가 먼저 요청하지 않아도 AI가 먼저 도움이 될 수 있는 작업을 제안하는 능동적 AI의 진화를 보여줍니다.",
+        "url": "https://x.com/gdb/status/2045227305816281404",
+        "publishedAt": "2026-04-17T19:46:02.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_013",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "Codex는 오픈소스로, 누구나 그 위에 멋진 애플리케이션을 구축할 수 있습니다.",
+        "context": "Greg Brockman이 Codex의 오픈소스 성격을 강조했습니다. 개발자 커뮤니티가 Codex 위에 다양한 애플리케이션을 구축할 수 있으며, 이는 AI 에코시스템의 확장을 의미합니다.",
+        "url": "https://x.com/gdb/status/2045214436689072136",
+        "publishedAt": "2026-04-17T18:54:54.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_014",
+        "author": "Alex Albert",
+        "handle": "alexalbert__",
+        "content": "이제 비전이 있는 모든 사람이 Claude의 도움으로 매우 고품질의 디자인을 만들 수 있습니다.",
+        "context": "Claude 제품 담당자 Alex Albert가 Claude Design의 접근성을 강조했습니다. 전문 디자이너가 아니어도 Claude를 통해 전문적인 품질의 디자인을 만들 수 있는 시대가 열렸습니다.",
+        "url": "https://x.com/alexalbert__/status/2045165630421364853",
+        "publishedAt": "2026-04-17T15:40:58.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_015",
+        "author": "Alex Albert",
+        "handle": "alexalbert__",
+        "content": "어제 Opus 4.7을 처음 사용할 때 발생했던 많은 버그가 수정되었습니다. 인내해 주셔서 감사합니다.",
+        "context": "Alex Albert가 Opus 4.7 초기 버그 수정 완료를 알렸습니다. 출시 첫날 경험했던 문제들이 빠르게 해결되어 정상적인 서비스가 재개되었습니다.",
+        "url": "https://x.com/alexalbert__/status/2045159041283064095",
+        "publishedAt": "2026-04-17T15:14:47.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_016",
+        "author": "Kevin Weil",
+        "handle": "kevinweil",
+        "content": "오늘이 OpenAI에서의 마지막 날입니다. OpenAI for Science가 다른 연구팀에 분산되면서 퇴사하게 되었습니다. CPO부터 연구팀 합류까지 2년은 정말 많은 것을 배운 시간이었습니다.",
+        "context": "Kevin Weil이 OpenAI에서의 퇴사를 공식 발표했습니다. CPO 역할을 거쳐 과학 연구팀까지 이끈 그의 퇴사는 OpenAI의 조직 구조 재편과 맞물려 AI 업계의 주목을 받고 있습니다.",
+        "url": "https://x.com/kevinweil/status/2045230426210648348",
+        "publishedAt": "2026-04-17T19:58:26.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_017",
+        "author": "Kevin Weil",
+        "handle": "kevinweil",
+        "content": "새로운 Codex 컴퓨터 사용 기능이 놀라울 정도로 뛰어납니다.",
+        "context": "Kevin Weil이 Codex의 컴퓨터 사용 기능에 대한 극찬을 남겼습니다. OpenAI 내부자의 솔직한 평가로, AI 에이전트 기술 수준이 새로운 단계에 진입했음을 시사합니다.",
+        "url": "https://x.com/kevinweil/status/2045004924682195027",
+        "publishedAt": "2026-04-17T05:02:23.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_018",
+        "author": "Jack Clark",
+        "handle": "jackclarkSF",
+        "content": "5월 20일 옥스퍼드에서 '변화는 불가피하다. 자율성은 그렇지 않다'라는 강연을 할 예정입니다. 이후 발표할 계획도 있습니다.",
+        "context": "Anthropic 공동 창업자 Jack Clark가 옥스퍼드 강연을 예고했습니다. AI의 필연적 변화와 자율성의 관계에 대한 깊이 있는 통찰을 공유할 예정으로 AI 안전성 논의에서 주목받는 강연입니다.",
+        "url": "https://x.com/jackclarkSF/status/2045204607971074116",
+        "publishedAt": "2026-04-17T18:15:51.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_019",
+        "author": "Jack Clark",
+        "handle": "jackclarkSF",
+        "content": "아이가 잠을 못 자서 소파에서 함께 누워 화웨이의 저비트 정밀 훈련에 관한 매우 건조하고 까다로운 논문을 읽었습니다. 묘하게 아름다운 순간이었습니다.",
+        "context": "Anthropic 공동 창업자 Jack Clark가 일상과 AI 연구를 함께 담은 인간적인 순간을 공유했습니다. 화웨이의 최신 저비트 정밀 훈련 논문에 관심을 가지며 AI 연구에 대한 끊임없는 열정을 보여줍니다.",
+        "url": "https://x.com/jackclarkSF/status/2044994317106987464",
+        "publishedAt": "2026-04-17T04:20:14.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_020",
         "author": "Thariq",
         "handle": "trq212",
-        "content": "피드백을 들었습니다. Claude Code의 모든 소식을 더 쉽게 따라갈 수 있도록 개선 중입니다.\n\n먼저 @ClaudeDevs를 소개합니다 — Claude Code 및 Claude 플랫폼의 모든 업데이트를 위한 공식 채널입니다.",
-        "context": "Anthropic의 Thariq. Claude Code 업데이트 소식을 더 쉽게 팔로우할 수 있도록 @ClaudeDevs 공식 채널 신설을 공지.",
+        "content": "여러분의 피드백을 반영해 Claude Code 소식을 더 쉽게 팔로우할 수 있도록 만들고 있습니다.\n\n먼저 @ClaudeDevs를 소개합니다. 모든 Claude Code 업데이트를 위한 공식 채널입니다.",
+        "context": "Anthropic의 Thomas Rochefort가 새로운 공식 Claude Code 업데이트 채널 @ClaudeDevs를 소개했습니다. 개발자 커뮤니티와의 소통을 강화하기 위한 전용 채널로 Claude Code의 모든 공식 소식이 게시됩니다.",
         "url": "https://x.com/trq212/status/2044893583308918787",
         "publishedAt": "2026-04-16T21:39:57.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_021",
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "content": "Opus 4.7이 더 많은 사고 토큰을 사용하므로, 모든 구독자의 요청 제한을 늘렸습니다. 마음껏 즐기세요!",
+        "context": "Claude Code 리드 Boris Cherny가 Opus 4.7의 사고 토큰 증가에 따른 요청 제한 상향을 발표했습니다. 더 강력해진 모델을 충분히 활용할 수 있도록 정책이 조정되었습니다.",
+        "url": "https://x.com/bcherny/status/2044839936235553167",
+        "publishedAt": "2026-04-16T18:06:46.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_022",
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "content": "지난 몇 주 동안 Opus 4.7을 사용해보니 생산성이 매우 높아졌습니다.",
+        "context": "Boris Cherny가 수 주간의 Opus 4.7 내부 테스트에서 뛰어난 생산성 향상을 경험했다고 밝혔습니다. 출시 전 내부 사용자들의 긍정적인 평가를 시사하는 트윗입니다.",
+        "url": "https://x.com/bcherny/status/2044847848035156457",
+        "publishedAt": "2026-04-16T18:06:46.000Z",
         "metrics": {
           "likes": 0,
           "retweets": 0,
@@ -561,8 +596,8 @@
         "id": "tweet_023",
         "author": "Felix Rieseberg",
         "handle": "felixrieseberg",
-        "content": "매일 작은 개선 사항을 출시하지만, 이건 요청이 너무 많아서 트윗합니다: Claude Cowork의 모든 권한 요청 건너뛰기.\n\n주의해서 사용하세요, @dreamofabear와 함께 제공합니다.",
-        "context": "Claude 데스크톱 앱 개발자 Felix Rieseberg. Claude Cowork의 권한 건너뛰기 기능과 블루투스 API 추가 등 틈새 개발자를 위한 신기능 공개.",
+        "content": "매일 작은 개선 사항을 출시하지만, 이번 기능은 많이 요청받아 특별히 트윗합니다: Claude Cowork에서 모든 권한 건너뛰기. @dreamofabear와 함께 만든 기능이니 주의해서 사용하세요.",
+        "context": "Electron 개발자이자 Claude 팀의 Felix Rieseberg가 Cowork의 권한 건너뛰기 기능을 소개했습니다. 개발 환경에서 더 빠른 워크플로우를 위한 편의 기능으로, 신중한 사용을 권고합니다.",
         "url": "https://x.com/felixrieseberg/status/2045211232534474959",
         "publishedAt": "2026-04-17T18:42:10.000Z",
         "metrics": {
@@ -575,8 +610,8 @@
         "id": "tweet_024",
         "author": "Felix Rieseberg",
         "handle": "felixrieseberg",
-        "content": "데스크톱 앱에서 Claude Cowork와 Code에 메이커 및 개발자를 위한 블루투스 API가 추가되었습니다 — 상호작용하는 하드웨어 기기를 만들 수 있습니다.",
-        "context": "Claude 데스크톱 앱 개발자 Felix Rieseberg. Claude Cowork의 권한 건너뛰기 기능과 블루투스 API 추가 등 틈새 개발자를 위한 신기능 공개.",
+        "content": "데스크톱 앱에서 Claude Cowork와 Code에 블루투스 API가 추가되었습니다. 메이커와 개발자들이 Claude와 상호작용하는 하드웨어 장치를 만들 수 있습니다.",
+        "context": "Felix Rieseberg가 Claude 데스크톱 앱에 블루투스 API가 추가되었음을 발표했습니다. 메이커들이 Claude와 상호작용하는 물리적 하드웨어 장치를 구축할 수 있는 혁신적인 기능입니다.",
         "url": "https://x.com/felixrieseberg/status/2044920611215233397",
         "publishedAt": "2026-04-16T23:27:21.000Z",
         "metrics": {
@@ -591,367 +626,337 @@
         "id": "threads_001",
         "author": "CHOI",
         "handle": "choi.openai",
-        "content": "AI 연구소 Decart가 비디오 생성 모델 'Lucy'의 성능 업데이트를 발표했습니다.\n화질, 립싱크 정확도, 자연스러운 조명과 복잡한 움직임 등 시각적 품질을 크게 올리면서도 가장 큰 무기인 '실시간' 능력을 그대로 유지했습니다.",
-        "context": "AI 연구소 Decart의 실시간 비디오 생성 모델 'Lucy' 업데이트. 화질과 립싱크 정확도를 유지하면서도 실시간 생성 능력을 강화.",
-        "url": "https://www.threads.com/@choi.openai/post/DXPVOr9jpNa",
-        "publishedAt": "2026-04-17T16:30:52.000Z",
+        "content": "MeshyAI가 4K 텍스처 지원 업데이트를 발표했습니다.\n새롭게 추가된 HD 텍스처 기능을 켜면 아무리 줌인을 해도 모델의 표면 디테일이 깨지지 않고 선명하게 유지됩니다.\n그동안 3D AI 업계의 주요 과제는 전체적인 구조와 형태를 제대로 구현하는 것에 집중되어 있었습니다. 하지만 형태 생성이 점차 상향 평준화되면서, 이제는 표면 질감과 해상도를 얼마나 사실적으로 끌어올리느냐가 새로운 경쟁 포인트로 이동하는 모습입니다.\n3D 생성 AI의 품질 기준이 또 한 번 높아졌습니다.",
+        "context": "",
+        "url": "https://www.threads.net/@choi.openai/post/DXQTBNrCgEp",
+        "publishedAt": "2026-04-18T01:30:48.000Z",
         "platform": "threads"
       },
       {
         "id": "threads_002",
         "author": "CHOI",
         "handle": "choi.openai",
-        "content": "기존 코드베이스를 학습해 팀의 브랜드 가이드를 알아서 유지해주며, 결과물은 Canva나 PDF로 내보내거나 Claude Code로 넘겨 즉시 개발로 이어지게 만듭니다.",
-        "context": "Claude Code의 컨텍스트 관리 팁. 30~40만 토큰부터 성능 저하가 시작되므로 새 작업 시 /clear로 세션을 초기화해야 함.",
-        "url": "https://www.threads.com/@choi.openai/post/DXPN2Xbjzzg",
-        "publishedAt": "2026-04-17T15:28:21.000Z",
-        "platform": "threads"
-      },
-      {
-        "id": "threads_003",
-        "author": "CHOI",
-        "handle": "choi.openai",
-        "content": "작업에 따라 다르지만 보통 30만~40만 토큰부터 성능 저하가 시작되므로, 새로운 작업을 시작할 때는 반드시 세션도 새롭게(/clear) 시작하는 것이 가장 기본적이고 중요한 원칙입니다.\n2/5",
-        "context": "AI 관련 최신 소식을 한국어로 소개하는 @choi.openai의 Threads 게시물.",
-        "url": "https://www.threads.com/@choi.openai/post/DXPK1qRimQe",
-        "publishedAt": "2026-04-17T15:00:05.000Z",
-        "platform": "threads"
-      },
-      {
-        "id": "threads_004",
-        "author": "CHOI",
-        "handle": "choi.openai",
-        "content": "AI 영상 제작 플랫폼 HeyGen이 HTML을 MP4 영상으로 변환해 주는 오픈소스 프레임워크 'HyperFrames'를 공개했습니다.\n이번 업데이트를 알리는 공식 홍보 영상 자체도 Claude Code와 해당 프레임워크를 결합해 만들었다고 하네요.",
-        "context": "HeyGen의 오픈소스 프레임워크 HyperFrames. HTML을 MP4 영상으로 변환해주며, Claude Code와 결합해 동영상 마케팅 자동화 가능.",
-        "url": "https://www.threads.com/@choi.openai/post/DXPBpJmDC5x",
-        "publishedAt": "2026-04-17T13:30:17.000Z",
-        "platform": "threads"
-      },
-      {
-        "id": "threads_005",
-        "author": "CHOI",
-        "handle": "choi.openai",
-        "content": "와… 오늘 Anthropic Labs에서 Claude Opus 4.7을 기반으로 작동하는 시각 작업 도구, Claude Design을 공개했습니다.\n프롬프트 입력만으로 프로토타입이나 프레젠테이션 슬라이드를 생성하고, 채팅이나 직접 수정, 슬라이더 조작으로 디자인을 세밀하게 다듬을 수 있습니다.",
-        "context": "AI 관련 최신 소식을 한국어로 소개하는 @choi.openai의 Threads 게시물.",
-        "url": "https://www.threads.com/@choi.openai/post/DXPK3_bijkd",
-        "publishedAt": "2026-04-17T15:00:24.000Z",
+        "content": "오픈AI 내부에서 심상치 않은 칼바람이 불고 있습니다.\nSora 개발을 이끌던 빌 피블스와 과학 부문 부사장 케빈 웨일, B2B 애플리케이션 CTO등 주요 리더들이 연이어 회사를 떠났습니다.\n수많은 화제를 낳았던 소라 같은 사이드 프로젝트는 과감히 멈추고, 과학자용 AI 워크스페이스마저 개발자용 도구인 '코덱스(Codex)' 팀으로 흡수시켰습니다.\n막대한 컴퓨팅 비용을 감당하기 위해, 이제는 확실하게 수요가 폭발하는 '기업용 에이전트와 코딩'에만 모든 자원을 쏟아붓겠다는 의지로 보입니다. 화려한 볼거리 대신, 모든 기능을 코덱스라는 거대한 에이전트로 뭉치려는 오픈AI의 극단적인 선택.",
+        "context": "",
+        "url": "https://www.threads.net/@choi.openai/post/DXQItwuiMYG",
+        "publishedAt": "2026-04-18T00:00:46.000Z",
         "platform": "threads"
       }
     ],
     "reddit_pulse": [
       {
         "id": "reddit_001",
-        "title": "현대 AI 논문 재현 실패 사례 논의 [D]",
-        "originalTitle": "Failure to Reproduce Modern Paper Claims [D]",
-        "summary": "r/MachineLearning 커뮤니티에서 'Failure to Reproduce Modern Paper Claims'에 대한 심층 논의가 이루어지고 있습니다. 연구자들이 최신 AI 논문의 결과를 검증하고 방법론에 대해 토론 중입니다.",
-        "url": "https://www.reddit.com/r/MachineLearning/comments/1sml5fo/failure_to_reproduce_modern_paper_claims_d/",
+        "title": "하이퍼스펙트럴 작물 스트레스 데이터에서 SSL로 낮은 정확도(~50%) — 무엇이 문제일까요?",
+        "originalTitle": "Low accuracy (~50%) with SSL (BYOL/MAE/VICReg) on hyperspectral crop stress data — what am I missing? [R]",
+        "summary": "r/MachineLearning에서 화제인 자기지도학습(SSL) 관련 토론입니다. BYOL, MAE, VICReg 등의 방법론으로 농업 데이터를 분석하는 과정에서 50% 수준의 낮은 정확도를 보이는 문제를 해결하려는 연구자의 질문에 커뮤니티의 다양한 의견이 모이고 있습니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1snxm0t/low_accuracy_50_with_ssl_byolmaevicreg_on/",
         "subreddit": "MachineLearning",
-        "score": 167,
-        "publishedAt": "2026-04-16T07:28:34+09:00"
+        "score": 0,
+        "publishedAt": "2026-04-17T19:57:36+09:00"
       },
       {
         "id": "reddit_002",
-        "title": "[ICML 2026] 점수가 올랐다가 내려간 이상한 경험 [D]",
-        "originalTitle": "[ICML 2026] Scores increased and then decreased!! [D]",
-        "summary": "r/MachineLearning 커뮤니티에서 '[ICML 2026] Scores increased and then de'에 대한 심층 논의가 이루어지고 있습니다. 연구자들이 최신 AI 논문의 결과를 검증하고 방법론에 대해 토론 중입니다.",
-        "url": "https://www.reddit.com/r/MachineLearning/comments/1smv0rq/icml_2026_scores_increased_and_then_decreased_d/",
+        "title": "개인 연구자, 수정 능력을 갖춘 언어 모델 논문에 대한 기술 피드백 요청",
+        "originalTitle": "Independent researcher looking for technical feedback on a paper about a revision-capable language model [P]",
+        "summary": "독립 연구자가 언어 모델의 수정 능력에 관한 논문에 대한 기술적 피드백을 구하고 있습니다. 현재 언어 모델의 한계를 극복하려는 혁신적인 접근 방식에 커뮤니티의 건설적인 의견을 요청합니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1so6432/independent_researcher_looking_for_technical/",
         "subreddit": "MachineLearning",
-        "score": 39,
-        "publishedAt": "2026-04-16T15:02:18+09:00"
+        "score": 0,
+        "publishedAt": "2026-04-18T01:34:04+09:00"
       },
       {
         "id": "reddit_003",
-        "title": "LLM을 위한 정치적 벤치마크 구축 — KIMI K2 답변 거부",
-        "originalTitle": "Built an political benchmark for LLMs. KIMI K2 can't answer about Taiwan (Obviously). GPT-5.3 refuses 100% of questions when given an opt-out. [P]",
-        "summary": "r/MachineLearning 커뮤니티에서 'Built an political benchmark for LLMs. K'에 대한 심층 논의가 이루어지고 있습니다. 연구자들이 최신 AI 논문의 결과를 검증하고 방법론에 대해 토론 중입니다.",
-        "url": "https://www.reddit.com/r/MachineLearning/comments/1smqsbu/built_an_political_benchmark_for_llms_kimi_k2/",
+        "title": "맥과 커스텀 RTX 5090 PC, 어느 것을 구입해야 할까요?",
+        "originalTitle": "Which computer should I buy: Mac or custom-built 5090? [D]",
+        "summary": "머신러닝 연구자들 사이에서 Mac과 RTX 5090 탑재 커스텀 PC 중 어느 것이 ML 작업에 더 적합한지에 대한 토론이 벌어지고 있습니다. Apple Silicon의 메모리 효율성 대 최신 NVIDIA GPU의 연산 성능, 각각의 실제 사용 사례가 활발히 논의됩니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1snqzq9/which_computer_should_i_buy_mac_or_custombuilt/",
         "subreddit": "MachineLearning",
-        "score": 17,
-        "publishedAt": "2026-04-16T11:31:24+09:00"
+        "score": 0,
+        "publishedAt": "2026-04-17T13:47:26+09:00"
       },
       {
         "id": "reddit_004",
-        "title": "Qwen3.6 출시 — MoE 기반 오픈소스 LLM 공개",
-        "originalTitle": "Qwen3.6-35B-A3B released!",
-        "summary": "r/LocalLLaMA에서 'Qwen3.6-35B-A3B released!'가 주목받고 있습니다. 로컬 실행 가능한 오픈소스 모델의 성능과 효율성에 대한 사용자 경험이 공유되고 있습니다.",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sn3izh/qwen3635ba3b_released/",
-        "subreddit": "LocalLLaMA",
-        "score": 2112,
-        "publishedAt": "2026-04-16T22:27:39+09:00"
-      },
-      {
-        "id": "reddit_005",
-        "title": "Qwen3.6 출시 — MoE 기반 오픈소스 LLM 공개",
+        "title": "Qwen3.6, 드디어 왔다",
         "originalTitle": "Qwen3.6. This is it.",
-        "summary": "r/LocalLLaMA에서 'Qwen3.6. This is it.'가 주목받고 있습니다. 로컬 실행 가능한 오픈소스 모델의 성능과 효율성에 대한 사용자 경험이 공유되고 있습니다.",
+        "summary": "Alibaba가 새로운 오픈소스 언어 모델 Qwen3.6을 출시했습니다. 로컬 AI 커뮤니티에서 큰 주목을 받고 있으며, 성능과 효율성 면에서 기존 오픈소스 모델들을 앞선다는 평가가 나오고 있습니다.",
         "url": "https://www.reddit.com/r/LocalLLaMA/comments/1so1533/qwen36_this_is_it/",
         "subreddit": "LocalLLaMA",
-        "score": 562,
+        "score": 0,
         "publishedAt": "2026-04-17T22:33:11+09:00"
       },
       {
-        "id": "reddit_006",
-        "title": "Ternary Bonsai: Top intelligence at 1.58 bits",
-        "originalTitle": "Ternary Bonsai: Top intelligence at 1.58 bits",
-        "summary": "r/LocalLLaMA에서 'Ternary Bonsai: Top intelligence at 1.58'가 주목받고 있습니다. 로컬 실행 가능한 오픈소스 모델의 성능과 효율성에 대한 사용자 경험이 공유되고 있습니다.",
-        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1snqo1f/ternary_bonsai_top_intelligence_at_158_bits/",
+        "id": "reddit_005",
+        "title": "Qwen3.6 GGUF 벤치마크 결과",
+        "originalTitle": "Qwen3.6 GGUF Benchmarks",
+        "summary": "로컬 실행을 위한 GGUF 포맷의 Qwen3.6 벤치마크 결과가 공유되었습니다. 다양한 양자화 설정에서의 성능과 메모리 사용량을 실측 데이터로 비교 분석하여 실제 사용자들에게 유용한 정보를 제공합니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1so5nrl/qwen36_gguf_benchmarks/",
         "subreddit": "LocalLLaMA",
-        "score": 334,
-        "publishedAt": "2026-04-17T13:30:36+09:00"
+        "score": 0,
+        "publishedAt": "2026-04-18T01:17:50+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "내 테스트에서 Qwen 3.6 35B, Gemma 4 26B를 압도",
+        "originalTitle": "Qwen 3.6 35B crushes Gemma 4 26B on my tests",
+        "summary": "개인 테스트 결과 Qwen 3.6 35B 모델이 Google의 Gemma 4 26B를 성능에서 크게 앞서는 것으로 나타났습니다. 코딩, 추론, 지시 따르기 등 여러 영역에서의 비교 결과가 상세히 공유되었습니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1soc98n/qwen_36_35b_crushes_gemma_4_26b_on_my_tests/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-04-18T05:15:21+09:00"
       },
       {
         "id": "reddit_007",
-        "title": "Opus 4.7 출시 — 뉴욕타임스 퍼즐 거부 사례 등 초기 반응",
+        "title": "Opus 4.7은 실망스럽고, Anthropic은 완전히 실수했다",
         "originalTitle": "Opus 4.7 is terrible, and Anthropic has completely dropped the ball",
-        "summary": "r/artificial에서 'Opus 4.7 is terrible, and Anthropic has '에 대한 토론이 활발히 진행 중입니다. AI 기술의 최신 동향과 실제 활용 사례를 중심으로 다양한 의견이 오가고 있습니다.",
+        "summary": "Claude Opus 4.7 출시 초기 발생한 버그와 성능 문제로 인해 r/artificial에서 비판적인 목소리가 높습니다. Anthropic이 출시 품질 관리에서 실패했다는 지적과 함께 구체적인 문제 사례들이 공유되고 있습니다.",
         "url": "https://www.reddit.com/r/artificial/comments/1so16hr/opus_47_is_terrible_and_anthropic_has_completely/",
         "subreddit": "artificial",
-        "score": 143,
+        "score": 0,
         "publishedAt": "2026-04-17T22:34:46+09:00"
       },
       {
         "id": "reddit_008",
-        "title": "Reese Witherspoon Doubles Down on Telling Women to Learn AI: Jobs We Hold Are \"Three Times More Likely to Be Automated By AI\"",
+        "title": "리즈 위더스푼, 여성들에게 AI 배울 것 거듭 촉구: 우리 직업이 3배 더 위험에 처해 있다",
         "originalTitle": "Reese Witherspoon Doubles Down on Telling Women to Learn AI: Jobs We Hold Are \"Three Times More Likely to Be Automated By AI\"",
-        "summary": "r/artificial에서 'Reese Witherspoon Doubles Down on Tellin'에 대한 토론이 활발히 진행 중입니다. AI 기술의 최신 동향과 실제 활용 사례를 중심으로 다양한 의견이 오가고 있습니다.",
+        "summary": "배우 겸 사업가 리즈 위더스푼이 여성들이 AI를 배워야 한다는 주장을 재강조했습니다. 여성이 보유한 직업이 AI 자동화에 세 배 더 취약하다는 데이터를 인용하며 적극적인 AI 교육의 필요성을 역설합니다.",
         "url": "https://www.reddit.com/r/artificial/comments/1snqqjo/reese_witherspoon_doubles_down_on_telling_women/",
         "subreddit": "artificial",
-        "score": 116,
+        "score": 0,
         "publishedAt": "2026-04-17T13:34:09+09:00"
       },
       {
         "id": "reddit_009",
-        "title": "Qwen 3.6-35B - A3B Opensource Launched.",
-        "originalTitle": "Qwen 3.6-35B - A3B Opensource Launched.",
-        "summary": "r/artificial에서 'Qwen 3.6-35B - A3B Opensource Launched.'에 대한 토론이 활발히 진행 중입니다. AI 기술의 최신 동향과 실제 활용 사례를 중심으로 다양한 의견이 오가고 있습니다.",
-        "url": "https://www.reddit.com/r/artificial/comments/1sn4wcs/qwen_3635b_a3b_opensource_launched/",
+        "title": "Google, 모든 사람에게 웹사이트를 다르게 보이게 하는 AI 기술 특허 출원",
+        "originalTitle": "Google patents AI tech that will personalize websites and make them look different for everyone",
+        "summary": "Google이 AI를 활용해 각 사용자에게 맞춤화된 웹사이트 경험을 제공하는 기술을 특허 출원했습니다. 이 기술이 구현되면 웹의 기본 성격이 바뀌고 개인화가 더욱 심화될 수 있다는 논의가 이루어지고 있습니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1so3vto/google_patents_ai_tech_that_will_personalize/",
         "subreddit": "artificial",
-        "score": 64,
-        "publishedAt": "2026-04-16T23:18:43+09:00"
+        "score": 0,
+        "publishedAt": "2026-04-18T00:14:18+09:00"
       },
       {
         "id": "reddit_010",
-        "title": "Should OpenAi release AI companion?",
-        "originalTitle": "Should OpenAi release AI companion?",
-        "summary": "r/OpenAI 커뮤니티에서 'Should OpenAi release AI companion?'를 둘러싼 반응이 뜨겁습니다. OpenAI의 최신 발표와 제품에 대한 사용자들의 첫인상과 평가가 공유되고 있습니다.",
-        "url": "https://www.reddit.com/r/OpenAI/comments/1sn4n1g/should_openai_release_ai_companion/",
+        "title": "OpenAI에 무슨 일이 벌어지고 있나요?",
+        "originalTitle": "What is going on?",
+        "summary": "OpenAI 내부 변화와 최근 제품 출시 이슈에 대해 커뮤니티가 혼란스러워하는 상황입니다. Kevin Weil의 퇴사, Codex 출시 관련 이슈 등 최근 조직 변화가 주요 토론 주제입니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1sofogu/what_is_going_on/",
         "subreddit": "OpenAI",
-        "score": 1382,
-        "publishedAt": "2026-04-16T23:09:19+09:00"
+        "score": 0,
+        "publishedAt": "2026-04-18T07:26:23+09:00"
       },
       {
         "id": "reddit_011",
-        "title": "Claude had enough of this user",
-        "originalTitle": "Claude had enough of this user",
-        "summary": "r/OpenAI 커뮤니티에서 'Claude had enough of this user'를 둘러싼 반응이 뜨겁습니다. OpenAI의 최신 발표와 제품에 대한 사용자들의 첫인상과 평가가 공유되고 있습니다.",
-        "url": "https://www.reddit.com/r/OpenAI/comments/1smu2rk/claude_had_enough_of_this_user/",
-        "subreddit": "OpenAI",
-        "score": 772,
-        "publishedAt": "2026-04-16T14:11:00+09:00"
-      },
-      {
-        "id": "reddit_012",
-        "title": "Opus 4.7 출시 — 뉴욕타임스 퍼즐 거부 사례 등 초기 반응",
+        "title": "Opus 4.7 출시, 당혹스럽기 그지없다",
         "originalTitle": "Opus 4.7 Embarrassing much",
-        "summary": "r/OpenAI 커뮤니티에서 'Opus 4.7 Embarrassing much'를 둘러싼 반응이 뜨겁습니다. OpenAI의 최신 발표와 제품에 대한 사용자들의 첫인상과 평가가 공유되고 있습니다.",
+        "summary": "Claude Opus 4.7 출시 당일 발생한 다수의 버그와 성능 문제들에 대한 비판적인 토론입니다. 초기 요청 제한 문제, 컨텍스트 처리 오류 등 구체적인 문제들이 공유되고 있습니다.",
         "url": "https://www.reddit.com/r/OpenAI/comments/1snynsw/opus_47_embarrassing_much/",
         "subreddit": "OpenAI",
-        "score": 518,
+        "score": 0,
         "publishedAt": "2026-04-17T20:48:59+09:00"
       },
       {
+        "id": "reddit_012",
+        "title": "요즘 OpenAI",
+        "originalTitle": "OpenAI these days",
+        "summary": "OpenAI의 최근 동향에 대한 커뮤니티 토론입니다. Codex 출시, 조직 구조 변화, 인재 이탈 등 다양한 주제로 OpenAI의 현재 상태에 대한 다양한 시각이 공유됩니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1soh4jo/openai_these_days/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-04-18T08:26:23+09:00"
+      },
+      {
         "id": "reddit_013",
-        "title": "Claude Opus 4.7 출시 — 사용자 반응 및 성능 평가",
-        "originalTitle": "Introducing Claude Opus 4.7, our most capable Opus model yet.",
-        "summary": "r/ClaudeAI에서 'Introducing Claude Opus 4.7, our most ca'에 대한 사용자들의 활발한 토론이 이루어지고 있습니다. Claude의 최신 업데이트와 기능에 대한 실제 사용 경험이 공유 중입니다.",
-        "url": "https://www.reddit.com/r/ClaudeAI/comments/1sn57af/introducing_claude_opus_47_our_most_capable_opus/",
+        "title": "Opus 4.7로 구축하기: Claude Code 가상 해커톤 공식 발표!",
+        "originalTitle": "Announcing Built with Opus 4.7: a Claude Code virtual hackathon!",
+        "summary": "Anthropic이 Claude Code 가상 해커톤을 공식 발표했습니다. 10만 달러 규모의 API 크레딧 상금을 걸고 개발자들이 Opus 4.7 기반의 프로젝트를 제출할 수 있는 기회입니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1sodqb4/announcing_built_with_opus_47_a_claude_code/",
         "subreddit": "ClaudeAI",
-        "score": 3259,
-        "publishedAt": "2026-04-16T23:29:56+09:00"
+        "score": 0,
+        "publishedAt": "2026-04-18T06:10:24+09:00"
       },
       {
         "id": "reddit_014",
-        "title": "Claude Opus 4.7 출시 — 사용자 반응 및 성능 평가",
-        "originalTitle": "Claude Opus 4.7 is a serious regression, not an upgrade.",
-        "summary": "r/ClaudeAI에서 'Claude Opus 4.7 is a serious regression,'에 대한 사용자들의 활발한 토론이 이루어지고 있습니다. Claude의 최신 업데이트와 기능에 대한 실제 사용 경험이 공유 중입니다.",
-        "url": "https://www.reddit.com/r/ClaudeAI/comments/1snhfzd/claude_opus_47_is_a_serious_regression_not_an/",
+        "title": "Anthropic Labs의 Claude Design 출시 발표",
+        "originalTitle": "Introducing Claude Design by Anthropic Labs",
+        "summary": "Anthropic Labs가 Claude Design을 공식 발표했습니다. Claude와 대화하며 프로토타입, 슬라이드, 원페이저를 제작할 수 있는 새로운 디자인 도구로, 개발자와 디자이너 모두의 큰 관심을 받고 있습니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1so3k1y/introducing_claude_design_by_anthropic_labs/",
         "subreddit": "ClaudeAI",
-        "score": 2813,
-        "publishedAt": "2026-04-17T06:43:27+09:00"
+        "score": 0,
+        "publishedAt": "2026-04-18T00:02:45+09:00"
       },
       {
         "id": "reddit_015",
-        "title": "Opus 4.7 출시 — 뉴욕타임스 퍼즐 거부 사례 등 초기 반응",
-        "originalTitle": "Opus 4.7 with literally anything",
-        "summary": "r/ClaudeAI에서 'Opus 4.7 with literally anything'에 대한 사용자들의 활발한 토론이 이루어지고 있습니다. Claude의 최신 업데이트와 기능에 대한 실제 사용 경험이 공유 중입니다.",
-        "url": "https://www.reddit.com/r/ClaudeAI/comments/1snuu1o/opus_47_with_literally_anything/",
+        "title": "Claude Design 출시 직후 Figma 주가 4.26% 급락, 역사의 현장 목격",
+        "originalTitle": "Claude Design just launched and Figma dropped 4.26% in a single day, we are witnessing history in real time",
+        "summary": "Claude Design 출시 직후 Figma 주가가 하루 만에 4.26% 하락했습니다. AI 기반 디자인 도구가 전통적인 디자인 소프트웨어 시장에 미치는 영향에 대한 열띤 토론이 벌어지고 있습니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1so6z2t/claude_design_just_launched_and_figma_dropped_426/",
         "subreddit": "ClaudeAI",
-        "score": 1422,
-        "publishedAt": "2026-04-17T17:20:57+09:00"
+        "score": 0,
+        "publishedAt": "2026-04-18T02:04:24+09:00"
       },
       {
         "id": "reddit_016",
-        "title": "The API Tooling Crisis: Why developers are abandoning Postman and its clones?",
-        "originalTitle": "The API Tooling Crisis: Why developers are abandoning Postman and its clones?",
-        "summary": "r/programming에서 'The API Tooling Crisis: Why developers a'가 주목받고 있습니다. 개발자 커뮤니티에서 기술적 세부사항과 실용적 활용법에 대한 논의가 진행 중입니다.",
-        "url": "https://www.reddit.com/r/programming/comments/1smyun6/the_api_tooling_crisis_why_developers_are/",
+        "title": "'모던' 오픈소스의 위험성",
+        "originalTitle": "The Danger of \"Modern\" Open Source",
+        "summary": "오픈소스 소프트웨어의 현대화 트렌드가 가져오는 잠재적 위험에 대한 심층 분석입니다. 복잡성 증가, 유지보수 부담, 그리고 원래의 오픈소스 정신과의 괴리에 대한 우려가 프로그래밍 커뮤니티에서 공유됩니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1soazcx/the_danger_of_modern_open_source/",
         "subreddit": "programming",
-        "score": 607,
-        "publishedAt": "2026-04-16T18:47:44+09:00"
+        "score": 0,
+        "publishedAt": "2026-04-18T04:28:20+09:00"
       },
       {
         "id": "reddit_017",
-        "title": "Dennis Ritchie on the double roles of &amp; and | in Early C",
-        "originalTitle": "Dennis Ritchie on the double roles of &amp; and | in Early C",
-        "summary": "r/programming에서 'Dennis Ritchie on the double roles of &a'가 주목받고 있습니다. 개발자 커뮤니티에서 기술적 세부사항과 실용적 활용법에 대한 논의가 진행 중입니다.",
-        "url": "https://www.reddit.com/r/programming/comments/1sn4yi9/dennis_ritchie_on_the_double_roles_of_and_in/",
+        "title": "Rust 1.95.0 출시",
+        "originalTitle": "Rust 1.95.0",
+        "summary": "Rust 프로그래밍 언어의 새로운 버전 1.95.0이 출시되었습니다. 언어 개선 사항과 새로운 안정화된 기능들이 포함되어 있으며, 시스템 프로그래밍 커뮤니티에서 주목받고 있습니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1so54le/rust_1950/",
         "subreddit": "programming",
-        "score": 173,
-        "publishedAt": "2026-04-16T23:20:53+09:00"
+        "score": 0,
+        "publishedAt": "2026-04-18T00:59:05+09:00"
       },
       {
         "id": "reddit_018",
-        "title": "Kafka Fundamentals - Guide to Distributed Messaging",
-        "originalTitle": "Kafka Fundamentals - Guide to Distributed Messaging",
-        "summary": "r/programming에서 'Kafka Fundamentals - Guide to Distribute'가 주목받고 있습니다. 개발자 커뮤니티에서 기술적 세부사항과 실용적 활용법에 대한 논의가 진행 중입니다.",
-        "url": "https://www.reddit.com/r/programming/comments/1snpz0y/kafka_fundamentals_guide_to_distributed_messaging/",
+        "title": "조용한 거인 — Ada와 그 설계, 그리고 언어를 만든 언어",
+        "originalTitle": "The Quiet Colossus — On Ada, Its Design, and the Language That Built the Languages",
+        "summary": "Ada 프로그래밍 언어의 역사적 의미와 설계 철학에 대한 깊이 있는 분석입니다. 현대 프로그래밍 언어에 미친 Ada의 영향과 종종 과소평가되는 Ada의 유산에 대한 논의가 펼쳐집니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1so3k20/the_quiet_colossus_on_ada_its_design_and_the/",
         "subreddit": "programming",
-        "score": 111,
-        "publishedAt": "2026-04-17T12:56:12+09:00"
+        "score": 0,
+        "publishedAt": "2026-04-18T00:02:45+09:00"
       },
       {
         "id": "reddit_019",
-        "title": "Opus 4.7 출시 — 뉴욕타임스 퍼즐 거부 사례 등 초기 반응",
-        "originalTitle": "Claude Power Users Unanimously Agree That Opus 4.7 Is A Serious Regression",
-        "summary": "r/singularity에서 'Claude Power Users Unanimously Agree Tha'에 대한 토론이 이루어지고 있습니다. AI 발전 속도와 미래 기술에 미치는 영향에 대해 다양한 시각이 공유되고 있습니다.",
-        "url": "https://www.reddit.com/r/singularity/comments/1snqqj5/claude_power_users_unanimously_agree_that_opus_47/",
+        "title": "연구자들, 화학 카트리지 없이 초음파로 후각 자극 성공",
+        "originalTitle": "Researchers Induce Smells With Ultrasound, No Chemical Cartridges Required",
+        "summary": "과학자들이 초음파를 이용해 인위적으로 후각을 자극하는 기술을 개발했습니다. 화학물질 없이 소리만으로 냄새를 유도할 수 있는 이 기술은 VR 경험 강화, 의료 치료 등 다양한 응용 가능성을 열어줍니다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1sntwcg/researchers_induce_smells_with_ultrasound_no/",
         "subreddit": "singularity",
-        "score": 849,
-        "publishedAt": "2026-04-17T13:34:08+09:00"
+        "score": 0,
+        "publishedAt": "2026-04-17T16:27:05+09:00"
       },
       {
         "id": "reddit_020",
-        "title": "Claude Opus 4.7 출시 — 사용자 반응 및 성능 평가",
-        "originalTitle": "Claude Opus 4.7 benchmarks",
-        "summary": "r/singularity에서 'Claude Opus 4.7 benchmarks'에 대한 토론이 이루어지고 있습니다. AI 발전 속도와 미래 기술에 미치는 영향에 대해 다양한 시각이 공유되고 있습니다.",
-        "url": "https://www.reddit.com/r/singularity/comments/1sn52vp/claude_opus_47_benchmarks/",
-        "subreddit": "singularity",
-        "score": 836,
-        "publishedAt": "2026-04-16T23:25:23+09:00"
-      },
-      {
-        "id": "reddit_021",
-        "title": "opus 4.7 (high) scores a 41.0% on the nyt connections extended benchmark. opus 4.6 scored 94.7%.",
+        "title": "Opus 4.7, NYT 커넥션 확장 벤치마크에서 41.0% 기록 — Opus 4.6은 94.7%",
         "originalTitle": "opus 4.7 (high) scores a 41.0% on the nyt connections extended benchmark. opus 4.6 scored 94.7%.",
-        "summary": "r/singularity에서 'opus 4.7 (high) scores a 41.0% on the ny'에 대한 토론이 이루어지고 있습니다. AI 발전 속도와 미래 기술에 미치는 영향에 대해 다양한 시각이 공유되고 있습니다.",
+        "summary": "Claude Opus 4.7이 NYT 커넥션 벤치마크에서 이전 버전인 Opus 4.6보다 훨씬 낮은 점수를 기록했습니다. 이 결과는 모델 업그레이드 방향성과 평가 기준에 대한 커뮤니티 내 활발한 토론을 촉발시켰습니다.",
         "url": "https://www.reddit.com/r/singularity/comments/1so2vmc/opus_47_high_scores_a_410_on_the_nyt_connections/",
         "subreddit": "singularity",
-        "score": 691,
+        "score": 0,
         "publishedAt": "2026-04-17T23:38:06+09:00"
       },
       {
+        "id": "reddit_021",
+        "title": "MineBench에서 본 Opus 4.6과 Opus 4.7의 차이점",
+        "originalTitle": "Differences Between Opus 4.6 and Opus 4.7 on MineBench",
+        "summary": "Minecraft 환경을 활용한 MineBench에서 Claude Opus 4.6과 4.7의 성능 차이를 분석한 결과가 공유되었습니다. 두 모델의 강점과 약점이 구체적인 작업별 데이터와 함께 비교됩니다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1sofehv/differences_between_opus_46_and_opus_47_on/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-04-18T07:15:05+09:00"
+      },
+      {
         "id": "reddit_022",
-        "title": "Does technical incompetence and politics go hand in hand?",
-        "originalTitle": "Does technical incompetence and politics go hand in hand?",
-        "summary": "r/ExperiencedDevs에서 'Does technical incompetence and politics'에 대해 베테랑 개발자들이 의견을 나누고 있습니다. 실무 경험을 바탕으로 한 심층적인 기술 논의가 진행 중입니다.",
-        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1smurfw/does_technical_incompetence_and_politics_go_hand/",
+        "title": "면접관들의 발음을 이해 못 해 인터뷰에서 낙방한 경험",
+        "originalTitle": "Just bombed an interview because I could not understand the panel of interviewers accents",
+        "summary": "경험 많은 개발자가 인터뷰 패널의 강한 억양으로 인해 소통에 어려움을 겪어 면접에서 탈락한 경험을 공유했습니다. 글로벌 IT 업계에서 언어와 의사소통에 관한 공감 어린 토론이 이루어지고 있습니다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1sod1m4/just_bombed_an_interview_because_i_could_not/",
         "subreddit": "ExperiencedDevs",
-        "score": 188,
-        "publishedAt": "2026-04-16T14:48:05+09:00"
+        "score": 0,
+        "publishedAt": "2026-04-18T05:44:33+09:00"
       },
       {
         "id": "reddit_023",
-        "title": "To Enum or Not to Enum",
-        "originalTitle": "To Enum or Not to Enum",
-        "summary": "r/ExperiencedDevs에서 'To Enum or Not to Enum'에 대해 베테랑 개발자들이 의견을 나누고 있습니다. 실무 경험을 바탕으로 한 심층적인 기술 논의가 진행 중입니다.",
-        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1sndk7i/to_enum_or_not_to_enum/",
+        "title": "기업들이 다시 개발자를 채용하기 시작했습니다",
+        "originalTitle": "Companies are hiring developers again.",
+        "summary": "소프트웨어 개발자 채용 시장이 회복세를 보이고 있다는 경험들이 공유되고 있습니다. AI 도구 보편화 이후 개발자 채용 패턴 변화와 기업들이 원하는 새로운 역량에 대한 논의가 활발합니다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1sois3j/companies_are_hiring_developers_again/",
         "subreddit": "ExperiencedDevs",
-        "score": 114,
-        "publishedAt": "2026-04-17T04:21:28+09:00"
+        "score": 0,
+        "publishedAt": "2026-04-18T09:39:55+09:00"
       },
       {
         "id": "reddit_024",
-        "title": "\"Went with the flow\" for many years and it's gotten me very far - now being told to take the reigns",
-        "originalTitle": "\"Went with the flow\" for many years and it's gotten me very far - now being told to take the reigns",
-        "summary": "r/ExperiencedDevs에서 '\"Went with the flow\" for many years and '에 대해 베테랑 개발자들이 의견을 나누고 있습니다. 실무 경험을 바탕으로 한 심층적인 기술 논의가 진행 중입니다.",
-        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1sn6odi/went_with_the_flow_for_many_years_and_its_gotten/",
+        "title": "바이브코딩 매니저를 어떻게 대처해야 할까요?",
+        "originalTitle": "How do I handle a vibecoding manager",
+        "summary": "'바이브코딩'(AI에 의존해 코드를 작성하는 방식)에 익숙한 매니저와 일하는 어려움을 토로하는 경험담입니다. 코드 품질과 AI 도구 활용의 적절한 균형에 대한 현직 개발자들의 다양한 시각이 공유됩니다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1soamj0/how_do_i_handle_a_vibecoding_manager/",
         "subreddit": "ExperiencedDevs",
-        "score": 66,
-        "publishedAt": "2026-04-17T00:21:44+09:00"
+        "score": 0,
+        "publishedAt": "2026-04-18T04:15:36+09:00"
       }
     ],
     "quick_bites": [
       {
-        "id": "rss_qb_001",
-        "title": "‘패시브 인컴(수동 소득)’ 함정이 한 세대의 창업가를 삼켰다",
-        "excerpt": "‘패시브 인컴’이 재정적 자유의 신화로 포장되며, 수많은 창업가들이 자동 수익 시스템 구축에 몰입함 실제로는 드롭쉬핑·제휴 마케팅·온라인 강의 판매가 반복되며, 고객의 필요보다 자동화 자체가 목적이 됨 이로 ...",
-        "body": "‘패시브 인컴’이 재정적 자유의 신화로 포장되며, 수많은 창업가들이 자동 수익 시스템 구축에 몰입함 실제로는 드롭쉬핑·제휴 마케팅·온라인 강의 판매가 반복되며, 고객의 필요보다 자동화 자체가 목적이 됨 이로 ...",
-        "url": "https://news.hada.io/topic?id=28638",
-        "source": "GeekNews",
+        "id": "quick_bites_001",
+        "title": "추상화의 오류: AI가 의식을 시뮬레이션할 수 있지만 구현할 수 없는 이유",
+        "excerpt": "AI가 의식을 시뮬레이션하는 것과 실제로 의식을 가지는 것의 차이를 철학적, 기술적으로 분석합니다. 현재 AI 시스템의 근본적 한계와 의식의 본질에 대한 깊이 있는 논의입니다.",
+        "body": "Article URL: https://deepmind.google/research/publications/231971/ Comments URL: https://news.ycombinator.com/item?id=47812768 Points: 1 # Comments: 0",
+        "url": "https://deepmind.google/research/publications/231971/",
+        "source": "Hacker News",
         "category": "quick_bites",
-        "publishedAt": "2026-04-18T01:32:49+09:00",
-        "readTime": 2,
-        "imageGradient": 6
+        "publishedAt": "2026-04-18T11:53:44+09:00",
+        "readTime": 1,
+        "imageGradient": 0
       },
       {
-        "id": "rss_qb_002",
-        "title": "Zig 0.16.0 릴리즈",
-        "excerpt": "Zig 0.16.0 릴리즈 2026년 4월 14일에 공개됐습니다. 244명의 기여자가 8개월 동안 1,183개의 커밋을 쌓아서 만든 릴리즈입니다. I/O as an Interface — 이번 릴리즈의 핵심 이번 릴리즈에서 가장 큰 변화입니다.",
-        "body": "Zig 0.16.0 릴리즈 2026년 4월 14일에 공개됐습니다. 244명의 기여자가 8개월 동안 1,183개의 커밋을 쌓아서 만든 릴리즈입니다. I/O as an Interface — 이번 릴리즈의 핵심 이번 릴리즈에서 가장 큰 변화입니다. 파일시스템, 네트워킹, 타이머, 동기화처럼 블로킹이 생길 수 있는",
-        "url": "https://news.hada.io/topic?id=28637",
-        "source": "GeekNews",
+        "id": "quick_bites_002",
+        "title": "오픈소스 AI 기반 화면 녹화 도구",
+        "excerpt": "AI를 활용한 오픈소스 화면 녹화 도구가 등장했습니다. 단순한 녹화를 넘어 AI가 중요한 순간을 자동으로 감지하고 태그를 추가하는 스마트한 기능을 제공합니다.",
+        "body": "Article URL: https://github.com/getcoherence/studio Comments URL: https://news.ycombinator.com/item?id=47812765 Points: 1 # Comments: 0",
+        "url": "https://github.com/getcoherence/studio",
+        "source": "Hacker News",
         "category": "quick_bites",
-        "publishedAt": "2026-04-18T00:59:55+09:00",
-        "readTime": 2,
-        "imageGradient": 7
+        "publishedAt": "2026-04-18T11:53:34+09:00",
+        "readTime": 1,
+        "imageGradient": 1
       },
       {
-        "id": "rss_qb_003",
-        "title": "FSF, Gmail 계정에서 1만 건 이상 스팸 메일 발송 문제로 Google에 연락 시도",
-        "excerpt": "Free Software Foundation(FSF) 이 Gmail 계정을 통해 대량의 스팸 메일이 발송된 사실을 확인 해당 계정에서 1만 건이 넘는 메일이 전송된 것으로 보고됨 FSF는 문제 해결을 위해 Google과의 직접적인 연락을 시도 중 스팸 발...",
-        "body": "Free Software Foundation(FSF) 이 Gmail 계정을 통해 대량의 스팸 메일이 발송된 사실을 확인 해당 계정에서 1만 건이 넘는 메일이 전송된 것으로 보고됨 FSF는 문제 해결을 위해 Google과의 직접적인 연락을 시도 중 스팸 발...",
-        "url": "https://news.hada.io/topic?id=28636",
-        "source": "GeekNews",
+        "id": "quick_bites_003",
+        "title": "오하이오 요양원들, 퇴원 환자들을 노숙자 쉼터로 내보내고 있다",
+        "excerpt": "오하이오 주 요양원들이 퇴원 환자들을 적절한 주거 지원 없이 노숙자 쉼터로 이송하는 관행이 드러나 사회적 논란을 일으키고 있습니다.",
+        "body": "Article URL: https://apnews.com/article/ohio-nursing-home-patients-homeless-shelters-9c000eeddc9c9411f44fd605fafc6771 Comments URL: https://news.ycombinator.com/item?id=47812752 Points: 2 # Comments: 0",
+        "url": "https://apnews.com/article/ohio-nursing-home-patients-homeless-shelters-9c000eeddc9c9411f44fd605fafc6771",
+        "source": "Hacker News",
         "category": "quick_bites",
-        "publishedAt": "2026-04-17T21:37:46+09:00",
-        "readTime": 2,
-        "imageGradient": 6
+        "publishedAt": "2026-04-18T11:52:09+09:00",
+        "readTime": 1,
+        "imageGradient": 2
       },
       {
-        "id": "rss_qb_004",
-        "title": "13시간 만에 €54,000 과금 폭증: API 제한 없는 Firebase 브라우저 키로 Gemini API 호출 발생",
-        "excerpt": "Firebase 브라우저 키가 API 제한 없이 노출되어 외부에서 Gemini API 요청이 자동 발생, 단시간 내 막대한 과금이 발생 실제 사용자 트래픽과 무관하게 13시간 동안 €54,000 이상의 비용이 청구되었으며, 비용 경보가 지연 발동",
-        "body": "Firebase 브라우저 키가 API 제한 없이 노출되어 외부에서 Gemini API 요청이 자동 발생, 단시간 내 막대한 과금이 발생 실제 사용자 트래픽과 무관하게 13시간 동안 €54,000 이상의 비용이 청구되었으며, 비용 경보가 지연 발동",
-        "url": "https://news.hada.io/topic?id=28635",
-        "source": "GeekNews",
+        "id": "quick_bites_004",
+        "title": "Ternary Bonsai: 1.58비트로 구현한 최고 수준의 지능",
+        "excerpt": "1.58비트 삼진법(ternary) 가중치를 사용해 최고 수준의 AI 지능을 구현하는 Ternary Bonsai가 소개되었습니다. 극도로 압축된 모델 표현으로 에너지 효율적인 AI를 가능하게 합니다.",
+        "body": "Article URL: https://prismml.com/news/ternary-bonsai Comments URL: https://news.ycombinator.com/item?id=47812749 Points: 1 # Comments: 0",
+        "url": "https://prismml.com/news/ternary-bonsai",
+        "source": "Hacker News",
         "category": "quick_bites",
-        "publishedAt": "2026-04-17T20:32:52+09:00",
-        "readTime": 2,
-        "imageGradient": 7
+        "publishedAt": "2026-04-18T11:51:34+09:00",
+        "readTime": 1,
+        "imageGradient": 3
       },
       {
-        "id": "rss_qb_005",
-        "title": "Qwen3.6-35B-A3B가 Claude Opus 4.7보다 더 나은 펠리컨 이미지를 생성함",
-        "excerpt": "Qwen3.6-35B-A3B와 Claude Opus 4.7을 비교해 ‘자전거 타는 펠리컨’ 이미지를 생성한 결과, Qwen이 더 완성도 높은 그림을 출력 Qwen 모델은 Alibaba의 최신 버전으로, Unsloth가 배포한 20.9GB 양자...",
-        "body": "Qwen3.6-35B-A3B와 Claude Opus 4.7을 비교해 ‘자전거 타는 펠리컨’ 이미지를 생성한 결과, Qwen이 더 완성도 높은 그림을 출력 Qwen 모델은 Alibaba의 최신 버전으로, Unsloth가 배포한 20.9GB 양자...",
-        "url": "https://news.hada.io/topic?id=28634",
-        "source": "GeekNews",
+        "id": "quick_bites_005",
+        "title": "Claude Code 모델 선택기",
+        "excerpt": "Claude Code에서 다양한 AI 모델 중 원하는 것을 선택할 수 있게 해주는 도구가 공개되었습니다. 작업 유형과 비용에 따라 최적의 모델을 선택할 수 있는 편의 기능입니다.",
+        "body": "Article URL: https://bendansby.com/model-chooser.html Comments URL: https://news.ycombinator.com/item?id=47812745 Points: 1 # Comments: 0",
+        "url": "https://bendansby.com/model-chooser.html",
+        "source": "Hacker News",
         "category": "quick_bites",
-        "publishedAt": "2026-04-17T19:32:45+09:00",
-        "readTime": 2,
-        "imageGradient": 6
+        "publishedAt": "2026-04-18T11:51:16+09:00",
+        "readTime": 1,
+        "imageGradient": 4
       },
       {
-        "id": "rss_qb_006",
-        "title": "Show GN: rhwp의 데스크톱 래퍼를 공유합니다.",
-        "excerpt": "rhwp(한글 뷰어/에디터)는 제 필요에 완벽에 가까운 도구였지만, 개인적으로 데스크톱 환경을 선호하다 보니 아쉬운 마음에 직접 데스크톱 앱 버전을 제작해 보았습니다. 누구나 쉽게 만드실 수 있겠지만, 저와 같은 니즈를 가진 분들의 수고를 조금이나마 덜어드리고자 공유합니다. 필요하셨던 분들께 도움이",
-        "body": "rhwp(한글 뷰어/에디터)는 제 필요에 완벽에 가까운 도구였지만, 개인적으로 데스크톱 환경을 선호하다 보니 아쉬운 마음에 직접 데스크톱 앱 버전을 제작해 보았습니다. 누구나 쉽게 만드실 수 있겠지만, 저와 같은 니즈를 가진 분들의 수고를 조금이나마 덜어드리고자 공유합니다. 필요하셨던 분들께 도움이",
-        "url": "https://news.hada.io/topic?id=28632",
+        "id": "quick_bites_006",
+        "title": "당신의 사이트는 AI 에이전트에 대응하나요?",
+        "excerpt": "AI 에이전트가 웹을 탐색하는 시대가 도래했습니다. Cloudflare의 에이전트 준비도 점수를 통해 자신의 사이트가 AI 크롤러와 에이전트에 얼마나 최적화되어 있는지 확인해보세요.",
+        "body": "Cloudflare가 만든 도구로, 자신의 웹사이트가 에이전트에 얼마나 적합한지 점수로 표시 AI 에이전트 대응 수준을 진단하고 인증·콘텐츠 포맷·접근 제어·결제 방식 등 최적화 방향 확인 가능 실패 항목마다 코딩 에이전트에게 바로 전달 가능한 프...",
+        "url": "https://news.hada.io/topic?id=28650",
         "source": "GeekNews",
         "category": "quick_bites",
-        "publishedAt": "2026-04-17T15:28:50+09:00",
-        "readTime": 2,
-        "imageGradient": 7
+        "publishedAt": "2026-04-18T11:44:22+09:00",
+        "readTime": 1,
+        "imageGradient": 5
       }
     ]
   }
