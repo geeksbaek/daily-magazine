@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "issueNumber": 22,
+      "date": "2026-04-19",
+      "cover": {
+        "mainHeadline": "Claude Design 공개 & Codex 에이전트 IDE 선언 — AI 개발 도구의 새 시대",
+        "mainExcerpt": "Anthropic이 대화만으로 프로토타입을 제작하는 Claude Design을 공개하고, OpenAI는 Codex를 에이전트 기반 IDE로 선언했다. AI 개발 도구가 새로운 패러다임으로 진입하고 있다."
+      },
+      "articleCount": 53,
+      "path": "/data/2026-04-19/magazine.json"
+    },
+    {
       "date": "2026-04-18",
       "issueNumber": 21,
       "mainHeadline": "Claude Opus 4.7 출시: 더 강력해진 추론과 자체 검증 기능",

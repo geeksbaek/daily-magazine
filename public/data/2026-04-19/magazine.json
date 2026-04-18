@@ -1,0 +1,725 @@
+{
+  "date": "2026-04-19",
+  "issueNumber": 22,
+  "cover": {
+    "mainHeadline": "Claude Design 공개 & Codex 에이전트 IDE 선언 — AI 개발 도구의 새 시대",
+    "mainExcerpt": "Anthropic이 대화 기반 디자인 도구 'Claude Design'을 리서치 프리뷰로 출시하고, OpenAI는 Codex를 '거의 모든 것을 위한' 풀 에이전트 IDE로 업그레이드했다. 동시에 Kevin Weil의 OpenAI 퇴사와 Science 팀 해산 소식이 전해지며 AI 업계의 빠른 변화가 이어지고 있다.",
+    "headlines": [
+      "OpenAI Codex, 서브에이전트·컴퓨터 사용 기능으로 풀 에이전트 IDE 전환",
+      "Cloudflare Agents Week: Agent Memory·Agent Readiness Score·Flagship 한꺼번에 출시",
+      "Linux 커널, AI 지원 코드 기여 공식 가이드라인 도입"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_001",
+      "title": "Anthropic Labs, Claude Design 출시 — 대화만으로 프로토타입·슬라이드·원페이저 제작",
+      "excerpt": "Anthropic Labs가 'Claude Design'을 리서치 프리뷰로 공개했다. Claude Opus 4.7 기반의 이 도구는 자연어 대화만으로 인터랙티브 프로토타입, 프레젠테이션 슬라이드, 원페이저를 생성한다. Pro·Max·Team·Enterprise 플랜에서 순차 배포 중이다.",
+      "body": "Claude Design은 비개발자도 손쉽게 고품질 디지털 자료를 만들 수 있도록 설계됐다. Anthropic Labs 산하의 실험적 프로젝트로, Opus 4.7의 강력한 비전 기능을 활용해 텍스트 명령만으로 시각적 결과물을 즉시 생성한다. claude.ai/design에서 접근 가능하며, Alex Albert(클로드 릴레이션 책임자)는 '이제 누구든 고품질 디자인을 만들 수 있는 시대'라고 밝혔다. 시스템 프롬프트가 유출되어 커뮤니티에서 큰 화제를 모으기도 했다.",
+      "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+      "source": "Anthropic News",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-17T09:00:00+09:00",
+      "readTime": 5,
+      "imageGradient": 0,
+      "type": "Article"
+    },
+    {
+      "id": "rss_003",
+      "title": "NVIDIA Nemotron OCR v2: 합성 데이터로 만든 초고속 다국어 OCR 모델",
+      "excerpt": "NVIDIA와 Hugging Face가 공동 개발한 'Nemotron OCR v2'가 공개됐다. 합성 데이터를 활용해 훈련된 이 모델은 다국어 문서 인식에서 GPU 가속을 통해 기존 대비 대폭 향상된 처리 속도를 제공한다.",
+      "body": "Nemotron OCR v2는 순수 합성 데이터로 학습돼 실제 라벨링 비용 없이 높은 정확도를 달성했다. GPU 병렬 처리를 최대한 활용하도록 설계되어, 대량의 문서를 실시간에 가깝게 처리할 수 있다. 특히 아시아권 언어 포함 다국어 지원과 복잡한 레이아웃의 문서도 정확히 인식하는 점이 특징이다.",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-ocr-v2",
+      "source": "Hugging Face - Blog",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-18T01:17:55+09:00",
+      "readTime": 4,
+      "imageGradient": 0,
+      "type": "Article"
+    },
+    {
+      "id": "rss_007",
+      "title": "Cloudflare, 사이트의 AI 에이전트 대응력 측정하는 'Agent Readiness Score' 출시",
+      "excerpt": "Cloudflare가 웹사이트의 AI 에이전트 호환성을 점수로 측정해주는 'Agent Readiness Score'를 공개했다. 크롤링 허용 여부, 구조화 데이터, API 접근성 등을 종합 평가한다.",
+      "body": "Agent Readiness Score는 AI 에이전트가 웹사이트를 얼마나 효과적으로 탐색하고 정보를 추출할 수 있는지를 측정한다. robots.txt 설정, 구조화 데이터 마크업, 응답 속도, API 엔드포인트 존재 여부 등 다양한 지표를 종합해 0-100점으로 산출한다. 에이전트 경제가 성장하면서 웹사이트 소유자들이 반드시 고려해야 할 새로운 기준이 될 것으로 보인다.",
+      "url": "https://blog.cloudflare.com/agent-readiness/",
+      "source": "Cloudflare Blog",
+      "category": "dev_tools",
+      "publishedAt": "2026-04-17T22:05:00+09:00",
+      "readTime": 4,
+      "imageGradient": 2,
+      "type": "Article"
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_001",
+        "title": "Anthropic Labs, Claude Design 출시 — 대화만으로 프로토타입·슬라이드·원페이저 제작",
+        "excerpt": "Anthropic Labs가 'Claude Design'을 리서치 프리뷰로 공개했다. Claude Opus 4.7 기반의 이 도구는 자연어 대화만으로 인터랙티브 프로토타입, 프레젠테이션 슬라이드, 원페이저를 생성한다. Pro·Max·Team·Enterprise 플랜에서 순차 배포 중이다.",
+        "body": "Claude Design은 비개발자도 손쉽게 고품질 디지털 자료를 만들 수 있도록 설계됐다. Anthropic Labs 산하의 실험적 프로젝트로, Opus 4.7의 강력한 비전 기능을 활용해 텍스트 명령만으로 시각적 결과물을 즉시 생성한다. claude.ai/design에서 접근 가능하며, Alex Albert(클로드 릴레이션 책임자)는 '이제 누구든 고품질 디자인을 만들 수 있는 시대'라고 밝혔다. 시스템 프롬프트가 유출되어 커뮤니티에서 큰 화제를 모으기도 했다.",
+        "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+        "source": "Anthropic News",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-17T09:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 0,
+        "type": "Article"
+      },
+      {
+        "id": "rss_003",
+        "title": "NVIDIA Nemotron OCR v2: 합성 데이터로 만든 초고속 다국어 OCR 모델",
+        "excerpt": "NVIDIA와 Hugging Face가 공동 개발한 'Nemotron OCR v2'가 공개됐다. 합성 데이터를 활용해 훈련된 이 모델은 다국어 문서 인식에서 GPU 가속을 통해 기존 대비 대폭 향상된 처리 속도를 제공한다.",
+        "body": "Nemotron OCR v2는 순수 합성 데이터로 학습돼 실제 라벨링 비용 없이 높은 정확도를 달성했다. GPU 병렬 처리를 최대한 활용하도록 설계되어, 대량의 문서를 실시간에 가깝게 처리할 수 있다. 특히 아시아권 언어 포함 다국어 지원과 복잡한 레이아웃의 문서도 정확히 인식하는 점이 특징이다.",
+        "url": "https://huggingface.co/blog/nvidia/nemotron-ocr-v2",
+        "source": "Hugging Face - Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-18T01:17:55+09:00",
+        "readTime": 4,
+        "imageGradient": 0,
+        "type": "Article"
+      },
+      {
+        "id": "rss_005",
+        "title": "Cloudflare, AI 에이전트 영구 기억 기능 'Agent Memory' 출시",
+        "excerpt": "Cloudflare가 'Agents Week' 캠페인의 일환으로 'Agent Memory'를 출시했다. AI 에이전트가 대화 세션을 넘어 정보를 영구적으로 기억하고 활용할 수 있도록 지원한다.",
+        "body": "Agent Memory는 Cloudflare의 에지 인프라와 결합해 낮은 레이턴시로 에이전트의 장기 기억을 구현한다. 벡터 검색과 키-값 저장을 통해 이전 인터랙션, 사용자 선호도, 컨텍스트 정보를 효율적으로 저장·검색할 수 있다. 이 기능은 멀티턴 에이전트 워크플로의 신뢰성을 크게 향상시킬 전망이다.",
+        "url": "https://blog.cloudflare.com/introducing-agent-memory/",
+        "source": "Cloudflare Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-17T22:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 1,
+        "type": "Article"
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_006",
+        "title": "Visual Studio Code 1.117 출시 — AI 코딩 경험 대폭 강화",
+        "excerpt": "VS Code 1.117이 정식 출시됐다. GitHub Copilot 심층 통합 강화, 새로운 AI 기반 리팩토링 기능, 개선된 터미널 경험이 주요 변경 사항이다.",
+        "body": "이번 업데이트는 AI 어시스턴트 활용 개발자 경험 향상에 집중했다. Copilot의 인라인 제안 품질 개선과 함께 멀티파일 컨텍스트 인식 능력이 강화됐다. 또한 터미널 자동완성과 원격 개발 환경 안정성도 개선됐다. Claude Code, Codex 등 외부 AI 도구와의 연동성도 개선된 점이 주목받고 있다.",
+        "url": "https://code.visualstudio.com/updates/v1_117",
+        "source": "Visual Studio Code - Code Editing. Redefined.",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-23T02:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 2,
+        "type": "Article"
+      },
+      {
+        "id": "rss_007",
+        "title": "Cloudflare, 사이트의 AI 에이전트 대응력 측정하는 'Agent Readiness Score' 출시",
+        "excerpt": "Cloudflare가 웹사이트의 AI 에이전트 호환성을 점수로 측정해주는 'Agent Readiness Score'를 공개했다. 크롤링 허용 여부, 구조화 데이터, API 접근성 등을 종합 평가한다.",
+        "body": "Agent Readiness Score는 AI 에이전트가 웹사이트를 얼마나 효과적으로 탐색하고 정보를 추출할 수 있는지를 측정한다. robots.txt 설정, 구조화 데이터 마크업, 응답 속도, API 엔드포인트 존재 여부 등 다양한 지표를 종합해 0-100점으로 산출한다. 에이전트 경제가 성장하면서 웹사이트 소유자들이 반드시 고려해야 할 새로운 기준이 될 것으로 보인다.",
+        "url": "https://blog.cloudflare.com/agent-readiness/",
+        "source": "Cloudflare Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-17T22:05:00+09:00",
+        "readTime": 4,
+        "imageGradient": 2,
+        "type": "Article"
+      },
+      {
+        "id": "rss_008",
+        "title": "Cloudflare, AI 시대를 위한 피처 플래그 도구 'Flagship' 출시",
+        "excerpt": "Cloudflare가 AI 에이전트 워크플로에 최적화된 피처 플래그 솔루션 'Flagship'을 출시했다. 에지에서 실시간으로 기능 온/오프가 가능하다.",
+        "body": "Flagship은 기존 피처 플래그 도구와 달리 AI 에이전트의 불확실한 동작 패턴을 고려해 설계됐다. 에지에서 직접 플래그를 평가함으로써 추가 레이턴시 없이 기능 배포를 세밀하게 제어할 수 있다. A/B 테스트, 점진적 롤아웃, 사용자 세그먼트 타겟팅이 모두 지원된다.",
+        "url": "https://blog.cloudflare.com/flagship/",
+        "source": "Cloudflare Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-17T22:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 3,
+        "type": "Article"
+      },
+      {
+        "id": "rss_009",
+        "title": "Cloudflare, 에이전트 웹에 대응하는 공유 딕셔너리 압축 기술 공개",
+        "excerpt": "Cloudflare가 반복적인 API 응답을 효율적으로 압축하는 '공유 딕셔너리' 압축 기술을 공개했다. AI 에이전트가 대량의 요청을 처리할 때 네트워크 비용을 크게 절감할 수 있다.",
+        "body": "공유 딕셔너리 압축은 클라이언트와 서버가 공통 딕셔너리를 공유함으로써 반복 패턴의 데이터 전송 시 압축률을 획기적으로 높인다. AI 에이전트가 유사한 API 호출을 반복하는 시나리오에서 특히 효과적이며, Cloudflare는 실제 서비스에서 70% 이상의 대역폭 절감을 확인했다고 밝혔다.",
+        "url": "https://blog.cloudflare.com/shared-dictionaries/",
+        "source": "Cloudflare Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-17T22:02:00+09:00",
+        "readTime": 3,
+        "imageGradient": 3,
+        "type": "Article"
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_012",
+        "title": "Google, AI로 여름 여행을 스마트하게 — Search·Gemini 연동 기능 7가지 공개",
+        "excerpt": "Google이 AI 기반 여름 여행 지원 기능 7가지를 공개했다. Google Search와 Gemini를 연동해 최적 항공권 탐색, 여행 트렌드 분석, 개인 맞춤형 여행 추천이 가능해진다.",
+        "body": "Google은 이번 업데이트를 통해 Search, Maps, 호텔 검색에 AI를 깊이 통합했다. 가격 추적 알림, 다중 목적지 비교, AI 기반 패킹 리스트 생성 등 실용적인 기능들이 포함됐다. 특히 Gemini와의 연동으로 자연어로 복잡한 여행 질문을 처리할 수 있게 됐다.",
+        "url": "https://blog.google/products-and-platforms/products/search/summer-travel-tips-google-search-ai/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-04-17T23:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 5,
+        "type": "Article"
+      },
+      {
+        "id": "rss_013",
+        "title": "Google Chrome 최신 보안 업데이트 배포 — 취약점 패치 포함",
+        "excerpt": "Google이 Chrome 브라우저 최신 보안 업데이트를 배포했다. 여러 중요 취약점이 수정됐으며 안정성 개선도 포함됐다.",
+        "body": "이번 Chrome 업데이트는 렌더링 엔진의 보안 취약점과 V8 자바스크립트 엔진 관련 이슈를 수정했다. 사용자들은 가능한 빨리 업데이트할 것을 권장한다. Chrome의 자동 업데이트 기능을 통해 대부분의 사용자에게 자동으로 배포될 예정이다.",
+        "url": "http://chromereleases.googleblog.com/2026/04/long-term-support-channel-update-for_17.html",
+        "source": "Google Chrome Releases",
+        "category": "big_tech",
+        "publishedAt": "2026-04-18T06:12:00+09:00",
+        "readTime": 2,
+        "imageGradient": 4,
+        "type": "Article"
+      },
+      {
+        "id": "rss_015",
+        "title": "Cloudflare, LLM 22% 압축하면서 품질 유지하는 'Unweight' 기법 공개",
+        "excerpt": "Cloudflare 연구팀이 LLM 모델 파라미터를 22% 압축하면서도 성능 저하 없이 추론 품질을 유지하는 텐서 압축 기술 'Unweight'를 공개했다.",
+        "body": "Unweight는 LLM의 레이어 간 중복 파라미터를 식별해 정밀하게 제거하는 방식으로 작동한다. 단순한 가중치 프루닝과 달리 모델의 출력 분포를 보존하면서 불필요한 파라미터만 선별적으로 압축한다. 이 기법을 적용하면 동일한 하드웨어에서 더 큰 모델을 운영하거나 더 빠른 추론이 가능해진다.",
+        "url": "https://blog.cloudflare.com/unweight-tensor-compression/",
+        "source": "Cloudflare Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-04-17T22:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 5,
+        "type": "Article"
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "Codex는 이제 완전한 에이전트 IDE가 되어가고 있다",
+        "context": "Greg Brockman(OpenAI 공동창업자)의 Codex 신기능 관련 첫 반응. 코드 작성을 넘어 전체 개발 워크플로를 자율 수행하는 에이전트 IDE로의 전환을 단적으로 표현했다.",
+        "url": "https://x.com/gdb/status/2045375289560007029",
+        "publishedAt": "2026-04-18T05:34:04.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        },
+        "type": "Tweet"
+      },
+      {
+        "id": "tweet_002",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "자연어만으로 웹앱과 게임을 만드는 것이 엄청나게 재미있다",
+        "context": "Greg Brockman이 Codex의 자연어 기반 개발 경험을 직접 체험한 후 남긴 트윗. 기술적 장벽 없이 창작이 가능해지는 미래를 시사한다.",
+        "url": "https://x.com/gdb/status/2045594591584530826",
+        "publishedAt": "2026-04-18T20:05:30.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        },
+        "type": "Tweet"
+      },
+      {
+        "id": "tweet_003",
+        "author": "Kevin Weil",
+        "handle": "kevinweil",
+        "content": "오늘은 OpenAI에서의 마지막 날입니다. OpenAI for Science 팀이 다른 연구팀으로 분산됩니다. 과학 가속은 우리가 할 수 있는 가장 중요한 일 중 하나일 것입니다.",
+        "context": "Kevin Weil(전 OpenAI 수석 제품 책임자)의 퇴사 발표. OpenAI for Science 부서가 해산되고 각 연구팀에 통합된다는 내용으로, OpenAI의 조직 개편을 암시한다.",
+        "url": "https://x.com/kevinweil/status/2045230426210648348",
+        "publishedAt": "2026-04-17T19:58:26.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        },
+        "type": "Tweet"
+      },
+      {
+        "id": "tweet_004",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Claude Code 해커톤이 Opus 4.7을 위해 돌아왔습니다. 전 세계 빌더들이 Claude Code 팀과 함께 일주일간 진행하며, 상금은 API 크레딧 10만 달러입니다. 일요일까지 지원하세요.",
+        "context": "Anthropic의 공식 Claude 계정이 발표한 글로벌 해커톤 공지. Opus 4.7 출시를 기념해 개발자 커뮤니티와의 직접 소통을 강화하는 행사다.",
+        "url": "https://x.com/claudeai/status/2045248224659644654",
+        "publishedAt": "2026-04-17T21:09:10.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        },
+        "type": "Tweet"
+      },
+      {
+        "id": "tweet_005",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Claude for Word가 이제 Pro 및 Max 플랜에서 Opus 4.7과 함께 사용 가능합니다.",
+        "context": "Claude가 Microsoft Word와 통합되어 문서 작성 환경 내에서 직접 AI 지원을 받을 수 있게 됐다. Office 생산성 도구와의 심층 통합을 알리는 중요한 발표다.",
+        "url": "https://x.com/claudeai/status/2045222254699511855",
+        "publishedAt": "2026-04-17T19:25:58.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        },
+        "type": "Tweet"
+      },
+      {
+        "id": "tweet_006",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Anthropic Labs가 Claude Design을 소개합니다: Claude와 대화하여 프로토타입, 슬라이드, 원페이저를 만들 수 있습니다. Claude Opus 4.7로 구동되며 리서치 프리뷰로 제공됩니다.",
+        "context": "Claude의 공식 계정에서 발표한 Claude Design 출시 소식. 비개발자도 대화형 AI로 고품질 디자인 산출물을 만들 수 있는 새로운 시대를 알린다.",
+        "url": "https://x.com/claudeai/status/2045156267690213649",
+        "publishedAt": "2026-04-17T15:03:46.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        },
+        "type": "Tweet"
+      },
+      {
+        "id": "tweet_007",
+        "author": "ClaudeDevs",
+        "handle": "ClaudeDevs",
+        "content": "Claude Code npm 패키지가 v2.1.113부터 JavaScript 빌드 대신 네이티브 바이너리를 제공합니다. 설치 명령어는 동일하지만 시작이 빠르고, CLI가 더 이상 런타임에 Node.js를 필요로 하지 않습니다.",
+        "context": "ClaudeDevs가 발표한 Claude Code의 중요한 기술 개선. Node.js 없이도 CLI를 실행할 수 있어 설치 환경 의존성이 줄어들고 시작 속도가 빨라진다.",
+        "url": "https://x.com/ClaudeDevs/status/2045267790018543736",
+        "publishedAt": "2026-04-17T22:26:55.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        },
+        "type": "Tweet"
+      },
+      {
+        "id": "tweet_008",
+        "author": "Jack Clark",
+        "handle": "jackclarkSF",
+        "content": "AI 글쓰기에서 가장 만족스러운 활용은 AI 시스템이 내 소설에서 AI 캐릭터의 대사를 쓰게 하는 것이다. 이것이 중요하다고 느낀다 — 내가 만든 내러티브 구조 안에서 합성 지능이 스스로를 표현하게 한다.",
+        "context": "Jack Clark(Anthropic 공동창업자)이 AI를 창작 도구로 활용하는 독특한 방식을 공유. AI가 만든 세계관 속 AI 캐릭터를 AI가 직접 쓰는 철학적 실험을 소개한다.",
+        "url": "https://x.com/jackclarkSF/status/2045605477808259182",
+        "publishedAt": "2026-04-18T20:48:46.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        },
+        "type": "Tweet"
+      },
+      {
+        "id": "tweet_009",
+        "author": "Amanda Askell",
+        "handle": "AmandaAskell",
+        "content": "AI에 대한 트윗을 잠시 멈추고 내 원래 관심사인 사색적인 생각으로 돌아갈지도 모르겠다. 여기 있는 사람들이 AI에 대한 이야기는 충분히 다루는 것 같다.",
+        "context": "Anthropic의 수석 연구원 Amanda Askell의 솔직한 독백. AI 분야의 과열된 담론 속에서 개인적인 성찰을 추구하겠다는 뜻을 밝혀 많은 공감을 얻었다.",
+        "url": "https://x.com/AmandaAskell/status/2045556055556731249",
+        "publishedAt": "2026-04-18T17:32:22.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        },
+        "type": "Tweet"
+      },
+      {
+        "id": "tweet_010",
+        "author": "Alex Albert",
+        "handle": "alexalbert__",
+        "content": "이제 누구든 비전을 가진 사람이 Claude의 도움으로 매우 고품질의 디자인을 만들 수 있다",
+        "context": "Alex Albert(Anthropic)가 Claude Design 출시 후 올린 트윗. 기술적 전문 지식 없이도 고품질 디자인을 만들 수 있는 민주화를 강조한다.",
+        "url": "https://x.com/alexalbert__/status/2045165630421364853",
+        "publishedAt": "2026-04-17T15:40:58.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        },
+        "type": "Tweet"
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "오늘 하루종일 화제였던 Claude Design의 시스템 프롬프트가 유출되었습니다.",
+        "context": "한국의 AI 인플루언서 CHOI(@choi.openai)가 Claude Design의 시스템 프롬프트 유출 소식을 공유했다. 커뮤니티에서 Anthropic의 내부 설계 철학에 대한 논의가 활발히 이뤄지고 있다.",
+        "url": "https://www.threads.net/@choi.openai/post/DXSLJTrDgeG",
+        "publishedAt": "2026-04-18T19:00:29.000Z",
+        "platform": "threads",
+        "type": "Threads"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "앤트로픽이 Opus 4.7 출시와 함께 Claude Code 글로벌 해커톤을 개최합니다.\n총 10만 달러 규모의 API 크레딧이 걸린 이번 대회에는 전 세계 개발자들이 모여 새로운 자동화 스킬과 에이전트를 만들어낼 예정입니다.",
+        "context": "Anthropic이 Opus 4.7 출시와 함께 개최하는 Claude Code 글로벌 해커톤을 소개하는 게시물. 10만 달러 규모의 API 크레딧 상금이 걸린 대규모 행사다.",
+        "url": "https://www.threads.net/@choi.openai/post/DXSA0a4gR8l",
+        "publishedAt": "2026-04-18T17:30:15.000Z",
+        "platform": "threads",
+        "type": "Threads"
+      },
+      {
+        "id": "threads_003",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "단 몇 초의 오디오만으로 목소리를 완벽히 복제해 내는 무료 오픈소스 도구 'VoiceBox'가 화제입니다. 해당 도구는 23개 언어와 5개의 TTS 엔진을 지원하며, 여러 목소리를 섞어 대화나 팟캐스트를 만들 수 있는 타임라인 편집 기능까지 기본으로 제공합니다.",
+        "context": "오픈소스 음성 복제 도구 'VoiceBox' 소개. 단 몇 초의 샘플만으로 다국어 목소리 복제가 가능해 AI 윤리와 기술 혁신의 경계에 대한 논의를 촉발하고 있다.",
+        "url": "https://www.threads.net/@choi.openai/post/DXR8pPgjxPY",
+        "publishedAt": "2026-04-18T16:00:27.000Z",
+        "platform": "threads",
+        "type": "Threads"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "easyaligner: GPU 가속 강제 정렬 오픈소스 라이브러리",
+        "originalTitle": "easyaligner: Forced alignment with GPU acceleration and flexible text normalization (compatible with all w2v2 models on HF Hub) [P]",
+        "summary": "Python 기반 강제 음성 정렬 라이브러리로 GPU를 활용해 기존 대비 수십 배 빠른 처리 속도를 제공한다. 음성 인식 연구자와 자막 제작자들에게 유용한 도구다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1soyqfw/easyaligner_forced_alignment_with_gpu/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-04-18T23:13:28+09:00",
+        "type": "Reddit"
+      },
+      {
+        "id": "reddit_002",
+        "title": "ICML 2026 — 배치별 리뷰 점수 편차가 매우 심하다",
+        "originalTitle": "ICML 2026 - Heavy score variance among various batches? [D]",
+        "summary": "ICML 2026 투고자들 사이에서 같은 논문이 배치에 따라 점수 차이가 크게 나타난다는 경험담이 공유되고 있다. 리뷰 시스템의 일관성 문제를 지적하는 논의가 활발하다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1sovebg/icml_2026_heavy_score_variance_among_various/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-04-18T20:43:00+09:00",
+        "type": "Reddit"
+      },
+      {
+        "id": "reddit_003",
+        "title": "LIDARLearn 오픈소스 공개",
+        "originalTitle": "We’re proud to open-source LIDARLearn [R] [D] [P]",
+        "summary": "자율주행 및 로보틱스를 위한 LiDAR 데이터 학습 프레임워크가 오픈소스로 공개됐다. 3D 포인트 클라우드 데이터를 효율적으로 처리하고 학습하는 데 특화된 도구다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1sou5u1/were_proud_to_opensource_lidarlearn_r_d_p/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-04-18T19:36:59+09:00",
+        "type": "Reddit"
+      },
+      {
+        "id": "reddit_004",
+        "title": "iPad에서 로컬로 실행되는 소형 월드 모델 게임 제작기",
+        "originalTitle": "I made a tiny world model game that runs locally on iPad",
+        "summary": "개발자가 소형 월드 모델을 iPad에서 완전히 로컬로 실행되는 게임에 적용한 프로젝트를 공유했다. 온디바이스 AI의 가능성을 보여주는 흥미로운 실험이다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sp91nn/i_made_a_tiny_world_model_game_that_runs_locally/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-04-19T05:50:10+09:00",
+        "type": "Reddit"
+      },
+      {
+        "id": "reddit_005",
+        "title": "로컬 LLM 툴 호출, 실제로 쓸 만한가?",
+        "originalTitle": "Are you guys actually using local tool calling or is it a collective prank?",
+        "summary": "로컬 LLM에서 도구 호출 기능의 실용성에 대한 커뮤니티 토론. 정확도, 지연시간, 호환성 등 실제 사용 경험이 다양하게 공유되고 있다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sp631h/are_you_guys_actually_using_local_tool_calling_or/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-04-19T03:54:54+09:00",
+        "type": "Reddit"
+      },
+      {
+        "id": "reddit_006",
+        "title": "Qwen3.6-35B-A3B 무검열 Wasserstein GGUF 모델 공개",
+        "originalTitle": "Qwen3.6-35B-A3B-Uncensored-Wasserstein-GGUF",
+        "summary": "Qwen3.6 35B 모델의 무검열 파인튜닝 버전이 GGUF 형식으로 공개됐다. 로컬 환경에서 제한 없는 추론을 원하는 사용자들의 관심을 끌고 있다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sp2l72/qwen3635ba3buncensoredwassersteingguf/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-04-19T01:42:34+09:00",
+        "type": "Reddit"
+      },
+      {
+        "id": "reddit_007",
+        "title": "OpenAI부터 NVIDIA까지, AI 인프라에 수천억 달러 투자 쏟아진다",
+        "originalTitle": "From OpenAI to Nvidia, firms channel billions into AI infrastructure as demand booms",
+        "summary": "주요 AI 기업들이 데이터센터와 AI 인프라에 천문학적인 규모의 투자를 단행하고 있다. 글로벌 AI 패권 경쟁이 투자 전쟁으로 번지는 양상이다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1sp8p18/from_openai_to_nvidia_firms_channel_billions_into/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-04-19T05:36:11+09:00",
+        "type": "Reddit"
+      },
+      {
+        "id": "reddit_008",
+        "title": "ChatGPT 새 버전에 대한 피드백을 요청받고 있다",
+        "originalTitle": "You're giving feedback on a new version of ChatGPT",
+        "summary": "OpenAI가 ChatGPT 새 버전의 베타 테스터들에게 직접 피드백을 구하고 있다. 커뮤니티에서는 어떤 변화가 있는지 다양한 추측이 오가고 있다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1sp7jrl/youre_giving_feedback_on_a_new_version_of_chatgpt/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-04-19T04:52:05+09:00",
+        "type": "Reddit"
+      },
+      {
+        "id": "reddit_009",
+        "title": "AI 동반자에 '오프스크린 삶'을 부여한 실험",
+        "originalTitle": "I gave my AI companions \"offscreen lives\" — events that happen while users aren't talking to them. Surprisingly hard, here's how it works.",
+        "summary": "AI 캐릭터에게 대화 밖에서도 일어나는 이벤트와 삶을 설정해 더 자연스러운 상호작용을 만드는 실험이 공유됐다. 내러티브 AI의 새로운 가능성을 탐색하는 프로젝트다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1sp4zi2/i_gave_my_ai_companions_offscreen_lives_events/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-04-19T03:13:13+09:00",
+        "type": "Reddit"
+      },
+      {
+        "id": "reddit_010",
+        "title": "OpenAI, 생명과학 전문 AI 도구 'GPT-Rosalind' 발표",
+        "originalTitle": "OpenAI introduced GPT-Rosalind a specialized AI tool designed for life sciences research",
+        "summary": "OpenAI가 생물학, 신약 발견, 중개 의학 분야에 특화된 AI 모델 시리즈를 공개했다. 과학 연구 가속화를 목표로 한 전문 모델의 등장이다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1sp7vex/openai_introduced_gptrosalind_a_specialized_ai/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-04-19T05:04:13+09:00",
+        "type": "Reddit"
+      },
+      {
+        "id": "reddit_011",
+        "title": "PSA: ChatGPT에서 응답 재생성이나 프롬프트 수정 시 이전 메시지가 지워진다",
+        "originalTitle": "PSA: Regenerating a Response or Editing your Prompt erases all other messages.",
+        "summary": "ChatGPT에서 응답을 재생성하거나 이전 메시지를 편집하면 그 이후 대화 내용이 모두 삭제된다는 점에 많은 사용자들이 불만을 표하고 있다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1sp6acy/psa_regenerating_a_response_or_editing_your/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-04-19T04:02:35+09:00",
+        "type": "Reddit"
+      },
+      {
+        "id": "reddit_012",
+        "title": "중간 관리직 리더들이 OpenAI를 떠나는 이유는?",
+        "originalTitle": "Why are mid level leaders leaving openai?",
+        "summary": "Kevin Weil 등 중간 관리직 임원들의 연이은 퇴사를 두고 OpenAI 내부 상황에 대한 추측과 분석이 이어지고 있다. 조직 문화와 방향성에 대한 논의가 활발하다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1sp1o91/why_are_mid_level_leaders_leaving_openai/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-04-19T01:06:53+09:00",
+        "type": "Reddit"
+      },
+      {
+        "id": "reddit_013",
+        "title": "Claude Design이 자꾸 이상한 그림을 그린다",
+        "originalTitle": "Claude Design keeps drawing a turd",
+        "summary": "Claude Design이 일부 사용자에게 의도치 않은 결과물을 생성하는 버그 사례들이 공유됐다. 리서치 프리뷰인 만큼 아직 개선이 필요한 부분이 있음을 보여준다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1sp6hns/claude_design_keeps_drawing_a_turd/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-04-19T04:10:19+09:00",
+        "type": "Reddit"
+      },
+      {
+        "id": "reddit_014",
+        "title": "Claude가 이 말을 했을 때의 표정이...",
+        "originalTitle": "How Claude Must have felt after saying this",
+        "summary": "Claude의 특정 응답이 커뮤니티에서 밈으로 퍼지고 있다. AI의 예상치 못한 유머러스하거나 철학적인 대답이 화제가 됐다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1sp3jzq/how_claude_must_have_felt_after_saying_this/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-04-19T02:19:09+09:00",
+        "type": "Reddit"
+      },
+      {
+        "id": "reddit_015",
+        "title": "내 클로드 보소",
+        "originalTitle": "Look how they massacred my boy",
+        "summary": "Claude와의 독특한 인터랙션 경험을 공유하는 게시물. 유머와 공감이 담긴 스크린샷이 ClaudeAI 커뮤니티에서 큰 호응을 얻었다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1sp1mzs/look_how_they_massacred_my_boy/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-04-19T01:05:32+09:00",
+        "type": "Reddit"
+      },
+      {
+        "id": "reddit_016",
+        "title": "Y2K에서 실제로 무슨 일이 있었나?",
+        "originalTitle": "What Really Happened in Y2K?",
+        "summary": "Y2K 버그의 실제 영향과 당시의 대응 과정을 상세히 분석한 글이 공유됐다. 소프트웨어 역사의 중요한 사건을 되짚어보는 흥미로운 읽을거리다.",
+        "url": "https://www.reddit.com/r/programming/comments/1soxusf/what_really_happened_in_y2k/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-04-18T22:36:33+09:00",
+        "type": "Reddit"
+      },
+      {
+        "id": "reddit_017",
+        "title": "Meta의 포스트 양자 암호화 마이그레이션 프레임워크",
+        "originalTitle": "Post-Quantum Cryptography Migration at Meta: Framework, Lessons, and Takeaways",
+        "summary": "Meta가 전사적 포스트 양자 암호화 전환 과정과 기술적 접근법을 공유했다. 미래 양자 컴퓨터 위협에 대비한 대규모 보안 인프라 전환 사례다.",
+        "url": "https://www.reddit.com/r/programming/comments/1soqmzq/postquantum_cryptography_migration_at_meta/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-04-18T16:11:24+09:00",
+        "type": "Reddit"
+      },
+      {
+        "id": "reddit_018",
+        "title": "'모던' 오픈소스의 위험성",
+        "originalTitle": "The Danger of \"Modern\" Open Source",
+        "summary": "현대의 오픈소스 프로젝트들이 과도한 추상화와 복잡성으로 인해 유지보수와 이해가 어려워지고 있다는 비판적 시각을 담은 글이다.",
+        "url": "https://www.reddit.com/r/programming/comments/1soazcx/the_danger_of_modern_open_source/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-04-18T04:28:20+09:00",
+        "type": "Reddit"
+      },
+      {
+        "id": "reddit_019",
+        "title": "유기체 vs 비유기체 상호작용 (흰돌고래 vs 스포츠카)",
+        "originalTitle": "Organic vs Non-Organic interaction (beluga whale vs spot)",
+        "summary": "자연과 기술의 대비를 포착한 영상이 공유됐다. AI와 자연지능의 차이를 철학적으로 성찰하게 하는 독특한 비교 영상이다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1sp3gpd/organic_vs_nonorganic_interaction_beluga_whale_vs/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-04-19T02:15:43+09:00",
+        "type": "Reddit"
+      },
+      {
+        "id": "reddit_020",
+        "title": "Grok 4.3 베타: 머스크의 월 300달러짜리 메가폰",
+        "originalTitle": "grok 4.3 beta: musk's ($300/month) megaphone",
+        "summary": "xAI의 Grok 4.3 베타가 공개됐다. 300달러의 프리미엄 구독 가격과 성능에 대한 커뮤니티의 평가가 엇갈리고 있다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1sozic7/grok_43_beta_musks_300month_megaphone/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-04-18T23:44:23+09:00",
+        "type": "Reddit"
+      },
+      {
+        "id": "reddit_021",
+        "title": "Elephant라는 모델이 대체 누구 것인지 알아낸 사람 있나?",
+        "originalTitle": "So... has anyone actually figured out whose model Elephant Alpha is yet?",
+        "summary": "최근 등장한 'Elephant'라는 AI 모델의 출처와 개발사를 두고 추측이 무성하다. AI 모델의 익명 공개라는 독특한 현상에 대한 커뮤니티 탐구다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1sozgmm/so_has_anyone_actually_figured_out_whose_model/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-04-18T23:42:26+09:00",
+        "type": "Reddit"
+      },
+      {
+        "id": "reddit_022",
+        "title": "대규모 코드베이스를 실제로 이해하는 방법",
+        "originalTitle": "How do you actually start understanding a large codebase?",
+        "summary": "수백만 줄 규모의 레거시 코드베이스를 효과적으로 파악하는 실전 접근법을 경험 많은 개발자들이 공유한 스레드. AI 도구와 전통적인 방법론을 결합한 전략들이 소개됐다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1sp8l59/how_do_you_actually_start_understanding_a_large/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-04-19T05:31:56+09:00",
+        "type": "Reddit"
+      },
+      {
+        "id": "reddit_023",
+        "title": "번아웃, 그리고 강력한 노동 보호가 있는 나라에서의 회복 이야기",
+        "originalTitle": "Coming to terms with Burn Out, in a country with robust burnout procedures.",
+        "summary": "복잡한 직장 내 갈등과 번아웃을 경험한 개발자가 노동법이 강한 환경에서 어떻게 회복하고 있는지를 솔직하게 나눴다. 많은 공감과 조언이 달린 스레드다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1sp79ua/coming_to_terms_with_burn_out_in_a_country_with/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-04-19T04:41:25+09:00",
+        "type": "Reddit"
+      },
+      {
+        "id": "reddit_024",
+        "title": "Linux 커널이 AI 코드 작성 규칙을 도입했다 — AI 지원 기여에 대한 공식 가이드라인",
+        "originalTitle": "Linux kernel just shipped ai code rules. the assisted-by tag is smarter than i expected",
+        "summary": "Linux 커널 개발 커뮤니티가 AI 도구로 작성된 코드에 대한 공식 기여 가이드라인을 발표했다. AI 코딩 도구가 메인스트림 오픈소스 프로젝트에도 영향을 미치기 시작한 중요한 이정표다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1sp5pqq/linux_kernel_just_shipped_ai_code_rules_the/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-04-19T03:40:34+09:00",
+        "type": "Reddit"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_020",
+        "title": "이스라엘, 레바논에서 의료진 대상 치명적 ‘쿼드러플 탭’ 공격 확대",
+        "excerpt": "구조 인력이 모인 뒤 다시 타격하는 double-tap을 넘어, 초기 공습 뒤 세 차례 추가 공격이 이어진 quadruple tap 양상이 레바논 남부 구급 현장에서 발생 Mayfadoun 구조 현장에서는 서로 다른 구급차 조직 소속 의료진과 차량이 연속 공격을 받았고, 구급...",
+        "body": "구조 인력이 모인 뒤 다시 타격하는 double-tap을 넘어, 초기 공습 뒤 세 차례 추가 공격이 이어진 quadruple tap 양상이 레바논 남부 구급 현장에서 발생 Mayfadoun 구조 현장에서는 서로 다른 구급차 조직 소속 의료진과 차량이 연속 공격을 받았고, 구급...",
+        "url": "https://news.hada.io/topic?id=28665",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-19T04:34:09+09:00",
+        "readTime": 2,
+        "imageGradient": 6,
+        "type": "Article"
+      },
+      {
+        "id": "rss_021",
+        "title": "cat readme.txt도 안전하지 않다, iTerm2를 사용한다면",
+        "excerpt": "SSH integration은 원격 셸과 통신하기 위해 터미널 escape sequence를 사용하며, 이 구조 때문에 일반 터미널 출력도 conductor 프로토콜처럼 해석될 수 있는 상태 핵심 문제는 신뢰 실패로, 실제 원격 conductor가 아닌 악성 파일·배너�...",
+        "body": "SSH integration은 원격 셸과 통신하기 위해 터미널 escape sequence를 사용하며, 이 구조 때문에 일반 터미널 출력도 conductor 프로토콜처럼 해석될 수 있는 상태 핵심 문제는 신뢰 실패로, 실제 원격 conductor가 아닌 악성 파일·배너�...",
+        "url": "https://news.hada.io/topic?id=28664",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-19T03:35:08+09:00",
+        "readTime": 2,
+        "imageGradient": 7,
+        "type": "Article"
+      },
+      {
+        "id": "rss_022",
+        "title": "몇 달 동안 예전 방식으로 코딩하는 중",
+        "excerpt": "코드베이스 학습과 문제 해결 감각을 되찾기 위해, 코딩 에이전트 중심 작업에서 벗어나 손으로 코드를 작성하는 시간에 몇 달을 투입 중 코딩 에이전트는 빠른 반복과 동작하는 소프트웨어 출시에 유용했지만, 원하는 바가 불명확할 때 많은 가정을 대신 수행해 학...",
+        "body": "코드베이스 학습과 문제 해결 감각을 되찾기 위해, 코딩 에이전트 중심 작업에서 벗어나 손으로 코드를 작성하는 시간에 몇 달을 투입 중 코딩 에이전트는 빠른 반복과 동작하는 소프트웨어 출시에 유용했지만, 원하는 바가 불명확할 때 많은 가정을 대신 수행해 학...",
+        "url": "https://news.hada.io/topic?id=28663",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-19T01:36:01+09:00",
+        "readTime": 2,
+        "imageGradient": 6,
+        "type": "Article"
+      },
+      {
+        "id": "rss_023",
+        "title": "NASA 포스: 미래 우주 임무를 이끌 기술 인재 채용 이니셔티브",
+        "excerpt": "미국의 우주비행·항공·과학 임무 핵심 역할에 기술 인재를 유치하는 새 채용 이니셔티브 초기~중견 경력의 엔지니어·기술자·혁신가를 대상으로 하며, 보통 1~2년 기간 임명 형태로 참여하고 연장 가능성 명시 실제 임무...",
+        "body": "미국의 우주비행·항공·과학 임무 핵심 역할에 기술 인재를 유치하는 새 채용 이니셔티브 초기~중견 경력의 엔지니어·기술자·혁신가를 대상으로 하며, 보통 1~2년 기간 임명 형태로 참여하고 연장 가능성 명시 실제 임무...",
+        "url": "https://news.hada.io/topic?id=28662",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-19T00:34:04+09:00",
+        "readTime": 2,
+        "imageGradient": 7,
+        "type": "Article"
+      },
+      {
+        "id": "rss_024",
+        "title": "Show GN: oh-my-customcode — Claude Code 에이전트를 &quot;설정&quot;이 아니라 &quot;컴파일&quot;하는 툴",
+        "excerpt": "Claude Code로 에이전트 여러 개 붙여 쓰다 보면 같은 벽에 계속 부딪힙니다. 스킬 문서 쓰고, 에이전트 YAML 붙이고, 룰 꽂고, 라우팅 엮고, 충돌 나면 CLAUDE.md 직접 손보고. 프로젝트 바꿀 때마다 이걸 또 하고 있더군요. 그래서 oh-my-customcode를 만들었습니다. README 최상단 한 줄",
+        "body": "Claude Code로 에이전트 여러 개 붙여 쓰다 보면 같은 벽에 계속 부딪힙니다. 스킬 문서 쓰고, 에이전트 YAML 붙이고, 룰 꽂고, 라우팅 엮고, 충돌 나면 CLAUDE.md 직접 손보고. 프로젝트 바꿀 때마다 이걸 또 하고 있더군요. 그래서 oh-my-customcode를 만들었습니다. README 최상단 한 줄",
+        "url": "https://news.hada.io/topic?id=28661",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-18T23:56:10+09:00",
+        "readTime": 2,
+        "imageGradient": 6,
+        "type": "Article"
+      },
+      {
+        "id": "rss_025",
+        "title": "Show GN: Contexty — AI의 컨텍스트를 개발자가 직접 보고 통제할 수 있게 해주는 도구",
+        "excerpt": "&quot;왜 당신의 AI는 항상 소문보다 멍청하다고 느껴지는가&quot; 컨텍스트가 쌓일수록 모델 성능이 점점 떨어지는 느낌 새 채팅으로 넘어가면 이전 전제를 매번 설명해야 하는 번거로움 /compact를 쓰면 너무 많은 컨텍스트를 잃어버림</l",
+        "body": "&quot;왜 당신의 AI는 항상 소문보다 멍청하다고 느껴지는가&quot; 컨텍스트가 쌓일수록 모델 성능이 점점 떨어지는 느낌 새 채팅으로 넘어가면 이전 전제를 매번 설명해야 하는 번거로움 /compact를 쓰면 너무 많은 컨텍스트를 잃어버림</l",
+        "url": "https://news.hada.io/topic?id=28660",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-18T22:48:23+09:00",
+        "readTime": 2,
+        "imageGradient": 7,
+        "type": "Article"
+      }
+    ]
+  }
+}
