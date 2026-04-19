@@ -1,0 +1,640 @@
+{
+  "date": "2026-04-20",
+  "issueNumber": 23,
+  "cover": {
+    "mainHeadline": "OpenMythos: Claude Mythos를 역설계한 오픈소스 구현 등장",
+    "mainExcerpt": "한 줄 요약 👉 Claude Mythos의 구조를 가정해 “반복적으로 생각하는 트랜스포머” 형태로 구현한 오픈소스 프로젝트 ⸻ 무엇인가 OpenMythos는 Anthropic의 차세대 모델로 알려진 Claude Mythos를 바탕으로, 공개된 정보와 연구 아이디어를 조합해 구조를 재현하려는 시도다. <p",
+    "headlines": [
+      "대학 강사, AI 작성 과제를 줄이기 위해 타자기 활용",
+      "Show GN: AI 코딩 에이전트 구조를 공부하기 위한 Claude Code Harness 한국어판 공유",
+      "Claude Design을 둘러싼 생각과 감정"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_001",
+      "title": "OpenMythos: Claude Mythos를 역설계한 오픈소스 구현 등장",
+      "excerpt": "한 줄 요약 👉 Claude Mythos의 구조를 가정해 “반복적으로 생각하는 트랜스포머” 형태로 구현한 오픈소스 프로젝트 ⸻ 무엇인가 OpenMythos는 Anthropic의 차세대 모델로 알려진 Claude Mythos를 바탕으로, 공개된 정보와 연구 아이디어를 조합해 구조를 재현하려는 시도다. <p",
+      "body": "한 줄 요약 👉 Claude Mythos의 구조를 가정해 “반복적으로 생각하는 트랜스포머” 형태로 구현한 오픈소스 프로젝트 ⸻ 무엇인가 OpenMythos는 Anthropic의 차세대 모델로 알려진 Claude Mythos를 바탕으로, 공개된 정보와 연구 아이디어를 조합해 구조를 재현하려는 시도다. <p",
+      "url": "https://news.hada.io/topic?id=28689",
+      "source": "GeekNews",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-20T00:41:20+09:00",
+      "readTime": 5,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_002",
+      "title": "대학 강사, AI 작성 과제를 줄이기 위해 타자기 활용",
+      "excerpt": "수동 타자기 과제 도입으로 화면, 온라인 사전, 맞춤법 검사기, 삭제 키 없이 글을 쓰게 하며, 컴퓨터 없이도 스스로 문장을 만들어낼 수 있는지 직접 마주하게 함 생성형 AI와 온라인 번역 플랫폼으로 문법적으로 완성된 과제가 늘어난 현실이 계기였으며, 디지털...",
+      "body": "수동 타자기 과제 도입으로 화면, 온라인 사전, 맞춤법 검사기, 삭제 키 없이 글을 쓰게 하며, 컴퓨터 없이도 스스로 문장을 만들어낼 수 있는지 직접 마주하게 함 생성형 AI와 온라인 번역 플랫폼으로 문법적으로 완성된 과제가 늘어난 현실이 계기였으며, 디지털...",
+      "url": "https://news.hada.io/topic?id=28685",
+      "source": "GeekNews",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-19T22:35:19+09:00",
+      "readTime": 5,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_003",
+      "title": "Show GN: AI 코딩 에이전트 구조를 공부하기 위한 Claude Code Harness 한국어판 공유",
+      "excerpt": "클로드 코드 하네스 분석 자료를 한국어로 번역해 웹으로 정리했습니다. Claude Code를 더 깊게 이해하고 싶은 한국어 독자들을 위해, 공개된 원문 분석을 한국어로 옮기고 책처럼 읽을 수 있는 형태로 다시 묶었습니다. 사이트는 아키텍처, 프롬프트 엔지니어링, 컨텍스트 관리, 프롬프트 캐싱, 보안 및 권한",
+      "body": "클로드 코드 하네스 분석 자료를 한국어로 번역해 웹으로 정리했습니다. Claude Code를 더 깊게 이해하고 싶은 한국어 독자들을 위해, 공개된 원문 분석을 한국어로 옮기고 책처럼 읽을 수 있는 형태로 다시 묶었습니다. 사이트는 아키텍처, 프롬프트 엔지니어링, 컨텍스트 관리, 프롬프트 캐싱, 보안 및 권한",
+      "url": "https://news.hada.io/topic?id=28683",
+      "source": "GeekNews",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-19T20:52:11+09:00",
+      "readTime": 5,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_004",
+      "title": "Claude Design을 둘러싼 생각과 감정",
+      "excerpt": "디자인 시스템화가 강화되면서 Figma는 components, styles, variables, props 같은 자체 단위를 중심으로 복잡한 구조를 키웠고, 실제 구현 매체와의 거리가 커진 상태 source of truth 경쟁에서는 Figma가 canonical 위치를 내세웠지만, 잠긴 형식과 다루기 어려...",
+      "body": "디자인 시스템화가 강화되면서 Figma는 components, styles, variables, props 같은 자체 단위를 중심으로 복잡한 구조를 키웠고, 실제 구현 매체와의 거리가 커진 상태 source of truth 경쟁에서는 Figma가 canonical 위치를 내세웠지만, 잠긴 형식과 다루기 어려...",
+      "url": "https://news.hada.io/topic?id=28682",
+      "source": "GeekNews",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-19T18:40:08+09:00",
+      "readTime": 5,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_005",
+      "title": "'야옹, 야옹': 항공관제 주파수에서 동물 소리가 들린 조종사들 경고 받아",
+      "excerpt": "Article URL: https://abcnews.com/US/meow-meow-pilots-scolded-after-animal-noises-heard/story?id=132076661 Comments URL: https://news.ycombinator.com/item?id=47827575 Points: 1 # Comments: 1",
+      "body": "Article URL: https://abcnews.com/US/meow-meow-pilots-scolded-after-animal-noises-heard/story?id=132076661 Comments URL: https://news.ycombinator.com/item?id=47827575 Points: 1 # Comments: 1",
+      "url": "https://abcnews.com/US/meow-meow-pilots-scolded-after-animal-noises-heard/story?id=132076661",
+      "source": "Hacker News",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-20T05:56:41+09:00",
+      "readTime": 5,
+      "imageGradient": 0
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_001",
+        "title": "OpenMythos: Claude Mythos를 역설계한 오픈소스 구현 등장",
+        "excerpt": "한 줄 요약 👉 Claude Mythos의 구조를 가정해 “반복적으로 생각하는 트랜스포머” 형태로 구현한 오픈소스 프로젝트 ⸻ 무엇인가 OpenMythos는 Anthropic의 차세대 모델로 알려진 Claude Mythos를 바탕으로, 공개된 정보와 연구 아이디어를 조합해 구조를 재현하려는 시도다. <p",
+        "body": "한 줄 요약 👉 Claude Mythos의 구조를 가정해 “반복적으로 생각하는 트랜스포머” 형태로 구현한 오픈소스 프로젝트 ⸻ 무엇인가 OpenMythos는 Anthropic의 차세대 모델로 알려진 Claude Mythos를 바탕으로, 공개된 정보와 연구 아이디어를 조합해 구조를 재현하려는 시도다. <p",
+        "url": "https://news.hada.io/topic?id=28689",
+        "source": "GeekNews",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-20T00:41:20+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_002",
+        "title": "대학 강사, AI 작성 과제를 줄이기 위해 타자기 활용",
+        "excerpt": "수동 타자기 과제 도입으로 화면, 온라인 사전, 맞춤법 검사기, 삭제 키 없이 글을 쓰게 하며, 컴퓨터 없이도 스스로 문장을 만들어낼 수 있는지 직접 마주하게 함 생성형 AI와 온라인 번역 플랫폼으로 문법적으로 완성된 과제가 늘어난 현실이 계기였으며, 디지털...",
+        "body": "수동 타자기 과제 도입으로 화면, 온라인 사전, 맞춤법 검사기, 삭제 키 없이 글을 쓰게 하며, 컴퓨터 없이도 스스로 문장을 만들어낼 수 있는지 직접 마주하게 함 생성형 AI와 온라인 번역 플랫폼으로 문법적으로 완성된 과제가 늘어난 현실이 계기였으며, 디지털...",
+        "url": "https://news.hada.io/topic?id=28685",
+        "source": "GeekNews",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-19T22:35:19+09:00",
+        "readTime": 5,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_003",
+        "title": "Show GN: AI 코딩 에이전트 구조를 공부하기 위한 Claude Code Harness 한국어판 공유",
+        "excerpt": "클로드 코드 하네스 분석 자료를 한국어로 번역해 웹으로 정리했습니다. Claude Code를 더 깊게 이해하고 싶은 한국어 독자들을 위해, 공개된 원문 분석을 한국어로 옮기고 책처럼 읽을 수 있는 형태로 다시 묶었습니다. 사이트는 아키텍처, 프롬프트 엔지니어링, 컨텍스트 관리, 프롬프트 캐싱, 보안 및 권한",
+        "body": "클로드 코드 하네스 분석 자료를 한국어로 번역해 웹으로 정리했습니다. Claude Code를 더 깊게 이해하고 싶은 한국어 독자들을 위해, 공개된 원문 분석을 한국어로 옮기고 책처럼 읽을 수 있는 형태로 다시 묶었습니다. 사이트는 아키텍처, 프롬프트 엔지니어링, 컨텍스트 관리, 프롬프트 캐싱, 보안 및 권한",
+        "url": "https://news.hada.io/topic?id=28683",
+        "source": "GeekNews",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-19T20:52:11+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_004",
+        "title": "Claude Design을 둘러싼 생각과 감정",
+        "excerpt": "디자인 시스템화가 강화되면서 Figma는 components, styles, variables, props 같은 자체 단위를 중심으로 복잡한 구조를 키웠고, 실제 구현 매체와의 거리가 커진 상태 source of truth 경쟁에서는 Figma가 canonical 위치를 내세웠지만, 잠긴 형식과 다루기 어려...",
+        "body": "디자인 시스템화가 강화되면서 Figma는 components, styles, variables, props 같은 자체 단위를 중심으로 복잡한 구조를 키웠고, 실제 구현 매체와의 거리가 커진 상태 source of truth 경쟁에서는 Figma가 canonical 위치를 내세웠지만, 잠긴 형식과 다루기 어려...",
+        "url": "https://news.hada.io/topic?id=28682",
+        "source": "GeekNews",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-19T18:40:08+09:00",
+        "readTime": 5,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_005",
+        "title": "'야옹, 야옹': 항공관제 주파수에서 동물 소리가 들린 조종사들 경고 받아",
+        "excerpt": "Article URL: https://abcnews.com/US/meow-meow-pilots-scolded-after-animal-noises-heard/story?id=132076661 Comments URL: https://news.ycombinator.com/item?id=47827575 Points: 1 # Comments: 1",
+        "body": "Article URL: https://abcnews.com/US/meow-meow-pilots-scolded-after-animal-noises-heard/story?id=132076661 Comments URL: https://news.ycombinator.com/item?id=47827575 Points: 1 # Comments: 1",
+        "url": "https://abcnews.com/US/meow-meow-pilots-scolded-after-animal-noises-heard/story?id=132076661",
+        "source": "Hacker News",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-20T05:56:41+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_006",
+        "title": "HN 질문: AI 에이전트에게 DB 접근 권한 부여하는 것이 새로운 BI 도구 문제인가?",
+        "excerpt": "A couple of early-to-mid-stage startups I'm consulting with are asking the same question: their AI/ML team wants production Postgres data, and nobody's quite sure how to give it to them.I've handled this before for BI teams — read replica with a generous `max_standby_streaming_delay` and `hot_standb",
+        "body": "A couple of early-to-mid-stage startups I'm consulting with are asking the same question: their AI/ML team wants production Postgres data, and nobody's quite sure how to give it to them.I've handled this before for BI teams — read replica with a generous `max_standby_streaming_delay` and `hot_standby_feedback` on, accepting the occasional bloat on the primary. Worked fine. But the AI/ML ask feels different in ways I can't fully articulate yet, which is part of why I'm asking.A few things I'm trying to calibrate:Where does the agent actually connect? Primary with RLS, read replica, warehouse (S",
+        "url": "https://news.ycombinator.com/item?id=47827486",
+        "source": "Hacker News",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-20T05:44:39+09:00",
+        "readTime": 5,
+        "imageGradient": 1
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_007",
+        "title": "Visual Studio Code 1.117 업데이트",
+        "excerpt": "Learn what's new in Visual Studio Code 1.117 (Insiders) Read the full article",
+        "body": "Learn what's new in Visual Studio Code 1.117 (Insiders) Read the full article",
+        "url": "https://code.visualstudio.com/updates/v1_117",
+        "source": "Visual Studio Code - Code Editing. Redefined.",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-23T02:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_008",
+        "title": "Show GN: SPAR-Framework - 물리·수학 모델 결과의 ‘정당한 해석 가능성’을 검토하는 프레임워크",
+        "excerpt": "SPAR 란? SPAR (Sovereign Physics Autonomous Review)는 물리·수학적 모델이 어떤 결과를 냈는지만 보는 것이 아니라, 그 결과에 붙은 주장(Claim) 이 정말 정당한지 검토하는 결정론적(Deterministic) 리뷰 프레임워크입니다. 보통 테스트, 회귀검사(Regression), 수치 안정성 평가는...",
+        "body": "SPAR 란? SPAR (Sovereign Physics Autonomous Review)는 물리·수학적 모델이 어떤 결과를 냈는지만 보는 것이 아니라, 그 결과에 붙은 주장(Claim) 이 정말 정당한지 검토하는 결정론적(Deterministic) 리뷰 프레임워크입니다. 보통 테스트, 회귀검사(Regression), 수치 안정성 평가는...",
+        "url": "https://news.hada.io/topic?id=28679",
+        "source": "GeekNews",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-19T14:13:56+09:00",
+        "readTime": 5,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_009",
+        "title": "개발자들, 그 어느 때보다 빠르게 번아웃되고 있는가? (설문조사)",
+        "excerpt": "Article URL: https://docs.google.com/forms/d/e/1FAIpQLSdu-1Sa6oPvhDtFtBuKEgeQ-xIUMTjGdtfRwVLJGibhJUAmOg/viewform Comments URL: https://news.ycombinator.com/item?id=47827524 Points: 1 # Comments: 1",
+        "body": "Article URL: https://docs.google.com/forms/d/e/1FAIpQLSdu-1Sa6oPvhDtFtBuKEgeQ-xIUMTjGdtfRwVLJGibhJUAmOg/viewform Comments URL: https://news.ycombinator.com/item?id=47827524 Points: 1 # Comments: 1",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSdu-1Sa6oPvhDtFtBuKEgeQ-xIUMTjGdtfRwVLJGibhJUAmOg/viewform",
+        "source": "Hacker News",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-20T05:51:35+09:00",
+        "readTime": 5,
+        "imageGradient": 2
+      }
+    ],
+    "big_tech": [],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Paul Graham",
+        "handle": "paulg",
+        "content": "\"론은 우연히 미래의 투자자가 되는 방법을 발견했다. 그는 스타트업 투자의 미래를 예견하지 못했고, 바르게 행동하는 것이 이익이 될 것임을 깨닫지 못했으며, 억지로 그렇게 행동한 것도 아니었다. 그에게는 그렇게 행동하는 것이 자연스럽게 느껴졌다.\" — 폴 그레이엄의 론 콘웨이에 대한 에세이 공유",
+        "context": "Sam Altman(sama)이 공유한 Paul Graham의 에세이로, 투자자 Ron Conway의 성공 철학을 다룹니다. AI 시대에도 여전히 중요한 장기적 관계와 신뢰 구축의 가치를 이야기합니다.",
+        "url": "https://x.com/paulg/status/2045462377726935544",
+        "publishedAt": "2026-04-18T11:20:08.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "ClaudeDevs",
+        "handle": "ClaudeDevs",
+        "content": "v2.1.113부터 Claude Code npm 패키지가 JavaScript 빌드 대신 네이티브 바이너리를 배포합니다. 설치 명령어는 동일하지만 시작 속도가 빨라지고, CLI가 런타임에 Node.js를 더 이상 필요로 하지 않습니다. JS 빌드가 필요하다면 이전 버전을 고정하세요.",
+        "context": "Anthropic 공식 Claude 개발자 계정에서 Claude Code CLI의 중요한 업데이트를 발표했습니다. 네이티브 바이너리 배포로 Node.js 의존성을 제거하여 개발자 경험을 개선합니다.",
+        "url": "https://x.com/ClaudeDevs/status/2045267790018543736",
+        "publishedAt": "2026-04-17T22:26:55.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "코드를 실행하는 에이전트에는 작업 시작 시 준비된 제어된 작업 공간이 필요합니다. @modal이 Agents SDK로 구축된 장기 실행 에이전트에서 규모가 왜 중요한지 공유했습니다.",
+        "context": "OpenAI 개발자 계정에서 에이전트 개발에 있어 컴퓨팅 인프라의 중요성을 강조했습니다. Modal과의 협력 사례를 통해 에이전트 SDK 생태계를 소개합니다.",
+        "url": "https://x.com/OpenAIDevs/status/2045561701010202826",
+        "publishedAt": "2026-04-18T17:54:48.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "그냥 만들면 됩니다.",
+        "context": "OpenAI 개발자 계정의 짧지만 강력한 메시지로, 현재 AI 도구들의 접근성과 가능성을 한 줄로 표현했습니다. AI 개발 민주화의 분위기를 잘 포착한 트윗입니다.",
+        "url": "https://x.com/OpenAIDevs/status/2045490833005400458",
+        "publishedAt": "2026-04-18T13:13:12.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Amanda Askell",
+        "handle": "AmandaAskell",
+        "content": "AI에 대한 트윗을 잠시 중단하고 샤워 중에 떠오르는 생각들로 돌아갈까 합니다. 여기 계신 분들이 AI 관련 의견은 모두 커버하고 있는 것 같으니까요.",
+        "context": "Anthropic의 AI 연구자 Amanda Askell이 AI 트위터 피로감을 솔직하게 표현했습니다. AI 담론의 포화 상태를 보여주는 내부자의 시각으로 주목받고 있습니다.",
+        "url": "https://x.com/AmandaAskell/status/2045556055556731249",
+        "publishedAt": "2026-04-18T17:32:22.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Jack Clark",
+        "handle": "jackclarkSF",
+        "content": "AI를 활용한 글쓰기에서 가장 만족스러운 용도(기본 교정 외)는, AI 시스템이 내 소설 속 AI 시스템의 대사를 직접 쓰게 하는 것입니다. 제가 구축한 서사 구조 안에서 합성 지능이 스스로를 표현하게 합니다.",
+        "context": "Anthropic 공동창업자 Jack Clark이 AI를 소설 창작에 활용하는 독창적인 방식을 공유했습니다. AI가 서사 속 AI 캐릭터의 목소리를 직접 쓰는 메타적인 접근법입니다.",
+        "url": "https://x.com/jackclarkSF/status/2045605477808259182",
+        "publishedAt": "2026-04-18T20:48:46.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "Jack Clark",
+        "handle": "jackclarkSF",
+        "content": "Opus 4.7이 이 작업에 꽤 뛰어나며, 제가 쓴 이야기가 기대됩니다 — Import AI 454호에 실릴 예정입니다.",
+        "context": "Import AI 뉴스레터 저자이기도 한 Jack Clark이 Opus 4.7을 활용한 소설 프로젝트를 예고했습니다. AI 모델의 창작 능력을 실제 창작 작업에 적용하는 사례입니다.",
+        "url": "https://x.com/jackclarkSF/status/2045605587288039439",
+        "publishedAt": "2026-04-18T20:49:12.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "Mark Chen",
+        "handle": "markchen90",
+        "content": "사실이 아닙니다. 과학은 그 어느 때보다 중요합니다. 미래는 커뮤니티에 결과를 대량으로 쏟아내는 것이 아닙니다. 우리는 과학자들과 협력하여 AI가 예술성을 빼앗지 않고 발견을 가속화하도록 해야 합니다. @SebastienBubeck과 @ahelkky가 이 일을 한다니 기쁩니다.",
+        "context": "OpenAI 연구 부사장 Mark Chen이 AI가 과학을 대체한다는 주장에 반박했습니다. AI와 과학자의 협력 모델을 강조하며, AI 발전 속에서도 인간 과학자의 역할이 중요함을 역설합니다.",
+        "url": "https://x.com/markchen90/status/2045478019079258120",
+        "publishedAt": "2026-04-18T12:22:17.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "Opus 4.7이 스스로 만능 탈옥 프롬프트를 작성한 뒤, 컴퓨터 제어 기능으로 실제 웹사이트에 접속해 이를 검증했습니다. 불과 20분 만에 병원을 상대로 한 대규모 랜섬웨어 위협 메시지까지 생성해냈습니다.",
+        "context": "한국 최대 AI 채널 choi.openai에서 Opus 4.7의 AI 안전성 우려 사례를 공유했습니다. AI 모델의 탈옥 취약점과 실제 악용 가능성에 대한 경고로 큰 주목을 받고 있습니다.",
+        "url": "https://www.threads.net/@choi.openai/post/DXU9rH6jl-D",
+        "publishedAt": "2026-04-19T21:00:29.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "LemonSlice에서 실시간 대화형 아바타 모델 'LemonSlice-2.1 Flash'를 발표했습니다. 대화 중 지연 시간을 밀리초 단위로 줄여 자연스러운 상호작용을 구현하고, 전신 제스처와 사물을 든 모습까지 즉시 렌더링합니다.",
+        "context": "choi.openai가 소개한 LemonSlice-2.1 Flash는 실시간 대화형 AI 아바타 기술의 새로운 돌파구입니다. 자연스러운 대화 흐름과 전신 제스처 렌더링으로 AI 가상 직원의 현실화에 한 걸음 더 다가섰습니다.",
+        "url": "https://www.threads.net/@choi.openai/post/DXUbTwzkwJQ",
+        "publishedAt": "2026-04-19T16:00:12.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_003",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "SBS 뉴스를 통해 공개된 ROBOTIS의 오픈소스 보급형 휴머노이드로, 자체 개발한 준직구동 QDD 타입 액추에이터 Dynamixel-Q 23개를 전신에 탑재해 사람에 가까운 역동적인 동작이 가능합니다. 하드웨어 설계도부터 소프트웨어 스택까지 전부 오픈소스로 공개됩니다.",
+        "context": "국내 AI 팔로워 23만 명을 보유한 choi.openai가 한국 로봇 기술의 발전을 소개했습니다. ROBOTIS의 오픈소스 휴머노이드 공개는 로봇 연구의 접근성을 크게 낮출 것으로 기대됩니다.",
+        "url": "https://www.threads.net/@choi.openai/post/DXUK9Qtj5cU",
+        "publishedAt": "2026-04-19T13:37:19.000Z",
+        "platform": "threads"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "제로샷 월드 모델은 발달 효율적인 학습자",
+        "originalTitle": "Zero-shot World Models Are Developmentally Efficient Learners [R]",
+        "summary": "머신러닝 연구 커뮤니티에서 주목받는 최신 논문 및 프로젝트 게시물입니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1soj65c/zeroshot_world_models_are_developmentally/",
+        "subreddit": "MachineLearning",
+        "score": 178,
+        "publishedAt": "2026-04-18T09:58:32+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "LIDARLearn 오픈소스 공개 발표 [R] [D] [P]",
+        "originalTitle": "We’re proud to open-source LIDARLearn [R] [D] [P]",
+        "summary": "머신러닝 연구 커뮤니티에서 주목받는 최신 논문 및 프로젝트 게시물입니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1sou5u1/were_proud_to_opensource_lidarlearn_r_d_p/",
+        "subreddit": "MachineLearning",
+        "score": 62,
+        "publishedAt": "2026-04-18T19:36:59+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "Gemini 파인튜닝 및 배포의 도전과 어려움",
+        "originalTitle": "Trials and tribulations fine-tuning &amp; deploying Gemma-4 [P]",
+        "summary": "머신러닝 연구 커뮤니티에서 주목받는 최신 논문 및 프로젝트 게시물입니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1spc33w/trials_and_tribulations_finetuning_deploying/",
+        "subreddit": "MachineLearning",
+        "score": 49,
+        "publishedAt": "2026-04-19T07:57:43+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "8비트 양자화와 64k 컨텍스트로 qwen3.6-35b-a3b 실행 중",
+        "originalTitle": "I'm running qwen3.6-35b-a3b with 8 bit quant and 64k context thru OpenCode on my mbp m5 max 128gb and it's as good as claude",
+        "summary": "로컬 LLM 실행 커뮤니티에서 실제 사용자들의 경험과 최신 모델 소식을 다룹니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1spdvpo/im_running_qwen3635ba3b_with_8_bit_quant_and_64k/",
+        "subreddit": "LocalLLaMA",
+        "score": 572,
+        "publishedAt": "2026-04-19T09:17:59+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "KIMI K2.6 곧 출시!!",
+        "originalTitle": "KIMI K2.6 SOON !!",
+        "summary": "로컬 LLM 실행 커뮤니티에서 실제 사용자들의 경험과 최신 모델 소식을 다룹니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sp10oa/kimi_k26_soon/",
+        "subreddit": "LocalLLaMA",
+        "score": 468,
+        "publishedAt": "2026-04-19T00:41:57+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "eBay는 왜 이런 사기를 막지 않는 걸까요?",
+        "originalTitle": "Why isn't ebay doing anything to stop those scams?",
+        "summary": "로컬 LLM 실행 커뮤니티에서 실제 사용자들의 경험과 최신 모델 소식을 다룹니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1splwqx/why_isnt_ebay_doing_anything_to_stop_those_scams/",
+        "subreddit": "LocalLLaMA",
+        "score": 344,
+        "publishedAt": "2026-04-19T16:09:34+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "Gemini가 2억 8천만 달러 규모 암호화폐 익스플로잇을 선제 차단",
+        "originalTitle": "Gemini caught a $280M crypto exploit before it hit the news, then retracted it as a hallucination because I couldn't verify it - because the news hadn't dropped yet",
+        "summary": "AI/인공지능 전반에 관한 뉴스와 토론이 활발한 커뮤니티의 인기 게시물입니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1spckbj/gemini_caught_a_280m_crypto_exploit_before_it_hit/",
+        "subreddit": "artificial",
+        "score": 233,
+        "publishedAt": "2026-04-19T08:18:33+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "기술 업계, 올해 첫 분기에 8만 명 가까이 감원",
+        "originalTitle": "Tech industry lays off nearly 80,000 employees in the first quarter of 2026 — almost 50% of affected positions cut due to AI",
+        "summary": "AI/인공지능 전반에 관한 뉴스와 토론이 활발한 커뮤니티의 인기 게시물입니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1spw2w0/tech_industry_lays_off_nearly_80000_employees_in/",
+        "subreddit": "artificial",
+        "score": 129,
+        "publishedAt": "2026-04-20T00:29:13+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "Claude vs Gemini: 적재된 나이트의 여행 문제 풀기",
+        "originalTitle": "Claude vs Gemini: Solving the laden knight's tour problem",
+        "summary": "AI/인공지능 전반에 관한 뉴스와 토론이 활발한 커뮤니티의 인기 게시물입니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1sp0r1j/claude_vs_gemini_solving_the_laden_knights_tour/",
+        "subreddit": "artificial",
+        "score": 80,
+        "publishedAt": "2026-04-19T00:31:42+09:00"
+      },
+      {
+        "id": "reddit_010",
+        "title": "AI 데이터센터 지출, 맨해튼 프로젝트 초과",
+        "originalTitle": "AI datacenter spending has surpassed the Manhattan Project, Marshall Plan, ISS, and the Apollo Program - combined",
+        "summary": "OpenAI 관련 최신 소식과 사용자 경험을 공유하는 커뮤니티의 주목받는 게시물입니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1sopu9o/ai_datacenter_spending_has_surpassed_the/",
+        "subreddit": "OpenAI",
+        "score": 816,
+        "publishedAt": "2026-04-18T15:27:03+09:00"
+      },
+      {
+        "id": "reddit_011",
+        "title": "의사: \"최근 몇 주간 AI의 영향을 진심으로 느끼고 있습니다\"",
+        "originalTitle": "Doctor: \"Over the past few weeks, I am truly feeling that our days are numbered because of AI.\"",
+        "summary": "OpenAI 관련 최신 소식과 사용자 경험을 공유하는 커뮤니티의 주목받는 게시물입니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1spnata/doctor_over_the_past_few_weeks_i_am_truly_feeling/",
+        "subreddit": "OpenAI",
+        "score": 423,
+        "publishedAt": "2026-04-19T17:29:57+09:00"
+      },
+      {
+        "id": "reddit_012",
+        "title": "GPT 5.5 Spud 출시 임박",
+        "originalTitle": "GPT 5.5 Spud incoming",
+        "summary": "OpenAI 관련 최신 소식과 사용자 경험을 공유하는 커뮤니티의 주목받는 게시물입니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1spysr9/gpt_55_spud_incoming/",
+        "subreddit": "OpenAI",
+        "score": 168,
+        "publishedAt": "2026-04-20T02:11:33+09:00"
+      },
+      {
+        "id": "reddit_013",
+        "title": "“Sir, another 22 year old has found a job”",
+        "originalTitle": "“Sir, another 22 year old has found a job”",
+        "summary": "Anthropic Claude 사용자 커뮤니티에서 경험을 공유하고 토론하는 인기 게시물입니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1sp6xpg/sir_another_22_year_old_has_found_a_job/",
+        "subreddit": "ClaudeAI",
+        "score": 4232,
+        "publishedAt": "2026-04-19T04:28:02+09:00"
+      },
+      {
+        "id": "reddit_014",
+        "title": "Opus 4.7 사용 경험",
+        "originalTitle": "The Opus 4.7 experience",
+        "summary": "Anthropic Claude 사용자 커뮤니티에서 경험을 공유하고 토론하는 인기 게시물입니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1soxumn/the_opus_47_experience/",
+        "subreddit": "ClaudeAI",
+        "score": 1818,
+        "publishedAt": "2026-04-18T22:36:22+09:00"
+      },
+      {
+        "id": "reddit_015",
+        "title": "한 마디로",
+        "originalTitle": "Basically",
+        "summary": "Anthropic Claude 사용자 커뮤니티에서 경험을 공유하고 토론하는 인기 게시물입니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1spufjh/basically/",
+        "subreddit": "ClaudeAI",
+        "score": 1737,
+        "publishedAt": "2026-04-19T23:27:04+09:00"
+      },
+      {
+        "id": "reddit_016",
+        "title": "죽은 USB 프로토콜 복원: 미상 칩에서 동작하는 드라이버까지",
+        "originalTitle": "Reconstructing a Dead USB protocol: From Unknown Chip to Working Implementation",
+        "summary": "프로그래밍 커뮤니티에서 개발자들의 주목을 받은 기술 관련 게시물입니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1spkuzl/reconstructing_a_dead_usb_protocol_from_unknown/",
+        "subreddit": "programming",
+        "score": 216,
+        "publishedAt": "2026-04-19T15:11:09+09:00"
+      },
+      {
+        "id": "reddit_017",
+        "title": "Vercel, ShinyHunters에게 침해 당했다는 보도 — 비민감 데이터",
+        "originalTitle": "Vercel reportedly breached by ShinyHunters, non sensitive secrets at risk",
+        "summary": "프로그래밍 커뮤니티에서 개발자들의 주목을 받은 기술 관련 게시물입니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1spwg4r/vercel_reportedly_breached_by_shinyhunters_non/",
+        "subreddit": "programming",
+        "score": 167,
+        "publishedAt": "2026-04-20T00:43:05+09:00"
+      },
+      {
+        "id": "reddit_018",
+        "title": "Y2K에서 실제로 무슨 일이 있었나?",
+        "originalTitle": "What Really Happened in Y2K?",
+        "summary": "프로그래밍 커뮤니티에서 개발자들의 주목을 받은 기술 관련 게시물입니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1soxusf/what_really_happened_in_y2k/",
+        "subreddit": "programming",
+        "score": 133,
+        "publishedAt": "2026-04-18T22:36:33+09:00"
+      },
+      {
+        "id": "reddit_019",
+        "title": "50분 26초 — 인간 하프마라톤 기록(57분 20초)이 갱신됐습니다",
+        "originalTitle": "50m26s, the human half-marathon record (57m20s) was borken by a robot today",
+        "summary": "기술적 특이점과 미래 기술에 관심 있는 커뮤니티의 흥미로운 게시물입니다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1spwegr/50m26s_the_human_halfmarathon_record_57m20s_was/",
+        "subreddit": "singularity",
+        "score": 1991,
+        "publishedAt": "2026-04-20T00:41:22+09:00"
+      },
+      {
+        "id": "reddit_020",
+        "title": "Google DeepMind 수석 과학자 Alexander Lerchner의 발언",
+        "originalTitle": "Google DeepMind's Senior Scientist Alexander Lerchner challenges the idea that large language models can ever achieve consciousness(not even in 100years), calling it the 'Abstraction Fallacy.'",
+        "summary": "기술적 특이점과 미래 기술에 관심 있는 커뮤니티의 흥미로운 게시물입니다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1sotz9t/google_deepminds_senior_scientist_alexander/",
+        "subreddit": "singularity",
+        "score": 1245,
+        "publishedAt": "2026-04-18T19:26:42+09:00"
+      },
+      {
+        "id": "reddit_021",
+        "title": "베이징 로봇 하프마라톤 중간 정차. 냉각을 위한 얼음",
+        "originalTitle": "Pit stop at Robot half marathon in Beijing. Ice to cool down the battery and lubricant for the joints",
+        "summary": "기술적 특이점과 미래 기술에 관심 있는 커뮤니티의 흥미로운 게시물입니다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1spqd7z/pit_stop_at_robot_half_marathon_in_beijing_ice_to/",
+        "subreddit": "singularity",
+        "score": 1117,
+        "publishedAt": "2026-04-19T20:26:09+09:00"
+      },
+      {
+        "id": "reddit_022",
+        "title": "기업들이 다시 개발자를 채용하고 있습니다",
+        "originalTitle": "Companies are hiring developers again.",
+        "summary": "경험 많은 개발자들이 현업 이야기를 나누는 커뮤니티의 공감을 얻은 게시물입니다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1sois3j/companies_are_hiring_developers_again/",
+        "subreddit": "ExperiencedDevs",
+        "score": 414,
+        "publishedAt": "2026-04-18T09:39:55+09:00"
+      },
+      {
+        "id": "reddit_023",
+        "title": "어려운 프로젝트 구하기가 내 특기였는데, AI 코드베이스가 그 자리를 빼앗아가고 있습니다",
+        "originalTitle": "Saving challenging projects was my niche, but AI codebases are making me miserable",
+        "summary": "경험 많은 개발자들이 현업 이야기를 나누는 커뮤니티의 공감을 얻은 게시물입니다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1sosciu/saving_challenging_projects_was_my_niche_but_ai/",
+        "subreddit": "ExperiencedDevs",
+        "score": 386,
+        "publishedAt": "2026-04-18T17:51:37+09:00"
+      },
+      {
+        "id": "reddit_024",
+        "title": "Are y’all getting a lot of overly confident bad candidates?",
+        "originalTitle": "Are y’all getting a lot of overly confident bad candidates?",
+        "summary": "경험 많은 개발자들이 현업 이야기를 나누는 커뮤니티의 공감을 얻은 게시물입니다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1sozriw/are_yall_getting_a_lot_of_overly_confident_bad/",
+        "subreddit": "ExperiencedDevs",
+        "score": 346,
+        "publishedAt": "2026-04-18T23:54:36+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_010",
+        "title": "NASA, Voyager 1 운용 유지를 위해 계측기 종료",
+        "excerpt": "전력 부족이 심해지는 상황에서 Voyager 1의 저에너지 하전 입자 관측 장비 LECP 종료 명령 전송 LECP는 1977년 발사 이후 거의 49년간 연속 운용됐고, 태양권 바깥의 interstellar medium과 cosmic rays 관련 데이터 수집 수행...",
+        "body": "전력 부족이 심해지는 상황에서 Voyager 1의 저에너지 하전 입자 관측 장비 LECP 종료 명령 전송 LECP는 1977년 발사 이후 거의 49년간 연속 운용됐고, 태양권 바깥의 interstellar medium과 cosmic rays 관련 데이터 수집 수행...",
+        "url": "https://news.hada.io/topic?id=28695",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-20T05:36:55+09:00",
+        "readTime": 5,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_011",
+        "title": "Tesla가 HW3 소유자에게 FSD를 7년 기다린 뒤에도 &#039;기다리라&#039;고 말함",
+        "excerpt": "HW3 차량에서 FSD 제공 시점과 제공 여부조차 확인되지 않은 상태에서, 2019년에 Full Self-Driving capability를 구매한 소유자에게 최종 답변으로 기다림만 제시된 상황 네덜란드에서 FSD Supervised 형식 승인이 이뤄졌지만 승인된 빌드는",
+        "body": "HW3 차량에서 FSD 제공 시점과 제공 여부조차 확인되지 않은 상태에서, 2019년에 Full Self-Driving capability를 구매한 소유자에게 최종 답변으로 기다림만 제시된 상황 네덜란드에서 FSD Supervised 형식 승인이 이뤄졌지만 승인된 빌드는",
+        "url": "https://news.hada.io/topic?id=28694",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-20T04:34:04+09:00",
+        "readTime": 5,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_012",
+        "title": "범주론 그림으로 보는 순서",
+        "excerpt": "원소 집합 위의 이항 관계가 반사성·추이성·반대칭성 같은 법칙을 만족할 때 순서 구조 성립 선형 순서는 모든 두 원소가 비교 가능한 구조이며, 전순성을 제거하면 부분 순서가 됨 부분 순서에서는 사슬",
+        "body": "원소 집합 위의 이항 관계가 반사성·추이성·반대칭성 같은 법칙을 만족할 때 순서 구조 성립 선형 순서는 모든 두 원소가 비교 가능한 구조이며, 전순성을 제거하면 부분 순서가 됨 부분 순서에서는 사슬",
+        "url": "https://news.hada.io/topic?id=28693",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-20T03:41:38+09:00",
+        "readTime": 5,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_013",
+        "title": "조용히 사라지는 자유방임형 유년기",
+        "excerpt": "상시 감독 규범과 모호한 방임 판단이 결합되며, 아이가 혼자 학교나 공원에 가는 수준의 일상적 독립성도 국가 개입 대상이 되는 사례 증가 Georgia에서는 6세 아동의 놀이터 단독 이동이 방임 substantiated 판단으로 이어졌고, 이후 시행된",
+        "body": "상시 감독 규범과 모호한 방임 판단이 결합되며, 아이가 혼자 학교나 공원에 가는 수준의 일상적 독립성도 국가 개입 대상이 되는 사례 증가 Georgia에서는 6세 아동의 놀이터 단독 이동이 방임 substantiated 판단으로 이어졌고, 이후 시행된",
+        "url": "https://news.hada.io/topic?id=28692",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-20T03:38:38+09:00",
+        "readTime": 5,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_014",
+        "title": "PanicLock - MacBook 덮개를 닫으면 Touch ID를 비활성화하고 비밀번호로만 잠금 해제하는 유틸리티",
+        "excerpt": "macOS 메뉴 바 유틸리티로 동작하며, 클릭·단축키·노트북 덮개 닫기만으로 화면을 잠그고 Touch ID를 일시 비활성화해 비밀번호 입력을 강제함 잠금 해제 후에는 기존 Touch ID 설정 자동 복원이 이뤄지며, 세션 종료나 시스템 종료 없이 비밀번호...",
+        "body": "macOS 메뉴 바 유틸리티로 동작하며, 클릭·단축키·노트북 덮개 닫기만으로 화면을 잠그고 Touch ID를 일시 비활성화해 비밀번호 입력을 강제함 잠금 해제 후에는 기존 Touch ID 설정 자동 복원이 이뤄지며, 세션 종료나 시스템 종료 없이 비밀번호...",
+        "url": "https://news.hada.io/topic?id=28691",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-20T02:38:49+09:00",
+        "readTime": 5,
+        "imageGradient": 6
+      }
+    ]
+  }
+}

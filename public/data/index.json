@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-04-20",
+      "issueNumber": 23,
+      "mainHeadline": "OpenMythos: Claude Mythos를 역설계한 오픈소스 구현 등장",
+      "headlines": [
+        "대학 강사, AI 작성 과제를 줄이기 위해 타자기 활용",
+        "Show GN: AI 코딩 에이전트 구조를 공부하기 위한 Claude Code Harness 한국어판 공유",
+        "Claude Design을 둘러싼 생각과 감정"
+      ]
+    },
+    {
       "issueNumber": 22,
       "date": "2026-04-19",
       "cover": {
