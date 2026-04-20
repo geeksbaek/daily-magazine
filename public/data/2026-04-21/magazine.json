@@ -1,0 +1,723 @@
+{
+  "date": "2026-04-21",
+  "issueNumber": 24,
+  "cover": {
+    "mainHeadline": "팀 쿡 퇴임, 존 테너스 애플 CEO 취임 — AI 시대 빅테크 리더십 대전환",
+    "mainExcerpt": "팀 쿡이 애플 CEO 자리를 내려놓고 이사회 의장으로 전환하며, 하드웨어 엔지니어링의 거장 존 테너스가 신임 CEO로 취임합니다. 같은 날 Amazon이 Anthropic에 50억 달러를 추가 투자하고 5기가와트 AI 컴퓨팅 인프라를 공동 구축한다고 발표하는 등, AI 시대 빅테크의 판도가 빠르게 재편되고 있습니다.",
+    "headlines": [
+      "Amazon, Anthropic에 50억 달러 추가 투자 + 최대 200억 달러 약속",
+      "Cloudflare Agents Week 2026: 에이전틱 클라우드 플랫폼 전면 출시",
+      "GitHub Copilot 개인 플랜 개편 및 Git 2.54 릴리즈"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "highlight_001",
+      "title": "팀 쿡, 애플 CEO 퇴임 — 존 테너스 신임 CEO 취임 발표",
+      "excerpt": "애플이 팀 쿡의 CEO 퇴임과 존 테너스의 신임 CEO 취임을 공식 발표했습니다. 팀 쿡은 이사회 의장직을 맡아 회사에 계속 기여할 예정입니다.",
+      "body": "애플이 팀 쿡의 최고경영자(CEO) 퇴임과 존 테너스(John Ternus)의 CEO 승계를 공식 발표했습니다. 팀 쿡은 2011년 스티브 잡스의 별세 후 CEO를 맡아 애플을 세계 최고 시가총액 기업으로 이끈 전설적인 경영자입니다. 후임 존 테너스는 애플의 하드웨어 엔지니어링 수석 부사장으로 M 시리즈 칩과 iPhone, Mac 하드웨어 전략을 이끌어온 인물입니다. 팀 쿡은 이사회 의장으로 전환해 경영에 계속 참여할 예정입니다.",
+      "url": "https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/",
+      "source": "Apple Newsroom",
+      "category": "big_tech",
+      "publishedAt": "2026-04-21T05:21:25+09:00",
+      "readTime": 5,
+      "imageGradient": 4
+    },
+    {
+      "id": "highlight_002",
+      "title": "Anthropic-Amazon 협력 확대: 클로드 학습용 5기가와트 컴퓨팅 확보",
+      "excerpt": "Amazon이 Anthropic에 추가로 50억 달러를 투자하고, 최대 200억 달러의 미래 투자를 약속했습니다. 양사는 Claude 학습과 배포를 위해 최대 5기가와트의 컴퓨팅 인프라를 공동 확보하기로 했습니다.",
+      "body": "Amazon과 Anthropic이 전략적 협력을 대폭 확대했습니다. Amazon은 기존 투자에 이어 50억 달러를 추가 투입하며 미래에 최대 200억 달러까지 투자를 늘릴 계획입니다. 이번 협력의 핵심은 Claude 모델 학습 및 추론을 위한 최대 5기가와트 규모의 컴퓨팅 인프라 구축으로, 이번 분기부터 용량이 단계적으로 확충되고 2026년 말까지 약 1기가와트가 가동될 예정입니다. 이는 AI 인프라 경쟁에서 Google TPU와 Microsoft Azure에 맞서는 AWS-Anthropic 연합의 전략적 대응입니다.",
+      "url": "https://www.aboutamazon.com/news/company-news/amazon-invests-additional-5-billion-anthropic-ai",
+      "source": "Amazon News",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-21T06:21:25+09:00",
+      "readTime": 4,
+      "imageGradient": 0
+    },
+    {
+      "id": "highlight_003",
+      "title": "Cloudflare, 에이전트 주간 결산: 에이전틱 클라우드의 모든 것",
+      "excerpt": "Cloudflare가 Agents Week 2026 동안 발표한 모든 에이전틱 AI 기능을 정리했습니다. AI 에이전트를 위한 메모리, 오케스트레이션, MCP 연동 등 개발자 도구가 대거 출시되었습니다.",
+      "body": "Cloudflare가 2026년 에이전트 주간(Agents Week)을 마무리하며 전체 발표 내용을 정리한 블로그를 공개했습니다. 이번에 출시된 기능들은 AI 에이전트가 클라우드에서 독립적으로 작동할 수 있도록 지원하는 메모리 스토리지, 워크플로우 오케스트레이션, MCP(Model Context Protocol) 서버 연동, Workers AI 개선 등을 포함합니다. Cloudflare는 이를 통해 단순 CDN·보안 기업을 넘어 'AI 에이전트 인프라 기업'으로 포지셔닝을 강화하고 있습니다.",
+      "url": "https://blog.cloudflare.com/agents-week-in-review/",
+      "source": "Cloudflare Blog",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-20T22:21:25+09:00",
+      "readTime": 6,
+      "imageGradient": 1
+    },
+    {
+      "id": "highlight_004",
+      "title": "GitHub Copilot 개인 플랜 변경 사항 발표",
+      "excerpt": "GitHub이 Copilot Individual 플랜에 변경 사항을 발표했습니다. 가격 정책 및 기능 구성이 업데이트되며 개인 개발자들의 AI 코딩 어시스턴트 접근 방식이 달라질 전망입니다.",
+      "body": "GitHub이 Copilot Individual 플랜의 변경 사항을 공식 발표했습니다. 이번 업데이트는 개인 개발자를 위한 AI 코딩 도구의 가격 구조와 기능 배분에 영향을 미칩니다. Copilot Free 티어와 Pro 플랜 간의 기능 경계가 재조정되었으며, GitHub는 더 많은 개발자가 AI 코딩 어시스턴트를 활용할 수 있도록 접근성을 개선한다고 밝혔습니다.",
+      "url": "https://github.blog/news-insights/company-news/changes-to-github-copilot-individual-plans/",
+      "source": "GitHub Blog",
+      "category": "dev_tools",
+      "publishedAt": "2026-04-21T03:21:25+09:00",
+      "readTime": 3,
+      "imageGradient": 2
+    },
+    {
+      "id": "highlight_005",
+      "title": "OpenAI, Hyatt 호텔과 파트너십: 전 직원 AI 도입 사례",
+      "excerpt": "OpenAI가 글로벌 호텔 체인 Hyatt과 협력해 ChatGPT Enterprise를 전사적으로 도입했습니다. 직원들의 업무 효율화와 고객 경험 개선에 AI가 활용되고 있습니다.",
+      "body": "OpenAI와 Hyatt이 협력해 호텔 업계 최대 규모 AI 도입 사례를 만들어냈습니다. Hyatt의 전 세계 직원들이 ChatGPT Enterprise를 활용해 고객 응대, 운영 최적화, 콘텐츠 제작 등 다양한 업무를 처리하고 있습니다. 이 사례는 AI가 특정 기술 기업을 넘어 전통적인 서비스 산업으로 확산되는 추세를 보여주며, OpenAI의 엔터프라이즈 전략의 성공적인 사례로 평가받고 있습니다.",
+      "url": "https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise",
+      "source": "OpenAI News",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-20T09:21:25+09:00",
+      "readTime": 3,
+      "imageGradient": 0
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_001",
+        "title": "Anthropic-Amazon 협력 확대: 클로드 학습용 5기가와트 컴퓨팅 확보",
+        "excerpt": "Amazon이 Anthropic에 추가로 50억 달러를 투자하고, 최대 200억 달러의 미래 투자를 약속했습니다. 양사는 Claude 학습과 배포를 위해 최대 5기가와트의 컴퓨팅 인프라를 공동 확보하기로 했습니다.",
+        "body": "Amazon과 Anthropic이 전략적 협력을 대폭 확대했습니다. Amazon은 기존 투자에 이어 50억 달러를 추가 투입하며 미래에 최대 200억 달러까지 투자를 늘릴 계획입니다. 이번 협력의 핵심은 Claude 모델 학습 및 추론을 위한 최대 5기가와트 규모의 컴퓨팅 인프라 구축으로, 이번 분기부터 용량이 단계적으로 확충되고 2026년 말까지 약 1기가와트가 가동될 예정입니다. 이는 AI 인프라 경쟁에서 Google TPU와 Microsoft Azure에 맞서는 AWS-Anthropic 연합의 전략적 대응입니다.",
+        "url": "https://www.aboutamazon.com/news/company-news/amazon-invests-additional-5-billion-anthropic-ai",
+        "source": "Amazon News",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-21T06:21:25+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_002",
+        "title": "Cloudflare, 에이전트 주간 결산: 에이전틱 클라우드의 모든 것",
+        "excerpt": "Cloudflare가 Agents Week 2026 동안 발표한 모든 에이전틱 AI 기능을 정리했습니다. AI 에이전트를 위한 메모리, 오케스트레이션, MCP 연동 등 개발자 도구가 대거 출시되었습니다.",
+        "body": "Cloudflare가 2026년 에이전트 주간(Agents Week)을 마무리하며 전체 발표 내용을 정리한 블로그를 공개했습니다. 이번에 출시된 기능들은 AI 에이전트가 클라우드에서 독립적으로 작동할 수 있도록 지원하는 메모리 스토리지, 워크플로우 오케스트레이션, MCP(Model Context Protocol) 서버 연동, Workers AI 개선 등을 포함합니다. Cloudflare는 이를 통해 단순 CDN·보안 기업을 넘어 'AI 에이전트 인프라 기업'으로 포지셔닝을 강화하고 있습니다.",
+        "url": "https://blog.cloudflare.com/agents-week-in-review/",
+        "source": "Cloudflare Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-20T22:21:25+09:00",
+        "readTime": 6,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_003",
+        "title": "OpenAI, Hyatt 호텔과 파트너십: 전 직원 AI 도입 사례",
+        "excerpt": "OpenAI가 글로벌 호텔 체인 Hyatt과 협력해 ChatGPT Enterprise를 전사적으로 도입했습니다. 직원들의 업무 효율화와 고객 경험 개선에 AI가 활용되고 있습니다.",
+        "body": "OpenAI와 Hyatt이 협력해 호텔 업계 최대 규모 AI 도입 사례를 만들어냈습니다. Hyatt의 전 세계 직원들이 ChatGPT Enterprise를 활용해 고객 응대, 운영 최적화, 콘텐츠 제작 등 다양한 업무를 처리하고 있습니다. 이 사례는 AI가 특정 기술 기업을 넘어 전통적인 서비스 산업으로 확산되는 추세를 보여주며, OpenAI의 엔터프라이즈 전략의 성공적인 사례로 평가받고 있습니다.",
+        "url": "https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-20T09:21:25+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_004",
+        "title": "Cloudflare, 내부 AI 엔지니어링 스택 공개: 자사 플랫폼으로 구축",
+        "excerpt": "Cloudflare가 내부적으로 사용하는 AI 엔지니어링 인프라를 공개했습니다. Workers AI, D1, R2 등 자체 플랫폼 위에서 AI 서비스를 구축한 실제 경험을 공유했습니다.",
+        "body": "Cloudflare가 내부 AI 엔지니어링 스택을 블로그를 통해 공개했습니다. 이 글은 Cloudflare가 자체 Workers AI, Durable Objects, D1 데이터베이스, R2 스토리지를 조합해 내부 AI 도구를 어떻게 구축했는지 상세히 설명합니다. 이는 '개밥 먹기(dogfooding)' 전략의 일환으로, 자사 제품의 실제 활용 사례를 통해 개발자 신뢰를 높이고 플랫폼 완성도를 검증하는 의도도 담겨 있습니다.",
+        "url": "https://blog.cloudflare.com/internal-ai-engineering-stack/",
+        "source": "Cloudflare Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-20T22:21:25+09:00",
+        "readTime": 5,
+        "imageGradient": 1
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_005",
+        "title": "GitHub Copilot 개인 플랜 변경 사항 발표",
+        "excerpt": "GitHub이 Copilot Individual 플랜에 변경 사항을 발표했습니다. 가격 정책 및 기능 구성이 업데이트되며 개인 개발자들의 AI 코딩 어시스턴트 접근 방식이 달라질 전망입니다.",
+        "body": "GitHub이 Copilot Individual 플랜의 변경 사항을 공식 발표했습니다. 이번 업데이트는 개인 개발자를 위한 AI 코딩 도구의 가격 구조와 기능 배분에 영향을 미칩니다. Copilot Free 티어와 Pro 플랜 간의 기능 경계가 재조정되었으며, GitHub는 더 많은 개발자가 AI 코딩 어시스턴트를 활용할 수 있도록 접근성을 개선한다고 밝혔습니다.",
+        "url": "https://github.blog/news-insights/company-news/changes-to-github-copilot-individual-plans/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-21T03:21:25+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_006",
+        "title": "Git 2.54 릴리즈: 주요 개선 사항 정리",
+        "excerpt": "Git 2.54가 출시되었습니다. 성능 개선, 새로운 명령어 옵션, 버그 수정 등 개발자 워크플로우를 개선하는 다양한 변경 사항이 포함되었습니다.",
+        "body": "GitHub가 Git 2.54의 주요 변경 사항을 정리한 공식 블로그를 발행했습니다. 이번 버전은 대형 리포지토리에서의 성능 향상, 새로운 git log 옵션 추가, 서브모듈 처리 개선, 그리고 다수의 버그 수정이 포함됩니다. 특히 부분 클론(partial clone)과 희소 체크아웃(sparse checkout) 기능이 더욱 안정화되어 대규모 모노리포 환경에서의 개발 경험이 향상될 것으로 기대됩니다.",
+        "url": "https://github.blog/open-source/git/highlights-from-git-2-54/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-21T01:21:25+09:00",
+        "readTime": 4,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_007",
+        "title": "Cloudflare, AI 코드 리뷰 대규모 오케스트레이션 사례 공개",
+        "excerpt": "Cloudflare가 AI를 활용한 대규모 코드 리뷰 자동화 시스템을 구축한 경험을 공유했습니다. 수천 개의 PR을 처리하는 AI 오케스트레이션 아키텍처가 상세히 소개되었습니다.",
+        "body": "Cloudflare가 AI 코드 리뷰 시스템을 대규모로 운영하면서 얻은 엔지니어링 인사이트를 공개했습니다. 수천 개의 풀 리퀘스트를 처리하는 AI 파이프라인 아키텍처, 다양한 LLM 모델 오케스트레이션 전략, 잘못된 리뷰 최소화를 위한 품질 관리 방법론 등이 담겨 있습니다. 실제 프로덕션 환경에서의 AI 코드 리뷰 경험을 구체적인 수치와 함께 공유했다는 점에서 개발자 커뮤니티의 주목을 받고 있습니다.",
+        "url": "https://blog.cloudflare.com/ai-code-review/",
+        "source": "Cloudflare Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-20T22:21:25+09:00",
+        "readTime": 7,
+        "imageGradient": 2
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_008",
+        "title": "팀 쿡, 애플 CEO 퇴임 — 존 테너스 신임 CEO 취임 발표",
+        "excerpt": "애플이 팀 쿡의 CEO 퇴임과 존 테너스의 신임 CEO 취임을 공식 발표했습니다. 팀 쿡은 이사회 의장직을 맡아 회사에 계속 기여할 예정입니다.",
+        "body": "애플이 팀 쿡의 최고경영자(CEO) 퇴임과 존 테너스(John Ternus)의 CEO 승계를 공식 발표했습니다. 팀 쿡은 2011년 스티브 잡스의 별세 후 CEO를 맡아 애플을 세계 최고 시가총액 기업으로 이끈 전설적인 경영자입니다. 후임 존 테너스는 애플의 하드웨어 엔지니어링 수석 부사장으로 M 시리즈 칩과 iPhone, Mac 하드웨어 전략을 이끌어온 인물입니다. 팀 쿡은 이사회 의장으로 전환해 경영에 계속 참여할 예정입니다.",
+        "url": "https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/",
+        "source": "Apple Newsroom",
+        "category": "big_tech",
+        "publishedAt": "2026-04-21T05:21:25+09:00",
+        "readTime": 5,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_009",
+        "title": "조니 스루지, 애플 최고 하드웨어 책임자(CHO) 임명",
+        "excerpt": "애플의 칩 아키텍처 책임자 조니 스루지가 새로운 최고 하드웨어 책임자(CHO)로 임명되었습니다. M 시리즈 애플 실리콘의 아버지로 불리는 그의 승진은 하드웨어 혁신에 대한 애플의 의지를 보여줍니다.",
+        "body": "애플이 조니 스루지(Johny Srouji)를 최고 하드웨어 책임자(Chief Hardware Officer, CHO)로 임명했습니다. 스루지는 애플의 맞춤형 실리콘 전략을 주도하며 A 시리즈, M 시리즈, S 시리즈 칩 개발을 이끌어온 인물입니다. 존 테너스가 CEO로 승진하면서 공석이 된 하드웨어 엔지니어링 수석 부사장 역할을 스루지가 통합 관리하게 됩니다. 이번 인사는 애플의 반도체 자립 전략이 회사 핵심 역량으로 자리 잡았음을 보여줍니다.",
+        "url": "https://www.apple.com/newsroom/2026/04/johny-srouji-named-apples-chief-hardware-officer/",
+        "source": "Apple Newsroom",
+        "category": "big_tech",
+        "publishedAt": "2026-04-21T05:21:25+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_010",
+        "title": "구글 포토, AI 기반 피부 보정·잡티 제거 새 편집 도구 출시",
+        "excerpt": "구글 포토가 AI를 활용한 새로운 터치업 도구를 선보였습니다. 피부 텍스처 개선, 잡티 제거, 피부톤 조절 등 전문 포토샵 수준의 편집이 스마트폰에서 가능해집니다.",
+        "body": "구글 포토가 AI 기반의 고급 이미지 편집 기능을 추가했습니다. 새로운 '터치업 도구'는 피부 텍스처 정제, 잡티 및 결점 제거, 피부 밝기 조절 기능을 제공합니다. 이는 구글이 자체 Gemini AI 모델을 포토 편집에 적극 적용한 결과로, 기존 '지우개' 기능에 이어 포트레이트 사진 편집 경험을 전문 사진 편집 앱 수준으로 끌어올리려는 시도입니다.",
+        "url": "https://blog.google/products-and-platforms/products/photos/new-touch-up-tools-google-photos/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-04-21T02:21:25+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "팀 쿡은 전설입니다. 그가 해온 모든 것에 감사하고, 애플에 감사합니다.",
+        "context": "OpenAI CEO 샘 알트만이 애플 CEO 팀 쿡의 퇴임 소식에 경의를 표한 트윗입니다. 팀 쿡이 애플 이사회 의장으로 물러나고 존 테너스가 새 CEO로 취임한다는 빅뉴스에 업계 리더들이 반응하고 있습니다.",
+        "url": "https://x.com/sama/status/2046330825265086712",
+        "publishedAt": "2026-04-20T20:51:02.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "이 기능의 내부 개발 코드명은 '텔레파시(telepathy)'였는데, 실제로 그렇게 느껴집니다.",
+        "context": "샘 알트만이 OpenAI Codex의 새로운 Chronicle 기능(화면 메모리 기능)에 대해 언급한 트윗입니다. 사용자의 작업 화면을 자동으로 기억해 컨텍스트를 제공하는 마법 같은 경험을 강조했습니다.",
+        "url": "https://x.com/sama/status/2046330082726384051",
+        "publishedAt": "2026-04-20T20:48:05.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "Chronicle은 Codex가 화면을 보고 최근 작업 메모리를 가질 수 있게 하는 실험적 기능으로, 현재 무엇을 하고 있는지 전체 컨텍스트를 자동으로 제공합니다. 사용해 보면 놀랍도록 마법 같은 느낌입니다.",
+        "context": "OpenAI 공동창업자 그렉 브록만이 Codex Chronicle 기능을 직접 소개한 트윗입니다. 개발자가 컨텍스트를 반복 설명할 필요 없이 AI가 화면 상태를 자동으로 파악하는 혁신적인 기능입니다.",
+        "url": "https://x.com/gdb/status/2046293955009274019",
+        "publishedAt": "2026-04-20T18:24:31.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "Hyatt이 전 직원에게 AI를 폭넓게 도입하고 있습니다.",
+        "context": "그렉 브록만이 글로벌 호텔 체인 Hyatt의 ChatGPT Enterprise 전사적 도입 사례를 소개한 트윗입니다. OpenAI가 Hyatt과 협력해 직원들의 AI 활용을 확대하는 사례입니다.",
+        "url": "https://x.com/gdb/status/2046272438003270086",
+        "publishedAt": "2026-04-20T16:59:01.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "Codex는 개발자를 위한 범용 앱이 되어가고 있습니다.",
+        "context": "그렉 브록만이 OpenAI Codex의 성장을 소개한 트윗입니다. Codex가 단순 코드 생성을 넘어 개발자의 전체 워크플로우를 지원하는 플랫폼으로 진화하고 있음을 강조했습니다.",
+        "url": "https://x.com/gdb/status/2045974850074996882",
+        "publishedAt": "2026-04-19T21:16:31.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Alex Albert",
+        "handle": "alexalbert__",
+        "content": "잭의 '영 머니 블로그'는 대학 시절 졸업 후 진로를 고민할 때 큰 영향을 미쳤습니다. 10~20대라면 이 책이 삶을 어떻게 생각해야 할지 좋은 아이디어를 줄 것입니다.",
+        "context": "Anthropic의 알렉스 알버트가 개인적으로 영향받은 책을 소개한 트윗입니다. AI 업계 리더들도 개인 성장과 커리어에 대한 고민을 공유하며 팔로워들과 소통하는 모습을 보여줍니다.",
+        "url": "https://x.com/alexalbert__/status/2046277525207466003",
+        "publishedAt": "2026-04-20T17:19:14.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "Felix Rieseberg",
+        "handle": "felixrieseberg",
+        "content": "Cowork의 작은 기능 업데이트: 라이브 아티팩트(Live Artifacts)! Claude에게 대시보드, 리포트, 또는 덱을 만들어 달라고 하면 열 때마다 Connector 데이터를 새로 불러와 최신 상태로 유지합니다. 단순한 아이디어지만 실제로 매우 유용합니다.",
+        "context": "Anthropic의 엔지니어 펠릭스 리제스베르그가 Claude Cowork 앱의 신기능 라이브 아티팩트를 소개한 트윗입니다. 연결된 앱과 파일 데이터를 자동으로 갱신하는 대시보드/리포트 기능입니다.",
+        "url": "https://x.com/felixrieseberg/status/2046334841663389792",
+        "publishedAt": "2026-04-20T21:06:59.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "지난주 Codex에 메모리 미리보기를 출시했습니다. 오늘은 최근 화면 컨텍스트로 메모리를 개선하는 Chronicle 실험을 확대합니다. 이제 Codex는 컨텍스트를 반복 설명하지 않아도 현재 작업 중인 내용을 도와줄 수 있습니다.",
+        "context": "OpenAI 개발자 계정이 공식 발표한 Codex Chronicle 기능 출시 트윗입니다. 화면 캡처를 기반으로 메모리를 구축해 개발자의 작업 흐름을 자동으로 파악하는 혁신적인 기능입니다.",
+        "url": "https://x.com/OpenAIDevs/status/2046288243768082699",
+        "publishedAt": "2026-04-20T18:01:50.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_009",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "Claude 학습 및 배포를 위해 최대 5기가와트의 컴퓨팅 확보를 위한 Amazon과의 협력을 확대합니다. 이번 분기에 용량이 온라인 상태가 되기 시작하며, 2026년 말까지 약 1기가와트가 예상됩니다.",
+        "context": "Anthropic 공식 계정이 Amazon과의 대규모 컴퓨팅 인프라 협력 확대를 발표한 트윗입니다. 5기가와트 규모의 컴퓨팅 확보는 Claude 모델의 대규모 학습과 추론 능력 강화를 위한 전략적 투자입니다.",
+        "url": "https://x.com/AnthropicAI/status/2046327624092487688",
+        "publishedAt": "2026-04-20T20:38:19.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_010",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "Amazon은 오늘 Anthropic에 추가로 50억 달러를 투자하며, 미래에 최대 200억 달러를 추가 투자할 계획입니다.",
+        "context": "Anthropic 공식 계정이 Amazon의 추가 투자를 발표한 트윗입니다. Amazon이 Anthropic에 이미 40억 달러 이상을 투자한 데 이어 50억 달러를 추가 투입해 AI 인프라 경쟁에서 전략적 파트너십을 강화하고 있습니다.",
+        "url": "https://x.com/AnthropicAI/status/2046327625367625773",
+        "publishedAt": "2026-04-20T20:38:19.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_011",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Cowork에서 Claude가 이제 앱과 파일에 연결된 라이브 아티팩트(대시보드 및 트래커)를 만들 수 있습니다. 언제든 열면 최신 데이터로 새로고침됩니다.",
+        "context": "Claude 공식 계정이 Cowork의 라이브 아티팩트 기능 출시를 발표한 트윗입니다. 연결된 앱과 파일 데이터를 실시간으로 반영하는 대시보드를 Claude가 생성할 수 있는 새로운 기능입니다.",
+        "url": "https://x.com/claudeai/status/2046328619249684989",
+        "publishedAt": "2026-04-20T20:42:16.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_012",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "만든 모든 것이 새 라이브 아티팩트 탭에 버전 기록과 함께 저장됩니다. 내일이든 다음 달이든, 어떤 세션에서든 돌아와서 중단한 곳에서 이어갈 수 있습니다.",
+        "context": "Claude 공식 계정이 라이브 아티팩트의 버전 기록 및 세션 간 지속성 기능을 소개한 연속 트윗입니다. Cowork에서 생성한 아티팩트가 세션과 관계없이 영구적으로 보존되는 워크플로우 개선 기능입니다.",
+        "url": "https://x.com/claudeai/status/2046328621611065668",
+        "publishedAt": "2026-04-20T20:42:16.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_013",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "모든 유료 플랜에서 이제 이용 가능합니다. Claude 앱을 업데이트하거나 다운로드해서 Cowork에서 체험해 보세요.",
+        "context": "Claude 공식 계정이 라이브 아티팩트 기능의 유료 플랜 전면 출시를 발표한 트윗입니다. Claude Pro, Team, Enterprise 사용자라면 지금 바로 Cowork 앱에서 이 기능을 사용할 수 있습니다.",
+        "url": "https://x.com/claudeai/status/2046328622869344429",
+        "publishedAt": "2026-04-20T20:42:17.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "단 3초짜리 녹음 파일 하나면 전 세계 600개 언어로 내 목소리를 똑같이 복제할 수 있습니다. 샤오미에서 발표한 오픈소스 모델 'OmniVoice'은 기존 TTS의 복잡한 연산 과정을 하나로 합쳐 실시간보다 40배 빠른 속도로 음성을 생성합니다. 음성 복제뿐 아니라 텍스트로 음색을 디자인하고 문장 중간에 자연스러운 웃음소리도 넣을 수 있습니다.",
+        "context": "샤오미가 공개한 오픈소스 음성 복제 AI 'OmniVoice'를 소개하는 게시물입니다. 3초 음성 샘플만으로 600개 언어 음성 복제가 가능한 이 기술은 AI 음성 분야의 급격한 발전을 보여주며, 딥페이크 음성 악용 우려도 동시에 제기되고 있습니다.",
+        "url": "https://www.threads.com/@choi.openai/post/DXWu_kQAFSu",
+        "publishedAt": "2026-04-20T13:30:41.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "웹사이트 디자인을 그대로 복사해 AI에게 먹여줄 수 있습니다.",
+        "context": "웹사이트 UI를 AI 입력으로 직접 활용하는 크롬 확장 프로그램을 소개하는 게시물입니다. 복잡한 프롬프트 작성 없이 시각적 레퍼런스를 AI에 바로 제공할 수 있어 디자이너와 개발자의 관심을 모으고 있습니다.",
+        "url": "https://www.threads.com/@choi.openai/post/DXWZ9wOj7l4",
+        "publishedAt": "2026-04-20T10:29:21.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_003",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "알리바바가 자체 최고 성능 모델인 'Qwen3.6-Max-Preview'를 공개했습니다. 이 모델은 현재 중국 AI 모델 중 가장 높은 지능 지수(52점)를 기록했으며, 코딩 에이전트 능력과 배경지식, 지시 수행 능력이 이전 버전보다 크게 향상되었습니다.",
+        "context": "알리바바가 새로운 플래그십 AI 모델 Qwen3.6-Max-Preview를 공개했습니다. 중국 AI 모델 중 최고 성능을 주장하며 미국의 Claude, GPT-4o와의 경쟁 구도가 더욱 치열해지고 있음을 보여주는 게시물입니다.",
+        "url": "https://www.threads.com/@choi.openai/post/DXWaBhBDxIg",
+        "publishedAt": "2026-04-20T08:00:00.000Z",
+        "platform": "threads"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "매일 머신러닝 논문이 100~200편씩 쏟아지는 것 같습니다",
+        "originalTitle": "[D] It seems that EVERY DAY there are around 100 - 200 new machine learning papers uploaded on Arxiv.",
+        "summary": "r/MachineLearning 커뮤니티에서 주목받는 게시물입니다. 머신러닝 연구 커뮤니티에서 주목받는 논의입니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1sqi69n/d_it_seems_that_every_day_there_are_around_100/",
+        "subreddit": "MachineLearning",
+        "score": 122,
+        "publishedAt": "2026-04-20T16:19:02+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "AI 연구가 지속적 가치보다 논문 게재 수락에 최적화되고 있는 건 아닐까요?",
+        "originalTitle": "Are we optimizing AI research for acceptance rather than lasting value? [D]",
+        "summary": "AI 연구가 논문 게재 수락(acceptance)에 지나치게 최적화되어 진정한 과학적 가치보다 심사위원 취향에 맞추는 경향이 있다는 비판적 논의입니다. 연구 인센티브 구조 개혁이 필요하다는 목소리가 높습니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1sqps89/are_we_optimizing_ai_research_for_acceptance/",
+        "subreddit": "MachineLearning",
+        "score": 62,
+        "publishedAt": "2026-04-20T22:44:56+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "Gemma-4 파인튜닝 및 배포 실전 경험담",
+        "originalTitle": "Trials and tribulations fine-tuning &amp; deploying Gemma-4 [P]",
+        "summary": "r/MachineLearning 커뮤니티에서 주목받는 게시물입니다. 머신러닝 연구 커뮤니티에서 주목받는 논의입니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1spc33w/trials_and_tribulations_finetuning_deploying/",
+        "subreddit": "MachineLearning",
+        "score": 52,
+        "publishedAt": "2026-04-19T07:57:43+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "Kimi K2.6 출시 (허깅페이스)",
+        "originalTitle": "Kimi K2.6 Released (huggingface)",
+        "summary": "중국의 문샷 AI가 Kimi K2.6 모델을 허깅페이스에 공개했습니다. 오픈소스로 제공되며 코딩과 추론 능력이 뛰어나다는 평가입니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sqscao/kimi_k26_released_huggingface/",
+        "subreddit": "LocalLLaMA",
+        "score": 640,
+        "publishedAt": "2026-04-21T00:18:19+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "봇의 성격을 완벽히 조율했을 때",
+        "originalTitle": "When you dial in your bot’s personality",
+        "summary": "커뮤니티에서 공유된 재미있는 AI 봇 사례로, 봇 성격을 세밀하게 조율했을 때 예상치 못한 유머러스한 결과가 나온 상황을 담은 게시물입니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sqnrhb/when_you_dial_in_your_bots_personality/",
+        "subreddit": "LocalLLaMA",
+        "score": 523,
+        "publishedAt": "2026-04-20T21:23:44+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "중국을 이기려면 오픈소스 AI를 채택해야 한다 (WSJ)",
+        "originalTitle": "To Beat China, Embrace Open-Source AI (WSJ)",
+        "summary": "WSJ 기사로, 중국 AI 경쟁에서 미국이 이기려면 오픈소스 AI 전략을 더 적극 수용해야 한다는 주장입니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sqa40j/to_beat_china_embrace_opensource_ai_wsj/",
+        "subreddit": "LocalLLaMA",
+        "score": 317,
+        "publishedAt": "2026-04-20T09:37:51+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "SaaS의 현실",
+        "originalTitle": "Reality of SaaS",
+        "summary": "r/artificial 커뮤니티에서 주목받는 게시물입니다. AI 일반 커뮤니티에서 화제가 된 게시물입니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1sq3k3x/reality_of_saas/",
+        "subreddit": "artificial",
+        "score": 398,
+        "publishedAt": "2026-04-20T05:06:29+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "연구진이 1,222명에게 AI 어시스턴트를 주었다가 빼앗았습니다",
+        "originalTitle": "Researchers gave 1,222 people AI assistants, then took them away after 10 minutes. Performance crashed below the control group and people stopped trying. UCLA, MIT, Oxford, and Carnegie Mellon call it the \"boiling frog\" effect.",
+        "summary": "AI 어시스턴트를 경험한 후 다시 빼앗았을 때 생산성과 심리에 미치는 영향을 조사한 연구입니다. AI 의존도와 디지털 단절에 대한 흥미로운 인사이트를 제공합니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1sqcz1m/researchers_gave_1222_people_ai_assistants_then/",
+        "subreddit": "artificial",
+        "score": 260,
+        "publishedAt": "2026-04-20T11:47:31+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "Gemini가 뉴스가 되기 전 2억 8천만 달러 규모 크립토 익스플로잇을 탐지하다",
+        "originalTitle": "Gemini caught a $280M crypto exploit before it hit the news, then retracted it as a hallucination because I couldn't verify it - because the news hadn't dropped yet",
+        "summary": "r/artificial 커뮤니티에서 주목받는 게시물입니다. AI 일반 커뮤니티에서 화제가 된 게시물입니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1spckbj/gemini_caught_a_280m_crypto_exploit_before_it_hit/",
+        "subreddit": "artificial",
+        "score": 247,
+        "publishedAt": "2026-04-19T08:18:33+09:00"
+      },
+      {
+        "id": "reddit_010",
+        "title": "비기술직 친구: Copilot 멍청하네 ㅋ - 기술직 친구: 방금 배포 완성했음",
+        "originalTitle": "Friends outside of tech: lol copilot is dumb - Friends in tech: I just bought iodine tablets",
+        "summary": "r/OpenAI 커뮤니티에서 주목받는 게시물입니다. OpenAI 팬 커뮤니티의 주요 게시물입니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1sqij44/friends_outside_of_tech_lol_copilot_is_dumb/",
+        "subreddit": "OpenAI",
+        "score": 953,
+        "publishedAt": "2026-04-20T16:40:00+09:00"
+      },
+      {
+        "id": "reddit_011",
+        "title": "그녀도 em 대시(—)를 안 쓰네요!",
+        "originalTitle": "she doesn't use em dashes either!",
+        "summary": "r/OpenAI 커뮤니티에서 주목받는 게시물입니다. OpenAI 팬 커뮤니티의 주요 게시물입니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1sq5ypr/she_doesnt_use_em_dashes_either/",
+        "subreddit": "OpenAI",
+        "score": 741,
+        "publishedAt": "2026-04-20T06:38:52+09:00"
+      },
+      {
+        "id": "reddit_012",
+        "title": "GPT 5.5 Spud 출시 예고",
+        "originalTitle": "GPT 5.5 Spud incoming",
+        "summary": "r/OpenAI 커뮤니티에서 주목받는 게시물입니다. OpenAI 팬 커뮤니티의 주요 게시물입니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1spysr9/gpt_55_spud_incoming/",
+        "subreddit": "OpenAI",
+        "score": 402,
+        "publishedAt": "2026-04-20T02:11:33+09:00"
+      },
+      {
+        "id": "reddit_013",
+        "title": "결국 이 얘기",
+        "originalTitle": "Basically",
+        "summary": "r/ClaudeAI 커뮤니티에서 주목받는 게시물입니다. Claude AI 사용자 커뮤니티의 인기 게시물입니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1spufjh/basically/",
+        "subreddit": "ClaudeAI",
+        "score": 4183,
+        "publishedAt": "2026-04-19T23:27:04+09:00"
+      },
+      {
+        "id": "reddit_014",
+        "title": "Claude 디자인은 정말 놀랍습니다",
+        "originalTitle": "Claude Design is Incredible...",
+        "summary": "r/ClaudeAI 커뮤니티에서 주목받는 게시물입니다. Claude AI 사용자 커뮤니티의 인기 게시물입니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1spxi2f/claude_design_is_incredible/",
+        "subreddit": "ClaudeAI",
+        "score": 1211,
+        "publishedAt": "2026-04-20T01:22:49+09:00"
+      },
+      {
+        "id": "reddit_015",
+        "title": "이게 실제라고요? 믿을 수가 없습니다",
+        "originalTitle": "This cannot be real. I cannot believe my eyes",
+        "summary": "r/ClaudeAI 커뮤니티에서 주목받는 게시물입니다. Claude AI 사용자 커뮤니티의 인기 게시물입니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1sqpb2f/this_cannot_be_real_i_cannot_believe_my_eyes/",
+        "subreddit": "ClaudeAI",
+        "score": 964,
+        "publishedAt": "2026-04-20T22:26:47+09:00"
+      },
+      {
+        "id": "reddit_016",
+        "title": "Vercel, ShinyHunters에게 해킹 당한 것으로 보도 — 민감하지 않은 시크릿 노출",
+        "originalTitle": "Vercel reportedly breached by ShinyHunters, non sensitive secrets at risk",
+        "summary": "Vercel의 코드 저장소가 ShinyHunters 해커 그룹에 의해 침해되었다는 보고가 나왔습니다. 현재까지 민감하지 않은 시크릿이 노출되었으며 추가 조사 중입니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1spwg4r/vercel_reportedly_breached_by_shinyhunters_non/",
+        "subreddit": "programming",
+        "score": 277,
+        "publishedAt": "2026-04-20T00:43:05+09:00"
+      },
+      {
+        "id": "reddit_017",
+        "title": "불법 상태를 표현 불가능하게 만들기",
+        "originalTitle": "Making illegal state unrepresentable",
+        "summary": "타입 시스템을 활용해 잘못된 상태(illegal state)를 컴파일 타임에 원천 차단하는 함수형 프로그래밍 기법을 설명합니다. Rust, Haskell, TypeScript 사례를 중심으로 설명합니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1spwmis/making_illegal_state_unrepresentable/",
+        "subreddit": "programming",
+        "score": 265,
+        "publishedAt": "2026-04-20T00:49:56+09:00"
+      },
+      {
+        "id": "reddit_018",
+        "title": "사라진 USB 프로토콜 복원기: 미지의 칩에서 완전한 구현까지",
+        "originalTitle": "Reconstructing a Dead USB protocol: From Unknown Chip to Working Implementation",
+        "summary": "r/programming 커뮤니티에서 주목받는 게시물입니다. 개발자 커뮤니티에서 주목받는 기술 토픽입니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1spkuzl/reconstructing_a_dead_usb_protocol_from_unknown/",
+        "subreddit": "programming",
+        "score": 257,
+        "publishedAt": "2026-04-19T15:11:09+09:00"
+      },
+      {
+        "id": "reddit_019",
+        "title": "50분 26초 — 로봇이 인간 하프마라톤 기록(57분 20초) 깨다",
+        "originalTitle": "50m26s, the human half-marathon record (57m20s) was borken by a robot today",
+        "summary": "r/singularity 커뮤니티에서 주목받는 게시물입니다. 기술적 특이점 논의 커뮤니티의 화제 게시물입니다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1spwegr/50m26s_the_human_halfmarathon_record_57m20s_was/",
+        "subreddit": "singularity",
+        "score": 4424,
+        "publishedAt": "2026-04-20T00:41:22+09:00"
+      },
+      {
+        "id": "reddit_020",
+        "title": "AGI",
+        "originalTitle": "AGI 🚀",
+        "summary": "r/singularity 커뮤니티에서 주목받는 게시물입니다. 기술적 특이점 논의 커뮤니티의 화제 게시물입니다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1sqvvws/agi/",
+        "subreddit": "singularity",
+        "score": 2341,
+        "publishedAt": "2026-04-21T02:20:36+09:00"
+      },
+      {
+        "id": "reddit_021",
+        "title": "베이징 로봇 하프마라톤 피트 스톱 — 배터리 냉각을 위한 얼음",
+        "originalTitle": "Pit stop at Robot half marathon in Beijing. Ice to cool down the battery and lubricant for the joints",
+        "summary": "r/singularity 커뮤니티에서 주목받는 게시물입니다. 기술적 특이점 논의 커뮤니티의 화제 게시물입니다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1spqd7z/pit_stop_at_robot_half_marathon_in_beijing_ice_to/",
+        "subreddit": "singularity",
+        "score": 1781,
+        "publishedAt": "2026-04-19T20:26:09+09:00"
+      },
+      {
+        "id": "reddit_022",
+        "title": "재직 중에도 면접을 꼭 봐야 하는 이유",
+        "originalTitle": "You should really consider interviewing, even while you still have a job.",
+        "summary": "재직 중에도 정기적으로 면접을 봐야 하는 이유를 설명합니다. 시장 가치 파악, 협상력 유지, 갑작스러운 이직 상황 대비 등 실질적인 조언이 담겨 있습니다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1sqtvxz/you_should_really_consider_interviewing_even/",
+        "subreddit": "ExperiencedDevs",
+        "score": 505,
+        "publishedAt": "2026-04-21T01:12:06+09:00"
+      },
+      {
+        "id": "reddit_023",
+        "title": "나이가 들수록 지루하고 예측 가능한 도구가 더 소중해집니다",
+        "originalTitle": "The older I get the more I value boring, predictable tooling",
+        "summary": "시니어 개발자일수록 최신 유행 기술보다 안정적이고 예측 가능한 도구(지루한 기술)를 선호하게 된다는 경험담입니다. 프로덕션 환경에서의 안정성이 왜 중요한지 강조합니다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1sqnjk6/the_older_i_get_the_more_i_value_boring/",
+        "subreddit": "ExperiencedDevs",
+        "score": 288,
+        "publishedAt": "2026-04-20T21:14:07+09:00"
+      },
+      {
+        "id": "reddit_024",
+        "title": "빅테크에서 사회적으로 더 의미 있는 일로 이직하는 방법",
+        "originalTitle": "Advice on moving from big tech to something more socially responsible",
+        "summary": "r/ExperiencedDevs 커뮤니티에서 주목받는 게시물입니다. 경험 많은 개발자 커뮤니티의 실용적인 조언입니다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1sq5y4t/advice_on_moving_from_big_tech_to_something_more/",
+        "subreddit": "ExperiencedDevs",
+        "score": 285,
+        "publishedAt": "2026-04-20T06:38:12+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_011",
+        "title": "NVIDIA·Adobe, 자율 AI 에이전트로 창의적 인텔리전스 혁신",
+        "excerpt": "NVIDIA와 Adobe가 협력해 창의적 워크플로우에 자율 AI 에이전트를 대규모로 도입했습니다. Adobe Firefly와 NVIDIA AI가 결합해 브랜드 콘텐츠 제작 방식을 바꾸고 있습니다.",
+        "body": "NVIDIA와 Adobe, WPP가 협력해 광고·마케팅 산업에 자율 AI 에이전트를 도입한 사례를 공개했습니다. Adobe Firefly AI와 NVIDIA의 추론 인프라가 결합해 브랜드 영상·이미지 제작을 자동화하는 에이전틱 파이프라인이 구축되었습니다. 이를 통해 수작업으로 몇 주가 걸리던 캠페인 콘텐츠 제작이 수 시간으로 단축되었습니다.",
+        "url": "https://blogs.nvidia.com/blog/adobe-ai-agents-nvidia-wpp/",
+        "source": "NVIDIA Blog",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-20T22:21:25+09:00",
+        "readTime": 4,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_012",
+        "title": "VS Code 1.117 업데이트: 새로운 기능 미리보기",
+        "excerpt": "Visual Studio Code 1.117 버전이 출시되었습니다. GitHub Copilot 통합 개선, 새로운 에디터 기능, 성능 최적화 등이 포함된 이번 릴리즈의 주요 변경 사항을 확인하세요.",
+        "body": "Microsoft가 VS Code 1.117 업데이트를 발표했습니다. 이번 버전에는 GitHub Copilot 채팅 경험 개선, 인라인 편집 기능 강화, 터미널 AI 명령 제안 기능 등이 추가되었습니다. 또한 대용량 파일 처리 성능이 개선되고 원격 개발 환경 안정성이 높아졌습니다. AI 코딩 어시스턴트와의 통합이 더욱 깊어지면서 VS Code는 단순 에디터를 넘어 AI 코딩 플랫폼으로 진화하고 있습니다.",
+        "url": "https://code.visualstudio.com/updates/v1_117",
+        "source": "Visual Studio Code",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-19T10:21:25+09:00",
+        "readTime": 5,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_013",
+        "title": "스위스 당국, Microsoft 의존도 축소 추진",
+        "excerpt": "스위스 정부 기관들이 Microsoft 제품에 대한 의존도를 줄이는 방안을 검토하고 있습니다. 데이터 주권과 공급업체 종속(vendor lock-in) 우려가 배경입니다.",
+        "body": "스위스 당국이 Microsoft 제품과 클라우드 서비스 의존도를 줄이는 정책을 추진하고 있습니다. 이는 데이터 주권 확보와 외국 기업 의존으로 인한 리스크를 최소화하기 위한 조치로, 오픈소스 대안 도입 가능성도 검토 중입니다. EU 전반에서 확산되는 디지털 자립 운동의 일환으로, 공공기관의 소프트웨어 전략에 중요한 시사점을 줍니다.",
+        "url": "https://news.ycombinator.com/item?id=43745000",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-21T05:21:25+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_014",
+        "title": "GitHub 가짜 스타 경제의 실체",
+        "excerpt": "깃허브에서 프로젝트 신뢰도를 높이기 위해 스타를 구매하는 '가짜 스타' 생태계가 번성하고 있다는 분석이 공개되었습니다. 오픈소스 커뮤니티 신뢰도에 미치는 영향을 짚어봅니다.",
+        "body": "GitHub 스타 수를 인위적으로 늘리는 '스타 파밍' 서비스가 활발하게 운영되고 있다는 분석 글이 주목을 받고 있습니다. 수십~수백 달러를 내면 수백에서 수천 개의 스타를 받을 수 있는 서비스가 존재하며, 투자자·고용주가 프로젝트 평가에 스타 수를 활용하는 현실에서 이 문제가 더욱 심각합니다. 오픈소스 생태계의 신뢰 기반을 훼손할 수 있다는 우려가 제기됩니다.",
+        "url": "https://news.ycombinator.com/item?id=43744000",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-20T21:21:25+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_015",
+        "title": "NVIDIA, 2026 하노버 메세에서 AI 제조업 미래 선보여",
+        "excerpt": "NVIDIA와 파트너사들이 하노버 메세 2026에서 AI 기반 제조업 혁신 기술을 대거 공개했습니다. 산업용 디지털 트윈, 로봇 자동화 등 AI 제조업 플랫폼이 주목받았습니다.",
+        "body": "NVIDIA가 세계 최대 산업 기술 전시회인 하노버 메세 2026에서 AI 기반 제조업 솔루션을 선보였습니다. NVIDIA Omniverse를 활용한 산업용 디지털 트윈, Isaac 로봇 플랫폼 기반의 자동화 솔루션, 그리고 에너지 효율화를 위한 AI 최적화 시스템이 공개되었습니다. 지멘스, BMW, ABB 등 주요 제조업체들과의 협력 성과도 함께 발표되었습니다.",
+        "url": "https://blogs.nvidia.com/blog/ai-manufacturing-hannover-messe/",
+        "source": "NVIDIA Blog",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-20T17:21:25+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      }
+    ]
+  }
+}

@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-04-21",
+      "issueNumber": 24,
+      "mainHeadline": "팀 쿡 퇴임, 존 테너스 애플 CEO 취임 — AI 시대 빅테크 리더십 대전환",
+      "headlines": [
+        "Amazon, Anthropic에 50억 달러 추가 투자 + 최대 200억 달러 약속",
+        "Cloudflare Agents Week 2026: 에이전틱 클라우드 플랫폼 전면 출시",
+        "GitHub Copilot 개인 플랜 개편 및 Git 2.54 릴리즈"
+      ]
+    },
+    {
       "date": "2026-04-20",
       "issueNumber": 23,
       "mainHeadline": "OpenMythos: Claude Mythos를 역설계한 오픈소스 구현 등장",
