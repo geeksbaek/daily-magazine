@@ -1,6 +1,11 @@
 {
   "issues": [
     {
+      "date": "2026-04-22",
+      "issueNumber": 25,
+      "path": "2026-04-22/magazine.json"
+    },
+    {
       "date": "2026-04-21",
       "issueNumber": 24,
       "mainHeadline": "팀 쿡 퇴임, 존 테너스 애플 CEO 취임 — AI 시대 빅테크 리더십 대전환",
