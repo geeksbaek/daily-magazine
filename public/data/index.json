@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-04-23",
+      "issueNumber": 26,
+      "mainHeadline": "구글 Cloud Next '26: 코드의 75%를 AI가 쓰는 시대 선언",
+      "headlines": [
+        "OpenAI, ChatGPT Workspace Agents 출시 — 팀 단위 AI 에이전트 협업 가능",
+        "gpt-image-2 API 공개 — 텍스트 렌더링·다국어 지원 대폭 강화",
+        "Claude Code, Webby Award 수상 — Anthropic 경제 지수 서베이도 시작"
+      ]
+    },
+    {
       "date": "2026-04-22",
       "issueNumber": 25,
       "path": "2026-04-22/magazine.json"
