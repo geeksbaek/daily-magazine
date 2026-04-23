@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-04-24",
+      "issueNumber": 27,
+      "mainHeadline": "GPT-5.5 공개: 에이전틱 코딩과 컴퓨터 사용을 위한 최고 프런티어 모델",
+      "headlines": [
+        "Claude 관리형 에이전트 메모리 공개 베타: 세션 간 학습 지원",
+        "Google Cloud Next '26 Day 1: 에이전틱 엔터프라이즈를 위한 AI 인프라",
+        "Claude Code 품질 이슈 포스트모템 공개 및 사용 한도 전면 재설정"
+      ]
+    },
+    {
       "date": "2026-04-23",
       "issueNumber": 26,
       "mainHeadline": "구글 Cloud Next '26: 코드의 75%를 AI가 쓰는 시대 선언",

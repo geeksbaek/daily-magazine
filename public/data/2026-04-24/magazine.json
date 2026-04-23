@@ -1,0 +1,622 @@
+{
+  "date": "2026-04-24",
+  "issueNumber": 27,
+  "cover": {
+    "mainHeadline": "GPT-5.5 출시: 에이전틱 작업을 위한 새로운 지능 클래스",
+    "mainExcerpt": "OpenAI가 GPT-5.5를 발표했습니다. 복잡한 목표를 이해하고, 도구를 사용하며, 작업을 끝까지 완수하는 새로운 클래스의 지능입니다. ChatGPT와 Codex에서 즉시 사용 가능하며, API는 곧 출시됩니다. 같은 날 Anthropic도 Claude 관리형 에이전트의 메모리 기능을 공개 베타로 출시했습니다.",
+    "headlines": [
+      "Claude 관리형 에이전트 메모리 공개 베타 출시 — 세션 간 학습 가능",
+      "Google Cloud Next '26: 에이전틱 엔터프라이즈를 위한 AI 인프라 발표",
+      "Qwen 3.6 27B, Sonnet과 에이전시 성능 동급 수준 달성"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_h01",
+      "title": "GPT-5.5 공개: 에이전틱 코딩과 컴퓨터 사용을 위한 최고 프런티어 모델",
+      "excerpt": "OpenAI가 GPT-5.5를 출시했습니다. 에이전틱 코딩, 컴퓨터 사용, 지식 업무, 과학 연구를 위한 새로운 지능 클래스로, 오늘부터 ChatGPT와 Codex에서 사용 가능합니다.",
+      "body": "OpenAI는 GPT-5.5를 '현재까지 가장 스마트한 프런티어 모델'로 소개했습니다. 이 모델은 복잡한 목표를 이해하고 도구를 활용하며 작업을 끝까지 완수하는 능력을 갖추고 있습니다. Sam Altman CEO는 Codex 앱에 GPT-5.5, 브라우저 제어, 스프레드시트·슬라이드·문서 편집, OS 전역 받아쓰기, 자동 검토 모드가 추가됐다고 밝혔습니다. NVIDIA와의 협업으로 전사적 Codex 배포도 시범 진행했습니다.",
+      "url": "https://x.com/OpenAIDevs/status/2047377079352877534",
+      "source": "OpenAI",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-23T18:08:28+09:00",
+      "readTime": 4,
+      "imageGradient": 0,
+      "type": "Article"
+    },
+    {
+      "id": "rss_h02",
+      "title": "Claude 관리형 에이전트 메모리 공개 베타: 세션 간 학습 지원",
+      "excerpt": "Anthropic이 Claude 관리형 에이전트용 메모리 기능을 공개 베타로 출시했습니다. 에이전트가 매 세션에서 학습하고 성능과 유연성을 균형 있게 조절하는 지능형 메모리 레이어를 갖추게 됩니다.",
+      "body": "Claude 관리형 에이전트의 메모리는 워크스페이스 범위로 텍스트 파일로 저장되며 세션 간 유지됩니다. 개발자는 메모리를 파일로 내보내고 API를 통해 직접 관리할 수 있습니다. Claude Code의 claude-api 스킬에도 지원이 추가되었으며, Claude Code v2.1.116+에서 품질 이슈를 수정하고 구독자 사용 한도를 재설정했습니다.",
+      "url": "https://x.com/claudeai/status/2047421844311949513",
+      "source": "Anthropic",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-23T21:06:21+09:00",
+      "readTime": 3,
+      "imageGradient": 1,
+      "type": "Article"
+    },
+    {
+      "id": "rss_h03",
+      "title": "Google Cloud Next '26 Day 1: 에이전틱 엔터프라이즈를 위한 AI 인프라",
+      "excerpt": "Google Cloud Next '26에서 에이전틱 시대를 위한 AI 인프라 확장, Gemini Enterprise의 파트너 구축 에이전트, GKE 업데이트 등 대규모 발표가 이루어졌습니다.",
+      "body": "Google은 Cloud Next '26에서 AI가 질문에 답하는 단계를 넘어 추론하고 행동하는 에이전틱 시대로의 전환을 선언했습니다. Gemini Enterprise에서 파트너가 구축한 산업별 전문 에이전트가 정식 출시됐으며, GKE(Google Kubernetes Engine)의 에이전틱 워크로드 지원도 강화됐습니다. 중소기업을 위한 Gemini Enterprise 도입 지원 프로그램도 함께 발표되었습니다.",
+      "url": "https://cloud.google.com/blog/topics/google-cloud-next/next26-day-1-recap/",
+      "source": "AI & Machine Learning",
+      "category": "big_tech",
+      "publishedAt": "2026-04-23T08:00:00+09:00",
+      "readTime": 5,
+      "imageGradient": 4,
+      "type": "Article"
+    },
+    {
+      "id": "rss_h04",
+      "title": "Claude Code 품질 이슈 포스트모템 공개 및 사용 한도 전면 재설정",
+      "excerpt": "Anthropic이 지난 한 달간 보고된 Claude Code 품질 저하 문제의 원인을 조사하고 포스트모템을 발표했습니다. v2.1.116+에서 3가지 이슈가 모두 수정됐고 구독자 한도가 재설정됩니다.",
+      "body": "Boris Cherny(bcherny)가 Claude Code 품질 이슈에 대한 포스트모템을 공개했습니다. Opus 4.7 관련 별도 이슈도 존재하며 팀이 개선 작업을 진행 중입니다. 전체 구독자에게 사용 한도가 재설정되었으며, Claude Code는 Webby Award도 수상했습니다.",
+      "url": "https://x.com/bcherny/status/2047375800945783056",
+      "source": "Anthropic",
+      "category": "dev_tools",
+      "publishedAt": "2026-04-23T18:03:24+09:00",
+      "readTime": 3,
+      "imageGradient": 2,
+      "type": "Article"
+    },
+    {
+      "id": "rss_h05",
+      "title": "VS Code 1.117 릴리스: 새로운 기능과 개선사항",
+      "excerpt": "Visual Studio Code 1.117이 출시되었습니다. 개발자 생산성 향상을 위한 다양한 신기능과 버그 수정이 포함되어 있습니다.",
+      "body": "VS Code 1.117 업데이트는 에디터 성능 향상, AI 코딩 어시스턴트 통합 개선, 디버깅 환경 개선 등 개발자 경험을 전반적으로 향상시키는 변경사항들을 포함하고 있습니다.",
+      "url": "https://code.visualstudio.com/updates/v1_117",
+      "source": "Visual Studio Code",
+      "category": "dev_tools",
+      "publishedAt": "2026-04-23T10:00:00+09:00",
+      "readTime": 4,
+      "imageGradient": 3,
+      "type": "Article"
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "ai_001",
+        "title": "Google Cloud Next '26: 에이전틱 엔터프라이즈를 위한 AI Day 1 요약",
+        "excerpt": "Google Cloud Next '26 첫날, AI 인프라 확장과 에이전틱 시대를 위한 핵심 발표들이 이어졌습니다. Gemini Enterprise에서 파트너 구축 산업별 에이전트가 정식 출시됩니다.",
+        "body": "Google Cloud는 Next '26에서 AI가 단순 질의응답을 넘어 추론하고 행동하는 에이전틱 시대의 인프라를 공개했습니다. 400만 개 중소기업이 Gemini Enterprise로 AI 전환을 가속화하고 있으며, GKE는 에이전틱 워크로드 최적화 업데이트를 받았습니다.",
+        "url": "https://cloud.google.com/blog/topics/google-cloud-next/next26-day-1-recap/",
+        "source": "AI & Machine Learning",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-23T08:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      },
+      {
+        "id": "ai_002",
+        "title": "에이전틱 엔터프라이즈 실현: Gemini Enterprise에 산업별 에이전트 도입",
+        "excerpt": "Google이 Gemini Enterprise에 파트너사가 구축한 비즈니스·산업 전용 에이전트를 공식 출시했습니다. 획일적 AI의 시대가 끝나고 기업 맞춤형 AI 시대가 열립니다.",
+        "body": "Gemini Enterprise에는 이제 파트너가 구축한 고도로 전문화된 에이전트가 포함됩니다. 기업들은 자신의 업무 흐름에 최적화된 에이전트를 선택해 도입할 수 있으며, 이는 범용 AI에서 업무 특화 AI로의 전환을 의미합니다.",
+        "url": "https://cloud.google.com/blog/products/ai-machine-learning/partner-built-agents-available-in-gemini-enterprise/",
+        "source": "AI & Machine Learning",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-23T06:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      },
+      {
+        "id": "ai_003",
+        "title": "Google AI 인프라의 미래: 에이전틱 시대를 위한 확장",
+        "excerpt": "Google Cloud Next '26에서 공개된 AI 인프라 로드맵입니다. AI가 행동하는 에이전틱 시대를 선도하기 위한 컴퓨팅 인프라 전략을 발표했습니다.",
+        "body": "Google은 에이전틱 AI 시대에 맞는 AI 인프라 확장 계획을 발표했습니다. 더 큰 규모의 추론 워크로드를 처리하기 위한 새로운 TPU, GPU 클러스터와 네트워킹 솔루션이 포함됩니다.",
+        "url": "https://cloud.google.com/blog/products/compute/ai-infrastructure-at-next26/",
+        "source": "AI & Machine Learning",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-22T21:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "ai_004",
+        "title": "Anthropic 경제 지수 조사: 81,000명이 말하는 AI의 경제적 영향",
+        "excerpt": "Anthropic이 81,000명의 응답을 분석한 경제적 희망과 우려에 관한 연구를 발표했습니다. 소프트웨어 엔지니어링 등 Claude 사용률 높은 직군이 AI 대체를 더 우려하는 것으로 나타났습니다.",
+        "body": "Anthropic은 AI의 경제적 영향을 체계적으로 파악하기 위해 'Anthropic 경제 지수 조사'를 매월 실시하겠다고 밝혔습니다. 현재 Claude 사용이 높은 직군 종사자들이 그렇지 않은 직군에 비해 AI에 의한 업무 대체를 더 우려하는 경향이 있다는 점이 주목됩니다.",
+        "url": "https://x.com/AnthropicAI/status/2047006548149289017",
+        "source": "Anthropic",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-23T02:36:07+09:00",
+        "readTime": 5,
+        "imageGradient": 1
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "dev_001",
+        "title": "Visual Studio Code 1.117 정식 출시",
+        "excerpt": "VS Code 1.117이 출시되었습니다. 개발자 경험 향상을 위한 다양한 기능 업데이트와 AI 코딩 어시스턴트 통합 개선이 포함되어 있습니다.",
+        "body": "Visual Studio Code 1.117은 에디터 성능, 디버깅, AI 코딩 지원 등 여러 영역의 개선사항을 담고 있습니다. 특히 인라인 AI 제안과 채팅 기능이 강화되었습니다.",
+        "url": "https://code.visualstudio.com/updates/v1_117",
+        "source": "Visual Studio Code",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-23T10:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 2
+      },
+      {
+        "id": "dev_002",
+        "title": "Docker Blog: 2026년 상반기 공급망 공격 현황 — Trivy, KICS 분석",
+        "excerpt": "Docker 블로그가 2026년 상반기 소프트웨어 공급망 공격의 형태와 트렌드를 분석했습니다. Trivy와 KICS를 활용한 보안 강화 방법을 설명합니다.",
+        "body": "소프트웨어 공급망 공격은 2026년에도 증가 추세입니다. Docker는 Trivy(취약점 스캐너)와 KICS(인프라 코드 보안 검사)를 활용해 컨테이너 이미지와 IaC 코드의 보안을 강화하는 방법을 안내합니다.",
+        "url": "https://www.docker.com/blog/trivy-kics-and-the-shape-of-supply-chain-attacks-so-far-in-2026/",
+        "source": "Docker Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-23T09:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 3
+      },
+      {
+        "id": "dev_003",
+        "title": "Cloudflare: Rust Workers를 안정적으로 만들기 — wasm-bindgen에서 패닉과 중단 복구",
+        "excerpt": "Cloudflare가 Rust로 작성된 Workers에서 패닉(panic)과 중단(abort) 상황을 안전하게 복구하는 방법을 공개했습니다. wasm-bindgen을 활용한 신뢰성 향상 기법을 소개합니다.",
+        "body": "Cloudflare Workers에서 Rust 코드가 패닉 상태에 빠질 때 전체 워커가 중단되는 문제를 해결하는 기술을 공유했습니다. wasm-bindgen의 패닉 핸들러와 중단 복구 메커니즘을 조합해 더 안정적인 엣지 컴퓨팅 환경을 구현할 수 있습니다.",
+        "url": "https://blog.cloudflare.com/making-rust-workers-reliable/",
+        "source": "Cloudflare Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-23T08:00:00+09:00",
+        "readTime": 6,
+        "imageGradient": 2
+      },
+      {
+        "id": "dev_004",
+        "title": "Bitwarden CLI npm 패키지 하이재킹 — 개발자 인증정보 대규모 탈취 공격 발견",
+        "excerpt": "Bitwarden CLI npm 패키지가 하이재킹되어 개발자 인증정보를 탈취하는 공급망 공격이 발견됐습니다. 즉시 패키지 버전을 확인하고 업데이트하세요.",
+        "body": "공격자들이 Bitwarden CLI npm 패키지를 하이재킹해 악성 코드를 심은 사건이 발견됐습니다. 이 패키지를 사용하는 개발자들은 즉시 영향 여부를 확인하고, 노출된 인증정보를 교체해야 합니다.",
+        "url": "https://news.hada.io/topic?id=28819",
+        "source": "GeekNews",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-23T07:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "big_001",
+        "title": "IntelliJ IDEA 2026.1.1 출시",
+        "excerpt": "JetBrains가 IntelliJ IDEA 2026.1.1을 출시했습니다. 버그 수정과 성능 개선이 포함된 패치 릴리스입니다.",
+        "body": "IntelliJ IDEA 2026.1.1은 이전 버전에서 발견된 버그들을 수정하고 Java·Kotlin 개발 환경의 안정성을 개선한 패치 릴리스입니다.",
+        "url": "https://blog.jetbrains.com/idea/2026/04/intellij-idea-2026-1-1/",
+        "source": "JetBrains Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-04-23T09:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "GPT-5.5는 새로운 지능의 클래스입니다. 직관적으로 사용 가능하고 복잡한 작업을 최소한의 개입으로 완료하며, 토큰 효율성이 높고 낮은 지연시간으로 대규모로 실행됩니다. 컴퓨터 업무 방식의 새로운 시대를 향한 진정한 도약입니다.",
+        "context": "OpenAI의 CPO Greg Brockman이 GPT-5.5를 '새로운 지능 클래스'로 소개했습니다. 직관적 사용성, 낮은 지연시간, 높은 확장성을 갖춘 에이전틱 작업 도구로서 업무 방식의 변화를 예고합니다.",
+        "url": "https://x.com/gdb/status/2047381612372115812",
+        "publishedAt": "2026-04-23T18:26:29.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "NVIDIA와 함께 Codex를 전체 회사/기업에 도입하는 새로운 방식을 시도했고, 잘 작동하는 것을 확인했습니다. 귀사 회사에도 도입을 원하시면 연락 주세요!",
+        "context": "Sam Altman CEO가 NVIDIA와 협력해 Codex를 전사적으로 배포하는 파일럿을 성공적으로 마쳤다고 밝혔습니다. 기업 전체에 AI 코딩 에이전트를 도입하는 새로운 모델을 제시했습니다.",
+        "url": "https://x.com/sama/status/2047395562501411058",
+        "publishedAt": "2026-04-23T19:21:55.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "GPT-5.5 소개: 복잡한 목표 이해, 도구 사용, 작업 검증, 끝까지 완수하는 실제 업무와 에이전트 구동을 위한 새로운 지능 클래스입니다. 오늘부터 ChatGPT와 Codex에서 사용 가능합니다.",
+        "context": "OpenAI 공식 계정이 GPT-5.5 출시를 발표했습니다. 실제 업무와 에이전트 구동을 위한 새로운 지능으로, 복잡한 목표 이해, 도구 사용, 자기 검증, 작업 완수 능력이 특징입니다.",
+        "url": "https://x.com/OpenAI/status/2047376561205325845",
+        "publishedAt": "2026-04-23T18:06:25.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Claude 관리형 에이전트의 메모리가 공개 베타로 출시됩니다. 에이전트가 매 세션에서 학습하며 성능과 유연성을 균형 있게 조절하는 지능형 메모리 레이어를 사용할 수 있습니다.",
+        "context": "Claude 공식 계정이 관리형 에이전트 메모리 공개 베타를 발표했습니다. 에이전트가 매 세션에서 학습하고 성능-유연성 균형을 최적화하는 지능형 메모리 레이어를 제공합니다.",
+        "url": "https://x.com/claudeai/status/2047421844311949513",
+        "publishedAt": "2026-04-23T21:06:21.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "content": "지난 한 달간 Claude Code 품질 이슈가 보고된 사항을 조사해 포스트모템을 발표했습니다.",
+        "context": "Claude Code 개발 책임자 Boris Cherny가 최근 품질 저하 원인을 조사한 포스트모템을 공개했습니다. 발견된 3가지 이슈가 v2.1.116+에서 모두 수정됐으며 구독자 한도가 재설정됩니다.",
+        "url": "https://x.com/bcherny/status/2047375800945783056",
+        "publishedAt": "2026-04-23T18:03:24.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "자동 검토 모드는 Codex가 더 적은 승인으로 더 오래 작업할 수 있게 합니다. 테스트, 빌드 등을 계속 진행하면서 별도의 에이전트가 고위험 단계를 문맥에 맞게 검토합니다.",
+        "context": "OpenAI Developers 계정이 Codex의 자동 검토(Auto-review) 모드를 소개했습니다. 더 적은 승인으로 더 오래 작업하되, 별도 에이전트가 고위험 단계를 문맥에 맞게 검토하는 방식입니다.",
+        "url": "https://x.com/OpenAIDevs/status/2047377079352877534",
+        "publishedAt": "2026-04-23T18:08:28.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "ClaudeDevs",
+        "handle": "ClaudeDevs",
+        "content": "지난 한 달간 Claude Code 품질 저하가 보고된 사안을 조사하고 발견한 세 가지 이슈에 대한 포스트모템을 발표했습니다. v2.1.116+에서 모두 수정됐고 구독자 한도가 재설정됩니다.",
+        "context": "Claude Developers 계정이 Claude Code 품질 저하 포스트모템을 공유했습니다. 일부 사용자의 불만이 접수된 후 원인 조사를 통해 3가지 이슈를 확인하고 수정했습니다.",
+        "url": "https://x.com/ClaudeDevs/status/2047424066089599351",
+        "publishedAt": "2026-04-23T21:15:11.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "Felix Rieseberg",
+        "handle": "felixrieseberg",
+        "content": "작은 기능이지만 꽤 흥미롭습니다: Chat, Cowork, Code의 새 세션을 claude:// 링크로 미리 채울 수 있는 딥링크 기능을 추가했습니다. 워크플로우 구성이나 다른 앱에 'Open in Claude' 버튼을 추가하는 데 유용합니다. 데스크톱 앱이 필요합니다.",
+        "context": "Felix Rieseberg가 Claude Desktop에 딥링크 기능을 추가했다고 발표했습니다. claude:// URL을 활용해 Chat, Cowork, Code의 새 세션을 미리 채우거나 'Open in Claude' 버튼을 만들 수 있습니다.",
+        "url": "https://x.com/felixrieseberg/status/2047367515500659128",
+        "publishedAt": "2026-04-23T17:30:28.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "choi.openai 계정이 GPT 이미지 생성 기능의 다양한 활용법을 소개했습니다. 대화 내역 기반 사주 보고서, 퍼스널컬러 보고서 등 ChatGPT 이미지 기능의 창의적 활용 모음을 공유합니다.",
+        "context": "GPT 이미지 기능을 활용해 나만의 사주 보고서를 이미지로 만드는 등 창의적인 프롬프트 모음을 소개합니다. 국내 최대 AI 커뮤니티 채널 CHOI가 바이럴될 것으로 예측한 GPT 이미지 활용법입니다.",
+        "url": "https://www.threads.net/@choi.openai/post/DXfXyQOCJDk",
+        "publishedAt": "2026-04-23T22:01:03.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "GPT-5.5 얼리 액세스 참여 경험과 상세 정보를 정리했습니다. 직접 사용해본 느낌과 성능 정보를 공유합니다.",
+        "context": "GPT-5.5의 얼리 액세스에 참여한 경험을 바탕으로 모델의 특성과 활용 방향을 정리한 스레드입니다.",
+        "url": "https://www.threads.net/@choi.openai/post/DXe_6WwD0id",
+        "publishedAt": "2026-04-23T18:32:27.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_003",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "현존 최강 모델의 모든 정보를 정리했습니다. Terminal-Bench 2.0에서 82.7%, SWE-Bench Pro에서 58.6%의 SOTA를 기록한 모델 분석입니다.",
+        "context": "최신 AI 모델의 벤치마크 성능을 종합 분석한 스레드입니다. 코딩, 에이전시 등 다양한 측면에서의 성능 비교를 제공합니다.",
+        "url": "https://www.threads.net/@choi.openai/post/DXe9AGgDl2A",
+        "publishedAt": "2026-04-23T18:07:21.000Z",
+        "platform": "threads"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "OCR 작업 18개 LLM 벤치마크 (7천건 이상 호출) — 저렴하고 오래된 모델이 승리",
+        "originalTitle": "We benchmarked 18 LLMs on OCR (7k+ calls) — cheaper/old models oftentimes win. Full dataset + framework open-sourced. [R]",
+        "summary": "r/MachineLearning의 주목받는 게시물입니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1st9v81/we_benchmarked_18_llms_on_ocr_7k_calls_cheaperold/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-04-23T14:40:31+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "STT 평가에서 포맷 차이로 인한 WER 패널티를 막는 정규화기를 구축했습니다",
+        "originalTitle": "Built a normalizer so WER stops penalizing formatting differences in STT evals! [P]",
+        "summary": "r/MachineLearning의 주목받는 게시물입니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1stmn7h/built_a_normalizer_so_wer_stops_penalizing/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-04-24T00:49:58+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "기하학적 영혼과 스트로보스코픽 의식을 가진 Rust LLM 아키텍처를 만들었습니다",
+        "originalTitle": "I built a Rust LLM architecture with a geometric soul, stroboscopic consciousness thresholds, and a dream daemon. Here's how I used ideas from cosmological physics to solve real engineering problems. [P]",
+        "summary": "r/MachineLearning의 주목받는 게시물입니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1stzcf0/i_built_a_rust_llm_architecture_with_a_geometric/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-04-24T08:45:13+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "Qwen 3.6 27B, 에이전시 벤치마크에서 Sonnet과 동점 — 큰 도약",
+        "originalTitle": "Qwen 3.6 27B Makes Huge Gains in Agency on Artificial Analysis - Ties with Sonnet 4.6",
+        "summary": "r/LocalLLaMA의 주목받는 게시물입니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1strodp/qwen_36_27b_makes_huge_gains_in_agency_on/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-04-24T03:47:11+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "미 정부 \"적대적 증류\" 메모 — AI 오픈소스에 더 강한 규제가 오는가",
+        "originalTitle": "US gov memo on “adversarial distillation” - are we heading toward tighter controls on open models?",
+        "summary": "r/LocalLLaMA의 주목받는 게시물입니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1stmx00/us_gov_memo_on_adversarial_distillation_are_we/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-04-24T00:59:39+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "RTX 3090 단일 카드로 Qwen3.6-27B 85TPS, 125K 컨텍스트, 비전 오버나이트 스택",
+        "originalTitle": "An Overnight Stack for Qwen3.6–27B: 85 TPS, 125K Context, Vision — on One RTX 3090 | by Wasif Basharat | Apr, 2026",
+        "summary": "r/LocalLLaMA의 주목받는 게시물입니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1stjx29/an_overnight_stack_for_qwen3627b_85_tps_125k/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-04-23T23:11:44+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "AI를 25년 연구한 예일대 윤리학자: 진짜 위험은 초지능이 아닌 다른 것",
+        "originalTitle": "A Yale ethicist who has studied AI for 25 years says the real danger isn’t superintelligence. It’s the absence of moral intelligence.",
+        "summary": "r/artificial의 주목받는 게시물입니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1stkefq/a_yale_ethicist_who_has_studied_ai_for_25_years/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-04-23T23:29:36+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "Anthropic, 법원에서 배포된 모델을 통제할 수 없다고 인정 — AI 책임 논쟁 점화",
+        "originalTitle": "Anthropic told a federal court it can't control its own model once deployed. That honest sentence changes the liability conversation.",
+        "summary": "r/artificial의 주목받는 게시물입니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1sthpl8/anthropic_told_a_federal_court_it_cant_control/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-04-23T21:44:44+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "AI가 내 삶을 구할지도 모릅니다 — AI 덕분에 할 수 있게 된 8가지 일",
+        "originalTitle": "AI might save my life and has let me do 8 things I would not have done otherwise",
+        "summary": "AI가 실제 삶에서 의미 있는 변화를 가져다 준 개인적 경험을 공유하는 감동적인 스레드입니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1stny9s/ai_might_save_my_life_and_has_let_me_do_8_things/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-04-24T01:36:50+09:00"
+      },
+      {
+        "id": "reddit_010",
+        "title": "GPT-5.5 소개 | OpenAI",
+        "originalTitle": "Introducing GPT-5.5 | OpenAI",
+        "summary": "r/OpenAI의 주목받는 게시물입니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1stqlnh/introducing_gpt55_openai/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-04-24T03:09:12+09:00"
+      },
+      {
+        "id": "reddit_011",
+        "title": "GPT-5.5 출시 🔥",
+        "originalTitle": "GPT-5.5 is out 🔥",
+        "summary": "GPT-5.5 출시에 대한 커뮤니티의 반응과 첫 인상을 공유하는 스레드입니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1str2pj/gpt55_is_out/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-04-24T03:25:49+09:00"
+      },
+      {
+        "id": "reddit_012",
+        "title": "새로운 ChatGPT 이미지 생성기가 놀랍습니다",
+        "originalTitle": "The new chatgpt image generator is insane",
+        "summary": "업그레이드된 ChatGPT 이미지 생성 기능에 대한 커뮤니티의 반응과 실제 사용 사례를 공유합니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1stg5yf/the_new_chatgpt_image_generator_is_insane/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-04-23T20:35:59+09:00"
+      },
+      {
+        "id": "reddit_013",
+        "title": "최근 Claude Code 품질 이슈 포스트모템",
+        "originalTitle": "Post-mortem on recent Claude Code quality issues",
+        "summary": "Claude Code의 품질 저하 원인 분석과 수정 사항을 공식 포스트모템으로 공개했습니다. 세 가지 이슈가 확인되었고 최신 버전에서 수정됐습니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1stq98j/postmortem_on_recent_claude_code_quality_issues/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-04-24T02:57:18+09:00"
+      },
+      {
+        "id": "reddit_014",
+        "title": "Claude가 모든 사용자의 한도를 재설정했습니다",
+        "originalTitle": "Claude reset limits for everyone",
+        "summary": "Claude Code 품질 이슈에 대한 사과와 함께 전체 구독자의 사용 한도가 재설정되었습니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1stozsr/claude_reset_limits_for_everyone/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-04-24T02:13:32+09:00"
+      },
+      {
+        "id": "reddit_015",
+        "title": "이 CLAUDE.md 파일은 왜 이렇게 많은 스타를 받았을까?",
+        "originalTitle": "Why does this CLAUDE.md file have so many stars?",
+        "summary": "CLAUDE.md 파일이 GitHub에서 높은 인기를 얻는 이유와 Claude Code 워크플로우에서의 역할을 논의합니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1stfoo7/why_does_this_claudemd_file_have_so_many_stars/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-04-23T20:12:30+09:00"
+      },
+      {
+        "id": "reddit_016",
+        "title": "훌륭한 엔지니어들이 대기업에서 나쁜 코드를 쓰는 방법",
+        "originalTitle": "How good engineers write bad code at big companies",
+        "summary": "조직 내 정치, 기술 부채, 단기 압박 등이 뛰어난 엔지니어도 품질 낮은 코드를 작성하게 만드는 현실을 논합니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1stf10u/how_good_engineers_write_bad_code_at_big_companies/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-04-23T19:38:32+09:00"
+      },
+      {
+        "id": "reddit_017",
+        "title": "Bitwarden CLI가 Checkmarx 공급망 공격으로 침해됨",
+        "originalTitle": "Bitwarden CLI Compromised in Ongoing Checkmarx Supply Chain",
+        "summary": "오픈소스 비밀번호 관리자 Bitwarden의 CLI 도구가 공급망 공격의 표적이 됐습니다. 개발자 도구 보안의 중요성을 다시 상기시킵니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1stoumz/bitwarden_cli_compromised_in_ongoing_checkmarx/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-04-24T02:08:27+09:00"
+      },
+      {
+        "id": "reddit_018",
+        "title": "Bitwarden CLI, Checkmarx 공급망 공격에서 침해됨",
+        "originalTitle": "Bitwarden CLI Compromised in Ongoing Checkmarx Supply Chain ...",
+        "summary": "r/programming의 주목받는 게시물입니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1stxuqq/bitwarden_cli_compromised_in_ongoing_checkmarx/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-04-24T07:41:18+09:00"
+      },
+      {
+        "id": "reddit_019",
+        "title": "Mozilla, Anthropic의 Mythos로 Firefox에서 271개 버그 발견 및 수정",
+        "originalTitle": "Mozilla Used Anthropic’s Mythos to Find and Fix 271 Bugs in Firefox",
+        "summary": "r/singularity의 주목받는 게시물입니다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1ssc2cv/mozilla_used_anthropics_mythos_to_find_and_fix/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-04-22T14:17:15+09:00"
+      },
+      {
+        "id": "reddit_020",
+        "title": "GPT-5.5 소개",
+        "originalTitle": "Introducing GPT-5.5",
+        "summary": "OpenAI의 최신 프런티어 모델 GPT-5.5가 공개됐습니다. 에이전틱 작업과 코딩에 특화된 새로운 지능 클래스입니다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1stqev3/introducing_gpt55/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-04-24T03:02:46+09:00"
+      },
+      {
+        "id": "reddit_021",
+        "title": "GPT-5.5 벤치마크 결과가 공개됐습니다",
+        "originalTitle": "GPT-5.5 benchmark results have been released",
+        "summary": "GPT-5.5의 공식 벤치마크 결과가 공개됐습니다. 다양한 작업에서 이전 모델 대비 향상된 성능을 보여줍니다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1stqk81/gpt55_benchmark_results_have_been_released/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-04-24T03:07:48+09:00"
+      },
+      {
+        "id": "reddit_022",
+        "title": "비기술 리더들은 왜 인시던트 대응 중에 화면 공유에 집착할까",
+        "originalTitle": "Why are non technical leaders obsessed with screen sharing during incident calls",
+        "summary": "r/ExperiencedDevs의 주목받는 게시물입니다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1stu432/why_are_non_technical_leaders_obsessed_with/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-04-24T05:16:15+09:00"
+      },
+      {
+        "id": "reddit_023",
+        "title": "컴파일러를 직접 디버깅해야 했던 적 있으신가요?",
+        "originalTitle": "Have you ever had to debug the compiler?",
+        "summary": "컴파일러 자체의 버그를 디버깅해야 했던 드문 경험을 공유하는 스레드입니다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1stxujy/have_you_ever_had_to_debug_the_compiler/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-04-24T07:41:06+09:00"
+      },
+      {
+        "id": "reddit_024",
+        "title": "현직에 있으면서 실제로 어디서 일자리를 찾으시나요?",
+        "originalTitle": "Where do you actually look for jobs while already employed?",
+        "summary": "현직 개발자들이 이직을 위해 실제로 활용하는 채용 플랫폼과 방법을 공유합니다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1stiqg8/where_do_you_actually_look_for_jobs_while_already/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-04-23T22:25:41+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "qb_001",
+        "title": "Mozilla, Anthropic의 Mythos를 활용해 Firefox에서 버그 271개 발견 및 수정",
+        "excerpt": "Mozilla가 Anthropic의 Mythos 프레임워크를 활용해 Firefox에서 271개의 버그를 자동으로 발견하고 수정했다고 밝혔습니다.",
+        "body": "Anthropic의 Mythos 프레임워크를 사용한 자동화 테스팅으로 Firefox에서 271개의 버그가 발견·수정됐습니다. 이는 AI 기반 코드 품질 향상의 실제 성과로 주목받고 있습니다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1stkefq/mozilla_used_anthropics_mythos_to_find_and_fix/",
+        "source": "Reddit/singularity",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-23T15:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      },
+      {
+        "id": "qb_002",
+        "title": "Claude Desktop에 딥링크 추가 — claude:// URL로 세션 미리 채우기",
+        "excerpt": "Felix Rieseberg가 Claude Desktop에 딥링크 기능을 추가했습니다. claude:// URL을 통해 Chat, Cowork, Code 새 세션에 내용을 미리 채울 수 있습니다.",
+        "body": "Claude Desktop의 새 딥링크 기능을 사용하면 외부 앱에서 'Open in Claude' 버튼을 만들거나 워크플로우 자동화에 활용할 수 있습니다. 데스크톱 앱이 필요합니다.",
+        "url": "https://x.com/felixrieseberg/status/2047367515500659128",
+        "source": "Felix Rieseberg",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-24T02:30:28+09:00",
+        "readTime": 2,
+        "imageGradient": 7
+      },
+      {
+        "id": "qb_003",
+        "title": "Qwen 3.6 27B, Artificial Analysis 에이전시 벤치마크에서 Sonnet과 동급",
+        "excerpt": "Qwen 3.6 27B 모델이 Artificial Analysis 에이전시 벤치마크에서 Anthropic Sonnet과 동등한 성능을 달성했습니다.",
+        "body": "로컬 실행 가능한 오픈소스 모델 Qwen 3.6 27B가 에이전시 능력 벤치마크에서 상용 클로즈드 모델과 경쟁할 수 있는 수준임을 증명했습니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1strodp/qwen_36_27b_makes_huge_gains_in_agency_on/",
+        "source": "Reddit/LocalLLaMA",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-23T14:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      }
+    ]
+  }
+}
