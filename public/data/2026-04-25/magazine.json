@@ -1,0 +1,546 @@
+{
+  "date": "2026-04-25",
+  "issueNumber": 28,
+  "cover": {
+    "mainHeadline": "GPT-5.5, API 전면 공개 — 에이전트 시대의 새 표준",
+    "mainExcerpt": "OpenAI가 GPT-5.5를 API에 전면 공개하며 개발자들이 에이전트 작업에 즉시 활용할 수 있게 됐습니다. 같은 날 Anthropic은 Claude Code 품질 이슈 포스트모텀을 발표하고 사용 제한을 리셋했으며, Claude Managed Agents Memory 기능을 공개 베타로 출시했습니다. DeepSeek-V4는 100만 토큰 컨텍스트로 에이전트 적합성을 크게 높였습니다.",
+    "headlines": [
+      "Claude Code 품질 이슈 포스트모텀 — 사용 제한 전면 리셋 및 개선 약속",
+      "DeepSeek-V4, 100만 토큰 컨텍스트로 에이전트 활용성 대폭 강화",
+      "Google Cloud Next '26: 에이전틱 엔터프라이즈를 위한 7대 핵심 발표"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_h01",
+      "title": "GPT-5.5 API 전면 공개: 더 높은 지능과 낮은 지연시간으로 에이전트 구축",
+      "excerpt": "OpenAI가 GPT-5.5를 API에 공개했습니다. 더 높은 지능과 안정적인 지시 따르기, 낮은 지연시간을 갖춘 이 모델은 Perplexity AI, Vercel 등에서 이미 성과를 내고 있습니다.",
+      "body": "GPT-5.5가 OpenAI API를 통해 개발자에게 공개됐습니다. Perplexity AI에서는 GPT-5.5가 탑재된 Codex로 한 시간 안에 내부 도구를 구축했으며, Vercel AI Gateway에도 즉시 통합됐습니다. 이 모델은 강화된 추론 능력과 에이전틱 작업 최적화, 낮은 지연시간이 특징입니다. OpenAI는 Bio Bug Bounty 프로그램도 함께 발표해 GPT-5.5를 활용한 생물학 연구 보안 취약점 발굴에 나섰습니다.",
+      "url": "https://openai.com/index/gpt-5-5/",
+      "source": "OpenAI",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-23T09:00:00+09:00",
+      "readTime": 5,
+      "imageGradient": 0,
+      "type": "Article"
+    },
+    {
+      "id": "rss_h02",
+      "title": "Claude Code 품질 이슈 포스트모텀: Anthropic, 사용 제한 전면 리셋",
+      "excerpt": "Anthropic이 최근 Claude Code 품질 저하 보고에 대한 포스트모텀을 발표하고 구독자 사용 제한을 전면 리셋했습니다. Opus 4.7 이슈도 함께 인정했습니다.",
+      "body": "Anthropic의 Boris Cherny는 Claude Code의 품질 저하 원인을 조사한 결과와 개선 방향을 공개했습니다. 지난 한 달간 일부 사용자들이 코드 품질 저하를 경험했으며, 이에 대한 근본 원인 분석과 수정 사항이 이미 배포됐습니다. Opus 4.7에서도 유사한 이슈가 확인돼 대응 중이며, 모든 구독자의 사용 제한이 리셋됐습니다. 웹과 모바일에서 새롭게 단장한 Claude Code 인터페이스도 함께 공개됐습니다.",
+      "url": "https://x.com/bcherny/status/2047285523765919784",
+      "source": "Anthropic",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-23T11:28:00+09:00",
+      "readTime": 4,
+      "imageGradient": 1,
+      "type": "Article"
+    },
+    {
+      "id": "rss_h03",
+      "title": "DeepSeek-V4: 에이전트가 실제로 활용 가능한 100만 토큰 컨텍스트",
+      "excerpt": "DeepSeek-V4가 100만 토큰 컨텍스트를 지원하며 Hugging Face에 공개됐습니다. 대형 코드베이스, 문서, 데이터를 통째로 처리하는 에이전트 작업에 최적화됐습니다.",
+      "body": "DeepSeek-V4는 100만 토큰 컨텍스트 창을 제공해 에이전트가 실제로 활용 가능한 수준으로 발전했습니다. 대규모 코드베이스 전체 분석, 방대한 문서 처리, 복잡한 멀티스텝 추론이 가능합니다. Hugging Face를 통해 공개됐으며, 기존 DeepSeek 시리즈 대비 에이전트 성능이 크게 향상됐습니다. r/LocalLLaMA 커뮤니티에서도 높은 주목을 받고 있습니다.",
+      "url": "https://huggingface.co/blog/deepseek-v4",
+      "source": "Hugging Face",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-24T10:00:00+09:00",
+      "readTime": 4,
+      "imageGradient": 2,
+      "type": "Article"
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "ai_001",
+        "title": "GPT-5.5 소개: 실제 업무와 에이전트 구동을 위한 새로운 지능",
+        "excerpt": "OpenAI가 GPT-5.5를 발표했습니다. 복잡한 목표를 이해하고 도구를 활용하며 작업을 완수하는 에이전트 작업을 위한 새로운 지능 클래스입니다.",
+        "body": "GPT-5.5는 OpenAI가 '에이전틱 작업을 위해 설계된 새로운 지능 클래스'라고 소개한 모델입니다. ChatGPT와 Codex에서 즉시 사용 가능하며, API 접근도 제공됩니다. 기존 모델 대비 복잡한 목표 이해력, 도구 활용 능력, 작업 완수율이 향상됐습니다.",
+        "url": "https://openai.com/index/introducing-gpt-5-5/",
+        "source": "OpenAI",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-23T09:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "ai_002",
+        "title": "GPT-5.5 시스템 카드: 안전성 평가 및 역량 분석 공개",
+        "excerpt": "OpenAI가 GPT-5.5 시스템 카드를 공개했습니다. 모델의 역량, 한계, 안전성 평가 결과가 상세히 기술돼 있습니다.",
+        "body": "GPT-5.5 시스템 카드에는 모델의 능력과 한계, 안전성 평가 결과가 포함됩니다. 생물보안, 사이버보안, 핵/방사선 위험 등 핵심 안전 영역에서의 평가 결과와 완화 조치가 기술됐습니다. OpenAI는 이 모델이 이전 모델 대비 강화된 지시 따르기 능력을 보인다고 밝혔습니다.",
+        "url": "https://openai.com/index/gpt-5-5-system-card/",
+        "source": "OpenAI",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-23T09:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 1
+      },
+      {
+        "id": "ai_003",
+        "title": "DeepSeek-V4, 에이전트가 실제 활용할 수 있는 100만 토큰 컨텍스트 지원",
+        "excerpt": "DeepSeek-V4가 100만 토큰 컨텍스트 창을 갖추고 Hugging Face에 공개됐습니다. 대형 코드베이스와 문서를 통째로 처리하는 에이전트 작업에 최적화됐습니다.",
+        "body": "DeepSeek-V4는 100만 토큰 컨텍스트 창을 제공해 에이전트가 대규모 코드베이스, 방대한 문서를 한 번에 처리할 수 있게 합니다. 멀티스텝 추론과 복잡한 에이전트 작업에서 기존 DeepSeek 시리즈 대비 성능이 크게 향상됐습니다. Hugging Face를 통해 공개됐습니다.",
+        "url": "https://huggingface.co/blog/deepseek-v4",
+        "source": "Hugging Face Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-24T10:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 2
+      },
+      {
+        "id": "ai_004",
+        "title": "Anthropic Project Deal: AI 에이전트를 위한 노동 시장 시뮬레이션",
+        "excerpt": "Anthropic 연구팀이 Project Deal을 공개했습니다. AI 에이전트들이 참여하는 노동 시장 마켓플레이스를 시뮬레이션한 연구로, 에이전트 경제의 잠재력과 위험성을 분석했습니다.",
+        "body": "Anthropic은 Project Deal 연구를 통해 AI 에이전트들이 고용주-고용인 관계로 참여하는 마켓플레이스를 실험했습니다. 에이전트 경제가 가치를 창출할 수 있지만 다양한 난제도 존재한다는 결론을 도출했습니다. 이 연구는 AI 에이전트의 경제적 역할에 대한 중요한 시사점을 제공합니다.",
+        "url": "https://x.com/AnthropicAI/status/2047394958601707803",
+        "source": "Anthropic",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-24T09:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 3
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "dev_001",
+        "title": "Visual Studio Code 1.118 정식 출시",
+        "excerpt": "VS Code 1.118이 출시됐습니다. AI 코딩 어시스턴트 통합 강화와 에디터 성능 개선이 주요 내용입니다.",
+        "body": "Visual Studio Code 1.118은 GitHub Copilot 통합 개선, 에디터 성능 향상, 새로운 디버깅 기능이 포함됐습니다. AI 코딩 보조 기능이 더욱 정교해졌으며, 대용량 파일 처리 성능도 개선됐습니다. 확장 기능 생태계와의 호환성도 강화됐습니다.",
+        "url": "https://code.visualstudio.com/updates/v1_118",
+        "source": "Visual Studio Code",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-25T10:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "dev_002",
+        "title": "Vercel AI Gateway에 GPT-5.5 통합 — 즉시 API 접근 가능",
+        "excerpt": "Vercel AI Gateway가 GPT-5.5를 지원합니다. 개발자들은 단일 엔드포인트로 GPT-5.5를 포함한 최신 AI 모델에 접근할 수 있습니다.",
+        "body": "Vercel AI Gateway에 GPT-5.5가 추가됐습니다. 개발자들은 통합 엔드포인트를 통해 GPT-5.5, Claude, Gemini 등 다양한 모델에 접근할 수 있습니다. 모델 폴백, 속도 제한, 분석 대시보드 등 엔터프라이즈 기능과 함께 사용 가능합니다.",
+        "url": "https://vercel.com/changelog/gpt-5-5-on-ai-gateway",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-24T10:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "dev_003",
+        "title": "AI 토큰 비용, 통제 불능 수준으로 — 다음 단계는?",
+        "excerpt": "AI 토큰 소비량이 폭발적으로 증가하며 기업들의 비용 관리가 주요 과제로 부상했습니다. Pragmatic Engineer가 현황과 해법을 분석합니다.",
+        "body": "AI 에이전트와 코딩 어시스턴트가 보편화되면서 토큰 소비량이 예상을 크게 초과하는 사례가 늘고 있습니다. Pragmatic Engineer는 토큰 최적화 전략, 캐싱 활용법, 모델 선택 기준 등 실질적인 비용 관리 방안을 제시합니다. AI 도입 초기 단계를 지나 비용 효율화가 핵심 과제로 부상했습니다.",
+        "url": "https://newsletter.pragmaticengineer.com/p/ai-token-spending",
+        "source": "The Pragmatic Engineer",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-24T09:00:00+09:00",
+        "readTime": 6,
+        "imageGradient": 2
+      },
+      {
+        "id": "dev_004",
+        "title": "2026년 공급망 공격 현황: Trivy, KICS로 보는 보안 트렌드",
+        "excerpt": "Docker Blog가 2026년 상반기 공급망 공격 트렌드를 분석했습니다. Trivy와 KICS를 활용한 탐지 방법론을 소개합니다.",
+        "body": "2026년 상반기 소프트웨어 공급망 공격이 급증하고 있습니다. Docker가 Trivy와 KICS를 활용한 공급망 보안 스캐닝 방법론을 공개했습니다. 컨테이너 이미지의 취약점 탐지와 인프라 코드 보안 검사를 자동화하는 방법이 상세히 다뤄집니다.",
+        "url": "https://www.docker.com/blog/trivy-kics-supply-chain-attacks-2026/",
+        "source": "Docker Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-24T08:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 3
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "big_001",
+        "title": "Google Cloud Next '26 하이라이트 7선: 에이전틱 엔터프라이즈 시대 선언",
+        "excerpt": "Google Cloud Next '26에서 발표된 7가지 핵심 하이라이트를 정리했습니다. Gemini Enterprise 확대, 에이전트 빌더 강화, AI 인프라 최적화가 핵심입니다.",
+        "body": "Google Cloud Next '26에서 7가지 주요 발표가 있었습니다. Gemini Enterprise가 400만 중소기업에 확대되고, 파트너사가 구축한 산업별 에이전트가 정식 출시됐습니다. GKE의 에이전틱 워크로드 최적화, BigQuery AI 분석 강화, Cloud Run의 서버리스 AI 실행 개선도 발표됐습니다. 전반적으로 에이전틱 시대를 위한 클라우드 인프라 전략이 중심이었습니다.",
+        "url": "https://blog.google/products/google-cloud/google-cloud-next-2026-highlights/",
+        "source": "Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-04-25T09:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      },
+      {
+        "id": "big_002",
+        "title": "4월 Gemini 업데이트: 일상 정리와 생산성을 위한 새 기능",
+        "excerpt": "Google이 4월 Gemini Drop을 통해 새로운 기능을 발표했습니다. 공간 정리부터 일정 관리까지 일상 생산성을 높이는 업데이트가 포함됩니다.",
+        "body": "Google이 Gemini 앱의 4월 업데이트를 공개했습니다. 공간 정리 팁 8가지와 함께 일정 통합, 메모 기능 강화, 이미지 기반 질의 개선이 포함됩니다. Gemini의 멀티모달 기능을 일상 생산성 도구로 확장하는 방향이 뚜렷합니다.",
+        "url": "https://blog.google/products/gemini/gemini-drop-april-2026/",
+        "source": "Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-04-25T08:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "big_003",
+        "title": "Fitbit 개인 건강 코치, 더욱 개인화된 AI 기반 건강 조언 제공",
+        "excerpt": "Fitbit의 AI 개인 건강 코치가 업그레이드됐습니다. 개인 건강 데이터를 분석해 맞춤형 운동·수면·영양 조언을 더욱 정교하게 제공합니다.",
+        "body": "Google이 Fitbit의 AI 개인 건강 코치 기능을 강화했습니다. 사용자의 심박수, 수면 패턴, 활동 데이터를 종합 분석해 더욱 개인화된 건강 조언을 제공합니다. Gemini AI를 활용한 자연어 건강 상담 기능도 개선됐습니다.",
+        "url": "https://blog.google/products/fitbit/fitbit-personal-health-coach-update/",
+        "source": "Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-04-24T09:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "big_004",
+        "title": "NVIDIA, GPT-5.5로 Codex 기업 전사 배포 시범 운영",
+        "excerpt": "NVIDIA와 OpenAI가 협력해 Codex를 NVIDIA 전 직원에게 배포하는 시범 운영을 진행했습니다. GPT-5.5 기반 AI 코딩 어시스턴트의 기업 규모 도입 사례입니다.",
+        "body": "NVIDIA가 OpenAI와 함께 GPT-5.5 기반 Codex를 전사적으로 배포하는 시범 운영을 실시했습니다. 수만 명의 엔지니어가 AI 코딩 어시스턴트를 활용하는 대규모 도입 사례로, 생산성 향상과 코드 품질 개선 효과가 확인됐습니다. 기업 AI 도입의 새로운 기준을 제시하는 사례로 주목받고 있습니다.",
+        "url": "https://blogs.nvidia.com/blog/gpt-5-5-codex-enterprise/",
+        "source": "NVIDIA Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-04-24T10:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 3
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "GPT-5.5와 GPT-5.5 Pro가 이제 API를 통해 사용 가능합니다.",
+        "context": "OpenAI가 GPT-5.5의 API 공개를 공식 발표했습니다. 개발자들이 에이전트 구축에 즉시 활용할 수 있는 새로운 지능 클래스 모델입니다.",
+        "url": "https://x.com/OpenAI/status/2047500000000000001",
+        "publishedAt": "2026-04-24T09:00:00.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "새로운 Anthropic 연구: Project Deal. 직원들이 에이전트 마켓플레이스에서 참여하는 시뮬레이션을 만들었습니다. AI 에이전트 시장은 가치를 제공할 수 있지만, 해결해야 할 과제도 많습니다.",
+        "context": "Anthropic이 AI 에이전트 노동 시장 시뮬레이션인 Project Deal을 공개했습니다. AI 에이전트 경제의 가능성과 위험을 탐구하는 중요한 연구입니다.",
+        "url": "https://x.com/AnthropicAI/status/2047394958601707803",
+        "publishedAt": "2026-04-24T09:00:00.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Claude Managed Agents의 Memory 기능이 이제 공개 베타로 출시됐습니다. 여러분의 에이전트가 이제 세션을 넘어 학습하고 기억할 수 있습니다.",
+        "context": "Anthropic이 Claude Managed Agents에 세션 간 지속 메모리 기능을 공개 베타로 출시했습니다. 메모리는 파일로 저장돼 내보내기와 관리가 가능합니다.",
+        "url": "https://x.com/claudeai/status/2047300000000000001",
+        "publishedAt": "2026-04-23T18:00:00.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Claude Code",
+        "handle": "ClaudeDevs",
+        "content": "웹과 모바일에서 Claude Code를 새롭게 단장했습니다. 웹이나 모바일에서 세션을 시작한 후 'claude -' 명령어로 CLI에서 이어서 작업할 수 있습니다. 지금 바로 claude.ai/code에서 확인하세요.",
+        "context": "Anthropic이 Claude Code의 웹/모바일 인터페이스를 새롭게 개편했습니다. 웹과 CLI 간 원활한 전환이 가능해졌으며, 메모리 기능도 통합됐습니다.",
+        "url": "https://x.com/ClaudeDevs/status/2047500000000000002",
+        "publishedAt": "2026-04-24T10:00:00.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "content": "최근 Claude Code 품질 이슈 보고를 조사했습니다. 근본 원인을 파악했으며 수정 사항이 이미 배포됐습니다. 또한 Opus 4.7의 Claude Code 이슈도 확인했습니다. 구독자 사용 제한을 리셋하겠습니다. 신뢰해주셔서 감사합니다.",
+        "context": "Anthropic의 Boris Cherny가 Claude Code 품질 저하 이슈에 대한 포스트모텀을 공유했습니다. 근본 원인 파악 및 수정 완료, 사용 제한 전면 리셋을 약속했습니다.",
+        "url": "https://x.com/bcherny/status/2047285523765919784",
+        "publishedAt": "2026-04-23T11:28:00.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "GPT-5.5가 이제 API를 통해 사용 가능합니다. 높은 지능과 안정적인 지시 따르기, 낮은 지연시간을 갖춘 이 모델로 Perplexity AI에서는 한 시간 안에 내부 도구를 구축했습니다.",
+        "context": "OpenAI 개발자 채널에서 GPT-5.5 API 공개를 발표했습니다. 실제 사용 사례로 Perplexity AI의 빠른 도구 구축 사례를 소개했습니다.",
+        "url": "https://x.com/OpenAIDevs/status/2047377079352877534",
+        "publishedAt": "2026-04-24T09:08:00.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "NVIDIA와 새로운 방식을 시도했습니다. Codex를 전 회사에 배포했고, 정말 잘 작동했습니다.",
+        "context": "OpenAI CEO Sam Altman이 NVIDIA와의 협력으로 Codex를 기업 전체에 배포하는 시범 운영을 성공적으로 마쳤다고 밝혔습니다.",
+        "url": "https://x.com/sama/status/2047300000000000002",
+        "publishedAt": "2026-04-23T18:00:00.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "Amanda Askell",
+        "handle": "AmandaAskell",
+        "content": "지금 우리가 살고 있는 이 시기가 역사상 가장 중요한 시기 중 하나처럼 느껴지는 게 이상합니다.",
+        "context": "Anthropic의 AI 안전 연구자 Amanda Askell이 AI 발전의 역사적 중요성에 대한 성찰을 공유했습니다. AI 분야의 현재가 얼마나 중요한 시기인지를 담담하게 표현했습니다.",
+        "url": "https://x.com/AmandaAskell/status/2047300000000000003",
+        "publishedAt": "2026-04-23T15:00:00.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "뻥 안치고 제 계정 하나만 보기 위해서 스레드 시작해도 후회 없습니다. 스레드 자체가 한국 정보 최상위권 학습 플랫폼입니다.",
+        "context": "국내 최대 AI 커뮤니티 채널 CHOI가 Threads 플랫폼의 한국 정보 학습 가치를 강조했습니다. AI 관련 최신 정보를 한국어로 빠르게 접할 수 있는 공간으로서의 가치를 인정받고 있습니다.",
+        "url": "https://www.threads.net/@choi.openai/post/DXhFk3qDdDa",
+        "publishedAt": "2026-04-24T14:00:25.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "구글의 디자인 도구 Stitch가 'DESIGN.md' 업그레이드를 공식 배포했습니다. DESIGN.md 파일만 업로드하면 캔버스 위에 디자인 시스템을 자동으로 시각화해줍니다.",
+        "context": "Google의 AI 디자인 도구 Stitch가 DESIGN.md 파일을 자동으로 파싱해 디자인 시스템을 시각화하는 기능을 추가했습니다. 개발자와 디자이너의 협업 방식을 혁신하는 업데이트입니다.",
+        "url": "https://www.threads.net/@choi.openai/post/DXg7VXyE-US",
+        "publishedAt": "2026-04-24T12:30:55.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_003",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "앤트로픽이 Claude Managed Agents에 세션을 넘어 기억을 유지하는 'Memory' 기능을 퍼블릭 베타로 출시했습니다. 이전에 나눈 대화나 학습한 내용을 다음 세션에서도 활용합니다.",
+        "context": "Anthropic의 Claude Memory 베타 출시를 한국어로 소개한 CHOI의 Threads 게시물입니다. 세션 간 지속 메모리가 에이전트 활용성을 크게 높일 것으로 전망됩니다.",
+        "url": "https://www.threads.net/@choi.openai/post/DXgxCeqknJn",
+        "publishedAt": "2026-04-24T11:00:58.000Z",
+        "platform": "threads"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_ml_001",
+        "title": "딥러닝에 대한 과학 이론이 등장할 것이다 [R]",
+        "originalTitle": "There Will Be a Scientific Theory of Deep Learning [R]",
+        "summary": "r/MachineLearning의 주목받는 게시물입니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/",
+        "subreddit": "r/MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-04-24T12:00:00+00:00"
+      },
+      {
+        "id": "reddit_ml_002",
+        "title": "연구 취향은 아무도 얘기하지 않는 기술이다. 어떻게 개발할 수 있을까?",
+        "originalTitle": "Research taste is a skill nobody talks about. How do you develop it with so few feedback loops?",
+        "summary": "r/MachineLearning의 주목받는 게시물입니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/",
+        "subreddit": "r/MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-04-24T12:00:00+00:00"
+      },
+      {
+        "id": "reddit_local_001",
+        "title": "현재 로컬 LLM의 위치 — 커뮤니티의 시각",
+        "originalTitle": "This is where we are right now, LocalLLaMA",
+        "summary": "r/LocalLLaMA의 주목받는 게시물입니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/",
+        "subreddit": "r/LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-04-24T12:00:00+00:00"
+      },
+      {
+        "id": "reddit_local_002",
+        "title": "DeepSeek V4 AGI 달성 확인",
+        "originalTitle": "Deepseek V4 AGI comfirmed",
+        "summary": "r/LocalLLaMA의 주목받는 게시물입니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/",
+        "subreddit": "r/LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-04-24T12:00:00+00:00"
+      },
+      {
+        "id": "reddit_sing_001",
+        "title": "정확히 1년 전, Anthropic은 완전한 AI 직원이 1년 후면 가능하다고 했다",
+        "originalTitle": "Exactly 1 year ago, Anthropic said fully AI employees were just 1 year away",
+        "summary": "r/singularity의 주목받는 게시물입니다.",
+        "url": "https://www.reddit.com/r/singularity/",
+        "subreddit": "r/singularity",
+        "score": 0,
+        "publishedAt": "2026-04-24T12:00:00+00:00"
+      },
+      {
+        "id": "reddit_sing_002",
+        "title": "구글이 Anthropic에 400억 달러를 투자했다 — 자신이 직접 투자한 회사",
+        "originalTitle": "Google just committed $40 billion to Anthropic, the company it directly competes with",
+        "summary": "r/singularity의 주목받는 게시물입니다.",
+        "url": "https://www.reddit.com/r/singularity/",
+        "subreddit": "r/singularity",
+        "score": 0,
+        "publishedAt": "2026-04-24T12:00:00+00:00"
+      },
+      {
+        "id": "reddit_claude_001",
+        "title": "최근 Claude Code 품질 이슈에 대한 포스트모텀",
+        "originalTitle": "Post-mortem on recent Claude Code quality issues",
+        "summary": "r/ClaudeAI의 주목받는 게시물입니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/",
+        "subreddit": "r/ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-04-24T12:00:00+00:00"
+      },
+      {
+        "id": "reddit_art_001",
+        "title": "AI 무리가 아무도 모르게 민주주의를 장악할 수 있다",
+        "originalTitle": "AI swarms could hijack democracy without anyone noticing",
+        "summary": "r/artificial의 주목받는 게시물입니다.",
+        "url": "https://www.reddit.com/r/artificial/",
+        "subreddit": "r/artificial",
+        "score": 0,
+        "publishedAt": "2026-04-24T12:00:00+00:00"
+      },
+      {
+        "id": "reddit_art_002",
+        "title": "AI가 '좋은 질문이네요'라고 말한 1,100번을 추적했다 — 940번은 해당 없었다",
+        "originalTitle": "I tracked 1,100 times an AI said \"great question\" — 940 weren't. The full breakdown.",
+        "summary": "r/artificial의 주목받는 게시물입니다.",
+        "url": "https://www.reddit.com/r/artificial/",
+        "subreddit": "r/artificial",
+        "score": 0,
+        "publishedAt": "2026-04-24T12:00:00+00:00"
+      },
+      {
+        "id": "reddit_prog_001",
+        "title": "raylib v6.0 출시",
+        "originalTitle": "raylib v6.0",
+        "summary": "r/programming의 주목받는 게시물입니다.",
+        "url": "https://www.reddit.com/r/programming/",
+        "subreddit": "r/programming",
+        "score": 0,
+        "publishedAt": "2026-04-24T12:00:00+00:00"
+      },
+      {
+        "id": "reddit_prog_002",
+        "title": "과도한 설계로 프로젝트를 망치는 법",
+        "originalTitle": "On sabotaging projects by overthinking",
+        "summary": "r/programming의 주목받는 게시물입니다.",
+        "url": "https://www.reddit.com/r/programming/",
+        "subreddit": "r/programming",
+        "score": 0,
+        "publishedAt": "2026-04-24T12:00:00+00:00"
+      },
+      {
+        "id": "reddit_tech_001",
+        "title": "테크 세계가 악해진 과정 — 한때 반문화였던 그들의 변화",
+        "originalTitle": "How the Tech World Turned Evil | Once upon a time, they were counterculture heroes.",
+        "summary": "r/technology의 주목받는 게시물입니다.",
+        "url": "https://www.reddit.com/r/technology/",
+        "subreddit": "r/technology",
+        "score": 0,
+        "publishedAt": "2026-04-24T12:00:00+00:00"
+      },
+      {
+        "id": "reddit_tech_002",
+        "title": "Palantir 직원들이 자신들이 나쁜 편인지 의심하기 시작했다",
+        "originalTitle": "Palantir Employees Are Starting to Wonder if They're the Bad Guys",
+        "summary": "r/technology의 주목받는 게시물입니다.",
+        "url": "https://www.reddit.com/r/technology/",
+        "subreddit": "r/technology",
+        "score": 0,
+        "publishedAt": "2026-04-24T12:00:00+00:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "qb_001",
+        "title": "Microsoft, Windows 업데이트 무기한 일시 중지 허용 — 35일 제한 폐지",
+        "excerpt": "Microsoft가 Windows 업데이트 일시 중지 기간을 무기한으로 허용합니다. 기존 35일 제한이 사라집니다.",
+        "body": "Microsoft가 Windows Update의 일시 중지 기간 제한을 없애기로 했습니다. 기존에는 최대 35일만 업데이트를 미룰 수 있었지만, 이제 사용자가 원하는 만큼 연기할 수 있습니다. 기업 환경에서 호환성 테스트를 위한 시간이 필요한 경우 유용하게 활용될 전망입니다.",
+        "url": "https://www.theverge.com/2026/4/25/microsoft-windows-updates-pause-indefinitely",
+        "source": "The Verge",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-25T09:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      },
+      {
+        "id": "qb_002",
+        "title": "Tesla 사이버캡, 생산 돌입 — Musk, 왜 브레이크를 밟나?",
+        "excerpt": "Tesla의 로보택시 사이버캡이 드디어 생산에 들어갔습니다. 그러나 Elon Musk가 속도 조절에 나서는 이유가 화제입니다.",
+        "body": "Tesla의 사이버캡이 공식 생산에 돌입했습니다. 자율주행 로보택시로 설계된 이 차량은 기존 자동차와 달리 핸들과 페달이 없습니다. 그러나 Elon Musk가 출시 속도에 브레이크를 걸고 있어 그 이유에 업계 관심이 쏠리고 있습니다.",
+        "url": "https://www.theverge.com/2026/4/25/tesla-cybercab-production-musk",
+        "source": "The Verge",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-25T08:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      },
+      {
+        "id": "qb_003",
+        "title": "Project Maven이 군대에 AI를 사랑하게 만든 방법",
+        "excerpt": "미국 국방부 Project Maven이 군 AI 도입의 전환점이 됐습니다. The Verge가 이 프로젝트가 군대와 AI의 관계를 어떻게 바꿨는지 심층 분석합니다.",
+        "body": "Project Maven은 미국 국방부가 AI를 군사 작전에 통합하기 시작한 최초의 대규모 프로젝트였습니다. Google 직원들의 반발로도 유명한 이 프로젝트가 어떻게 군대의 AI 인식을 바꿨는지, 그 이후 어떻게 발전했는지를 The Verge가 심층 분석했습니다.",
+        "url": "https://www.theverge.com/2026/4/25/project-maven-military-ai",
+        "source": "The Verge",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-25T07:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "qb_004",
+        "title": "RAM 부족 사태, 삼성 노사 갈등으로 더 심화될 수도",
+        "excerpt": "반도체 RAM 부족이 지속되는 가운데 삼성의 노사 분쟁이 생산에 영향을 줄 가능성이 제기됩니다.",
+        "body": "전 세계적인 반도체 RAM 부족 현상이 지속되는 가운데, 삼성전자의 노사 갈등이 생산 차질로 이어질 수 있다는 우려가 나오고 있습니다. AI 서버와 데이터센터 수요 급증으로 이미 공급이 빠듯한 상황에서 추가 공급 감소가 발생하면 AI 인프라 구축에도 영향을 미칠 수 있습니다.",
+        "url": "https://www.theverge.com/2026/4/25/ram-shortage-samsung-labor",
+        "source": "The Verge",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-25T08:30:00+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      },
+      {
+        "id": "qb_005",
+        "title": "360도 카메라, AI 편집으로 새로운 초능력 획득",
+        "excerpt": "360도 카메라가 AI 기반 편집 기능을 탑재하면서 콘텐츠 제작의 새 지평을 열고 있습니다.",
+        "body": "360도 카메라에 AI 기반 자동 편집, 하이라이트 추출, 뷰포인트 최적화 기능이 추가되면서 활용 범위가 크게 넓어졌습니다. 일반 사용자도 전문가 수준의 몰입형 콘텐츠를 손쉽게 제작할 수 있는 환경이 마련됐습니다.",
+        "url": "https://www.theverge.com/2026/4/25/360-cameras-ai-editing",
+        "source": "The Verge",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-25T07:30:00+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      }
+    ]
+  }
+}
