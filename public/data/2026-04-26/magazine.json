@@ -1,0 +1,485 @@
+{
+  "date": "2026-04-26",
+  "issueNumber": 29,
+  "cover": {
+    "mainHeadline": "Anthropic·Google AI 에이전트 생태계 확장, TypeScript 7.0 베타 출격",
+    "mainExcerpt": "이번 주 AI 업계는 에이전트 인프라 구축 경쟁이 뜨거웠습니다. Anthropic은 Claude 에이전트 메모리 공개 베타를 출시하고 NEC와 일본 최대 규모 AI 인력 양성 협력을 발표했으며, Google Cloud는 Gemini Enterprise Agent Platform을 공개했습니다. 개발 도구 분야에서는 TypeScript 7.0 베타가 10배 빠른 컴파일 속도를 예고하며 주목받고 있습니다.",
+    "headlines": [
+      "Claude 에이전트 메모리 공개 베타 — 세션 간 기억 유지 가능",
+      "Google Cloud, Gemini Enterprise Agent Platform으로 멀티에이전트 시대 선언",
+      "Anthropic·NEC, 일본 최대 AI 엔지니어링 인력 양성 파트너십 체결"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "highlight_001",
+      "title": "Anthropic, NEC와 협력해 일본 최대 규모 AI 엔지니어링 인력 양성",
+      "excerpt": "Anthropic이 일본 대기업 NEC와 파트너십을 체결해 일본 내 Claude 기반 AI 엔지니어링 역량을 대규모로 육성합니다. NEC의 약 10만 명 엔지니어 네트워크를 활용해 일본 기업의 AI 전환을 가속화한다.",
+      "body": "Anthropic과 NEC가 전략적 파트너십을 발표했습니다. 이번 협력의 핵심은 일본 내 최대 규모의 AI 엔지니어링 인력을 양성하는 것으로, NEC의 광범위한 엔터프라이즈 네트워크와 Anthropic의 Claude AI 기술을 결합합니다. NEC는 일본 전역에 약 10만 명의 엔지니어를 보유한 대형 IT 기업으로, 이번 파트너십을 통해 Claude를 기반으로 한 AI 솔루션을 일본 기업 고객들에게 대규모로 제공할 계획입니다.",
+      "url": "https://www.anthropic.com/news/anthropic-nec",
+      "source": "Anthropic News",
+      "category": "big_tech",
+      "publishedAt": "2026-04-24T09:00:00+09:00",
+      "readTime": 3,
+      "imageGradient": 4
+    },
+    {
+      "id": "highlight_002",
+      "title": "Google Cloud, 엔터프라이즈 AI 에이전트 플랫폼 전면 공개",
+      "excerpt": "Google Cloud Next '26에서 Gemini Enterprise Agent Platform이 공개됐습니다. Vertex AI의 진화형으로, 자율 에이전트의 구축·배포·오케스트레이션을 한 곳에서 지원합니다.",
+      "body": "구글은 Google Cloud Next '26에서 Vertex AI의 차세대 버전인 Gemini Enterprise Agent Platform을 발표했습니다. 사용자 대신 자율적으로 작업을 완수하는 에이전트를 구축하고 대규모로 배포할 수 있도록 설계됐습니다. 멀티에이전트 간의 협력과 오케스트레이션을 지원하며, 실제 엔터프라이즈 수준의 복잡한 워크플로를 처리할 수 있음을 강조했습니다. A2A 프로토콜과 MCP 표준과의 호환성도 지원합니다.",
+      "url": "https://news.hada.io/topic?id=28882",
+      "source": "GeekNews",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-25T22:44:00+09:00",
+      "readTime": 3,
+      "imageGradient": 0
+    },
+    {
+      "id": "highlight_003",
+      "title": "TypeScript 7.0 베타 — 컴파일 속도 최대 10배 향상",
+      "excerpt": "마이크로소프트가 TypeScript 7.0 베타를 공개했습니다. Go 언어로 재작성된 네이티브 포트로 빌드 속도가 획기적으로 빨라질 전망이며, 수백만 TypeScript 개발자에게 직접적인 영향을 미칩니다.",
+      "body": "마이크로소프트가 TypeScript 7.0 베타 버전을 공개했습니다. 이번 버전의 가장 큰 변화는 Go로 작성된 네이티브 컴파일러 포트로, 빌드 속도가 기존 대비 최대 10배까지 향상될 것으로 기대됩니다. 대규모 TypeScript 프로젝트에서 느린 컴파일 시간으로 고통받던 개발자들에게 획기적인 개선이 될 전망입니다. 하위 호환성을 유지하면서도 타입 시스템 개선이 포함됐습니다.",
+      "url": "https://news.hada.io/topic?id=28873",
+      "source": "GeekNews",
+      "category": "dev_tools",
+      "publishedAt": "2026-04-25T14:15:33+09:00",
+      "readTime": 3,
+      "imageGradient": 2
+    },
+    {
+      "id": "highlight_004",
+      "title": "딥러닝의 과학 이론은 등장할 것이다",
+      "excerpt": "현재 경험적 방법론에 의존하는 딥러닝이 결국 엄밀한 과학 이론으로 정립될 것이라는 주장입니다. 스케일링 법칙과 뉴럴 탱젠트 커널 등이 이론의 씨앗이 되고 있습니다.",
+      "body": "딥러닝은 현재 대부분 경험적 방법론에 의존하고 있지만, 물리학과 수학 등 인접 학문에서 발전된 이론적 도구들이 딥러닝 현상을 설명하기 시작했습니다. 스케일링 법칙, 뉴럴 탱젠트 커널, 손실 경관 분석 등이 이론의 씨앗이 되고 있으며, 저자는 향후 10년 내 딥러닝을 아우르는 통합 과학 이론이 등장할 것이라고 전망합니다. 이는 AI 시스템의 예측가능성과 신뢰성을 크게 높일 것으로 기대됩니다.",
+      "url": "https://news.hada.io/topic?id=28883",
+      "source": "GeekNews",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-26T02:38:22+09:00",
+      "readTime": 3,
+      "imageGradient": 1
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_001",
+        "title": "Gemini Enterprise Agent Platform — 구글 클라우드의 차세대 AI 에이전트 통합 플랫폼",
+        "excerpt": "구글이 Vertex AI의 진화형인 Gemini Enterprise Agent Platform을 Google Cloud Next '26에서 공개했습니다. 자율적으로 작동하는 에이전트를 구축·배포할 수 있는 통합 플랫폼으로, 멀티에이전트 오케스트레이션을 핵심 기능으로 내세우고 있습니다.",
+        "body": "구글은 Google Cloud Next '26 행사에서 Vertex AI의 차세대 버전인 Gemini Enterprise Agent Platform을 발표했습니다. 이 플랫폼은 사용자 대신 자율적으로 작업을 완수하는 에이전트를 구축하고 대규모로 배포할 수 있도록 설계됐습니다. 특히 멀티에이전트 간의 협력·오케스트레이션을 지원하며, 라스베이거스 스트립을 통과하는 마라톤 10,000명 운영 시나리오를 데모로 선보이며 실제 엔터프라이즈 수준의 복잡한 워크플로를 처리할 수 있음을 강조했습니다.",
+        "url": "https://news.hada.io/topic?id=28882",
+        "source": "GeekNews",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-25T22:44:00+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_002",
+        "title": "딥러닝의 과학 이론은 등장할 것이다",
+        "excerpt": "딥러닝에 대한 엄밀한 과학 이론이 결국 등장할 것이라는 주장을 담은 아티클입니다. 현재의 경험적 접근법을 넘어 딥러닝 현상을 설명하는 통합 이론의 가능성을 탐구합니다.",
+        "body": "딥러닝은 현재까지 대부분 경험적 방법론에 의존해왔으나, 물리학·수학 등 인접 학문에서 발전된 이론적 도구들이 딥러닝 현상을 설명하기 시작했습니다. 스케일링 법칙, 뉴럴 탱젠트 커널, 손실 경관 분석 등이 이론의 씨앗이 되고 있으며, 저자는 향후 10년 내 딥러닝을 아우르는 통합 과학 이론이 등장할 것이라고 전망합니다. 이는 AI 시스템의 예측가능성과 신뢰성을 크게 높일 것으로 기대됩니다.",
+        "url": "https://news.hada.io/topic?id=28883",
+        "source": "GeekNews",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-26T02:38:22+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_003",
+        "title": "Google Cloud가 제시하는 멀티에이전트 시스템의 5가지 통합 패턴: A2A와 MCP",
+        "excerpt": "구글 클라우드가 멀티에이전트 시스템 구축을 위한 5가지 핵심 통합 패턴을 공개했습니다. Agent-to-Agent(A2A) 프로토콜과 Model Context Protocol(MCP)을 중심으로 에이전트 간 협력 아키텍처를 제시합니다.",
+        "body": "구글 클라우드가 멀티에이전트 시스템을 실제 프로덕션 환경에 통합하기 위한 5가지 패턴을 정리해 공개했습니다. ①파이프라인 패턴(순차 처리), ②풀링 패턴(병렬 처리), ③라우터 패턴(조건부 분기), ④감독자 패턴(오케스트레이터가 서브에이전트 관리), ⑤메시 패턴(에이전트 간 직접 통신)으로 구성됩니다. 모든 패턴은 A2A 프로토콜과 MCP 표준을 기반으로 하며, 각 패턴별 적합한 유스케이스와 트레이드오프도 함께 설명합니다.",
+        "url": "https://news.hada.io/topic?id=28872",
+        "source": "GeekNews",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-25T13:13:15+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_004",
+        "title": "ClawSweeper: Claude 기반 오픈소스 GitHub 이슈 자동 관리 봇",
+        "excerpt": "ClawSweeper는 Claude AI를 활용해 GitHub 이슈를 자동으로 분류·답변·종결하는 오픈소스 봇입니다. 오래된 이슈를 정리하고 중복을 감지해 레포지토리 관리 부담을 줄여줍니다.",
+        "body": "ClawSweeper는 Claude API를 GitHub Actions와 연동해 이슈 라이프사이클 전반을 자동화합니다. AI가 이슈 내용을 분석해 중복 여부를 판단하고, 자주 묻는 질문에 자동 답변하며, 비활성 이슈를 적절히 종결합니다. 오픈소스로 공개되어 누구나 자신의 레포지토리에 바로 적용할 수 있으며, 이슈 관리에 시간을 쏟는 개발자들에게 실질적인 시간 절약을 제공합니다.",
+        "url": "https://news.hada.io/topic?id=28880",
+        "source": "GeekNews",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-25T19:46:33+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_005",
+        "title": "Visual Studio Code 1.118 출시 — 새로운 에디터 기능 업데이트",
+        "excerpt": "VS Code 1.118 버전이 출시됐습니다. 코드 에디터 기능 개선과 성능 향상이 포함된 이번 업데이트는 개발자 생산성 향상에 초점을 맞추고 있습니다.",
+        "body": "Visual Studio Code 1.118이 릴리스됐습니다. 이번 버전은 에디터 내 다양한 개선 사항을 담고 있으며, AI 기반 코드 지원 기능의 통합이 강화됐습니다. 개발자 워크플로를 간소화하는 새로운 단축키와 UI 개선이 포함됐으며, 확장 기능 API도 업데이트됐습니다. 특히 대형 파일 처리 성능이 개선되어 대규모 프로젝트 작업 시 응답성이 향상됐습니다.",
+        "url": "https://code.visualstudio.com/updates/v1_118",
+        "source": "Visual Studio Code - Code Editing. Redefined.",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-30T02:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_006",
+        "title": "TypeScript 7.0 Beta 공개 — 성능 대폭 향상 예고",
+        "excerpt": "TypeScript 7.0 베타가 공개됐습니다. 네이티브 포트로 전환해 컴파일 속도가 최대 10배 빨라질 것으로 예상되며, 개발 경험에 큰 변화를 가져올 전망입니다.",
+        "body": "마이크로소프트가 TypeScript 7.0 베타 버전을 공개했습니다. 이번 버전의 가장 큰 변화는 Go로 작성된 네이티브 컴파일러 포트로, 빌드 속도가 기존 대비 최대 10배까지 향상될 것으로 기대됩니다. 대규모 TypeScript 프로젝트에서 느린 컴파일 시간으로 고통받던 개발자들에게 획기적인 개선이 될 전망입니다. 언어 기능 면에서는 하위 호환성을 유지하면서도 타입 시스템 개선이 포함됐습니다.",
+        "url": "https://news.hada.io/topic?id=28873",
+        "source": "GeekNews",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-25T14:15:33+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_007",
+        "title": "purplemux: Claude Code 세션을 웹·모바일에서 관리하는 오픈소스 tmux 매니저",
+        "excerpt": "purplemux는 로컬에서 실행 중인 Claude Code 세션을 웹 브라우저나 모바일에서도 접근·관리할 수 있게 해주는 오픈소스 tmux 매니저입니다.",
+        "body": "purplemux는 Claude Code 사용자들이 로컬 터미널 세션에 원격으로 접근할 수 있도록 tmux를 웹 인터페이스로 감싼 오픈소스 도구입니다. 개발자는 집에서 실행 중인 Claude Code 작업을 외부에서 스마트폰이나 다른 기기로 모니터링하고 이어서 작업할 수 있습니다. SSH 터널링 없이도 브라우저에서 바로 세션에 접속 가능하며, 다중 세션 관리와 세션 재연결 기능을 지원합니다.",
+        "url": "https://news.hada.io/topic?id=28877",
+        "source": "GeekNews",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-25T15:44:45+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_008",
+        "title": "firma: Claude를 내 포트폴리오 AI 비서로 만드는 로컬 퍼스트 자산관리 CLI",
+        "excerpt": "firma는 Claude AI를 포트폴리오 관리 비서로 활용할 수 있는 로컬 퍼스트 CLI 도구입니다. 자산 데이터를 로컬에 보관하며 자연어로 포트폴리오를 분석·질의할 수 있습니다.",
+        "body": "firma는 Claude API를 활용해 개인 포트폴리오 데이터를 자연어로 질의하고 분석할 수 있는 CLI 도구입니다. 모든 데이터는 로컬에 저장되어 프라이버시를 보장하며, 외부 서비스 의존 없이 동작합니다. '이번 달 수익률이 가장 높은 종목은?' 같은 자연어 질문에 Claude가 포트폴리오 데이터를 분석해 답변해줍니다. 주식, 채권, 암호화폐 등 다양한 자산 유형을 지원합니다.",
+        "url": "https://news.hada.io/topic?id=28884",
+        "source": "GeekNews",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-26T03:23:43+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_009",
+        "title": "Anthropic, NEC와 협력해 일본 최대 규모 AI 엔지니어링 인력 양성",
+        "excerpt": "Anthropic이 일본 대기업 NEC와 파트너십을 체결해 일본 내 Claude 기반 AI 엔지니어링 역량을 대규모로 육성합니다. 일본 기업의 AI 전환을 가속화하는 핵심 거점이 될 전망입니다.",
+        "body": "Anthropic과 NEC가 전략적 파트너십을 발표했습니다. 이번 협력의 핵심은 일본 내 최대 규모의 AI 엔지니어링 인력을 양성하는 것으로, NEC의 광범위한 엔터프라이즈 네트워크와 Anthropic의 Claude AI 기술을 결합합니다. NEC는 일본 전역에 약 10만 명의 엔지니어를 보유한 대형 IT 기업으로, 이번 파트너십을 통해 Claude를 기반으로 한 AI 솔루션을 일본 기업 고객들에게 대규모로 제공할 계획입니다. 일본의 디지털 전환 가속화에 중요한 역할을 할 것으로 기대됩니다.",
+        "url": "https://www.anthropic.com/news/anthropic-nec",
+        "source": "Anthropic News",
+        "category": "big_tech",
+        "publishedAt": "2026-04-24T09:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_010",
+        "title": "2026년 4월 Gemini Drop: Gemini 앱의 새로운 기능 총정리",
+        "excerpt": "구글이 4월 Gemini Drop을 통해 Gemini 앱의 최신 업데이트를 공개했습니다. 일상 생산성을 높이는 다양한 신기능이 추가됐습니다.",
+        "body": "구글의 월간 Gemini Drop에서 4월 업데이트가 공개됐습니다. Gemini 앱에 새로운 캔버스(Canvas) 기능이 추가됐으며, Google 서비스와의 더욱 깊은 통합이 이뤄졌습니다. Gmail, Docs, Meet 등에서 Gemini를 더 원활하게 활용할 수 있게 됐으며, 멀티모달 입력 처리도 개선됐습니다. 특히 실시간 번역 및 요약 기능이 강화되어 국제 업무 환경에서의 활용도가 높아질 전망입니다.",
+        "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-drop-april-2026/",
+        "source": "Gemini",
+        "category": "big_tech",
+        "publishedAt": "2026-04-25T01:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_011",
+        "title": "Gemini로 공간 정리하는 8가지 팁 — AI로 봄맞이 청소하기",
+        "excerpt": "구글이 Gemini를 활용한 8가지 공간 정리 팁을 공개했습니다. 업무 공간부터 디지털 파일까지, AI 비서를 통해 더 효율적으로 정리하는 방법을 안내합니다.",
+        "body": "구글 블로그에서 Gemini를 활용한 스마트 정리 전략 8가지를 소개했습니다. 주요 팁으로는 ①이메일 받은편지함 자동 분류, ②사진·파일 정리 계획 수립, ③쇼핑 목록·예산 관리, ④할 일 목록 우선순위 설정, ⑤리마인더 자동화, ⑥가정 업무 계획 수립, ⑦디지털 문서 정리, ⑧개인 루틴 최적화 등이 포함됩니다. Gemini의 자연어 처리 능력을 활용해 복잡한 정리 작업을 간소화하는 실용적인 활용법들입니다.",
+        "url": "https://blog.google/products-and-platforms/products/gemini/gemini-spring-cleaning-tips/",
+        "source": "Gemini",
+        "category": "big_tech",
+        "publishedAt": "2026-04-25T04:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "5.5가 너무 순수하네요. '작은 엔진이 해냈어요' 같은 에너지",
+        "context": "OpenAI CEO 샘 알트만(Sam Altman)이 GPT-5.5 출시 후 소감을 한 문장으로 표현했다. 이번 주 OpenAI의 GPT-5.5와 Codex 등 대규모 출시에 대한 감회를 담은 트윗으로, 팀에 대한 자부심이 엿보인다.",
+        "url": "https://x.com/sama/status/2048062261584077149",
+        "publishedAt": "2026-04-25T15:31:08.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "GPT-5.5와 GPT-5.5 Pro가 이제 API에서 사용 가능합니다!",
+        "context": "OpenAI CEO 샘 알트만이 GPT-5.5와 GPT-5.5 Pro 모델의 API 정식 출시를 발표했다. ChatGPT에 이어 API 개발자들도 이 모델을 활용할 수 있게 됐다.",
+        "url": "https://x.com/sama/status/2047787124846653895",
+        "publishedAt": "2026-04-24T21:17:51.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "GPT Image 2는 학습에 정말 유용합니다",
+        "context": "OpenAI 공동창업자 그렉 브록만(Greg Brockman)이 GPT Image 2의 교육적 활용 가능성을 언급했다. 이미지 생성 AI를 학습 도구로 활용하는 새로운 패러다임을 시사한다.",
+        "url": "https://x.com/gdb/status/2048067919289147674",
+        "publishedAt": "2026-04-25T15:53:37.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "GPT-5.5는 AI로 할 수 있는 일의 야망의 천장을 높여줍니다:",
+        "context": "OpenAI 공동창업자 그렉 브록만이 GPT-5.5의 잠재력을 강조했다. 단순한 모델 업그레이드를 넘어 AI 활용의 상상력 자체를 확장시켜준다는 평가다.",
+        "url": "https://x.com/gdb/status/2048056060460626292",
+        "publishedAt": "2026-04-25T15:06:30.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "새로운 Anthropic 연구: 프로젝트 딜(Project Deal)\n\n우리는 샌프란시스코 사무실 직원들을 위한 마켓플레이스를 만들었습니다. 한 가지 큰 반전이 있었죠 — Claude에게 동료들을 대신해 구매·판매·협상을 맡겼습니다.",
+        "context": "Anthropic 공식 계정이 'Project Deal' 연구를 발표했다. Claude를 실제 경제 행위자로 삼아 AI 에이전트 기반 마켓플레이스를 실험한 결과로, 고품질 모델이 가격 협상에서 우위를 보였다. AI 에이전트가 경제 활동에 참여하는 미래를 미리 엿보게 해주는 연구다.",
+        "url": "https://x.com/AnthropicAI/status/2047728360818696302",
+        "publishedAt": "2026-04-24T17:24:20.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "AI 에이전트 시장은 가치를 제공할 수 있지만, 거친 부분도 많습니다. 고품질 모델에 대한 접근은 실질적인 이점을 주었고 — 참가자들은 이를 눈치채지 못했습니다. 정책과 법적 프레임워크가 이를 따라잡기 위해 적응해야 할 것입니다.",
+        "context": "Anthropic이 Project Deal 연구의 핵심 결론을 공유했다. AI 에이전트 간 거래 시장에서 더 강력한 AI 모델이 협상 우위를 가지며, 이로 인한 공정성 문제를 해결하기 위한 정책·법적 대응이 필요하다는 시사점을 제시했다.",
+        "url": "https://x.com/AnthropicAI/status/2047728384503939464",
+        "publishedAt": "2026-04-24T17:24:26.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "GPT-5.5가 API에서 제공됩니다.\n\n이 모델은 복잡한 작업에 더 높은 지능과 강력한 토큰 효율성을 제공해, 더 적은 재시도로 작업을 완수할 수 있게 합니다.",
+        "context": "OpenAI 개발자 공식 계정이 GPT-5.5의 API 출시를 발표했다. 더 높은 지능과 토큰 효율성을 강조하며, 복잡한 에이전트 작업에서 실용성을 높였다고 소개한다.",
+        "url": "https://x.com/OpenAIDevs/status/2047742566410736090",
+        "publishedAt": "2026-04-24T18:20:47.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Claude 관리형 에이전트의 메모리 기능이 이제 공개 베타로 출시됩니다.\n\n에이전트가 이제 모든 세션에서 학습하며, 성능과 유연성의 균형을 맞춘 지능형 메모리 레이어를 사용합니다.",
+        "context": "Anthropic의 Claude 공식 계정이 관리형 에이전트의 메모리 공개 베타를 발표했다. 에이전트가 세션 간 기억을 유지하면서 점점 더 사용자를 잘 이해하게 되는 기능으로, 지속적인 AI 비서 구현의 중요한 진전이다.",
+        "url": "https://x.com/claudeai/status/2047421844311949513",
+        "publishedAt": "2026-04-23T21:06:21.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_009",
+        "author": "Felix Rieseberg",
+        "handle": "felixrieseberg",
+        "content": "작은 기능이지만 약간 긱적인 것: 우리는 claude:// 링크로 Chat, Cowork, Code의 새 세션을 미리 채울 수 있는 딥 링크를 추가했습니다.",
+        "context": "Anthropic Cowork 개발자 펠릭스 리제스베르그(Felix Rieseberg)가 claude:// 딥 링크 기능을 소개했다. 다른 앱에서 바로 Claude 세션을 열 수 있는 이 기능은 Claude 데스크톱 앱 기반 워크플로 자동화를 한층 강화한다.",
+        "url": "https://x.com/felixrieseberg/status/2047367515500659128",
+        "publishedAt": "2026-04-23T17:30:28.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "Sakana AI가 멀티에이전트 오케스트레이션 시스템인 'Sakana Fugu' 베타를 상용 API로 전격 공개했습니다. 기존에는 작업 성격에 맞춰 GPT, Gemini, Claude 등 적합한 모델을 사람이 일일이 지정하고 관리해야 했는데요. Fugu는 사용자의 프롬프트를 스스로 분석해 여러 프론티어 모델 풀 안에서 최적의 에이전트 조합과 역할을 알아서 할당하고 지휘합니다.",
+        "context": "대한민국 최고의 AI 채널 운영자 CHOI(@choi.openai)가 Sakana AI의 신규 멀티에이전트 API 출시를 소개. Fugu Mini와 Fugu Ultra 두 버전으로 제공되며, 기존 OpenAI API와 호환된다.",
+        "url": "https://www.threads.net/@choi.openai/post/DXkTmw0jDrl",
+        "publishedAt": "2026-04-25T20:00:44.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "최근 주목받고 있는 'Hermes WebUI'는 기존 Hermes 에이전트를 브라우저로 고스란히 옮겨온 프로젝트입니다. 다중 프로필 기능을 통해 용도에 맞춰 여러 AI를 각각 다른 '직원'처럼 생성해두고 전환할 수 있어, 하나의 채팅창에 모든 기억과 도구가 섞여 맥락이 꼬이던 문제를 깔끔하게 해결했습니다.",
+        "context": "Hermes 에이전트를 브라우저 UI로 구현한 Hermes WebUI 프로젝트 소개. 기존 TUI나 텔레그램에서 하던 대화를 웹에서 이어갈 수 있고, 파일 브라우징과 장기 기억 관리까지 한곳에서 제어 가능하다.",
+        "url": "https://www.threads.net/@choi.openai/post/DXkTnpBDFqF",
+        "publishedAt": "2026-04-25T20:00:51.000Z",
+        "platform": "threads"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "딥러닝에 대한 과학 이론이 등장할 것이다 [R]",
+        "originalTitle": "There Will Be a Scientific Theory of Deep Learning [R]",
+        "summary": "딥러닝의 이론적 기반에 대한 r/MachineLearning의 인기 토론 스레드. 현재의 경험적 접근을 넘어 엄밀한 과학 이론의 가능성을 탐구하며, 연구자들 사이에서 큰 공감을 얻고 있다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1sun588/there_will_be_a_scientific_theory_of_deep/",
+        "subreddit": "MachineLearning",
+        "score": 196,
+        "publishedAt": "2026-04-25T02:58:00+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "여기가 지금 우리가 있는 곳입니다, LocalLLaMA",
+        "originalTitle": "This is where we are right now, LocalLLaMA",
+        "summary": "로컬 LLM 커뮤니티 r/LocalLLaMA에서 현재 오픈소스 AI의 상태를 정리한 게시물. 클라우드 AI 대비 로컬 모델의 장단점과 향후 방향성에 대한 커뮤니티의 솔직한 평가가 담겨 있다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1suqfba/this_is_where_we_are_right_now_localllama/",
+        "subreddit": "LocalLLaMA",
+        "score": 2616,
+        "publishedAt": "2026-04-25T04:58:25+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "Deepseek V4 AGI 확인됨",
+        "originalTitle": "Deepseek V4 AGI comfirmed",
+        "summary": "DeepSeek V4의 성능에 놀란 r/LocalLLaMA 커뮤니티의 반응. AGI라는 표현을 유머러스하게 사용하면서도, 오픈소스 모델의 급격한 발전 속도에 대한 진지한 경탄이 담겨 있다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1suolda/deepseek_v4_agi_comfirmed/",
+        "subreddit": "LocalLLaMA",
+        "score": 1763,
+        "publishedAt": "2026-04-25T03:50:27+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "AI 군집이 누구도 눈치채지 못하게 민주주의를 하이재킹할 수 있다",
+        "originalTitle": "AI swarms could hijack democracy without anyone noticing",
+        "summary": "AI 에이전트 군집이 선거·여론 조작에 활용될 위험성을 다룬 r/artificial 토론. 탐지가 어려운 방식으로 민주적 과정을 교란할 수 있다는 우려가 제기됐다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1su3976/ai_swarms_could_hijack_democracy_without_anyone/",
+        "subreddit": "artificial",
+        "score": 303,
+        "publishedAt": "2026-04-24T11:44:34+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "이미지 2.0이 여기서 요리됐음",
+        "originalTitle": "Image 2.0 cooked here",
+        "summary": "GPT Image 2 모델의 놀라운 이미지 생성 결과를 공유한 r/OpenAI의 인기 게시물. 다양한 스타일과 복잡한 시나리오의 이미지를 성공적으로 생성한 예시들이 높은 주목을 받고 있다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1sv0mc5/image_20_cooked_here/",
+        "subreddit": "OpenAI",
+        "score": 1433,
+        "publishedAt": "2026-04-25T12:14:07+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "나는 어느 정도 코더입니다",
+        "originalTitle": "I'm somewhat of a coder myself",
+        "summary": "Claude와의 코딩 협업 경험을 유머러스하게 표현한 r/ClaudeAI의 밈성 게시물. 5,000점이 넘는 높은 점수를 얻으며 Claude 사용자 커뮤니티의 공감을 크게 얻었다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1sucxqj/im_somewhat_of_a_coder_myself/",
+        "subreddit": "ClaudeAI",
+        "score": 5248,
+        "publishedAt": "2026-04-24T20:24:32+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "GitHub Actions가 이 비전의 핵심 파트로 남는 동안",
+        "originalTitle": "While GitHub Actions remains a key part of this vision, we are allocating resources towards other areas ...",
+        "summary": "GitHub Actions의 향후 전략 방향에 대한 r/programming 토론. CI/CD 파이프라인 도구의 발전과 GitHub 생태계의 변화를 논의하는 개발자들의 시각을 담고 있다.",
+        "url": "https://www.reddit.com/r/programming/comments/1su5w1d/while_github_actions_remains_a_key_part_of_this/",
+        "subreddit": "programming",
+        "score": 200,
+        "publishedAt": "2026-04-24T13:50:45+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "최근 뉴스가 딱 이런 느낌임",
+        "originalTitle": "The recent news just feels like this.",
+        "summary": "AI 발전 속도가 너무 빠르다는 감탄과 약간의 혼돈을 담은 r/singularity 밈 게시물. 거의 2,000점을 획득하며 빠르게 변화하는 AI 뉴스 속 커뮤니티의 공통 감정을 대변했다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1sv3r7p/the_recent_news_just_feels_like_this/",
+        "subreddit": "singularity",
+        "score": 1931,
+        "publishedAt": "2026-04-25T14:52:38+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_012",
+        "title": "교수들도 ChatGPT를 쓴다 — 일부 학생들은 불만",
+        "excerpt": "교수들이 수업 준비와 학생 평가에 ChatGPT를 활용하기 시작했습니다. AI 사용이 학생에게만 논란이 되는 것은 불공평하다는 일부 시각과 충돌하고 있습니다.",
+        "body": "대학 교수들이 강의 계획서 작성, 시험 문제 출제, 과제 피드백 등에 ChatGPT를 활용하는 사례가 늘고 있습니다. 학생들에게는 AI 사용을 제한하면서 교수 자신은 AI를 사용하는 것에 대한 형평성 논란이 제기되고 있습니다. 이는 교육 현장에서 AI 활용 정책의 필요성과 AI 시대의 교육 역할 재정의에 대한 논의를 촉발시키고 있습니다.",
+        "url": "https://www.nytimes.com/2025/05/14/technology/chatgpt-college-professors.html",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-26T05:31:05+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_013",
+        "title": "컨텍스트는 유한하다 — 누가 관리할 것인가?",
+        "excerpt": "AI 시스템의 컨텍스트 윈도우 한계를 어떻게 관리할 것인지에 대한 심층 분석입니다. 에이전트 시대의 컨텍스트 관리 전략을 탐구합니다.",
+        "body": "LLM의 컨텍스트 윈도우가 아무리 커져도 결국 유한하다는 근본적 한계에서 출발해, 이를 효율적으로 관리하는 방법론을 논합니다. 장기 에이전트 작업에서 컨텍스트 압축, 중요 정보 요약, 외부 메모리 활용 전략이 점점 중요해지고 있습니다. 인간의 주의 자원과 유사한 이 문제는 AI 에이전트의 실용적 한계를 결정짓는 핵심 요소입니다.",
+        "url": "https://blog.gchinis.com/posts/2026/04/self-organizing-agents/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-26T05:29:24+09:00",
+        "readTime": 2,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_014",
+        "title": "Ubuntu 26.04 출시 예고",
+        "excerpt": "Ubuntu 26.04 LTS가 예정된 출시를 앞두고 있습니다. 장기 지원 버전으로서의 새로운 기능과 변경 사항이 주목을 받고 있습니다.",
+        "body": "Ubuntu 26.04 LTS가 출시를 앞두고 있습니다. 이번 장기 지원 버전에는 최신 커널과 드라이버 지원이 포함될 예정이며, 새로운 인스톨러와 개선된 하드웨어 호환성이 특징입니다. 서버 및 데스크톱 환경 모두에서 성능 개선이 이뤄졌으며, AI 워크로드를 위한 최적화도 포함될 것으로 알려졌습니다. 5년간의 공식 지원을 제공하는 LTS 버전입니다.",
+        "url": "https://news.hada.io/topic?id=28870",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-25T12:39:08+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_015",
+        "title": "SDL이 이제 DOS를 지원함",
+        "excerpt": "인기 멀티미디어 라이브러리 SDL이 DOS 플랫폼을 공식 지원합니다. 레트로 컴퓨팅 커뮤니티에 흥미로운 소식입니다.",
+        "body": "Simple DirectMedia Layer(SDL)가 DOS 플랫폼 지원을 추가했습니다. 이로써 SDL 기반으로 개발된 게임이나 애플리케이션을 DOS 환경에서도 실행할 수 있게 됐습니다. 레트로 게임 개발자들과 클래식 PC 마니아들에게 반가운 소식으로, DOS용 포팅 작업이 훨씬 쉬워질 전망입니다. 크로스플랫폼 라이브러리로서 SDL의 지원 범위가 더욱 넓어졌습니다.",
+        "url": "https://news.hada.io/topic?id=28887",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-26T04:48:00+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      }
+    ]
+  }
+}

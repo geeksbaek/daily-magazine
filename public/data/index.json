@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-04-26",
+      "issueNumber": 29,
+      "mainHeadline": "Anthropic·Google AI 에이전트 생태계 확장, TypeScript 7.0 베타 출격",
+      "headlines": [
+        "Claude 에이전트 메모리 공개 베타 — 세션 간 기억 유지 가능",
+        "Google Cloud, Gemini Enterprise Agent Platform으로 멀티에이전트 시대 선언",
+        "Anthropic·NEC, 일본 최대 AI 엔지니어링 인력 양성 파트너십 체결"
+      ]
+    },
+    {
       "date": "2026-04-25",
       "issueNumber": 28,
       "mainHeadline": "GPT-5.5, API 전면 공개 — 에이전트 시대의 새 표준",
@@ -275,9 +285,5 @@
       ]
     }
   ],
-  "latestIssue": {
-    "date": "2026-04-25",
-    "issueNumber": 28,
-    "path": "2026-04-25/magazine.json"
-  }
+  "latestIssue": 29
 }
