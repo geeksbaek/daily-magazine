@@ -1,0 +1,746 @@
+{
+  "date": "2026-04-27",
+  "issueNumber": 30,
+  "cover": {
+    "mainHeadline": "GPT-5.5 출시 & Google, Anthropic에 400억 달러 투자 — AI 패권 전쟁 새 국면",
+    "mainExcerpt": "OpenAI의 GPT-5.5가 Codex를 통해 공개된 가운데, Google이 Anthropic에 최대 400억 달러 규모의 대규모 투자를 단행한다. AI 업계가 빅테크의 천문학적 자본 전쟁과 함께 새로운 국면으로 접어들고 있다.",
+    "headlines": [
+      "DeepSeek 신규 모델, 토스터에서도 실행될 수준의 효율성 달성",
+      "에이전트가 스스로 유지하는 Karpathy식 LLM 위키 등장",
+      "ChatGPT로 아마추어 수학자, 에르되시 미해결 문제 풀어"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_ai_01",
+      "title": "GPT-5.5 바이오 버그 바운티",
+      "excerpt": "OpenAI가 GPT-5.5 모델의 생물보안 취약점을 발견하는 연구자들에게 보상을 제공하는 바이오 버그 바운티 프로그램을 시작했다. AI 모델이 생물학적 위협에 악용되는 시나리오를 사전에 차단하기 위한 안전 이니셔티브다.",
+      "body": "OpenAI가 GPT-5.5 모델을 대상으로 생물보안 취약점을 찾는 연구자들에게 포상금을 지급하는 바이오 버그 바운티 프로그램을 공식 시작했다. 이 프로그램은 AI가 생물학적 위협 정보를 제공하거나 위험한 실험 설계에 활용될 수 있는 시나리오를 사전에 발견하고 차단하는 것을 목표로 한다. OpenAI는 이를 통해 AI 안전성 연구의 새로운 지평을 열고자 하며, 바이오 연구자와 보안 전문가들의 광범위한 참여를 독려하고 있다.",
+      "url": "https://news.hada.io/topic?id=28896",
+      "source": "GeekNews",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-26T11:12:18+09:00",
+      "readTime": 4,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_ai_02",
+      "title": "에이전트가 스스로 유지하는 Karpathy식 LLM 위키 시스템",
+      "excerpt": "Karpathy의 LLM 강의 스타일을 본뜬 LLM 위키를 AI 에이전트들이 Markdown과 Git 기반으로 자동 관리하는 실험적인 시스템이 공개됐다. AI가 지식 문서를 스스로 최신 상태로 유지한다.",
+      "body": "Karpathy의 LLM 강의 스타일을 참고하여 만들어진 LLM 위키를 AI 에이전트들이 자율적으로 유지·관리하는 시스템이 공개됐다. Markdown과 Git 기반으로 구축된 이 시스템은 에이전트들이 새로운 AI 연구 결과를 발견하면 자동으로 위키를 업데이트한다. 인간의 개입 없이 지식 베이스가 스스로 진화하는 새로운 패러다임을 제시하며, AI 지식 관리 분야에서 주목받고 있다.",
+      "url": "https://news.hada.io/topic?id=28910",
+      "source": "GeekNews",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-27T02:53:04+09:00",
+      "readTime": 5,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_ai_03",
+      "title": "AI 산업, 대중이 자신들을 혐오한다는 사실을 발견하다",
+      "excerpt": "AI 기업들이 일반 대중의 AI에 대한 부정적인 인식과 반감이 생각보다 훨씬 크다는 현실에 직면하고 있다는 분석이 나왔다. 기술 낙관론과 여론 사이의 간극을 조명한다.",
+      "body": "AI 기업들이 기술 혁신에 대한 내부의 낙관론과 달리, 일반 대중 사이에서 AI에 대한 불신과 반감이 광범위하게 퍼져 있다는 사실을 뒤늦게 인식하고 있다는 분석이 화제다. 자동화로 인한 일자리 위협, 개인정보 침해 우려, AI 생성 콘텐츠의 범람 등이 대중의 불안을 키우고 있으며, 기술 업계의 일방적인 낙관론과 여론 사이에 큰 간극이 존재함이 드러나고 있다. 이에 따라 AI 기업들의 대중 소통 전략 전환이 필요하다는 목소리가 높아지고 있다.",
+      "url": "https://news.hada.io/topic?id=28909",
+      "source": "GeekNews",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-27T02:50:03+09:00",
+      "readTime": 4,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_bt_01",
+      "title": "Google, Anthropic에 최대 400억 달러 투자 — AI 경쟁 가열",
+      "excerpt": "Google이 Anthropic에 현금과 컴퓨팅 자원을 포함해 최대 400억 달러(약 55조원) 규모의 투자를 단행한다. OpenAI에 집중된 Microsoft에 맞서는 Google-Anthropic 동맹이 AI 전쟁의 핵심 축으로 부상하고 있다.",
+      "body": "Google이 Anthropic에 현금 및 Google Cloud 컴퓨팅 자원을 포함해 최대 400억 달러 규모의 대규모 투자를 진행한다고 알려졌다. 이는 Microsoft가 OpenAI에 투자한 규모에 맞먹는 것으로, 빅테크 기업들의 AI 패권 경쟁이 천문학적인 자본 전쟁으로 번지고 있음을 보여준다. Anthropic의 Claude 시리즈와 Google의 인프라·데이터가 결합될 경우, AI 시장의 판도가 크게 바뀔 수 있다는 전망이 나오고 있다.",
+      "url": "https://news.hada.io/topic?id=28912",
+      "source": "GeekNews",
+      "category": "big_tech",
+      "publishedAt": "2026-04-27T04:44:31+09:00",
+      "readTime": 5,
+      "imageGradient": 4
+    },
+    {
+      "id": "rss_bt_02",
+      "title": "SpaceX, Starlink 수익을 AI가 소진 — 내부 재원 충돌",
+      "excerpt": "SpaceX 내부에서 Starlink 위성 인터넷 사업의 수익을 AI 관련 프로젝트들이 빠르게 소비하고 있다는 보도가 나왔다. 회사 내 사업 부문 간 자원 배분을 둘러싼 긴장감이 고조되고 있다.",
+      "body": "SpaceX의 Starlink 사업이 흑자를 내고 있지만, 내부의 AI 관련 프로젝트들이 그 수익을 빠른 속도로 소진하고 있다는 내부 보고가 외부에 알려졌다. Elon Musk의 AI 스타트업 xAI와의 연계 프로젝트, Starlink 시스템의 자율화를 위한 AI 개발 등에 막대한 비용이 투입되면서, Starlink 사업부 직원들 사이에서 자원 배분에 대한 불만이 나오고 있다. 이는 AI 개발에 집중된 투자가 기존 사업의 성장을 제약할 수 있다는 우려를 제기한다.",
+      "url": "https://www.reuters.com/business/finance/spacex-ai-is-burning-cash-that-starlink-earns-2026-04-24/",
+      "source": "Hacker News",
+      "category": "big_tech",
+      "publishedAt": "2026-04-27T05:53:52+09:00",
+      "readTime": 4,
+      "imageGradient": 5
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_ai_01",
+        "title": "GPT-5.5 바이오 버그 바운티",
+        "excerpt": "OpenAI가 GPT-5.5 모델의 생물보안 취약점을 발견하는 연구자들에게 보상을 제공하는 바이오 버그 바운티 프로그램을 시작했다. AI 모델이 생물학적 위협에 악용되는 시나리오를 사전에 차단하기 위한 안전 이니셔티브다.",
+        "body": "OpenAI가 GPT-5.5 모델을 대상으로 생물보안 취약점을 찾는 연구자들에게 포상금을 지급하는 바이오 버그 바운티 프로그램을 공식 시작했다. 이 프로그램은 AI가 생물학적 위협 정보를 제공하거나 위험한 실험 설계에 활용될 수 있는 시나리오를 사전에 발견하고 차단하는 것을 목표로 한다. OpenAI는 이를 통해 AI 안전성 연구의 새로운 지평을 열고자 하며, 바이오 연구자와 보안 전문가들의 광범위한 참여를 독려하고 있다.",
+        "url": "https://news.hada.io/topic?id=28896",
+        "source": "GeekNews",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-26T11:12:18+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_ai_02",
+        "title": "에이전트가 스스로 유지하는 Karpathy식 LLM 위키 시스템",
+        "excerpt": "Karpathy의 LLM 강의 스타일을 본뜬 LLM 위키를 AI 에이전트들이 Markdown과 Git 기반으로 자동 관리하는 실험적인 시스템이 공개됐다. AI가 지식 문서를 스스로 최신 상태로 유지한다.",
+        "body": "Karpathy의 LLM 강의 스타일을 참고하여 만들어진 LLM 위키를 AI 에이전트들이 자율적으로 유지·관리하는 시스템이 공개됐다. Markdown과 Git 기반으로 구축된 이 시스템은 에이전트들이 새로운 AI 연구 결과를 발견하면 자동으로 위키를 업데이트한다. 인간의 개입 없이 지식 베이스가 스스로 진화하는 새로운 패러다임을 제시하며, AI 지식 관리 분야에서 주목받고 있다.",
+        "url": "https://news.hada.io/topic?id=28910",
+        "source": "GeekNews",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-27T02:53:04+09:00",
+        "readTime": 5,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_ai_03",
+        "title": "AI 산업, 대중이 자신들을 혐오한다는 사실을 발견하다",
+        "excerpt": "AI 기업들이 일반 대중의 AI에 대한 부정적인 인식과 반감이 생각보다 훨씬 크다는 현실에 직면하고 있다는 분석이 나왔다. 기술 낙관론과 여론 사이의 간극을 조명한다.",
+        "body": "AI 기업들이 기술 혁신에 대한 내부의 낙관론과 달리, 일반 대중 사이에서 AI에 대한 불신과 반감이 광범위하게 퍼져 있다는 사실을 뒤늦게 인식하고 있다는 분석이 화제다. 자동화로 인한 일자리 위협, 개인정보 침해 우려, AI 생성 콘텐츠의 범람 등이 대중의 불안을 키우고 있으며, 기술 업계의 일방적인 낙관론과 여론 사이에 큰 간극이 존재함이 드러나고 있다. 이에 따라 AI 기업들의 대중 소통 전략 전환이 필요하다는 목소리가 높아지고 있다.",
+        "url": "https://news.hada.io/topic?id=28909",
+        "source": "GeekNews",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-27T02:50:03+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_ai_04",
+        "title": "ChatGPT를 활용한 아마추어 수학자, 에르되시 문제 해결",
+        "excerpt": "수학 전공이 아닌 아마추어 연구자가 ChatGPT를 활용해 수십 년간 미해결로 남아 있던 에르되시(Erdős) 수학 문제를 해결하는 데 성공했다. AI가 수학 연구의 민주화를 가능케 한 사례로 주목받고 있다.",
+        "body": "수학을 전공하지 않은 아마추어 연구자가 ChatGPT의 도움을 받아 유명 수학자 폴 에르되시(Paul Erdős)가 제시한 미해결 문제를 풀어내는 데 성공했다. 전문 지식 없이도 AI와의 협업을 통해 최고 수준의 수학적 문제를 공략할 수 있다는 가능성을 보여준 이 사례는 학계에서 큰 반향을 일으키고 있다. AI가 전통적으로 전문가의 영역으로 여겨지던 수학 연구에까지 문호를 개방하고 있음을 보여주는 상징적 사건으로 평가된다.",
+        "url": "https://news.hada.io/topic?id=28902",
+        "source": "GeekNews",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-26T16:33:21+09:00",
+        "readTime": 5,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_ai_05",
+        "title": "DeepSeek 신규 모델, 너무 효율적이라 곧 토스터에서도 실행될 수준",
+        "excerpt": "DeepSeek가 공개한 신규 모델들이 놀라운 연산 효율성을 달성했다. 기사 제목처럼 '조만간 토스터에서도 실행될 정도'로 경량화되어, 엣지 디바이스에서의 AI 구동 가능성을 한층 높였다.",
+        "body": "DeepSeek가 새롭게 공개한 AI 모델들이 극도로 최적화된 연산 효율성으로 주목받고 있다. 동급 성능 대비 획기적으로 낮은 컴퓨팅 자원을 요구하는 이 모델들은 스마트폰, 임베디드 기기 등 엣지 환경에서의 AI 구동을 현실화할 수 있는 수준까지 도달했다는 평가다. 대형 모델에 집중된 기존 AI 개발 트렌드와 달리, 소형·고효율 모델 개발 경쟁이 본격화될 것으로 전망된다.",
+        "url": "https://www.theregister.com/2026/04/24/deepseek_v4/",
+        "source": "Hacker News",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-27T05:52:45+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_ai_06",
+        "title": "AI가 일자리를 빼앗는 방식: 파레토 원칙",
+        "excerpt": "AI가 일자리 전체를 대체하는 것이 아니라, 각 직군의 핵심 업무 20%를 처리함으로써 전체 가치의 80%를 가져가는 파레토 방식으로 고용 시장에 영향을 미치고 있다는 분석이다.",
+        "body": "AI가 일자리를 대체하는 방식은 직업 전체를 한 번에 없애는 것이 아니라, 각 직군에서 가장 중요한 핵심 업무들만 선택적으로 자동화하는 파레토 패턴을 따르고 있다는 분석이 나왔다. 업무의 20%에 해당하는 고부가가치 작업을 AI가 처리하면서 실질적으로 해당 직군 가치의 80%를 가져가는 구조가 형성되고 있다. 이로 인해 직업이 사라지기보다는 역할이 축소·변형되는 형태로 노동 시장이 재편될 것으로 전망된다.",
+        "url": "https://www.msn.com/en-us/money/smallbusiness/the-pareto-principle-is-how-ai-actually-takes-jobs/ar-AA212n3N",
+        "source": "Hacker News",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-27T05:41:11+09:00",
+        "readTime": 5,
+        "imageGradient": 1
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_dev_01",
+        "title": "Clarc: 비개발자도 Claude Code를 쓸 수 있게 만든 macOS 앱",
+        "excerpt": "개발자가 아닌 동료들도 Claude Code를 쉽게 활용할 수 있도록 만든 macOS 전용 GUI 앱 Clarc가 공개됐다. 터미널 없이 Claude Code의 강력한 기능을 시각적 인터페이스로 제공한다.",
+        "body": "Claude Code는 개발자들 사이에서 코딩 생산성 혁신 도구로 자리잡았지만, 터미널 인터페이스라는 진입 장벽이 비개발자들의 접근을 막아왔다. Clarc는 이 문제를 해결하기 위해 개발된 macOS 전용 앱으로, 직관적인 GUI를 통해 디자이너, 기획자, 마케터 등 비개발 직군도 Claude Code의 강력한 AI 코딩 기능을 활용할 수 있도록 한다. Claude Code 에코시스템의 접근성을 획기적으로 높이는 도구로 주목받고 있다.",
+        "url": "https://news.hada.io/topic?id=28905",
+        "source": "GeekNews",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-26T22:26:50+09:00",
+        "readTime": 4,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_dev_02",
+        "title": "Turbo Vision 2.0: 볼랜드 TUI 프레임워크의 현대적 부활",
+        "excerpt": "1990년대 볼랜드(Borland)의 텍스트 기반 UI 프레임워크 Turbo Vision이 현대 C++로 완전히 재작성되어 2.0 버전으로 돌아왔다. 터미널 UI 개발에 관심 있는 개발자들의 눈길을 끌고 있다.",
+        "body": "볼랜드의 클래식 텍스트 기반 UI 프레임워크 Turbo Vision이 현대 C++로 재작성된 2.0 버전을 공개했다. 레트로 감성의 TUI(텍스트 유저 인터페이스) 개발을 위한 이 프레임워크는 최신 C++ 표준을 완벽 지원하며, 크로스플랫폼으로 Linux, macOS, Windows에서 모두 동작한다. 서버 관리 도구, CLI 앱 등 터미널 UI가 필요한 개발에 강력한 선택지가 될 것으로 보인다.",
+        "url": "https://news.hada.io/topic?id=28913",
+        "source": "GeekNews",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-27T04:47:31+09:00",
+        "readTime": 4,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_dev_03",
+        "title": "Niri 26.04: 스크롤형 타일링 Wayland 컴포지터 신버전 출시",
+        "excerpt": "무한 스크롤 방식의 독특한 타일링 레이아웃을 지원하는 Wayland 컴포지터 Niri가 26.04 버전을 출시했다. 생산성 중심의 Linux 데스크톱 환경을 추구하는 사용자들 사이에서 인기가 높다.",
+        "body": "스크롤형 타일링 방식으로 화면을 관리하는 독특한 Wayland 컴포지터 Niri의 26.04 버전이 출시됐다. 기존 타일링 윈도우 매니저와 달리, 창들을 가로로 무한 스크롤할 수 있는 방식을 채택해 멀티태스킹 환경에서 직관적인 화면 관리를 가능케 한다. 이번 업데이트에서는 성능 개선과 함께 다양한 커스터마이징 옵션이 추가되어 Linux 파워 유저들 사이에서 큰 호응을 얻고 있다.",
+        "url": "https://news.hada.io/topic?id=28911",
+        "source": "GeekNews",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-27T02:56:04+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_dev_04",
+        "title": "AI 코딩 보조 도구로 포기했던 사이드 프로젝트 되살리기",
+        "excerpt": "오랫동안 방치된 개인 프로젝트를 AI 코딩 도구의 도움으로 다시 완성한 개발자의 경험담이 공유됐다. AI 보조 도구가 '기술 부채'와 '동기 저하'의 장벽을 어떻게 극복하는지 보여준다.",
+        "body": "몇 달 혹은 몇 년간 방치된 사이드 프로젝트들을 AI 코딩 보조 도구를 활용해 성공적으로 완성한 개발자들의 사례가 주목받고 있다. 코드베이스를 빠르게 파악하고 쌓인 기술 부채를 정리하며 막혔던 부분의 해결책을 제시하는 등, AI 도구들이 프로젝트 재개의 강력한 촉매제 역할을 하고 있다. 완성하지 못한 프로젝트가 쌓인 개발자라면 AI 보조 도구와 함께 새 출발을 고려해볼 만하다.",
+        "url": "https://news.hada.io/topic?id=28904",
+        "source": "GeekNews",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-26T21:35:35+09:00",
+        "readTime": 4,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_dev_05",
+        "title": "Mdlens: Markdown 기반 RAG의 토큰 비용 절감 및 검색 정확도 향상 도구",
+        "excerpt": "Markdown 문서를 대상으로 하는 RAG(검색 증강 생성) 파이프라인에서 토큰 사용량을 줄이고 검색 품질을 높여주는 오픈소스 도구 Mdlens가 공개됐다.",
+        "body": "마크다운 문서 기반의 RAG 파이프라인에서 불필요한 토큰 소비를 줄이고 검색 정확도를 높이는 도구 Mdlens가 오픈소스로 공개됐다. 마크다운의 헤더, 코드블록, 링크 등 구조적 특성을 활용해 문서를 효율적으로 분할하고 임베딩함으로써, 기존 텍스트 기반 청킹 방식 대비 검색 품질과 비용 효율성을 동시에 개선한다. LLM 기반 문서 처리 비용 절감에 관심 있는 개발자들에게 유용한 도구다.",
+        "url": "https://github.com/Dreeseaw/mdlens",
+        "source": "Hacker News",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-27T05:54:46+09:00",
+        "readTime": 4,
+        "imageGradient": 2
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_bt_01",
+        "title": "Google, Anthropic에 최대 400억 달러 투자 — AI 경쟁 가열",
+        "excerpt": "Google이 Anthropic에 현금과 컴퓨팅 자원을 포함해 최대 400억 달러(약 55조원) 규모의 투자를 단행한다. OpenAI에 집중된 Microsoft에 맞서는 Google-Anthropic 동맹이 AI 전쟁의 핵심 축으로 부상하고 있다.",
+        "body": "Google이 Anthropic에 현금 및 Google Cloud 컴퓨팅 자원을 포함해 최대 400억 달러 규모의 대규모 투자를 진행한다고 알려졌다. 이는 Microsoft가 OpenAI에 투자한 규모에 맞먹는 것으로, 빅테크 기업들의 AI 패권 경쟁이 천문학적인 자본 전쟁으로 번지고 있음을 보여준다. Anthropic의 Claude 시리즈와 Google의 인프라·데이터가 결합될 경우, AI 시장의 판도가 크게 바뀔 수 있다는 전망이 나오고 있다.",
+        "url": "https://news.hada.io/topic?id=28912",
+        "source": "GeekNews",
+        "category": "big_tech",
+        "publishedAt": "2026-04-27T04:44:31+09:00",
+        "readTime": 5,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_bt_02",
+        "title": "SpaceX, Starlink 수익을 AI가 소진 — 내부 재원 충돌",
+        "excerpt": "SpaceX 내부에서 Starlink 위성 인터넷 사업의 수익을 AI 관련 프로젝트들이 빠르게 소비하고 있다는 보도가 나왔다. 회사 내 사업 부문 간 자원 배분을 둘러싼 긴장감이 고조되고 있다.",
+        "body": "SpaceX의 Starlink 사업이 흑자를 내고 있지만, 내부의 AI 관련 프로젝트들이 그 수익을 빠른 속도로 소진하고 있다는 내부 보고가 외부에 알려졌다. Elon Musk의 AI 스타트업 xAI와의 연계 프로젝트, Starlink 시스템의 자율화를 위한 AI 개발 등에 막대한 비용이 투입되면서, Starlink 사업부 직원들 사이에서 자원 배분에 대한 불만이 나오고 있다. 이는 AI 개발에 집중된 투자가 기존 사업의 성장을 제약할 수 있다는 우려를 제기한다.",
+        "url": "https://www.reuters.com/business/finance/spacex-ai-is-burning-cash-that-starlink-earns-2026-04-24/",
+        "source": "Hacker News",
+        "category": "big_tech",
+        "publishedAt": "2026-04-27T05:53:52+09:00",
+        "readTime": 4,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_bt_03",
+        "title": "Chrome Dev 채널 149.0.7808.0 업데이트 — Windows/Mac/Linux",
+        "excerpt": "Google Chrome의 개발자 채널이 Windows, Mac, Linux 전 플랫폼에 걸쳐 149.0.7808.0 버전으로 업데이트됐다. 개발자들을 위한 최신 웹 기술 실험 및 버그 수정이 포함됐다.",
+        "body": "Google Chrome Dev 채널이 149.0.7808.0 버전으로 업데이트되어 Windows, Mac, Linux 플랫폼에 배포됐다. Dev 채널은 최신 기능을 가장 먼저 경험할 수 있는 채널로, 웹 개발자와 얼리 어답터들이 새로운 웹 API와 브라우저 기능을 테스트하는 데 활용한다. 이번 업데이트에는 일부 변경 사항이 포함되어 있으며 안정성 및 보안 수정이 이루어졌다.",
+        "url": "http://chromereleases.googleblog.com/2026/04/chrome-dev-for-desktop-update_0697876420.html",
+        "source": "Google Chrome Releases",
+        "category": "big_tech",
+        "publishedAt": "2026-04-25T07:58:33+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "운영체제와 사용자 인터페이스를 근본부터 재설계해야 할 때가 됐다는 생각이 든다. (인터넷도 마찬가지다. 사람과 AI 에이전트가 동등하게 사용할 수 있는 프로토콜이 있어야 한다.)",
+        "context": "OpenAI CEO Sam Altman이 AI 에이전트 시대를 맞아 운영체제와 인터넷 프로토콜의 근본적 재설계 필요성을 언급했다. AI와 인간이 공존하는 새로운 컴퓨팅 패러다임에 대한 선도적 시각을 보여준다.",
+        "url": "https://x.com/sama/status/2048428561481265539",
+        "publishedAt": "2026-04-26T15:46:41.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "\"AGI 이후 시대엔 아무도 일 안 하고 경제가 붕괴될 것\" vs \"Codex의 GPT-5.5가 너무 좋아서 잠자는 시간이 아까울 정도라 폴리파식 수면으로 전환 중\"",
+        "context": "AGI 전후 사회에 대한 상반된 두 가지 반응을 유머러스하게 대비시킨 트윗이다. Codex의 GPT-5.5가 그만큼 생산성 혁신을 가져오고 있음을 간접적으로 나타낸다.",
+        "url": "https://x.com/sama/status/2048425953063637490",
+        "publishedAt": "2026-04-26T15:37:00.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "Codex는 누구나 무언가를 만들 수 있게 해준다",
+        "context": "OpenAI 공동창업자 Greg Brockman이 Codex의 민주화 가능성을 강조했다. 코딩 경험 없는 누구나 AI를 통해 소프트웨어를 만들 수 있는 미래를 시사한다.",
+        "url": "https://x.com/gdb/status/2048469260230435020",
+        "publishedAt": "2026-04-26T18:28:25.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "GPT Image 2는 상세한 프롬프트에서도 다양한 이미지를 생성할 수 있다",
+        "context": "GPT Image 2가 복잡한 프롬프트에서도 다양하고 일관된 이미지를 생성할 수 있는 능력을 Greg Brockman이 직접 소개했다. OpenAI의 이미지 생성 기술 발전을 보여주는 트윗이다.",
+        "url": "https://x.com/gdb/status/2048449695622586576",
+        "publishedAt": "2026-04-26T17:10:40.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "임상의를 위한 ChatGPT가 새로운 활용 사례들을 열어가고 있다",
+        "context": "Greg Brockman(@gdb)의 트윗으로 AI 기술 분야 동향을 반영한다.",
+        "url": "https://x.com/gdb/status/2048222688452231491",
+        "publishedAt": "2026-04-26T02:08:37.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "GPT Image 2로 손상된 사진을 복원하는 사례",
+        "context": "Greg Brockman(@gdb)의 트윗으로 AI 기술 분야 동향을 반영한다.",
+        "url": "https://x.com/gdb/status/2048184797374325031",
+        "publishedAt": "2026-04-25T23:38:03.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "GPT Image 2로 자신이나 가족 사진의 스타일을 바꾸는 사례",
+        "context": "Greg Brockman(@gdb)의 트윗으로 AI 기술 분야 동향을 반영한다.",
+        "url": "https://x.com/gdb/status/2048182986416578796",
+        "publishedAt": "2026-04-25T23:30:52.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "Kenton Varda",
+        "handle": "KentonVarda",
+        "content": "나: GPT 5.5야, 이 Worker가 왜 실패하는 거야? / GPT 5.5: (생각 중) 6년 전 당신이 쓴 Cap'n Proto RPC 시스템 주석의 깊은 코너 케이스 때문입니다. 성능 이슈만인 줄 알았는데 실제 정확성에도 영향을 미칩니다.",
+        "context": "Cloudflare Workers의 핵심 개발자인 Kenton Varda가 GPT-5.5를 활용해 수년 된 버그의 원인을 단번에 찾아낸 실제 경험을 공유했다. AI가 코드베이스의 깊은 컨텍스트를 이해하는 수준을 잘 보여준다.",
+        "url": "https://x.com/KentonVarda/status/2047788670728495142",
+        "publishedAt": "2026-04-24T21:23:59.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_009",
+        "author": "Jack Clark",
+        "handle": "jackclarkSF",
+        "content": "이번 주 Import AI를 건너뛴다. AI 발전과 관련한 긴 에세이를 작업 중이며 다음 호에 나올 것이다.",
+        "context": "Anthropic 공동창업자 Jack Clark이 이번 주 뉴스레터 Import AI를 건너뛰고 AI 발전에 관한 장문의 에세이를 준비 중임을 밝혔다. 현재 AI 업계의 급격한 변화를 깊이 분석하려는 의도로 보인다.",
+        "url": "https://x.com/jackclarkSF/status/2048460312505094169",
+        "publishedAt": "2026-04-26T17:52:51.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_010",
+        "author": "Amanda Askell",
+        "handle": "AmandaAskell",
+        "content": "비행 시뮬레이터에서 배운 것: 아마추어 세스나 파일럿은 좀 지루하지만 아마추어 전투기 파일럿은 정말 재미있을 것 같다.",
+        "context": "Anthropic의 AI 연구자 Amanda Askell이 비행 시뮬레이터 체험을 통해 느낀 소감을 공유했다. 기술이 아마추어에게도 전문가 수준의 경험을 제공하는 현상을 상징적으로 표현한 트윗이다.",
+        "url": "https://x.com/AmandaAskell/status/2048294481955631163",
+        "publishedAt": "2026-04-26T06:53:54.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "이번주는 특히 AI 업계는 충격적인 소식으로 가득했습니다.\n불과 며칠 사이, 일과 일상을 근본부터 뒤흔드는 충격적인\n업데이트가 이번 주에도 연이어 나왔는데요.\n이 정보 격차는 늦기 전에 반드시 따라잡아야 합니다.\n놓치면 손해인 최신 AI 업데이트 20가지를 정리했습니다 🧵👇🏻",
+        "context": "AI 전문 Threads 채널 choi.openai가 이번 주 AI 업계의 주요 업데이트 20가지를 한국어로 정리해 공유했다. GPT-5.5 출시 등 충격적인 AI 소식들이 가득한 한 주였음을 전했다.",
+        "url": "https://www.threads.net/@choi.openai/post/DXmGY5Vj1oh",
+        "publishedAt": "2026-04-26T12:43:44.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "1/ 오픈AI가 GPT-5.5를 발표했습니다. 성능과 특징을 한 번에 정리한 글입니다.",
+        "context": "GPT-5.5 출시 소식을 한국어로 가장 빠르게 정리해 공유한 choi.openai 채널의 스레드다. 현존 최강 모델의 성능과 특징을 19개 스레드에 걸쳐 상세히 분석했다.",
+        "url": "https://www.threads.net/@choi.openai/post/DXmGZeOj8Ge",
+        "publishedAt": "2026-04-26T12:43:48.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_003",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "가상 세계에 '대한민국'을 통째로 복제해서 돌려보는 날이 머지않은 것 같습니다. 엔비디아에서 대규모 한국어 페르소나 데이터셋인 'Nemotron-Personas-Korea'를 공개해 허깅페이스 1위를 기록했습니다. 통계청을 비롯한 실제 공공 데이터를 바탕으로 성별과 나이는 물론, 거주 지역, 직업, 교육 수준까지 한국 사회의 실제 인구 분포를 그대로 반영한 700만 개의 페르소나를 정밀하게 합성해냈는데요.",
+        "context": "NVIDIA가 한국 사회의 인구 구조를 반영한 700만 개 규모의 한국어 페르소나 데이터셋 'Nemotron-Personas-Korea'를 공개해 허깅페이스 1위를 기록했다는 소식을 choi.openai가 소개했다.",
+        "url": "https://www.threads.net/@choi.openai/post/DXl6mY_jjZC",
+        "publishedAt": "2026-04-26T11:00:43.000Z",
+        "platform": "threads"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "비주얼-언어-액션(VLA) 모델의 작동 원리 [토론]",
+        "originalTitle": "How Visual-Language-Action (VLA) Models Work [D]",
+        "summary": "로보틱스와 AI를 결합한 VLA 모델이 어떻게 시각 정보와 언어 명령을 행동으로 변환하는지 심층 토론이 이뤄지고 있다. 멀티모달 AI의 최전선에 있는 기술을 이해하는 좋은 자료다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1svhwtz/how_visuallanguageaction_vla_models_work_d/",
+        "subreddit": "MachineLearning",
+        "score": 32,
+        "publishedAt": "2026-04-26T02:13:41+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "오픈소스 모델이 많음에도 대형 ML 연구소만 널리 쓰이는 이유는? [토론]",
+        "originalTitle": "Why do only big ML labs dominate widely-used models despite many open-source pretrained models smaller labs could do RL on? [D]",
+        "summary": "r/MachineLearning의 인기 게시물로, 해당 커뮤니티에서 큰 호응을 얻고 있다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1swa26o/why_do_only_big_ml_labs_dominate_widelyused/",
+        "subreddit": "MachineLearning",
+        "score": 28,
+        "publishedAt": "2026-04-27T00:09:10+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "교수님과 '협업'해서 논문 연구비를 받는 방법 [토론]",
+        "originalTitle": "How to find to 'collaborate' with Professors to get funding for my research papers? [D]",
+        "summary": "r/MachineLearning의 인기 게시물로, 해당 커뮤니티에서 큰 호응을 얻고 있다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1sv1473/how_to_find_to_collaborate_with_professors_to_get/",
+        "subreddit": "MachineLearning",
+        "score": 26,
+        "publishedAt": "2026-04-25T12:37:32+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "HauhauCS, Heretic 저작권 침해 논란 속 검열 제거 패키지 공개",
+        "originalTitle": "HauhauCS (of \"Uncensored Aggressive\" fame) published an abliteration package that plagiarizes Heretic without attribution, and violates its license",
+        "summary": "r/LocalLLaMA의 인기 게시물로, 해당 커뮤니티에서 큰 호응을 얻고 있다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sw77p0/hauhaucs_of_uncensored_aggressive_fame_published/",
+        "subreddit": "LocalLLaMA",
+        "score": 489,
+        "publishedAt": "2026-04-26T22:13:26+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "Qwen3.6 35B A3B Heretic — 최고의 35B 모델 등장! (KLD 0.0015!)",
+        "originalTitle": "Qwen3.6 35B A3B Heretic (KLD 0.0015!) Incredible model. Best 35B I have found!",
+        "summary": "r/LocalLLaMA의 인기 게시물로, 해당 커뮤니티에서 큰 호응을 얻고 있다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sw5fb7/qwen36_35b_a3b_heretic_kld_00015_incredible_model/",
+        "subreddit": "LocalLLaMA",
+        "score": 312,
+        "publishedAt": "2026-04-26T20:48:25+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "Qwen3.6-27B-INT4, RTX 5090에서 256k 컨텍스트로 초당 100 토큰 처리",
+        "originalTitle": "Qwen3.6-27B-INT4 clocking 100 tps with 256k context length on 1x RTX 5090 via vllm 0.19",
+        "summary": "r/LocalLLaMA의 인기 게시물로, 해당 커뮤니티에서 큰 호응을 얻고 있다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sw21op/qwen3627bint4_clocking_100_tps_with_256k_context/",
+        "subreddit": "LocalLLaMA",
+        "score": 206,
+        "publishedAt": "2026-04-26T17:37:18+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "팔란티어 직원들, 회사의 '파시즘화'를 경고 — 슬랙 메시지·인터뷰로 내부 혼란 드러나",
+        "originalTitle": "Palantir employees are talking about company's \"descent into fascism\".  Slack messages, interviews with current and former works paint picture of company in turmoil.",
+        "summary": "r/artificial의 인기 게시물로, 해당 커뮤니티에서 큰 호응을 얻고 있다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1svitaf/palantir_employees_are_talking_about_companys/",
+        "subreddit": "artificial",
+        "score": 614,
+        "publishedAt": "2026-04-26T02:48:39+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "트럼프, 미국 국립과학위원회 전원 해임",
+        "originalTitle": "Trump fires the entire National Science Board",
+        "summary": "트럼프 행정부가 미국의 과학 정책을 감독하는 독립 기관인 국립과학위원회(NSB) 전원을 해임했다. 미국 과학 연구 기반과 AI 정책에 미칠 파장이 주목된다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1svthww/trump_fires_the_entire_national_science_board/",
+        "subreddit": "artificial",
+        "score": 490,
+        "publishedAt": "2026-04-26T10:08:56+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "Gen Alpha boys are preferring “AI girlfriends” over real ones",
+        "originalTitle": "Gen Alpha boys are preferring “AI girlfriends” over real ones",
+        "summary": "r/artificial의 인기 게시물로, 해당 커뮤니티에서 큰 호응을 얻고 있다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1svesyt/gen_alpha_boys_are_preferring_ai_girlfriends_over/",
+        "subreddit": "artificial",
+        "score": 207,
+        "publishedAt": "2026-04-26T00:12:53+09:00"
+      },
+      {
+        "id": "reddit_010",
+        "title": "Stanford researchers fed a language model a DNA sequence and asked it to create a new virus. It wrote hundreds of them, and 16 worked. One  used a protein that doesn't exist in any known organism on Earth.",
+        "originalTitle": "Stanford researchers fed a language model a DNA sequence and asked it to create a new virus. It wrote hundreds of them, and 16 worked. One  used a protein that doesn't exist in any known organism on Earth.",
+        "summary": "r/OpenAI의 인기 게시물로, 해당 커뮤니티에서 큰 호응을 얻고 있다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1sw0vcf/stanford_researchers_fed_a_language_model_a_dna/",
+        "subreddit": "OpenAI",
+        "score": 609,
+        "publishedAt": "2026-04-26T16:29:10+09:00"
+      },
+      {
+        "id": "reddit_011",
+        "title": "OpenAI 모델 출시 타임라인 정리",
+        "originalTitle": "OpenAI model releases over time",
+        "summary": "OpenAI가 그간 출시한 모델들의 타임라인을 시각화한 자료가 공유됐다. GPT-1부터 GPT-5.5까지의 발전 과정과 출시 빈도가 AI 발전 속도를 한눈에 보여준다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1svknex/openai_model_releases_over_time/",
+        "subreddit": "OpenAI",
+        "score": 383,
+        "publishedAt": "2026-04-26T03:58:26+09:00"
+      },
+      {
+        "id": "reddit_012",
+        "title": "OpenAI caught astroturfing - they created a fake news site, with stories by fake reporters, to attack AI safety advocates",
+        "originalTitle": "OpenAI caught astroturfing - they created a fake news site, with stories by fake reporters, to attack AI safety advocates",
+        "summary": "r/OpenAI의 인기 게시물로, 해당 커뮤니티에서 큰 호응을 얻고 있다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1sw6d1q/openai_caught_astroturfing_they_created_a_fake/",
+        "subreddit": "OpenAI",
+        "score": 158,
+        "publishedAt": "2026-04-26T21:34:18+09:00"
+      },
+      {
+        "id": "reddit_013",
+        "title": "반박하는 게 맞습니다 — Claude의 답변",
+        "originalTitle": "You're right to push back.",
+        "summary": "r/ClaudeAI에서 Claude가 사용자의 반박을 인정하고 입장을 수정하는 응답이 화제가 됐다. AI의 자기 수정 능력과 적절한 반박 수용에 대한 토론이 이어지고 있다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1sw0xbo/youre_right_to_push_back/",
+        "subreddit": "ClaudeAI",
+        "score": 4831,
+        "publishedAt": "2026-04-26T16:32:13+09:00"
+      },
+      {
+        "id": "reddit_014",
+        "title": "PSA: The string \"HERMES.md\" in your git commit history silently routes Claude Code billing to extra usage — cost me $200",
+        "originalTitle": "PSA: The string \"HERMES.md\" in your git commit history silently routes Claude Code billing to extra usage — cost me $200",
+        "summary": "r/ClaudeAI의 인기 게시물로, 해당 커뮤니티에서 큰 호응을 얻고 있다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1svdm1w/psa_the_string_hermesmd_in_your_git_commit/",
+        "subreddit": "ClaudeAI",
+        "score": 1268,
+        "publishedAt": "2026-04-25T23:25:37+09:00"
+      },
+      {
+        "id": "reddit_015",
+        "title": "개인 용도로 Claude 사용하기",
+        "originalTitle": "Claude for Personal USE",
+        "summary": "Claude를 개인 용도로 어떻게 활용하고 있는지 커뮤니티 사용자들의 다양한 사용 사례가 공유됐다. 학습, 일정 관리, 글쓰기 등 광범위한 개인 생산성 활용법이 논의됐다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1svxhn9/claude_for_personal_use/",
+        "subreddit": "ClaudeAI",
+        "score": 401,
+        "publishedAt": "2026-04-26T13:27:12+09:00"
+      },
+      {
+        "id": "reddit_016",
+        "title": "내 오디오 인터페이스에 기본으로 SSH가 활성화되어 있었다",
+        "originalTitle": "My audio interface has ssh enabled by default",
+        "summary": "개인이 구매한 오디오 인터페이스 기기에 SSH가 기본으로 활성화되어 있음을 발견한 사례가 공유됐다. 하드웨어 보안에 대한 경각심을 일깨우는 흥미로운 사례다.",
+        "url": "https://www.reddit.com/r/programming/comments/1sutiw3/my_audio_interface_has_ssh_enabled_by_default/",
+        "subreddit": "programming",
+        "score": 198,
+        "publishedAt": "2026-04-25T06:56:46+09:00"
+      },
+      {
+        "id": "reddit_017",
+        "title": "Java 가상 스레드: 핀닝 문제와 Java 24의 해결책",
+        "originalTitle": "Java Virtual Threads: The Pinning Problem and the Fix in Java 24",
+        "summary": "Java의 가상 스레드(Virtual Threads)가 synchronized 블록에서 발생하는 핀닝(Pinning) 문제와 이를 Java 24에서 해결한 방식을 기술적으로 설명한 글이 프로그래머들의 호응을 얻었다.",
+        "url": "https://www.reddit.com/r/programming/comments/1svqsa4/java_virtual_threads_the_pinning_problem_and_the/",
+        "subreddit": "programming",
+        "score": 168,
+        "publishedAt": "2026-04-26T08:04:56+09:00"
+      },
+      {
+        "id": "reddit_018",
+        "title": "Same algorithm, 16x faster: optimizing a vector search engine’s hot path",
+        "originalTitle": "Same algorithm, 16x faster: optimizing a vector search engine’s hot path",
+        "summary": "r/programming의 인기 게시물로, 해당 커뮤니티에서 큰 호응을 얻고 있다.",
+        "url": "https://www.reddit.com/r/programming/comments/1swbm8a/same_algorithm_16x_faster_optimizing_a_vector/",
+        "subreddit": "programming",
+        "score": 98,
+        "publishedAt": "2026-04-27T01:08:07+09:00"
+      },
+      {
+        "id": "reddit_019",
+        "title": "요즘 뉴스가 딱 이런 느낌",
+        "originalTitle": "The recent news just feels like this.",
+        "summary": "r/singularity 커뮤니티에서 요즘 AI 뉴스의 홍수 속에 느끼는 압도감을 유머러스하게 표현한 게시물이 큰 호응을 얻었다. 가속화되는 AI 발전 속도에 대한 집단적 경험을 나타낸다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1sv3r7p/the_recent_news_just_feels_like_this/",
+        "subreddit": "singularity",
+        "score": 3028,
+        "publishedAt": "2026-04-25T14:52:38+09:00"
+      },
+      {
+        "id": "reddit_020",
+        "title": "Definitive proof shows we are indeed accelerating towards singularity",
+        "originalTitle": "Definitive proof shows we are indeed accelerating towards singularity",
+        "summary": "r/singularity의 인기 게시물로, 해당 커뮤니티에서 큰 호응을 얻고 있다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1suv8h5/definitive_proof_shows_we_are_indeed_accelerating/",
+        "subreddit": "singularity",
+        "score": 2073,
+        "publishedAt": "2026-04-25T08:06:48+09:00"
+      },
+      {
+        "id": "reddit_021",
+        "title": "이번 달 AI 발전 속도가 느껴지는 방식",
+        "originalTitle": "How it feels this month",
+        "summary": "이번 달 AI 발전의 속도와 충격을 밈과 유머로 표현한 게시물이 r/singularity 상위권을 차지했다. GPT-5.5 출시 등 연이은 AI 발전으로 느끼는 집단적 당혹감을 잘 담아냈다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1svkfu9/how_it_feels_this_month/",
+        "subreddit": "singularity",
+        "score": 772,
+        "publishedAt": "2026-04-26T03:50:25+09:00"
+      },
+      {
+        "id": "reddit_022",
+        "title": "What happened to all the blockchain developers and the hype?",
+        "originalTitle": "What happened to all the blockchain developers and the hype?",
+        "summary": "r/ExperiencedDevs의 인기 게시물로, 해당 커뮤니티에서 큰 호응을 얻고 있다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1svyan6/what_happened_to_all_the_blockchain_developers/",
+        "subreddit": "ExperiencedDevs",
+        "score": 485,
+        "publishedAt": "2026-04-26T14:09:18+09:00"
+      },
+      {
+        "id": "reddit_023",
+        "title": "내 실력보다 높은 포지션으로 취업해서 스트레스받고 두렵다",
+        "originalTitle": "Hired above my level and am stressed and scared",
+        "summary": "자신의 실력보다 높은 수준의 포지션으로 취업한 개발자가 느끼는 두려움과 스트레스를 공유한 글에 수많은 시니어 개발자들이 공감과 조언을 전했다. 임포스터 증후군과 직장 내 성장에 대한 진솔한 이야기가 담겼다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1swcq1h/hired_above_my_level_and_am_stressed_and_scared/",
+        "subreddit": "ExperiencedDevs",
+        "score": 133,
+        "publishedAt": "2026-04-27T01:48:45+09:00"
+      },
+      {
+        "id": "reddit_024",
+        "title": "UAE에서 회사 6곳 다녀보고 나서… 이게 정상인가, 아니면 내가 불운한 건가?",
+        "originalTitle": "6 companies in UAE later… is this normal or am I just unlucky?",
+        "summary": "UAE에서 6개 회사를 경험한 개발자가 불합리한 근무 환경이 일반적인지 묻는 글에 다양한 해외 취업 경험담이 모였다. 중동 IT 취업 시장의 현실을 엿볼 수 있는 토론이다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1svferv/6_companies_in_uae_later_is_this_normal_or_am_i/",
+        "subreddit": "ExperiencedDevs",
+        "score": 81,
+        "publishedAt": "2026-04-26T00:36:56+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_qb_01",
+        "title": "Friendster를 3만 달러에 샀습니다 — 그 다음은?",
+        "excerpt": "한때 수억 명이 사용하던 소셜네트워크 Friendster의 도메인을 3만 달러에 매입한 사람이 앞으로의 계획을 공유했다. 레거시 인터넷 자산의 가치와 향수 마케팅 가능성을 탐색하는 흥미로운 사례다.",
+        "url": "https://ca98am79.medium.com/i-bought-friendster-for-30k-heres-what-i-m-doing-with-it-d5e8ddb3991d",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-27T05:41:06+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_qb_02",
+        "title": "남편 장례식에 홀로그램으로 등장시키다",
+        "excerpt": "사별 후 고인의 AI 홀로그램을 장례식에서 구현한 사례가 공유됐다. AI 메모리얼 기술의 윤리적·감성적 논쟁을 불러일으키고 있다.",
+        "url": "https://www.bbc.com/news/articles/cm29qj3e294o",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-27T05:51:02+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_qb_03",
+        "title": "Claude Code 루틴으로 개인 재정을 관리할 수 있을까?",
+        "excerpt": "Claude Code를 활용해 개인 재정 데이터를 분석하고 지출 패턴을 추적하는 자동화 루틴을 구축한 실험 사례가 공유됐다.",
+        "url": "https://news.hada.io/topic?id=28898",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-26T11:21:20+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_qb_04",
+        "title": "CSS를 질의 언어로 보기",
+        "excerpt": "CSS 선택자가 데이터 질의 언어로서의 성격을 갖는다는 독특한 관점의 글이 화제다. CSS를 단순 스타일링 도구가 아닌 선언적 쿼리 시스템으로 재해석한다.",
+        "url": "https://news.hada.io/topic?id=28897",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-26T11:17:16+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_qb_05",
+        "title": "USB 치트시트: 규격별 속도·전력 한눈에 정리",
+        "excerpt": "USB 2.0부터 USB4까지, 각 규격의 전송 속도, 전력 공급 능력, 커넥터 종류를 한 페이지로 정리한 치트시트가 공유됐다. 개발자와 하드웨어 엔지니어에게 유용한 참고 자료다.",
+        "url": "https://news.hada.io/topic?id=28903",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-26T17:34:04+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_qb_06",
+        "title": "grdpwasm: 브라우저에서 바로 쓰는 웹 기반 RDP 클라이언트",
+        "excerpt": "별도 프로그램 설치 없이 웹 브라우저에서 원격 데스크톱(RDP) 접속을 가능케 하는 WebAssembly 기반 클라이언트 grdpwasm이 공개됐다.",
+        "url": "https://news.hada.io/topic?id=28899",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-26T11:22:48+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_qb_07",
+        "title": "플레인 텍스트는 수십 년을 살아남았고, 앞으로도 남을 것이다",
+        "excerpt": "화려한 마크업 언어와 포맷들이 명멸하는 와중에도 플레인 텍스트가 가장 오래 살아남는 정보 저장 형식임을 역설한 글이 공감을 얻고 있다.",
+        "url": "https://news.hada.io/topic?id=28900",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-26T12:33:31+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      }
+    ]
+  }
+}
