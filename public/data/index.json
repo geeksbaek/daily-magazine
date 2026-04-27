@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-04-28",
+      "issueNumber": 31,
+      "mainHeadline": "OpenAI-마이크로소프트 파트너십 전면 개편 & Codex 에이전트 출시 — AI 클라우드 독점 시대의 종언",
+      "headlines": [
+        "GitHub Copilot 사용량 기반 요금제 전환 — Claude 모델은 9배 비용 증가",
+        "GPT-5.5, MineBench에서 Claude Opus 4.6 추월 — AI 모델 순위 지각변동",
+        "구글 딥마인드, 대한민국과 공식 AI 파트너십 체결"
+      ]
+    },
+    {
       "date": "2026-04-27",
       "issueNumber": 30,
       "mainHeadline": "GPT-5.5 출시 & Google, Anthropic에 400억 달러 투자 — AI 패권 전쟁 새 국면",
@@ -295,5 +305,5 @@
       ]
     }
   ],
-  "latestIssue": 30
+  "latestIssue": 31
 }

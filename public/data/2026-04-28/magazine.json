@@ -1,0 +1,689 @@
+{
+  "date": "2026-04-28",
+  "issueNumber": 31,
+  "cover": {
+    "mainHeadline": "OpenAI-마이크로소프트 파트너십 전면 개편 & Codex 에이전트 출시 — AI 클라우드 독점 시대의 종언",
+    "mainExcerpt": "OpenAI가 마이크로소프트와의 독점 클라우드 계약을 해제하며 구글 클라우드·AWS에도 서비스를 공급하기 시작합니다. 동시에 클라우드 기반 소프트웨어 엔지니어링 에이전트 Codex가 정식 출시되어 AI 기반 개발의 새 시대를 열었습니다.",
+    "headlines": [
+      "GitHub Copilot 사용량 기반 요금제 전환 — Claude 모델은 9배 비용 증가",
+      "GPT-5.5, MineBench에서 Claude Opus 4.6 추월 — AI 모델 순위 지각변동",
+      "구글 딥마인드, 대한민국과 공식 AI 파트너십 체결"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_ai_001",
+      "title": "OpenAI-마이크로소프트 파트너십 전면 개편 — 클라우드 독점 해제",
+      "excerpt": "OpenAI가 마이크로소프트와의 파트너십을 대폭 재정립했습니다. 이제 OpenAI는 Azure 독점에서 벗어나 구글 클라우드, AWS 등 모든 클라우드에서 서비스를 제공할 수 있게 됩니다.",
+      "body": "OpenAI와 마이크로소프트가 맺어온 독점 클라우드 계약이 공식적으로 종료됩니다. 마이크로소프트는 2032년까지 OpenAI 모델 접근권을 보장받지만, OpenAI는 이제 구글 클라우드, AWS 등 어디서나 서비스를 운영할 수 있습니다. 2030년까지의 수익 공유 조항은 유지되지만, 독점 구조가 사라지면서 AI 클라우드 시장의 경쟁 구도가 본격적으로 재편될 전망입니다.",
+      "url": "https://openai.com/index/next-phase-of-microsoft-partnership",
+      "source": "OpenAI News",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-27T15:00:00+09:00",
+      "readTime": 8,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_ai_002",
+      "title": "OpenAI, 에이전트 오케스트레이션 오픈소스 스펙 \"Symphony\" 공개",
+      "excerpt": "OpenAI가 Codex를 위한 오픈소스 에이전트 오케스트레이터 Symphony를 공개했습니다. 이슈 트래커를 상시 작동하는 에이전트 시스템으로 전환하여 개발자가 검토에만 집중할 수 있게 합니다.",
+      "body": "Symphony는 GitHub 이슈를 Codex 에이전트가 자동으로 처리하는 오픈소스 오케스트레이터입니다. 개발팀은 모든 오픈 이슈에 에이전트를 배치하고, 인간은 결과를 검토하고 방향을 잡는 역할만 담당하게 됩니다. OpenAI가 이 스펙을 오픈소스로 공개하면서 에이전트 기반 개발 워크플로우의 표준화를 이끌 것으로 기대됩니다.",
+      "url": "https://openai.com/index/open-source-codex-orchestration-symphony",
+      "source": "OpenAI News",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-27T09:00:00+09:00",
+      "readTime": 8,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_dev_001",
+      "title": "GitHub Copilot, 사용량 기반 요금제로 전환",
+      "excerpt": "GitHub Copilot이 고정 구독 모델에서 사용량 기반 과금 방식으로 전환합니다. 코드 완성, 에이전트 기능에 따라 비용이 차별화됩니다.",
+      "body": "GitHub Copilot의 새로운 요금 체계는 기본 코드 완성 기능은 저렴하게 유지하되, Copilot Workspace 등 고급 에이전트 기능에 대해서는 실사용량만큼 청구하는 방식입니다. 이는 소규모 팀과 개인 개발자에게 유리할 수 있지만, 헤비 유저는 비용이 증가할 수 있습니다. 특히 Claude 모델을 사용하는 경우 9배에 달하는 가격 차등이 적용된다는 점에서 논란이 일고 있습니다.",
+      "url": "https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/",
+      "source": "GitHub Blog",
+      "category": "dev_tools",
+      "publishedAt": "2026-04-28T00:58:22+09:00",
+      "readTime": 8,
+      "imageGradient": 2
+    },
+    {
+      "id": "rss_ai_003",
+      "title": "구글 딥마인드, 대한민국과 AI 파트너십 체결",
+      "excerpt": "구글 딥마인드가 대한민국 정부와 공식 AI 파트너십을 체결했습니다. 한국의 AI 연구 및 산업 발전에 딥마인드의 기술력이 투입될 예정입니다.",
+      "body": "구글 딥마인드와 대한민국 정부의 이번 파트너십은 AI 연구 협력, 인재 양성, 산업 응용 분야를 포괄합니다. 한국은 반도체·제조업 기반의 AI 응용에 강점이 있으며, 딥마인드는 기초연구와 모델 개발 역량을 제공합니다. 이번 협약은 국가 단위 AI 역량 강화를 위한 글로벌 AI 기업과의 협력 모델 사례로 주목받고 있습니다.",
+      "url": "https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/",
+      "source": "Google DeepMind",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-27T16:00:06+09:00",
+      "readTime": 8,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_dev_003",
+      "title": "MCP(모델 컨텍스트 프로토콜) Java 생태계 진출 — 아키텍처 전략",
+      "excerpt": "Model Context Protocol이 Java 세계에 공식 진출합니다. Spring Boot, Quarkus 등 주요 Java 프레임워크와의 통합 전략이 공개됐습니다.",
+      "body": "MCP는 LLM이 외부 도구와 표준화된 방식으로 상호작용할 수 있게 하는 프로토콜입니다. Java 생태계에서는 Spring AI, LangChain4j 등을 통한 통합이 진행 중이며, 엔터프라이즈 환경에서 AI 에이전트를 기존 Java 백엔드에 연동하는 표준 패턴으로 자리잡을 것으로 보입니다.",
+      "url": "https://www.infoq.com/articles/mcp-java-architectural-strategy-llm-integrations/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "source": "InfoQ",
+      "category": "dev_tools",
+      "publishedAt": "2026-04-27T20:00:00+09:00",
+      "readTime": 3,
+      "imageGradient": 2
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_ai_001",
+        "title": "OpenAI-마이크로소프트 파트너십 전면 개편 — 클라우드 독점 해제",
+        "excerpt": "OpenAI가 마이크로소프트와의 파트너십을 대폭 재정립했습니다. 이제 OpenAI는 Azure 독점에서 벗어나 구글 클라우드, AWS 등 모든 클라우드에서 서비스를 제공할 수 있게 됩니다.",
+        "body": "OpenAI와 마이크로소프트가 맺어온 독점 클라우드 계약이 공식적으로 종료됩니다. 마이크로소프트는 2032년까지 OpenAI 모델 접근권을 보장받지만, OpenAI는 이제 구글 클라우드, AWS 등 어디서나 서비스를 운영할 수 있습니다. 2030년까지의 수익 공유 조항은 유지되지만, 독점 구조가 사라지면서 AI 클라우드 시장의 경쟁 구도가 본격적으로 재편될 전망입니다.",
+        "url": "https://openai.com/index/next-phase-of-microsoft-partnership",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-27T15:00:00+09:00",
+        "readTime": 8,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_ai_002",
+        "title": "OpenAI, 에이전트 오케스트레이션 오픈소스 스펙 \"Symphony\" 공개",
+        "excerpt": "OpenAI가 Codex를 위한 오픈소스 에이전트 오케스트레이터 Symphony를 공개했습니다. 이슈 트래커를 상시 작동하는 에이전트 시스템으로 전환하여 개발자가 검토에만 집중할 수 있게 합니다.",
+        "body": "Symphony는 GitHub 이슈를 Codex 에이전트가 자동으로 처리하는 오픈소스 오케스트레이터입니다. 개발팀은 모든 오픈 이슈에 에이전트를 배치하고, 인간은 결과를 검토하고 방향을 잡는 역할만 담당하게 됩니다. OpenAI가 이 스펙을 오픈소스로 공개하면서 에이전트 기반 개발 워크플로우의 표준화를 이끌 것으로 기대됩니다.",
+        "url": "https://openai.com/index/open-source-codex-orchestration-symphony",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-27T09:00:00+09:00",
+        "readTime": 8,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_ai_003",
+        "title": "구글 딥마인드, 대한민국과 AI 파트너십 체결",
+        "excerpt": "구글 딥마인드가 대한민국 정부와 공식 AI 파트너십을 체결했습니다. 한국의 AI 연구 및 산업 발전에 딥마인드의 기술력이 투입될 예정입니다.",
+        "body": "구글 딥마인드와 대한민국 정부의 이번 파트너십은 AI 연구 협력, 인재 양성, 산업 응용 분야를 포괄합니다. 한국은 반도체·제조업 기반의 AI 응용에 강점이 있으며, 딥마인드는 기초연구와 모델 개발 역량을 제공합니다. 이번 협약은 국가 단위 AI 역량 강화를 위한 글로벌 AI 기업과의 협력 모델 사례로 주목받고 있습니다.",
+        "url": "https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/",
+        "source": "Google DeepMind",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-27T16:00:06+09:00",
+        "readTime": 8,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_ai_004",
+        "title": "Hugging Face: OpenAI 프라이버시 필터로 확장 가능한 웹앱 구축법",
+        "excerpt": "OpenAI의 Privacy Filter API를 활용해 대규모 웹 애플리케이션을 구축하는 방법을 Hugging Face 팀이 공개했습니다. 개인정보 보호와 AI 기능을 동시에 확보할 수 있는 아키텍처입니다.",
+        "body": "OpenAI의 Privacy Filter는 사용자 데이터를 모델에 전달하기 전에 자동으로 익명화하는 레이어입니다. Hugging Face의 가이드는 이 API를 활용하여 GDPR/CCPA 규정을 준수하면서도 AI 기능을 풀로 사용할 수 있는 패턴을 제시합니다. 엔터프라이즈 AI 도입의 주요 장벽인 데이터 규정 준수 문제를 해결하는 실용적 접근법으로 평가받고 있습니다.",
+        "url": "https://huggingface.co/blog/openai-privacy-filter-web-apps",
+        "source": "Hugging Face - Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-27T09:00:00+09:00",
+        "readTime": 7,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_ai_005",
+        "title": "MIT Technology Review: AI 과대광고와 수익 사이의 빠진 고리",
+        "excerpt": "AI 기술이 넘쳐나지만 실제 기업 수익으로 이어지지 않는 이유를 MIT Technology Review가 심층 분석했습니다.",
+        "body": "AI 투자는 급증하고 있지만 많은 기업들이 실질적인 ROI를 증명하지 못하고 있습니다. MIT Tech Review는 이 격차의 원인으로 데이터 품질 문제, 조직 변화 관리 실패, 잘못된 유스케이스 선정을 꼽습니다. 성공한 기업들은 AI를 별도 프로젝트가 아닌 핵심 워크플로우에 통합하는 방식으로 접근했으며, 빠른 PoC보다 느리더라도 확장 가능한 파이프라인 구축에 집중했다는 공통점이 있었습니다.",
+        "url": "https://www.technologyreview.com/2026/04/27/1136456/the-missing-step-between-hype-and-profit/",
+        "source": "MIT Technology Review",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-28T01:13:41+09:00",
+        "readTime": 8,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_ai_006",
+        "title": "구글, AI 에이전트 바이브 코딩 무료 강의 공개",
+        "excerpt": "구글과 Kaggle이 협력하여 AI 에이전트 개발을 위한 실전 바이브 코딩 강의를 무료로 공개했습니다.",
+        "body": "Kaggle과 구글이 함께 진행하는 AI Agents Vibe Coding Course는 대화형 AI 에이전트를 빠르게 프로토타이핑하는 실전 중심 커리큘럼입니다. LLM 기반 에이전트 설계, 도구 연동, 멀티 에이전트 시스템 구성까지 다루며, 실제 프로덕션 수준의 에이전트를 개발하는 능력을 기르는 데 초점을 맞추고 있습니다.",
+        "url": "https://openai.com/index/choco",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-27T09:00:00+09:00",
+        "readTime": 8,
+        "imageGradient": 1
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_dev_001",
+        "title": "GitHub Copilot, 사용량 기반 요금제로 전환",
+        "excerpt": "GitHub Copilot이 고정 구독 모델에서 사용량 기반 과금 방식으로 전환합니다. 코드 완성, 에이전트 기능에 따라 비용이 차별화됩니다.",
+        "body": "GitHub Copilot의 새로운 요금 체계는 기본 코드 완성 기능은 저렴하게 유지하되, Copilot Workspace 등 고급 에이전트 기능에 대해서는 실사용량만큼 청구하는 방식입니다. 이는 소규모 팀과 개인 개발자에게 유리할 수 있지만, 헤비 유저는 비용이 증가할 수 있습니다. 특히 Claude 모델을 사용하는 경우 9배에 달하는 가격 차등이 적용된다는 점에서 논란이 일고 있습니다.",
+        "url": "https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-28T00:58:22+09:00",
+        "readTime": 8,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_dev_003",
+        "title": "MCP(모델 컨텍스트 프로토콜) Java 생태계 진출 — 아키텍처 전략",
+        "excerpt": "Model Context Protocol이 Java 세계에 공식 진출합니다. Spring Boot, Quarkus 등 주요 Java 프레임워크와의 통합 전략이 공개됐습니다.",
+        "body": "MCP는 LLM이 외부 도구와 표준화된 방식으로 상호작용할 수 있게 하는 프로토콜입니다. Java 생태계에서는 Spring AI, LangChain4j 등을 통한 통합이 진행 중이며, 엔터프라이즈 환경에서 AI 에이전트를 기존 Java 백엔드에 연동하는 표준 패턴으로 자리잡을 것으로 보입니다.",
+        "url": "https://www.infoq.com/articles/mcp-java-architectural-strategy-llm-integrations/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+        "source": "InfoQ",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-27T20:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_dev_004",
+        "title": "Uber, 75,000개 이상 테스트 클래스를 JUnit 4→5로 자동 마이그레이션",
+        "excerpt": "Uber 엔지니어링 팀이 대규모 JUnit 마이그레이션을 AI 도움으로 완료한 사례를 공유했습니다. 75,000개 이상의 테스트 클래스를 자동화로 처리했습니다.",
+        "body": "Uber는 75,000개 이상의 JUnit 4 테스트를 JUnit 5로 자동 마이그레이션하는 데 성공했습니다. 핵심은 코드 변환 규칙을 정의하고 AST(추상 구문 트리) 기반 자동 변환 도구를 구축한 것입니다. 수동으로 처리했다면 수개월이 걸렸을 작업이 자동화를 통해 훨씬 빠르게 완료되었으며, 마이그레이션 과정에서 발견된 잠재적 버그도 다수 수정됐습니다.",
+        "url": "https://www.infoq.com/news/2026/04/uber-junit4-junit5-migration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+        "source": "InfoQ",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-27T23:07:00+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_bt_001",
+        "title": "Canonical, Ubuntu에 AI 통합 로드맵 발표",
+        "excerpt": "Ubuntu Linux의 제조사 Canonical이 AI 기능을 운영체제 깊숙이 통합하는 공식 로드맵을 공개했습니다.",
+        "body": "Canonical은 Ubuntu 26.04 LTS부터 AI 가속기 드라이버 자동 설치, 온디바이스 LLM 실행 최적화, AI 보조 시스템 관리 기능을 기본 탑재할 계획입니다. 서버 에디션에서는 CUDA/ROCm 환경 구성 자동화와 Kubernetes AI 워크로드 최적화가 강화됩니다. 오픈소스 운영체제가 AI 시대에 어떤 역할을 할지 보여주는 중요한 방향 제시입니다.",
+        "url": "https://www.theverge.com/tech/919411/canonical-ubuntu-linux-ai-features",
+        "source": "The Verge - Tech",
+        "category": "big_tech",
+        "publishedAt": "2026-04-28T05:47:45+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_bt_002",
+        "title": "구글 직원들, 선다 피차이에 군사 AI 계약 거부 요청",
+        "excerpt": "구글 직원들이 기밀 군사 프로젝트 참여를 거부할 것을 CEO 선다 피차이에게 공개 서한으로 요청했습니다.",
+        "body": "수천 명의 구글 직원들이 회사의 기밀 군사 AI 계약 참여에 반대하는 공개 서한을 발표했습니다. 이들은 AI 기술의 군사적 활용이 윤리적 가이드라인을 위반할 수 있다고 주장합니다. 구글은 2018년 Project Maven 논란 이후 AI 원칙을 발표했지만, 이번 사안은 그 원칙의 실효성을 다시 시험하고 있습니다.",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/919326/google-ai-pentagon-classified-letter",
+        "source": "The Verge - Tech",
+        "category": "big_tech",
+        "publishedAt": "2026-04-28T03:17:12+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "big_tech_3",
+        "title": "OpenAI, 마이크로소프트와의 독점 파트너십 종료",
+        "excerpt": "OpenAI가 마이크로소프트와의 독점 클라우드 계약을 해제하고 다른 클라우드 제공업체와도 협력할 수 있게 됐다. 양사는 AGI 관련 조항도 재협상했다.",
+        "body": "OpenAI가 마이크로소프트와의 독점적 클라우드 파트너십을 공식 종료했다. 이번 합의로 OpenAI는 마이크로소프트 외에도 다른 클라우드 인프라 제공업체를 자유롭게 이용할 수 있게 됐다.\n\n마이크로소프트는 OpenAI의 클라우드 서비스에 대한 독점 우선권을 포기하는 대신, AGI 달성 이후에도 상업적 협력 관계를 유지하고 수익의 일부를 지속 수취하는 새로운 계약을 체결했다.\n\n이번 계약 변경은 OpenAI가 영리법인 전환을 추진하는 과정과 맞물려 있으며, Elon Musk와의 법정 소송 및 투자자들의 지배구조 요구에 대응하는 성격도 있다.",
+        "url": "https://arstechnica.com/ai/2026/04/no-longer-exclusive-microsoft-agrees-to-let-openai-see-other-cloud-providers/",
+        "source": "Ars Technica",
+        "category": "big_tech",
+        "publishedAt": "2026-04-28T05:10:11+09:00",
+        "readTime": 4,
+        "imageGradient": "from-indigo-500 to-purple-600"
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "우리는 마이크로소프트와의 파트너십을 업데이트했습니다. 마이크로소프트는 여전히 우리의 주요 클라우드 파트너로 남아 있지만, 이제 우리는 모든 클라우드에서 제품과 서비스를 제공할 수 있게 되었습니다. 2032년까지 모델과 제품을 계속 제공하며, 2030년까지 수익을 공유합니다.",
+        "context": "OpenAI-마이크로소프트 파트너십 개편에 대한 Sam Altman의 공식 발표입니다. OpenAI의 클라우드 독립 선언으로 AI 업계 판도가 크게 바뀔 전망입니다.",
+        "url": "https://x.com/sama/status/2048755148361707946",
+        "publishedAt": "2026-04-27T13:24:26.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "GPT 이미지 2: 무엇이든 배우기 위한 학습 도구",
+        "context": "Greg Brockman이 GPT Image 2의 다목적 학습 도구로서의 가능성을 소개합니다. OpenAI의 이미지 생성 모델이 교육 분야에서도 강력한 도구가 됨을 보여줍니다.",
+        "url": "https://x.com/gdb/status/2048796696755212660",
+        "publishedAt": "2026-04-27T16:09:31.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "GPT-5.5는 GPU 커널 작성과 같은 어려운 작업에 훌륭하다.",
+        "context": "Greg Brockman이 GPT-5.5의 GPU 커널 작성 능력을 직접 테스트하며 놀라움을 표현했습니다. 하드웨어 최적화 코드처럼 전문적인 영역에서도 뛰어난 성능을 보인다는 의미입니다.",
+        "url": "https://x.com/gdb/status/2048777802586149331",
+        "publishedAt": "2026-04-27T14:54:27.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "gpt-realtime-1.5를 사용하면 대화형 애플리케이션을 구축할 수 있어서, 사용자가 음성으로 앱 상태를 더 자연스럽게 제어할 수 있습니다.",
+        "context": "OpenAI Developers가 gpt-realtime-1.5를 활용한 음성 기반 대화형 앱 구축 사례를 공유합니다. 실시간 음성 AI 인터페이스의 새로운 가능성을 보여줍니다.",
+        "url": "https://x.com/OpenAIDevs/status/2048871260512473385",
+        "publishedAt": "2026-04-27T21:05:49.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "모든 개방된 이슈에 Codex 에이전트가 있다면? Symphony는 Codex를 위한 오픈소스 에이전트 오케스트레이터로, 태스크 트래커를 에이전트 작업 시스템으로 전환하여 인간이 검토와 지시에 집중할 수 있게 합니다.",
+        "context": "OpenAI Developers의 Symphony 소개 트윗입니다. 모든 GitHub 이슈에 Codex 에이전트를 배치하는 오픈소스 오케스트레이터로, 에이전트 기반 개발의 미래를 엿볼 수 있습니다.",
+        "url": "https://x.com/OpenAIDevs/status/2048825010371039648",
+        "publishedAt": "2026-04-27T18:02:02.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "운영 체제와 사용자 인터페이스가 어떻게 설계되어야 하는지 진지하게 재고할 좋은 시기처럼 느껴집니다. 인터넷도 마찬가지입니다: 사람과 에이전트 모두에게 동일하게 사용 가능한 프로토콜이 필요합니다.",
+        "context": "Sam Altman이 운영체제와 UI 설계 패러다임을 근본적으로 재고해야 한다고 주장합니다. 에이전트 시대에 걸맞은 인터페이스가 필요하다는 선구적 메시지입니다.",
+        "url": "https://x.com/sama/status/2048428561481265539",
+        "publishedAt": "2026-04-26T15:46:41.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "Acer",
+        "handle": "AcerFur",
+        "content": "천천히, 그러다 갑자기....",
+        "context": "잭 클라크(Anthropic 공동창업자)가 중요한 AI 발전 관련 에세이를 준비 중임을 알렸습니다. Import AI를 잠시 중단할 만큼 중요한 내용일 것으로 기대됩니다.",
+        "url": "https://x.com/AcerFur/status/2048823602175267314",
+        "publishedAt": "2026-04-27T17:56:26.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "Chubby",
+        "handle": "kimmonismus",
+        "content": "23세의 한 사람이 ChatGPT 5.4 Pro를 사용해 60년 이상 풀리지 않았던 에르되시 문제 중 하나를 풀어냈습니다. 단 한 번의 시도로, 총 해결 시간 1시간 20분.",
+        "context": "23세 수학 애호가가 ChatGPT로 에르되시 문제를 푼 사례를 공유한 트윗입니다. AI가 수학적 발견의 새로운 파트너가 될 수 있음을 시사합니다.",
+        "url": "https://x.com/kimmonismus/status/2048690364089835973",
+        "publishedAt": "2026-04-27T09:07:00.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "Z.ai가 자사의 최신 모델인 GLM-5.1과 GLM-5-Turbo의 '이용량 3배 제공' 혜택을 6월 30일까지 전격 연장했습니다. 본래 4월 말 종료 예정이었던 일정이지만, 최근 딥시크(DeepSeek)가 75% 할인을 단행한 것을 강하게 의식한 조치로 보입니다. AI 업계는 성능 달성을 넘어, 개발자와 사용자를 자사 생태계에 묶어두기 위한 경쟁이 치열해지고 있습니다.",
+        "context": "CHOI(@choi.openai)가 Z.ai의 AI 모델 점유율 확보 전략을 분석합니다. 딥시크 할인에 대응한 GLM 시리즈 혜택 연장으로 AI 업계 경쟁이 더욱 치열해지고 있습니다.",
+        "url": "https://www.threads.net/@choi.openai/post/DXpdNMRDQh2",
+        "publishedAt": "2026-04-27T20:00:50.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "마이크로소프트와 오픈AI가 파트너십을 전면 개편했습니다. 가장 큰 변화는 오픈AI의 '독립 선언'입니다. 그동안 마이크로소프트 Azure 클라우드에 묶여있던 오픈AI의 서비스들이 이제 구글 클라우드나 AWS 등 어떤 클라우드에서도 자유롭게 제공될 수 있게 되었습니다. 동시에 마이크로소프트가 독점적으로 누리던 오픈AI 모델 사용권도 '비독점'으로 전환되었습니다.",
+        "context": "CHOI(@choi.openai)가 OpenAI-마이크로소프트 파트너십 개편을 한국 독자를 위해 쉽게 설명합니다. Azure 독점 해제가 AI 클라우드 시장에 미치는 영향을 분석합니다.",
+        "url": "https://www.threads.net/@choi.openai/post/DXpS2mCiTOl",
+        "publishedAt": "2026-04-27T18:30:22.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_003",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "OpenAI Codex 출시 — 클라우드 기반 소프트웨어 엔지니어링 에이전트로, 코딩 작업을 병렬로 처리할 수 있습니다. ChatGPT Plus, Pro, Team 사용자라면 지금 바로 사용해볼 수 있습니다.",
+        "context": "CHOI(@choi.openai)가 OpenAI Codex 출시를 소개합니다. 클라우드 기반 소프트웨어 엔지니어링 에이전트로 코딩 작업을 병렬 처리할 수 있습니다.",
+        "url": "https://www.threads.net/@choi.openai/post/DXpIUk5Dxtu",
+        "publishedAt": "2026-04-27T16:58:20.000Z",
+        "platform": "threads"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "프로덕션에서 AI 에이전트를 어떻게 테스트하나요? 예측 불가능성 문제",
+        "originalTitle": "How do you test AI agents in production? The unpredictability is overwhelming.[D]",
+        "summary": "AI 에이전트의 비결정적 동작을 프로덕션 환경에서 테스트하는 전략과 모범 사례를 논의합니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1sx3p40/how_do_you_test_ai_agents_in_production_the/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-04-27T22:28:18+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "논문 심사자가 \"기여가 불명확하다\"고 할 때의 진짜 의미",
+        "originalTitle": "What do reviewers actually mean when they say the paper sound more like a technical report? [D]",
+        "summary": "머신러닝 논문 심사 피드백을 해석하는 방법과 개선 전략을 공유하는 스레드입니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1sx8xpa/what_do_reviewers_actually_mean_when_they_say_the/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-04-28T01:34:37+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "수학 vs 머신러닝 학술지 선택 전략",
+        "originalTitle": "Maths vs machine learning publishing venues [D]",
+        "summary": "이론적 ML 연구를 수학 저널과 ML 컨퍼런스 중 어디에 제출할지에 대한 심층 토론입니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1sx0bnx/maths_vs_machine_learning_publishing_venues_d/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-04-27T20:01:48+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "싱글 GPU에서 Qwen3.6-27B 모델 2배 속도 구현",
+        "originalTitle": "Luce DFlash: Qwen3.6-27B at up to 2x throughput on a single RTX 3090",
+        "summary": "로컬 LLM 추론 라이브러리 Luce DFlash가 Qwen3.6-27B 모델에서 기존 대비 2배 처리량을 달성했다는 발표입니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sx8uok/luce_dflash_qwen3627b_at_up_to_2x_throughput_on_a/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-04-28T01:31:33+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "MIMO V2.5 PRO 모델 출시 — 멀티모달 성능 향상",
+        "originalTitle": "MIMO V2.5 PRO",
+        "summary": "최신 MIMO V2.5 PRO 모델에 대한 성능 리뷰와 로컬 실행 경험을 공유하는 스레드입니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sxbcyn/mimo_v25_pro/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-04-28T02:57:51+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "마이크로소프트 TRELLIS.2 — 4B 파라미터 3D 생성 오픈소스 모델",
+        "originalTitle": "Microsoft Presents \"TRELLIS.2\": An Open-Source, 4b-Parameter, Image-To-3D Model Producing Up To 1536³ PBR Textured Assets, Built On Native 3D VAES With 16× Spatial Compression, Delivering Efficient, Scalable, High-Fidelity Asset Generation.",
+        "summary": "마이크로소프트가 공개한 4B 파라미터 3D 콘텐츠 생성 모델 TRELLIS.2의 성능과 활용법을 다룹니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sxf2u0/microsoft_presents_trellis2_an_opensource/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-04-28T05:07:01+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "A comedian’s strategy for poisoning AI training data",
+        "originalTitle": "A comedian’s strategy for poisoning AI training data",
+        "summary": "r/artificial 커뮤니티에서 화제인 게시물입니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1sx7sjl/a_comedians_strategy_for_poisoning_ai_training/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-04-28T00:54:25+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "10분간 AI와 대화로 이별의 마무리를 얻다",
+        "originalTitle": "In 10 Minutes with AI, I Just Got More Closure on My Divorce than 4 Years of Therapy",
+        "summary": "AI를 심리적 자기 성찰 도구로 활용한 개인 경험을 공유하는 감성적인 포스트입니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1swqczz/in_10_minutes_with_ai_i_just_got_more_closure_on/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-04-27T11:03:29+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "AI가 모두를 생산적으로 만든다면 왜 더 지쳐가나",
+        "originalTitle": "If AI makes everyone more productive, why does it feel like only layoffs are being announced?",
+        "summary": "AI 생산성 향상의 역설 — 자동화로 절약된 시간이 새로운 업무로 대체되는 현상을 분석합니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1swxt51/if_ai_makes_everyone_more_productive_why_does_it/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-04-27T17:38:34+09:00"
+      },
+      {
+        "id": "reddit_010",
+        "title": "r/OpenAI 로고가 비대칭인가?",
+        "originalTitle": "Is the subreddit logo off-center?",
+        "summary": "커뮤니티 로고 디자인에 대한 가벼운 토론입니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1sx6421/is_the_subreddit_logo_offcenter/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-04-27T23:55:44+09:00"
+      },
+      {
+        "id": "reddit_011",
+        "title": "조시 홀리 상원의원, 전 OpenAI 직원에게 안전 우려 청문",
+        "originalTitle": "Senator Josh Hawley asks former OpenAI employee Helen Toner to explain why AI companies are building technology that will \"displace many millions of workers and potentially pose existential risks\"",
+        "summary": "미국 상원의원이 OpenAI 안전팀 전 직원에게 내부 고발 내용을 공개 질의하는 청문회가 열렸습니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1sx7sm9/senator_josh_hawley_asks_former_openai_employee/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-04-28T00:54:29+09:00"
+      },
+      {
+        "id": "reddit_012",
+        "title": "마이크로소프트-OpenAI 파트너십 다음 단계: 독점 종료",
+        "originalTitle": "The next phase of the Microsoft-OpenAI partnership: Microsoft’s license for OpenAI IP for models and products will now be non-exclusive.",
+        "summary": "OpenAI와 마이크로소프트의 파트너십이 전면 개편되며 독점 계약이 해소됩니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1sx3l9i/the_next_phase_of_the_microsoftopenai_partnership/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-04-27T22:24:06+09:00"
+      },
+      {
+        "id": "reddit_013",
+        "title": "데이터가 너무 안 좋을 때... Claude의 반응",
+        "originalTitle": "When your data is so bad...",
+        "summary": "열악한 데이터 품질에 Claude가 어떻게 반응하는지를 공유하는 유머러스한 포스트입니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1sx4hc6/when_your_data_is_so_bad/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-04-27T22:57:42+09:00"
+      },
+      {
+        "id": "reddit_014",
+        "title": "가장 유용한 Claude 활용 팁을 공유해주세요!",
+        "originalTitle": "Drop your best Claude skills in here!",
+        "summary": "커뮤니티가 자신만의 Claude 프롬프트와 활용 노하우를 공유하는 스레드입니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1sx44bc/drop_your_best_claude_skills_in_here/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-04-27T22:44:01+09:00"
+      },
+      {
+        "id": "reddit_015",
+        "title": "GitHub Copilot에서 Claude 모델 가격 9배 인상 — 커뮤니티 반발",
+        "originalTitle": "GitHub Copilot 9x price increase for Claude models",
+        "summary": "GitHub Copilot의 사용량 기반 요금제 전환으로 Claude 모델 이용 비용이 크게 오르면서 사용자들이 강하게 반발하고 있습니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1sxcxge/github_copilot_9x_price_increase_for_claude_models/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-04-28T03:52:28+09:00"
+      },
+      {
+        "id": "reddit_016",
+        "title": "Rust에서 Box로 메모리 절약하기",
+        "originalTitle": "Box to save memory in Rust",
+        "summary": "Box 스마트 포인터를 활용해 Rust 프로그램의 힙 메모리를 효율적으로 관리하는 실전 가이드입니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1swzugs/box_to_save_memory_in_rust/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-04-27T19:36:55+09:00"
+      },
+      {
+        "id": "reddit_017",
+        "title": "리눅스에서 가장 빠른 타임스탬프 획득 방법",
+        "originalTitle": "The fastest Linux timestamps",
+        "summary": "clock_gettime, rdtsc, vDSO 등 다양한 방법의 성능을 비교하는 심층 분석입니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1sx074x/the_fastest_linux_timestamps/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-04-27T19:55:29+09:00"
+      },
+      {
+        "id": "reddit_018",
+        "title": "MareNostrum V 슈퍼컴퓨터 첫 사용기 — 코드 최적화 경험담",
+        "originalTitle": "First time using the MareNostrum V Supercomputer, writeup of what actually surprised me coming from cloud",
+        "summary": "유럽 최대 슈퍼컴퓨터 중 하나인 MareNostrum V를 처음 사용하면서 배운 코드 최적화 교훈을 공유합니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1swwo7h/first_time_using_the_marenostrum_v_supercomputer/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-04-27T16:30:07+09:00"
+      },
+      {
+        "id": "reddit_019",
+        "title": "MineBench에서 GPT-5.4와 GPT-5.5 성능 비교",
+        "originalTitle": "Differences Between GPT 5.4 and GPT 5.5 on MineBench",
+        "summary": "최신 GPT-5.5가 GPT-5.4 대비 어느 부분에서 얼마나 향상됐는지 MineBench로 정밀 비교합니다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1sxapqb/differences_between_gpt_54_and_gpt_55_on_minebench/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-04-28T02:35:53+09:00"
+      },
+      {
+        "id": "reddit_020",
+        "title": "GPT-5.5, GPT-5.4 넘어 Claude Opus 4.6도 추월",
+        "originalTitle": "GPT-5.5 improves over GPT-5.4 and overtakes Opus 4.6 to take the 2nd place behind Gemini 3.1 Pro on the Extended NYT Connections Benchmark",
+        "summary": "GPT-5.5가 이전 버전뿐만 아니라 Anthropic의 Claude Opus 4.6도 성능에서 추월했다는 벤치마크 결과입니다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1sxe3bs/gpt55_improves_over_gpt54_and_overtakes_opus_46/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-04-28T04:32:58+09:00"
+      },
+      {
+        "id": "reddit_021",
+        "title": "OpenAI, 인간형 로봇 Asimov v1 오픈소스 공개",
+        "originalTitle": "\"We're open-sourcing Asimov v1, a humanoid robot\"",
+        "summary": "OpenAI가 인간형 로봇 프로젝트 Asimov v1의 코드와 설계를 오픈소스로 전격 공개했습니다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1sx6nzi/were_opensourcing_asimov_v1_a_humanoid_robot/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-04-28T00:14:52+09:00"
+      },
+      {
+        "id": "reddit_022",
+        "title": "개발자 커리어 번아웃 대처법 — 시니어들의 조언",
+        "originalTitle": "Dealing with Career Fatigue",
+        "summary": "수년간 개발을 해온 시니어 개발자들이 커리어 피로감을 극복한 경험과 전략을 나눕니다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1sx352a/dealing_with_career_fatigue/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-04-27T22:06:19+09:00"
+      },
+      {
+        "id": "reddit_023",
+        "title": "의료 배려 후 갑작스러운 PIP — 법적·실무적 대처법",
+        "originalTitle": "Sudden PIP with no prior feedback after medical accommodation + nitpicky senior engineer. What to do?",
+        "summary": "사전 피드백 없이 갑자기 성과 개선 계획(PIP)을 받은 개발자의 사례와 커뮤니티의 조언을 다룹니다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1sx9k3w/sudden_pip_with_no_prior_feedback_after_medical/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-04-28T01:56:01+09:00"
+      },
+      {
+        "id": "reddit_024",
+        "title": "전담 스크럼 마스터의 실제 역할은 무엇인가",
+        "originalTitle": "What should a dedicated scrum master do?",
+        "summary": "스크럼 마스터 직책의 실질적 역할과 팀 내 가치에 대한 경험 개발자들의 솔직한 토론입니다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1sxfqy5/what_should_a_dedicated_scrum_master_do/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-04-28T05:30:19+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_qb_001",
+        "title": "GitHub Copilot, Claude 모델 가격 9배 인상 — 사용자 반발",
+        "excerpt": "GitHub Copilot에서 Claude 모델을 사용할 경우 기존 대비 최대 9배 비싼 요금이 적용되면서 사용자들이 강하게 반발하고 있습니다.",
+        "body": "r/ClaudeAI 등 커뮤니티에서는 Claude 모델의 가격 정책에 대한 불만이 폭주하고 있습니다.",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-27/microsoft-to-stop-sharing-revenue-with-main-ai-partner-openai",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-27T22:22:42+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_qb_002",
+        "title": "23세 수학 애호가, ChatGPT로 60년 된 에르되시 미해결 문제 풀어",
+        "excerpt": "23세 아마추어 수학자가 ChatGPT 5.4 Pro를 활용해 60년 이상 풀리지 않았던 에르되시 문제를 단 1시간 20분 만에 해결했습니다.",
+        "body": "단 한 번의 시도로 이루어진 이 성과는 AI 보조 수학 연구의 새로운 가능성을 보여줍니다.",
+        "url": "https://github.com/Hanqaqa/Easyduino",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-28T02:45:02+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_qb_003",
+        "title": "GPT-5.5, MineBench에서 Opus 4.6 추월",
+        "excerpt": "최신 벤치마크에서 GPT-5.5가 Anthropic의 Claude Opus 4.6를 상회하는 성능을 보였습니다.",
+        "body": "MineBench는 복잡한 추론과 코드 생성 능력을 측정하는 종합 벤치마크입니다.",
+        "url": "https://lawrencecpaulson.github.io//2026/04/23/Why_not_Lean.html",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-27T23:24:53+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_qb_004",
+        "title": "OpenAI, 인간형 로봇 'Asimov v1' 오픈소스 공개",
+        "excerpt": "OpenAI가 인간형 로봇 프로젝트 Asimov v1의 코드와 설계 도면을 오픈소스로 공개했습니다.",
+        "body": "로보틱스와 AI의 결합을 가속화할 이번 공개는 물리적 AI 에이전트 연구의 문턱을 낮출 것으로 기대됩니다.",
+        "url": "https://www.cnbc.com/2026/04/27/meta-manus-china-blocks-acquisition-ai-startup.html",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-27T20:43:59+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_qb_005",
+        "title": "코미디언의 AI 학습 데이터 오염 전략",
+        "excerpt": "한 코미디언이 자신의 공연 영상과 글에 AI 학습 데이터를 오염시키는 방식을 체계적으로 적용해 화제입니다.",
+        "body": "저작권 보호와 AI 학습 데이터 동의 문제에 대한 창의적인 대응으로 주목받고 있습니다.",
+        "url": "https://eclecticlight.co/2026/04/23/networking-changes-coming-in-macos-27/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-28T00:36:12+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_qb_006",
+        "title": "Rust에서 메모리 절약을 위한 Box 활용법",
+        "excerpt": "Rust 프로그래밍에서 Box 스마트 포인터를 사용해 힙 메모리를 효율적으로 관리하는 실전 가이드입니다.",
+        "body": "재귀 데이터 구조와 대형 스택 할당을 최적화하는 핵심 패턴을 다룹니다.",
+        "url": "https://github.com/duane1024/l123",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-28T04:53:29+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      }
+    ]
+  }
+}
