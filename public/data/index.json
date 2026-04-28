@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-04-29",
+      "issueNumber": 32,
+      "mainHeadline": "일론 머스크 vs 샘 알트만 세기의 법정 대결 — OpenAI는 AWS로, Claude는 크리에이티브 도구로 확장",
+      "headlines": [
+        "GitHub Copilot, 실제 사용량 기반 요금제로 전환 — Claude 모델 사용 시 비용 9배",
+        "NVIDIA Nemotron 3 Nano Omni — 비전·음성·텍스트 통합 멀티모달 AI 출시",
+        "터미널 앱 Warp, 완전 오픈소스로 전환 선언"
+      ]
+    },
+    {
       "date": "2026-04-28",
       "issueNumber": 31,
       "mainHeadline": "OpenAI-마이크로소프트 파트너십 전면 개편 & Codex 에이전트 출시 — AI 클라우드 독점 시대의 종언",
@@ -305,5 +315,5 @@
       ]
     }
   ],
-  "latestIssue": 31
+  "latestIssue": 32
 }
