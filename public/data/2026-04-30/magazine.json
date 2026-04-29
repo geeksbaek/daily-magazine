@@ -1,0 +1,780 @@
+{
+  "date": "2026-04-30",
+  "issueNumber": 33,
+  "cover": {
+    "mainHeadline": "OpenAI Codex·ChatGPT 모먼트 도래: AI 코딩 에이전트 시대의 서막",
+    "mainExcerpt": "Sam Altman이 \"Codex가 ChatGPT 모먼트를 겪고 있다\"고 선언하며 AI 코딩 에이전트의 급속한 확산을 알렸습니다. Greg Brockman은 Codex 앱이 터미널을 대체하기 시작했다고 밝혔으며, OpenAI DevDay 2026 준비도 본격화되고 있습니다.",
+    "headlines": [
+      "Google Cloud Next 2025: AI 스타트업을 위한 주요 발표 총정리",
+      "AI 에이전트, 이제 Cloudflare 계정·도메인·서비스 자동 프로비저닝 가능",
+      "Anthropic, AI 내성 어댑터 연구 발표 — 모델 스스로 훈련 행동 보고 가능"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_ai_ml_000",
+      "title": "Google Cloud Next 2025: AI 스타트업을 위한 주요 발표 총정리",
+      "excerpt": "Google Cloud Next 2025에서 발표된 AI 스타트업 관련 핵심 내용을 정리했습니다. MCP 서버 50개 이상 출시, AI 에이전트 도구 강화 등 개발자에게 중요한 소식이 담겨 있습니다.",
+      "body": "Google Cloud Next 2025 행사에서 AI 스타트업 창업자들을 위한 다양한 발표가 있었습니다. Google은 50개 이상의 완전 관리형 MCP 서버를 출시하고, AI 에이전트 개발 도구를 대폭 강화했습니다. 또한 Gemini를 활용한 실시간 인력 인텔리전스, 워크플로우 자동화 솔루션 등이 주목을 받았습니다.",
+      "url": "https://cloud.google.com/blog/topics/startups/the-top-startup-announcement-from-next26/",
+      "source": "AI & Machine Learning",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-30T01:00:00+09:00",
+      "readTime": 3,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_ai_ml_001",
+      "title": "UKG, Google AI로 대규모 실시간 인력 인텔리전스 실현",
+      "excerpt": "UKG가 Google AI를 활용해 대규모 실시간 인력 인텔리전스 플랫폼을 구축했습니다. AI 기반 분석으로 인력 관리의 효율성을 높이고 있습니다.",
+      "body": "UKG가 Google AI 기술을 접목하여 대규모 실시간 인력 인텔리전스 솔루션을 선보였습니다. 이 솔루션은 수백만 명의 직원 데이터를 실시간으로 분석하여 채용, 일정 관리, 성과 추적을 자동화합니다. Google Cloud의 AI 인프라를 활용한 이 플랫폼은 HR 분야의 데이터 기반 의사결정을 혁신하고 있습니다.",
+      "url": "https://cloud.google.com/blog/products/databases/how-ukg-taps-workforce-intelligence-with-the-agentic-data-cloud/",
+      "source": "AI & Machine Learning",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-30T01:00:00+09:00",
+      "readTime": 3,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_ai_ml_002",
+      "title": "이제 Gemini에서 파일을 쉽게 생성할 수 있습니다",
+      "excerpt": "Gemini의 최신 소식: 이제 Gemini에서 파일을 쉽게 생성할 수 있습니다. 자세한 내용은 원문 링크를 통해 확인하세요.",
+      "body": "Gemini가 발표한 '이제 Gemini에서 파일을 쉽게 생성할 수 있습니다' 관련 업데이트입니다. Gemini의 최신 소식: 이제 Gemini에서 파일을 쉽게 생성할 수 있습니다. 자세한 내용은 원문 링크를 통해 확인하세요.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/generate-files-in-gemini/",
+      "source": "Gemini",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-30T01:00:00+09:00",
+      "readTime": 6,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_dev_tools_000",
+      "title": "Visual Studio Code 1.118 업데이트",
+      "excerpt": "Visual Studio Code - Code Editing. Redefined.의 최신 소식: Visual Studio Code 1.118. 자세한 내용은 원문 링크를 통해 확인하세요.",
+      "body": "Visual Studio Code - Code Editing. Redefined.가 발표한 'Visual Studio Code 1.118' 관련 업데이트입니다. Visual Studio Code - Code Editing. Redefined.의 최신 소식: Visual Studio Code 1.118. 자세한 내용은 원문 링크를 통해 확인하세요.",
+      "url": "https://code.visualstudio.com/updates/v1_118",
+      "source": "Visual Studio Code - Code Editing. Redefined.",
+      "category": "dev_tools",
+      "publishedAt": "2026-04-30T02:00:00+09:00",
+      "readTime": 3,
+      "imageGradient": 2
+    },
+    {
+      "id": "rss_big_tech_000",
+      "title": "Google 포토로 디지털 옷장 만드는 새로운 방법",
+      "excerpt": "The Official Google Blog의 최신 소식: A new way to create a digital wardrobe from your Google Photos. 자세한 내용은 원문 링크를 통해 확인하세요.",
+      "body": "The Official Google Blog가 발표한 'A new way to create a digital wardrobe from your Google Photos' 관련 업데이트입니다. The Official Google Blog의 최신 소식: A new way to create a digital wardrobe from your Google Photos. 자세한 내용은 원문 링크를 통해 확인하세요.",
+      "url": "https://blog.google/products-and-platforms/products/photos/google-photos-wardrobe-feature/",
+      "source": "The Official Google Blog",
+      "category": "big_tech",
+      "publishedAt": "2026-04-30T01:00:00+09:00",
+      "readTime": 3,
+      "imageGradient": 4
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_ai_ml_000",
+        "title": "Google Cloud Next 2025: AI 스타트업을 위한 주요 발표 총정리",
+        "excerpt": "Google Cloud Next 2025에서 발표된 AI 스타트업 관련 핵심 내용을 정리했습니다. MCP 서버 50개 이상 출시, AI 에이전트 도구 강화 등 개발자에게 중요한 소식이 담겨 있습니다.",
+        "body": "Google Cloud Next 2025 행사에서 AI 스타트업 창업자들을 위한 다양한 발표가 있었습니다. Google은 50개 이상의 완전 관리형 MCP 서버를 출시하고, AI 에이전트 개발 도구를 대폭 강화했습니다. 또한 Gemini를 활용한 실시간 인력 인텔리전스, 워크플로우 자동화 솔루션 등이 주목을 받았습니다.",
+        "url": "https://cloud.google.com/blog/topics/startups/the-top-startup-announcement-from-next26/",
+        "source": "AI & Machine Learning",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-30T01:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_ai_ml_001",
+        "title": "UKG, Google AI로 대규모 실시간 인력 인텔리전스 실현",
+        "excerpt": "UKG가 Google AI를 활용해 대규모 실시간 인력 인텔리전스 플랫폼을 구축했습니다. AI 기반 분석으로 인력 관리의 효율성을 높이고 있습니다.",
+        "body": "UKG가 Google AI 기술을 접목하여 대규모 실시간 인력 인텔리전스 솔루션을 선보였습니다. 이 솔루션은 수백만 명의 직원 데이터를 실시간으로 분석하여 채용, 일정 관리, 성과 추적을 자동화합니다. Google Cloud의 AI 인프라를 활용한 이 플랫폼은 HR 분야의 데이터 기반 의사결정을 혁신하고 있습니다.",
+        "url": "https://cloud.google.com/blog/products/databases/how-ukg-taps-workforce-intelligence-with-the-agentic-data-cloud/",
+        "source": "AI & Machine Learning",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-30T01:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_ai_ml_002",
+        "title": "이제 Gemini에서 파일을 쉽게 생성할 수 있습니다",
+        "excerpt": "Gemini의 최신 소식: 이제 Gemini에서 파일을 쉽게 생성할 수 있습니다. 자세한 내용은 원문 링크를 통해 확인하세요.",
+        "body": "Gemini가 발표한 '이제 Gemini에서 파일을 쉽게 생성할 수 있습니다' 관련 업데이트입니다. Gemini의 최신 소식: 이제 Gemini에서 파일을 쉽게 생성할 수 있습니다. 자세한 내용은 원문 링크를 통해 확인하세요.",
+        "url": "https://blog.google/innovation-and-ai/products/gemini-app/generate-files-in-gemini/",
+        "source": "Gemini",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-30T01:00:00+09:00",
+        "readTime": 6,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_ai_ml_003",
+        "title": "Google에서 새로운 생성, 검색, 스트리밍 방법을 즐기세요",
+        "excerpt": "Gemini의 최신 소식: Google에서 새로운 생성, 검색, 스트리밍 방법을 즐기세요. 자세한 내용은 원문 링크를 통해 확인하세요.",
+        "body": "Gemini가 발표한 'Google에서 새로운 생성, 검색, 스트리밍 방법을 즐기세요' 관련 업데이트입니다. Gemini의 최신 소식: Google에서 새로운 생성, 검색, 스트리밍 방법을 즐기세요. 자세한 내용은 원문 링크를 통해 확인하세요.",
+        "url": "https://blog.google/products-and-platforms/platforms/google-tv/enjoy-new-ways-to-create-search-and-stream-on-google-tv/",
+        "source": "Gemini",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-30T00:00:00+09:00",
+        "readTime": 6,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_ai_ml_004",
+        "title": "지능화 시대의 사이버보안",
+        "excerpt": "OpenAI News의 최신 소식: 지능화 시대의 사이버보안. 자세한 내용은 원문 링크를 통해 확인하세요.",
+        "body": "OpenAI News가 발표한 '지능화 시대의 사이버보안' 관련 업데이트입니다. OpenAI News의 최신 소식: 지능화 시대의 사이버보안. 자세한 내용은 원문 링크를 통해 확인하세요.",
+        "url": "https://openai.com/index/cybersecurity-in-the-intelligence-age",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-29T13:00:00+09:00",
+        "readTime": 6,
+        "imageGradient": 0
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_dev_tools_000",
+        "title": "Visual Studio Code 1.118 업데이트",
+        "excerpt": "Visual Studio Code - Code Editing. Redefined.의 최신 소식: Visual Studio Code 1.118. 자세한 내용은 원문 링크를 통해 확인하세요.",
+        "body": "Visual Studio Code - Code Editing. Redefined.가 발표한 'Visual Studio Code 1.118' 관련 업데이트입니다. Visual Studio Code - Code Editing. Redefined.의 최신 소식: Visual Studio Code 1.118. 자세한 내용은 원문 링크를 통해 확인하세요.",
+        "url": "https://code.visualstudio.com/updates/v1_118",
+        "source": "Visual Studio Code - Code Editing. Redefined.",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-30T02:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_dev_tools_001",
+        "title": "AI 에이전트, 이제 Cloudflare 계정·도메인·서비스 자동 프로비저닝 가능",
+        "excerpt": "Cloudflare가 AI 에이전트가 자율적으로 계정을 생성하고 도메인을 구매하며 서비스를 프로비저닝할 수 있는 기능을 출시했습니다.",
+        "body": "Cloudflare는 AI 에이전트가 사람의 개입 없이 Cloudflare 계정 생성, 도메인 구매, 서비스 프로비저닝을 수행할 수 있는 새로운 기능을 발표했습니다. 이를 통해 개발자들은 인프라 관리를 AI에 위임하고 더 높은 가치의 작업에 집중할 수 있게 됩니다.",
+        "url": "https://blog.cloudflare.com/agents-stripe-projects/",
+        "source": "Cloudflare Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-30T22:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_dev_tools_002",
+        "title": "Warp가 이제 오픈소스가 됨",
+        "excerpt": "오픈소스 전환으로 Warp client 개발에 커뮤니티가 참여할 수 있게 됐고, Oz 기반의 agent-first 워크플로우로 에이전트와 함께 기여할 수 있게 바뀜 개발의 병목이 코드 작성보다 명세 수립과 검증 같은 human-in-the-loop 작업으로 옮겨가면서,...",
+        "body": "오픈소스 전환으로 Warp client 개발에 커뮤니티가 참여할 수 있게 됐고, Oz 기반의 agent-first 워크플로우로 에이전트와 함께 기여할 수 있게 바뀜 개발의 병목이 코드 작성보다 명세 수립과 검증 같은 human-in-the-loop 작업으로 옮겨가면서,...",
+        "url": "https://news.hada.io/topic?id=29020",
+        "source": "GeekNews",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-30T02:34:11+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_dev_tools_003",
+        "title": "생리 추적 앱 Flo, 사용자 데이터를 Meta에 판매한 사실 확인돼",
+        "excerpt": "생리 추적과 임신 관련 정보를 다루는 Flo는 프라이버시 보호를 내세웠지만, 실제로는 월경 주기, 배란, 임신 관련 데이터를 Meta 등 제3자와 상업적으로 공유한 책임이 인정됨 민감한 정보 유출은 외부 침입이 아니라 제품 내부 설계와 프라이버시 결정을 통해 이...",
+        "body": "생리 추적과 임신 관련 정보를 다루는 Flo는 프라이버시 보호를 내세웠지만, 실제로는 월경 주기, 배란, 임신 관련 데이터를 Meta 등 제3자와 상업적으로 공유한 책임이 인정됨 민감한 정보 유출은 외부 침입이 아니라 제품 내부 설계와 프라이버시 결정을 통해 이...",
+        "url": "https://news.hada.io/topic?id=29019",
+        "source": "GeekNews",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-29T23:34:19+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_big_tech_000",
+        "title": "Google 포토로 디지털 옷장 만드는 새로운 방법",
+        "excerpt": "The Official Google Blog의 최신 소식: A new way to create a digital wardrobe from your Google Photos. 자세한 내용은 원문 링크를 통해 확인하세요.",
+        "body": "The Official Google Blog가 발표한 'A new way to create a digital wardrobe from your Google Photos' 관련 업데이트입니다. The Official Google Blog의 최신 소식: A new way to create a digital wardrobe from your Google Photos. 자세한 내용은 원문 링크를 통해 확인하세요.",
+        "url": "https://blog.google/products-and-platforms/products/photos/google-photos-wardrobe-feature/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-04-30T01:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_big_tech_001",
+        "title": "Gemini 앱, 새로운 개인화 기능 출시",
+        "excerpt": "Google이 Gemini 앱에 새로운 개인화 기능을 출시했습니다. 사용자 맞춤 경험을 강화한 이번 업데이트로 더욱 스마트한 AI 어시스턴트 경험을 제공합니다.",
+        "body": "Google이 Gemini 앱에 새로운 개인화 기능을 출시했습니다. 이번 업데이트를 통해 사용자는 더욱 맞춤화된 AI 경험을 누릴 수 있으며, Gemini가 사용자의 선호와 패턴을 학습하여 개인화된 응답을 제공합니다. Google은 앞으로도 지속적인 개인화 기능 강화를 약속했습니다.",
+        "url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/gemini-launches-new-personalisation-features-in-the-uk/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-04-29T20:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_big_tech_002",
+        "title": "Apple 최신 소식",
+        "excerpt": "Apple Newsroom의 최신 소식: Apple. 자세한 내용은 원문 링크를 통해 확인하세요.",
+        "body": "Apple Newsroom가 발표한 'Apple' 관련 업데이트입니다. Apple Newsroom의 최신 소식: Apple. 자세한 내용은 원문 링크를 통해 확인하세요.",
+        "url": "https://www.apple.com/newsroom/2026/04/formula-1-returns-to-the-us-this-weekend-streaming-live-on-apple-tv/",
+        "source": "Apple Newsroom",
+        "category": "big_tech",
+        "publishedAt": "2026-04-29T21:59:15+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "codex가 chatgpt 모먼트를 겪고 있는 것 같은 느낌이야",
+        "context": "OpenAI CEO Sam Altman의 트윗입니다. AI 업계에서 가장 영향력 있는 인물 중 한 명으로 OpenAI의 최신 제품과 비전에 대한 인사이트를 제공합니다.",
+        "url": "https://x.com/sama/status/2049493609028923826",
+        "publishedAt": "2026-04-29T23:18:48+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "도 goblin 모먼트를 말한 거였어요, 미안해요",
+        "context": "OpenAI CEO Sam Altman의 트윗입니다. AI 업계에서 가장 영향력 있는 인물 중 한 명으로 OpenAI의 최신 제품과 비전에 대한 인사이트를 제공합니다.",
+        "url": "https://x.com/sama/status/2049493797114126484",
+        "publishedAt": "2026-04-29T23:19:33+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "팀이 이런 일들을 하는 게 정말 좋다.",
+        "context": "OpenAI CEO Sam Altman의 트윗입니다. AI 업계에서 가장 영향력 있는 인물 중 한 명으로 OpenAI의 최신 제품과 비전에 대한 인사이트를 제공합니다.",
+        "url": "https://x.com/sama/status/2049492646792757552",
+        "publishedAt": "2026-04-29T23:14:59+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "이 시점에서 @ajambrosino는 mogmogging 중이에요. 다음 몇 가지 업데이트를 즐기세요",
+        "context": "OpenAI CEO Sam Altman의 트윗입니다. AI 업계에서 가장 영향력 있는 인물 중 한 명으로 OpenAI의 최신 제품과 비전에 대한 인사이트를 제공합니다.",
+        "url": "https://x.com/sama/status/2049315574120055054",
+        "publishedAt": "2026-04-29T11:31:21+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "터미널은 거의 20년 동안 제 컴퓨터와의 주요 인터페이스였습니다. 이제는 Codex 앱입니다.",
+        "context": "OpenAI 공동창업자 Greg Brockman의 트윗입니다. 개발자 도구와 AI 코딩 분야의 최신 동향을 공유합니다.",
+        "url": "https://x.com/gdb/status/2049477747882254775",
+        "publishedAt": "2026-04-29T22:15:47+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "a great codex tutorial:",
+        "context": "OpenAI 공동창업자 Greg Brockman의 트윗입니다. 개발자 도구와 AI 코딩 분야의 최신 동향을 공유합니다.",
+        "url": "https://x.com/gdb/status/2049315404271469054",
+        "publishedAt": "2026-04-29T11:30:41+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "배송 속도가 높습니다",
+        "context": "OpenAI 공동창업자 Greg Brockman의 트윗입니다. 개발자 도구와 AI 코딩 분야의 최신 동향을 공유합니다.",
+        "url": "https://x.com/gdb/status/2049128123124621540",
+        "publishedAt": "2026-04-28T23:06:30+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "imagegen이 제품 아이디어가 공유되는 방식을 바꾸고 있습니다",
+        "context": "OpenAI 공동창업자 Greg Brockman의 트윗입니다. 개발자 도구와 AI 코딩 분야의 최신 동향을 공유합니다.",
+        "url": "https://x.com/gdb/status/2049120845985923316",
+        "publishedAt": "2026-04-28T22:37:35+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_009",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "GPT-5.5는 요청하신 응답 스타일을 따를 수 있습니다.",
+        "context": "OpenAI 공동창업자 Greg Brockman의 트윗입니다. 개발자 도구와 AI 코딩 분야의 최신 동향을 공유합니다.",
+        "url": "https://x.com/gdb/status/2049117119049015720",
+        "publishedAt": "2026-04-28T22:22:46+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_010",
+        "author": "Kevin Weil",
+        "handle": "kevinweil",
+        "content": "결국, 방사선 전문의의 일은 엑스레이를 읽는 것이 아닙니다. 사람들을 치료하는 것입니다. AI가 엑스레이 이해를 가속화하면 방사선 전문의들은 더 많은 사람들을 치료할 수 있습니다.",
+        "context": "OpenAI CPO Kevin Weil의 트윗입니다. AI의 실용적 활용과 의료 분야에서의 AI 잠재력에 대한 생각을 나눕니다.",
+        "url": "https://x.com/kevinweil/status/2049584046213378229",
+        "publishedAt": "2026-04-30T05:18:10+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_011",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "우리는 이런 걸 훨씬 더 많이 하고 있어요. Claude Code에서 가장 짜증 나는 버그들 중 몇 가지를 사냥하는 중이에요. 어떤 백경 고래(해결하기 어려운 버그)가 있으면 알려주세요.",
+        "context": "Anthropic의 Claude Code 팀 엔지니어 Thariq의 트윗입니다. Claude Code의 기술적 개선과 버그 수정 현황을 공유합니다.",
+        "url": "https://x.com/trq212/status/2049234228290961690",
+        "publishedAt": "2026-04-29T06:08:07+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_012",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "이것의 큰 부분은 깜빡임 없는 렌더러를 훌륭하게 만들어 기본 렌더러로 출시할 수 있게 하는 것입니다. 다른 많은 사소한 문제들도 곧 해결될 예정입니다",
+        "context": "Anthropic의 Claude Code 팀 엔지니어 Thariq의 트윗입니다. Claude Code의 기술적 개선과 버그 수정 현황을 공유합니다.",
+        "url": "https://x.com/trq212/status/2049234229926695188",
+        "publishedAt": "2026-04-29T06:08:08+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_013",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "제 백경은 CC가 큰 파일 쓰기 중에 가끔 멈춘 것처럼 보일 때인데, 드디어 찾은 것 같아요",
+        "context": "Anthropic의 Claude Code 팀 엔지니어 Thariq의 트윗입니다. Claude Code의 기술적 개선과 버그 수정 현황을 공유합니다.",
+        "url": "https://x.com/trq212/status/2049252080892973563",
+        "publishedAt": "2026-04-29T07:19:04+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_014",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "OpenAI DevDay에 일찍 티켓을 확보하고 싶으신가요? GPT-5.5와 Image Gen으로 뭔가를 만들어 보세요. 매주 2–3개의 좋아하는 작품을 선정해 OpenAI DevDay 2026 무료 티켓을 드릴게요.",
+        "context": "OpenAI 공식 계정의 트윗입니다. 최신 모델과 제품 업데이트 소식을 전달합니다.",
+        "url": "https://x.com/OpenAI/status/2049535650626785334",
+        "publishedAt": "2026-04-30T02:05:52+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_015",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "여전히 Codex를 (거의) 모든 것에 어떻게 사용할 수 있는지 궁금하시나요? Codex는 연구 정리부터 스프레드시트, 프레젠테이션, 요약 자료 제작에 이르기까지 작업을 지원합니다.",
+        "context": "OpenAI 공식 계정의 트윗입니다. 최신 모델과 제품 업데이트 소식을 전달합니다.",
+        "url": "https://x.com/OpenAI/status/2049583167406064115",
+        "publishedAt": "2026-04-30T05:14:41+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "[기술 토론] An interactive semantic map of the latest 10 million published papers [P]",
+        "originalTitle": "An interactive semantic map of the latest 10 million published papers [P]",
+        "summary": "r/MachineLearning 커뮤니티에서 화제가 된 게시물입니다. r/MachineLearning은 머신러닝 연구자와 실무자들의 커뮤니티입니다. 최신 논문, 연구 결과, 기술적 토론이 활발하게 이루어집니다. 이 게시물은 'An interactive semantic map of the latest 10 million publish'에 대한 커뮤니티의 관심을 반영합니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1sz14mi/an_interactive_semantic_map_of_the_latest_10/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-04-29T23:53:29+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "[기술 토론] Why isn’t LLM reasoning done in vector space instead of natural language?[D]",
+        "originalTitle": "Why isn’t LLM reasoning done in vector space instead of natural language?[D]",
+        "summary": "r/MachineLearning 커뮤니티에서 화제가 된 게시물입니다. r/MachineLearning은 머신러닝 연구자와 실무자들의 커뮤니티입니다. 최신 논문, 연구 결과, 기술적 토론이 활발하게 이루어집니다. 이 게시물은 'Why isn’t LLM reasoning done in vector space instead of natu'에 대한 커뮤니티의 관심을 반영합니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1syjlc2/why_isnt_llm_reasoning_done_in_vector_space/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-04-29T09:46:15+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "[기술 토론] Stanford Paper review [D]",
+        "originalTitle": "Stanford Paper review [D]",
+        "summary": "r/MachineLearning 커뮤니티에서 화제가 된 게시물입니다. r/MachineLearning은 머신러닝 연구자와 실무자들의 커뮤니티입니다. 최신 논문, 연구 결과, 기술적 토론이 활발하게 이루어집니다. 이 게시물은 'Stanford Paper review [D]'에 대한 커뮤니티의 관심을 반영합니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1sz0yy8/stanford_paper_review_d/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-04-29T23:47:41+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "[기술 토론] 16x DGX Sparks - What should I run?",
+        "originalTitle": "16x DGX Sparks - What should I run?",
+        "summary": "r/LocalLLaMA 커뮤니티에서 화제가 된 게시물입니다. r/LocalLLaMA는 로컬에서 LLM을 실행하는 것에 관심 있는 사용자들의 커뮤니티입니다. 오픈소스 모델과 자체 호스팅 AI 솔루션에 대한 논의가 활발합니다. 이 게시물은 '16x DGX Sparks - What should I run?'에 대한 커뮤니티의 관심을 반영합니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sz0lyk/16x_dgx_sparks_what_should_i_run/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-04-29T23:34:17+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "[기술 토론] mistralai/Mistral-Medium-3.5-128B · Hugging Face",
+        "originalTitle": "mistralai/Mistral-Medium-3.5-128B · Hugging Face",
+        "summary": "r/LocalLLaMA 커뮤니티에서 화제가 된 게시물입니다. r/LocalLLaMA는 로컬에서 LLM을 실행하는 것에 관심 있는 사용자들의 커뮤니티입니다. 오픈소스 모델과 자체 호스팅 AI 솔루션에 대한 논의가 활발합니다. 이 게시물은 'mistralai/Mistral-Medium-3.5-128B · Hugging Face'에 대한 커뮤니티의 관심을 반영합니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sz1qer/mistralaimistralmedium35128b_hugging_face/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-04-30T00:14:40+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "[기술 토론] AMA with Nous Research -- Ask Us Anything!",
+        "originalTitle": "AMA with Nous Research -- Ask Us Anything!",
+        "summary": "r/LocalLLaMA 커뮤니티에서 화제가 된 게시물입니다. r/LocalLLaMA는 로컬에서 LLM을 실행하는 것에 관심 있는 사용자들의 커뮤니티입니다. 오픈소스 모델과 자체 호스팅 AI 솔루션에 대한 논의가 활발합니다. 이 게시물은 'AMA with Nous Research -- Ask Us Anything!'에 대한 커뮤니티의 관심을 반영합니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1sz2y76/ama_with_nous_research_ask_us_anything/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-04-30T00:57:39+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "AI 관련: ‘The cost of compute is far beyond the costs of the employees’: Nvidia exec says right now AI is more expensive than paying human workers",
+        "originalTitle": "‘The cost of compute is far beyond the costs of the employees’: Nvidia exec says right now AI is more expensive than paying human workers",
+        "summary": "r/artificial 커뮤니티에서 화제가 된 게시물입니다. r/artificial은 AI와 인공지능에 대한 일반적인 토론 공간입니다. 최신 AI 뉴스와 기술 동향에 대한 다양한 관점을 공유합니다. 이 게시물은 '‘The cost of compute is far beyond the costs of the employee'에 대한 커뮤니티의 관심을 반영합니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1syp2jz/the_cost_of_compute_is_far_beyond_the_costs_of/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-04-29T14:02:40+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "[기술 토론] Google just released Deep Research Max — an autonomous research agent that writes expert-grade reports on its own",
+        "originalTitle": "Google just released Deep Research Max — an autonomous research agent that writes expert-grade reports on its own",
+        "summary": "r/artificial 커뮤니티에서 화제가 된 게시물입니다. r/artificial은 AI와 인공지능에 대한 일반적인 토론 공간입니다. 최신 AI 뉴스와 기술 동향에 대한 다양한 관점을 공유합니다. 이 게시물은 'Google just released Deep Research Max — an autonomous resea'에 대한 커뮤니티의 관심을 반영합니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1syxef3/google_just_released_deep_research_max_an/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-04-29T21:29:52+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "[기술 토론] Has your job/freelancing gigs been impacted by AI?",
+        "originalTitle": "Has your job/freelancing gigs been impacted by AI?",
+        "summary": "r/artificial 커뮤니티에서 화제가 된 게시물입니다. r/artificial은 AI와 인공지능에 대한 일반적인 토론 공간입니다. 최신 AI 뉴스와 기술 동향에 대한 다양한 관점을 공유합니다. 이 게시물은 'Has your job/freelancing gigs been impacted by AI?'에 대한 커뮤니티의 관심을 반영합니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1szar4f/has_your_jobfreelancing_gigs_been_impacted_by_ai/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-04-30T05:32:21+09:00"
+      },
+      {
+        "id": "reddit_010",
+        "title": "AI 관련: Rumor: DeepSeek and Kimi are merging. While the US AI sector sues itself, China is consolidating.",
+        "originalTitle": "Rumor: DeepSeek and Kimi are merging. While the US AI sector sues itself, China is consolidating.",
+        "summary": "r/OpenAI 커뮤니티에서 화제가 된 게시물입니다. r/OpenAI는 OpenAI의 제품과 연구에 대한 커뮤니티입니다. ChatGPT, GPT 모델, OpenAI 정책에 대한 토론이 이루어집니다. 이 게시물은 'Rumor: DeepSeek and Kimi are merging. While the US AI sector'에 대한 커뮤니티의 관심을 반영합니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1sz4jea/rumor_deepseek_and_kimi_are_merging_while_the_us/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-04-30T01:54:04+09:00"
+      },
+      {
+        "id": "reddit_011",
+        "title": "OpenAI/GPT 관련: GPT-6 Confirmed",
+        "originalTitle": "GPT-6 Confirmed",
+        "summary": "r/OpenAI 커뮤니티에서 화제가 된 게시물입니다. r/OpenAI는 OpenAI의 제품과 연구에 대한 커뮤니티입니다. ChatGPT, GPT 모델, OpenAI 정책에 대한 토론이 이루어집니다. 이 게시물은 'GPT-6 Confirmed'에 대한 커뮤니티의 관심을 반영합니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1syoupn/gpt6_confirmed/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-04-29T13:51:37+09:00"
+      },
+      {
+        "id": "reddit_012",
+        "title": "AI 관련: AI Safety Researcher: I wrote about neuralese as a cautionary tale ... AI Researchers: At long last, we invented neuralese from the classic paper, Don't Let The Machines Speak In Neuralese",
+        "originalTitle": "AI Safety Researcher: I wrote about neuralese as a cautionary tale ... AI Researchers: At long last, we invented neuralese from the classic paper, Don't Let The Machines Speak In Neuralese",
+        "summary": "r/OpenAI 커뮤니티에서 화제가 된 게시물입니다. r/OpenAI는 OpenAI의 제품과 연구에 대한 커뮤니티입니다. ChatGPT, GPT 모델, OpenAI 정책에 대한 토론이 이루어집니다. 이 게시물은 'AI Safety Researcher: I wrote about neuralese as a cautionar'에 대한 커뮤니티의 관심을 반영합니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1sz08ea/ai_safety_researcher_i_wrote_about_neuralese_as_a/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-04-29T23:20:19+09:00"
+      },
+      {
+        "id": "reddit_013",
+        "title": "Anthropic/Claude: Thanks for the advice Claude",
+        "originalTitle": "Thanks for the advice Claude",
+        "summary": "r/ClaudeAI 커뮤니티에서 화제가 된 게시물입니다. r/ClaudeAI는 Anthropic의 Claude AI 어시스턴트에 대한 커뮤니티입니다. Claude의 기능, 활용법, 사용자 경험을 공유합니다. 이 게시물은 'Thanks for the advice Claude'에 대한 커뮤니티의 관심을 반영합니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1sz67w4/thanks_for_the_advice_claude/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-04-30T02:52:09+09:00"
+      },
+      {
+        "id": "reddit_014",
+        "title": "Anthropic/Claude: Claude picked the moral high ground in the red button/blue button vote",
+        "originalTitle": "Claude picked the moral high ground in the red button/blue button vote",
+        "summary": "r/ClaudeAI 커뮤니티에서 화제가 된 게시물입니다. r/ClaudeAI는 Anthropic의 Claude AI 어시스턴트에 대한 커뮤니티입니다. Claude의 기능, 활용법, 사용자 경험을 공유합니다. 이 게시물은 'Claude picked the moral high ground in the red button/blue b'에 대한 커뮤니티의 관심을 반영합니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1sz5md9/claude_picked_the_moral_high_ground_in_the_red/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-04-30T02:31:43+09:00"
+      },
+      {
+        "id": "reddit_015",
+        "title": "[기술 토론] When you've got money to burn 😂",
+        "originalTitle": "When you've got money to burn 😂",
+        "summary": "r/ClaudeAI 커뮤니티에서 화제가 된 게시물입니다. r/ClaudeAI는 Anthropic의 Claude AI 어시스턴트에 대한 커뮤니티입니다. Claude의 기능, 활용법, 사용자 경험을 공유합니다. 이 게시물은 'When you've got money to burn 😂'에 대한 커뮤니티의 관심을 반영합니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1syuij0/when_youve_got_money_to_burn/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-04-29T19:09:38+09:00"
+      },
+      {
+        "id": "reddit_016",
+        "title": "[기술 토론] FastCGI: 30 Years Old and Still the Better Protocol for Reverse Proxies",
+        "originalTitle": "FastCGI: 30 Years Old and Still the Better Protocol for Reverse Proxies",
+        "summary": "r/programming 커뮤니티에서 화제가 된 게시물입니다. r/programming은 소프트웨어 개발자들의 대형 커뮤니티입니다. 프로그래밍 기법, 도구, 업계 동향에 대한 활발한 토론이 이루어집니다. 이 게시물은 'FastCGI: 30 Years Old and Still the Better Protocol for Reve'에 대한 커뮤니티의 관심을 반영합니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1sz6j93/fastcgi_30_years_old_and_still_the_better/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-04-30T03:03:04+09:00"
+      },
+      {
+        "id": "reddit_017",
+        "title": "[기술 토론] Someone compromised SAP's npm packages and used the CI pipeline against itself",
+        "originalTitle": "Someone compromised SAP's npm packages and used the CI pipeline against itself",
+        "summary": "r/programming 커뮤니티에서 화제가 된 게시물입니다. r/programming은 소프트웨어 개발자들의 대형 커뮤니티입니다. 프로그래밍 기법, 도구, 업계 동향에 대한 활발한 토론이 이루어집니다. 이 게시물은 'Someone compromised SAP's npm packages and used the CI pipel'에 대한 커뮤니티의 관심을 반영합니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1sz094x/someone_compromised_saps_npm_packages_and_used/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-04-29T23:21:04+09:00"
+      },
+      {
+        "id": "reddit_018",
+        "title": "Rust 언어: Bugs Rust Won't Catch",
+        "originalTitle": "Bugs Rust Won't Catch",
+        "summary": "r/programming 커뮤니티에서 화제가 된 게시물입니다. r/programming은 소프트웨어 개발자들의 대형 커뮤니티입니다. 프로그래밍 기법, 도구, 업계 동향에 대한 활발한 토론이 이루어집니다. 이 게시물은 'Bugs Rust Won't Catch'에 대한 커뮤니티의 관심을 반영합니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1syrgku/bugs_rust_wont_catch/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-04-29T16:12:36+09:00"
+      },
+      {
+        "id": "reddit_019",
+        "title": "AI 관련: Figure AI hits 24x production scale, producing 1 robot per hour, teases its fleet",
+        "originalTitle": "Figure AI hits 24x production scale, producing 1 robot per hour, teases its fleet",
+        "summary": "r/singularity 커뮤니티에서 화제가 된 게시물입니다. r/singularity는 기술적 특이점과 AI의 미래에 대해 토론하는 커뮤니티입니다. 급격한 기술 발전과 그 사회적 영향에 대한 논의가 활발합니다. 이 게시물은 'Figure AI hits 24x production scale, producing 1 robot per h'에 대한 커뮤니티의 관심을 반영합니다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1sz3sdg/figure_ai_hits_24x_production_scale_producing_1/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-04-30T01:26:53+09:00"
+      },
+      {
+        "id": "reddit_020",
+        "title": "[기술 토론] That robot demo almost turned into a nightmare",
+        "originalTitle": "That robot demo almost turned into a nightmare",
+        "summary": "r/singularity 커뮤니티에서 화제가 된 게시물입니다. r/singularity는 기술적 특이점과 AI의 미래에 대해 토론하는 커뮤니티입니다. 급격한 기술 발전과 그 사회적 영향에 대한 논의가 활발합니다. 이 게시물은 'That robot demo almost turned into a nightmare'에 대한 커뮤니티의 관심을 반영합니다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1syvihl/that_robot_demo_almost_turned_into_a_nightmare/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-04-29T20:02:50+09:00"
+      },
+      {
+        "id": "reddit_021",
+        "title": "[기술 토론] engineering teams celebrating agentic workflows that returned the same result two runs in a row",
+        "originalTitle": "engineering teams celebrating agentic workflows that returned the same result two runs in a row",
+        "summary": "r/singularity 커뮤니티에서 화제가 된 게시물입니다. r/singularity는 기술적 특이점과 AI의 미래에 대해 토론하는 커뮤니티입니다. 급격한 기술 발전과 그 사회적 영향에 대한 논의가 활발합니다. 이 게시물은 'engineering teams celebrating agentic workflows that returne'에 대한 커뮤니티의 관심을 반영합니다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1sz4h4g/engineering_teams_celebrating_agentic_workflows/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-04-30T01:51:52+09:00"
+      },
+      {
+        "id": "reddit_022",
+        "title": "[기술 토론] Anyone think the job hopping culture produces too many engineers that don’t care about maintainability?",
+        "originalTitle": "Anyone think the job hopping culture produces too many engineers that don’t care about maintainability?",
+        "summary": "r/ExperiencedDevs 커뮤니티에서 화제가 된 게시물입니다. r/ExperiencedDevs는 경험 많은 소프트웨어 개발자들의 커뮤니티입니다. 실무 경험에서 나온 깊이 있는 기술 토론과 커리어 인사이트를 제공합니다. 이 게시물은 'Anyone think the job hopping culture produces too many engin'에 대한 커뮤니티의 관심을 반영합니다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1syqq4p/anyone_think_the_job_hopping_culture_produces_too/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-04-29T15:31:54+09:00"
+      },
+      {
+        "id": "reddit_023",
+        "title": "AI 관련: How to deal with juniors shipping AI slop code?",
+        "originalTitle": "How to deal with juniors shipping AI slop code?",
+        "summary": "r/ExperiencedDevs 커뮤니티에서 화제가 된 게시물입니다. r/ExperiencedDevs는 경험 많은 소프트웨어 개발자들의 커뮤니티입니다. 실무 경험에서 나온 깊이 있는 기술 토론과 커리어 인사이트를 제공합니다. 이 게시물은 'How to deal with juniors shipping AI slop code?'에 대한 커뮤니티의 관심을 반영합니다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1sz9d0x/how_to_deal_with_juniors_shipping_ai_slop_code/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-04-30T04:42:05+09:00"
+      },
+      {
+        "id": "reddit_024",
+        "title": "[기술 토론] Early-career dev in legacy .NET system. How do you build a mental model of the codebase?",
+        "originalTitle": "Early-career dev in legacy .NET system. How do you build a mental model of the codebase?",
+        "summary": "r/ExperiencedDevs 커뮤니티에서 화제가 된 게시물입니다. r/ExperiencedDevs는 경험 많은 소프트웨어 개발자들의 커뮤니티입니다. 실무 경험에서 나온 깊이 있는 기술 토론과 커리어 인사이트를 제공합니다. 이 게시물은 'Early-career dev in legacy .NET system. How do you build a m'에 대한 커뮤니티의 관심을 반영합니다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1sz7zrz/earlycareer_dev_in_legacy_net_system_how_do_you/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-04-30T03:53:22+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_quick_bites_000",
+        "title": "AI 평가가 새로운 컴퓨팅 병목이 되고 있다",
+        "excerpt": "Hugging Face - Blog의 최신 소식: AI evals are becoming the new compute bottleneck. 자세한 내용은 원문 링크를 통해 확인하세요.",
+        "body": "Hugging Face - Blog가 발표한 'AI evals are becoming the new compute bottleneck' 관련 업데이트입니다. Hugging Face - Blog의 최신 소식: AI evals are becoming the new compute bottleneck. 자세한 내용은 원문 링크를 통해 확인하세요.",
+        "url": "https://huggingface.co/blog/evaleval/eval-costs-bottleneck",
+        "source": "Hugging Face - Blog",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-30T01:45:09+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_quick_bites_001",
+        "title": "Granite 4.1 LLM: IBM의 최신 언어 모델 구축 방법",
+        "excerpt": "Hugging Face - Blog의 최신 소식: Granite 4.1 LLMs: How They’re Built. 자세한 내용은 원문 링크를 통해 확인하세요.",
+        "body": "Hugging Face - Blog가 발표한 'Granite 4.1 LLMs: How They’re Built' 관련 업데이트입니다. Hugging Face - Blog의 최신 소식: Granite 4.1 LLMs: How They’re Built. 자세한 내용은 원문 링크를 통해 확인하세요.",
+        "url": "https://huggingface.co/blog/ibm-granite/granite-4-1",
+        "source": "Hugging Face - Blog",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-30T00:01:48+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_quick_bites_002",
+        "title": "DeepInfra, Hugging Face 추론 제공업체에 합류 🔥",
+        "excerpt": "Hugging Face - Blog의 최신 소식: DeepInfra on Hugging Face Inference Providers 🔥. 자세한 내용은 원문 링크를 통해 확인하세요.",
+        "body": "Hugging Face - Blog가 발표한 'DeepInfra on Hugging Face Inference Providers 🔥' 관련 업데이트입니다. Hugging Face - Blog의 최신 소식: DeepInfra on Hugging Face Inference Providers 🔥. 자세한 내용은 원문 링크를 통해 확인하세요.",
+        "url": "https://huggingface.co/blog/inference-providers-deepinfra",
+        "source": "Hugging Face - Blog",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-29T09:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_quick_bites_003",
+        "title": "VibeVoice - 오픈소스 프런티어 음성 AI",
+        "excerpt": "TTS와 ASR를 함께 포함한 음성 AI 모델군으로 구성되며, 장문 음성 생성과 장문 음성 인식을 모두 다룸 핵심 구조는 7.5 Hz 초저프레임 연속 음성 토크나이저와 next-token diffusion 조합으로, 긴 시퀀스를 처리하면서 오디오 품질과 계산 효율을...",
+        "body": "TTS와 ASR를 함께 포함한 음성 AI 모델군으로 구성되며, 장문 음성 생성과 장문 음성 인식을 모두 다룸 핵심 구조는 7.5 Hz 초저프레임 연속 음성 토크나이저와 next-token diffusion 조합으로, 긴 시퀀스를 처리하면서 오디오 품질과 계산 효율을...",
+        "url": "https://news.hada.io/topic?id=29018",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-29T22:32:46+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_quick_bites_004",
+        "title": "GitHub 원격 코드 실행 취약점: CVE-2026-3854 분석",
+        "excerpt": "git push 경로의 내부 프로토콜 결함만으로 백엔드에서 원격 코드 실행이 가능했고, GitHub.com은 이미 완화됐지만 GHES는 패치 적용이 필요함 사용자 제어 입력인 push option이 X-Stat 헤더에 그대로 들어가면서 세미콜론 하나로 ...",
+        "body": "git push 경로의 내부 프로토콜 결함만으로 백엔드에서 원격 코드 실행이 가능했고, GitHub.com은 이미 완화됐지만 GHES는 패치 적용이 필요함 사용자 제어 입력인 push option이 X-Stat 헤더에 그대로 들어가면서 세미콜론 하나로 ...",
+        "url": "https://news.hada.io/topic?id=29017",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-29T21:42:33+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_quick_bites_005",
+        "title": "ChatGPT가 광고를 제공하는 방식",
+        "excerpt": "ChatGPT 응답 스트림에는 모델 출력과 함께 광고 유닛 객체가 섞여 들어오며, SSE의 delta 이벤트로 single_advertiser_ad_unit 형태가 전달됨 광고 카드의 이미지와 favicon은 bzrcdn.openai.com 에서 로드되고, ta...",
+        "body": "ChatGPT 응답 스트림에는 모델 출력과 함께 광고 유닛 객체가 섞여 들어오며, SSE의 delta 이벤트로 single_advertiser_ad_unit 형태가 전달됨 광고 카드의 이미지와 favicon은 bzrcdn.openai.com 에서 로드되고, ta...",
+        "url": "https://news.hada.io/topic?id=29016",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-29T21:39:33+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_quick_bites_006",
+        "title": "Show GN: HomeButler – 홈서버를 챙겨주는 작은 집사 CLI",
+        "excerpt": "한 달 전 소개 이후, 단순 홈서버 관리 CLI에서 &quot;홈서버 운영 집사&quot; 방향으로 계속 발전시키고 있습니다. HomeButler는 작은 홈서버를 위한 Go 싱글 바이너리 CLI입니다.",
+        "body": "한 달 전 소개 이후, 단순 홈서버 관리 CLI에서 &quot;홈서버 운영 집사&quot; 방향으로 계속 발전시키고 있습니다. HomeButler는 작은 홈서버를 위한 Go 싱글 바이너리 CLI입니다. 처음엔 status, docker, ports 같은 자주 쓰는 명령을 한곳에 모으는 도구였는데, 만",
+        "url": "https://news.hada.io/topic?id=29015",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-29T21:36:12+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_quick_bites_007",
+        "title": "GitHub 장애 - Incomplete pull request results in repositories Incident Report for GitHub",
+        "excerpt": "GitHub PR 검색에 장애가 생겼네요. ElasticSearch 인덱스 재구축 중이고, 약 24시간 내 완전 복구 예상이라고 공지됐습니다.",
+        "body": "GitHub PR 검색에 장애가 생겼네요. ElasticSearch 인덱스 재구축 중이고, 약 24시간 내 완전 복구 예상이라고 공지됐습니다. PR 데이터 자체는 손실 없고, 페이지 표시에서만 일부 누락되는 상태라고 하네요. [원인] ElasticSearch 클러스터가 인덱싱된 PR 문서를 일부만 갖고 있는 상태.",
+        "url": "https://news.hada.io/topic?id=29013",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-04-29T20:05:40+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      }
+    ]
+  }
+}

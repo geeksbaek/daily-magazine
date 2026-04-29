@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-04-30",
+      "issueNumber": 33,
+      "mainHeadline": "OpenAI Codex·ChatGPT 모먼트 도래: AI 코딩 에이전트 시대의 서막",
+      "headlines": [
+        "Google Cloud Next 2025: AI 스타트업을 위한 주요 발표 총정리",
+        "AI 에이전트, 이제 Cloudflare 계정·도메인·서비스 자동 프로비저닝 가능",
+        "Anthropic, AI 내성 어댑터 연구 발표 — 모델 스스로 훈련 행동 보고 가능"
+      ]
+    },
+    {
       "date": "2026-04-29",
       "issueNumber": 32,
       "mainHeadline": "일론 머스크 vs 샘 알트만 세기의 법정 대결 — OpenAI는 AWS로, Claude는 크리에이티브 도구로 확장",
@@ -315,5 +325,5 @@
       ]
     }
   ],
-  "latestIssue": 32
+  "latestIssue": 33
 }
