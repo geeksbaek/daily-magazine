@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-05-01",
+      "issueNumber": 34,
+      "mainHeadline": "OpenAI Codex 출시: AI가 직접 업무를 처리하는 에이전트 시대의 서막",
+      "headlines": [
+        "Google DeepMind, AI 공동 임상의로 의료 혁신 본격화",
+        "Cloudflare: AI 에이전트가 이제 계정·도메인·서비스를 자율 관리",
+        "Hugging Face, AI 평가(Eval)가 새로운 컴퓨팅 병목으로 부상 경고"
+      ]
+    },
+    {
       "date": "2026-04-30",
       "issueNumber": 33,
       "mainHeadline": "OpenAI Codex·ChatGPT 모먼트 도래: AI 코딩 에이전트 시대의 서막",
@@ -325,5 +335,5 @@
       ]
     }
   ],
-  "latestIssue": 33
+  "latestIssue": 34
 }

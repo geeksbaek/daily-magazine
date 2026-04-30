@@ -1,0 +1,593 @@
+{
+  "date": "2026-05-01",
+  "issueNumber": 34,
+  "cover": {
+    "mainHeadline": "OpenAI Codex 출시: AI가 직접 업무를 처리하는 에이전트 시대의 서막",
+    "mainExcerpt": "OpenAI가 실제 업무를 자율적으로 수행하는 AI 에이전트 'Codex'를 공개했습니다. 슬랙, 구글 워크스페이스 등 주요 업무 툴과 연동되어 데이터 요약·기획안 작성·프로세스 자동화를 수행하며, Google DeepMind는 의료 AI 공동 임상의 모델을 발표하는 등 AI의 전문 영역 진출이 가속화되고 있습니다.",
+    "headlines": [
+      "Google DeepMind, AI 공동 임상의로 의료 혁신 본격화",
+      "Cloudflare: AI 에이전트가 이제 계정·도메인·서비스를 자율 관리",
+      "Hugging Face, AI 평가(Eval)가 새로운 컴퓨팅 병목으로 부상 경고"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "ai_ml_001",
+      "title": "고급 계정 보안 도입: OpenAI, ChatGPT 계정 보호 강화",
+      "excerpt": "OpenAI가 ChatGPT 계정 보안을 강화하는 '고급 계정 보안' 기능을 도입했습니다. 이 기능은 비정상적인 로그인 시도를 감지하고 추가 인증을 요구하여 계정을 보호합니다.",
+      "body": "OpenAI가 ChatGPT 계정 보안을 강화하는 '고급 계정 보안' 기능을 도입했습니다. 이 기능은 비정상적인 로그인 시도를 감지하고 추가 인증을 요구하여 계정을 보호합니다.",
+      "url": "https://openai.com/index/advanced-account-security",
+      "source": "OpenAI News",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-30T09:00:00+09:00",
+      "readTime": 5,
+      "imageGradient": 0
+    },
+    {
+      "id": "ai_ml_002",
+      "title": "AI 공동 임상의로 의료 혁신: Google DeepMind의 헬스케어 AI 모델",
+      "excerpt": "Google DeepMind가 AI 공동 임상의 모델을 도입하여 의료 분야에 새로운 패러다임을 제시했습니다. 이 모델은 의료진과 협력하여 진단 정확도를 높이고 환자 치료를 지원합니다.",
+      "body": "Google DeepMind가 AI 공동 임상의 모델을 도입하여 의료 분야에 새로운 패러다임을 제시했습니다. 이 모델은 의료진과 협력하여 진단 정확도를 높이고 환자 치료를 지원합니다.",
+      "url": "https://deepmind.google/blog/ai-co-clinician/",
+      "source": "Google DeepMind",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-30T21:14:15+09:00",
+      "readTime": 5,
+      "imageGradient": 1
+    },
+    {
+      "id": "ai_ml_003",
+      "title": "Nemotron Labs: OpenClaw 에이전트가 모든 조직에 의미하는 것",
+      "excerpt": "NVIDIA의 Nemotron Labs가 OpenClaw 에이전트 프레임워크를 공개했습니다. 모든 규모의 조직이 자체 AI 에이전트를 구축하고 배포할 수 있는 오픈소스 도구를 제공합니다.",
+      "body": "NVIDIA의 Nemotron Labs가 OpenClaw 에이전트 프레임워크를 공개했습니다. 모든 규모의 조직이 자체 AI 에이전트를 구축하고 배포할 수 있는 오픈소스 도구를 제공합니다.",
+      "url": "https://blogs.nvidia.com/blog/what-openclaw-agents-mean-for-every-organization/",
+      "source": "NVIDIA Blog",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-01T05:00:39+09:00",
+      "readTime": 5,
+      "imageGradient": 0
+    },
+    {
+      "id": "ai_ml_004",
+      "title": "It’s Gonna Be May: 16 Games Hit the Cloud This Month, With More NVIDIA GeForce RTX 5080 Power",
+      "excerpt": "Title: It’s Gonna Be May: 16 Games Hit the Cloud This Month, With More NVIDIA GeForce RTX 5080 Power URL Source: https://blogs.nvidia.com/blog/geforce-now-thursday-may-2026-games-list/ Published...",
+      "body": "Title: It’s Gonna Be May: 16 Games Hit the Cloud This Month, With More NVIDIA GeForce RTX 5080 Power URL Source: https://blogs.nvidia.com/blog/geforce-now-thursday-may-2026-games-list/ Published Time: 2026-04-30T13:00:47+00:00 Markdown Content: _[Editor’s note] The blog has been updated to note that GeForce RTX 5080-power expansion also extends to the Install-to-Play library._ It’s gonna be May —...",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-may-2026-games-list/",
+      "source": "NVIDIA Blog",
+      "category": "ai_ml",
+      "publishedAt": "2026-04-30T22:00:47+09:00",
+      "readTime": 5,
+      "imageGradient": 1
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "ai_ml_001",
+        "title": "고급 계정 보안 도입: OpenAI, ChatGPT 계정 보호 강화",
+        "excerpt": "OpenAI가 ChatGPT 계정 보안을 강화하는 '고급 계정 보안' 기능을 도입했습니다. 이 기능은 비정상적인 로그인 시도를 감지하고 추가 인증을 요구하여 계정을 보호합니다.",
+        "body": "OpenAI가 ChatGPT 계정 보안을 강화하는 '고급 계정 보안' 기능을 도입했습니다. 이 기능은 비정상적인 로그인 시도를 감지하고 추가 인증을 요구하여 계정을 보호합니다.",
+        "url": "https://openai.com/index/advanced-account-security",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-30T09:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      },
+      {
+        "id": "ai_ml_002",
+        "title": "AI 공동 임상의로 의료 혁신: Google DeepMind의 헬스케어 AI 모델",
+        "excerpt": "Google DeepMind가 AI 공동 임상의 모델을 도입하여 의료 분야에 새로운 패러다임을 제시했습니다. 이 모델은 의료진과 협력하여 진단 정확도를 높이고 환자 치료를 지원합니다.",
+        "body": "Google DeepMind가 AI 공동 임상의 모델을 도입하여 의료 분야에 새로운 패러다임을 제시했습니다. 이 모델은 의료진과 협력하여 진단 정확도를 높이고 환자 치료를 지원합니다.",
+        "url": "https://deepmind.google/blog/ai-co-clinician/",
+        "source": "Google DeepMind",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-30T21:14:15+09:00",
+        "readTime": 5,
+        "imageGradient": 1
+      },
+      {
+        "id": "ai_ml_003",
+        "title": "Nemotron Labs: OpenClaw 에이전트가 모든 조직에 의미하는 것",
+        "excerpt": "NVIDIA의 Nemotron Labs가 OpenClaw 에이전트 프레임워크를 공개했습니다. 모든 규모의 조직이 자체 AI 에이전트를 구축하고 배포할 수 있는 오픈소스 도구를 제공합니다.",
+        "body": "NVIDIA의 Nemotron Labs가 OpenClaw 에이전트 프레임워크를 공개했습니다. 모든 규모의 조직이 자체 AI 에이전트를 구축하고 배포할 수 있는 오픈소스 도구를 제공합니다.",
+        "url": "https://blogs.nvidia.com/blog/what-openclaw-agents-mean-for-every-organization/",
+        "source": "NVIDIA Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-01T05:00:39+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      },
+      {
+        "id": "ai_ml_004",
+        "title": "5월의 클라우드 게임: NVIDIA GeForce NOW에 이달 16개 신작 게임 추가",
+        "excerpt": "Title: It’s Gonna Be May: 16 Games Hit the Cloud This Month, With More NVIDIA GeForce RTX 5080 Power URL Source: https://blogs.nvidia.com/blog/geforce-now-thursday-may-2026-games-list/ Published...",
+        "body": "Title: It’s Gonna Be May: 16 Games Hit the Cloud This Month, With More NVIDIA GeForce RTX 5080 Power URL Source: https://blogs.nvidia.com/blog/geforce-now-thursday-may-2026-games-list/ Published Time: 2026-04-30T13:00:47+00:00 Markdown Content: _[Editor’s note] The blog has been updated to note that GeForce RTX 5080-power expansion also extends to the Install-to-Play library._ It’s gonna be May —...",
+        "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-may-2026-games-list/",
+        "source": "NVIDIA Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-30T22:00:47+09:00",
+        "readTime": 5,
+        "imageGradient": 1
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "dev_tools_001",
+        "title": "GitHub Copilot CLI 초보자 가이드: 대화형 vs 비대화형 모드",
+        "excerpt": "GitHub Copilot CLI의 대화형 모드와 비대화형 모드 사용법을 초보자 관점에서 설명합니다. 터미널에서 AI 도움을 받아 복잡한 명령어를 쉽게 작성할 수 있습니다.",
+        "body": "GitHub Copilot CLI의 대화형 모드와 비대화형 모드 사용법을 초보자 관점에서 설명합니다. 터미널에서 AI 도움을 받아 복잡한 명령어를 쉽게 작성할 수 있습니다.",
+        "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-interactive-v-non-interactive-mode/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-01T01:09:02+09:00",
+        "readTime": 5,
+        "imageGradient": 2
+      },
+      {
+        "id": "dev_tools_002",
+        "title": "Visual Studio Code 1.119 업데이트: 새로운 기능 총정리",
+        "excerpt": "VS Code 1.119 릴리즈에는 GitHub Copilot 통합 개선, 새로운 에디터 기능, 성능 최적화가 포함되었습니다. 개발자 생산성을 높이는 다양한 업데이트가 이번 버전에 담겼습니다.",
+        "body": "VS Code 1.119 릴리즈에는 GitHub Copilot 통합 개선, 새로운 에디터 기능, 성능 최적화가 포함되었습니다. 개발자 생산성을 높이는 다양한 업데이트가 이번 버전에 담겼습니다.",
+        "url": "https://code.visualstudio.com/updates/v1_119",
+        "source": "Visual Studio Code - Code Editing. Redefined.",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-07T02:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 3
+      },
+      {
+        "id": "dev_tools_003",
+        "title": "Cloudflare IPsec 포스트 양자 암호화 공식 출시",
+        "excerpt": "Cloudflare가 IPsec 터널에 포스트 양자 암호화를 정식 지원합니다. 양자 컴퓨터의 위협에 대비한 CRYSTALS-Kyber 알고리즘 기반의 보안으로 미래의 사이버 공격에 대응합니다.",
+        "body": "Cloudflare가 IPsec 터널에 포스트 양자 암호화를 정식 지원합니다. 양자 컴퓨터의 위협에 대비한 CRYSTALS-Kyber 알고리즘 기반의 보안으로 미래의 사이버 공격에 대응합니다.",
+        "url": "https://blog.cloudflare.com/post-quantum-ipsec/",
+        "source": "Cloudflare Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-30T23:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 2
+      },
+      {
+        "id": "dev_tools_004",
+        "title": "AI 에이전트, 이제 Cloudflare 계정 생성·도메인 구매·서비스 프로비저닝 자율화",
+        "excerpt": "Starting today, agents can now be Cloudflare customers. They can create a Cloudflare account, start a paid subscription, register a domain, and get back an API token to deploy code right away. Humans...",
+        "body": "Starting today, agents can now be Cloudflare customers. They can create a Cloudflare account, start a paid subscription, register a domain, and get back an API token to deploy code right away. Humans can be in the loop to grant permission, but there’s no need to go to the dashboard, copy and paste API tokens, or enter credit card details.",
+        "url": "https://blog.cloudflare.com/agents-stripe-projects/",
+        "source": "Cloudflare Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-04-30T22:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 3
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "big_tech_001",
+        "title": "구글 내장 차량, 더 스마트해진다 — 새로운 AI 기능 업데이트 예고",
+        "excerpt": "Gemini navigation on a car screen",
+        "body": "Gemini navigation on a car screen",
+        "url": "https://blog.google/products-and-platforms/platforms/android/cars-with-google-built-in-gemini-tips-2026/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-05-01T01:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 4
+      },
+      {
+        "id": "big_tech_002",
+        "title": "구글 맵에서 루트 66을 탐험하는 새로운 방법을 만나보세요",
+        "excerpt": "In celebration of Route 66’s 100th anniversary, Google Maps is rolling out two new ways to help you explore it, virtually or IRL.",
+        "body": "In celebration of Route 66’s 100th anniversary, Google Maps is rolling out two new ways to help you explore it, virtually or IRL.",
+        "url": "https://blog.google/products-and-platforms/products/maps/route-66/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-04-30T23:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 5
+      },
+      {
+        "id": "big_tech_003",
+        "title": "구글 '선호 소스' 기능, 이제 모든 언어에서 사용 가능",
+        "excerpt": "Preferred Sources is now rolling out globally in all supported languages, giving users more control over the news they see on Search.",
+        "body": "Preferred Sources is now rolling out globally in all supported languages, giving users more control over the news they see on Search.",
+        "url": "https://blog.google/products-and-platforms/products/search/preferred-sources-language-expansion/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-04-30T22:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 4
+      },
+      {
+        "id": "big_tech_004",
+        "title": "몇 가지 간단한 단계로 쇼핑 캠페인을 현대 검색에 맞게 최적화하세요",
+        "excerpt": "Built for the next generation of Search, AI Max for Shopping campaigns helps retailers reach shoppers the moment discovery begins.",
+        "body": "Built for the next generation of Search, AI Max for Shopping campaigns helps retailers reach shoppers the moment discovery begins.",
+        "url": "https://blog.google/products/ads-commerce/ai-max-for-shopping/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-04-30T22:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 5
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Andrej Karpathy",
+        "handle": "karpathy",
+        "content": "이것은 내가 최근에 많이 인용해 온 인용구입니다.",
+        "context": "Andrej Karpathy는 전 Tesla AI 총괄이자 OpenAI 공동창업자로, AI 연구와 교육 분야의 영향력 있는 인물입니다.",
+        "url": "https://x.com/karpathy/status/2049907410303865030",
+        "publishedAt": "2026-04-30T17:43:06.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Andrej Karpathy",
+        "handle": "karpathy",
+        "content": "Sequoia Ascent 2026에서 약 일주일 전 있었던 심야 대화. 몇 가지 하이라이트: LLM이 단순히 기존 것을 가속화하는 것(예: 코딩) 이상의 의미가 있다. 새로운 지평의 세 가지 예시: 1. menugen: LLM이 완전히 휘어잡을 수 있는 앱",
+        "context": "Andrej Karpathy는 전 Tesla AI 총괄이자 OpenAI 공동창업자로, AI 연구와 교육 분야의 영향력 있는 인물입니다.",
+        "url": "https://x.com/karpathy/status/2049903821095354523",
+        "publishedAt": "2026-04-30T17:28:50.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "오늘 Codex에 대한 대규모 업그레이드! 비코딩 컴퓨터 작업에 사용해 보세요.",
+        "context": "Sam Altman은 OpenAI CEO로, AI 산업의 방향을 이끌고 있는 핵심 인물입니다.",
+        "url": "https://x.com/sama/status/2049946120441520624",
+        "publishedAt": "2026-04-30T20:16:55.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "멋져 보이네요",
+        "context": "Sam Altman은 OpenAI CEO로, AI 산업의 방향을 이끌고 있는 핵심 인물입니다.",
+        "url": "https://x.com/sama/status/2049944981750833659",
+        "publishedAt": "2026-04-30T20:12:24.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "재미있는 ML 디버깅 이야기",
+        "context": "Greg Brockman은 OpenAI 공동창업자로, 기술 리더십과 AI 개발 전략에 대한 인사이트를 공유합니다.",
+        "url": "https://x.com/gdb/status/2049695437678854153",
+        "publishedAt": "2026-04-30T03:40:48.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "Codex는 모두를 위한 것이며, 컴퓨터로 수행하는 모든 작업에 적합합니다.",
+        "context": "Greg Brockman은 OpenAI 공동창업자로, 기술 리더십과 AI 개발 전략에 대한 인사이트를 공유합니다.",
+        "url": "https://x.com/gdb/status/2049934863818494205",
+        "publishedAt": "2026-04-30T19:32:12.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "Chronicle은 Codex에 컴퓨터로 무엇을 했는지에 대한 수동 메모리를 제공하여 놀라운 사용 사례를 열어줍니다.",
+        "context": "Greg Brockman은 OpenAI 공동창업자로, 기술 리더십과 AI 개발 전략에 대한 인사이트를 공유합니다.",
+        "url": "https://x.com/gdb/status/2049844703793688991",
+        "publishedAt": "2026-04-30T13:33:56.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "Codex와 함께 일상적인 작업을 수행하는 것이 이보다 쉬운 적이 없었습니다. 당신의 역할을 선택하고, 매일 사용하는 앱을 연결하며, 제안된 프롬프트를 시도해보세요.",
+        "context": "OpenAI 공식 계정으로, 최신 제품 출시와 연구 성과를 발표합니다.",
+        "url": "https://x.com/OpenAI/status/2049928776147230886",
+        "publishedAt": "2026-04-30T19:08:00.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_009",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "OpenAI DevDay에 일찍 티켓을 확보하고 싶으신가요? GPT-5.5와 Image Gen으로 뭔가를 만들어 보세요. 매주 2-3개의 좋아하는 작품을 선정해 OpenAI DevDay 2026 무료 티켓을 드릴게요.",
+        "context": "OpenAI 공식 계정으로, 최신 제품 출시와 연구 성과를 발표합니다.",
+        "url": "https://x.com/OpenAI/status/2049535650626785334",
+        "publishedAt": "2026-04-29T17:05:52.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_010",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "우리가 돌아왔다.",
+        "context": "OpenAI 개발자 채널로, 개발자를 위한 API 업데이트와 기술 가이드를 제공합니다.",
+        "url": "https://x.com/OpenAIDevs/status/2049535440617967754",
+        "publishedAt": "2026-04-29T17:05:02.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "이제는 챗GPT말고 코덱스 해야합니다. 오픈AI가 실제 업무를 대신 수행하는 '코덱스(Codex)'를 새롭게 공개했습니다. 슬랙이나 구글 워크스페이스 같은 주요 업무 툴을 연결하면, 코덱스가 개인 비서처럼 흩어진 데이터를 요약하고 기획안을 만들며 다음 작업 과정을 스스로 계획합니다.",
+        "context": "CHOI(@choi.openai)는 한국의 OpenAI Codex 앰배서더로, AI 최신 동향과 Codex 활용법을 한국어로 소개합니다.",
+        "url": "https://www.threads.net/@choi.openai/post/DXxQOIcDBb8",
+        "publishedAt": "2026-04-30T20:43:38.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "Codex에 대한 관심이 빠르게 높아짐에 따라, Codex 앰배서더로서 향후 몇 달간 정기적인 Codex 밋업을 준비하고 있습니다. 서울에서 진행될 예정이며, 상황에 따라 지역 기반의 소규모 모임도 함께 운영할 계획입니다.",
+        "context": "CHOI(@choi.openai)는 한국의 OpenAI Codex 앰배서더로, AI 최신 동향과 Codex 활용법을 한국어로 소개합니다.",
+        "url": "https://www.threads.net/@choi.openai/post/DXqhhu6D9Ia",
+        "publishedAt": "2026-04-28T05:57:50.000Z",
+        "platform": "threads"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "ICML이 만장일치 긍정 평가 논문들을 대거 거부하고 있는 것 같다",
+        "originalTitle": "Seems ICML is rejecting MANY unanimous positively rated papers [D]",
+        "summary": "r/MachineLearning은 AI/ML 연구자와 실무자들의 커뮤니티입니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1t04vk3/seems_icml_is_rejecting_many_unanimous_positively/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-05-01T03:35:33+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "[R] Joint Embedding Variational Bayes (TMLR ’26)",
+        "originalTitle": "[R] Joint Embedding Variational Bayes (TMLR ’26)",
+        "summary": "r/MachineLearning은 AI/ML 연구자와 실무자들의 커뮤니티입니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1szyjpk/r_joint_embedding_variational_bayes_tmlr_26/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-05-01T00:00:11+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "Chinese nexus/network in A* conferences rejecting non chinese papers [D]",
+        "originalTitle": "Chinese nexus/network in A* conferences rejecting non chinese papers [D]",
+        "summary": "r/MachineLearning은 AI/ML 연구자와 실무자들의 커뮤니티입니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1t06564/chinese_nexusnetwork_in_a_conferences_rejecting/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-05-01T04:21:06+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "AMD in-house ryzen 395 box coming in June",
+        "originalTitle": "AMD in-house ryzen 395 box coming in June",
+        "summary": "r/LocalLLaMA는 로컬 LLM 실행에 관심 있는 사용자들의 커뮤니티입니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t038g7/amd_inhouse_ryzen_395_box_coming_in_june/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-05-01T02:37:23+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "Open Models - April 2026 - One of the best months of all time for Local LLMs?",
+        "originalTitle": "Open Models - April 2026 - One of the best months of all time for Local LLMs?",
+        "summary": "r/LocalLLaMA는 로컬 LLM 실행에 관심 있는 사용자들의 커뮤니티입니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t06y43/open_models_april_2026_one_of_the_best_months_of/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-05-01T04:50:13+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "DeepSeek released 'Thinking-with-Visual-Primitives' framework",
+        "originalTitle": "DeepSeek released 'Thinking-with-Visual-Primitives' framework",
+        "summary": "r/LocalLLaMA는 로컬 LLM 실행에 관심 있는 사용자들의 커뮤니티입니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1szwi1d/deepseek_released_thinkingwithvisualprimitives/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-04-30T22:43:54+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "Anthropic mass shipped 9 connectors and accidentally leaked their entire creative industry strategy",
+        "originalTitle": "Anthropic mass shipped 9 connectors and accidentally leaked their entire creative industry strategy",
+        "summary": "r/artificial은 AI 뉴스와 토론을 위한 대형 커뮤니티입니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1szoe78/anthropic_mass_shipped_9_connectors_and/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-04-30T15:50:14+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "Google has expanded its list of real-world GenAI use cases to 1,302, highlighting implementations from top companies like Accenture, Deloitte, and BMW.",
+        "originalTitle": "Google has expanded its list of real-world GenAI use cases to 1,302, highlighting implementations from top companies like Accenture, Deloitte, and BMW.",
+        "summary": "r/artificial은 AI 뉴스와 토론을 위한 대형 커뮤니티입니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1szrff2/google_has_expanded_its_list_of_realworld_genai/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-04-30T18:46:36+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "Elon Musk says his xAI startup’s models were partially trained on OpenAI’s tech",
+        "originalTitle": "Elon Musk says his xAI startup’s models were partially trained on OpenAI’s tech",
+        "summary": "r/artificial은 AI 뉴스와 토론을 위한 대형 커뮤니티입니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1t03h0n/elon_musk_says_his_xai_startups_models_were/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-05-01T02:45:51+09:00"
+      },
+      {
+        "id": "reddit_010",
+        "title": "Welcome to the future",
+        "originalTitle": "Welcome to the future",
+        "summary": "r/OpenAI는 OpenAI 제품과 연구에 대한 토론 공간입니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1szvw52/welcome_to_the_future/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-04-30T22:19:42+09:00"
+      },
+      {
+        "id": "reddit_011",
+        "title": "this is so accurate 😂",
+        "originalTitle": "this is so accurate 😂",
+        "summary": "r/OpenAI는 OpenAI 제품과 연구에 대한 토론 공간입니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1szp0gy/this_is_so_accurate/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-04-30T16:24:47+09:00"
+      },
+      {
+        "id": "reddit_012",
+        "title": "Claude said it needs to rest.. What?",
+        "originalTitle": "Claude said it needs to rest.. What?",
+        "summary": "r/OpenAI는 OpenAI 제품과 연구에 대한 토론 공간입니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1sztl6i/claude_said_it_needs_to_rest_what/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-04-30T20:39:36+09:00"
+      },
+      {
+        "id": "reddit_013",
+        "title": "Claude said it needs to rest.. What?",
+        "originalTitle": "Claude said it needs to rest.. What?",
+        "summary": "r/ClaudeAI는 Anthropic의 Claude AI 관련 커뮤니티입니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1sztk86/claude_said_it_needs_to_rest_what/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-04-30T20:38:22+09:00"
+      },
+      {
+        "id": "reddit_014",
+        "title": "Dear Claude",
+        "originalTitle": "Dear Claude",
+        "summary": "r/ClaudeAI는 Anthropic의 Claude AI 관련 커뮤니티입니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1szz3ea/dear_claude/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-05-01T00:17:39+09:00"
+      },
+      {
+        "id": "reddit_015",
+        "title": "Thanks for the advice Claude",
+        "originalTitle": "Thanks for the advice Claude",
+        "summary": "r/ClaudeAI는 Anthropic의 Claude AI 관련 커뮤니티입니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1sz67w4/thanks_for_the_advice_claude/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-04-30T02:52:09+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "quick_bites_001",
+        "title": "'고블린'은 어디서 왔을까: GPT 이미지 2의 바이럴 아트 트렌드",
+        "excerpt": "Title: Where the goblins came from URL Source: https://openai.com/index/where-the-goblins-came-from Markdown Content: Starting with GPT‑5.1, our models began developing a strange habit: they...",
+        "body": "Title: Where the goblins came from URL Source: https://openai.com/index/where-the-goblins-came-from Markdown Content: Starting with GPT‑5.1, our models began developing a strange habit: they increasingly mentioned goblins, gremlins, and other creatures in their metaphors. Unlike model bugs that show up through a tanking eval or a spiking training metric and point back to a specific change, this...",
+        "url": "https://openai.com/index/where-the-goblins-came-from",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-30T05:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 6
+      },
+      {
+        "id": "quick_bites_002",
+        "title": "인텔리전스 시대를 위한 컴퓨팅 인프라 구축: OpenAI의 비전",
+        "excerpt": "Title: Building the compute infrastructure for the Intelligence Age URL Source: https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age Markdown Content: Stargate is...",
+        "body": "Title: Building the compute infrastructure for the Intelligence Age URL Source: https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age Markdown Content: Stargate is OpenAI’s long-term effort to build the compute foundation required to deliver the benefits of AGI broadly and reliably to the world. To meet the accelerating demand for AI across consumers, businesses,...",
+        "url": "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-30T00:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 7
+      },
+      {
+        "id": "quick_bites_003",
+        "title": "인텔리전스 시대의 사이버보안: AI와 보안의 새로운 패러다임",
+        "excerpt": "Title: Cybersecurity in the Intelligence Age URL Source: https://openai.com/index/cybersecurity-in-the-intelligence-age Markdown Content: # Cybersecurity in the Intelligence Age | OpenAI [Skip to...",
+        "body": "Title: Cybersecurity in the Intelligence Age URL Source: https://openai.com/index/cybersecurity-in-the-intelligence-age Markdown Content: # Cybersecurity in the Intelligence Age | OpenAI [Skip to main content](https://openai.com/index/cybersecurity-in-the-intelligence-age#main) [](https://openai.com/) * [Research](https://openai.com/research/index/) * Products *...",
+        "url": "https://openai.com/index/cybersecurity-in-the-intelligence-age",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-29T13:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 6
+      },
+      {
+        "id": "quick_bites_004",
+        "title": "Gemini에서 이제 파일을 손쉽게 생성할 수 있습니다",
+        "excerpt": "Title: You can now easily generate files in Gemini. URL Source: https://blog.google/innovation-and-ai/products/gemini-app/generate-files-in-gemini/ Published Time: 2026-04-29T16:00:00+00:00 Markdown...",
+        "body": "Title: You can now easily generate files in Gemini. URL Source: https://blog.google/innovation-and-ai/products/gemini-app/generate-files-in-gemini/ Published Time: 2026-04-29T16:00:00+00:00 Markdown Content: # You can now generate files in Gemini [Skip to main content](https://blog.google/innovation-and-ai/products/gemini-app/generate-files-in-gemini/#jump-content) [The...",
+        "url": "https://blog.google/innovation-and-ai/products/gemini-app/generate-files-in-gemini/",
+        "source": "Gemini",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-30T01:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 7
+      },
+      {
+        "id": "quick_bites_005",
+        "title": "Gemini에서 새로운 창작·검색·스트리밍 방식을 즐기세요",
+        "excerpt": "Title: Enjoy new ways to create, search and stream on Google TV URL Source: https://blog.google/products-and-platforms/platforms/google-tv/enjoy-new-ways-to-create-search-and-stream-on-google-tv/...",
+        "body": "Title: Enjoy new ways to create, search and stream on Google TV URL Source: https://blog.google/products-and-platforms/platforms/google-tv/enjoy-new-ways-to-create-search-and-stream-on-google-tv/ Published Time: 2026-04-29T15:00:00+00:00 Markdown Content: # Enjoy new ways to create, search and stream on Google TV [Skip to main...",
+        "url": "https://blog.google/products-and-platforms/platforms/google-tv/enjoy-new-ways-to-create-search-and-stream-on-google-tv/",
+        "source": "Gemini",
+        "category": "ai_ml",
+        "publishedAt": "2026-04-30T00:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 6
+      }
+    ]
+  }
+}
