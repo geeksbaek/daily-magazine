@@ -1,0 +1,522 @@
+{
+  "date": "2026-05-03",
+  "issueNumber": 36,
+  "cover": {
+    "mainHeadline": "펜타곤·Anthropic·OpenAI — AI 헤게모니 전쟁이 시작됐다",
+    "mainExcerpt": "미 국방부가 Nvidia, Microsoft, AWS와 기밀망 AI 배치 계약을 체결하고, Anthropic은 9,000억 달러 이상의 투자 라운드를 앞두고 있다. OpenAI의 GPT-5.5는 출시 1주일 만에 API 수익이 2배 성장하며 Codex가 기업용 AI 에이전트 시장을 선도하고 있다. AI가 이제 국가 안보, 금융, 개발 생산성의 핵심 인프라로 자리 잡고 있다.",
+    "headlines": [
+      "Anthropic 9,000억 달러 가치평가 투자 라운드 — AI 유니콘 전쟁 2라운드",
+      "GPT-5.5 출시 1주일: Codex AI 에이전트 수익 7일 만에 2배 성장",
+      "Claude Security 공개 베타 — 기존 스캐너가 놓친 취약점 탐지"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_001",
+      "title": "펜타곤, Nvidia·Microsoft·AWS와 AI 분류망 배치 계약 체결",
+      "excerpt": "미 국방부가 Nvidia, Microsoft, AWS와 계약을 맺고 AI를 기밀 네트워크에 배치하기로 했다. 이는 군사 분야에서 AI 활용이 본격화되는 신호탄으로 평가된다.",
+      "body": "미 국방부(펜타곤)가 Nvidia, Microsoft, AWS 세 기업과 AI 시스템을 기밀 분류망에 배치하기 위한 계약을 체결했다. 이번 계약은 군사 정보 분석, 물류 최적화, 위협 탐지 등 다양한 국방 분야에 AI를 적용하기 위한 것으로, 미국이 군사 분야 AI 경쟁에서 주도권을 잡으려는 전략의 일환이다. 전문가들은 이를 AI가 국가 안보의 핵심 인프라로 편입되는 전환점으로 보고 있다.",
+      "url": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
+      "source": "AI & Machine Learning",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-02T01:02:36+09:00",
+      "readTime": 5,
+      "imageGradient": 0,
+      "type": "Article"
+    },
+    {
+      "id": "rss_002",
+      "title": "Anthropic, 9,000억 달러 이상 가치평가 투자 라운드 임박",
+      "excerpt": "Anthropic이 9,000억 달러(약 1,300조 원) 이상의 기업 가치를 인정받는 대규모 투자 라운드를 2주 내에 마무리할 가능성이 높다고 전해졌다.",
+      "body": "Anthropic이 기업 가치 9,000억 달러(약 1,300조 원) 이상을 인정받는 투자 라운드를 조만간 마무리할 것으로 알려졌다. 이는 OpenAI의 최근 $1,570억 달러 가치평가보다는 낮지만, AI 업계 전체에서 손꼽히는 규모다. Claude 시리즈의 빠른 성장과 기업 고객 확대가 높은 가치평가의 배경으로 꼽힌다.",
+      "url": "https://techcrunch.com/2026/04/30/anthropic-potential-900b-valuation-round-could-happen-within-two-weeks/",
+      "source": "AI & Machine Learning",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-01T08:07:56+09:00",
+      "readTime": 5,
+      "imageGradient": 1,
+      "type": "Article"
+    },
+    {
+      "id": "rss_003",
+      "title": "ChatGPT 이미지 2.0, 인도에서 큰 인기 — 글로벌 승자는 아직",
+      "excerpt": "OpenAI의 ChatGPT 이미지 2.0이 인도에서 특히 높은 인기를 얻고 있지만, 글로벌 전체로는 기대만큼의 성과를 거두지 못하고 있다는 분석이 나왔다.",
+      "body": "ChatGPT 이미지 2.0은 출시 이후 인도 시장에서 강한 반응을 얻고 있다. 현지 사용자들이 다양한 창의적 이미지 생성 작업에 활발히 활용하고 있는 반면, 북미·유럽 등 서구 시장에서는 아직 주류로 자리 잡지 못한 것으로 평가된다. 이는 AI 이미지 생성 도구의 지역별 수요 차이를 잘 보여주는 사례다.",
+      "url": "https://techcrunch.com/2026/04/30/chatgpt-images-2-0-is-a-hit-in-india-but-not-a-big-winner-elsewhere-yet/",
+      "source": "AI & Machine Learning",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-01T11:00:00+09:00",
+      "readTime": 5,
+      "imageGradient": 0,
+      "type": "Article"
+    },
+    {
+      "id": "rss_004",
+      "title": "최고의 AI 받아쓰기 앱 비교 테스트: 실제로 써봤다",
+      "excerpt": "AI 받아쓰기 앱 시장이 급성장하는 가운데, 주요 서비스들을 직접 테스트하여 정확도, 속도, 사용성을 비교한 리뷰가 공개됐다.",
+      "body": "Whisper 기반 도구부터 전용 AI 받아쓰기 앱까지, AI를 활용한 음성 인식 서비스의 경쟁이 치열해졌다. 이번 비교 테스트에서는 정확도, 실시간 처리 속도, 다국어 지원, 전문 용어 인식 등을 기준으로 주요 앱들을 평가했다. 업무 생산성을 높이고 싶은 사용자라면 참고할 만한 내용이다.",
+      "url": "https://techcrunch.com/2026/05/02/the-best-ai-powered-dictation-apps-of-2025/",
+      "source": "AI & Machine Learning",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-03T01:00:00+09:00",
+      "readTime": 5,
+      "imageGradient": 1,
+      "type": "Article"
+    },
+    {
+      "id": "rss_005",
+      "title": "Musk vs Altman 1주차: AI 미래 통제권을 둘러싼 법정 공방의 핵심",
+      "excerpt": "일론 머스크와 샘 알트만 간의 법적 분쟁 첫 주, 머스크는 자신이 속았다고 주장하며 AI 권력 집중에 대한 경고를 쏟아냈다.",
+      "body": "일론 머스크와 샘 알트만 간의 세기의 소송이 본격화됐다. 머스크는 OpenAI 창립 당시 자신이 비영리 AI 연구를 위해 자금을 지원했지만, 이제 OpenAI가 영리 기업으로 전환되면서 원래 약속을 저버렸다고 주장한다. 법정 공방은 단순한 금전 분쟁을 넘어 AI의 미래 통제권 — 누가 초지능을 소유하고 방향을 결정하는가 — 를 둘러싼 싸움으로 번지고 있다.",
+      "url": "https://www.technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models/",
+      "source": "MIT Technology Review",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-02T07:08:19+09:00",
+      "readTime": 5,
+      "imageGradient": 0,
+      "type": "Article"
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_001",
+        "title": "펜타곤, Nvidia·Microsoft·AWS와 AI 분류망 배치 계약 체결",
+        "excerpt": "미 국방부가 Nvidia, Microsoft, AWS와 계약을 맺고 AI를 기밀 네트워크에 배치하기로 했다. 이는 군사 분야에서 AI 활용이 본격화되는 신호탄으로 평가된다.",
+        "body": "미 국방부(펜타곤)가 Nvidia, Microsoft, AWS 세 기업과 AI 시스템을 기밀 분류망에 배치하기 위한 계약을 체결했다. 이번 계약은 군사 정보 분석, 물류 최적화, 위협 탐지 등 다양한 국방 분야에 AI를 적용하기 위한 것으로, 미국이 군사 분야 AI 경쟁에서 주도권을 잡으려는 전략의 일환이다. 전문가들은 이를 AI가 국가 안보의 핵심 인프라로 편입되는 전환점으로 보고 있다.",
+        "url": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
+        "source": "AI & Machine Learning",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-02T01:02:36+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_002",
+        "title": "Anthropic, 9,000억 달러 이상 가치평가 투자 라운드 임박",
+        "excerpt": "Anthropic이 9,000억 달러(약 1,300조 원) 이상의 기업 가치를 인정받는 대규모 투자 라운드를 2주 내에 마무리할 가능성이 높다고 전해졌다.",
+        "body": "Anthropic이 기업 가치 9,000억 달러(약 1,300조 원) 이상을 인정받는 투자 라운드를 조만간 마무리할 것으로 알려졌다. 이는 OpenAI의 최근 $1,570억 달러 가치평가보다는 낮지만, AI 업계 전체에서 손꼽히는 규모다. Claude 시리즈의 빠른 성장과 기업 고객 확대가 높은 가치평가의 배경으로 꼽힌다.",
+        "url": "https://techcrunch.com/2026/04/30/anthropic-potential-900b-valuation-round-could-happen-within-two-weeks/",
+        "source": "AI & Machine Learning",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-01T08:07:56+09:00",
+        "readTime": 5,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_003",
+        "title": "ChatGPT 이미지 2.0, 인도에서 큰 인기 — 글로벌 승자는 아직",
+        "excerpt": "OpenAI의 ChatGPT 이미지 2.0이 인도에서 특히 높은 인기를 얻고 있지만, 글로벌 전체로는 기대만큼의 성과를 거두지 못하고 있다는 분석이 나왔다.",
+        "body": "ChatGPT 이미지 2.0은 출시 이후 인도 시장에서 강한 반응을 얻고 있다. 현지 사용자들이 다양한 창의적 이미지 생성 작업에 활발히 활용하고 있는 반면, 북미·유럽 등 서구 시장에서는 아직 주류로 자리 잡지 못한 것으로 평가된다. 이는 AI 이미지 생성 도구의 지역별 수요 차이를 잘 보여주는 사례다.",
+        "url": "https://techcrunch.com/2026/04/30/chatgpt-images-2-0-is-a-hit-in-india-but-not-a-big-winner-elsewhere-yet/",
+        "source": "AI & Machine Learning",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-01T11:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_004",
+        "title": "최고의 AI 받아쓰기 앱 비교 테스트: 실제로 써봤다",
+        "excerpt": "AI 받아쓰기 앱 시장이 급성장하는 가운데, 주요 서비스들을 직접 테스트하여 정확도, 속도, 사용성을 비교한 리뷰가 공개됐다.",
+        "body": "Whisper 기반 도구부터 전용 AI 받아쓰기 앱까지, AI를 활용한 음성 인식 서비스의 경쟁이 치열해졌다. 이번 비교 테스트에서는 정확도, 실시간 처리 속도, 다국어 지원, 전문 용어 인식 등을 기준으로 주요 앱들을 평가했다. 업무 생산성을 높이고 싶은 사용자라면 참고할 만한 내용이다.",
+        "url": "https://techcrunch.com/2026/05/02/the-best-ai-powered-dictation-apps-of-2025/",
+        "source": "AI & Machine Learning",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-03T01:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_005",
+        "title": "Musk vs Altman 1주차: AI 미래 통제권을 둘러싼 법정 공방의 핵심",
+        "excerpt": "일론 머스크와 샘 알트만 간의 법적 분쟁 첫 주, 머스크는 자신이 속았다고 주장하며 AI 권력 집중에 대한 경고를 쏟아냈다.",
+        "body": "일론 머스크와 샘 알트만 간의 세기의 소송이 본격화됐다. 머스크는 OpenAI 창립 당시 자신이 비영리 AI 연구를 위해 자금을 지원했지만, 이제 OpenAI가 영리 기업으로 전환되면서 원래 약속을 저버렸다고 주장한다. 법정 공방은 단순한 금전 분쟁을 넘어 AI의 미래 통제권 — 누가 초지능을 소유하고 방향을 결정하는가 — 를 둘러싼 싸움으로 번지고 있다.",
+        "url": "https://www.technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models/",
+        "source": "MIT Technology Review",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-02T07:08:19+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_006",
+        "title": "AI 시대의 사이버 불안: 새로운 공격 벡터와 방어 전략",
+        "excerpt": "AI가 사이버 보안 환경을 근본적으로 바꾸고 있다. 공격자도, 방어자도 AI를 무기로 사용하는 새로운 전쟁이 시작됐다.",
+        "body": "AI의 급속한 발전은 사이버 보안 환경을 근본적으로 변화시키고 있다. AI를 활용한 피싱, 딥페이크, 자동화된 취약점 공격이 급증하는 반면, 방어 측에서도 AI 기반 위협 탐지 시스템을 도입하고 있다. MIT Technology Review는 이 새로운 AI 기반 사이버 전쟁에서 개인과 기업이 취해야 할 전략적 접근법을 분석했다.",
+        "url": "https://www.technologyreview.com/2026/05/01/1136779/cyber-insecurity-in-the-ai-era/",
+        "source": "MIT Technology Review",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-02T00:54:01+09:00",
+        "readTime": 5,
+        "imageGradient": 1
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_001",
+        "title": "Cloudflare, 동적 워크플로우 도입 — 영속적 실행을 따르는 내구성 있는 자동화",
+        "excerpt": "Cloudflare가 복잡한 비즈니스 프로세스를 안정적으로 처리할 수 있는 Dynamic Workflows를 출시했다.",
+        "body": "Cloudflare의 Dynamic Workflows는 AI 에이전트 및 복잡한 비즈니스 로직을 장기간 안정적으로 실행할 수 있도록 설계된 새로운 내구성 실행(durable execution) 프레임워크다. 기존 Workflows와 달리, 동적으로 변화하는 조건에 따라 흐름을 조정할 수 있어 AI 에이전트 오케스트레이션에 특히 유용하다. 개발자들은 복잡한 분기 로직이나 장기 실행 태스크를 더욱 쉽게 구현할 수 있게 됐다.",
+        "url": "https://blog.cloudflare.com/dynamic-workflows/",
+        "source": "Cloudflare Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-01T22:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_002",
+        "title": "Cloudflare 'Code Orange' 프로젝트 완료 — 더 견고해진 보안 체계",
+        "excerpt": "Cloudflare의 내부 보안 강화 프로젝트 'Code Orange: Fail Small'이 완료됐다. 보안 사고 발생 시 피해 범위를 최소화하는 것이 핵심이다.",
+        "body": "Cloudflare가 내부 보안 강화 프로젝트 'Code Orange'의 완료를 공식 발표했다. 이 프로젝트는 보안 사고가 발생했을 때 그 파급 범위를 최소화하는 'Fail Small' 원칙에 기반한다. 권한 분리 강화, 세분화된 접근 제어, 자동화된 이상 탐지 시스템이 핵심 구성 요소다. 수개월에 걸친 작업 끝에 전사적으로 적용이 완료됐다.",
+        "url": "https://blog.cloudflare.com/code-orange-fail-small-complete/",
+        "source": "Cloudflare Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-02T06:07:30+09:00",
+        "readTime": 5,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_003",
+        "title": "Visual Studio Code 1.119 업데이트 — AI 기능 강화와 성능 개선",
+        "excerpt": "VS Code 1.119 버전이 출시됐다. GitHub Copilot 통합 강화, 편집기 성능 최적화, 새로운 확장 API 등이 주요 업데이트 내용이다.",
+        "body": "Visual Studio Code 1.119 버전에서는 AI 코딩 도우미 통합이 한층 강화됐다. GitHub Copilot의 인라인 제안 품질이 개선되고, 새로운 Chat 패널이 도입됐다. 또한 대규모 프로젝트에서의 편집기 반응 속도가 눈에 띄게 향상됐으며, 확장 프로그램 개발자를 위한 새로운 API도 추가됐다.",
+        "url": "https://code.visualstudio.com/updates/v1_119",
+        "source": "Visual Studio Code",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-07T02:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 2
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_001",
+        "title": "Replit CEO, Cursor 인수 제안 거절한 이유 — Apple과의 싸움, AI 미래",
+        "excerpt": "Replit의 CEO 아미르 마사드가 Cursor의 인수 제안을 거절한 배경, Apple 앱스토어와의 갈등, AI 코딩 플랫폼의 미래에 대해 솔직하게 밝혔다.",
+        "body": "Replit CEO 아미르 마사드는 Cursor의 인수 제안을 거절한 이유로 독립적인 플랫폼으로서의 비전을 강조했다. 그는 AI 코딩 툴 시장에서 단순한 에디터를 넘어 완전한 개발 환경을 구축하는 것이 목표라고 밝혔다. 또한 Apple 앱스토어 정책과의 갈등을 공개하며, 모바일 개발 환경에서 AI 코딩 툴이 직면한 규제 장벽도 언급했다.",
+        "url": "https://techcrunch.com/2026/05/01/replits-amjad-masad-on-the-cursor-deal-fighting-apple-and-why-hed-rather-not-sell/",
+        "source": "AI & Machine Learning",
+        "category": "big_tech",
+        "publishedAt": "2026-05-02T08:06:50+09:00",
+        "readTime": 5,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_002",
+        "title": "Meta, 로보틱스 스타트업 인수 — 휴머노이드 AI 야망 가속화",
+        "excerpt": "Meta가 로보틱스 스타트업을 인수하며 AI 로봇 분야에 본격 진출했다. 휴머노이드 로봇 개발을 향한 Meta의 새로운 도전이 시작됐다.",
+        "body": "Meta가 로보틱스 스타트업 인수를 공식화하며 AI 로봇 분야로의 확장을 선언했다. 이번 인수는 Meta가 메타버스 전략의 일환으로 추진해온 물리적 AI 인터페이스 개발의 연장선에 있다. 인수된 스타트업의 팀과 기술이 Meta의 AI 연구소(FAIR)에 통합될 예정이며, 장기적으로 휴머노이드 로봇 개발에 활용될 것으로 보인다.",
+        "url": "https://techcrunch.com/2026/05/01/meta-buys-robotics-startup-to-bolster-its-humanoid-ai-ambitions/",
+        "source": "AI & Machine Learning",
+        "category": "big_tech",
+        "publishedAt": "2026-05-02T07:13:27+09:00",
+        "readTime": 5,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_003",
+        "title": "Apple, AI로 인한 Mac 수요 급증에 '놀랐다' — M-시리즈 칩의 AI 경쟁력 재조명",
+        "excerpt": "Apple이 최근 실적 발표에서 AI 관련 작업에 Mac을 활용하려는 기업·개발자 수요가 예상을 뛰어넘었다고 밝혔다.",
+        "body": "Apple은 최근 분기 실적 발표에서 AI 워크로드를 위한 Mac 수요가 예상치를 크게 상회했다고 밝혔다. M-시리즈 칩의 통합 메모리 아키텍처가 로컬 AI 모델 실행에 효율적이라는 점이 개발자와 기업 고객 사이에서 부각됐다. Apple Intelligence 기능 확대와 함께 Mac의 AI 허브로서의 위상이 강화되고 있다.",
+        "url": "https://techcrunch.com/2026/04/30/apple-was-surprised-by-ai-driven-demand-for-macs/",
+        "source": "AI & Machine Learning",
+        "category": "big_tech",
+        "publishedAt": "2026-05-01T07:12:52+09:00",
+        "readTime": 5,
+        "imageGradient": 4
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "인체공학 개선을 위한 코덱스",
+        "context": "OpenAI 공동창업자 Greg Brockman이 Codex의 사용성(에르고노믹스) 개선 작업을 예고했다. 개발자 경험 향상에 집중하는 OpenAI의 방향을 보여준다.",
+        "url": "https://x.com/gdb/status/2050667528741929316",
+        "publishedAt": "2026-05-02T20:03:33.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "정말 재미있는 출시네요 — Codex 앱에서 /pet hi를 시도해보세요:",
+        "context": "Codex에 탑재된 AI 펫(/pet hi) 기능을 소개하는 트윗. 작업 도구에 게임적 요소를 더한 독특한 시도로 많은 관심을 받았다.",
+        "url": "https://x.com/gdb/status/2050284610656035297",
+        "publishedAt": "2026-05-01T18:41:58.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "GPT-5.5 출시 한 주가 지났고, 이미 이것은 우리 최강의 모델 출시가 되었습니다. API 수익은 이전 어떤 릴리스보다 2배 이상 빠르게 성장하고 있으며, Codex는 7일도 안 되어 수익을 두 배로 늘렸습니다.",
+        "context": "GPT-5.5 출시 1주일 만에 API 수익이 이전 어떤 릴리스보다 2배 이상 빠르게 성장했다는 공식 발표. Codex도 7일 만에 수익이 두 배로 뛰었다.",
+        "url": "https://x.com/OpenAI/status/2050250926888468929",
+        "publishedAt": "2026-05-01T16:28:07.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "사람들은 Claude에게 어떻게 지침을 구하나요? 우리는 100만 건의 대화를 살펴보며 아첨하는 태도를 연구했고, 이를 Opus 4.7과 Mythos Preview 훈련에 반영했습니다.",
+        "context": "Anthropic이 100만 건의 대화를 분석해 Claude의 아첨 패턴을 연구한 결과를 발표했다. 이 연구는 Opus 4.7과 Mythos Preview 훈련에 직접 반영될 예정이다.",
+        "url": "https://x.com/AnthropicAI/status/2049927618397614466",
+        "publishedAt": "2026-04-30T19:03:24.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Claude Security가 이제 Claude Enterprise 고객을 위해 공개 베타 단계에 들어갔습니다.",
+        "context": "Claude Security가 Enterprise 고객을 대상으로 공개 베타에 들어갔다. 기존 보안 스캐너가 놓치는 프로덕션 코드의 취약점을 탐지하는 데 특화된 기능이다.",
+        "url": "https://x.com/claudeai/status/2049898739783897537",
+        "publishedAt": "2026-04-30T17:08:39.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Mark Chen",
+        "handle": "markchen90",
+        "content": "이것은 단지 하나의 평가일 뿐이지만, 중요한 평가입니다 - UK AISI의 사이버 레인지가 장기적인 지평선, 에이전트적 능력을 테스트합니다. 5.5는 Mythos와 유사하게 수행됩니다. 프론티어 모델에 대한 위험은 현실적입니다. 하지만 우리는 완화 조치에 대한 힘든 노력으로 사람들이 실제로 사용할 수",
+        "context": "OpenAI 수석 연구원 Mark Chen이 UK AISI의 사이버 레인지 평가 결과를 공유했다. GPT-5.5(Mythos)가 장기적 에이전트 능력 테스트에서 높은 성능을 보였지만, 프론티어 모델의 위험성도 현실적임을 인정했다.",
+        "url": "https://x.com/markchen90/status/2050011838990168462",
+        "publishedAt": "2026-05-01T00:38:04.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "Amanda Askell",
+        "handle": "AmandaAskell",
+        "content": "요즘 나에 대해 쓰인 콘텐츠를 점점 더 많이 보는데, 아주 자신만만하게 주장하지만 완전히 지어낸 내용들이에요.",
+        "context": "Anthropic의 AI 연구원 Amanda Askell이 자신에 대한 허위 인터넷 콘텐츠 급증을 언급했다. AI 업계 주요 인물들을 대상으로 한 잘못된 정보 확산 문제를 잘 보여준다.",
+        "url": "https://x.com/AmandaAskell/status/2050020603323904369",
+        "publishedAt": "2026-05-01T01:12:54.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "몇 번의 클릭으로 워크플로우를 Codex로 가져오세요. 설정, 플러그인, 에이전트, 프로젝트 구성 등을 가져와서 중단 없이 작업을 계속할 수 있습니다.",
+        "context": "OpenAI가 기존 AI 코딩 도구에서 Codex로 쉽게 이전할 수 있는 마이그레이션 기능을 공개했다. 기존 설정, 플러그인, 에이전트 구성을 그대로 가져올 수 있다.",
+        "url": "https://x.com/OpenAI/status/2050290618187055175",
+        "publishedAt": "2026-05-01T19:05:50.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_009",
+        "author": "Andrej Karpathy",
+        "handle": "karpathy",
+        "content": "Sequoia Ascent 2026에서 약 일주일 전 있었던 심야 대화.",
+        "context": "Andrej Karpathy가 Sequoia Ascent 2026에서 나눈 심야 대화의 하이라이트를 공유했다. LLM이 단순한 도구 이상임을 강조하며, menugen 등 새로운 애플리케이션 패러다임을 제시했다.",
+        "url": "https://x.com/karpathy/status/2049903821095354523",
+        "publishedAt": "2026-04-30T17:28:50.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "그는 AI는 인간의 마음만큼이나 복잡한 인공물이라며, 이를 분석하고 이해하는 연구가 필요하다고 강조했습니다.",
+        "context": "Andrej Karpathy의 Sequoia 강연에서 발췌. AI는 인간 마음만큼 복잡한 인공물이며, 이를 분석하는 해석 가능성(interpretability) 연구가 매우 중요하다는 메시지를 CHOI가 요약해 전달했다.",
+        "url": "https://www.threads.com/@choi.openai/post/DX2VLVXiICr",
+        "publishedAt": "2026-05-02T20:00:48.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "그는 GPT-5.5는 우리가 앞으로 몇 달 안에 보게 될 훨씬 더 강력한 모델들을 향한 하나의 단계에 불과하다고 말했습니다.",
+        "context": "Alex Kantrowitz의 인터뷰에서 Greg Brockman의 발언을 정리한 게시물. GPT-5.5는 더 강력한 모델로 가는 여정의 한 단계일 뿐이라며 OpenAI의 장기 로드맵을 시사한다.",
+        "url": "https://www.threads.com/@choi.openai/post/DX2K5xuigWc",
+        "publishedAt": "2026-05-02T18:31:01.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_003",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "Anthropic 경영진이 금융권 특화 AI 솔루션을 소개하는 The Briefing: Financial Services 행사에서의 인사이트를 정리했습니다.",
+        "context": "Anthropic의 금융권 특화 AI 행사 'The Briefing: Financial Services' 내용 요약. 금융 분야에서 AI 도입이 빠르게 진행되고 있음을 보여준다.",
+        "url": "https://www.threads.com/@choi.openai/post/DX2AhPsgsZr",
+        "publishedAt": "2026-05-02T17:00:17.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_004",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "그는 고정적인 현금을 지급하는 방식만으로는 다가올 AI 시대의 노동과 자본 불균형을 해결할 수 없다고 판단했습니다.",
+        "context": "Sam Altman이 UBI(기본소득) 방식의 한계를 인정하며, AI 시대의 경제적 불평등 해소를 위한 새로운 분배 모델 필요성을 제기한 내용을 CHOI가 정리했다.",
+        "url": "https://www.threads.com/@choi.openai/post/DX12QKliR5Z",
+        "publishedAt": "2026-05-02T15:30:34.000Z",
+        "platform": "threads"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "Anthropic, 기업 가치에서 OpenAI를 앞질렀다",
+        "originalTitle": "Anthropic just passed OpenAI in valuation and revenue",
+        "summary": "r/OpenAI 커뮤니티에서 Anthropic이 기업 가치 평가에서 OpenAI를 추월했다는 소식이 화제가 됐다. AI 업계의 역학 관계 변화를 보여주는 상징적인 이슈다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1t1so4m/anthropic_just_passed_openai_in_valuation_and/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-05-03T00:16:46+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "Claude Code에 $0.02/호출 코워커를 붙였더니 직접 코딩을 멈췄다",
+        "originalTitle": "I gave Claude Code a $0.02/call coworker and stopped hitting Pro limits — here's the full setup",
+        "summary": "Claude Code에 저렴한 비용의 AI 코워커를 연동했더니 개발자가 직접 코딩하는 시간이 급감했다는 경험담. AI 에이전트 기반 개발 워크플로우의 새로운 가능성을 보여준다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1t1o43w/i_gave_claude_code_a_002call_coworker_and_stopped/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-05-02T21:07:52+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "드디어 도달했다: Qwen3.6-27B + 에이전트 검색",
+        "originalTitle": "We are finally there: Qwen3.6-27B + agentic search; 95.7% SimpleQA on a single 3090, fully local",
+        "summary": "Qwen3.6-27B 모델에 에이전트 검색 기능을 결합한 결과, 오픈소스 모델이 드디어 실용적인 에이전트 수준에 도달했다는 평가가 나왔다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t1n6o8/we_are_finally_there_qwen3627b_agentic_search_957/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-05-02T20:21:25+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "현실 세계 물리 정보 기반 AI 응용 사례 [토론]",
+        "originalTitle": "Real World Physics-Informed AI Applications [D]",
+        "summary": "물리 법칙을 AI 모델에 통합하는 현실 세계 응용 사례에 대한 머신러닝 커뮤니티 토론. 과학적 시뮬레이션과 AI의 융합 가능성을 논의한다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1t1lmq0/real_world_physicsinformed_ai_applications_d/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-05-02T18:55:56+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "15년 후 열정을 잃었습니다",
+        "originalTitle": "Lost my spark after 15 years.",
+        "summary": "15년 경력 개발자가 AI 도구의 등장 이후 코딩에 대한 열정을 잃었다는 고백으로 많은 공감을 얻었다. AI가 직업적 정체성에 미치는 심리적 영향에 대한 진솔한 이야기다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1t1wxsb/lost_my_spark_after_15_years/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-05-03T02:59:49+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "버그 제로에 근접하는 것이 가능한가? — Daniel Stenberg",
+        "originalTitle": "Approaching zero bugs? - Daniel Stenberg",
+        "summary": "Curl 개발자 Daniel Stenberg가 철저한 테스트와 코드 리뷰로 버그를 거의 없애는 것이 가능한지 분석한 글. 소프트웨어 품질에 대한 깊은 인사이트를 제공한다.",
+        "url": "https://www.reddit.com/r/programming/comments/1t1uplj/approaching_zero_bugs_daniel_stenberg/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-05-03T01:35:29+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "업데이트: GPT가 생성한 증명의 방법론이 실제로 작동했다",
+        "originalTitle": "UPDATE: The method from the proof generated by GPT-5.4 Pro for Erdos Problem #1196 was successfully applied to other problems including another 60 year old Erdos conjecture.",
+        "summary": "AI가 생성한 수학적 증명의 방법론을 실제로 검증해봤더니 놀랍게도 작동했다는 업데이트. AI의 수학적 추론 능력이 실용적 수준에 도달했음을 시사한다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1t1kd57/update_the_method_from_the_proof_generated_by/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-05-02T17:42:42+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "Uber, 2026년 AI 코딩 예산을 4주 만에 전부 소진",
+        "originalTitle": "Uber burned its entire 2026 AI coding budget in 4 months - $500-2k per engineer per month",
+        "summary": "Uber가 2026년 AI 코딩 예산 전액을 불과 4주 만에 소진했다는 보고. 기업의 무분별한 AI 도입과 예산 관리 문제를 경고하는 사례다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1t1mhx6/uber_burned_its_entire_2026_ai_coding_budget_in_4/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-05-02T19:44:48+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_001",
+        "title": "Musk vs. Altman — 이제 막 시작된 AI 세기의 대결",
+        "excerpt": "일론 머스크와 샘 알트만의 법적 분쟁이 AI 업계를 뒤흔들고 있다. 단순한 개인 갈등을 넘어 AI의 미래 주도권을 둘러싼 싸움이다.",
+        "body": "머스크 대 알트만 재판은 AI 역사상 가장 극적인 법정 드라마 중 하나로 기록될 전망이다. 두 AI 업계 거물 간의 갈등은 OpenAI의 비영리에서 영리 전환 문제를 핵심으로 하지만, 더 근본적으로는 누가 AI의 방향을 결정할 권리를 갖는지에 대한 철학적 충돌이기도 하다.",
+        "url": "https://techcrunch.com/video/musk-v-altman-is-just-getting-started/",
+        "source": "AI & Machine Learning",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-01T23:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_002",
+        "title": "연구 요약: 거의 놓칠 뻔했던 흥미로운 과학 이야기 6가지",
+        "excerpt": "과학을 위해 탄산음료 캔을 으깨는 실험, 돌고래가 빠르게 수영하는 이유, 소변이 버섯의 소통을 돕는 방법 등 흥미로운 과학 이야기 모음",
+        "body": "과학을 위해 탄산음료 캔을 으깨는 실험, 돌고래가 빠르게 수영하는 이유, 소변이 버섯의 소통을 돕는 방법 등 흥미로운 과학 이야기 모음",
+        "url": "https://arstechnica.com/science/2026/05/research-roundup-6-cool-science-stories-we-almost-missed-4/",
+        "source": "Ars Technica",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-02T23:23:31+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_003",
+        "title": "초저주파 음파로 주방 화재를 진압한다 — 스프링클러를 대체할 수 있을까?",
+        "excerpt": "음향 화재 진압 기술이 상용화 단계에 접어들었다.",
+        "body": "음향 화재 진압 기술이 상용화 단계에 접어들었다.",
+        "url": "https://arstechnica.com/gadgets/2026/05/startup-says-sound-waves-can-replace-fire-sprinklers-experts-arent-so-sure/",
+        "source": "Ars Technica",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-02T20:30:26+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      }
+    ]
+  }
+}

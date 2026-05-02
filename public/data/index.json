@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-05-03",
+      "issueNumber": 36,
+      "mainHeadline": "펜타곤·Anthropic·OpenAI — AI 헤게모니 전쟁이 시작됐다",
+      "headlines": [
+        "Anthropic 9,000억 달러 가치평가 투자 라운드 — AI 유니콘 전쟁 2라운드",
+        "GPT-5.5 출시 1주일: Codex AI 에이전트 수익 7일 만에 2배 성장",
+        "Claude Security 공개 베타 — 기존 스캐너가 놓친 취약점 탐지"
+      ]
+    },
+    {
       "date": "2026-05-02",
       "issueNumber": 35,
       "mainHeadline": "Claude Security 공개 베타·Codex AI 펫 출시 — AI 에이전트 시대의 보안과 인간화",
@@ -345,5 +355,5 @@
       ]
     }
   ],
-  "latestIssue": 35
+  "latestIssue": 36
 }
