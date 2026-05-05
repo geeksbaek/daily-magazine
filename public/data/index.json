@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-05-06",
+      "issueNumber": 39,
+      "mainHeadline": "GPT-5.5 Instant 시스템 카드 공개",
+      "headlines": [
+        "보안·거버넌스를 위한 Agent Gateway ISV 에코시스템 공개",
+        "Gemini로 에이전트를 프로덕션에 배포하는 필수 가이드 5선",
+        "GPT-5.5 Instant 출시: 더 스마트하고 명확하며 개인화된 AI"
+      ]
+    },
+    {
       "date": "2026-05-05",
       "issueNumber": 38,
       "mainHeadline": "Google이 2026년 4월에 발표한 최신 AI 뉴스 총정리",
@@ -375,5 +385,5 @@
       ]
     }
   ],
-  "latestIssue": 38
+  "latestIssue": 39
 }

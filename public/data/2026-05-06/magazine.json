@@ -1,0 +1,799 @@
+{
+  "date": "2026-05-06",
+  "issueNumber": 39,
+  "cover": {
+    "mainHeadline": "GPT-5.5 Instant 시스템 카드 공개",
+    "mainExcerpt": "Title: GPT-5.5 Instant System Card URL Source: https://openai.com/index/gpt-5-5-instant-system-card Markdown Content: # GPT-5.5 Instant System Card | OpenAI [Skip to main content](https://openai.com/i...",
+    "headlines": [
+      "보안·거버넌스를 위한 Agent Gateway ISV 에코시스템 공개",
+      "Gemini로 에이전트를 프로덕션에 배포하는 필수 가이드 5선",
+      "GPT-5.5 Instant 출시: 더 스마트하고 명확하며 개인화된 AI"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_001",
+      "title": "보안·거버넌스를 위한 Agent Gateway ISV 에코시스템 공개",
+      "excerpt": "Title: Introducing Agent Gateway ISV ecosystem for security and governance URL Source: https://cloud.google.com/blog/products/identity-security/introducing-agent-gateway-isv-ecosystem-for-security-and...",
+      "body": "Title: Introducing Agent Gateway ISV ecosystem for security and governance URL Source: https://cloud.google.com/blog/products/identity-security/introducing-agent-gateway-isv-ecosystem-for-security-and-governance/ Published Time: 2026-05-05 Markdown Content: Managing agents and their actions can quickly grow in complexity and introduce security risks unique to AI. To address these challenges, at Go...",
+      "url": "https://cloud.google.com/blog/products/identity-security/introducing-agent-gateway-isv-ecosystem-for-security-and-governance/",
+      "source": "AI & Machine Learning",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-06T01:00:00+09:00",
+      "readTime": 10,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_002",
+      "title": "Gemini로 에이전트를 프로덕션에 배포하는 필수 가이드 5선",
+      "excerpt": "Title: Five guides to building and scaling production-ready AI agents URL Source: https://cloud.google.com/blog/topics/developers-practitioners/five-guides-to-building-and-scaling-production-ready-ai-...",
+      "body": "Title: Five guides to building and scaling production-ready AI agents URL Source: https://cloud.google.com/blog/topics/developers-practitioners/five-guides-to-building-and-scaling-production-ready-ai-agents/ Published Time: 2026-05-05 Markdown Content: Building AI agents that work well in a demo is one thing, but running them in production requires serious infrastructure. At Google Cloud Next '26,...",
+      "url": "https://cloud.google.com/blog/topics/developers-practitioners/five-guides-to-building-and-scaling-production-ready-ai-agents/",
+      "source": "AI & Machine Learning",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-06T01:00:00+09:00",
+      "readTime": 10,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_003",
+      "title": "GPT-5.5 Instant 시스템 카드 공개",
+      "excerpt": "Title: GPT-5.5 Instant System Card URL Source: https://openai.com/index/gpt-5-5-instant-system-card Markdown Content: # GPT-5.5 Instant System Card | OpenAI [Skip to main content](https://openai.com/i...",
+      "body": "Title: GPT-5.5 Instant System Card URL Source: https://openai.com/index/gpt-5-5-instant-system-card Markdown Content: # GPT-5.5 Instant System Card | OpenAI [Skip to main content](https://openai.com/index/gpt-5-5-instant-system-card#main) [](https://openai.com/) * [Research](https://openai.com/research/index/) * Products * [Business](https://openai.com/business/) * [Developers](https://openai.com/...",
+      "url": "https://openai.com/index/gpt-5-5-instant-system-card",
+      "source": "OpenAI News",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-05T19:00:00+09:00",
+      "readTime": 10,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_013",
+      "title": "Approximate location sharing gives you more control over your location data in Chrome.",
+      "excerpt": "Chrome on Android users can now choose to share their approximate location with websites, instead of sharing their precise location.",
+      "body": "Chrome on Android users can now choose to share their approximate location with websites, instead of sharing their precise location.",
+      "url": "https://blog.google/products-and-platforms/products/chrome/approximate-location-chrome-on-android/",
+      "source": "The Official Google Blog",
+      "category": "big_tech",
+      "publishedAt": "2026-05-06T02:00:00+09:00",
+      "readTime": 3,
+      "imageGradient": 4
+    },
+    {
+      "id": "rss_009",
+      "title": "JetBrains Java 주석 월간 — 2026년 5월",
+      "excerpt": "April flew by. The pace of tech development didn’t slow, and the flow of news and knowledge didn’t either",
+      "body": "April flew by. The pace of tech development didn’t slow, and the flow of news and knowledge didn’t either. This month, Emily Bache joins us to share some sharp finds about AI agents and test-driven development. Java stays busy with fresh updates and practical tips, and Kotlin keeps pushing forward right next to it",
+      "url": "https://blog.jetbrains.com/idea/2026/05/java-annotated-monthly-may-2026/",
+      "source": "IntelliJ IDEA : IntelliJ IDEA – the IDE for Professional Development in Java and Kotlin | The JetBrains Blog",
+      "category": "dev_tools",
+      "publishedAt": "2026-05-05T21:33:33+09:00",
+      "readTime": 4,
+      "imageGradient": 2
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_001",
+        "title": "보안·거버넌스를 위한 Agent Gateway ISV 에코시스템 공개",
+        "excerpt": "Title: Introducing Agent Gateway ISV ecosystem for security and governance URL Source: https://cloud.google.com/blog/products/identity-security/introducing-agent-gateway-isv-ecosystem-for-security-and...",
+        "body": "Title: Introducing Agent Gateway ISV ecosystem for security and governance URL Source: https://cloud.google.com/blog/products/identity-security/introducing-agent-gateway-isv-ecosystem-for-security-and-governance/ Published Time: 2026-05-05 Markdown Content: Managing agents and their actions can quickly grow in complexity and introduce security risks unique to AI. To address these challenges, at Go...",
+        "url": "https://cloud.google.com/blog/products/identity-security/introducing-agent-gateway-isv-ecosystem-for-security-and-governance/",
+        "source": "AI & Machine Learning",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-06T01:00:00+09:00",
+        "readTime": 10,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_002",
+        "title": "Gemini로 에이전트를 프로덕션에 배포하는 필수 가이드 5선",
+        "excerpt": "Title: Five guides to building and scaling production-ready AI agents URL Source: https://cloud.google.com/blog/topics/developers-practitioners/five-guides-to-building-and-scaling-production-ready-ai-...",
+        "body": "Title: Five guides to building and scaling production-ready AI agents URL Source: https://cloud.google.com/blog/topics/developers-practitioners/five-guides-to-building-and-scaling-production-ready-ai-agents/ Published Time: 2026-05-05 Markdown Content: Building AI agents that work well in a demo is one thing, but running them in production requires serious infrastructure. At Google Cloud Next '26,...",
+        "url": "https://cloud.google.com/blog/topics/developers-practitioners/five-guides-to-building-and-scaling-production-ready-ai-agents/",
+        "source": "AI & Machine Learning",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-06T01:00:00+09:00",
+        "readTime": 10,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_003",
+        "title": "GPT-5.5 Instant 시스템 카드 공개",
+        "excerpt": "Title: GPT-5.5 Instant System Card URL Source: https://openai.com/index/gpt-5-5-instant-system-card Markdown Content: # GPT-5.5 Instant System Card | OpenAI [Skip to main content](https://openai.com/i...",
+        "body": "Title: GPT-5.5 Instant System Card URL Source: https://openai.com/index/gpt-5-5-instant-system-card Markdown Content: # GPT-5.5 Instant System Card | OpenAI [Skip to main content](https://openai.com/index/gpt-5-5-instant-system-card#main) [](https://openai.com/) * [Research](https://openai.com/research/index/) * Products * [Business](https://openai.com/business/) * [Developers](https://openai.com/...",
+        "url": "https://openai.com/index/gpt-5-5-instant-system-card",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-05T19:00:00+09:00",
+        "readTime": 10,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_004",
+        "title": "GPT-5.5 Instant 출시: 더 스마트하고 명확하며 개인화된 AI",
+        "excerpt": "Title: GPT-5.5 Instant: smarter, clearer, and more personalized URL Source: https://openai.com/index/gpt-5-5-instant Markdown Content: # GPT-5.5 Instant: smarter, clearer, and more personalized | Open...",
+        "body": "Title: GPT-5.5 Instant: smarter, clearer, and more personalized URL Source: https://openai.com/index/gpt-5-5-instant Markdown Content: # GPT-5.5 Instant: smarter, clearer, and more personalized | OpenAI [Skip to main content](https://openai.com/index/gpt-5-5-instant#main) [](https://openai.com/) * [Research](https://openai.com/research/index/) * Products * [Business](https://openai.com/business/) ...",
+        "url": "https://openai.com/index/gpt-5-5-instant",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-05T19:00:00+09:00",
+        "readTime": 10,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_005",
+        "title": "ChatGPT 광고 구매 새로운 방식 도입",
+        "excerpt": "Title: New ways to buy ChatGPT ads URL Source: https://openai.com/index/new-ways-to-buy-chatgpt-ads Markdown Content: # New ways to buy ChatGPT ads | OpenAI [Skip to main content](https://openai.com/i...",
+        "body": "Title: New ways to buy ChatGPT ads URL Source: https://openai.com/index/new-ways-to-buy-chatgpt-ads Markdown Content: # New ways to buy ChatGPT ads | OpenAI [Skip to main content](https://openai.com/index/new-ways-to-buy-chatgpt-ads#main) [](https://openai.com/) * [Research](https://openai.com/research/index/) * Products * [Business](https://openai.com/business/) * [Developers](https://openai.com/...",
+        "url": "https://openai.com/index/new-ways-to-buy-chatgpt-ads",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-05T09:00:00+09:00",
+        "readTime": 10,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_006",
+        "title": "OpenAI-PwC 협업: CFO 오피스를 AI로 재설계",
+        "excerpt": "Title: OpenAI and PwC collaborate to reimagine the office of the CFO URL Source: https://openai.com/index/openai-pwc-finance-collaboration Markdown Content: # OpenAI and PwC collaborate to reimagine t...",
+        "body": "Title: OpenAI and PwC collaborate to reimagine the office of the CFO URL Source: https://openai.com/index/openai-pwc-finance-collaboration Markdown Content: # OpenAI and PwC collaborate to reimagine the office of the CFO | OpenAI [Skip to main content](https://openai.com/index/openai-pwc-finance-collaboration#main) [](https://openai.com/) * [Research](https://openai.com/research/index/) * Products...",
+        "url": "https://openai.com/index/openai-pwc-finance-collaboration",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-05T06:00:00+09:00",
+        "readTime": 10,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_007",
+        "title": "Gemini API File Search is now multimodal: build efficient, verifiable RAG",
+        "excerpt": "Gemini API File Search",
+        "body": "Gemini API File Search",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanded-gemini-api-file-search-multimodal-rag/",
+        "source": "The Official Google Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-06T03:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_008",
+        "title": "Show GN: CodexIsland - Claude Code/Codex 사용량을 MacBook 노치에서 보여주는 네이티브 macOS 앱",
+        "excerpt": "Claude Code랑 Codex를 쓰다 보면 사용량 제한을 되게 애매한 순간에 확인하게 됩니다. 저는 보통 한참 코딩하다가 “아 지금 Claude 5시간 제한 얼마나 남았지?” 하고 갑자기 궁금해지는데, 그걸 확인하려고 다른 화면을 열면 흐름이 한 번 끊기더라구요",
+        "body": "Claude Code랑 Codex를 쓰다 보면 사용량 제한을 되게 애매한 순간에 확인하게 됩니다. 저는 보통 한참 코딩하다가 “아 지금 Claude 5시간 제한 얼마나 남았지?” 하고 갑자기 궁금해지는데, 그걸 확인하려고 다른 화면을 열면 흐름이 한 번 끊기더라구요. 그렇다고 현재 실행하는 세션에서 /usage</co",
+        "url": "https://news.hada.io/topic?id=29194",
+        "source": "GeekNews",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-05T23:23:54+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_009",
+        "title": "JetBrains Java 주석 월간 — 2026년 5월",
+        "excerpt": "April flew by. The pace of tech development didn’t slow, and the flow of news and knowledge didn’t either",
+        "body": "April flew by. The pace of tech development didn’t slow, and the flow of news and knowledge didn’t either. This month, Emily Bache joins us to share some sharp finds about AI agents and test-driven development. Java stays busy with fresh updates and practical tips, and Kotlin keeps pushing forward right next to it",
+        "url": "https://blog.jetbrains.com/idea/2026/05/java-annotated-monthly-may-2026/",
+        "source": "IntelliJ IDEA : IntelliJ IDEA – the IDE for Professional Development in Java and Kotlin | The JetBrains Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-05T21:33:33+09:00",
+        "readTime": 4,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_010",
+        "title": "Visual Studio Code 1.119 출시",
+        "excerpt": "Learn what's new in Visual Studio Code 1.119 (Insiders) Read the full article",
+        "body": "Learn what's new in Visual Studio Code 1.119 (Insiders) Read the full article",
+        "url": "https://code.visualstudio.com/updates/v1_119",
+        "source": "Visual Studio Code - Code Editing. Redefined.",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-07T02:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_011",
+        "title": "Remix 3, React 없이 독립 출시",
+        "excerpt": "#​784 — May 5, 2026 Read on the Web JavaScript Weekly Remix 3 Enters Beta — It's No Longer a React Framework — Remix has quite the back story. Created by the duo behind React Router in 2020 and seen a...",
+        "body": "#​784 — May 5, 2026 Read on the Web JavaScript Weekly Remix 3 Enters Beta — It's No Longer a React Framework — Remix has quite the back story. Created by the duo behind React Router in 2020 and seen as an alternative to Next.js, Remix was acquired by Shopify in 2022 and its core ideas folded into React Router v7 in 2024. Now, a new direction: a full-stack, web standards-first framework with its ow...",
+        "url": "https://javascriptweekly.com/issues/784",
+        "source": "JavaScript Weekly",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-05T09:00:00+09:00",
+        "readTime": 6,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_012",
+        "title": "Maintainer Month: 오픈소스를 지키는 사람들을 기념하며",
+        "excerpt": "Title: Welcome to Maintainer Month: Celebrating the people behind the code URL Source: https://github.blog/open-source/maintainers/welcome-to-maintainer-month-celebrating-the-people-behind-the-code/ P...",
+        "body": "Title: Welcome to Maintainer Month: Celebrating the people behind the code URL Source: https://github.blog/open-source/maintainers/welcome-to-maintainer-month-celebrating-the-people-behind-the-code/ Published Time: 2026-05-05T07:30:00-07:00 Markdown Content: # Welcome to Maintainer Month: Celebrating the people behind the code - The GitHub Blog [Skip to content](https://github.blog/open-source/mai...",
+        "url": "https://github.blog/open-source/maintainers/welcome-to-maintainer-month-celebrating-the-people-behind-the-code/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-05T23:30:00+09:00",
+        "readTime": 10,
+        "imageGradient": 3
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_013",
+        "title": "위치 공유 근사치 기능으로 개인정보 보호 강화",
+        "excerpt": "Chrome on Android users can now choose to share their approximate location with websites, instead of sharing their precise location.",
+        "body": "Chrome on Android users can now choose to share their approximate location with websites, instead of sharing their precise location.",
+        "url": "https://blog.google/products-and-platforms/products/chrome/approximate-location-chrome-on-android/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-05-06T02:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_014",
+        "title": "Google, XPRIZE·Range Media Partners와 AI 파트너십 체결",
+        "excerpt": "Google is partnering with XPRIZE and Range Media Partners on the $3.5 million Future Vision film competition.",
+        "body": "Google is partnering with XPRIZE and Range Media Partners on the $3.5 million Future Vision film competition.",
+        "url": "https://blog.google/innovation-and-ai/technology/ai/future-vision-film-competition-xprize/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-05-06T01:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_015",
+        "title": "Gemma 4 가속화: 멀티토큰 예측으로 추론 속도 향상",
+        "excerpt": "Gemma 4 MTP Drafter",
+        "body": "Gemma 4 MTP Drafter",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-05-06T01:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_016",
+        "title": "Google Home 새로운 업데이트 소개",
+        "excerpt": "From a complete camera overhaul to updated automations, there are several new updates coming to Google Home.",
+        "body": "From a complete camera overhaul to updated automations, there are several new updates coming to Google Home.",
+        "url": "https://blog.google/products-and-platforms/devices/google-nest/home-updates/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-05-06T01:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_017",
+        "title": "교원 감사 주간, 교육자의 창의성을 기리다",
+        "excerpt": "A teacher smiles next to a student in a classroom full of instruments.",
+        "body": "A teacher smiles next to a student in a classroom full of instruments.",
+        "url": "https://blog.google/products-and-platforms/products/education/teacher-appreciation-week-2026/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-05-06T01:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "저는 이전 모델들로는 불가능했던 놀라운 것들을 5.5로 구축한 사람들과 이야기하고 싶습니다. 특히 터무니없는 토큰 예산을 소모한 예시들에 관심이 많습니다. 감사합니다.",
+        "context": "@sama의 트윗으로, AI 업계 최신 동향을 반영한 주목할 만한 발언입니다.",
+        "url": "https://x.com/sama/status/2051724685231214650",
+        "publishedAt": "2026-05-05T18:04:18.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "5.5 인스턴트가 오늘 ChatGPT에 출시됐어요!\n\nimo 꽤 큰 업그레이드라고 생각해요, 정말 사용하기 좋네요.",
+        "context": "@sama의 트윗으로, AI 업계 최신 동향을 반영한 주목할 만한 발언입니다.",
+        "url": "https://x.com/sama/status/2051716909629153573",
+        "publishedAt": "2026-05-05T17:33:24.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "안녕 채팅, 우리 너 잊지 않았어",
+        "context": "@sama의 트윗으로, AI 업계 최신 동향을 반영한 주목할 만한 발언입니다.",
+        "url": "https://x.com/sama/status/2051690237420826838",
+        "publishedAt": "2026-05-05T15:47:25.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "빠르게 출시할 수 있도록 돕는 코덱스",
+        "context": "@gdb의 트윗으로, AI 업계 최신 동향을 반영한 주목할 만한 발언입니다.",
+        "url": "https://x.com/gdb/status/2051297950672859290",
+        "publishedAt": "2026-05-04T13:48:37.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Jack Clark",
+        "handle": "jackclarkSF",
+        "content": "지난 몇 주 동안 AI 개발에 관한 수백 개의 공개 데이터 소스를 읽으며 시간을 보냈습니다. 이제 저는 재귀적 자기 개선이 2028년 말까지 일어날 가능성이 60%라고 믿습니다. 즉, AI 시스템이 곧 스스로를 구축할 수 있는 능력을 갖추게 될지도 모릅니다.",
+        "context": "@jackclarkSF의 트윗으로, AI 업계 최신 동향을 반영한 주목할 만한 발언입니다.",
+        "url": "https://x.com/jackclarkSF/status/2051312759594471886",
+        "publishedAt": "2026-05-04T14:47:28.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Jack Clark",
+        "handle": "jackclarkSF",
+        "content": "또한 MLE-Bench가 있는데, 이는 생태학적으로 타당합니다 (과제가 실제 Kaggle 대회에서 나옴) 그리고 특정 문제를 해결하기 위해 매우 다양한 ML 앱 세트를 구축하는 것을 포함합니다. 여기서도 동일한 진척이 나타납니다.",
+        "context": "@jackclarkSF의 트윗으로, AI 업계 최신 동향을 반영한 주목할 만한 발언입니다.",
+        "url": "https://x.com/jackclarkSF/status/2051315077157208448",
+        "publishedAt": "2026-05-04T14:56:40.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "Jack Clark",
+        "handle": "jackclarkSF",
+        "content": "이 프로젝트를 진행하면서의 전체 경험은 AI R&D의 모든 해상도에서 끝없는 'up and to the right' 그래프를 발견하는 것이었습니다. 잘 알려진 것(예: SWE-Bench)부터 더 틈새적인 것까지 말입니다. 그것은 프랙탈이지만, 모든 해상도에서 의미 있는 진전의 동일한 추세를 볼 수 있습니다.",
+        "context": "@jackclarkSF의 트윗으로, AI 업계 최신 동향을 반영한 주목할 만한 발언입니다.",
+        "url": "https://x.com/jackclarkSF/status/2051315277569441850",
+        "publishedAt": "2026-05-04T14:57:28.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "Amanda Askell",
+        "handle": "AmandaAskell",
+        "content": "\"클라우드가 디자인한 옷을 메트 갈라에 입는 것\"이 내 인생 목표 리스트에 추가되고 있어요. 솔직히 리스트 상위에 더 중요한 것들이 몇 개 있지만, 재미있는 것들을 추가하는 것도 좋죠.",
+        "context": "@AmandaAskell의 트윗으로, AI 업계 최신 동향을 반영한 주목할 만한 발언입니다.",
+        "url": "https://x.com/AmandaAskell/status/2051712044454555841",
+        "publishedAt": "2026-05-05T17:14:05.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_009",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "GPT-5.5 Instant가 ChatGPT에서 배포되기 시작했습니다.\n\n이는 큰 업그레이드로, 더 똑똑하고 명확하며 개인화된 답변을 더 따뜻하고 자연스러운 톤으로 제공합니다.\n\n그리고 더 간결해졌는데, 이것이 여러분이 원했던 바라고 들었습니다. 이와 대화하는 걸 좋아하게 될 거라 생각합니다.",
+        "context": "@OpenAI의 트윗으로, AI 업계 최신 동향을 반영한 주목할 만한 발언입니다.",
+        "url": "https://x.com/OpenAI/status/2051709028250915275",
+        "publishedAt": "2026-05-05T17:02:05.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_010",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "우리는 또한 기억과 개인화 기능을 개선하고 있습니다.\n\nChatGPT는 이제 저장된 기억, 이전 대화, 파일, 연결된 Gmail 계정에서 가져온 맥락을 더 잘 활용하여 더 개인화된 응답을 제공할 수 있습니다.\n\n기억 소스는 응답을 개인화하는 데 사용된 관련 맥락을 보여주며, 필요에 따라 업데이트, 삭제 가능합니다.",
+        "context": "@OpenAI의 트윗으로, AI 업계 최신 동향을 반영한 주목할 만한 발언입니다.",
+        "url": "https://x.com/OpenAI/status/2051709033414025647",
+        "publishedAt": "2026-05-05T17:02:07.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_011",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "5/5입니다.\n\nGPT-5.5로 무엇을 만들고 계신가요?",
+        "context": "@OpenAIDevs의 트윗으로, AI 업계 최신 동향을 반영한 주목할 만한 발언입니다.",
+        "url": "https://x.com/OpenAIDevs/status/2051661635564233191",
+        "publishedAt": "2026-05-05T13:53:46.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_012",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "업데이트된 Agents SDK가 이제 TypeScript에서 사용할 수 있으며, 샌드박스 에이전트 지원과 오픈 소스 하네스가 내장되어 있습니다.",
+        "context": "@OpenAIDevs의 트윗으로, AI 업계 최신 동향을 반영한 주목할 만한 발언입니다.",
+        "url": "https://x.com/OpenAIDevs/status/2051725072873001338",
+        "publishedAt": "2026-05-05T18:05:51.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_013",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "음성 AI는 대화가 말하기 속도를 따라갈 때만 자연스럽게 느껴집니다.\n\n여기 WebRTC 스택을 얇은 중계(relay)와 상태 유지 트랜시버(stateful transceiver)로 재구축하여 ChatGPT 음성, Realtime API 등에서 실시간 미디어를 빠르게 유지한 방법이 있습니다.",
+        "context": "@OpenAIDevs의 트윗으로, AI 업계 최신 동향을 반영한 주목할 만한 발언입니다.",
+        "url": "https://x.com/OpenAIDevs/status/2051453905343828350",
+        "publishedAt": "2026-05-05T00:08:19.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_014",
+        "author": "ChatGPT",
+        "handle": "ChatGPTapp",
+        "content": "새로운 Instant 모델에 대해 우리 모든 사용자들에게 하이파이브를 보냅니다.",
+        "context": "@ChatGPTapp의 트윗으로, AI 업계 최신 동향을 반영한 주목할 만한 발언입니다.",
+        "url": "https://x.com/ChatGPTapp/status/2051756232231555121",
+        "publishedAt": "2026-05-05T20:09:40.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_015",
+        "author": "ChatGPT",
+        "handle": "ChatGPTapp",
+        "content": "GPT-5.5 Instant가 ChatGPT의 모든 사용자에게 배포되기 시작했습니다.\n\n훨씬 더 간결해졌습니다. 더 나은 메모리. 더 개인화되었습니다.\n\n그리고 대화하기가 훨씬 더 쉽습니다. 정말로요.",
+        "context": "@ChatGPTapp의 트윗으로, AI 업계 최신 동향을 반영한 주목할 만한 발언입니다.",
+        "url": "https://x.com/ChatGPTapp/status/2051709103614083475",
+        "publishedAt": "2026-05-05T17:02:23.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_016",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "AI가 인간이 완전히 확인할 수 없는 작업을 맡게 되면서, 유능한 모델이 의도적으로 성능을 억제할 수 있고—우리는 절대 알지 못할 것입니다.\n\n새로운 Anthropic Fellows 연구에 따르면, 그러한 모델은 더 약한 모델을 감독자로 사용해 거의 완전한 능력에 가까운 수준으로 훈련될 수 있습니다.",
+        "context": "@AnthropicAI의 트윗으로, AI 업계 최신 동향을 반영한 주목할 만한 발언입니다.",
+        "url": "https://x.com/AnthropicAI/status/2051718308702081047",
+        "publishedAt": "2026-05-05T17:38:58.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_017",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "금융 서비스를 위한 새로운 기능: 피치 작성, 밸류에이션 리뷰 수행, 월말 장부 마감 등에 사용할 수 있는 즉시 실행 가능한 Claude 에이전트 템플릿.\n\nCowork와 Claude Code에서 플러그인으로 설치하거나, 관리형 에이전트로 프로덕션에서 실행하려면 쿠킹북을 사용하세요.",
+        "context": "@claudeai의 트윗으로, AI 업계 최신 동향을 반영한 주목할 만한 발언입니다.",
+        "url": "https://x.com/claudeai/status/2051679629488865498",
+        "publishedAt": "2026-05-05T15:05:16.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_018",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "각 에이전트는 작업에 필요한 커넥터, 스킬, 서브 에이전트를 기본으로 탑재하여, 그대로 사용하거나 귀사 표준에 맞게 조정할 수 있도록 준비되어 있습니다.",
+        "context": "@claudeai의 트윗으로, AI 업계 최신 동향을 반영한 주목할 만한 발언입니다.",
+        "url": "https://x.com/claudeai/status/2051679630856249406",
+        "publishedAt": "2026-05-05T15:05:17.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "클로드가 금융 기능을 업데이트하자마자 퍼플렉시티(Perplexity)가 발 빠르게 맞불을 놨습니다.\n오늘 퍼플렉시티는 금융 전문가를 위한 'Perplexity Computer'를 새롭게 공개했습니다.\n가장 눈에 띄는 변화는 모닝스타, 피치북 같은 금융 라이선스 데이터를 직접 연동해서 활용할 수 있다는 점입니다.",
+        "context": "한국 AI 커뮤니티에서 주목받는 AI 트렌드 분석 계정의 최신 포스트입니다.",
+        "url": "https://www.threads.com/@choi.openai/post/DX-DeCJDxmA",
+        "publishedAt": "2026-05-06T05:45:00.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "모델 제공사가 기존 AI SaaS 영역까지 확장함에 따라 더욱 특화하고 파트너십으로 무장한 기능들이 쏟아지는 것 같습니다.",
+        "context": "한국 AI 커뮤니티에서 주목받는 AI 트렌드 분석 계정의 최신 포스트입니다.",
+        "url": "https://www.threads.com/@choi.openai/post/DX-DeCJDxmA",
+        "publishedAt": "2026-05-05T19:59:59.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_003",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "결국 대중의 선택을 받는 AI는 기술력에 더해 대화의 센스까지 갖춘 모델이 될 것으로 보입니다.",
+        "context": "한국 AI 커뮤니티에서 주목받는 AI 트렌드 분석 계정의 최신 포스트입니다.",
+        "url": "https://www.threads.com/@choi.openai/post/DX9zhW5CKq2",
+        "publishedAt": "2026-05-05T17:40:38.000Z",
+        "platform": "threads"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "논문 결과 재현에 어려움을 겪고 있나요?",
+        "originalTitle": "Struggling to reproduce paper results before improving them — stuck below reported accuracy [R]",
+        "summary": "r/MachineLearning 커뮤니티에서 주목받는 게시물입니다. AI 및 기술 커뮤니티의 최신 논의를 확인할 수 있습니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1t4dkew/struggling_to_reproduce_paper_results_before/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-05-05T21:09:38+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "r/MachineLearning 주목 게시물: Production AI very different f",
+        "originalTitle": "Production AI very different from the demos [D]",
+        "summary": "r/MachineLearning 커뮤니티에서 주목받는 게시물입니다. AI 및 기술 커뮤니티의 최신 논의를 확인할 수 있습니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1t4mzm3/production_ai_very_different_from_the_demos_d/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-05-06T02:52:35+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "r/MachineLearning 주목 게시물: NeurIPS Submission Number [D]",
+        "originalTitle": "NeurIPS Submission Number [D]",
+        "summary": "r/MachineLearning 커뮤니티에서 주목받는 게시물입니다. AI 및 기술 커뮤니티의 최신 논의를 확인할 수 있습니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1t4oykt/neurips_submission_number_d/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-05-06T04:00:53+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "Gemma 4 모델 로컬 실행 경험 공유",
+        "originalTitle": "Gemma 4 MTP released",
+        "summary": "r/LocalLLaMA 커뮤니티에서 주목받는 게시물입니다. AI 및 기술 커뮤니티의 최신 논의를 확인할 수 있습니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t4jq6h/gemma_4_mtp_released/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-05-06T01:01:17+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "오픈소스 AI 모델 최신 동향",
+        "originalTitle": "Heretic 1.3 released: Reproducible models, integrated benchmarking system, reduced peak VRAM usage, broader model support, and more",
+        "summary": "r/LocalLLaMA 커뮤니티에서 주목받는 게시물입니다. AI 및 기술 커뮤니티의 최신 논의를 확인할 수 있습니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t4hwup/heretic_13_released_reproducible_models/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-05-05T23:57:32+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "r/LocalLLaMA 주목 게시물: ProgramBench: Can we really re",
+        "originalTitle": "ProgramBench: Can we really rebuild huge binaries from scratch? (doesn't look like it)",
+        "summary": "r/LocalLLaMA 커뮤니티에서 주목받는 게시물입니다. AI 및 기술 커뮤니티의 최신 논의를 확인할 수 있습니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t4j4s9/programbench_can_we_really_rebuild_huge_binaries/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-05-06T00:40:52+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "r/artificial 주목 게시물: X user tricks Grok into sendin",
+        "originalTitle": "X user tricks Grok into sending them $200,000 in crypto using morse code",
+        "summary": "r/artificial 커뮤니티에서 주목받는 게시물입니다. AI 및 기술 커뮤니티의 최신 논의를 확인할 수 있습니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1t4cisv/x_user_tricks_grok_into_sending_them_200000_in/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-05-05T20:22:11+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "r/artificial 주목 게시물: Pennsylvania sues AI company, ",
+        "originalTitle": "Pennsylvania sues AI company, saying its chatbots illegally hold themselves out as licensed doctors",
+        "summary": "r/artificial 커뮤니티에서 주목받는 게시물입니다. AI 및 기술 커뮤니티의 최신 논의를 확인할 수 있습니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1t4jn6g/pennsylvania_sues_ai_company_saying_its_chatbots/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-05-06T00:58:35+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "r/artificial 주목 게시물: Made a tool that builds its ow",
+        "originalTitle": "Made a tool that builds its own training data and improves each cycle by learning from what it got wrong",
+        "summary": "r/artificial 커뮤니티에서 주목받는 게시물입니다. AI 및 기술 커뮤니티의 최신 논의를 확인할 수 있습니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1t4egej/made_a_tool_that_builds_its_own_training_data_and/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-05-05T21:47:40+09:00"
+      },
+      {
+        "id": "reddit_010",
+        "title": "r/OpenAI 주목 게시물: OpenAI Revenue",
+        "originalTitle": "OpenAI Revenue",
+        "summary": "r/OpenAI 커뮤니티에서 주목받는 게시물입니다. AI 및 기술 커뮤니티의 최신 논의를 확인할 수 있습니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1t4fy1m/openai_revenue/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-05-05T22:45:29+09:00"
+      },
+      {
+        "id": "reddit_011",
+        "title": "GPT-5.5 Instant 출시 — 더 스마트하고 빠른 응답",
+        "originalTitle": "GPT-5.5 Instant is starting to roll out in ChatGPT.",
+        "summary": "r/OpenAI 커뮤니티에서 주목받는 게시물입니다. AI 및 기술 커뮤니티의 최신 논의를 확인할 수 있습니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1t4mdyd/gpt55_instant_is_starting_to_roll_out_in_chatgpt/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-05-06T02:32:28+09:00"
+      },
+      {
+        "id": "reddit_012",
+        "title": "r/OpenAI 주목 게시물: OpenAI expected to produce as ",
+        "originalTitle": "OpenAI expected to produce as many as 30 million 'AI agent' phones early next year, says industry analyst",
+        "summary": "r/OpenAI 커뮤니티에서 주목받는 게시물입니다. AI 및 기술 커뮤니티의 최신 논의를 확인할 수 있습니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1t4ffmo/openai_expected_to_produce_as_many_as_30_million/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-05-05T22:25:47+09:00"
+      },
+      {
+        "id": "reddit_013",
+        "title": "Claude AI 금융 기능 업데이트 토론",
+        "originalTitle": "Turned a desk lamp into a Claude Code status indicator",
+        "summary": "r/ClaudeAI 커뮤니티에서 주목받는 게시물입니다. AI 및 기술 커뮤니티의 최신 논의를 확인할 수 있습니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1t4gfc7/turned_a_desk_lamp_into_a_claude_code_status/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-05-05T23:03:16+09:00"
+      },
+      {
+        "id": "reddit_014",
+        "title": "Claude AI 금융 기능 업데이트 토론",
+        "originalTitle": "When Claude tells you to \"stop spiraling and go to bed\"",
+        "summary": "r/ClaudeAI 커뮤니티에서 주목받는 게시물입니다. AI 및 기술 커뮤니티의 최신 논의를 확인할 수 있습니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1t42p01/when_claude_tells_you_to_stop_spiraling_and_go_to/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-05-05T11:36:06+09:00"
+      },
+      {
+        "id": "reddit_015",
+        "title": "Claude AI 금융 기능 업데이트 토론",
+        "originalTitle": "I asked Claude to investigate its own token burn. The receipts go back six months.",
+        "summary": "r/ClaudeAI 커뮤니티에서 주목받는 게시물입니다. AI 및 기술 커뮤니티의 최신 논의를 확인할 수 있습니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1t4gchn/i_asked_claude_to_investigate_its_own_token_burn/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-05-05T23:00:32+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_018",
+        "title": "데이터를 결정으로: 비즈니스 AI 에이전트에 필요한 3가지",
+        "excerpt": "The Road To Google Marketing Live",
+        "body": "The Road To Google Marketing Live",
+        "url": "https://blog.google/products/ads-commerce/google-marketing-live-2026-turn-your-data-into-decisions/",
+        "source": "The Official Google Blog",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-05T22:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_019",
+        "title": "AI로 벨기에 농부들의 물 절약 돕는 Google",
+        "excerpt": "Agrow’s technology platform integrates climate, water and soil data from satellite and thermal imagery to provide precise irrigation and fertilization recommendations.",
+        "body": "Agrow’s technology platform integrates climate, water and soil data from satellite and thermal imagery to provide precise irrigation and fertilization recommendations.",
+        "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/heres-how-were-helping-belgiums-farmers-save-water-with-ai/",
+        "source": "The Official Google Blog",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-05T18:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_020",
+        "title": "교육자를 AI 학습의 중심에 두다",
+        "excerpt": "A collage of photos showcasing community engagement and professional events, including a workshop presentation, a woman outdoors near a bridge, a large group meeting, and a professional group photo in...",
+        "body": "A collage of photos showcasing community engagement and professional events, including a workshop presentation, a woman outdoors near a bridge, a large group meeting, and a professional group photo in front of a Google sign.",
+        "url": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/putting-educators-at-the-center-of-ai-learning/",
+        "source": "The Official Google Blog",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-05T10:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_021",
+        "title": "Apple 제조 아카데미, 미국 공급망 AI 활용 가속화",
+        "excerpt": "Title: Apple Manufacturing Academy brings together hundreds of U.S. manufacturers to accelerate Al use in American supply chains URL Source: https://www.apple.com/newsroom/2026/05/apple-manufacturing-...",
+        "body": "Title: Apple Manufacturing Academy brings together hundreds of U.S. manufacturers to accelerate Al use in American supply chains URL Source: https://www.apple.com/newsroom/2026/05/apple-manufacturing-academy-accelerates-ai-use-in-us-supply-chains/ Published Time: 2026-05-05Z Markdown Content: # Apple Manufacturing Academy accelerates AI use in U.S. supply chains - Apple * [Apple](https://www.apple...",
+        "url": "https://www.apple.com/newsroom/2026/05/apple-manufacturing-academy-accelerates-ai-use-in-us-supply-chains/",
+        "source": "Apple Newsroom",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-05T21:59:35+09:00",
+        "readTime": 10,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_022",
+        "title": "Docker Model Runner로 이미지 로컬 생성하기",
+        "excerpt": "We've all been there: you need to generate a few images for a project, you fire up an AI image service, and suddenly you're wondering what happens to your prompts, how many credits you have left, or w...",
+        "body": "We've all been there: you need to generate a few images for a project, you fire up an AI image service, and suddenly you're wondering what happens to your prompts, how many credits you have left, or why that \"safe content\" filter rejected your perfectly reasonable request for a dragon wearing a business suit. What...",
+        "url": "https://www.docker.com/blog/blog-generate-images-locally-dmr-open-webui/",
+        "source": "Docker Blog",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-05T22:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_023",
+        "title": "로컬 AI 이미지 생성: Docker Model Runner 활용법",
+        "excerpt": "The complexity of modern containerized applications often leaves developers drowning in a sea of \"noise\"—vulnerabilities that exist in the file system but pose zero actual risk to the application. The...",
+        "body": "The complexity of modern containerized applications often leaves developers drowning in a sea of \"noise\"—vulnerabilities that exist in the file system but pose zero actual risk to the application. The integration between Black Duck and Docker Hardened Images (DHI) provides a definitive answer to this challenge. By combining Docker’s secure-by-default foundations, using VEX (Vulnerability Exploitab...",
+        "url": "https://www.docker.com/blog/precision-container-security-with-docker-and-black-duck/",
+        "source": "Docker Blog",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-05T17:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 7
+      }
+    ]
+  }
+}
