@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-05-07",
+      "issueNumber": 40,
+      "mainHeadline": "ChatGPT 퓨처스 소개: 2026 클래스",
+      "headlines": [
+        "프론티어 기업들이 AI 경쟁력을 구축하는 방법",
+        "Open ASR 리더보드에 벤치마크 조작 방지 기능 추가",
+        "vLLM V0에서 V1으로: RL에서 정확성 우선 접근법"
+      ]
+    },
+    {
       "date": "2026-05-06",
       "issueNumber": 39,
       "mainHeadline": "GPT-5.5 Instant 시스템 카드 공개",

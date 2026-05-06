@@ -1,0 +1,953 @@
+{
+  "date": "2026-05-07",
+  "issueNumber": 40,
+  "cover": {
+    "mainHeadline": "ChatGPT 퓨처스 소개: 2026 클래스",
+    "mainExcerpt": "Title: Introducing ChatGPT Futures: Class of 2026\n\nURL Source: https://openai.com/index/introducing-chatgpt-futures-class-of-2026\n\nMarkdown Content:\n# Introducing ChatGPT Futures: Class of 2026 | Open",
+    "headlines": [
+      "프론티어 기업들이 AI 경쟁력을 구축하는 방법",
+      "Open ASR 리더보드에 벤치마크 조작 방지 기능 추가",
+      "vLLM V0에서 V1으로: RL에서 정확성 우선 접근법"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_001",
+      "title": "ChatGPT 퓨처스 소개: 2026 클래스",
+      "excerpt": "Title: Introducing ChatGPT Futures: Class of 2026\n\nURL Source: https://openai.com/index/introducing-chatgpt-futures-class-of-2026\n\nMarkdown Content:\n# Introducing ChatGPT Futures: Class of 2026 | OpenAI\n\n[Skip to main content](https://openai.com/index/introducing-chatgpt-futures-class-of-2026#main)\n",
+      "body": "Title: Introducing ChatGPT Futures: Class of 2026\n\nURL Source: https://openai.com/index/introducing-chatgpt-futures-class-of-2026\n\nMarkdown Content:\n# Introducing ChatGPT Futures: Class of 2026 | OpenAI\n\n[Skip to main content](https://openai.com/index/introducing-chatgpt-futures-class-of-2026#main)\n\n[](https://openai.com/)\n\n*   [Research](https://openai.com/research/index/)\n*   Products\n*   [Business](https://openai.com/business/)\n*   [Developers](https://openai.com/api/)\n*   [Company](https://openai.com/about/)\n*   [Foundation(opens in a new window)](https://openaifoundation.org/)\n\nLog in[Try ChatGPT(opens in a new window)](https://chatgpt.com/)\n\n*   Research\n*   Products\n*   Business\n*   Developers\n*   Company\n*   [Foundation(opens in a new window)](https://openaifoundation.org/)\n\n[Try ChatGPT(opens in a new window)](https://chatgpt.com/)Login\n\nOpenAI\n\nTable of contents\n\n*   [Celebrating AI Creators, Explorers and Advocates in the Class of 2026](https://openai.com/index/introducing-chatgpt-futures-class-of-2026#celebrating-ai-creators-explorers-and-advocates-in-the-class-of-2026)\n*   [Agency Starts in Classrooms](https://openai.com/index/introducing-chatgpt-futures-class-of-2026#agency-starts-in-classrooms)\n\nMay 6, 2026\n\n[Company](https://openai.com/news/company-announcements/)\n\n# Introducing ChatGPT Futures: Class of 2026\n\n[Meet the class of 2026(opens in a new window)](https://www.chatgpt.com/futures)\n\n![Image 1: Banner reading “ChatGPT Futures – Class of 2026: The next Generation of AI Leaders” with rows of student headshots and names displayed in a grid on a purple background.](https://images.ctfassets.net/kftzwdyauwt9/kWgUsecMu9iHkjNqQjFI7/976534535e3af21805844456e8794fff/Class_of_2027_16-9.png?w=3840&q=90&fm=webp)\n\nLoading…\n\nShare\n\nToday, we’re proud to introduce the inaugural [ChatGPT Futures Class of 2026⁠(opens in a new window)](https://chatgpt.com/futures), recognizing 26 students and young builders using AI in thoughtful, ambitious, and deeply human ways.\n\nThe class of 2026 is the first generation to start and finish college with ChatGPT.\n\nThey arrived on campus in the fall of 2022 just as AI was beginning to reshape how people learn, create, and work. This generation was ChatGPT’s earliest adopters, sharing the tool with their parents and siblings, friends and teachers. Now, they’re graduating into a world where changes in technology are accelerating every day.\n\nOver the past few years, I’ve spent time visiting campuses, speaking with student",
+      "url": "https://openai.com/index/introducing-chatgpt-futures-class-of-2026",
+      "source": "OpenAI News",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-06T09:00:00+09:00",
+      "readTime": 4,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_002",
+      "title": "프론티어 기업들이 AI 경쟁력을 구축하는 방법",
+      "excerpt": "Title: How frontier enterprises are building an AI advantage\n\nURL Source: https://openai.com/index/introducing-b2b-signals\n\nMarkdown Content:\nTLDR\n\n*   Frontier firms—those at the 95th percentile of usage—now use 3.5x as much intelligence per worker as typical firms, up from 2x a year ago.\n*   The g",
+      "body": "Title: How frontier enterprises are building an AI advantage\n\nURL Source: https://openai.com/index/introducing-b2b-signals\n\nMarkdown Content:\nTLDR\n\n*   Frontier firms—those at the 95th percentile of usage—now use 3.5x as much intelligence per worker as typical firms, up from 2x a year ago.\n*   The gap is about depth, not just activity: Message volume explains only 36% of the frontier advantage; most of the gap comes from richer, more complex AI use.\n*   Agentic workflows are becoming a frontier marker: The largest advantage shows up in advanced tools, with frontier firms sending 16x as many Codex messages per worker as typical firms.\n*   Organizations can move toward the frontier: Leading firms measure depth, build governance for production use, invest in enablement, scale what works, and move from chat-based assistance to delegated work with agents.\n\nFor many enterprises, the first phase of AI adoption was about access: who had AI tools, how many seats had been deployed, and whether employees were experimenting. That still matters. But access is no longer the differentiator.\n\nOur latest research suggests the AI advantage is beginning to compound. Frontier firms are pulling ahead because they use more intelligence per worker, adopt advanced tools more intensively, and embed AI more deeply into workflows.\n\nToday, we’re introducing B2B Signals, a business extension of OpenAI Signals. It provides a recurring measure of how AI is diffusing across businesses, based on privacy-preserving, aggregated signals from enterprise use of OpenAI products, including:\n\n*   How deeply AI is being used inside firms\n*   Which tools and tasks are most associated with frontier adoption\n*   Where business use cases are broadening across industries, products, and functions\n\n_Note: All analyses in this report are based on de-identified, aggregated enterprise usage data. Message content was classified using automated systems, and no OpenAI employee reviewed individual enterprise, business, or API customer data as part of this analysis._\n\n## The AI advantage is beginning to compound\n\nThe clearest signal is depth. Frontier firms now use 3.5x as much intelligence per worker as typical firms, up from 2x in April 2025. Message volume explains only 36% of that gap; the majority comes from deeper usage. Workers at the frontier are asking AI to take on more complex work, providing richer context, and generating more substantive outputs.\n\nIn this report, we use tokens generated as a proxy f",
+      "url": "https://openai.com/index/introducing-b2b-signals",
+      "source": "OpenAI News",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-06T09:00:00+09:00",
+      "readTime": 4,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_009",
+      "title": "Visual Studio Code 1.119 출시",
+      "excerpt": "Learn what's new in Visual Studio Code 1.119\n      Read the full article",
+      "body": "Learn what's new in Visual Studio Code 1.119\n      Read the full article",
+      "url": "https://code.visualstudio.com/updates/v1_119",
+      "source": "Visual Studio Code - Code Editing. Redefined.",
+      "category": "dev_tools",
+      "publishedAt": "2026-05-07T02:00:00+09:00",
+      "readTime": 3,
+      "imageGradient": 0
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_001",
+        "title": "ChatGPT 퓨처스 소개: 2026 클래스",
+        "excerpt": "Title: Introducing ChatGPT Futures: Class of 2026\n\nURL Source: https://openai.com/index/introducing-chatgpt-futures-class-of-2026\n\nMarkdown Content:\n# Introducing ChatGPT Futures: Class of 2026 | OpenAI\n\n[Skip to main content](https://openai.com/index/introducing-chatgpt-futures-class-of-2026#main)\n",
+        "body": "Title: Introducing ChatGPT Futures: Class of 2026\n\nURL Source: https://openai.com/index/introducing-chatgpt-futures-class-of-2026\n\nMarkdown Content:\n# Introducing ChatGPT Futures: Class of 2026 | OpenAI\n\n[Skip to main content](https://openai.com/index/introducing-chatgpt-futures-class-of-2026#main)\n\n[](https://openai.com/)\n\n*   [Research](https://openai.com/research/index/)\n*   Products\n*   [Business](https://openai.com/business/)\n*   [Developers](https://openai.com/api/)\n*   [Company](https://openai.com/about/)\n*   [Foundation(opens in a new window)](https://openaifoundation.org/)\n\nLog in[Try ChatGPT(opens in a new window)](https://chatgpt.com/)\n\n*   Research\n*   Products\n*   Business\n*   Developers\n*   Company\n*   [Foundation(opens in a new window)](https://openaifoundation.org/)\n\n[Try ChatGPT(opens in a new window)](https://chatgpt.com/)Login\n\nOpenAI\n\nTable of contents\n\n*   [Celebrating AI Creators, Explorers and Advocates in the Class of 2026](https://openai.com/index/introducing-chatgpt-futures-class-of-2026#celebrating-ai-creators-explorers-and-advocates-in-the-class-of-2026)\n*   [Agency Starts in Classrooms](https://openai.com/index/introducing-chatgpt-futures-class-of-2026#agency-starts-in-classrooms)\n\nMay 6, 2026\n\n[Company](https://openai.com/news/company-announcements/)\n\n# Introducing ChatGPT Futures: Class of 2026\n\n[Meet the class of 2026(opens in a new window)](https://www.chatgpt.com/futures)\n\n![Image 1: Banner reading “ChatGPT Futures – Class of 2026: The next Generation of AI Leaders” with rows of student headshots and names displayed in a grid on a purple background.](https://images.ctfassets.net/kftzwdyauwt9/kWgUsecMu9iHkjNqQjFI7/976534535e3af21805844456e8794fff/Class_of_2027_16-9.png?w=3840&q=90&fm=webp)\n\nLoading…\n\nShare\n\nToday, we’re proud to introduce the inaugural [ChatGPT Futures Class of 2026⁠(opens in a new window)](https://chatgpt.com/futures), recognizing 26 students and young builders using AI in thoughtful, ambitious, and deeply human ways.\n\nThe class of 2026 is the first generation to start and finish college with ChatGPT.\n\nThey arrived on campus in the fall of 2022 just as AI was beginning to reshape how people learn, create, and work. This generation was ChatGPT’s earliest adopters, sharing the tool with their parents and siblings, friends and teachers. Now, they’re graduating into a world where changes in technology are accelerating every day.\n\nOver the past few years, I’ve spent time visiting campuses, speaking with student",
+        "url": "https://openai.com/index/introducing-chatgpt-futures-class-of-2026",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-06T09:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_002",
+        "title": "프론티어 기업들이 AI 경쟁력을 구축하는 방법",
+        "excerpt": "Title: How frontier enterprises are building an AI advantage\n\nURL Source: https://openai.com/index/introducing-b2b-signals\n\nMarkdown Content:\nTLDR\n\n*   Frontier firms—those at the 95th percentile of usage—now use 3.5x as much intelligence per worker as typical firms, up from 2x a year ago.\n*   The g",
+        "body": "Title: How frontier enterprises are building an AI advantage\n\nURL Source: https://openai.com/index/introducing-b2b-signals\n\nMarkdown Content:\nTLDR\n\n*   Frontier firms—those at the 95th percentile of usage—now use 3.5x as much intelligence per worker as typical firms, up from 2x a year ago.\n*   The gap is about depth, not just activity: Message volume explains only 36% of the frontier advantage; most of the gap comes from richer, more complex AI use.\n*   Agentic workflows are becoming a frontier marker: The largest advantage shows up in advanced tools, with frontier firms sending 16x as many Codex messages per worker as typical firms.\n*   Organizations can move toward the frontier: Leading firms measure depth, build governance for production use, invest in enablement, scale what works, and move from chat-based assistance to delegated work with agents.\n\nFor many enterprises, the first phase of AI adoption was about access: who had AI tools, how many seats had been deployed, and whether employees were experimenting. That still matters. But access is no longer the differentiator.\n\nOur latest research suggests the AI advantage is beginning to compound. Frontier firms are pulling ahead because they use more intelligence per worker, adopt advanced tools more intensively, and embed AI more deeply into workflows.\n\nToday, we’re introducing B2B Signals, a business extension of OpenAI Signals. It provides a recurring measure of how AI is diffusing across businesses, based on privacy-preserving, aggregated signals from enterprise use of OpenAI products, including:\n\n*   How deeply AI is being used inside firms\n*   Which tools and tasks are most associated with frontier adoption\n*   Where business use cases are broadening across industries, products, and functions\n\n_Note: All analyses in this report are based on de-identified, aggregated enterprise usage data. Message content was classified using automated systems, and no OpenAI employee reviewed individual enterprise, business, or API customer data as part of this analysis._\n\n## The AI advantage is beginning to compound\n\nThe clearest signal is depth. Frontier firms now use 3.5x as much intelligence per worker as typical firms, up from 2x in April 2025. Message volume explains only 36% of that gap; the majority comes from deeper usage. Workers at the frontier are asking AI to take on more complex work, providing richer context, and generating more substantive outputs.\n\nIn this report, we use tokens generated as a proxy f",
+        "url": "https://openai.com/index/introducing-b2b-signals",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-06T09:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_003",
+        "title": "Open ASR 리더보드에 벤치마크 조작 방지 기능 추가",
+        "excerpt": "",
+        "body": "",
+        "url": "https://huggingface.co/blog/open-asr-leaderboard-private-data",
+        "source": "Hugging Face - Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-06T09:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_004",
+        "title": "vLLM V0에서 V1으로: RL에서 정확성 우선 접근법",
+        "excerpt": "",
+        "body": "",
+        "url": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
+        "source": "Hugging Face - Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-07T04:06:55+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_005",
+        "title": "NVIDIA Spectrum-X, 기가스케일 AI를 위한 오픈 이더넷 패브릭 표준 제시",
+        "excerpt": "The race to build the world’s most powerful AI factories demands networking that keeps pace with the ambitions of AI itself.  NVIDIA Spectrum-X Ethernet scale-out infrastructure stands at the forefront of that race as the most advanced AI networking technology available today, deployed by industry l",
+        "body": "The race to build the world’s most powerful AI factories demands networking that keeps pace with the ambitions of AI itself.  NVIDIA Spectrum-X Ethernet scale-out infrastructure stands at the forefront of that race as the most advanced AI networking technology available today, deployed by industry l",
+        "url": "https://blogs.nvidia.com/blog/spectrum-x-ethernet-mrc/",
+        "source": "NVIDIA Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-06T20:30:20+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_006",
+        "title": "OpenAI의 대규모 저지연 음성 AI 구현 방법",
+        "excerpt": "How OpenAI rebuilt its WebRTC stack to power real-time Voice AI with low latency, global scale, and seamless conversational turn-taking.",
+        "body": "How OpenAI rebuilt its WebRTC stack to power real-time Voice AI with low latency, global scale, and seamless conversational turn-taking.",
+        "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-04T09:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_007",
+        "title": "GPT-5.5 Instant 시스템 카드 공개",
+        "excerpt": "",
+        "body": "",
+        "url": "https://openai.com/index/gpt-5-5-instant-system-card",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-05T19:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_008",
+        "title": "GPT-5.5 Instant 출시: 더 스마트하고 명확하며 개인화된 AI",
+        "excerpt": "GPT-5.5 Instant updates ChatGPT’s default model with smarter, more accurate answers, reduced hallucinations, and improved personalization controls.",
+        "body": "GPT-5.5 Instant updates ChatGPT’s default model with smarter, more accurate answers, reduced hallucinations, and improved personalization controls.",
+        "url": "https://openai.com/index/gpt-5-5-instant",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-05T19:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_009",
+        "title": "Visual Studio Code 1.119 출시",
+        "excerpt": "Learn what's new in Visual Studio Code 1.119\n      Read the full article",
+        "body": "Learn what's new in Visual Studio Code 1.119\n      Read the full article",
+        "url": "https://code.visualstudio.com/updates/v1_119",
+        "source": "Visual Studio Code - Code Editing. Redefined.",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-07T02:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_010",
+        "title": "DNSSEC 장애 대응기: .de TLD 중단 사례",
+        "excerpt": "On May 5, 2026, DENIC published broken DNSSEC signatures for the .de TLD, making millions of domains unreachable. Here's what 1.1.1.1 saw, how serve stale cushioned the impact, and how we restored resolution.",
+        "body": "On May 5, 2026, DENIC published broken DNSSEC signatures for the .de TLD, making millions of domains unreachable. Here's what 1.1.1.1 saw, how serve stale cushioned the impact, and how we restored resolution.",
+        "url": "https://blog.cloudflare.com/de-tld-outage-dnssec/",
+        "source": "Cloudflare Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-07T02:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_011",
+        "title": "Welcome to Maintainer Month: Celebrating the people behind the code",
+        "excerpt": "What maintainers are telling us, what we've shipped, and how to celebrate the people behind open source.\nThe post Welcome to Maintainer Month: Celebrating the people behind the code appeared first on The GitHub Blog.",
+        "body": "What maintainers are telling us, what we've shipped, and how to celebrate the people behind open source.\nThe post Welcome to Maintainer Month: Celebrating the people behind the code appeared first on The GitHub Blog.",
+        "url": "https://github.blog/open-source/maintainers/welcome-to-maintainer-month-celebrating-the-people-behind-the-code/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-05T23:30:00+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_012",
+        "title": "Docker Model Runner와 Open WebUI로 로컬 이미지 생성",
+        "excerpt": "We've all been there: you need to generate a few images for a project, you fire up an AI image service, and suddenly you're wondering what happens to your prompts, how many credits you have left, or why that \"safe content\" filter rejected your perfectly reasonable request for a dragon wearing a busi",
+        "body": "We've all been there: you need to generate a few images for a project, you fire up an AI image service, and suddenly you're wondering what happens to your prompts, how many credits you have left, or why that \"safe content\" filter rejected your perfectly reasonable request for a dragon wearing a busi",
+        "url": "https://www.docker.com/blog/blog-generate-images-locally-dmr-open-webui/",
+        "source": "Docker Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-05T22:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_013",
+        "title": "Docker·Black Duck으로 정밀 컨테이너 보안 구현",
+        "excerpt": "The complexity of modern containerized applications often leaves developers drowning in a sea of \"noise\"—vulnerabilities that exist in the file system but pose zero actual risk to the application. The integration between Black Duck and Docker Hardened Images (DHI) provides a definitive answer to thi",
+        "body": "The complexity of modern containerized applications often leaves developers drowning in a sea of \"noise\"—vulnerabilities that exist in the file system but pose zero actual risk to the application. The integration between Black Duck and Docker Hardened Images (DHI) provides a definitive answer to thi",
+        "url": "https://www.docker.com/blog/precision-container-security-with-docker-and-black-duck/",
+        "source": "Docker Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-05T17:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_014",
+        "title": "구글 검색으로 바로 써먹는 정원 가꾸기 팁 5가지",
+        "excerpt": "An abstract background featuring soft, stippled illustrations of flowers and a butterfly in a bright palette of blue, green, and red. In the center of the image is a white circle containing a magnifying glass.",
+        "body": "An abstract background featuring soft, stippled illustrations of flowers and a butterfly in a bright palette of blue, green, and red. In the center of the image is a white circle containing a magnifying glass.",
+        "url": "https://blog.google/products-and-platforms/products/search/gardening-tips/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-05-07T01:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_015",
+        "title": "Flow Music·Believe, 아티스트를 위한 차세대 도구 출시",
+        "excerpt": "Google Flow Music & Believe's logos",
+        "body": "Google Flow Music & Believe's logos",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/believe-flow-music-partnership/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-05-07T00:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_016",
+        "title": "구글 검색 생성형 AI로 웹을 탐색하는 5가지 새로운 방법",
+        "excerpt": "An illustration of a woman using a laptop to search the web, with search result snippets and a search bar icon floating around her desk.",
+        "body": "An illustration of a woman using a laptop to search the web, with search result snippets and a search bar icon floating around her desk.",
+        "url": "https://blog.google/products-and-platforms/products/search/explore-web-generative-ai-search/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-05-06T22:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_017",
+        "title": "AI is reshaping ad creative. Here’s how brands can get it right.",
+        "excerpt": "AI makes it easy to generate ad creative quickly, but that speed can’t come at the cost of accuracy, brand loyalty or performance.",
+        "body": "AI makes it easy to generate ad creative quickly, but that speed can’t come at the cost of accuracy, brand loyalty or performance.",
+        "url": "https://blog.google/products/ads-commerce/ads-decoded-podcast-ai-creative/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-05-06T22:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "ChatGPT가 지금 매우 활성화된 느낌이 들어요",
+        "context": "OpenAI CEO @sama의 트윗으로, AI 업계 최신 동향을 반영한 주목할 만한 발언입니다.",
+        "url": "https://x.com/sama/status/2051829422265979047",
+        "publishedAt": "2026-05-06T01:00:30.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "5.5 in codex는 코딩이 아닌 작업에 정말 좋네요.\n\n뭔가를 할 수 없을 거라고 계속 생각하지만, 대부분의 경우 기분 좋게 놀라게 됩니다.",
+        "context": "OpenAI CEO @sama의 트윗으로, AI 업계 최신 동향을 반영한 주목할 만한 발언입니다.",
+        "url": "https://x.com/sama/status/2051783339502375418",
+        "publishedAt": "2026-05-05T21:57:23.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "저는 이전 모델들로는 불가능했던 놀라운 것들을 5.5로 구축한 사람들과 이야기하고 싶습니다. 특히 터무니없는 토큰 예산을 소모한 예시들에 관심이 많습니다.",
+        "context": "OpenAI CEO @sama의 트윗으로, AI 업계 최신 동향을 반영한 주목할 만한 발언입니다.",
+        "url": "https://x.com/sama/status/2051724685231214650",
+        "publishedAt": "2026-05-05T18:04:00.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "주요 ChatGPT 업그레이드가 현재 배포 중이며, GPT-5.5 Instant 형태로 제공됩니다.",
+        "context": "OpenAI 공동창업자 @gdb의 트윗으로, AI 기술 개발 현황을 전합니다.",
+        "url": "https://x.com/gdb/status/2051759920467312940",
+        "publishedAt": "2026-05-05T20:24:19.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "Multipath Reliable Connection (MRC): 대규모 AI 훈련 클러스터를 위한 새로운 오픈 네트워킹 프로토콜로, 우리 최대 훈련 클러스터에서 프로덕션에 배포되었습니다.",
+        "context": "OpenAI 공동창업자 @gdb의 트윗으로, AI 기술 개발 현황을 전합니다.",
+        "url": "https://x.com/gdb/status/2052059553542328829",
+        "publishedAt": "2026-05-06T16:14:57.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "Excel 및 Google Sheets용 ChatGPT: 스프레드시트를 떠나지 않고 AI 지원을 받으세요.",
+        "context": "OpenAI 공동창업자 @gdb의 트윗으로, AI 기술 개발 현황을 전합니다.",
+        "url": "https://x.com/gdb/status/2051866486658994636",
+        "publishedAt": "2026-05-06T03:27:46.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "content": "Code w/ Claude의 놀라운 시작이었습니다! 사람들이 Claude Code로 무엇을 만들고 있는지 듣고, 우리가 더 나아질 수 있는 부분에 대한 피드백을 받는 것이 정말 좋습니다.",
+        "context": "Claude Code 개발자 @bcherny의 트윗으로, Anthropic의 코딩 AI 최신 소식입니다.",
+        "url": "https://x.com/bcherny/status/2052070549271232870",
+        "publishedAt": "2026-05-06T16:58:39.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "content": "우리는 또한 SpaceX와의 컴퓨팅 파트너십을 발표했습니다: 300+ MW의 새로운 용량과 220K NVIDIA GPU가 한 달 내에 온라인으로 가동되며, 모두 Claude Pro와 Max를 구동합니다.",
+        "context": "Claude Code 개발자 @bcherny의 트윗으로, Anthropic의 코딩 AI 최신 소식입니다.",
+        "url": "https://x.com/bcherny/status/2052070552744116486",
+        "publishedAt": "2026-05-06T16:58:40.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_009",
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "content": "Claude와 함께 코딩에서 인사드립니다!",
+        "context": "Claude Code 개발자 @bcherny의 트윗으로, Anthropic의 코딩 AI 최신 소식입니다.",
+        "url": "https://x.com/bcherny/status/2052068475900985388",
+        "publishedAt": "2026-05-06T16:50:24.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_010",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "새로운 Anthropic Fellows 연구: 모델 사양 중간 훈련 (MSM). 표준 정렬 방법은 원하는 행동의 예시로 AI를 훈련시킵니다. 하지만 이는 새로운 상황으로 일반화하는 데 실패할 수 있습니다. MSM은 AI에게 우리가 원하는 일반화 방식과 그 이유를 먼저 가르칩니다.",
+        "context": "Anthropic 공식 계정의 트윗으로, AI 안전 및 연구 관련 최신 소식입니다.",
+        "url": "https://x.com/AnthropicAI/status/2051758528562364902",
+        "publishedAt": "2026-05-05T20:18:47.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_011",
+        "author": "Claude AI",
+        "handle": "claudeai",
+        "content": "우리는 SpaceX와의 파트너십에 동의했으며, 이는 우리의 컴퓨트 용량을 상당히 증가시킬 것입니다. 최근의 다른 컴퓨트 계약들은 Claude Code와 Claude API의 사용 한도를 증가시킬 수 있게 해주었습니다.",
+        "context": "Claude AI 공식 계정의 트윗으로, 최신 기능 및 업데이트를 전합니다.",
+        "url": "https://x.com/claudeai/status/2052060691893227611",
+        "publishedAt": "2026-05-06T16:19:29.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_012",
+        "author": "Claude AI",
+        "handle": "claudeai",
+        "content": "Code with Claude에서 생중계: Claude 관리 에이전트에서 꿈꾸기 기능을 연구 프리뷰로 출시합니다. Outcomes, 다중 에이전트 오케스트레이션, 웹훅이 이제 퍼블릭 베타에 있습니다.",
+        "context": "Claude AI 공식 계정의 트윗으로, 최신 기능 및 업데이트를 전합니다.",
+        "url": "https://x.com/claudeai/status/2052067399088664981",
+        "publishedAt": "2026-05-06T16:46:08.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_013",
+        "author": "Claude AI",
+        "handle": "claudeai",
+        "content": "오후 1시 PT에 공동 창립자 다리오 아모데이와 다니엘라 아모데이와의 대화에 함께하세요.",
+        "context": "Claude AI 공식 계정의 트윗으로, 최신 기능 및 업데이트를 전합니다.",
+        "url": "https://x.com/claudeai/status/2052105841864495282",
+        "publishedAt": "2026-05-06T19:18:53.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_014",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "GPT-5.5 Instant가 ChatGPT에서 배포되기 시작했습니다. 더 똑똑하고 명확하며 개인화된 답변을 더 따뜻하고 자연스러운 톤으로 제공합니다. 더 간결해졌으며, 이것이 여러분이 원했던 바입니다.",
+        "context": "OpenAI 공식 계정의 트윗으로, 최신 제품 및 연구 소식입니다.",
+        "url": "https://x.com/OpenAI/status/2051709028250915275",
+        "publishedAt": "2026-05-05T17:02:05.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_015",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "2026년 ChatGPT 졸업생 클래스 소개—대학 4년 내내 ChatGPT를 경험한 첫 졸업반 출신 26명의 수상자들. 우주에서 150만 개의 물체 매핑, 재난 생존자 탐지, 1억 장 이상의 은하 이미지 검색 등.",
+        "context": "OpenAI 공식 계정의 트윗으로, 최신 제품 및 연구 소식입니다.",
+        "url": "https://x.com/OpenAI/status/2052086313797705954",
+        "publishedAt": "2026-05-06T18:01:17.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_016",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "업데이트된 Agents SDK가 이제 TypeScript에서 사용할 수 있으며, 샌드박스 에이전트 지원과 오픈 소스 하네스가 내장되어 있습니다.",
+        "context": "OpenAI 개발자 계정의 트윗으로, 개발자 도구 및 API 관련 최신 정보입니다.",
+        "url": "https://x.com/OpenAIDevs/status/2051725072873001338",
+        "publishedAt": "2026-05-05T18:05:51.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_017",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "음성 AI는 대화가 말하기 속도를 따라갈 때만 자연스럽게 느껴집니다. WebRTC 스택을 재구축하여 ChatGPT 음성, Realtime API에서 실시간 미디어를 빠르게 유지한 방법을 소개합니다.",
+        "context": "OpenAI 개발자 계정의 트윗으로, 개발자 도구 및 API 관련 최신 정보입니다.",
+        "url": "https://x.com/OpenAIDevs/status/2051453905343828350",
+        "publishedAt": "2026-05-05T00:08:19.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_018",
+        "author": "Alex Albert",
+        "handle": "alexalbert__",
+        "content": "오늘 하루 종일 Code with Claude에 있을 거라서, 와서 저 찾아주고 Claude에 대해 이야기 나눠봐요!",
+        "context": "Anthropic의 Alex Albert가 전하는 Claude 관련 최신 소식입니다.",
+        "url": "https://x.com/alexalbert__/status/2052067009605861764",
+        "publishedAt": "2026-05-06T16:44:35.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_019",
+        "author": "Alex Albert",
+        "handle": "alexalbert__",
+        "content": "더 많은 칩, 더 많은 Claude",
+        "context": "Anthropic의 Alex Albert가 전하는 Claude 관련 최신 소식입니다.",
+        "url": "https://x.com/alexalbert__/status/2052065953173872912",
+        "publishedAt": "2026-05-06T16:40:23.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_020",
+        "author": "Amanda Askell",
+        "handle": "AmandaAskell",
+        "content": "\"클로드가 디자인한 옷을 메트 갈라에 입는 것\"이 내 인생 목표 리스트에 추가되고 있어요.",
+        "context": "Anthropic 연구원 Amanda Askell의 트윗입니다.",
+        "url": "https://x.com/AmandaAskell/status/2051712044454555841",
+        "publishedAt": "2026-05-05T17:14:05.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_021",
+        "author": "Tom R. Quinn",
+        "handle": "trq212",
+        "content": "우주 속 클로드 - SpaceX와 파트너십으로 Anthropic의 컴퓨트 용량이 대폭 확대됩니다.",
+        "context": "Anthropic 관련 트윗으로, Claude 플랫폼 최신 업데이트를 전합니다.",
+        "url": "https://x.com/trq212/status/2052074924588888261",
+        "publishedAt": "2026-05-06T17:16:02.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_022",
+        "author": "Tom R. Quinn",
+        "handle": "trq212",
+        "content": "우리는 피크 시간 제한 감소를 되돌리고 5시간 제한을 두 배로 늘립니다. SpaceX와 파트너십을 맺고 더 많은 컴퓨트를 제공하게 되어 기쁩니다.",
+        "context": "Anthropic 관련 트윗으로, Claude 플랫폼 최신 업데이트를 전합니다.",
+        "url": "https://x.com/trq212/status/2052065936585457982",
+        "publishedAt": "2026-05-06T16:40:19.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_023",
+        "author": "ChatGPT",
+        "handle": "ChatGPTapp",
+        "content": "ChatGPT가 이제 Excel과 Google Sheets에서 애드온으로 사용할 수 있습니다. 엉망인 데이터를 분석하고, 수식을 작성하며, 스프레드시트를 업데이트하고 설명해 드립니다. GPT-5.5로 구동됩니다.",
+        "context": "ChatGPT 공식 앱 계정의 트윗으로, 최신 기능 업데이트를 안내합니다.",
+        "url": "https://x.com/ChatGPTapp/status/2051776032127238266",
+        "publishedAt": "2026-05-05T21:28:20.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_024",
+        "author": "ChatGPT",
+        "handle": "ChatGPTapp",
+        "content": "GPT-5.5 Instant가 ChatGPT의 모든 사용자에게 배포되기 시작했습니다. 훨씬 더 간결해졌습니다. 더 나은 메모리. 더 개인화되었습니다.",
+        "context": "ChatGPT 공식 앱 계정의 트윗으로, 최신 기능 업데이트를 안내합니다.",
+        "url": "https://x.com/ChatGPTapp/status/2051709103614083475",
+        "publishedAt": "2026-05-05T17:02:23.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_025",
+        "author": "Latent Space",
+        "handle": "latentspacepod",
+        "content": "bcherny의 인상적인 발언: \"미래는 더 많은 비동기 에이전트... 이것이 우리가 검증을 강조하는 이유\" / \"고차 함수에 익숙하다면, 루틴은 고차 프롬프트입니다\" / \"기본은 Claude가 Claude Code를 프롬프트하는 것\"",
+        "context": "AI 팟캐스트 Latent Space의 트윗으로, AI 업계 인사이트를 전합니다.",
+        "url": "https://x.com/latentspacepod/status/2052068066167816369",
+        "publishedAt": "2026-05-06T16:48:47.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "앤트로픽의 클로드 코드(Claude Code) 제작자 보리스 체르니는 현재의 AI 기술을 1400년대 유럽의 인쇄기 발명에 비유하며, 소프트웨어 개발의 '민주화'가 시작되었다고 진단했습니다.\n그는 인쇄기 발명 이후 50년 동안 이전 천 년간 생산된 것보다 더 많은 문학 작품이 쏟아져 나온 것처럼, AI가 소프트웨어 생산량을 폭발적으로 늘릴 것이라 보고 있습니다.\n\"이제 코딩은 누구나 할 수 있는 기술이 될 것입니다.\" 특히 보리스는 기술적인 코드 작성보다 '도메인 지식'의 중요성을 강조했습니다.",
+        "context": "한국 AI 커뮤니티에서 주목받는 AI 트렌드 분석 계정의 최신 포스트입니다.",
+        "url": "https://www.threads.com/@choi.openai/post/DYAhgODjhOG",
+        "publishedAt": "2026-05-07T04:00:00.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "앤트로픽(Anthropic)의 'Claude Code' 개발자 보리스 체르니(Boris Cherny)는 \"코딩은 이미 해결된 문제\"라고 말했습니다. 그는 자신이 사용하는 코드베이스의 100%를 AI 에이전트가 작성하고 있으며, 수작업 없이 하루에 150개 이상의 PR을 처리하고 있다고 밝혔습니다. 도메인 전문 지식을 가진 비개발자가 AI를 통해 엔지니어보다 더 나은 소프트웨어를 만들 수 있는 시대가 열리고 있습니다.",
+        "context": "한국 AI 커뮤니티에서 주목받는 AI 트렌드 분석 계정의 최신 포스트입니다.",
+        "url": "https://www.threads.com/@choi.openai/post/DYAXLbvCAd4",
+        "publishedAt": "2026-05-07T03:00:00.000Z",
+        "platform": "threads"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "Model automatically developed by the AIBuildAI Agent ranked among top 5.7% out of 3,219 human teams ",
+        "originalTitle": "Model automatically developed by the AIBuildAI Agent ranked among top 5.7% out of 3,219 human teams in the Kaggle TGS Salt Identification Challenge [P]",
+        "summary": "r/MachineLearning 커뮤니티에서 주목받는 게시물입니다. AI 및 기술 커뮤니티의 최신 논의를 확인할 수 있습니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1t5i56v/model_automatically_developed_by_the_aibuildai/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-05-07T01:35:41+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "Stop letting LLMs edit your .bib [D]",
+        "originalTitle": "Stop letting LLMs edit your .bib [D]",
+        "summary": "r/MachineLearning 커뮤니티에서 주목받는 게시물입니다. AI 및 기술 커뮤니티의 최신 논의를 확인할 수 있습니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1t5anla/stop_letting_llms_edit_your_bib_d/",
+        "subreddit": "MachineLearning",
+        "score": 112,
+        "publishedAt": "2026-05-06T20:54:57+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "NeurIPS 2026 AC-Pilot, how much would you trust this? [D]",
+        "originalTitle": "NeurIPS 2026 AC-Pilot, how much would you trust this? [D]",
+        "summary": "r/MachineLearning 커뮤니티에서 주목받는 게시물입니다. AI 및 기술 커뮤니티의 최신 논의를 확인할 수 있습니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1t59w5e/neurips_2026_acpilot_how_much_would_you_trust/",
+        "subreddit": "MachineLearning",
+        "score": 3,
+        "publishedAt": "2026-05-06T20:19:27+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "Demo of fine-tuning Orpheus 3B on a TTS dataset in Transformer Lab (open source)",
+        "originalTitle": "Demo of fine-tuning Orpheus 3B on a TTS dataset in Transformer Lab (open source)",
+        "summary": "r/LocalLLaMA 커뮤니티에서 주목받는 게시물입니다. AI 및 기술 커뮤니티의 최신 논의를 확인할 수 있습니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t5ocfu/demo_of_finetuning_orpheus_3b_on_a_tts_dataset_in/",
+        "subreddit": "LocalLLaMA",
+        "score": 2,
+        "publishedAt": "2026-05-07T05:09:56+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "Most people seem obsessed with token generation speed, but isn’t prefill the real bottleneck? Am I m",
+        "originalTitle": "Most people seem obsessed with token generation speed, but isn’t prefill the real bottleneck? Am I missing something?",
+        "summary": "r/LocalLLaMA 커뮤니티에서 주목받는 게시물입니다. AI 및 기술 커뮤니티의 최신 논의를 확인할 수 있습니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t5o4kc/most_people_seem_obsessed_with_token_generation/",
+        "subreddit": "LocalLLaMA",
+        "score": 1,
+        "publishedAt": "2026-05-07T05:02:22+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "Exaggerated PCI-E bandwidth concerns?",
+        "originalTitle": "Exaggerated PCI-E bandwidth concerns?",
+        "summary": "r/LocalLLaMA 커뮤니티에서 주목받는 게시물입니다. AI 및 기술 커뮤니티의 최신 논의를 확인할 수 있습니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t5nw2k/exaggerated_pcie_bandwidth_concerns/",
+        "subreddit": "LocalLLaMA",
+        "score": 6,
+        "publishedAt": "2026-05-07T04:54:11+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "the gap between how AI tools market themselves and what they actually offer is getting wider",
+        "originalTitle": "the gap between how AI tools market themselves and what they actually offer is getting wider",
+        "summary": "r/artificial 커뮤니티에서 주목받는 게시물입니다. AI 및 기술 커뮤니티의 최신 논의를 확인할 수 있습니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1t5mdxr/the_gap_between_how_ai_tools_market_themselves/",
+        "subreddit": "artificial",
+        "score": 2,
+        "publishedAt": "2026-05-07T04:00:53+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "A small business used AI to push back against a major shipping company—and it actually worked",
+        "originalTitle": "A small business used AI to push back against a major shipping company—and it actually worked",
+        "summary": "r/artificial 커뮤니티에서 주목받는 게시물입니다. AI 및 기술 커뮤니티의 최신 논의를 확인할 수 있습니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1t5lxp2/a_small_business_used_ai_to_push_back_against_a/",
+        "subreddit": "artificial",
+        "score": 1,
+        "publishedAt": "2026-05-07T03:45:08+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "Anthropic just partnered with SpaceX  and doubled Claude Code rate limits effective today",
+        "originalTitle": "Anthropic just partnered with SpaceX  and doubled Claude Code rate limits effective today",
+        "summary": "r/artificial 커뮤니티에서 주목받는 게시물입니다. AI 및 기술 커뮤니티의 최신 논의를 확인할 수 있습니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1t5l92i/anthropic_just_partnered_with_spacex_and_doubled/",
+        "subreddit": "artificial",
+        "score": 34,
+        "publishedAt": "2026-05-07T03:20:46+09:00"
+      },
+      {
+        "id": "reddit_010",
+        "title": "The White House is weighing an executive order to require government review of new AI models before ",
+        "originalTitle": "The White House is weighing an executive order to require government review of new AI models before release, reversing its earlier deregulation stance.",
+        "summary": "r/OpenAI 커뮤니티에서 주목받는 게시물입니다. AI 및 기술 커뮤니티의 최신 논의를 확인할 수 있습니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1t5o8kh/the_white_house_is_weighing_an_executive_order_to/",
+        "subreddit": "OpenAI",
+        "score": 1,
+        "publishedAt": "2026-05-07T05:06:10+09:00"
+      },
+      {
+        "id": "reddit_011",
+        "title": "Is this okay?",
+        "originalTitle": "Is this okay?",
+        "summary": "r/OpenAI 커뮤니티에서 주목받는 게시물입니다. AI 및 기술 커뮤니티의 최신 논의를 확인할 수 있습니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1t5ngc9/is_this_okay/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-05-07T04:38:37+09:00"
+      },
+      {
+        "id": "reddit_012",
+        "title": "Chatgpt.com stopped functioning",
+        "originalTitle": "Chatgpt.com stopped functioning",
+        "summary": "r/OpenAI 커뮤니티에서 주목받는 게시물입니다. AI 및 기술 커뮤니티의 최신 논의를 확인할 수 있습니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1t5mokv/chatgptcom_stopped_functioning/",
+        "subreddit": "OpenAI",
+        "score": 7,
+        "publishedAt": "2026-05-07T04:11:13+09:00"
+      },
+      {
+        "id": "reddit_013",
+        "title": "Followup to the kanban for Claude Code - now vibeyard's home screen is a yard I build myself",
+        "originalTitle": "Followup to the kanban for Claude Code - now vibeyard's home screen is a yard I build myself",
+        "summary": "r/ClaudeAI 커뮤니티에서 주목받는 게시물입니다. AI 및 기술 커뮤니티의 최신 논의를 확인할 수 있습니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1t5og8l/followup_to_the_kanban_for_claude_code_now/",
+        "subreddit": "ClaudeAI",
+        "score": 3,
+        "publishedAt": "2026-05-07T05:13:39+09:00"
+      },
+      {
+        "id": "reddit_014",
+        "title": "I think Claude’s having a seizure…",
+        "originalTitle": "I think Claude’s having a seizure…",
+        "summary": "r/ClaudeAI 커뮤니티에서 주목받는 게시물입니다. AI 및 기술 커뮤니티의 최신 논의를 확인할 수 있습니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1t5o9ti/i_think_claudes_having_a_seizure/",
+        "subreddit": "ClaudeAI",
+        "score": 7,
+        "publishedAt": "2026-05-07T05:07:26+09:00"
+      },
+      {
+        "id": "reddit_015",
+        "title": "Is it safe to share my proposal with Claude AI pro ?",
+        "originalTitle": "Is it safe to share my proposal with Claude AI pro ?",
+        "summary": "r/ClaudeAI 커뮤니티에서 주목받는 게시물입니다. AI 및 기술 커뮤니티의 최신 논의를 확인할 수 있습니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1t5nz4n/is_it_safe_to_share_my_proposal_with_claude_ai_pro/",
+        "subreddit": "ClaudeAI",
+        "score": 2,
+        "publishedAt": "2026-05-07T04:57:14+09:00"
+      },
+      {
+        "id": "reddit_016",
+        "title": "Going Full Time on Open Source",
+        "originalTitle": "Going Full Time on Open Source",
+        "summary": "r/programming 커뮤니티에서 주목받는 게시물입니다. AI 및 기술 커뮤니티의 최신 논의를 확인할 수 있습니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1t5ok5q/going_full_time_on_open_source/",
+        "subreddit": "programming",
+        "score": 3,
+        "publishedAt": "2026-05-07T05:17:34+09:00"
+      },
+      {
+        "id": "reddit_017",
+        "title": "Signed By Default Camp",
+        "originalTitle": "Signed By Default Camp",
+        "summary": "r/programming 커뮤니티에서 주목받는 게시물입니다. AI 및 기술 커뮤니티의 최신 논의를 확인할 수 있습니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1t5nik6/signed_by_default_camp/",
+        "subreddit": "programming",
+        "score": 6,
+        "publishedAt": "2026-05-07T04:40:47+09:00"
+      },
+      {
+        "id": "reddit_018",
+        "title": "Faster timeseries aggregations",
+        "originalTitle": "Faster timeseries aggregations",
+        "summary": "r/programming 커뮤니티에서 주목받는 게시물입니다. AI 및 기술 커뮤니티의 최신 논의를 확인할 수 있습니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1t5lh79/faster_timeseries_aggregations/",
+        "subreddit": "programming",
+        "score": 4,
+        "publishedAt": "2026-05-07T03:28:47+09:00"
+      },
+      {
+        "id": "reddit_019",
+        "title": "Adversarial Customer Service",
+        "originalTitle": "Adversarial Customer Service",
+        "summary": "r/singularity 커뮤니티에서 주목받는 게시물입니다. AI 및 기술 커뮤니티의 최신 논의를 확인할 수 있습니다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1t5ney7/adversarial_customer_service/",
+        "subreddit": "singularity",
+        "score": 6,
+        "publishedAt": "2026-05-07T04:37:15+09:00"
+      },
+      {
+        "id": "reddit_020",
+        "title": "DeepSeek Targets $50B Valuation in First Fundraising, Escalating Global AI Race",
+        "originalTitle": "DeepSeek Targets $50B Valuation in First Fundraising, Escalating Global AI Race",
+        "summary": "r/singularity 커뮤니티에서 주목받는 게시물입니다. AI 및 기술 커뮤니티의 최신 논의를 확인할 수 있습니다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1t5mdkp/deepseek_targets_50b_valuation_in_first/",
+        "subreddit": "singularity",
+        "score": 28,
+        "publishedAt": "2026-05-07T04:00:35+09:00"
+      },
+      {
+        "id": "reddit_021",
+        "title": "Genesis AI's Gene'26.5",
+        "originalTitle": "Genesis AI's Gene'26.5",
+        "summary": "r/singularity 커뮤니티에서 주목받는 게시물입니다. AI 및 기술 커뮤니티의 최신 논의를 확인할 수 있습니다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1t5lxmh/genesis_ais_gene265/",
+        "subreddit": "singularity",
+        "score": 85,
+        "publishedAt": "2026-05-07T03:45:04+09:00"
+      },
+      {
+        "id": "reddit_022",
+        "title": "Interview prep: Advice on general code prep.",
+        "originalTitle": "Interview prep: Advice on general code prep.",
+        "summary": "r/ExperiencedDevs 커뮤니티에서 주목받는 게시물입니다. AI 및 기술 커뮤니티의 최신 논의를 확인할 수 있습니다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1t5otvv/interview_prep_advice_on_general_code_prep/",
+        "subreddit": "ExperiencedDevs",
+        "score": 1,
+        "publishedAt": "2026-05-07T05:27:08+09:00"
+      },
+      {
+        "id": "reddit_023",
+        "title": "How to sell \"soft skills\"",
+        "originalTitle": "How to sell \"soft skills\"",
+        "summary": "r/ExperiencedDevs 커뮤니티에서 주목받는 게시물입니다. AI 및 기술 커뮤니티의 최신 논의를 확인할 수 있습니다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1t5mi1c/how_to_sell_soft_skills/",
+        "subreddit": "ExperiencedDevs",
+        "score": 6,
+        "publishedAt": "2026-05-07T04:04:43+09:00"
+      },
+      {
+        "id": "reddit_024",
+        "title": "Finding a way to make the transition to EM",
+        "originalTitle": "Finding a way to make the transition to EM",
+        "summary": "r/ExperiencedDevs 커뮤니티에서 주목받는 게시물입니다. AI 및 기술 커뮤니티의 최신 논의를 확인할 수 있습니다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1t5m9gt/finding_a_way_to_make_the_transition_to_em/",
+        "subreddit": "ExperiencedDevs",
+        "score": 2,
+        "publishedAt": "2026-05-07T03:56:39+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_018",
+        "title": "Gemini API 파일 검색이 멀티모달로 진화: 효율적인 RAG 구축",
+        "excerpt": "Gemini API File Search",
+        "body": "Gemini API File Search",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanded-gemini-api-file-search-multimodal-rag/",
+        "source": "The Official Google Blog",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-06T03:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_019",
+        "title": "Approximate location sharing gives you more control over your location data in Chrome.",
+        "excerpt": "Chrome on Android users can now choose to share their approximate location with websites, instead of sharing their precise location.",
+        "body": "Chrome on Android users can now choose to share their approximate location with websites, instead of sharing their precise location.",
+        "url": "https://blog.google/products-and-platforms/products/chrome/approximate-location-chrome-on-android/",
+        "source": "The Official Google Blog",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-06T02:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_020",
+        "title": "Google is partnering with XPRIZE and Range Media Partners on the $3.5 million Future Vision film competition.",
+        "excerpt": "Google is partnering with XPRIZE and Range Media Partners on the $3.5 million Future Vision film competition.",
+        "body": "Google is partnering with XPRIZE and Range Media Partners on the $3.5 million Future Vision film competition.",
+        "url": "https://blog.google/innovation-and-ai/technology/ai/future-vision-film-competition-xprize/",
+        "source": "The Official Google Blog",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-06T01:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_021",
+        "title": "Accelerating Gemma 4: faster inference with  multi-token prediction drafters",
+        "excerpt": "Gemma 4 MTP Drafter",
+        "body": "Gemma 4 MTP Drafter",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/",
+        "source": "The Official Google Blog",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-06T01:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_022",
+        "title": "Here’s what’s new with Google Home.",
+        "excerpt": "From a complete camera overhaul to updated automations, there are several new updates coming to Google Home.",
+        "body": "From a complete camera overhaul to updated automations, there are several new updates coming to Google Home.",
+        "url": "https://blog.google/products-and-platforms/devices/google-nest/home-updates/",
+        "source": "The Official Google Blog",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-06T01:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_023",
+        "title": "Celebrating educators’ creativity this Teacher Appreciation Week",
+        "excerpt": "A teacher smiles next to a student in a classroom full of instruments.",
+        "body": "A teacher smiles next to a student in a classroom full of instruments.",
+        "url": "https://blog.google/products-and-platforms/products/education/teacher-appreciation-week-2026/",
+        "source": "The Official Google Blog",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-06T01:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      }
+    ]
+  }
+}
