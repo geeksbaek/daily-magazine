@@ -1,0 +1,916 @@
+{
+  "date": "2026-05-08",
+  "issueNumber": 41,
+  "cover": {
+    "mainHeadline": "OpenAI, GPT-Realtime-2 공개 — 음성 AI의 새로운 시대",
+    "mainExcerpt": "OpenAI가 GPT-5급 추론 능력을 갖춘 음성 모델 GPT-Realtime-2를 API에 출시했습니다. 실시간 번역·추론·행동이 가능해 음성 에이전트 시대가 본격화됩니다. Anthropic도 Claude for Microsoft Office를 정식 출시하며 엔터프라이즈 AI 경쟁이 심화되고 있습니다.",
+    "headlines": [
+      "Anthropic, SpaceX 콜로서스 1 확보 — 220K NVIDIA GPU로 클로드 파워업",
+      "Google, Fitbit을 'Google Health'로 통합 — Gemini 헬스 코치 전 세계 출시",
+      "GitHub Copilot, 에이전트 PR 검토 기능 강화 — AI 개발 생태계 확장"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_aiml_01",
+      "title": "Parloa, 고객이 원하는 서비스 에이전트 구축",
+      "excerpt": "Title: Parloa builds service agents customers want to talk to URL Source: https://openai.com/index/parloa Markdown Content: In Parloa’s early days, Co-founder Stefan Ostwald spent a day inside an insurance call center, where his team had been building early voice experiences. Sitting alongside agent",
+      "body": "Title: Parloa builds service agents customers want to talk to URL Source: https://openai.com/index/parloa Markdown Content: In Parloa’s early days, Co-founder Stefan Ostwald spent a day inside an insurance call center, where his team had been building early voice experiences. Sitting alongside agents, he listened to the same conversations play out again and again: password resets, policy questions, routine changes. He realized much of that work could be automated. After that experience, Berlin-b",
+      "url": "https://openai.com/index/parloa",
+      "source": "OpenAI News",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-07T20:00:00+09:00",
+      "readTime": 5,
+      "imageGradient": 0,
+      "type": "Article"
+    },
+    {
+      "id": "rss_aiml_02",
+      "title": "API의 새로운 모델로 음성 인텔리전스 발전",
+      "excerpt": "Title: Advancing voice intelligence with new models in the API URL Source: https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api Markdown Content: We’re introducing three audio models in the API that unlock a new class of voice apps for developers. With these models, devel",
+      "body": "Title: Advancing voice intelligence with new models in the API URL Source: https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api Markdown Content: We’re introducing three audio models in the API that unlock a new class of voice apps for developers. With these models, developers can build voice experiences that feel more natural, respond more intelligently, and take action in real time: * **GPT‑Realtime‑2**, our first voice model with GPT‑5‑class reasoning that can hand",
+      "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
+      "source": "OpenAI News",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-07T19:00:00+09:00",
+      "readTime": 5,
+      "imageGradient": 1,
+      "type": "Article"
+    },
+    {
+      "id": "rss_aiml_03",
+      "title": "ChatGPT에서 광고 테스트 시작",
+      "excerpt": "Title: Testing ads in ChatGPT URL Source: https://openai.com/index/testing-ads-in-chatgpt Markdown Content: _**Update on May 7, 2026**_ _: In the coming weeks, we plan to expand the ads pilot in ChatGPT in the United Kingdom, Mexico, Brazil, Japan, and South Korea._ _These pilots will help us unders",
+      "body": "Title: Testing ads in ChatGPT URL Source: https://openai.com/index/testing-ads-in-chatgpt Markdown Content: _**Update on May 7, 2026**_ _: In the coming weeks, we plan to expand the ads pilot in ChatGPT in the United Kingdom, Mexico, Brazil, Japan, and South Korea._ _These pilots will help us understand what works well in different regions, so we can continue improving the experience as we expand._ _If you’re a business and interested in advertising in ChatGPT in these new markets, visit_[_opena",
+      "url": "https://openai.com/index/testing-ads-in-chatgpt",
+      "source": "OpenAI News",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-07T09:00:00+09:00",
+      "readTime": 5,
+      "imageGradient": 0,
+      "type": "Article"
+    },
+    {
+      "id": "rss_bt_01",
+      "title": "구글이 제공하는 계정 보안을 위한 5가지 도구",
+      "excerpt": "A laptop sits against a blue background surrounded by safety and security-related icons. On the laptop screen is the letter G inside a blue shield.",
+      "body": "A laptop sits against a blue background surrounded by safety and security-related icons. On the laptop screen is the letter G inside a blue shield.",
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/world-password-day-2026/",
+      "source": "The Official Google Blog",
+      "category": "big_tech",
+      "publishedAt": "2026-05-08T01:00:00+09:00",
+      "readTime": 4,
+      "imageGradient": 4,
+      "type": "Article"
+    },
+    {
+      "id": "rss_dev_01",
+      "title": "Agent pull requests are everywhere. Here’s how to review them.",
+      "excerpt": "A practical guide to reviewing agent-generated pull requests: what to look for, where issues hide, and how to catch technical debt before it ships. The post Agent pull requests are everywhere. Here&#8217;s how to review them.",
+      "body": "A practical guide to reviewing agent-generated pull requests: what to look for, where issues hide, and how to catch technical debt before it ships. The post Agent pull requests are everywhere. Here&#8217;s how to review them. appeared first on The GitHub Blog.",
+      "url": "https://github.blog/ai-and-ml/generative-ai/agent-pull-requests-are-everywhere-heres-how-to-review-them/",
+      "source": "GitHub Blog",
+      "category": "dev_tools",
+      "publishedAt": "2026-05-08T04:00:00+09:00",
+      "readTime": 4,
+      "imageGradient": 2,
+      "type": "Article"
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_aiml_01",
+        "title": "Parloa, 고객이 원하는 서비스 에이전트 구축",
+        "excerpt": "Title: Parloa builds service agents customers want to talk to URL Source: https://openai.com/index/parloa Markdown Content: In Parloa’s early days, Co-founder Stefan Ostwald spent a day inside an insurance call center, where his team had been building early voice experiences. Sitting alongside agent",
+        "body": "Title: Parloa builds service agents customers want to talk to URL Source: https://openai.com/index/parloa Markdown Content: In Parloa’s early days, Co-founder Stefan Ostwald spent a day inside an insurance call center, where his team had been building early voice experiences. Sitting alongside agents, he listened to the same conversations play out again and again: password resets, policy questions, routine changes. He realized much of that work could be automated. After that experience, Berlin-b",
+        "url": "https://openai.com/index/parloa",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-07T20:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_aiml_02",
+        "title": "API의 새로운 모델로 음성 인텔리전스 발전",
+        "excerpt": "Title: Advancing voice intelligence with new models in the API URL Source: https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api Markdown Content: We’re introducing three audio models in the API that unlock a new class of voice apps for developers. With these models, devel",
+        "body": "Title: Advancing voice intelligence with new models in the API URL Source: https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api Markdown Content: We’re introducing three audio models in the API that unlock a new class of voice apps for developers. With these models, developers can build voice experiences that feel more natural, respond more intelligently, and take action in real time: * **GPT‑Realtime‑2**, our first voice model with GPT‑5‑class reasoning that can hand",
+        "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-07T19:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_aiml_03",
+        "title": "ChatGPT에서 광고 테스트 시작",
+        "excerpt": "Title: Testing ads in ChatGPT URL Source: https://openai.com/index/testing-ads-in-chatgpt Markdown Content: _**Update on May 7, 2026**_ _: In the coming weeks, we plan to expand the ads pilot in ChatGPT in the United Kingdom, Mexico, Brazil, Japan, and South Korea._ _These pilots will help us unders",
+        "body": "Title: Testing ads in ChatGPT URL Source: https://openai.com/index/testing-ads-in-chatgpt Markdown Content: _**Update on May 7, 2026**_ _: In the coming weeks, we plan to expand the ads pilot in ChatGPT in the United Kingdom, Mexico, Brazil, Japan, and South Korea._ _These pilots will help us understand what works well in different regions, so we can continue improving the experience as we expand._ _If you’re a business and interested in advertising in ChatGPT in these new markets, visit_[_opena",
+        "url": "https://openai.com/index/testing-ads-in-chatgpt",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-07T09:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_aiml_04",
+        "title": "ChatGPT에 신뢰 연락처 기능 도입",
+        "excerpt": "Title: Just a moment... URL Source: https://openai.com/index/introducing-trusted-contact-in-chatgpt Warning: Target URL returned error 403: Forbidden Warning: This page maybe not yet fully loaded, consider explicitly specify a timeout. Markdown Content: # Just a moment...",
+        "body": "Title: Just a moment... URL Source: https://openai.com/index/introducing-trusted-contact-in-chatgpt Warning: Target URL returned error 403: Forbidden Warning: This page maybe not yet fully loaded, consider explicitly specify a timeout. Markdown Content: # Just a moment... Verification successful. Waiting for openai.com to respond",
+        "url": "https://openai.com/index/introducing-trusted-contact-in-chatgpt",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-07T09:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_aiml_05",
+        "title": "Perplexity’s Personal Computer is now available everyone on Mac",
+        "excerpt": "Perplexity's Personal Computer brings AI agents to your Mac, and is now open to everyone.",
+        "body": "Perplexity's Personal Computer brings AI agents to your Mac, and is now open to everyone.",
+        "url": "https://techcrunch.com/2026/05/07/perplexitys-personal-computer-is-now-available-everyone-on-mac/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-08T04:57:59+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_aiml_06",
+        "title": "Elon Musk’s lawsuit is putting OpenAI’s safety record under the microscope",
+        "excerpt": "Elon Musk's legal effort to dismantle OpenAI may hinge on how its for-profit subsidiary enhances or detracts from the frontier lab's founding mission of ensuring that humanity benefits from artificial general intelligence.",
+        "body": "Elon Musk's legal effort to dismantle OpenAI may hinge on how its for-profit subsidiary enhances or detracts from the frontier lab's founding mission of ensuring that humanity benefits from artificial general intelligence.",
+        "url": "https://techcrunch.com/2026/05/07/elon-musks-lawsuit-is-putting-openais-safety-record-under-the-microscope/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-08T04:21:21+09:00",
+        "readTime": 5,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_aiml_07",
+        "title": "Bumble, 스와이프 기능 폐지 예정 — CEO 발표",
+        "excerpt": "Based on Whitney Wolfe Herd's past comments about Bumble's new direction, the company is expected to lean into AI -- Bumble is even working on an AI dating assistant called Bee, and the CEO has made many comments over the years about how AI will be \"a supercharger to love and relationships.\"",
+        "body": "Based on Whitney Wolfe Herd's past comments about Bumble's new direction, the company is expected to lean into AI -- Bumble is even working on an AI dating assistant called Bee, and the CEO has made many comments over the years about how AI will be \"a supercharger to love and relationships.\"",
+        "url": "https://techcrunch.com/2026/05/07/bumble-is-getting-rid-of-the-swipe-ceo-says/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-08T04:06:17+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_aiml_08",
+        "title": "How Anthropic’s Mythos has rewritten Firefox’s approach to cybersecurity",
+        "excerpt": "Security researchers at Mozilla say Anthropic's Mythos has unearthed a wealth of high-severity bugs in Firefox.",
+        "body": "Security researchers at Mozilla say Anthropic's Mythos has unearthed a wealth of high-severity bugs in Firefox.",
+        "url": "https://techcrunch.com/2026/05/07/how-anthropics-mythos-has-rewritten-firefoxs-approach-to-cybersecurity/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-08T01:05:48+09:00",
+        "readTime": 5,
+        "imageGradient": 1
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_dev_01",
+        "title": "에이전트 Pull Request가 급증하고 있습니다. 검토 방법은?",
+        "excerpt": "A practical guide to reviewing agent-generated pull requests: what to look for, where issues hide, and how to catch technical debt before it ships. The post Agent pull requests are everywhere. Here&#8217;s how to review them.",
+        "body": "A practical guide to reviewing agent-generated pull requests: what to look for, where issues hide, and how to catch technical debt before it ships. The post Agent pull requests are everywhere. Here&#8217;s how to review them. appeared first on The GitHub Blog.",
+        "url": "https://github.blog/ai-and-ml/generative-ai/agent-pull-requests-are-everywhere-heres-how-to-review-them/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-08T04:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_dev_02",
+        "title": "정답이 결정적이지 않을 때 에이전트 행동 검증하기",
+        "excerpt": "How to build the “Trust Layer” for Github Copilot Coding Agents without brittle scripts or black-box judgements by using dominatory analysis. The post Validating agentic behavior when “correct” isn’t deterministic appeared first on The GitHub Blog.",
+        "body": "How to build the “Trust Layer” for Github Copilot Coding Agents without brittle scripts or black-box judgements by using dominatory analysis. The post Validating agentic behavior when “correct” isn’t deterministic appeared first on The GitHub Blog.",
+        "url": "https://github.blog/ai-and-ml/generative-ai/validating-agentic-behavior-when-correct-isnt-deterministic/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-07T06:16:31+09:00",
+        "readTime": 4,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_dev_03",
+        "title": "Cloudflare가 \"Copy Fail\" Linux 취약점에 대응한 방법",
+        "excerpt": "When a critical Linux kernel privilege escalation was publicly disclosed, Cloudflare's security and engineering teams detected, investigated, and mitigated the threat across our global fleet, confirming zero customer impact and no malicious exploitation.",
+        "body": "When a critical Linux kernel privilege escalation was publicly disclosed, Cloudflare's security and engineering teams detected, investigated, and mitigated the threat across our global fleet, confirming zero customer impact and no malicious exploitation.",
+        "url": "https://blog.cloudflare.com/copy-fail-linux-vulnerability-mitigation/",
+        "source": "Cloudflare Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-07T22:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_dev_04",
+        "title": "샌드박싱 접근 방식 비교 분석",
+        "excerpt": "Whether you are a software engineer, a product manager, or a designer, this quote should fundamentally change how we approach our daily routine. We are no longer just building interfaces; we are creating environments where agents can operate autonomously with minimal human interaction. What could be",
+        "body": "Whether you are a software engineer, a product manager, or a designer, this quote should fundamentally change how we approach our daily routine. We are no longer just building interfaces; we are creating environments where agents can operate autonomously with minimal human interaction. What could be the fundamental requirement for such an environment ? In...",
+        "url": "https://www.docker.com/blog/comparing-sandboxing-approaches-ai-agents/",
+        "source": "Docker Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-07T22:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_dev_05",
+        "title": "Visual Studio Code 1.120 업데이트",
+        "excerpt": "Learn what's new in Visual Studio Code 1.120 (Insiders) Read the full article",
+        "body": "Learn what's new in Visual Studio Code 1.120 (Insiders) Read the full article",
+        "url": "https://code.visualstudio.com/updates/v1_120",
+        "source": "Visual Studio Code - Code Editing. Redefined.",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-14T02:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 2
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_bt_01",
+        "title": "구글이 제공하는 계정 보안을 위한 5가지 도구",
+        "excerpt": "A laptop sits against a blue background surrounded by safety and security-related icons. On the laptop screen is the letter G inside a blue shield.",
+        "body": "A laptop sits against a blue background surrounded by safety and security-related icons. On the laptop screen is the letter G inside a blue shield.",
+        "url": "https://blog.google/innovation-and-ai/technology/safety-security/world-password-day-2026/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-05-08T01:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_bt_02",
+        "title": "교사 감사 주간: 변화를 만든 교육자들을 기념합니다",
+        "excerpt": "To celebrate Teacher Appreciation Week, Googlers thanked the educators who inspired them to try new things.",
+        "body": "To celebrate Teacher Appreciation Week, Googlers thanked the educators who inspired them to try new things.",
+        "url": "https://blog.google/products-and-platforms/products/education/teacher-appreciation-week-videos/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-05-08T01:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_bt_03",
+        "title": "AlphaEvolve가 연구에서 실제 문제 해결로 발전한 과정",
+        "excerpt": "AlphaEvolve has become a powerful engine for scientific and societal progress.",
+        "body": "AlphaEvolve has become a powerful engine for scientific and societal progress.",
+        "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/alphaevolve-updates/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-05-08T00:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_bt_04",
+        "title": "검색·쇼핑에서 AI 기반 입찰 및 예산 혁신",
+        "excerpt": "The Road To Google Marketing Live",
+        "body": "The Road To Google Marketing Live",
+        "url": "https://blog.google/products/ads-commerce/bidding-budgeting-google-marketing-live-2026/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-05-08T00:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_bt_05",
+        "title": "구글 헬스 코치, 전 세계에 출시",
+        "excerpt": "Google Health Coach onboarding screens displayed on a phone.",
+        "body": "Google Health Coach onboarding screens displayed on a phone.",
+        "url": "https://blog.google/products-and-platforms/products/google-health/google-health-coach/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-05-07T23:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_bt_06",
+        "title": "새로운 Fitbit Air 소개",
+        "excerpt": "A woman dressed in pink does yoga while wearing Google Fitbit Air Performance Loop band in Lavender. Next to that image you see, from top to bottom: Google Fitbit Air Performance Loop band in Fog, Obsidian, Lavender and Berry colorways.",
+        "body": "A woman dressed in pink does yoga while wearing Google Fitbit Air Performance Loop band in Lavender. Next to that image you see, from top to bottom: Google Fitbit Air Performance Loop band in Fog, Obsidian, Lavender and Berry colorways.",
+        "url": "https://blog.google/products-and-platforms/devices/fitbit/fitbit-air/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-05-07T23:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_bt_07",
+        "title": "건강과 웰니스의 새로운 시대",
+        "excerpt": "Introducing the lightweight, screenless Fitbit Air, and the brand-new Google Health app.",
+        "body": "Introducing the lightweight, screenless Fitbit Air, and the brand-new Google Health app.",
+        "url": "https://blog.google/products-and-platforms/products/google-health/google-health-fitbit/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-05-07T23:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_bt_08",
+        "title": "새로운 웰니스 시대: Google Health 앱 소개",
+        "excerpt": "Google Health logo",
+        "body": "Google Health logo",
+        "url": "https://blog.google/products-and-platforms/products/google-health/google-health-app/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-05-07T23:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 5
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "사람들이 AI와 상호작용할 때 음성을 정말로 사용하기 시작하고 있어요, 특히 많은 맥락을 쏟아낼 때 그렇죠.\n\nGPT-Realtime-2가 오늘 API에 출시됩니다; 꽤 큰 도약이에요.",
+        "context": "@sama(Sam Altman)의 트윗으로, AI 업계 최신 동향을 공유합니다.",
+        "url": "https://x.com/sama/status/2052462271667028211",
+        "publishedAt": "2026-05-07T18:55:13.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "ChatGPT가 지금 매우 '활성화된' 느낌이 들어요",
+        "context": "@sama(Sam Altman)의 트윗으로, AI 업계 최신 동향을 공유합니다.",
+        "url": "https://x.com/sama/status/2051829422265979047",
+        "publishedAt": "2026-05-06T01:00:30.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "API에 GPT-Realtime-2 도입: 아직까지 가장 지능적인 음성 모델로, GPT-5급 추론을 음성 에이전트에 가져옵니다.\n\n음성 에이전트는 이제 실시간 협력자로, 대화가 진행되는 동안 듣고, 추론하며, 복잡한 문제를 해결할 수 있습니다.",
+        "context": "@OpenAI(OpenAI)의 트윗으로, AI 업계 최신 동향을 공유합니다.",
+        "url": "https://x.com/OpenAI/status/2052438194625593804",
+        "publishedAt": "2026-05-07T17:19:32.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "음성 에이전트가 점점 더 강력해지고 있습니다.\n\n새로운 기능은 다음과 같습니다:\n• 음성 에이전트가 추론하고 행동을 취할 수 있는 GPT-Realtime-2\n• 70개 입력 언어에서 13개 출력 언어로의 번역을 가능하게 하는 GPT-Realtime-Translate",
+        "context": "@OpenAIDevs(OpenAI Developers)의 트윗으로, AI 업계 최신 동향을 공유합니다.",
+        "url": "https://x.com/OpenAIDevs/status/2052440907933474954",
+        "publishedAt": "2026-05-07T17:30:19.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "저희 보안 버그 바운티 프로그램이 이제 HackerOne에서 공개되었습니다.\n\n저희는 보안 연구 커뮤니티 내에서 이 프로그램을 비공개로 운영해 왔으며, 그들의 발견으로 인해 저희 제품이 강화되었습니다. 이제 누구나 취약점을 보고하고 보상을 받을 수 있습니다.",
+        "context": "@AnthropicAI(Anthropic)의 트윗으로, AI 업계 최신 동향을 공유합니다.",
+        "url": "https://x.com/AnthropicAI/status/2052466175540629965",
+        "publishedAt": "2026-05-07T19:10:43.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "새로운 Anthropic 연구: 자연어 오토인코더.\n\nClaude와 같은 모델은 단어로 말하지만 숫자로 생각합니다. 우리는 Claude에게 그 활성화를 사람이 읽을 수 있는 텍스트로 번역하도록 했습니다.",
+        "context": "@AnthropicAI(Anthropic)의 트윗으로, AI 업계 최신 동향을 공유합니다.",
+        "url": "https://x.com/AnthropicAI/status/2052435436157452769",
+        "publishedAt": "2026-05-07T17:08:35.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Claude for Excel, PowerPoint, Word는 이제 일반적으로 사용 가능하며, Claude for Outlook은 퍼블릭 베타 단계에 있습니다.\n\nClaude가 Microsoft 앱 간을 이동할 때, 대화의 전체 맥락을 그대로 유지합니다.",
+        "context": "@claudeai(Claude)의 트윗으로, AI 업계 최신 동향을 공유합니다.",
+        "url": "https://x.com/claudeai/status/2052445786651168849",
+        "publishedAt": "2026-05-07T17:49:42.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Code with Claude에서 생중계: Claude 관리 에이전트에서 꿈꾸기 기능을 연구 프리뷰로 출시합니다.\n\nOutcomes, 다중 에이전트 오케스트레이션, 웹훅이 이제 퍼블릭 베타에 있습니다.",
+        "context": "@claudeai(Claude)의 트윗으로, AI 업계 최신 동향을 공유합니다.",
+        "url": "https://x.com/claudeai/status/2052067399088664981",
+        "publishedAt": "2026-05-06T16:46:08.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_009",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "이제 우리 API의 GPT-Realtime-2 추론 모델로 놀라운 음성 에이전트를 간단히 구축할 수 있습니다.",
+        "context": "@gdb(Greg Brockman)의 트윗으로, AI 업계 최신 동향을 공유합니다.",
+        "url": "https://x.com/gdb/status/2052448850796011931",
+        "publishedAt": "2026-05-07T18:01:53.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_010",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "우리는 행성 규모로 컴퓨트를 설계, 구축, 운영합니다.",
+        "context": "@gdb(Greg Brockman)의 트윗으로, AI 업계 최신 동향을 공유합니다.",
+        "url": "https://x.com/gdb/status/2052221251247042770",
+        "publishedAt": "2026-05-07T02:57:29.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_011",
+        "author": "Alex Albert",
+        "handle": "alexalbert__",
+        "content": "Claude Mythos Preview의 도움으로 Firefox 팀은 지난 15개월 동안의 총합보다 더 많은 보안 버그를 4월에 수정했습니다.",
+        "context": "@alexalbert__(Alex Albert)의 트윗으로, AI 업계 최신 동향을 공유합니다.",
+        "url": "https://x.com/alexalbert__/status/2052468573516513762",
+        "publishedAt": "2026-05-07T19:20:15.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_012",
+        "author": "Jack Clark",
+        "handle": "jackclarkSF",
+        "content": "내 \"RSI 60% by EOY 2028\" 주장에 반박하는 아주 좋은 포스트예요. RSI에 대해 더 비관적인 관점을 제시하는 몇 가지 힘든 벤치마크를 드러내는 방식이 마음에 들어요.",
+        "context": "@jackclarkSF(Jack Clark)의 트윗으로, AI 업계 최신 동향을 공유합니다.",
+        "url": "https://x.com/jackclarkSF/status/2052149977691123815",
+        "publishedAt": "2026-05-06T22:14:16.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_013",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "\"매일 우리는 여러분께 전달할 더 많은 컴퓨팅 자원을 확보하려고 노력하고 있습니다. 시간이 좀 걸려 죄송하지만, 가능한 한 많이 확보할 것입니다.\"",
+        "context": "@trq212(Thariq)의 트윗으로, AI 업계 최신 동향을 공유합니다.",
+        "url": "https://x.com/trq212/status/2052250816720056604",
+        "publishedAt": "2026-05-07T04:54:58.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_014",
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "content": "Code w/ Claude의 놀라운 시작이었습니다! 사람들이 Claude Code로 무엇을 만들고 있는지 듣고, 우리가 더 나아질 수 있는 부분에 대한 피드백을 받는 것이 정말 좋습니다.",
+        "context": "@bcherny(Boris Cherny)의 트윗으로, AI 업계 최신 동향을 공유합니다.",
+        "url": "https://x.com/bcherny/status/2052070549271232870",
+        "publishedAt": "2026-05-06T16:58:39.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_015",
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "content": "우리는 또한 SpaceX와의 컴퓨팅 파트너십을 발표했습니다: 300+ MW의 새로운 용량과 220K NVIDIA GPU가 한 달 내에 온라인으로 가동되며, 모두 Claude Pro와 Max를 구동합니다.",
+        "context": "@bcherny(Boris Cherny)의 트윗으로, AI 업계 최신 동향을 공유합니다.",
+        "url": "https://x.com/bcherny/status/2052070552744116486",
+        "publishedAt": "2026-05-06T16:58:40.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_016",
+        "author": "ChatGPT",
+        "handle": "ChatGPTapp",
+        "content": "ChatGPT가 이제 Excel과 Google Sheets에서 애드온으로 사용할 수 있습니다. 엉망인 데이터를 분석하고, 수식을 작성하며, 스프레드시트를 업데이트하고, 그 과정에서 무엇을 하고 있는지 설명할 수 있도록 도와줍니다. GPT-5.5로 구동됩니다.",
+        "context": "@ChatGPTapp(ChatGPT)의 트윗으로, AI 업계 최신 동향을 공유합니다.",
+        "url": "https://x.com/ChatGPTapp/status/2051776032127238266",
+        "publishedAt": "2026-05-05T21:28:20.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "형님들 드디어 출시되었습니다. 오픈AI가 방금 전 'GPT-Realtime-2'를 포함한 새로운 실시간 API 음성 모델들을 기습 공개했습니다. 이번 모델은 GPT-5급의 추론 능력을 바탕으로 작동하는데요. 사용자가 대화 도중 말을 끊거나 요청을 변경해도 자연스럽게 문맥을 유지하며, 70개 이상의 언어를 실시간 번역하고 지연 없이 텍스트로 변환할 수 있습니다. Voice-to-action 흐름이 핵심입니다.",
+        "context": "@choi.openai 계정의 AI 관련 최신 게시물입니다.",
+        "url": "https://www.threads.com/@choi.openai/post/DYC7B0OloSx",
+        "publishedAt": "2026-05-07T17:23:50.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "구글이 Fitbit을 완전히 Google Health로 흡수합니다. 5월 26일부터 Fitbit 앱은 'Google Health' 앱으로 바뀌고, Fitbit 기기 데이터뿐 아니라 Health Connect, Apple Health, 의료 기록까지 한곳에서 관리할 수 있게 됩니다. Gemini 기반 'Google Health Coach'도 붙습니다. 24시간 내내 맞춤형 건강 조언을 제공하는 구조입니다.",
+        "context": "@choi.openai 계정의 AI 관련 최신 게시물입니다.",
+        "url": "https://www.threads.com/@choi.openai/post/DYCqYZcj371",
+        "publishedAt": "2026-05-07T14:59:34.000Z",
+        "platform": "threads"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "ECCV 리뷰어가 내 이전 논문과 비교하라고 요구합니다 [토론]",
+        "originalTitle": "ECCV reviewer wants me to compare and contrast to my own paper. [D]",
+        "summary": "머신러닝 학술 커뮤니티에서 뜨거운 화제. ECCV 리뷰어가 투고 논문을 저자 본인의 이전 논문과 비교하라는 요청에 대한 논쟁이 벌어지고 있습니다. 익명성과 연구 공정성 문제를 다룹니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1t6e4i7/eccv_reviewer_wants_me_to_compare_and_contrast_to/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-05-08T00:36:41+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "MICCAI 2026 심사 결과 공유 [토론]",
+        "originalTitle": "MICCAI 2026 Decisions [D]",
+        "summary": "의료 AI 분야 주요 학회인 MICCAI 2026의 논문 심사 결과가 발표되어 연구자들이 결과를 공유하고 있습니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1t67xf4/miccai_2026_decisions_d/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-05-07T20:38:13+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "META 초지능 연구소 발표: ProgramBench — SOTA AI가 프로그램을 재현할 수 있을까?",
+        "originalTitle": "META Superintelligence Lab Presents: ProgramBench: Can SOTA AI Recreate Real Executable Programs(ffmpeg, SQLite, ripgrep) From Scratch Without The Internet?",
+        "summary": "r/MachineLearning 커뮤니티의 인기 게시물입니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1t5zdg5/meta_superintelligence_lab_presents_programbench/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-05-07T12:51:21+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "⚠️ 경고: Open-OSS/privacy-filter 악성 소프트웨어",
+        "originalTitle": "WARNING: Open-OSS/privacy-filter MALWARE",
+        "summary": "오픈소스 커뮤니티에 충격적인 보안 경고. privacy-filter 패키지에 악성 코드가 발견되었습니다. 사용자들은 즉시 제거할 것을 권고받고 있습니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t6febk/warning_openossprivacyfilter_malware/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-05-08T01:20:54+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "AMD, Instinct MI350P 가속기 발표: PCIe 카드에 CDNA 4 탑재",
+        "originalTitle": "AMD Intros Instinct MI350P Accelerator: CDNA 4 Comes to PCIe Cards",
+        "summary": "AMD가 CDNA 4 아키텍처 기반의 새로운 AI 가속기 Instinct MI350P를 발표했습니다. PCIe 카드 폼팩터로 더 쉬운 설치와 사용이 가능합니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t6b2x8/amd_intros_instinct_mi350p_accelerator_cdna_4/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-05-07T22:47:49+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "AMD, 슬롯 삽입형 GPU 출시 예정",
+        "originalTitle": "AMD to release slottable GPU",
+        "summary": "AMD가 서버 슬롯에 직접 삽입 가능한 새 GPU를 출시할 예정이라는 소식이 LocalLLaMA 커뮤니티에서 화제입니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t6gcw0/amd_to_release_slottable_gpu/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-05-08T01:54:57+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "Anthropic, 80배 성장 후 SpaceX 콜로서스 1 확보 — 기업가치 1.2조 달러",
+        "originalTitle": "Anthropic Secures SpaceX Colossus 1 After Growing 80x to a $1.2T Valuation",
+        "summary": "Anthropic이 SpaceX의 콜로서스 1 데이터센터 사용 계약을 체결했습니다. 220,000개 NVIDIA GPU를 확보하며 컴퓨팅 역량을 대폭 강화합니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1t6b6uz/anthropic_secures_spacex_colossus_1_after_growing/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-05-07T22:51:56+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "Coinbase 700명 해고, CEO \"모든 기업이 따를 것\" 경고",
+        "originalTitle": "Coinbase Cuts 700 Jobs and CEO Warns Every Company Will Do the Same",
+        "summary": "코인베이스가 AI 도입으로 700명을 해고했으며, CEO는 AI 자동화가 모든 산업에서 대규모 인력 감축으로 이어질 것이라고 경고했습니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1t6gf3v/coinbase_cuts_700_jobs_and_ceo_warns_every/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-05-08T01:57:07+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "영어 중심 AI가 관련 없는 커뮤니티를 합치고 정체성을 왜곡하고 있다",
+        "originalTitle": "English Centric AI Is Merging Unrelated Communities and Distorting Identities",
+        "summary": "영어 중심으로 학습된 AI가 전혀 관련 없는 문화적 커뮤니티를 하나로 묶어 정체성을 왜곡하는 문제를 다룬 심층 분석입니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1t6ipmk/english_centric_ai_is_merging_unrelated/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-05-08T03:15:50+09:00"
+      },
+      {
+        "id": "reddit_010",
+        "title": "다들 진정하세요. 제가 해결했습니다.",
+        "originalTitle": "everybody calm down. i got this.",
+        "summary": "ChatGPT 등 AI를 이용해 일상적 문제를 해결하는 재치 있는 게시물이 r/OpenAI 커뮤니티에서 큰 인기를 얻고 있습니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1t62m4b/everybody_calm_down_i_got_this/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-05-07T15:43:27+09:00"
+      },
+      {
+        "id": "reddit_011",
+        "title": "Sam Altman texts Mira Murati. November 19, 2023. [This document is from Musk v. Altman (2026).]",
+        "originalTitle": "Sam Altman texts Mira Murati. November 19, 2023. [This document is from Musk v. Altman (2026).]",
+        "summary": "r/OpenAI 커뮤니티의 인기 게시물입니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1t5tn1n/sam_altman_texts_mira_murati_november_19_2023/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-05-07T08:31:58+09:00"
+      },
+      {
+        "id": "reddit_012",
+        "title": "Random Twitch guy be like",
+        "originalTitle": "Random Twitch guy be like",
+        "summary": "r/OpenAI 커뮤니티의 인기 게시물입니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1t68x7w/random_twitch_guy_be_like/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-05-07T21:21:48+09:00"
+      },
+      {
+        "id": "reddit_013",
+        "title": "If the EU had built Claude",
+        "originalTitle": "If the EU had built Claude",
+        "summary": "r/ClaudeAI 커뮤니티의 인기 게시물입니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1t6c26a/if_the_eu_had_built_claude/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-05-07T23:24:02+09:00"
+      },
+      {
+        "id": "reddit_014",
+        "title": "Don’t worry guys, we’re working on the vaccine.",
+        "originalTitle": "Don’t worry guys, we’re working on the vaccine.",
+        "summary": "r/ClaudeAI 커뮤니티의 인기 게시물입니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1t6fz5p/dont_worry_guys_were_working_on_the_vaccine/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-05-08T01:41:28+09:00"
+      },
+      {
+        "id": "reddit_015",
+        "title": "me and claude 30 mins before hitting the 100% limit",
+        "originalTitle": "me and claude 30 mins before hitting the 100% limit",
+        "summary": "r/ClaudeAI 커뮤니티의 인기 게시물입니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1t65mht/me_and_claude_30_mins_before_hitting_the_100_limit/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-05-07T18:41:53+09:00"
+      },
+      {
+        "id": "reddit_016",
+        "title": "The PHP License Is Dead; Long Live the BSD 3-Clause",
+        "originalTitle": "The PHP License Is Dead; Long Live the BSD 3-Clause",
+        "summary": "r/programming 커뮤니티의 인기 게시물입니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1t6dspe/the_php_license_is_dead_long_live_the_bsd_3clause/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-05-08T00:25:08+09:00"
+      },
+      {
+        "id": "reddit_017",
+        "title": "Use Protocols, Not Services",
+        "originalTitle": "Use Protocols, Not Services",
+        "summary": "r/programming 커뮤니티의 인기 게시물입니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1t6fx7a/use_protocols_not_services/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-05-08T01:39:33+09:00"
+      },
+      {
+        "id": "reddit_018",
+        "title": "How Michael Abrash doubled Quake framerate",
+        "originalTitle": "How Michael Abrash doubled Quake framerate",
+        "summary": "r/programming 커뮤니티의 인기 게시물입니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1t6axgh/how_michael_abrash_doubled_quake_framerate/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-05-07T22:42:00+09:00"
+      },
+      {
+        "id": "reddit_019",
+        "title": "Anthropic partnered with SpaceX for compute",
+        "originalTitle": "Anthropic partnered with SpaceX for compute",
+        "summary": "r/singularity 커뮤니티의 인기 게시물입니다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1t6a394/anthropic_partnered_with_spacex_for_compute/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-05-07T22:09:39+09:00"
+      },
+      {
+        "id": "reddit_020",
+        "title": "Subquadratic claims to break LLM scaling limits! 1000x less costs",
+        "originalTitle": "Subquadratic claims to break LLM scaling limits! 1000x less costs",
+        "summary": "r/singularity 커뮤니티의 인기 게시물입니다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1t64dhj/subquadratic_claims_to_break_llm_scaling_limits/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-05-07T17:28:04+09:00"
+      },
+      {
+        "id": "reddit_021",
+        "title": "Genesis AI playing piano",
+        "originalTitle": "Genesis AI playing piano",
+        "summary": "r/singularity 커뮤니티의 인기 게시물입니다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1t65z81/genesis_ai_playing_piano/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-05-07T19:01:00+09:00"
+      },
+      {
+        "id": "reddit_022",
+        "title": "Is it me or have interviews gotten way more convoluted even with more experience?",
+        "originalTitle": "Is it me or have interviews gotten way more convoluted even with more experience?",
+        "summary": "r/ExperiencedDevs 커뮤니티의 인기 게시물입니다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1t6ggvf/is_it_me_or_have_interviews_gotten_way_more/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-05-08T01:58:54+09:00"
+      },
+      {
+        "id": "reddit_023",
+        "title": "Dealing with a difficult junior",
+        "originalTitle": "Dealing with a difficult junior",
+        "summary": "r/ExperiencedDevs 커뮤니티의 인기 게시물입니다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1t6aj1u/dealing_with_a_difficult_junior/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-05-07T22:26:28+09:00"
+      },
+      {
+        "id": "reddit_024",
+        "title": "Is anyone else experiencing major service degradation with Microsoft SaaS products lately?",
+        "originalTitle": "Is anyone else experiencing major service degradation with Microsoft SaaS products lately?",
+        "summary": "r/ExperiencedDevs 커뮤니티의 인기 게시물입니다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1t6d4z8/is_anyone_else_experiencing_major_service/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-05-08T00:02:03+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_qb_01",
+        "title": "Chrome, 온디바이스 AI 데이터 미전송 주장 삭제",
+        "excerpt": "Article URL: https://old.reddit.com/r/chrome/comments/1t5qayz/chrome_removes_claim_of_ondevice_al_not_sending/ Comments URL: https://news.ycombinator.com/item?id=48050964 Points: 262 # Comments: 91",
+        "body": "Article URL: https://old.reddit.com/r/chrome/comments/1t5qayz/chrome_removes_claim_of_ondevice_al_not_sending/ Comments URL: https://news.ycombinator.com/item?id=48050964 Points: 262 # Comments: 91",
+        "url": "https://old.reddit.com/r/chrome/comments/1t5qayz/chrome_removes_claim_of_ondevice_al_not_sending/",
+        "source": "Hacker News Best",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-08T00:56:33+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_qb_02",
+        "title": "버닝맨의 진실을 보여주는 지도",
+        "excerpt": "Article URL: https://www.not-ship.com/burning-man-moop/ Comments URL: https://news.ycombinator.com/item?id=48049653 Points: 429 # Comments: 194",
+        "body": "Article URL: https://www.not-ship.com/burning-man-moop/ Comments URL: https://news.ycombinator.com/item?id=48049653 Points: 429 # Comments: 194",
+        "url": "https://www.not-ship.com/burning-man-moop/",
+        "source": "Hacker News Best",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-07T23:06:10+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_qb_03",
+        "title": "나이지리아, 여아 교육률 상승으로 아동 결혼 급감",
+        "excerpt": "Related: https://www.nature.com/articles/d41586-026-00796-2 (https://archive.ph/otvAa) Comments URL: https://news.ycombinator.com/item?id=48049208 Points: 271 # Comments: 192",
+        "body": "Related: https://www.nature.com/articles/d41586-026-00796-2 (https://archive.ph/otvAa) Comments URL: https://news.ycombinator.com/item?id=48049208 Points: 271 # Comments: 192",
+        "url": "https://www.nature.com/articles/d41586-026-00720-8",
+        "source": "Hacker News Best",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-07T22:30:04+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_qb_04",
+        "title": "석유 선물 내부자 거래, 반복되는 불법 이익 논란",
+        "excerpt": "Article URL: https://paulkrugman.substack.com/p/grand-theft-oil-futures Comments URL: https://news.ycombinator.com/item?id=48047981 Points: 445 # Comments: 288",
+        "body": "Article URL: https://paulkrugman.substack.com/p/grand-theft-oil-futures Comments URL: https://news.ycombinator.com/item?id=48047981 Points: 445 # Comments: 288",
+        "url": "https://paulkrugman.substack.com/p/grand-theft-oil-futures",
+        "source": "Hacker News Best",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-07T20:10:24+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_qb_05",
+        "title": "퍼마컴퓨팅 원칙",
+        "excerpt": "Article URL: https://permacomputing.net/principles/ Comments URL: https://news.ycombinator.com/item?id=48044638 Points: 237 # Comments: 173",
+        "body": "Article URL: https://permacomputing.net/principles/ Comments URL: https://news.ycombinator.com/item?id=48044638 Points: 237 # Comments: 173",
+        "url": "https://permacomputing.net/principles/",
+        "source": "Hacker News Best",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-07T11:18:23+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_qb_06",
+        "title": "RSS 피드가 Google보다 더 많은 트래픽을 가져다준다",
+        "excerpt": "Article URL: https://shkspr.mobi/blog/2026/05/rss-feeds-send-me-more-traffic-than-google/ Comments URL: https://news.ycombinator.com/item?id=48043964 Points: 243 # Comments: 60",
+        "body": "Article URL: https://shkspr.mobi/blog/2026/05/rss-feeds-send-me-more-traffic-than-google/ Comments URL: https://news.ycombinator.com/item?id=48043964 Points: 243 # Comments: 60",
+        "url": "https://shkspr.mobi/blog/2026/05/rss-feeds-send-me-more-traffic-than-google/",
+        "source": "Hacker News Best",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-07T09:40:06+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_qb_07",
+        "title": "SQLite, 미국 의회도서관 권장 저장 형식으로 선정",
+        "excerpt": "Article URL: https://sqlite.org/locrsf.html Comments URL: https://news.ycombinator.com/item?id=48042434 Points: 570 # Comments: 173",
+        "body": "Article URL: https://sqlite.org/locrsf.html Comments URL: https://news.ycombinator.com/item?id=48042434 Points: 570 # Comments: 173",
+        "url": "https://sqlite.org/locrsf.html",
+        "source": "Hacker News Best",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-07T06:58:43+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      }
+    ]
+  }
+}

@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-05-08",
+      "issueNumber": 41,
+      "mainHeadline": "OpenAI, GPT-Realtime-2 공개 — 음성 AI의 새로운 시대",
+      "headlines": [
+        "Anthropic, SpaceX 콜로서스 1 확보 — 220K NVIDIA GPU로 클로드 파워업",
+        "Google, Fitbit을 'Google Health'로 통합 — Gemini 헬스 코치 전 세계 출시",
+        "GitHub Copilot, 에이전트 PR 검토 기능 강화 — AI 개발 생태계 확장"
+      ]
+    },
+    {
       "date": "2026-05-07",
       "issueNumber": 40,
       "mainHeadline": "ChatGPT 퓨처스 소개: 2026 클래스",
