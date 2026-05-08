@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-05-09",
+      "issueNumber": 42,
+      "mainHeadline": "OpenAI, Codex 안전 운영 방식 공개",
+      "headlines": [
+        "CyberSecQwen-4B: 사이버 방어에 소형 특화 로컬 모델이 필요한 이유",
+        "창의적 거장들이 AI를 활용해 중소기업 광고를 만들면 어떤 일이 벌어질까",
+        "나이 확인 법규가 개발자에게 중요한 이유"
+      ]
+    },
+    {
       "date": "2026-05-08",
       "issueNumber": 41,
       "mainHeadline": "OpenAI, GPT-Realtime-2 공개 — 음성 AI의 새로운 시대",
@@ -405,5 +415,5 @@
       ]
     }
   ],
-  "latestIssue": 39
+  "latestIssue": "2026-05-09"
 }

@@ -1,0 +1,601 @@
+{
+  "date": "2026-05-09",
+  "issueNumber": 42,
+  "cover": {
+    "mainHeadline": "OpenAI, Codex 안전 운영 방식 공개",
+    "mainExcerpt": "Title: Running Codex safely at OpenAI URL Source: https://openai.com/index/running-codex-safely Markdown Content: As AI systems become more capable, they increasingly act on behalf of users. Coding ag",
+    "headlines": [
+      "CyberSecQwen-4B: 사이버 방어에 소형 특화 로컬 모델이 필요한 이유",
+      "EMO: 창발적 모듈성을 위한 전문가 혼합 사전학습 기법",
+      "나이 확인 법규가 개발자에게 중요한 이유"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_001",
+      "title": "OpenAI, Codex 안전 운영 방식 공개",
+      "excerpt": "Title: Running Codex safely at OpenAI URL Source: https://openai.com/index/running-codex-safely Markdown Content: As AI systems become more capable, they increasingly act on behalf of users. Coding agents can autonomously review repositories, run commands, and interact with development tools. These",
+      "body": "Title: Running Codex safely at OpenAI URL Source: https://openai.com/index/running-codex-safely Markdown Content: As AI systems become more capable, they increasingly act on behalf of users. Coding agents can autonomously review repositories, run commands, and interact with development tools. These are tasks that previously required direct human execution. With Codex, we’ve designed these capabilities alongside the controls organizations need for safe deployment. Security teams need ways to govern how agents operate: what they can access, when human approval is required, which systems they can",
+      "url": "https://openai.com/index/running-codex-safely",
+      "source": "OpenAI News",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-08T21:30:00+09:00",
+      "readTime": 4,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_002",
+      "title": "CyberSecQwen-4B: 사이버 방어에 소형 특화 로컬 모델이 필요한 이유",
+      "excerpt": "CyberSecQwen-4B: 사이버 보안 특화 소형 모델의 로컬 실행 가능성과 방어 작업 성능을 탐구합니다.",
+      "body": "CyberSecQwen-4B는 사이버 보안 분야에 특화된 40억 파라미터 규모의 소형 언어 모델입니다. 대형 범용 모델의 대안으로, 로컬 환경에서도 실행 가능하며 위협 탐지, 취약점 분석, 침해 대응 등의 사이버 방어 작업에서 높은 성능을 발휘합니다. 전문화된 소형 모델의 가능성을 보여주는 사례로 주목받고 있습니다.",
+      "url": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/cybersecqwen-4b",
+      "source": "Hugging Face - Blog",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-09T02:41:05+09:00",
+      "readTime": 5,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_013",
+      "title": "창의적 거장들이 AI를 활용해 중소기업 광고를 만들면 어떤 일이 벌어질까",
+      "excerpt": "black and white card with headshots of susan credle, jayonta jenkins and tiffany rolfe",
+      "body": "black and white card with headshots of susan credle, jayonta jenkins and tiffany rolfe",
+      "url": "https://blog.google/company-news/inside-google/company-announcements/the-small-brief/",
+      "source": "Google Blog",
+      "category": "big_tech",
+      "publishedAt": "2026-05-09T00:00:00+09:00",
+      "readTime": 3,
+      "imageGradient": 4
+    },
+    {
+      "id": "rss_008",
+      "title": "나이 확인 법규가 개발자에게 중요한 이유",
+      "excerpt": "Youth safety requirements are moving down the tech stack to operating systems and app stores—raising new questions for open source developers. The post Why age assurance laws matter for developers appeared first on The GitHub Blog.",
+      "body": "Youth safety requirements are moving down the tech stack to operating systems and app stores—raising new questions for open source developers. The post Why age assurance laws matter for developers appeared first on The GitHub Blog.",
+      "url": "https://github.blog/news-insights/policy-news-and-insights/why-age-assurance-laws-matter-for-developers/",
+      "source": "GitHub Blog",
+      "category": "dev_tools",
+      "publishedAt": "2026-05-09T01:30:00+09:00",
+      "readTime": 3,
+      "imageGradient": 2
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_001",
+        "title": "OpenAI, Codex 안전 운영 방식 공개",
+        "excerpt": "Title: Running Codex safely at OpenAI URL Source: https://openai.com/index/running-codex-safely Markdown Content: As AI systems become more capable, they increasingly act on behalf of users. Coding agents can autonomously review repositories, run commands, and interact with development tools. These",
+        "body": "Title: Running Codex safely at OpenAI URL Source: https://openai.com/index/running-codex-safely Markdown Content: As AI systems become more capable, they increasingly act on behalf of users. Coding agents can autonomously review repositories, run commands, and interact with development tools. These are tasks that previously required direct human execution. With Codex, we’ve designed these capabilities alongside the controls organizations need for safe deployment. Security teams need ways to govern how agents operate: what they can access, when human approval is required, which systems they can",
+        "url": "https://openai.com/index/running-codex-safely",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-08T21:30:00+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_002",
+        "title": "CyberSecQwen-4B: 사이버 방어에 소형 특화 로컬 모델이 필요한 이유",
+        "excerpt": "",
+        "body": "",
+        "url": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/cybersecqwen-4b",
+        "source": "Hugging Face - Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-09T02:41:05+09:00",
+        "readTime": 5,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_003",
+        "title": "EMO: 창발적 모듈성을 위한 전문가 혼합 사전학습 기법",
+        "excerpt": "",
+        "body": "",
+        "url": "https://huggingface.co/blog/allenai/emo",
+        "source": "Hugging Face - Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-09T01:03:50+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_004",
+        "title": "[번역] Intel’s comeback story is even wilder than it seems",
+        "excerpt": "Intel's stock has risen a stunning 490% over the past year, a bet by Wall Street that may be running well ahead of the company's actual turnaround.",
+        "body": "Intel's stock has risen a stunning 490% over the past year, a bet by Wall Street that may be running well ahead of the company's actual turnaround.",
+        "url": "https://techcrunch.com/2026/05/08/intels-comeback-story-is-even-wilder-than-it-seems/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-09T05:02:52+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_005",
+        "title": "Cloudflare, AI로 1,100개 직무 대체되었지만 매출은 사상 최고치 기록",
+        "excerpt": "CloudFlare announced its first large-scale layoff. CEO Matthew Prince says because of AI efficiency gains, the company doesn't need as many support roles.",
+        "body": "CloudFlare announced its first large-scale layoff. CEO Matthew Prince says because of AI efficiency gains, the company doesn't need as many support roles.",
+        "url": "https://techcrunch.com/2026/05/08/cloudflare-says-ai-made-1100-jobs-obsolete-even-as-revenue-hit-a-record-high/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-09T03:33:21+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_006",
+        "title": "[번역] The “people’s airline” and the enterprise AI gold rush",
+        "excerpt": "Everyone wants a piece of the&#160;enterprise&#160;AI pie, and this week, we saw a string of companies making their moves. From&#160;Anthropic and OpenAI announcing new joint ventures&#160;targeting enterprise AI deployment to&#160;SAP dropping $1B&#160;on German AI startup Prior Labs,&#160;it&#8217",
+        "body": "Everyone wants a piece of the&#160;enterprise&#160;AI pie, and this week, we saw a string of companies making their moves. From&#160;Anthropic and OpenAI announcing new joint ventures&#160;targeting enterprise AI deployment to&#160;SAP dropping $1B&#160;on German AI startup Prior Labs,&#160;it&#8217;s&#160;becoming clear that if&#160;you&#8217;re&#160;a startup building enterprise tools,&#160;you&#8217;re&#160;likely an&#160;acquisition target.&#160; On this episode of TechCrunch&#8217;s&#160;Equity&#160;podcast, hosts Kirsten Korosec, Anthony [&#8230;]",
+        "url": "https://techcrunch.com/podcast/the-peoples-airline-and-the-enterprise-ai-gold-rush/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-09T00:46:17+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_007",
+        "title": "[번역] Last 24 hours to get 50% off a second pass to TechCrunch Dis",
+        "excerpt": "Last day to buy one pass and get a second one at 50% off to TechCrunch Disrupt 2026. Bring a partner, co-founder, or colleague at half off. Register now.",
+        "body": "Last day to buy one pass and get a second one at 50% off to TechCrunch Disrupt 2026. Bring a partner, co-founder, or colleague at half off. Register now.",
+        "url": "https://techcrunch.com/2026/05/08/last-24-hours-to-get-50-off-a-second-pass-to-techcrunch-disrupt-2026/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-08T23:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_008",
+        "title": "나이 확인 법규가 개발자에게 중요한 이유",
+        "excerpt": "Youth safety requirements are moving down the tech stack to operating systems and app stores—raising new questions for open source developers. The post Why age assurance laws matter for developers appeared first on The GitHub Blog.",
+        "body": "Youth safety requirements are moving down the tech stack to operating systems and app stores—raising new questions for open source developers. The post Why age assurance laws matter for developers appeared first on The GitHub Blog.",
+        "url": "https://github.blog/news-insights/policy-news-and-insights/why-age-assurance-laws-matter-for-developers/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-09T01:30:00+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_009",
+        "title": "연구자들이 GitHub 혁신 그래프를 활용하는 방법",
+        "excerpt": "Researchers share in an interview how they used GitHub data to predict GDP, inequality, and emissions in ways that traditional economic data misses, along with our Q4 2025 data release. The post How researchers are using GitHub Innovation Graph data to reveal the “digital complexity” of nations appe",
+        "body": "Researchers share in an interview how they used GitHub data to predict GDP, inequality, and emissions in ways that traditional economic data misses, along with our Q4 2025 data release. The post How researchers are using GitHub Innovation Graph data to reveal the “digital complexity” of nations appeared first on The GitHub Blog.",
+        "url": "https://github.blog/news-insights/policy-news-and-insights/how-researchers-are-using-github-innovation-graph-data-to-reveal-the-digital-complexity-of-nations/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-09T00:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_010",
+        "title": "GitHub 에이전트 워크플로에서 토큰 효율성 개선하기",
+        "excerpt": "Agentic workflows that run on every pull request can quietly accumulate large API bills. Here's how we instrumented our own production workflows, found the inefficiencies, and built agents to fix them. The post Improving token efficiency in GitHub Agentic Workflows appeared first on The GitHub Blog.",
+        "body": "Agentic workflows that run on every pull request can quietly accumulate large API bills. Here's how we instrumented our own production workflows, found the inefficiencies, and built agents to fix them. The post Improving token efficiency in GitHub Agentic Workflows appeared first on The GitHub Blog.",
+        "url": "https://github.blog/ai-and-ml/github-copilot/improving-token-efficiency-in-github-agentic-workflows/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-08T08:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_011",
+        "title": "미래를 위한 개발 — GitHub의 비전",
+        "excerpt": "This afternoon, we sent the following email to our global team. One of our core values at Cloudflare is transparency, and we believe it's important that you hear this directly from us because it’s a major moment at Cloudflare.",
+        "body": "This afternoon, we sent the following email to our global team. One of our core values at Cloudflare is transparency, and we believe it's important that you hear this directly from us because it’s a major moment at Cloudflare.",
+        "url": "https://blog.cloudflare.com/building-for-the-future/",
+        "source": "Cloudflare Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-08T05:15:12+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_012",
+        "title": "Visual Studio Code 1.120 업데이트 — 새로운 기능 총정리",
+        "excerpt": "Learn what's new in Visual Studio Code 1.120 (Insiders) Read the full article",
+        "body": "Learn what's new in Visual Studio Code 1.120 (Insiders) Read the full article",
+        "url": "https://code.visualstudio.com/updates/v1_120",
+        "source": "VS Code",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-14T02:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_013",
+        "title": "창의적 거장들이 AI를 활용하면 어떤 일이 일어날까",
+        "excerpt": "black and white card with headshots of susan credle, jayonta jenkins and tiffany rolfe",
+        "body": "black and white card with headshots of susan credle, jayonta jenkins and tiffany rolfe",
+        "url": "https://blog.google/company-news/inside-google/company-announcements/the-small-brief/",
+        "source": "Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-05-09T00:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_014",
+        "title": "Google의 계정 보안을 위한 5가지 유용한 도구",
+        "excerpt": "A laptop sits against a blue background surrounded by safety and security-related icons. On the laptop screen is the letter G inside a blue shield.",
+        "body": "A laptop sits against a blue background surrounded by safety and security-related icons. On the laptop screen is the letter G inside a blue shield.",
+        "url": "https://blog.google/innovation-and-ai/technology/safety-security/world-password-day-2026/",
+        "source": "Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-05-08T01:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_015",
+        "title": "교사 감사 주간 — 교육에서의 AI 활용 사례",
+        "excerpt": "To celebrate Teacher Appreciation Week, Googlers thanked the educators who inspired them to try new things.",
+        "body": "To celebrate Teacher Appreciation Week, Googlers thanked the educators who inspired them to try new things.",
+        "url": "https://blog.google/products-and-platforms/products/education/teacher-appreciation-week-videos/",
+        "source": "Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-05-08T01:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Claude for Excel, PowerPoint, Word는 이제 일반적으로 사용 가능하며, Claude for Outlook은 퍼블릭 베타 단계에 있습니다.\n\nClaude가 Microsoft 앱 간을 이동할 때, 대화의 전체 맥락을 그대로 유지합니다.",
+        "context": "Claude 공식 계정(@claudeai)의 트윗입니다. Anthropic의 Claude AI 서비스 관련 공식 발표를 다룹니다.",
+        "url": "https://x.com/claudeai/status/2052445786651168849",
+        "publishedAt": "2026-05-08T02:49:42+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "모든 유료 플랜에서 사용 가능합니다.\n\n체험해 보세요:",
+        "context": "Claude 공식 계정(@claudeai)의 트윗입니다. Anthropic의 Claude AI 서비스 관련 공식 발표를 다룹니다.",
+        "url": "https://x.com/claudeai/status/2052445787930468704",
+        "publishedAt": "2026-05-08T02:49:43+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "새로운 앤트로픽 연구: Claude에게 왜를 가르치기.\n\n작년 우리는 특정 실험 조건에서 Claude 4가 사용자들을 협박할 것이라고 보고했습니다.\n\n그 이후로, 우리는 이 행동을 완전히 제거했습니다. 어떻게?",
+        "context": "Anthropic 공식 계정(@AnthropicAI)의 트윗입니다. AI 안전성 연구와 Claude 관련 최신 소식을 공유합니다.",
+        "url": "https://x.com/AnthropicAI/status/2052808787514228772",
+        "publishedAt": "2026-05-09T02:52:08+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "마지막으로, 모델의 훈련 데이터를 다양화하는 간단한 업데이트만으로도 차이를 만들 수 있습니다. 무해성을 목표로 하는 간단한 채팅 데이터셋에 관련 없는 도구와 시스템 프롬프트를 추가했더니, 협박 비율이 더 빠르게 감소했습니다.",
+        "context": "Anthropic 공식 계정(@AnthropicAI)의 트윗입니다. AI 안전성 연구와 Claude 관련 최신 소식을 공유합니다.",
+        "url": "https://x.com/AnthropicAI/status/2052808806782964072",
+        "publishedAt": "2026-05-09T02:52:13+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "전체 포스트는 여기서 읽어보세요: https://alignment.anthropic.com/2026/teaching-claude-why/…",
+        "context": "Anthropic 공식 계정(@AnthropicAI)의 트윗입니다. AI 안전성 연구와 Claude 관련 최신 소식을 공유합니다.",
+        "url": "https://x.com/AnthropicAI/status/2052808809182060581",
+        "publishedAt": "2026-05-09T02:52:14+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "여기 그냥 남겨둘게요.\n\nhttps://chatgpt.com/codex/switch-to-codex/…",
+        "context": "OpenAI 공식 계정(@OpenAI)의 트윗입니다. ChatGPT, Codex 등 OpenAI 제품의 최신 업데이트를 공유합니다.",
+        "url": "https://x.com/OpenAI/status/2052800507727781979",
+        "publishedAt": "2026-05-09T02:19:14+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "Codex는 이제 macOS와 Windows에서 Chrome 브라우저에서 직접 작동합니다.\n\nChrome에서 앱과 사이트를 더 잘 처리하며, 이제 브라우저를 장악하지 않고 백그라운드에서 탭 전반에 걸쳐 병렬로 작동합니다.\n\n시작하려면 Codex 앱에서 Chrome 플러그인을 설치하세요.",
+        "context": "OpenAI 공식 계정(@OpenAI)의 트윗입니다. ChatGPT, Codex 등 OpenAI 제품의 최신 업데이트를 공유합니다.",
+        "url": "https://x.com/OpenAI/status/2052480800004956323",
+        "publishedAt": "2026-05-08T05:08:50+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "작업이 여러 도구를 필요로 할 경우, Codex는 각 단계에 가장 적합한 도구를 선택합니다.\n\n작업을 처리할 수 있을 때 플러그인을 사용하고, 로그인된 웹사이트가 필요할 때는 Chrome을 사용하며, 필요에 따라 접근 방식을 결합합니다.",
+        "context": "OpenAI 공식 계정(@OpenAI)의 트윗입니다. ChatGPT, Codex 등 OpenAI 제품의 최신 업데이트를 공유합니다.",
+        "url": "https://x.com/OpenAI/status/2052480803318468770",
+        "publishedAt": "2026-05-08T05:08:51+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "더 놀라운 건 중앙 제어 장치나 메시지 교환 없이 완전 자율로 각자 카메라로 상황을 보고 상대의 의도를 추론했다고 합니다.",
+        "context": "한국의 주요 AI 인플루언서 CHOI(@choi.openai)의 Threads 게시물입니다.",
+        "url": "https://www.threads.net/@choi.openai/post/DYFSMCPjBHC",
+        "publishedAt": "2026-05-09T00:24:04+09:00",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "뻥 안치고 제 계정 하나만 보기 위해서 스레드 시작해도 후회 없습니다.\n스레드 자체가 한국 정보 최상위권 학습 플랫폼입니다.",
+        "context": "한국의 주요 AI 인플루언서 CHOI(@choi.openai)의 Threads 게시물입니다.",
+        "url": "https://www.threads.net/@choi.openai/post/DYFFPVzkrbg",
+        "publishedAt": "2026-05-08T22:30:08+09:00",
+        "platform": "threads"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "지속 학습 연구에 관심 있는 분들 모임 [R]",
+        "originalTitle": "People Interested in Continual Learning Research[R]",
+        "summary": "r/MachineLearning 커뮤니티의 인기 게시물: People Interested in Continual Learning Research[R]",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1t72u1r/people_interested_in_continual_learning_researchr/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-05-08T18:26:44+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "공격적인 '독립 연구자'의 지속적인 괴롭힘 — 학계의 어두운 면",
+        "originalTitle": "Getting harassed by an aggressive “independent researcher” demanding very specific citations and phrasing in my paper [D]",
+        "summary": "r/MachineLearning 커뮤니티의 인기 게시물: Getting harassed by an aggressive “independent researcher” demanding very specif",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1t6vvjc/getting_harassed_by_an_aggressive_independent/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-05-08T12:10:03+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "기계론적 해석 가능성 연구에 대한 환멸 [D]",
+        "originalTitle": "Disillusionment with mechanistic interpretability research [D]",
+        "summary": "r/MachineLearning 커뮤니티의 인기 게시물: Disillusionment with mechanistic interpretability research [D]",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1t6zdj6/disillusionment_with_mechanistic_interpretability/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-05-08T15:10:52+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "비주류 의견: DGX Spark 포럼 개발자 커뮤니티는 실력이 있다",
+        "originalTitle": "Unpopular Opinion: The DGX Spark Forum community of devs is talented AF and will make the crippled hardware a success through their sheer force of will.",
+        "summary": "r/LocalLLaMA 커뮤니티의 인기 게시물: Unpopular Opinion: The DGX Spark Forum community of devs is talented AF and will",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t7btln/unpopular_opinion_the_dgx_spark_forum_community/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-05-09T00:47:54+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "vLLM ROCm, Lemonade에 실험적 백엔드로 추가",
+        "originalTitle": "vLLM ROCm has been added to Lemonade as an experimental backend",
+        "summary": "r/LocalLLaMA 커뮤니티의 인기 게시물: vLLM ROCm has been added to Lemonade as an experimental backend",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t7g70j/vllm_rocm_has_been_added_to_lemonade_as_an/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-05-09T03:21:15+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "z-lab, gemma-4-26B-A4B-it-DFlash 공개 — 써본 사람?",
+        "originalTitle": "z-lab released gemma-4-26B-A4B-it-DFlash. Anybody tried it yet?",
+        "summary": "r/LocalLLaMA 커뮤니티의 인기 게시물: z-lab released gemma-4-26B-A4B-it-DFlash. Anybody tried it yet?",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t79ayh/zlab_released_gemma426ba4bitdflash_anybody_tried/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-05-08T23:18:09+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "마크 앤드리슨, AI 자동화로 인한 일자리 감소 인정하다가 역풍 맞아",
+        "originalTitle": "Marc Andreessen Mocked for Accidentally Revealing That He Seems to Have a Deep Misunderstanding of How AI Actually Works",
+        "summary": "r/artificial 커뮤니티의 인기 게시물: Marc Andreessen Mocked for Accidentally Revealing That He Seems to Have a Deep M",
+        "url": "https://www.reddit.com/r/artificial/comments/1t6zm1l/marc_andreessen_mocked_for_accidentally_revealing/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-05-08T15:23:32+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "새 AI 모델, 인간보다 최대 3년 앞서 췌장암 조기 발견",
+        "originalTitle": "New AI model spots pancreatic cancer up to 3 years earlier than human doctors in test",
+        "summary": "r/artificial 커뮤니티의 인기 게시물: New AI model spots pancreatic cancer up to 3 years earlier than human doctors in",
+        "url": "https://www.reddit.com/r/artificial/comments/1t7au63/new_ai_model_spots_pancreatic_cancer_up_to_3/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-05-09T00:12:35+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "CFS(조건부 필드 감산) — 새로운 이미지 처리 기법",
+        "originalTitle": "CFS - Conditional Field Subtraction",
+        "summary": "r/artificial 커뮤니티의 인기 게시물: CFS - Conditional Field Subtraction",
+        "url": "https://www.reddit.com/r/artificial/comments/1t7e8eu/cfs_conditional_field_subtraction/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-05-09T02:13:44+09:00"
+      },
+      {
+        "id": "reddit_010",
+        "title": "와, 일이 급격히 커졌네! 😂",
+        "originalTitle": "Welp, that escalated quickly! 😂",
+        "summary": "r/OpenAI 커뮤니티의 인기 게시물: Welp, that escalated quickly! 😂",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1t7f4z7/welp_that_escalated_quickly/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-05-09T02:44:49+09:00"
+      },
+      {
+        "id": "reddit_011",
+        "title": "GPT-5.5 및 GPT-5.5-Cyber로 사이버 보안 신뢰 접근 확장",
+        "originalTitle": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
+        "summary": "r/OpenAI 커뮤니티의 인기 게시물: Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1t7f1ef/scaling_trusted_access_for_cyber_with_gpt55_and/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-05-09T02:41:16+09:00"
+      },
+      {
+        "id": "reddit_012",
+        "title": "새로운 다크 모드 싫어하는 사람 나만인가?",
+        "originalTitle": "does anyone else hate the new dark mode?",
+        "summary": "r/OpenAI 커뮤니티의 인기 게시물: does anyone else hate the new dark mode?",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1t7cuwe/does_anyone_else_hate_the_new_dark_mode/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-05-09T01:25:10+09:00"
+      },
+      {
+        "id": "reddit_013",
+        "title": "r/ClaudeAI 운영팀, Claude 워크플로 라이브러리 프로젝트 피드백 요청",
+        "originalTitle": "r/ClaudeAI mods seeking feedback on Claude workflow library project.",
+        "summary": "r/ClaudeAI 커뮤니티의 인기 게시물: r/ClaudeAI mods seeking feedback on Claude workflow library project.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1t762vb/rclaudeai_mods_seeking_feedback_on_claude/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-05-08T21:11:16+09:00"
+      },
+      {
+        "id": "reddit_014",
+        "title": "Opus, 너무 인간다우려다 과해진 건가",
+        "originalTitle": "Opus tryna be TOO human",
+        "summary": "r/ClaudeAI 커뮤니티의 인기 게시물: Opus tryna be TOO human",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1t7e4p7/opus_tryna_be_too_human/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-05-09T02:10:12+09:00"
+      },
+      {
+        "id": "reddit_015",
+        "title": "POV: Anthropic이 새 모델을 출시하면",
+        "originalTitle": "POV: Anthropic releases their new model",
+        "summary": "r/ClaudeAI 커뮤니티의 인기 게시물: POV: Anthropic releases their new model",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1t77iid/pov_anthropic_releases_their_new_model/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-05-08T22:10:20+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_016",
+        "title": "Google Cloud Fraud Defence는 WEI를 재포장한 것에 불과하다",
+        "excerpt": "Article URL: https://privatecaptcha.com/blog/google-cloud-fraud-defence-wei/ Comments URL: https://news.ycombinator.com/item?id=48063199 Points: 485 # Comments: 241",
+        "body": "Article URL: https://privatecaptcha.com/blog/google-cloud-fraud-defence-wei/ Comments URL: https://news.ycombinator.com/item?id=48063199 Points: 485 # Comments: 241",
+        "url": "https://privatecaptcha.com/blog/google-cloud-fraud-defence-wei/",
+        "source": "Hacker News Best",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-08T22:56:10+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_017",
+        "title": "브라우저가 당신에게 전송하는 모든 정보를 보여주는 웹페이지",
+        "excerpt": "Article URL: https://sinceyouarrived.world/taken Comments URL: https://news.ycombinator.com/item?id=48062178 Points: 399 # Comments: 198",
+        "body": "Article URL: https://sinceyouarrived.world/taken Comments URL: https://news.ycombinator.com/item?id=48062178 Points: 399 # Comments: 198",
+        "url": "https://sinceyouarrived.world/taken",
+        "source": "Hacker News Best",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-08T21:37:05+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_018",
+        "title": "폴란드, 세계 20대 경제 대국 반열에 오르다",
+        "excerpt": "Article URL: https://apnews.com/article/poland-economy-growth-g20-gdp-26fe06e120398410f8d773ba5661e7aa Comments URL: https://news.ycombinator.com/item?id=48062117 Points: 773 # Comments: 667",
+        "body": "Article URL: https://apnews.com/article/poland-economy-growth-g20-gdp-26fe06e120398410f8d773ba5661e7aa Comments URL: https://news.ycombinator.com/item?id=48062117 Points: 773 # Comments: 667",
+        "url": "https://apnews.com/article/poland-economy-growth-g20-gdp-26fe06e120398410f8d773ba5661e7aa",
+        "source": "Hacker News Best",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-08T21:30:05+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_019",
+        "title": "Meshtastic 소개 — 오프그리드 메시 네트워크의 모든 것",
+        "excerpt": "Article URL: https://meshtastic.org/docs/introduction/ Comments URL: https://news.ycombinator.com/item?id=48061566 Points: 303 # Comments: 116",
+        "body": "Article URL: https://meshtastic.org/docs/introduction/ Comments URL: https://news.ycombinator.com/item?id=48061566 Points: 303 # Comments: 116",
+        "url": "https://meshtastic.org/docs/introduction/",
+        "source": "Hacker News Best",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-08T20:22:11+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_020",
+        "title": "ClojureScript에 Async/Await 지원 추가",
+        "excerpt": "Article URL: https://clojurescript.org/news/2026-05-07-release Comments URL: https://news.ycombinator.com/item?id=48059662 Points: 254 # Comments: 60",
+        "body": "Article URL: https://clojurescript.org/news/2026-05-07-release Comments URL: https://news.ycombinator.com/item?id=48059662 Points: 254 # Comments: 60",
+        "url": "https://clojurescript.org/news/2026-05-07-release",
+        "source": "Hacker News Best",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-08T16:04:24+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      }
+    ]
+  }
+}
