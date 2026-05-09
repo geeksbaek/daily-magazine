@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "issueNumber": 43,
+      "date": "2026-05-10",
+      "mainHeadline": "엔비디아, AI 투자 400억 달러 돌파 & DOGE ChatGPT 불법 사용 법원 판결",
+      "headlines": [
+        "메타 AI 전환에 직원 불만 고조 — 뉴욕타임스 단독 보도",
+        "클라우드플레어, AI로 1,100개 직무 폐지 · 매출은 사상 최고",
+        "인텔의 극적 부활: 예상보다 훨씬 드라마틱한 스토리"
+      ]
+    },
+    {
       "date": "2026-05-09",
       "issueNumber": 42,
       "mainHeadline": "OpenAI, Codex 안전 운영 방식 공개",
