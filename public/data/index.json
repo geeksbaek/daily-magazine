@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-05-11",
+      "issueNumber": 44,
+      "mainHeadline": "AI 에이전트가 실무를 바꾼다: 금융·제조·개발 영역 전방위 확산",
+      "headlines": [
+        "Sam Altman: 'Codex로 작업 맡기고 아이와 놀다 왔더니 완료돼 있었다'",
+        "Hugging Face, 멀티에이전트 CNC 제조 가능성 검사 시스템 'MachinaCheck' 공개",
+        "OpenAI CoT 모니터링 보고서: 비정렬 추론 감지 시스템 강화"
+      ]
+    },
+    {
       "issueNumber": 43,
       "date": "2026-05-10",
       "mainHeadline": "엔비디아, AI 투자 400억 달러 돌파 & DOGE ChatGPT 불법 사용 법원 판결",
@@ -425,5 +435,5 @@
       ]
     }
   ],
-  "latestIssue": "2026-05-09"
+  "latestIssue": 44
 }

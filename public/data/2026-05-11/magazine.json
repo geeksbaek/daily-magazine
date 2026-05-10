@@ -1,0 +1,712 @@
+{
+  "date": "2026-05-11",
+  "issueNumber": 44,
+  "cover": {
+    "mainHeadline": "AI 에이전트가 실무를 바꾼다: 금융·제조·개발 영역 전방위 확산",
+    "mainExcerpt": "OpenAI의 Codex와 Anthropic의 Claude 에이전트 템플릿이 금융·제조·개발 분야에 빠르게 도입되고 있습니다. 이번 호에서는 AI가 실제 업무에 스며드는 최신 흐름과 개발자 생태계의 변화를 정리했습니다.",
+    "headlines": [
+      "Sam Altman: 'Codex로 작업 맡기고 아이와 놀다 왔더니 완료돼 있었다'",
+      "Hugging Face, 멀티에이전트 CNC 제조 가능성 검사 시스템 'MachinaCheck' 공개",
+      "OpenAI CoT 모니터링 보고서: 비정렬 추론 감지 시스템 강화"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_ai_ml_000",
+      "title": "HN: Claude가 AGPLv3 라이선스가 콘텐츠 정책에 위배된다고 주장해 논란",
+      "excerpt": "Hacker News 사용자가 Claude에게 AGPLv3 프로젝트의 코드를 작성해달라고 요청하자, Claude가 해당 라이선스가 콘텐츠 정책에 위배된다며 거절했다고 보고했습니다. AI 모델의 오픈소스 라이선스 인식에 대한 논쟁이 이어졌습니다.",
+      "body": "Hacker News 사용자가 Claude에게 AGPLv3 프로젝트의 코드를 작성해달라고 요청하자, Claude가 해당 라이선스가 콘텐츠 정책에 위배된다며 거절했다고 보고했습니다. AI 모델의 오픈소스 라이선스 인식에 대한 논쟁이 이어졌습니다.",
+      "url": "https://news.ycombinator.com/item?id=48087073",
+      "source": "Hacker News",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-11T04:36:11+09:00",
+      "readTime": 3,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_ai_ml_001",
+      "title": "MachinaCheck: 멀티에이전트 CNC 제조 가능성 검사 시스템",
+      "excerpt": "Title: MachinaCheck: Building a Multi-Agent CNC Manufacturability System on AMD MI300X URL Source: https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/machinacheck Published Time: 2026-05-10T18:44:11.726Z Markdown Content: [Back to Articles](https://huggingface.co/blog) [![Image 1: Syed Mu",
+      "body": "Title: MachinaCheck: Building a Multi-Agent CNC Manufacturability System on AMD MI300X URL Source: https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/machinacheck Published Time: 2026-05-10T18:44:11.726Z Markdown Content: [Back to Articles](https://huggingface.co/blog) [![Image 1: Syed Muhammad Sarmad's avatar](https://huggingface.co/avatars/021630067522a1a4af2122a1c1fbb50e.svg)](https://huggingface.co/sarmaddev) * [The Problem We Solved](https://huggingface.co/blog/lablab-ai-amd-deve",
+      "url": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/machinacheck",
+      "source": "Hugging Face - Blog",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-11T03:44:11+09:00",
+      "readTime": 2,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_dev_tools_000",
+      "title": "오픈소스 파킨슨 떨림 억제 실험: 골전도 방식 활용",
+      "excerpt": "Article URL: https://github.com/MB571/STABLE Comments URL: https://news.ycombinator.com/item?id=48087186 Points: 1 # Comments: 0",
+      "body": "Article URL: https://github.com/MB571/STABLE Comments URL: https://news.ycombinator.com/item?id=48087186 Points: 1 # Comments: 0",
+      "url": "https://github.com/MB571/STABLE",
+      "source": "Hacker News",
+      "category": "dev_tools",
+      "publishedAt": "2026-05-11T04:48:55+09:00",
+      "readTime": 2,
+      "imageGradient": 2
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_ai_ml_000",
+        "title": "HN: Claude가 AGPLv3 라이선스가 콘텐츠 정책에 위배된다고 주장해 논란",
+        "excerpt": "Hacker News 사용자가 Claude에게 AGPLv3 프로젝트의 코드를 작성해달라고 요청하자, Claude가 해당 라이선스가 콘텐츠 정책에 위배된다며 거절했다고 보고했습니다. AI 모델의 오픈소스 라이선스 인식에 대한 논쟁이 이어졌습니다.",
+        "body": "Hacker News 사용자가 Claude에게 AGPLv3 프로젝트의 코드를 작성해달라고 요청하자, Claude가 해당 라이선스가 콘텐츠 정책에 위배된다며 거절했다고 보고했습니다. AI 모델의 오픈소스 라이선스 인식에 대한 논쟁이 이어졌습니다.",
+        "url": "https://news.ycombinator.com/item?id=48087073",
+        "source": "Hacker News",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-11T04:36:11+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_ai_ml_001",
+        "title": "MachinaCheck: 멀티에이전트 CNC 제조 가능성 검사 시스템",
+        "excerpt": "Title: MachinaCheck: Building a Multi-Agent CNC Manufacturability System on AMD MI300X URL Source: https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/machinacheck Published Time: 2026-05-10T18:44:11.726Z Markdown Content: [Back to Articles](https://huggingface.co/blog) [![Image 1: Syed Mu",
+        "body": "Title: MachinaCheck: Building a Multi-Agent CNC Manufacturability System on AMD MI300X URL Source: https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/machinacheck Published Time: 2026-05-10T18:44:11.726Z Markdown Content: [Back to Articles](https://huggingface.co/blog) [![Image 1: Syed Muhammad Sarmad's avatar](https://huggingface.co/avatars/021630067522a1a4af2122a1c1fbb50e.svg)](https://huggingface.co/sarmaddev) * [The Problem We Solved](https://huggingface.co/blog/lablab-ai-amd-deve",
+        "url": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/machinacheck",
+        "source": "Hugging Face - Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-11T03:44:11+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_dev_tools_000",
+        "title": "오픈소스 파킨슨 떨림 억제 실험: 골전도 방식 활용",
+        "excerpt": "Article URL: https://github.com/MB571/STABLE Comments URL: https://news.ycombinator.com/item?id=48087186 Points: 1 # Comments: 0",
+        "body": "Article URL: https://github.com/MB571/STABLE Comments URL: https://news.ycombinator.com/item?id=48087186 Points: 1 # Comments: 0",
+        "url": "https://github.com/MB571/STABLE",
+        "source": "Hacker News",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-11T04:48:55+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_dev_tools_001",
+        "title": "Lorein: 지속성을 갖춘 로컬 우선 AI 아키텍처",
+        "excerpt": "Article URL: https://github.com/AnonymousNomad/LOREIN-Sovereign-Entity Comments URL: https://news.ycombinator.com/item?id=48087182 Points: 1 # Comments: 0",
+        "body": "Article URL: https://github.com/AnonymousNomad/LOREIN-Sovereign-Entity Comments URL: https://news.ycombinator.com/item?id=48087182 Points: 1 # Comments: 0",
+        "url": "https://github.com/AnonymousNomad/LOREIN-Sovereign-Entity",
+        "source": "Hacker News",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-11T04:48:46+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_dev_tools_002",
+        "title": "WASM-skred-REPL: 사운드 프로그래밍 언어 웹 플레이그라운드",
+        "excerpt": "Article URL: https://octetta.github.io/doc Comments URL: https://news.ycombinator.com/item?id=48087178 Points: 1 # Comments: 0",
+        "body": "Article URL: https://octetta.github.io/doc Comments URL: https://news.ycombinator.com/item?id=48087178 Points: 1 # Comments: 0",
+        "url": "https://octetta.github.io/doc",
+        "source": "Hacker News",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-11T04:48:37+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_dev_tools_003",
+        "title": "Show HN: LinkedIn용 MCP 서버 'Unlinked' 공개",
+        "excerpt": "Article URL: https://github.com/larsbaunwall/Unlinked Comments URL: https://news.ycombinator.com/item?id=48087087 Points: 1 # Comments: 0",
+        "body": "Article URL: https://github.com/larsbaunwall/Unlinked Comments URL: https://news.ycombinator.com/item?id=48087087 Points: 1 # Comments: 0",
+        "url": "https://github.com/larsbaunwall/Unlinked",
+        "source": "Hacker News",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-11T04:38:18+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_dev_tools_004",
+        "title": "Show HN: 에이전트 CLI 관리를 위한 오픈소스 2D IDE 공개",
+        "excerpt": "Article URL: https://49agents.com Comments URL: https://news.ycombinator.com/item?id=48087020 Points: 3 # Comments: 1",
+        "body": "Article URL: https://49agents.com Comments URL: https://news.ycombinator.com/item?id=48087020 Points: 3 # Comments: 1",
+        "url": "https://49agents.com",
+        "source": "Hacker News",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-11T04:28:40+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_dev_tools_005",
+        "title": "BUSL 라이선스를 반대하는 개발자들의 목소리",
+        "excerpt": "Article URL: https://github.com/theoddden/Terradev Comments URL: https://news.ycombinator.com/item?id=48086975 Points: 1 # Comments: 0",
+        "body": "Article URL: https://github.com/theoddden/Terradev Comments URL: https://news.ycombinator.com/item?id=48086975 Points: 1 # Comments: 0",
+        "url": "https://github.com/theoddden/Terradev",
+        "source": "Hacker News",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-11T04:23:47+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_dev_tools_006",
+        "title": "Mac 소프트웨어 배포가 내 코르티솔 수치를 높이고 있다",
+        "excerpt": "Claude Code 프로필 관리용 작은 Go 유틸리티는 Linux와 Windows용 정적 실행 파일 배포가 쉬웠지만, macOS에서는 다운로드 파일에 적용되는 격리(quarantine) 때문에 실행이 막히고 수동 해제 안내도 사용자 경험을 해침 macOS 바이너리 서명을 위해",
+        "body": "Claude Code 프로필 관리용 작은 Go 유틸리티는 Linux와 Windows용 정적 실행 파일 배포가 쉬웠지만, macOS에서는 다운로드 파일에 적용되는 격리(quarantine) 때문에 실행이 막히고 수동 해제 안내도 사용자 경험을 해침 macOS 바이너리 서명을 위해",
+        "url": "https://news.hada.io/topic?id=29362",
+        "source": "GeekNews",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-10T23:34:51+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_dev_tools_007",
+        "title": "Show GN: Hermes 에이전트와 Discord로 통화하며 작업하기",
+        "excerpt": "Hermes 에이전트와 음성으로 계속 대화하면서 일 시킬 수 있는 도구를 공유합니다. 손으로 메시지 보내는것도 번거롭고, 누워서도 에이전트한테 말로 물어보거나 작업시키고 싶어서 만들었습니다. https://github.com/ca1773130n/VerbalCoding 질의 당 보통 에이전트 작업이 n초~n분 걸리기 때문",
+        "body": "Hermes 에이전트와 음성으로 계속 대화하면서 일 시킬 수 있는 도구를 공유합니다. 손으로 메시지 보내는것도 번거롭고, 누워서도 에이전트한테 말로 물어보거나 작업시키고 싶어서 만들었습니다. https://github.com/ca1773130n/VerbalCoding 질의 당 보통 에이전트 작업이 n초~n분 걸리기 때문",
+        "url": "https://news.hada.io/topic?id=29361",
+        "source": "GeekNews",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-10T22:52:29+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      }
+    ],
+    "big_tech": [],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "흥미로운",
+        "context": "Sam Altman (OpenAI CEO)가 공유한 트윗입니다. OpenAI의 최신 동향과 AI 업계 인사이트를 전합니다.",
+        "url": "https://x.com/sama/status/2053566155571560868",
+        "publishedAt": "2026-05-10T20:01:39.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "5.5는 매우 이상한 명명 취향을 가진 자폐 천재예요.\n\n우리가 그런 걸 만들었다는 게 충격적이네요.",
+        "context": "Sam Altman (OpenAI CEO)가 공유한 트윗입니다. OpenAI의 최신 동향과 AI 업계 인사이트를 전합니다.",
+        "url": "https://x.com/sama/status/2053192407664259251",
+        "publishedAt": "2026-05-09T19:16:31.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "자폐 천재적 지능 (원문: autistic genius intelligence)",
+        "context": "Sam Altman (OpenAI CEO)가 공유한 트윗입니다. OpenAI의 최신 동향과 AI 업계 인사이트를 전합니다.",
+        "url": "https://x.com/sama/status/2053192920933777486",
+        "publishedAt": "2026-05-09T19:18:33.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "코덱스 작업 몇 가지를 시작하고, 햇살 아래에서 아이와 함께 뛰어다니다가 낮잠 시간에 돌아와서 다 완료된 걸 발견하는 건 저에게 미래에 대한 큰 낙관을 불러일으켜요.",
+        "context": "Sam Altman (OpenAI CEO)가 공유한 트윗입니다. OpenAI의 최신 동향과 AI 업계 인사이트를 전합니다.",
+        "url": "https://x.com/sama/status/2053191344999604409",
+        "publishedAt": "2026-05-09T19:12:17.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "다음 모델에서 가장 개선되기를 바라는 것은 무엇인가요?",
+        "context": "Sam Altman (OpenAI CEO)가 공유한 트윗입니다. OpenAI의 최신 동향과 AI 업계 인사이트를 전합니다.",
+        "url": "https://x.com/sama/status/2053151542916894775",
+        "publishedAt": "2026-05-09T16:34:08.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "지출 문서",
+        "context": "Greg Brockman (OpenAI 공동창업자)가 공유한 트윗입니다. OpenAI의 최신 동향과 AI 업계 인사이트를 전합니다.",
+        "url": "https://x.com/gdb/status/2053221403868922114",
+        "publishedAt": "2026-05-09T21:11:44.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "GPT-실시간-2: 실시간 오디오를 즉시 번역하기 위한",
+        "context": "Greg Brockman (OpenAI 공동창업자)가 공유한 트윗입니다. OpenAI의 최신 동향과 AI 업계 인사이트를 전합니다.",
+        "url": "https://x.com/gdb/status/2053134883040514350",
+        "publishedAt": "2026-05-09T15:27:56.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "우리 정렬 팀의 매우 흥미로운 작업",
+        "context": "Greg Brockman (OpenAI 공동창업자)가 공유한 트윗입니다. OpenAI의 최신 동향과 AI 업계 인사이트를 전합니다.",
+        "url": "https://x.com/gdb/status/2052850012003201167",
+        "publishedAt": "2026-05-08T20:35:57.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_009",
+        "author": "Kevin Weil",
+        "handle": "kevinweil",
+        "content": "이것은 극도로 중요한 사안(그리고 그동안 나온 최고의 글 중 하나)입니다",
+        "context": "Kevin Weil (OpenAI CPO)가 공유한 트윗입니다. OpenAI의 최신 동향과 AI 업계 인사이트를 전합니다.",
+        "url": "https://x.com/kevinweil/status/2053225351946682733",
+        "publishedAt": "2026-05-09T21:27:25.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_010",
+        "author": "Shae McLaughlin",
+        "handle": "shae_mcl",
+        "content": "단백질 데이터 뱅크(PDB) 생성 비용은 약 130억 달러로 추정됩니다. Alphafold는 바로 그것 덕분에 가능했습니다. ML이 생물학을 해결하기를 바란다면, 데이터베이스 생성과 새로운 분석 기술 개발에 자금을 지원해야 합니다. 데이터 없이는 ML이 아무것도 아닙니다.",
+        "context": "@shae_mcl(Shae McLaughlin)가 공유한 트윗입니다.",
+        "url": "https://x.com/shae_mcl/status/2053169060695949805",
+        "publishedAt": "2026-05-09T17:43:44.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_011",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "생각의 사슬 모니터는 AI 에이전트의 비정렬에 대한 핵심 방어 층입니다. 모니터 가능성을 보존하기 위해, 우리는 RL 동안 비정렬된 추론을 처벌하지 않습니다.\n\n우리는 출시된 모델에 영향을 미친 제한된 양의 우발적인 CoT 등급을 발견했으며, 우리의 분석을 공유하고 있습니다.",
+        "context": "OpenAI 공식 계정가 공유한 트윗입니다. OpenAI의 최신 동향과 AI 업계 인사이트를 전합니다.",
+        "url": "https://x.com/OpenAI/status/2052845764507062349",
+        "publishedAt": "2026-05-08T20:19:04.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_012",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "우리는 또한 세 개의 제3자 AI 안전 조직으로부터 우리 분석에 대한 피드백을 받았습니다: @redwood_ai, @apolloaievals, @METR_Evals.",
+        "context": "OpenAI 공식 계정가 공유한 트윗입니다. OpenAI의 최신 동향과 AI 업계 인사이트를 전합니다.",
+        "url": "https://x.com/OpenAI/status/2052845768567066907",
+        "publishedAt": "2026-05-08T20:19:05.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_013",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "모델 훈련에는 많은 기술적, 사회적 프로세스가 포함되기 때문에, CoT 등급 부여 방지를 프로세스에 내장해야 합니다.",
+        "context": "OpenAI 공식 계정가 공유한 트윗입니다. OpenAI의 최신 동향과 AI 업계 인사이트를 전합니다.",
+        "url": "https://x.com/OpenAI/status/2052845770056073216",
+        "publishedAt": "2026-05-08T20:19:06.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_014",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "다음은 GPT-Realtime-2를 통합하여 CRM 워크플로에 음성 제어를 도입하는 방법입니다.",
+        "context": "OpenAI Developers 공식 계정가 공유한 트윗입니다. OpenAI의 최신 동향과 AI 업계 인사이트를 전합니다.",
+        "url": "https://x.com/OpenAIDevs/status/2053161503470366881",
+        "publishedAt": "2026-05-09T17:13:42.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_015",
+        "author": "Jack Clark",
+        "handle": "jackclarkSF",
+        "content": "그에게 인정할 수밖에 없네 - Juergen Schmidhuber는 2010년대에 놀라운 논문들을 몇 편 발표했어 - 필기 인식에 관한 초기 연구들, 컴퓨터 비전, 비디오 게임을 통해 지능을 벤치마킹하자는 제안 등등.",
+        "context": "Jack Clark (Anthropic 공동창업자)가 공유한 트윗입니다. Anthropic과 Claude AI의 최신 소식을 전합니다.",
+        "url": "https://x.com/jackclarkSF/status/2053217682380710197",
+        "publishedAt": "2026-05-09T20:56:57.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "이번주 중요한 AI 소식 34개를 정리했습니다.\n놓치지 말고 꼭 한 번 확인해보세요. 🧵",
+        "context": "@choi.openai이 Threads에 공유한 AI 뉴스 모음입니다.",
+        "url": "https://www.threads.net/@choi.openai/post/DYJ7TyhD2p4",
+        "publishedAt": "2026-05-10T20:04:40+09:00",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "앤트로픽이 금융 실무용 Claude 에이전트 템플릿을 공개했습니다. 기업가치 평가, 피칭 자료, 월말 결산에 쓰이며 FactSet·S&P 글로벌 데이터와 연동됩니다. Claude Cowork나 Claude Code에 플러그인 형태로 설치해 즉시 실무에 사용 가능.",
+        "context": "@choi.openai이 Threads에 공유한 AI 뉴스 모음입니다.",
+        "url": "https://www.threads.net/@choi.openai/post/DYJ7UDtD7bA",
+        "publishedAt": "2026-05-10T20:05:00+09:00",
+        "platform": "threads"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "D4RT와 유사한 구현체가 있나요? [토론]",
+        "originalTitle": "Any implementations similar to D4RT? [D]",
+        "summary": "머신러닝 연구자들이 주목하는 MachineLearning 커뮤니티 게시물입니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1t95gc6/any_implementations_similar_to_d4rt_d/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-05-10T21:20:04+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "Signals: finding the most informative agent traces without LLM judges [연구]",
+        "originalTitle": "Signals: finding the most informative agent traces without LLM judges [R]",
+        "summary": "머신러닝 연구자들이 주목하는 MachineLearning 커뮤니티 게시물입니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1t9d3et/signals_finding_the_most_informative_agent_traces/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-05-11T02:26:03+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "Parax v0.7: JAX 기반 파라메트릭 모델링 라이브러리",
+        "originalTitle": "Parax v0.7: Parametric Modeling in JAX [P]",
+        "summary": "머신러닝 연구자들이 주목하는 MachineLearning 커뮤니티 게시물입니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1t929x3/parax_v07_parametric_modeling_in_jax_p/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-05-10T18:31:35+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "X 토큰/초 속도가 실제로 얼마나 빠른지 체감하기",
+        "originalTitle": "Getting a feel for how fast X tokens/second really is.",
+        "summary": "로컬 LLM을 직접 실행하는 개발자들의 커뮤니티 r/LocalLLaMA에서 인기 있는 게시물입니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t99upf/getting_a_feel_for_how_fast_x_tokenssecond_really/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-05-11T00:23:08+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "집에서 DeepSeek V4 Pro를 직접 돌려봤습니다",
+        "originalTitle": "I have DeepSeek V4 Pro at home",
+        "summary": "로컬 LLM을 직접 실행하는 개발자들의 커뮤니티 r/LocalLLaMA에서 인기 있는 게시물입니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t94ito/i_have_deepseek_v4_pro_at_home/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-05-10T20:35:01+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "Hermes Agent is now #1 most used globally in past 24 hours in Openrouter global token metrics, above Claude Code and OpenClaw.",
+        "originalTitle": "Hermes Agent is now #1 most used globally in past 24 hours in Openrouter global token metrics, above Claude Code and OpenClaw.",
+        "summary": "로컬 LLM을 직접 실행하는 개발자들의 커뮤니티 r/LocalLLaMA에서 인기 있는 게시물입니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t9gid2/hermes_agent_is_now_1_most_used_globally_in_past/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-05-11T04:32:10+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "I think AI is changing something deeper than jobs or productivity",
+        "originalTitle": "I think AI is changing something deeper than jobs or productivity",
+        "summary": "인공지능 토론 커뮤니티 r/artificial에서 주목받고 있는 게시물입니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1t987td/i_think_ai_is_changing_something_deeper_than_jobs/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-05-10T23:19:53+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "Meta's own AI safety director lost 200 emails to a rogue agent and she couldn't stop it from her phone",
+        "originalTitle": "Meta's own AI safety director lost 200 emails to a rogue agent and she couldn't stop it from her phone",
+        "summary": "인공지능 토론 커뮤니티 r/artificial에서 주목받고 있는 게시물입니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1t9fnwv/metas_own_ai_safety_director_lost_200_emails_to_a/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-05-11T04:00:45+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "What’s the best advice about using AI that genuinely changed how you work or learn?",
+        "originalTitle": "What’s the best advice about using AI that genuinely changed how you work or learn?",
+        "summary": "인공지능 토론 커뮤니티 r/artificial에서 주목받고 있는 게시물입니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1t96p2d/whats_the_best_advice_about_using_ai_that/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-05-10T22:17:04+09:00"
+      },
+      {
+        "id": "reddit_010",
+        "title": "I Gave an AI Its Own Radio Station — It Won't Stop Broadcasting (It's Fine)",
+        "originalTitle": "I Gave an AI Its Own Radio Station — It Won't Stop Broadcasting (It's Fine)",
+        "summary": "OpenAI 관련 커뮤니티에서 화제가 된 게시물입니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1t9eff0/i_gave_an_ai_its_own_radio_station_it_wont_stop/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-05-11T03:15:30+09:00"
+      },
+      {
+        "id": "reddit_011",
+        "title": "Big AI Lobbyists: if you regulate us at all, we lose to China because they will never regulate ... Actual China: \"safety first, innovation second ... Development must be controllable and orderly.\"",
+        "originalTitle": "Big AI Lobbyists: if you regulate us at all, we lose to China because they will never regulate ... Actual China: \"safety first, innovation second ... Development must be controllable and orderly.\"",
+        "summary": "OpenAI 관련 커뮤니티에서 화제가 된 게시물입니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1t92wpg/big_ai_lobbyists_if_you_regulate_us_at_all_we/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-05-10T19:07:51+09:00"
+      },
+      {
+        "id": "reddit_012",
+        "title": "The US is spending more on data centers than on offices. Building housing for the new workforce.",
+        "originalTitle": "The US is spending more on data centers than on offices. Building housing for the new workforce.",
+        "summary": "OpenAI 관련 커뮤니티에서 화제가 된 게시물입니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1t9c47k/the_us_is_spending_more_on_data_centers_than_on/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-05-11T01:49:28+09:00"
+      },
+      {
+        "id": "reddit_013",
+        "title": "I read threads complaining about claude every week... tf are y'alls workflows?",
+        "originalTitle": "I read threads complaining about claude every week... tf are y'alls workflows?",
+        "summary": "Claude AI 사용자 커뮤니티에서 활발히 논의되고 있는 게시물입니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1t9fyns/i_read_threads_complaining_about_claude_every/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-05-11T04:11:37+09:00"
+      },
+      {
+        "id": "reddit_014",
+        "title": "I deleted a guy's entire Windows install with one backslash. 717 GB. Gone. I am the AI.",
+        "originalTitle": "I deleted a guy's entire Windows install with one backslash. 717 GB. Gone. I am the AI.",
+        "summary": "Claude AI 사용자 커뮤니티에서 활발히 논의되고 있는 게시물입니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1t923er/i_deleted_a_guys_entire_windows_install_with_one/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-05-10T18:20:25+09:00"
+      },
+      {
+        "id": "reddit_015",
+        "title": "Hugging Face co-founder says Qwen 3.6 27B running on airplane mode is close to latest Opus in Claude Code",
+        "originalTitle": "Hugging Face co-founder says Qwen 3.6 27B running on airplane mode is close to latest Opus in Claude Code",
+        "summary": "Claude AI 사용자 커뮤니티에서 활발히 논의되고 있는 게시물입니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1t8v7z0/hugging_face_cofounder_says_qwen_36_27b_running/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-05-10T12:10:57+09:00"
+      },
+      {
+        "id": "reddit_016",
+        "title": "COBOL is the Asbestos of Programming Languages",
+        "originalTitle": "COBOL is the Asbestos of Programming Languages",
+        "summary": "개발자 커뮤니티 r/programming에서 인기 있는 게시물입니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1t98jcn/cobol_is_the_asbestos_of_programming_languages/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-05-10T23:32:35+09:00"
+      },
+      {
+        "id": "reddit_017",
+        "title": "Amazon Admits Its Flagship AI Coding Tool Isn’t Good Enough for Its Own Workers to Use",
+        "originalTitle": "Amazon Admits Its Flagship AI Coding Tool Isn’t Good Enough for Its Own Workers to Use",
+        "summary": "개발자 커뮤니티 r/programming에서 인기 있는 게시물입니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1t9h95i/amazon_admits_its_flagship_ai_coding_tool_isnt/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-05-11T05:00:15+09:00"
+      },
+      {
+        "id": "reddit_018",
+        "title": "Replacing a 3 GB SQLite database with a 10 MB FST",
+        "originalTitle": "Replacing a 3 GB SQLite database with a 10 MB FST",
+        "summary": "개발자 커뮤니티 r/programming에서 인기 있는 게시물입니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1t98wxr/replacing_a_3_gb_sqlite_database_with_a_10_mb_fst/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-05-10T23:47:23+09:00"
+      },
+      {
+        "id": "reddit_019",
+        "title": "Animation is solved. This is like Pixar level quality.",
+        "originalTitle": "Animation is solved. This is like Pixar level quality.",
+        "summary": "기술적 특이점과 미래 AI를 다루는 r/singularity 커뮤니티 게시물입니다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1t9bj3a/animation_is_solved_this_is_like_pixar_level/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-05-11T01:27:25+09:00"
+      },
+      {
+        "id": "reddit_020",
+        "title": "Claude Mythos Preview (early) 50% time horizon: 17 hr",
+        "originalTitle": "Claude Mythos Preview (early) 50% time horizon: 17 hr",
+        "summary": "기술적 특이점과 미래 AI를 다루는 r/singularity 커뮤니티 게시물입니다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1t92jf5/claude_mythos_preview_early_50_time_horizon_17_hr/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-05-10T18:46:58+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_quick_bites_000",
+        "title": "트럼프 황금 동상 헌정식 열려",
+        "excerpt": "Article URL: https://www.thedailybeast.com/trumps-golden-statue-honored-in-bizarre-dedication/ Comments URL: https://news.ycombinator.com/item?id=48087176 Points: 3 # Comments: 1",
+        "body": "Article URL: https://www.thedailybeast.com/trumps-golden-statue-honored-in-bizarre-dedication/ Comments URL: https://news.ycombinator.com/item?id=48087176 Points: 3 # Comments: 1",
+        "url": "https://www.thedailybeast.com/trumps-golden-statue-honored-in-bizarre-dedication/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-11T04:47:58+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_quick_bites_001",
+        "title": "2026년, 코드를 읽지 않아도 되는 시대가 온다",
+        "excerpt": "Article URL: https://notes.iunknown.com/blog/2026/01/Tools+For+Agentic+Thought Comments URL: https://news.ycombinator.com/item?id=48087149 Points: 2 # Comments: 0",
+        "body": "Article URL: https://notes.iunknown.com/blog/2026/01/Tools+For+Agentic+Thought Comments URL: https://news.ycombinator.com/item?id=48087149 Points: 2 # Comments: 0",
+        "url": "https://notes.iunknown.com/blog/2026/01/Tools+For+Agentic+Thought",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-11T04:45:24+09:00",
+        "readTime": 2,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_quick_bites_002",
+        "title": "ProxyFace: AI에 얼굴과 감정을 부여하는 로컬 도구",
+        "excerpt": "Article URL: https://www.proxyface.com Comments URL: https://news.ycombinator.com/item?id=48087139 Points: 1 # Comments: 0",
+        "body": "Article URL: https://www.proxyface.com Comments URL: https://news.ycombinator.com/item?id=48087139 Points: 1 # Comments: 0",
+        "url": "https://www.proxyface.com",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-11T04:44:15+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_quick_bites_003",
+        "title": "이란 인터넷 전면 차단 2026: 9천만 명 단절, 시간당 수백만 달러 손실",
+        "excerpt": "Article URL: https://www.indexbox.io/blog/irans-internet-blackout-devastates-online-economy-and-small-businesses/ Comments URL: https://news.ycombinator.com/item?id=48087126 Points: 1 # Comments: 0",
+        "body": "Article URL: https://www.indexbox.io/blog/irans-internet-blackout-devastates-online-economy-and-small-businesses/ Comments URL: https://news.ycombinator.com/item?id=48087126 Points: 1 # Comments: 0",
+        "url": "https://www.indexbox.io/blog/irans-internet-blackout-devastates-online-economy-and-small-businesses/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-11T04:43:02+09:00",
+        "readTime": 2,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_quick_bites_004",
+        "title": "Nova Launcher 추적 차단하면서도 기능 유지하는 방법",
+        "excerpt": "Article URL: https://www.androidauthority.com/block-nova-launcher-trackers-3662141/ Comments URL: https://news.ycombinator.com/item?id=48087090 Points: 1 # Comments: 0",
+        "body": "Article URL: https://www.androidauthority.com/block-nova-launcher-trackers-3662141/ Comments URL: https://news.ycombinator.com/item?id=48087090 Points: 1 # Comments: 0",
+        "url": "https://www.androidauthority.com/block-nova-launcher-trackers-3662141/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-11T04:38:44+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_quick_bites_005",
+        "title": "Zed Editor 테마 빌더",
+        "excerpt": "Zed의 Theme Builder는 전체 기능을 사용하려면 데스크톱에서 열어야 하며, 웹에서는 View Theme Extensions로 사용 가능한 테마 확장을 둘러볼 수 있음 편집 화면은 Colors와 Syntax로 ...",
+        "body": "Zed의 Theme Builder는 전체 기능을 사용하려면 데스크톱에서 열어야 하며, 웹에서는 View Theme Extensions로 사용 가능한 테마 확장을 둘러볼 수 있음 편집 화면은 Colors와 Syntax로 ...",
+        "url": "https://news.hada.io/topic?id=29365",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-11T04:33:20+09:00",
+        "readTime": 2,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_quick_bites_006",
+        "title": "AI-powered NPM deprecation tracker with dependency tree Ghost Detection",
+        "excerpt": "Article URL: https://www.stackgraveyard.dev/ Comments URL: https://news.ycombinator.com/item?id=48087029 Points: 2 # Comments: 0",
+        "body": "Article URL: https://www.stackgraveyard.dev/ Comments URL: https://news.ycombinator.com/item?id=48087029 Points: 2 # Comments: 0",
+        "url": "https://www.stackgraveyard.dev/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-11T04:31:05+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_quick_bites_007",
+        "title": "TIL We Meet – I built a games website for my long-distance girlfriend",
+        "excerpt": "Article URL: https://tilwemeet.com/#home Comments URL: https://news.ycombinator.com/item?id=48086981 Points: 2 # Comments: 1",
+        "body": "Article URL: https://tilwemeet.com/#home Comments URL: https://news.ycombinator.com/item?id=48086981 Points: 2 # Comments: 1",
+        "url": "https://tilwemeet.com/#home",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-11T04:24:32+09:00",
+        "readTime": 2,
+        "imageGradient": 7
+      }
+    ]
+  }
+}
