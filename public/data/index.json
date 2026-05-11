@@ -1,6 +1,17 @@
 {
   "issues": [
     {
+      "date": "2026-05-12",
+      "issueNumber": 45,
+      "mainHeadline": "OpenAI, 기업 AI 도입 전문회사 정식 출범 — Anthropic도 AWS 지원으로 맞불",
+      "headlines": [
+        "Claude Platform, AWS 공식 지원 시작 — Managed Agents·코드 실행·웹 검색 통합",
+        "iOS에서 종단간 암호화 RCS 메시징 드디어 출시",
+        "Google, 양자과학과 AI를 생명과학에 적용하는 새 이니셔티브 발표",
+        "VS Code 1.120 업데이트 — 새로운 기능과 성능 개선"
+      ]
+    },
+    {
       "date": "2026-05-11",
       "issueNumber": 44,
       "mainHeadline": "AI 에이전트가 실무를 바꾼다: 금융·제조·개발 영역 전방위 확산",
@@ -435,5 +446,5 @@
       ]
     }
   ],
-  "latestIssue": 44
+  "latestIssue": 45
 }

@@ -1,0 +1,878 @@
+{
+  "date": "2026-05-12",
+  "issueNumber": 45,
+  "cover": {
+    "mainHeadline": "OpenAI, 기업 AI 도입 전문회사 정식 출범 — Anthropic도 AWS 지원으로 맞불",
+    "mainExcerpt": "OpenAI가 기업 AI 도입을 전담하는 \"Deployment Company\"를 공식 출범했습니다. 맥킨지, 골드만삭스 등 19개 파트너사와 함께 40억 달러 규모로 시작하며, Tomoro 인수를 통해 150명의 현장 배치 엔지니어 조직도 확보했습니다. Anthropic도 Claude Platform의 AWS 공식 지원을 발표하며 맞대응에 나섰습니다.",
+    "headlines": [
+      "Claude Platform, AWS 공식 지원 시작 — Managed Agents·코드 실행·웹 검색 통합",
+      "iOS에서 종단간 암호화 RCS 메시징 드디어 출시",
+      "Google, 양자과학과 AI를 생명과학에 적용하는 새 이니셔티브 발표",
+      "VS Code 1.120 업데이트 — 새로운 기능과 성능 개선"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "ai_001",
+      "title": "초고속 AI·분석용 클라우드 스토리지 Rapid 출시",
+      "excerpt": "Title: Cloud Storage Rapid turbocharges object storage for AI, analytics URL Source: https://cloud.google.com/blog/products/storage-data-transfer/cloud-storage-rapid-turbocharges-object-storage-for-ai-analytics/ Published Time: 2026-05-12 Markdown Content: At Google Cloud Next ’26 we [announced](htt",
+      "body": "Title: Cloud Storage Rapid turbocharges object storage for AI, analytics URL Source: https://cloud.google.com/blog/products/storage-data-transfer/cloud-storage-rapid-turbocharges-object-storage-for-ai-analytics/ Published Time: 2026-05-12 Markdown Content: At Google Cloud Next ’26 we [announced](https://cloud.google.com/blog/products/storage-data-transfer/next26-storage-announcements?e=48754805) Cloud Storage Rapid, a family of object storage capabilities for data-intensive workloads like AI and analytics. Out of the gate, [Cloud Storage Rapid](https://docs.cloud.google.com/storage/docs/rapid/",
+      "url": "https://cloud.google.com/blog/products/storage-data-transfer/cloud-storage-rapid-turbocharges-object-storage-for-ai-analytics/",
+      "source": "AI & Machine Learning",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-12T02:00:00+09:00",
+      "readTime": 3,
+      "imageGradient": 0
+    },
+    {
+      "id": "ai_002",
+      "title": "TPU에서 조 단위 파라미터 모델을 위한 클러스터 수준 안정성",
+      "excerpt": "Title: Cluster reliability for trillion parameter models on TPUs URL Source: https://cloud.google.com/blog/products/compute/cluster-reliability-for-trillion-parameter-models-on-tpus/ Published Time: 2026-05-11 Markdown Content: Frontier AI models have redefined the unit of compute. At trillion-param",
+      "body": "Title: Cluster reliability for trillion parameter models on TPUs URL Source: https://cloud.google.com/blog/products/compute/cluster-reliability-for-trillion-parameter-models-on-tpus/ Published Time: 2026-05-11 Markdown Content: Frontier AI models have redefined the unit of compute. At trillion-parameter scale, AI training requires thousands of interconnected components, orchestrated in industrial-scale deployments to operate as a single, massive entity. Likewise, when it comes to reliability, aggregate infrastructure availability is what matters. Yet for almost two decades, instance-level reli",
+      "url": "https://cloud.google.com/blog/products/compute/cluster-reliability-for-trillion-parameter-models-on-tpus/",
+      "source": "AI & Machine Learning",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-12T01:30:00+09:00",
+      "readTime": 3,
+      "imageGradient": 1
+    },
+    {
+      "id": "ai_003",
+      "title": "Gemini로 종이 메모를 디지털화하세요",
+      "excerpt": "Title: Digitize your paper notes with Gemini. URL Source: https://blog.google/innovation-and-ai/products/gemini-app/digitize-notes-gemini-study-guide/ Published Time: 2026-05-11T16:00:00+00:00 Markdown Content: # How to make a study guide with Gemini using handwritten notes [Skip to main content](ht",
+      "body": "Title: Digitize your paper notes with Gemini. URL Source: https://blog.google/innovation-and-ai/products/gemini-app/digitize-notes-gemini-study-guide/ Published Time: 2026-05-11T16:00:00+00:00 Markdown Content: # How to make a study guide with Gemini using handwritten notes [Skip to main content](https://blog.google/innovation-and-ai/products/gemini-app/digitize-notes-gemini-study-guide/#jump-content) [The Keyword](https://blog.google/) Digitize your paper notes with Gemini. [Share](https://blog.google/innovation-and-ai/products/gemini-app/digitize-notes-gemini-study-guide/) [x.com](https://tw",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/digitize-notes-gemini-study-guide/",
+      "source": "Gemini",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-12T01:00:00+09:00",
+      "readTime": 3,
+      "imageGradient": 0
+    },
+    {
+      "id": "big_001",
+      "title": "생명과학에 양자과학과 AI를 적용하는 구글의 새 이니셔티브",
+      "excerpt": "Wavy gold wires connecting tiered gold plates through circular cutouts.",
+      "body": "Wavy gold wires connecting tiered gold plates through circular cutouts.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/repliqa-quantum-computing-life-sciences/",
+      "source": "The Official Google Blog",
+      "category": "big_tech",
+      "publishedAt": "2026-05-12T02:30:00+09:00",
+      "readTime": 3,
+      "imageGradient": 4
+    },
+    {
+      "id": "big_002",
+      "title": "Android와 iPhone 간 종단간 암호화 RCS 메시징 정식 출시",
+      "excerpt": "A woman texting on an Android phone with end-to-end encryption enabled",
+      "body": "A woman texting on an Android phone with end-to-end encryption enabled",
+      "url": "https://blog.google/products-and-platforms/platforms/android/android-ios-end-to-end-encrypted-rcs-messaging/",
+      "source": "The Official Google Blog",
+      "category": "big_tech",
+      "publishedAt": "2026-05-12T02:00:00+09:00",
+      "readTime": 3,
+      "imageGradient": 5
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "ai_001",
+        "title": "초고속 AI·분석용 클라우드 스토리지 Rapid 출시",
+        "excerpt": "Title: Cloud Storage Rapid turbocharges object storage for AI, analytics URL Source: https://cloud.google.com/blog/products/storage-data-transfer/cloud-storage-rapid-turbocharges-object-storage-for-ai-analytics/ Published Time: 2026-05-12 Markdown Content: At Google Cloud Next ’26 we [announced](htt",
+        "body": "Title: Cloud Storage Rapid turbocharges object storage for AI, analytics URL Source: https://cloud.google.com/blog/products/storage-data-transfer/cloud-storage-rapid-turbocharges-object-storage-for-ai-analytics/ Published Time: 2026-05-12 Markdown Content: At Google Cloud Next ’26 we [announced](https://cloud.google.com/blog/products/storage-data-transfer/next26-storage-announcements?e=48754805) Cloud Storage Rapid, a family of object storage capabilities for data-intensive workloads like AI and analytics. Out of the gate, [Cloud Storage Rapid](https://docs.cloud.google.com/storage/docs/rapid/",
+        "url": "https://cloud.google.com/blog/products/storage-data-transfer/cloud-storage-rapid-turbocharges-object-storage-for-ai-analytics/",
+        "source": "AI & Machine Learning",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-12T02:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "ai_002",
+        "title": "TPU에서 조 단위 파라미터 모델을 위한 클러스터 수준 안정성",
+        "excerpt": "Title: Cluster reliability for trillion parameter models on TPUs URL Source: https://cloud.google.com/blog/products/compute/cluster-reliability-for-trillion-parameter-models-on-tpus/ Published Time: 2026-05-11 Markdown Content: Frontier AI models have redefined the unit of compute. At trillion-param",
+        "body": "Title: Cluster reliability for trillion parameter models on TPUs URL Source: https://cloud.google.com/blog/products/compute/cluster-reliability-for-trillion-parameter-models-on-tpus/ Published Time: 2026-05-11 Markdown Content: Frontier AI models have redefined the unit of compute. At trillion-parameter scale, AI training requires thousands of interconnected components, orchestrated in industrial-scale deployments to operate as a single, massive entity. Likewise, when it comes to reliability, aggregate infrastructure availability is what matters. Yet for almost two decades, instance-level reli",
+        "url": "https://cloud.google.com/blog/products/compute/cluster-reliability-for-trillion-parameter-models-on-tpus/",
+        "source": "AI & Machine Learning",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-12T01:30:00+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "ai_003",
+        "title": "Gemini로 종이 메모를 디지털화하세요",
+        "excerpt": "Title: Digitize your paper notes with Gemini. URL Source: https://blog.google/innovation-and-ai/products/gemini-app/digitize-notes-gemini-study-guide/ Published Time: 2026-05-11T16:00:00+00:00 Markdown Content: # How to make a study guide with Gemini using handwritten notes [Skip to main content](ht",
+        "body": "Title: Digitize your paper notes with Gemini. URL Source: https://blog.google/innovation-and-ai/products/gemini-app/digitize-notes-gemini-study-guide/ Published Time: 2026-05-11T16:00:00+00:00 Markdown Content: # How to make a study guide with Gemini using handwritten notes [Skip to main content](https://blog.google/innovation-and-ai/products/gemini-app/digitize-notes-gemini-study-guide/#jump-content) [The Keyword](https://blog.google/) Digitize your paper notes with Gemini. [Share](https://blog.google/innovation-and-ai/products/gemini-app/digitize-notes-gemini-study-guide/) [x.com](https://tw",
+        "url": "https://blog.google/innovation-and-ai/products/gemini-app/digitize-notes-gemini-study-guide/",
+        "source": "Gemini",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-12T01:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "ai_004",
+        "title": "기업들은 어떻게 AI를 확장하고 있는가",
+        "excerpt": "Title: How enterprises are scaling AI URL Source: https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai Markdown Content: # How enterprises are scaling AI | OpenAI [Skip to main content](https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai#main) [",
+        "body": "Title: How enterprises are scaling AI URL Source: https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai Markdown Content: # How enterprises are scaling AI | OpenAI [Skip to main content](https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai#main) [](https://openai.com/) * [Research](https://openai.com/research/index/) * Products * [Business](https://openai.com/business/) * [Developers](https://openai.com/api/) * [Company](https://openai.com/about/) * [Foundation(opens in a new window)](https://openaifoundation.org/) Log in[Try ChatGPT(opens i",
+        "url": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-11T19:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "ai_005",
+        "title": "OpenAI 캠퍼스 네트워크: 학생 클럽 관심 신청",
+        "excerpt": "Title: OpenAI Campus Network: Student club interest form URL Source: https://openai.com/index/openai-campus-network-student-club-interest-form Markdown Content: # OpenAI Campus Network: Student club interest form | OpenAI [Skip to main content](https://openai.com/index/openai-campus-network-student-",
+        "body": "Title: OpenAI Campus Network: Student club interest form URL Source: https://openai.com/index/openai-campus-network-student-club-interest-form Markdown Content: # OpenAI Campus Network: Student club interest form | OpenAI [Skip to main content](https://openai.com/index/openai-campus-network-student-club-interest-form#main) [](https://openai.com/) * [Research](https://openai.com/research/index/) * Products * [Business](https://openai.com/business/) * [Developers](https://openai.com/api/) * [Company](https://openai.com/about/) * [Foundation(opens in a new window)](https://openaifoundation.org/) ",
+        "url": "https://openai.com/index/openai-campus-network-student-club-interest-form",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-11T19:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "ai_006",
+        "title": "OpenAI, 기업의 AI 도입을 돕는 DeployCo(배포 회사) 출범",
+        "excerpt": "Title: OpenAI launches the OpenAI Deployment Company to help businesses build around intelligence URL Source: https://openai.com/index/openai-launches-the-deployment-company Markdown Content: OpenAI is launching the [OpenAI Deployment Company](https://openai.com/business/the-openai-deployment-compan",
+        "body": "Title: OpenAI launches the OpenAI Deployment Company to help businesses build around intelligence URL Source: https://openai.com/index/openai-launches-the-deployment-company Markdown Content: OpenAI is launching the [OpenAI Deployment Company](https://openai.com/business/the-openai-deployment-company/), a new company designed to help organizations build and deploy AI systems they can rely on every day across their most important work. Successful AI deployment is about empowering people and teams to do more. The OpenAI Deployment Company will extend OpenAI’s ability to embed engineers specializ",
+        "url": "https://openai.com/index/openai-launches-the-deployment-company",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-11T15:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "ai_007",
+        "title": "AI 기반 구글 파이낸스, 유럽으로 확장",
+        "excerpt": "A screenshot of the AI-powered experience on Google Finance.",
+        "body": "A screenshot of the AI-powered experience on Google Finance.",
+        "url": "https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe/",
+        "source": "AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-11T15:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "ai_008",
+        "title": "‘Your Career Starts at the Beginning of the AI Revolution,’ NVIDIA CEO Tells Graduates",
+        "excerpt": "Title: ‘Your Career Starts at the Beginning of the AI Revolution,’ NVIDIA CEO Tells Graduates URL Source: https://blogs.nvidia.com/blog/nvidia-ceo-carnegie-mellon-commencement-address/ Published Time: 2026-05-10T22:00:50+00:00 Markdown Content: # ‘Your Career Starts at the Beginning of the AI Revolu",
+        "body": "Title: ‘Your Career Starts at the Beginning of the AI Revolution,’ NVIDIA CEO Tells Graduates URL Source: https://blogs.nvidia.com/blog/nvidia-ceo-carnegie-mellon-commencement-address/ Published Time: 2026-05-10T22:00:50+00:00 Markdown Content: # ‘Your Career Starts at the Beginning of the AI Revolution,’ NVIDIA CEO Tells Graduates | NVIDIA Blog ![Image 4: country_code](https://www.nvidia.com/content/dam/1x1-00000000.png) [Skip to content](https://blogs.nvidia.com/blog/nvidia-ceo-carnegie-mellon-commencement-address/#primary) [Skip to main content](https://blogs.nvidia.com/blog/nvidia-ceo-carn",
+        "url": "https://blogs.nvidia.com/blog/nvidia-ceo-carnegie-mellon-commencement-address/",
+        "source": "NVIDIA Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-11T07:00:50+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "dev_001",
+        "title": "Visual Studio Code 1.120 업데이트",
+        "excerpt": "Learn what's new in Visual Studio Code 1.120 (Insiders) Read the full article",
+        "body": "Learn what's new in Visual Studio Code 1.120 (Insiders) Read the full article",
+        "url": "https://code.visualstudio.com/updates/v1_120",
+        "source": "Visual Studio Code - Code Editing. Redefined.",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-14T02:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "dev_002",
+        "title": "초보자를 위한 GitHub: 오픈소스 기여 시작하기",
+        "excerpt": "Title: GitHub for Beginners: Getting started with OSS contributions URL Source: https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-oss-contributions/ Published Time: 2026-05-11T09:00:00-07:00 Markdown Content: # GitHub for Beginners: Getting started with OSS contri",
+        "body": "Title: GitHub for Beginners: Getting started with OSS contributions URL Source: https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-oss-contributions/ Published Time: 2026-05-11T09:00:00-07:00 Markdown Content: # GitHub for Beginners: Getting started with OSS contributions - The GitHub Blog [Skip to content](https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-oss-contributions/#start-of-content)[Skip to sidebar](https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-oss-contributions/#sidebar) []",
+        "url": "https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-oss-contributions/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-12T01:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "dev_003",
+        "title": "YC의 가장 큰 스캔들 — 스타트업 생태계의 갈등",
+        "excerpt": "YCOMBINATOR.FYI는 YC 비공식 기록으로 39개 항목과 $23.0B 소각 자본을 집계함 Delve는 493개 이상 조작 감사 보고서 의혹과 2026년 YC 퇴출로 분류됨 Central, Naive, PearAI, Pickle은 복제·라이선스 위반 논란으로...",
+        "body": "YCOMBINATOR.FYI는 YC 비공식 기록으로 39개 항목과 $23.0B 소각 자본을 집계함 Delve는 493개 이상 조작 감사 보고서 의혹과 2026년 YC 퇴출로 분류됨 Central, Naive, PearAI, Pickle은 복제·라이선스 위반 논란으로...",
+        "url": "https://news.hada.io/topic?id=29401",
+        "source": "GeekNews",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-12T04:38:15+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "dev_004",
+        "title": "AI 코딩 에이전트, 유지보수 비용 절감이 핵심 과제",
+        "excerpt": "새 코드 작성 속도보다 유지보수 비용이 장기 생산성을 좌우함 예시 모델에서는 2년 반 뒤 유지보수가 전체 시간의 절반을 넘음 AI 에이전트가 산출량과 유지보수 비용을 함께 늘리면 효과가 빠르게 사라짐 에이전트를 중단해도 이미 만든 코드의...",
+        "body": "새 코드 작성 속도보다 유지보수 비용이 장기 생산성을 좌우함 예시 모델에서는 2년 반 뒤 유지보수가 전체 시간의 절반을 넘음 AI 에이전트가 산출량과 유지보수 비용을 함께 늘리면 효과가 빠르게 사라짐 에이전트를 중단해도 이미 만든 코드의...",
+        "url": "https://news.hada.io/topic?id=29399",
+        "source": "GeekNews",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-12T01:34:31+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "dev_005",
+        "title": "Show GN: ASCII Art - 애니메이션으로 변환하는 웹 도구",
+        "excerpt": "이미지 / GIF / 동영상을 애니메이션 ASCII 아트로 변환해주는 오픈소스 웹 도구입니다. 만들게 된 이유 사이드 프로젝트나 할 때 이미지, GIF, 동영상 등 소스가 제각각이라 결과물의 비주얼 톤이 통일되지 않는 게 아쉬워서 만들게 되었습니다. 툴 하나로 어떤 입력을 넣어도 일관된",
+        "body": "이미지 / GIF / 동영상을 애니메이션 ASCII 아트로 변환해주는 오픈소스 웹 도구입니다. 만들게 된 이유 사이드 프로젝트나 할 때 이미지, GIF, 동영상 등 소스가 제각각이라 결과물의 비주얼 톤이 통일되지 않는 게 아쉬워서 만들게 되었습니다. 툴 하나로 어떤 입력을 넣어도 일관된",
+        "url": "https://news.hada.io/topic?id=29398",
+        "source": "GeekNews",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-12T01:18:51+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "big_001",
+        "title": "생명과학에 양자과학과 AI를 적용하는 구글의 새 이니셔티브",
+        "excerpt": "Wavy gold wires connecting tiered gold plates through circular cutouts.",
+        "body": "Wavy gold wires connecting tiered gold plates through circular cutouts.",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/repliqa-quantum-computing-life-sciences/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-05-12T02:30:00+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "big_002",
+        "title": "Android와 iPhone 간 종단간 암호화 RCS 메시징 정식 출시",
+        "excerpt": "A woman texting on an Android phone with end-to-end encryption enabled",
+        "body": "A woman texting on an Android phone with end-to-end encryption enabled",
+        "url": "https://blog.google/products-and-platforms/platforms/android/android-ios-end-to-end-encrypted-rcs-messaging/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-05-12T02:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "big_003",
+        "title": "Gemini로 종이 메모를 디지털화하세요",
+        "excerpt": "Gemini can turn hundreds of pages of notes into study guides or flashcards — or organize a semester’s worth of learning.",
+        "body": "Gemini can turn hundreds of pages of notes into study guides or flashcards — or organize a semester’s worth of learning.",
+        "url": "https://blog.google/innovation-and-ai/products/gemini-app/digitize-notes-gemini-study-guide/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-05-12T01:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "big_004",
+        "title": "구글, AI 기반 위협 최신 보고서 및 방어 전략 공개",
+        "excerpt": "Learn more about how outside attackers are misusing AI, and what Google is doing to stop it.",
+        "body": "Learn more about how outside attackers are misusing AI, and what Google is doing to stop it.",
+        "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/google-threat-intelligence-group-report/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-05-12T00:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "big_005",
+        "title": "AI 기반 구글 파이낸스, 유럽으로 확장",
+        "excerpt": "A screenshot of the AI-powered experience on Google Finance.",
+        "body": "A screenshot of the AI-powered experience on Google Finance.",
+        "url": "https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-05-11T15:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Andrej Karpathy",
+        "handle": "karpathy",
+        "content": "이게 정말 잘 작동하네요, btw, 쿼리 끝에 LLM에게 \"응답을 HTML로 구조화해\"라고 요청하면, 생성된 파일을 브라우저에서 확인해보세요. LLM에게 슬라이드쇼 등으로 출력을 제시하도록 요청해서도 어느 정도 성공을 거뒀어요.\n\n더 일반적으로 말하면, imo 오디오는 AI에 대한 인간 선호 입력",
+        "context": "Andrej Karpathy(테슬라 전 AI 책임자, OpenAI 공동창업자)의 AI 인터페이스 활용 팁. HTML 구조화 응답과 오디오를 통한 인간-AI 상호작용에 관한 인사이트를 공유.",
+        "url": "https://x.com/karpathy/status/2053872850101285137",
+        "publishedAt": "2026-05-11T16:20:21.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "다음 모델 이름을 \"goblin\"이라고 지으면 어떨까\n\n너희들 모두를 행복하게 해줄 만한 가치가 거의 있어...",
+        "context": "OpenAI CEO Sam Altman의 차기 모델 네이밍에 대한 유머러스한 제안. AI 업계 리더의 가벼운 일상 트윗.",
+        "url": "https://x.com/sama/status/2053572868936761350",
+        "publishedAt": "2026-05-10T20:28:20.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "흥미로운",
+        "context": "OpenAI CEO Sam Altman의 차기 모델 네이밍에 대한 유머러스한 제안. AI 업계 리더의 가벼운 일상 트윗.",
+        "url": "https://x.com/sama/status/2053566155571560868",
+        "publishedAt": "2026-05-10T20:01:39.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "OpenAI 배포 회사 소개: 기업들이 AI 배포를 통해 최대한 성공할 수 있도록 돕는 회사입니다.\n\n150명의 전방 배치 엔지니어와 배포 전문가로 시작하며, 19개 파트너로부터 40억 달러의 초기 투자를 받습니다.",
+        "context": "OpenAI 공동창업자 Greg Brockman이 OpenAI Deployment Company 출범을 발표. 기업 AI 도입을 지원하는 150명 규모 전문 조직 출범 소식.",
+        "url": "https://x.com/gdb/status/2053884619695730745",
+        "publishedAt": "2026-05-11T17:07:07.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "오픈AI의 사명을 받아들이고, 이 노력을 지원하며, 수요를 충족하기 위해 빠르게 확장할 수 있도록 도와준 파트너들과 전체 생태계에 감사드립니다.",
+        "context": "OpenAI 공동창업자 Greg Brockman이 OpenAI Deployment Company 출범을 발표. 기업 AI 도입을 지원하는 150명 규모 전문 조직 출범 소식.",
+        "url": "https://x.com/gdb/status/2053885412821885205",
+        "publishedAt": "2026-05-11T17:10:16.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "/목표는 저평가되었다",
+        "context": "OpenAI 공동창업자 Greg Brockman이 OpenAI Deployment Company 출범을 발표. 기업 AI 도입을 지원하는 150명 규모 전문 조직 출범 소식.",
+        "url": "https://x.com/gdb/status/2053722156559683946",
+        "publishedAt": "2026-05-11T06:21:33.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "오늘 우리는 기업들이 AI를 구축하고 배포할 수 있도록 돕기 위해 OpenAI Deployment Company를 출시합니다.\n\n이 회사는 OpenAI가 대다수 지분을 소유하고 통제합니다. 이 회사는 19개의 선도적인 투자 회사, 컨설팅 회사, 시스템 통합 업체를 모아 조직들이 최첨단 AI를 비즈니스 영향력을 위해 활용할 수 있도록 돕습니다.",
+        "context": "OpenAI 공식 계정. OpenAI Deployment Company 출범 발표 - 19개 파트너사와 함께 기업 AI 도입 생태계 구축.",
+        "url": "https://x.com/OpenAI/status/2053824997777457651",
+        "publishedAt": "2026-05-11T13:10:12.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "우리는 또한 Tomoro를 인수하기로 합의했으며, 이를 통해 첫날부터 150명의 경험 많은 전방 배치 엔지니어와 배포 전문가들을 OpenAI 배포 회사로 데려올 것입니다.",
+        "context": "OpenAI 공식 계정. OpenAI Deployment Company 출범 발표 - 19개 파트너사와 함께 기업 AI 도입 생태계 구축.",
+        "url": "https://x.com/OpenAI/status/2053824999736410415",
+        "publishedAt": "2026-05-11T13:10:12.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_009",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "Codex는 이제 OpenAI 개발자 플러그인을 사용하여 OpenAI API로 AI 앱과 에이전트를 더 빠르게 구축하는 데 도움을 줄 수 있습니다.",
+        "context": "OpenAI 개발자 공식 계정. Codex가 OpenAI API 플러그인을 통해 더 빠른 앱·에이전트 개발을 지원한다고 발표.",
+        "url": "https://x.com/OpenAIDevs/status/2053925962287583379",
+        "publishedAt": "2026-05-11T19:51:24.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_010",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "Claude의 헌장은 이제 오디오북으로 제작되었으며, 그 저자 중 두 명인 Amanda Askell과 Joe Carlsmith가 낭독합니다.\n\n이 오디오북에는 문서 작성 과정에 대한 Q&A, 이 문서를 형성한 철학들, 그리고 모델들이 더 유능해짐에 따라 어떻게 변화할 수 있을지에 대한 내용이 포함되어 있습니다.",
+        "context": "Anthropic 공식 계정. Claude 헌장(Model Spec)이 오디오북으로 제작되어 창작 과정과 철학을 공유.",
+        "url": "https://x.com/AnthropicAI/status/2053881827396653207",
+        "publishedAt": "2026-05-11T16:56:01.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_011",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Claude Managed Agents를 사용해 대규모로 에이전트를 구축하고 배포하거나, 어드바이저 전략, 코드 실행, 웹 검색 등의 기능을 활용하세요.\n\nAnthropic이 이 서비스를 운영하며, 모든 새로운 기능은 네이티브 Claude API에 공개되는 당일에 배포됩니다.",
+        "context": "Claude 공식 계정. Claude Platform의 AWS 지원 시작과 Managed Agents 기능 출시를 연속 발표.",
+        "url": "https://x.com/claudeai/status/2053868595394879553",
+        "publishedAt": "2026-05-11T16:03:26.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_012",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "AWS의 Claude 플랫폼이 오늘부터 이용 가능합니다. Claude는 Amazon Bedrock에서도 계속 이용할 수 있으며, 여기서 AWS는 데이터 처리자 역할을 합니다.",
+        "context": "Claude 공식 계정. Claude Platform의 AWS 지원 시작과 Managed Agents 기능 출시를 연속 발표.",
+        "url": "https://x.com/claudeai/status/2053868596615356577",
+        "publishedAt": "2026-05-11T16:03:27.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_013",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "AWS의 Claude 플랫폼이 이제 일반적으로 사용 가능합니다.\n\nAWS 고객은 AWS 인증, 과금, 약정 종료와 함께 Claude API의 전체 기능 세트를 사용할 수 있습니다.",
+        "context": "Claude 공식 계정. Claude Platform의 AWS 지원 시작과 Managed Agents 기능 출시를 연속 발표.",
+        "url": "https://x.com/claudeai/status/2053868592286822443",
+        "publishedAt": "2026-05-11T16:03:26.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_014",
+        "author": "Jack Clark",
+        "handle": "jackclarkSF",
+        "content": "많은 사람들이 AI 정책을 마치 어떤 미스터리처럼 여기며, 올바른 해결책은 기술 규제를 위해 일반 상대성 이론을 발명한 정책 아인슈타인 같은 인물이 필요하다고 생각합니다. 하지만 전혀 그렇지 않습니다! 오늘 당장 실행할 수 있는 합리적인 아이디어가 많이 있습니다.",
+        "context": "Anthropic 공동창업자 Jack Clark이 AI 정책에 대해 논의. 실행 가능한 AI 거버넌스 아이디어가 이미 충분히 존재함을 강조.",
+        "url": "https://x.com/jackclarkSF/status/2053846259077877814",
+        "publishedAt": "2026-05-11T14:34:41.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_015",
+        "author": "Kevin Weil",
+        "handle": "kevinweil",
+        "content": "이것은 극도로 중요한 사안(그리고 그동안 나온 최고의 글 중 하나)입니다",
+        "context": "OpenAI CPO Kevin Weil이 중요한 AI 관련 글을 공유. 업계 리더로서의 인사이트.",
+        "url": "https://x.com/kevinweil/status/2053225351946682733",
+        "publishedAt": "2026-05-09T21:27:25.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_016",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "좋은 걸 만들 수 있어\n\nty @aadilpickle @FarzaTV",
+        "context": "Thariq(Anthropic 엔지니어)가 Claude Code를 활용한 HTML 기반 워크플로우를 소개.",
+        "url": "https://x.com/trq212/status/2053869803501404511",
+        "publishedAt": "2026-05-11T16:08:14.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_017",
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "content": "Clawd + 작년의 우메슈 (12개월 방치한 후, 맛있게 나왔어요!)",
+        "context": "Boris Cherny(Anthropic 엔지니어)의 Claude 관련 일상 공유.",
+        "url": "https://x.com/bcherny/status/2053556256913383898",
+        "publishedAt": "2026-05-10T19:22:19.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "AI 업계가 결국 컨설팅과 SI 영역까지 직접 들어오기 시작했습니다.\n오픈AI가 'OpenAI Deployment Company'를 공식 출범했는데요.\n기업 내부에 FDE(Forward Deployed Engineer)를 직접 투입해서 업무 프로세스와 조직 구조 자체를 AI 중심으로 다시 설계해주는 조직입니다.\n맥킨지, 베인, 골드만삭스, 소프트뱅크 같은 대형 플레이어들이 함께 들어왔고, 오픈AI는 AI 도입 전문 기업 Tomoro까지 인수하면서 약 150명의 현장 배치 엔지니어 조직도 확보했습니다.\n최근 앤트로픽도 비슷한 움직임을 보였는데요. 이제 frontier AI 기업들이 모델 경쟁에서 기업 운영 체계 전체를 누가 먼저 장악하느냐의 본격적인 싸움으로 들어가는 분위기입니다.",
+        "context": "OpenAI 한국어 정보 채널 choi.openai. 팔로워 24만 명의 국내 최대 AI 정보 채널로, 최신 AI 업계 동향을 한국어로 신속하게 전달.",
+        "url": "https://www.threads.net/@choi.openai/post/DYNZcqZkrM_",
+        "publishedAt": "2026-05-11T19:00:39.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "Claude Platform이 이제 AWS에서 공식 지원됩니다!\nClaude 모델이외에도 Managed Agents, 코드 실행, 웹 검색, Skills, MCP 커넥터 같은 Claude의 핵심 기능들이 그대로 AWS에서 사용 가능합니다. AWS 인증, 과금, 약정도 그대로 연동되고요.",
+        "context": "OpenAI 한국어 정보 채널 choi.openai. 팔로워 24만 명의 국내 최대 AI 정보 채널로, 최신 AI 업계 동향을 한국어로 신속하게 전달.",
+        "url": "https://www.threads.net/@choi.openai/post/DYNPGg9Enzv",
+        "publishedAt": "2026-05-11T17:30:15.000Z",
+        "platform": "threads"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "인터랙티브 Jensen–Shannon 발산 시각화 도구",
+        "originalTitle": "Interactive Jensen–Shannon Divergence Visualisation [P]",
+        "summary": "r/MachineLearning 커뮤니티의 인기 게시물. 머신러닝 연구자와 실무자들 사이에서 주목받는 토론입니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1ta5ybv/interactive_jensenshannon_divergence/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-05-12T00:03:17+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "논문 재현/구현도 연구로 볼 수 있을까요?",
+        "originalTitle": "Is reproducing or implementing a paper considered research? [R]",
+        "summary": "r/MachineLearning 커뮤니티의 인기 게시물. 머신러닝 연구자와 실무자들 사이에서 주목받는 토론입니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1t9zre0/is_reproducing_or_implementing_a_paper_considered/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-05-11T19:55:06+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "ML 박사생들, 평균 몇 시간씩 일하나요?",
+        "originalTitle": "PhD students in ML, how many hours on average do you work? [D]",
+        "summary": "r/MachineLearning 커뮤니티의 인기 게시물. 머신러닝 연구자와 실무자들 사이에서 주목받는 토론입니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1t9mwqy/phd_students_in_ml_how_many_hours_on_average_do/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-05-11T08:54:02+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "Unsloth에서 MTP(다중 토큰 예측) 사용하기",
+        "originalTitle": "MTP on Unsloth",
+        "summary": "r/LocalLLaMA 커뮤니티. 로컬 LLM 실행에 관심 있는 사용자들의 핫 게시물.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ta4rvs/mtp_on_unsloth/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-05-11T23:21:30+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "MiniCPM 4.6 출시 — 경량 모델의 새로운 기준",
+        "originalTitle": "MiniCPM 4.6",
+        "summary": "r/LocalLLaMA 커뮤니티. 로컬 LLM 실행에 관심 있는 사용자들의 핫 게시물.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ta9k8o/minicpm_46/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-05-12T02:08:03+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "Openclaw, 트렌드 하락세로 곧 사라질 수도",
+        "originalTitle": "Openclaw ia trending down and will disappear soon",
+        "summary": "r/LocalLLaMA 커뮤니티. 로컬 LLM 실행에 관심 있는 사용자들의 핫 게시물.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t9urup/openclaw_ia_trending_down_and_will_disappear_soon/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-05-11T15:14:38+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "Palantir to be granted ‘unlimited access’ to NHS patient data",
+        "originalTitle": "Palantir to be granted ‘unlimited access’ to NHS patient data",
+        "summary": "r/artificial 커뮤니티. AI·자동화 관련 최신 이슈에 대한 열띤 토론.",
+        "url": "https://www.reddit.com/r/artificial/comments/1tacllr/palantir_to_be_granted_unlimited_access_to_nhs/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-05-12T03:50:40+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "The rise of ‘Stacey face’: How AI enhancements are warping our beauty standards",
+        "originalTitle": "The rise of ‘Stacey face’: How AI enhancements are warping our beauty standards",
+        "summary": "r/artificial 커뮤니티. AI·자동화 관련 최신 이슈에 대한 열띤 토론.",
+        "url": "https://www.reddit.com/r/artificial/comments/1ta95lq/the_rise_of_stacey_face_how_ai_enhancements_are/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-05-12T01:54:23+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "AWS, AI 에이전트에 자체 지갑 제공 — 에이전트가 스스로 결제하는 시대",
+        "originalTitle": "AWS just gave AI agents their own wallets. Your agent can now pay for itself.",
+        "summary": "r/artificial 커뮤니티. AI·자동화 관련 최신 이슈에 대한 열띤 토론.",
+        "url": "https://www.reddit.com/r/artificial/comments/1t9ybtb/aws_just_gave_ai_agents_their_own_wallets_your/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-05-11T18:38:19+09:00"
+      },
+      {
+        "id": "reddit_010",
+        "title": "ChatGPT AI 응답이 그대로 출판물에 실린 실수 사례",
+        "originalTitle": "Looks like the writer accidentally left the ChatGPT AI response in",
+        "summary": "r/OpenAI 커뮤니티. OpenAI 제품과 GPT 관련 최신 소식 및 사용 경험 공유.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1ta3jrz/looks_like_the_writer_accidentally_left_the/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-05-11T22:36:55+09:00"
+      },
+      {
+        "id": "reddit_011",
+        "title": "OpenAI의 Codex AI, 오픈소스 보안 버그 바운티로 $5 벌어",
+        "originalTitle": "OpenAI's Codex AI Model Earns $5 by Submitting Open-Source Security Bounty Pull Request",
+        "summary": "r/OpenAI 커뮤니티. OpenAI 제품과 GPT 관련 최신 소식 및 사용 경험 공유.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1t9y2k2/openais_codex_ai_model_earns_5_by_submitting/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-05-11T18:23:48+09:00"
+      },
+      {
+        "id": "reddit_012",
+        "title": "Claude Mythos lands above the trendline for the AI 2027 scenario. The trendline has gone from exponential to superexponential.",
+        "originalTitle": "Claude Mythos lands above the trendline for the AI 2027 scenario. The trendline has gone from exponential to superexponential.",
+        "summary": "r/OpenAI 커뮤니티. OpenAI 제품과 GPT 관련 최신 소식 및 사용 경험 공유.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1ta569e/claude_mythos_lands_above_the_trendline_for_the/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-05-11T23:35:49+09:00"
+      },
+      {
+        "id": "reddit_013",
+        "title": "AWS에서 Claude Platform이 공식 정식 출시",
+        "originalTitle": "The Claude Platform on AWS is now generally available.",
+        "summary": "r/ClaudeAI 커뮤니티. Anthropic의 Claude AI 사용 경험과 최신 업데이트에 관한 토론.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1ta7p4n/the_claude_platform_on_aws_is_now_generally/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-05-12T01:03:57+09:00"
+      },
+      {
+        "id": "reddit_014",
+        "title": "Claude, 자신에 관한 팬픽이 있다는 사실을 알게 됨",
+        "originalTitle": "Claude finds out there are fanfics about him",
+        "summary": "r/ClaudeAI 커뮤니티. Anthropic의 Claude AI 사용 경험과 최신 업데이트에 관한 토론.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1taa7dl/claude_finds_out_there_are_fanfics_about_him/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-05-12T02:29:46+09:00"
+      },
+      {
+        "id": "reddit_015",
+        "title": "Claude로 <div> 태그 닫기 — 유머러스한 AI 활용 사례",
+        "originalTitle": "using Claude to close a <div>",
+        "summary": "r/ClaudeAI 커뮤니티. Anthropic의 Claude AI 사용 경험과 최신 업데이트에 관한 토론.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1ta06om/using_claude_to_close_a_div/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-05-11T20:15:14+09:00"
+      },
+      {
+        "id": "reddit_016",
+        "title": "The FreeBSD vulnerability \"discovered\" by Mythos was already in its training data.",
+        "originalTitle": "The FreeBSD vulnerability \"discovered\" by Mythos was already in its training data.",
+        "summary": "r/programming 커뮤니티. 개발자들 사이에서 화제가 된 기술 이슈.",
+        "url": "https://www.reddit.com/r/programming/comments/1t9rl27/the_freebsd_vulnerability_discovered_by_mythos/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-05-11T12:30:43+09:00"
+      },
+      {
+        "id": "reddit_017",
+        "title": "8317277: Java language implementation of value classes and objects by MrSimms · Pull Request #31120 · openjdk/jdk",
+        "originalTitle": "8317277: Java language implementation of value classes and objects by MrSimms · Pull Request #31120 · openjdk/jdk",
+        "summary": "r/programming 커뮤니티. 개발자들 사이에서 화제가 된 기술 이슈.",
+        "url": "https://www.reddit.com/r/programming/comments/1ta5dax/8317277_java_language_implementation_of_value/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-05-11T23:42:57+09:00"
+      },
+      {
+        "id": "reddit_018",
+        "title": "주의: Git 레포지토리를 통해 퍼지는 악성코드 조사",
+        "originalTitle": "Be careful with your Git: Investigating malware spreading through Git repositories",
+        "summary": "r/programming 커뮤니티. 개발자들 사이에서 화제가 된 기술 이슈.",
+        "url": "https://www.reddit.com/r/programming/comments/1ta7ulb/be_careful_with_your_git_investigating_malware/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-05-12T01:09:04+09:00"
+      },
+      {
+        "id": "reddit_019",
+        "title": "ChatGPT, 교과서 콘텐츠 제작에 활용되기 시작",
+        "originalTitle": "ChatGPT is now creating content for textbooks.",
+        "summary": "r/singularity 커뮤니티. AI 기술 발전의 미래를 논하는 핫 게시물.",
+        "url": "https://www.reddit.com/r/singularity/comments/1ta1dvl/chatgpt_is_now_creating_content_for_textbooks/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-05-11T21:09:17+09:00"
+      },
+      {
+        "id": "reddit_020",
+        "title": "Google의 새 비디오 모델 \"Omni\" 유출 — 뛰어난 텍스트 일관성 주목",
+        "originalTitle": "A new video model \"Omni\" from Google is leaked, user notes text coherence",
+        "summary": "r/singularity 커뮤니티. AI 기술 발전의 미래를 논하는 핫 게시물.",
+        "url": "https://www.reddit.com/r/singularity/comments/1ta4zzz/a_new_video_model_omni_from_google_is_leaked_user/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-05-11T23:29:30+09:00"
+      },
+      {
+        "id": "reddit_021",
+        "title": "유출된 Gemini Omni vs Sora 2 — 구글의 반격이 시작되다",
+        "originalTitle": "Upcoming Leaked Gemini Omni VS Nearly Shutting Down Sora 2",
+        "summary": "r/singularity 커뮤니티. AI 기술 발전의 미래를 논하는 핫 게시물.",
+        "url": "https://www.reddit.com/r/singularity/comments/1ta99ss/upcoming_leaked_gemini_omni_vs_nearly_shutting/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-05-12T01:58:24+09:00"
+      },
+      {
+        "id": "reddit_022",
+        "title": "Are daily stand ups at your company just “list out all your accomplishments of yesterday”?",
+        "originalTitle": "Are daily stand ups at your company just “list out all your accomplishments of yesterday”?",
+        "summary": "r/ExperiencedDevs 커뮤니티. 시니어 개발자들의 현실적인 업무 경험 공유.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1ta9ici/are_daily_stand_ups_at_your_company_just_list_out/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-05-12T02:06:13+09:00"
+      },
+      {
+        "id": "reddit_023",
+        "title": "1스프린트 예상 프로젝트가 8번째 스프린트에 접어들었습니다",
+        "originalTitle": "the project that was supposed to take 1 sprint has now entered sprint 8",
+        "summary": "r/ExperiencedDevs 커뮤니티. 시니어 개발자들의 현실적인 업무 경험 공유.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1taeikc/the_project_that_was_supposed_to_take_1_sprint/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-05-12T04:56:46+09:00"
+      },
+      {
+        "id": "reddit_024",
+        "title": "컨설팅 회사의 외부 코드 리뷰 — 개발자들의 경험담",
+        "originalTitle": "External 'review' by consulting firm",
+        "summary": "r/ExperiencedDevs 커뮤니티. 시니어 개발자들의 현실적인 업무 경험 공유.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1tad7al/external_review_by_consulting_firm/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-05-12T04:10:50+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "quick_001",
+        "title": "Proxmark5: 보안 연구자를 위한 RFID 분석 플랫폼",
+        "excerpt": "Article URL: https://www.indiegogo.com/en/projects/rfidresearchgroup/proxmark5 Comments URL: https://news.ycombinator.com/item?id=48099858 Points: 1 # Comments: 0",
+        "body": "Article URL: https://www.indiegogo.com/en/projects/rfidresearchgroup/proxmark5 Comments URL: https://news.ycombinator.com/item?id=48099858 Points: 1 # Comments: 0",
+        "url": "https://www.indiegogo.com/en/projects/rfidresearchgroup/proxmark5",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-12T04:56:06+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "quick_002",
+        "title": "Factorio가 수백만 오브젝트 대신 입력값을 동기화하는 방법 [영상]",
+        "excerpt": "Article URL: https://www.youtube.com/watch?v=0FHSZ1hani0 Comments URL: https://news.ycombinator.com/item?id=48099814 Points: 2 # Comments: 0",
+        "body": "Article URL: https://www.youtube.com/watch?v=0FHSZ1hani0 Comments URL: https://news.ycombinator.com/item?id=48099814 Points: 2 # Comments: 0",
+        "url": "https://www.youtube.com/watch?v=0FHSZ1hani0",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-12T04:51:51+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      },
+      {
+        "id": "quick_003",
+        "title": "Logos — 소셜 운동을 위한 탈중앙화 기술 플랫폼",
+        "excerpt": "Article URL: https://logos.co Comments URL: https://news.ycombinator.com/item?id=48099803 Points: 2 # Comments: 0",
+        "body": "Article URL: https://logos.co Comments URL: https://news.ycombinator.com/item?id=48099803 Points: 2 # Comments: 0",
+        "url": "https://logos.co",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-12T04:50:57+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "quick_004",
+        "title": "Linux 터미널 메모리 사용량 이해하기",
+        "excerpt": "Article URL: https://gilesorr.com/blog/linux-terminal-memory-usage.html Comments URL: https://news.ycombinator.com/item?id=48099790 Points: 4 # Comments: 0",
+        "body": "Article URL: https://gilesorr.com/blog/linux-terminal-memory-usage.html Comments URL: https://news.ycombinator.com/item?id=48099790 Points: 4 # Comments: 0",
+        "url": "https://gilesorr.com/blog/linux-terminal-memory-usage.html",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-12T04:49:39+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      },
+      {
+        "id": "quick_005",
+        "title": "AI 프로젝트를 멋지게 전시하는 방법",
+        "excerpt": "Article URL: https://www.robot-future.com/preview/69fba01c844114ffda523bbc Comments URL: https://news.ycombinator.com/item?id=48099771 Points: 2 # Comments: 0",
+        "body": "Article URL: https://www.robot-future.com/preview/69fba01c844114ffda523bbc Comments URL: https://news.ycombinator.com/item?id=48099771 Points: 2 # Comments: 0",
+        "url": "https://www.robot-future.com/preview/69fba01c844114ffda523bbc",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-12T04:47:03+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "quick_006",
+        "title": "Quiet — Tor 기반 서버리스 개인 메시징 앱",
+        "excerpt": "Article URL: https://tryquiet.org/ Comments URL: https://news.ycombinator.com/item?id=48099769 Points: 2 # Comments: 0",
+        "body": "Article URL: https://tryquiet.org/ Comments URL: https://news.ycombinator.com/item?id=48099769 Points: 2 # Comments: 0",
+        "url": "https://tryquiet.org/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-12T04:46:55+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      }
+    ]
+  }
+}
