@@ -1,0 +1,1015 @@
+{
+  "date": "2026-05-13",
+  "issueNumber": 46,
+  "cover": {
+    "mainHeadline": "Google I/O 2026: Gemini Intelligence로 진화하는 Android와 AI 기술의 대전환",
+    "mainExcerpt": "Google이 I/O 2026에서 Gemini Intelligence를 탑재한 차세대 Android를 발표했습니다. AI 자동 완성, Rambler, Watch 위젯 등 다양한 스마트 기능이 통합되며, Android가 단순한 OS를 넘어 AI 플랫폼으로 진화하고 있습니다. 같은 날 OpenAI는 기업 AI 배포 전문 회사 'Deployment Company'와 사이버 방어 이니셔티브 'Daybreak'를 잇달아 공개했습니다.",
+    "headlines": [
+      "OpenAI, 기업 AI 배포 전문 'Deployment Company' 출시 — 190억 달러 초기 투자 확보",
+      "Claude Code, 멀티 에이전트 관리를 위한 'Agent View' 기능 연구 프리뷰 공개",
+      "GitHub Copilot 개인 플랜 대폭 개편 — Pro/Pro+ 유연 할당량 및 Max 플랜 신설"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_001",
+      "title": "NVIDIA Blackwell G4 VM으로 하루 80억 장 이미지를 처리하는 Imgix의 방법",
+      "excerpt": "The modern web is extremely visual. People are busy and easily-distracted, and smart companies know they have just seconds to attract would-be customers with compelling images, videos, animations, and other eye-catching elements",
+      "body": "The modern web is extremely visual. People are busy and easily-distracted, and smart companies know they have just seconds to attract would-be customers with compelling images, videos, animations, and other eye-catching elements. That’s why iconic brands like Bugatti, Yeti, Porsche, Spotify, and Sonos rely on Imgix to be the engine driving their online visual media. Every day, Imgix serves more than 8 billion images and videos for brands like these and many others",
+      "url": "https://cloud.google.com/blog/products/infrastructure/how-imgix-processes-8-billion-images-daily-with-g4-vms-powered-by-nvidia-blackwell/",
+      "source": "AI & Machine Learning",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-13T01:00:00+09:00",
+      "readTime": 3,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_002",
+      "title": "소스 코드 너머: AI 코딩 에이전트가 신뢰하는 파일들과 공격자들의 악용",
+      "excerpt": "Title: Beyond source code: The files AI coding agents trust — and attackers exploit URL Source: https://cloud.google.com/blog/products/identity-security/beyond-source-code-the-files-ai-coding-agents-trust-and-attackers-exploit/ Published Time: 2026-05-12 Markdown Content: As AI coding agents become ",
+      "body": "Title: Beyond source code: The files AI coding agents trust — and attackers exploit URL Source: https://cloud.google.com/blog/products/identity-security/beyond-source-code-the-files-ai-coding-agents-trust-and-attackers-exploit/ Published Time: 2026-05-12 Markdown Content: As AI coding agents become deeply embedded in developer workflows, defenders must evolve their definition of malicious files and rethink how to protect against them. Autonomous AI agents operate across integrated development en",
+      "url": "https://cloud.google.com/blog/products/identity-security/beyond-source-code-the-files-ai-coding-agents-trust-and-attackers-exploit/",
+      "source": "AI & Machine Learning",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-13T01:00:00+09:00",
+      "readTime": 4,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_003",
+      "title": "Android Show: Google I/O 2026 에디션",
+      "excerpt": "Title: The Android Show: I/O Edition 2026 URL Source: https://blog.google/products-and-platforms/platforms/android/android-show-io-edition-2026/ Markdown Content: # The Android Show: I/O Edition 2026 [Skip to main content](https://blog.google/products-and-platforms/platforms/android/android-show-io-",
+      "body": "Title: The Android Show: I/O Edition 2026 URL Source: https://blog.google/products-and-platforms/platforms/android/android-show-io-edition-2026/ Markdown Content: # The Android Show: I/O Edition 2026 [Skip to main content](https://blog.google/products-and-platforms/platforms/android/android-show-io-edition-2026/#jump-content) [The Keyword](https://blog.google/) The Android Show: I/O Edition 2026 [Share](https://blog.google/products-and-platforms/platforms/android/android-show-io-edition-2026/) [",
+      "url": "https://blog.google/products-and-platforms/platforms/android/android-show-io-edition-2026/",
+      "source": "Gemini",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-13T02:00:00+09:00",
+      "readTime": 3,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_200",
+      "title": "Chrome의 Gemini 기능을 Android로 확장",
+      "excerpt": "Android figure next to the text \"The Android Show | I/O Edition\"",
+      "body": "Android figure next to the text \"The Android Show | I/O Edition\"",
+      "url": "https://blog.google/products-and-platforms/products/chrome/bringing-chrome-ai-to-android/",
+      "source": "The Official Google Blog",
+      "category": "big_tech",
+      "publishedAt": "2026-05-13T02:00:00+09:00",
+      "readTime": 3,
+      "imageGradient": 4
+    },
+    {
+      "id": "rss_201",
+      "title": "Gemini Intelligence를 위해 설계된 Googlebook 공개",
+      "excerpt": "Googlebook thumbnail",
+      "body": "Googlebook thumbnail",
+      "url": "https://blog.google/products-and-platforms/platforms/android/meet-googlebook/",
+      "source": "The Official Google Blog",
+      "category": "big_tech",
+      "publishedAt": "2026-05-13T02:00:00+09:00",
+      "readTime": 3,
+      "imageGradient": 5
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_001",
+        "title": "NVIDIA Blackwell G4 VM으로 하루 80억 장 이미지를 처리하는 Imgix의 방법",
+        "excerpt": "The modern web is extremely visual. People are busy and easily-distracted, and smart companies know they have just seconds to attract would-be customers with compelling images, videos, animations, and other eye-catching elements",
+        "body": "The modern web is extremely visual. People are busy and easily-distracted, and smart companies know they have just seconds to attract would-be customers with compelling images, videos, animations, and other eye-catching elements. That’s why iconic brands like Bugatti, Yeti, Porsche, Spotify, and Sonos rely on Imgix to be the engine driving their online visual media. Every day, Imgix serves more than 8 billion images and videos for brands like these and many others",
+        "url": "https://cloud.google.com/blog/products/infrastructure/how-imgix-processes-8-billion-images-daily-with-g4-vms-powered-by-nvidia-blackwell/",
+        "source": "AI & Machine Learning",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-13T01:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_002",
+        "title": "소스 코드 너머: AI 코딩 에이전트가 신뢰하는 파일들과 공격자들의 악용",
+        "excerpt": "Title: Beyond source code: The files AI coding agents trust — and attackers exploit URL Source: https://cloud.google.com/blog/products/identity-security/beyond-source-code-the-files-ai-coding-agents-trust-and-attackers-exploit/ Published Time: 2026-05-12 Markdown Content: As AI coding agents become ",
+        "body": "Title: Beyond source code: The files AI coding agents trust — and attackers exploit URL Source: https://cloud.google.com/blog/products/identity-security/beyond-source-code-the-files-ai-coding-agents-trust-and-attackers-exploit/ Published Time: 2026-05-12 Markdown Content: As AI coding agents become deeply embedded in developer workflows, defenders must evolve their definition of malicious files and rethink how to protect against them. Autonomous AI agents operate across integrated development en",
+        "url": "https://cloud.google.com/blog/products/identity-security/beyond-source-code-the-files-ai-coding-agents-trust-and-attackers-exploit/",
+        "source": "AI & Machine Learning",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-13T01:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_003",
+        "title": "Android Show: Google I/O 2026 에디션",
+        "excerpt": "Title: The Android Show: I/O Edition 2026 URL Source: https://blog.google/products-and-platforms/platforms/android/android-show-io-edition-2026/ Markdown Content: # The Android Show: I/O Edition 2026 [Skip to main content](https://blog.google/products-and-platforms/platforms/android/android-show-io-",
+        "body": "Title: The Android Show: I/O Edition 2026 URL Source: https://blog.google/products-and-platforms/platforms/android/android-show-io-edition-2026/ Markdown Content: # The Android Show: I/O Edition 2026 [Skip to main content](https://blog.google/products-and-platforms/platforms/android/android-show-io-edition-2026/#jump-content) [The Keyword](https://blog.google/) The Android Show: I/O Edition 2026 [Share](https://blog.google/products-and-platforms/platforms/android/android-show-io-edition-2026/) [",
+        "url": "https://blog.google/products-and-platforms/platforms/android/android-show-io-edition-2026/",
+        "source": "Gemini",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-13T02:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_004",
+        "title": "Gemini Intelligence로 더 스마트하고 능동적인 Android",
+        "excerpt": "Title: A smarter, more proactive Android with Gemini Intelligence URL Source: https://blog.google/products-and-platforms/platforms/android/gemini-intelligence/ Published Time: 2026-05-12T17:00:00+00:00 Markdown Content: # Gemini Intelligence brings proactive AI to Android [Skip to main content](http",
+        "body": "Title: A smarter, more proactive Android with Gemini Intelligence URL Source: https://blog.google/products-and-platforms/platforms/android/gemini-intelligence/ Published Time: 2026-05-12T17:00:00+00:00 Markdown Content: # Gemini Intelligence brings proactive AI to Android [Skip to main content](https://blog.google/products-and-platforms/platforms/android/gemini-intelligence/#jump-content) [The Keyword](https://blog.google/) A smarter, more proactive Android with Gemini Intelligence [Share](https",
+        "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence/",
+        "source": "Gemini",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-13T02:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_005",
+        "title": "Parameter Golf가 가르쳐 준 AI 보조 연구의 가능성",
+        "excerpt": "Title: What Parameter Golf taught us URL Source: https://openai.com/index/what-parameter-golf-taught-us Markdown Content: # What Parameter Golf taught us | OpenAI [Skip to main content](https://openai.com/index/what-parameter-golf-taught-us#main) [](https://openai.com/) * [Research](https://openai.c",
+        "body": "Title: What Parameter Golf taught us URL Source: https://openai.com/index/what-parameter-golf-taught-us Markdown Content: # What Parameter Golf taught us | OpenAI [Skip to main content](https://openai.com/index/what-parameter-golf-taught-us#main) [](https://openai.com/) * [Research](https://openai.com/research/index/) * Products * [Business](https://openai.com/business/) * [Developers](https://openai.com/api/) * [Company](https://openai.com/about/) * [Foundation(opens in a new window)](https://o",
+        "url": "https://openai.com/index/what-parameter-golf-taught-us",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-12T09:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_006",
+        "title": "Chrome의 Gemini 기능을 Android로 확장",
+        "excerpt": "Android figure next to the text \"The Android Show | I/O Edition\"",
+        "body": "Android figure next to the text \"The Android Show | I/O Edition\"",
+        "url": "https://blog.google/products-and-platforms/products/chrome/bringing-chrome-ai-to-android/",
+        "source": "The Official Google Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-13T02:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_007",
+        "title": "Gemini Intelligence를 위해 설계된 Googlebook 공개",
+        "excerpt": "Googlebook thumbnail",
+        "body": "Googlebook thumbnail",
+        "url": "https://blog.google/products-and-platforms/platforms/android/meet-googlebook/",
+        "source": "The Official Google Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-13T02:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_008",
+        "title": "Pause Point로 스마트폰 사용 시간 되찾기",
+        "excerpt": "This new wellbeing feature helps stop doomscrolling so you can use your phone with more intent.",
+        "body": "This new wellbeing feature helps stop doomscrolling so you can use your phone with more intent.",
+        "url": "https://blog.google/products-and-platforms/platforms/android/pause-point/",
+        "source": "The Official Google Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-13T02:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_100",
+        "title": "Visual Studio Code 1.120 업데이트",
+        "excerpt": "Learn what's new in Visual Studio Code 1.120 (Insiders) Read the full article",
+        "body": "Learn what's new in Visual Studio Code 1.120 (Insiders) Read the full article",
+        "url": "https://code.visualstudio.com/updates/v1_120",
+        "source": "Visual Studio Code - Code Editing. Redefined.",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-14T02:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_101",
+        "title": "암호학적으로 유효한 악성코드, npm 패키지 감염",
+        "excerpt": "#​785 — May 12, 2026 Read on the Web JavaScript Weekly Anatomy of the TanStack npm Compromise — A new strain of the Shai-Hulud worm pushed malicious versions of TanStack packages to npm yesterday (containing a tripwire that would delete files if it detected token revocation), though it hit ~170 othe",
+        "body": "#​785 — May 12, 2026 Read on the Web JavaScript Weekly Anatomy of the TanStack npm Compromise — A new strain of the Shai-Hulud worm pushed malicious versions of TanStack packages to npm yesterday (containing a tripwire that would delete files if it detected token revocation), though it hit ~170 other packages too. Maintainer credentials weren’t stolen, with the attack instead chaining pull_request_target abuse, cache poisoning, and OIDC token theft from CI memory. Tanner Linsley ❓ What should yo",
+        "url": "https://javascriptweekly.com/issues/785",
+        "source": "JavaScript Weekly",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-12T09:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_102",
+        "title": "GitHub Copilot CLI로 절차적 생성 로그라이크 게임 만들기",
+        "excerpt": "Learn how one Hubber used GitHub Copilot CLI to build an extension that turns any codebase into a unique, roguelike dungeon. The post Dungeons & Desktops: Building a procedurally generated roguelike with GitHub Copilot CLI appeared first on The GitHub Blog.",
+        "body": "Learn how one Hubber used GitHub Copilot CLI to build an extension that turns any codebase into a unique, roguelike dungeon. The post Dungeons & Desktops: Building a procedurally generated roguelike with GitHub Copilot CLI appeared first on The GitHub Blog.",
+        "url": "https://github.blog/ai-and-ml/github-copilot/dungeons-desktops-building-a-procedurally-generated-roguelike-with-github-copilot-cli/",
+        "source": "The latest on GitHub Copilot - The GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-13T00:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_103",
+        "title": "GitHub Copilot 개인 플랜 개편: Pro·Pro+ 유연 할당량 및 새 Max 플랜 출시",
+        "excerpt": "Starting June 1, our lineup of individual plans will update based on your feedback. The post GitHub Copilot individual plans: Introducing flex allotments in Pro and Pro+, and a new Max plan appeared first on The GitHub Blog.",
+        "body": "Starting June 1, our lineup of individual plans will update based on your feedback. The post GitHub Copilot individual plans: Introducing flex allotments in Pro and Pro+, and a new Max plan appeared first on The GitHub Blog.",
+        "url": "https://github.blog/news-insights/company-news/github-copilot-individual-plans-introducing-flex-allotments-in-pro-and-pro-and-a-new-max-plan/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-13T02:35:41+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_104",
+        "title": "GitHub Copilot CLI로 절차적 생성 로그라이크 게임 만들기",
+        "excerpt": "Learn how one Hubber used GitHub Copilot CLI to build an extension that turns any codebase into a unique, roguelike dungeon. The post Dungeons & Desktops: Building a procedurally generated roguelike with GitHub Copilot CLI appeared first on The GitHub Blog.",
+        "body": "Learn how one Hubber used GitHub Copilot CLI to build an extension that turns any codebase into a unique, roguelike dungeon. The post Dungeons & Desktops: Building a procedurally generated roguelike with GitHub Copilot CLI appeared first on The GitHub Blog.",
+        "url": "https://github.blog/ai-and-ml/github-copilot/dungeons-desktops-building-a-procedurally-generated-roguelike-with-github-copilot-cli/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-13T00:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_105",
+        "title": "Docker AI 거버넌스: 안전하게 에이전트 자율성 확보하기",
+        "excerpt": "Introducing Docker AI Governance: centralized control over how agents execute, what they can reach on the network, which credentials they can use, and which MCP tools they can call, so every developer in your company can run AI agents safely, wherever they work. Your laptop is the new prod Agents ar",
+        "body": "Introducing Docker AI Governance: centralized control over how agents execute, what they can reach on the network, which credentials they can use, and which MCP tools they can call, so every developer in your company can run AI agents safely, wherever they work. Your laptop is the new prod Agents are the biggest productivity unlock...",
+        "url": "https://www.docker.com/blog/docker-ai-governance-unlock-agent-autonomy-safely/",
+        "source": "Docker Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-13T03:00:09+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_200",
+        "title": "Chrome의 Gemini 기능을 Android로 확장",
+        "excerpt": "Android figure next to the text \"The Android Show | I/O Edition\"",
+        "body": "Android figure next to the text \"The Android Show | I/O Edition\"",
+        "url": "https://blog.google/products-and-platforms/products/chrome/bringing-chrome-ai-to-android/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-05-13T02:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_201",
+        "title": "Gemini Intelligence를 위해 설계된 Googlebook 공개",
+        "excerpt": "Googlebook thumbnail",
+        "body": "Googlebook thumbnail",
+        "url": "https://blog.google/products-and-platforms/platforms/android/meet-googlebook/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-05-13T02:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_202",
+        "title": "Android로 더 다양한 창작 및 공유 방법",
+        "excerpt": "Anaya showing ways to create with Android",
+        "body": "Anaya showing ways to create with Android",
+        "url": "https://blog.google/products-and-platforms/platforms/android/android-17-creator-features/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-05-13T02:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_203",
+        "title": "Pause Point로 스마트폰 사용 시간 되찾기",
+        "excerpt": "This new wellbeing feature helps stop doomscrolling so you can use your phone with more intent.",
+        "body": "This new wellbeing feature helps stop doomscrolling so you can use your phone with more intent.",
+        "url": "https://blog.google/products-and-platforms/platforms/android/pause-point/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-05-13T02:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_204",
+        "title": "차량용 차세대 Android로 더 풍부한 경험",
+        "excerpt": "Rendering of the new driving experience",
+        "body": "Rendering of the new driving experience",
+        "url": "https://blog.google/products-and-platforms/platforms/android/android-in-cars-updates/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-05-13T02:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_205",
+        "title": "새로운 3D 이모지로 감정 표현하기",
+        "excerpt": "With added depth and rich details, Noto 3D emoji make it easier to say what words alone can miss.",
+        "body": "With added depth and rich details, Noto 3D emoji make it easier to say what words alone can miss.",
+        "url": "https://blog.google/products-and-platforms/platforms/android/noto-3d-emoji/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-05-13T02:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_206",
+        "title": "Android의 간편하고 안전한 공유·전환·연결",
+        "excerpt": "Phone next to the text \"Easy, secure sharing.\"",
+        "body": "Phone next to the text \"Easy, secure sharing.\"",
+        "url": "https://blog.google/products-and-platforms/platforms/android/new-android-updates/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-05-13T02:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_207",
+        "title": "Gemini Intelligence로 더 스마트하고 능동적인 Android",
+        "excerpt": "Gemini Intelligence blog header showing Intelligent autofill, new devices, Rambler, Watch widgets, and more.",
+        "body": "Gemini Intelligence blog header showing Intelligent autofill, new devices, Rambler, Watch widgets, and more.",
+        "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-05-13T02:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Andrej Karpathy",
+        "handle": "karpathy",
+        "content": "이게 정말 잘 작동하네요, btw, 쿼리 끝에 LLM에게 \"응답을 HTML로 구조화해\"라고 요청하면, 생성된 파일을 브라우저에서 확인해보세요. LLM에게 슬라이드쇼 등으로 출력을 제시하도록 요청해서도 어느 정도 성공을 거뒀어요.\n\n더 일반적으로 말하면, imo 오디오는 AI에 대한 인간 선호 입력",
+        "context": "@karpathy의 트윗으로, AI 업계 동향과 관련된 주목할 만한 내용입니다.",
+        "url": "https://x.com/karpathy/status/2053872850101285137",
+        "publishedAt": "2026-05-11T16:20:21.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "제 생각엔, 나한테 임계점을 넘은 것들에 대해 말하자면, 새로운 ChatGPT 모델, 성격, 그리고 개인화의 조합이 완전히 새로운 느낌이 들어요.",
+        "context": "@sama의 트윗으로, AI 업계 동향과 관련된 주목할 만한 내용입니다.",
+        "url": "https://x.com/sama/status/2053971387308745046",
+        "publishedAt": "2026-05-11T22:51:54.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "OpenAI는 Daybreak을 출시합니다. 이는 사이버 방어를 가속화하고 소프트웨어를 지속적으로 보호하려는 우리의 노력입니다.\n\nAI는 이미 사이버 보안에 뛰어나며, 곧 더욱 뛰어나질 것입니다. 우리는 지금 가능한 한 많은 회사들과 협력하여 그들이 지속적으로 자신을 보호할 수 있도록 돕고 싶습니다.",
+        "context": "@sama의 트윗으로, AI 업계 동향과 관련된 주목할 만한 내용입니다.",
+        "url": "https://x.com/sama/status/2053951874408276193",
+        "publishedAt": "2026-05-11T21:34:22.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "AI로 구동되는 앱을 구축하는 데 도움을 주는 AI.",
+        "context": "@gdb의 트윗으로, AI 업계 동향과 관련된 주목할 만한 내용입니다.",
+        "url": "https://x.com/gdb/status/2054092636659625990",
+        "publishedAt": "2026-05-12T06:53:42.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "회의에 에이전트를 두는 건 정말 미래적인 경험이에요.",
+        "context": "@gdb의 트윗으로, AI 업계 동향과 관련된 주목할 만한 내용입니다.",
+        "url": "https://x.com/gdb/status/2054064478547775813",
+        "publishedAt": "2026-05-12T05:01:49.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "데이브레이크: 방어적 가속화를 위한 우리의 우산 노력, 사이버 방어자들에게 최상의 프론티어 AI 역량을 갖추게 하는 것.",
+        "context": "@gdb의 트윗으로, AI 업계 동향과 관련된 주목할 만한 내용입니다.",
+        "url": "https://x.com/gdb/status/2053943428241928560",
+        "publishedAt": "2026-05-11T21:00:48.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "Kevin Weil",
+        "handle": "kevinweil",
+        "content": "This from @tdrobbo is gold.",
+        "context": "@kevinweil의 트윗으로, AI 업계 동향과 관련된 주목할 만한 내용입니다.",
+        "url": "https://x.com/kevinweil/status/2054063509869306204",
+        "publishedAt": "2026-05-12T04:57:58.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "Mira Murati",
+        "handle": "miramurati",
+        "content": "오늘 우리는 상호작용 모델에 대한 작업을 공유합니다. 턴 기반 모델에 붙이는 대신, 실시간 상호작용을 기본적으로 처리하도록 처음부터 훈련된 새로운 클래스 모델입니다.",
+        "context": "@miramurati의 트윗으로, AI 업계 동향과 관련된 주목할 만한 내용입니다.",
+        "url": "https://x.com/miramurati/status/2053939069890298321",
+        "publishedAt": "2026-05-11T20:43:29.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_009",
+        "author": "Jack Clark",
+        "handle": "jackclarkSF",
+        "content": "많은 사람들이 AI 정책을 마치 어떤 미스터리처럼 여기며, 올바른 해결책은 기술 규제를 위해 일반 상대성 이론을 발명한 정책 아인슈타인 같은 인물이 필요하다고 생각합니다. 하지만 전혀 그렇지 않습니다! 오늘 당장 실행할 수 있는 합리적인 아이디어가 많이 있습니다.",
+        "context": "@jackclarkSF의 트윗으로, AI 업계 동향과 관련된 주목할 만한 내용입니다.",
+        "url": "https://x.com/jackclarkSF/status/2053846259077877814",
+        "publishedAt": "2026-05-11T14:34:41.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_010",
+        "author": "Amanda Askell",
+        "handle": "AmandaAskell",
+        "content": "이제 저와 Joe가 Claude의 헌장을 오디오북으로 읽어주는 것을 들을 수 있습니다. 빠른 모드로 듣는 옵션을 추가하는 중이에요 :)",
+        "context": "@AmandaAskell의 트윗으로, AI 업계 동향과 관련된 주목할 만한 내용입니다.",
+        "url": "https://x.com/AmandaAskell/status/2054010971765805486",
+        "publishedAt": "2026-05-12T01:29:12.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_011",
+        "author": "ClaudeDevs",
+        "handle": "ClaudeDevs",
+        "content": "Claude Opus 4.7의 빠른 모드가 이제 API와 Claude Code에서 연구 프리뷰로 제공됩니다.",
+        "context": "@ClaudeDevs의 트윗으로, AI 업계 동향과 관련된 주목할 만한 내용입니다.",
+        "url": "https://x.com/ClaudeDevs/status/2054266327771275435",
+        "publishedAt": "2026-05-12T18:23:53.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_012",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "에이전트 뷰는 여러 세션을 관리하는 데 최적의 Claude Code 기본 방식으로, CC를 위해 만들어진 tmux 같은 느낌입니다.\n\n우리는 세부 사항을 제대로 다듬는 데 많은 시간을 들였습니다. 즐겁게 사용하시길 바랍니다.",
+        "context": "@trq212의 트윗으로, AI 업계 동향과 관련된 주목할 만한 내용입니다.",
+        "url": "https://x.com/trq212/status/2053979505346425179",
+        "publishedAt": "2026-05-11T23:24:09.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_013",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "모든 저장소가 있는 상위 레벨 디렉토리에서 \"claude agents\"를 시작하세요. 이 도구는 어떤 세션이 입력을 필요로 하는지 추적하며, 중단한 지점에서 재개하고 계속 진행하는 것을 정말 쉽게 만들어줍니다.",
+        "context": "@trq212의 트윗으로, AI 업계 동향과 관련된 주목할 만한 내용입니다.",
+        "url": "https://x.com/trq212/status/2053979506827055255",
+        "publishedAt": "2026-05-11T23:24:10.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_014",
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "content": "다가오는 여행을 위해 여러 편의 항공편을 예약해야 했어요. 늘 그렇듯, Claude Cowork를 사용해서 처리했죠.\n\n과거에는 Cowork가 항공편 예약을 꽤 괜찮게 해냈지만, Opus 4.7 덕분에 처음으로 원샷으로 해냈어요!",
+        "context": "@bcherny의 트윗으로, AI 업계 동향과 관련된 주목할 만한 내용입니다.",
+        "url": "https://x.com/bcherny/status/2053994083497238712",
+        "publishedAt": "2026-05-12T00:22:05.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_015",
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "content": "비행기 선호 사항을 Cowork 지침에 입력한 후, Opus가 일을 시작하게 했습니다. Opus는 브라우저를 열고 여러 웹사이트를 탐색한 뒤, 모든 것을 예약해 주었습니다.\n\n결과: Cowork가 8개의 항공편과 5개의 호텔을 예약해 주었는데, 그 동안 나는 Claude Code에서 다른 무언가를 해킹하고 있었습니다.",
+        "context": "@bcherny의 트윗으로, AI 업계 동향과 관련된 주목할 만한 내용입니다.",
+        "url": "https://x.com/bcherny/status/2053994085565014188",
+        "publishedAt": "2026-05-12T00:22:06.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_016",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "Claude의 헌장은 이제 오디오북으로 제작되었으며, 그 저자 중 두 명인 Amanda Askell과 Joe Carlsmith가 낭독합니다.\n\n이 오디오북에는 문서 작성 과정에 대한 Q&A, 이 문서를 형성한 철학들, 그리고 모델들이 더 유능해짐에 따라 어떻게 변화할 수 있을지에 대한 내용이 포함되어 있습니다.",
+        "context": "@AnthropicAI의 트윗으로, AI 업계 동향과 관련된 주목할 만한 내용입니다.",
+        "url": "https://x.com/AnthropicAI/status/2053881827396653207",
+        "publishedAt": "2026-05-11T16:56:01.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_017",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "오늘 우리는 기업들이 AI를 구축하고 배포할 수 있도록 돕기 위해 OpenAI Deployment Company를 출시합니다.\n\n이 회사는 OpenAI가 대다수 지분을 소유하고 통제합니다.",
+        "context": "@OpenAI의 트윗으로, AI 업계 동향과 관련된 주목할 만한 내용입니다.",
+        "url": "https://x.com/OpenAI/status/2053824997777457651",
+        "publishedAt": "2026-05-11T13:10:12.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_018",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "데이브레이크 소개: 사이버 방어자를 위한 프론티어 AI.\n\n데이브레이크는 가장 강력한 OpenAI 모델, Codex, 그리고 우리의 보안 파트너들을 결합하여 사이버 방어를 가속화하고 소프트웨어를 지속적으로 보호합니다.",
+        "context": "@OpenAI의 트윗으로, AI 업계 동향과 관련된 주목할 만한 내용입니다.",
+        "url": "https://x.com/OpenAI/status/2053939702110269822",
+        "publishedAt": "2026-05-11T20:45:59.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_019",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "심포니: 모든 열린 작업에 실행 중인 Codex 에이전트가 할당됩니다.",
+        "context": "@OpenAIDevs의 트윗으로, AI 업계 동향과 관련된 주목할 만한 내용입니다.",
+        "url": "https://x.com/OpenAIDevs/status/2054252221941121035",
+        "publishedAt": "2026-05-12T17:27:50.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_020",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Claude Code의 새로운 기능: 에이전트 뷰.\n\n모든 세션에 대한 하나의 목록, 오늘 연구 프리뷰로 제공됩니다.",
+        "context": "@claudeai의 트윗으로, AI 업계 동향과 관련된 주목할 만한 내용입니다.",
+        "url": "https://x.com/claudeai/status/2053940934736228454",
+        "publishedAt": "2026-05-11T20:50:53.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_021",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "우리는 Code with Claude에서 사람들에게 작은 컴퓨터를 제공했습니다. 그들이 만든 몇 가지 작고 유쾌한 것들은 다음과 같습니다.",
+        "context": "@claudeai의 트윗으로, AI 업계 동향과 관련된 주목할 만한 내용입니다.",
+        "url": "https://x.com/claudeai/status/2054257324278132893",
+        "publishedAt": "2026-05-12T17:48:07.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "구글이 이제 마우스 포인터 자체를 AI 인터페이스로 바꾸려고 합니다.",
+        "context": "@choi.openai의 Threads 게시물로, AI 관련 인사이트를 공유합니다.",
+        "url": "https://www.threads.net/@choi.openai/post/DYP-PMlAJTn",
+        "publishedAt": "2026-05-12T19:00:36+00:00",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "데미스 하사비스가 'AI의 가장 중요한 활용처는 인간 건강'이라고 말했던 이유가 점점 현실이 되어가는 것 같습니다.",
+        "context": "@choi.openai의 Threads 게시물로, AI 관련 인사이트를 공유합니다.",
+        "url": "https://www.threads.net/@choi.openai/post/DYPz7M7k3cF",
+        "publishedAt": "2026-05-12T17:30:29+00:00",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_003",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "지금만 가능한 소소한 팁:\nCodex에서 /goal 기능을 사용하면 사용량이 0%가 되어도 목표 달성까지 계속 진행할 수 있습니다.\n여기에 팁으로 목표 종료조건을 시간(날짜)으로 설정하게 되면 해당 시간까지 원하는 작업을 계속 진행시킬 수 있습니다.",
+        "context": "@choi.openai의 Threads 게시물로, AI 관련 인사이트를 공유합니다.",
+        "url": "https://www.threads.net/@choi.openai/post/DYPoojdj9_-",
+        "publishedAt": "2026-05-12T15:51:49+00:00",
+        "platform": "threads"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "유사도 기반 스팀 게임 추천 시스템! (학부 학생 프로젝트)",
+        "originalTitle": "Steam Recommender using similarity! (Undergraduate Student Project) [P]",
+        "summary": "r/MachineLearning 커뮤니티의 주목받는 게시물로, MachineLearning 관련 주제를 다루고 있습니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1tb8k3n/steam_recommender_using_similarity_undergraduate/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-05-13T02:30:32+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "TabPFN-3 출시: 최대 100만 행을 지원하는 사전 학습 테이블형 파운데이션 모델",
+        "originalTitle": "TabPFN-3 just released: a pre-trained tabular foundation model for up to 1M rows [R][N]",
+        "summary": "r/MachineLearning 커뮤니티의 주목받는 게시물로, MachineLearning 관련 주제를 다루고 있습니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1tb3fh5/tabpfn3_just_released_a_pretrained_tabular/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-05-12T23:33:12+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "다중 분류 석사 논문을 위한 피아노 데이터 수집 프로젝트",
+        "originalTitle": "Collecting piano data for master thesis in multi-classification [P]",
+        "summary": "r/MachineLearning 커뮤니티의 주목받는 게시물로, MachineLearning 관련 주제를 다루고 있습니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1tb6fux/collecting_piano_data_for_master_thesis_in/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-05-13T01:17:50+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "전기 낭비를 멈춰라: 로컬 LLM 효율적 운용법",
+        "originalTitle": "Stop wasting electricity",
+        "summary": "r/LocalLLaMA 커뮤니티의 주목받는 게시물로, LocalLLaMA 관련 주제를 다루고 있습니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tayu5t/stop_wasting_electricity/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-05-12T20:32:23+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "Claude Code를 처음부터 직접 구현해 보자!",
+        "originalTitle": "Let's build claude code from scratch!",
+        "summary": "r/LocalLLaMA 커뮤니티의 주목받는 게시물로, LocalLLaMA 관련 주제를 다루고 있습니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tb6nkx/lets_build_claude_code_from_scratch/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-05-13T01:25:14+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "Needle: Gemini 도구 호출 기능을 2,600만 파라미터 모델로 증류",
+        "originalTitle": "Needle: We Distilled Gemini Tool Calling Into a 26M Model",
+        "summary": "r/LocalLLaMA 커뮤니티의 주목받는 게시물로, LocalLLaMA 관련 주제를 다루고 있습니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tb9b0r/needle_we_distilled_gemini_tool_calling_into_a/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-05-13T02:56:09+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "AI 버블 붕괴가 임박했다는 경고 신호들",
+        "originalTitle": "My god there is an enormous crash just waiting to happen",
+        "summary": "r/artificial 커뮤니티의 주목받는 게시물로, artificial 관련 주제를 다루고 있습니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1tax3dz/my_god_there_is_an_enormous_crash_just_waiting_to/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-05-12T19:06:32+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "영수증 프린터로 아이들을 위한 AI 자동 '데일리 브리프' 만들기",
+        "originalTitle": "I made an agentic \"Daily Brief\" for my kids with a receipt printer",
+        "summary": "r/artificial 커뮤니티의 주목받는 게시물로, artificial 관련 주제를 다루고 있습니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1tbasiz/i_made_an_agentic_daily_brief_for_my_kids_with_a/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-05-13T03:46:27+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "구글, AI 생성 코드로 2FA를 우회하는 해커 제로데이 취약점 포착",
+        "originalTitle": "Google detects hackers using AI-generated code to bypass 2FA with zero-day vulnerability",
+        "summary": "r/artificial 커뮤니티의 주목받는 게시물로, artificial 관련 주제를 다루고 있습니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1tb5quh/google_detects_hackers_using_aigenerated_code_to/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-05-13T00:54:03+09:00"
+      },
+      {
+        "id": "reddit_010",
+        "title": "샘 알트만 증언: 머스크가 OpenAI의 '완전한 통제권'을 자녀에게 넘기길 원했다",
+        "originalTitle": "Sam Altman testimony: Musk wanted 'total control' of OpenAI to pass to his children",
+        "summary": "r/OpenAI 커뮤니티의 주목받는 게시물로, OpenAI 관련 주제를 다루고 있습니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1tb7r0d/sam_altman_testimony_musk_wanted_total_control_of/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-05-13T02:03:06+09:00"
+      },
+      {
+        "id": "reddit_011",
+        "title": "배관공·전기기사·HVAC 기술자들: AI가 모두를 대체해도 우리는 살아남는다",
+        "originalTitle": "Plumbers, electricians, and HVAC techs watching AI replace everyone except them.",
+        "summary": "r/OpenAI 커뮤니티의 주목받는 게시물로, OpenAI 관련 주제를 다루고 있습니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1tb3r2h/plumbers_electricians_and_hvac_techs_watching_ai/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-05-12T23:44:53+09:00"
+      },
+      {
+        "id": "reddit_012",
+        "title": "ChatGPT에게 VSCode 질문을 했더니 Victoria Secret 정보를 가져온 황당 사례 😂",
+        "originalTitle": "When you ask ChatGPT a question about VSCode but it pulls in VictoriaSecret for context 😂",
+        "summary": "r/OpenAI 커뮤니티의 주목받는 게시물로, OpenAI 관련 주제를 다루고 있습니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1tarzjy/when_you_ask_chatgpt_a_question_about_vscode_but/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-05-12T14:24:53+09:00"
+      },
+      {
+        "id": "reddit_013",
+        "title": "Claude Code 새 기능: 에이전트 뷰 출시",
+        "originalTitle": "New in Claude Code: agent view.",
+        "summary": "r/ClaudeAI 커뮤니티의 주목받는 게시물로, ClaudeAI 관련 주제를 다루고 있습니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1tag1i9/new_in_claude_code_agent_view/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-05-12T05:49:33+09:00"
+      },
+      {
+        "id": "reddit_014",
+        "title": "Git push 만세 — Claude 활용 개발 워크플로우",
+        "originalTitle": "Git push ftw",
+        "summary": "r/ClaudeAI 커뮤니티의 주목받는 게시물로, ClaudeAI 관련 주제를 다루고 있습니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1tb327h/git_push_ftw/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-05-12T23:19:43+09:00"
+      },
+      {
+        "id": "reddit_015",
+        "title": "웨딩 하객을 위한 AI 컨시어지를 만들었더니, 두 번째로 많이 한 일은 탈옥 시도였다",
+        "originalTitle": "I made an AI concierge for my wedding guests. The second most popular thing they did with it was try to jailbreak it.",
+        "summary": "r/ClaudeAI 커뮤니티의 주목받는 게시물로, ClaudeAI 관련 주제를 다루고 있습니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1tatxnq/i_made_an_ai_concierge_for_my_wedding_guests_the/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-05-12T16:08:48+09:00"
+      },
+      {
+        "id": "reddit_016",
+        "title": "Numberphile 영상 보고 소수점 최소 선분 커버 세계 기록 경신 — 282시간 → 22분으로 단축",
+        "originalTitle": "I built a world record exact solver for the minimum line cover of prime points after watching a Numberphile video. It turned the previous 282-hour record into 22 minutes, then kept going to prove 20 new awkward primes never certified before.",
+        "summary": "r/programming 커뮤니티의 주목받는 게시물로, programming 관련 주제를 다루고 있습니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1tb8gv6/i_built_a_world_record_exact_solver_for_the/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-05-13T02:27:29+09:00"
+      },
+      {
+        "id": "reddit_017",
+        "title": "대규모 npm 공급망 공격: TanStack, Mistral AI 등 170개 이상 패키지 피해",
+        "originalTitle": "Mass npm Supply Chain Attack Hits TanStack, Mistral AI, and 170+ Packages",
+        "summary": "r/programming 커뮤니티의 주목받는 게시물로, programming 관련 주제를 다루고 있습니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1tapmvi/mass_npm_supply_chain_attack_hits_tanstack/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-05-12T12:29:29+09:00"
+      },
+      {
+        "id": "reddit_018",
+        "title": "enum-to-string 변환 비용 비교: C++26 리플렉션 vs 기존 방식",
+        "originalTitle": "cost of enum-to-string: C++26 reflection vs the old ways",
+        "summary": "r/programming 커뮤니티의 주목받는 게시물로, programming 관련 주제를 다루고 있습니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1tb89rx/cost_of_enumtostring_c26_reflection_vs_the_old/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-05-13T02:20:42+09:00"
+      },
+      {
+        "id": "reddit_019",
+        "title": "새 SWE 벤치마크 ProgramBench에서 GPT-5.5가 최초 작업 해결, Opus 4.7 큰 폭 압도",
+        "originalTitle": "On a difficult new SWE benchmark, ProgramBench, GPT5.5 high/xhigh solves a task for first time, significantly outperforms Opus 4.7",
+        "summary": "r/singularity 커뮤니티의 주목받는 게시물로, singularity 관련 주제를 다루고 있습니다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1tb6kum/on_a_difficult_new_swe_benchmark_programbench/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-05-13T01:22:32+09:00"
+      },
+      {
+        "id": "reddit_020",
+        "title": "데미스 하사비스의 Isomorphic Labs, 21억 달러 시리즈 B 투자 유치 발표",
+        "originalTitle": "Demis Hassabis's Isomorphic Labs announces Series B investment round with $2.1B in new funding",
+        "summary": "r/singularity 커뮤니티의 주목받는 게시물로, singularity 관련 주제를 다루고 있습니다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1tb3wtl/demis_hassabiss_isomorphic_labs_announces_series/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-05-12T23:50:32+09:00"
+      },
+      {
+        "id": "reddit_021",
+        "title": "Unitree, 세계 최초 양산형 탑승 가능 메카 로봇 GD01 출시",
+        "originalTitle": "Unitree Launches World’s First Mass-Produced Manned Mecha GD01",
+        "summary": "r/singularity 커뮤니티의 주목받는 게시물로, singularity 관련 주제를 다루고 있습니다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1tar54x/unitree_launches_worlds_first_massproduced_manned/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-05-12T13:41:48+09:00"
+      },
+      {
+        "id": "reddit_022",
+        "title": "'소프트웨어 개발, 더 이상 못하겠다' — 번아웃을 고백한 시니어 개발자의 이야기",
+        "originalTitle": "I can't take Software Development anymore",
+        "summary": "r/ExperiencedDevs 커뮤니티의 주목받는 게시물로, ExperiencedDevs 관련 주제를 다루고 있습니다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1tarbcf/i_cant_take_software_development_anymore/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-05-12T13:50:37+09:00"
+      },
+      {
+        "id": "reddit_023",
+        "title": "\"최고 등급\" 기술 면접의 허와 실",
+        "originalTitle": "\"Top-grade\" Interview",
+        "summary": "r/ExperiencedDevs 커뮤니티의 주목받는 게시물로, ExperiencedDevs 관련 주제를 다루고 있습니다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1tb58dd/topgrade_interview/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-05-13T00:36:34+09:00"
+      },
+      {
+        "id": "reddit_024",
+        "title": "C++에서 다른 언어로 이전한 시니어 엔지니어들, 후회 없나요?",
+        "originalTitle": "For Sr.Eng that moved away from C++ how do you feel about it?",
+        "summary": "r/ExperiencedDevs 커뮤니티의 주목받는 게시물로, ExperiencedDevs 관련 주제를 다루고 있습니다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1tb8me2/for_sreng_that_moved_away_from_c_how_do_you_feel/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-05-13T02:32:42+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_300",
+        "title": "GNU Emacs에서 lsp-mode에서 Eglot으로 이동하기",
+        "excerpt": "Wandering Thoughts와 CSpace 일부는 오래된 브라우저 User-Agent가 크롤러 방지 규칙에 걸리면 차단 페이지를 표시함 2025년 초 대량 크롤러가 늘었고, 일부는 LLM 학습용 데이터 수집 목적처럼 보이며 오래된 Chrome User-Agent를 사용함 사이트 부하를...",
+        "body": "Wandering Thoughts와 CSpace 일부는 오래된 브라우저 User-Agent가 크롤러 방지 규칙에 걸리면 차단 페이지를 표시함 2025년 초 대량 크롤러가 늘었고, 일부는 LLM 학습용 데이터 수집 목적처럼 보이며 오래된 Chrome User-Agent를 사용함 사이트 부하를...",
+        "url": "https://news.hada.io/topic?id=29435",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-13T03:03:32+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_301",
+        "title": "2026년의 Zig vs Rust",
+        "excerpt": "약 3년 전 바이트코드 VM과 가비지 컬렉터를 Zig와 unsafe Rust로 직접 작성했을 때는 Zig의 인간 친화적 인체공학이 우세했으나, 코딩 에이전트 시대에 접어들며 그 우위가 사실상 무의미해짐 Zig의 주요 기능들이 제공하는 1.5~5배의 개발자 생산성 향상은, Rust 기반 코딩...",
+        "body": "약 3년 전 바이트코드 VM과 가비지 컬렉터를 Zig와 unsafe Rust로 직접 작성했을 때는 Zig의 인간 친화적 인체공학이 우세했으나, 코딩 에이전트 시대에 접어들며 그 우위가 사실상 무의미해짐 Zig의 주요 기능들이 제공하는 1.5~5배의 개발자 생산성 향상은, Rust 기반 코딩...",
+        "url": "https://news.hada.io/topic?id=29434",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-12T23:04:32+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_302",
+        "title": "Oxygen의 부활 뒤에 있는 더 큰 이야기는 반미니멀리즘 반발이다",
+        "excerpt": "KDE의 Oxygen 복원은 단순한 향수가 아니라, 미니멀리즘 디자인이 채우지 못한 필요가 여전히 남아 있음을 드러냄 aeroshell과 KDE 레트로화 관심처럼, 과거 데스크톱 미학을 현재에 맞게 다듬으려는 미충족 수요가 예상보다 큼 건축에서도 ...",
+        "body": "KDE의 Oxygen 복원은 단순한 향수가 아니라, 미니멀리즘 디자인이 채우지 못한 필요가 여전히 남아 있음을 드러냄 aeroshell과 KDE 레트로화 관심처럼, 과거 데스크톱 미학을 현재에 맞게 다듬으려는 미충족 수요가 예상보다 큼 건축에서도 ...",
+        "url": "https://news.hada.io/topic?id=29432",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-12T22:04:32+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_303",
+        "title": "Claude Code, 여러 에이전트를 한 화면에서 관리하는 &#039;Agent View&#039; 공개",
+        "excerpt": "시연 영상 > https://youtu.be/-INveHwbRz4 TL;DR claude agents 한 줄로 백그라운드 Claude Code 세션들을 한 화면에서 발사·감시·응답 각 세션은 터미널 없이도 살아남음 → supervisor 프로세스가 따로 돌림 워크트리로 파일 충돌 자동 격리, PR까지 띄우면 CI 상태도 행에 표시...",
+        "body": "시연 영상 > https://youtu.be/-INveHwbRz4 TL;DR claude agents 한 줄로 백그라운드 Claude Code 세션들을 한 화면에서 발사·감시·응답 각 세션은 터미널 없이도 살아남음 → supervisor 프로세스가 따로 돌림 워크트리로 파일 충돌 자동 격리, PR까지 띄우면 CI 상태도 행에 표시...",
+        "url": "https://news.hada.io/topic?id=29431",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-12T21:55:59+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_304",
+        "title": "UCLA, 뇌 손상 복구를 위한 첫 뇌졸중 재활 약물 발견 (2025)",
+        "excerpt": "UCLA Health 연구진은 생쥐에서 물리 재활 효과를 재현하는 약물로 뇌졸중 후 운동 제어 회복을 유의미하게 이끌어냄 뇌졸중 회복에는 아직 치료 약물이 없어 환자는 오래 지속하기 어려운 고강도 재활에 의존하며, 효과도 제한적임 뇌졸...",
+        "body": "UCLA Health 연구진은 생쥐에서 물리 재활 효과를 재현하는 약물로 뇌졸중 후 운동 제어 회복을 유의미하게 이끌어냄 뇌졸중 회복에는 아직 치료 약물이 없어 환자는 오래 지속하기 어려운 고강도 재활에 의존하며, 효과도 제한적임 뇌졸...",
+        "url": "https://news.hada.io/topic?id=29430",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-12T21:41:54+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_305",
+        "title": "Claude Code 에도 /goal 기능 추가",
+        "excerpt": "Claude Code에 목표 기반 자동 반복 실행 기능인 /goal 추가 목표가 완료될 때까지 Claude가 여러 턴을 자동으로 이어서 실행 각 턴 종료 후 fast model이 목표 달성 여부를 평가 미완료 시 다음 턴 자동 시작, 완료 시 goal 자동 제거 평가자는 파일/명령을 직접 확인하지...",
+        "body": "Claude Code에 목표 기반 자동 반복 실행 기능인 /goal 추가 목표가 완료될 때까지 Claude가 여러 턴을 자동으로 이어서 실행 각 턴 종료 후 fast model이 목표 달성 여부를 평가 미완료 시 다음 턴 자동 시작, 완료 시 goal 자동 제거 평가자는 파일/명령을 직접 확인하지...",
+        "url": "https://news.hada.io/topic?id=29428",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-12T17:34:38+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_306",
+        "title": "Mini Shai-Hulud의 귀환: npm 생태계를 강타한 자가 전파형 공급망 공격 (5/11)",
+        "excerpt": "개요 Mini Shai-Hulud 웜이 CI/CD 파이프라인을 탈취하고 개발자의 시크릿(비밀 정보)을 훔치는 방식으로 정상적인 npm 패키지들을 활발하게 감염시키고 있는 사건입니다. StepSecurity의 OSS Package Security Feed가 공식 @tanstack 패키지에서 이 공격을 처음 탐지하고 생태계 전반의 확산을...",
+        "body": "개요 Mini Shai-Hulud 웜이 CI/CD 파이프라인을 탈취하고 개발자의 시크릿(비밀 정보)을 훔치는 방식으로 정상적인 npm 패키지들을 활발하게 감염시키고 있는 사건입니다. StepSecurity의 OSS Package Security Feed가 공식 @tanstack 패키지에서 이 공격을 처음 탐지하고 생태계 전반의 확산을...",
+        "url": "https://news.hada.io/topic?id=29427",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-12T17:04:26+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_307",
+        "title": "AI가 코드를 작성한다면, 왜 Python을 쓰는가?",
+        "excerpt": "AI 보조 개발로 언어 선택 기준이 사람의 작성 속도에서 AI의 수정 능력과 런타임 성능으로 이동함 2026년 Claude Opus 4.7, GPT-5.5, Gemini 3.1, DeepSeek V4가 SWE-bench Verified 80% 를 넘김 Rust는 컴파일러 피드백 루프...",
+        "body": "AI 보조 개발로 언어 선택 기준이 사람의 작성 속도에서 AI의 수정 능력과 런타임 성능으로 이동함 2026년 Claude Opus 4.7, GPT-5.5, Gemini 3.1, DeepSeek V4가 SWE-bench Verified 80% 를 넘김 Rust는 컴파일러 피드백 루프...",
+        "url": "https://news.hada.io/topic?id=29426",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-12T15:38:12+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      }
+    ]
+  }
+}

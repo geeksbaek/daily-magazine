@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-05-13",
+      "issueNumber": 46,
+      "mainHeadline": "Google I/O 2026: Gemini Intelligence로 진화하는 Android와 AI 기술의 대전환",
+      "headlines": [
+        "OpenAI, 기업 AI 배포 전문 'Deployment Company' 출시 — 190억 달러 초기 투자 확보",
+        "Claude Code, 멀티 에이전트 관리를 위한 'Agent View' 기능 연구 프리뷰 공개",
+        "GitHub Copilot 개인 플랜 대폭 개편 — Pro/Pro+ 유연 할당량 및 Max 플랜 신설"
+      ]
+    },
+    {
       "date": "2026-05-12",
       "issueNumber": 45,
       "mainHeadline": "OpenAI, 기업 AI 도입 전문회사 정식 출범 — Anthropic도 AWS 지원으로 맞불",
@@ -446,5 +456,5 @@
       ]
     }
   ],
-  "latestIssue": 45
+  "latestIssue": 46
 }
