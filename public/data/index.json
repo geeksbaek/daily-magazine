@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-05-15",
+      "issueNumber": 47,
+      "mainHeadline": "Codex, 이제 스마트폰에서도 — OpenAI의 모바일 에이전트 시대",
+      "headlines": [
+        "Anthropic, Gates Foundation과 2억 달러 글로벌 임팩트 파트너십 체결",
+        "Google I/O 2026 예고: Gemini 통합 안드로이드의 새로운 모습",
+        "Figure AI 03, 30시간 이상 연속 물류 작업 달성 — 휴머노이드의 새 기준"
+      ]
+    },
+    {
       "date": "2026-05-13",
       "issueNumber": 46,
       "mainHeadline": "Google I/O 2026: Gemini Intelligence로 진화하는 Android와 AI 기술의 대전환",
@@ -456,5 +466,5 @@
       ]
     }
   ],
-  "latestIssue": 46
+  "latestIssue": 47
 }
