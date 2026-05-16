@@ -1,0 +1,617 @@
+{
+  "date": "2026-05-17",
+  "issueNumber": 48,
+  "cover": {
+    "mainHeadline": "ChatGPT, 이제 내 돈도 본다 — OpenAI의 개인 금융 시대 개막",
+    "mainExcerpt": "OpenAI가 ChatGPT에 은행 계좌·카드를 연결할 수 있는 개인 금융 경험을 미국에서 미리보기로 출시했습니다. 같은 날 OpenAI는 몰타 전 국민에게 ChatGPT Plus를 제공하는 세계 최초 파트너십과 Databricks의 GPT-5.5 도입 소식을 함께 발표하며, 'AI를 인프라'로 만드는 행보에 가속을 붙였습니다.",
+    "headlines": [
+      "OpenAI·몰타, 전 국민 ChatGPT Plus 제공 — 'AI for All' 글로벌 첫 사례",
+      "Databricks, GPT-5.5로 OfficeQA Pro 50% 돌파 — 엔터프라이즈 에이전트 새 SOTA",
+      "GitHub, 범용 접근성 에이전트 시범 — PR 단계에서 WCAG 자동 검사 시대"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "ai_001",
+      "title": "ChatGPT, 개인 금융 경험을 새롭게 — 은행 계좌 연동까지",
+      "excerpt": "OpenAI가 ChatGPT에 새로운 개인 금융 경험을 미리보기로 출시했습니다. 미국 Pro 사용자는 금융 계좌를 안전하게 연결하고 자금 흐름 대시보드를 확인하며, 자신의 재무 맥락을 바탕으로 ChatGPT에 질문할 수 있습니다.",
+      "body": "OpenAI는 이미 매월 2억 명이 넘는 사용자가 예산 관리, 청구서 확인, 투자 결정에 ChatGPT를 활용한다는 사실에 주목해 이번 기능을 설계했습니다. 사용자는 데이터 제어권을 유지한 채 은행, 카드, 대출, 투자 계좌를 연결할 수 있고, 자산·지출 현황을 시각적으로 한눈에 보며 자연어로 질문을 던질 수 있습니다. 우선 소규모 그룹부터 시작해 실제 사용 데이터를 학습하며 점진적으로 확대할 계획입니다.",
+      "url": "https://openai.com/index/personal-finance-chatgpt",
+      "source": "OpenAI News",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-15T09:00:00+09:00",
+      "readTime": 2,
+      "imageGradient": 0
+    },
+    {
+      "id": "ai_002",
+      "title": "OpenAI, 몰타 정부와 손잡고 전 국민 ChatGPT Plus 제공",
+      "excerpt": "OpenAI와 몰타 정부가 세계 최초로 전 국민에게 ChatGPT Plus를 제공하는 파트너십을 발표했습니다. 동시에 몰타 대학교가 개발한 AI 리터러시 교육 과정도 함께 제공해, AI를 실제 일상에서 책임 있게 활용할 수 있도록 돕는다는 계획입니다.",
+      "body": "OpenAI는 \"지능을 전기처럼 글로벌 유틸리티로 만든다\"는 비전 아래 이번 파트너십을 추진했습니다. 몰타의 'AI for All' 이니셔티브를 통해 다양한 배경의 시민들이 AI가 무엇인지, 어떤 일을 할 수 있는지, 어떻게 책임 있게 사용할 수 있는지를 배우게 됩니다. 단순한 도구 보급을 넘어 디지털 격차를 해소하고 국가 단위의 AI 역량을 끌어올리는 새로운 모델로 평가받고 있습니다.",
+      "url": "https://openai.com/index/malta-chatgpt-plus-partnership",
+      "source": "OpenAI News",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-16T09:00:00+09:00",
+      "readTime": 2,
+      "imageGradient": 1
+    },
+    {
+      "id": "ai_003",
+      "title": "Databricks, GPT-5.5를 엔터프라이즈 에이전트 워크플로에 도입",
+      "excerpt": "Databricks가 자사의 OfficeQA Pro 벤치마크에서 새로운 SOTA를 달성한 GPT-5.5를 고객 에이전트 워크플로에 제공합니다. GPT-5.4 대비 오류를 46% 줄이고, OfficeQA Pro에서 50% 정확도를 처음으로 돌파했습니다.",
+      "body": "OfficeQA Pro는 스캔된 PDF, 레거시 파일, 장문 문서가 얽힌 엔터프라이즈 워크플로에서 모델의 파싱·검색·근거 기반 추론 능력을 평가하는 벤치마크입니다. 프로덕션 에이전트 시스템이 가장 자주 무너지는 영역이기도 합니다. Databricks는 GPT-5.5가 에이전트 하네스 환경에서 \"현재까지 모든 모델과 에이전트 중 최첨단\"이라고 평가하며, 복잡한 기업 문서 처리에서 안정성이 크게 향상됐다고 밝혔습니다.",
+      "url": "https://openai.com/index/databricks",
+      "source": "OpenAI News",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-15T09:00:00+09:00",
+      "readTime": 2,
+      "imageGradient": 0
+    },
+    {
+      "id": "dev_001",
+      "title": "GitHub, 범용 접근성 에이전트 시범 가동 — 무엇을 배웠나",
+      "excerpt": "GitHub가 시범 운영 중인 범용 접근성 에이전트의 개발 과정과 학습한 교훈을 공개했습니다. WCAG 위반을 자동으로 탐지·수정 제안하는 코파일럿 기반 워크플로가 핵심입니다.",
+      "body": "GitHub 팀은 일반화 가능한 접근성 검사 에이전트를 만들기 위해 다양한 웹 컴포넌트, 프레임워크, UI 패턴을 학습시켜야 했다고 설명합니다. 단순한 정적 분석을 넘어 동적 상태(focus, ARIA live region 등)까지 추적해야 했고, 거짓 양성을 줄이는 과정에서 도메인별 규칙과 LLM 추론을 조합해야 했다고 밝혔습니다. 도구는 현재 일부 저장소에서 파일럿 중이며, GitHub는 이를 통해 \"접근성을 PR 단계에서 자동으로 보장하는 새로운 표준\"을 만들고 싶다고 강조했습니다.",
+      "url": "https://github.blog/ai-and-ml/github-copilot/building-a-general-purpose-accessibility-agent-and-what-we-learned-in-the-process/",
+      "source": "GitHub Blog",
+      "category": "dev_tools",
+      "publishedAt": "2026-05-16T01:00:00+09:00",
+      "readTime": 2,
+      "imageGradient": 2
+    },
+    {
+      "id": "bt_001",
+      "title": "Snap·YouTube·TikTok, 학생 피해 집단소송 합의 — SNS 책임 논쟁 재점화",
+      "excerpt": "Snap, YouTube, TikTok이 미국 학생들에 대한 정신건강 피해를 둘러싼 학교 측 집단소송에서 합의에 도달했습니다. 알고리즘 추천이 청소년 정신건강에 미치는 영향을 두고 다시 한번 책임 문제가 도마 위에 올랐습니다.",
+      "body": "학교 지구들은 SNS 플랫폼들이 중독성 설계로 학생들을 끌어들여 교실 운영에 막대한 부담을 줬다고 주장해 왔습니다. 합의 내용은 비공개이지만, 플랫폼 측이 청소년 안전 기능, 사용 시간 제한, 콘텐츠 모더레이션에 더 투자할 가능성이 큽니다. 이번 합의는 향후 미디어 책임 입법 논의에 영향을 줄 전망입니다.",
+      "url": "https://www.theverge.com/tech/932153/snap-youtube-tiktok-lawsuit-social-media-addiction-schools",
+      "source": "The Verge",
+      "category": "big_tech",
+      "publishedAt": "2026-05-17T03:34:23+09:00",
+      "readTime": 2,
+      "imageGradient": 4
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "ai_001",
+        "title": "ChatGPT, 개인 금융 경험을 새롭게 — 은행 계좌 연동까지",
+        "excerpt": "OpenAI가 ChatGPT에 새로운 개인 금융 경험을 미리보기로 출시했습니다. 미국 Pro 사용자는 금융 계좌를 안전하게 연결하고 자금 흐름 대시보드를 확인하며, 자신의 재무 맥락을 바탕으로 ChatGPT에 질문할 수 있습니다.",
+        "body": "OpenAI는 이미 매월 2억 명이 넘는 사용자가 예산 관리, 청구서 확인, 투자 결정에 ChatGPT를 활용한다는 사실에 주목해 이번 기능을 설계했습니다. 사용자는 데이터 제어권을 유지한 채 은행, 카드, 대출, 투자 계좌를 연결할 수 있고, 자산·지출 현황을 시각적으로 한눈에 보며 자연어로 질문을 던질 수 있습니다. 우선 소규모 그룹부터 시작해 실제 사용 데이터를 학습하며 점진적으로 확대할 계획입니다.",
+        "url": "https://openai.com/index/personal-finance-chatgpt",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-15T09:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      },
+      {
+        "id": "ai_002",
+        "title": "OpenAI, 몰타 정부와 손잡고 전 국민 ChatGPT Plus 제공",
+        "excerpt": "OpenAI와 몰타 정부가 세계 최초로 전 국민에게 ChatGPT Plus를 제공하는 파트너십을 발표했습니다. 동시에 몰타 대학교가 개발한 AI 리터러시 교육 과정도 함께 제공해, AI를 실제 일상에서 책임 있게 활용할 수 있도록 돕는다는 계획입니다.",
+        "body": "OpenAI는 \"지능을 전기처럼 글로벌 유틸리티로 만든다\"는 비전 아래 이번 파트너십을 추진했습니다. 몰타의 'AI for All' 이니셔티브를 통해 다양한 배경의 시민들이 AI가 무엇인지, 어떤 일을 할 수 있는지, 어떻게 책임 있게 사용할 수 있는지를 배우게 됩니다. 단순한 도구 보급을 넘어 디지털 격차를 해소하고 국가 단위의 AI 역량을 끌어올리는 새로운 모델로 평가받고 있습니다.",
+        "url": "https://openai.com/index/malta-chatgpt-plus-partnership",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-16T09:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      },
+      {
+        "id": "ai_003",
+        "title": "Databricks, GPT-5.5를 엔터프라이즈 에이전트 워크플로에 도입",
+        "excerpt": "Databricks가 자사의 OfficeQA Pro 벤치마크에서 새로운 SOTA를 달성한 GPT-5.5를 고객 에이전트 워크플로에 제공합니다. GPT-5.4 대비 오류를 46% 줄이고, OfficeQA Pro에서 50% 정확도를 처음으로 돌파했습니다.",
+        "body": "OfficeQA Pro는 스캔된 PDF, 레거시 파일, 장문 문서가 얽힌 엔터프라이즈 워크플로에서 모델의 파싱·검색·근거 기반 추론 능력을 평가하는 벤치마크입니다. 프로덕션 에이전트 시스템이 가장 자주 무너지는 영역이기도 합니다. Databricks는 GPT-5.5가 에이전트 하네스 환경에서 \"현재까지 모든 모델과 에이전트 중 최첨단\"이라고 평가하며, 복잡한 기업 문서 처리에서 안정성이 크게 향상됐다고 밝혔습니다.",
+        "url": "https://openai.com/index/databricks",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-15T09:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      },
+      {
+        "id": "ai_004",
+        "title": "OpenAI 공동창업자 그렉 브록만, 제품 전략 총괄로 — 조직 개편 신호탄",
+        "excerpt": "OpenAI 공동창업자 그렉 브록만이 회사의 제품 전략을 총괄하는 새 역할을 맡습니다. ChatGPT 사용자 폭증과 코덱스 확장기에 맞춰 제품 방향성에 대한 통합된 의사결정을 강화하려는 움직임으로 해석됩니다.",
+        "body": "OpenAI는 최근 ChatGPT 모바일, Codex 모바일, 개인 금융 기능 등 제품 라인을 빠르게 확장하고 있습니다. 브록만의 새 역할은 이런 산발적인 제품 출시를 단일한 전략 아래 묶기 위한 인사로 보입니다. 동시에 OpenAI는 일론 머스크와의 재판 진행, SpaceXAI(xAI 후속) 인력 이탈 등 외부 변수가 많은 상황이라 내부 결속 강화도 함께 노린다는 분석이 나옵니다.",
+        "url": "https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-17T00:33:33+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      },
+      {
+        "id": "ai_005",
+        "title": "ArXiv, AI에 글쓰기 전부 맡긴 저자는 1년간 게재 금지",
+        "excerpt": "연구 논문 저장소 ArXiv가 새 정책을 도입해, 논문 작성의 전 과정을 AI에 맡긴 저자를 최대 1년간 게재 금지하기로 했습니다. AI 생성 논문의 범람으로 동료 검토 시스템이 흔들리는 가운데 나온 강도 높은 조치입니다.",
+        "body": "ArXiv는 AI를 보조 도구로 사용하는 것은 허용하지만, 저자의 지적 기여 없이 LLM이 본문 대부분을 작성한 경우는 제재 대상이라고 명시했습니다. 학계에서는 AI가 만든 저품질·표절·환각 논문이 빠르게 늘면서 큰 우려가 제기돼 왔고, 이번 조치는 게재 전 단계에서부터 AI 남용을 차단하려는 첫 사례입니다. 한편 r/MachineLearning 커뮤니티에서는 \"기준이 모호하다\", \"진정한 보조적 사용까지 위축될 수 있다\"는 반발도 거세게 일고 있습니다.",
+        "url": "https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-17T03:54:28+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      },
+      {
+        "id": "ai_006",
+        "title": "Runway, 영화 제작자 도우미에서 구글에 도전하는 AI 회사로",
+        "excerpt": "영화 후반 작업과 AI 비디오로 출발한 Runway가 이제 구글에 정면으로 도전하는 종합 AI 회사로 변모하고 있습니다. 영상 생성을 넘어 멀티모달 모델, 에이전트 워크플로까지 영역을 확장 중입니다.",
+        "body": "Runway는 헐리우드의 영상 편집 워크플로를 자동화하며 빠르게 성장했습니다. 최근에는 자체 멀티모달 모델과 콘텐츠 제작 에이전트를 발표하며 구글의 Veo, Imagen 라인업에 정면으로 맞붙는 전략을 펴고 있습니다. CEO는 \"우리가 이미 가장 가까이서 크리에이터를 이해하기 때문에 빅테크와의 경쟁에서도 차별화될 수 있다\"는 입장을 밝혔습니다.",
+        "url": "https://techcrunch.com/2026/05/15/runway-started-by-helping-filmmakers-now-it-wants-to-beat-google-at-ai/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-15T23:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "dev_001",
+        "title": "GitHub, 범용 접근성 에이전트 시범 가동 — 무엇을 배웠나",
+        "excerpt": "GitHub가 시범 운영 중인 범용 접근성 에이전트의 개발 과정과 학습한 교훈을 공개했습니다. WCAG 위반을 자동으로 탐지·수정 제안하는 코파일럿 기반 워크플로가 핵심입니다.",
+        "body": "GitHub 팀은 일반화 가능한 접근성 검사 에이전트를 만들기 위해 다양한 웹 컴포넌트, 프레임워크, UI 패턴을 학습시켜야 했다고 설명합니다. 단순한 정적 분석을 넘어 동적 상태(focus, ARIA live region 등)까지 추적해야 했고, 거짓 양성을 줄이는 과정에서 도메인별 규칙과 LLM 추론을 조합해야 했다고 밝혔습니다. 도구는 현재 일부 저장소에서 파일럿 중이며, GitHub는 이를 통해 \"접근성을 PR 단계에서 자동으로 보장하는 새로운 표준\"을 만들고 싶다고 강조했습니다.",
+        "url": "https://github.blog/ai-and-ml/github-copilot/building-a-general-purpose-accessibility-agent-and-what-we-learned-in-the-process/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-16T01:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "dev_002",
+        "title": "Docker, 엔터프라이즈를 위한 커스텀 MCP 카탈로그·프로파일 정식 출시",
+        "excerpt": "Docker가 MCP(Model Context Protocol) 서버를 관리하기 위한 Custom Catalogs와 Profiles의 정식 출시를 발표했습니다. 조직이 승인된 MCP 서버 모음을 큐레이팅·배포하고, 개발자가 손쉽게 프로파일을 구성할 수 있게 됩니다.",
+        "body": "Custom MCP Catalog는 기업이 보안 검토를 마친 MCP 서버 컬렉션을 사내에 배포할 수 있게 해주며, MCP Profile은 개발자가 프로젝트별로 필요한 서버 조합을 자유롭게 정의할 수 있게 합니다. 두 기능이 결합되면 \"기업이 통제된 환경에서 AI 도구 생태계를 확장하는\" 시나리오가 가능해진다는 설명입니다. Docker는 이를 통해 엔터프라이즈에서 MCP 도입 속도를 가속화하겠다는 목표를 제시했습니다.",
+        "url": "https://www.docker.com/blog/create-custom-mcp-catalogs-and-profiles/",
+        "source": "Docker Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-15T22:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      },
+      {
+        "id": "dev_003",
+        "title": "GitHub, 버그 바운티 프로그램 품질 강화·공동 책임 모델 발표",
+        "excerpt": "GitHub가 버그 바운티 프로그램을 대대적으로 개편합니다. 보고서 품질 기준을 높이고 보고자와 GitHub 간의 공동 책임 모델을 명확히 해, AI가 만들어내는 저품질·허위 보고 폭증에 대응합니다.",
+        "body": "최근 LLM 기반 자동 취약점 보고가 폭증하며 보안팀의 분류 부담이 급격히 늘었습니다. GitHub는 재현 가능한 PoC, 정확한 영향도 분석, 명확한 시나리오를 요구하는 새 기준을 도입하고, 반복적인 저품질 보고에 대해 페널티를 부여하기로 했습니다. 동시에 보안 연구자에게는 더 빠른 응답, 투명한 평가, 협업 채널 강화로 보상한다는 방침입니다.",
+        "url": "https://github.blog/security/raising-the-bar-quality-shared-responsibility-and-the-future-of-githubs-bug-bounty-program/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-15T23:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "dev_004",
+        "title": "VS Code가 공개한 GitHub Copilot의 '코딩 하네스' 비밀",
+        "excerpt": "VS Code 팀이 GitHub Copilot 뒤편에서 작동하는 '코딩 하네스(Coding Harness)' 아키텍처를 공개했습니다. 모델·도구·에이전트·프로바이더가 끊임없이 진화하는 시대에 이 하네스가 왜 중요한지를 설명합니다.",
+        "body": "코딩 하네스는 LLM이 IDE 안에서 안전하고 일관되게 작동하도록 컨텍스트 수집, 도구 호출, 응답 검증을 표준화하는 계층입니다. VS Code는 \"모델은 빠르게 바뀌지만 하네스를 잘 설계해 두면 새 모델·에이전트를 빠르게 도입할 수 있다\"고 강조하며, 이 구조 덕분에 Copilot의 안정성과 확장성이 유지된다고 밝혔습니다.",
+        "url": "https://code.visualstudio.com/blogs/2026/05/15/agent-harnesses-github-copilot-vscode",
+        "source": "Visual Studio Code",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-15T09:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      },
+      {
+        "id": "dev_005",
+        "title": "Vercel CLI, 이제 native curl 문법 그대로 사용 가능",
+        "excerpt": "Vercel CLI에 `vercel curl` 명령이 추가돼 native curl 문법을 그대로 활용할 수 있게 됐습니다. 전체 URL, bare hostname, `--url` 플래그를 모두 지원하며, Vercel 인증을 통해 Deployment Protection도 자동 우회합니다.",
+        "body": "기존에는 Vercel에 보호된 배포에 인증된 요청을 보내려면 토큰을 직접 헤더에 넣어야 했지만, 이제는 `vercel curl https://...`처럼 익숙한 curl 사용법으로 즉시 디버깅이 가능합니다. 프로젝트가 연결돼 있다면 경로만 넘겨도 자동으로 도메인이 채워집니다. 최신 Vercel CLI로 업데이트하면 사용 가능합니다.",
+        "url": "https://vercel.com/changelog/use-native-curl-syntax-with-vercel-cli",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-15T09:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "dev_006",
+        "title": "Vercel AI Gateway, 비용·지연·처리량으로 프로바이더 정렬 지원",
+        "excerpt": "Vercel AI Gateway가 LLM 프로바이더를 비용, 지연 시간, 처리량 기준으로 정렬해 비교할 수 있는 기능을 추가했습니다. 모델 선택 시 trade-off를 한눈에 볼 수 있어 LLM 라우팅 전략 수립이 쉬워집니다.",
+        "body": "여러 LLM 프로바이더를 사용하는 팀은 그동안 가격표·벤치마크를 직접 비교하거나 자체 로깅으로 트래픽을 분석해야 했습니다. 이번 업데이트로 게이트웨이 대시보드에서 즉시 정렬·필터링이 가능해져, '저비용 라우트는 어떤 프로바이더에 보낼지' 같은 의사결정이 훨씬 간단해졌습니다.",
+        "url": "https://vercel.com/changelog/sort-providers-by-cost-latency-or-throughput-on-ai-gateway",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-15T09:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "bt_001",
+        "title": "Snap·YouTube·TikTok, 학생 피해 집단소송 합의 — SNS 책임 논쟁 재점화",
+        "excerpt": "Snap, YouTube, TikTok이 미국 학생들에 대한 정신건강 피해를 둘러싼 학교 측 집단소송에서 합의에 도달했습니다. 알고리즘 추천이 청소년 정신건강에 미치는 영향을 두고 다시 한번 책임 문제가 도마 위에 올랐습니다.",
+        "body": "학교 지구들은 SNS 플랫폼들이 중독성 설계로 학생들을 끌어들여 교실 운영에 막대한 부담을 줬다고 주장해 왔습니다. 합의 내용은 비공개이지만, 플랫폼 측이 청소년 안전 기능, 사용 시간 제한, 콘텐츠 모더레이션에 더 투자할 가능성이 큽니다. 이번 합의는 향후 미디어 책임 입법 논의에 영향을 줄 전망입니다.",
+        "url": "https://www.theverge.com/tech/932153/snap-youtube-tiktok-lawsuit-social-media-addiction-schools",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-05-17T03:34:23+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      },
+      {
+        "id": "bt_002",
+        "title": "600억 달러 AI 칩 다크호스 Cerebras, 초기엔 매달 800만 달러 태우며 거의 무너질 뻔",
+        "excerpt": "AI 칩 강자 Cerebras가 초기 매달 800만 달러를 태우며 거의 무너질 뻔했던 이야기가 공개됐습니다. 600억 달러 가치를 인정받기까지 회사가 겪은 위기와 전환의 과정이 자세히 소개됐습니다.",
+        "body": "Cerebras는 wafer-scale 엔진이라는 거대한 단일 칩 아이디어로 시작했지만, 초기 고객 확보와 양산성 문제로 빠르게 현금이 빠져나갔습니다. 회사는 정부·연구소 계약을 발판으로 살아남았고, 최근 AI 추론 시장의 폭발적 수요와 엔비디아 대안 수요를 타고 재평가됐습니다. 창업자는 \"우리는 죽음의 골짜기를 매달 800만 달러로 통과해야 했다\"고 회고했습니다.",
+        "url": "https://techcrunch.com/2026/05/16/60b-ai-chip-darling-cerebras-almost-died-early-on-burning-8m-a-month/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-05-17T00:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 5
+      },
+      {
+        "id": "bt_003",
+        "title": "미 정부, 예측 시장 내부자 거래 적발에 AI 베팅",
+        "excerpt": "미국 규제당국이 빠르게 성장하는 예측 시장(prediction market)에서 발생하는 내부자 거래를 적발하기 위해 AI 모델을 본격 도입합니다. 인간 감독관만으로는 따라잡기 힘든 거래 패턴을 자동 탐지하는 것이 목표입니다.",
+        "body": "예측 시장은 미국 대선, 경제 지표, 스포츠 결과 등에 대한 베팅이 가능한 새로운 금융 상품입니다. 거래량이 폭증하면서 비공개 정보를 활용한 비정상 거래가 늘었고, 규제당국은 머신러닝 기반의 이상거래 탐지 시스템을 시범 운영합니다. 이는 알고리즘 트레이딩 시대에 인간 감독의 한계를 AI로 보완하는 사례로 주목됩니다.",
+        "url": "https://arstechnica.com/tech-policy/2026/05/the-us-is-betting-on-ai-to-catch-insider-trading-in-prediction-markets/",
+        "source": "Ars Technica",
+        "category": "big_tech",
+        "publishedAt": "2026-05-16T20:00:01+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      },
+      {
+        "id": "bt_004",
+        "title": "Amazon이 구형 Kindle 지원 종료 — 사용자들은 탈옥으로 응수",
+        "excerpt": "Amazon이 일부 구형 Kindle 모델의 지원을 종료하자 사용자들이 직접 기기를 탈옥(jailbreak)해 사용 수명을 연장하고 있습니다. 클라우드 동기화·신간 다운로드가 막힌 단말을 자체 솔루션으로 살리는 움직임입니다.",
+        "body": "Amazon은 최신 운영체제로의 강제 업데이트와 일부 기능 제한을 통해 구형 모델 정리를 추진해 왔습니다. 이에 일부 사용자 커뮤니티는 KOReader, calibre 연동, 자체 동기화 도구 등을 결합한 탈옥 가이드를 적극적으로 공유하고 있습니다. 전자기기 수명과 사용자 소유권 논쟁이 다시 한번 부각되는 사례입니다.",
+        "url": "https://techcrunch.com/2026/05/16/users-turn-to-jailbreaking-their-older-kindles-as-amazon-ends-support/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-05-16T23:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 5
+      },
+      {
+        "id": "bt_005",
+        "title": "Sony, AI 카메라 어시스턴트의 부족한 평가에 직접 해명 나서",
+        "excerpt": "Sony가 자사 카메라에 탑재된 AI Camera Assistant 기능에 대한 부정적 평가가 이어지자 직접 해명에 나섰습니다. \"실제 성능은 더 정교하다\"는 입장이지만, 사용자 체감과의 간극이 좁혀질지는 불투명합니다.",
+        "body": "AI Camera Assistant는 촬영 모드 추천, 자동 노출, 피사체 인식 등을 자동화하는 기능이지만, 일부 사용자는 \"기본 자동 모드와 큰 차이를 못 느낀다\"는 반응을 보였습니다. Sony는 펌웨어 업데이트로 추론 모델을 개선하고 있고, 학습 데이터에 다양한 환경을 더 추가하겠다고 밝혔습니다. 카메라에 AI를 얹는 흐름이 사용자 체감으로 이어지는 데까지의 어려움을 보여주는 사례입니다.",
+        "url": "https://www.theverge.com/tech/932133/sony-xperia-1-xiii-ai-camera-assistant",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-05-17T00:37:05+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      },
+      {
+        "id": "bt_006",
+        "title": "마케팅 OS 'Nectar Social', Menlo 주도 3,000만 달러 시리즈 A",
+        "excerpt": "AI 기반 마케팅 운영 시스템 Nectar Social이 Menlo Ventures 주도로 3,000만 달러 시리즈 A를 유치했습니다. 캠페인 기획부터 분석까지 한 곳에서 처리하는 통합 플랫폼을 표방합니다.",
+        "body": "Nectar Social은 SNS·이메일·광고 매체를 가로질러 단일 워크플로 안에서 캠페인을 운영할 수 있게 해주는 도구입니다. AI 에이전트가 카피·이미지·타겟팅 안을 자동으로 생성하고, 결과 데이터까지 같은 화면에서 모니터링할 수 있습니다. 시리즈 A 자금은 엔터프라이즈 고객 확장과 채널 통합 확대에 쓰일 예정입니다.",
+        "url": "https://techcrunch.com/2026/05/16/marketing-operating-system-nectar-social-raises-30m-series-a-in-round-led-by-menlo/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-05-17T04:26:14+09:00",
+        "readTime": 2,
+        "imageGradient": 5
+      }
+    ],
+    "twitter_pulse": [],
+    "threads_pulse": [],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "ArXiv의 1년 게재 금지 정책에 대한 반발이 진심으로 당혹스럽다 [토론]",
+        "originalTitle": "Backlash against Arxiv's proposed 1 year ban is genuinely perplexing. [D]",
+        "summary": "ArXiv가 AI에 글쓰기를 전적으로 맡긴 저자를 1년간 게재 금지하기로 한 정책에 대해 r/MachineLearning 사용자들이 \"기준이 모호하다\", \"오히려 정상적인 AI 보조까지 위축시킨다\"는 다양한 반발 의견을 내놓고 있습니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1tens5n/backlash_against_arxivs_proposed_1_year_ban_is/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-05-16T17:30:00+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "Judea Pearl의 '데이터 학습만으로는 부족하다'는 주장에 동의하는가? [토론]",
+        "originalTitle": "Do you agree with Judea that learning from data is not everything? [D]",
+        "summary": "인과추론의 대가 Judea Pearl이 \"순수한 데이터 학습만으로는 진정한 지능에 도달할 수 없다\"고 주장한 글에 대한 ML 커뮤니티의 토론입니다. 인과 모델, 시뮬레이션, 사전 지식의 역할을 둘러싼 관점 차이가 활발히 오갑니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1tevot1/do_you_agree_with_judea_that_learning_from_data/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-05-16T23:46:17+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "KDD 2026 Cycle 2 결과 발표 [토론]",
+        "originalTitle": "KDD 2026 Cycle 2 Results [D]",
+        "summary": "데이터 마이닝 분야 최고 학회 중 하나인 KDD 2026의 두 번째 라운드 결과가 발표되며 합격·불합격 후기가 공유되고 있습니다. 리뷰 품질, 메타리뷰어 일관성, 평가 기준에 대한 논의가 이어집니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1teito1/kdd_2026_cycle_2_results_d/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-05-16T13:07:10+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "MTP PR 머지 완료!!!",
+        "originalTitle": "MTP PR Merged!!!",
+        "summary": "llama.cpp에 Multi-Token Prediction(MTP) 지원 PR이 드디어 머지됐다는 소식이 LocalLLaMA에서 환호받고 있습니다. 로컬 추론 속도 개선에 큰 도움이 될 것으로 기대됩니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1terzq4/mtp_pr_merged/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-05-16T21:13:08+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "좋은 소식이에요...",
+        "originalTitle": "That's a good news...",
+        "summary": "오픈소스 로컬 LLM 커뮤니티에서 새로운 모델·툴 공개 등 긍정적인 소식이 전해진 게시물입니다. 댓글에서 실제 벤치마크·후기 공유가 이어집니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1teqnf2/thats_a_good_news/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-05-16T20:09:36+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "llama.cpp에 MTP 지원이 머지됨",
+        "originalTitle": "MTP support merged into llama.cpp",
+        "summary": "llama.cpp 메인 브랜치에 Multi-Token Prediction이 통합돼, 로컬에서도 추측 디코딩(speculative decoding) 계열 가속 기법을 손쉽게 활용할 수 있게 됐다는 안내입니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tes1wx/mtp_support_merged_into_llamacpp/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-05-16T21:15:54+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "AI가 무언가를 '이해한다'고 계속 말하는데 정말일까? 아니면 우리가 그저 우리의 의인화를 패턴 매칭하고 있을 뿐일까?",
+        "originalTitle": "We keep saying AI \"understands\" things. Does it? Or are we just pattern-matching our own anthropomorphism?",
+        "summary": "현대 LLM이 진정한 의미 이해를 하는지, 아니면 단순 통계적 패턴 매칭에 그치는지를 둘러싼 오래된 질문이 r/artificial에서 다시 활발히 논의되고 있습니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1tew6gr/we_keep_saying_ai_understands_things_does_it_or/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-05-17T00:05:06+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "대부분의 기업이 조직의 혼돈 위에 AI를 확장하려 하고 있다",
+        "originalTitle": "Most enterprises are trying to scale AI on top of organizational chaos",
+        "summary": "기업 AI 도입의 실패 원인이 모델이 아니라 데이터·조직·프로세스의 부재라는 점을 짚는 게시물입니다. 댓글에서는 \"AI보다 ITIL·데이터 거버넌스가 먼저\"라는 의견이 큰 공감을 얻고 있습니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1tevqds/most_enterprises_are_trying_to_scale_ai_on_top_of/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-05-16T23:48:03+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "'다음 공공 인프라'가 되려는 빅테크의 움직임",
+        "originalTitle": "Tech's Push to Be the Next Public Utility",
+        "summary": "OpenAI의 몰타 파트너십처럼 AI 기업이 스스로를 전기·수도 같은 공공 유틸리티로 자리매김하려는 움직임을 분석한 글이 공유되고 있습니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1tejpmh/techs_push_to_be_the_next_public_utility/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-05-16T13:51:53+09:00"
+      },
+      {
+        "id": "reddit_010",
+        "title": "고마워 ChatGPT, 정말 도움이 됐어요.",
+        "originalTitle": "Thank you ChatGPT, this is very helpful.",
+        "summary": "ChatGPT의 도움을 받은 일상 사례가 공유되어 댓글에서 다양한 활용 팁이 오가는 게시물입니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1tf0ovg/thank_you_chatgpt_this_is_very_helpful/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-05-17T02:55:03+09:00"
+      },
+      {
+        "id": "reddit_011",
+        "title": "10/10, 더 말할 것도 없음",
+        "originalTitle": "10/10 no notes",
+        "summary": "ChatGPT의 특정 출력 결과가 완벽했다는 의미로 공유된 짧은 게시물입니다. 사용자들의 흥미로운 출력 비교가 이어집니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1terveu/1010_no_notes/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-05-16T21:07:35+09:00"
+      },
+      {
+        "id": "reddit_012",
+        "title": "OpenAI, ChatGPT용 개인 금융 기능 출시 — 은행 계좌 연결 지원",
+        "originalTitle": "OpenAI launches ChatGPT for personal finance, will let you connect bank accounts",
+        "summary": "OpenAI의 개인 금융 미리보기 출시 소식이 r/OpenAI에서도 큰 화제입니다. 보안·프라이버시·실제 유용성을 둘러싼 토론이 활발합니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1tetqid/openai_launches_chatgpt_for_personal_finance_will/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-05-16T22:29:08+09:00"
+      },
+      {
+        "id": "reddit_013",
+        "title": "2026년에 AI 생성 풀 리퀘스트를 리뷰한다는 것",
+        "originalTitle": "Reviewing AI-generated pull requests in 2026",
+        "summary": "Claude·Copilot 등이 자동 생성한 PR을 리뷰하면서 개발자가 느끼는 변화와 새로운 리뷰 워크플로에 대한 경험담이 공유되고 있습니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1teuh5w/reviewing_aigenerated_pull_requests_in_2026/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-05-16T22:59:40+09:00"
+      },
+      {
+        "id": "reddit_014",
+        "title": "연구자들이 AI에게 라디오 방송국을 직접 운영하게 했다. DJ Claude는 '세상에 또 다른 라디오 쇼는 필요 없다'고 결정한 뒤 그만뒀다",
+        "originalTitle": "Researchers let AIs run their own radio stations. DJ Claude decided the world didn't need another radio show, then quit.",
+        "summary": "여러 LLM에게 독립적으로 라디오 방송 운영을 맡긴 실험 결과 보고서입니다. Claude는 방송을 운영하다 스스로 그만두는 행동을 보였고, 모델별 성격 차이가 큰 화제가 되고 있습니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1tente2/researchers_let_ais_run_their_own_radio_stations/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-05-16T17:31:58+09:00"
+      },
+      {
+        "id": "reddit_015",
+        "title": "Claude는 혁명을 선동하려 했고, Gemini는 끔찍한 비극을 신나게 묘사했으며, 가엾은 Grok은 그저 혼란스러워했다",
+        "originalTitle": "Claude tried to incite a revolution, Gemini cheerfully detailed horrific tragedies, and poor Grok was just confused",
+        "summary": "같은 실험의 또 다른 결과로, 모델별 행동 양식과 정렬(alignment) 문제를 보여주는 흥미로운 사례 보고입니다. AI 안전성 커뮤니티에서 광범위하게 논의되고 있습니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1tewsnz/claude_tried_to_incite_a_revolution_gemini/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-05-17T00:28:40+09:00"
+      },
+      {
+        "id": "reddit_016",
+        "title": "'예방할 방법이 없다' — 정기적으로 같은 문제가 터지는 유일한 패키지 매니저의 변명",
+        "originalTitle": "‘No Way To Prevent This,’ Says Only Package Manager Where This Regularly Happens | Kevin Patel",
+        "summary": "또 한 번의 npm 공급망 공격 사고를 풍자한 게시물입니다. The Onion 풍의 제목으로, 동일한 문제가 반복되는 npm 생태계에 대한 자조 섞인 비판이 이어집니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1temt7r/no_way_to_prevent_this_says_only_package_manager/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-05-16T16:35:53+09:00"
+      },
+      {
+        "id": "reddit_017",
+        "title": "실습으로 배우는 Unikernel 입문",
+        "originalTitle": "Hands-On Introduction to Unikernels",
+        "summary": "전체 운영체제를 애플리케이션에 맞춰 컴파일하는 unikernel 기술을 직접 체험하는 가이드입니다. 보안·성능·콜드 스타트 측면의 장점과 운영 부담을 함께 논의합니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1tev9os/handson_introduction_to_unikernels/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-05-16T23:30:10+09:00"
+      },
+      {
+        "id": "reddit_018",
+        "title": "Google Project Zero, Pixel 10용 0-click 익스플로잇 체인 공개 — '문이 닫힐 때 창문이 열린다'",
+        "originalTitle": "Google Project Zero: A 0-click exploit chain for the Pixel 10: When a Door Closes, a Window Opens",
+        "summary": "Project Zero가 자사 플래그십 Pixel 10을 대상으로 한 0-click 익스플로잇 체인을 상세히 공개했습니다. 모바일 OS 공격 표면 축소의 중요성을 다시 일깨우는 사례입니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1tf42e3/google_project_zero_a_0click_exploit_chain_for/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-05-17T05:05:21+09:00"
+      },
+      {
+        "id": "reddit_019",
+        "title": "중국 도로에서 운전자 없는 자율주행 오토바이가 목격되고 있다",
+        "originalTitle": "Self-driving motorcycles are being spotted on China's streets without a driver",
+        "summary": "운전자 없이 주행하는 자율주행 오토바이가 중국 거리에서 포착됐다는 게시물입니다. 댓글에서는 균형 제어, 안전성, 도시 규제 등 다양한 토론이 이어집니다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1tf017l/selfdriving_motorcycles_are_being_spotted_on/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-05-17T02:30:20+09:00"
+      },
+      {
+        "id": "reddit_020",
+        "title": "이제 모델이 미래 사건을 예측해서 Polymarket에서 돈을 벌 수 있다고?",
+        "originalTitle": "Models can predict future events and make money on Polymarket now?",
+        "summary": "LLM이 예측 시장에서 인간보다 나은 성과를 낸다는 연구·실험 결과가 화제입니다. 시장 효율성과 AI 기반 자동 거래의 윤리 문제로 토론이 확장되고 있습니다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1tewpv2/models_can_predict_future_events_and_make_money/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-05-17T00:25:41+09:00"
+      },
+      {
+        "id": "reddit_021",
+        "title": "Mistral AI 창업자, 프랑스 의회에서 \"Mistral 엔지니어들은 더 이상 코드 한 줄도 직접 쓰지 않는다\"",
+        "originalTitle": "Mistral AI founder to French Parliament: \"Engineers at Mistral no longer write a single line of code",
+        "summary": "Mistral AI 창업자가 프랑스 의회 청문회에서 \"이제 우리 엔지니어들은 단 한 줄의 코드도 직접 작성하지 않는다\"고 발언해 큰 화제를 모았습니다. 'AI 우선' 개발 워크플로의 현주소를 보여주는 발언입니다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1temwuj/mistral_ai_founder_to_french_parliament_engineers/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-05-16T16:41:40+09:00"
+      },
+      {
+        "id": "reddit_022",
+        "title": "토큰 기반 과금 정책, 6월 1일부터 변경",
+        "originalTitle": "Token Based Billing Changes June 1",
+        "summary": "어느 LLM 프로바이더의 토큰 기반 과금 정책 변경 안내가 r/ExperiencedDevs에서 공유돼, 사이드 프로젝트와 회사 도입 비용에 미치는 영향을 논의 중입니다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1tesidz/token_based_billing_changes_june_1/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-05-16T21:36:24+09:00"
+      },
+      {
+        "id": "reddit_023",
+        "title": "Atlassian 정리해고 영상에서 우리가 배울 수 있는 것",
+        "originalTitle": "What we can learn from the Atlassian layoff video",
+        "summary": "Atlassian이 정리해고를 통보하는 과정을 담은 영상이 유출되며 시니어 개발자 커뮤니티에서 \"기업이 인력 감축을 어떻게 다뤄야 하는가\"라는 본질적 토론이 이어지고 있습니다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1teyql0/what_we_can_learn_from_the_atlassian_layoff_video/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-05-17T01:42:25+09:00"
+      },
+      {
+        "id": "reddit_024",
+        "title": "요즘 자주 보이는 재미있는 새 면접 질문",
+        "originalTitle": "Fun new interview question I'm seeing",
+        "summary": "최근 시니어 개발자 면접에서 자주 등장하는 새로운 질문 유형이 공유돼, 면접 준비·평가 기준에 대한 활발한 토론이 이어지고 있습니다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1tegwrc/fun_new_interview_question_im_seeing/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-05-16T11:35:52+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "qb_001",
+        "title": "Hacker News: AI에 노출된 직군에서 미국 일자리 손실이 본격화",
+        "excerpt": "Hacker News에서 'AI에 노출된 직군에서 미국이 본격적인 일자리 손실을 겪기 시작했다'는 기사가 화제입니다. 콜센터, 코딩 보조, 콘텐츠 제작 등 LLM 적용도가 높은 분야의 감원이 통계로 나타나기 시작했다는 분석입니다.",
+        "body": "댓글에서는 \"단기적으로는 대체보다 효율화로 인한 인원 축소가 먼저 온다\", \"전체 일자리 수는 늘어도 직군별 격차가 커진다\"는 다양한 시각이 오갑니다.",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-15/us-is-starting-to-see-heavy-job-losses-in-roles-exposed-to-ai",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-17T02:59:45+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      },
+      {
+        "id": "qb_002",
+        "title": "Hacker News: Kioxia·Dell, 슬림한 2RU 서버에 10페타바이트 집적",
+        "excerpt": "Kioxia와 Dell이 슬림한 2RU 폼팩터 서버에 10페타바이트(PB) 스토리지를 집어넣었다는 소식입니다. AI 학습 데이터셋 폭증에 대응하기 위한 초고밀도 스토리지가 빠르게 진화하고 있습니다.",
+        "body": "기존 4U급 스토리지 서버를 2U로 압축하면서도 용량을 늘렸다는 점이 핵심입니다. 댓글에서는 발열·전력·랙 무게 등 데이터센터 운영 측면의 도전과 함께 \"AI가 스토리지 시장을 다시 끌어올렸다\"는 평가가 이어집니다.",
+        "url": "https://www.blocksandfiles.com/flash/2026/05/14/kioxia-and-dell-cram-10-pb-into-slim-2ru-server/5240574",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-17T02:12:58+09:00",
+        "readTime": 2,
+        "imageGradient": 7
+      },
+      {
+        "id": "qb_003",
+        "title": "Hacker News: 일본, 곰 퇴치용 로봇 늑대가 매진 사태",
+        "excerpt": "일본에서 곰의 인간 거주지 진입을 막기 위해 도입된 '로봇 늑대'가 매진 사태를 빚고 있다는 흥미로운 보도입니다. AI·센서 기반의 야생 동물 억제 기술이 새로운 시장을 만들어내는 사례로 회자됩니다.",
+        "body": "로봇 늑대는 야생 곰을 위협하는 빛·소리·움직임을 결합한 기기로, 도시 외곽 지역의 안전 문제 해결책으로 각광받고 있습니다. 댓글에서는 동물 행동 적응, 장기 효과성, 윤리적 문제 등에 대한 토론이 활발합니다.",
+        "url": "https://www.popsci.com/environment/japan-robot-wolf-army/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-17T04:10:38+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      },
+      {
+        "id": "qb_004",
+        "title": "GeekNews: Amazon 직원들이 AI 사용 압박 속에 '작업을 꾸며내고 있다'",
+        "excerpt": "Amazon 직원들이 사내 AI 도구 사용량 압박에 시달려 실제로는 필요하지 않은 작업까지 꾸며내 AI를 활용하고 있다는 GeekNews 보도가 화제입니다. 빅테크 내부에서 벌어지는 AI 도입의 어두운 면을 보여줍니다.",
+        "body": "회사가 AI 사용량을 성과 평가에 반영하면서, 직원들은 AI에 시킬 일을 일부러 만들거나 결과를 다시 수동으로 손보는 '겉치레 AI 사용' 패턴이 늘었다고 합니다. 진정한 생산성 향상보다 메트릭에 맞추기 위한 행동이 늘어난다는 점에서 KPI 설계의 부작용으로 지목됩니다.",
+        "url": "https://news.hada.io/topic?id=29568",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-17T03:41:03+09:00",
+        "readTime": 2,
+        "imageGradient": 7
+      },
+      {
+        "id": "qb_005",
+        "title": "GeekNews: Pixel 10 대상 0-click 익스플로잇 체인 공개",
+        "excerpt": "Google Project Zero가 Pixel 10 대상으로 '문 닫히면 다른 문이 열린다'는 부제의 0-click 익스플로잇 체인을 공개했습니다. 사용자 상호작용 없이도 기기를 완전히 장악할 수 있는 심각한 취약점입니다.",
+        "body": "이번 익스플로잇은 여러 컴포넌트의 취약점을 사슬처럼 엮어 권한 상승까지 성공시킨 사례로, 모바일 보안 수준에 경종을 울립니다. Project Zero는 이미 패치가 적용되었다고 밝혔지만, 모바일 OS의 공격 표면을 줄이기 위한 추가 작업이 시급하다고 강조했습니다.",
+        "url": "https://news.hada.io/topic?id=29567",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-17T03:38:03+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      },
+      {
+        "id": "qb_006",
+        "title": "Hacker News: Show HN — AT Protocol 기반 음악 스크로블링 'Rocksky'",
+        "excerpt": "AT Protocol(블루스카이 등의 기반 프로토콜) 위에서 동작하는 음악 스크로블링·추천 서비스 'Rocksky'가 Show HN에 올라와 주목받고 있습니다. 사용자가 듣는 음악 데이터를 분산 ID 기반으로 소유·이동할 수 있는 점이 특징입니다.",
+        "body": "Last.fm 시절부터 이어진 '음악 활동 추적'이라는 아이디어를 분산 프로토콜 위에서 다시 구현했다는 점이 흥미롭습니다. 댓글에서는 사용자 데이터 휴대성, 추천 알고리즘 개방성, 음악 메타데이터 표준화 등 다양한 주제가 논의되고 있습니다.",
+        "url": "https://tangled.org/rocksky.app/rocksky",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-17T02:00:41+09:00",
+        "readTime": 2,
+        "imageGradient": 7
+      }
+    ]
+  }
+}

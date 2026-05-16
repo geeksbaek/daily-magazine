@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-05-17",
+      "issueNumber": 48,
+      "mainHeadline": "ChatGPT, 이제 내 돈도 본다 — OpenAI의 개인 금융 시대 개막",
+      "headlines": [
+        "OpenAI·몰타, 전 국민 ChatGPT Plus 제공 — 'AI for All' 글로벌 첫 사례",
+        "Databricks, GPT-5.5로 OfficeQA Pro 50% 돌파 — 엔터프라이즈 에이전트 새 SOTA",
+        "GitHub, 범용 접근성 에이전트 시범 — PR 단계에서 WCAG 자동 검사 시대"
+      ]
+    },
+    {
       "date": "2026-05-15",
       "issueNumber": 47,
       "mainHeadline": "Codex, 이제 스마트폰에서도 — OpenAI의 모바일 에이전트 시대",
@@ -466,5 +476,5 @@
       ]
     }
   ],
-  "latestIssue": 47
+  "latestIssue": 48
 }
