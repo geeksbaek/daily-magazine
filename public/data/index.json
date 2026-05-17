@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-05-18",
+      "issueNumber": 49,
+      "mainHeadline": "DeepMind, 환경 위기에 AI 띄운다 — 'AI for the Planet' APAC 출범",
+      "headlines": [
+        "iOS 27 새 Siri, 채팅 자동 삭제 옵션 탑재 — Apple의 프라이버시 카드",
+        "에릭 슈미트 졸업식 연설, AI 응원하다 학생들에게 야유받아",
+        "Musk vs Altman 재판 3주차 — 신뢰의 문제가 핵심 쟁점으로"
+      ]
+    },
+    {
       "date": "2026-05-17",
       "issueNumber": 48,
       "mainHeadline": "ChatGPT, 이제 내 돈도 본다 — OpenAI의 개인 금융 시대 개막",
@@ -476,5 +486,5 @@
       ]
     }
   ],
-  "latestIssue": 48
+  "latestIssue": 49
 }

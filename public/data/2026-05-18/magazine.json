@@ -1,0 +1,372 @@
+{
+  "date": "2026-05-18",
+  "issueNumber": 49,
+  "cover": {
+    "mainHeadline": "DeepMind, 환경 위기에 AI 띄운다 — 'AI for the Planet' APAC 출범",
+    "mainExcerpt": "Google DeepMind가 아시아·태평양 지역의 환경 위기 해결을 위한 AI 스타트업 액셀러레이터를 본격 가동합니다. 같은 날 Apple의 새 Siri는 채팅 자동 삭제로 프라이버시를 차별점 삼고, 졸업식 무대에서는 학생들이 AI 응원을 거부하며 야유를 쏟아내는 등 'AI 시대의 그늘'도 함께 드러났습니다.",
+    "headlines": [
+      "iOS 27 새 Siri, 채팅 자동 삭제 옵션 탑재 — Apple의 프라이버시 카드",
+      "에릭 슈미트 졸업식 연설, AI 응원하다 학생들에게 야유받아",
+      "Musk vs Altman 재판 3주차 — 신뢰의 문제가 핵심 쟁점으로"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "ai_001",
+      "title": "Google DeepMind, 환경 문제 해결 위해 아시아·태평양 지역에 액셀러레이터 출범",
+      "excerpt": "Google DeepMind가 환경 위협에 맞서 AI를 활용할 신생 기업을 지원하는 액셀러레이터 프로그램을 아시아·태평양에서 새롭게 시작합니다. 기후·자연 위기 분야 스타트업이 1차 대상이며, 모델·자금·멘토링을 종합 지원합니다.",
+      "body": "Google DeepMind는 '지구를 위한 AI(AI for the Planet)'를 슬로건으로 내건 이번 액셀러레이터에서 기후 변화, 생물다양성 손실, 자연재해 예측·대응 등 환경 분야의 시급한 문제에 도전하는 APAC 스타트업을 선발해 6개월 동안 지원합니다. 참여 팀은 Gemini를 비롯한 Google DeepMind의 최신 모델과 컴퓨팅 크레딧, 전문가 멘토링을 받을 수 있고, 현지 정부·연구기관과의 협업 기회도 제공됩니다. 아시아·태평양 지역은 기후 위험이 가장 큰 곳 중 하나로 꼽히는 만큼, DeepMind는 \"AI가 가장 큰 영향을 미칠 수 있는 현장\"이라며 전략적 의미를 강조했습니다.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/accelerator-ai-for-the-planet/",
+      "source": "Google DeepMind",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-18T03:00:00+09:00",
+      "readTime": 3,
+      "imageGradient": 0
+    },
+    {
+      "id": "bt_001",
+      "title": "iOS 27 새 Siri, 채팅 자동 삭제 옵션 탑재 — 프라이버시로 차별화 노린다",
+      "excerpt": "Bloomberg의 Mark Gurman에 따르면 iOS 27에서 챗봇 형태로 새로 등장하는 Siri는 대화 기록을 자동 삭제하는 옵션을 제공합니다. AI 경쟁에서 뒤처져 있는 Apple이 '프라이버시'를 핵심 차별점으로 내세우려는 전략입니다.",
+      "body": "Apple은 ChatGPT, Gemini와의 격차를 좁히기 위해 새 Siri를 준비 중이며, 이번 자동 삭제 기능은 그 핵심 차별 요소가 될 가능성이 큽니다. 사용자는 일정 기간이 지나면 대화 기록이 자동 폐기되도록 설정할 수 있어, AI에게 민감한 대화를 맡겨도 흔적이 남지 않습니다. 광고 모델에 의존하지 않는 Apple만이 자신 있게 내세울 수 있는 카드라는 해석이 나옵니다.",
+      "url": "https://www.theverge.com/tech/932207/siri-apple-intelligence-auto-deleting-chats",
+      "source": "The Verge",
+      "category": "big_tech",
+      "publishedAt": "2026-05-18T03:40:28+09:00",
+      "readTime": 2,
+      "imageGradient": 4
+    },
+    {
+      "id": "bt_002",
+      "title": "에릭 슈미트 졸업식 연설, AI 응원하다 학생들 야유 세례",
+      "excerpt": "전 Google CEO 에릭 슈미트가 애리조나 대학교 졸업식에서 AI를 적극 옹호하는 연설을 시도했으나, 학생들의 야유에 거듭 막혔습니다. 폐허가 된 취업 시장에 발을 들이는 졸업생들의 AI에 대한 반감을 단적으로 보여줬습니다.",
+      "body": "슈미트는 AI가 미래 사회의 핵심 동력이라는 메시지를 강조했지만, 청중은 \"AI 때문에 일자리를 잃는다\"는 분위기 속에서 거부감을 표출했습니다. 이번 사건은 AI 산업이 만들어내는 부의 분배 문제, 신입 직군의 일자리 감소 우려, 그리고 빅테크 리더와 일반 대중 사이의 거리감을 보여준 상징적 장면으로 받아들여집니다.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/932203/university-of-arizona-students-boo-eric-schmidt-ai-commencement",
+      "source": "The Verge",
+      "category": "big_tech",
+      "publishedAt": "2026-05-18T02:22:23+09:00",
+      "readTime": 2,
+      "imageGradient": 5
+    },
+    {
+      "id": "bt_004",
+      "title": "Eclipse, Cerebras IPO로 $2.5B 잭팟 — '피지컬 월드' 베팅 결실",
+      "excerpt": "10년 전만 해도 외로운 길이었던 'physical-world' 투자에 매달려온 Lior Susan의 Eclipse가 Cerebras IPO에서 2.5조 원 규모 수익을 올리며 한가운데로 떠올랐습니다. 그는 이제 다음 단계를 준비합니다.",
+      "body": "Cerebras는 2026년 최대 규모 기술 IPO 중 하나로 자리매김했고, 가장 큰 수혜를 입은 투자사 중 하나가 Eclipse입니다. Lior Susan은 AI 시대에 가장 중요한 인프라가 결국 칩, 데이터센터, 로봇 등 '물리 세계'에 있다는 베팅을 일관되게 해왔고, 이번 성과를 발판으로 펀드 규모와 포트폴리오를 더 키울 전망입니다. 이 흐름은 소프트웨어 중심 투자에 머물던 실리콘밸리에 새로운 패러다임을 제시합니다.",
+      "url": "https://techcrunch.com/2026/05/17/for-eclipse-the-2-5b-cerebras-win-is-just-the-start-of-realizing-its-physical-world-thesis/",
+      "source": "TechCrunch",
+      "category": "big_tech",
+      "publishedAt": "2026-05-18T00:00:00+09:00",
+      "readTime": 3,
+      "imageGradient": 5
+    },
+    {
+      "id": "ai_003",
+      "title": "Musk vs Altman 재판 3주차 — '신뢰의 문제'가 핵심 쟁점으로",
+      "excerpt": "Musk와 Altman의 재판 마지막 주, 양측 변호인단은 서로의 신뢰성을 놓고 정면 충돌했습니다. Altman은 자기 거래와 거짓말 의혹으로 추궁받았고, OpenAI 측은 Musk를 '통제를 원하는 권력 추구자'로 묘사했습니다.",
+      "body": "Musk v. Altman 재판은 OpenAI 초창기의 비영리 미션과 이후 영리 전환 과정을 둘러싼 분쟁입니다. 3주차에는 Altman이 OpenAI와 거래하는 기업에 대한 개인 투자 이력, 정보 공개의 적시성 등이 도마에 올랐고, OpenAI 측은 Musk가 통제권을 잃은 뒤 회사를 무력화하려 했다고 주장했습니다. 양측의 공방은 AI 회사의 거버넌스·이해상충 기준과 향후 산업 규제 논의에 큰 파장을 미칠 전망입니다.",
+      "url": "https://www.technologyreview.com/2026/05/15/1137357/musk-v-altman-week-3/",
+      "source": "MIT Technology Review",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-16T08:39:35+09:00",
+      "readTime": 3,
+      "imageGradient": 0
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "ai_001",
+        "title": "Google DeepMind, 환경 문제 해결 위해 아시아·태평양 지역에 액셀러레이터 출범",
+        "excerpt": "Google DeepMind가 환경 위협에 맞서 AI를 활용할 신생 기업을 지원하는 액셀러레이터 프로그램을 아시아·태평양에서 새롭게 시작합니다. 기후·자연 위기 분야 스타트업이 1차 대상이며, 모델·자금·멘토링을 종합 지원합니다.",
+        "body": "Google DeepMind는 '지구를 위한 AI(AI for the Planet)'를 슬로건으로 내건 이번 액셀러레이터에서 기후 변화, 생물다양성 손실, 자연재해 예측·대응 등 환경 분야의 시급한 문제에 도전하는 APAC 스타트업을 선발해 6개월 동안 지원합니다. 참여 팀은 Gemini를 비롯한 Google DeepMind의 최신 모델과 컴퓨팅 크레딧, 전문가 멘토링을 받을 수 있고, 현지 정부·연구기관과의 협업 기회도 제공됩니다. 아시아·태평양 지역은 기후 위험이 가장 큰 곳 중 하나로 꼽히는 만큼, DeepMind는 \"AI가 가장 큰 영향을 미칠 수 있는 현장\"이라며 전략적 의미를 강조했습니다.",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/accelerator-ai-for-the-planet/",
+        "source": "Google DeepMind",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-18T03:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "ai_002",
+        "title": "OpenAI·몰타 정부, 전 국민에게 ChatGPT Plus 제공 — 'AI for All' 본격화",
+        "excerpt": "OpenAI와 몰타 정부가 세계 최초로 전 국민에게 ChatGPT Plus를 제공하는 파트너십을 발표했습니다. 몰타 대학교가 만든 AI 리터러시 과정을 수료한 시민은 1년간 무료로 Plus를 사용할 수 있습니다.",
+        "body": "OpenAI는 \"지능을 전기처럼 전 세계가 쓸 수 있는 글로벌 유틸리티로 만든다\"는 비전 아래 이번 파트너십을 추진했습니다. 몰타 디지털혁신청(MDIA)이 1차 배포를 관리하며, 5월부터 단계적으로 시작합니다. 몰타 대학교가 개발한 교육과정은 AI가 무엇이며 무엇을 할 수 있고 무엇을 못 하는지, 그리고 가정·직장에서 어떻게 책임 있게 사용할 수 있는지를 다룹니다. 단순한 도구 보급을 넘어 국가 단위의 AI 역량 강화 모델로 평가받으며, 향후 다른 정부와의 유사 파트너십 확대 가능성에도 관심이 쏠립니다.",
+        "url": "https://openai.com/index/malta-chatgpt-plus-partnership",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-16T09:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "ai_003",
+        "title": "Musk vs Altman 재판 3주차 — '신뢰의 문제'가 핵심 쟁점으로",
+        "excerpt": "Musk와 Altman의 재판 마지막 주, 양측 변호인단은 서로의 신뢰성을 놓고 정면 충돌했습니다. Altman은 자기 거래와 거짓말 의혹으로 추궁받았고, OpenAI 측은 Musk를 '통제를 원하는 권력 추구자'로 묘사했습니다.",
+        "body": "Musk v. Altman 재판은 OpenAI 초창기의 비영리 미션과 이후 영리 전환 과정을 둘러싼 분쟁입니다. 3주차에는 Altman이 OpenAI와 거래하는 기업에 대한 개인 투자 이력, 정보 공개의 적시성 등이 도마에 올랐고, OpenAI 측은 Musk가 통제권을 잃은 뒤 회사를 무력화하려 했다고 주장했습니다. 양측의 공방은 AI 회사의 거버넌스·이해상충 기준과 향후 산업 규제 논의에 큰 파장을 미칠 전망입니다.",
+        "url": "https://www.technologyreview.com/2026/05/15/1137357/musk-v-altman-week-3/",
+        "source": "MIT Technology Review",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-16T08:39:35+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      }
+    ],
+    "dev_tools": [],
+    "big_tech": [
+      {
+        "id": "bt_001",
+        "title": "iOS 27 새 Siri, 채팅 자동 삭제 옵션 탑재 — 프라이버시로 차별화 노린다",
+        "excerpt": "Bloomberg의 Mark Gurman에 따르면 iOS 27에서 챗봇 형태로 새로 등장하는 Siri는 대화 기록을 자동 삭제하는 옵션을 제공합니다. AI 경쟁에서 뒤처져 있는 Apple이 '프라이버시'를 핵심 차별점으로 내세우려는 전략입니다.",
+        "body": "Apple은 ChatGPT, Gemini와의 격차를 좁히기 위해 새 Siri를 준비 중이며, 이번 자동 삭제 기능은 그 핵심 차별 요소가 될 가능성이 큽니다. 사용자는 일정 기간이 지나면 대화 기록이 자동 폐기되도록 설정할 수 있어, AI에게 민감한 대화를 맡겨도 흔적이 남지 않습니다. 광고 모델에 의존하지 않는 Apple만이 자신 있게 내세울 수 있는 카드라는 해석이 나옵니다.",
+        "url": "https://www.theverge.com/tech/932207/siri-apple-intelligence-auto-deleting-chats",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-05-18T03:40:28+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      },
+      {
+        "id": "bt_002",
+        "title": "에릭 슈미트 졸업식 연설, AI 응원하다 학생들 야유 세례",
+        "excerpt": "전 Google CEO 에릭 슈미트가 애리조나 대학교 졸업식에서 AI를 적극 옹호하는 연설을 시도했으나, 학생들의 야유에 거듭 막혔습니다. 폐허가 된 취업 시장에 발을 들이는 졸업생들의 AI에 대한 반감을 단적으로 보여줬습니다.",
+        "body": "슈미트는 AI가 미래 사회의 핵심 동력이라는 메시지를 강조했지만, 청중은 \"AI 때문에 일자리를 잃는다\"는 분위기 속에서 거부감을 표출했습니다. 이번 사건은 AI 산업이 만들어내는 부의 분배 문제, 신입 직군의 일자리 감소 우려, 그리고 빅테크 리더와 일반 대중 사이의 거리감을 보여준 상징적 장면으로 받아들여집니다.",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/932203/university-of-arizona-students-boo-eric-schmidt-ai-commencement",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-05-18T02:22:23+09:00",
+        "readTime": 2,
+        "imageGradient": 5
+      },
+      {
+        "id": "bt_003",
+        "title": "2026 졸업식 연설자에게: AI 얘기는 자제하세요",
+        "excerpt": "TechCrunch는 졸업식 시즌이 한창인 가운데 '졸업생들 앞에서 AI 얘기는 꺼내지 말라'고 충고합니다. AI에 의해 형성될 미래를 졸업생들에게 흥분되는 일로 포장하기는 어렵다는 진단입니다.",
+        "body": "졸업식 무대에서 AI를 응원하는 연설은 최근 거듭 야유를 받고 있습니다. 졸업생 입장에서는 자신의 진로가 AI로 인해 위협받는 현실을 마주하는데, 무대 위 빅테크 인사가 \"AI의 시대를 환영하라\"고 외치는 풍경이 공감을 사기 어렵기 때문입니다. TechCrunch는 \"AI 옹호 발언보다 지금 청년들에게 필요한 것은 일자리·소득·교육에 대한 실질적 답\"이라고 지적합니다.",
+        "url": "https://techcrunch.com/2026/05/17/if-youre-giving-a-commencement-speech-in-2026-maybe-dont-mention-ai/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-05-18T01:32:04+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      },
+      {
+        "id": "bt_004",
+        "title": "Eclipse, Cerebras IPO로 $2.5B 잭팟 — '피지컬 월드' 베팅 결실",
+        "excerpt": "10년 전만 해도 외로운 길이었던 'physical-world' 투자에 매달려온 Lior Susan의 Eclipse가 Cerebras IPO에서 2.5조 원 규모 수익을 올리며 한가운데로 떠올랐습니다. 그는 이제 다음 단계를 준비합니다.",
+        "body": "Cerebras는 2026년 최대 규모 기술 IPO 중 하나로 자리매김했고, 가장 큰 수혜를 입은 투자사 중 하나가 Eclipse입니다. Lior Susan은 AI 시대에 가장 중요한 인프라가 결국 칩, 데이터센터, 로봇 등 '물리 세계'에 있다는 베팅을 일관되게 해왔고, 이번 성과를 발판으로 펀드 규모와 포트폴리오를 더 키울 전망입니다. 이 흐름은 소프트웨어 중심 투자에 머물던 실리콘밸리에 새로운 패러다임을 제시합니다.",
+        "url": "https://techcrunch.com/2026/05/17/for-eclipse-the-2-5b-cerebras-win-is-just-the-start-of-realizing-its-physical-world-thesis/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-05-18T00:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "bt_005",
+        "title": "자동차 산업도 AI 인재 군비경쟁 — 모빌리티 업계 직무 재편 시작",
+        "excerpt": "TechCrunch Mobility는 자율주행·전동화에 이어 AI 인재 영입 경쟁이 자동차 업계에 본격 상륙했다고 전합니다. 완성차·부품·차량 데이터 기업이 모두 AI 엔지니어 모시기에 나섰습니다.",
+        "body": "차량 OS, 운전자 모니터링, 차량 제조 라인 자동화, 보험·금융 데이터 분석까지 자동차 산업의 거의 모든 영역에서 LLM·에이전트 적용이 가속화되고 있습니다. 이에 따라 전통 자동차 인력 구조가 빠르게 흔들리고 있고, 머신러닝·MLOps·AI 안전 등 새 직군 채용 경쟁이 치열해지고 있습니다. 향후 자동차 산업의 경쟁 우위는 AI 인재풀에 의해 결정될 가능성이 크다는 분석입니다.",
+        "url": "https://techcrunch.com/2026/05/17/techcrunch-mobility-the-ai-skills-arms-race-is-coming-for-automotive/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-05-18T01:05:00+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      },
+      {
+        "id": "bt_006",
+        "title": "AI 골드러시의 '있는 자와 없는 자' — 업계 분위기는 의외로 우울",
+        "excerpt": "TechCrunch는 현재 AI 붐을 둘러싼 업계 분위기가 외부 인식만큼 낙관적이지 않다고 분석합니다. 천문학적 투자가 몰리는 일부 빅테크와 그렇지 못한 다수의 격차가 빠르게 벌어지고 있습니다.",
+        "body": "엔비디아, OpenAI, Anthropic, Microsoft 등 상위 플레이어들에는 자본이 쏟아지지만, 중소 AI 스타트업과 전통 IT 기업은 비용 압박과 인재 유출에 시달리고 있습니다. 광고·마케팅·미디어 등 AI에 직접적으로 노출된 산업은 매출 둔화에 직면했고, 일자리 시장도 신입과 시니어 사이에 큰 균열을 보이고 있습니다. AI 골드러시의 그늘이 점점 짙어지고 있다는 평가입니다.",
+        "url": "https://techcrunch.com/2026/05/16/the-haves-and-have-nots-of-the-ai-gold-rush/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-05-17T05:17:16+09:00",
+        "readTime": 2,
+        "imageGradient": 5
+      },
+      {
+        "id": "bt_007",
+        "title": "Sony AI 카메라 어시스턴트 논란 — \"사진을 편집하지 않는다\" 해명",
+        "excerpt": "Sony가 Xperia 1 XIII의 AI Camera Assistant 시연 영상이 논란이 되자 \"AI가 사진을 자동 편집하지 않는다\"고 해명에 나섰습니다. 카메라가 피사체와 조명을 분석해 네 가지 촬영 옵션을 제안하는 방식이라는 설명입니다.",
+        "body": "Sony의 시연 영상은 AI가 마치 사진을 직접 수정하는 듯한 인상을 줘 사용자들의 우려를 샀습니다. 회사는 이번에 \"AI는 조명·심도·피사체 정보를 기반으로 촬영 옵션을 제시할 뿐이며, 결정은 사용자가 한다\"는 점을 강조했습니다. 스마트폰 사진의 'AI 보정' 범위와 진실성을 둘러싼 논쟁이 다시 한번 점화됐습니다.",
+        "url": "https://www.theverge.com/tech/932133/sony-xperia-1-xiii-ai-camera-assistant",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-05-17T00:37:05+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      }
+    ],
+    "twitter_pulse": [],
+    "threads_pulse": [],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "AI 연구가 Slop(저질 결과물)에 휩쓸려 점점 멀게 느껴진다",
+        "originalTitle": "Slop is making me feel disconnected from AI Research [D]",
+        "summary": "r/MachineLearning의 한 연구자가 \"논문과 코드의 질이 떨어지면서 본질적인 연구 흐름과의 단절감을 느낀다\"고 토로한 글입니다. LLM 자동 생성 논문 범람에 대한 학계 피로감을 반영합니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1tfv0vh/slop_is_making_me_feel_disconnected_from_ai/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-05-18T01:55:37+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "언젠가 124B 크기의 Gemma가 나오기를 바란다",
+        "originalTitle": "I hope that someday we will have a 124B Gemma.",
+        "summary": "r/LocalLLaMA에서 Gemma 시리즈의 더 큰 버전을 기대한다는 사용자 글입니다. 로컬 LLM 사용자들의 \"중간 규모 오픈 모델\" 수요가 여전히 높다는 점을 보여줍니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tfv8li/i_hope_that_someday_we_will_have_a_124b_gemma/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-05-18T02:03:17+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "Publicis가 LiveRamp를 $2.5B에 인수 — 에이전틱 AI 데이터 베팅",
+        "originalTitle": "Publicis buys LiveRamp for $2.5 billion in agentic AI data play",
+        "summary": "글로벌 광고 그룹 Publicis가 데이터 협업 플랫폼 LiveRamp를 2.5조 원에 인수했습니다. 에이전트 시대 광고·마케팅의 데이터 인프라를 선점하려는 움직임으로 풀이됩니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1tfvvn3/publicis_buys_liveramp_for_25_billion_in_agentic/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-05-18T02:26:46+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "Sora를 추모하며 — r/OpenAI 사용자의 회고",
+        "originalTitle": "In memory of Sora",
+        "summary": "r/OpenAI의 한 사용자가 Sora 서비스 변경/종료를 두고 \"추모\" 형식의 글을 올렸습니다. 영상 생성 모델의 빠른 교체 주기에 대한 사용자 반응을 엿볼 수 있습니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1tfrj4r/in_memory_of_sora/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-05-17T23:45:38+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "OpenAI, 몰타 주민 전원에게 ChatGPT Plus 무료 제공",
+        "originalTitle": "OpenAI to give all Malta residents free ChatGPT Plus access",
+        "summary": "OpenAI와 몰타 정부의 \"전 국민 ChatGPT Plus\" 파트너십 뉴스가 r/OpenAI에서도 활발히 토론되고 있습니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1tfk57g/openai_to_give_all_malta_residents_free_chatgpt/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-05-17T17:59:30+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "Claude Pro vs ChatGPT Plus — 4개월 병행 사용 솔직 비교",
+        "originalTitle": "Honest comparison after 4 months running Claude Pro + ChatGPT Plus side by side",
+        "summary": "한 사용자가 4개월 동안 Claude Pro와 ChatGPT Plus를 병행 사용한 경험을 정리해 r/ClaudeAI에 올렸습니다. 코딩·글쓰기·도구 통합 등 각 분야별 강약점을 비교한 글이 큰 반응을 얻고 있습니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1tftmt6/honest_comparison_after_4_months_running_claude/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-05-18T01:03:25+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "C/C++ 의존성 관리의 돌파구가 생겼다",
+        "originalTitle": "A breakthrough in C/C++ dependency management",
+        "summary": "r/programming에 올라온 글로, 오랫동안 묵은 과제였던 C/C++ 의존성 관리에 대한 새로운 접근을 다룹니다. 빌드 시스템·패키지 관리자 영역의 흥미로운 시도라는 평가입니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1tfko4j/a_breakthrough_in_cc_dependency_management/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-05-17T18:29:14+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "Apple Silicon M5에서 macOS 커널 메모리 손상 익스플로잇 최초 공개",
+        "originalTitle": "First Public macOS Kernel Memory Corruption Exploit On Apple Silicon M5",
+        "summary": "연구자가 Apple Silicon M5에서 동작하는 macOS 커널 메모리 손상 익스플로잇을 처음으로 공개했습니다. 보안 커뮤니티에서 큰 주목을 받는 사건입니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1tfcsbb/first_public_macos_kernel_memory_corruption/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-05-17T11:31:08+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "qb_001",
+        "title": "Show HN: Semble — grep보다 토큰을 98% 적게 쓰는 에이전트용 코드 검색",
+        "excerpt": "Claude Code 등 코딩 에이전트가 grep으로 전체 파일을 읽으며 토큰을 낭비하는 문제를 해결하기 위한 오픈소스 도구 Semble이 공개됐습니다. 정적 임베딩(Model2Vec) + BM25 하이브리드 검색으로 grep 대비 토큰을 98% 절감합니다.",
+        "body": "Semble은 대규모 코드베이스에서 코딩 에이전트의 grep fallback이 토큰 낭비와 낮은 정확도를 야기하는 문제를 해결합니다. 자체 개발한 정적 코드 임베딩 모델 potion-code-16M과 BM25를 결합해 의미·키워드 검색을 동시에 수행하며, API 키 없이 로컬에서 빠르게 인덱싱·검색할 수 있다는 점이 차별점입니다. Claude Code 사용자를 중심으로 빠르게 주목받고 있습니다.",
+        "url": "https://github.com/MinishLab/semble",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-18T00:37:07+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      },
+      {
+        "id": "qb_002",
+        "title": "보안 연구원, Microsoft가 BitLocker에 백도어를 심었다고 주장 — PoC 공개",
+        "excerpt": "한 보안 연구원이 Microsoft가 BitLocker에 비공개 백도어를 만들어 두었다고 주장하며 PoC 익스플로잇을 함께 공개했습니다. Hacker News에서는 482포인트와 200여 댓글로 격렬한 토론이 벌어졌습니다.",
+        "body": "주장에 따르면 특정 조건에서 BitLocker로 암호화된 디스크가 의도된 우회 경로를 통해 복호화될 수 있다고 합니다. Microsoft가 의도적인 백도어를 심었다는 강한 주장이라 진위 여부와 영향 범위에 대한 검증이 필요합니다. 디스크 암호화의 신뢰 기반과 OS 제조사에 대한 신뢰 문제를 다시 한 번 환기시킨 사건입니다.",
+        "url": "https://www.techspot.com/news/112410-security-researcher-microsoft-secretly-built-backdoor-bitlocker-releases.html",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-17T22:42:30+09:00",
+        "readTime": 2,
+        "imageGradient": 7
+      },
+      {
+        "id": "qb_003",
+        "title": "\"AI는 제품이 아니라 기술이다\" — 정체성 혼란에 대한 일침",
+        "excerpt": "Hacker News 상단에 오른 한 에세이는 많은 회사들이 'AI'를 그 자체로 제품처럼 다루는 현상을 비판합니다. AI는 결국 어떤 문제를 해결하는 수단이지, 그것 자체가 가치를 만들어내지는 않는다는 주장입니다.",
+        "body": "글쓴이는 \"AI 기업\"이라는 정체성에 매몰된 스타트업들이 정작 고객이 어떤 문제를 어떻게 해결하길 원하는지에 대한 답을 잃어버리고 있다고 지적합니다. 진짜 가치는 AI가 무엇을 가능하게 만드는지에 있으며, '인공지능'이라는 기술 키워드 자체가 제품을 정의해서는 안 된다는 메시지가 큰 반향을 일으켰습니다.",
+        "url": "https://daringfireball.net/2026/05/ai_is_technology_not_a_product",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-17T22:11:20+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      },
+      {
+        "id": "qb_004",
+        "title": "\"학습을 외주화하지 마라\" — AI 시대의 학습 윤리",
+        "excerpt": "한 개발자가 \"AI에게 단순한 답을 받는 것에 익숙해지면 학습의 본질이 사라진다\"는 글을 올려 Hacker News에서 큰 호응을 얻었습니다. 도구로서의 AI와 사고력 사이의 균형을 다시 묻는 글입니다.",
+        "body": "필자는 LLM이 빠르게 답을 주기 때문에 사람이 어려운 문제와 씨름하며 얻는 '이해의 깊이'가 사라지고 있다고 우려합니다. 답을 얻는 것과 배우는 것은 다르며, 학습을 외주화하면 결국 AI 없이는 아무것도 못 하는 의존 상태에 빠진다고 경고합니다. 코딩 에이전트가 일상화된 지금, 시니어/주니어 개발자 모두에게 던지는 질문입니다.",
+        "url": "https://addyosmani.com/blog/dont-outsource-learning/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-18T01:04:08+09:00",
+        "readTime": 2,
+        "imageGradient": 7
+      },
+      {
+        "id": "qb_005",
+        "title": "WHO, 에볼라 발병을 국제 공중보건 비상사태로 선언",
+        "excerpt": "세계보건기구(WHO)가 새로운 에볼라 발병을 국제 공중보건 비상사태(PHEIC)로 선언했습니다. 글로벌 보건 시스템의 회복 능력이 다시 시험대에 올랐습니다.",
+        "body": "WHO의 PHEIC 선언은 회원국에 강화된 감시·보고·대응 의무를 부과하는 가장 높은 단계의 경보입니다. 코로나19 이후 세계 보건 체계의 자원 부담이 큰 상황에서 이번 결정은 백신·치료제 수급, 국경 검역, 국제 공조에 큰 영향을 줄 전망입니다. 영향 지역과 글로벌 보건 거버넌스에 빠르게 파장이 번지고 있습니다.",
+        "url": "https://www.nytimes.com/2026/05/17/world/africa/ebola-congo-uganda-who-public-health-emergency.html",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-17T22:22:14+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      },
+      {
+        "id": "qb_006",
+        "title": "Show GN: glowed — Ghostty용 터미널 Markdown 브라우저/에디터",
+        "excerpt": "Ghostty 터미널 환경에서 Markdown을 브라우징·편집할 수 있는 새 오픈소스 도구 glowed가 GeekNews에 공개됐습니다. 한국 개발자가 만든 프로젝트로 터미널 워크플로 사용자에게 어필합니다.",
+        "body": "glowed는 Markdown 문서를 터미널 안에서 직접 렌더링하고 편집할 수 있는 도구로, glow와 같은 기존 도구의 사용성을 보완합니다. Ghostty의 최신 기능을 적극 활용해 부드러운 시각 효과와 빠른 응답성을 제공한다고 합니다. 한국 개발 커뮤니티에서 빠르게 주목받고 있는 프로젝트입니다.",
+        "url": "https://news.hada.io/topic?id=29592",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-17T23:47:45+09:00",
+        "readTime": 2,
+        "imageGradient": 7
+      },
+      {
+        "id": "qb_007",
+        "title": "GeekNews: 우리가 세상을 너무 복잡하게 만들었다",
+        "excerpt": "GeekNews 인기 글이 현대 소프트웨어와 일상의 과도한 복잡성을 비판합니다. 한국 개발자 커뮤니티에서 '단순함의 가치'에 대한 토론이 활발히 진행 중입니다.",
+        "body": "원문은 SaaS·구독·자동화·통합 도구가 끝없이 쌓이면서 개인과 조직 모두 인지 부담에 시달리고 있다고 지적합니다. 결국 더 적은 도구로 더 본질적인 일을 하자는 메시지가 핵심이며, 실제 댓글에서는 자기만의 '도구 정리법'을 공유하는 흐름이 이어지고 있습니다.",
+        "url": "https://news.hada.io/topic?id=29590",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-17T22:36:37+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      }
+    ]
+  }
+}
