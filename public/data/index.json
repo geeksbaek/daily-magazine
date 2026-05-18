@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-05-19",
+      "issueNumber": 50,
+      "mainHeadline": "OpenAI, Codex 엔터프라이즈 전선 확대 — Dell과 손잡고 온프레미스로",
+      "headlines": [
+        "Anthropic, SDK 플랫폼 Stainless 인수 — Claude 개발자 도구 내재화",
+        "GitHub Copilot 'Remote Control' GA — VS Code에서 모바일로 세션 이어가기",
+        "Apple, WWDC 2026 6월 8일 개최 발표 — 차세대 OS와 visionOS 공개 예정"
+      ]
+    },
+    {
       "date": "2026-05-18",
       "issueNumber": 49,
       "mainHeadline": "DeepMind, 환경 위기에 AI 띄운다 — 'AI for the Planet' APAC 출범",
@@ -486,5 +496,5 @@
       ]
     }
   ],
-  "latestIssue": 49
+  "latestIssue": 50
 }
