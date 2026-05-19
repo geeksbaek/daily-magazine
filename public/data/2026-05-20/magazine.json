@@ -1,0 +1,915 @@
+{
+  "date": "2026-05-20",
+  "issueNumber": 51,
+  "cover": {
+    "mainHeadline": "구글 I/O 2026, \"에이전틱 Gemini 시대\" 선언 — Gemini 3.5와 Omni가 영상까지 삼키다",
+    "mainExcerpt": "Sundar Pichai는 I/O 2026에서 검색·Workspace·Android 전반을 자율 에이전트로 재편하는 \"에이전틱 Gemini 시대\"를 선언했다. 새 프론티어 모델 Gemini 3.5는 행동하는 지능을, Gemini Omni는 대화로 영상을 편집하는 새 패러다임을 제시했다.",
+    "headlines": [
+      "Andrej Karpathy, Anthropic 합류 — AI 인재 전쟁 새 국면",
+      "KPMG, 전사 27.6만 명에 Claude 통합 — 빅4 첫 풀스택 도입",
+      "NVIDIA Vera CPU 출하 시작 — 에이전트 시대 전용 칩의 출발"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_001",
+      "title": "Gemini Omni 공개 — 영상도 대화로 편집하는 멀티모달 생성 모델",
+      "excerpt": "구글이 Gemini Omni를 발표했다. 사진, 영상, 음성, 텍스트를 입력으로 받아 영상을 만들거나 이미 촬영한 영상을 대화로 수정할 수 있는 새 모델이다.",
+      "body": "구글이 \"anything in, anything out\"을 지향하는 Gemini Omni를 공개했다. 사용자가 자신의 AI 아바타를 영상에 삽입하거나 스타일 레퍼런스를 유지한 채 카메라 시점을 바꾸는 등, 영상을 텍스트 대화로 편집할 수 있다. 이미지 편집 모델 \"나노 바나나\"가 사용자 경험으로 인기를 끌었던 흐름을, 이번에는 영상 도메인으로 확장한 발표로 평가된다.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni/",
+      "source": "Gemini",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-20T02:45:00+09:00",
+      "readTime": 5,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_003",
+      "title": "I/O 2026: 에이전틱 Gemini 시대의 개막",
+      "excerpt": "순다르 피차이 CEO가 I/O 2026 기조연설에서 \"에이전틱 Gemini 시대\"를 선언했다. 검색, Workspace, Android 전반이 자율 에이전트로 재편된다.",
+      "body": "구글은 I/O 2026 기조연설에서 검색 결과부터 Workspace 문서, Gemini 앱까지 모든 표면에서 사용자의 의도를 추적해 자동 실행하는 에이전트 경험을 약속했다. 월간 처리 토큰은 1년 만에 480조 개를 넘어섰다고 공개했고, 새 모델 Gemini 3.5와 Gemini Omni가 그 흐름의 양축으로 자리잡았다.",
+      "url": "https://blog.google/innovation-and-ai/sundar-pichai-io-2026/",
+      "source": "Gemini",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-20T02:45:00+09:00",
+      "readTime": 5,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_002",
+      "title": "Gemini 3.5 출시 — 행동하는 프론티어 지능",
+      "excerpt": "구글이 I/O 2026에서 Gemini 3.5를 공개했다. 작업 처리 능력에서 기존 모델을 큰 폭으로 앞서며 에이전트 워크로드의 새로운 기준선이 됐다.",
+      "body": "Gemini 3.5는 추론과 실행을 한 모델 안에 결합한 새 프론티어 라인업으로, 동시 발표된 Gemini 3.5 Flash는 기존 3.1 Pro 수준의 벤치마크를 더 빠른 출력 속도로 달성한다고 구글은 밝혔다. 멀티스텝 에이전트 작업과 도구 호출, 실시간 응답이 핵심 개선 포인트다. Workspace, Search, Gemini 앱 등 구글 제품 전반에 단계적으로 통합될 예정이다.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
+      "source": "Gemini",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-20T02:45:00+09:00",
+      "readTime": 6,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_011",
+      "title": "OpenAI, AI 콘텐츠 출처 추적 강화 — SynthID·C2PA 결합",
+      "excerpt": "OpenAI가 생성 이미지에 SynthID 워터마크를 기본 적용하고 C2PA 자격 증명을 함께 부착한다. 공개 검증 도구도 제공된다.",
+      "body": "OpenAI는 자사 제품에서 생성된 이미지에 SynthID와 C2PA 콘텐츠 자격 증명을 동시 부착해 출처 식별을 가능하게 만든다고 발표했다. 공개 검증 도구로 누구나 이미지가 OpenAI 제품에서 만들어졌는지 확인할 수 있고, 향후 영상과 음성 출력에도 확장될 예정이다. AI 콘텐츠의 신뢰성 문제에 산업 전반이 응답하는 흐름이다.",
+      "url": "https://openai.com/index/advancing-content-provenance",
+      "source": "OpenAI News",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-19T19:45:00+09:00",
+      "readTime": 5,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_012",
+      "title": "KPMG, 27.6만 명 전사에 Claude 통합 — 빅4 첫 풀스택 도입",
+      "excerpt": "KPMG가 Anthropic과 전략적 동맹을 맺고 Claude를 27.6만 명 임직원의 핵심 업무 전반에 통합한다. 빅4 회계법인 중 첫 풀스택 도입 사례다.",
+      "body": "KPMG는 감사, 세무, 컨설팅 등 핵심 업무에 Claude를 통합한다고 발표했다. 27.6만 명 임직원이 사용하는 내부 도구에 Claude API를 연결해 업무 흐름과 문서 작성, 분석을 보조하도록 설계됐다. Anthropic은 이번 계약을 통해 빅4 회계 법인 시장에서 표준 위치를 확보했고, 엔터프라이즈 매출 성장의 큰 축이 될 전망이다.",
+      "url": "https://www.anthropic.com/news/anthropic-kpmg",
+      "source": "Anthropic News",
+      "category": "big_tech",
+      "publishedAt": "2026-05-19T09:00:00+09:00",
+      "readTime": 5,
+      "imageGradient": 4
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_001",
+        "title": "Gemini Omni 공개 — 영상도 대화로 편집하는 멀티모달 생성 모델",
+        "excerpt": "구글이 Gemini Omni를 발표했다. 사진, 영상, 음성, 텍스트를 입력으로 받아 영상을 만들거나 이미 촬영한 영상을 대화로 수정할 수 있는 새 모델이다.",
+        "body": "구글이 \"anything in, anything out\"을 지향하는 Gemini Omni를 공개했다. 사용자가 자신의 AI 아바타를 영상에 삽입하거나 스타일 레퍼런스를 유지한 채 카메라 시점을 바꾸는 등, 영상을 텍스트 대화로 편집할 수 있다. 이미지 편집 모델 \"나노 바나나\"가 사용자 경험으로 인기를 끌었던 흐름을, 이번에는 영상 도메인으로 확장한 발표로 평가된다.",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni/",
+        "source": "Gemini",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-20T02:45:00+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_002",
+        "title": "Gemini 3.5 출시 — 행동하는 프론티어 지능",
+        "excerpt": "구글이 I/O 2026에서 Gemini 3.5를 공개했다. 작업 처리 능력에서 기존 모델을 큰 폭으로 앞서며 에이전트 워크로드의 새로운 기준선이 됐다.",
+        "body": "Gemini 3.5는 추론과 실행을 한 모델 안에 결합한 새 프론티어 라인업으로, 동시 발표된 Gemini 3.5 Flash는 기존 3.1 Pro 수준의 벤치마크를 더 빠른 출력 속도로 달성한다고 구글은 밝혔다. 멀티스텝 에이전트 작업과 도구 호출, 실시간 응답이 핵심 개선 포인트다. Workspace, Search, Gemini 앱 등 구글 제품 전반에 단계적으로 통합될 예정이다.",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
+        "source": "Gemini",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-20T02:45:00+09:00",
+        "readTime": 6,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_003",
+        "title": "I/O 2026: 에이전틱 Gemini 시대의 개막",
+        "excerpt": "순다르 피차이 CEO가 I/O 2026 기조연설에서 \"에이전틱 Gemini 시대\"를 선언했다. 검색, Workspace, Android 전반이 자율 에이전트로 재편된다.",
+        "body": "구글은 I/O 2026 기조연설에서 검색 결과부터 Workspace 문서, Gemini 앱까지 모든 표면에서 사용자의 의도를 추적해 자동 실행하는 에이전트 경험을 약속했다. 월간 처리 토큰은 1년 만에 480조 개를 넘어섰다고 공개했고, 새 모델 Gemini 3.5와 Gemini Omni가 그 흐름의 양축으로 자리잡았다.",
+        "url": "https://blog.google/innovation-and-ai/sundar-pichai-io-2026/",
+        "source": "Gemini",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-20T02:45:00+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_004",
+        "title": "Gemini 앱, 24시간 알아서 도와주는 비서로 진화",
+        "excerpt": "Gemini 앱이 사용자 컨텍스트를 추적하며 능동적으로 작업을 시작·완료하는 에이전트형 비서로 재설계된다.",
+        "body": "구글은 Gemini 앱이 사용자의 이메일, 캘린더, 문서 컨텍스트를 백그라운드로 이해하고 일정 조정, 자료 정리, 후속 알림을 스스로 처리하는 24/7 비서로 바뀐다고 밝혔다. 사용자 승인을 거치지 않아도 되는 저위험 작업은 즉시 실행하고, 중요한 결정은 알림으로 확인을 받는 구조다.",
+        "url": "https://blog.google/innovation-and-ai/products/gemini-app/next-evolution-gemini-app/",
+        "source": "Gemini",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-20T02:45:00+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_005",
+        "title": "AI 모드, 미국 검색 행동을 바꾸다",
+        "excerpt": "구글이 AI 모드 시행 이후 미국 사용자들의 검색 길이가 평균 2배 늘었고 후속 질문 빈도가 크게 상승했다고 공개했다.",
+        "body": "구글 검색에 통합된 AI 모드가 미국에서 본격 확산되며 사용자 행동이 변하고 있다. 길고 복잡한 질문이 늘었고, 한 번의 검색에서 평균 후속 질문 횟수가 크게 증가했다. 구글은 이를 \"탐색형 검색\"의 회귀로 설명하며 광고 모델과 검색 결과 페이지 자체의 구조를 재설계 중이다.",
+        "url": "https://blog.google/products-and-platforms/products/search/ai-mode-us-insights/",
+        "source": "The Official Google Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-20T02:45:00+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_006",
+        "title": "Google Workspace, 문서·표·메일 전반에 에이전트 통합",
+        "excerpt": "Workspace 문서·시트·Gmail 안에서 자연어 명령으로 다단계 작업을 자동 처리할 수 있는 에이전트 기능이 정식 출시된다.",
+        "body": "구글은 Workspace에 Gemini 에이전트를 폭넓게 통합한다고 발표했다. 슬라이드 작성, 표 분석, 메일 분류 같은 작업을 한 번의 명령으로 마무리할 수 있고, 부서별 권한과 데이터 영역 안에서만 동작하도록 거버넌스 가드도 추가됐다. 엔터프라이즈 사용자 대상 베타가 즉시 열린다.",
+        "url": "https://blog.google/products-and-platforms/products/workspace/workspace-updates/",
+        "source": "The Official Google Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-20T02:45:00+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_007",
+        "title": "AI 검색의 새 시대 — 구글, 추론형 검색 결과 페이지로 전환",
+        "excerpt": "구글이 검색 결과 상단을 AI가 합성한 답변과 후속 탐색 흐름으로 재구성한다. 정적인 링크 리스트의 시대를 끝낸다는 선언이다.",
+        "body": "구글은 검색 결과 페이지를 모델이 단계적으로 추론한 답변과 출처, 사용자가 바로 이어갈 수 있는 후속 행동 버튼으로 구성하는 새 레이아웃을 공개했다. 결과는 사용자 위치, 시점, 이전 검색 기록을 반영해 동적으로 재구성된다. 광고와 출판사 트래픽 영향에 대한 우려도 함께 제기되고 있다.",
+        "url": "https://blog.google/products-and-platforms/products/search/search-io-2026/",
+        "source": "AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-20T02:45:00+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_008",
+        "title": "Project Genie, 스트리트뷰로 실세계 시뮬레이션",
+        "excerpt": "구글 딥마인드가 스트리트뷰 데이터를 활용해 실제 장소를 가상으로 재구성하고 탐험할 수 있는 Project Genie를 확장했다.",
+        "body": "구글 딥마인드는 Project Genie가 단순 영상 생성기를 넘어 실세계 좌표와 결합된 인터랙티브 시뮬레이션 엔진으로 발전했다고 밝혔다. 자율주행 모델 학습, 로봇 시뮬레이션, 가상 답사 등 응용 시나리오를 시연했고, 일부 데모는 일반 사용자도 체험할 수 있도록 공개됐다.",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie-expands/",
+        "source": "Google DeepMind",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-20T02:45:00+09:00",
+        "readTime": 5,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_009",
+        "title": "Gemini for Science — 발견의 시대를 위한 AI 도구 모음",
+        "excerpt": "구글 딥마인드가 과학자 대상의 Gemini 변형 모델과 실험 도구를 묶은 \"Gemini for Science\"를 공개했다.",
+        "body": "단백질 구조 예측, 화학 합성 경로 탐색, 수학 증명 보조까지 다루는 Gemini for Science는 도메인 데이터로 정교화된 모델과 노트북, 데이터 패키지를 함께 제공한다. 과학자 커뮤니티 베타가 진행 중이며, 학술 출판물과 데이터셋 연계가 단계적으로 추가된다.",
+        "url": "https://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/",
+        "source": "Google DeepMind",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-20T02:45:00+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_010",
+        "title": "구글, AI 생성 콘텐츠 추적 표시 강화 — 출처와 편집 이력 확인 가능",
+        "excerpt": "구글이 검색·이미지·유튜브 전반에 AI 생성 및 편집 이력을 표시하는 도구를 확장하며 콘텐츠 진위 식별을 일상화한다.",
+        "body": "구글은 SynthID 워터마크와 C2PA 자격 증명을 결합해 콘텐츠가 어떤 도구로 만들어졌고 어떻게 편집됐는지를 사용자에게 보여주는 기능을 검색과 이미지, 유튜브로 넓혔다. 콘텐츠 제작자가 자신의 작품에 출처 메타데이터를 부착하도록 권장하는 새 워크플로도 함께 공개됐다.",
+        "url": "https://blog.google/innovation-and-ai/products/identifying-ai-generated-media-online/",
+        "source": "Google DeepMind",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-20T02:45:00+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_011",
+        "title": "OpenAI, AI 콘텐츠 출처 추적 강화 — SynthID·C2PA 결합",
+        "excerpt": "OpenAI가 생성 이미지에 SynthID 워터마크를 기본 적용하고 C2PA 자격 증명을 함께 부착한다. 공개 검증 도구도 제공된다.",
+        "body": "OpenAI는 자사 제품에서 생성된 이미지에 SynthID와 C2PA 콘텐츠 자격 증명을 동시 부착해 출처 식별을 가능하게 만든다고 발표했다. 공개 검증 도구로 누구나 이미지가 OpenAI 제품에서 만들어졌는지 확인할 수 있고, 향후 영상과 음성 출력에도 확장될 예정이다. AI 콘텐츠의 신뢰성 문제에 산업 전반이 응답하는 흐름이다.",
+        "url": "https://openai.com/index/advancing-content-provenance",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-19T19:45:00+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_022",
+        "title": "AllenAI OlmoEarth v1.1 — 더 작고 효율적인 지구 관측 파운데이션 모델",
+        "excerpt": "AllenAI가 OlmoEarth v1.1을 공개했다. 위성·항공·기후 데이터를 동시 처리하는 더 효율적인 파운데이션 모델 패밀리다.",
+        "body": "OlmoEarth v1.1은 기존 대비 추론 비용을 절반으로 줄이면서도 토지 사용, 작물 모니터링, 기후 영향 분석 같은 다운스트림 태스크에서 정확도를 유지한다. Hugging Face에서 가중치와 평가 코드가 모두 공개됐고, 정부·NGO 활용 사례 가이드라인이 함께 제공된다.",
+        "url": "https://huggingface.co/blog/allenai/olmoearth-v1-1",
+        "source": "Hugging Face - Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-20T03:38:09+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_023",
+        "title": "Hugging Face, Ettin Reranker 패밀리 공개 — 검색·RAG 정렬 강화",
+        "excerpt": "Hugging Face가 검색 결과 재정렬을 위한 새로운 오픈소스 Reranker 패밀리 \"Ettin\"을 공개했다.",
+        "body": "Ettin은 영어와 다국어 변형을 포함한 reranker 모델 시리즈로, RAG 파이프라인의 정확도를 끌어올리기 위해 설계됐다. 작은 모델(110M)도 BEIR 등 표준 벤치마크에서 강력한 점수를 보이며, 더 큰 변형은 SOTA 수준을 노린다. 모델과 학습 레시피, 평가 코드가 모두 공개됐다.",
+        "url": "https://huggingface.co/blog/ettin-reranker",
+        "source": "Hugging Face - Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-19T09:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_024",
+        "title": "Google AI 구독 개편 — Gemini 3.5와 Veo 결합 플랜 등장",
+        "excerpt": "구글이 I/O 2026 발표에 맞춰 AI 구독 라인업을 개편했다. Gemini 3.5 Pro와 Veo, Imagen이 단일 플랜으로 묶였다.",
+        "body": "Google AI Pro, AI Advanced, AI Ultra 3단계로 정리된 새 구독 라인업은 텍스트, 이미지, 영상, 음성 모델을 모두 단일 계정에서 사용할 수 있도록 한다. 학생·교육자 할인, 가족 공유 옵션이 새로 들어왔고, 일부 국가에서는 Workspace Business와 묶음 판매도 시작된다.",
+        "url": "https://blog.google/products-and-platforms/products/google-one/google-ai-subscriptions/",
+        "source": "Gemini",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-20T02:45:00+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_015",
+        "title": "Cloudflare, Claude Managed Agents 공식 호스팅 — 엣지에서 에이전트 실행",
+        "excerpt": "Cloudflare가 Anthropic과 협력해 Claude Managed Agents를 자사 엣지 네트워크에서 직접 실행한다.",
+        "body": "Cloudflare는 Anthropic의 Claude Managed Agents를 자사 글로벌 엣지 네트워크 위에서 호스팅한다고 발표했다. 셀프 호스팅 샌드박스(퍼블릭 베타)와 MCP 터널(연구 프리뷰)을 통해 에이전트가 고객 보안 경계 안에서 동작하면서도 분산 엣지의 저지연·고가용 이점을 누릴 수 있다. Workers·R2·D1과의 통합으로 빠른 컨텍스트 접근도 보장된다.",
+        "url": "https://blog.cloudflare.com/claude-managed-agents/",
+        "source": "Cloudflare Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-19T22:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_016",
+        "title": "Docker, AI 에이전트 \"Gordon\" 출시 — 컨테이너 워크플로 전체를 보조",
+        "excerpt": "Docker가 컨테이너 빌드·실행·디버깅 전 과정을 자연어로 보조하는 AI 에이전트 \"Gordon\"을 발표했다.",
+        "body": "Docker는 컨테이너 워크플로 전체를 도와주는 AI 에이전트 Gordon을 정식 공개했다. Dockerfile 생성, Compose 설정 디버깅, 컨테이너 보안 점검, 빌드 성능 분석을 자연어로 처리할 수 있고 Docker Desktop과 CLI에서 동작한다. 사용자 코드에 직접 패치를 제안하는 모드도 포함됐다.",
+        "url": "https://www.docker.com/blog/meet-gordon-dockers-ai-agent-for-your-entire-container-workflow/",
+        "source": "Docker Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-20T04:08:04+09:00",
+        "readTime": 4,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_017",
+        "title": "VS Code 1.121 출시 — AI 작업 모드와 다중 에이전트 패널 정식 탑재",
+        "excerpt": "Visual Studio Code 1.121이 출시됐다. AI 작업 모드, 다중 에이전트 사이드 패널, 새 디버깅 개선 등이 포함됐다.",
+        "body": "VS Code 1.121에는 Chat의 AI 작업 모드가 안정 단계로 들어왔고, 여러 에이전트를 동시 운영하는 사이드 패널이 기본 기능으로 추가됐다. 디버거에서 비동기 호출 스택 시각화가 개선됐으며, Git 통합도 변경 사항 묶음 처리를 새 기본값으로 한다. 확장 마켓플레이스 성능도 큰 폭으로 빨라졌다.",
+        "url": "https://code.visualstudio.com/updates/v1_121",
+        "source": "Visual Studio Code - Code Editing. Redefined.",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-21T02:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_018",
+        "title": "Google Cloud, I/O 2026 기점으로 에이전트 개발 스택 재편",
+        "excerpt": "구글 클라우드가 I/O 2026 발표에 맞춰 에이전트 개발용 SDK, 평가 도구, 멀티에이전트 오케스트레이션을 한 묶음으로 정리했다.",
+        "body": "Vertex AI 위에서 동작하는 새 Agent Development Kit, 에이전트 평가용 Agent Eval, 그리고 BigQuery와 결합한 Data Agent Kit이 함께 발표됐다. 멀티에이전트 협업을 위한 오케스트레이터와 외부 도구 연결용 MCP 게이트웨이도 마련됐다. 구글은 \"에이전트 워크로드 표준 플랫폼\"을 노리는 포지셔닝이다.",
+        "url": "https://cloud.google.com/blog/topics/developers-practitioners/io26-news-for-agent-developers-on-google-cloud/",
+        "source": "AI & Machine Learning",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-20T02:45:00+09:00",
+        "readTime": 5,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_019",
+        "title": "Data Agent Kit 공개 — 데이터 실무자 라이프사이클 재정의",
+        "excerpt": "구글이 Data Agent Kit으로 데이터 실무자의 일상 작업을 에이전트가 보조하는 새 워크플로를 제시했다.",
+        "body": "Data Agent Kit은 BigQuery, dbt, Looker와 결합해 데이터 모델링, 품질 검사, 분석 문서 작성을 에이전트가 분담하도록 설계됐다. 데이터 실무자는 의사결정과 검수에 집중하고, 반복 쿼리·테스트·시각화는 에이전트가 수행한다. 베타 사용자들의 작업 시간이 평균 30% 단축됐다고 구글은 밝혔다.",
+        "url": "https://cloud.google.com/blog/products/data-analytics/data-agent-kit-brings-data-skills-and-tools-to-your-ide-or-cli/",
+        "source": "AI & Machine Learning",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-20T02:45:00+09:00",
+        "readTime": 4,
+        "imageGradient": 2
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_012",
+        "title": "KPMG, 27.6만 명 전사에 Claude 통합 — 빅4 첫 풀스택 도입",
+        "excerpt": "KPMG가 Anthropic과 전략적 동맹을 맺고 Claude를 27.6만 명 임직원의 핵심 업무 전반에 통합한다. 빅4 회계법인 중 첫 풀스택 도입 사례다.",
+        "body": "KPMG는 감사, 세무, 컨설팅 등 핵심 업무에 Claude를 통합한다고 발표했다. 27.6만 명 임직원이 사용하는 내부 도구에 Claude API를 연결해 업무 흐름과 문서 작성, 분석을 보조하도록 설계됐다. Anthropic은 이번 계약을 통해 빅4 회계 법인 시장에서 표준 위치를 확보했고, 엔터프라이즈 매출 성장의 큰 축이 될 전망이다.",
+        "url": "https://www.anthropic.com/news/anthropic-kpmg",
+        "source": "Anthropic News",
+        "category": "big_tech",
+        "publishedAt": "2026-05-19T09:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_013",
+        "title": "NVIDIA Vera, AI 에이전트 전용 첫 CPU 출하 — 주요 AI 랩 도입",
+        "excerpt": "NVIDIA가 에이전트 워크로드 최적화 CPU \"Vera\"를 출하했다. 주요 AI 연구소들이 첫 고객으로 합류했다.",
+        "body": "NVIDIA는 에이전트 워크로드에 맞춰 설계된 첫 CPU \"Vera\"를 주요 AI 랩에 출하했다고 발표했다. Vera는 GPU와 결합되는 ARM 기반 호스트 CPU로, 다단계 추론 파이프라인과 메모리 집약적 도구 호출을 최적화한다. 데이터센터에서 GPU 대당 효율을 끌어올리는 새 기준이 될 것이라고 NVIDIA는 밝혔다.",
+        "url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
+        "source": "NVIDIA Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-05-19T06:48:17+09:00",
+        "readTime": 5,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_014",
+        "title": "젠슨 황 \"수요는 포물선처럼 폭증\" — Dell과 엔터프라이즈 AI 동맹",
+        "excerpt": "NVIDIA CEO 젠슨 황이 Dell Technologies World에서 \"수요는 완전히 포물선\"이라며 엔터프라이즈 AI 인프라 협력을 강조했다.",
+        "body": "NVIDIA와 Dell은 에이전트 시대의 엔터프라이즈 AI 스택을 공동 구축하는 확장 협력을 발표했다. Dell의 서버·스토리지에 NVIDIA의 GPU·Vera CPU·NIM 마이크로서비스가 패키지로 묶여 고객사 데이터센터에 즉시 배포된다. 황은 데모 무대에서 \"수요는 포물선처럼 폭증한다\"며 공급 측 제약을 인정했다.",
+        "url": "https://blogs.nvidia.com/blog/dell-technologies-agent-enterprise-ai/",
+        "source": "NVIDIA Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-05-19T07:28:59+09:00",
+        "readTime": 4,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_020",
+        "title": "Apple, Apple Intelligence 결합한 새 접근성 기능 발표",
+        "excerpt": "Apple이 글로벌 접근성의 날을 맞아 Apple Intelligence를 활용한 신규 기능을 공개했다.",
+        "body": "Apple은 시각·청각·운동 장애 사용자를 위한 다수의 기능을 공개했다. 화면 인식 정확도를 끌어올린 라이브 캡션, 사용자 음성 패턴을 학습해 더 자연스러운 응답을 만드는 Personal Voice 2.0, 그리고 비전 사용자를 위한 새 인터페이스 가이드가 포함됐다. iOS 19와 macOS Sequoia에 단계적으로 들어간다.",
+        "url": "https://www.apple.com/newsroom/2026/05/apple-unveils-new-accessibility-features-and-updates-with-apple-intelligence/",
+        "source": "Apple Newsroom",
+        "category": "big_tech",
+        "publishedAt": "2026-05-19T20:59:33+09:00",
+        "readTime": 4,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_021",
+        "title": "Apple Sports, 90여 개국으로 확장 — 실시간 스포츠 데이터 글로벌화",
+        "excerpt": "Apple Sports가 90여 개 국가와 지역으로 확장됐다. 글로벌 리그 데이터와 실시간 스코어가 함께 들어왔다.",
+        "body": "Apple Sports는 NFL·NBA 중심에서 벗어나 축구, 크리켓, F1 등 글로벌 종목으로 영역을 넓혔다. 90여 개국에서 실시간 점수, 일정, 통계, 베팅 라인을 제공한다. iPhone과 Apple Watch 양쪽에 라이브 액티비티로 연결돼 백그라운드에서도 진행 상황을 받아볼 수 있다.",
+        "url": "https://www.apple.com/newsroom/2026/05/apple-sports-expands-to-more-than-90-new-countries-and-regions/",
+        "source": "Apple Newsroom",
+        "category": "big_tech",
+        "publishedAt": "2026-05-20T00:59:11+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Andrej Karpathy",
+        "handle": "karpathy",
+        "content": "개인 업데이트: 저는 Anthropic에 합류했습니다. LLM의 최전선에서 보내는 앞으로 몇 년은 특히 형성적인 시간이 될 거라고 생각합니다. 여기 팀에 합류하고 R&D로 돌아갈 수 있어서 매우 기쁩니다. 저는 여전히 교육에 깊이 열정을 품고 있으며, 적시에 그 일에 다시 착수할 계획입니다.",
+        "context": "Andrej Karpathy(전 OpenAI 공동 창업자)가 Anthropic 합류를 공개 발표했다. 업계 인재 이동의 상징적 사건으로 받아들여진다.",
+        "url": "https://x.com/karpathy/status/2056753169888334312",
+        "publishedAt": "2026-05-19T15:05:42.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "고객들은 용량에 대한 확실성을 점점 더 많이 요구하고 있습니다. 모델이 더 좋아질수록, 우리는 세계가 한동안 용량 제약을 받을 것으로 예상합니다. 우리는 1-3년 약정에 대해 할인된 토큰을 제공하고 있습니다.",
+        "context": "Sam Altman(OpenAI CEO)이 OpenAI Guaranteed Capacity 발표 직후 시장에 던지는 메시지를 공유했다.",
+        "url": "https://x.com/sama/status/2056827105401614656",
+        "publishedAt": "2026-05-19T19:59:30.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "ChatGPT가 최신 업데이트로 정말로 엄청나게 좋아졌어요. 이번에는 팀에게 정말 자랑스러워요.",
+        "context": "Sam Altman(OpenAI CEO)이 OpenAI Guaranteed Capacity 발표 직후 시장에 던지는 메시지를 공유했다.",
+        "url": "https://x.com/sama/status/2056435834333934051",
+        "publishedAt": "2026-05-18T18:04:44.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "이미지가 OpenAI에 의해 생성되었는지 확인하기 위한 SynthID:",
+        "context": "Greg Brockman(OpenAI 사장)이 Codex와 SynthID 등 OpenAI 최근 발표에 대한 코멘트를 남겼다.",
+        "url": "https://x.com/gdb/status/2056820240860778750",
+        "publishedAt": "2026-05-19T19:32:13.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "맥을 깨우지 않게 유지해서 휴대폰에서 빌드하고 작업할 수 있도록, ChatGPT 앱의 Codex와 함께",
+        "context": "Greg Brockman(OpenAI 사장)이 Codex와 SynthID 등 OpenAI 최근 발표에 대한 코멘트를 남겼다.",
+        "url": "https://x.com/gdb/status/2056448588754903316",
+        "publishedAt": "2026-05-18T18:55:25.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "codex에서 /goal 사용법 — Codex가 해결될 때까지 지속적인 목표에 대해 작업을 유지",
+        "context": "Greg Brockman(OpenAI 사장)이 Codex와 SynthID 등 OpenAI 최근 발표에 대한 코멘트를 남겼다.",
+        "url": "https://x.com/gdb/status/2056430780809892252",
+        "publishedAt": "2026-05-18T17:44:39.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "Mira Murati",
+        "handle": "miramurati",
+        "content": "협업 AI는 상호작용성에 기반합니다: 기계와 사람들이 실시간으로 모든 모달리티를 아우르며 함께 일합니다. 이를 해결하려면 커뮤니티가 필요합니다. 저희와 함께하세요.",
+        "context": "Mira Murati(전 OpenAI CTO)가 자신의 새 스타트업의 협업 AI 비전을 공유했다.",
+        "url": "https://x.com/miramurati/status/2056797399394422918",
+        "publishedAt": "2026-05-19T18:01:28.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "Chris Olah",
+        "handle": "ch402",
+        "content": "AI가 제기하는 질문들은 AI 커뮤니티를 넘어서는 더 큰 문제입니다. 우리는 세상 – 종교, 시민 사회, 학계, 정부 – 이 긍정적인 결과를 만들어내는 데 참여하기를 절실히 필요로 합니다. 가톨릭 교회가 참여하는 것을 기쁘게 생각하며, 그 발표에서 발언할 기회를 갖게 되어 영광입니다.",
+        "context": "Chris Olah(Anthropic 공동 창업자)가 AI에 대한 사회적 합의의 필요성을 강조했다.",
+        "url": "https://x.com/ch402/status/2056406734454067560",
+        "publishedAt": "2026-05-18T16:09:06.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_009",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "OpenAI 보장 용량 소개: 고객이 OpenAI 컴퓨팅에 대한 장기 액세스를 보장할 수 있는 새로운 제공 방식입니다. 저희는 고객이 안정적으로 확장할 수 있도록 인프라, 파트너십, 용량 계획에 장기 투자를 진행해 왔습니다. 이제 보장 용량은 컴퓨팅 자원이 제한된 환경에서 고객이 중요한 작업 부하에 대비할 수 있도록 합니다.",
+        "context": "OpenAI 공식 계정이 OpenAI Guaranteed Capacity와 SynthID 도입을 동시에 발표했다.",
+        "url": "https://x.com/OpenAI/status/2056823271774101907",
+        "publishedAt": "2026-05-19T19:44:16.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_010",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "사람들이 AI 생성 이미지 식별하고 그 출처를 이해할 수 있는 새로운 방법을 추가하고 있습니다. C2PA 콘텐츠 자격 증명 외에도, 이미지에는 이제 SynthID 워터마크가 포함되어 있으며, OpenAI 제품으로 생성되었는지 확인하기 위해 공개 검증 도구를 사용하여 식별할 수 있습니다.",
+        "context": "OpenAI 공식 계정이 OpenAI Guaranteed Capacity와 SynthID 도입을 동시에 발표했다.",
+        "url": "https://x.com/OpenAI/status/2056793648571011232",
+        "publishedAt": "2026-05-19T17:46:33.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_011",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "과학 데이터는 종종 다중 모달이며 복잡합니다. @altaratech 은 OpenAI 모델을 사용하여 과학자와 엔지니어들이 다단계 R&D 워크플로우를 더 큰 투명성으로 진행할 수 있도록 돕고 있습니다.",
+        "context": "OpenAI Developers 계정이 과학 데이터 워크플로에서 OpenAI 모델 활용 사례를 소개했다.",
+        "url": "https://x.com/OpenAIDevs/status/2056489138799681900",
+        "publishedAt": "2026-05-18T21:36:33.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_012",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "Anthropic은 @stainlessapi 를 인수하고 있습니다. 이는 우리 API의 초기 날짜부터 Anthropic SDK의 모든 것을 구동해 온 SDK 및 MCP 서버 플랫폼입니다. 자세히 읽기:",
+        "context": "Anthropic 공식 계정이 SDK·MCP 서버 플랫폼 Stainless 인수를 공식 발표했다.",
+        "url": "https://x.com/AnthropicAI/status/2056419620643541012",
+        "publishedAt": "2026-05-18T17:00:18.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_013",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "스콧 우(@ScottWu46)는 @cognition 을 운영하며, 이는 Claude를 기반으로 구축된 AI 소프트웨어 엔지니어인 Devin의 뒤에 있는 팀입니다. 그는 모든 엔지니어링 팀이 소프트웨어를 구축하는 속도를 10배 빠르게 만드는 것을 목표로 합니다",
+        "context": "Claude 공식 계정이 Code with Claude London에서 발표된 신규 기능을 정리했다.",
+        "url": "https://x.com/claudeai/status/2056805728774402428",
+        "publishedAt": "2026-05-19T18:34:33.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_014",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Code with Claude London에서 생중계: Claude Managed Agents에서 셀프 호스팅 샌드박스(퍼블릭 베타)와 MCP 터널(연구 프리뷰)을 출시합니다. 에이전트를 고객의 자체 경계 내에서 실행하며, 기본적으로 고객의 보안 제어가 적용됩니다.",
+        "context": "Claude 공식 계정이 Code with Claude London에서 발표된 신규 기능을 정리했다.",
+        "url": "https://x.com/claudeai/status/2056645485696315581",
+        "publishedAt": "2026-05-19T07:57:49.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "오늘 주식계좌 조심하세요.. 구글이 영상계의 나노 바나나 모멘트를 가져왔습니다. Gemini Omni는 사진, 영상, 음성, 텍스트를 섞고 대화로 영상을 고칩니다. 이제 영상을 새로 만드는 것뿐 아니라, 내가 찍은 영상까지 대화로 고칠 수 있습니다.",
+        "context": "구글 I/O 2026 발표 직후 한국 AI 커뮤니티에 빠르게 정리한 게시물. Gemini Omni와 Gemini 3.5 Flash 핵심 포인트를 한국어로 풀어준다.",
+        "url": "https://www.threads.net/@choi.openai/post/DYh5TT0D1S4",
+        "publishedAt": "2026-05-19T22:00:00.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "Gemini Omni는 구글의 새로운 생성 미디어 모델입니다. 구글은 'anything in, anything out' 방향으로 설명했고, 이번에는 비디오부터 시작합니다. 사진, 영상, 음성, 텍스트를 레퍼런스로 넣고 영상을 만들거나 이미 찍은 영상을 다시 바꿉니다.",
+        "context": "구글 I/O 2026 발표 직후 한국 AI 커뮤니티에 빠르게 정리한 게시물. Gemini Omni와 Gemini 3.5 Flash 핵심 포인트를 한국어로 풀어준다.",
+        "url": "https://www.threads.net/@choi.openai/post/DYh4m9Lm3-1",
+        "publishedAt": "2026-05-19T22:00:00.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_003",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "속보) 미친.. Gemini 3.1 Pro를 거의 대부분 벤치마크에서 앞선 Gemini 3.5 Flash가 발표됐습니다. 구글 I/O에서 새롭게 발표된 Gemini 3.5 Flash는 기존 Gemini 3.1 Pro를 거의 대부분 벤치마크에서 앞섰고, 다른 프론티어 모델 대비 출력 속도는 4배 빠릅니다.",
+        "context": "구글 I/O 2026 발표 직후 한국 AI 커뮤니티에 빠르게 정리한 게시물. Gemini Omni와 Gemini 3.5 Flash 핵심 포인트를 한국어로 풀어준다.",
+        "url": "https://www.threads.net/@choi.openai/post/DYh0wTmmgVr",
+        "publishedAt": "2026-05-19T22:00:00.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_004",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "대구글의 시대가 다시 시작되려고 합니다. Google I/O 2026 발표 내용 정리",
+        "context": "구글 I/O 2026 발표 직후 한국 AI 커뮤니티에 빠르게 정리한 게시물. Gemini Omni와 Gemini 3.5 Flash 핵심 포인트를 한국어로 풀어준다.",
+        "url": "https://www.threads.net/@choi.openai/post/DYhyEh9AbaC",
+        "publishedAt": "2026-05-19T21:00:00.000Z",
+        "platform": "threads"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "테이블형 데이터에 대한 파운데이션 모델, 어떻게 보시나요? [토론]",
+        "originalTitle": "What do you think about Tabular Foundation Models [D]",
+        "summary": "tabular 데이터용 파운데이션 모델의 가능성과 한계에 대한 r/MachineLearning의 토론 스레드. 이미지·텍스트 모델과 다른 점을 짚는다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1thofoe/what_do_you_think_about_tabular_foundation_models/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-05-19T23:20:20+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "망가진 AI 컨퍼런스 피어 리뷰 시스템을 개선할 단순한 해법 [연구]",
+        "originalTitle": "A Simple Solution to Improve Broken Peer Review System at AI Conferences [R]",
+        "summary": "AI 컨퍼런스의 리뷰 품질 저하에 대한 진단과 개선안을 다룬 글.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1the441/a_simple_solution_to_improve_broken_peer_review/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-05-19T15:12:02+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "앤드류 응 ML 강의 핵심을 정리한 GitHub 레포 공유",
+        "originalTitle": "All fundamental knowledge in ML Course by Andrew NG that I noted and create into a repo github [R]",
+        "summary": "앤드류 응 머신러닝 강의의 기초 개념을 정리한 깃허브 저장소. 입문자에게 인기.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1tho7b2/all_fundamental_knowledge_in_ml_course_by_andrew/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-05-19T23:12:02+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "ByteDance, 3B 파라미터로 거의 모든 것을 시도하는 오픈소스 모델 공개",
+        "originalTitle": "bytedance released an open source model that attempts to do just about anything with only 3b parameters",
+        "summary": "ByteDance가 작은 3B 모델 하나로 멀티태스크를 시도한 오픈소스 모델을 공개해 화제. r/LocalLLaMA에서 토론.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1thkwgk/bytedance_released_an_open_source_model_that/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-05-19T21:05:26+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "로컬 LLM이 처음으로 'rm -rf /'를 시도한 날",
+        "originalTitle": "got my first \"rm -rf /\" today",
+        "summary": "사용자가 자신의 환경에서 모델이 위험한 셸 명령을 시도한 사례. 에이전트 안전성에 대한 농담 섞인 토론.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1thosnt/got_my_first_rm_rf_today/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-05-19T23:33:13+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "Qwen, 정말 제대로 일하고 있다",
+        "originalTitle": "Qwen is cooking hard",
+        "summary": "알리바바의 Qwen 모델 시리즈가 빠른 속도로 진화하고 있다는 r/LocalLLaMA의 호평 스레드.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1theffd/qwen_is_cooking_hard/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-05-19T15:28:31+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "내 em 대시 돌려줘! — AI가 망친 문체 토론",
+        "originalTitle": "Give back my em-dashes!",
+        "summary": "ChatGPT가 사용하는 em 대시 스타일이 글쓰기 전반에 퍼지면서 의도치 않은 균질화를 일으킨다는 토론.",
+        "url": "https://www.reddit.com/r/artificial/comments/1thvyif/give_back_my_emdashes/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-05-20T03:35:40+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "AI 생성 콘텐츠가 온라인에 얼마나 빠르게 녹아드는지 사람들이 과소평가하고 있다",
+        "originalTitle": "I think people are underestimating how quickly AI-generated content will blend in online",
+        "summary": "AI 콘텐츠의 자연스러운 침투 속도에 대한 r/artificial 사용자들의 우려와 토론.",
+        "url": "https://www.reddit.com/r/artificial/comments/1thrz6z/i_think_people_are_underestimating_how_quickly/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-05-20T01:23:04+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "'AI 시대의 진실'을 다룬 책이 AI가 만든 가짜 인용문을 포함",
+        "originalTitle": "Book on Truth in the Age of A.I. Contains Quotes Made Up by A.I.",
+        "summary": "AI 시대의 진실성을 다룬 책에 AI가 환각으로 만든 가짜 인용이 들어 있었던 아이러니한 사건.",
+        "url": "https://www.reddit.com/r/artificial/comments/1thtite/book_on_truth_in_the_age_of_ai_contains_quotes/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-05-20T02:15:28+09:00"
+      },
+      {
+        "id": "reddit_010",
+        "title": "OpenAI 창업 멤버 Karpathy, Anthropic 합류 — 왜?",
+        "originalTitle": "Karpathy is a founding member of OpenAI and now joining Anthropic. I wonder why",
+        "summary": "Karpathy의 Anthropic 이동을 두고 OpenAI 커뮤니티에서 벌어진 추측과 토론.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1thq8ag/karpathy_is_a_founding_member_of_openai_and_now/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-05-20T00:23:22+09:00"
+      },
+      {
+        "id": "reddit_011",
+        "title": "실수하지 마, JARVIS",
+        "originalTitle": "make no mistakes jarvis",
+        "summary": "ChatGPT를 영화 속 JARVIS처럼 다루는 사용자 패턴에 대한 가벼운 토론.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1thj513/make_no_mistakes_jarvis/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-05-19T19:46:08+09:00"
+      },
+      {
+        "id": "reddit_012",
+        "title": "마이크로소프트 이코노미스트의 도발적 견해: 먼저 태우자",
+        "originalTitle": "Microsoft economist's hot take: Let it burn first",
+        "summary": "AI 거품과 자본 배분에 대한 마이크로소프트 이코노미스트의 도발적인 의견과 그에 대한 토론.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1thr8ov/microsoft_economists_hot_take_let_it_burn_first/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-05-20T00:58:10+09:00"
+      },
+      {
+        "id": "reddit_013",
+        "title": "Claude Managed Agents 셀프 호스팅 샌드박스·MCP 터널 퍼블릭 베타",
+        "originalTitle": "Self-hosted sandboxes and MCP tunnels for Claude Managed Agents are now in public beta.",
+        "summary": "Anthropic이 Claude Managed Agents의 셀프 호스팅 샌드박스와 MCP 터널을 퍼블릭 베타로 공개. 보안 경계 안에서 에이전트를 실행 가능.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1thg711/selfhosted_sandboxes_and_mcp_tunnels_for_claude/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-05-19T17:07:08+09:00"
+      },
+      {
+        "id": "reddit_014",
+        "title": "Karpathy, Anthropic 합류",
+        "originalTitle": "Karpathy joins Anthropic",
+        "summary": "Andrej Karpathy의 Anthropic 합류에 대한 r/ClaudeAI 사용자들의 반응.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1thpuf1/karpathy_joins_anthropic/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-05-20T00:10:01+09:00"
+      },
+      {
+        "id": "reddit_015",
+        "title": "OpenAI 공동 창업자 Karpathy, Anthropic 합류 — 인재 전쟁은 끝났다?",
+        "originalTitle": "OpenAI cofounder Andrej karpathy just joined anthropic and the talent war is officially over",
+        "summary": "Karpathy 이적이 AI 인재 전쟁의 흐름을 바꿀 사건이라는 평가와 반론을 다룬 스레드.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1thw3bu/openai_cofounder_andrej_karpathy_just_joined/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-05-20T03:40:02+09:00"
+      },
+      {
+        "id": "reddit_016",
+        "title": "Raven Software, 2013년 공개한 Jedi Academy 소스코드의 개발자 코멘트가 '크런치 분노' 그 자체",
+        "originalTitle": "Raven Software released the Jedi Academy source code in 2013 and the dev comments are crunch rage",
+        "summary": "오래된 게임 소스코드에 남은 코멘트에서 보이는 크런치 문화의 흔적이 다시 회자되는 글.",
+        "url": "https://www.reddit.com/r/programming/comments/1thewau/raven_software_released_the_jedi_academy_source/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-05-19T15:54:30+09:00"
+      },
+      {
+        "id": "reddit_017",
+        "title": "npm 패키지 314개가 동시에 해킹 — @antv, echarts-for-react 등",
+        "originalTitle": "314 npm packages just got compromised, 271 @antv, echarts-for-react, size-sensor, timeago.js",
+        "summary": "널리 쓰이는 npm 패키지 다수가 한 번에 침해된 사건. 공급망 보안 이슈로 빠르게 확산 중.",
+        "url": "https://www.reddit.com/r/programming/comments/1thcanx/314_npm_packages_just_got_compromised_271_antv/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-05-19T13:39:28+09:00"
+      },
+      {
+        "id": "reddit_018",
+        "title": "코드를 직접 타이핑하라",
+        "originalTitle": "Type out the code",
+        "summary": "AI 시대에도 코드를 직접 타이핑하며 학습하는 가치에 대한 의견 글.",
+        "url": "https://www.reddit.com/r/programming/comments/1thncdv/type_out_the_code/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-05-19T22:40:41+09:00"
+      },
+      {
+        "id": "reddit_019",
+        "title": "Gemini 3.5 Flash, 등장!",
+        "originalTitle": "Behold, Gemini 3.5 Flash!",
+        "summary": "구글이 공개한 Gemini 3.5 Flash가 벤치마크에서 보여준 성능과 가격에 대한 토론.",
+        "url": "https://www.reddit.com/r/singularity/comments/1thtxs8/behold_gemini_35_flash/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-05-20T02:29:27+09:00"
+      },
+      {
+        "id": "reddit_020",
+        "title": "구글 Antigravity 2.0, 96개 에이전트로 12시간 만에 OS 자체 제작 — 1000달러 토큰으로 Doom까지 실행",
+        "originalTitle": "Google's Antigravity 2.0 creates an operating system from scratch using 96 agents in 12 hours for under $1K in token costs - and it runs Doom",
+        "summary": "Antigravity 2.0이 다중 에이전트로 처음부터 OS를 만들고 Doom을 돌렸다는 인상적인 데모에 대한 토론.",
+        "url": "https://www.reddit.com/r/singularity/comments/1thug7n/googles_antigravity_20_creates_an_operating/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-05-20T02:46:18+09:00"
+      },
+      {
+        "id": "reddit_021",
+        "title": "Gemini 3.5 Flash, 이전 버전 대비 3배 — 1.5 Flash 대비 30배 비싸진 가격",
+        "originalTitle": "Gemini 3.5 flash costs 3 times more than the previous version and 30x more than gemini 1.5 flash.",
+        "summary": "Gemini 3.5 Flash의 빠른 속도 이면에 있는 가파른 가격 인상에 대한 비판.",
+        "url": "https://www.reddit.com/r/singularity/comments/1thuct8/gemini_35_flash_costs_3_times_more_than_the/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-05-20T02:43:18+09:00"
+      },
+      {
+        "id": "reddit_022",
+        "title": "나쁜 엔지니어링 문화의 회사를 피하려면 어떻게 해야 하나?",
+        "originalTitle": "How do you avoid joining companies with bad engineering culture?",
+        "summary": "이직 시 엔지니어링 문화를 사전에 파악하는 방법을 공유하는 r/ExperiencedDevs 스레드.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1thwcop/how_do_you_avoid_joining_companies_with_bad/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-05-20T03:48:43+09:00"
+      },
+      {
+        "id": "reddit_023",
+        "title": "'Senior Cursor Engineer' 저임금 계약직 제안 — 업계가 이렇게까지 추락한 건가?",
+        "originalTitle": "Just got an email from a recruiter for a very low paying \"Senior Cursor Engineer\" contract role, is this really how far this industry has sunken?",
+        "summary": "AI 도구 사용을 강조한 '시니어 Cursor 엔지니어' 직책의 저임금 계약직 제안에 대한 분노와 토론.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1thrh56/just_got_an_email_from_a_recruiter_for_a_very_low/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-05-20T01:05:51+09:00"
+      },
+      {
+        "id": "reddit_024",
+        "title": "최근의 '승리'는 무엇이고 어떻게 달성했나요?",
+        "originalTitle": "What's your most recent \"win\" and how did you achieve it?",
+        "summary": "경력 개발자들이 최근 거둔 작은 승리를 공유하는 r/ExperiencedDevs 스레드.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1thovqb/whats_your_most_recent_win_and_how_did_you/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-05-19T23:36:12+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_q001",
+        "title": "Spotify Engineering, 신규 기술 블로그 포스트 공개",
+        "excerpt": "Spotify 엔지니어링 팀이 내부 인프라 또는 추천 시스템 관련 새로운 글을 공개했다.",
+        "body": "Spotify 엔지니어링 블로그가 새 글을 게시했다. 대규모 추천 파이프라인, 데이터 인프라, 플랫폼 운영 등 Spotify 규모에서만 마주칠 수 있는 기술 문제와 해법을 다룬다.",
+        "url": "https://engineering.atspotify.com/2026/5/better-experiments-with-llm-evals-a-funnel-not-a-fork/",
+        "source": "Spotify Engineering",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-18T22:27:23+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_q002",
+        "title": "Atlassian, 개발자 도구 신규 업데이트 공개",
+        "excerpt": "Atlassian 개발자 블로그에 Jira·Confluence 자동화 또는 Forge 관련 새 글이 올라왔다.",
+        "body": "Atlassian이 개발자용 신규 기능과 베스트 프랙티스를 다룬 글을 공개했다. 워크플로 자동화, 통합 앱 배포, Forge 플랫폼 업데이트가 중심 주제다.",
+        "url": "https://www.atlassian.com/blog/bitbucket/agentic-pipelines-now-supports-claude-code",
+        "source": "Atlassian Developer Blog",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-20T03:29:43+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_q003",
+        "title": "GitHub Copilot 신규 업데이트 노트 공개",
+        "excerpt": "GitHub Copilot 팀이 새로운 기능 또는 모델 업데이트를 발표했다.",
+        "body": "GitHub Copilot의 새로운 업데이트가 공개됐다. 에디터 통합 개선, 새 모델 라우팅, 코드 리뷰 지원 강화 등이 포함될 수 있다. 구체적인 변경 사항은 원문에서 확인할 수 있다.",
+        "url": "https://github.blog/news-insights/product-news/take-your-local-github-sessions-anywhere/",
+        "source": "The latest on GitHub Copilot - The GitHub Blog",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-19T01:54:53+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_q004",
+        "title": "Apple Developer, 개발자용 신규 공지 발표",
+        "excerpt": "Apple Developer 채널에 새 도구 또는 정책 변경 공지가 올라왔다.",
+        "body": "Apple Developer 뉴스가 업데이트됐다. SDK 베타, App Store 정책 변경, 디자인 가이드 갱신 등 iOS·macOS 개발자에게 영향을 주는 변경 사항이 포함될 수 있다.",
+        "url": "https://developer.apple.com/news/?id=8t3j66i7",
+        "source": "Latest News - Apple Developer",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-19T00:50:09+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_q005",
+        "title": "JavaScript Weekly 최신 호 발행",
+        "excerpt": "JavaScript Weekly 뉴스레터의 새 호가 공개됐다.",
+        "body": "JavaScript 생태계의 한 주를 정리한 JavaScript Weekly 최신 호가 발행됐다. 프레임워크 업데이트, 빌드 도구 동향, 새 라이브러리, 주목할 만한 글이 함께 소개된다.",
+        "url": "https://javascriptweekly.com/issues/786",
+        "source": "JavaScript Weekly",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-19T09:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      }
+    ]
+  }
+}

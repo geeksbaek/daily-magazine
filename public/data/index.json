@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-05-20",
+      "issueNumber": 51,
+      "mainHeadline": "구글 I/O 2026, \"에이전틱 Gemini 시대\" 선언 — Gemini 3.5와 Omni가 영상까지 삼키다",
+      "headlines": [
+        "Andrej Karpathy, Anthropic 합류 — AI 인재 전쟁 새 국면",
+        "KPMG, 전사 27.6만 명에 Claude 통합 — 빅4 첫 풀스택 도입",
+        "NVIDIA Vera CPU 출하 시작 — 에이전트 시대 전용 칩의 출발"
+      ]
+    },
+    {
       "date": "2026-05-19",
       "issueNumber": 50,
       "mainHeadline": "OpenAI, Codex 엔터프라이즈 전선 확대 — Dell과 손잡고 온프레미스로",
@@ -496,5 +506,5 @@
       ]
     }
   ],
-  "latestIssue": 50
+  "latestIssue": 51
 }
