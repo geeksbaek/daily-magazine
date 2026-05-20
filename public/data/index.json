@@ -1,6 +1,17 @@
 {
   "issues": [
     {
+      "date": "2026-05-21",
+      "issueNumber": 52,
+      "mainHeadline": "Google I/O 2026 후폭풍 — Gemini 3.5와 에이전트, 그리고 AI가 푼 80년 묵은 수학 문제",
+      "headlines": [
+        "OpenAI 모델, 80년 묵은 에르되시 추측을 자율적으로 반박",
+        "Gemini 3.5 — 행동하는 프론티어 지능, Workspace 전면 통합",
+        "Cloudflare에서 Claude Managed Agents 출시 — 셀프호스팅 샌드박스와 MCP 터널",
+        "Karpathy, Anthropic 합류 발표 — LLM 최전선 R&D 복귀"
+      ]
+    },
+    {
       "date": "2026-05-20",
       "issueNumber": 51,
       "mainHeadline": "구글 I/O 2026, \"에이전틱 Gemini 시대\" 선언 — Gemini 3.5와 Omni가 영상까지 삼키다",
@@ -506,5 +517,5 @@
       ]
     }
   ],
-  "latestIssue": 51
+  "latestIssue": 52
 }

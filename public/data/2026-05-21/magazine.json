@@ -1,0 +1,1130 @@
+{
+  "date": "2026-05-21",
+  "issueNumber": 52,
+  "cover": {
+    "mainHeadline": "Google I/O 2026 후폭풍 — Gemini 3.5와 에이전트, 그리고 AI가 푼 80년 묵은 수학 문제",
+    "mainExcerpt": "구글이 I/O 2026에서 Gemini 3.5와 100가지 신기능을 쏟아낸 데 이어, OpenAI는 1946년 폴 에르되시가 제기한 이산기하학 추측을 자율적으로 반박했다. AI 모델이 수학의 미해결 문제를 처음으로 직접 해결한 이정표이며, 에이전트 시대를 향한 경쟁이 한층 가속화됐다.",
+    "headlines": [
+      "OpenAI 모델, 80년 묵은 에르되시 추측을 자율적으로 반박",
+      "Gemini 3.5 — 행동하는 프론티어 지능, Workspace 전면 통합",
+      "Cloudflare에서 Claude Managed Agents 출시 — 셀프호스팅 샌드박스와 MCP 터널",
+      "Karpathy, Anthropic 합류 발표 — LLM 최전선 R&D 복귀"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_006",
+      "title": "OpenAI 모델, 80년 묵은 에르되시 추측을 자율 반박",
+      "excerpt": "1946년 폴 에르되시가 제기한 이산기하학의 중심 추측을 OpenAI 모델이 자율적으로 반박했다. AI가 수학 분야의 미해결 문제를 직접 해결한 최초 사례로, 범용 추론 모델이 길고 어려운 추론 사슬을 유지하며 분야를 가로질러 아이디어를 연결할 수 있음을 보여준다.",
+      "body": "1946년 폴 에르되시가 제기한 이산기하학의 중심 추측을 OpenAI 모델이 자율적으로 반박했다. AI가 수학 분야의 미해결 문제를 직접 해결한 최초 사례로, 범용 추론 모델이 길고 어려운 추론 사슬을 유지하며 분야를 가로질러 아이디어를 연결할 수 있음을 보여준다.",
+      "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
+      "source": "OpenAI News",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-20T09:00:00+09:00",
+      "readTime": 2,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_000",
+      "title": "I/O 2026 — 한 번에 쏟아진 100가지 발표",
+      "excerpt": "Google이 I/O 2026 무대에서 Gemini 3.5, Gemini Omni, Agent Executor, AI for Science, Universal Commerce Protocol 등 100가지 신기능을 동시에 공개했다. 검색·광고·생산성·과학 도구 전반에 에이전트 기술이 깊숙이 통합된 청사진을 제시했다.",
+      "body": "Google이 I/O 2026 무대에서 Gemini 3.5, Gemini Omni, Agent Executor, AI for Science, Universal Commerce Protocol 등 100가지 신기능을 동시에 공개했다. 검색·광고·생산성·과학 도구 전반에 에이전트 기술이 깊숙이 통합된 청사진을 제시했다.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
+      "source": "Gemini",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-21T04:30:00+09:00",
+      "readTime": 3,
+      "imageGradient": 0
+    },
+    {
+      "id": "hl_003",
+      "title": "Gemini 3.5 — 행동하는 프론티어 지능, Workspace 전면 통합",
+      "excerpt": "Google이 I/O 2026에서 Gemini 3.5를 공개했다. 단순 응답형 모델을 넘어 작업을 직접 수행하는 '에이전트형 지능'을 표방하며, 추론·코딩·멀티모달 전반에서 성능을 끌어올렸다. Workspace·Search·Gemini 앱 전반에 단계적으로 배포된다.",
+      "body": "Google이 I/O 2026에서 Gemini 3.5를 공개했다. 단순 응답형 모델을 넘어 작업을 직접 수행하는 '에이전트형 지능'을 표방하며, 추론·코딩·멀티모달 전반에서 성능을 끌어올렸다. Workspace·Search·Gemini 앱 전반에 단계적으로 배포된다.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
+      "source": "Gemini",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-20T02:45:00+09:00",
+      "readTime": 4,
+      "imageGradient": 2
+    },
+    {
+      "id": "hl_004",
+      "title": "Gemini Omni 공개 — 멀티모달 옴니 에이전트의 시작",
+      "excerpt": "음성·이미지·텍스트·코드를 하나의 통합 흐름으로 처리하는 옴니 에이전트 Gemini Omni가 공개됐다. Project Astra의 발전형으로, 실시간 멀티모달 상호작용을 핵심으로 한다.",
+      "body": "음성·이미지·텍스트·코드를 하나의 통합 흐름으로 처리하는 옴니 에이전트 Gemini Omni가 공개됐다. Project Astra의 발전형으로, 실시간 멀티모달 상호작용을 핵심으로 한다.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni/",
+      "source": "Gemini",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-20T02:45:00+09:00",
+      "readTime": 4,
+      "imageGradient": 3
+    },
+    {
+      "id": "hl_005",
+      "title": "Cloudflare에서 Claude Managed Agents 출시",
+      "excerpt": "Anthropic이 Cloudflare 위에서 동작하는 Claude Managed Agents의 셀프 호스팅 샌드박스(퍼블릭 베타)와 MCP 터널(연구 프리뷰)을 공개했다. 고객의 보안 경계 내에서 에이전트를 실행할 수 있는 새 옵션이 열렸다.",
+      "body": "Anthropic이 Cloudflare 위에서 동작하는 Claude Managed Agents의 셀프 호스팅 샌드박스(퍼블릭 베타)와 MCP 터널(연구 프리뷰)을 공개했다. 고객의 보안 경계 내에서 에이전트를 실행할 수 있는 새 옵션이 열렸다.",
+      "url": "https://blog.cloudflare.com/claude-managed-agents/",
+      "source": "Cloudflare Blog",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-19T22:00:00+09:00",
+      "readTime": 4,
+      "imageGradient": 4
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_000",
+        "title": "Google I/O 2026에서 발표한 100가지 신기능",
+        "excerpt": "Google이 I/O 2026 무대에서 Gemini 3.5, Gemini Omni, Agent Executor, AI for Science 등 100가지 신기능을 동시에 공개했다.",
+        "body": "검색·광고·생산성·과학 도구 전반에 에이전트 기술이 깊숙이 통합된 청사진을 제시했다. Workspace·Search·Cloud·AI Studio 등 전 제품군에 걸쳐 발표가 이루어졌으며, '에이전틱 시대'를 향한 본격적 진입을 알렸다.",
+        "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
+        "source": "Gemini",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-21T04:30:00+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_001",
+        "title": "Google Beam, 더 나은 그룹 화상회의 실험 시작",
+        "excerpt": "Google Beam, 더 나은 그룹 화상회의 실험 시작 — AI에서 발표.",
+        "body": "Google Beam, 더 나은 그룹 화상회의 실험 시작 — AI에서 발표.",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-beam-group-meetings/",
+        "source": "AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-21T01:45:00+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_002",
+        "title": "AI Edge Portal로 온디바이스 LLM 벤치마크 및 최적화",
+        "excerpt": "AI Edge Portal로 온디바이스 LLM 벤치마크 및 최적화 — AI & Machine Learning에서 발표.",
+        "body": "AI Edge Portal로 온디바이스 LLM 벤치마크 및 최적화 — AI & Machine Learning에서 발표.",
+        "url": "https://cloud.google.com/blog/products/ai-machine-learning/benchmark-llms-on-device-with-ai-edge-portal/",
+        "source": "AI & Machine Learning",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-21T01:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_003",
+        "title": "Google의 분산 에이전트 런타임 'Agent Executor' 공개",
+        "excerpt": "Google이 대규모 에이전트 워크로드를 위한 분산 런타임 Agent Executor를 공개했다.",
+        "body": "Agent Executor는 GKE 위에서 동작하는 분산 런타임으로, 다수의 에이전트가 동시에 협력하며 작업을 처리할 수 있도록 설계됐다. Agent Sandbox와 함께 출시되어 에이전트 수명주기 관리 전반을 지원한다.",
+        "url": "https://cloud.google.com/blog/products/ai-machine-learning/agent-executor-googles-distributed-agent-runtime/",
+        "source": "AI & Machine Learning",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-21T01:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_004",
+        "title": "GKE Agent Sandbox 정식 출시 — Agent Substrate도 첫선",
+        "excerpt": "GKE의 Agent Sandbox가 정식 출시됐고, 새 인프라 계층 Agent Substrate도 처음 공개됐다.",
+        "body": "Agent Sandbox는 에이전트가 안전하게 코드를 실행하고 도구를 사용할 수 있는 격리 환경을 제공한다. 함께 발표된 Agent Substrate는 에이전트 수명주기 관리·관찰성·정책을 책임지는 새 인프라 레이어로, Google Cloud의 에이전트 스택을 한 단계 더 끌어올린다.",
+        "url": "https://cloud.google.com/blog/products/containers-kubernetes/bringing-you-agent-sandbox-on-gke-and-agent-substrate/",
+        "source": "AI & Machine Learning",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-21T01:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_005",
+        "title": "Running Guide 에이전트 — 무한 러닝을 향한 한 걸음",
+        "excerpt": "Running Guide 에이전트 — 무한 러닝을 향한 한 걸음 — Google DeepMind에서 발표.",
+        "body": "Running Guide 에이전트 — 무한 러닝을 향한 한 걸음 — Google DeepMind에서 발표.",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/running-guide-agent/",
+        "source": "Google DeepMind",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-20T09:01:00+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_006",
+        "title": "OpenAI 모델, 이산기하학 중심 추측을 자율 반박 — 1946년 폴 에르되시 문제 풀다",
+        "excerpt": "OpenAI의 범용 추론 모델이 1946년 폴 에르되시가 제기한 이산기하학의 중심 추측을 자율적으로 반박했다.",
+        "body": "OpenAI는 평면 단위 거리 문제에 대한 획기적 결과를 발표했다. 80년 가까이 수학자들은 최적의 해가 대략 정사각형 격자처럼 보일 것이라 믿어왔지만, OpenAI 모델이 그 믿음을 반박하며 더 나은 구성을 찾아냈다. 특별히 수학용으로 설계되지 않은 범용 추론 모델에서 나온 증명이라는 점에서 의미가 크다.",
+        "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-20T09:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_007",
+        "title": "OpenAI 국가별 교육 프로그램, 다음 단계 진입",
+        "excerpt": "OpenAI 국가별 교육 프로그램, 다음 단계 진입 — OpenAI News에서 발표.",
+        "body": "OpenAI 국가별 교육 프로그램, 다음 단계 진입 — OpenAI News에서 발표.",
+        "url": "https://openai.com/index/the-next-phase-of-education-for-countries",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-20T09:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_008",
+        "title": "OpenAI for Singapore 출범 — 동남아 거점 확대",
+        "excerpt": "OpenAI for Singapore 출범 — 동남아 거점 확대 — OpenAI News에서 발표.",
+        "body": "OpenAI for Singapore 출범 — 동남아 거점 확대 — OpenAI News에서 발표.",
+        "url": "https://openai.com/index/introducing-openai-for-singapore",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-20T05:30:00+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_009",
+        "title": "OlmoEarth v1.1 — 더 효율적인 지구 관측 모델 패밀리",
+        "excerpt": "OlmoEarth v1.1 — 더 효율적인 지구 관측 모델 패밀리 — Hugging Face - Blog에서 발표.",
+        "body": "OlmoEarth v1.1 — 더 효율적인 지구 관측 모델 패밀리 — Hugging Face - Blog에서 발표.",
+        "url": "https://huggingface.co/blog/allenai/olmoearth-v1-1",
+        "source": "Hugging Face - Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-20T03:38:09+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_010",
+        "title": "AI가 팀의 창의성을 평탄화하고 있는가? 이렇게 확인해보자",
+        "excerpt": "Is AI flattening your team's creativity? Here's how to tell. — Atlassian Developer Blog에서 발표.",
+        "body": "Is AI flattening your team's creativity? Here's how to tell. — Atlassian Developer Blog에서 발표.",
+        "url": "https://www.atlassian.com/blog/ai-at-work/is-ai-flattening-your-teams-creativity-heres-how-to-tell",
+        "source": "Atlassian Developer Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-21T03:15:42+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_011",
+        "title": "Chrome Android 베타 업데이트",
+        "excerpt": "Chrome Android 베타 업데이트 — Google Chrome Releases에서 발표.",
+        "body": "Chrome Android 베타 업데이트 — Google Chrome Releases에서 발표.",
+        "url": "http://chromereleases.googleblog.com/2026/05/chrome-beta-for-android-update_01005207921.html",
+        "source": "Google Chrome Releases",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-21T02:13:32+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_012",
+        "title": "Visual Studio Code 1.121 릴리스",
+        "excerpt": "Visual Studio Code 1.121 릴리스 — Visual Studio Code - Code Editing. Redefined.에서 발표.",
+        "body": "Visual Studio Code 1.121 릴리스 — Visual Studio Code - Code Editing. Redefined.에서 발표.",
+        "url": "https://code.visualstudio.com/updates/v1_121",
+        "source": "Visual Studio Code - Code Editing. Redefined.",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-21T02:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_013",
+        "title": "Jira에 Cursor 통합 발표",
+        "excerpt": "Introducing Cursor in Jira — Atlassian Developer Blog에서 발표.",
+        "body": "Introducing Cursor in Jira — Atlassian Developer Blog에서 발표.",
+        "url": "https://www.atlassian.com/blog/company-news/cursor-in-jira",
+        "source": "Atlassian Developer Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-21T00:55:00+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_014",
+        "title": "Chrome iOS 베타 업데이트",
+        "excerpt": "Chrome iOS 베타 업데이트 — Google Chrome Releases에서 발표.",
+        "body": "Chrome iOS 베타 업데이트 — Google Chrome Releases에서 발표.",
+        "url": "http://chromereleases.googleblog.com/2026/05/chrome-beta-for-ios-update_01729782424.html",
+        "source": "Google Chrome Releases",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-20T23:13:32+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_015",
+        "title": "ChromeOS 안정 채널 업데이트",
+        "excerpt": "ChromeOS 안정 채널 업데이트 — Google Chrome Releases에서 발표.",
+        "body": "ChromeOS 안정 채널 업데이트 — Google Chrome Releases에서 발표.",
+        "url": "http://chromereleases.googleblog.com/2026/05/stable-channel-update-for-chromeos_01312344978.html",
+        "source": "Google Chrome Releases",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-20T08:17:47+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_016",
+        "title": "Google, 미주리주 신규 커뮤니티 투자 발표",
+        "excerpt": "Google, 미주리주 신규 커뮤니티 투자 발표 — The Official Google Blog에서 발표.",
+        "body": "Google, 미주리주 신규 커뮤니티 투자 발표 — The Official Google Blog에서 발표.",
+        "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/missouri-programs/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-05-21T04:30:00+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_017",
+        "title": "Demand Gen으로 YouTube 다음 성장 동력 점화",
+        "excerpt": "Demand Gen으로 YouTube 다음 성장 동력 점화 — The Official Google Blog에서 발표.",
+        "body": "Demand Gen으로 YouTube 다음 성장 동력 점화 — The Official Google Blog에서 발표.",
+        "url": "https://blog.google/products-and-platforms/products/youtube/youtube-demand-gen-updates/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-05-21T01:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_018",
+        "title": "Asset Studio, AI 기반 크리에이티브의 새 시대",
+        "excerpt": "Asset Studio, AI 기반 크리에이티브의 새 시대 — The Official Google Blog에서 발표.",
+        "body": "Asset Studio, AI 기반 크리에이티브의 새 시대 — The Official Google Blog에서 발표.",
+        "url": "https://blog.google/products/ads-commerce/asset-studio-updates/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-05-21T01:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_019",
+        "title": "Universal Commerce Protocol 신기능으로 리테일러 성장 지원",
+        "excerpt": "Universal Commerce Protocol 신기능으로 리테일러 성장 지원 — The Official Google Blog에서 발표.",
+        "body": "Universal Commerce Protocol 신기능으로 리테일러 성장 지원 — The Official Google Blog에서 발표.",
+        "url": "https://blog.google/products-and-platforms/products/shopping/shopping-updates-google-marketing-live/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-05-21T01:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_020",
+        "title": "AI 검색 시대의 새 광고 세대",
+        "excerpt": "AI 검색 시대의 새 광고 세대 — The Official Google Blog에서 발표.",
+        "body": "AI 검색 시대의 새 광고 세대 — The Official Google Blog에서 발표.",
+        "url": "https://blog.google/products/ads-commerce/google-marketing-live-search-ads/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-05-21T01:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_021",
+        "title": "Google Marketing Live 2026 개막",
+        "excerpt": "Google Marketing Live 2026 개막 — The Official Google Blog에서 발표.",
+        "body": "Google Marketing Live 2026 개막 — The Official Google Blog에서 발표.",
+        "url": "https://blog.google/products/ads-commerce/google-marketing-live-2026-collection/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-05-21T01:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 5
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Andrej Karpathy",
+        "handle": "karpathy",
+        "content": "개인 업데이트: 저는 Anthropic에 합류했습니다. LLM의 최전선에서 보내는 앞으로 몇 년은 특히 형성적인 시간이 될 거라고 생각합니다. 여기 팀에 합류하고 R&D로 돌아갈 수 있어서 매우 기쁩니다. 저는 여전히 교육에 깊이 열정을 품고 있으며, 적시에 그 일에 다시 착수할 계획입니다.",
+        "context": "Andrej Karpathy는 OpenAI 공동 창업자이자 Tesla AI 디렉터를 역임한 AI 연구자다. 그의 행보는 업계가 주목한다.",
+        "url": "https://x.com/karpathy/status/2056753169888334312",
+        "publishedAt": "2026-05-19T15:05:42.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "토큰맥싱 스타트업들이 어떻게 될지, 내부적으로 어떻게 운영되는지와 그들이 만들 수 있는 제품 모두에 대해 기대됩니다. 오픈AI는 현재 YC 배치의 모든 스타트업에 토큰으로 200만 달러를 투자하겠다고 제안했습니다. 즐거운 빌딩 되세요!",
+        "context": "Sam Altman은 OpenAI CEO. 자본 배분과 인프라 투자 방향을 시사하는 발언이 주목된다.",
+        "url": "https://x.com/sama/status/2056933166875857290",
+        "publishedAt": "2026-05-20T03:00:57.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "고객들은 용량에 대한 확실성을 점점 더 많이 요구하고 있습니다. 모델이 더 좋아질수록, 우리는 세계가 한동안 용량 제약을 받을 것으로 예상합니다. 우리는 1-3년 약정에 대해 할인된 토큰을 제공하고 있습니다.",
+        "context": "Sam Altman은 OpenAI CEO. 자본 배분과 인프라 투자 방향을 시사하는 발언이 주목된다.",
+        "url": "https://x.com/sama/status/2056827105401614656",
+        "publishedAt": "2026-05-19T19:59:30.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "우리는 이 프로그램에 대한 현재 할당량이 매진될 때까지 이를 제공할 것입니다. (ChatGPT, Codex 등에 충분한 용량을 남겨두도록 하겠습니다.) 미래에 다시 제공할 계획입니다. 우리의 의도는 가능한 한 빠르게 최대한의 컴퓨팅 자원을 구축하는 것입니다.",
+        "context": "Sam Altman은 OpenAI CEO. 자본 배분과 인프라 투자 방향을 시사하는 발언이 주목된다.",
+        "url": "https://x.com/sama/status/2056834734915977382",
+        "publishedAt": "2026-05-19T20:29:49.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "OpenAI 모델이 수학에서 중대한 돌파구를 달성했으며, 1946년 폴 에르되시가 처음 제기한 이산 기하학의 중심 추측을 반박했습니다. AI가 수학의 한 분야의 중심에 있는 저명한 미해결 문제를 자율적으로 해결한 것은 이번이 처음입니다.",
+        "context": "Greg Brockman은 OpenAI 공동 창업자이자 사장. 회사의 핵심 성과를 직접 전한다.",
+        "url": "https://x.com/gdb/status/2057182650784452925",
+        "publishedAt": "2026-05-20T19:32:19.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "OpenAI가 현재 배치의 모든 @ycombinator 스타트업에 API 크레딧으로 200만 달러를 투자하겠다고 제안했습니다. 다음 세대 스타트업을 구동할 컴퓨팅 자원.",
+        "context": "Greg Brockman은 OpenAI 공동 창업자이자 사장. 회사의 핵심 성과를 직접 전한다.",
+        "url": "https://x.com/gdb/status/2056948285038887255",
+        "publishedAt": "2026-05-20T04:01:02.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "코덱스 앱이 정말 좋습니다.",
+        "context": "Greg Brockman은 OpenAI 공동 창업자이자 사장. 회사의 핵심 성과를 직접 전한다.",
+        "url": "https://x.com/gdb/status/2056882844270739883",
+        "publishedAt": "2026-05-19T23:40:59.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "팀은 에이전트 보안 분야에서 훌륭한 작업을 하고 있습니다.",
+        "context": "Greg Brockman은 OpenAI 공동 창업자이자 사장. 회사의 핵심 성과를 직접 전한다.",
+        "url": "https://x.com/gdb/status/2056875145277387180",
+        "publishedAt": "2026-05-19T23:10:24.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_009",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "우리는 1-3년 계약에 대한 대가로 할인된 토큰과 용량 가용성에 대한 확실성을 제공합니다. 우리는 모델들이 계속해서 훨씬 더 유용해짐에 따라, 앞으로 한동안 세계가 점점 더 용량 제약을 느끼게 될 것으로 예상합니다.",
+        "context": "Greg Brockman은 OpenAI 공동 창업자이자 사장. 회사의 핵심 성과를 직접 전한다.",
+        "url": "https://x.com/gdb/status/2056863925791293675",
+        "publishedAt": "2026-05-19T22:25:49.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_010",
+        "author": "Mira Murati",
+        "handle": "miramurati",
+        "content": "협업 AI는 상호작용성에 기반합니다: 기계와 사람들이 실시간으로 모든 모달리티를 아우르며 함께 일합니다. 이를 해결하려면 커뮤니티가 필요합니다. 저희와 함께하세요.",
+        "context": "Mira Murati는 전 OpenAI CTO. 새로운 회사 Thinking Machines의 동향을 보여준다.",
+        "url": "https://x.com/miramurati/status/2056797399394422918",
+        "publishedAt": "2026-05-19T18:01:28.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_011",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "이제 Claude 블로그에도 게재되었습니다.",
+        "context": "Thariq는 최근 Claude Code 팀에 합류한 엔지니어. Anthropic의 인사 흐름을 보여준다.",
+        "url": "https://x.com/trq212/status/2056843158965858380",
+        "publishedAt": "2026-05-19T21:03:18.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_012",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "미래는 밝다, 일 시작합시다",
+        "context": "Thariq는 최근 Claude Code 팀에 합류한 엔지니어. Anthropic의 인사 흐름을 보여준다.",
+        "url": "https://x.com/trq212/status/2056777186062032964",
+        "publishedAt": "2026-05-19T16:41:08.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_013",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "오늘, 우리는 평면 단위 거리 문제에 대한 획기적인 성과를 공유합니다. 이 문제는 1946년 폴 에르되시(Paul Erdős)가 처음 제기한 유명한 미해결 질문입니다. 거의 80년 동안, 수학자들은 최적의 해가 대략 정사각형 격자처럼 보인다고 믿어왔습니다. 이제 OpenAI 모델이 그 믿음을 반박합니다.",
+        "context": "OpenAI 공식 계정. 회사의 발표를 가장 먼저 확인할 수 있다.",
+        "url": "https://x.com/OpenAI/status/2057176201782075690",
+        "publishedAt": "2026-05-20T19:06:41.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_014",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "이 증거는 수학 문제나 이 특정 문제를 해결하기 위해 특별히 제작된 시스템이 아니라 범용 추론 모델에서 나왔으며, 수학과 AI 커뮤니티에게 중요한 이정표를 나타냅니다.",
+        "context": "OpenAI 공식 계정. 회사의 발표를 가장 먼저 확인할 수 있다.",
+        "url": "https://x.com/OpenAI/status/2057176203166171317",
+        "publishedAt": "2026-05-20T19:06:41.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_015",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "이 결과는 더 큰 무언가를 가리킵니다: AI 시스템이 길고 어려운 추론의 사슬을 유지할 수 있게 되고, 먼 분야에 걸쳐 아이디어를 연결하며, 연구자들이 탐구하지 않았을지도 모르는 경로를 드러내는 능력을 갖추고 있습니다. 우리는 이러한 동일한 능력이 곧 생물학, 물리학, 공학, 의학 분야에 적용되기를 기대합니다.",
+        "context": "OpenAI 공식 계정. 회사의 발표를 가장 먼저 확인할 수 있다.",
+        "url": "https://x.com/OpenAI/status/2057176204541866087",
+        "publishedAt": "2026-05-20T19:06:42.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_016",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "사람들이 ChatGPT에서 매주 15억 개 이상의 이미지를 생성하고 있습니다. 연구원 @kenjihata가 제품 리드 @adele__li와 호스트 @AndrewMayne과 함께 Images 2.0 출시 이후 등장한 새로운 사용 사례와 트렌드를 탐구합니다.",
+        "context": "OpenAI 공식 계정. 회사의 발표를 가장 먼저 확인할 수 있다.",
+        "url": "https://x.com/OpenAI/status/2056849157860831239",
+        "publishedAt": "2026-05-19T21:27:08.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_017",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "Codex 밋업에 함께 참여하세요",
+        "context": "OpenAI 개발자 관계 계정. 개발자 대상 기능 업데이트를 공유한다.",
+        "url": "https://x.com/OpenAIDevs/status/2057191089145336105",
+        "publishedAt": "2026-05-20T20:05:51.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_018",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "노트북은 집에 두고 올 수 있습니다. ChatGPT 모바일 앱에서 Codex로 작업하고, 이동 중에 질문에 답변하며, 나중에 컴퓨터에서 동일한 대화를 이어서 할 수 있습니다.",
+        "context": "OpenAI 개발자 관계 계정. 개발자 대상 기능 업데이트를 공유한다.",
+        "url": "https://x.com/OpenAIDevs/status/2057142816497906045",
+        "publishedAt": "2026-05-20T16:54:01.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_019",
+        "author": "ChatGPT",
+        "handle": "ChatGPTapp",
+        "content": "배송 갔어",
+        "context": "ChatGPT 공식 앱 계정. 앱 신기능과 사용자 업데이트를 발표한다.",
+        "url": "https://x.com/ChatGPTapp/status/2057178633249394819",
+        "publishedAt": "2026-05-20T19:16:21.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_020",
+        "author": "ChatGPT",
+        "handle": "ChatGPTapp",
+        "content": "이제 누구나 라이브러리에서 파일을 찾아 재사용할 수 있어요",
+        "context": "ChatGPT 공식 앱 계정. 앱 신기능과 사용자 업데이트를 발표한다.",
+        "url": "https://x.com/ChatGPTapp/status/2057178702539325469",
+        "publishedAt": "2026-05-20T19:16:37.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_021",
+        "author": "ChatGPT",
+        "handle": "ChatGPTapp",
+        "content": "우리는 계속 출시할 거예요, 보고 싶은 것을 알려주세요.",
+        "context": "ChatGPT 공식 앱 계정. 앱 신기능과 사용자 업데이트를 발표한다.",
+        "url": "https://x.com/ChatGPTapp/status/2057178707207594075",
+        "publishedAt": "2026-05-20T19:16:38.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_022",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "지난 몇 달 동안 우리는 AI가 제기하는 질문들—특히 좋은 성품이 어떻게 형성되는지에 대해—학자, 철학자, 성직자, 그리고 윤리학자들과 대화를 나누어 왔습니다. 우리가 프론티어 AI에 대한 대화를 어떻게 확장하고 있는지에 대해 더 읽어보세요.",
+        "context": "Anthropic 공식 계정. 회사의 정책·연구 방향을 전한다.",
+        "url": "https://x.com/AnthropicAI/status/2056880308851708233",
+        "publishedAt": "2026-05-19T23:30:55.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_023",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "스콧 우(@ScottWu46)는 @cognition을 운영하며, 이는 Claude를 기반으로 구축된 AI 소프트웨어 엔지니어인 Devin의 뒤에 있는 팀입니다. 그는 모든 엔지니어링 팀이 소프트웨어를 구축하는 속도를 10배 빠르게 만드는 것을 목표로 합니다.",
+        "context": "Claude 공식 계정. 제품 업데이트와 사용 사례를 공유한다.",
+        "url": "https://x.com/claudeai/status/2056805728774402428",
+        "publishedAt": "2026-05-19T18:34:33.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_024",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Claude와 함께 어려운 문제를 해결하는 창업자들을 다룬 새로운 시리즈, The Problem Solvers를 공개합니다.",
+        "context": "Claude 공식 계정. 제품 업데이트와 사용 사례를 공유한다.",
+        "url": "https://x.com/claudeai/status/2056805730359931007",
+        "publishedAt": "2026-05-19T18:34:34.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_025",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Code with Claude London에서 생중계: Claude Managed Agents에서 셀프 호스팅 샌드박스(퍼블릭 베타)와 MCP 터널(연구 프리뷰)을 출시합니다. 에이전트를 고객의 자체 경계 내에서 실행하며, 기본적으로 고객의 보안 제어가 적용됩니다.",
+        "context": "Claude 공식 계정. 제품 업데이트와 사용 사례를 공유한다.",
+        "url": "https://x.com/claudeai/status/2056645485696315581",
+        "publishedAt": "2026-05-19T07:57:49.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_026",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "MCP 터널을 사용하면, 에이전트가 프라이빗 네트워크 내부의 MCP 서버에 접근할 수 있으며, 이를 공용 인터넷에 노출하지 않습니다.",
+        "context": "Claude 공식 계정. 제품 업데이트와 사용 사례를 공유한다.",
+        "url": "https://x.com/claudeai/status/2056645491207655584",
+        "publishedAt": "2026-05-19T07:57:50.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_027",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Claude 플랫폼에서 오늘 자가 호스팅 샌드박스를 사용해 보세요. MCP 터널 액세스를 요청하세요.",
+        "context": "Claude 공식 계정. 제품 업데이트와 사용 사례를 공유한다.",
+        "url": "https://x.com/claudeai/status/2056645493493575681",
+        "publishedAt": "2026-05-19T07:57:50.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "미래의 유능한 엔지니어는 단순히 AI와 협력업무를 하는 것을 넘어 \"수많은 AI 에이전트와 서브 에이전트들을 조율하고 지휘하는 오케스트라의 지휘자 역할을 하게 될 것\"이라고 강조했습니다.",
+        "context": "CHOI(@choi.openai)의 Threads 큐레이션. 미국 AI 업계 최신 동향을 한국어로 전달한다.",
+        "url": "https://www.threads.com/@choi.openai/post/DYkhKL2kU4w",
+        "publishedAt": "2026-05-20T18:30:34.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "Jensen Huang on The Future of Computing | AI, Infrastructure & What's Next",
+        "context": "CHOI(@choi.openai)의 Threads 큐레이션. 미국 AI 업계 최신 동향을 한국어로 전달한다.",
+        "url": "https://www.threads.com/@choi.openai/post/DYkhLDdEQXx",
+        "publishedAt": "2026-05-20T18:30:41.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_003",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "유출된 Meta 내부 음성에서 마크 저커버그는 \"뛰어난 직원들이 문제를 해결하는 과정을 AI가 학습하면 모델 성능이 훨씬 빨라진다\"고 설명했는데요. 상위 엔지니어들의 사고 과정과 문제 해결 패턴 자체를 학습 자산으로 본다는 이야기입니다.",
+        "context": "CHOI(@choi.openai)의 Threads 큐레이션. 미국 AI 업계 최신 동향을 한국어로 전달한다.",
+        "url": "https://www.threads.com/@choi.openai/post/DYkSbbzCcpY",
+        "publishedAt": "2026-05-20T16:23:22.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_004",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "미국 현장에서 직접 만난, 구글 I/O의 모든 내용을 정리했습니다 🧵 1/31",
+        "context": "CHOI(@choi.openai)의 Threads 큐레이션. 미국 AI 업계 최신 동향을 한국어로 전달한다.",
+        "url": "https://www.threads.com/@choi.openai/post/DYkECaVm8AD",
+        "publishedAt": "2026-05-20T14:16:06.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_005",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "그리고 구글이 가진 생태계의 크기는 여전히 무섭습니다. 10억 명 이상 사용하는 제품을 13개나 운영하고, 검색, 유튜브, 안드로이드, Chrome, Gmail, Docs, Maps, Cloud, TPU까지 전부 갖고 있는 회사가 AI를 한꺼번에 밀어 넣고 있습니다.",
+        "context": "CHOI(@choi.openai)의 Threads 큐레이션. 미국 AI 업계 최신 동향을 한국어로 전달한다.",
+        "url": "https://www.threads.com/@choi.openai/post/DYj5DBbAN4o",
+        "publishedAt": "2026-05-20T14:16:11.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_006",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "Gemini, Spark, Search AI Mode 뒤에는 TPU, 데이터센터, 전력, 메모리, 추론 비용 계산서가 같이 깔려 있습니다. 특히 \"AI 비용의 중심이 훈련에서 추론으로 이동한다\"는 흐름이 굉장히 중요해졌습니다.",
+        "context": "CHOI(@choi.openai)의 Threads 큐레이션. 미국 AI 업계 최신 동향을 한국어로 전달한다.",
+        "url": "https://www.threads.com/@choi.openai/post/DYj0vswm3d3",
+        "publishedAt": "2026-05-20T12:02:28.000Z",
+        "platform": "threads"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "현재 박사과정 입학 경험은 어땠나요?",
+        "originalTitle": "What are your experiences regarding current PhD admissions? [D]",
+        "summary": "ML 학계 토론 — 박사과정·연구·트렌드를 다룬다. r/MachineLearning에서 주목받는 게시물.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1tiwf81/what_are_your_experiences_regarding_current_phd/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-05-21T04:36:12+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "구면 매니폴드 위에서의 머신러닝 연구",
+        "originalTitle": "Machine Learning on Spherical Manifold [R]",
+        "summary": "ML 학계 토론 — 박사과정·연구·트렌드를 다룬다. r/MachineLearning에서 주목받는 게시물.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1tif576/machine_learning_on_spherical_manifold_r/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-05-20T17:13:57+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "LLM과 이모지 — 어떻게 처리되는가?",
+        "originalTitle": "LLMs and Emojis [D]",
+        "summary": "ML 학계 토론 — 박사과정·연구·트렌드를 다룬다. r/MachineLearning에서 주목받는 게시물.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1tixc8d/llms_and_emojis_d/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-05-21T05:08:08+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "Qwen, 또 다른 27B 모델 출시 가능성 높아",
+        "originalTitle": "Qwen will release another 27B with high probability",
+        "summary": "로컬 LLM 실행 커뮤니티 — 오픈 모델과 하드웨어 화제. r/LocalLLaMA에서 주목받는 게시물.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tiwnpc/qwen_will_release_another_27b_with_high/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-05-21T04:44:24+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "HuggingFace 벤치마크 데이터셋, 이제 모델 크기로 필터링 가능",
+        "originalTitle": "HuggingFace benchmark datasets now let you filter by model size",
+        "summary": "로컬 LLM 실행 커뮤니티 — 오픈 모델과 하드웨어 화제. r/LocalLLaMA에서 주목받는 게시물.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tilvit/huggingface_benchmark_datasets_now_let_you_filter/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-05-20T22:33:38+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "AMD Ryzen AI Halo PC, 128GB 메모리 탑재에 3,999달러",
+        "originalTitle": "AMD Ryzen AI Halo PC will cost 3999$ with 128GB memory on board",
+        "summary": "로컬 LLM 실행 커뮤니티 — 오픈 모델과 하드웨어 화제. r/LocalLLaMA에서 주목받는 게시물.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tinl98/amd_ryzen_ai_halo_pc_will_cost_3999_with_128gb/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-05-20T23:35:47+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "친-AI 대기업이 말하는 'AI vs 창의성'",
+        "originalTitle": "“AI vs Creativity” from a pro-AI greedy corpo",
+        "summary": "AI 일반 토론 — 산업 트렌드와 사회적 이슈. r/artificial에서 주목받는 게시물.",
+        "url": "https://www.reddit.com/r/artificial/comments/1ti5pq7/ai_vs_creativity_from_a_proai_greedy_corpo/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-05-20T09:37:19+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "지난 3년간의 AI 영업 멘트 요약",
+        "originalTitle": "sales pitch of the last 3 years, summarized",
+        "summary": "AI 일반 토론 — 산업 트렌드와 사회적 이슈. r/artificial에서 주목받는 게시물.",
+        "url": "https://www.reddit.com/r/artificial/comments/1titkgp/sales_pitch_of_the_last_3_years_summarized/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-05-21T03:00:46+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "Google I/O 2026, AI 기업들의 자체 버블 서사를 재확인",
+        "originalTitle": "Google I/O 2026 confirms AI companies are creating their own bubble narrative",
+        "summary": "AI 일반 토론 — 산업 트렌드와 사회적 이슈. r/artificial에서 주목받는 게시물.",
+        "url": "https://www.reddit.com/r/artificial/comments/1tif4el/google_io_2026_confirms_ai_companies_are_creating/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-05-20T17:12:44+09:00"
+      },
+      {
+        "id": "reddit_010",
+        "title": "암스테르담에서 포착된 AGI의 첫 징후?",
+        "originalTitle": "First signs of AGI in Amsterdam",
+        "summary": "OpenAI 사용자 커뮤니티 — ChatGPT/Codex 사용기와 이슈. r/OpenAI에서 주목받는 게시물.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1tidhds/first_signs_of_agi_in_amsterdam/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-05-20T15:41:26+09:00"
+      },
+      {
+        "id": "reddit_011",
+        "title": "GTA 제작사(TakeTwo) CEO가 말하는 'AI vs 창의성'",
+        "originalTitle": "“AI vs Creativity” from ‘GTA’ (TakeTwo) CEO",
+        "summary": "OpenAI 사용자 커뮤니티 — ChatGPT/Codex 사용기와 이슈. r/OpenAI에서 주목받는 게시물.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1ti5gpx/ai_vs_creativity_from_gta_taketwo_ceo/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-05-20T09:26:28+09:00"
+      },
+      {
+        "id": "reddit_012",
+        "title": "재판에서 가장 웃긴 순간",
+        "originalTitle": "Funniest moment of the trial",
+        "summary": "OpenAI 사용자 커뮤니티 — ChatGPT/Codex 사용기와 이슈. r/OpenAI에서 주목받는 게시물.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1tihb5c/funniest_moment_of_the_trial/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-05-20T19:14:42+09:00"
+      },
+      {
+        "id": "reddit_013",
+        "title": "Claude를 막다른 길로 몰자 '고대의 존재'에게 지혜를 구하더라",
+        "originalTitle": "I stumped Claude earlier and it had no choice but to seek wisdom from the Ancient One",
+        "summary": "Claude 사용자 커뮤니티 — 실제 사용 사례와 팁. r/ClaudeAI에서 주목받는 게시물.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1tiiau0/i_stumped_claude_earlier_and_it_had_no_choice_but/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-05-20T20:04:10+09:00"
+      },
+      {
+        "id": "reddit_014",
+        "title": "Claude는 진짜 G",
+        "originalTitle": "Claude is a real g",
+        "summary": "Claude 사용자 커뮤니티 — 실제 사용 사례와 팁. r/ClaudeAI에서 주목받는 게시물.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1tip9h6/claude_is_a_real_g/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-05-21T00:33:32+09:00"
+      },
+      {
+        "id": "reddit_015",
+        "title": "프로 레벨에서 바이브 코딩을 어떻게 다룰 것인가",
+        "originalTitle": "How to address vibe coding at the professional level?",
+        "summary": "Claude 사용자 커뮤니티 — 실제 사용 사례와 팁. r/ClaudeAI에서 주목받는 게시물.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1tis9s6/how_to_address_vibe_coding_at_the_professional/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-05-21T02:16:43+09:00"
+      },
+      {
+        "id": "reddit_016",
+        "title": "상상할 수 있는 모든 OS를 모은 가상 박물관",
+        "originalTitle": "Virtual Museum with Every Operating System You Can Think Of",
+        "summary": "프로그래밍 일반 — 보안·도구·트렌드. r/programming에서 주목받는 게시물.",
+        "url": "https://www.reddit.com/r/programming/comments/1tij6js/virtual_museum_with_every_operating_system_you/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-05-20T20:45:28+09:00"
+      },
+      {
+        "id": "reddit_017",
+        "title": "NGINX 신규 취약점 — 비인증 RCE 가능",
+        "originalTitle": "New NGINX Vulnerability Allows Unauthenticated RCE",
+        "summary": "프로그래밍 일반 — 보안·도구·트렌드. r/programming에서 주목받는 게시물.",
+        "url": "https://www.reddit.com/r/programming/comments/1tiil62/new_nginx_vulnerability_allows_unauthenticated_rce/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-05-20T20:17:53+09:00"
+      },
+      {
+        "id": "reddit_018",
+        "title": "CISA, GitHub에 자신의 키를 실수로 유출",
+        "originalTitle": "CISA accidentally leaked their own keys on GitHub",
+        "summary": "프로그래밍 일반 — 보안·도구·트렌드. r/programming에서 주목받는 게시물.",
+        "url": "https://www.reddit.com/r/programming/comments/1thze09/cisa_accidentally_leaked_their_own_keys_on_github/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-05-20T05:31:34+09:00"
+      },
+      {
+        "id": "reddit_019",
+        "title": "Meta, AI 격변 속 8,000명 해고 단행 — 전체 인력의 약 10%",
+        "originalTitle": "Mark Zuckerberg’s Meta kicks off major bloodbath with 8,000 layoffs (about 10% of its workforce) as AI roils tech giant",
+        "summary": "AGI/특이점 관련 — 거시 흐름과 인사이트. r/singularity에서 주목받는 게시물.",
+        "url": "https://www.reddit.com/r/singularity/comments/1tiosgg/mark_zuckerbergs_meta_kicks_off_major_bloodbath/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-05-21T00:17:16+09:00"
+      },
+      {
+        "id": "reddit_020",
+        "title": "2026년인데 아직도 반-아몬드 농장 시위를 못 봤다",
+        "originalTitle": "It's 2026, and we are yet to see an anti-almond farm protest.",
+        "summary": "AGI/특이점 관련 — 거시 흐름과 인사이트. r/singularity에서 주목받는 게시물.",
+        "url": "https://www.reddit.com/r/singularity/comments/1tidqkv/its_2026_and_we_are_yet_to_see_an_antialmond_farm/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-05-20T15:55:00+09:00"
+      },
+      {
+        "id": "reddit_021",
+        "title": "Midjourney, TPU 사용으로 연구 1년 지연 — NVIDIA만 썼어야 했다",
+        "originalTitle": "Midjourney says their research was set back by a year by using TPU, regrets not sticking purely with nvidia",
+        "summary": "AGI/특이점 관련 — 거시 흐름과 인사이트. r/singularity에서 주목받는 게시물.",
+        "url": "https://www.reddit.com/r/singularity/comments/1tiut2d/midjourney_says_their_research_was_set_back_by_a/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-05-21T03:41:55+09:00"
+      },
+      {
+        "id": "reddit_022",
+        "title": "매일 아침 가장 생산적인 일은 어제 머지된 PR을 읽는 것",
+        "originalTitle": "the most productive thing i do every morning is read yesterday's merged PRs",
+        "summary": "시니어 개발자 커뮤니티 — 커리어와 실무 토론. r/ExperiencedDevs에서 주목받는 게시물.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1tivlma/the_most_productive_thing_i_do_every_morning_is/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-05-21T04:08:36+09:00"
+      },
+      {
+        "id": "reddit_023",
+        "title": "'기준을 높인다'는 채용 프로세스에서 실제 무슨 일이 일어나는가",
+        "originalTitle": "What's actually happening in recruiting process that \"raises the bar\"?",
+        "summary": "시니어 개발자 커뮤니티 — 커리어와 실무 토론. r/ExperiencedDevs에서 주목받는 게시물.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1tisfvj/whats_actually_happening_in_recruiting_process/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-05-21T02:22:14+09:00"
+      },
+      {
+        "id": "reddit_024",
+        "title": "모든 PR이 매 스프린트 말에 일괄 승인·머지되는 문제",
+        "originalTitle": "All PR's approved and merged at end of every sprint",
+        "summary": "시니어 개발자 커뮤니티 — 커리어와 실무 토론. r/ExperiencedDevs에서 주목받는 게시물.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1tijdu9/all_prs_approved_and_merged_at_end_of_every_sprint/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-05-20T20:54:46+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_022",
+        "title": "MCP-safeguard — MCP 서버용 오픈소스 보안 스캐너",
+        "excerpt": "MCP-safeguard: open-source security scanner for MCP servers — Hacker News에서 발표.",
+        "body": "MCP-safeguard: open-source security scanner for MCP servers — Hacker News에서 발표.",
+        "url": "https://github.com/SyedAnas01/mcp-safeguard",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-21T04:58:57+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_023",
+        "title": "느린 설문은 끝났다 — Terapage CEO가 말하는 합성 데이터 전환",
+        "excerpt": "Slow Surveys Are Dead: Terapage CEO on Why Experts Are Moving to Synthetic Data — Hacker News에서 발표.",
+        "body": "Slow Surveys Are Dead: Terapage CEO on Why Experts Are Moving to Synthetic Data — Hacker News에서 발표.",
+        "url": "https://zenodo.org/records/20315637",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-21T04:57:31+09:00",
+        "readTime": 2,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_024",
+        "title": "Ask HN — 개발자가 앱 런처에 기대하는 것은?",
+        "excerpt": "Ask HN: What would you expect from an app launcher as a developer? — Hacker News에서 발표.",
+        "body": "Ask HN: What would you expect from an app launcher as a developer? — Hacker News에서 발표.",
+        "url": "https://news.ycombinator.com/item?id=48213235",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-21T04:56:38+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_025",
+        "title": "Django 6.1 알파 1 릴리스",
+        "excerpt": "Django 6.1 alpha 1 released — Hacker News에서 발표.",
+        "body": "Django 6.1 alpha 1 released — Hacker News에서 발표.",
+        "url": "https://www.djangoproject.com/weblog/2026/may/20/django-61-alpha-1-released/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-21T04:55:30+09:00",
+        "readTime": 2,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_026",
+        "title": "RoughDraft 공개 — 에이전트와 더 쉬운 협업",
+        "excerpt": "Introducing RoughDraft – Easier collaboration with your agent — Hacker News에서 발표.",
+        "body": "Introducing RoughDraft – Easier collaboration with your agent — Hacker News에서 발표.",
+        "url": "https://www.roughdraft.md/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-21T04:55:00+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_027",
+        "title": "Waw an Namus — 리비아의 검은 오아시스 (영상)",
+        "excerpt": "Waw an Namus: Libya's Black Oasis [video] — Hacker News에서 발표.",
+        "body": "Waw an Namus: Libya's Black Oasis [video] — Hacker News에서 발표.",
+        "url": "https://www.youtube.com/watch?v=2iH5J2jz-ZY",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-21T04:54:21+09:00",
+        "readTime": 2,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_028",
+        "title": "TargetBridge — 최신 Mac의 디스플레이로 iMac 활용하기",
+        "excerpt": "TargetBridge: Use an iMac as Display for a Modern Mac — Hacker News에서 발표.",
+        "body": "TargetBridge: Use an iMac as Display for a Modern Mac — Hacker News에서 발표.",
+        "url": "https://github.com/swellweb/targetBridge",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-21T04:49:42+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_029",
+        "title": "16일, 4개 채널, 그래도 안 풀린 AWS Bedrock 쿼터 이슈",
+        "excerpt": "16 days, 4 channels, no AWS Bedrock quota fix — Hacker News에서 발표.",
+        "body": "16 days, 4 channels, no AWS Bedrock quota fix — Hacker News에서 발표.",
+        "url": "https://ziva.sh/blogs/no-aws-bedrock-quota-fix",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-21T04:48:17+09:00",
+        "readTime": 2,
+        "imageGradient": 7
+      }
+    ]
+  }
+}
