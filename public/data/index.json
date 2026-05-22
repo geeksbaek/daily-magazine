@@ -1,6 +1,17 @@
 {
   "issues": [
     {
+      "date": "2026-05-23",
+      "issueNumber": 54,
+      "mainHeadline": "Anthropic, $30B 라운드 마감 임박 — 시가 $900B로 OpenAI 추월",
+      "headlines": [
+        "Anthropic 'Project Glasswing', AI로 한 달 만에 취약점 1만 건 발견",
+        "Microsoft, 자사 Claude Code 라이선스 전면 취소 — 토큰 과금 부담",
+        "OpenAI, Gartner 엔터프라이즈 코딩 에이전트 부문 'Leader' 등극",
+        "GitHub, 3년 연속 Gartner Magic Quadrant 'Leader' 인정"
+      ]
+    },
+    {
       "date": "2026-05-22",
       "issueNumber": 53,
       "mainHeadline": "SpaceX, IPO 신청서 제출 — $26.5조 규모 AI 시장 쟁탈전 가세",
@@ -528,5 +539,5 @@
       ]
     }
   ],
-  "latestIssue": 53
+  "latestIssue": 54
 }

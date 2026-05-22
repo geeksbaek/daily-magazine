@@ -1,0 +1,876 @@
+{
+  "date": "2026-05-23",
+  "issueNumber": 54,
+  "cover": {
+    "mainHeadline": "Anthropic, $30B 라운드 마감 임박 — 시가 $900B로 OpenAI 추월",
+    "mainExcerpt": "Anthropic이 다음 주 30억 달러 이상의 자금 조달 라운드를 마감하며 900억 달러를 넘는 기업가치로 OpenAI를 제치고 세계 최고가치 AI 스타트업에 등극할 전망이다. 같은 날 공개된 'Project Glasswing' 초기 보고서는 Claude 기반 AI가 한 달 만에 핵심 소프트웨어에서 1만 건 이상의 고위험 취약점을 발견했다고 밝혔다.",
+    "headlines": [
+      "Anthropic 'Project Glasswing', AI로 한 달 만에 취약점 1만 건 발견",
+      "Microsoft, 자사 Claude Code 라이선스 전면 취소 — 토큰 과금 부담",
+      "OpenAI, Gartner 엔터프라이즈 코딩 에이전트 부문 'Leader' 등극",
+      "GitHub, 3년 연속 Gartner Magic Quadrant 'Leader' 인정"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_hl_001",
+      "title": "Anthropic, 다음 주 $30B 이상 라운드 마감 — 시가 $900B로 OpenAI 추월",
+      "excerpt": "Anthropic이 다음 주 30억 달러를 웃도는 자금 조달 라운드를 마감하며 기업가치 9000억 달러를 넘기는 것으로 알려졌다. OpenAI를 제치고 세계 최고가치 AI 스타트업으로 등극하는 순간이다.",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-22/anthropic-to-close-over-30-billion-round-as-soon-as-next-week",
+      "source": "Bloomberg Tech",
+      "category": "big_tech",
+      "publishedAt": "2026-05-23T04:42:50+09:00",
+      "readTime": 5,
+      "imageGradient": 4,
+      "body": "Anthropic의 새 라운드는 단순한 자금 조달을 넘어 AI 패권 지형도를 다시 그릴 사건이다. 9000억 달러 이상의 기업가치는 OpenAI를 처음으로 추월하는 수치이며, Claude 시리즈와 엔터프라이즈 매출의 폭발적 성장이 이를 정당화하는 근거로 제시된다. 한편 시장 일각에서는 Anthropic이 자사가 곧 분기 흑자에 도달할 것이라는 발언과 토큰 기반 과금 모델 전환의 영향에 대해 의문을 제기하는 비판적 분석도 함께 등장하고 있다."
+    },
+    {
+      "id": "rss_hl_002",
+      "title": "Anthropic 'Project Glasswing' 초기 보고서 — AI가 한 달 만에 취약점 1만 건 발견",
+      "excerpt": "Anthropic이 협업 AI 사이버 보안 이니셔티브 Project Glasswing의 첫 업데이트를 공개했다. Claude 기반 모델이 핵심 소프트웨어에서 1만 건 이상의 고위험·치명적 취약점을 한 달 만에 찾아낸 것으로 보고됐다.",
+      "url": "https://www.anthropic.com/research/glasswing-initial-update",
+      "source": "Anthropic Research",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-23T04:31:45+09:00",
+      "readTime": 6,
+      "imageGradient": 0,
+      "body": "Project Glasswing은 Anthropic이 Cloudflare·Mozilla 등 50여 개 파트너와 함께 출범한 AI 보안 협력 프로그램이다. Claude Mythos Preview 모델은 인간 보안 연구자가 수개월 걸리던 취약점 탐색을 단 몇 주로 압축했고, 그 결과 1만 건 이상이 패치 대기 상태가 됐다. Anthropic은 이제 핵심 병목이 '취약점 탐지'가 아니라 '인간 검증·패치 속도'라고 진단한다. 산업 전반이 AI가 쏟아내는 보안 결함의 양에 적응해야 한다는 점이 새 과제로 떠올랐다."
+    },
+    {
+      "id": "rss_hl_003",
+      "title": "Microsoft, 자사 Claude Code 라이선스 전면 취소 — 토큰 과금 부담",
+      "excerpt": "Microsoft가 자사 내부에서 사용하던 Anthropic Claude Code 라이선스를 취소하기 시작했다. 토큰 기반 과금 모델로 전환되면서 연간 예산이 단 몇 개월 만에 폭발했기 때문으로 분석된다.",
+      "url": "https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad",
+      "source": "The Verge",
+      "category": "dev_tools",
+      "publishedAt": "2026-05-23T02:32:04+09:00",
+      "readTime": 4,
+      "imageGradient": 2,
+      "body": "The Verge에 따르면 Microsoft 내부 개발팀은 그동안 사용해온 Claude Code 라이선스의 갱신을 중단했다. 핵심 원인은 토큰 단위 과금 모델 전환 — 코딩 에이전트가 대규모로 토큰을 소비하면서 기존 연간 예산이 단 수개월 만에 소진되는 사례가 늘어났다. Anthropic은 직전에 사상 첫 흑자 분기 예고와 30B 라운드 마감을 발표한 상황이라 매출 구조의 지속 가능성에 의문이 제기된다. Microsoft는 자사 모델·GitHub Copilot으로의 전환을 가속하는 모양새다."
+    },
+    {
+      "id": "rss_hl_004",
+      "title": "OpenAI, Gartner 엔터프라이즈 코딩 에이전트 'Leader' 등극",
+      "excerpt": "OpenAI가 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents에서 'Leader' 포지션에 처음 진입했다. Codex 제품군의 폭발적 성장과 엔터프라이즈 침투력이 평가의 핵심 근거로 꼽혔다.",
+      "url": "https://openai.com/index/gartner-2026-agentic-coding-leader",
+      "source": "OpenAI News",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-22T09:00:00+09:00",
+      "readTime": 4,
+      "imageGradient": 1,
+      "body": "Gartner의 2026 Magic Quadrant에서 OpenAI는 '비전 완성도'와 '실행력' 두 축 모두에서 상위권에 자리해 Leader로 분류됐다. OpenAI는 Codex CLI·Codex 앱·Codex API의 통합 제공과 Mac 잠금 상태 원격 사용·AppShots 같은 새 기능을 빠르게 출시해 실 사용자 기반을 키워왔다. 같은 분기 GitHub도 3년 연속 Leader로 인정받아, 엔터프라이즈 코딩 에이전트 시장은 OpenAI·GitHub·Anthropic의 삼각 구도로 굳어지는 모양새다."
+    },
+    {
+      "id": "rss_hl_005",
+      "title": "GitHub, 3년 연속 Gartner Magic Quadrant 'Leader' 인정",
+      "excerpt": "GitHub가 Gartner의 엔터프라이즈 AI 코딩 에이전트 부문 Magic Quadrant에서 3년 연속 Leader로 선정됐다. GitHub Copilot의 엔터프라이즈 도입과 보안·정책 통합이 평가 핵심으로 꼽혔다.",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-recognized-as-a-leader-in-the-gartner-magic-quadrant-for-enterprise-ai-coding-agents-for-the-third-year-in-a-row/",
+      "source": "GitHub Blog",
+      "category": "dev_tools",
+      "publishedAt": "2026-05-23T01:10:21+09:00",
+      "readTime": 3,
+      "imageGradient": 3,
+      "body": "GitHub의 Copilot 에이전트가 3년 연속 Leader 자리를 지킨 배경에는 안전·정책 통합, 멀티 IDE 지원, GitHub 자체 인프라(Actions·Code Spaces·Security)와의 깊은 결합이 자리한다. 보고서는 또한 Copilot의 엔터프라이즈 도입률이 동종 제품 중 가장 빠르다는 점을 강조했다. 같은 보고서에서 Anthropic은 '비저너리' 영역에 머무른 가운데, Microsoft가 자사 내부 Claude Code 라이선스를 취소했다는 보도가 같은 날 나오면서 묘한 대조를 이뤘다."
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_aiml_001",
+        "title": "Hugging Face 'Specialization Beats Scale' — AI 도입 결정에서 가장 간과되는 변수",
+        "excerpt": "Hugging Face Dharma-AI 블로그가 엔터프라이즈 AI 도입 결정에서 모델 '특화도'가 '스케일'보다 비용·품질 양면에서 더 중요한 변수라고 주장했다. 멀티벤더 환경에서 작은 특화 모델이 종합 점수에서 대형 모델을 이기는 사례를 분석.",
+        "url": "https://huggingface.co/blog/Dharma-AI/specialization-beats-scale",
+        "source": "Hugging Face - Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-23T00:25:59+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_aiml_002",
+        "title": "Microsoft Research, 소형 모델용 에이전트 스택 'MagenticLite·Brain·Fara 1.5' 공개",
+        "excerpt": "Microsoft Research가 소형 LLM에서도 도구 호출·다단계 추론을 안정적으로 수행하도록 최적화한 새 에이전트 스택을 발표했다. 비용 부담을 낮추면서도 엔터프라이즈 워크플로우에 투입 가능한 수준을 노린다.",
+        "url": "https://www.microsoft.com/en-us/research/blog/magenticlite-magenticbrain-fara1-5-an-agentic-experience-optimized-for-small-models/",
+        "source": "Microsoft Research",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-22T02:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_aiml_003",
+        "title": "Spotify·Universal, AI 팬 메이드 커버·리믹스 합법화 협약",
+        "excerpt": "Spotify와 Universal Music Group이 사용자가 AI로 만든 아티스트 커버·리믹스를 합법적으로 허용·정산하는 광범위한 라이선스 계약을 체결했다. AI 음원 시장의 첫 메이저 합의로 의미가 크다.",
+        "url": "https://techcrunch.com/2026/05/21/spotify-and-universal-music-strike-deal-allowing-fan-made-ai-covers-and-remixes/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-22T04:45:00+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_aiml_004",
+        "title": "Spotify의 AI 베팅, 모든 것을 더 많이 — 원하는 것은 줄어든다",
+        "excerpt": "TechCrunch가 Spotify의 신규 AI 도구들이 사용자에게 '더 많이 만들도록' 압박하는 방향으로 설계됐다고 분석했다. 콘텐츠 양은 폭발했지만 사용자가 정작 듣고 싶은 것에서는 멀어진다는 비판이다.",
+        "url": "https://techcrunch.com/2026/05/22/spotifys-ai-bet-more-of-everything-less-of-what-you-want/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-22T23:08:00+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_aiml_005",
+        "title": "Texas 검찰, WhatsApp의 'E2E 암호화 미제공' 주장으로 Meta 제소",
+        "excerpt": "Texas 검찰총장이 WhatsApp이 종단간 암호화를 실제로 제공하지 않는다고 주장하며 Meta를 제소했다. 비판자들은 해당 소송에 사실적 근거가 부족하다고 지적한다.",
+        "url": "https://arstechnica.com/security/2026/05/texas-ag-sues-meta-over-claims-that-whatsapp-doesnt-provide-end-to-end-encryption/",
+        "source": "Ars Technica AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-23T02:30:00+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_dev_001",
+        "title": "Cloudflare, Anthropic Claude Compliance API와 CASB 통합 발표",
+        "excerpt": "Cloudflare가 자사 CASB(Cloud Access Security Broker)에 Anthropic의 Claude Compliance API를 직접 통합했다. 규제 산업 고객이 Claude 호출 로그·정책 위반·민감정보 노출을 한 콘솔에서 추적할 수 있게 된다.",
+        "url": "https://blog.cloudflare.com/casb-anthropic-integration/",
+        "source": "Cloudflare Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-22T02:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_dev_002",
+        "title": "Vercel AI Gateway, Qwen 3.7 Max 즉시 지원",
+        "excerpt": "Vercel AI Gateway가 알리바바의 Qwen 3.7 Max 모델을 정식 지원한다. Vercel의 통합 토큰·라우팅 기능으로 OpenAI·Anthropic 모델과 동일한 인터페이스로 호출 가능하다.",
+        "url": "https://vercel.com/changelog/qwen-3-7-max-now-available-on-vercel-ai-gateway",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-21T16:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_dev_003",
+        "title": "Stack Overflow, 코딩 에이전트가 만든 '결정 피로' 진단",
+        "excerpt": "Stack Overflow Blog가 Cursor·Codex·Claude Code 등 코딩 에이전트의 동시 사용이 개발자에게 '어떤 에이전트가 어떤 작업에 적합한가'라는 새로운 결정 부담을 안긴다고 분석했다.",
+        "url": "https://stackoverflow.blog/2026/05/21/coding-agents-are-giving-everyone-decision-fatigue/",
+        "source": "Stack Overflow Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-21T23:19:00+09:00",
+        "readTime": 4,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_dev_004",
+        "title": "DeepSeek, V4 Pro 75% 가격 인하 영구 적용",
+        "excerpt": "DeepSeek이 프로모션으로 진행하던 V4 Pro 모델의 75% 가격 할인을 영구화한다고 공식 가격표에 명시했다. 글로벌 LLM API 가격 인하 경쟁이 다시 가속화될 전망이다.",
+        "url": "https://api-docs.deepseek.com/quick_start/pricing",
+        "source": "Hacker News Frontpage",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-23T00:59:26+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_dev_005",
+        "title": "Bun의 미공개 Rust 포트에 'unsafe' 블록 13,365개",
+        "excerpt": "Bun이 비공개로 진행 중인 Rust 포트의 코드베이스에 unsafe 블록이 13,365개에 달한다는 외부 감사 결과가 공개됐다. Rust 도입의 안전성 약속이 무색해진다는 비판이 이어지고 있다.",
+        "url": "https://bun.com/bun-unsafe-audit",
+        "source": "Hacker News Frontpage",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-23T03:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_dev_006",
+        "title": "오픈소스 칸반 데스크톱 앱, 카드마다 병렬 에이전트 실행",
+        "excerpt": "kanbots.dev가 모든 칸반 카드에 별도의 코딩 에이전트를 동시에 띄울 수 있는 오픈소스 데스크톱 앱을 공개했다. 병렬 멀티 에이전트 워크플로우를 단일 보드에서 관리하는 새로운 시도다.",
+        "url": "https://www.kanbots.dev/",
+        "source": "Hacker News Frontpage",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-23T03:17:57+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_big_001",
+        "title": "Apple TV, iPhone 17 Pro로만 촬영한 첫 메이저 라이브 프로 스포츠 방송",
+        "excerpt": "Apple TV가 별도 방송용 카메라 없이 iPhone 17 Pro만으로 촬영한 첫 메이저 라이브 프로 스포츠 이벤트를 송출한다. 컨슈머 디바이스로 프로 중계를 시도하는 첫 사례다.",
+        "url": "https://www.apple.com/newsroom/2026/05/apple-tv-to-air-first-major-live-pro-sports-event-shot-on-iphone-17-pro/",
+        "source": "Apple Newsroom",
+        "category": "big_tech",
+        "publishedAt": "2026-05-21T22:59:00+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_big_002",
+        "title": "Waymo, 안전 우려로 고속도로 자율주행 서비스 일시 중단",
+        "excerpt": "Waymo가 애틀랜타·샌안토니오 일대에서 고속도로 자율주행을 안전 우려로 일시 중단했다. 폭우와 침수, 새 차량 모델의 행동 테스트가 원인으로 거론된다.",
+        "url": "https://www.theverge.com/transportation/936129/waymo-freeway-suspend-atlanta-san-antonio-flood-pause",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-05-23T01:17:54+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_big_003",
+        "title": "Meta의 신규 'Forum' 앱, Reddit·Facebook·Google AI Overview의 혼합체",
+        "excerpt": "Meta가 iPhone용 새 앱 Forum을 출시했다. Facebook Groups를 분리된 앱으로 옮기고 전용 AI 챗봇을 붙여, Reddit·Google AI Overview의 사용 사례를 한꺼번에 노린다.",
+        "url": "https://www.theverge.com/tech/936290/meta-forum-facebook-groups-app-hands-on",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-05-23T02:27:08+09:00",
+        "readTime": 4,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_big_004",
+        "title": "SpaceX Starship 발사 연기 — IPO 직후 결정적 테스트 지연",
+        "excerpt": "SpaceX가 핀이 후퇴하지 않는 발사대 결함으로 핵심 Starship 시험 발사를 연기했다. 비공개 IPO 신청 직후 발생한 차질이라 시장이 주목하고 있다.",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-22/what-comes-next-after-spacex-halts-starship-launch-video",
+        "source": "Bloomberg Tech",
+        "category": "big_tech",
+        "publishedAt": "2026-05-23T03:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_big_005",
+        "title": "Google, 검색 독점 판결 항소 — '시장에서 정정당당하게 이겼다'",
+        "excerpt": "Google이 자사를 불법 검색 독점 사업자로 규정한 연방 판결에 정식 항소했다. 법정 가이드라인을 '크래시'했다고 주장하며, 검색 사업의 정당한 시장 우위를 강조했다.",
+        "url": "https://www.theverge.com/policy/936175/google-search-monopoly-ruling-appeal",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-05-23T01:30:00+09:00",
+        "readTime": 4,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_big_006",
+        "title": "Apple, Epic 소송 영향력 축소 시도 — 앱스토어 규칙 모든 개발자에게 확장 반대",
+        "excerpt": "Apple이 Epic Games가 얻어낸 앱스토어 명령을 모든 개발자에게 확장 적용해선 안 된다며 미국 연방대법원에 상고했다. 외부 결제 수수료 관련 경멸 판결도 뒤집기를 요청했다.",
+        "url": "https://techcrunch.com/2026/05/22/apple-says-epic-lawsuit-shouldnt-reshape-app-store-rules-for-all-developers/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-05-23T01:15:00+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "미래에 AI가 가장 해결해주길 바라는 문제는 무엇인가요? 아마 우리가 도울 수 있을지도 몰라요!",
+        "context": "OpenAI CEO Sam Altman이 AI가 해결할 가장 큰 문제에 대한 사용자 의견을 공개적으로 모으는 비공식 게시물.",
+        "url": "https://x.com/sama/status/2057614780727480741",
+        "publishedAt": "2026-05-22T00:09:27.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "오늘 새로운 코덱스 출시!",
+        "context": "OpenAI CEO가 Codex Thursday 이벤트에 맞춰 새 Codex 출시를 직접 알린 짧은 트윗.",
+        "url": "https://x.com/sama/status/2057559714788258003",
+        "publishedAt": "2026-05-21T20:30:38.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "우리가 가장 기대하는 세 가지: 1. AGI가 연구를 가속화, 2. AGI가 기업을 가속화, 3. 개인 AGI가 모든 사람이 목표를 달성하도록 가속화. 오늘 단위 거리 결과 발표할 수 있어서 좋았습니다.",
+        "context": "Sam Altman이 OpenAI의 단위 거리 결과 발표 직후 AGI가 가속화할 세 가지(연구·기업·개인)와 YC 회사 대상 200만 달러 크레딧 지원을 정리.",
+        "url": "https://x.com/sama/status/2057218997503086888",
+        "publishedAt": "2026-05-20T21:56:44.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "Codex 앱에서 Appshots를 사용해 보세요",
+        "context": "OpenAI 사장 Greg Brockman이 Codex 앱의 신규 AppShots 기능을 직접 홍보.",
+        "url": "https://x.com/gdb/status/2057802037757157838",
+        "publishedAt": "2026-05-22T12:33:32.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "codex 이전에 코딩이 어땠는지 기억하려고 노력 중",
+        "context": "Codex가 코딩 방식 자체를 바꾸고 있다는 Greg Brockman의 회고성 게시물.",
+        "url": "https://x.com/gdb/status/2057704270531903811",
+        "publishedAt": "2026-05-22T06:05:03.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "모델 자체만으로는 더 이상 제품이 아니다.",
+        "context": "Greg Brockman이 LLM 시대에는 모델 단일 출시가 아니라 제품 형태가 핵심이라는 견해를 짧게 정리.",
+        "url": "https://x.com/gdb/status/2057670776803996110",
+        "publishedAt": "2026-05-22T03:51:57.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "컴퓨터의 모든 앱을 휴대폰에서 사용하는 코덱스",
+        "context": "Codex가 잠긴 Mac도 휴대폰에서 원격 조작할 수 있는 기능을 사장 직접 알린 게시물.",
+        "url": "https://x.com/gdb/status/2057650157358055625",
+        "publishedAt": "2026-05-22T02:30:01.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "Kevin Weil",
+        "handle": "kevinweil",
+        "content": "인공지능과 수학을 위한 첫 번째 시리즈의 다음 단계!",
+        "context": "OpenAI CPO Kevin Weil이 AI 수학 시리즈의 다음 단계 발표 — Erdős 단위 거리 결과 연계.",
+        "url": "https://x.com/kevinweil/status/2057206749552066805",
+        "publishedAt": "2026-05-20T21:08:04.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_009",
+        "author": "Mark Chen",
+        "handle": "markchen90",
+        "content": "OpenAI 모델이 Erdős의 오랜 유닛 거리 추측을 반박한 것에 매우 자랑스럽습니다. 대수적 정수론에서 온 정교한 아이디어를 기하학에 적용한 우아하고 복잡한 증명으로요. 무슨 이유에서인지, 수학은 AI를 통한 연구 돌파구에 가장 적합한 분야였습니다.",
+        "context": "OpenAI CTO Mark Chen이 자사 모델의 Erdős 단위 거리 추측 반박을 자축하며 수학이 AI 돌파에 가장 적합한 분야였다고 평가.",
+        "url": "https://x.com/markchen90/status/2057517045575774598",
+        "publishedAt": "2026-05-21T17:41:05.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_010",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "오늘, 우리는 평면 단위 거리 문제에 대한 획기적인 성과를 공유합니다. 이 문제는 1946년 폴 에르되시(Paul Erdős)가 처음 제기한 유명한 미해결 질문입니다. 거의 80년 동안, 수학자들은 최적의 해가 대략 정사각형 격자처럼 보인다고 믿어왔습니다. 이제 OpenAI 모델이 그 믿음을 반박했습니다.",
+        "context": "OpenAI 공식 계정이 폴 에르되시의 1946년 단위 거리 문제를 자사 모델이 반박한 결과를 공식 발표.",
+        "url": "https://x.com/OpenAI/status/2057176201782075690",
+        "publishedAt": "2026-05-20T19:06:41.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_011",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "오늘의 Codex Thursday 런치 하이라이트: Codex는 이제 Mac이 잠겨 있고 화면이 꺼져 있는 상태에서도 휴대폰에서 Mac의 앱을 안전하게 사용할 수 있습니다.",
+        "context": "OpenAI 공식 계정이 Codex Thursday 신기능을 정리 — Mac 잠금·화면 꺼짐 상태에서도 원격 사용 가능해진 점이 핵심.",
+        "url": "https://x.com/OpenAI/status/2057617844800794878",
+        "publishedAt": "2026-05-22T00:21:37.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_012",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "고급 어노테이션 모드를 사용하면 피드백을 남기면서 웹페이지의 모양을 직접 조정할 수 있어 Codex와 함께 작업하는 것이 훨씬 더 쉬워집니다.",
+        "context": "OpenAI 공식 계정이 Codex의 고급 어노테이션 모드를 소개. 웹페이지 모양을 직접 조정하며 피드백 가능.",
+        "url": "https://x.com/OpenAI/status/2057617862479708650",
+        "publishedAt": "2026-05-22T00:21:41.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_013",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "언제 어디서나, 항상 코드엑스. 이제 맥이 잠겨 있지 않아도 코드엑스가 컴퓨터를 사용할 수 있습니다. 휴대폰에서 코드엑스가 맥의 앱을 안전하게 사용할 수 있으며, 화면이 꺼져 있고 잠겨 있을 때도 가능합니다.",
+        "context": "OpenAI Developers 계정이 잠긴 Mac에서도 휴대폰을 통해 Codex가 컴퓨터를 사용할 수 있는 기능을 공식 발표.",
+        "url": "https://x.com/OpenAIDevs/status/2057536706778378692",
+        "publishedAt": "2026-05-21T18:59:12.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_014",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "오늘은 코덱스 목요일입니다. 먼저: 앱샷(AppShots), 현재 작업 중인 내용의 맥락을 코덱스에 가져오는 새로운 방법입니다. 맥에서 Command-Command를 눌러 앱 창을 코덱스 스레드에 첨부하세요.",
+        "context": "OpenAI Developers가 매주 목요일 'Codex Thursday' 신기능 — Cmd-Cmd로 임의의 앱 창을 Codex에 첨부하는 AppShots를 공개.",
+        "url": "https://x.com/OpenAIDevs/status/2057530207976989179",
+        "publishedAt": "2026-05-21T18:33:23.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_015",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "지난달 우리는 Project Glasswing을 출시했습니다. 이는 우리의 협업 AI 사이버 보안 이니셔티브입니다. 그 이후로, 우리와 파트너들은 필수 소프트웨어에서 1만 개 이상의 높은 수준 또는 치명적인 심각도의 취약점을 발견했습니다.",
+        "context": "Anthropic 공식 계정이 Project Glasswing 협업 사이버 보안 이니셔티브로 한 달 만에 1만 건 이상의 고위험 취약점을 발견했다고 발표.",
+        "url": "https://x.com/AnthropicAI/status/2057909102542549503",
+        "publishedAt": "2026-05-22T19:38:58.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_016",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "이 취약점들을 패치하면 우리를 더 안전하게 만들 것입니다. 하지만 소프트웨어 산업은 Claude Mythos Preview와 같은 모델이 발견할 수 있는 취약점의 양에 적응해야 할 것입니다. 우리는 Project Glasswing에 대한 초기 업데이트에서 이를 논의합니다.",
+        "context": "Anthropic이 Claude Mythos Preview가 발견하는 취약점의 양에 소프트웨어 산업이 적응해야 한다고 강조한 후속 트윗.",
+        "url": "https://x.com/AnthropicAI/status/2057909104090169464",
+        "publishedAt": "2026-05-22T19:38:59.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_017",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "지난 몇 달 동안 우리는 AI가 제기하는 질문들—특히 좋은 성품이 어떻게 형성되는지에 대해—학자, 철학자, 성직자, 그리고 윤리학자들과 대화를 나누어 왔습니다. 우리가 프론티어 AI에 대한 대화를 어떻게 확장하고 있는지에 대해 더 읽어보세요.",
+        "context": "Anthropic이 학자·철학자·성직자·윤리학자들과의 대화 시리즈를 통해 프론티어 AI 토론을 확장 중이라고 소개.",
+        "url": "https://x.com/AnthropicAI/status/2056880308851708233",
+        "publishedAt": "2026-05-19T23:30:55.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_018",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Kay Zhu는 @genspark_ai의 공동 창립자이자 CTO로, Claude를 기반으로 구축된 올인원 AI 워크스페이스입니다. 이렇게 빠르게 움직이는 시장에서, 누구나 구축할 수 있는 상황에서 그는 팀이 차이를 만드는 요소라고 생각합니다.",
+        "context": "Claude 공식 계정이 Genspark AI 공동창립자 Kay Zhu가 Claude 위에 올인원 AI 워크스페이스를 구축한 사례를 'The Problem Solvers' 시리즈로 소개.",
+        "url": "https://x.com/claudeai/status/2057854403558653983",
+        "publishedAt": "2026-05-22T16:01:37.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_019",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Claude Design으로 실험하고, 프로토타이핑하고, 어떤 결과가 나오는지 지켜보기",
+        "context": "Claude 공식 계정이 Claude Design을 활용한 실험·프로토타이핑 사례를 짧게 안내.",
+        "url": "https://x.com/claudeai/status/2057487463518548073",
+        "publishedAt": "2026-05-21T15:43:32.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_020",
+        "author": "ChatGPT",
+        "handle": "ChatGPTapp",
+        "content": "서류 작업은 그냥 말로 처리할 수 있을 때 더 낫습니다. ChatGPT의 이미지와 음성 모드를 사용하면 양식을 업로드하고, 무엇을 채워야 할지 말하기만 하면 완성된 버전을 받을 수 있습니다.",
+        "context": "ChatGPT 공식 계정이 양식 작성에 이미지·음성 모드를 활용하는 새 워크플로우를 데모로 소개.",
+        "url": "https://x.com/ChatGPTapp/status/2057908052968521902",
+        "publishedAt": "2026-05-22T19:34:48.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_021",
+        "author": "ChatGPT",
+        "handle": "ChatGPTapp",
+        "content": "당신이 스스로에게 생각해본 적 있나요: 이 PowerPoint 정말 만들고 싶지 않아. 좋은 소식: ChatGPT가 이제 PowerPoint에서 직접 프레젠테이션을 만들고 편집할 수 있습니다.",
+        "context": "ChatGPT가 이제 PowerPoint에서 직접 슬라이드를 생성·수정할 수 있다는 신기능 소개.",
+        "url": "https://x.com/ChatGPTapp/status/2057560276384563560",
+        "publishedAt": "2026-05-21T20:32:52.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "Claude Mythos Preview가 한 달 만에 치명적 보안 취약점 수만 건을 찾아냈습니다. 앤트로픽의 'Project Glasswing'이 공개한 내용에 따르면, Cloudflare, Mozilla 같은 업체들도 기존보다 10배 넘는 속도로 버그를 발견했다고 밝혔습니다. 이제 보안의 핵심은 '취약점을 찾는 것'이 아니라 '얼마나 빨리 막느냐'로 바뀌고 있습니다.",
+        "context": "AI 채널 운영자 CHOI가 Anthropic Project Glasswing의 핵심 내용을 한국어로 정리한 첫 스레드. Claude Mythos Preview가 한 달 만에 1만 건의 취약점을 찾은 점을 강조.",
+        "url": "https://www.threads.net/@choi.openai/post/DYpz3Rek0Uo",
+        "publishedAt": "2026-05-22T19:50:12.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "앤트로픽은 지난달 전 세계 주요 인프라 소프트웨어를 보호하기 위해 50개 파트너사와 함께 'Project Glasswing'을 시작했습니다. 'Claude Mythos Preview' 모델은 불과 몇 주 만에 1만 개 이상의 치명적이고 위험도 높은 취약점을 찾아냈습니다. AI가 쏟아내는 엄청난 양의 버그를 인간 개발자가 검증하고 패치하는 속도가 따라가지 못하는 물리적 병목 현상이 발생했습니다.",
+        "context": "CHOI가 Anthropic Project Glasswing의 50개 파트너 협업 구조와 인간 검증·패치 병목 문제를 한국어로 풀이한 후속 스레드.",
+        "url": "https://www.threads.net/@choi.openai/post/DYpz3r_k-Us",
+        "publishedAt": "2026-05-22T19:50:16.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_003",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "로봇이 춤을 추고 발레를 한다고요? 중국 UBTECH의 새로운 휴머노이드 로봇 'Walker C1'이 공개되었습니다. 전시회와 쇼룸 같은 공간에서 안내, 응대, 정보 제공, 진행 업무 등을 맡는 형태입니다. 사람들이 흔히 떠올리는 '집안일 로봇'보다 먼저 반구조화된 공간에서 사용되는 로봇입니다.",
+        "context": "CHOI가 중국 UBTECH의 신형 휴머노이드 로봇 Walker C1이 전시·응대 업무에 투입되는 사례를 소개. 가정용 로봇보다 반구조화 공간에서 먼저 활용된다는 분석.",
+        "url": "https://www.threads.net/@choi.openai/post/DYpsLBdkUWA",
+        "publishedAt": "2026-05-22T18:30:00.000Z",
+        "platform": "threads"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "NuExtract3 공개 — 마크다운·OCR·구조화 추출용 4B 오픈웨이트 VLM (자체 호스팅 가능)",
+        "originalTitle": "NuExtract3 released: open-weight 4B VLM for Markdown, OCR and structured extraction (self-hostable) [P]",
+        "summary": "오픈 웨이트 4B 비전-언어 모델이 마크다운, OCR, 구조화 추출 작업을 단일 모델로 처리한다는 점이 주목을 받았다. 자체 호스팅 가능해 보안·비용 측면에서 매력적.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1tkejqr/nuextract3_released_openweight_4b_vlm_for/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-05-22T19:07:56+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "VLA(Vision-Language-Action)의 새로운 문제들",
+        "originalTitle": "Novel Problems in VLA [R]",
+        "summary": "비전-언어-행동 모델 연구자들이 직면한 신규 연구 과제들을 정리한 글. 모달리티 정합과 정책 학습 난점이 주된 주제.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1tk37uo/novel_problems_in_vla_r/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-05-22T09:39:54+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "발신 전화에서의 실시간 인간 탐지기",
+        "originalTitle": "Live Human Detector on Outbound Phone Calls [R]",
+        "summary": "콜센터·세일즈 자동화 환경에서 상대편이 실제 사람인지 판별하는 실시간 시스템에 대한 토론.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1tk8ht5/live_human_detector_on_outbound_phone_calls_r/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-05-22T13:41:24+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "DeepSeek, 102.9억 달러 자금 조달 — Liang Wenfeng '오픈소스 AI에 집중, 단기 상업화 안 한다'",
+        "originalTitle": "DeepSeek is pushing forward with $10.29 billion financing round, with Liang Wenfeng committing to continue developing open-source AI models rather than pursuing short-term commercialization goals",
+        "summary": "DeepSeek이 약 100억 달러 규모의 자금 라운드를 추진 중이며 창업자가 단기 상업화 대신 오픈소스 모델 개발에 집중한다고 밝힌 내용. LocalLLaMA 커뮤니티의 핵심 관심사.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tkfvvj/deepseek_is_pushing_forward_with_1029_billion/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-05-22T20:14:57+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "BeeLlama v0.2.0, DFlash 대규모 업데이트 — RTX 3090 단일 카드로 Qwen 3.6 27B 164tps",
+        "originalTitle": "BeeLlama v0.2.0 – major DFlash update. Single RTX 3090: Qwen 3.6 27B up to 164 tps (4.40x), Gemma 4 31B up to 177.8 tps (4.93x). Prompt processing speed near baseline.",
+        "summary": "오픈소스 LLM 추론 엔진 BeeLlama의 DFlash 업데이트가 RTX 3090 단일 GPU에서 Qwen 3.6 27B를 초당 164토큰까지 끌어올린 점이 화제. 베이스라인 대비 4.4배 빠르다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tkpz2y/beellama_v020_major_dflash_update_single_rtx_3090/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-05-23T02:34:59+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "ByteShape Qwen3.6-35B-A3B, 6GB VRAM 노트북에서 Unsloth IQ보다 30% 빠르다",
+        "originalTitle": "ByteShape Qwen3.6-35B-A3B: 30% faster than Unsloth IQ on 6GB VRAM laptop",
+        "summary": "양자화 라이브러리 ByteShape가 6GB VRAM의 노트북에서도 35B MoE 모델을 Unsloth IQ 대비 30% 빠르게 돌린다는 벤치마크.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tknjcx/byteshape_qwen3635ba3b_30_faster_than_unsloth_iq/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-05-23T01:10:15+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "Microsoft, 토큰 기반 AI 과금이 연 예산을 몇 달 만에 폭발시키자 내부 Anthropic 라이선스 취소",
+        "originalTitle": "Microsoft Cancels Internal Anthropic Licenses As Shift To Token-Based AI Billing Blows Up Annual Budgets In Months",
+        "summary": "토큰 기반 과금 모델로 전환되면서 Microsoft의 연간 AI 예산이 단 수개월 만에 소진된 끝에 내부 Anthropic 라이선스를 취소했다는 소식. 엔터프라이즈 비용 구조 논쟁의 핵.",
+        "url": "https://www.reddit.com/r/artificial/comments/1tkb0op/microsoft_cancels_internal_anthropic_licenses_as/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-05-22T15:52:39+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "AI 버블 다시 생각하기",
+        "originalTitle": "Rethinking AI Bubble",
+        "summary": "최근 펀딩·매출 수치를 바탕으로 'AI 버블론'을 재검토하는 분석. 매출 성장률과 자본 지출 사이의 간극을 어떻게 봐야 하는지 토론.",
+        "url": "https://www.reddit.com/r/artificial/comments/1tkb6p9/rethinking_ai_bubble/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-05-22T16:01:30+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "Gemini의 흥미로운 응답",
+        "originalTitle": "Interesting Response from Gemini",
+        "summary": "사용자가 받은 Gemini 응답이 모델 행동에 대한 단상으로 이어진 짧은 토론 글.",
+        "url": "https://www.reddit.com/r/artificial/comments/1tk3y45/interesting_response_from_gemini/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-05-22T10:12:52+09:00"
+      },
+      {
+        "id": "reddit_010",
+        "title": "수학 박사과정 친구가 '우린 끝났다'고 하더라",
+        "originalTitle": "Math grad student friend says we're cooked",
+        "summary": "OpenAI 모델이 Erdős 단위 거리 추측을 반박했다는 소식에 대한 수학 박사과정 학생의 반응을 공유한 화제글.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1tkcxxi/math_grad_student_friend_says_were_cooked/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-05-22T17:39:55+09:00"
+      },
+      {
+        "id": "reddit_011",
+        "title": "'그냥 답 좀 줘 형'",
+        "originalTitle": "Just give me the F bro 😭",
+        "summary": "ChatGPT가 사용자 질문에 우회적으로만 답하는 행태를 풍자한 짧은 게시물.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1tk80sx/just_give_me_the_f_bro/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-05-22T13:18:12+09:00"
+      },
+      {
+        "id": "reddit_012",
+        "title": "당신 일에 지능이 전혀 필요 없다면…",
+        "originalTitle": "If your job requires zero intelligence",
+        "summary": "AI가 빠르게 대체할 가능성이 있는 직업과 그렇지 않은 직업을 가르는 기준에 대한 토론.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1tkjf8w/if_your_job_requires_zero_intelligence/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-05-22T22:43:41+09:00"
+      },
+      {
+        "id": "reddit_013",
+        "title": "'좋은 와인처럼 숙성됐다'",
+        "originalTitle": "Aged like fine WINE",
+        "summary": "Claude의 과거 발언/예측이 시간이 지나 정확했음을 보여주는 짤성 화제글.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1tkhvju/aged_like_fine_wine/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-05-22T21:43:20+09:00"
+      },
+      {
+        "id": "reddit_014",
+        "title": "Claude를 가장 의외로 유용하게 써본 경험은?",
+        "originalTitle": "What's the most unexpectedly useful thing you've used Claude for?",
+        "summary": "사용자들이 Claude를 활용한 의외의 사용 사례를 공유하는 인기 토론 스레드.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1tkp1pg/whats_the_most_unexpectedly_useful_thing_youve/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-05-23T02:03:12+09:00"
+      },
+      {
+        "id": "reddit_015",
+        "title": "Claude Max $100 vs ChatGPT Pro $100, 실제 업무에서 비교 후 ChatGPT Pro 해지",
+        "originalTitle": "After comparing Claude Max $100 and ChatGPT Pro $100 side by side on actual billable work, I'm cancelling my ChatGPT Pro subscription",
+        "summary": "월 100달러 구독 플랜을 실제 청구 가능한 업무에 사용해 비교한 후 Claude Max에 정착했다는 사용자 후기.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1tkhp7a/after_comparing_claude_max_100_and_chatgpt_pro/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-05-22T21:36:00+09:00"
+      },
+      {
+        "id": "reddit_016",
+        "title": "C++ 창시자가 메모리 안전성을 말한다",
+        "originalTitle": "Creator of C++ talks about memory safety",
+        "summary": "Bjarne Stroustrup가 Rust 대비 C++의 메모리 안전성 로드맵을 설명한 영상이 프로그래밍 커뮤니티에서 화제.",
+        "url": "https://www.reddit.com/r/programming/comments/1tkivsv/creator_of_c_talks_about_memory_safety/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-05-22T22:22:45+09:00"
+      },
+      {
+        "id": "reddit_017",
+        "title": "Sierpinski 파동을 매트릭스 비로 바꾸는 16바이트 코드",
+        "originalTitle": "16 bytes of code that turn Sierpinski waves into Matrix rain",
+        "summary": "초미니 코드 16바이트로 두 가지 시각적 패턴을 한 번에 만들어내는 데모. 코드 골프 팬들 사이 인기.",
+        "url": "https://www.reddit.com/r/programming/comments/1tkh0w0/16_bytes_of_code_that_turn_sierpinski_waves_into/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-05-22T21:06:49+09:00"
+      },
+      {
+        "id": "reddit_018",
+        "title": "How to Call an API from an Email",
+        "originalTitle": "How to Call an API from an Email",
+        "summary": "r/programming 커뮤니티에서 활발히 논의된 게시물.",
+        "url": "https://www.reddit.com/r/programming/comments/1tjznwf/how_to_call_an_api_from_an_email/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-05-22T07:11:19+09:00"
+      },
+      {
+        "id": "reddit_019",
+        "title": "Figure AI, 휴머노이드 로봇이 패키지를 처리한 200시간 운영 자축",
+        "originalTitle": "Figure AI celebrates 200 hours (8 days ~8 hours) of their humanoid robots handling packages",
+        "summary": "Figure AI의 휴머노이드가 약 8일간 패키지 처리 작업을 200시간 누적으로 수행했다는 기념 영상. 물류 자동화 시연 단계.",
+        "url": "https://www.reddit.com/r/singularity/comments/1tkd0fk/figure_ai_celebrates_200_hours_8_days_8_hours_of/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-05-22T17:43:51+09:00"
+      },
+      {
+        "id": "reddit_020",
+        "title": "DeepSeek, 프로모션 종료 후에도 75% 인하 가격 영구 유지",
+        "originalTitle": "DeepSeek Announces Permanent Price Cut of 75% after Promotion Period",
+        "summary": "DeepSeek이 V4 Pro 모델의 프로모션 가격 75% 인하를 영구화한다는 발표. 글로벌 API 가격 경쟁 재점화.",
+        "url": "https://www.reddit.com/r/singularity/comments/1tkj8l8/deepseek_announces_permanent_price_cut_of_75/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-05-22T22:36:36+09:00"
+      },
+      {
+        "id": "reddit_021",
+        "title": "Anthropic 공동창업자 Jack Clark의 최근 예측 — 1년 내 노벨상급 발견, 2년 내 이족 로봇 실작업, 2028년 말 RSI",
+        "originalTitle": "Anthropic Co-founder Jack Clark’s recent predictions: AI will help make a Nobel Prize-winning discovery within the next year, bipedal robots doing useful work in 2 years, RSI by end of 2028",
+        "summary": "Jack Clark가 1년 내 AI 보조의 노벨상 발견, 2년 내 이족 로봇의 유용 작업, 2028년 말 재귀적 자기개선(RSI)을 전망한 인터뷰가 화제.",
+        "url": "https://www.reddit.com/r/singularity/comments/1tkstc0/anthropic_cofounder_jack_clarks_recent/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-05-23T04:12:50+09:00"
+      },
+      {
+        "id": "reddit_022",
+        "title": "시니어만 있는 팀의 업무 분담은 어떤 모습일까?",
+        "originalTitle": "What do responsibilities look like in a team of only senior engineers?",
+        "summary": "전원 시니어 엔지니어로 구성된 팀에서 책임 분배와 의사결정이 어떻게 작동하는지에 대한 토론.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1tkifmd/what_do_responsibilities_look_like_in_a_team_of/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-05-22T22:05:37+09:00"
+      },
+      {
+        "id": "reddit_023",
+        "title": "클라이언트에게 거짓말하라는 압박을 받아본 적 있나?",
+        "originalTitle": "Have you ever been pressured to lie to your client?",
+        "summary": "엔지니어가 윤리적 갈등을 마주한 경험을 공유하는 인기 토론 글. 컨설팅·아웃소싱 현장의 현실.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1tjznvn/have_you_ever_been_pressured_to_lie_to_your_client/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-05-22T07:11:18+09:00"
+      },
+      {
+        "id": "reddit_024",
+        "title": "이게 임포스터 신드롬일까?",
+        "originalTitle": "Is this imposter syndrome?",
+        "summary": "주니어가 아닌 경험 많은 개발자도 흔히 겪는 자기 의심에 대한 토론. 커리어 단계별 대처 팁이 오간다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1tk16o7/is_this_imposter_syndrome/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-05-22T08:12:46+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_qb_001",
+        "title": "Stack Overflow, AI 스토리지 병목 해소를 위한 새 패턴 정리",
+        "excerpt": "Stack Overflow Blog가 AI 학습·추론 환경의 스토리지 병목을 해소하기 위한 데이터 레이아웃·캐싱 패턴을 정리했다. 페타바이트 규모 학습에서의 IO 최적화에 초점.",
+        "url": "https://stackoverflow.blog/2026/05/22/breaking-your-ai-storage-bottlenecks/",
+        "source": "Stack Overflow Blog",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-22T16:40:00+09:00",
+        "readTime": 4,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_qb_002",
+        "title": "Hugging Face 'Specialization Beats Scale' 후속 토론 — 작은 특화 모델 비용 우위",
+        "excerpt": "Hugging Face Dharma-AI 글의 핵심 주장: 도메인 특화 모델이 동일 품질을 절반 이하 비용으로 달성하는 사례가 누적되며, 엔터프라이즈 모델 선택 기준이 바뀌고 있다.",
+        "url": "https://huggingface.co/blog/Dharma-AI/specialization-beats-scale",
+        "source": "Hugging Face - Blog",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-23T00:25:59+09:00",
+        "readTime": 4,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_qb_003",
+        "title": "Stack Overflow, '코딩 에이전트가 만든 결정 피로' 진단",
+        "excerpt": "여러 코딩 에이전트가 동시에 존재하는 환경에서 개발자가 매번 어떤 도구를 쓸지 골라야 하는 부담이 새로운 인지 비용을 만든다는 분석.",
+        "url": "https://stackoverflow.blog/2026/05/21/coding-agents-are-giving-everyone-decision-fatigue/",
+        "source": "Stack Overflow Blog",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-21T23:19:00+09:00",
+        "readTime": 4,
+        "imageGradient": 6
+      }
+    ]
+  }
+}
