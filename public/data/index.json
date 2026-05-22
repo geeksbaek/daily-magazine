@@ -1,6 +1,17 @@
 {
   "issues": [
     {
+      "date": "2026-05-22",
+      "issueNumber": 53,
+      "mainHeadline": "SpaceX, IPO 신청서 제출 — $26.5조 규모 AI 시장 쟁탈전 가세",
+      "headlines": [
+        "Anthropic, 창사 첫 흑자 분기 예고 — AI 수익화 본격화",
+        "NVIDIA, 분기 매출 신기록 + 스타트업 보유 지분 $43B 공개",
+        "펜타곤, Anthropic 대체할 AI 모델들 경쟁 테스트 착수",
+        "OpenAI Codex, 잠긴 Mac도 원격 조작 — 'AppShots'로 컨텍스트 확장"
+      ]
+    },
+    {
       "date": "2026-05-21",
       "issueNumber": 52,
       "mainHeadline": "Google I/O 2026 후폭풍 — Gemini 3.5와 에이전트, 그리고 AI가 푼 80년 묵은 수학 문제",
@@ -517,5 +528,5 @@
       ]
     }
   ],
-  "latestIssue": 52
+  "latestIssue": 53
 }
