@@ -1,6 +1,17 @@
 {
   "issues": [
     {
+      "date": "2026-05-24",
+      "issueNumber": 55,
+      "mainHeadline": "OpenAI·GitHub, Gartner 'AI 코딩 에이전트' 부문 동반 리더 — Codex가 표준이 되다",
+      "headlines": [
+        "Microsoft, Claude Code 라이선스 회수 — Anthropic 의존도 줄이기",
+        "DeepSeek V4 Pro, 영구 75% 할인 — AI 모델 가격 경쟁 재점화",
+        "Anthropic Project Glasswing, 한 달 만에 취약점 1만 건 발견",
+        "SpaceX Starship V3 첫 비행 성공 — 부스터는 회수 단계 분실"
+      ]
+    },
+    {
       "date": "2026-05-23",
       "issueNumber": 54,
       "mainHeadline": "Anthropic, $30B 라운드 마감 임박 — 시가 $900B로 OpenAI 추월",
@@ -539,5 +550,5 @@
       ]
     }
   ],
-  "latestIssue": 54
+  "latestIssue": 55
 }
