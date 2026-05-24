@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-05-25",
+      "issueNumber": 56,
+      "mainHeadline": "OpenAI, Codex 대공세 — 잠긴 Mac도 원격 조작",
+      "headlines": [
+        "OpenAI 모델, 80년 묵은 에르되시 단위 거리 추측 반박",
+        "Anthropic Project Glasswing, 필수 소프트웨어 취약점 1만 개 발견",
+        "NVIDIA Nemotron-Labs 확산 언어 모델로 빛의 속도에 가까운 텍스트 생성"
+      ]
+    },
+    {
       "date": "2026-05-24",
       "issueNumber": 55,
       "mainHeadline": "OpenAI·GitHub, Gartner 'AI 코딩 에이전트' 부문 동반 리더 — Codex가 표준이 되다",
@@ -550,5 +560,5 @@
       ]
     }
   ],
-  "latestIssue": 55
+  "latestIssue": 56
 }
