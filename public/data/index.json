@@ -1,6 +1,17 @@
 {
   "issues": [
     {
+      "date": "2026-05-28",
+      "issueNumber": 58,
+      "mainHeadline": "AI 코딩의 거인전쟁 — Cognition $1B·Codex 자가개선·GPT-5.5 패권 다툼",
+      "headlines": [
+        "Cognition $1B 라운드 — $25B 프리머니로 AI 코딩 광풍",
+        "OpenAI Codex 자가개선 세금 에이전트 — 7,000건 신고에 97% 정확도",
+        "Anthropic, Claude Code 보안 가이드 플러그인 출시",
+        "OpenAI, 프라이빗 MCP 서버·Workload Identity Federation 공개"
+      ]
+    },
+    {
       "date": "2026-05-27",
       "issueNumber": 57,
       "mainHeadline": "OpenRouter 가치 두 배 — 멀티모델 시대 본격 개막",
@@ -571,5 +582,5 @@
       ]
     }
   ],
-  "latestIssue": 57
+  "latestIssue": 58
 }
