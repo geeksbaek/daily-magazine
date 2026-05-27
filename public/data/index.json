@@ -1,6 +1,17 @@
 {
   "issues": [
     {
+      "date": "2026-05-27",
+      "issueNumber": 57,
+      "mainHeadline": "OpenRouter 가치 두 배 — 멀티모델 시대 본격 개막",
+      "headlines": [
+        "OpenRouter, 1년 만에 $1.3B 평가 — CapitalG 주도 $113M 시리즈 B",
+        "ClickUp, 수백 명 해고 후 수천 개 AI 에이전트로 교체",
+        "교황 레오 14세 'Magnifica humanitas' 회칙 — AI를 통한 권력 집중 비판",
+        "Hugging Face, AI 에이전트 핵심 용어 정리집 공개"
+      ]
+    },
+    {
       "date": "2026-05-25",
       "issueNumber": 56,
       "mainHeadline": "OpenAI, Codex 대공세 — 잠긴 Mac도 원격 조작",
@@ -560,5 +571,5 @@
       ]
     }
   ],
-  "latestIssue": 56
+  "latestIssue": 57
 }
