@@ -1,6 +1,17 @@
 {
   "issues": [
     {
+      "date": "2026-05-29",
+      "issueNumber": 59,
+      "mainHeadline": "Anthropic Opus 4.8 출시 + 시리즈 H $65B — IPO 직전 $1T 평가",
+      "headlines": [
+        "Claude Opus 4.8 — SWE-Bench Pro 69.2%, 동적 워크플로로 서브에이전트 군단 지휘",
+        "Anthropic 시리즈 H $65B, 평가액 $965B — 연율 매출 $47B 돌파",
+        "OpenAI × Cisco — Codex로 엔터프라이즈 엔지니어링 재정의",
+        "OpenAI 자가개선 세무 에이전트 — 회계사 수정이 평가 데이터로 자동 전환"
+      ]
+    },
+    {
       "date": "2026-05-28",
       "issueNumber": 58,
       "mainHeadline": "AI 코딩의 거인전쟁 — Cognition $1B·Codex 자가개선·GPT-5.5 패권 다툼",
@@ -582,5 +593,5 @@
       ]
     }
   ],
-  "latestIssue": 58
+  "latestIssue": 59
 }

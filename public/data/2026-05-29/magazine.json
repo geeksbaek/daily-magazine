@@ -1,0 +1,671 @@
+{
+  "date": "2026-05-29",
+  "issueNumber": 59,
+  "cover": {
+    "mainHeadline": "Anthropic Opus 4.8 출시 + 시리즈 H $65B — IPO 직전 $1T 평가",
+    "mainExcerpt": "Anthropic이 Claude Opus 4.8을 출시하며 SWE-Bench Pro 점수를 64.3%에서 69.2%까지 끌어올렸고, '동적 워크플로(Dynamic Workflows)' 도구로 수백 개 서브에이전트 조율 능력을 더했다. 같은 날 시리즈 H에서 650억 달러를 조달, 사후 평가 약 9,650억 달러로 IPO 직전 마지막 프라이빗 라운드를 마무리했다. 동시에 OpenAI는 Cisco와의 엔터프라이즈 협업 및 Codex 기반 자가개선 세무 에이전트 사례를 공개했다.",
+    "headlines": [
+      "Claude Opus 4.8 — SWE-Bench Pro 69.2%, 동적 워크플로로 서브에이전트 군단 지휘",
+      "Anthropic 시리즈 H $65B, 평가액 $965B — 연율 매출 $47B 돌파",
+      "OpenAI × Cisco — Codex로 엔터프라이즈 엔지니어링 재정의",
+      "OpenAI 자가개선 세무 에이전트 — 회계사 수정이 평가 데이터로 자동 전환"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_h1",
+      "title": "Anthropic, Opus 4.8 출시 — '동적 워크플로'로 서브에이전트 군단 조율",
+      "excerpt": "Anthropic이 신형 Claude Opus 4.8을 공개했다. 코딩 작업 SWE-Bench Pro 점수를 64.3%에서 69.2%까지 끌어올렸고, 수백 개 서브에이전트를 병렬로 조율하는 'Dynamic Workflows' 도구를 함께 출시했다.",
+      "body": "Anthropic이 28일 Claude Opus 4.8을 발표했다. Opus 4.7 대비 SWE-Bench Pro 점수가 64.3%에서 69.2%로 상승했고, Terminal-Bench 2.1에서는 74.6%를 기록했다(GPT-5.5는 78.2%, Codex CLI 기준 83.4%). 핵심 신기능은 'Dynamic Workflows'다. Claude Code에서 한 번에 처리하기 어려운 대규모 마이그레이션·리팩터링·성능 최적화 같은 작업을 위해 모델이 직접 계획을 세우고 수백 개 병렬 서브에이전트를 실행, 결과를 검증한 뒤 보고한다. Anthropic은 이번 모델의 차별점으로 '솔직함'을 강조했다 — 불확실할 때 모른다고 말하고, 조기 승리를 선언하는 대신 스스로 버그를 잡아낸다.",
+      "url": "https://techcrunch.com/2026/05/28/anthropic-releases-opus-4-8-with-new-dynamic-workflow-tool/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-29T02:00:09+09:00",
+      "readTime": 5,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_h2",
+      "title": "Anthropic 시리즈 H에서 $65B 조달 — $965B 평가, IPO 직전 마지막 프라이빗 라운드",
+      "excerpt": "Anthropic이 9,650억 달러의 사후 평가로 650억 달러 시리즈 H를 마무리했다. IPO 직전 마지막이 될 가능성이 큰 프라이빗 라운드로, 연율 매출 470억 달러 돌파를 동시 공개했다.",
+      "body": "Anthropic이 28일 시리즈 H에서 650억 달러를 조달했다고 발표했다. 사후 평가는 약 9,650억 달러로, AI 스타트업 가운데 사실상 1조 달러 진영에 가장 먼저 진입한 사례다. 이번 라운드는 곧 있을 IPO 전 마지막 프라이빗 펀딩이 될 것으로 전망된다. 같은 발표에서 회사의 연율 매출이 이달 초 470억 달러를 넘었다고 공개했고, 이는 다양한 산업의 조직이 핵심 운영에 Claude를 도입하면서 확보된 성장이다. 같은 주 Anthropic은 Opus 4.8과 동적 워크플로를 함께 출시해 제품·재무·규모 측면에서 동시에 점프하는 양상을 보이고 있다.",
+      "url": "https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-29T03:52:51+09:00",
+      "readTime": 4,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_h3",
+      "title": "Cisco와 OpenAI, Codex로 엔터프라이즈 엔지니어링 재정의",
+      "excerpt": "Cisco가 수십 년 운영해 온 미션 크리티컬 소프트웨어 환경에 OpenAI Codex를 도입했다. 생성형 AI가 실험을 넘어 실제 운영 단계로 진입했음을 보여주는 사례다.",
+      "body": "OpenAI가 Cisco와의 공동 사례 연구를 공개했다. Cisco는 수십 년간 세계에서 가장 복잡하고 미션 크리티컬한 소프트웨어 시스템을 구축·운영해 왔다. 이번 협업은 그 환경에 Codex를 정식 도입해 엔터프라이즈 엔지니어링을 재정의한다는 내용이다. 생성형 AI가 실험·프로토타입 단계를 넘어 대기업의 실제 운영 워크로드 안으로 들어가는 흐름을 보여 주는 대표적 케이스이며, OpenAI는 같은 주 자가개선 세무 에이전트 사례, Workload Identity Federation, 프라이빗 MCP 서버 등 엔터프라이즈 보안·운영 인프라를 동시에 공개하며 B2B 라인을 강화하고 있다.",
+      "url": "https://openai.com/index/cisco",
+      "source": "OpenAI News",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-27T20:00:00+09:00",
+      "readTime": 5,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_h4",
+      "title": "OpenAI, Codex 기반 자가개선 세무 에이전트 공개 — 회계사 수정이 평가 데이터로 자동 전환",
+      "excerpt": "OpenAI와 Thrive Holdings가 공동 개발한 Tax AI 사례. 회계사가 결과를 수정하면 그 수정이 자동으로 평가 데이터로 전환되고, Codex가 코드를 고치는 재귀 개선 루프 구조다.",
+      "body": "OpenAI가 Thrive Holdings와 공동 개발한 'Tax AI' 사례 연구를 공개했다. 핵심 아이디어는 도메인 전문가(회계사)의 수정 행위 자체를 평가 데이터셋으로 자동 전환하는 피드백 루프다. 회계사가 결과를 수정하면 Codex가 원인 추적·코드 수정·회귀 테스트·검증까지 자동 반복 수행한다. 이번 발표는 단순한 도메인 특화 파인튜닝을 넘어 '실제 업무 데이터를 재귀적으로 흡수하는 시스템'이 산업 적용의 새로운 표준이 되고 있음을 보여 준다. Anthropic의 Dynamic Workflows와 함께 '에이전트가 일하고 스스로 배운다'는 같은 패러다임의 두 갈래를 형성하고 있다.",
+      "url": "https://openai.com/index/building-self-improving-tax-agents-with-codex",
+      "source": "OpenAI News",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-27T16:00:00+09:00",
+      "readTime": 6,
+      "imageGradient": 1
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_ai_01",
+        "title": "Asana, 노코드 에이전트 빌더 Stack AI 인수",
+        "excerpt": "Asana가 노코드 AI 에이전트 빌더 Stack AI를 인수했다. 자사의 AI 워크플로 도구군에 통합해 비개발자 사용자도 업무 자동화를 구축할 수 있도록 할 계획이다.",
+        "url": "https://techcrunch.com/2026/05/28/asana-acquires-no-code-agent-builder-stack-ai/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-29T05:06:07+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_ai_02",
+        "title": "곧 금·원유처럼 'AI 토큰 선물' 거래된다",
+        "excerpt": "대형 거래소들이 AI 토큰 기반 파생상품을 설계하고 있다. AI 토큰이 단순한 연산 결과물이 아니라 전기·대역폭 같은 원자재 투입재로 재해석되는 흐름이다.",
+        "url": "https://techcrunch.com/2026/05/28/just-like-gold-and-oil-well-soon-be-able-to-trade-ai-token-futures/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-29T03:32:25+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_ai_03",
+        "title": "NVIDIA Vera CPU, 경쟁 제품들에 '강타' — Phoronix 벤치",
+        "excerpt": "NVIDIA의 신규 Vera CPU가 외부 벤치마크에서 경쟁 제품들을 상대로 강력한 성능을 입증했다. AI 인프라 스택 전체를 자사 칩으로 채우려는 NVIDIA의 전략에 또 하나의 축이 더해진 셈이다.",
+        "url": "https://blogs.nvidia.com/blog/vera-cpu-phoronix/",
+        "source": "NVIDIA Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-27T06:15:15+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_ai_04",
+        "title": "OpenAI, 'Frontier Governance Framework' 공개",
+        "excerpt": "OpenAI가 프런티어 모델 거버넌스 프레임워크를 발표했다. 위험 평가·완화 기준과 출시 단계별 검토 절차를 체계화한 내용으로, 정부·규제 기관과의 협의를 염두에 둔 정책 문서다.",
+        "url": "https://openai.com/index/openai-frontier-governance-framework",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-28T09:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_ai_05",
+        "title": "Warp, GPT-5.5 기반 오픈소스 빌딩에 큰 베팅",
+        "excerpt": "현대적 터미널로 시작한 Warp가 GPT-5.5를 기반으로 오픈소스 빌딩에 전사적으로 베팅했다. 개발자 도구가 'AI 위의 워크플로 레이어'로 빠르게 재편되고 있음을 보여준다.",
+        "url": "https://openai.com/index/warp",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-27T09:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_ai_06",
+        "title": "Microsoft Research, Data Formulator 0.7 — 엔터프라이즈 데이터 AI 분석",
+        "excerpt": "Microsoft Research가 엔터프라이즈 데이터에 특화된 AI 분석 도구 Data Formulator 0.7을 공개했다. 자연어 쿼리에서 시각화·대시보드까지 한 번에 생성한다.",
+        "url": "https://www.microsoft.com/en-us/research/blog/data-formulator-0-7-ai-powered-data-analytics-for-enterprise-data/",
+        "source": "Microsoft Research",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-29T01:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_ai_07",
+        "title": "NVIDIA Research, 로보틱스를 시뮬레이션에서 현실 세계로",
+        "excerpt": "NVIDIA가 ICRA에서 로보틱스가 통제된 데모와 스크립트 환경을 넘어 실제 세계로 이동하는 새 단계에 진입했다고 발표했다. 시뮬레이션→리얼월드 전이 기술 일괄 공개.",
+        "url": "https://blogs.nvidia.com/blog/icra-research-robotics-simulation-to-real-world/",
+        "source": "NVIDIA Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-28T22:00:51+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_ai_08",
+        "title": "Google I/O 2026, 12개 핵심 모먼트 정리",
+        "excerpt": "Google이 올해 I/O 키노트의 12개 주요 순간을 영상과 함께 회고했다. 신모델 데뷔, 검색 변화, 디바이스·플랫폼 통합 등 한 자리에서 다시 보기.",
+        "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
+        "source": "AI & Machine Learning",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-29T00:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 1
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_dev_01",
+        "title": "Vercel AI Gateway, Claude Opus 4.8 즉시 지원",
+        "excerpt": "Vercel AI Gateway가 출시 당일 Claude Opus 4.8을 추가했다. 장기 에이전트 실행과 복잡한 멀티스텝 코딩 작업(리팩터링 등)을 사람 개입 없이 처리하도록 설계된 모델을 즉시 사용 가능하다.",
+        "url": "https://vercel.com/changelog/opus-4-8-on-ai-gateway",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-28T16:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_dev_02",
+        "title": "Cloudflare, 통합 데이터 플랫폼 'Town Lake'와 내장 AI 에이전트 'Skipper' 공개",
+        "excerpt": "Cloudflare가 자사 통합 분석 플랫폼 Town Lake와 그 위에서 동작하는 내부 AI 에이전트 Skipper를 구축한 과정을 공개했다. 데이터 인프라와 AI 에이전트가 같은 레이어 위에 자연스럽게 함께 사는 사내 사례다.",
+        "url": "https://blog.cloudflare.com/our-unified-data-platform/",
+        "source": "Cloudflare Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-28T22:00:00+09:00",
+        "readTime": 6,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_dev_03",
+        "title": "Visual Studio Code 1.122 릴리스",
+        "excerpt": "VS Code가 1.122 버전을 공개했다. AI 채팅·에이전트 워크플로 업데이트, 새 에디터 개선, 확장 호환성 변경 등 정기 5월 릴리스다.",
+        "url": "https://code.visualstudio.com/updates/v1_122",
+        "source": "Visual Studio Code",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-29T02:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_dev_04",
+        "title": "Stack Overflow Blog: AI 시대 가장 가치 있는 개발자는 '장인이자 빌더'",
+        "excerpt": "AI가 개발의 새 전동공구가 된 시대, '장인적 공예'는 여전히 가치를 지닐 수 있을까. Stack Overflow가 두 정체성을 함께 지닌 개발자가 가장 살아남는다고 주장한다.",
+        "url": "https://stackoverflow.blog/2026/05/28/artisans-and-builders/",
+        "source": "Stack Overflow Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-29T01:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_dev_05",
+        "title": "Docker, CVE-2026-31431 'Copy Fail' 완화 — AF_ALG 소켓 노출 차단",
+        "excerpt": "Docker Engine 29.4.3 이전 버전 기본 프로파일이 컨테이너의 AF_ALG 소켓 생성을 허용해 최근 공개된 Linux 커널 취약점의 syscall 표면을 노출시켰다. 해당 버전 이상 사용자는 영향 없음.",
+        "url": "https://www.docker.com/blog/mitigating-cve-2026-31431-copy-fail-in-docker-engine/",
+        "source": "Docker Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-27T22:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 2
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_bt_01",
+        "title": "Verge: Claude 신모델, 실수할 때 더 '솔직'해졌다",
+        "excerpt": "Anthropic이 Claude Opus 4.8을 '솔직함'으로 마케팅한다. 회사는 '뒷받침할 수 없는 주장을 피하도록' 모델을 훈련한다고 강조하면서, 일반적으로 모델이 가끔 사실을 만들어 내는 문제를 인정했다.",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/939094/anthropic-claude-4-8-opus-honesty-effort",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-05-29T02:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_bt_02",
+        "title": "Anthropic의 SpaceX 컴퓨트 임차 기간 — 의견 분분",
+        "excerpt": "Elon Musk가 xAI의 거대한 Anthropic 컴퓨트 거래를 단기·해지 가능 계약이라고 공개적으로 재정의하고 있다. 그러나 SpaceX의 S-1 신고서는 2029년 5월까지 지속되는 결제 일정을 명시한다.",
+        "url": "https://techcrunch.com/2026/05/28/how-long-is-anthropics-lease-with-spacex-opinions-vary/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-05-29T00:36:00+09:00",
+        "readTime": 4,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_bt_03",
+        "title": "Bluesky, 장문 콘텐츠 기능 추가 — X Articles에 맞불",
+        "excerpt": "Bluesky가 최신 업데이트로 장문 콘텐츠 기능을 도입했다. X의 Articles에 정면 대응하는 행보로, 단문 SNS 경쟁이 블로그·뉴스레터 영역으로 확장되는 추세다.",
+        "url": "https://techcrunch.com/2026/05/28/bluesky-embraces-long-form-content-to-counter-x-articles/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-05-29T04:27:07+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_bt_04",
+        "title": "Signal 사용자 백업 노린 새 피싱 공격 — 복구 키 탈취 시도",
+        "excerpt": "Signal 사용자의 비밀 복구 키를 노리는 새로운 피싱 캠페인이 포착됐다. 복구 키가 노출되면 과거 메시지가 담긴 온라인 백업에 접근할 수 있어 위험도가 높다.",
+        "url": "https://techcrunch.com/2026/05/28/hackers-are-trying-to-steal-signal-users-backups-in-new-wave-of-phishing-attacks/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-05-29T04:07:24+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "AI는 전 세계 사람들의 삶의 질과 개인의 자유를 극적으로 향상시켜야 합니다.\n\nOpenAI 재단은 측정, 전환 지원, 그리고 널리 공유되는 번영을 위한 새로운 접근 방식에 대해 초기 2억 5천만 달러를 약속하고 있습니다.",
+        "context": "OpenAI CEO Sam Altman이 OpenAI 재단의 초기 2.5억 달러 약속을 발표한 트윗. 측정, 전환 지원, 공유 번영을 위한 새 접근법에 자금을 배분.",
+        "url": "https://x.com/sama/status/2059677202917331431",
+        "publishedAt": "2026-05-27T16:44:46.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "자기 개선하는 세무 에이전트를 위한 OpenAI:",
+        "context": "OpenAI 사장 Greg Brockman이 Codex 기반 자가개선 세무 에이전트 사례를 공유. OpenAI의 산업 적용 전략을 보여주는 시그니처 사례.",
+        "url": "https://x.com/gdb/status/2059784106955993236",
+        "publishedAt": "2026-05-27T23:49:34.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "GPT-5.5가 사이버 보안에서 얼마나 유능한지, 그 점이 충분히 인정받지 못하고 있다:",
+        "context": "Greg Brockman이 GPT-5.5의 사이버보안 분야 능력이 충분히 인정받지 못하고 있다고 강조한 트윗. OpenAI의 보안 영역 침투 의지를 드러냄.",
+        "url": "https://x.com/gdb/status/2059767326971724016",
+        "publishedAt": "2026-05-27T22:42:54.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "병렬 브라우저 사용 서브에이전트를 위한 코드екс:",
+        "context": "Greg Brockman이 Codex의 '병렬 브라우저 사용 서브에이전트'를 소개한 트윗. AI 에이전트가 여러 브라우저 인스턴스를 동시에 다루며 작업하는 새 패턴.",
+        "url": "https://x.com/gdb/status/2059735815262249392",
+        "publishedAt": "2026-05-27T20:37:41.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Alex Albert",
+        "handle": "alexalbert__",
+        "content": "우리는 Opus 4.8의 사고 노력 보정에 많은 공을 들였습니다.\n\n모델을 시도해보시면서, 여전히 과도하게/부족하게 사고하는 사례를 발견하시면, 저희에게 알려주세요!",
+        "context": "Alex Albert이 Opus 4.8의 '사고 노력 보정(thinking effort calibration)'에 공을 들였다며, 과도/부족 사고 사례를 제보해 달라고 요청한 트윗.",
+        "url": "https://x.com/alexalbert__/status/2060052259581669871",
+        "publishedAt": "2026-05-28T17:35:07.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Alex Albert",
+        "handle": "alexalbert__",
+        "content": "Opus 4.8의 Fast 모드가 이제 훨씬 더 저렴해졌습니다.\n\nClaude Code에서 써보세요. 제게는 Claude를 사용하는 방식을 바꿔놓았어요. 빠른 응답이 필요한 대화형 작업에는 Fast 모드, 결과를 즉시 받을 필요가 없는 긴 비동기 작업에는 normal 모드를 사용합니다.",
+        "context": "Alex Albert이 Opus 4.8 Fast 모드의 가격 인하를 알리는 트윗. 대화형 작업에는 Fast, 긴 비동기 작업에는 normal을 권장하는 사용 패턴을 공유.",
+        "url": "https://x.com/alexalbert__/status/2060046822631231810",
+        "publishedAt": "2026-05-28T17:13:30.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "Opus 4.8을 정말 좋아할 것 같아요.\n\n벤치마크에서 보여주는 만큼 똑똑하지만, 그 지능을 따뜻하고 협력적인 방식으로 표현하고 활용하죠.\n\n워크플로우는 이를 활용하는 훌륭한 방법이에요- 저는 완전히 푹 빠졌어요. 그에 대한 기사 곧 올릴게요.",
+        "context": "Anthropic Thariq의 Opus 4.8 사용 후기. 벤치마크 수치만큼 똑똑하면서 따뜻하고 협력적인 표현 방식이 인상적이라며, 워크플로 기능에 푹 빠졌다고 언급.",
+        "url": "https://x.com/trq212/status/2060047996348432631",
+        "publishedAt": "2026-05-28T17:18:10.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "content": "Claude Opus 4.8이 오늘 출시되었습니다. 이것은 지금까지의 우리 최고의 코딩 모델입니다: SWE-bench Pro에서 (64.3에서 69.2로) 성능이 향상되었고, 자신의 작업에 대해 눈에 띄게 더 솔직해졌습니다. 불확실할 때 알려주고, 조기 승리를 선언하는 대신 자신의 버그를 스스로 잡아냅니다.",
+        "context": "Claude Code 책임자 Boris Cherny의 Opus 4.8 평. SWE-Bench Pro 64.3→69.2 상승, 모델이 더 솔직해져 모를 때는 모른다고 말하고 스스로 버그를 잡아낸다고 강조.",
+        "url": "https://x.com/bcherny/status/2060048873440129073",
+        "publishedAt": "2026-05-28T17:21:39.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_009",
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "content": "우리는 또한 Claude Code (연구 프리뷰)에서 한 번에 처리하기에는 너무 큰 작업을 위한 동적 워크플로우를 출시했습니다. Claude가 권한을 위해 멈추지 않도록 자동 모드로 기본 설정을 확인하세요.\n\n토큰 집약적이기 때문에 가장 큰 작업에만 사용하세요: 마이그레이션, 리팩토링, 성능 최적화, 배치",
+        "context": "Boris Cherny의 동적 워크플로 사용 가이드. 토큰 소비가 크므로 마이그레이션·리팩터링·성능 최적화 같은 가장 큰 작업에만 쓰라는 실용 조언.",
+        "url": "https://x.com/bcherny/status/2060048877944778995",
+        "publishedAt": "2026-05-28T17:21:41.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_010",
+        "author": "Felix Rieseberg",
+        "handle": "felixrieseberg",
+        "content": "오늘 역시 출시: 이제 Code (/effort)와 Cowork에서 노력 수준과 적응적 사고를 직접 설정할 수 있습니다!\n\n노력 수준은 Claude의 지능 대 토큰 소비를 조정할 수 있게 해주며, 더 빠른 속도와 낮은 비용을 위해 능력을 희생하는 트레이드오프를 제공합니다.\n\nOpus 4.8은 노력 수준을 엄격히 준수하며,",
+        "context": "Cowork 팀 Felix Rieseberg가 Claude Code와 Cowork에서 노력 수준(/effort)을 직접 지정할 수 있는 기능 출시를 알린 트윗. 지능과 토큰 비용의 트레이드오프를 사용자가 선택.",
+        "url": "https://x.com/felixrieseberg/status/2060059697366110305",
+        "publishedAt": "2026-05-28T18:04:40.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_011",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "프라이빗 MCP 서버  OpenAI 제품\n\n팀은 네트워크 내부에 MCP 서버를 유지하면서 ChatGPT, Codex, 그리고 Responses API가 아웃바운드 전용 HTTPS를 통해 연결할 수 있습니다.",
+        "context": "OpenAI Devs가 '프라이빗 MCP 서버' 출시를 알린 트윗. 기업이 내부 네트워크에 MCP 서버를 유지하면서도 ChatGPT/Codex/Responses API가 안전하게 호출 가능.",
+        "url": "https://x.com/OpenAIDevs/status/2059703536825565499",
+        "publishedAt": "2026-05-27T18:29:25.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_012",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "Workload Identity Federation은 OpenAI API 플랫폼에 클라우드 기반 ID를 도입합니다.\n\n팀은 IAM 워크플로우를 통해 액세스를 관리하면서 서비스 간에 영구 API 키를 배포할 필요성을 줄일 수 있습니다.",
+        "context": "OpenAI Devs가 Workload Identity Federation을 공개. 영구 API 키 배포 없이 클라우드 IAM 워크플로로 OpenAI API 접근을 관리할 수 있는 엔터프라이즈 보안 기능.",
+        "url": "https://x.com/OpenAIDevs/status/2059703600662925635",
+        "publishedAt": "2026-05-27T18:29:40.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_013",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "우리는 Admin API를 확장하여 기업들이 OpenAI 프로젝트를 프로그래밍 방식으로 관리할 수 있도록 지원했습니다.\n\n새로운 지원 기능에는 지출 경고, 모델 허용 목록, 데이터 보존 제어, 호스팅 도구 제어, 그리고 파일 검색 및 웹 검색과 같은 기능에 대한 더 세분화된 비용 가시성이 포함됩니다.",
+        "context": "OpenAI Devs의 Admin API 확장 발표. 지출 경고, 모델 허용 목록, 데이터 보존 제어 등 기업이 OpenAI 프로젝트를 프로그래밍 방식으로 관리하는 기능 추가.",
+        "url": "https://x.com/OpenAIDevs/status/2059703665276145920",
+        "publishedAt": "2026-05-27T18:29:55.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_014",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "우리는 @AltimeterCap, Dragoneer, @Greenoaks, @sequoia가 주도한 시리즈 H 펀딩에서 650억 달러를 조달했으며, 이는 9,650억 달러의 사후 가치 평가를 기반으로 합니다.\n\n이 투자는 Claude에 대한 증가하는 수요를 충족하기 위해 우리의 연구를 발전시키고 용량을 확장하는 데 도움이 될 것입니다.",
+        "context": "Anthropic 공식 계정의 시리즈 H 발표. 9,650억 달러 사후 평가로 650억 달러를 조달했다는 핵심 발표 트윗으로, IPO 직전 마지막 프라이빗 라운드의 의미가 크다.",
+        "url": "https://x.com/AnthropicAI/status/2060061347522433422",
+        "publishedAt": "2026-05-28T18:11:13.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_015",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "이달 초, 우리의 연율 매출이 470억 달러를 넘어섰습니다.\n\n이러한 성장은 여러 산업에 걸친 조직들이 핵심 운영에 Claude를 도입한 데서 비롯되었으며, 일상 업무에 이를 사용하는 사람들이 점점 늘어나고 있기 때문입니다.",
+        "context": "Anthropic이 연율 매출 470억 달러 돌파를 알린 트윗. 이번 분기 들어 사상 최고 성장세이며, Claude의 엔터프라이즈 침투를 보여주는 지표다.",
+        "url": "https://x.com/AnthropicAI/status/2060061348818518493",
+        "publishedAt": "2026-05-28T18:11:14.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_016",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Claude Opus 4.8 소개: Opus 4.7을 기반으로 더 날카로운 판단력, 자신의 발전에 대한 더 큰 솔직함, 그리고 이전 모델들보다 더 오랫동안 독립적으로 작업할 수 있는 능력을 갖추었습니다.\n\n오늘부터 동일한 가격으로 이용 가능합니다.",
+        "context": "Claude 공식 계정의 Opus 4.8 발표 트윗. SWE-Bench 점프와 솔직함(honesty), 더 길어진 자율 작업 시간을 강조하며 가격은 동결한다는 점이 특징이다.",
+        "url": "https://x.com/claudeai/status/2060042702150930686",
+        "publishedAt": "2026-05-28T16:57:08.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_017",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Claude Code의 새로운 기능: 동적 워크플로 (연구 프리뷰).\n\n가장 어려운 작업의 경우, Claude는 계획을 세우고, 수백 개의 병렬 서브에이전트를 실행하며, 결과를 보고하기 전에 작업을 검증합니다. 수백 개의 파일을 다루는 마이그레이션 작업을 생각해보세요.",
+        "context": "Claude Code의 신기능 'Dynamic Workflows' 공식 소개. 마이그레이션·리팩터링처럼 수백 개 파일을 다루는 작업을 수백 개 서브에이전트로 병렬화하는 기능이다.",
+        "url": "https://x.com/claudeai/status/2060042710753382816",
+        "publishedAt": "2026-05-28T16:57:10.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "🚨 속보) Claude Opus 4.8이 출시되었습니다.\n앤트로픽이 새롭게 발표한 Claude Opus 4.8은 SWE-bench Pro 점수를 64.3%에서 69.2%까지 끌어올렸고, 긴 작업을 더 안정적으로 처리하는 방향으로 크게 바뀌었습니다.\n특히 AI가 모르는 걸 아는 척하지 않고, 스스로 버그를 검증한다는 반응이 쏟아지고 있는데요.\nOpus 4.8의 핵심 포인트를 정리했습니다🧵",
+        "context": "한국 AI 채널 'CHOI'(팔로워 24만)가 Claude Opus 4.8 출시를 속보로 정리한 첫 포스트. SWE-bench Pro 64.3→69.2 점프, 모르는 걸 솔직히 인정하고 스스로 버그를 검증하는 동작 변화를 핵심 포인트로 소개.",
+        "url": "https://www.threads.net/@choi.openai/post/DY5LD4BDyOo",
+        "publishedAt": "2026-05-28T19:01:31.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "벤치마크부터 보면 Opus 4.8은 코딩과 에이전트 작업 능력이 확실히 올라왔습니다.\n대표적으로 SWE-Bench Pro는 Opus 4.7의 64.3%에서 Opus 4.8의 69.2%까지 상승했습니다. 기존 GPT-5.5는 58.6%, Gemini 3.1 Pro는 54.2% 이었는데요.\n다만 Terminal-Bench 2.1에서는 Opus 4.8이 74.6%, GPT-5.5가 78.2%를 기록해 이 항목에서는 GPT-5.5가 더 높았습니다.",
+        "context": "Opus 4.8 분석 스레드 1편. SWE-Bench Pro와 Terminal-Bench 2.1 점수를 GPT-5.5·Gemini 3.1 Pro와 비교하고, 실행 환경과 평가 방식에 따른 점수 차이의 중요성을 짚었다.",
+        "url": "https://www.threads.net/@choi.openai/post/DY5LEfzD0Tj",
+        "publishedAt": "2026-05-28T19:01:36.000Z",
+        "platform": "threads"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "1억+ 고품질 큐레이션 이미지 데이터셋 신규 공개",
+        "originalTitle": "A new dataset with more that 100M hi-quality, curated images, with captions and meta data! [P]",
+        "summary": "r/MachineLearning에서 1억 개 이상의 큐레이션 이미지를 담은 신규 오픈 데이터셋 공개 소식. 대규모 비전 학습 데이터 풀에 큰 보강.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1tq2vxa/a_new_dataset_with_more_that_100m_hiquality/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-05-28T21:59:21+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "Zai, GLM-5.1 추론 네트워크 아키텍처 교체",
+        "originalTitle": "Zai replaced the network architecture running GLM-5.1 inference and the gains are pretty wild",
+        "summary": "r/LocalLLaMA에서 Zai가 GLM-5.1 추론 인프라의 네트워크 아키텍처를 교체했다는 소식. 추론 효율과 비용 절감 측면의 변화.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tq35a0/zai_replaced_the_network_architecture_running/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-05-28T22:09:11+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "Anthropic, 에이전트 추론 개선된 Claude Opus 4.8 공개",
+        "originalTitle": "Anthropic releases Claude Opus 4.8 with improved agentic reasoning, honesty, and a new \"dynamic workflows\" feature in Claude Code",
+        "summary": "r/artificial의 Opus 4.8 출시 기사 공유. 향상된 에이전트 추론과 동적 워크플로의 실용성에 대한 토론.",
+        "url": "https://www.reddit.com/r/artificial/comments/1tq9l1z/anthropic_releases_claude_opus_48_with_improved/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-05-29T02:03:45+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "'OpenAI Codex 앱'을 검색하면 가장 먼저 가짜 사이트가 뜬다",
+        "originalTitle": "First thing you see when Googling \"OpenAI Codex app\" is a fake malware website",
+        "summary": "r/OpenAI 사용자가 Codex 앱 구글 검색 시 상위에 가짜·피싱 사이트가 노출되는 문제를 제기. 광고형 악성 링크 위험.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1tq4cql/first_thing_you_see_when_googling_openai_codex/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-05-28T22:54:37+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "Claude Opus 4.8 소개",
+        "originalTitle": "Introducing Claude Opus 4.8",
+        "summary": "r/ClaudeAI에 올라온 Opus 4.8 공식 소개. SWE-Bench 점프, 솔직함, 동적 워크플로에 대한 토론이 활발.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1tq99mu/introducing_claude_opus_48/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-05-29T01:52:23+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "2004 RuneScape는 어떻게 56k 다이얼업에 멀티 RPG를 담았나",
+        "originalTitle": "How 2004 RuneScape fit a multiplayer RPG into 56k dial-up",
+        "summary": "r/programming 인기 글. 대역폭 제약 시대 RuneScape의 네트워크 최적화 기법을 분석한 기술 회고록.",
+        "url": "https://www.reddit.com/r/programming/comments/1tq65b4/how_2004_runescape_fit_a_multiplayer_rpg_into_56k/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-05-29T00:00:18+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "그래, Anthropic이 Opus 4.8을 출시했네요",
+        "originalTitle": "Well anthropic released opus 4.8",
+        "summary": "r/singularity의 Opus 4.8 반응. AGI 타임라인에 대한 영향과 OpenAI 대비 Anthropic 모멘텀을 두고 의견이 갈린다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1tq9ml0/well_anthropic_released_opus_48/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-05-29T02:05:19+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "경력 4년차, 조직이 위기 관리만 크게 보상하는 게 정상인가요?",
+        "originalTitle": "4 YOE, is it normal for orgs to heavily reward crisis management?",
+        "summary": "r/ExperiencedDevs 토론. 위기 진압만 과도 보상하는 조직 문화의 폐해와 대응 전략에 대한 시니어 개발자들의 조언.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1tq8599/4_yoe_is_it_normal_for_orgs_to_heavily_reward/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-05-29T01:11:52+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_qb_01",
+        "title": "Hacker News 톱: Claude Opus 4.8",
+        "excerpt": "Anthropic의 신형 Claude Opus 4.8 발표가 Hacker News 톱에 올랐다. 동적 워크플로와 SWE-Bench 점프, 코딩·에이전트 작업의 신뢰성 향상에 관한 댓글이 활발하다.",
+        "url": "https://www.anthropic.com/news/claude-opus-4-8",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-29T01:49:14+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_qb_02",
+        "title": "GeekNews: Anthropic, Claude Opus 4.8 출시",
+        "excerpt": "GeekNews가 Opus 4.8 출시 소식을 정리했다. 코딩 벤치 점수 상승, 가격 동결, 동적 워크플로 등 주요 변경점을 한국어로 요약.",
+        "url": "https://news.hada.io/topic?id=29960",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-29T02:58:17+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_qb_03",
+        "title": "GeekNews: Claude Code를 일상 도구로 — CLAUDE.md·Skills·Subagents·Plugins·MCP",
+        "excerpt": "Claude Code의 생산성은 프롬프트보다 메모리·커스텀 명령·병렬 세션·프로젝트 설정의 누적 운영에서 갈린다. CLAUDE.md를 짧고 검증 중심으로 운영하라는 조언이 핵심.",
+        "url": "https://news.hada.io/topic?id=29957",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-28T23:04:41+09:00",
+        "readTime": 4,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_qb_04",
+        "title": "HN: Postgres만으로 내구성 있는 워크플로를 — DBOS",
+        "excerpt": "DBOS가 'Postgres만 있으면 durable execution을 구축할 수 있다'는 주제의 글을 공개했다. 별도 워크플로 엔진 없이 RDBMS를 트랜잭션 백본으로 활용하는 패턴.",
+        "url": "https://www.dbos.dev/blog/postgres-is-all-you-need-for-durable-execution",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-29T03:41:46+09:00",
+        "readTime": 4,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_qb_05",
+        "title": "HN: 'Continue? Y/N' — 60초짜리 AI 에이전트 권한 피로 게임",
+        "excerpt": "AI 에이전트가 사용자에게 끝없이 권한을 묻는 상황을 풍자한 60초 웹 게임이 Show HN에 올라왔다. 에이전트 UX의 '권한 피로' 문제를 가시화한 코믹 데모.",
+        "url": "https://llmgame.scalex.dev",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-28T22:02:00+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_qb_06",
+        "title": "EU, Temu에 2억 유로 과징금 — 불법 상품 판매 허용 이유",
+        "excerpt": "EU가 중국 e커머스 플랫폼 Temu에 불법 상품 판매를 허용한 책임을 물어 2억 유로(약 €200M)의 과징금을 부과했다. DSA 시행 이후 본격적인 제재 사례.",
+        "url": "https://www.bbc.co.uk/news/articles/c1k2ydn1rz8o",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-28T23:18:18+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      }
+    ]
+  }
+}
