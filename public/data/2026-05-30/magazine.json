@@ -1,0 +1,601 @@
+{
+  "date": "2026-05-30",
+  "issueNumber": 60,
+  "cover": {
+    "mainHeadline": "구글 Gemini Omni·3.5 데모 공개, OpenAI Codex는 윈도우 원격 제어로 — AI 에이전트 '직접 조작' 시대",
+    "mainExcerpt": "구글이 Gemini Omni·Gemini 3.5 실사용 데모 9종을 공개하며 멀티모달 공세에 나선 가운데, OpenAI Codex는 윈도우 PC 직접 조작과 모바일 원격 제어로 확장됐다. 에이전트가 화면을 직접 다루는 '핸즈온' 시대가 본격화되고 있다.",
+    "headlines": [
+      "OpenAI Codex, 윈도우 PC 직접 조작·모바일 원격 제어 지원 확장",
+      "Anthropic, 기업가치 $965B로 OpenAI 추월 — AI 스타트업 최고 가치",
+      "Groq, 엔비디아 $20B 인수 무산 후 $650M 추가 조달 추진"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "hl_001",
+      "title": "구글, Gemini Omni·Gemini 3.5 실사용 데모 9종 공개 — I/O 2026 앞두고 멀티모달 공세",
+      "excerpt": "구글이 차세대 멀티모달 모델 Gemini Omni와 Gemini 3.5의 실제 동작 데모 9가지를 공개했다. 음성·영상·텍스트를 넘나드는 실시간 상호작용 능력을 전면에 내세웠다.",
+      "body": "구글이 I/O 2026를 앞두고 Gemini Omni와 Gemini 3.5의 실사용 데모 9종을 공개하며 멀티모달 경쟁에 다시 불을 지폈다. 공개된 데모는 실시간 음성 대화, 영상 이해, 코드 생성 등 다양한 시나리오에서 두 모델이 어떻게 작동하는지를 보여준다. OpenAI와 Anthropic이 에이전트·코딩 영역에서 앞서가는 가운데, 구글은 네이티브 멀티모달 통합을 차별점으로 내세우며 소비자·개발자 양쪽을 겨냥하고 있다.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
+      "source": "AI & Machine Learning",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-30T02:30:00+09:00",
+      "readTime": 5,
+      "imageGradient": 0
+    },
+    {
+      "id": "hl_002",
+      "title": "Groq, 엔비디아 $20B 인수 무산 후 $650M 추가 조달 추진 — 추론 칩으로 선회",
+      "excerpt": "AI 칩 스타트업 Groq가 엔비디아의 200억 달러 규모 인수가 무산된 뒤 6억 5천만 달러의 내부 펀딩을 추진 중인 것으로 알려졌다. 하드웨어에서 AI 추론 중심으로 전략을 전환하고 있다.",
+      "body": "Axios 보도에 따르면 Groq는 6억 5천만 달러 규모의 자금 조달을 추진하며 사업의 초점을 하드웨어 판매에서 AI 추론(inference) 서비스로 옮기고 있다. 앞서 엔비디아가 200억 달러 규모의 인수(사실상 인재 영입)에 나섰으나 성사되지 않았고, Groq는 독립 노선을 택했다. 추론 비용과 속도가 AI 서비스의 핵심 병목으로 부상하면서, 전용 추론 칩 시장을 둘러싼 경쟁이 가열되고 있다.",
+      "url": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-aqui-hire-ai-chip-startup-groq-reportedly-raising-650m/",
+      "source": "TechCrunch",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-30T02:27:13+09:00",
+      "readTime": 4,
+      "imageGradient": 1
+    },
+    {
+      "id": "hl_003",
+      "title": "블루오리진 뉴글렌 로켓, 플로리다 시험 중 폭발 — 스페이스X 추격에 큰 타격",
+      "excerpt": "제프 베이조스의 블루오리진이 개발 중인 뉴글렌 로켓이 플로리다 시험 도중 폭발했다. 스페이스X와의 경쟁에서 상당한 차질이 예상된다.",
+      "body": "블루오리진의 대형 발사체 뉴글렌이 플로리다에서 진행된 시험 중 폭발하는 사고가 발생했다. 이번 사고는 스페이스X와의 발사 시장 경쟁을 본격화하려던 블루오리진에 큰 차질로 작용할 전망이다. 재사용 발사체 개발 일정과 향후 상업 발사 계약에 미칠 영향에 업계의 관심이 쏠리고 있다.",
+      "url": "https://techcrunch.com/2026/05/28/blue-origins-new-glenn-rocket-explodes-during-testing-in-florida/",
+      "source": "TechCrunch",
+      "category": "big_tech",
+      "publishedAt": "2026-05-29T10:22:16+09:00",
+      "readTime": 3,
+      "imageGradient": 4
+    },
+    {
+      "id": "hl_004",
+      "title": "인터넷이 '기계'를 위해 다시 설계되고 있다 — AWS·클라우드플레어의 인프라 재편",
+      "excerpt": "AI 에이전트가 실험을 넘어 프로덕션으로 이동하면서, AWS와 클라우드플레어 등이 인간이 아닌 기계가 생성하는 트래픽을 전제로 클라우드 인프라를 재설계하고 있다.",
+      "body": "AI 에이전트가 본격적으로 프로덕션 환경에 투입되면서 인터넷 트래픽의 주체가 인간에서 기계로 옮겨가고 있다. AWS, 클라우드플레어를 비롯한 인프라 기업들은 사람이 아닌 에이전트가 대량으로 발생시키는 요청을 효율적으로 처리하기 위해 인증, 라우팅, 요금 체계 등을 재설계하는 중이다. 머신 우선(machine-first) 인터넷이라는 새로운 패러다임이 클라우드 산업의 구조를 바꾸고 있다.",
+      "url": "https://techcrunch.com/2026/05/28/the-internet-is-being-rebuilt-for-machines/",
+      "source": "TechCrunch",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-29T06:24:01+09:00",
+      "readTime": 5,
+      "imageGradient": 1
+    },
+    {
+      "id": "hl_005",
+      "title": "Cognition CEO 스콧 우 \"AI 코딩 에이전트는 인간을 대체하기 위한 것이 아니다\"",
+      "excerpt": "최초의 AI 코딩 에이전트 Devin을 만든 Cognition의 스콧 우는 Devin이 인간 프로그래머를 대체하도록 설계된 것이 아니라고 강조했다.",
+      "body": "AI 코딩 에이전트 Devin으로 주목받은 Cognition의 스콧 우 CEO가, 코딩 에이전트의 목적은 인간 개발자를 대체하는 것이 아니라 협업과 생산성 향상에 있다고 밝혔다. 코딩 자동화가 빠르게 확산되며 개발자 일자리에 대한 우려가 커지는 가운데, 업계 선두 주자가 '대체'가 아닌 '증강'이라는 방향성을 재확인했다는 점에서 의미가 있다.",
+      "url": "https://techcrunch.com/2026/05/29/cognitions-scott-wu-says-ai-coding-agents-shouldnt-replace-humans/",
+      "source": "TechCrunch",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-30T01:13:47+09:00",
+      "readTime": 4,
+      "imageGradient": 0
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "aiml_001",
+        "title": "Liquid AI, 온디바이스용 8B MoE 'LFM2.5-8B-A1B' 공개 — 38조 토큰 학습",
+        "excerpt": "Liquid AI가 추론 시 1.5B만 활성화되는 8B MoE 모델 LFM2.5-8B-A1B를 공개했다. 38조 토큰 학습과 대규모 강화학습으로 도구 호출·에이전트 작업 성능을 끌어올렸다.",
+        "body": "",
+        "url": "https://www.liquid.ai/blog/lfm2-5-8b-a1b",
+        "source": "Hacker News",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-30T01:19:54+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "aiml_002",
+        "title": "한국 칩 스타트업 XCENA, $135M 유치 — \"AI의 진짜 병목은 연산이 아닌 메모리\"",
+        "excerpt": "한국의 반도체 스타트업 XCENA가 5억 7천만 달러 가치로 1억 3,500만 달러를 조달했다. AI의 실질적 병목이 연산이 아니라 메모리라는 데 베팅하고 있다.",
+        "body": "",
+        "url": "https://techcrunch.com/2026/05/29/xcena-secures-135m-at-570m-valuation-betting-on-memory-as-ais-real-bottleneck/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-29T21:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "aiml_003",
+        "title": "OpenAI, '신뢰할 수 있는 제3자 평가'를 위한 공동 플레이북 공개",
+        "excerpt": "OpenAI가 독립적·신뢰 가능한 제3자 모델 평가를 강화하기 위한 공동 플레이북을 발표했다. AI 안전 생태계에서 외부 검증의 역할을 표준화하려는 시도다.",
+        "body": "",
+        "url": "https://openai.com/index/trustworthy-third-party-evaluations-foundations",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-29T09:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "aiml_004",
+        "title": "엔터프라이즈 AI 검색 Glean, 연매출 $300M 돌파 — 'AI 예산 절감'이 최대 강점",
+        "excerpt": "엔터프라이즈 AI 검색 스타트업 Glean이 빅테크의 진입에도 연매출을 3배로 늘리며 3억 달러를 돌파했다. AI 비용 절감이 핵심 셀링 포인트로 부상했다.",
+        "body": "",
+        "url": "https://techcrunch.com/2026/05/28/gleans-top-line-crosses-300m-as-ai-budget-cutting-becomes-its-major-selling-point/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-29T09:44:37+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "aiml_005",
+        "title": "보스턴 아동병원, AI로 새로운 진단 길 연다 — 임상 인프라에 AI 내재화",
+        "excerpt": "보스턴 아동병원이 단순 실험이 아니라 임상·운영 핵심 인프라로 AI를 조직 전반에 내재화했다. 진료 방식 개선과 새로운 진단 가능성을 확보하고 있다.",
+        "body": "",
+        "url": "https://openai.com/index/boston-childrens-hospital",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-29T21:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "aiml_006",
+        "title": "OpenAI, Rosalind Biodefense와 협력 — 생물 안보로 사회 회복력 강화",
+        "excerpt": "OpenAI가 Rosalind Biodefense와 함께 생명과학 분야의 방어적 활용을 강화한다. AI가 생물학 연구를 가속하는 동시에 안전 장치를 마련하려는 협력이다.",
+        "body": "",
+        "url": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-29T12:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "dev_001",
+        "title": "Vercel Sandbox 안에서 Docker 컨테이너 실행 지원",
+        "excerpt": "Vercel이 Sandbox 환경 내부에서 Docker 컨테이너를 직접 실행할 수 있는 기능을 추가했다. 격리된 환경에서 컨테이너 기반 워크로드를 손쉽게 구동할 수 있다.",
+        "body": "",
+        "url": "https://vercel.com/changelog/run-docker-containers-inside-vercel-sandbox",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-29T09:01:00+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "dev_002",
+        "title": "Vercel Sandbox에서 8080 포트 사용 가능",
+        "excerpt": "Vercel Sandbox에서 8080 포트를 사용할 수 있게 되어, 다양한 개발 서버와 컨테이너 구성을 더 유연하게 노출할 수 있다.",
+        "body": "",
+        "url": "https://vercel.com/changelog/port-8080-is-now-available-in-vercel-sandboxes",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-29T09:01:00+09:00",
+        "readTime": 1,
+        "imageGradient": 3
+      },
+      {
+        "id": "dev_003",
+        "title": "Vercel AI Gateway에 Opus 4.8 추가",
+        "excerpt": "Vercel AI Gateway에서 Anthropic의 Opus 4.8 모델을 바로 사용할 수 있게 됐다. 게이트웨이를 통해 최신 모델을 손쉽게 호출할 수 있다.",
+        "body": "",
+        "url": "https://vercel.com/changelog/opus-4-8-on-ai-gateway",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-28T16:00:00+09:00",
+        "readTime": 1,
+        "imageGradient": 2
+      },
+      {
+        "id": "dev_004",
+        "title": "Visual Studio Code 1.122 출시",
+        "excerpt": "Visual Studio Code 1.122 버전이 출시됐다. 에디터 전반의 개선과 함께 AI 기반 개발 기능이 강화됐다.",
+        "body": "",
+        "url": "https://code.visualstudio.com/updates/v1_122",
+        "source": "Visual Studio Code",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-29T02:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "big_001",
+        "title": "마이크로소프트, 새 Surface 하드웨어·'PC의 새 시대' 예고",
+        "excerpt": "마이크로소프트의 윈도우·Surface 책임자가 '개발자를 위한 새로운 무언가'를 예고하며 곡면 디스플레이로 보이는 티저 이미지를 공개했다. 새 Surface 라인업에 관심이 쏠린다.",
+        "body": "",
+        "url": "https://www.theverge.com/news/939960/microsoft-computex-teaser-surface-nvidia-windows-rumors",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-05-30T01:21:22+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      },
+      {
+        "id": "big_002",
+        "title": "마이크로소프트, 보안 연구자에 형사 수사 위협 논란 — 책임 소재 재점화",
+        "excerpt": "마이크로소프트와 독립 보안 연구자 사이의 공개 충돌이 소프트웨어 보안 책임이 누구에게 있는지를 둘러싼 오랜 논쟁을 다시 불러일으켰다.",
+        "body": "",
+        "url": "https://techcrunch.com/2026/05/29/microsoft-under-fire-for-threatening-security-researcher-with-criminal-investigation/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-05-30T02:03:39+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "big_003",
+        "title": "웨이모, 자율주행 등록 대수서 압도적 1위 — 테슬라는 뒤처져",
+        "excerpt": "새 법과 자율주행 추적 도구를 통해 텍사스의 로보택시·자율주행 트럭 규모가 가장 명확하게 드러났다. 웨이모가 등록 대수에서 테슬라를 크게 앞섰다.",
+        "body": "",
+        "url": "https://techcrunch.com/2026/05/28/waymo-dominates-texas-autonomous-vehicle-registrations-as-tesla-trails-behind/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-05-29T09:14:35+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "big_004",
+        "title": "마이크로소프트, 'Fable' 또 연기 — GTA VI 피해 2027년 2월로",
+        "excerpt": "마이크로소프트가 Fable 리부트를 다시 한 번 연기해 2027년 2월 출시로 변경했다. GTA VI와의 정면 충돌을 피하려는 것으로 보이며, 6월 7일 쇼케이스에서 새 모습을 공개한다.",
+        "body": "",
+        "url": "https://www.theverge.com/games/939991/microsoft-fable-xbox-delay-gta-vi",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-05-30T01:51:08+09:00",
+        "readTime": 2,
+        "imageGradient": 5
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "Windows에서 Codex 사용자들을 위한 중요한 업그레이드:",
+        "context": "OpenAI 사장 그렉 브록만이 Codex의 Windows 지원 확장을 알렸다. 에이전트가 윈도우 PC를 직접 다룰 수 있게 되는 중요한 업데이트다.",
+        "url": "https://x.com/gdb/status/2060432274710315010",
+        "publishedAt": "2026-05-29T18:45:09.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "Codex가 이제 Windows 개발 루프의 더 많은 부분을 지원합니다. Windows에서 컴퓨터 사용 기능을 통해 Codex는 앱을 테스트하고, 디버그 흐름을 점검하며, 프로젝트 컨텍스트가 있는 곳에서 작업을 검토할 수 있습니다. ChatGPT 모바일 앱의 Codex는 Windows 머신에 연결하여 휴대폰에서 계속 조정할",
+        "context": "OpenAI 개발자 공식 계정이 Codex의 Windows 컴퓨터 사용 기능을 상세히 소개했다. 윈도우에서 터미널 사용과 디버깅을 에이전트가 직접 처리한다.",
+        "url": "https://x.com/OpenAIDevs/status/2060429591655927942",
+        "publishedAt": "2026-05-29T18:34:30.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "AI는 연구자들에게 더 \"터무니없는\" 아이디어를 추구할 자유를 줄 수 있습니다. 테렌스 타오(Terence Tao)에게 AI는 실험할 여지를 더 만들고, 예상치 못한 길을 테스트하며, 그렇지 않으면 닿기 어려웠을 발견을 할 수 있게 해줍니다.",
+        "context": "OpenAI가 수학자 테렌스 타오와의 대화를 공유하며, AI가 연구자에게 더 과감한 아이디어를 시도할 자유를 준다는 점을 강조했다.",
+        "url": "https://x.com/OpenAI/status/2060451757818601808",
+        "publishedAt": "2026-05-29T20:02:35.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "OpenAI 실시간 번역: 70개 이상의 입력 언어로 말하면 13개 출력 언어로 번역됩니다.",
+        "context": "그렉 브록만이 70개 이상 언어 입력을 13개 언어로 옮기는 OpenAI 실시간 번역 기능을 소개했다.",
+        "url": "https://x.com/gdb/status/2060452095279415725",
+        "publishedAt": "2026-05-29T20:03:55.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "우리는 @AltimeterCap , Dragoneer, @Greenoaks , @sequoia 가 주도한 시리즈 H 펀딩에서 650억 달러를 조달했으며, 이는 9,650억 달러의 사후 가치 평가를 기반으로 합니다. 이 투자는 Claude에 대한 증가하는 수요를 충족하기 위해 우리의 연구를 발전시키고 용량을 확장하는 데 도움이 될 것입니다.",
+        "context": "Anthropic이 시리즈 H에서 650억 달러를 조달하며 투자 후 기업가치 9,650억 달러를 기록했다고 발표했다. Claude 수요 급증에 대응한 대규모 투자다.",
+        "url": "https://x.com/AnthropicAI/status/2060061347522433422",
+        "publishedAt": "2026-05-28T18:11:13.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Alex Albert",
+        "handle": "alexalbert__",
+        "content": "오늘 Opus 4.8을 출시하게 되어 기쁩니다! 4.7에 대한 여러분의 피드백을 듣고 4.8에 많은 수정 사항을 적용했습니다. 4.8은 뉘앙스를 더 잘 이해하며, 대화할 때 훨씬 더 자연스럽게 느껴지고, 코딩부터 지식 작업에 이르기까지 모든 면에서 전반적으로 더 강력한 협력자가 되었습니다.",
+        "context": "Anthropic의 알렉스 알버트가 Opus 4.8 출시를 알렸다. 4.7 피드백을 반영해 뉘앙스 이해와 대화 자연스러움, 코딩 능력을 전반적으로 끌어올렸다.",
+        "url": "https://x.com/alexalbert__/status/2060043196655362358",
+        "publishedAt": "2026-05-28T16:59:06.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "content": "Salesforce가 Claude Code를 활용해 에이전틱(agentic)으로 전환하는 방법에 대한 상세한 글을 발표했습니다. 몇 가지가 눈에 띄었습니다. 그들이 231일로 계획했던 마이그레이션이 13일 만에 완료되었습니다. 하나의 PR이 100% 테스트 커버리지를 달성하며 21개의 엔드포인트를 배포했습니다.",
+        "context": "Claude Code 개발자 보리스 체르니가 Salesforce의 에이전틱 전환 사례를 공유했다. 231일 예상 마이그레이션을 13일 만에 완료했다고 전했다.",
+        "url": "https://x.com/bcherny/status/2060390852619272526",
+        "publishedAt": "2026-05-29T16:00:34.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Claude Opus 4.8 소개: Opus 4.7을 기반으로 더 날카로운 판단력, 자신의 발전에 대한 더 큰 솔직함, 그리고 이전 모델들보다 더 오랫동안 독립적으로 작업할 수 있는 능력을 갖추었습니다. 오늘부터 동일한 가격으로 이용 가능합니다.",
+        "context": "Claude 공식 계정이 Opus 4.8 소개 영상을 공개하며, Opus 4.7 기반의 점진적 개선과 더 큰 소통 능력을 강조했다.",
+        "url": "https://x.com/claudeai/status/2060042702150930686",
+        "publishedAt": "2026-05-28T16:57:08.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_009",
+        "author": "Felix Rieseberg",
+        "handle": "felixrieseberg",
+        "content": "오늘 역시 출시: 이제 Code (/effort)와 Cowork에서 노력 수준과 적응적 사고를 직접 설정할 수 있습니다! 노력 수준은 Claude의 지능 대 토큰 소비를 조정할 수 있게 해주며, 더 빠른 속도와 낮은 비용을 위해 능력을 희생하는 트레이드오프를 제공합니다. Opus 4.8은 노력 수준을 엄격히 준수하며,",
+        "context": "Anthropic의 펠릭스 리제베르크가 Code(/effort)와 Cowork에서 노력 수준과 적응적 사고를 직접 설정하는 기능을 소개했다. 지능과 토큰 소비를 조정할 수 있다.",
+        "url": "https://x.com/felixrieseberg/status/2060059697366110305",
+        "publishedAt": "2026-05-28T18:04:40.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_010",
+        "author": "ClaudeDevs",
+        "handle": "ClaudeDevs",
+        "content": "Claude Code의 새로운 기능 (연구 미리보기): 동적 워크플로우. Claude는 즉석에서 오케스트레이션 스크립트를 작성한 후, 가장 복잡한 작업을 처리하기 위해 병렬로 대규모의 조정된 서브에이전트 그룹을 실행합니다. 시작하려면 프롬프트에 \"workflow\"라는 단어를 사용하세요.",
+        "context": "ClaudeDevs가 Claude Code의 동적 워크플로우(연구 미리보기)를 공개했다. 'workflow'라는 단어로 시작하면 병렬 서브에이전트가 대규모로 조정된다.",
+        "url": "https://x.com/ClaudeDevs/status/2060044853279617150",
+        "publishedAt": "2026-05-28T17:05:41.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "오픈AI가 Codex의 Computer Use와 Remote Control 기능을 Windows로 확장했습니다. 이제 Codex가 윈도우 PC에서 직접 작업을 수행하고, 챗GPT 모바일 앱에서 원격으로 작업을 시작·검토·수정할 수 있습니다.",
+        "context": "국내 대표 AI 채널 CHOI가 OpenAI Codex의 Windows 확장 소식을 전했다. 데스크톱 에이전트가 모바일 원격 제어와 결합되는 흐름을 보여준다.",
+        "url": "https://www.threads.net/@choi.openai/post/DY7se8LDeMu",
+        "publishedAt": "2026-05-29T18:33:49.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "Bagel Labs가 세계 최초의 분산 학습 기반 영상 생성 모델이라 주장하는 Paris 2.0을 공개했습니다. 여러 독립 확산 모델이 데이터 일부를 학습한 뒤 라우터가 전문가 모델을 선택하는 DDM 구조로, 동일 조건에서 FVD가 561.04에서 279.01로 개선됐습니다.",
+        "context": "분산 학습으로 거대 GPU 클러스터 의존을 낮추는 영상 생성 접근법을 소개했다. 제한된 연산 자원에서의 효율적 학습 가능성을 보여준다.",
+        "url": "https://www.threads.net/@choi.openai/post/DY7Q3wogeAu",
+        "publishedAt": "2026-05-29T14:30:46.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_003",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "Hao AI Lab이 실시간 동영상 생성 앱 FastVideo Dreamverse를 오픈소스로 공개했습니다. LTX-2 기반으로 단일 NVIDIA B200 GPU에서 30초 분량 1080p 영상을 7초 만에 생성하며, 영상을 보며 자연어로 즉시 개입하는 'vibe directing' 워크플로우를 지원합니다.",
+        "context": "동영상 AI가 결과를 기다리는 방식에서 실시간 상호작용 디렉팅으로 진화하는 사례다. 향후 소비자용 GPU 지원 확장도 예고됐다.",
+        "url": "https://www.threads.net/@choi.openai/post/DY7GjCcDsWd",
+        "publishedAt": "2026-05-29T13:00:33.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_004",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "Liquid AI가 온디바이스용 오픈 웨이트 모델 LFM2.5-8B-A1B를 공개했습니다. 8B MoE지만 추론 시 1.5B만 활성화되며 128K 컨텍스트와 38조 토큰 학습이 적용됐고, 노트북 한 대에서 67개 도구와 13개 MCP 서버를 1초 내로 처리하는 데모를 선보였습니다.",
+        "context": "거대 모델 경쟁과 별개로 개인 기기에서 동작하는 실용적 에이전트 모델의 흐름을 보여준다.",
+        "url": "https://www.threads.net/@choi.openai/post/DY68L6pD7Mc",
+        "publishedAt": "2026-05-29T11:30:01.000Z",
+        "platform": "threads"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "Anthropic, 기업가치 $965B로 OpenAI 추월하며 최고 가치 AI 스타트업 등극",
+        "originalTitle": "Anthropic overtakes OpenAI as the most valuable AI startup at $965B",
+        "summary": "Anthropic이 9,650억 달러 평가로 OpenAI를 제치고 가장 가치 있는 AI 스타트업이 됐다는 소식에 r/artificial에서 큰 관심이 쏠렸다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1tr0chv/anthropic_overtakes_openai_as_the_most_valuable/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-05-29T21:28:48+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "마이크로소프트 데이터: AI 활용이 사람 고용보다 더 비쌀 수 있다",
+        "originalTitle": "Microsoft data suggests using AI is more expensive than hiring people",
+        "summary": "마이크로소프트 데이터를 근거로 AI 도입 비용이 인력 고용보다 클 수 있다는 분석이 공유되며 비용 효율성 논쟁이 일었다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1tqm10c/microsoft_data_suggests_using_ai_is_more/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-05-29T09:48:14+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "Codex에서 'GPT-5.6' 포착",
+        "originalTitle": "GPT-5.6 spotted in Codex",
+        "summary": "Codex 환경에서 GPT-5.6으로 보이는 모델 흔적이 발견되며 차기 모델 출시 임박에 대한 추측이 커졌다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1tr2ny5/gpt56_spotted_in_codex/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-05-29T22:56:11+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "Opus 4.8의 새로운 최고 노력(effort) 설정",
+        "originalTitle": "Opus 4.8's new highest effort setting",
+        "summary": "Opus 4.8에 추가된 최고 수준의 노력 설정을 두고 사용자들이 체감 성능과 토큰 비용을 공유하며 토론했다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1tqt8pl/opus_48s_new_highest_effort_setting/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-05-29T15:29:46+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "5월에 입력 토큰 11.5억 개 사용 🫣 — 배운 점 공유",
+        "originalTitle": "Spent 1,156,308,524 input tokens in May 🫣 Sharing what I learned",
+        "summary": "한 사용자가 5월 한 달간 약 11.5억 입력 토큰을 사용한 경험과 비용 최적화 노하우를 공유해 호응을 얻었다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1tqx8q5/spent_1156308524_input_tokens_in_may_sharing_what/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-05-29T19:09:04+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "가짜 npm 패키지에 완전한 RAT을 숨겨 피해자 데이터 탈취",
+        "originalTitle": "Someone hid a full RAT inside a fake npm package and exfiltrated victim data to HuggingFace",
+        "summary": "누군가 가짜 npm 패키지 안에 원격 제어 악성코드(RAT)를 숨겨 피해자 데이터를 유출한 사례가 공유되며 공급망 보안 경각심을 높였다.",
+        "url": "https://www.reddit.com/r/programming/comments/1tqwksq/someone_hid_a_full_rat_inside_a_fake_npm_package/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-05-29T18:34:28+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "Qwen3.6-27B 양자화 벤치마크",
+        "originalTitle": "Qwen3.6-27B Quantization Benchmark",
+        "summary": "Qwen3.6-27B 모델의 다양한 양자화 수준별 성능 벤치마크가 공유되며 로컬 실행 환경에서의 품질-용량 트레이드오프가 논의됐다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tr9vzn/qwen3627b_quantization_benchmark/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-05-30T02:53:19+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "아마존, 직원들의 사용량 점수 경쟁 막으려 AI 리더보드 폐지",
+        "originalTitle": "Amazon scraps AI leaderboard to stop workers chasing usage scores | Senior executive Dave Treadwell tells staff ‘don’t use AI just for the sake of using AI’ as costs rise",
+        "summary": "아마존이 직원들이 AI 사용량 점수를 좇는 현상을 막기 위해 내부 AI 리더보드를 폐지했다는 소식이 화제가 됐다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1tr0yps/amazon_scraps_ai_leaderboard_to_stop_workers/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-05-29T21:53:28+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "결국 '아키텍처'의 90%는 사람들과 대화하는 일이더라",
+        "originalTitle": "Anyone else realized that 90% of \"architecture\" is just talking to people?",
+        "summary": "경력 개발자들이 시스템 아키텍처 업무의 본질이 기술 설계보다 이해관계자와의 소통에 있다는 데 공감하며 활발히 토론했다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1tqfcfj/anyone_else_realized_that_90_of_architecture_is/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-05-29T05:25:20+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "qb_001",
+        "title": "로빈후드, 이제 AI 에이전트가 주식 거래 가능",
+        "excerpt": "로빈후드가 사용자의 AI 에이전트가 주식을 거래할 수 있도록 허용했다. 에이전트가 금융 거래에 직접 개입하는 흐름이 본격화되고 있다.",
+        "body": "",
+        "url": "https://techcrunch.com/2026/05/27/robinhood-now-lets-your-ai-agents-trade-stocks/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-30T02:46:27+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      },
+      {
+        "id": "qb_002",
+        "title": "Rust 1.96.0 발표",
+        "excerpt": "프로그래밍 언어 Rust의 1.96.0 버전이 발표됐다. 새로운 안정화 기능과 개선 사항이 포함됐다.",
+        "body": "",
+        "url": "https://news.hada.io/topic?id=29993",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-30T03:02:13+09:00",
+        "readTime": 2,
+        "imageGradient": 7
+      },
+      {
+        "id": "qb_003",
+        "title": "GitHub, 제로데이 Windows 익스플로잇 공개한 보안 연구자 차단",
+        "excerpt": "GitHub가 제로데이 Windows 익스플로잇을 공개한 보안 연구자의 계정을 차단해 논란이 일고 있다. 취약점 공개 윤리를 둘러싼 논쟁이 재점화됐다.",
+        "body": "",
+        "url": "https://news.hada.io/topic?id=29990",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-29T21:35:37+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      },
+      {
+        "id": "qb_004",
+        "title": "Claude Code, 다이나믹 워크플로우 기능 공개",
+        "excerpt": "Anthropic이 Claude Code에 다이나믹 워크플로우 기능을 공개했다. 즉석에서 오케스트레이션 스크립트를 작성해 병렬 서브에이전트를 실행한다.",
+        "body": "",
+        "url": "https://news.hada.io/topic?id=29981",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-29T12:21:02+09:00",
+        "readTime": 2,
+        "imageGradient": 7
+      },
+      {
+        "id": "qb_005",
+        "title": "네이버, AI 브리핑 인용수를 창작자 보상 기준으로 공식화",
+        "excerpt": "네이버가 AI 브리핑에서의 인용 횟수를 창작자 보상 기준으로 공식화한다고 발표했다. AI 요약 시대의 창작자 보상 모델을 제시했다.",
+        "body": "",
+        "url": "https://news.hada.io/topic?id=29983",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-29T13:50:32+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      },
+      {
+        "id": "qb_006",
+        "title": "내구성 있는 워크플로우, SQLite만으로 충분하다",
+        "excerpt": "복잡한 외부 시스템 없이 SQLite만으로 내구성 있는(durable) 워크플로우를 구현할 수 있다는 주장이 화제를 모았다.",
+        "body": "",
+        "url": "https://obeli.sk/blog/sqlite-is-all-you-need-for-durable-workflows/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-30T02:54:50+09:00",
+        "readTime": 2,
+        "imageGradient": 7
+      }
+    ]
+  }
+}

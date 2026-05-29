@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-05-30",
+      "issueNumber": 60,
+      "mainHeadline": "구글 Gemini Omni·3.5 데모 공개, OpenAI Codex는 윈도우 원격 제어로 — AI 에이전트 '직접 조작' 시대",
+      "headlines": [
+        "OpenAI Codex, 윈도우 PC 직접 조작·모바일 원격 제어 지원 확장",
+        "Anthropic, 기업가치 $965B로 OpenAI 추월 — AI 스타트업 최고 가치",
+        "Groq, 엔비디아 $20B 인수 무산 후 $650M 추가 조달 추진"
+      ]
+    },
+    {
       "date": "2026-05-29",
       "issueNumber": 59,
       "mainHeadline": "Anthropic Opus 4.8 출시 + 시리즈 H $65B — IPO 직전 $1T 평가",
@@ -593,5 +603,5 @@
       ]
     }
   ],
-  "latestIssue": 59
+  "latestIssue": 60
 }
