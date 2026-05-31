@@ -189,8 +189,8 @@
       ]
     },
     {
-      "issueNumber": 43,
       "date": "2026-05-10",
+      "issueNumber": 43,
       "mainHeadline": "엔비디아, AI 투자 400억 달러 돌파 & DOGE ChatGPT 불법 사용 법원 판결",
       "headlines": [
         "메타 AI 전환에 직원 불만 고조 — 뉴욕타임스 단독 보도",
@@ -204,7 +204,7 @@
       "mainHeadline": "OpenAI, Codex 안전 운영 방식 공개",
       "headlines": [
         "CyberSecQwen-4B: 사이버 방어에 소형 특화 로컬 모델이 필요한 이유",
-        "창의적 거장들이 AI를 활용해 중소기업 광고를 만들면 어떤 일이 벌어질까",
+        "EMO: 창발적 모듈성을 위한 전문가 혼합 사전학습 기법",
         "나이 확인 법규가 개발자에게 중요한 이유"
       ]
     },
@@ -351,11 +351,11 @@
     {
       "date": "2026-04-24",
       "issueNumber": 27,
-      "mainHeadline": "GPT-5.5 공개: 에이전틱 코딩과 컴퓨터 사용을 위한 최고 프런티어 모델",
+      "mainHeadline": "GPT-5.5 출시: 에이전틱 작업을 위한 새로운 지능 클래스",
       "headlines": [
-        "Claude 관리형 에이전트 메모리 공개 베타: 세션 간 학습 지원",
-        "Google Cloud Next '26 Day 1: 에이전틱 엔터프라이즈를 위한 AI 인프라",
-        "Claude Code 품질 이슈 포스트모템 공개 및 사용 한도 전면 재설정"
+        "Claude 관리형 에이전트 메모리 공개 베타 출시 — 세션 간 학습 가능",
+        "Google Cloud Next '26: 에이전틱 엔터프라이즈를 위한 AI 인프라 발표",
+        "Qwen 3.6 27B, Sonnet과 에이전시 성능 동급 수준 달성"
       ]
     },
     {
@@ -371,7 +371,14 @@
     {
       "date": "2026-04-22",
       "issueNumber": 25,
-      "path": "2026-04-22/magazine.json"
+      "mainHeadline": "OpenAI, 추론하는 이미지 모델 ChatGPT Images 2.0 공개 — AI 이미지 시장 판도 바뀐다",
+      "headlines": [
+        "OpenAI Codex 4M 활성 사용자 돌파 — 기업 고객 확장 가속",
+        "Anthropic-Amazon 5기가와트 컴퓨팅 협력 + 추가 $50억 투자",
+        "Claude Code Recap·Live Artifacts — 개발자 워크플로우 혁신",
+        "Gemini Deep Research Max: 자율 연구 에이전트의 새 기준",
+        "TypeScript 7.0 베타 발표 — 대규모 코드베이스 성능 대폭 향상"
+      ]
     },
     {
       "date": "2026-04-21",
@@ -394,14 +401,14 @@
       ]
     },
     {
-      "issueNumber": 22,
       "date": "2026-04-19",
-      "cover": {
-        "mainHeadline": "Claude Design 공개 & Codex 에이전트 IDE 선언 — AI 개발 도구의 새 시대",
-        "mainExcerpt": "Anthropic이 대화만으로 프로토타입을 제작하는 Claude Design을 공개하고, OpenAI는 Codex를 에이전트 기반 IDE로 선언했다. AI 개발 도구가 새로운 패러다임으로 진입하고 있다."
-      },
-      "articleCount": 53,
-      "path": "/data/2026-04-19/magazine.json"
+      "issueNumber": 22,
+      "mainHeadline": "Claude Design 공개 & Codex 에이전트 IDE 선언 — AI 개발 도구의 새 시대",
+      "headlines": [
+        "OpenAI Codex, 서브에이전트·컴퓨터 사용 기능으로 풀 에이전트 IDE 전환",
+        "Cloudflare Agents Week: Agent Memory·Agent Readiness Score·Flagship 한꺼번에 출시",
+        "Linux 커널, AI 지원 코드 기여 공식 가이드라인 도입"
+      ]
     },
     {
       "date": "2026-04-18",
@@ -418,10 +425,10 @@
       "issueNumber": 20,
       "mainHeadline": "Claude Opus 4.7 vs Codex 컴퓨터 제어 — AI 에이전트 전쟁, 새 국면",
       "headlines": [
-        "Claude Opus 4.7 출시 — 추론·에이전트·코딩 전 영역에서 역대 최고 성능",
         "OpenAI Codex, 이제 컴퓨터를 직접 제어한다 — 브라우저·소프트웨어 자율 조작",
         "GPT-Rosalind 공개 — 생명과학 특화 AI, MedQA 94.2% 달성",
-        "Chrome에 AI 모드 도입 — 브라우저가 웹을 대신 이해하고 답한다"
+        "Chrome에 AI 모드 도입 — 브라우저가 웹을 대신 이해하고 답한다",
+        "VS Code 1.117 릴리스 — Copilot 에이전트 모드 GA, 인라인 채팅 개선"
       ]
     },
     {
@@ -529,14 +536,24 @@
     {
       "date": "2026-04-05",
       "issueNumber": 9,
-      "title": "구글 Gemma 4 전격 공개 — 바이트 대비 최강 멀티모달 오픈 AI의 귀환",
-      "excerpt": "구글 DeepMind가 Gemma 4 시리즈를 전격 공개했습니다. 1B~27B 규모의 네 가지 모델로 구성된 이번 릴리스는 멀티모달 추론, 코드 생성, 다국어 이해에서 동급 최강 성능을 자랑합니다. OpenAI는 기..."
+      "mainHeadline": "구글 Gemma 4 전격 공개 — 바이트 대비 최강 멀티모달 오픈 AI의 귀환",
+      "headlines": [
+        "OpenAI, 기술 팟캐스트 네트워크 TBPN 인수 — AI의 미디어 패권 경쟁 본격화",
+        "Docker Offload 정식 GA — 온프레미스 워크로드를 클라우드로 즉시 오프로드",
+        "VS Code 1.115 출시 — 에이전트 코딩 워크플로 대폭 강화",
+        "Cloudflare, AI 시대 맞춤 캐시 아키텍처 재설계 예고"
+      ]
     },
     {
       "date": "2026-04-04",
       "issueNumber": 8,
-      "title": "Gemma 4 공개 & Claude Windows 상륙 — AI 생태계 대격변",
-      "excerpt": "구글 DeepMind가 바이트 대비 최강의 오픈 모델 Gemma 4를 공개했습니다. 같은 날 Anthropic은 Claude Computer Use를 Windows로 확장하고 Microsoft 365를 전 플랜에 통..."
+      "mainHeadline": "Gemma 4 공개 & Claude Windows 상륙 — AI 생태계 대격변",
+      "headlines": [
+        "Gemma 4, 스마트폰부터 서버까지 — 오픈 모델 임계점 돌파",
+        "Anthropic, LLM 기능적 감정 메커니즘 최초 연구 발표",
+        "OpenAI, Codex 유연 요금제 도입 및 TBPN 인수",
+        "Claude, Windows Computer Use 및 Microsoft 365 통합 동시 출시"
+      ]
     },
     {
       "date": "2026-04-03",
@@ -580,6 +597,16 @@
       ]
     },
     {
+      "date": "2026-03-28",
+      "issueNumber": 3,
+      "mainHeadline": "Claude Code 2.1.86 대규모 업데이트: 26가지 CLI 변경 및 PowerShell 네이티브 지원",
+      "headlines": [
+        "OpenAI Codex, Slack·Figma·Notion·Gmail 플러그인 공식 출시",
+        "VS Code 1.114 릴리스 — AI 편집 워크플로우 및 Copilot 대폭 개선",
+        "구글, 관리형 MCP 서버로 프로덕션 AI 에이전트 구축 가이드 공개"
+      ]
+    },
+    {
       "date": "2026-03-30",
       "issueNumber": 3,
       "mainHeadline": "Figma MCP + Claude Code로 여는 AI 디자인 개발 혁명",
@@ -600,16 +627,6 @@
         "Claude Code, `if` 조건부 훅 지원으로 개발자 생산성 향상",
         "2027년 봇이 인터넷 트래픽 점령 전망… 웹 패러다임 대전환",
         "OpenAI Codex, DOS 게임 소스코드 없이 Rust로 재구현 성공"
-      ]
-    },
-    {
-      "date": "2026-03-28",
-      "issueNumber": 3,
-      "mainHeadline": "Claude Code 2.1.86 대규모 업데이트: 26가지 CLI 변경 및 PowerShell 네이티브 지원",
-      "headlines": [
-        "OpenAI Codex, Slack·Figma·Notion·Gmail 플러그인 공식 출시",
-        "VS Code 1.114 릴리스 — AI 편집 워크플로우 및 Copilot 대폭 개선",
-        "Google, 관리형 MCP 서버로 프로덕션 AI 에이전트 구축 가이드 공개"
       ]
     }
   ],
