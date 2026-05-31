@@ -1,0 +1,617 @@
+{
+  "date": "2026-05-31",
+  "issueNumber": 61,
+  "cover": {
+    "mainHeadline": "구글 I/O 2026, 제미나이 3.5·옴니로 멀티모달 AI 새 장 열다",
+    "mainExcerpt": "구글이 I/O 2026에서 텍스트·이미지·오디오·영상을 통합 처리하는 제미나이 옴니와 제미나이 3.5를 공개하며 멀티모달 AI 경쟁을 한 단계 끌어올렸다. 같은 시기 OpenAI·딥마인드·앤트로픽도 의료 AI, 과학 에이전트, 도구 사용 개선 등 굵직한 소식을 내놨다.",
+    "headlines": [
+      "보스턴 아동병원, OpenAI와 손잡고 AI 진단 도입",
+      "딥마인드, 과학 발견 가속하는 AI 에이전트 공개",
+      "엔비디아, 시뮬레이션-현실 로봇공학 난제에 진전"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_002",
+      "title": "제미나이 옴니와 제미나이 3.5의 실제 작동을 보여주는 9가지 데모",
+      "excerpt": "구글이 제미나이 옴니와 제미나이 3.5가 텍스트·이미지·오디오·영상을 넘나들며 실제 작업을 처리하는 모습을 9개 데모로 공개했다. 실시간 번역부터 멀티모달 추론까지 폭넓은 활용을 보여준다.",
+      "body": "구글은 I/O 2026에서 공개한 제미나이 옴니와 제미나이 3.5의 역량을 9개의 실전 데모로 선보였다. 이들 모델은 텍스트, 이미지, 오디오, 영상을 통합적으로 이해하고 처리하는 멀티모달 능력을 갖췄다. 데모에는 실시간 통역, 복합 추론, 영상 기반 질의응답 등이 포함됐다. 구글은 이를 통해 차세대 제미나이가 일상과 업무 전반에서 어떻게 쓰일 수 있는지 구체적으로 제시했다.",
+      "url": "https://news.hada.io/topic?id=30033",
+      "source": "GeekNews",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-31T09:36:48+09:00",
+      "readTime": 6,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_000",
+      "title": "보스턴 아동병원, AI로 새로운 진단 인사이트 확보하고 치료 개선",
+      "excerpt": "OpenAI가 미국 최고 수준의 소아 전문병원과 협력해 임상의·연구자·환자에게 첨단 AI 도구를 제공한다. 의학 문헌과 비식별 임상 데이터에서 인사이트를 추출해 더 정밀하고 개인화된 진료를 지원한다.",
+      "body": "OpenAI는 보스턴 아동병원과 협력하여 의료 현장에 첨단 AI 도구를 도입한다고 밝혔다. 이 AI는 방대한 의학 문헌과 비식별화된 임상 데이터를 분석해 의료진이 놓치기 쉬운 진단 단서를 표면화한다. 목표는 의사들이 더 정밀하고 개인화된 치료를 환자에게 제공하도록 돕는 것이다. 양측은 환자 프라이버시 보호를 전제로 협업을 진행한다.",
+      "url": "https://code.visualstudio.com/updates/v1_123",
+      "source": "Visual Studio Code",
+      "category": "ai_ml",
+      "publishedAt": "2026-06-04T02:00:00+09:00",
+      "readTime": 5,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_017",
+      "title": "딥마인드, AI 에이전트로 과학적 발견 가속화",
+      "excerpt": "딥마인드가 생물학·화학·재료과학 등 분야의 연구를 가속하도록 설계된 새로운 AI 에이전트를 공개했다.",
+      "body": "딥마인드는 과학 연구를 가속하기 위한 새로운 AI 에이전트를 발표했다. 이 에이전트들은 생물학, 화학, 재료과학 전반에 걸쳐 가설 수립과 실험 설계를 지원하도록 설계됐다. 연구자가 방대한 문헌과 데이터를 탐색하는 과정을 자동화해 발견의 속도를 높이는 것이 목표다. 딥마인드는 AI가 과학 발견의 동반자가 되는 미래를 지향한다고 밝혔다.",
+      "url": "https://news.hada.io/topic?id=30028",
+      "source": "GeekNews",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-31T05:38:19+09:00",
+      "readTime": 5,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_019",
+      "title": "클로드, 향상된 함수 호출로 도구를 더 안정적으로 사용",
+      "excerpt": "앤트로픽이 클로드의 함수 호출 기능을 개선해 외부 도구와 API를 에이전트 워크플로에서 더 안정적으로 활용할 수 있게 했다.",
+      "body": "앤트로픽은 클로드의 함수 호출(function calling) 기능을 대폭 개선했다고 발표했다. 이번 업데이트로 클로드는 외부 도구와 API를 더 정확하고 안정적으로 호출할 수 있게 됐다. 특히 여러 단계를 거치는 에이전트 워크플로에서 신뢰성이 높아져 복잡한 자동화 작업에 적합해졌다. 개발자들은 더 견고한 도구 연동 기반 위에서 애플리케이션을 구축할 수 있다.",
+      "url": "https://remyhax.xyz/posts/reproducing-lawful-tls-wiretapping/",
+      "source": "Hacker News",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-31T04:47:36+09:00",
+      "readTime": 4,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_011",
+      "title": "엔비디아 연구진, 시뮬레이션에서 현실로 로봇공학 진전",
+      "excerpt": "엔비디아 연구진이 시뮬레이션에서 학습한 내용을 현실 세계로 안정적으로 이전하는 새로운 방법을 제시하며 sim-to-real 로봇공학을 진전시켰다.",
+      "body": "엔비디아 연구진은 시뮬레이션 환경에서 훈련한 로봇이 현실 세계에서도 안정적으로 작동하도록 하는 새로운 기법을 발표했다. 이른바 sim-to-real(시뮬레이션-현실 이전) 문제는 로봇공학의 오랜 난제로, 가상에서 익힌 행동이 실제 환경에서 무너지는 경우가 많았다. 엔비디아의 방법은 이 격차를 줄여 훈련 효율과 신뢰성을 동시에 높인다. 이는 산업·서비스 로봇의 상용화를 앞당길 수 있는 성과다.",
+      "url": "https://news.hada.io/topic?id=30029",
+      "source": "GeekNews",
+      "category": "big_tech",
+      "publishedAt": "2026-05-31T06:37:45+09:00",
+      "readTime": 5,
+      "imageGradient": 4
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_002",
+        "title": "제미나이 옴니와 제미나이 3.5의 실제 작동을 보여주는 9가지 데모",
+        "excerpt": "구글이 제미나이 옴니와 제미나이 3.5가 텍스트·이미지·오디오·영상을 넘나들며 실제 작업을 처리하는 모습을 9개 데모로 공개했다. 실시간 번역부터 멀티모달 추론까지 폭넓은 활용을 보여준다.",
+        "body": "구글은 I/O 2026에서 공개한 제미나이 옴니와 제미나이 3.5의 역량을 9개의 실전 데모로 선보였다. 이들 모델은 텍스트, 이미지, 오디오, 영상을 통합적으로 이해하고 처리하는 멀티모달 능력을 갖췄다. 데모에는 실시간 통역, 복합 추론, 영상 기반 질의응답 등이 포함됐다. 구글은 이를 통해 차세대 제미나이가 일상과 업무 전반에서 어떻게 쓰일 수 있는지 구체적으로 제시했다.",
+        "url": "https://news.hada.io/topic?id=30033",
+        "source": "GeekNews",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-31T09:36:48+09:00",
+        "readTime": 6,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_000",
+        "title": "보스턴 아동병원, AI로 새로운 진단 인사이트 확보하고 치료 개선",
+        "excerpt": "OpenAI가 미국 최고 수준의 소아 전문병원과 협력해 임상의·연구자·환자에게 첨단 AI 도구를 제공한다. 의학 문헌과 비식별 임상 데이터에서 인사이트를 추출해 더 정밀하고 개인화된 진료를 지원한다.",
+        "body": "OpenAI는 보스턴 아동병원과 협력하여 의료 현장에 첨단 AI 도구를 도입한다고 밝혔다. 이 AI는 방대한 의학 문헌과 비식별화된 임상 데이터를 분석해 의료진이 놓치기 쉬운 진단 단서를 표면화한다. 목표는 의사들이 더 정밀하고 개인화된 치료를 환자에게 제공하도록 돕는 것이다. 양측은 환자 프라이버시 보호를 전제로 협업을 진행한다.",
+        "url": "https://code.visualstudio.com/updates/v1_123",
+        "source": "Visual Studio Code",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-04T02:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_017",
+        "title": "딥마인드, AI 에이전트로 과학적 발견 가속화",
+        "excerpt": "딥마인드가 생물학·화학·재료과학 등 분야의 연구를 가속하도록 설계된 새로운 AI 에이전트를 공개했다.",
+        "body": "딥마인드는 과학 연구를 가속하기 위한 새로운 AI 에이전트를 발표했다. 이 에이전트들은 생물학, 화학, 재료과학 전반에 걸쳐 가설 수립과 실험 설계를 지원하도록 설계됐다. 연구자가 방대한 문헌과 데이터를 탐색하는 과정을 자동화해 발견의 속도를 높이는 것이 목표다. 딥마인드는 AI가 과학 발견의 동반자가 되는 미래를 지향한다고 밝혔다.",
+        "url": "https://news.hada.io/topic?id=30028",
+        "source": "GeekNews",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-31T05:38:19+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_019",
+        "title": "클로드, 향상된 함수 호출로 도구를 더 안정적으로 사용",
+        "excerpt": "앤트로픽이 클로드의 함수 호출 기능을 개선해 외부 도구와 API를 에이전트 워크플로에서 더 안정적으로 활용할 수 있게 했다.",
+        "body": "앤트로픽은 클로드의 함수 호출(function calling) 기능을 대폭 개선했다고 발표했다. 이번 업데이트로 클로드는 외부 도구와 API를 더 정확하고 안정적으로 호출할 수 있게 됐다. 특히 여러 단계를 거치는 에이전트 워크플로에서 신뢰성이 높아져 복잡한 자동화 작업에 적합해졌다. 개발자들은 더 견고한 도구 연동 기반 위에서 애플리케이션을 구축할 수 있다.",
+        "url": "https://remyhax.xyz/posts/reproducing-lawful-tls-wiretapping/",
+        "source": "Hacker News",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-31T04:47:36+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_022",
+        "title": "허깅페이스, 최적화된 트랜스포머로 더 빠른 추론 도입",
+        "excerpt": "트랜스포머 라이브러리의 새로운 최적화로 CPU와 GPU 모두에서 추론 작업 속도가 크게 향상됐다.",
+        "body": "허깅페이스는 트랜스포머(Transformers) 라이브러리에 새로운 최적화를 적용해 추론 속도를 크게 끌어올렸다고 밝혔다. 이번 개선은 CPU와 GPU 환경 모두에서 의미 있는 속도 향상을 제공한다. 모델 서빙 비용을 절감하고 응답 지연을 줄여 실서비스 배포에 유리하다. 개발자는 기존 코드를 크게 바꾸지 않고도 성능 이점을 얻을 수 있다.",
+        "url": "https://news.hada.io/topic?id=30027",
+        "source": "GeekNews",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-31T03:36:51+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_023",
+        "title": "OpenAI, 자동화된 레드티밍으로 AI 안전 연구 확장",
+        "excerpt": "OpenAI가 자동화된 레드티밍 기법을 통해 AI 안전 연구의 규모를 확장하고 있다.",
+        "body": "OpenAI는 AI 시스템의 취약점을 체계적으로 찾아내는 레드티밍을 자동화해 안전 연구의 규모를 확장하고 있다고 밝혔다. 자동화된 레드티밍은 사람이 일일이 시도하기 어려운 다양한 공격·우회 시나리오를 대규모로 생성·검증한다. 이를 통해 모델의 위험 행동을 사전에 발견하고 완화책을 마련할 수 있다. OpenAI는 안전성 평가를 지속적으로 강화하겠다고 강조했다.",
+        "url": "https://ziglang.org/devlog/2026/#2026-05-30",
+        "source": "Hacker News",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-31T02:29:22+09:00",
+        "readTime": 5,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_005",
+        "title": "브레인트러스트, AgentKit으로 고객 요청을 코드로 전환",
+        "excerpt": "브레인트러스트가 OpenAI의 AgentKit을 활용해 고객의 기능 요청을 자동으로 작동하는 코드로 전환하며 개발 속도를 높이고 있다.",
+        "body": "브레인트러스트는 OpenAI의 AgentKit을 도입해 고객이 보낸 기능 요청을 자동으로 동작하는 코드로 변환하고 있다. 이 워크플로는 요청 접수부터 구현까지의 개발 주기를 단축하고 대응 속도를 높인다. 에이전트가 반복적인 개발 작업을 처리함으로써 팀은 더 복잡한 문제에 집중할 수 있다. OpenAI의 AgentKit이 실제 제품 개발에 적용된 사례다.",
+        "url": "https://news.hada.io/topic?id=30030",
+        "source": "GeekNews",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-31T08:42:31+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_006",
+        "title": "OpenAI, 로절린드로 사회적 회복력 강화",
+        "excerpt": "OpenAI가 사회적 회복력을 강화하기 위한 이니셔티브 '로절린드(Rosalind)'를 소개했다.",
+        "body": "OpenAI는 사회적 회복력을 높이기 위한 새로운 노력의 일환으로 '로절린드(Rosalind)'를 공개했다. 이 이니셔티브는 위기 대응과 공공 영역에서 AI가 기여할 수 있는 방안을 모색한다. OpenAI는 AI 기술이 사회 전반의 대응 역량을 보강하는 도구가 될 수 있다고 본다. 구체적 적용 방향과 협력 방식이 함께 제시됐다.",
+        "url": "https://consumerrights.wiki/w/Microsoft_Office_2019_and_2021_for_Mac_view-only_conversion_(2026)",
+        "source": "Hacker News",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-31T08:26:13+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_007",
+        "title": "OpenAI, 신뢰할 수 있는 제3자 테스트를 위한 공동 플레이북 제시",
+        "excerpt": "OpenAI가 AI 모델의 신뢰성 있는 제3자 평가를 위한 공동 플레이북을 공개했다.",
+        "body": "OpenAI는 AI 시스템을 외부 기관이 신뢰성 있게 평가할 수 있도록 돕는 공동 플레이북을 발표했다. 제3자 테스트는 모델의 안전성과 성능을 독립적으로 검증하는 데 중요하지만 표준화된 방법론이 부족했다. 이 플레이북은 평가 절차와 모범 사례를 정리해 업계 공통 기준 마련을 지향한다. OpenAI는 투명하고 검증 가능한 AI 개발을 강조했다.",
+        "url": "https://brie.gay/cheese-paper/",
+        "source": "Hacker News",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-31T07:58:41+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_015",
+        "title": "마이크로소프트, 코파일럿에 새로운 에이전트 기능 확장",
+        "excerpt": "마이크로소프트가 코파일럿에 자율 에이전트 기능을 추가해 Microsoft 365 앱 전반에서 여러 단계의 작업을 수행할 수 있게 했다.",
+        "body": "마이크로소프트는 코파일럿에 새로운 자율 에이전트 기능을 도입한다고 발표했다. 이 기능으로 코파일럿은 Microsoft 365 앱들을 넘나들며 여러 단계로 이뤄진 작업을 스스로 완료할 수 있다. 사용자는 반복적이고 복잡한 업무를 에이전트에 위임해 생산성을 높일 수 있다. 마이크로소프트는 업무용 AI의 자동화 범위를 지속 확대하고 있다.",
+        "url": "https://github.com/wolfSSL/wolfCOSE",
+        "source": "Hacker News",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-31T05:42:28+09:00",
+        "readTime": 5,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_010",
+        "title": "파이토치 프로파일링 입문 (1부): 초보자 가이드",
+        "excerpt": "파이토치 모델의 성능 병목을 찾고 메모리 사용을 최적화하며 학습·추론 속도를 높이는 프로파일링 방법을 다룬다.",
+        "body": "허깅페이스 블로그가 파이토치(PyTorch) 모델 프로파일링 입문 가이드를 공개했다. 프로파일링은 모델 실행 중 어디서 시간이 소요되고 메모리가 낭비되는지 파악하는 작업이다. 이 가이드는 초보자도 따라할 수 있도록 도구 사용법과 해석 방법을 단계별로 설명한다. 병목을 찾아 최적화하면 학습과 추론 속도를 크게 개선할 수 있다.",
+        "url": "https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-31T06:45:00+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_009",
+        "title": "여전히 개발자, 다만 사무실 밖에서 — 깃허브의 새 캠페인",
+        "excerpt": "깃허브가 개발자의 정체성과 일하는 방식을 조명하는 새로운 브랜드 캠페인을 공개했다.",
+        "body": "깃허브는 '여전히 개발자, 다만 밖에서(Still a developer. Just outside.)'라는 새 캠페인을 선보였다. 변화하는 개발 환경 속에서 개발자의 정체성과 창의성을 조명하는 내용이다. 캠페인은 장소와 형식에 얽매이지 않는 현대 개발 문화를 강조한다. 깃허브는 개발자 커뮤니티와의 유대를 다지려는 메시지를 담았다.",
+        "url": "https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/",
+        "source": "TechCrunch AI",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-31T06:45:00+09:00",
+        "readTime": 4,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_013",
+        "title": "클라우드플레어가 데이터 플랫폼과 분석 엔진을 구축한 방법",
+        "excerpt": "하루 수조 건의 이벤트를 낮은 지연으로 처리하는 클라우드플레어 데이터 플랫폼의 아키텍처를 심층적으로 들여다본다.",
+        "body": "클라우드플레어가 자사 데이터 플랫폼과 분석 엔진의 내부 구조를 공개했다. 이 플랫폼은 하루 수조 건에 달하는 이벤트를 낮은 지연 시간으로 처리한다. 글은 대규모 데이터 수집·저장·질의를 어떻게 효율적으로 설계했는지 단계별로 설명한다. 대용량 실시간 분석 시스템을 구축하려는 엔지니어에게 유용한 사례다.",
+        "url": "https://arxiv.org/abs/2605.29135",
+        "source": "Hacker News",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-31T06:05:40+09:00",
+        "readTime": 6,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_016",
+        "title": "LangGraph로 프로덕션급 에이전트 구축하기",
+        "excerpt": "상태 관리, 오류 처리, 관측 가능성 등 LangGraph 에이전트를 실제 운영 환경에 배포하기 위한 모범 사례를 다룬다.",
+        "body": "랭체인(LangChain)은 LangGraph를 활용해 프로덕션 환경에 적합한 에이전트를 구축하는 모범 사례를 소개했다. 운영 환경에서는 상태 관리, 오류 처리, 관측 가능성(observability)이 핵심이다. 글은 안정적이고 추적 가능한 에이전트를 설계·배포하는 구체적 방법을 제시한다. 실험 단계를 넘어 실서비스로 에이전트를 옮기려는 팀에 실질적 지침을 준다.",
+        "url": "https://www.brethorsting.com/blog/2026/05/domain-expertise-has-always-been-the-real-moat/",
+        "source": "Hacker News",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-31T05:40:57+09:00",
+        "readTime": 5,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_020",
+        "title": "깃허브, 기업 팀을 위한 새로운 코파일럿 기능 공개",
+        "excerpt": "깃허브가 커스텀 모델, 정책 제어, 강화된 보안 기능 등 기업 고객을 위한 새로운 코파일럿 역량을 발표했다.",
+        "body": "깃허브는 기업 고객을 겨냥한 새로운 코파일럿 기능을 발표했다. 여기에는 조직 맞춤형 커스텀 모델, 사용 정책 제어, 강화된 보안 기능이 포함된다. 기업은 규정 준수와 데이터 보호 요건을 충족하면서 AI 코딩 도구를 도입할 수 있다. 깃허브는 대규모 개발 조직의 코파일럿 채택을 가속하려 한다.",
+        "url": "https://lowendmac.com/2013/jef-raskin-the-visionary-behind-the-mac/",
+        "source": "Hacker News",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-31T04:42:33+09:00",
+        "readTime": 4,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_024",
+        "title": "클라우드플레어 Workers AI, 더 큰 모델 지원",
+        "excerpt": "클라우드플레어 Workers AI가 더 큰 언어 모델을 카탈로그에 추가해 한층 정교한 엣지 AI 애플리케이션을 가능하게 한다.",
+        "body": "클라우드플레어는 Workers AI 플랫폼이 더 큰 규모의 언어 모델을 지원한다고 밝혔다. 이번 확장으로 개발자는 엣지(edge) 환경에서도 더 정교한 AI 기능을 구현할 수 있다. 사용자와 가까운 곳에서 모델을 실행해 지연을 줄이고 응답성을 높이는 것이 장점이다. 엣지 AI 활용 범위가 한층 넓어졌다.",
+        "url": "https://openrouter.ai/announcements/series-b",
+        "source": "Hacker News",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-31T02:27:28+09:00",
+        "readTime": 4,
+        "imageGradient": 2
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_011",
+        "title": "엔비디아 연구진, 시뮬레이션에서 현실로 로봇공학 진전",
+        "excerpt": "엔비디아 연구진이 시뮬레이션에서 학습한 내용을 현실 세계로 안정적으로 이전하는 새로운 방법을 제시하며 sim-to-real 로봇공학을 진전시켰다.",
+        "body": "엔비디아 연구진은 시뮬레이션 환경에서 훈련한 로봇이 현실 세계에서도 안정적으로 작동하도록 하는 새로운 기법을 발표했다. 이른바 sim-to-real(시뮬레이션-현실 이전) 문제는 로봇공학의 오랜 난제로, 가상에서 익힌 행동이 실제 환경에서 무너지는 경우가 많았다. 엔비디아의 방법은 이 격차를 줄여 훈련 효율과 신뢰성을 동시에 높인다. 이는 산업·서비스 로봇의 상용화를 앞당길 수 있는 성과다.",
+        "url": "https://news.hada.io/topic?id=30029",
+        "source": "GeekNews",
+        "category": "big_tech",
+        "publishedAt": "2026-05-31T06:37:45+09:00",
+        "readTime": 5,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_014",
+        "title": "애플, 디트로이트의 떠오르는 개발자들을 지원",
+        "excerpt": "애플이 디트로이트 지역의 신진 개발자들을 지원하는 프로그램을 소개했다.",
+        "body": "애플은 디트로이트 지역에서 성장하는 신진 개발자들을 지원하는 노력을 공개했다. 교육과 멘토링, 자원 제공을 통해 지역 개발자 생태계를 키우는 데 초점을 맞췄다. 애플은 다양한 배경의 개발자들이 앱 경제에 참여할 기회를 넓히려 한다. 지역 커뮤니티와의 협력 사례가 함께 소개됐다.",
+        "url": "https://interfaces.dev/",
+        "source": "Hacker News",
+        "category": "big_tech",
+        "publishedAt": "2026-05-31T05:46:54+09:00",
+        "readTime": 4,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_018",
+        "title": "애플, 새로운 접근성 기능 공개",
+        "excerpt": "애플이 더 많은 사용자가 기기를 편리하게 사용할 수 있도록 새로운 접근성 기능들을 발표했다.",
+        "body": "애플은 장애가 있는 사용자를 포함해 더 많은 사람이 기기를 쉽게 쓸 수 있도록 새로운 접근성 기능을 발표했다. 시각·청각·이동성 등 다양한 영역을 지원하는 기능이 포함됐다. 애플은 기술이 모두에게 평등하게 작동해야 한다는 철학을 강조해 왔다. 이번 업데이트는 그 연장선상의 행보다.",
+        "url": "https://twilitrealm.dev/",
+        "source": "Hacker News",
+        "category": "big_tech",
+        "publishedAt": "2026-05-31T05:24:26+09:00",
+        "readTime": 4,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_021",
+        "title": "애저 AI 파운드리, 새로운 모델 배포 옵션 추가",
+        "excerpt": "애저 AI 파운드리가 추가 모델 배포 구성을 지원해 개발자에게 AI 모델 서빙의 유연성을 높여준다.",
+        "body": "마이크로소프트는 애저 AI 파운드리(Azure AI Foundry)에 새로운 모델 배포 옵션을 추가했다고 밝혔다. 이를 통해 개발자는 AI 모델을 서빙하는 방식을 더 유연하게 구성할 수 있다. 다양한 배포 환경과 요구사항에 맞춰 선택지를 넓힌 것이 핵심이다. 기업의 AI 도입과 운영 효율을 높이려는 업데이트다.",
+        "url": "https://ajin.im/is/building/omen.ops/",
+        "source": "Hacker News",
+        "category": "big_tech",
+        "publishedAt": "2026-05-31T04:23:36+09:00",
+        "readTime": 4,
+        "imageGradient": 5
+      }
+    ],
+    "twitter_pulse": [],
+    "threads_pulse": [],
+    "reddit_pulse": [
+      {
+        "id": "reddit_000",
+        "title": "Word2Vec에서 출력층 가중치가 단어 벡터가 되는 이유는? [토론]",
+        "originalTitle": "Why do the output layer weights become word vectors in Word2Vec? [D]",
+        "summary": "Word2Vec의 학습 구조에서 출력층 가중치가 어떻게 단어 임베딩으로 기능하게 되는지에 대한 이론적 질문이다. r/MachineLearning에서 임베딩의 수학적 원리를 두고 토론이 오갔다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1trvuxb/why_do_the_output_layer_weights_become_word/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-05-30T19:06:32+09:00"
+      },
+      {
+        "id": "reddit_001",
+        "title": "박사 과정 인턴십 없이 졸업하기 [토론]",
+        "originalTitle": "Graduating Without a PhD Internship [D]",
+        "summary": "ML 박사 과정생이 인턴 경험 없이 졸업할 때의 취업 전망과 대응 전략을 묻는 글이다. 학계·업계 진로를 고민하는 연구자들의 조언이 모였다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1trn6ye/graduating_without_a_phd_internship_d/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-05-30T11:27:22+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "심사 중인 본 학회 논문을 워크숍에 제출해도 될까 [토론]",
+        "originalTitle": "Workshop submission for main conference paper under review [D]",
+        "summary": "메인 컨퍼런스에 심사 중인 논문을 워크숍에도 제출하는 것이 적절한지에 대한 학계 관행 질문이다. 이중 제출 규정과 관례를 두고 의견이 갈렸다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1ts2m9n/workshop_submission_for_main_conference_paper/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-05-31T00:14:36+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "분명 누군가에겐 필요할 것",
+        "originalTitle": "Someone out there likely needs this",
+        "summary": "로컬 LLM 커뮤니티에서 공유된 유용한 도구나 자료에 관한 게시물이다. 자체 호스팅 LLM 사용자들에게 실질적 도움이 되는 내용으로 주목받았다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tsd41n/someone_out_there_likely_needs_this/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-05-31T07:11:43+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "엔비디아 Qwen3.6-35B-A3B-NVFP4 모델 공개 (허깅페이스)",
+        "originalTitle": "nvidia/Qwen3.6-35B-A3B-NVFP4 · Hugging Face",
+        "summary": "엔비디아가 NVFP4 양자화를 적용한 Qwen3.6 기반 35B(활성 3B) MoE 모델을 허깅페이스에 공개했다는 소식이다. 로컬 추론 효율을 높인 양자화 버전으로 관심을 모았다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ts6j6j/nvidiaqwen3635ba3bnvfp4_hugging_face/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-05-31T02:49:08+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "내 6,400달러 로컬 LLM 서버 비용 분석",
+        "originalTitle": "Cost Analysis of my $6.4k Local LLM Server",
+        "summary": "약 6,400달러를 들여 구축한 개인 로컬 LLM 서버의 구성과 비용 효율을 분석한 글이다. 하드웨어 선택과 운영 비용을 두고 자체 호스팅 사용자들의 토론이 이어졌다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tsbl9j/cost_analysis_of_my_64k_local_llm_server/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-05-31T06:09:05+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "어느 기업, 한 달 만에 클로드 AI에 5억 달러 실수로 지출 — 직원 라이선스 한도 미설정",
+        "originalTitle": "Mystery company accidentally blew $500 million on Claude AI in a single month — failed to put usage limit on licenses for employees",
+        "summary": "한 기업이 직원용 클로드 AI 라이선스에 사용 한도를 두지 않아 한 달 만에 5억 달러를 지출했다는 화제의 글이다. 기업의 AI 비용 통제 문제를 둘러싼 논쟁이 일었다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1trmvgh/mystery_company_accidentally_blew_500_million_on/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-05-30T11:12:26+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "교황 레오가 EU에 치명적 AI 무기 해제를 촉구한 것이 옳은 이유",
+        "originalTitle": "Why Pope Leo is right to call on EU to disarm lethal AI weapons",
+        "summary": "교황 레오가 EU에 자율살상무기(치명적 AI 무기) 규제를 촉구한 것을 지지하는 의견 글이다. AI 무기의 윤리와 국제 규제 필요성을 두고 토론이 벌어졌다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1ts8trn/why_pope_leo_is_right_to_call_on_eu_to_disarm/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-05-31T04:19:19+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "AI가 실제로 당신의 일상에 어떤 도움이 됐나?",
+        "originalTitle": "How has AI actually benefited you in day-to-day life?",
+        "summary": "AI가 일상에서 실질적으로 어떤 도움을 줬는지 사용자 경험을 묻는 글이다. 다양한 실사용 사례와 한계에 대한 의견이 활발히 공유됐다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1ts6q6b/how_has_ai_actually_benefited_you_in_daytoday_life/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-05-31T02:56:41+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "실화다, 주변에 이렇게 하는 사람 많다",
+        "originalTitle": "True story, a lot of folks doing this around",
+        "summary": "r/OpenAI에서 AI 활용과 관련해 공감대를 부른 게시물이다. 실제 사용자들의 행태를 두고 댓글로 다양한 반응이 이어졌다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1ts05n7/true_story_a_lot_of_folks_doing_this_around/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-05-30T22:35:04+09:00"
+      },
+      {
+        "id": "reddit_010",
+        "title": "이게 내 가장 큰 두려움이다",
+        "originalTitle": "This is my biggest fear.",
+        "summary": "AI 발전에 대한 우려를 표현한 게시물로, r/OpenAI에서 공감과 반론이 교차했다. AI의 사회적 영향에 대한 불안을 보여준다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1trsw3t/this_is_my_biggest_fear/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-05-30T16:16:33+09:00"
+      },
+      {
+        "id": "reddit_011",
+        "title": "지금쯤이면 해결됐을 줄 알았는데 의외로 AI가 못하는 것 한 가지는?",
+        "originalTitle": "What's one thing AI is surprisingly bad at that you thought it would have solved by now?",
+        "summary": "이미 해결됐을 법한데 여전히 AI가 약한 영역을 묻는 글이다. 현재 모델들의 의외의 한계 사례들이 댓글로 모였다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1tsbm2f/whats_one_thing_ai_is_surprisingly_bad_at_that/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-05-31T06:09:58+09:00"
+      },
+      {
+        "id": "reddit_012",
+        "title": "솔직히 챗GPT였으면 날 띄워주기만 했을 것",
+        "originalTitle": "alright bro 🥀️ chatgpt would've been glazing me",
+        "summary": "클로드가 챗GPT와 달리 무비판적으로 칭찬하지 않고 솔직하게 반응했다는 경험을 공유한 글이다. 두 모델의 응답 성향 차이를 두고 공감이 이어졌다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1tse5x4/alright_bro_chatgpt_wouldve_been_glazing_me/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-05-31T07:57:31+09:00"
+      },
+      {
+        "id": "reddit_013",
+        "title": "터치바는 너무 일렀을 뿐 사라질 만한 게 아니었다",
+        "originalTitle": "The touchbar was too early and didn't deserve to die",
+        "summary": "애플 맥북의 터치바가 시대를 앞서갔지만 부당하게 단종됐다는 의견 글이다. 하드웨어 UX를 두고 갑론을박이 벌어졌다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1trwhsw/the_touchbar_was_too_early_and_didnt_deserve_to/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-05-30T19:42:01+09:00"
+      },
+      {
+        "id": "reddit_014",
+        "title": "거의 다 왔다 여러분. 곧 AGI다",
+        "originalTitle": "We're almost there guys. AGI Soon",
+        "summary": "AGI 도래가 임박했다는 기대를 담은 게시물로, 낙관과 회의가 엇갈렸다. AGI 시점에 대한 커뮤니티의 온도차를 보여준다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1ts5gai/were_almost_there_guys_agi_soon/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-05-31T02:06:37+09:00"
+      },
+      {
+        "id": "reddit_015",
+        "title": "최적화의 정수: 롤러코스터 타이쿤의 내부를 들여다보다",
+        "originalTitle": "The gold standard of optimization: A look under the hood of RollerCoaster Tycoon",
+        "summary": "어셈블리로 작성돼 극한의 최적화를 이룬 게임 '롤러코스터 타이쿤'의 내부를 분석한 글이다. r/programming에서 전설적 최적화 사례로 회자됐다.",
+        "url": "https://www.reddit.com/r/programming/comments/1ts97an/the_gold_standard_of_optimization_a_look_under/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-05-31T04:34:06+09:00"
+      },
+      {
+        "id": "reddit_016",
+        "title": "아키텍처 다이어그램이 더 이상 확장되지 않을 때",
+        "originalTitle": "When Architecture Diagrams Stop Scaling",
+        "summary": "시스템이 커질수록 전통적 아키텍처 다이어그램이 한계를 드러낸다는 문제를 다룬 글이다. 복잡한 시스템을 문서화하는 더 나은 방법을 두고 토론이 이어졌다.",
+        "url": "https://www.reddit.com/r/programming/comments/1ts7ahi/when_architecture_diagrams_stop_scaling/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-05-31T03:18:53+09:00"
+      },
+      {
+        "id": "reddit_017",
+        "title": "하스켈에서 모나드의 실용적 활용",
+        "originalTitle": "Practical uses of monads in Haskell",
+        "summary": "추상적으로 여겨지는 모나드를 하스켈 실무에서 어떻게 활용하는지 정리한 글이다. 함수형 프로그래밍 입문자와 숙련자 간 논의가 오갔다.",
+        "url": "https://www.reddit.com/r/programming/comments/1ts1x2l/practical_uses_of_monads_in_haskell/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-05-30T23:47:03+09:00"
+      },
+      {
+        "id": "reddit_018",
+        "title": "AI 광고 vs 현실",
+        "originalTitle": "AI Advertisements vs Reality",
+        "summary": "AI 제품 광고가 보여주는 기대와 실제 사용 경험의 괴리를 꼬집은 게시물이다. r/singularity에서 AI 마케팅 과장에 대한 공감이 모였다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1trwaq0/ai_advertisements_vs_reality/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-05-30T19:31:04+09:00"
+      },
+      {
+        "id": "reddit_019",
+        "title": "푸틴의 260억 달러 수명 연장 프로젝트의 내막",
+        "originalTitle": "Inside Putin’s $26 Billion Quest for Longevity | From mini-pigs and organ printing to cryotherapy and genetics, Russia’s president has turned antiaging research into a Kremlin priority",
+        "summary": "러시아가 미니돼지·장기 프린팅·냉동요법·유전학 등 항노화 연구를 크렘린의 우선 과제로 삼았다는 보도다. 국가 주도 수명 연장 연구를 두고 화제가 됐다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1tryqn0/inside_putins_26_billion_quest_for_longevity_from/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-05-30T21:33:19+09:00"
+      },
+      {
+        "id": "reddit_020",
+        "title": "리비안 SW 책임자 'AI 시대엔 카플레이·안드로이드 오토 불필요'",
+        "originalTitle": "Rivian Software Chief Says Apple CarPlay and Android Auto Are Redundant in the World of AI",
+        "summary": "리비안의 소프트웨어 책임자가 AI 중심 차량 환경에서는 카플레이와 안드로이드 오토가 중복된다고 주장한 내용이다. 차량 OS의 미래를 두고 논쟁이 일었다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1tsbviv/rivian_software_chief_says_apple_carplay_and/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-05-31T06:20:35+09:00"
+      },
+      {
+        "id": "reddit_021",
+        "title": "AI 지출이 너무 커져서 정리해고로도 의미 있는 절감이 안 된다",
+        "originalTitle": "Our AI spending has gotten so high that layoffs wouldnt make a meaningful difference.",
+        "summary": "기업의 AI 인프라 지출이 인건비를 압도할 만큼 커졌다는 현업 개발자의 토로다. r/ExperiencedDevs에서 AI 비용 구조 변화를 두고 공감이 컸다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1trx6te/our_ai_spending_has_gotten_so_high_that_layoffs/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-05-30T20:18:18+09:00"
+      },
+      {
+        "id": "reddit_022",
+        "title": "뛰어난 팀 리드가 떠나면 무슨 일이 벌어지나?",
+        "originalTitle": "What happens when a great lead leaves?",
+        "summary": "핵심 역할을 하던 우수한 팀 리드가 이탈했을 때 팀에 미치는 영향을 논의한 글이다. 리더십 공백 대응 경험이 공유됐다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1tsb3h1/what_happens_when_a_great_lead_leaves/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-05-31T05:49:17+09:00"
+      },
+      {
+        "id": "reddit_023",
+        "title": "당신 회사는 AI 비용을 걱정하나?",
+        "originalTitle": "Is your company worried about how much AI is costing?",
+        "summary": "회사가 AI 도입 비용을 우려하는지 묻는 글로, 여러 기업의 비용 민감도와 정책이 댓글로 공유됐다. AI 지출 증가가 현업의 공통 화두임을 보여준다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1ts64f5/is_your_company_worried_about_how_much_ai_is/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-05-31T02:32:46+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_001",
+        "title": "구글 AI 스튜디오로 만든 I/O 2026 퀴즈를 풀어보세요",
+        "excerpt": "제미나이부터 안드로이드, 검색까지 구글 I/O 2026에서 발표된 내용을 인터랙티브 퀴즈로 확인할 수 있다. 전체가 구글 AI 스튜디오로 제작됐다.",
+        "body": "구글이 I/O 2026의 발표 내용을 정리한 인터랙티브 퀴즈를 공개했다. 제미나이, 안드로이드, 검색 등 주요 발표를 재미있게 복습할 수 있다. 특히 이 퀴즈는 전체가 구글 AI 스튜디오에서 제작돼 도구의 활용성을 보여준다.",
+        "url": "https://claudefolio.com/blog/anyone-can-build-a-platform-now-almost-nobody-can-get-people-to-find-it",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-31T09:55:17+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_003",
+        "title": "'퓨처 오브 AI' 해커톤에서 나온 실제 AI 프로토타입",
+        "excerpt": "개발자들이 48시간 해커톤에서 제미나이를 활용해 만든 창의적인 AI 애플리케이션과 우승 프로젝트들을 소개한다.",
+        "body": "구글은 48시간 동안 진행된 '퓨처 오브 AI' 해커톤의 결과물을 공개했다. 참가 개발자들은 제미나이를 활용해 다양한 실생활 AI 애플리케이션을 만들었다. 글은 우승 프로젝트와 이들이 제미나이를 어떻게 응용했는지 소개한다.",
+        "url": "https://news.hada.io/topic?id=30032",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-31T09:31:01+09:00",
+        "readTime": 2,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_004",
+        "title": "I/O 2026의 주요 12개 순간 정리",
+        "excerpt": "제미나이 3.5부터 새로운 안드로이드 기능까지, 구글 I/O 2026에서 놓치기 쉬운 핵심 발표들을 한눈에 정리했다.",
+        "body": "구글이 I/O 2026에서 발표한 핵심 내용을 12가지 순간으로 요약했다. 제미나이 3.5 공개를 비롯해 새로운 안드로이드 기능 등 굵직한 발표가 포함됐다. 행사를 놓친 사람도 주요 흐름을 빠르게 파악할 수 있도록 구성됐다.",
+        "url": "https://news.hada.io/topic?id=30031",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-31T08:55:02+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_012",
+        "title": "'007 퍼스트 라이트', 지포스 나우 클라우드 게이밍에 합류",
+        "excerpt": "신작 '007 퍼스트 라이트'가 엔비디아 지포스 나우 클라우드 게이밍 서비스에 추가된다.",
+        "body": "엔비디아는 신작 게임 '007 퍼스트 라이트(007 First Light)'가 지포스 나우(GeForce NOW)에 추가된다고 밝혔다. 클라우드 게이밍을 통해 고사양 기기 없이도 스트리밍으로 게임을 즐길 수 있다. 이번 주 추가되는 게임 라인업과 함께 소개됐다.",
+        "url": "https://techcrunch.com/2026/05/30/this-weekends-two-biggest-movies-were-both-directed-by-youtubers/",
+        "source": "TechCrunch",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-31T06:12:37+09:00",
+        "readTime": 2,
+        "imageGradient": 7
+      }
+    ]
+  }
+}
