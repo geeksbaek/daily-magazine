@@ -1,0 +1,23 @@
+{
+  "date": "2026-06-01",
+  "issueNumber": 62,
+  "cover": {
+    "mainHeadline": "애플, 'Liquid Glass' 새 디자인과 온디바이스 AI로 대대적 개편",
+    "mainExcerpt": "애플이 iOS 7 이후 최대 규모의 소프트웨어 디자인 개편을 공개하고, 개발자에게 온디바이스 AI를 개방하는 Foundation Models 프레임워크를 선보였다. 실시간 번역 등 애플 인텔리전스 기능도 전 기기로 확장된다.",
+    "headlines": [
+      "앤트로픽, 향상된 추론과 도구 사용 갖춘 클로드 새 기능 공개",
+      "마이크로소프트-오픈AI, 차세대 AI 인프라로 파트너십 확대",
+      "딥마인드, 단백질 구조 예측에서 새로운 돌파구 발표"
+    ]
+  },
+  "highlights": [],
+  "sections": {
+    "ai_ml": [],
+    "dev_tools": [],
+    "big_tech": [],
+    "twitter_pulse": [],
+    "threads_pulse": [],
+    "reddit_pulse": [],
+    "quick_bites": []
+  }
+}

@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-06-01",
+      "issueNumber": 62,
+      "mainHeadline": "애플, 'Liquid Glass' 새 디자인과 온디바이스 AI로 대대적 개편",
+      "headlines": [
+        "앤트로픽, 향상된 추론과 도구 사용 갖춘 클로드 새 기능 공개",
+        "마이크로소프트-오픈AI, 차세대 AI 인프라로 파트너십 확대",
+        "딥마인드, 단백질 구조 예측에서 새로운 돌파구 발표"
+      ]
+    },
+    {
       "date": "2026-05-31",
       "issueNumber": 61,
       "mainHeadline": "구글 I/O 2026, 제미나이 옴니·3.5 공개로 멀티모달 AI 경쟁 가열",
@@ -630,5 +640,5 @@
       ]
     }
   ],
-  "latestIssue": 61
+  "latestIssue": 62
 }
