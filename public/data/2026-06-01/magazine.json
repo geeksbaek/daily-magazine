@@ -2,22 +2,553 @@
   "date": "2026-06-01",
   "issueNumber": 62,
   "cover": {
-    "mainHeadline": "애플, 'Liquid Glass' 새 디자인과 온디바이스 AI로 대대적 개편",
-    "mainExcerpt": "애플이 iOS 7 이후 최대 규모의 소프트웨어 디자인 개편을 공개하고, 개발자에게 온디바이스 AI를 개방하는 Foundation Models 프레임워크를 선보였다. 실시간 번역 등 애플 인텔리전스 기능도 전 기기로 확장된다.",
+    "mainHeadline": "소프트뱅크, 프랑스 데이터센터에 750억 유로 베팅… AI 인프라 경쟁 가열",
+    "mainExcerpt": "소프트뱅크가 프랑스에 최대 750억 유로를 투자해 최대 5기가와트 규모의 데이터센터를 짓겠다고 밝혔다. 전력과 입지가 AI 시대의 핵심 변수로 떠오른 가운데 빅테크의 인프라 경쟁이 한층 격화되고 있다.",
     "headlines": [
-      "앤트로픽, 향상된 추론과 도구 사용 갖춘 클로드 새 기능 공개",
-      "마이크로소프트-오픈AI, 차세대 AI 인프라로 파트너십 확대",
-      "딥마인드, 단백질 구조 예측에서 새로운 돌파구 발표"
+      "깃허브 코파일럿 토큰 과금 전환에 개발자 반발 확산",
+      "메타, 스마트 글래스 잇는 AI 펜던트 개발 정황",
+      "'AI 정신증' 논쟁 — 실체인가 과장인가"
     ]
   },
-  "highlights": [],
+  "highlights": [
+    {
+      "id": "rss_001",
+      "title": "'AI 정신증' 논쟁을 어떻게 봐야 할까",
+      "excerpt": "테크 CEO들이 'AI 정신증'에 유독 취약하다는 주장을 두고 벌어진 논쟁을 다룬다. TechCrunch의 Equity 팟캐스트가 이 현상의 실체와 과장을 짚는다.",
+      "url": "https://techcrunch.com/2026/05/31/making-sense-of-the-debate-over-ai-psychosis/",
+      "source": "TechCrunch",
+      "category": "ai_ml",
+      "publishedAt": "2026-06-01T00:30:00+09:00",
+      "readTime": 2,
+      "imageGradient": 0,
+      "body": "최근 'AI 정신증(AI psychosis)'이라는 표현이 확산되며 일부에서는 테크 업계 CEO들이 여기에 유독 취약하다고 주장한다. TechCrunch의 팟캐스트 Equity는 이 개념이 실제 임상적 현상인지, 아니면 AI 열풍 속에서 과장된 수사인지를 토론한다. 진행자들은 과도한 몰입과 현실 감각 상실을 경계하면서도, 용어의 무분별한 사용에는 신중해야 한다고 지적한다."
+    },
+    {
+      "id": "rss_002",
+      "title": "소프트뱅크, 프랑스 데이터센터에 최대 750억 유로 투자",
+      "excerpt": "소프트뱅크가 프랑스에 최대 750억 유로를 투자해 데이터센터를 구축한다고 밝혔다. 최대 5기가와트 규모의 추가 데이터센터 용량 확보가 목표다.",
+      "url": "https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/",
+      "source": "TechCrunch",
+      "category": "ai_ml",
+      "publishedAt": "2026-05-31T06:45:00+09:00",
+      "readTime": 2,
+      "imageGradient": 1,
+      "body": "소프트뱅크가 프랑스에 최대 750억 유로를 투입해 대규모 데이터센터를 짓겠다고 발표했다. 목표는 최대 5기가와트에 달하는 추가 연산 용량 확보로, 유럽 내 AI 인프라 경쟁이 본격화되고 있음을 보여준다. 이번 투자는 전력 수급과 입지 확보가 AI 시대의 핵심 변수로 떠올랐음을 단적으로 드러낸다."
+    },
+    {
+      "id": "rss_005",
+      "title": "'장난하나': 깃허브 코파일럿 토큰 기반 과금에 개발자들 분노",
+      "excerpt": "마이크로소프트 깃허브 코파일럿이 토큰 기반 과금제를 도입하자 개발자들의 반발이 거세다. 코파일럿의 황금기가 끝났다는 평가까지 나온다.",
+      "url": "https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/",
+      "source": "TechCrunch",
+      "category": "dev_tools",
+      "publishedAt": "2026-05-31T01:30:00+09:00",
+      "readTime": 2,
+      "imageGradient": 2,
+      "body": "마이크로소프트가 깃허브 코파일럿에 토큰 기반 과금제를 도입하면서 개발자 커뮤니티의 거센 반발에 직면했다. 정액제에 익숙했던 이용자들은 사용량에 따라 비용이 급증할 수 있다는 점을 우려한다. 일각에서는 '코파일럿의 황금기가 끝났다'는 평가까지 나오며, 다른 AI 코딩 도구로 이탈하려는 움직임도 감지된다."
+    },
+    {
+      "id": "rss_009",
+      "title": "메타, AI 펜던트 개발 중인 것으로 알려져",
+      "excerpt": "메타가 AI 기반 하드웨어에 큰 베팅을 하고 있다. 스마트 글래스에 이어 새로운 형태의 웨어러블 AI 펜던트를 개발 중인 것으로 전해졌다.",
+      "url": "https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/",
+      "source": "TechCrunch",
+      "category": "big_tech",
+      "publishedAt": "2026-05-31T00:59:58+09:00",
+      "readTime": 2,
+      "imageGradient": 4,
+      "body": "메타가 목에 거는 형태의 AI 펜던트를 개발 중인 것으로 알려졌다. 스마트 글래스에 이어 또 다른 AI 웨어러블로, 메타가 AI 하드웨어에 공격적으로 투자하고 있음을 보여준다. 음성 비서와 상황 인식 기능을 일상에 자연스럽게 녹여내려는 시도로 풀이되며, 빅테크의 AI 디바이스 경쟁이 안경을 넘어 새로운 폼팩터로 확장되고 있다."
+    },
+    {
+      "id": "rss_015",
+      "title": "OpenRouter, 1억 1,300만 달러 시리즈B 유치",
+      "excerpt": "AI 모델 라우팅 계층을 제공하는 OpenRouter가 1억 1,300만 달러 규모 시리즈B를 유치했다. 기업들이 멀티 모델 프로덕션 시스템으로 이동하며 게이트웨이 수요가 커지고 있다.",
+      "url": "https://news.hada.io/topic?id=30040",
+      "source": "GeekNews",
+      "category": "quick_bites",
+      "publishedAt": "2026-05-31T14:43:18+09:00",
+      "readTime": 2,
+      "imageGradient": 6,
+      "body": "여러 AI 모델을 단일 인터페이스로 연결하는 게이트웨이 OpenRouter가 1억 1,300만 달러 규모의 시리즈B 투자를 유치했다. 기업들이 단일 모델 파일럿에서 멀티 모델 프로덕션 시스템으로 이동하면서, 라우팅·안정성·비용 최적화·컴플라이언스를 책임지는 중간 계층의 필요성이 빠르게 커지고 있다. 최근 6개월간 주간 처리량이 크게 증가했다."
+    }
+  ],
   "sections": {
-    "ai_ml": [],
-    "dev_tools": [],
-    "big_tech": [],
+    "ai_ml": [
+      {
+        "id": "rss_001",
+        "title": "'AI 정신증' 논쟁을 어떻게 봐야 할까",
+        "excerpt": "테크 CEO들이 'AI 정신증'에 유독 취약하다는 주장을 두고 벌어진 논쟁을 다룬다. TechCrunch의 Equity 팟캐스트가 이 현상의 실체와 과장을 짚는다.",
+        "url": "https://techcrunch.com/2026/05/31/making-sense-of-the-debate-over-ai-psychosis/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-01T00:30:00+09:00",
+        "readTime": 2,
+        "imageGradient": 0,
+        "body": "최근 'AI 정신증(AI psychosis)'이라는 표현이 확산되며 일부에서는 테크 업계 CEO들이 여기에 유독 취약하다고 주장한다. TechCrunch의 팟캐스트 Equity는 이 개념이 실제 임상적 현상인지, 아니면 AI 열풍 속에서 과장된 수사인지를 토론한다. 진행자들은 과도한 몰입과 현실 감각 상실을 경계하면서도, 용어의 무분별한 사용에는 신중해야 한다고 지적한다."
+      },
+      {
+        "id": "rss_002",
+        "title": "소프트뱅크, 프랑스 데이터센터에 최대 750억 유로 투자",
+        "excerpt": "소프트뱅크가 프랑스에 최대 750억 유로를 투자해 데이터센터를 구축한다고 밝혔다. 최대 5기가와트 규모의 추가 데이터센터 용량 확보가 목표다.",
+        "url": "https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-31T06:45:00+09:00",
+        "readTime": 2,
+        "imageGradient": 1,
+        "body": "소프트뱅크가 프랑스에 최대 750억 유로를 투입해 대규모 데이터센터를 짓겠다고 발표했다. 목표는 최대 5기가와트에 달하는 추가 연산 용량 확보로, 유럽 내 AI 인프라 경쟁이 본격화되고 있음을 보여준다. 이번 투자는 전력 수급과 입지 확보가 AI 시대의 핵심 변수로 떠올랐음을 단적으로 드러낸다."
+      },
+      {
+        "id": "rss_003",
+        "title": "구글의 24시간 AI 비서 'Gemini Spark'를 직접 써보니",
+        "excerpt": "구글의 상시 작동 AI 비서 Gemini Spark를 직접 사용한 후기다. 받은편지함 요약부터 지역 행사 계획까지 일상 업무를 자동화하지만, 별도 제품으로 출시한 이유는 불분명하다.",
+        "url": "https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-31T00:30:00+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_004",
+        "title": "AI 없이는 일 안 한다는 개발자들 — 부메랑이 될 수도",
+        "excerpt": "AI가 개발자의 코드 생산 속도를 높이지만 코드 품질까지 높이지는 않는다고 연구자들이 경고한다. AI 의존이 장기적으로 개발자에게 독이 될 수 있다는 지적이다.",
+        "url": "https://techcrunch.com/2026/05/29/coders-are-refusing-to-work-without-ai-and-that-could-come-back-to-bite-them/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-05-30T07:14:22+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_005",
+        "title": "'장난하나': 깃허브 코파일럿 토큰 기반 과금에 개발자들 분노",
+        "excerpt": "마이크로소프트 깃허브 코파일럿이 토큰 기반 과금제를 도입하자 개발자들의 반발이 거세다. 코파일럿의 황금기가 끝났다는 평가까지 나온다.",
+        "url": "https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/",
+        "source": "TechCrunch",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-31T01:30:00+09:00",
+        "readTime": 2,
+        "imageGradient": 2,
+        "body": "마이크로소프트가 깃허브 코파일럿에 토큰 기반 과금제를 도입하면서 개발자 커뮤니티의 거센 반발에 직면했다. 정액제에 익숙했던 이용자들은 사용량에 따라 비용이 급증할 수 있다는 점을 우려한다. 일각에서는 '코파일럿의 황금기가 끝났다'는 평가까지 나오며, 다른 AI 코딩 도구로 이탈하려는 움직임도 감지된다."
+      },
+      {
+        "id": "rss_006",
+        "title": "비주얼 스튜디오 코드 1.123 출시",
+        "excerpt": "비주얼 스튜디오 코드 1.123(인사이더) 버전의 새로운 기능이 공개됐다. 최신 업데이트 내용을 공식 릴리스 노트에서 확인할 수 있다.",
+        "url": "https://code.visualstudio.com/updates/v1_123",
+        "source": "Visual Studio Code",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-04T02:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_007",
+        "title": "Zig: 빌드 시스템 전면 재작업",
+        "excerpt": "zig build 내부가 configurer와 maker 프로세스로 분리되고, 빌드 그래프는 바이너리 설정 파일로 직렬화된다. 부모 프로세스가 설정을 캐시하고 maker를 비동기로 컴파일한다.",
+        "url": "https://news.hada.io/topic?id=30048",
+        "source": "GeekNews",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-01T01:34:47+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_008",
+        "title": "NixOS 26.05 'Yarara' 출시",
+        "excerpt": "NixOS 26.05가 출시됐다. Stage 1(initrd)이 기본적으로 systemd 기반으로 전환됐으며, 기존 스크립트 구현은 26.11에서 제거될 예정이다. 2026년 말까지 보안 업데이트를 받는다.",
+        "url": "https://news.hada.io/topic?id=30044",
+        "source": "GeekNews",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-31T18:01:02+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_009",
+        "title": "메타, AI 펜던트 개발 중인 것으로 알려져",
+        "excerpt": "메타가 AI 기반 하드웨어에 큰 베팅을 하고 있다. 스마트 글래스에 이어 새로운 형태의 웨어러블 AI 펜던트를 개발 중인 것으로 전해졌다.",
+        "url": "https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-05-31T00:59:58+09:00",
+        "readTime": 2,
+        "imageGradient": 4,
+        "body": "메타가 목에 거는 형태의 AI 펜던트를 개발 중인 것으로 알려졌다. 스마트 글래스에 이어 또 다른 AI 웨어러블로, 메타가 AI 하드웨어에 공격적으로 투자하고 있음을 보여준다. 음성 비서와 상황 인식 기능을 일상에 자연스럽게 녹여내려는 시도로 풀이되며, 빅테크의 AI 디바이스 경쟁이 안경을 넘어 새로운 폼팩터로 확장되고 있다."
+      },
+      {
+        "id": "rss_010",
+        "title": "사용자 교체형 배터리, 대대적으로 부활한다",
+        "excerpt": "유럽연합 입법에 힘입어 사용자가 직접 교체할 수 있는 배터리가 다시 대세로 돌아오고 있다. 2023년 EU가 합의한 두 건의 주요 법안이 변화의 출발점이 됐다.",
+        "url": "https://www.theverge.com/column/939026/user-replaceable-batteries-eu-european-union-legislation",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-05-31T21:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_011",
+        "title": "흑인 창업자, 2022년 이후 최대 분기 투자 유치 — 그러나 함정이 있다",
+        "excerpt": "흑인 창업자들이 2022년 이후 가장 많은 분기 투자금을 유치했다. 다만 크런치베이스 연구 책임자는 네트워크와 초기 인맥 접근성의 한계가 여전하다고 지적한다.",
+        "url": "https://techcrunch.com/2026/05/31/black-founders-raise-highest-amount-of-quarterly-funding-since-2022-but-theres-a-catch/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-06-01T00:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_012",
+        "title": "집단사고 붐: 톱 VC 3인이 말하는 AI 광풍의 속내",
+        "excerpt": "AI 열풍을 바라보는 최정상 벤처캐피털 3인의 솔직한 시각을 담았다. '샌프란시스코의 19세 AI 개발자에게는 이미 시리즈A 제안이 와 있을 정도'라는 반쯤 농담 섞인 증언이 나온다.",
+        "url": "https://techcrunch.com/2026/05/30/the-groupthink-boom-what-three-top-vcs-really-think-about-the-ai-frenzy/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-05-30T23:49:27+09:00",
+        "readTime": 2,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_013",
+        "title": "틱톡, 슈퍼앱으로 가는 길",
+        "excerpt": "틱톡이 사람들이 대부분의 디지털 활동에 사용하는 슈퍼앱으로 진화하려 하고 있다. 쇼핑과 결제 등으로 기능을 확장하는 행보가 주목된다.",
+        "url": "https://techcrunch.com/2026/05/30/tiktoks-road-to-becoming-a-super-app/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-05-30T22:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_014",
+        "title": "메르세데스 CLA, 평범한 가격에 뛰어난 EV 사양",
+        "excerpt": "메르세데스 CLA가 합리적인 가격대에 큰 배터리와 빠른 충전 속도를 갖춘 전기차로 주목받는다. 5만 달러 안팎의 세단이 드문 시장에서 눈에 띈다.",
+        "url": "https://www.theverge.com/transportation/940387/mercedes-cla-350-ev-review-price-specs",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-05-31T20:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 5
+      }
+    ],
     "twitter_pulse": [],
     "threads_pulse": [],
-    "reddit_pulse": [],
-    "quick_bites": []
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "[연구] ICML 오픈리뷰는 언제 공개되나요?",
+        "originalTitle": "When are ICML openreviews made public? [R]",
+        "summary": "ICML 논문 심사 결과(오픈리뷰)가 언제 공개되는지 묻는 질문이다. 학회 일정과 과거 사례를 두고 연구자들이 정보를 나눈다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1tsuk34/when_are_icml_openreviews_made_public_r/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-05-31T21:52:47+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "[프로젝트] 이 '스트랜드' 클러스터링 문제를 어떻게 모델링할까요?",
+        "originalTitle": "How would you model this \"strand\" clustering problem? [P]",
+        "summary": "특수한 형태의 '스트랜드' 클러스터링 문제를 어떤 방법으로 모델링할지 조언을 구하는 글이다. 적합한 알고리즘과 접근법을 두고 토론이 이어진다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1tst8w4/how_would_you_model_this_strand_clustering/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-05-31T20:53:03+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "[프로젝트] CVPR 워크숍·튜토리얼 일정을 탐색·계획하는 도구를 만들었습니다",
+        "originalTitle": "I built a tool to browse and plan CVPR workshop/tutorial days [P]",
+        "summary": "CVPR 학회의 워크숍과 튜토리얼 일정을 한눈에 살펴보고 계획할 수 있는 도구를 직접 만들어 공유했다. 참석 계획 수립에 유용하다는 반응이다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1tsy7rz/i_built_a_tool_to_browse_and_plan_cvpr/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-06-01T00:21:00+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "(유튜브) 퓨디파이가 자신의 LLM 하네스/웹UI를 공개했다",
+        "originalTitle": "(YT) PewDiePie released his harness/webui",
+        "summary": "유명 유튜버 퓨디파이가 직접 만든 LLM 실행 하네스와 웹UI를 공개했다. 개인이 만든 도구의 완성도를 두고 커뮤니티가 놀라움을 표한다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tsz4ji/yt_pewdiepie_released_his_harnesswebui/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-06-01T00:55:38+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "Stepfun 3.7 Flash, 정말 훌륭하다",
+        "originalTitle": "Stepfun 3.7 Flash is very good",
+        "summary": "Stepfun 3.7 Flash 모델의 성능이 뛰어나다는 호평 글이다. 속도와 품질 양면에서 인상적이라는 사용 후기가 공유된다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tss9nq/stepfun_37_flash_is_very_good/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-05-31T20:03:22+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "Gemma 4 E2B 어블리터레이션 13종, 44 GPU 시간 벤치마크 비교",
+        "originalTitle": "13 abliterated Gemma 4 E2B variants, 44 GPU hours, Benchmark and Comparison - Abliterlitics",
+        "summary": "Gemma 4 E2B의 검열 제거(abliterated) 변형 13종을 44 GPU 시간에 걸쳐 벤치마크 비교한 결과를 공유한다. 변형별 성능 차이가 정리돼 있다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tsvs3j/13_abliterated_gemma_4_e2b_variants_44_gpu_hours/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-05-31T22:44:34+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "확인 없이도 ChatGPT가 쓴 글을 느낌으로 알 수 있나요?",
+        "originalTitle": "Can you actually feel when something was written by ChatGPT even without checking?",
+        "summary": "별도 검사 없이도 ChatGPT가 작성한 글을 직감으로 구별할 수 있는지 묻는 토론이다. 특유의 문체와 단서에 대한 경험담이 오간다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1tsu37g/can_you_actually_feel_when_something_was_written/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-05-31T21:31:47+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "1997년 IRC 챗봇을 만들었다 — 사람들이 서로보다 봇을 더 찾자 종료했다",
+        "originalTitle": "In 1997 I built a chatbot for an IRC channel. I shut it down when people started preferring it to talking to each other.",
+        "summary": "1997년 IRC 채널에 챗봇을 만들었는데, 이용자들이 서로 대화하기보다 봇과 대화하기를 선호하자 운영을 중단했다는 회고담이다. 오늘날 AI 대화에 시사점을 던진다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1tt2bwx/in_1997_i_built_a_chatbot_for_an_irc_channel_i/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-06-01T02:55:56+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "'프롬프트 엔지니어링'이란 정확히 무엇인가?",
+        "originalTitle": "What actually is \"Prompt Engineering\"?",
+        "summary": "프롬프트 엔지니어링의 실체와 정의를 두고 벌어진 토론이다. 단순 기교인지 진짜 기술인지에 대한 다양한 시각이 제시된다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1tt03d8/what_actually_is_prompt_engineering/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-06-01T01:31:38+09:00"
+      },
+      {
+        "id": "reddit_010",
+        "title": "Openclaws, openclaw 에이전트를 위한 액세서리",
+        "originalTitle": "Openclaws, an accessory for openclaw agents",
+        "summary": "openclaw 에이전트와 함께 쓰는 액세서리 'Openclaws'를 소개하는 글이다. 에이전트 활용을 보조하는 도구로 주목받는다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1tssw2a/openclaws_an_accessory_for_openclaw_agents/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-05-31T20:35:09+09:00"
+      },
+      {
+        "id": "reddit_011",
+        "title": "요즘 프로그래밍은 이런 느낌이다",
+        "originalTitle": "That’s how programming feels nowadays.",
+        "summary": "AI 시대에 프로그래밍을 하는 감각이 어떻게 달라졌는지 공감을 자아내는 게시물이다. 개발자들의 다양한 반응이 이어진다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1tsxyfv/thats_how_programming_feels_nowadays/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-06-01T00:11:16+09:00"
+      },
+      {
+        "id": "reddit_012",
+        "title": "어느 AI 연구소에서 엿들은 이야기",
+        "originalTitle": "Overheard at an AI lab",
+        "summary": "AI 연구소에서 오갈 법한 대화를 유머러스하게 옮긴 게시물이다. 업계 분위기를 풍자한 내용에 공감이 모인다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1tsqkmx/overheard_at_an_ai_lab/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-05-31T18:29:40+09:00"
+      },
+      {
+        "id": "reddit_013",
+        "title": "MineBench에서 Opus 4.7과 4.8의 차이",
+        "originalTitle": "Differences Between Opus 4.7 and Opus 4.8 on MineBench",
+        "summary": "MineBench 벤치마크에서 클로드 Opus 4.7과 4.8의 성능 차이를 비교한 글이다. 버전 간 개선점을 두고 토론이 이어진다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1tt3a8h/differences_between_opus_47_and_opus_48_on/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-06-01T03:29:57+09:00"
+      },
+      {
+        "id": "reddit_014",
+        "title": "프로젝트를 클릭 가능한 독 앱으로 바꿔주는 플러그인을 만들었습니다",
+        "originalTitle": "I made a plugin that turns your projects into clickable dock apps",
+        "summary": "작업 중인 프로젝트를 독에서 바로 실행할 수 있는 앱으로 만들어주는 플러그인을 공유했다. 워크플로우 편의성을 높여준다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1tsx85s/i_made_a_plugin_that_turns_your_projects_into/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-05-31T23:43:31+09:00"
+      },
+      {
+        "id": "reddit_015",
+        "title": "솔직한 클로드 vs 띄워주는 ChatGPT",
+        "originalTitle": "alright bro 🥀️ chatgpt would've been glazing me",
+        "summary": "클로드의 직설적인 답변과 ChatGPT의 과도한 칭찬(글레이징)을 비교하며 유머를 담은 게시물이다. 모델별 응답 성향 차이가 화제다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1tse5x4/alright_bro_chatgpt_wouldve_been_glazing_me/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-05-31T07:57:31+09:00"
+      },
+      {
+        "id": "reddit_016",
+        "title": "SQL은 한 번 배우면 30년을 쓴다",
+        "originalTitle": "Learn SQL Once, Use It for 30 Years",
+        "summary": "SQL이 수십 년간 변치 않고 쓰이는 안정적인 기술임을 강조하는 글이다. 유행을 타지 않는 기초 기술의 가치를 짚는다.",
+        "url": "https://www.reddit.com/r/programming/comments/1tt034b/learn_sql_once_use_it_for_30_years/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-06-01T01:31:22+09:00"
+      },
+      {
+        "id": "reddit_017",
+        "title": "스토리 포인트: 명시적이고 정직하며 예측 가능하다",
+        "originalTitle": "Story Points: Explicit, Honest, Predictable. Already in Use.",
+        "summary": "애자일 개발의 스토리 포인트 추정 방식의 장점을 옹호하는 글이다. 추정의 투명성과 예측 가능성을 두고 갑론을박이 이어진다.",
+        "url": "https://www.reddit.com/r/programming/comments/1tsyfhk/story_points_explicit_honest_predictable_already/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-06-01T00:28:48+09:00"
+      },
+      {
+        "id": "reddit_018",
+        "title": "서버는 어떻게 동작하는가: TCP 소켓 실습 입문",
+        "originalTitle": "How Servers Work: A Hands-On Introduction to TCP Sockets",
+        "summary": "TCP 소켓을 직접 다뤄보며 서버의 동작 원리를 익히는 실습형 입문 글이다. 네트워크 기초를 손으로 배우려는 이들에게 유용하다.",
+        "url": "https://www.reddit.com/r/programming/comments/1tt1hcf/how_servers_work_a_handson_introduction_to_tcp/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-06-01T02:24:07+09:00"
+      },
+      {
+        "id": "reddit_019",
+        "title": "/antiai에서 가져온 실제 게시물",
+        "originalTitle": "Real post from /antiai",
+        "summary": "반(反)AI 커뮤니티의 실제 게시물을 옮겨와 공유한 글이다. AI를 둘러싼 상반된 시각과 논쟁이 오간다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1tt17zp/real_post_from_antiai/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-06-01T02:14:26+09:00"
+      },
+      {
+        "id": "reddit_020",
+        "title": "MineBench에서 Opus 4.7과 4.8의 차이",
+        "originalTitle": "Differences Between Opus 4.7 and Opus 4.8 on MineBench",
+        "summary": "클로드 Opus 4.7과 4.8을 MineBench에서 비교한 결과가 싱귤래리티 커뮤니티에서도 화제다. 모델 발전 속도에 대한 논의가 이어진다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1tt3f2m/differences_between_opus_47_and_opus_48_on/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-06-01T03:34:47+09:00"
+      },
+      {
+        "id": "reddit_021",
+        "title": "OpenAI 로보틱스가 채용을 시작했다",
+        "originalTitle": "OpenAI Robotics is hiring",
+        "summary": "OpenAI가 로보틱스 부문 채용에 나섰다는 소식이다. OpenAI의 물리적 AI·로봇 분야 확장 의도를 두고 관심이 모인다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1tt2p2t/openai_robotics_is_hiring/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-06-01T03:08:53+09:00"
+      },
+      {
+        "id": "reddit_022",
+        "title": "승진을 굳이 원하지 않는 분 있나요?",
+        "originalTitle": "Anyone here not really want to get promoted?",
+        "summary": "굳이 승진을 바라지 않는 개발자가 있는지 묻는 글이다. 관리직 부담과 개인의 우선순위에 대한 솔직한 경험담이 오간다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1tt142y/anyone_here_not_really_want_to_get_promoted/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-06-01T02:10:20+09:00"
+      },
+      {
+        "id": "reddit_023",
+        "title": "사내 정치 없이도 Staff+ 직급에 오를 수 있을까?",
+        "originalTitle": "Is it possible to be Staff+ without doing \"politics\" ?",
+        "summary": "조직 내 정치 없이 Staff 이상 시니어 직급에 도달할 수 있는지 묻는 토론이다. 영향력 확대와 정치의 경계에 대한 의견이 갈린다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1tstjap/is_it_possible_to_be_staff_without_doing_politics/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-05-31T21:06:18+09:00"
+      },
+      {
+        "id": "reddit_024",
+        "title": "지금 내 직장 상황",
+        "originalTitle": "my current work situation",
+        "summary": "작성자가 현재 처한 직장 상황을 털어놓고 조언을 구하는 글이다. 비슷한 경험을 가진 동료 개발자들의 공감과 조언이 이어진다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1tt56zh/my_current_work_situation/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-06-01T04:39:51+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_015",
+        "title": "OpenRouter, 1억 1,300만 달러 시리즈B 유치",
+        "excerpt": "AI 모델 라우팅 계층을 제공하는 OpenRouter가 1억 1,300만 달러 규모 시리즈B를 유치했다. 기업들이 멀티 모델 프로덕션 시스템으로 이동하며 게이트웨이 수요가 커지고 있다.",
+        "url": "https://news.hada.io/topic?id=30040",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-31T14:43:18+09:00",
+        "readTime": 2,
+        "imageGradient": 6,
+        "body": "여러 AI 모델을 단일 인터페이스로 연결하는 게이트웨이 OpenRouter가 1억 1,300만 달러 규모의 시리즈B 투자를 유치했다. 기업들이 단일 모델 파일럿에서 멀티 모델 프로덕션 시스템으로 이동하면서, 라우팅·안정성·비용 최적화·컴플라이언스를 책임지는 중간 계층의 필요성이 빠르게 커지고 있다. 최근 6개월간 주간 처리량이 크게 증가했다."
+      },
+      {
+        "id": "rss_016",
+        "title": "액센추어, Ookla 인수 예정",
+        "excerpt": "액센추어가 Ookla 인수 계약을 체결해 네트워크 인텔리전스와 벤치마킹, 고객 경험 분석 역량을 강화한다. Speedtest·Downdetector 등 데이터를 결합해 Wi-Fi·5G 최적화를 지원할 계획이다.",
+        "url": "https://news.hada.io/topic?id=30052",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-01T02:56:23+09:00",
+        "readTime": 2,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_017",
+        "title": "EY 캐나다 사이버보안 보고서, 인용 대부분이 환각이었다",
+        "excerpt": "EY 캐나다의 44쪽 보고서가 허위 인용과 가짜 통계, AI 작성 텍스트로 드러났다. 참고 자료 URL 대부분이 깨졌거나 가짜였고 AI Scan은 텍스트의 72%를 AI 생성으로 표시했다.",
+        "url": "https://news.hada.io/topic?id=30051",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-01T02:53:22+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_018",
+        "title": "로컬 기기용 1비트 'Bonsai Image 4B' 이미지 생성 모델",
+        "excerpt": "로컬 디바이스에서 구동 가능한 1비트 기반 40억 파라미터 이미지 생성 모델 Bonsai Image 4B가 화제다. 경량화로 온디바이스 이미지 생성의 가능성을 넓힌다.",
+        "url": "https://prismml.com/news/bonsai-image-4b",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-01T00:04:52+09:00",
+        "readTime": 2,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_019",
+        "title": "게이밍 PC에 데이터센터급 GPU를 꽂아봤다",
+        "excerpt": "데이터센터용 V100 GPU를 개인 게이밍 PC에 장착해 로컬 LLM을 구동한 실험기다. 비용과 성능, 발열 등 실제 사용 경험을 공유한다.",
+        "url": "https://blog.tymscar.com/posts/v100localllm/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-31T22:53:16+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_020",
+        "title": "도메인 전문성은 언제나 진짜 해자였다",
+        "excerpt": "소프트웨어의 진짜 어려움은 코드 작성이 아니라 현실 규칙을 이해해 도메인 모델을 만드는 데 있었다는 분석이다. 에이전트형 AI 시대에 병목은 '만들 수 있는가'에서 '맞는지 판단할 수 있는가'로 옮겨간다.",
+        "url": "https://news.hada.io/topic?id=30039",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-05-31T14:40:18+09:00",
+        "readTime": 2,
+        "imageGradient": 7
+      }
+    ]
   }
 }
