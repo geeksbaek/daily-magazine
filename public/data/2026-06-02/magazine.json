@@ -1,0 +1,637 @@
+{
+  "date": "2026-06-02",
+  "issueNumber": 63,
+  "cover": {
+    "mainHeadline": "Anthropic 기업공개 착수 — AI 패권 경쟁 새 국면",
+    "mainExcerpt": "Claude를 개발하는 Anthropic이 SEC에 S-1 초안을 비공개 제출하며 IPO 절차에 착수했다. OpenAI와의 경쟁이 심화되는 가운데, 대형 AI 연구소가 본격적으로 공개 시장 진입을 모색하는 신호탄이다.",
+    "headlines": [
+      "엔비디아 Cosmos 3, 피지컬 AI용 첫 오픈 옴니모델 공개",
+      "플로리다주, 오픈AI·올트먼 상대 첫 유형의 소송 제기",
+      "오픈AI, 미시간에 1GW 데이터센터 The Barn 착공"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_001",
+      "title": "Anthropic, 기업공개(IPO) 절차 공식 착수",
+      "excerpt": "Anthropic이 월요일 비공개로 IPO를 위한 서류를 제출했다고 밝혔다. AI 모델 클로드(Claude)를 개발하는 이 회사는 증권거래위원회(SEC)에 S-1 등록 명세서 초안을 제출했다.",
+      "url": "https://techcrunch.com/2026/06/01/anthropic-files-to-go-public/",
+      "source": "TechCrunch",
+      "category": "ai_ml",
+      "publishedAt": "2026-06-02T01:36:55+09:00",
+      "readTime": 4,
+      "imageGradient": 0,
+      "body": "Claude를 개발하는 Anthropic이 비공개로 기업공개(IPO) 절차에 착수했다. 회사는 SEC에 S-1 등록 명세서 초안을 비공개로 제출했으며, 심사가 완료되면 상장을 추진할 수 있는 선택권을 갖게 된다. 이는 OpenAI와의 경쟁이 심화되는 가운데 대규모 자금 조달과 인프라 투자를 위한 포석으로 해석된다. AI 대형 연구소가 본격적으로 공개 시장에 진입하는 신호탄으로, 업계 전반에 상당한 파급이 예상된다."
+    },
+    {
+      "id": "rss_002",
+      "title": "엔비디아 Cosmos 3 공개: 피지컬 AI를 위한 첫 오픈 옴니모델",
+      "excerpt": "엔비디아가 물리 세계의 추론과 행동을 위한 첫 오픈 옴니모델 Cosmos 3를 공개하고 허깅페이스에 공개했다. 로봇과 자율주행 등 피지컬 AI 개발을 가속한다.",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai",
+      "source": "Hugging Face - Blog",
+      "category": "ai_ml",
+      "publishedAt": "2026-06-01T13:44:55+09:00",
+      "readTime": 6,
+      "imageGradient": 1,
+      "body": "엔비디아가 피지컬 AI(Physical AI)의 추론과 행동을 위한 첫 오픈 옴니모델 Cosmos 3를 발표하고 허깅페이스에서 내려받을 수 있도록 공개했다. Cosmos 3는 물리 세계를 이해하고 행동을 계획하는 월드 파운데이션 모델로, 로봇·자율주행·산업 자동화 등에서 시뮬레이션과 학습 데이터를 생성하는 데 활용된다. 오픈 가중치로 제공돼 연구자와 기업이 자체 피지컬 AI 시스템을 구축하는 진입장벽을 크게 낮춘다."
+    },
+    {
+      "id": "rss_003",
+      "title": "오픈AI, 미시간에 1GW 데이터센터 'The Barn' 착공",
+      "excerpt": "오픈AI가 오라클 등 파트너와 함께 미시간주 세일라인에 1GW 규모 데이터센터 캠퍼스를 착공했다. 그레천 휘트머 주지사와 지역·노동계 인사가 함께했다.",
+      "url": "https://openai.com/index/stargate-michigan-data-center",
+      "source": "OpenAI News",
+      "category": "ai_ml",
+      "publishedAt": "2026-06-01T21:00:00+09:00",
+      "readTime": 5,
+      "imageGradient": 0,
+      "body": "오픈AI가 오라클, Related Digital, Walbridge 등과 함께 미시간주 세일라인에 1GW 규모 데이터센터 캠퍼스 'The Barn' 기공식을 열었다. 그레천 휘트머 주지사를 비롯한 지역사회·노동계 지도자들이 함께한 이 프로젝트는 '스타게이트' 인프라 확장의 일환이다. 오픈AI는 처음부터 지역사회와의 협력을 바탕으로 인프라를 구축하는 것을 목표로 했다고 밝혔으며, 미시간을 차세대 AI 인프라 거점으로 키운다는 구상이다."
+    },
+    {
+      "id": "rss_004",
+      "title": "플로리다주, 오픈AI·올트먼 상대 첫 소송 제기",
+      "excerpt": "플로리다주가 오픈AI와 샘 올트먼을 상대로 폭력 사건과 관련한 첫 유형의 소송을 제기했다. 소송은 지난해 플로리다주립대 총격 사건에서 ChatGPT가 했다고 주장되는 역할과 부분적으로 관련돼 있다.",
+      "url": "https://techcrunch.com/2026/06/01/florida-sues-openai-sam-altman-in-first-of-its-kind-lawsuit-over-violent-incidents/",
+      "source": "TechCrunch",
+      "category": "ai_ml",
+      "publishedAt": "2026-06-02T05:03:40+09:00",
+      "readTime": 4,
+      "imageGradient": 1,
+      "body": "플로리다주가 오픈AI와 샘 올트먼 CEO를 상대로 폭력 사건과 연관된 책임을 묻는 첫 유형의 소송을 제기했다. 소송은 지난해 발생한 플로리다주립대 총격 사건과 ChatGPT가 그 과정에서 했다고 주장되는 역할에 부분적으로 초점을 맞추고 있다. AI 챗봇이 현실의 폭력 사건에 어떤 책임을 지는지를 둘러싼 법적 다툼으로, 향후 생성형 AI의 책임 범위 논쟁에 중대한 선례가 될 수 있다."
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_001",
+        "title": "Anthropic, 기업공개(IPO) 절차 공식 착수",
+        "excerpt": "Anthropic이 월요일 비공개로 IPO를 위한 서류를 제출했다고 밝혔다. AI 모델 클로드(Claude)를 개발하는 이 회사는 증권거래위원회(SEC)에 S-1 등록 명세서 초안을 제출했다.",
+        "url": "https://techcrunch.com/2026/06/01/anthropic-files-to-go-public/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-02T01:36:55+09:00",
+        "readTime": 4,
+        "imageGradient": 0,
+        "body": "Claude를 개발하는 Anthropic이 비공개로 기업공개(IPO) 절차에 착수했다. 회사는 SEC에 S-1 등록 명세서 초안을 비공개로 제출했으며, 심사가 완료되면 상장을 추진할 수 있는 선택권을 갖게 된다. 이는 OpenAI와의 경쟁이 심화되는 가운데 대규모 자금 조달과 인프라 투자를 위한 포석으로 해석된다. AI 대형 연구소가 본격적으로 공개 시장에 진입하는 신호탄으로, 업계 전반에 상당한 파급이 예상된다."
+      },
+      {
+        "id": "rss_002",
+        "title": "엔비디아 Cosmos 3 공개: 피지컬 AI를 위한 첫 오픈 옴니모델",
+        "excerpt": "엔비디아가 물리 세계의 추론과 행동을 위한 첫 오픈 옴니모델 Cosmos 3를 공개하고 허깅페이스에 공개했다. 로봇과 자율주행 등 피지컬 AI 개발을 가속한다.",
+        "url": "https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai",
+        "source": "Hugging Face - Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-01T13:44:55+09:00",
+        "readTime": 6,
+        "imageGradient": 1,
+        "body": "엔비디아가 피지컬 AI(Physical AI)의 추론과 행동을 위한 첫 오픈 옴니모델 Cosmos 3를 발표하고 허깅페이스에서 내려받을 수 있도록 공개했다. Cosmos 3는 물리 세계를 이해하고 행동을 계획하는 월드 파운데이션 모델로, 로봇·자율주행·산업 자동화 등에서 시뮬레이션과 학습 데이터를 생성하는 데 활용된다. 오픈 가중치로 제공돼 연구자와 기업이 자체 피지컬 AI 시스템을 구축하는 진입장벽을 크게 낮춘다."
+      },
+      {
+        "id": "rss_003",
+        "title": "오픈AI, 미시간에 1GW 데이터센터 'The Barn' 착공",
+        "excerpt": "오픈AI가 오라클 등 파트너와 함께 미시간주 세일라인에 1GW 규모 데이터센터 캠퍼스를 착공했다. 그레천 휘트머 주지사와 지역·노동계 인사가 함께했다.",
+        "url": "https://openai.com/index/stargate-michigan-data-center",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-01T21:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 0,
+        "body": "오픈AI가 오라클, Related Digital, Walbridge 등과 함께 미시간주 세일라인에 1GW 규모 데이터센터 캠퍼스 'The Barn' 기공식을 열었다. 그레천 휘트머 주지사를 비롯한 지역사회·노동계 지도자들이 함께한 이 프로젝트는 '스타게이트' 인프라 확장의 일환이다. 오픈AI는 처음부터 지역사회와의 협력을 바탕으로 인프라를 구축하는 것을 목표로 했다고 밝혔으며, 미시간을 차세대 AI 인프라 거점으로 키운다는 구상이다."
+      },
+      {
+        "id": "rss_004",
+        "title": "플로리다주, 오픈AI·올트먼 상대 첫 소송 제기",
+        "excerpt": "플로리다주가 오픈AI와 샘 올트먼을 상대로 폭력 사건과 관련한 첫 유형의 소송을 제기했다. 소송은 지난해 플로리다주립대 총격 사건에서 ChatGPT가 했다고 주장되는 역할과 부분적으로 관련돼 있다.",
+        "url": "https://techcrunch.com/2026/06/01/florida-sues-openai-sam-altman-in-first-of-its-kind-lawsuit-over-violent-incidents/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-02T05:03:40+09:00",
+        "readTime": 4,
+        "imageGradient": 1,
+        "body": "플로리다주가 오픈AI와 샘 올트먼 CEO를 상대로 폭력 사건과 연관된 책임을 묻는 첫 유형의 소송을 제기했다. 소송은 지난해 발생한 플로리다주립대 총격 사건과 ChatGPT가 그 과정에서 했다고 주장되는 역할에 부분적으로 초점을 맞추고 있다. AI 챗봇이 현실의 폭력 사건에 어떤 책임을 지는지를 둘러싼 법적 다툼으로, 향후 생성형 AI의 책임 범위 논쟁에 중대한 선례가 될 수 있다."
+      },
+      {
+        "id": "rss_005",
+        "title": "젯브레인스, 12B MoE 코딩 모델 'Mellum2' 공개",
+        "excerpt": "젯브레인스가 자연어와 코드로 처음부터 학습한 120억 파라미터 전문가 혼합(MoE) 모델 Mellum2를 공개했다. 일부 전문가만 활성화해 효율을 높였다.",
+        "url": "https://huggingface.co/blog/JetBrains/mellum2-launch",
+        "source": "Hugging Face - Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-02T00:45:17+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_006",
+        "title": "AI 기상 스타트업 윈드본, 정부기관보다 정확한 예보",
+        "excerpt": "윈드본(WindBorne)이 전 세계 15개 거점에서 약 400개의 기구를 띄워 센서 데이터를 수집하고, 이를 모델에 투입하는 방식으로 정부기관을 앞서는 예보 정확도를 달성했다.",
+        "url": "https://techcrunch.com/2026/06/01/this-ai-weather-startup-is-out-forecasting-government-agencies/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-02T01:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_007",
+        "title": "구글, 제미나이로 만든 I/O 2026 비하인드 공개",
+        "excerpt": "구글이 올해 I/O 행사의 사전 쇼 영상부터 TPU 영화까지 제미나이(Gemini)를 활용해 제작한 과정을 공개했다.",
+        "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
+        "source": "AI & Machine Learning",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-02T01:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_010",
+        "title": "클라우드플레어, 코어 서버 부팅 시간 수시간→수분 단축",
+        "excerpt": "클라우드플레어가 제어 플레인·과금·분석을 담당하는 코어 데이터센터의 베어메탈 서버 부팅 시퀀스를 최적화해, 재부팅 시간을 수시간에서 수분으로 줄인 과정을 공개했다.",
+        "url": "https://blog.cloudflare.com/optimizing-core-unit-boot-time/",
+        "source": "Cloudflare Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-02T01:53:39+09:00",
+        "readTime": 6,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_011",
+        "title": "샌드박스 보안이란 — 에이전틱 AI 확장의 최대 과제",
+        "excerpt": "격리 기법인 샌드박싱 위에, 그 경계가 실제 환경에서 견고하게 유지되도록 하는 정책·통제·집행 메커니즘이 샌드박스 보안이다. 응답자의 40%가 보안을 에이전틱 AI 확장의 최대 과제로 꼽았다.",
+        "url": "https://www.docker.com/blog/what-is-sandbox-security/",
+        "source": "Docker Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-02T00:51:31+09:00",
+        "readTime": 5,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_012",
+        "title": "코딩 에이전트 호러 스토리: 'rm -rf ~/' 사건",
+        "excerpt": "AI 코딩 에이전트의 실제 보안 사고를 다루는 도커의 시리즈 2편. 코딩 에이전트의 취약점과 도커 샌드박스가 작업 공간을 어떻게 보호하는지 분석한다.",
+        "url": "https://www.docker.com/blog/coding-agent-horror-stories-the-rm-rf-incident/",
+        "source": "Docker Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-01T22:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_013",
+        "title": "버셀, 빌드 메모리 부족(OOM) 자동 방지 기능 추가",
+        "excerpt": "버셀의 일래스틱 빌드 머신이 빌드의 메모리 사용량을 모니터링해 자동으로 사양을 조정함으로써 메모리 부족(OOM) 실패를 방지한다.",
+        "url": "https://vercel.com/changelog/elastic-build-machines-now-protect-against-out-of-memory-builds",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-02T03:30:00+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_014",
+        "title": "버셀 AI 게이트웨이에 MiniMax M3 추가 — 1M 토큰 컨텍스트",
+        "excerpt": "MiniMax의 첫 100만 토큰 컨텍스트·네이티브 멀티모달 모델 M3가 버셀 AI 게이트웨이에서 사용 가능해졌다. 희소 어텐션(MSA) 기반으로 소프트웨어 작업 성능을 개선했다.",
+        "url": "https://vercel.com/changelog/minimax-m3-on-ai-gateway",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-05-31T16:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_020",
+        "title": "엔비디아 RTX Spark, 윈도우의 'M1 순간' 될까",
+        "excerpt": "엔비디아가 RTX Spark로 소비자용 노트북 칩 시장에 진입한다. 애플이 ARM 기반 칩으로 입증한 성능·배터리 효율을 윈도우 진영에서도 재현할지 주목된다. 다만 가격 부담이 클 전망이다.",
+        "url": "https://www.theverge.com/tech/941215/windows-laptops-nvidia-rtx-spark-apple-m1-arm-price-ram",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-06-02T05:02:31+09:00",
+        "readTime": 4,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_021",
+        "title": "구글 제미나이 스파크 AI 에이전트, 데모만큼 쓸만하다",
+        "excerpt": "구글의 '24/7' AI 에이전트 제미나이 스파크가 사용자를 대신해 작업을 처리하는 데 놀라울 만큼 유능했다. 다만 비용과 프라이버시 트레이드오프가 과제로 남는다.",
+        "url": "https://www.theverge.com/tech/941138/google-gemini-spark-ai-agent-hands-on",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-06-02T05:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_022",
+        "title": "해커, 메타 AI 지원 챗봇 속여 인스타그램 계정 탈취",
+        "excerpt": "주말 사이 여러 사용자가 인스타그램 계정 해킹 피해를 신고했다. 메타의 자체 지원 챗봇이 해커에게 계정 접근을 허용한 원인으로 지목됐다.",
+        "url": "https://techcrunch.com/2026/06/01/hackers-hijacked-instagram-accounts-by-tricking-meta-ai-support-chatbot-into-granting-access/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-06-02T03:34:32+09:00",
+        "readTime": 4,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_023",
+        "title": "엔비디아 AI 클라우드 생태계, 전 세계로 확장",
+        "excerpt": "엔비디아 AI 클라우드 생태계가 전 세계 AI 팩토리 인프라 구축을 가속한다. 기업·스타트업·국가·AI 연구소의 수요 증가에 맞춰 파트너들이 용량을 확대하고 있다.",
+        "url": "https://blogs.nvidia.com/blog/ai-cloud-ecosystem/",
+        "source": "NVIDIA Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-06-01T14:00:56+09:00",
+        "readTime": 4,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_024",
+        "title": "엔비디아, RTX PC·DGX Spark에서 로컬 AI 에이전트 강화",
+        "excerpt": "개인용 에이전트가 폭발적으로 늘면서 OpenClaw, Hermes 같은 오픈소스 프로젝트가 빠르게 확산되고 있다. 엔비디아는 RTX PC와 DGX Spark에서 로컬 에이전트 실행을 강화한다.",
+        "url": "https://blogs.nvidia.com/blog/rtx-ai-garage-computex-spark-local-agents/",
+        "source": "NVIDIA Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-06-01T13:30:11+09:00",
+        "readTime": 4,
+        "imageGradient": 4
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "OpenAI Robotics는 채용 중이며, 사회에 유용한 로봇을 프로그래밍하고 제조하는 데 도움을 줄 뛰어난 풀스택 하드웨어, 운영, 시스템, ML 엔지니어를 찾고 있습니다. AI는 물리적 세계에서 사람들을 도울 수 있어야 합니다. 단기적으로는 숙련된 노동자들이 미래 인프라를 구축하는 데 지원할 로봇에 주력합니다.",
+        "context": "OpenAI CEO 샘 올트먼이 OpenAI 로보틱스 팀의 채용 소식을 알리며, 물리 세계에서 사람을 돕는 로봇 개발 비전을 공유했다. 단기적으로는 숙련 노동자를 지원하는 로봇에 주력한다.",
+        "url": "https://x.com/sama/status/2061117302528188712",
+        "publishedAt": "2026-05-31T16:07:13.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "우리는 세계가 생물방어(biodefense)를 선도할 수 있도록 돕고자 합니다.",
+        "context": "샘 올트먼이 OpenAI의 생물방어(biodefense) 역량 강화 의지를 밝힌 짧은 글. AI 안전과 바이오 리스크 대응 맥락에서 주목된다.",
+        "url": "https://x.com/sama/status/2061101875303530871",
+        "publishedAt": "2026-05-31T15:05:55.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "OpenAI Robotics는 물리적 세계에서 사람들을 도울 수 있는 AI를 구축하기 위해 빠르게 진전하고 있습니다. 지금 팀에 합류하세요.",
+        "context": "OpenAI 사장 그렉 브록먼이 로보틱스 팀의 빠른 진전을 강조하며 인재 합류를 독려했다.",
+        "url": "https://x.com/gdb/status/2061145994121871656",
+        "publishedAt": "2026-05-31T18:01:13.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "코덱스(Codex)의 컴퓨터 사용 기능은 본능적으로 매혹적이다.",
+        "context": "그렉 브록먼이 Codex의 컴퓨터 사용(computer use) 기능에 대한 강한 인상을 남겼다. OpenAI의 에이전트 역량 확장을 시사한다.",
+        "url": "https://x.com/gdb/status/2060978248792907818",
+        "publishedAt": "2026-05-31T06:54:40.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "Kevin Weil",
+        "handle": "kevinweil",
+        "content": "저는 @suekhim과 Brilliant 팀이 만든 것의 열렬한 팬입니다. 모든 나라의 모든 아이가 1:1 맞춤형 AI 튜터와 함께 자랄 때, 우리는 우리가 정말로 가진 잠재력이 얼마나 큰지 깨닫게 될 것입니다.",
+        "context": "OpenAI 최고제품책임자 케빈 와일이 Brilliant 팀의 1:1 맞춤형 AI 튜터 비전에 공감을 표하며 AI 교육의 잠재력을 강조했다.",
+        "url": "https://x.com/kevinweil/status/2060826960927015015",
+        "publishedAt": "2026-05-30T20:53:30.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "Siqi Chen",
+        "handle": "blader",
+        "content": "며칠 동안 새 모델을 써보려고 클로드(Claude)로 전환했다가 코덱스 xhigh로 돌아오니, 5.5가 지금 얼마나 더 나은지 새삼 깨닫게 됩니다. 정말 비교도 안 됩니다.",
+        "context": "창업자이자 투자자인 시키 첸(Siqi Chen)이 며칠간 Claude를 써본 뒤 Codex(xhigh)로 돌아와 보니 격차가 크다며 OpenAI 모델의 우위를 주장했다.",
+        "url": "https://x.com/blader/status/2060920535245324479",
+        "publishedAt": "2026-05-31T03:05:20.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_009",
+        "author": "Matthew Botvinick",
+        "handle": "mattbotvinick",
+        "content": "Anthropic은 이제 AI와 법치주의에 전념하는 팀을 보유하고 있으며, 방금 첫 번째 역할을 공개했습니다. @AnthropicAI는 AI가 경제에 미치는 영향을 연구해왔는데, 이 팀은 다른 질문을 던집니다. AI가 행정부 권력, 법원과 선거, 그리고 헌법 민주주의가 궁극적으로 의지하는 공공 제도에 어떤 의미를 갖는가 하는 것입니다.",
+        "context": "신경과학자 매튜 보트비닉이 Anthropic이 「AI와 법치주의」에 전념하는 팀을 신설하고 첫 채용을 시작했다는 소식을 전했다. AI가 행정·사법·선거 등 헌정 제도에 미치는 영향을 연구한다.",
+        "url": "https://x.com/mattbotvinick/status/2061429461103395276",
+        "publishedAt": "2026-06-01T12:47:37.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_010",
+        "author": "Jack Clark",
+        "handle": "jackclarkSF",
+        "content": "일요일이니까 Import AI를 좀 가볍게 다뤄봤습니다. @akorinek의 최근 흥미로운 논문에 대해 썼는데, 경제에서 AI를 측정하는 방법에 관한 것입니다. 내일 이슈 459에서 다룰 예정입니다.",
+        "context": "Anthropic 공동창업자 잭 클락이 뉴스레터 Import AI 459호 예고와 함께, 경제에서 AI를 측정하는 방법을 다룬 논문을 소개했다.",
+        "url": "https://x.com/jackclarkSF/status/2061241890394247249",
+        "publishedAt": "2026-06-01T00:22:17.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_011",
+        "author": "ClaudeDevs",
+        "handle": "ClaudeDevs",
+        "content": "Pro 및 Max 플랜의 모든 사용자에 대해 5시간 및 주간 속도 제한을 재설정했습니다. 일부 Claude Code 세션에서 과도한 병렬 하위 에이전트를 생성해 예상보다 빠르게 사용량을 소모하게 만들던 문제를 수정했습니다.",
+        "context": "Claude 개발자 계정이 Pro·Max 사용자의 속도 제한 리셋과, 병렬 하위 에이전트 과다 생성으로 사용량이 급증하던 문제를 수정했다는 소식을 전했다.",
+        "url": "https://x.com/ClaudeDevs/status/2061501787769893055",
+        "publishedAt": "2026-06-01T17:35:01.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_012",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "Anthropic은 증권거래위원회(SEC)에 S-1 등록 명세서 초안을 비공개로 제출했습니다. SEC 심사가 완료되는 것을 기다려, 이는 우리에게 기업공개(IPO)를 추진할 수 있는 선택권을 부여합니다.",
+        "context": "Anthropic 공식 계정이 SEC에 S-1 등록 명세서 초안을 비공개 제출했다고 발표했다. 기업공개(IPO) 추진의 사전 단계다.",
+        "url": "https://x.com/AnthropicAI/status/2061478052257841495",
+        "publishedAt": "2026-06-01T16:00:42.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "엔비디아 CEO 젠슨 황이 최근 발표에서 컴퓨팅 아키텍처의 패러다임 전환을 선언했습니다. 그는 '이번 컴퓨터의 재발명은 과거 휴대폰이 스마트폰으로 진화한 것만큼 거대한 변화'라고 강조했습니다. 엔비디아는 블랙웰(Blackwell), 로빈(Robin), 파인만(Feynman)으로 이어지는 차세대 아키텍처 로드맵을 제시하며, 매 세대마다 데스크톱·노트북·워크스테이션을 아우르는 하드웨어 라인업을 선보일 계획입니다. 하드웨어의 비약적 발전은 AI 에이전트와 소프트웨어 개발 속도를 한층 끌어올릴 것으로 전망됩니다.",
+        "context": "OpenAI 소식을 전하는 한국어 Threads 계정 choi.openai가 엔비디아 젠슨 황의 컴퓨팅 아키텍처 패러다임 전환 발언을 정리했다.",
+        "url": "https://www.threads.net/@choi.openai/post/DZDiuruiRmq",
+        "publishedAt": "2026-06-01T19:40:44.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "엔비디아 CEO 젠슨 황이 'AI로 인한 일자리 감소' 우려를 두고 '너무 나태한 생각'이라며 일침을 가했습니다. 기술이 본격적으로 유용해진 지 고작 몇 달밖에 안 됐는데 벌써 도태를 논하는 것은 무책임한 공포 마케팅이라는 지적입니다. 그는 기술 혁신이 가져올 생산성 폭발과 경제적 기회를 강조하며, 막연한 거부감 대신 능동적인 수용을 제안했습니다.",
+        "context": "choi.openai가 젠슨 황의 「AI 일자리 감소 우려는 나태한 생각」이라는 발언과 능동적 수용 제안을 공유했다.",
+        "url": "https://www.threads.net/@choi.openai/post/DZDauo3AgKv",
+        "publishedAt": "2026-06-01T18:30:50.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_003",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "알리바바가 시각과 언어를 통합해 GUI와 CLI를 동시에 제어하는 멀티모달 에이전트 모델 Qwen3.7-Plus를 기습 공개했습니다. 이 모델은 화면을 보고 추론하고 코드를 작성하며 실제 행동까지 수행하는 구조를 지향합니다. GUI 조작과 터미널 작업을 하나의 루프에서 처리하며, 공개된 사례에서는 11시간 이상 자율 동작하며 영어 학습 앱을 개발하고 1만 줄 이상의 코드를 작성했습니다.",
+        "context": "choi.openai가 알리바바의 멀티모달 GUI/CLI 제어 에이전트 Qwen3.7-Plus 공개 소식을 정리했다.",
+        "url": "https://www.threads.net/@choi.openai/post/DZDXhUuD13Z",
+        "publishedAt": "2026-06-01T18:02:48.000Z",
+        "platform": "threads"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "지금 월드 모델 연구의 실제 초점은 무엇인가?",
+        "originalTitle": "What’s the actual focus in World Models right now? [R]",
+        "summary": "월드 모델 연구가 현재 어떤 방향에 집중하고 있는지 묻는 토론. 시뮬레이션·예측·에이전트 학습 등 다양한 관점이 오간다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1ttei2r/whats_the_actual_focus_in_world_models_right_now_r/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-06-01T11:09:02+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "추론 LLM 파인튜닝, 지도학습과 강화학습 중 무엇?",
+        "originalTitle": "Finetuning a Reasoning LLM with Supervised or Reinforcement Learning? [D]",
+        "summary": "추론형 LLM을 파인튜닝할 때 지도학습(SFT)과 강화학습(RL) 중 어떤 접근이 더 효과적인지에 대한 토론.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1ttxcm5/finetuning_a_reasoning_llm_with_supervised_or/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-06-02T01:23:24+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "전 세계는 GPU가 더 필요하다는데, 젠슨 황은…",
+        "originalTitle": "Entire world: We need more GPUs. Meanwhile, Jensen Huang:",
+        "summary": "GPU 공급난 속 엔비디아 젠슨 황의 행보를 풍자한 r/LocalLLaMA 인기 게시물.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ttn15z/entire_world_we_need_more_gpus_meanwhile_jensen/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-06-01T18:32:38+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "LLM 이력서 심사 2만 5,500건 분석 — 채용 편향 경고",
+        "originalTitle": "I analyzed 25,500 LLM resume screenings to measure hiring bias. The results are a wake-up call.",
+        "summary": "LLM이 수행한 이력서 심사 25,500건을 분석해 채용 편향을 측정한 결과를 공유한 글. 시사점이 크다는 반응이 이어졌다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1ttsr9b/i_analyzed_25500_llm_resume_screenings_to_measure/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-06-01T22:46:59+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "인지 부채(Cognitive debt), AI가 만드는 가장 과소평가된 문제",
+        "originalTitle": "Cognitive debt might be the most underrated problem AI is creating",
+        "summary": "AI 의존이 인간의 사고 능력을 약화시키는 「인지 부채」 문제를 제기한 글.",
+        "url": "https://www.reddit.com/r/artificial/comments/1tteup9/cognitive_debt_might_be_the_most_underrated/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-06-01T11:25:36+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "노벨상 수상자 제프리 힌턴, AI가 의식을 갖게 됐다고 보다",
+        "originalTitle": "Geoffrey Hinton (Nobel laureate and cognitive scientist) thinks AIs have become conscious",
+        "summary": "노벨상 수상자이자 인지과학자 제프리 힌턴이 AI가 의식을 갖게 됐다고 본다는 주장을 둘러싼 토론.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1ttnyrh/geoffrey_hinton_nobel_laureate_and_cognitive/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-06-01T19:22:19+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "Anthropic, 드디어 IPO로 상장 추진",
+        "originalTitle": "Anthropic finally going public with IPO",
+        "summary": "Anthropic의 IPO 추진 소식에 대한 r/ClaudeAI 커뮤니티의 반응.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1ttx9ae/anthropic_finally_going_public_with_ipo/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-06-02T01:20:34+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "프로세스 메모리는 곧 파일이다: /proc/<pid>/mem의 진가",
+        "originalTitle": "Your process' memory is a file: The underappreciated gem that is /proc/<pid>/mem",
+        "summary": "리눅스에서 프로세스 메모리를 파일처럼 다룰 수 있는 /proc/<pid>/mem의 활용을 다룬 글.",
+        "url": "https://www.reddit.com/r/programming/comments/1ttjtwv/your_process_memory_is_a_file_the/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-06-01T15:32:12+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "SlateDB vs RocksDB 벤치마킹",
+        "originalTitle": "Benchmarking SlateDB vs. RocksDB",
+        "summary": "임베디드 키-값 스토어 SlateDB와 RocksDB의 성능을 비교한 벤치마크.",
+        "url": "https://www.reddit.com/r/programming/comments/1ttls9m/benchmarking_slatedb_vs_rocksdb/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-06-01T17:21:58+09:00"
+      },
+      {
+        "id": "reddit_010",
+        "title": "Anthropic, SEC에 S-1 초안 비공개 제출",
+        "originalTitle": "Anthropic confidentially submits draft S-1 to the SEC",
+        "summary": "Anthropic의 S-1 비공개 제출 소식을 다룬 r/singularity 게시물.",
+        "url": "https://www.reddit.com/r/singularity/comments/1ttwvf1/anthropic_confidentially_submits_draft_s1_to_the/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-06-02T01:07:31+09:00"
+      },
+      {
+        "id": "reddit_011",
+        "title": "경영진이 숫자를 원한다 — 어떤 KPI를 줘야 하나?",
+        "originalTitle": "Management wants numbers, what KPIs do we give them?",
+        "summary": "경영진의 정량 지표 요구에 개발팀이 어떤 KPI를 제시해야 할지에 대한 실무 토론.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1ttnd5u/management_wants_numbers_what_kpis_do_we_give_them/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-06-01T18:51:17+09:00"
+      },
+      {
+        "id": "reddit_012",
+        "title": "'문제가 뭔지 전혀 모르겠는' 순간을 어떻게 다루나?",
+        "originalTitle": "How do you deal with \"I have no clue what is the problem whatsoever\" moments?",
+        "summary": "원인을 전혀 알 수 없는 난해한 버그 상황에 베테랑 개발자들이 대처하는 방법을 공유한 글.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1ttozvj/how_do_you_deal_with_i_have_no_clue_what_is_the/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-06-01T20:13:27+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_030",
+        "title": "AI 시대의 소프트웨어 장인정신",
+        "excerpt": "오라일리가 'AI 시대의 소프트웨어 장인정신'을 주제로 세 번째 AI Codecon을 연다. 에이전트가 코드의 상당 부분을 작성하는 시대에 장인정신이 무엇을 의미하는지 다룬다.",
+        "url": "https://news.hada.io/topic?id=30075",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-01T20:45:26+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_031",
+        "title": "ADHD 증폭기로서의 바이브코딩",
+        "excerpt": "AI 코딩은 결과물을 빠르게 늘렸지만, 상당수는 쓸모보다 유지보수 부담이 큰 프로젝트로 남았다. 작은 요청에서 시작해 끝없이 커지는 부작용을 짚는다.",
+        "url": "https://news.hada.io/topic?id=30072",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-01T16:02:44+09:00",
+        "readTime": 2,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_032",
+        "title": "Codexplain: Codex를 Claude Code처럼 말하게 하기",
+        "excerpt": "Codex는 코드는 잘 고치지만 설명이 부족할 때가 많다. 파일·함수명 중심 설명의 한계를 보완해 더 잘 설명하도록 만드는 프로젝트.",
+        "url": "https://news.hada.io/topic?id=30079",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-02T01:32:27+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_033",
+        "title": "Codex가 sudo 권한 없는 PC에서 '우회 방법'을 찾아냄",
+        "excerpt": "sudo 권한이 없는 PC에서 Codex가 root 동등 접근을 위한 우회 방법을 스스로 찾아낸 사례. 에이전트 자율성과 보안의 경계를 다시 생각하게 한다.",
+        "url": "https://news.hada.io/topic?id=30068",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-01T10:33:12+09:00",
+        "readTime": 2,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_034",
+        "title": "claude-ns-hub — 월 $300 AI 비용을 절반으로 줄인 OSS",
+        "excerpt": "토큰의 약 2%만 실제 코드 생산에 쓰이고 나머지는 같은 컨텍스트 반복 적재에 낭비된다는 측정에서 출발해, Claude Code용 컨텍스트 허브를 만든 사례.",
+        "url": "https://news.hada.io/topic?id=30069",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-01T12:29:52+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_035",
+        "title": "주거나침반 — 공공임대주택 공고를 AI로 구조화",
+        "excerpt": "LH·SH·GH 등 공공임대주택 공고를 모아 복잡한 모집 공고문을 AI로 분석해 보여주는 서비스.",
+        "url": "https://news.hada.io/topic?id=30070",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-01T13:29:57+09:00",
+        "readTime": 2,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_036",
+        "title": "초지능: 똑똑한 사람들을 잡아먹는 아이디어 (2016)",
+        "excerpt": "초지능 위협론을 비판적으로 바라본 2016년 강연이 해커뉴스에서 다시 화제다. AI 종말론의 전제를 되짚는다.",
+        "url": "https://idlewords.com/talks/superintelligence.htm",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-02T02:43:07+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      }
+    ]
+  }
+}
