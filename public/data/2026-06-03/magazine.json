@@ -1,0 +1,709 @@
+{
+  "date": "2026-06-03",
+  "issueNumber": 64,
+  "cover": {
+    "mainHeadline": "OpenAI, Codex를 전 직군 생산성 플랫폼으로…MS Build 2026도 에이전트 총공세",
+    "mainExcerpt": "OpenAI가 Codex에 'Sites'와 역할별 플러그인을 더해 코딩 도구를 넘어 모든 직군용 생산성 플랫폼으로 확장했다. 같은 날 마이크로소프트는 Build 2026에서 개인 비서 Scout와 에이전트 OS Project Solara를, 엔비디아와는 풀스택 에이전트 협력을 발표하며 'AI 에이전트의 시대'를 선언했다.",
+    "headlines": [
+      "앤트로픽, Claude Mythos를 15개국 핵심 인프라로 확대…S-1 초안도 제출",
+      "엔비디아·MS, Windows에서 클라우드까지 잇는 에이전트 풀스택 공개",
+      "미니맥스 M3, GPT-5.5·제미나이 3.1 프로 능가하며 비용은 5~10%"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "hl_001",
+      "title": "OpenAI, Codex를 전 직군용 생산성 도구로 확장…'Sites'·역할별 플러그인 공개",
+      "excerpt": "OpenAI가 Build 시즌에 맞춰 Codex를 코딩 도구를 넘어 모든 직군이 쓰는 생산성 플랫폼으로 확장했다. 자연어로 설명하면 URL로 공유 가능한 대화형 웹앱을 즉석에서 만들어 호스팅하는 'Sites'와 역할 특화 플러그인을 발표했다.",
+      "url": "https://openai.com/index/codex-for-every-role-tool-workflow",
+      "source": "OpenAI News",
+      "category": "ai_ml",
+      "publishedAt": "2026-06-02T18:00:00+09:00",
+      "readTime": 4,
+      "imageGradient": 0,
+      "body": "OpenAI가 Codex의 대규모 업데이트를 공개하며 코딩 도구라는 정체성을 넘어섰다. 핵심은 자연어 설명만으로 보고서·대시보드·앱을 즉석에서 만들고 URL 하나로 팀과 공유·배포하는 'Sites' 기능과, 단일 설치로 Codex를 판매·데이터 분석·제품 디자인 등 특정 직무 전문가로 바꿔주는 역할별 플러그인이다. OpenAI에 따르면 Codex 주간 활성 사용자는 500만 명을 넘었고, 비개발자 지식 노동자가 전체의 약 20%를 차지하며 개발자보다 3배 빠르게 늘고 있다. 회사는 별도 보고서 'The Next Era of Knowledge Work'를 통해 이런 전환을 뒷받침했다. 노코드 웹 빌더 스타트업들에게는 '셜록킹' 우려를 키우는 발표이기도 하다."
+    },
+    {
+      "id": "hl_002",
+      "title": "마이크로소프트 Build 2026, Scout 비서부터 Project Solara까지 7대 발표",
+      "excerpt": "사티아 나델라가 이끈 Build 2026 키노트에서 마이크로소프트는 항상 켜져 있는 개인 비서 Scout, AI 에이전트 기기용 OS 'Project Solara', 자사 AI 모델 업데이트, 새 Surface 하드웨어까지 대거 공개했다.",
+      "url": "https://www.theverge.com/tech/941738/microsoft-build-2026-biggest-announcements",
+      "source": "The Verge",
+      "category": "big_tech",
+      "publishedAt": "2026-06-03T04:23:52+09:00",
+      "readTime": 4,
+      "imageGradient": 4,
+      "body": "마이크로소프트가 연례 개발자 행사 Build 2026에서 에이전트 중심 전략을 전면에 내세웠다. 가장 주목받은 것은 OpenClaw에서 영감을 받아 Microsoft 365에 통합되는 항상 켜진 개인 비서 'Scout'와, Windows가 아닌 안드로이드 기반으로 AI 에이전트 기기를 구동하기 위해 처음부터 새로 설계한 OS 'Project Solara'다. 회사는 데스크·배지 형태의 Solara 콘셉트 기기도 시연했다. 여기에 차세대 위상 양자 칩 Majorana 2, 자사 첫 고급 추론 AI(MAI 계열), 새 Surface 하드웨어가 더해졌다. 전반적으로 모델·런타임·하드웨어를 아우르는 풀스택 에이전트 플랫폼을 지향한다는 메시지가 분명했다."
+    },
+    {
+      "id": "hl_003",
+      "title": "앤트로픽, Claude Mythos를 15개국 핵심 인프라로 확대",
+      "excerpt": "앤트로픽이 보안 취약점 프로그램 Project Glasswing을 확장하고 Claude Mythos 프리뷰 접근 권한을 15개국 150개 조직으로 넓혔다. 전력·수도·의료·통신 등 사이버 공격 시 1억 명에 영향을 줄 수 있는 핵심 인프라가 대상이다.",
+      "url": "https://techcrunch.com/2026/06/02/anthropic-scales-claude-mythos-to-critical-infrastructure-in-15-countries/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-06-02T23:44:21+09:00",
+      "readTime": 2,
+      "imageGradient": 1,
+      "body": "앤트로픽이 Project Glasswing 보안 프로그램과 Claude Mythos 프리뷰를 15개국 이상 150개 조직으로 확대한다고 밝혔다. 초점은 전력·수도·의료·통신처럼 사이버 공격이 발생하면 최대 1억 명에게 피해가 갈 수 있는 핵심 인프라다. 잭 클락 등 앤트로픽 인사들도 이 확장을 공유하며 AI의 사회적 회복력 강화를 강조했다. 같은 시기 앤트로픽이 SEC에 S-1 등록 명세서 초안을 비공개로 제출했다고 발표해, 향후 기업공개(IPO) 가능성도 함께 주목받고 있다."
+    },
+    {
+      "id": "hl_004",
+      "title": "엔비디아·MS, Windows 기기에서 클라우드까지 잇는 에이전트 AI 풀스택 공개",
+      "excerpt": "젠슨 황이 Build 키노트에 영상으로 합류해 확대된 파트너십을 발표했다. 엔비디아와 마이크로소프트는 RTX Spark, DGX Station을 비롯해 Windows 기기·Azure 클라우드·로컬 배포를 아우르는 에이전트 AI 통합 스택을 개발자에게 제공한다.",
+      "url": "https://blogs.nvidia.com/blog/microsoft-build-windows-local-cloud-devices/",
+      "source": "NVIDIA Blog",
+      "category": "big_tech",
+      "publishedAt": "2026-06-03T04:00:08+09:00",
+      "readTime": 3,
+      "imageGradient": 5,
+      "body": "엔비디아와 마이크로소프트가 에이전트 AI를 실제 제품으로 구현하기 위한 통합 스택을 발표했다. 젠슨 황 CEO가 타이베이에서 영상으로 나델라의 키노트에 합류했다. 양사는 좋은 모델만으로는 부족하며 빠른 하드웨어, 안전한 런타임, 반응성 높은 데이터 계층, 장시간 추론에 맞춘 모델이 필요하다고 강조했다. 이를 위해 NVIDIA RTX Spark와 DGX Station을 포함해 Windows 디바이스, Azure 클라우드, 로컬 환경을 모두 포괄하는 풀스택을 개발자에게 제공한다. 에이전트가 단말부터 클라우드까지 일관되게 동작하도록 하는 것이 목표다."
+    },
+    {
+      "id": "hl_005",
+      "title": "깃허브, 에이전트 네이티브 데스크톱 'GitHub Copilot 앱' 공개",
+      "excerpt": "Microsoft Build 2026에서 깃허브가 개발자가 일하는 방식에 에이전트를 맞추는 새 도구와 데스크톱 경험을 선보였다. 에이전트가 기존 워크플로 안에서 자연스럽게 작동하도록 설계됐다.",
+      "url": "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/",
+      "source": "GitHub Blog",
+      "category": "dev_tools",
+      "publishedAt": "2026-06-03T02:30:03+09:00",
+      "readTime": 3,
+      "imageGradient": 2,
+      "body": "깃허브가 Build 2026에서 'GitHub Copilot 앱'이라는 에이전트 네이티브 데스크톱 경험을 공개했다. 핵심 메시지는 개발자가 도구에 맞추는 것이 아니라 에이전트가 개발자의 기존 작업 방식에 맞춰 일하도록 한다는 것이다. 새로운 도구와 표면(surface)들을 통해 코드 작성, 리뷰, 작업 실행을 에이전트가 보조하며, 데스크톱 환경에서 여러 에이전트를 다루는 흐름을 통합한다. 마이크로소프트·엔비디아의 에이전트 풀스택 발표와 맞물려 개발자 생태계 전반의 에이전트 전환을 가속하는 행보로 읽힌다."
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "ai_001",
+        "title": "OpenAI, Codex를 모든 직군용 도구로…'Sites'와 역할별 플러그인 발표",
+        "excerpt": "OpenAI가 Codex에 자연어로 대화형 웹앱을 만들어 URL로 배포하는 'Sites'와 직무 특화 플러그인을 더했다. 코딩 도구를 넘어 전 직군 생산성 플랫폼으로의 전환을 선언했다.",
+        "url": "https://openai.com/index/codex-for-every-role-tool-workflow",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-02T18:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      },
+      {
+        "id": "ai_002",
+        "title": "OpenAI '지식 노동의 다음 시대' 보고서…Codex 주간 사용자 500만 돌파",
+        "excerpt": "OpenAI가 Codex가 더 이상 코딩만을 위한 도구가 아니라며 'The Next Era of Knowledge Work' 보고서를 냈다. 주간 활성 사용자 500만 명을 넘었고 비개발자가 약 20%를 차지하며 가장 빠르게 늘고 있다.",
+        "url": "https://openai.com/index/codex-for-knowledge-work",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-02T11:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      },
+      {
+        "id": "ai_003",
+        "title": "앤트로픽, Claude Mythos 15개국 핵심 인프라로 확대",
+        "excerpt": "앤트로픽이 Project Glasswing과 Claude Mythos를 15개국 150개 조직으로 넓혔다. 전력·수도·의료·통신 등 사이버 공격 시 1억 명에 영향을 줄 수 있는 핵심 인프라가 대상이다.",
+        "url": "https://techcrunch.com/2026/06/02/anthropic-scales-claude-mythos-to-critical-infrastructure-in-15-countries/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-02T23:44:21+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      },
+      {
+        "id": "ai_004",
+        "title": "구글, AI 딥페이크 사칭 막는 '가짜 통화 탐지' 출시",
+        "excerpt": "구글이 신뢰된 번호를 스푸핑하고 AI 딥페이크 음성으로 권위자·가족·고용주를 사칭하는 사기에 대응해 가짜 통화 탐지 기능을 전화 앱에 도입했다.",
+        "url": "https://techcrunch.com/2026/06/02/google-rolls-out-fake-call-detection-to-protect-against-ai-deepfake-impersonation-scams/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-03T03:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      },
+      {
+        "id": "ai_005",
+        "title": "엔비디아 Cosmos 3 공개…물리 AI 위한 첫 오픈 옴니모델",
+        "excerpt": "엔비디아가 물리 AI를 위한 첫 통합 옴니모델 Cosmos 3를 허깅페이스에 공개했다. 추론과 행동을 결합한 월드 파운데이션 모델로 큰 도약을 이뤘다는 평가다.",
+        "url": "https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai",
+        "source": "Hugging Face - Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-01T13:44:55+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      },
+      {
+        "id": "ai_006",
+        "title": "플로리다주, OpenAI·샘 올트먼 상대 첫 소송…폭력 사건 연루 주장",
+        "excerpt": "플로리다주가 OpenAI와 샘 올트먼을 상대로 첫 유형의 소송을 제기했다. 지난해 플로리다 주립대 총격 사건에서 ChatGPT의 역할을 일부 문제 삼고 있다.",
+        "url": "https://techcrunch.com/2026/06/01/florida-sues-openai-sam-altman-in-first-of-its-kind-lawsuit-over-violent-incidents/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-02T05:03:40+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      },
+      {
+        "id": "ai_008",
+        "title": "트래블러스, OpenAI 기반 자율 음성 클레임 비서 전국 배포",
+        "excerpt": "보험사 트래블러스가 OpenAI Realtime API와 프론티어 모델 기반의 완전 자율 음성 클레임 비서를 전국에 배포했다. 고객의 90%가 AI 비서로 청구를 완료했다.",
+        "url": "https://openai.com/index/travelers",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-02T21:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "dev_001",
+        "title": "깃허브, 에이전트 네이티브 'GitHub Copilot 앱' 공개",
+        "excerpt": "깃허브가 Build 2026에서 에이전트가 개발자의 기존 작업 방식에 맞춰 일하도록 설계한 데스크톱 앱을 선보였다.",
+        "url": "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-03T02:30:03+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "dev_002",
+        "title": "마이크로소프트, 텍스트로 AI 행동 테스트 만드는 오픈소스 도구 공개",
+        "excerpt": "마이크로소프트가 텍스트 설명만으로 AI 평가를 구성하는 오픈소스 프레임워크 'ASSERT'를 공개했다. 개발자가 AI 에이전트 행동을 더 정밀하게 통제하도록 돕는다.",
+        "url": "https://techcrunch.com/2026/06/02/new-microsoft-tool-lets-devs-spin-up-ai-behavior-tests-using-text-descriptions/",
+        "source": "TechCrunch AI",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-03T04:02:21+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      },
+      {
+        "id": "dev_003",
+        "title": "젯브레인스, 12B MoE 모델 Mellum2 공개",
+        "excerpt": "젯브레인스가 자연어와 코드로 처음부터 학습한 12B 파라미터 MoE 모델 Mellum2를 내놨다. 토큰당 2.5B만 활성화해 고처리량·저지연 추론에 효율적이다.",
+        "url": "https://huggingface.co/blog/JetBrains/mellum2-launch",
+        "source": "Hugging Face - Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-02T00:45:17+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "dev_004",
+        "title": "도커, AI 에이전트 보안 실무 가이드 공개",
+        "excerpt": "도커가 개발팀을 위한 AI 에이전트 보안 실무 개요를 발표했다. 에이전트 권한·격리·런타임 보안을 어떻게 다뤄야 하는지 정리했다.",
+        "url": "https://www.docker.com/blog/how-to-secure-ai-agents/",
+        "source": "Docker Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-03T01:11:02+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      },
+      {
+        "id": "dev_005",
+        "title": "Visual Studio Code 1.123 릴리스",
+        "excerpt": "마이크로소프트가 VS Code 1.123 버전을 공개했다. 에이전트·AI 워크플로 개선을 포함한 정기 업데이트를 담았다.",
+        "url": "https://code.visualstudio.com/updates/v1_123",
+        "source": "Visual Studio Code",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-04T02:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "dev_006",
+        "title": "클라우드플레어, 코어 유닛 부팅 시간을 수 시간에서 수 분으로 단축",
+        "excerpt": "클라우드플레어가 코어 유닛 부팅 시간을 기존 수 시간에서 수 분 수준으로 줄인 엔지니어링 과정을 공유했다.",
+        "url": "https://blog.cloudflare.com/optimizing-core-unit-boot-time/",
+        "source": "Cloudflare Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-02T01:53:39+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "bt_001",
+        "title": "마이크로소프트 Build 2026, Scout 비서·Project Solara 등 7대 발표",
+        "excerpt": "나델라가 이끈 키노트에서 마이크로소프트가 항상 켜진 개인 비서 Scout, 에이전트 기기용 OS Project Solara, 자사 AI 모델 업데이트, 새 Surface 하드웨어를 공개했다.",
+        "url": "https://www.theverge.com/tech/941738/microsoft-build-2026-biggest-announcements",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-06-03T04:23:52+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      },
+      {
+        "id": "bt_002",
+        "title": "마이크로소프트, OpenClaw 영감받은 개인 비서 'Scout' 출시",
+        "excerpt": "Build에서 공개된 Scout는 OpenClaw의 강력함과 유연함을 Microsoft 365에 가져오는 것을 목표로 한 새 AI 비서다.",
+        "url": "https://techcrunch.com/2026/06/02/microsoft-launches-scout-an-openclaw-inspired-personal-assistant/",
+        "source": "TechCrunch AI",
+        "category": "big_tech",
+        "publishedAt": "2026-06-03T03:02:44+09:00",
+        "readTime": 2,
+        "imageGradient": 5
+      },
+      {
+        "id": "bt_003",
+        "title": "마이크로소프트 'Project Solara'…AI 에이전트 기기용 새 OS",
+        "excerpt": "Build 2026에서 공개된 Project Solara는 AI 에이전트를 구동하는 기기를 위해 처음부터 설계된 OS다. Windows가 아닌 안드로이드 기반이며 데스크·배지 콘셉트 기기가 시연됐다.",
+        "url": "https://www.theverge.com/news/941830/microsoft-project-solara-os-ai-agent-gadgets",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-06-03T02:31:02+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      },
+      {
+        "id": "bt_004",
+        "title": "마이크로소프트, 차세대 양자 칩 Majorana 2 공개",
+        "excerpt": "마이크로소프트가 위상 양자 칩 차세대 버전 Majorana 2를 발표하며 유용한 양자 컴퓨팅까지의 시간표를 단축했다고 주장했다. 물리학계는 작년 Majorana 1과 마찬가지로 신중한 반응이다.",
+        "url": "https://www.theverge.com/news/940874/microsoft-majorana-2-quantum-chip-build",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-06-03T03:15:00+09:00",
+        "readTime": 2,
+        "imageGradient": 5
+      },
+      {
+        "id": "bt_005",
+        "title": "알파벳, AI 인프라 투자 위해 800억 달러 조달 추진",
+        "excerpt": "알파벳이 AI 구축 비용을 충당하기 위해 800억 달러 조달을 추진한다. 기업·소비자 모두에서 가용 공급을 넘어서는 강한 AI 수요를 겪고 있다고 밝혔다.",
+        "url": "https://techcrunch.com/2026/06/01/alphabet-plans-to-raise-80-billion-to-pay-for-ai-buildout/",
+        "source": "TechCrunch AI",
+        "category": "big_tech",
+        "publishedAt": "2026-06-02T07:55:09+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      },
+      {
+        "id": "bt_006",
+        "title": "트럼프, 업계 반발 끝 축소된 AI 감독 행정명령 서명",
+        "excerpt": "트럼프 대통령이 업계 반발 이후 수정된 AI 행정명령에 서명했다. 고급 모델에 대한 정부의 출시 전 검토를 자발적 사항으로만 요구하는 내용으로 완화됐다.",
+        "url": "https://techcrunch.com/2026/06/02/trump-signs-narrower-executive-order-on-ai-oversight-after-industry-objections/",
+        "source": "TechCrunch AI",
+        "category": "big_tech",
+        "publishedAt": "2026-06-03T01:23:08+09:00",
+        "readTime": 2,
+        "imageGradient": 5
+      },
+      {
+        "id": "bt_007",
+        "title": "엔비디아, MS·델·HP의 AI 에이전트 PC로 2000억 달러 CPU 시장 정조준",
+        "excerpt": "엔비디아가 마이크로소프트·델·HP와 함께 AI 에이전트 PC를 앞세워 2000억 달러 규모 CPU 시장에 도전한다. AI 에이전트를 안전하고 유용하게 대중화하면 큰 기회가 될 수 있다는 분석이다.",
+        "url": "https://techcrunch.com/2026/06/01/nvidia-chases-200b-cpu-market-with-ai-agent-pcs-from-microsoft-dell-and-hp/",
+        "source": "TechCrunch AI",
+        "category": "big_tech",
+        "publishedAt": "2026-06-02T06:35:00+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "어려운 날에 가장 영감을 주는 인용문 중 하나: \"네 손이 할 일을 네 힘을 다하여 행하라 네가 장차 가는 음부에는 일도 없고 계획도 없고 지식도 없고 지혜도 없음이니라\" 전도서 9:10",
+        "context": "OpenAI CEO 샘 올트먼이 힘든 시기에 영감을 주는 성경 구절을 인용했다. 격무가 이어지는 AI 업계 분위기를 엿볼 수 있다.",
+        "url": "https://x.com/sama/status/2061828631089844709",
+        "publishedAt": "2026-06-02T15:13:47.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "OpenAI 재단은 많은 멋진 일들을 하고 있습니다. AI에 대해 사회가 탄력성을 갖추도록 돕는 것은 매우 중요할 것입니다. 여기서 더 많은 소식이 있을 것입니다!",
+        "context": "올트먼이 OpenAI 재단의 활동을 소개하며 사회의 AI 회복력 강화를 강조했다. 추가 소식을 예고했다.",
+        "url": "https://x.com/sama/status/2061562575322492937",
+        "publishedAt": "2026-06-01T21:36:34.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "OpenAI는 이제 Amazon Bedrock에서 기업용으로 이용 가능합니다:",
+        "context": "브록먼이 OpenAI 모델이 Amazon Bedrock에서 기업용으로 제공된다고 알렸다. 클라우드 채널 확장의 일환이다.",
+        "url": "https://x.com/gdb/status/2061591739350282351",
+        "publishedAt": "2026-06-01T23:32:27.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Jack Clark",
+        "handle": "jackclarkSF",
+        "content": "일요일이니까 Import AI를 좀 느슨하게 다뤄봤어요. @akorinek 의 최근 재미있는 논문에 대해 썼는데, 경제에서 AI를 측정하는 방법에 관한 거예요. 내일 이슈 459에서 다룰 예정입니다.",
+        "context": "앤트로픽 공동창업자 잭 클락이 자신의 뉴스레터 Import AI 459호를 예고하며 경제 내 AI 측정 논문을 소개했다.",
+        "url": "https://x.com/jackclarkSF/status/2061241890394247249",
+        "publishedAt": "2026-06-01T00:22:17.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Matthew Botvinick",
+        "handle": "mattbotvinick",
+        "content": "Anthropic은 이제 AI와 법치주의에 전념하는 팀을 보유하고 있으며, 우리는 방금 첫 번째 역할을 개설했습니다. @AnthropicAI 는 AI가 경제에 미치는 의미를 연구해왔습니다. 이 팀은 다른 질문을 던집니다: 그것이 행정부 권력, 법원과 선거 — 그리고 헌법 민주주의가 궁극적으로 의지하는 공공 영역에 무엇을 의미하는가.",
+        "context": "앤트로픽 연구진 매튜 보트비닉이 'AI와 법치주의' 전담 팀 신설과 첫 채용을 알렸다. AI가 행정·사법·선거 등 공공 영역에 미치는 영향을 연구한다.",
+        "url": "https://x.com/mattbotvinick/status/2061429461103395276",
+        "publishedAt": "2026-06-01T12:47:37.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "우리는 Project Glasswing을 확장하고 있습니다. Claude Mythos Preview에 대한 액세스를 약 150개의 추가 조직에 확대했으며, 이들은 15개 이상의 국가에 기반을 두고 있습니다. 이 확장에 대해 더 알아보고 Project Glasswing의 미래 계획에 대해 읽어보세요:",
+        "context": "앤트로픽 공식 계정이 Project Glasswing 확장과 Claude Mythos 프리뷰를 15개국 150개 조직으로 넓혔다고 발표했다.",
+        "url": "https://x.com/AnthropicAI/status/2061796327986454883",
+        "publishedAt": "2026-06-02T13:05:25.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "Anthropic은 증권거래위원회에 S-1 등록 명세서 초안을 비공개로 제출했습니다. SEC 심사가 완료되는 것을 기다려, 이는 우리에게 초기 공모를 추진할 수 있는 선택권을 부여합니다. 더 읽기:",
+        "context": "앤트로픽이 SEC에 S-1 등록 명세서 초안을 비공개 제출했다고 밝혔다. 향후 IPO 추진 가능성을 시사한다.",
+        "url": "https://x.com/AnthropicAI/status/2061478052257841495",
+        "publishedAt": "2026-06-01T16:00:42.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "ClaudeDevs",
+        "handle": "ClaudeDevs",
+        "content": "Pro 및 Max 플랜의 모든 사용자에 대해 5시간 및 주간 속도 제한을 재설정했습니다. 일부 Claude Code 세션에서 과도한 병렬 하위 에이전트를 생성하여 예상보다 빠르게 사용량을 소모하게 하는 문제를 수정했습니다.",
+        "context": "Claude 개발자 계정이 Pro·Max 플랜 속도 제한을 재설정하고, 과도한 병렬 하위 에이전트로 사용량이 빨리 소진되던 문제를 수정했다고 알렸다.",
+        "url": "https://x.com/ClaudeDevs/status/2061501787769893055",
+        "publishedAt": "2026-06-01T17:35:01.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_009",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "법률 해석은 세계에서 가장 오래된 직업 중 하나입니다. @MaxJunestrand, @WeAreLegora 의 공동 창립자이자 CEO는 Claude를 통해 이를 다음 시대의 단계로 이끌고 있습니다. 그의 베팅: 모든 새로운 모델 출시는 물결을 높이고, Legora는 다른 모든 사람들을 위한 배를 만들고 있습니다.",
+        "context": "Claude 공식 계정이 리걸테크 스타트업 Legora의 CEO 맥스 유네스트란드 사례를 소개했다. 모델 발전이 곧 제품 가치로 이어진다는 베팅을 조명했다.",
+        "url": "https://x.com/claudeai/status/2061829558999912680",
+        "publishedAt": "2026-06-02T15:17:28.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_010",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "클라우드로 어려운 문제를 해결하는 창업자들을 조명하는 우리 시리즈, The Problem Solvers에서 소개합니다.",
+        "context": "Claude로 어려운 문제를 푸는 창업자를 다루는 'The Problem Solvers' 시리즈를 소개했다.",
+        "url": "https://x.com/claudeai/status/2061829560505655316",
+        "publishedAt": "2026-06-02T15:17:28.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_011",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "우리는 Codex를 더 유용하게 만들어 당신의 작업을 지원하기 위해 개별 도구를 넘어 플러그인을 확장하고 있습니다. 이러한 플러그인은 단일 설치로 Codex를 코딩 없이 특정 역할에 특화된 전문가로 바꿔줍니다. Codex는 판매, 데이터 분석, 크리에이티브 제작, 제품 디자인, 공공 주식 투자 등의 작업을 수행합니다.",
+        "context": "OpenAI 공식 계정이 Codex 역할별 플러그인을 발표했다. 단일 설치로 Codex를 직무 전문가로 바꾼다.",
+        "url": "https://x.com/OpenAI/status/2061887650391625870",
+        "publishedAt": "2026-06-02T19:08:18.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_012",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "더 빨리 준비하세요. 더 똑똑하게 판매하세요. Codex용 판매 플러그인.",
+        "context": "OpenAI가 영업 직군을 위한 Codex 판매 플러그인을 소개했다.",
+        "url": "https://x.com/OpenAI/status/2061887949516730502",
+        "publishedAt": "2026-06-02T19:09:29.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_013",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "질문에서 모델까지. Codex용 공공 주식 투자 플러그인.",
+        "context": "OpenAI가 공공 주식 투자용 Codex 플러그인을 소개했다. 질문에서 모델까지 직무 워크플로를 자동화한다.",
+        "url": "https://x.com/OpenAI/status/2061888058459570279",
+        "publishedAt": "2026-06-02T19:09:55.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_014",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "Codex의 역할별 플러그인은 실제로 업무 팀이 수행하는 작업을 중심으로 구축됩니다. 데이터 분석, 크리에이티브 제작, 제품 디자인을 위한 플러그인은 Codex가 보고서, 크리에이티브 방향, 프로토타입을 생성하는 데 필요한 도구와 맥락을 제공합니다. OpenAI 팀이 구축하고 사용합니다.",
+        "context": "OpenAI 개발자 계정이 실제 업무 팀 작업을 중심으로 만든 역할별 플러그인을 설명했다. 데이터 분석·크리에이티브·제품 디자인용 도구를 제공한다.",
+        "url": "https://x.com/OpenAIDevs/status/2061888366791246071",
+        "publishedAt": "2026-06-02T19:11:09.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_015",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "출력이 프로토타입일 때, Sites는 팀이 함께 검토할 수 있는 장소를 제공합니다.",
+        "context": "OpenAI 개발자 계정이 프로토타입 결과물을 팀이 함께 검토할 수 있는 'Sites' 기능을 강조했다.",
+        "url": "https://x.com/OpenAIDevs/status/2061888379093184727",
+        "publishedAt": "2026-06-02T19:11:12.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_016",
+        "author": "ChatGPT",
+        "handle": "ChatGPTapp",
+        "content": "긴 형식의 글은 약간 더 넓은 공간에서 더 잘 작동합니다. 이제 전체 화면에서 더 긴 글을 편집하고 나중에 다시 돌아올 수 있도록 라이브러리에 저장할 수 있습니다.",
+        "context": "ChatGPT 공식 계정이 전체 화면 장문 글쓰기 편집과 라이브러리 저장 기능을 소개했다.",
+        "url": "https://x.com/ChatGPTapp/status/2061571468992126982",
+        "publishedAt": "2026-06-01T22:11:55.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "와.. 오픈AI 업데이트로 또 많은 스타트업이 사라질 것 같습니다.. 오픈AI가 Codex의 대규모 업데이트인 'Sites(인터랙티브 웹/앱 제작 및 배포)'와 '역할 특화 플러그인(Role-Specific Plugins)', 그리고 '어노테이션(Annotations)'을 공식 발표했습니다. 이제 데이터나 기획안을 자연어로 설명하기만 하면 URL 하나로 접속해 바로 사용할 수 있는 대화형 웹앱이나 대시보드가 즉석에서 호스팅되는 구조입니다. 비개발자 사용자가 전체 Codex 유저의 20%를 넘고 개발자보다 3배 빠르게 성장하고 있는 시점에서 나온 플랫폼 선언입니다.",
+        "context": "OpenAI 소식을 한국어로 큐레이션하는 CHOI가 Codex의 'Sites'·역할별 플러그인 발표를 정리했다. 모델 공급사가 노코드 웹빌더 등 상위 앱 레이어를 흡수하는 '셜록킹' 우려를 짚었다.",
+        "url": "https://www.threads.net/@choi.openai/post/DZGGtnbD0iv",
+        "publishedAt": "2026-06-02T19:40:05.000Z",
+        "platform": "threads"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "역전파가 단 한 에포크 만에 V1 뇌 정렬을 무너뜨린다",
+        "originalTitle": "Backpropagation destroys V1 brain alignment in one epoch, tracking RSA alignment to fMRI across training for BP, FA, predictive coding, and STDP [R]",
+        "summary": "신경망 학습 초기 단계에서 역전파가 시각피질 V1과의 표현 정렬을 빠르게 잃는다는 관찰을 다룬 글이다. 생물학적 타당성 논의를 자극한다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1tupu9z/backpropagation_destroys_v1_brain_alignment_in/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-06-02T21:43:47+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "미니맥스 M3, 정치적 검열이 거의 없는 듯하다",
+        "originalTitle": "Minimax M3 appears to have no political censorship",
+        "summary": "새로 공개된 오픈 가중치 모델 미니맥스 M3가 민감한 정치 주제에 비교적 자유롭게 답한다는 사용자 관찰이다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tuv1sv/minimax_m3_appears_to_have_no_political_censorship/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-06-03T00:52:01+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "나는 조지 젯슨이 되었다: 내 일은 이제 에이전트에 대한 예/아니오 감독",
+        "originalTitle": "I have become George Jetson: my job is now Yes/No supervision for a machine I don’t fully understand.",
+        "summary": "코딩 에이전트가 대부분을 처리하면서 자신의 역할이 단순 승인 감독으로 바뀌었다는 자조 섞인 경험담이다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tuth0k/i_have_become_george_jetson_my_job_is_now_yesno/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-06-02T23:58:08+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "AI 병목이 이동했는데 대부분은 아직 따라잡지 못했다",
+        "originalTitle": "The AI bottleneck has shifted and most people haven't caught up yet",
+        "summary": "AI 활용의 진짜 병목이 모델 성능에서 워크플로·검증·신뢰로 옮겨갔다는 주장을 담은 토론 글이다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1tuqkp0/the_ai_bottleneck_has_shifted_and_most_people/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-06-02T22:12:37+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "아마존, 직원들이 부정행위하자 내부 AI 리더보드 폐쇄",
+        "originalTitle": "Amazon Shuts Down Internal AI Leaderboard After Employees Cheated",
+        "summary": "아마존이 사내 AI 평가 리더보드에서 직원들의 점수 조작이 드러나자 운영을 중단했다는 소식이다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1tuwous/amazon_shuts_down_internal_ai_leaderboard_after/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-06-03T01:47:27+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "Opus 4.8로 하루도 안 걸려 '테무판 롤'을 만들었다",
+        "originalTitle": "I had Opus 4.8 build Temu League of Legends in under a day - I call it LMAO",
+        "summary": "Claude Opus 4.8을 이용해 단시간에 간이 게임을 만든 경험을 공유한 글로, 최신 모델의 코딩 생산성을 보여준다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1tucsfe/i_had_opus_48_build_temu_league_of_legends_in/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-06-02T10:47:38+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "분기 없는 퀵소트, C로 std::sort·pdqsort보다 빠르다",
+        "originalTitle": "Branchless Quicksort faster than std::sort and pdqsort with C and C++ API",
+        "summary": "분기 예측 비용을 없앤 브랜치리스 퀵소트 구현이 표준 라이브러리 정렬보다 빠르다는 벤치마크를 다뤘다.",
+        "url": "https://www.reddit.com/r/programming/comments/1tupr5n/branchless_quicksort_faster_than_stdsort_and/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-06-02T21:40:18+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "이론 구축으로서의 프로그래밍, Naur (1985)",
+        "originalTitle": "Programming as Theory Building, Naur (1985). PDF-link",
+        "summary": "피터 나우어의 고전 논문을 다시 조명하며 코드보다 개발자의 머릿속 이론이 핵심이라는 관점을 토론한다.",
+        "url": "https://www.reddit.com/r/programming/comments/1tuha5f/programming_as_theory_building_naur_1985_pdflink/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-06-02T14:20:12+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "반AI 메인테이너, 오픈소스에 악성 프롬프트 인젝션 추가",
+        "originalTitle": "Anti-AI maintainer Johannes Link adds malicious prompt injection to popular Java library 'jqwik'",
+        "summary": "한 오픈소스 메인테이너가 AI 도구를 겨냥한 악성 프롬프트 인젝션을 코드에 넣어 논란이 된 사건을 다룬다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1tut9d4/antiai_maintainer_johannes_link_adds_malicious/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-06-02T23:50:39+09:00"
+      },
+      {
+        "id": "reddit_010",
+        "title": "버니 샌더스: AI는 공공 자원, 당신이 절반을 소유해야 한다",
+        "originalTitle": "Bernie Sanders: A.I. Is a Public Resource. You Should Own Half of It.",
+        "summary": "샌더스 상원의원이 AI를 공공 자원으로 규정하고 그 가치를 시민과 나눠야 한다고 주장한 발언을 소개한다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1tuo0n5/bernie_sanders_ai_is_a_public_resource_you_should/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-06-02T20:24:59+09:00"
+      },
+      {
+        "id": "reddit_011",
+        "title": "AI가 내가 프로그래밍에서 좋아하던 바로 그것을 죽였을지도",
+        "originalTitle": "AI may have killed precisely what I liked about programming",
+        "summary": "숙련 개발자가 AI 자동화로 인해 코딩의 재미와 장인적 만족이 사라졌다고 토로하는 글이다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1tuxecu/ai_may_have_killed_precisely_what_i_liked_about/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-06-03T02:11:04+09:00"
+      },
+      {
+        "id": "reddit_012",
+        "title": "당신이 다뤄본 '최악의' 코드베이스는?",
+        "originalTitle": "What is the \"worst\" code base you worked on?",
+        "summary": "숙련 개발자들이 경험한 최악의 레거시 코드베이스 사례를 공유하는 인기 토론 스레드다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1tuwocl/what_is_the_worst_code_base_you_worked_on/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-06-03T01:46:56+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "qb_001",
+        "title": "OpenAI 프런티어 모델·Codex, 이제 AWS에서 제공",
+        "excerpt": "OpenAI 프런티어 모델과 Codex가 AWS에서 정식 제공된다. 수백만 AWS 고객이 기존 보안·컴플라이언스·결제 워크플로 안에서 OpenAI를 도입할 수 있게 됐다.",
+        "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
+        "source": "OpenAI News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-01T19:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      },
+      {
+        "id": "qb_002",
+        "title": "우버, 4개월 만에 예산 초과하자 직원 AI 지출 상한 도입",
+        "excerpt": "우버가 직원들에게 AI를 적극 쓰라고 독려한 뒤 4개월 만에 예산을 초과하자 AI 지출에 상한을 뒀다.",
+        "url": "https://techcrunch.com/2026/06/02/uber-caps-employee-ai-spending-after-blowing-through-budget-in-four-months/",
+        "source": "TechCrunch AI",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-03T04:11:48+09:00",
+        "readTime": 2,
+        "imageGradient": 7
+      },
+      {
+        "id": "qb_003",
+        "title": "구글, 제미나이로 Google I/O 2026를 만든 과정 공개",
+        "excerpt": "구글이 해파리 프리쇼부터 'TPU 트레이닝 데이' 영상까지 제미나이가 올해 I/O 제작에 어떻게 활용됐는지 비하인드를 공개했다.",
+        "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
+        "source": "AI & Machine Learning",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-02T01:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      },
+      {
+        "id": "qb_004",
+        "title": "엔비디아 Jetson, 물리 세계로 에이전트 AI 확장",
+        "excerpt": "엔비디아가 Jetson 플랫폼으로 에이전트 AI를 물리 세계의 로봇·기기로 확장한다고 밝혔다.",
+        "url": "https://blogs.nvidia.com/blog/jetson-agentic-ai-physical-world/",
+        "source": "NVIDIA Blog",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-02T11:00:40+09:00",
+        "readTime": 2,
+        "imageGradient": 7
+      }
+    ]
+  }
+}

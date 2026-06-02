@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-06-03",
+      "issueNumber": 64,
+      "mainHeadline": "OpenAI, Codex를 전 직군 생산성 플랫폼으로…MS Build 2026도 에이전트 총공세",
+      "headlines": [
+        "앤트로픽, Claude Mythos를 15개국 핵심 인프라로 확대…S-1 초안도 제출",
+        "엔비디아·MS, Windows에서 클라우드까지 잇는 에이전트 풀스택 공개",
+        "미니맥스 M3, GPT-5.5·제미나이 3.1 프로 능가하며 비용은 5~10%"
+      ]
+    },
+    {
       "date": "2026-06-02",
       "issueNumber": 63,
       "mainHeadline": "Anthropic 기업공개 착수 — AI 패권 경쟁 새 국면",
@@ -650,5 +660,5 @@
       ]
     }
   ],
-  "latestIssue": 63
+  "latestIssue": 64
 }
