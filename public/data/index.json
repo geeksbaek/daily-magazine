@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-06-04",
+      "issueNumber": 65,
+      "mainHeadline": "알파벳, 구글 AI에 사상 최대 850억 달러…MS·오픈AI는 결별 후 정면 충돌",
+      "headlines": [
+        "오픈AI, 프론티어 AI 민주적 거버넌스 청사진·공공정책 어젠다 공개",
+        "구글 젬마 4 12B, 인코더 없는 통합 멀티모달 모델로 개발자 열광",
+        "저작권 소송 와중 수노 4억 달러 조달…기업가치 54억 달러 돌파"
+      ]
+    },
+    {
       "date": "2026-06-03",
       "issueNumber": 64,
       "mainHeadline": "OpenAI, Codex를 전 직군 생산성 플랫폼으로…MS Build 2026도 에이전트 총공세",
@@ -660,5 +670,5 @@
       ]
     }
   ],
-  "latestIssue": 64
+  "latestIssue": 65
 }

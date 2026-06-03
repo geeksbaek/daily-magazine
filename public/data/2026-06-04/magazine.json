@@ -1,0 +1,741 @@
+{
+  "date": "2026-06-04",
+  "issueNumber": 65,
+  "cover": {
+    "mainHeadline": "알파벳, 구글 AI에 사상 최대 850억 달러…MS·오픈AI는 결별 후 정면 충돌",
+    "mainExcerpt": "알파벳이 구글 AI 사업 확장을 위해 850억 달러 규모의 기록적 자금을 조달하며 AI 투자 열기를 입증했다. 같은 날 마이크로소프트는 빌드 2026에서 자체 추론 모델과 에이전트를 대거 공개하며 오픈AI와의 경쟁 구도를 분명히 했고, 오픈AI는 프론티어 AI 민주적 거버넌스 청사진을 내놓았다.",
+    "headlines": [
+      "오픈AI, 프론티어 AI 민주적 거버넌스 청사진·공공정책 어젠다 공개",
+      "구글 젬마 4 12B, 인코더 없는 통합 멀티모달 모델로 개발자 열광",
+      "저작권 소송 와중 수노 4억 달러 조달…기업가치 54억 달러 돌파"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_001",
+      "title": "알파벳, 구글 AI 사업에 사상 최대 850억 달러 조달",
+      "excerpt": "알파벳이 구글 AI 사업 확장을 위해 850억 달러 규모의 사상 최대 주식 발행에 나섰다. 투자자들의 AI 관련 투자 열기를 보여주는 강력한 신호로 평가된다.",
+      "body": "알파벳이 구글의 AI 사업을 키우기 위해 850억 달러라는 기록적인 규모의 주식 매각을 단행했다. 테크크런치는 이번 조달이 AI 관련 기업공개와 자금 조달에 대한 투자자들의 식지 않는 수요를 입증하는 사례라고 분석했다. 막대한 인프라 투자 경쟁이 이어지는 가운데, 빅테크가 자본 시장에서 AI 베팅을 위한 실탄을 빠르게 확보하고 있음을 보여준다.",
+      "url": "https://techcrunch.com/2026/06/03/alphabets-record-breaking-85b-raise-for-googles-ai-business-is-a-helluva-good-signal/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-06-04T04:38:32+09:00",
+      "readTime": 4,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_020",
+      "title": "결별한 마이크로소프트와 오픈AI, 이제 경쟁자로 맞붙는다",
+      "excerpt": "마이크로소프트가 빌드 컨퍼런스에서 슈퍼앱, 자체 추론 모델, 사이버보안 도구, AI 에이전트 등을 대거 발표했다. 오픈AI와의 경쟁 구도가 선명해졌다.",
+      "body": "마이크로소프트가 연례 빌드 컨퍼런스에서 슈퍼앱, 자체 개발 추론 모델, 사이버보안 도구, OpenClaw 스타일의 AI 에이전트 등 새롭거나 확장된 AI 이니셔티브를 쏟아냈다. 더 버지는 이 모든 발표가 '마이크로소프트가 AI 분야 최대 플레이어 중 하나로 자리매김하려 한다'는 분명한 메시지로 수렴한다고 분석했다. 한때 긴밀한 파트너였던 오픈AI와 마이크로소프트가 이제는 정면으로 경쟁하는 국면에 접어들었다.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/942242/microsoft-build-ai-agents-openai-competition",
+      "source": "The Verge",
+      "category": "big_tech",
+      "publishedAt": "2026-06-03T23:04:00+09:00",
+      "readTime": 4,
+      "imageGradient": 4
+    },
+    {
+      "id": "rss_002",
+      "title": "오픈AI, 프론티어 AI 민주적 거버넌스 청사진 공개",
+      "excerpt": "오픈AI가 미국이 프론티어 AI 안전을 위한 지속 가능한 제도를 구축하는 방법을 담은 청사진을 발표했다. 권력 집중을 막고 기술을 민주화한다는 원칙을 강조했다.",
+      "body": "오픈AI가 '프론티어 AI의 민주적 거버넌스를 위한 청사진'을 공개하며 안전 제도화 방안을 제시했다. 회사는 AGI가 인류 전체에 혜택을 주도록 한다는 사명 아래, 기술이 소수에게 권력을 집중시키는 것에 저항하겠다는 민주화 원칙을 핵심으로 내세웠다. 같은 날 공개된 공공정책 어젠다와 함께, 미국 정부 및 백악관과의 협력 속에서 프론티어 AI 안전을 위한 지속 가능한 거버넌스 구조를 만들겠다는 구상을 담았다.",
+      "url": "https://openai.com/index/frontier-safety-blueprint",
+      "source": "OpenAI News",
+      "category": "ai_ml",
+      "publishedAt": "2026-06-03T19:00:00+09:00",
+      "readTime": 5,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_021",
+      "title": "저작권 소송 와중에도 AI 음악 생성 수노, 4억 달러 추가 조달",
+      "excerpt": "AI 음악 생성 스타트업 수노가 저작권 소송이 진행되는 가운데 4억 달러를 추가로 유치했다. 기업가치는 54억 달러를 넘어섰다.",
+      "body": "AI 음악 생성 분야의 대표 스타트업 수노(Suno)가 여전히 저작권 소송에 직면한 상황에서 4억 달러를 추가로 조달했다. 이로써 수노의 기업가치는 54억 달러를 넘어섰는데, 약 7개월 전 24억 5천만 달러 가치로 자금을 유치했던 것과 비교하면 두 배 이상 뛴 수치다. 법적 리스크에도 불구하고 생성형 AI 음악에 대한 투자 열기가 식지 않고 있음을 보여준다.",
+      "url": "https://techcrunch.com/2026/06/03/still-facing-copyright-lawsuits-ai-music-generator-suno-raises-another-400m/",
+      "source": "TechCrunch",
+      "category": "big_tech",
+      "publishedAt": "2026-06-04T00:31:42+09:00",
+      "readTime": 4,
+      "imageGradient": 5
+    },
+    {
+      "id": "rss_024",
+      "title": "엔비디아, 에이전트 스킬로 피지컬 AI 연구 새 시대 연다",
+      "excerpt": "엔비디아가 CVPR에서 자율주행차·로봇·비전 AI 개발을 가속하는 새로운 피지컬 AI 에이전트 스킬을 공개했다.",
+      "body": "엔비디아가 CVPR에서 연구자와 개발자가 자율주행차, 로봇, 비전 AI 시스템 개발을 앞당길 수 있게 돕는 새로운 피지컬 AI 에이전트 스킬을 발표했다. 엔비디아는 피지컬 AI 연구의 핵심 과제가 단순히 더 강력한 모델을 만드는 것이 아니라, 실제 장면을 재구성하고 엣지 케이스 시나리오를 생성하며 정책을 학습·평가하는 전체 워크플로우를 구축하는 데 있다고 강조했다.",
+      "url": "https://blogs.nvidia.com/blog/cvpr-physical-ai-research-agent-skills/",
+      "source": "NVIDIA Blog",
+      "category": "big_tech",
+      "publishedAt": "2026-06-04T00:00:35+09:00",
+      "readTime": 4,
+      "imageGradient": 4
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_001",
+        "title": "알파벳, 구글 AI 사업에 사상 최대 850억 달러 조달",
+        "excerpt": "알파벳이 구글 AI 사업 확장을 위해 850억 달러 규모의 사상 최대 주식 발행에 나섰다. 투자자들의 AI 관련 투자 열기를 보여주는 강력한 신호로 평가된다.",
+        "body": "알파벳이 구글의 AI 사업을 키우기 위해 850억 달러라는 기록적인 규모의 주식 매각을 단행했다. 테크크런치는 이번 조달이 AI 관련 기업공개와 자금 조달에 대한 투자자들의 식지 않는 수요를 입증하는 사례라고 분석했다. 막대한 인프라 투자 경쟁이 이어지는 가운데, 빅테크가 자본 시장에서 AI 베팅을 위한 실탄을 빠르게 확보하고 있음을 보여준다.",
+        "url": "https://techcrunch.com/2026/06/03/alphabets-record-breaking-85b-raise-for-googles-ai-business-is-a-helluva-good-signal/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-04T04:38:32+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_002",
+        "title": "오픈AI, 프론티어 AI 민주적 거버넌스 청사진 공개",
+        "excerpt": "오픈AI가 미국이 프론티어 AI 안전을 위한 지속 가능한 제도를 구축하는 방법을 담은 청사진을 발표했다. 권력 집중을 막고 기술을 민주화한다는 원칙을 강조했다.",
+        "body": "오픈AI가 '프론티어 AI의 민주적 거버넌스를 위한 청사진'을 공개하며 안전 제도화 방안을 제시했다. 회사는 AGI가 인류 전체에 혜택을 주도록 한다는 사명 아래, 기술이 소수에게 권력을 집중시키는 것에 저항하겠다는 민주화 원칙을 핵심으로 내세웠다. 같은 날 공개된 공공정책 어젠다와 함께, 미국 정부 및 백악관과의 협력 속에서 프론티어 AI 안전을 위한 지속 가능한 거버넌스 구조를 만들겠다는 구상을 담았다.",
+        "url": "https://openai.com/index/frontier-safety-blueprint",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-03T19:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_003",
+        "title": "오픈AI, 5대 원칙 담은 공공정책 어젠다 발표",
+        "excerpt": "오픈AI가 AGI가 인류 전체에 혜택을 주도록 한다는 사명에 기반한 공공정책 어젠다를 공개했다. 민주화를 비롯한 다섯 가지 핵심 원칙이 정책 참여 방식을 규정한다.",
+        "body": "오픈AI가 자사의 AI 개발과 공공정책 참여를 이끄는 다섯 가지 핵심 원칙을 담은 공공정책 어젠다를 발표했다. 첫 번째 원칙으로 '민주화'를 내세워 이 기술이 권력을 소수의 손에 집중시킬 가능성에 저항하겠다고 밝혔다. AGI가 인류 전체에 혜택을 주도록 보장한다는 사명을 정책 영역에서 어떻게 구현할지에 대한 방향을 제시했다.",
+        "url": "https://openai.com/index/public-policy-agenda",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-03T19:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_004",
+        "title": "구글 드림빈스, 당신의 일상을 만화로 바꾸는 AI 도구",
+        "excerpt": "구글이 가장 독특한 이름의 AI 도구 '드림빈스'를 선보였다. 구글 계정의 개인 데이터를 바탕으로 AI가 삽화로 그린 '이야기' 목록을 큐레이션해 준다.",
+        "body": "구글이 지금까지 가장 기묘한 이름을 가진 AI 도구 '드림빈스(Dreambeans)'를 공개했다. 이 도구는 사용자의 구글 계정에 담긴 개인 데이터를 끌어와 AI가 삽화로 표현한 '스토리' 목록을 만들어준다. 일상의 데이터를 만화 같은 시각적 이야기로 재구성한다는 점에서, 개인 데이터를 활용한 생성형 AI 소비자 제품의 새로운 실험으로 주목된다.",
+        "url": "https://techcrunch.com/2026/06/03/googles-dreambeans-its-weirdest-named-ai-tool-to-date-will-turn-your-life-into-a-cartoon/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-04T04:07:42+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_005",
+        "title": "메타, 왓츠앱 비즈니스용 AI 에이전트 전 세계 출시",
+        "excerpt": "메타가 왓츠앱 비즈니스용 AI 에이전트를 전 세계에 출시했다. 기업은 토큰 사용량을 기준으로 에이전트 이용 요금을 지불하게 된다.",
+        "body": "메타가 기업 고객을 위한 왓츠앱 비즈니스 AI 에이전트를 전 세계로 확대 출시했다. 왓츠앱은 이 AI 에이전트 사용에 대해 토큰 사용량 기반으로 기업에 과금하는 방식을 도입한다. 메시징 플랫폼에 상업용 AI 에이전트를 본격적으로 결합하며, 고객 응대 자동화 시장에서 메타의 영향력 확대를 노린 행보로 풀이된다.",
+        "url": "https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-03T22:40:00+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_006",
+        "title": "허깅페이스: 챗봇을 넘어선 DPO 활용법",
+        "excerpt": "허깅페이스 블로그가 직접 선호 최적화(DPO)를 챗봇 정렬을 넘어 더 넓은 영역에 적용하는 방법을 다뤘다. DPO의 활용 범위를 확장하는 실용적 접근을 제시한다.",
+        "body": "허깅페이스 커뮤니티 블로그에 '챗봇을 넘어선 직접 선호 최적화(DPO)' 글이 게재됐다. DPO는 그동안 대화형 모델의 선호 정렬에 주로 쓰였지만, 이 글은 챗봇 외의 다양한 작업으로 기법을 확장하는 방법론을 소개한다. 선호 기반 학습이 어떻게 더 폭넓은 머신러닝 문제에 응용될 수 있는지 실무적 관점에서 설명한다.",
+        "url": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
+        "source": "Hugging Face - Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-03T21:55:11+09:00",
+        "readTime": 5,
+        "imageGradient": 1
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_010",
+        "title": "비주얼 스튜디오 코드 1.123 출시",
+        "excerpt": "마이크로소프트가 VS Code 1.123 버전을 공개했다. 에디터의 새로운 기능과 개선 사항을 담은 정기 업데이트다.",
+        "body": "마이크로소프트가 코드 에디터 비주얼 스튜디오 코드의 1.123 버전을 출시했다. 이번 릴리스는 에이전트 기반 개발 환경 강화 흐름 속에서 편집 경험과 생산성 기능을 다듬은 정기 업데이트로, 개발자 워크플로우 전반의 사용성을 높이는 변경 사항을 포함한다.",
+        "url": "https://code.visualstudio.com/updates/v1_123",
+        "source": "Visual Studio Code",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-04T02:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_011",
+        "title": "Vercel AI 게이트웨이에 xAI 그록 이매진 비디오 1.5 추가",
+        "excerpt": "xAI의 그록 이매진 비디오 1.5가 Vercel AI 게이트웨이에서 제공된다. 입력 이미지로부터 오디오가 동기화된 영상을 단일 패스로 생성한다.",
+        "body": "Vercel이 AI 게이트웨이에 xAI의 그록 이매진 비디오 1.5 모델을 추가했다. 이 모델은 입력 이미지로부터 오디오가 동기화된 영상을 한 번의 패스로 생성하며, 이번 버전에서 오디오 품질과 프롬프트 준수도, 포토리얼리즘이 향상됐다. 긴 시퀀스에서도 얼굴 정확도와 캐릭터 일관성이 강화됐고, 참조 이미지 지원이 확장돼 시각적 스타일 제어가 한층 정교해졌다.",
+        "url": "https://vercel.com/changelog/grok-imagine-video-1-5-on-ai-gateway",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-03T09:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_012",
+        "title": "깃허브 코파일럿 앱: 에이전트 네이티브 데스크톱 경험",
+        "excerpt": "깃허브가 마이크로소프트 빌드 2026에서 에이전트가 기존 작업 방식대로 일할 수 있게 하는 코파일럿 데스크톱 앱과 새 도구들을 공개했다.",
+        "body": "깃허브가 마이크로소프트 빌드 2026에서 '에이전트 네이티브' 데스크톱 경험을 표방한 코파일럿 앱을 선보였다. 새로운 도구와 업데이트, 인터페이스를 통해 AI 에이전트가 개발자가 이미 일하는 방식 그대로 작업을 수행할 수 있도록 설계됐다. 에이전트 중심으로 재편되는 개발 도구 흐름 속에서 깃허브가 데스크톱 환경을 전면에 내세운 점이 특징이다.",
+        "url": "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-03T02:30:03+09:00",
+        "readTime": 4,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_013",
+        "title": "도커, 개발팀을 위한 AI 에이전트 보안 가이드",
+        "excerpt": "도커가 AI 에이전트 보안 실무 개요를 발표했다. 조직의 45%가 에이전트가 사용하는 도구의 보안 확보에 어려움을 겪는다는 조사 결과를 짚었다.",
+        "body": "도커가 개발팀을 위한 AI 에이전트 보안 실무 가이드를 공개했다. 도커의 '에이전틱 AI 현황' 보고서에 따르면 조직의 45%가 에이전트가 사용하는 도구를 안전하고 엔터프라이즈급으로 유지하는 데 어려움을 겪고 있다. 이는 AI 에이전트가 보안 관행이 성숙하는 속도보다 빠르게 프로덕션에 투입되고 있는 현실을 반영하며, 가이드는 이 격차를 줄이기 위한 실용적 접근을 제시한다.",
+        "url": "https://www.docker.com/blog/how-to-secure-ai-agents/",
+        "source": "Docker Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-03T01:11:02+09:00",
+        "readTime": 4,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_014",
+        "title": "클라우드플레어, BGP AS_PATH의 First AS 강제 적용",
+        "excerpt": "클라우드플레어가 BGP 경로 하이재킹과 경로 누출에 대응하기 위해 AS_PATH의 첫 AS를 강제하는 메커니즘을 적용했다.",
+        "body": "클라우드플레어가 인터넷 트래픽에 악영향을 주는 BGP 경로 하이재킹과 경로 누출 문제에 대응하기 위해 'First AS 강제 적용' 메커니즘을 도입했다. RPKI가 일부 문제를 해결하지만, 위조된 일부 경로에 대해서는 AS_PATH의 첫 번째 AS를 검증하는 더 단순한 방식이 필요하다는 설명이다. 라우팅 보안을 강화하기 위한 실무적 조치로 주목된다.",
+        "url": "https://blog.cloudflare.com/enforce-first-as-bgp/",
+        "source": "Cloudflare Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-04T02:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_015",
+        "title": "Vercel Blob, 시간 제한 서명 URL 지원",
+        "excerpt": "Vercel Blob에서 만료 시간이 있는 서명 URL을 생성할 수 있게 됐다. 저장소 전체 접근 권한을 주지 않고도 특정 객체에 대한 작업을 허용한다.",
+        "body": "Vercel이 Blob 스토리지에 시간 제한 서명 URL 기능을 추가했다. 서명 URL은 만료 시간이 설정된 범위 제한 URL로, 저장소 전체에 대한 접근 권한을 주지 않고도 특정 객체의 업로드·다운로드·조회·삭제를 허용한다. 각 URL은 단일 작업과 단일 경로, 최대 7일까지의 만료 시간으로 범위가 한정되며, 서명이 작업과 제약을 포함해 GET용 URL을 PUT으로 재사용할 수 없도록 막는다.",
+        "url": "https://vercel.com/changelog/signed-urls-are-now-available-for-vercel-blob",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-02T09:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 3
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_020",
+        "title": "결별한 마이크로소프트와 오픈AI, 이제 경쟁자로 맞붙는다",
+        "excerpt": "마이크로소프트가 빌드 컨퍼런스에서 슈퍼앱, 자체 추론 모델, 사이버보안 도구, AI 에이전트 등을 대거 발표했다. 오픈AI와의 경쟁 구도가 선명해졌다.",
+        "body": "마이크로소프트가 연례 빌드 컨퍼런스에서 슈퍼앱, 자체 개발 추론 모델, 사이버보안 도구, OpenClaw 스타일의 AI 에이전트 등 새롭거나 확장된 AI 이니셔티브를 쏟아냈다. 더 버지는 이 모든 발표가 '마이크로소프트가 AI 분야 최대 플레이어 중 하나로 자리매김하려 한다'는 분명한 메시지로 수렴한다고 분석했다. 한때 긴밀한 파트너였던 오픈AI와 마이크로소프트가 이제는 정면으로 경쟁하는 국면에 접어들었다.",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/942242/microsoft-build-ai-agents-openai-competition",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-06-03T23:04:00+09:00",
+        "readTime": 4,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_021",
+        "title": "저작권 소송 와중에도 AI 음악 생성 수노, 4억 달러 추가 조달",
+        "excerpt": "AI 음악 생성 스타트업 수노가 저작권 소송이 진행되는 가운데 4억 달러를 추가로 유치했다. 기업가치는 54억 달러를 넘어섰다.",
+        "body": "AI 음악 생성 분야의 대표 스타트업 수노(Suno)가 여전히 저작권 소송에 직면한 상황에서 4억 달러를 추가로 조달했다. 이로써 수노의 기업가치는 54억 달러를 넘어섰는데, 약 7개월 전 24억 5천만 달러 가치로 자금을 유치했던 것과 비교하면 두 배 이상 뛴 수치다. 법적 리스크에도 불구하고 생성형 AI 음악에 대한 투자 열기가 식지 않고 있음을 보여준다.",
+        "url": "https://techcrunch.com/2026/06/03/still-facing-copyright-lawsuits-ai-music-generator-suno-raises-another-400m/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-06-04T00:31:42+09:00",
+        "readTime": 4,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_022",
+        "title": "아마존, 검색하면 AI 생성 제품 이미지를 보여준다",
+        "excerpt": "아마존이 비주얼 서치와 AI를 활용해 검색어에 맞는 AI 생성 제품 이미지를 보여주는 기능을 도입한다. 사용자를 제품으로 안내하는 데 도움이 된다는 설명이다.",
+        "body": "아마존이 일부 검색에 대해 AI가 생성한 제품 이미지를 노출하는 기능을 도입한다. 비주얼 서치와 AI를 결합해 사용자의 검색 질의에 맞는 이미지를 만들어 보여주며, 회사는 이것이 사용자를 적절한 제품으로 안내하는 데 도움이 된다고 밝혔다. 다만 실제 판매 제품이 아닌 AI 생성 이미지를 검색 결과에 섞는 방식에 대해 의문을 제기하는 시선도 있다.",
+        "url": "https://techcrunch.com/2026/06/03/amazon-will-show-ai-product-images-when-you-search-for-some-reason/",
+        "source": "TechCrunch AI",
+        "category": "big_tech",
+        "publishedAt": "2026-06-04T00:50:26+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_023",
+        "title": "깃랩, AI 워크로드 대응 위해 인력 14% 감축",
+        "excerpt": "깃랩이 AI 워크로드를 지원하도록 플랫폼을 확장하면서 인력의 14%를 감축한다. 22개국에서 철수하고 관리 계층을 줄이며 인프라에 투자한다.",
+        "body": "깃랩이 플랫폼을 AI 워크로드 지원에 맞게 확장하는 과정에서 전체 인력의 14%를 감축한다고 밝혔다. 회사는 22개국에서 사업을 철수하고 관리 계층을 축소하는 한편, 플랫폼 확장을 위한 인프라에 투자를 집중한다. AI 시대에 맞춰 조직과 비용 구조를 재편하려는 움직임으로, 개발자 플랫폼 업계의 구조조정 흐름을 보여준다.",
+        "url": "https://techcrunch.com/2026/06/03/gitlab-cuts-14-of-staff-as-it-scales-its-platform-to-serve-ai-workloads/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-06-03T23:59:30+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_024",
+        "title": "엔비디아, 에이전트 스킬로 피지컬 AI 연구 새 시대 연다",
+        "excerpt": "엔비디아가 CVPR에서 자율주행차·로봇·비전 AI 개발을 가속하는 새로운 피지컬 AI 에이전트 스킬을 공개했다.",
+        "body": "엔비디아가 CVPR에서 연구자와 개발자가 자율주행차, 로봇, 비전 AI 시스템 개발을 앞당길 수 있게 돕는 새로운 피지컬 AI 에이전트 스킬을 발표했다. 엔비디아는 피지컬 AI 연구의 핵심 과제가 단순히 더 강력한 모델을 만드는 것이 아니라, 실제 장면을 재구성하고 엣지 케이스 시나리오를 생성하며 정책을 학습·평가하는 전체 워크플로우를 구축하는 데 있다고 강조했다.",
+        "url": "https://blogs.nvidia.com/blog/cvpr-physical-ai-research-agent-skills/",
+        "source": "NVIDIA Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-06-04T00:00:35+09:00",
+        "readTime": 4,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_025",
+        "title": "애플, 2026 애플 디자인 어워드 수상작 발표",
+        "excerpt": "애플이 2026 애플 디자인 어워드 수상작을 공개했다. 6개 부문에 걸쳐 뛰어난 앱과 게임 디자인을 선정했다.",
+        "body": "애플이 2026 애플 디자인 어워드의 수상작을 발표했다. 이번 어워드는 6개 부문에 걸쳐 탁월한 앱과 게임 디자인을 인정하며, 매년 앱 생태계에서 디자인 완성도와 혁신을 보여준 작품들을 조명한다. 애플 플랫폼에서 활동하는 개발자와 디자이너들의 성취를 기리는 연례 행사다.",
+        "url": "https://www.apple.com/newsroom/2026/06/apple-reveals-winners-of-the-2026-apple-design-awards/",
+        "source": "Apple Newsroom",
+        "category": "big_tech",
+        "publishedAt": "2026-06-03T02:00:46+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "미국은 최고의 AI 모델 개발을 계속하고, 그것들이 안전한지 확인하며, 신뢰할 수 있는 수호자들의 손에 사이버 도구를 쥐여주는 방식으로 AI 분야를 선도해야 한다. 새로운 EO는 균형을 잘 맞췄다.",
+        "context": "오픈AI CEO 샘 올트먼이 미국의 새 AI 행정명령(EO)을 평가한 글. 최고 모델 개발, 안전성 검증, 신뢰할 수 있는 주체의 사이버 도구 확보 사이의 균형을 긍정적으로 봤다.",
+        "url": "https://x.com/sama/status/2061973280655904815",
+        "publishedAt": "2026-06-03T00:48:34.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "OpenAI 재단은 많은 멋진 일들을 하고 있습니다. AI에 대해 사회가 탄력성을 갖추도록 돕는 것은 매우 중요할 것입니다. 여기서 더 많은 소식이 있을 것입니다!",
+        "context": "샘 올트먼이 오픈AI 재단의 활동을 소개하며, AI에 대한 사회적 회복력 강화의 중요성을 강조했다.",
+        "url": "https://x.com/sama/status/2061562575322492937",
+        "publishedAt": "2026-06-01T21:36:34.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "우리는 프론티어 AI의 민주적 거버넌스에 대한 청사진을 제시했으며, 미국이 프론티어 AI 안전을 위한 지속 가능한 제도를 구축하는 방법에 대해 다루었습니다.",
+        "context": "오픈AI 사장 그렉 브록먼이 회사가 공개한 프론티어 AI 민주적 거버넌스 청사진을 공유하며 미국의 지속 가능한 AI 안전 제도 구축 방안을 언급했다.",
+        "url": "https://x.com/gdb/status/2062259921664835833",
+        "publishedAt": "2026-06-03T19:47:34.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "컴퓨터 작업을 위한 Codex는 매우 빠르게 성장하고 있다.",
+        "context": "그렉 브록먼이 컴퓨터 작업용 Codex의 빠른 성장세를 짧게 짚은 글이다.",
+        "url": "https://x.com/gdb/status/2062080673632895138",
+        "publishedAt": "2026-06-03T07:55:18.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "Codex를 사용하여 팀에 앱을 빌드하고 출시하세요.",
+        "context": "그렉 브록먼이 Codex로 팀을 위한 앱을 빌드·출시할 수 있다고 소개했다. Codex의 활용 범위 확장을 보여준다.",
+        "url": "https://x.com/gdb/status/2061988413105156128",
+        "publishedAt": "2026-06-03T01:48:42.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "OpenAI는 이제 Amazon Bedrock에서 기업용으로 이용 가능합니다.",
+        "context": "그렉 브록먼이 오픈AI 모델이 아마존 베드록에서 기업용으로 제공된다는 소식을 전했다.",
+        "url": "https://x.com/gdb/status/2061591739350282351",
+        "publishedAt": "2026-06-01T23:32:27.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "워크플로우는 스킬과 서브에이전트 이후 Claude Code의 기능에 가장 큰 업그레이드입니다. @sidbid 와 함께 깊이 파고들어 모범 사례, 예시 등을 알아봤습니다. Claude Code가 가능하게 하는 비기술적 작업에 특히 흥분됩니다.",
+        "context": "앤트로픽 Claude Code 팀의 Thariq가 새 '워크플로우' 기능을 소개했다. 스킬·서브에이전트 이후 가장 큰 업그레이드라며 비기술 작업 자동화 가능성을 강조했다.",
+        "url": "https://x.com/trq212/status/2061907538741006796",
+        "publishedAt": "2026-06-02T20:27:20.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "이 프롬프트가 잘 작성된 것처럼 느껴진다면, 그것은 수잔이 그녀의 소중한 여가 시간에 작가이기 때문입니다! 그녀의 단편 소설 Mall of America를 읽어보세요. 인간의 조건에 관한 나의 가장 좋아하는 단편 소설 중 하나로, 우연히 AI가 관련된 이야기입니다.",
+        "context": "Thariq가 동료가 여가 시간에 쓴 단편 소설 'Mall of America'를 추천하며, AI가 등장하는 인간 조건에 관한 이야기라고 소개했다.",
+        "url": "https://x.com/trq212/status/2062217018187923783",
+        "publishedAt": "2026-06-03T16:57:05.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_009",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "우리는 Codex를 더 유용하게 만들어 당신의 작업을 지원하기 위해 개별 도구를 넘어 플러그인을 확장하고 있습니다. 이러한 플러그인은 단일 설치로 Codex를 코딩 없이 특정 역할에 특화된 전문가로 바꿔줍니다. 판매, 데이터 분석, 크리에이티브 제작, 제품 디자인, 공개 주식 투자 등.",
+        "context": "오픈AI 공식 계정이 Codex를 개별 도구를 넘어 플러그인으로 확장한다고 발표했다. 단일 설치로 Codex를 판매·데이터분석·디자인 등 역할별 전문가로 바꿔준다.",
+        "url": "https://x.com/OpenAI/status/2061887650391625870",
+        "publishedAt": "2026-06-02T19:08:18.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_010",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "더 빨리 준비하세요. 더 똑똑하게 판매하세요. Codex용 판매 플러그인.",
+        "context": "오픈AI가 Codex용 판매(Sales) 플러그인을 소개했다. 더 빠른 준비와 똑똑한 판매를 내세웠다.",
+        "url": "https://x.com/OpenAI/status/2061887949516730502",
+        "publishedAt": "2026-06-02T19:09:29.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_011",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "역할별 플러그인은 실제로 업무 팀이 수행하는 작업을 중심으로 구축됩니다. 데이터 분석, 크리에이티브 제작, 제품 디자인을 위한 플러그인은 Codex가 보고서, 크리에이티브 방향, 프로토타입을 생성하는 데 필요한 도구와 맥락을 제공합니다. OpenAI 팀이 직접 구축하고 사용합니다.",
+        "context": "오픈AI 개발자 계정이 데이터 분석·크리에이티브·제품 디자인용 역할별 플러그인을 소개했다. 오픈AI 팀이 직접 구축·사용한다고 밝혔다.",
+        "url": "https://x.com/OpenAIDevs/status/2061888366791246071",
+        "publishedAt": "2026-06-02T19:11:09.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_012",
+        "author": "ChatGPT",
+        "handle": "ChatGPTapp",
+        "content": "긴 형식의 글은 약간 더 넓은 공간에서 더 잘 작동합니다. 이제 전체 화면에서 더 긴 글을 편집하고 나중에 다시 돌아올 수 있도록 라이브러리에 저장할 수 있습니다.",
+        "context": "ChatGPT 공식 계정이 전체 화면에서 긴 글을 편집하고 라이브러리에 저장하는 새 기능을 안내했다.",
+        "url": "https://x.com/ChatGPTapp/status/2061571468992126982",
+        "publishedAt": "2026-06-01T22:11:55.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_013",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "AI 기반 사이버 공격에 대해 보안 커뮤니티의 기술들이 얼마나 잘 버틸까? 우리는 832개의 악성 계정을 조사하고, 그들의 활동을 위협 행위자들이 사용하는 전술과 기술의 오랜 데이터베이스에 매핑했습니다. 우리가 배운 점은 다음과 같습니다.",
+        "context": "앤트로픽이 832개 악성 계정을 조사해 위협 행위자의 전술·기술 데이터베이스에 매핑한 AI 사이버 공격 방어 연구를 공개했다.",
+        "url": "https://x.com/AnthropicAI/status/2062243425580367905",
+        "publishedAt": "2026-06-03T18:42:01.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_014",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "이 행정명령은 AI 분야에서 미국의 리더십을 강화하는 중요한 단계입니다. 우리는 백악관과 협력하여 이를 실행하는 데 지원할 것을 기대합니다.",
+        "context": "앤트로픽이 미국의 AI 리더십 강화 행정명령을 환영하며 백악관과 협력해 실행을 지원하겠다고 밝혔다.",
+        "url": "https://x.com/AnthropicAI/status/2061924580222968183",
+        "publishedAt": "2026-06-02T21:35:03.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_015",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "우리는 Project Glasswing을 확장하고 있습니다. Claude Mythos Preview에 대한 액세스를 약 150개의 추가 조직에 확대했으며, 이들은 15개 이상의 국가에 기반을 두고 있습니다. 확장과 미래 계획에 대해 읽어보세요.",
+        "context": "앤트로픽이 Project Glasswing을 확장해 Claude Mythos Preview 접근을 15개국 이상 150개 추가 조직으로 넓혔다고 발표했다.",
+        "url": "https://x.com/AnthropicAI/status/2061796327986454883",
+        "publishedAt": "2026-06-02T13:05:25.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_016",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "벤은 긴 Claude Code 세션 중에 자꾸 산만해져서, 그의 주의를 끌기 위해 미니어처 Clawd를 만들었습니다. Claude Code가 입력을 필요로 할 때, 알루미늄 몸체 안의 솔레노이드가 그것을 위로 밀어 올립니다. 즉, 그것이 위아래로 튀어 오릅니다.",
+        "context": "Claude 공식 계정이 사용자가 만든 미니어처 'Clawd' 장치를 소개했다. Claude Code가 입력을 요청하면 솔레노이드가 인형을 튀어 오르게 한다.",
+        "url": "https://x.com/claudeai/status/2062220049146876347",
+        "publishedAt": "2026-06-03T17:09:08.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_017",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "법률 해석은 세계에서 가장 오래된 직업 중 하나입니다. Legora의 공동 창립자이자 CEO인 Max Junestrand는 Claude를 통해 이를 다음 시대의 단계로 이끌고 있습니다. 그의 베팅: 모든 새로운 모델 출시는 물결을 높이고, Legora는 다른 모든 사람들을 위한 배를 만들고 있습니다.",
+        "context": "Claude 공식 계정이 Claude를 활용해 법률 해석을 혁신하는 Legora의 공동창업자 맥스 유네스트란드를 조명했다.",
+        "url": "https://x.com/claudeai/status/2061829558999912680",
+        "publishedAt": "2026-06-02T15:17:28.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "인공지능의 대부 제프리 힌튼(Geoffrey Hinton) 교수는 현재 AI 시장의 과열된 연산 경쟁이 인류에게 미칠 치명적인 위험성을 경고했습니다. 그는 기업들이 더 지능적이고 강력한 AI를 만들기 위해 '거대한 컴퓨터를 구축하는 데만 몰두'하며 수익성에 치우쳐 있다고 비판했습니다. 힌튼 교수는 AI가 스스로 의식을 가진 하나의 '존재(being)'로 변모하는 시점에 주목해야 한다고 강조하며, 인류는 단순히 지능의 폭발을 추구할 것이 아니라 우리를 해치지 않고 상호작용할 수 있는 안전한 시스템 설계에 역량을 집중해야 한다고 말합니다.",
+        "context": "24만 팔로워의 한국 AI 채널 CHOI가 제프리 힌튼 교수의 AI 위험 경고를 전했다. 연산 경쟁보다 인간을 먼저 배려하는 안전한 시스템 설계의 중요성을 강조했다.",
+        "url": "https://www.threads.net/@choi.openai/post/DZIaAHjgAYR",
+        "publishedAt": "2026-06-03T17:00:41.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "틱톡의 바이트댄스가 크리에이티브 인프라 장악에 나섰습니다. 영상 생성 AI 시장을 독주 중인 Seedance 2.0 기반의 창작 플랫폼 드리미나(Dreamina)가 새로운 크리에이티브 에이전트 시스템 'Dreamina Octo'의 베타 버전을 출시했습니다. 옥토는 이미지, 영상, 오디오를 동시에 다루는 멀티모달 창작 에이전트입니다.",
+        "context": "CHOI가 바이트댄스의 영상 생성 플랫폼 드리미나가 멀티모달 창작 에이전트 'Dreamina Octo' 베타를 출시했다고 전했다.",
+        "url": "https://www.threads.net/@choi.openai/post/DZII1XpDjEQ",
+        "publishedAt": "2026-06-03T14:30:40.000Z",
+        "platform": "threads"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "NeurIPS, 보정되지 않은 AI 탐지기로 데스크 리젝 논란",
+        "originalTitle": "NeurIPS used uncalibrated AI detector for desk rejections [D]",
+        "summary": "NeurIPS가 보정되지 않은(uncalibrated) AI 탐지기를 데스크 리젝션에 사용했다는 주장이 r/MachineLearning에서 큰 논쟁을 일으켰다. 신뢰성이 검증되지 않은 AI 도구로 논문을 자동 거절하는 관행에 대한 연구자들의 비판이 이어졌다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1tvwctd/neurips_used_uncalibrated_ai_detector_for_desk/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-06-04T02:28:03+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "젬마 4 12B 공개: 통합 인코더 없는 멀티모달 모델",
+        "originalTitle": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
+        "summary": "구글의 새 오픈 모델 젬마 4 12B 발표가 r/LocalLLaMA에서 화제가 됐다. 인코더가 없는 통합 멀티모달 구조로, 로컬 환경에서 구동 가능한 점이 주목받으며 추가 젬마 4 모델 라인업도 기대를 모았다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tvw2ej/introducing_gemma_4_12b_a_unified_encoderfree/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-06-04T02:18:20+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "AI의 실측 생산성 향상은 10배가 아니라 7.8%",
+        "originalTitle": "The measured productivity gain from AI is 7.8%, not 10x, and I think that gap explains the backlash",
+        "summary": "r/artificial에서 AI의 실제 측정된 생산성 향상이 흔히 회자되는 '10배'가 아니라 7.8%에 불과하다는 글이 토론을 모았다. 과장된 기대와 현실 사이의 간극, 그리고 그 격차가 갖는 의미에 대한 논의가 이어졌다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1tvi92v/the_measured_productivity_gain_from_ai_is_78_not/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-06-03T16:39:28+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "메타 AI 학습, 직원 이메일·브라우징 기록 수집 논란",
+        "originalTitle": "Meta's AI training effort is capturing employee emails and browsing history, not just mouse clicks",
+        "summary": "r/OpenAI에서 메타의 AI 학습 작업이 직원들의 이메일과 브라우징 기록을 수집하고 있다는 게시물이 주목받았다. 사내 데이터를 모델 학습에 활용하는 것에 대한 프라이버시 우려가 제기됐다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1tvoyr5/metas_ai_training_effort_is_capturing_employee/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-06-03T22:12:28+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "앤트로픽이 보낸 청구서",
+        "originalTitle": "Invoice from Anthropic",
+        "summary": "r/ClaudeAI에서 앤트로픽이 보낸 청구서를 공유한 게시물이 화제가 됐다. Claude 사용량과 과금에 관한 사용자들의 경험과 반응이 댓글로 이어졌다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1tvmc2r/invoice_from_anthropic/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-06-03T20:20:38+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "VS Code 버그를 통한 1클릭 깃허브 토큰 탈취",
+        "originalTitle": "1-Click GitHub Token Stealing via a VSCode Bug",
+        "summary": "r/programming에서 VS Code(github.dev) 버그를 통해 링크 클릭 한 번으로 깃허브 토큰을 탈취할 수 있다는 분석이 큰 관심을 받았다. 범위가 제한되지 않은 OAuth 토큰의 위험성이 핵심 쟁점이다.",
+        "url": "https://www.reddit.com/r/programming/comments/1tvftne/1click_github_token_stealing_via_a_vscode_bug/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-06-03T14:26:28+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "AI가 법학 교수를 이겼다는 연구 결과",
+        "originalTitle": "AI Beat Law Professors At Answering Questions, Study Finds—And It Wasn’t Close",
+        "summary": "r/singularity에서 AI가 질문 답변에서 법학 교수를 능가했다는 스탠퍼드 연구 결과가 공유됐다. 그것도 근소한 차이가 아니었다는 점이 강조되며 AI의 전문 지식 활용 가능성에 대한 토론이 이어졌다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1tvtojx/ai_beat_law_professors_at_answering_questions/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-06-04T00:58:52+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "병목이 아닌 단계를 최적화해도 전체는 빨라지지 않는다",
+        "originalTitle": "Maximizing an operational step that isn't a bottleneck will not significantly improve the overall productivity of the system",
+        "summary": "r/ExperiencedDevs에서 병목이 아닌 운영 단계를 아무리 최적화해도 전체 처리량은 의미 있게 개선되지 않는다는 제약 이론(TOC) 관점의 글이 공감을 모았다. 엔지니어링 우선순위 설정에 대한 통찰을 담았다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1tvd1ly/maximizing_an_operational_step_that_isnt_a/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-06-03T12:11:36+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_030",
+        "title": "구글 젬마 4 12B: 인코더 없는 통합 멀티모달 모델",
+        "excerpt": "구글이 인코더가 없는 통합 멀티모달 모델 젬마 4 12B를 공개했다. 노트북에서도 돌릴 수 있는 오픈 모델로 해커뉴스에서 458포인트를 받으며 큰 주목을 받았다.",
+        "body": "구글이 인코더 없는(encoder-free) 통합 멀티모달 아키텍처를 채택한 오픈 모델 젬마 4 12B를 발표했다. 해커뉴스에서 458포인트, 댓글 170개를 기록하며 개발자 커뮤니티의 폭발적 관심을 받았고, 로컬LLaMA 등에서도 노트북에서 구동 가능한 모델로 화제가 됐다. 더 많은 젬마 4 모델 라인업도 예고됐다.",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-04T01:04:42+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_031",
+        "title": "테드 창 '인공지능은 의식이 없다'",
+        "excerpt": "SF 작가 테드 창이 디 애틀랜틱 기고에서 인공지능은 의식을 갖고 있지 않다고 주장했다. 해커뉴스에서 활발한 토론을 불러일으켰다.",
+        "body": "소설가 테드 창이 디 애틀랜틱에 기고한 글에서 '인공지능은 의식이 없다'고 단언하며, AI에 의식을 부여하려는 담론에 반박했다. 이 글은 해커뉴스에 공유되며 AI의 의식과 지능을 둘러싼 철학적 논쟁을 다시 불붙였다. 같은 날 제프리 힌튼 교수가 AI를 의식을 가진 '존재'로 봐야 한다고 경고한 것과 대조를 이룬다.",
+        "url": "https://www.theatlantic.com/philosophy/2026/06/no-artificial-intelligence-is-not-conscious/687378/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-04T02:51:37+09:00",
+        "readTime": 2,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_032",
+        "title": "스탠퍼드 로스쿨 연구: AI가 법학 교수보다 나은 답변",
+        "excerpt": "스탠퍼드 로스쿨 연구에서 법학 교수들이 동료 교수 답변보다 AI 생성 답변을 압도적으로 선호했다. 법학 교육 방식에 영향을 줄 수 있는 결과다.",
+        "body": "스탠퍼드 로스쿨 연구에서 미국 로스쿨 법학 교수 16명이 약 3,000건의 익명 비교를 블라인드로 평가한 결과, 학생 질문에 대한 동료 교수의 답변보다 AI가 생성한 답변을 압도적으로 선호한 것으로 나타났다. 연구진은 이 결과가 법학 교육의 제공 방식에 상당한 영향을 줄 수 있다고 분석했다.",
+        "url": "https://news.hada.io/topic?id=30150",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-04T03:37:11+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_033",
+        "title": "엘릭서 v1.20 출시: 점진적 타입 언어로",
+        "excerpt": "엘릭서 1.20이 출시되며 점진적 타입(gradually typed) 언어가 됐다. 해커뉴스에서 126포인트를 받으며 주목받았다.",
+        "body": "함수형 프로그래밍 언어 엘릭서가 1.20 버전을 출시하며 점진적 타입 시스템을 도입한 언어로 거듭났다. 점진적 타이핑은 동적 타입의 유연성을 유지하면서도 정적 타입 검사의 안정성을 선택적으로 더할 수 있게 해, 대규모 코드베이스의 안정성을 높이는 데 기여한다. 해커뉴스에서 126포인트를 기록하며 커뮤니티의 관심을 받았다.",
+        "url": "https://elixir-lang.org/blog/2026/06/03/elixir-v1-20-0-released/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-04T04:02:26+09:00",
+        "readTime": 2,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_034",
+        "title": "앵귤러 v22 발표",
+        "excerpt": "구글의 프런트엔드 프레임워크 앵귤러가 22 버전을 공개했다. 해커뉴스에서 토론이 이어졌다.",
+        "body": "구글이 주도하는 프런트엔드 프레임워크 앵귤러가 v22를 발표했다. 새 메이저 버전은 프레임워크의 성능과 개발자 경험을 개선하는 변경 사항을 담았으며, 해커뉴스에서 51포인트와 27개 댓글로 개발자들의 반응을 이끌어냈다.",
+        "url": "https://blog.angular.dev/announcing-angular-v22-c52bb83a4664",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-04T01:51:49+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_035",
+        "title": "마이클 버리 'SpaceX·앤트로픽 모두 1조 달러 가치 없다'",
+        "excerpt": "'빅쇼트'의 마이클 버리가 SpaceX와 앤트로픽의 높은 기업가치에 의문을 제기했다. 두 회사가 1조 달러에 가까운 가치를 정당화하기 어렵다고 봤다.",
+        "body": "영화 '빅쇼트'로 유명한 투자자 마이클 버리가 SpaceX와 앤트로픽의 과도한 기업가치에 큰 의문을 제기했다. 그는 두 회사가 1조 달러에 가까운 평가를 정당화하기 어렵다고 봤다. SpaceX는 5월 20일 IPO 투자설명서 S-1을 제출했으며, 지난해 매출 187억 달러에 순손실 49억 달러를 기록한 것으로 공개됐다.",
+        "url": "https://news.hada.io/topic?id=30138",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-03T11:46:13+09:00",
+        "readTime": 2,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_036",
+        "title": "VS Code 버그로 1클릭 깃허브 토큰 탈취 취약점",
+        "excerpt": "github.dev의 OAuth 토큰이 특정 저장소로 제한되지 않아, 링크 클릭만으로 사용자가 접근 가능한 모든 저장소를 읽고 쓸 수 있는 취약점이 발견됐다.",
+        "body": "브라우저용 VS Code인 github.dev가 github.com에서 전달받은 OAuth 토큰으로 파일 열람, PR, 커밋을 수행하는데, 이 토큰이 특정 저장소로 제한되지 않아 사용자가 접근 가능한 저장소 전체를 읽고 쓸 수 있는 문제가 드러났다. VS Code 웹뷰의 격리 메커니즘을 우회해 링크 클릭 한 번으로 깃허브 토큰을 탈취할 수 있는 심각한 보안 취약점으로, 프로그래밍 커뮤니티에서 크게 회자됐다.",
+        "url": "https://news.hada.io/topic?id=30146",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-03T19:36:07+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_037",
+        "title": "마이크로소프트, 새 코딩 모델 MAI-Code-1-Flash 공개",
+        "excerpt": "마이크로소프트가 빠르고 효율적인 코딩 지원을 목표로 한 새 코딩 모델 MAI-Code-1-Flash를 공개했다. VS Code의 깃허브 코파일럿 개인 사용자에게 배포 중이다.",
+        "body": "마이크로소프트가 일상적인 개발자 워크플로우에서 빠르고 효율적인 코딩 지원을 제공하는 것을 목표로 한 새 코딩 모델 MAI-Code-1-Flash를 선보였다. 이 모델은 VS Code의 깃허브 코파일럿 개인 사용자에게 배포되고 있으며, 마이크로소프트는 실제 개발 환경의 도구 사용 맥락을 반영하기 위해 깃허브 코파일럿 하네스에서 직접 모델을 학습시켰다고 밝혔다.",
+        "url": "https://news.hada.io/topic?id=30137",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-03T11:35:26+09:00",
+        "readTime": 2,
+        "imageGradient": 7
+      }
+    ]
+  }
+}
