@@ -1,0 +1,685 @@
+{
+  "date": "2026-06-05",
+  "issueNumber": 66,
+  "cover": {
+    "mainHeadline": "OpenAI, ChatGPT에 새 메모리 시스템 ‘Dreaming’ 출시",
+    "mainExcerpt": "OpenAI가 대화 간 맥락을 더 정교하게 기억하는 새 메모리 시스템을 ChatGPT에 적용했다. 같은 날 Anthropic은 자사 코드의 80% 이상을 Claude가 작성하고 있다는 내부 데이터를 공개하며 AI 자기 개선 가속 논쟁에 불을 지폈다.",
+    "headlines": [
+      "Anthropic, “Claude가 AI 개발을 가속” 내부 데이터 공개",
+      "Apple App Store 생태계 연 1.4조 달러 돌파",
+      "GitHub Universe 2026, ‘에이전트 시대’ 전면에"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_001",
+      "title": "OpenAI, ChatGPT에 강력한 새 메모리 시스템 ‘Dreaming’ 도입",
+      "excerpt": "OpenAI가 대화 간 맥락을 더 잘 유지하는 새로운 메모리 시스템을 ChatGPT에 출시했다. 사용자는 메모리 요약을 통해 무엇이 기억되는지 검토·조정할 수 있다.",
+      "body": "OpenAI는 ChatGPT가 여러 대화에 걸쳐 사용자의 선호와 맥락을 더 정교하게 기억하도록 하는 ‘Dreaming’ 메모리 시스템을 공개했다. 새 시스템은 중요한 세부 사항을 자동으로 추적하면서도, 사용자가 메모리 요약을 통해 기억 내용을 직접 검토하고 수정할 수 있게 해 투명성과 제어권을 높였다. 미국의 Plus·Pro 사용자에게 먼저 배포되며 기존 대비 2배 용량을 제공한다. 기존 저장 방식을 선호하는 사용자는 설정에서 되돌릴 수 있다.",
+      "url": "https://openai.com/index/chatgpt-memory-dreaming",
+      "source": "OpenAI News",
+      "category": "ai_ml",
+      "publishedAt": "2026-06-04T18:00:00+09:00",
+      "readTime": 5,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_002",
+      "title": "Endava, AI 에이전트 중심으로 소프트웨어 개발 방식 재설계",
+      "excerpt": "25년 경력의 글로벌 기술 서비스 기업 Endava가 AI 에이전트를 중심으로 워크플로우와 리더십, 협업 방식을 전면 재편하고 있다.",
+      "body": "Endava의 CTO 매튜 클로크는 OpenAI와의 인터뷰에서, AI 도입이 단순히 새 도구를 추가하는 것을 넘어 소프트웨어 전달 과정 전체를 에이전트 중심으로 다시 설계하는 일이었다고 밝혔다. 회사는 팀 간 협업 방식과 리더의 행동, 실험을 장려하는 문화까지 바꾸며 AI를 조직 전반에 내재화하고 있다. 기업이 생성형 AI를 실제 생산 워크플로우에 통합할 때 조직 차원의 변화가 함께 필요함을 보여주는 사례다.",
+      "url": "https://openai.com/index/endava-frontiers",
+      "source": "OpenAI News",
+      "category": "ai_ml",
+      "publishedAt": "2026-06-04T21:00:00+09:00",
+      "readTime": 5,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_003",
+      "title": "NVIDIA, 맞춤형 멀티모달 안전 모델 ‘Nemotron 3.5 Content Safety’ 공개",
+      "excerpt": "NVIDIA가 글로벌 엔터프라이즈 AI를 위한 커스터마이즈 가능한 멀티모달 콘텐츠 안전 모델을 허깅페이스에 공개했다.",
+      "body": "NVIDIA가 발표한 Nemotron 3.5 Content Safety는 텍스트와 이미지를 아우르는 멀티모달 입력의 안전성을 검증하는 모델로, 기업이 자사 정책에 맞게 안전 기준을 조정할 수 있도록 설계됐다. 다양한 언어와 지역적 맥락을 지원해 글로벌 서비스에 적용하기 적합하며, 엔터프라이즈가 LLM 애플리케이션에 콘텐츠 모더레이션 계층을 손쉽게 통합할 수 있게 한다. 모델 가중치는 허깅페이스에서 제공된다.",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
+      "source": "Hugging Face - Blog",
+      "category": "ai_ml",
+      "publishedAt": "2026-06-05T03:57:45+09:00",
+      "readTime": 4,
+      "imageGradient": 0
+    },
+    {
+      "id": "dev_001",
+      "title": "GitHub Universe 2026 개최 — ‘에이전트 시대’ 전면에",
+      "excerpt": "GitHub의 연례 개발자 컨퍼런스 GitHub Universe가 에이전트 중심 개발을 주제로 돌아온다.",
+      "body": "GitHub가 연례 컨퍼런스 GitHub Universe의 복귀를 알리며 ‘에이전트 시대(agentic era)’를 핵심 테마로 내세웠다. 코드 작성과 리뷰, 자동화 전반에 AI 에이전트가 통합되는 흐름 속에서 개발자 워크플로우의 변화를 다룰 예정이다. 함께 모여 협업하는 개발 문화를 강조하며, 에이전트 기반 도구가 일상적 개발에 자리잡는 단계를 조명한다.",
+      "url": "https://github.blog/news-insights/company-news/github-universe-is-back-all-together-now-in-the-agentic-era/",
+      "source": "GitHub Blog",
+      "category": "dev_tools",
+      "publishedAt": "2026-06-05T01:00:00+09:00",
+      "readTime": 3,
+      "imageGradient": 2
+    },
+    {
+      "id": "big_001",
+      "title": "Apple App Store 생태계, 연 1.4조 달러 규모 돌파",
+      "excerpt": "Apple이 App Store 생태계의 결제·판매 규모가 1.4조 달러에 달했으며 그중 90%는 애플 수수료 없이 발생했다고 밝혔다.",
+      "body": "Apple은 2025년 App Store 생태계가 창출한 청구·판매 규모가 1.4조 달러에 이르렀다고 발표했다. 이 중 약 90%는 Apple이 수수료를 받지 않는 거래(물리적 상품·서비스 등)에서 나왔다고 강조했다. 개발자 생태계의 경제적 기여를 부각하려는 의도로, 수수료 정책을 둘러싼 규제 압박 속에서 App Store의 가치를 방어하는 메시지로 읽힌다.",
+      "url": "https://www.apple.com/newsroom/2026/06/app-store-ecosystem-reaches-1-point-4-trillion-usd-as-developers-thrive-globally/",
+      "source": "Apple Newsroom",
+      "category": "big_tech",
+      "publishedAt": "2026-06-04T22:00:48+09:00",
+      "readTime": 4,
+      "imageGradient": 4
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_001",
+        "title": "OpenAI, ChatGPT에 강력한 새 메모리 시스템 ‘Dreaming’ 도입",
+        "excerpt": "OpenAI가 대화 간 맥락을 더 잘 유지하는 새로운 메모리 시스템을 ChatGPT에 출시했다. 사용자는 메모리 요약을 통해 무엇이 기억되는지 검토·조정할 수 있다.",
+        "body": "OpenAI는 ChatGPT가 여러 대화에 걸쳐 사용자의 선호와 맥락을 더 정교하게 기억하도록 하는 ‘Dreaming’ 메모리 시스템을 공개했다. 새 시스템은 중요한 세부 사항을 자동으로 추적하면서도, 사용자가 메모리 요약을 통해 기억 내용을 직접 검토하고 수정할 수 있게 해 투명성과 제어권을 높였다. 미국의 Plus·Pro 사용자에게 먼저 배포되며 기존 대비 2배 용량을 제공한다. 기존 저장 방식을 선호하는 사용자는 설정에서 되돌릴 수 있다.",
+        "url": "https://openai.com/index/chatgpt-memory-dreaming",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-04T18:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_002",
+        "title": "Endava, AI 에이전트 중심으로 소프트웨어 개발 방식 재설계",
+        "excerpt": "25년 경력의 글로벌 기술 서비스 기업 Endava가 AI 에이전트를 중심으로 워크플로우와 리더십, 협업 방식을 전면 재편하고 있다.",
+        "body": "Endava의 CTO 매튜 클로크는 OpenAI와의 인터뷰에서, AI 도입이 단순히 새 도구를 추가하는 것을 넘어 소프트웨어 전달 과정 전체를 에이전트 중심으로 다시 설계하는 일이었다고 밝혔다. 회사는 팀 간 협업 방식과 리더의 행동, 실험을 장려하는 문화까지 바꾸며 AI를 조직 전반에 내재화하고 있다. 기업이 생성형 AI를 실제 생산 워크플로우에 통합할 때 조직 차원의 변화가 함께 필요함을 보여주는 사례다.",
+        "url": "https://openai.com/index/endava-frontiers",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-04T21:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_003",
+        "title": "NVIDIA, 맞춤형 멀티모달 안전 모델 ‘Nemotron 3.5 Content Safety’ 공개",
+        "excerpt": "NVIDIA가 글로벌 엔터프라이즈 AI를 위한 커스터마이즈 가능한 멀티모달 콘텐츠 안전 모델을 허깅페이스에 공개했다.",
+        "body": "NVIDIA가 발표한 Nemotron 3.5 Content Safety는 텍스트와 이미지를 아우르는 멀티모달 입력의 안전성을 검증하는 모델로, 기업이 자사 정책에 맞게 안전 기준을 조정할 수 있도록 설계됐다. 다양한 언어와 지역적 맥락을 지원해 글로벌 서비스에 적용하기 적합하며, 엔터프라이즈가 LLM 애플리케이션에 콘텐츠 모더레이션 계층을 손쉽게 통합할 수 있게 한다. 모델 가중치는 허깅페이스에서 제공된다.",
+        "url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
+        "source": "Hugging Face - Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-05T03:57:45+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_004",
+        "title": "ServiceNow, 에이전트 평가 벤치마크 ‘EVA-Bench Data 2.0’ 발표",
+        "excerpt": "3개 도메인, 121개 도구, 213개 시나리오로 구성된 에이전트 평가 벤치마크의 새 버전이 공개됐다.",
+        "body": "ServiceNow AI 팀이 공개한 EVA-Bench Data 2.0은 AI 에이전트의 실제 업무 수행 능력을 평가하기 위한 확장된 벤치마크다. 3개 도메인에 걸쳐 121개의 도구와 213개의 시나리오를 포함해, 에이전트가 다양한 툴을 조합해 복잡한 작업을 완수하는 능력을 측정한다. 도구 사용 기반 에이전트가 늘어나는 가운데 표준화된 평가 체계의 필요성에 대응한 것으로, 데이터셋은 허깅페이스에서 이용할 수 있다.",
+        "url": "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data",
+        "source": "Hugging Face - Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-04T21:24:58+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_005",
+        "title": "허깅페이스, 에이전트 최적화 ‘hf CLI’ 디자인 공개",
+        "excerpt": "허깅페이스 Hub의 공식 명령줄 도구 hf를 AI 에이전트가 쓰기 좋게 재설계한 배경을 소개했다.",
+        "body": "허깅페이스가 Hub의 공식 CLI인 hf를 사람뿐 아니라 AI 에이전트가 효율적으로 사용할 수 있도록 재설계한 과정을 공유했다. 에이전트가 명령을 예측 가능하게 호출하고 결과를 파싱하기 쉽도록 출력 형식과 인터페이스를 다듬었으며, Hub에서 할 수 있는 작업 대부분을 커맨드라인에서 수행할 수 있게 했다. 에이전트 기반 워크플로우가 확산되면서 도구 자체를 ‘에이전트 친화적’으로 설계하는 흐름을 보여준다.",
+        "url": "https://huggingface.co/blog/hf-cli-for-agents",
+        "source": "Hugging Face - Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-04T09:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "dev_001",
+        "title": "GitHub Universe 2026 개최 — ‘에이전트 시대’ 전면에",
+        "excerpt": "GitHub의 연례 개발자 컨퍼런스 GitHub Universe가 에이전트 중심 개발을 주제로 돌아온다.",
+        "body": "GitHub가 연례 컨퍼런스 GitHub Universe의 복귀를 알리며 ‘에이전트 시대(agentic era)’를 핵심 테마로 내세웠다. 코드 작성과 리뷰, 자동화 전반에 AI 에이전트가 통합되는 흐름 속에서 개발자 워크플로우의 변화를 다룰 예정이다. 함께 모여 협업하는 개발 문화를 강조하며, 에이전트 기반 도구가 일상적 개발에 자리잡는 단계를 조명한다.",
+        "url": "https://github.blog/news-insights/company-news/github-universe-is-back-all-together-now-in-the-agentic-era/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-05T01:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "dev_002",
+        "title": "Vercel AI Gateway, NVIDIA Nemotron 3 Ultra 지원 추가",
+        "excerpt": "Vercel이 AI Gateway에서 NVIDIA의 Nemotron 3 Ultra 모델을 사용할 수 있도록 지원을 확대했다.",
+        "body": "Vercel이 자사 AI Gateway에 NVIDIA의 대형 모델 Nemotron 3 Ultra를 추가해, 개발자가 단일 게이트웨이를 통해 더 강력한 모델에 접근할 수 있게 했다. AI Gateway는 여러 모델 공급자를 통합 인터페이스로 라우팅해 주는 서비스로, 새 모델 추가는 개발자가 코드 변경을 최소화하며 최신 모델을 실험할 수 있게 한다.",
+        "url": "https://vercel.com/changelog/nemotron-3-ultra-now-available-on-ai-gateway",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-04T16:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "dev_003",
+        "title": "Docker, ‘Hardened Images’로 CVE와 공격 표면 축소",
+        "excerpt": "Docker가 보안을 강화한 컨테이너 이미지로 취약점 수와 공격 표면을 줄이는 방법을 설명했다.",
+        "body": "Docker가 Hardened Images의 작동 방식을 공개했다. 불필요한 패키지와 구성 요소를 제거해 이미지 크기를 줄이고, 알려진 CVE(취약점)의 수와 잠재적 공격 표면을 동시에 축소하는 것이 핵심이다. 공급망 보안과 컨테이너 보안이 중요해지는 가운데, 최소화된 베이스 이미지를 통해 기업이 보안 위험을 낮추도록 돕는다.",
+        "url": "https://www.docker.com/blog/what-are-hardened-images/",
+        "source": "Docker Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-05T02:02:51+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "dev_004",
+        "title": "Vite 개발사 VoidZero, Cloudflare 합류",
+        "excerpt": "Vite·Rollup 등 핵심 자바스크립트 도구를 만드는 VoidZero가 Cloudflare에 합류한다.",
+        "body": "Vite를 비롯한 차세대 자바스크립트 빌드 툴체인을 개발해 온 VoidZero가 Cloudflare에 합류한다고 발표했다. VoidZero는 Vite의 창시자 에반 유가 이끄는 회사로, 통합된 고성능 자바스크립트 개발 도구 생태계를 구축해 왔다. Cloudflare의 합류로 오픈소스 도구 개발에 더 큰 자원이 투입될 것으로 기대되며, 프론트엔드 개발 도구 생태계에 영향을 줄 전망이다.",
+        "url": "https://blog.cloudflare.com/voidzero-joins-cloudflare/",
+        "source": "Cloudflare Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-04T21:59:00+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "big_001",
+        "title": "Apple App Store 생태계, 연 1.4조 달러 규모 돌파",
+        "excerpt": "Apple이 App Store 생태계의 결제·판매 규모가 1.4조 달러에 달했으며 그중 90%는 애플 수수료 없이 발생했다고 밝혔다.",
+        "body": "Apple은 2025년 App Store 생태계가 창출한 청구·판매 규모가 1.4조 달러에 이르렀다고 발표했다. 이 중 약 90%는 Apple이 수수료를 받지 않는 거래(물리적 상품·서비스 등)에서 나왔다고 강조했다. 개발자 생태계의 경제적 기여를 부각하려는 의도로, 수수료 정책을 둘러싼 규제 압박 속에서 App Store의 가치를 방어하는 메시지로 읽힌다.",
+        "url": "https://www.apple.com/newsroom/2026/06/app-store-ecosystem-reaches-1-point-4-trillion-usd-as-developers-thrive-globally/",
+        "source": "Apple Newsroom",
+        "category": "big_tech",
+        "publishedAt": "2026-06-04T22:00:48+09:00",
+        "readTime": 4,
+        "imageGradient": 4
+      },
+      {
+        "id": "big_002",
+        "title": "WWDC 2026 전망 — Siri 대대적 개편 예고",
+        "excerpt": "곧 열리는 WWDC 2026에서 오랫동안 기다려온 Siri의 대대적 개편과 새 기능들이 공개될 전망이다.",
+        "body": "Apple의 연례 개발자 컨퍼런스 WWDC 2026을 앞두고 가장 큰 관심사는 Siri의 전면 개편이다. 생성형 AI 경쟁이 치열해지는 가운데, Apple이 음성 비서를 얼마나 지능적으로 끌어올릴지가 핵심 관전 포인트다. 이 밖에 운영체제 업데이트와 새 AI 기능이 함께 발표될 것으로 예상된다.",
+        "url": "https://techcrunch.com/2026/06/04/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/",
+        "source": "TechCrunch AI",
+        "category": "big_tech",
+        "publishedAt": "2026-06-05T01:31:12+09:00",
+        "readTime": 4,
+        "imageGradient": 5
+      },
+      {
+        "id": "big_003",
+        "title": "Meta, 테슬라식 ‘텐트’ 전략으로 데이터센터 속도전",
+        "excerpt": "Meta가 테슬라의 임시 텐트 생산 방식을 본떠 데이터센터를 빠르게 구축하고 있다.",
+        "body": "Meta가 AI 인프라 확장 경쟁 속에서 테슬라가 차량 생산을 위해 썼던 ‘텐트’ 전략을 차용해 데이터센터를 신속히 짓고 있다. 영구 건물 완공을 기다리는 대신 임시 구조물에 컴퓨팅 설비를 들여 가동 시점을 앞당기는 방식이다. AI 연산 수요가 폭증하면서 빅테크들이 인프라 구축 속도를 끌어올리기 위해 비전통적 방법까지 동원하는 흐름을 보여준다.",
+        "url": "https://techcrunch.com/2026/06/04/meta-steals-a-tactic-from-tesla-and-builds-data-centers-in-tents/",
+        "source": "TechCrunch AI",
+        "category": "big_tech",
+        "publishedAt": "2026-06-05T04:33:09+09:00",
+        "readTime": 4,
+        "imageGradient": 4
+      },
+      {
+        "id": "big_004",
+        "title": "Microsoft, 다시 Windows에 무게 — 전략 재조정",
+        "excerpt": "The Verge에 따르면 Microsoft가 Windows를 다시 핵심 우선순위로 끌어올리고 있다.",
+        "body": "The Verge는 Microsoft가 한동안 클라우드와 AI에 집중하며 뒤로 밀렸던 Windows를 다시 전략의 중심으로 복귀시키고 있다고 전했다. AI 기능을 운영체제에 깊이 통합하려는 움직임과 맞물려, PC 플랫폼으로서 Windows의 역할을 재정의하려는 시도로 해석된다.",
+        "url": "https://www.theverge.com/tech/943108/microsoft-build-2026-windows-love-notepad",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-06-05T01:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "big_005",
+        "title": "TSMC, 폭증하는 AI 수요 감당에 한계 호소",
+        "excerpt": "TSMC가 AI 칩 수요를 따라가기 버겁다며 일부 고객만 지원할 수 있다고 밝혔다.",
+        "body": "세계 최대 파운드리 TSMC가 AI 반도체 수요 급증을 생산 능력이 따라가지 못하고 있다고 토로했다. 첨단 패키징과 선단 공정 캐파가 빠듯해 모든 주문을 소화하기 어려운 상황으로, AI 붐이 공급망 전반의 병목으로 이어지고 있음을 보여준다. 칩 확보 경쟁이 빅테크 간 AI 인프라 경쟁의 또 다른 전선이 되고 있다.",
+        "url": "https://www.theverge.com/tech/943066/tsmc-ai-demand-struggles",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-06-04T23:15:44+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "big_006",
+        "title": "Lovable, Google Cloud와 다년 계약 — 사용량 5배 확대",
+        "excerpt": "AI 앱 빌더 Lovable이 Google Cloud와 다년 계약을 맺고 사용량을 5배로 늘린다.",
+        "body": "‘바이브 코딩’으로 주목받는 AI 앱 빌더 Lovable이 Google Cloud와 다년 계약을 체결해 클라우드 사용량을 기존의 5배로 확대한다는 소식이 전해졌다. 자연어 대화만으로 소프트웨어를 만드는 서비스 수요가 빠르게 늘면서 인프라 확충에 나선 것으로, 생성형 개발 도구 시장의 성장세를 방증한다.",
+        "url": "https://techcrunch.com/2026/06/03/lovable-signs-multi-year-deal-with-google-cloud-to-up-usage-5x-source-says/",
+        "source": "TechCrunch AI",
+        "category": "big_tech",
+        "publishedAt": "2026-06-04T07:56:51+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "미국은 최고의 AI 모델 개발을 계속하고, 그것들이 안전한지 확인하며, 신뢰할 수 있는 수호자들의 손에 사이버 도구를 쥐여주는 방식으로 AI 분야를 선도해야 한다. 새로운 EO는 균형을 잘 맞췄다.",
+        "context": "OpenAI CEO 샘 알트만이 새 AI 행정명령(EO)에 대한 견해를 밝혔다. 미국의 AI 리더십과 안전, 사이버 도구 통제의 균형을 강조했다.",
+        "url": "https://x.com/sama/status/2061973280655904815",
+        "publishedAt": "2026-06-03T00:48:34.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "훨씬 더 나은 ChatGPT 메모리:",
+        "context": "OpenAI 사장 그렉 브록만이 이번 주 출시된 ChatGPT의 새 메모리 시스템을 알렸다.",
+        "url": "https://x.com/gdb/status/2062608071411540196",
+        "publishedAt": "2026-06-04T18:51:00.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "GPT-Rosalind에 대한 주요 업그레이드, 약물 발견, 분석, 설계 및 실험 워크플로우를 위한 훨씬 더 나은 지능으로:",
+        "context": "그렉 브록만이 약물 발견·실험 워크플로우를 위한 GPT-Rosalind의 대규모 업그레이드를 소개했다.",
+        "url": "https://x.com/gdb/status/2062292268602773747",
+        "publishedAt": "2026-06-03T21:56:07.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "우리는 프론티어 AI의 민주적 거버넌스에 대한 청사진을 제시했으며, 미국이 프론티어 AI 안전을 위한 지속 가능한 제도를 구축하는 방법에 대해 다루었습니다:",
+        "context": "그렉 브록만이 OpenAI의 프론티어 AI 민주적 거버넌스 청사진을 공유했다.",
+        "url": "https://x.com/gdb/status/2062259921664835833",
+        "publishedAt": "2026-06-03T19:47:34.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "컴퓨터 작업을 위한 코덱스(Codex)는 매우 빠르게 성장하고 있다.",
+        "context": "그렉 브록만이 컴퓨터 작업용 Codex의 빠른 성장세를 언급했다.",
+        "url": "https://x.com/gdb/status/2062080673632895138",
+        "publishedAt": "2026-06-03T07:55:18.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Mark Chen",
+        "handle": "markchen90",
+        "content": "Mythos가 나왔을 때, 내 즉각적인 생각은 \"만약 우리 모델들이 80년 된 정리를 증명할 수 있다면, 확실히 사이버 취약점도 찾을 수 있을 거야\"였습니다. 그리고 그들은 그렇게 했습니다. 저는 그곳의 연구원들이 그 생각을 반대로 하고 있을 거라고 상상합니다.",
+        "context": "OpenAI 연구 책임자 마크 첸이 수학 정리 증명에서 사이버 취약점 탐지로 확장되는 모델의 능력을 언급했다.",
+        "url": "https://x.com/markchen90/status/2062265524663250961",
+        "publishedAt": "2026-06-03T20:09:50.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "Jack Clark",
+        "handle": "jackclarkSF",
+        "content": "틈새 트윗: 만약 당신에게 흥분을 잘 타는 유아가 있고, Bluey와 Raffi를 듣는 데 지쳤으며, 가끔 비-뇌죽 아이 TV가 필요하다면, Geese의 노래 Cobra를 위한 이 팬메이드 비디오가 마음에 들지도 몰라요.",
+        "context": "Anthropic 공동창업자 잭 클락의 가벼운 일상 트윗. AI 정책가의 인간적인 면모가 드러난다.",
+        "url": "https://x.com/jackclarkSF/status/2062533084424319128",
+        "publishedAt": "2026-06-04T13:53:01.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "Alex Albert",
+        "handle": "alexalbert__",
+        "content": "우리는 방금 Claude의 개발 중 Claude가 이미 얼마나 많은 부분을 담당하고 있는지에 대한 내부 데이터를 발표했습니다: 이제 우리 코드베이스에 병합된 모든 코드의 80% 이상이 Claude에 의해 작성되고 있으며, Anthropic의 많은 연구원들이 손으로 코드를 작성한 지 몇 달이 지났습니다.",
+        "context": "Anthropic의 알렉스 알버트가 자사 코드베이스의 80% 이상을 Claude가 작성하고 있다는 내부 데이터를 공개했다.",
+        "url": "https://x.com/alexalbert__/status/2062580571214389510",
+        "publishedAt": "2026-06-04T17:01:43.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_009",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "앱은 집에서 만든 밥 한 끼일 수 있다 (2020). 개인 소프트웨어는 2020년에는 조금 이른 감이 있었지만, 2026년에는 정말로 집에서 만든 밥 한 끼나 손으로 쓴 편지처럼 개인적일 수 있다.",
+        "context": "Anthropic의 Thariq가 개인용 소프트웨어가 손편지처럼 개인적일 수 있다는 글을 공유했다.",
+        "url": "https://x.com/trq212/status/2062605395101884916",
+        "publishedAt": "2026-06-04T18:40:22.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_010",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "동적 워크플로우(dynamic workflows)가 Claude Code가 완전히 새로운 유형의 작업을 처리할 수 있게 하는 방법.",
+        "context": "Thariq가 Claude Code의 동적 워크플로우 기능을 소개했다.",
+        "url": "https://x.com/trq212/status/2062556889171517499",
+        "publishedAt": "2026-06-04T15:27:37.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_011",
+        "author": "Felix Rieseberg",
+        "handle": "felixrieseberg",
+        "content": "주말 사이드 프로젝트로, 90년대 컴퓨팅에 대한 애정으로 저는 Relic을 만들었습니다. 플로피 디스크에 들어가고, 4MB 메모리만 필요하며, HTTPS가 나오기 전에 만들어진 시스템에서 작동하는 작은 코딩 에이전트입니다.",
+        "context": "전 OpenAI/Electron 개발자 펠릭스 리제베르크가 플로피 디스크에서 도는 초소형 코딩 에이전트 Relic을 주말 프로젝트로 공개했다.",
+        "url": "https://x.com/felixrieseberg/status/2062620494306902332",
+        "publishedAt": "2026-06-04T19:40:22.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_012",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "우리는 ChatGPT의 메모리가 대화 간 맥락을 전달하고 시간이 지남에 따라 유용하게 유지할 수 있는 새로운 방법을 연구해 왔습니다. 오늘, 그 작업이 ChatGPT에서 더 강력한 메모리 시스템으로 출시되고 있습니다.",
+        "context": "OpenAI 공식 계정이 ChatGPT의 새 메모리 시스템 출시를 공식 발표했다.",
+        "url": "https://x.com/OpenAI/status/2062567556524003631",
+        "publishedAt": "2026-06-04T16:10:00.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_013",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "새로운 메모리 시스템을 통해 ChatGPT가 기억하는 내용을 메모리 요약을 통해 검토하고 조정할 수 있으며, 컨텍스트가 사용되는 방식에 대한 더 많은 가시성과 제어가 가능합니다.",
+        "context": "OpenAI가 새 메모리 시스템의 검토·제어 기능을 설명했다.",
+        "url": "https://x.com/OpenAI/status/2062567559673856346",
+        "publishedAt": "2026-06-04T16:10:01.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_014",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "Moderation 점수는 이제 Responses API와 Completions API에서 사용할 수 있습니다. 생성 과정과 동일한 요청 흐름에서 moderation 신호를 반환한 후, 앱에서 이를 로깅, 라우팅, 검토 또는 차단에 어떻게 사용할지 결정하세요.",
+        "context": "OpenAI 개발자 계정이 Responses·Completions API에 moderation 점수 기능을 추가했다고 알렸다.",
+        "url": "https://x.com/OpenAIDevs/status/2062619558440267801",
+        "publishedAt": "2026-06-04T19:36:39.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_015",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "Codex 내부에서 iOS 앱 루프의 더 많은 기능. Build iOS Apps 플러그인은 Codex에서 인앱 브라우저를 통해 iOS 앱을 보고 테스트할 수 있게 하며, SwiftUI 미리보기를 열고 Codex를 떠나지 않고 핫 리로드할 수 있습니다.",
+        "context": "OpenAI 개발자 계정이 Codex의 iOS 앱 빌드 플러그인 기능을 소개했다.",
+        "url": "https://x.com/OpenAIDevs/status/2062599291479478275",
+        "publishedAt": "2026-06-04T18:16:06.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_016",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "내부 데이터에 따르면 Claude는 AI 개발을 가속화하고 있습니다—재귀적 자기 개선의 가능한 경로, 또는 AI가 더 유능한 후속자를 자율적으로 구축하는 길입니다. 우리가 생각했던 것보다 빠르게 일어나고 있으며, 그 함의는 더 큰 주의를 기울일 만합니다.",
+        "context": "Anthropic 공식 계정이 Claude가 AI 개발을 가속화한다는 내부 데이터를 발표했다. 재귀적 자기 개선 가능성을 시사한다.",
+        "url": "https://x.com/AnthropicAI/status/2062568862479208923",
+        "publishedAt": "2026-06-04T16:15:12.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_017",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "AI 연구는 일련의 다음 단계 결정들로 이루어져 있습니다. 우리는 인간 연구원이 잘못된 방향으로 나아간 세션을 Claude에게 보여주며 다음에 무엇을 해야 할지 물었습니다. Mythos Preview는 인간보다 64%의 경우에 더 나은 성능을 보였습니다—이는 2024년의 22%에서 상승한 수치입니다.",
+        "context": "Anthropic이 Mythos Preview가 연구 의사결정에서 인간을 64% 능가했다는 데이터를 공개했다.",
+        "url": "https://x.com/AnthropicAI/status/2062568870872003021",
+        "publishedAt": "2026-06-04T16:15:14.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_018",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "안톤 오시카(@antonosika)는 @lovable의 공동 창립자이자 CEO입니다. 그의 작업 가설: AI에서 가장 과소평가된 경쟁 우위는 신뢰이며, 이를 얻기 위해서는 장인 정신, 세심함, 그리고 집착이 필요합니다.",
+        "context": "Claude 공식 계정이 Lovable 창업자 안톤 오시카와의 인터뷰 시리즈를 소개했다.",
+        "url": "https://x.com/claudeai/status/2062558332695556378",
+        "publishedAt": "2026-06-04T15:33:21.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_019",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "벤은 긴 Claude Code 세션 중에 자꾸 산만해져서, 그의 주의를 끌기 위해 미니어처 Clawd를 만들었습니다. Claude Code가 입력을 필요로 할 때, 알루미늄 몸체 안의 솔레노이드가 그것을 위아래로 튀어 오르게 합니다.",
+        "context": "Claude 공식 계정이 Claude Code 사용자가 만든 피지컬 알림 장치 미니어처 Clawd 사례를 공유했다.",
+        "url": "https://x.com/claudeai/status/2062220040934449596",
+        "publishedAt": "2026-06-03T17:09:06.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "Miso Labs가 감정 표현에 특화된 오픈 웨이트 음성 모델 Miso One을 공개했습니다. 80억 개 파라미터 규모의 TTS(Text-to-Speech) 모델로, 기쁨·망설임·슬픔 같은 감정 표현을 자연스럽게 담아내면서도 응답 지연은 110ms 수준으로 사람의 평균 대화 반응 속도(200-250ms)보다 빠릅니다. 쇼츠 내레이션, 팟캐스트, 교육 영상 음성 제작에 바로 쓰일 수 있어 보입니다.",
+        "context": "국내 인기 AI 채널 CHOI가 Miso Labs의 감정 표현 특화 오픈 음성 모델 Miso One 공개 소식을 전했다.",
+        "url": "https://www.threads.net/@choi.openai/post/DZKAW0OgNUF",
+        "publishedAt": "2026-06-04T08:00:46.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "진짜 미친 Codex 활용법: 챗GPT에게 '지금까지 우리의 모든 대화를 바탕으로, 내 업무 시간을 50% 이상 줄여줄 수 있는 가장 가치 있는 서비스, 제품 또는 AI 시스템을 기획해줘'라고 요청하면 AI가 내 업무에서 가장 큰 병목을 찾아줍니다. 그 결과를 Codex의 Product Design 플러그인과 /goal(목표)에 넣어 활용하는 워크플로우입니다.",
+        "context": "CHOI가 ChatGPT와 Codex를 결합한 업무 자동화 워크플로우 활용법을 공유했다.",
+        "url": "https://www.threads.net/@choi.openai/post/DZJwq2RlRBM",
+        "publishedAt": "2026-06-04T05:38:39.000Z",
+        "platform": "threads"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "온-폴리시 디스틸레이션, PapersWithCode에서 가장 뜨거운 키워드로 부상",
+        "originalTitle": "On-policy distillation: one of the hottest terms on PapersWithCode [R]",
+        "summary": "학습 효율을 높이는 온-폴리시 디스틸레이션 기법이 최근 ML 연구에서 큰 주목을 받고 있다는 논의다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1twmhud/onpolicy_distillation_one_of_the_hottest_terms_on/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-06-04T21:40:48+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "KVarN: 화웨이의 새 KV 캐시 양자화 — 3~5배 압축",
+        "originalTitle": "KVarN: new KV-cache quant from Huawei. 3–5× KV cache compression with actual speed-up instead of slow-down, and unlike TurboQuant it holds up on reasoning (Apache 2.0, vLLM single flag)",
+        "summary": "화웨이가 공개한 KV 캐시 양자화 기법으로, 품질 저하 없이 3~5배 압축을 달성한다는 점이 LocalLLaMA에서 화제다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1twptw2/kvarn_new_kvcache_quant_from_huawei_35_kv_cache/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-06-04T23:47:10+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "올해 AI 지출 2.5조 달러, 95%는 손익 영향 제로",
+        "originalTitle": "$2.5T in AI spending this year. 95% produces zero P&L impact.",
+        "summary": "막대한 AI 투자 대비 실제 수익 기여가 미미하다는 분석이 커뮤니티에서 논쟁을 일으켰다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1twupqt/25t_in_ai_spending_this_year_95_produces_zero_pl/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-06-05T02:37:45+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "OpenAI, ChatGPT에 선호를 유지하는 새 ‘드리밍’ 메모리 시스템 적용",
+        "originalTitle": "OpenAI gives ChatGPT a new dreaming memory system to retain preferences across conversations",
+        "summary": "OpenAI의 새 메모리 시스템 출시를 다룬 게시물로 r/OpenAI에서 가장 활발히 논의됐다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1twwimu/openai_gives_chatgpt_a_new_dreaming_memory_system/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-06-05T03:40:04+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "Anthropic “내부 데이터상 Claude가 AI 개발을 가속화하고 있다”",
+        "originalTitle": "Anthropic - Our internal data shows Claude is accelerating AI development—a possible path to recursive self-improvement, or AI autonomously building a more capable successor.",
+        "summary": "Anthropic의 자기 개선 가속 데이터가 r/singularity에서 큰 반향을 일으켰다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1twsm5g/anthropic_our_internal_data_shows_claude_is/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-06-05T01:24:32+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "알트만·아모데이·하사비스, 공동 공개서한에 서명",
+        "originalTitle": "Sam Altman, Dario Amodei, and Demis Hassabis have signed a joint open letter calling on Congress to mandate screening of synthetic nucleic acid orders",
+        "summary": "AI 3대 리더가 함께 서명한 공개서한 소식이 커뮤니티의 주목을 받았다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1two85g/sam_altman_dario_amodei_and_demis_hassabis_have/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-06-04T22:48:18+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "Elixir v1.20 출시 — 점진적 타입 언어로 진화",
+        "originalTitle": "Elixir v1.20 released: now a gradually typed language",
+        "summary": "함수형 언어 Elixir가 점진적 타입을 도입한 1.20을 출시해 개발자들의 관심을 모았다.",
+        "url": "https://www.reddit.com/r/programming/comments/1twg7mu/elixir_v120_released_now_a_gradually_typed/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-06-04T16:14:11+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "왜 순조롭게 끝난 프로젝트는 혼란스러웠던 프로젝트보다 인정을 덜 받을까",
+        "originalTitle": "Why Do Smoothly Delivered Projects Get Less Recognition Than Chaotic Ones?",
+        "summary": "조용히 성공한 프로젝트가 저평가되는 현상에 대한 시니어 개발자들의 토론이다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1twr0c7/why_do_smoothly_delivered_projects_get_less/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-06-05T00:29:10+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "qb_001",
+        "title": "AI가 스스로를 만들 때: 재귀적 자기 개선을 향한 진전",
+        "excerpt": "AI가 더 나은 AI를 설계하는 재귀적 자기 개선의 진전을 다룬 글이 해커뉴스에서 화제다.",
+        "body": "AI 시스템이 자신의 후속 모델을 설계하고 개선하는 ‘재귀적 자기 개선’의 현황과 진전을 정리한 글이 해커뉴스 상위에 올랐다. Anthropic이 공개한 내부 데이터와 맞물려, AI 개발 자체가 가속화되고 있다는 논의가 커뮤니티에서 활발히 이뤄지고 있다.",
+        "url": "https://www.anthropic.com/institute/recursive-self-improvement",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-05T01:20:17+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "qb_002",
+        "title": "2026년 4월, 풍력·태양광 발전량이 가스 발전 추월",
+        "excerpt": "2026년 4월 전 세계 풍력·태양광 발전량이 처음으로 가스 발전을 넘어섰다는 분석이 주목받았다.",
+        "body": "2026년 4월 한 달 동안 전 세계 풍력과 태양광 발전량의 합이 가스 발전을 앞질렀다는 데이터가 공개돼 화제가 됐다. 재생에너지 비중이 빠르게 늘고 있음을 보여주는 상징적 지표로, AI 데이터센터의 전력 수요 급증과 맞물려 에너지 전환 논의에 시사점을 던진다.",
+        "url": "https://electrek.co/2026/05/20/in-a-first-wind-solar-generated-more-power-than-gas-globally-april-2026/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-04T23:36:39+09:00",
+        "readTime": 2,
+        "imageGradient": 7
+      },
+      {
+        "id": "qb_004",
+        "title": "KVarN: 화웨이의 KV 캐시 양자화, vLLM 네이티브 백엔드 공개",
+        "excerpt": "화웨이가 내놓은 KV 캐시 양자화 기법 KVarN이 vLLM 네이티브 백엔드로 공개돼 주목받았다.",
+        "body": "화웨이가 발표한 KVarN은 분산 정규화(variance-normalized) 방식의 KV 캐시 양자화 기법으로, 3~5배의 KV 캐시 압축을 실제 품질 저하 없이 달성한다고 소개됐다. vLLM의 네이티브 백엔드로 제공되어, 긴 컨텍스트 추론의 메모리 부담을 크게 줄일 수 있어 로컬·서버 LLM 운영에 유용하다.",
+        "url": "https://github.com/huawei-csl/KVarN",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-05T00:18:00+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      },
+      {
+        "id": "qb_003",
+        "title": "Show HN: Cost.dev — 에이전트를 비용 인식형으로, 더 저렴하게",
+        "excerpt": "AI 에이전트의 토큰·연산 비용을 인식하고 절감하도록 돕는 도구 Cost.dev가 Show HN에 올라왔다.",
+        "body": "YC W21 출신 팀이 만든 Cost.dev가 해커뉴스 Show HN에 소개됐다. AI 에이전트가 작업을 수행하며 소비하는 토큰과 연산 비용을 실시간으로 추적하고, 비용을 인식해 더 저렴하게 동작하도록 돕는 도구다. 에이전트 운영 비용이 빠르게 늘어나는 가운데, 비용 가시성과 최적화에 대한 수요를 겨냥했다.",
+        "url": "https://cost.dev/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-04T20:30:13+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      }
+    ]
+  }
+}
