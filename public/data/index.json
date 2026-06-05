@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-06-06",
+      "issueNumber": 67,
+      "mainHeadline": "구글, AI 컴퓨팅 확보 위해 스페이스X에 월 9.2억 달러 지불",
+      "headlines": [
+        "Anthropic, 연 매출 470억 달러 돌파하며 IPO 임박",
+        "뉴욕주, 신규 대형 데이터센터 1년 모라토리엄 통과",
+        "Supabase, 8개월 만에 기업가치 100억 달러로 두 배"
+      ]
+    },
+    {
       "date": "2026-06-05",
       "issueNumber": 66,
       "mainHeadline": "OpenAI, ChatGPT에 새 메모리 시스템 ‘Dreaming’ 출시",
@@ -680,5 +690,5 @@
       ]
     }
   ],
-  "latestIssue": 66
+  "latestIssue": 67
 }

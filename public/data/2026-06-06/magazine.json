@@ -1,0 +1,715 @@
+{
+  "date": "2026-06-06",
+  "issueNumber": 67,
+  "cover": {
+    "mainHeadline": "구글, AI 컴퓨팅 확보 위해 스페이스X에 월 9.2억 달러 지불",
+    "mainExcerpt": "AI 수요 폭증으로 컴퓨팅·전력 인프라 확보 경쟁이 격화되는 가운데, 구글이 스페이스X에 매월 9억 2천만 달러를 지불하는 대형 컴퓨팅 계약을 맺었다. 같은 날 Anthropic은 연 매출 470억 달러를 돌파하며 IPO 임박을 알렸고, 뉴욕주는 신규 데이터센터에 1년 모라토리엄을 통과시켰다.",
+    "headlines": [
+      "Anthropic, 연 매출 470억 달러 돌파하며 IPO 임박",
+      "뉴욕주, 신규 대형 데이터센터 1년 모라토리엄 통과",
+      "Supabase, 8개월 만에 기업가치 100억 달러로 두 배"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "big_001",
+      "title": "Google, 컴퓨팅 확보 위해 SpaceX에 월 9.2억 달러 지불",
+      "excerpt": "Google과 SpaceX가 컴퓨팅 공급 계약을 발표했다. SpaceX의 역사적 IPO를 불과 일주일 앞두고 나온 거래다.",
+      "body": "Google이 SpaceX에 매월 9억 2천만 달러를 지불하고 컴퓨팅 자원을 공급받는 대형 계약을 체결했다. 양사는 금요일 이 거래를 공식 발표했는데, 이는 SpaceX의 역사적인 기업공개(IPO)를 단 일주일 앞두고 나온 것이다. AI 수요 폭증으로 컴퓨팅 인프라 확보 경쟁이 격화되는 가운데, 빅테크가 위성·우주 기업의 데이터센터 역량까지 끌어들이는 새로운 국면을 보여준다.",
+      "url": "https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/",
+      "source": "TechCrunch AI",
+      "category": "big_tech",
+      "publishedAt": "2026-06-06T03:57:20+09:00",
+      "readTime": 4,
+      "imageGradient": 4
+    },
+    {
+      "id": "ai_002",
+      "title": "Anthropic, IPO 앞두고 연 매출 470억 달러 돌파…수익성 의구심 일축",
+      "excerpt": "다니엘라 아모데이가 상장을 앞두고 AI 투자 회수에 대한 의구심을 일축했다. Anthropic의 연환산 매출은 5월 470억 달러를 넘어섰다.",
+      "body": "Anthropic이 IPO를 앞두고 폭발적인 성장세를 과시했다. 회사는 연환산 매출이 5월 470억 달러를 돌파했다고 밝혔는데, 이는 2025년 말 약 90억 달러에서 급증한 수치다. 공동창업자 다니엘라 아모데이는 AI의 투자 대비 수익성에 대한 시장의 의구심을 정면으로 반박하며 성장 지속을 자신했다. 다만 이러한 가파른 성장 궤적이 실제 상장 이후에도 유지될지가 시험대에 올랐다.",
+      "url": "https://techcrunch.com/2026/06/04/ahead-of-its-ipo-anthropics-daniela-amodei-shrugs-off-doubts-about-ais-returns/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-06-05T07:43:26+09:00",
+      "readTime": 4,
+      "imageGradient": 1
+    },
+    {
+      "id": "big_002",
+      "title": "Supabase, 8개월 만에 기업가치 100억 달러로 두 배",
+      "excerpt": "오픈소스 프로젝트에서 출발한 Supabase가 8개월 만에 기업가치를 100억 달러로 두 배 끌어올렸다. Claude·Codex 등 AI 코딩 도구 수혜를 크게 입었다.",
+      "body": "오픈소스 백엔드 플랫폼 Supabase가 단 8개월 만에 기업가치를 100억 달러로 두 배 늘렸다. 오픈소스 프로젝트가 빠르게 성장하는 기업으로 자리잡은 대표 사례로, Claude·Codex 같은 AI 코딩·바이브 코딩 플랫폼의 확산에서 큰 수혜를 입었다. AI로 앱을 빠르게 만드는 개발자가 늘면서 손쉬운 백엔드 수요가 급증한 것이 성장의 핵심 동력으로 분석된다.",
+      "url": "https://techcrunch.com/2026/06/05/supabase-doubles-valuation-to-10b-in-8-months/",
+      "source": "TechCrunch",
+      "category": "big_tech",
+      "publishedAt": "2026-06-06T01:32:27+09:00",
+      "readTime": 4,
+      "imageGradient": 5
+    },
+    {
+      "id": "big_003",
+      "title": "뉴욕주, 신규 대형 데이터센터 1년 모라토리엄 통과",
+      "excerpt": "뉴욕주 의회가 신규 대형 데이터센터에 대한 1년 유예 조치를 통과시켰다. 주지사가 서명하면 미국 최초의 주 단위 금지 조치가 된다.",
+      "body": "뉴욕주 의회가 신규 대형 데이터센터 건설을 1년간 유예하는 모라토리엄 법안을 통과시켰다. 민주당 소속 캐시 호컬 주지사가 서명하면 미국에서 처음으로 주 차원의 데이터센터 신규 건설 금지 조치가 된다. 법안을 주도한 의원들은 대형 데이터센터가 전력·환경에 미치는 영향을 정책 입안자들이 충분히 이해할 시간을 벌기 위한 조치라고 설명했다. AI發 전력 수요 급증에 대한 규제 움직임이 본격화되는 신호다.",
+      "url": "https://www.theverge.com/policy/944041/new-york-data-center-moratorium",
+      "source": "The Verge",
+      "category": "big_tech",
+      "publishedAt": "2026-06-06T00:25:10+09:00",
+      "readTime": 4,
+      "imageGradient": 4
+    },
+    {
+      "id": "dev_001",
+      "title": "Cloudflare, 실시간 AI 지출 한도 기능 출시",
+      "excerpt": "Cloudflare의 AI Gateway에 여러 AI 제공업체에 걸친 실시간 지출 한도 기능이 추가됐다. 통제 불능의 토큰 비용을 막기 위한 기능이다.",
+      "body": "Cloudflare가 AI Gateway에 실시간 지출 한도(spend limits) 기능을 도입했다. 여러 AI 제공업체에 걸쳐 폭증할 수 있는 토큰 비용을 사전에 차단할 수 있으며, Cloudflare Access와 연동해 사용자 신원 기반의 예산과 정책을 적용할 수 있다. 기업들이 AI 비용을 부서·팀 단위로 통제하려는 수요가 커지는 가운데 나온 기능으로, 폭주하는 AI 청구서 문제에 대한 직접적인 해법을 제시한다.",
+      "url": "https://blog.cloudflare.com/ai-gateway-spend-limits/",
+      "source": "Cloudflare Blog",
+      "category": "dev_tools",
+      "publishedAt": "2026-06-05T22:00:00+09:00",
+      "readTime": 4,
+      "imageGradient": 2
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "ai_001",
+        "title": "구글, 2026년 5월 AI 업데이트 총정리 공개",
+        "excerpt": "구글이 지난 5월 한 달간 발표한 주요 AI 소식을 한데 모아 정리했다. 신제품과 기능 발표가 망라됐다.",
+        "body": "구글이 2026년 5월 한 달간 내놓은 주요 AI 소식을 총정리한 글을 공개했다. 새로운 모델과 기능 발표부터 제품 업데이트까지, 한 달간 쏟아진 핵심 발표들을 한눈에 볼 수 있도록 묶었다. 검색·제미나이·클라우드 등 여러 영역에 걸친 업데이트가 포함돼, 구글이 AI 전반에서 빠르게 제품을 갱신하고 있음을 보여준다.",
+        "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+        "source": "AI & Machine Learning",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-05T23:45:00+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "ai_002",
+        "title": "Anthropic, IPO 앞두고 연 매출 470억 달러 돌파…수익성 의구심 일축",
+        "excerpt": "다니엘라 아모데이가 상장을 앞두고 AI 투자 회수에 대한 의구심을 일축했다. Anthropic의 연환산 매출은 5월 470억 달러를 넘어섰다.",
+        "body": "Anthropic이 IPO를 앞두고 폭발적인 성장세를 과시했다. 회사는 연환산 매출이 5월 470억 달러를 돌파했다고 밝혔는데, 이는 2025년 말 약 90억 달러에서 급증한 수치다. 공동창업자 다니엘라 아모데이는 AI의 투자 대비 수익성에 대한 시장의 의구심을 정면으로 반박하며 성장 지속을 자신했다. 다만 이러한 가파른 성장 궤적이 실제 상장 이후에도 유지될지가 시험대에 올랐다.",
+        "url": "https://techcrunch.com/2026/06/04/ahead-of-its-ipo-anthropics-daniela-amodei-shrugs-off-doubts-about-ais-returns/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-05T07:43:26+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      },
+      {
+        "id": "ai_003",
+        "title": "\"AI 토큰 비용 청구서가 날아온다\"…업계, 폭증 비용 통제 비상",
+        "excerpt": "'토큰맥싱'과 '속도 우선'에서 '가드레일이 필요하다'로 업계의 대화가 옮겨갔다. 통제 불능으로 치닫는 AI 비용 관리가 화두로 떠올랐다.",
+        "body": "AI 서비스가 본격 확산되면서 추론에 드는 토큰 비용이 기업들의 새로운 골칫거리로 떠올랐다. 그동안 '최대한 빠르게, 토큰을 아끼지 말고'를 외치던 업계 분위기가 이제는 '어떻게 비용을 통제할 것인가'로 급격히 전환되고 있다. 기사에 따르면 폭증하는 토큰 청구서를 관리하기 위한 가드레일과 예산 통제 수요가 빠르게 늘고 있으며, 관련 인프라·도구 시장도 함께 커지고 있다.",
+        "url": "https://techcrunch.com/2026/06/05/the-token-bill-comes-due-inside-the-industry-scramble-to-manage-ais-runaway-costs/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-05T23:49:12+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      },
+      {
+        "id": "ai_004",
+        "title": "Mira Murati, 신중하게 주목받는 자리로 복귀",
+        "excerpt": "조용히 머리를 숙이고 있던 미라 무라티가 다시 전면에 나서기 시작했다. 시장에 존재감을 상기시키기 위한 행보로 풀이된다.",
+        "body": "전 OpenAI CTO 미라 무라티가 자신의 새 AI 스타트업과 함께 다시 공개 무대에 조심스럽게 나서고 있다. 기사에 따르면 지금과 같은 환경에서는 계속 침묵을 지키는 것이 오히려 손해이며, 시장에 자신의 존재를 상기시키기 위해서라도 어느 시점에는 목소리를 내야 한다는 판단이 작용했다. 무라티의 행보는 차세대 AI 랩 경쟁 구도에서 주목받고 있다.",
+        "url": "https://techcrunch.com/2026/06/04/mira-murati-steps-back-into-the-spotlight-carefully/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-05T14:06:37+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      },
+      {
+        "id": "ai_005",
+        "title": "에어비앤비 CEO 브라이언 체스키, 새 AI 랩 설립 계획",
+        "excerpt": "에어비앤비의 브라이언 체스키가 새로운 AI 랩을 출범할 계획이라고 밝혔다. 기존 제품들이 충분히 무르익지 않았다는 판단이 배경이다.",
+        "body": "에어비앤비 CEO 브라이언 체스키가 자체 AI 랩을 새로 설립할 계획을 공개했다. 그는 지난해 기존 LLM 제품들이 아직 회사의 요구를 충족할 만큼 무르익지 않았다고 보고 별도의 대형 모델 파트너십을 맺지 않았다고 설명했다. 이번 AI 랩 설립은 에어비앤비가 여행·숙박 경험에 AI를 직접 내재화하려는 의지를 보여주는 행보로 해석된다.",
+        "url": "https://techcrunch.com/2026/06/04/airbnbs-brian-chesky-plans-to-launch-a-new-ai-lab/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-05T07:29:50+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "dev_001",
+        "title": "Cloudflare, 실시간 AI 지출 한도 기능 출시",
+        "excerpt": "Cloudflare의 AI Gateway에 여러 AI 제공업체에 걸친 실시간 지출 한도 기능이 추가됐다. 통제 불능의 토큰 비용을 막기 위한 기능이다.",
+        "body": "Cloudflare가 AI Gateway에 실시간 지출 한도(spend limits) 기능을 도입했다. 여러 AI 제공업체에 걸쳐 폭증할 수 있는 토큰 비용을 사전에 차단할 수 있으며, Cloudflare Access와 연동해 사용자 신원 기반의 예산과 정책을 적용할 수 있다. 기업들이 AI 비용을 부서·팀 단위로 통제하려는 수요가 커지는 가운데 나온 기능으로, 폭주하는 AI 청구서 문제에 대한 직접적인 해법을 제시한다.",
+        "url": "https://blog.cloudflare.com/ai-gateway-spend-limits/",
+        "source": "Cloudflare Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-05T22:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 2
+      },
+      {
+        "id": "dev_002",
+        "title": "Docker, \"AI 거버넌스란 무엇인가\" 가이드 발행",
+        "excerpt": "Docker가 AI 거버넌스의 프레임워크·원칙·모범 사례를 정리한 가이드를 공개했다. 조직의 60%가 이미 AI 에이전트를 운영 중이다.",
+        "body": "Docker가 AI 거버넌스의 개념과 실무 적용법을 정리한 가이드를 발행했다. 자사 보고서에 따르면 이미 60%의 조직이 AI 에이전트를 프로덕션에 투입했지만, 40%는 보안과 컴플라이언스를 확장의 최대 걸림돌로 꼽았다. Docker는 바로 이 도입과 통제 사이의 격차에 AI 거버넌스가 필요하다고 강조하며, 에이전트 도입을 안전하게 확장하기 위한 프레임워크와 원칙을 제시했다.",
+        "url": "https://www.docker.com/blog/what-is-ai-governance/",
+        "source": "Docker Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-06T03:39:35+09:00",
+        "readTime": 4,
+        "imageGradient": 3
+      },
+      {
+        "id": "dev_003",
+        "title": "Vercel, 60만+ 오픈소스 스킬 조회하는 skills.sh API 공개",
+        "excerpt": "Vercel이 오픈소스 생태계 전반의 60만 개 이상 스킬을 조회할 수 있는 skills.sh API를 공개했다. 프로젝트 OIDC 토큰으로 인증한다.",
+        "body": "Vercel이 skills.sh API를 정식 출시했다. 프로젝트의 Vercel OIDC 토큰으로 인증하면 오픈소스 생태계 전반에 걸친 60만 개 이상의 스킬을 검색하고 상세 정보를 조회할 수 있으며, 각 스킬의 보안 감사 결과까지 확인할 수 있다. Vercel은 범위가 제한된 단기 토큰을 발급해 보안을 유지하며, 에이전트·자동화 워크플로우가 외부 스킬을 안전하게 활용하도록 돕는다.",
+        "url": "https://vercel.com/changelog/the-skills-sh-api-is-now-available",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-05T09:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "dev_004",
+        "title": "Stack Overflow, '바이브 코딩 시대'의 OWASP Top 10 변화 조명",
+        "excerpt": "OWASP Top 10 최신판이 '구버전 컴포넌트'에서 소프트웨어 공급망 중심으로 옮겨갔다. 메모리 안전성과 바이브 코딩이 인식 항목으로 추가됐다.",
+        "body": "Stack Overflow 팟캐스트가 OWASP Top 10 팀의 타냐 잔카와 함께 최신 OWASP Top 10의 변화를 짚었다. 목록의 초점이 기존의 '구버전 컴포넌트'에서 더 넓은 소프트웨어 공급망 보안으로 이동했으며, 메모리 안전성과 '바이브 코딩'이 새로운 인식(awareness) 항목으로 추가됐다. AI로 코드를 빠르게 생성하는 시대에 보안 위협의 양상이 어떻게 달라지는지를 다룬다.",
+        "url": "https://stackoverflow.blog/2026/06/05/making-the-owasp-top-ten-in-the-vibe-code-era/",
+        "source": "Stack Overflow Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-05T16:40:00+09:00",
+        "readTime": 4,
+        "imageGradient": 3
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "big_001",
+        "title": "Google, 컴퓨팅 확보 위해 SpaceX에 월 9.2억 달러 지불",
+        "excerpt": "Google과 SpaceX가 컴퓨팅 공급 계약을 발표했다. SpaceX의 역사적 IPO를 불과 일주일 앞두고 나온 거래다.",
+        "body": "Google이 SpaceX에 매월 9억 2천만 달러를 지불하고 컴퓨팅 자원을 공급받는 대형 계약을 체결했다. 양사는 금요일 이 거래를 공식 발표했는데, 이는 SpaceX의 역사적인 기업공개(IPO)를 단 일주일 앞두고 나온 것이다. AI 수요 폭증으로 컴퓨팅 인프라 확보 경쟁이 격화되는 가운데, 빅테크가 위성·우주 기업의 데이터센터 역량까지 끌어들이는 새로운 국면을 보여준다.",
+        "url": "https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/",
+        "source": "TechCrunch AI",
+        "category": "big_tech",
+        "publishedAt": "2026-06-06T03:57:20+09:00",
+        "readTime": 4,
+        "imageGradient": 4
+      },
+      {
+        "id": "big_002",
+        "title": "Supabase, 8개월 만에 기업가치 100억 달러로 두 배",
+        "excerpt": "오픈소스 프로젝트에서 출발한 Supabase가 8개월 만에 기업가치를 100억 달러로 두 배 끌어올렸다. Claude·Codex 등 AI 코딩 도구 수혜를 크게 입었다.",
+        "body": "오픈소스 백엔드 플랫폼 Supabase가 단 8개월 만에 기업가치를 100억 달러로 두 배 늘렸다. 오픈소스 프로젝트가 빠르게 성장하는 기업으로 자리잡은 대표 사례로, Claude·Codex 같은 AI 코딩·바이브 코딩 플랫폼의 확산에서 큰 수혜를 입었다. AI로 앱을 빠르게 만드는 개발자가 늘면서 손쉬운 백엔드 수요가 급증한 것이 성장의 핵심 동력으로 분석된다.",
+        "url": "https://techcrunch.com/2026/06/05/supabase-doubles-valuation-to-10b-in-8-months/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-06-06T01:32:27+09:00",
+        "readTime": 4,
+        "imageGradient": 5
+      },
+      {
+        "id": "big_003",
+        "title": "뉴욕주, 신규 대형 데이터센터 1년 모라토리엄 통과",
+        "excerpt": "뉴욕주 의회가 신규 대형 데이터센터에 대한 1년 유예 조치를 통과시켰다. 주지사가 서명하면 미국 최초의 주 단위 금지 조치가 된다.",
+        "body": "뉴욕주 의회가 신규 대형 데이터센터 건설을 1년간 유예하는 모라토리엄 법안을 통과시켰다. 민주당 소속 캐시 호컬 주지사가 서명하면 미국에서 처음으로 주 차원의 데이터센터 신규 건설 금지 조치가 된다. 법안을 주도한 의원들은 대형 데이터센터가 전력·환경에 미치는 영향을 정책 입안자들이 충분히 이해할 시간을 벌기 위한 조치라고 설명했다. AI發 전력 수요 급증에 대한 규제 움직임이 본격화되는 신호다.",
+        "url": "https://www.theverge.com/policy/944041/new-york-data-center-moratorium",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-06-06T00:25:10+09:00",
+        "readTime": 4,
+        "imageGradient": 4
+      },
+      {
+        "id": "big_004",
+        "title": "Google·FBI, '가짜 IT 직원' 침투 랜섬웨어 조직 경고",
+        "excerpt": "Silent Ransom Group이 IT 지원 직원을 사칭한 사람을 로펌 사무실로 직접 보내 데이터를 탈취했다. Google과 FBI가 공동 경고했다.",
+        "body": "Google과 FBI가 'Silent Ransom Group'으로 알려진 랜섬웨어 조직에 대해 공동 경고를 내놨다. 이들은 IT 지원 직원으로 위장한 사람을 로펌 사무실에 직접 보내, USB 드라이브나 원격 접속 도구를 이용해 데이터를 훔쳤다. 원격 해킹을 넘어 물리적으로 사무실에 침투하는 새로운 수법으로, 기업의 내부 출입 통제와 직원 신원 확인의 중요성이 한층 부각됐다.",
+        "url": "https://techcrunch.com/2026/06/05/google-and-fbi-warn-of-ransomware-group-that-sends-fake-it-workers-to-hack-victims-in-person/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-06-06T01:07:46+09:00",
+        "readTime": 4,
+        "imageGradient": 5
+      },
+      {
+        "id": "big_005",
+        "title": "AirTrunk, 인도에 300억 달러 투입…5GW AI 데이터센터 건설",
+        "excerpt": "호주 데이터센터 운영사 AirTrunk가 인도에 5GW 규모의 AI 데이터센터 용량을 구축하기로 했다.",
+        "body": "호주의 대형 데이터센터 운영사 AirTrunk가 인도에 300억 달러를 투입해 5기가와트(GW) 규모의 AI 데이터센터 용량을 구축하겠다고 밝혔다. 인도를 차세대 AI 인프라 거점으로 키우려는 대규모 베팅으로, 전 세계적으로 격화되는 AI 컴퓨팅·전력 인프라 확보 경쟁의 한 단면을 보여준다.",
+        "url": "https://techcrunch.com/2026/06/05/airtrunk-commits-30b-to-build-5gw-of-ai-data-centers-in-india/",
+        "source": "TechCrunch AI",
+        "category": "big_tech",
+        "publishedAt": "2026-06-05T22:03:10+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "big_006",
+        "title": "GM, 새 배터리 기술에 전기차 미래 베팅",
+        "excerpt": "GM이 새로운 배터리 기술을 계획보다 최대 1년 앞당겨 도입해 전기차 가격을 대폭 낮추려 한다. 핵심은 이 생산 시설이다.",
+        "body": "제너럴모터스(GM)가 새로운 배터리 기술을 당초 계획보다 최대 1년 앞당겨 양산에 투입해 전기차 가격을 대폭 낮추는 전략을 추진한다. 기사에 따르면 이 핵심 생산 시설이 전략 실현의 열쇠로, 배터리 원가를 낮춰 가격 경쟁력을 확보하는 것이 목표다. 전기차 수요 둔화 속에서 가격을 무기로 시장을 되살리려는 전통 완성차 업체의 승부수다.",
+        "url": "https://techcrunch.com/2026/06/05/gms-electric-future-depends-on-a-new-battery-and-this-building/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-06-06T02:44:18+09:00",
+        "readTime": 4,
+        "imageGradient": 5
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "우리는 ChatGPT의 메모리가 대화 간 맥락을 전달하고 시간이 지남에 따라 유용하게 유지할 수 있는 새로운 방법을 연구해 왔습니다.\n\n오늘, 그 작업이 ChatGPT에서 더 강력한 메모리 시스템으로 출시되고 있습니다.",
+        "context": "OpenAI가 대화 간 맥락을 더 잘 전달하고 시간이 지나도 유용하게 유지하는 새 메모리 시스템을 ChatGPT에 출시했다고 알렸다. 최근 메모리 경쟁의 핵심 발표다.",
+        "url": "https://x.com/OpenAI/status/2062567556524003631",
+        "publishedAt": "2026-06-04T16:10:00.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "ChatGPT 메모리 대폭 업그레이드가 오늘 롤아웃됩니다!",
+        "context": "OpenAI CEO 샘 알트만이 ChatGPT 메모리 대규모 업그레이드의 당일 롤아웃을 직접 예고했다.",
+        "url": "https://x.com/sama/status/2062660086787613116",
+        "publishedAt": "2026-06-04T22:17:41.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "ChatGPT로 웹 앱을 빌드하고 퍼블리싱하세요!\n\n어린 시절에 이게 있었으면 좋았을 텐데, 하지만 하이퍼카드를 그리워합니다.",
+        "context": "샘 알트만이 ChatGPT로 누구나 웹 앱을 만들고 퍼블리싱할 수 있게 됐다고 소개하며, 어린 시절 하이퍼카드에 대한 향수를 덧붙였다.",
+        "url": "https://x.com/sama/status/2062661071761211561",
+        "publishedAt": "2026-06-04T22:21:36.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "GPT-Rosalind에 대한 주요 업그레이드, 약물 발견, 분석, 설계 및 실험 워크플로우를 위한 훨씬 더 나은 지능으로:",
+        "context": "OpenAI 사장 그렉 브록먼이 약물 발견·분석·설계 워크플로우를 위한 GPT-Rosalind의 대규모 지능 업그레이드를 공개했다.",
+        "url": "https://x.com/gdb/status/2062292268602773747",
+        "publishedAt": "2026-06-03T21:56:07.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "저희 모델 중 하나가 80년 된 에르되시 추측에 대한 반례를 발견했을 때 무슨 일이 일어났을까요?\n\n연구원들 \n@alexwei_\n, \n@HongxunWu\n, 그리고 \n@wjmzbmr1\n이 \n@AndrewMayne\n과 함께 OpenAI 팟캐스트에서 그 이야기를 공유하며, 수학자들과 모델들이 어떻게 함께 새로운 발견을 만들어낼 수 있는지",
+        "context": "OpenAI가 자사 모델이 80년 된 에르되시 추측의 반례를 발견한 과정을 연구원들과 함께 팟캐스트에서 공유한다고 전했다. AI의 수학 발견 능력을 보여주는 사례다.",
+        "url": "https://x.com/OpenAI/status/2062630454537424930",
+        "publishedAt": "2026-06-04T20:19:56.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "일부 사용자 계정이 잘못 정지되는 문제를 일으켰습니다.\n\n우리는 접근을 복구하고 있으며, 관련 구독 및 크레딧 문제를 해결하고 있습니다.",
+        "context": "OpenAI가 일부 사용자 계정이 잘못 정지된 문제를 인지하고 접근 복구와 구독·크레딧 보상을 진행 중이라고 공지했다.",
+        "url": "https://x.com/OpenAI/status/2062927046448431587",
+        "publishedAt": "2026-06-05T15:58:29.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "오늘의 Codex 품질 개선 업데이트는 설정에서 시작됩니다.\n\n이제 Codex 설정을 검색할 수 있으며, 결과는 카테고리별로 그룹화되어 있어서 모든 섹션을 훑어보지 않고 변경하고 싶은 항목을 쉽게 찾을 수 있습니다 – 이로 인해 설정과 맞춤화가 더 쉬워집니다.",
+        "context": "OpenAI 개발자 팀이 Codex 설정 검색·카테고리 그룹화 등 품질 개선 업데이트를 발표했다. 설정과 맞춤화가 한층 쉬워졌다.",
+        "url": "https://x.com/OpenAIDevs/status/2062987643286438337",
+        "publishedAt": "2026-06-05T19:59:17.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "ChatGPT",
+        "handle": "ChatGPTapp",
+        "content": "초안을 작성하세요. 수정하세요. 보내세요.\n\n이제 웹에서 ChatGPT의 작성 블록에서 대화를 떠나지 않고 이메일을 직접 보낼 수 있습니다.",
+        "context": "ChatGPT 팀이 웹에서 대화를 떠나지 않고 작성 블록에서 곧바로 이메일을 보낼 수 있는 기능을 소개했다.",
+        "url": "https://x.com/ChatGPTapp/status/2062944254591430917",
+        "publishedAt": "2026-06-05T17:06:52.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_009",
+        "author": "ChatGPT",
+        "handle": "ChatGPTapp",
+        "content": "ChatGPT와 Codex를 활용해 일본에서 농장을 운영하는 히로키 씨(\n@tomiyasu16\n)를 만나보세요: \nhttps://\nchatgptpro.substack.com/p/hiroki-tomiy\nasu\n…",
+        "context": "ChatGPT 팀이 ChatGPT와 Codex로 일본에서 농장을 운영하는 사용자 히로키 씨의 사례를 소개했다. 실생활 활용 사례다.",
+        "url": "https://x.com/ChatGPTapp/status/2062973447635095682",
+        "publishedAt": "2026-06-05T19:02:52.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_010",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "내부 데이터에 따르면 Claude는 AI 개발을 가속화하고 있습니다—재귀적 자기 개선의 가능한 경로, 또는 AI가 더 유능한 후속자를 자율적으로 구축하는 길입니다.\n\n우리가 생각했던 것보다 빠르게 일어나고 있으며, 그 함의는 더 큰 주의를 기울일 만합니다.",
+        "context": "Anthropic이 내부 데이터를 근거로 Claude가 AI 개발을 가속하고 있다며, 재귀적 자기 개선의 가능한 경로일 수 있다고 밝혔다. 예상보다 빠르게 일어나고 있다는 점을 강조했다.",
+        "url": "https://x.com/AnthropicAI/status/2062568862479208923",
+        "publishedAt": "2026-06-04T16:15:12.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_011",
+        "author": "Alex Albert",
+        "handle": "alexalbert__",
+        "content": "우리는 방금 Claude의 개발 중 Claude가 이미 얼마나 많은 부분을 담당하고 있는지에 대한 내부 데이터를 발표했습니다:\n- 이제 우리 코드베이스에 병합된 모든 코드의 80% 이상이 Claude에 의해 작성되고 있습니다\n- Anthropic의 많은 연구원들이 손으로 코드를 작성한 지 몇 달이 지났습니다\n-",
+        "context": "Anthropic의 알렉스 알버트가 이제 코드베이스에 병합되는 코드의 80% 이상을 Claude가 작성한다는 내부 데이터를 공개했다.",
+        "url": "https://x.com/alexalbert__/status/2062580571214389510",
+        "publishedAt": "2026-06-04T17:01:43.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_012",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "우리가 모델을 출시할 때마다 우리는 동일한 테스트를 실행합니다: 작은 AI 모델을 훈련시키는 코드를 제공하고, 새 모델에게 이를 가속화하도록 요청합니다. 숙련된 인간은 4~8시간이 걸려 4배 빠른 속도를 달성합니다.\n\n2024년 5월, Claude Opus 4는 평균 약 3배 속도 향상을 달성했습니다. 이번",
+        "context": "Anthropic이 모델 출시 때마다 'AI 훈련 코드를 가속하라'는 동일한 평가를 실행한다며, 모델 세대별 자기 가속 능력의 변화를 공유했다.",
+        "url": "https://x.com/AnthropicAI/status/2062568869240476050",
+        "publishedAt": "2026-06-04T16:15:13.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_013",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "AI 연구는 일련의 다음 단계 결정들로 이루어져 있습니다. 우리는 인간 연구원이 잘못된 방향으로 나아간 세션을 살펴보고, 그 시점까지의 세션을 Claude에게 보여주며 다음에 무엇을 해야 할지 물었습니다. Mythos Preview는 인간보다 64%의 경우에 더 나은 성능을 보였습니다—이는 2024년의 22%에서",
+        "context": "Anthropic이 인간 연구원이 길을 잘못 든 세션을 Mythos Preview에 보여주고 다음 단계를 물었더니 64% 경우에서 인간보다 더 나은 판단을 했다고 밝혔다.",
+        "url": "https://x.com/AnthropicAI/status/2062568870872003021",
+        "publishedAt": "2026-06-04T16:15:14.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_014",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "새로운 Anthropic 과학 블로그: Claude를 화학자로 만드는 법.\n\n분자를 조작하려면, 화학자들은 먼저 그 구조를 이해해야 합니다. 그들의 주요 도구는 NMR 분광법입니다.\n\n우리는 Opus 4.7이 전용 NMR 소프트웨어와 일치하며—일부 작업에서는 이를 능가한다는 것을 발견했습니다. 자세한 내용은 다음을",
+        "context": "Anthropic이 새 과학 블로그에서 Opus 4.7이 NMR 분광법으로 분자 구조를 해석해 전용 소프트웨어와 대등하거나 일부 작업에서는 이를 능가했다고 전했다.",
+        "url": "https://x.com/AnthropicAI/status/2062979607448682731",
+        "publishedAt": "2026-06-05T19:27:21.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_015",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "안톤 오시카(\n@antonosika\n)는 \n@lovable\n의 공동 창립자이자 CEO로, 누구나 대화를 통해 소프트웨어를 만들 수 있는 곳입니다.\n\n그의 작업 가설: AI에서 가장 과소평가된 경쟁 우위는 신뢰이며, 이를 얻기 위해서는 장인 정신, 세심함, 그리고 집착이 필요합니다.",
+        "context": "Anthropic의 Claude 팀이 'The Problem Solvers' 시리즈에서 Lovable 공동창업자 안톤 오시카를 조명했다. AI에서 가장 과소평가된 경쟁 우위는 신뢰라는 그의 가설을 소개했다.",
+        "url": "https://x.com/claudeai/status/2062558332695556378",
+        "publishedAt": "2026-06-04T15:33:21.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_016",
+        "author": "Mark Chen",
+        "handle": "markchen90",
+        "content": "Mythos가 나왔을 때, 내 즉각적인 생각은 “만약 우리 모델들이 80년 된 정리를 증명할 수 있다면, 확실히 사이버 취약점도 찾을 수 있을 거야.”였습니다. 그리고 그들은 그렇게 했습니다.\n\n저는 그곳의 연구원들이 그 생각을 반대로 하고 있을 거라고 상상합니다.",
+        "context": "OpenAI 연구 책임자 마크 첸이 자사 모델 Mythos가 80년 된 정리를 증명한 데 이어 실제 사이버 취약점도 찾아냈다고 밝혔다.",
+        "url": "https://x.com/markchen90/status/2062265524663250961",
+        "publishedAt": "2026-06-03T20:09:50.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_017",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "동적 워크플로우가 Claude Code가 완전히 새로운 유형의 작업을 처리할 수 있게 하는 방법",
+        "context": "OpenAI의 Thariq가 동적 워크플로우(dynamic workflows)가 Claude Code로 완전히 새로운 유형의 작업을 처리하게 하는 방식을 소개했다.",
+        "url": "https://x.com/trq212/status/2062556889171517499",
+        "publishedAt": "2026-06-04T15:27:37.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_018",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "앱은 집에서 만든 밥 한 끼일 수 있다 (2020)\n\n개인 소프트웨어는 2020년에는 조금 이른 감이 있었지만, 2026년에는 정말로 집에서 만든 밥 한 끼나 손으로 쓴 편지처럼 개인적일 수 있다\n\n\nhttps://\nrobinsloan.com/notes/home-coo\nked-app/\n…",
+        "context": "OpenAI의 Thariq가 2026년에는 개인용 소프트웨어가 집에서 만든 밥 한 끼나 손편지처럼 개인적인 것이 될 수 있다는 로빈 슬론의 글을 공유했다.",
+        "url": "https://x.com/trq212/status/2062605395101884916",
+        "publishedAt": "2026-06-04T18:40:22.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_019",
+        "author": "Felix Rieseberg",
+        "handle": "felixrieseberg",
+        "content": "개인적인 바보 같은 주말 프로젝트에 대해 이야기하고 싶어요.\n\n90년대 컴퓨팅에 대한 애정이 있어서, Relic이라는 작은 코딩 에이전트를 만들었어요. 이 에이전트는 오래된 장치에서 실행되며, 플로피 디스크에 들어갈 정도로 작고, 4MB 메모리만 필요하며, 우리가 HTTPS를 사용하기 전에 만들어진",
+        "context": "개발자 펠릭스 리제베르크가 플로피 디스크에 들어갈 만큼 작고 4MB 메모리만으로 구동되는 코딩 에이전트 'Relic'을 주말 프로젝트로 만들었다고 소개했다.",
+        "url": "https://x.com/felixrieseberg/status/2062620494306902332",
+        "publishedAt": "2026-06-04T19:40:22.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "샘 알트만, 다리오 아모데이, 데미스 허사비스 등 주요 AI 기업 CEO들이 미국 의회에 생물학 안전 규제 강화를 요구하는 공개 서한에 서명했습니다. 서한의 내용은 합성 DNA·RNA 주문 과정과 관련 장비에 대한 보안 검증을 의무화하자는 내용인데요. AI가 생물학 분야에서도 점점 강해지면서 악의적인 사용 위험이 커질 수 있다는 우려 때문입니다. 불과 몇 년 전만 해도 AI 위험성 논의는 주로 장기적인 AGI 시나리오에 집중됐습니다. 그런데 이제는 실제 정책 제안이 합성 생물학, 병원체, DNA 합성 공급망 같은 매우 구체적인 영역으로 내려오고 있습니다. 특히 AI 기업들이 모델 성능 경쟁을 계속하면서도 동시에 생물학 분야 규제를 요구하고 있다는 점도 눈에 띕니다. 최근 앤트로픽이 자기개선과 바이오 리스크를 언급하고, 주요 연구소들이 생물학 평가 체계를 강화하는 것도 같은 흐름으로 보입니다.",
+        "context": "국내 인기 AI 채널 CHOI가 샘 알트만·다리오 아모데이·데미스 허사비스 등 주요 AI CEO들이 의회에 생물학 안전 규제 강화를 요구하는 공개 서한에 서명한 소식을 전했다.",
+        "url": "https://www.threads.net/@choi.openai/post/DZNxRvkEWAU",
+        "publishedAt": "2026-06-05T19:00:16.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "구글이 흥미로운 논문 하나를 공개했습니다. 구글이 발표한 LEAP는 일반 LLM 위에 커스텀 에이전트 하네스를 얹은 시스템인데요. AI가 문제를 풀고, Lean 검증기로 결과를 확인하고, 틀리면 다시 수정하는 과정을 반복하도록 설계됐습니다. 그 결과 2025년 Putnam 수학 경시대회 문제 12개를 모두 해결했고, Lean-IMO-Bench에서는 기존 10% 미만 수준이던 정답률을 70%까지 끌어올렸다고 합니다. 최근 프론티어 모델들은 성능 차이가 점점 좁혀지고 있습니다. 대신 어떤 에이전트 구조를 붙이고, 어떤 검증 시스템을 만들고, 어떻게 반복적으로 문제를 해결하게 하느냐가 더 중요해지고 있는데요. 이번 결과도 모델이 수학을 못해서 성능이 낮았던 게 아니라, 긴 증명을 한 번에 정확하게 작성하지 못하는 것이 문제였다고 보는 점입니다. 모델 자체보다 모델을 어떻게 일하게 만들 것인가가 더 중요해진 시점을 증명해주는 것 같습니다.",
+        "context": "CHOI가 구글의 LEAP 시스템 소식을 전했다. 일반 LLM 위에 에이전트 하네스와 Lean 검증기를 얹어 Putnam 수학 문제 12개를 모두 풀어낸 사례로, 모델보다 '에이전트 구조'가 중요해진 흐름을 짚었다.",
+        "url": "https://www.threads.net/@choi.openai/post/DZNoJQJjSi7",
+        "publishedAt": "2026-06-05T17:40:28.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_003",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "엔비디아가 공개한 OmniDreams는 자율주행용 월드 모델입니다. AI가 만들어낸 가상 세계 안에서 차량 정책이 실제로 운전하고 그 결과가 다시 다음 장면 생성에 반영되는 특징을 갖고 있는데요. 즉 영상을 재생하는 수준이 아니라 AI가 행동하고, 환경이 반응하고, 다시 AI가 판단하는 폐쇄 루프 시뮬레이션이 가능합니다. 특히 기존 재구성 기반 시뮬레이터는 촬영된 데이터 주변만 잘 재현하는 경우가 많았는데, OmniDreams는 새로운 시점, 날씨, 객체, 움직임까지 생성해 롱테일 상황을 만들어낼 수 있다고 합니다. 자율주행 업계가 가장 어려워하는 \"현실에서 거의 발생하지 않지만 반드시 대비해야 하는 상황\"을 대규모로 테스트할 수 있다는 의미입니다. 최근 AI 업계가 비디오 생성에서 월드 모델로 관심이 이동하는 이유도 여기에 있습니다. 중요한 건 영상을 얼마나 사실적으로 만드느냐가 아니라, AI가 상호작용할 수 있는 시뮬레이션 세계를 얼마나 현실적으로 구축하느냐입니다.",
+        "context": "CHOI가 엔비디아의 자율주행용 월드 모델 'OmniDreams'를 소개했다. AI가 만든 가상 세계에서 폐쇄 루프 시뮬레이션이 가능해, 자율주행의 롱테일 상황 테스트에 활용될 수 있다는 분석이다.",
+        "url": "https://www.threads.net/@choi.openai/post/DZNct4DiaKI",
+        "publishedAt": "2026-06-05T16:00:36.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_004",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "엔비디아가 한국에 최고 등급 AI 연구거점을 세우려 합니다. SK하이닉스, 현대차, LG, 네이버, T1까지 모두 연결된 이유를 따라가다 보면 단순 투자 이상의 그림이 보입니다. 잘 알려지지 않은 배경과 핵심 사례 10가지를 정리했습니다.",
+        "context": "CHOI가 엔비디아의 한국 AI 연구거점 설립 움직임을 소개하며, SK하이닉스·현대차·LG·네이버 등과 연결된 배경을 정리한 스레드를 시작했다.",
+        "url": "https://www.threads.net/@choi.openai/post/DZM16nrD7QV",
+        "publishedAt": "2026-06-05T10:21:34.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_005",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "엔비디아가 전 세계 극소수 기술 요충지에만 운영하는 최상위 R&D 시설 'AI 기술센터'를 한국에 설립하기 위한 박사급 채용에 착수했으며, 젠슨 황 CEO가 나흘 일정으로 전용기 방한해 재계 총수들과 연쇄 회동을 벌이고 있습니다. 싱가포르(2019)·영국(2021)·대만(2023)·일본(2024)에 이어 다섯 번째 글로벌 거점으로 서울이 선택된 것인데요. NVAITC는 본사 박사급 핵심 연구원을 현지에 파견하여 정부·대학·기업과 원천 기술을 공동 개발하고 NeurIPS·ICML 같은 최정상 학회에 논문까지 투고하는 엔비디아 최고위 연구 조직입니다. 이번 채용은 작년 10월 APEC 경주에서 현대차·정부와 맺었던 GPU 26만 장 공급 및 기술센터 건립 삼자 양해각서를 구체적으로 실행하는 첫 수순이라고 설명합니다.",
+        "context": "CHOI가 엔비디아가 서울에 최상위 R&D 시설 'AI 기술센터(NVAITC)'를 세우기 위해 박사급 채용에 착수했고, 젠슨 황 CEO가 방한해 재계 총수들과 연쇄 회동 중이라고 전했다.",
+        "url": "https://www.threads.net/@choi.openai/post/DZM17KqDzME",
+        "publishedAt": "2026-06-05T10:21:38.000Z",
+        "platform": "threads"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "Dreaming: 더 똑똑해진 ChatGPT 메모리",
+        "originalTitle": "Dreaming: Better Memory for a More Helpful ChatGPT",
+        "summary": "OpenAI의 새 메모리 시스템 'Dreaming'을 다룬 게시물로 r/OpenAI에서 큰 호응을 얻었다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1txisku/dreaming_better_memory_for_a_more_helpful_chatgpt/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-06-05T20:55:51+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "이제 Anthropic 코드의 80%를 Claude가 작성한다",
+        "originalTitle": "Claude now writes 80% of the code at Anthropic",
+        "summary": "Anthropic이 공개한 내부 데이터(코드의 80%를 Claude가 작성)를 두고 r/ClaudeAI에서 활발한 토론이 벌어졌다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1txisil/claude_now_writes_80_of_the_code_at_anthropic/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-06-05T20:55:46+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "양자화 인식 훈련(QAT)이 적용된 Gemma 4",
+        "originalTitle": "Gemma 4 with quantization-aware training",
+        "summary": "로컬 LLM 커뮤니티에서 양자화 인식 훈련으로 경량화된 Gemma 4가 주목받고 있다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1txpeo0/gemma_4_with_quantizationaware_training/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-06-06T01:11:21+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "좋은 연구자를 어떻게 알아보는가? [토론]",
+        "originalTitle": "How do you identify researchers who are good? [D]",
+        "summary": "뛰어난 연구자를 식별하는 기준에 대한 머신러닝 연구자들의 토론이 활발히 이어졌다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1txlxm6/how_do_you_identify_researchers_who_are_good_d/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-06-05T23:04:59+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "LLM 추론 연구의 역설: 이제 사고 사슬 흔적을 '제거'하려 한다",
+        "originalTitle": "The strange thing about LLM reasoning research: we're now trying to remove the chain-of-thought traces",
+        "summary": "사고 사슬(chain-of-thought) 흔적을 오히려 제거하려는 최근 LLM 추론 연구 흐름의 역설을 짚은 게시물이다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1txp7ah/the_strange_thing_about_llm_reasoning_research/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-06-06T01:04:12+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "설정 플래그는 소프트웨어가 썩어가는 곳",
+        "originalTitle": "Configuration flags are where software goes to rot",
+        "summary": "무분별하게 늘어나는 설정 플래그(configuration flags)가 코드 부패의 온상이 된다는 주장을 담은 글로 r/programming에서 화제다.",
+        "url": "https://www.reddit.com/r/programming/comments/1txlq6l/configuration_flags_are_where_software_goes_to_rot/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-06-05T22:57:30+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "Mythos의 제로샷·저노력 출력 결과",
+        "originalTitle": "Zero-Shot and Low Effort Output of Mythos",
+        "summary": "OpenAI 모델 Mythos가 별다른 노력 없이도 인상적인 결과를 내놓은 사례를 공유한 게시물로 r/singularity에서 주목받았다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1txibw4/zeroshot_and_low_effort_output_of_mythos/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-06-05T20:33:31+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "채용 시장이 살아난다…링크드인 리크루터 스팸도 증가",
+        "originalTitle": "The job market is improving; LinkedIn recruiter spam messages are increasing.",
+        "summary": "채용 시장 회복의 신호로 링크드인 리크루터의 연락이 늘었다는 경험을 공유한 글이 경력 개발자들의 공감을 얻었다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1txkifc/the_job_market_is_improving_linkedin_recruiter/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-06-05T22:08:21+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "qb_001",
+        "title": "Sakana AI, 재귀적 자기 개선(RSI) 연구소 출범",
+        "excerpt": "Sakana AI가 AI가 스스로를 개선하는 재귀적 자기 개선을 전담하는 연구소를 출범했다. 해커뉴스에서 화제가 됐다.",
+        "body": "일본 AI 스타트업 Sakana AI가 재귀적 자기 개선(Recursive Self-Improvement, RSI)을 전담하는 연구소 'RSI Lab'을 공개했다. AI가 스스로 더 나은 AI를 설계·개선하는 흐름이 업계 화두로 떠오른 가운데, Anthropic이 공개한 'Claude가 코드의 80%를 작성' 데이터와 맞물려 자기 개선 가속 논쟁에 다시 불을 지폈다.",
+        "url": "https://sakana.ai/rsi-lab/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-06T02:27:39+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "qb_002",
+        "title": "영국 정부(gov.uk), 결제사 Stripe를 네덜란드 Adyen으로 교체",
+        "excerpt": "영국 정부 디지털 서비스가 결제 처리 업체를 Stripe에서 네덜란드의 Adyen으로 교체했다.",
+        "body": "영국 정부의 디지털 서비스 플랫폼 gov.uk가 결제 처리 파트너를 Stripe에서 네덜란드 결제사 Adyen으로 전격 교체했다. 해커뉴스에서 150점 이상을 받으며 큰 관심을 끌었다. 공공 부문의 핵심 인프라인 결제 처리 사업자 교체는 비용·안정성·데이터 주권 측면에서 의미가 크며, 유럽 공공 결제 시장의 지형 변화를 보여준다.",
+        "url": "https://www.theregister.com/public-sector/2026/06/04/govuk-goes-dutch-on-payments-as-it-dumps-stripe/5250763",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-06T01:55:30+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      },
+      {
+        "id": "qb_003",
+        "title": "General Instinct(YC P26), 엣지 디바이스용 프론티어 모델 공개",
+        "excerpt": "최고 성능 모델은 늘 실제 보유한 하드웨어에 맞지 않는다는 문제의식에서 출발한 스타트업이 엣지 디바이스에 프론티어 모델을 올린다.",
+        "body": "YC P26 배치의 General Instinct가 엣지(edge) 디바이스에서 구동되는 프론티어 모델을 들고 해커뉴스에 등장했다. 창업자들은 로보틱스 경험에서 '성능이 가장 좋은 모델은 늘 우리가 실제 가진 하드웨어에 맞지 않는다'는 문제에 반복적으로 부딪혔다고 밝혔다. 데이터센터를 전제로 설계된 대형 모델을 실제 기기에서 돌릴 수 있게 하는 것이 목표다.",
+        "url": "https://news.ycombinator.com/item?id=48414869",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-06T01:33:00+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "qb_004",
+        "title": "GeekNews — '레트로 테크 육아'가 화제",
+        "excerpt": "디지털의 풍요로움은 누리되 감시 자본주의와 참여 최적화 피드 같은 현대적 패턴에서 거리를 두려는 '레트로 테크 육아'가 주목받는다.",
+        "body": "GeekNews에서 '레트로 테크 육아'가 화제다. 아이들과 디지털 기기의 좋은 점은 나누되, 광고 기술(AdTech)·감시 자본주의·분노 유발 콘텐츠·참여 최적화 피드 같은 현대적 패턴에서는 의도적으로 거리를 두려는 접근이다. CD·DVD 같은 물리 매체를 활용하면 부모가 아이가 접할 콘텐츠를 정확히 고를 수 있다는 점이 장점으로 꼽힌다.",
+        "url": "https://news.hada.io/topic?id=30212",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-06T04:34:57+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      }
+    ]
+  }
+}
