@@ -1,0 +1,804 @@
+{
+  "date": "2026-06-07",
+  "issueNumber": 68,
+  "cover": {
+    "mainHeadline": "트럼프 행정부, OpenAI 지분 인수 검토… ‘AI 성공의 과실 국민과 공유’",
+    "mainExcerpt": "트럼프 대통령이 미국 정부의 OpenAI 지분 확보 방안을 논의 중이라고 밝혔다. 정부가 민간 AI 선두 기업의 지분을 직접 보유하는 전례 드문 구상으로, 정책·규제 논란이 예상된다.",
+    "headlines": [
+      "WWDC 2026 임박, 시리 대규모 개편·애플 인텔리전스 업데이트 예고",
+      "리드 호프먼, MS 이사회 떠나 AI 신약개발 스타트업 ‘마누스’ 합류",
+      "구글, AI 컴퓨팅 수요 폭증에 스페이스X와 월 9.2억 달러 계약"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_001",
+      "title": "트럼프 행정부, OpenAI 지분 인수 검토",
+      "excerpt": "트럼프 대통령이 미국 정부가 OpenAI의 지분을 확보하는 방안을 논의 중이라고 밝혔다. ‘AI의 성공으로 미국 국민이 혜택을 받을 수 있는 거래’를 언급했다.",
+      "body": "도널드 트럼프 대통령은 AI 기업의 성공이 국민에게 돌아갈 수 있는 구조를 모색 중이며, 그 일환으로 OpenAI 지분 인수 가능성을 거론했다. 정부가 민간 AI 선두 기업의 지분을 직접 보유하는 방안은 전례가 드물어, 정책적·규제적 논란을 예고한다. 정부 개입이 AI 산업 경쟁 구도와 거버넌스에 미칠 파장에 업계의 이목이 쏠리고 있다.",
+      "url": "https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-06-07T01:17:21+09:00",
+      "readTime": 4,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_002",
+      "title": "WWDC 2026 임박… 시리 대규모 개편·애플 인텔리전스 업데이트 예고",
+      "excerpt": "애플의 연례 개발자 회의 WWDC 2026이 다가오는 가운데, 오래 기다려온 시리(Siri)의 대대적 개편과 애플 인텔리전스 업데이트가 핵심 관전 포인트로 꼽힌다.",
+      "body": "애플은 WWDC 2026에서 그동안 지연돼 온 차세대 시리를 공개할 것으로 예상된다. 더 자연스러운 대화형 어시스턴트와 온디바이스 AI 강화가 기대를 모은다. 애플 인텔리전스의 기능 확장과 개발자용 AI API 개방 여부도 주목된다. 경쟁사들이 생성형 AI를 빠르게 제품에 통합하는 가운데, 애플이 뒤처진 격차를 어떻게 메울지가 관건이다.",
+      "url": "https://techcrunch.com/2026/06/06/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-06-07T03:13:36+09:00",
+      "readTime": 4,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_003",
+      "title": "리드 호프먼, MS 이사회 떠나 AI 신약개발 스타트업 ‘마누스’에 집중",
+      "excerpt": "링크드인 창업자이자 투자자인 리드 호프먼이 10년간 몸담은 마이크로소프트 이사회에서 물러나 AI 신약개발 스타트업 마누스(Manus)에 ‘파운더 모드’로 전념한다.",
+      "body": "수익성 높은 10년간의 MS 이사회 활동을 마무리하고, 리드 호프먼은 AI 기반 신약개발 스타트업 마누스에 집중하기로 했다. 그는 창업자로서 직접 회사를 이끄는 ‘파운더 모드’로 돌아간다. AI가 제약·바이오 연구의 속도를 끌어올리는 흐름 속에서, 거물 투자자의 이번 결정은 AI 신약개발 분야에 대한 기대를 다시 부각시킨다.",
+      "url": "https://techcrunch.com/2026/06/05/reid-hoffman-is-leaving-microsofts-board-to-go-founder-mode-with-startup-manus/",
+      "source": "TechCrunch",
+      "category": "big_tech",
+      "publishedAt": "2026-06-06T07:35:01+09:00",
+      "readTime": 4,
+      "imageGradient": 4
+    },
+    {
+      "id": "rss_011",
+      "title": "구글, AI 컴퓨팅 수요 폭증에 스페이스X와 월 9.2억 달러 계약",
+      "excerpt": "구글이 스페이스X에 매월 9억 2천만 달러를 컴퓨팅 비용으로 지불하기로 했다. 최근 출시한 AI 제품의 예상 밖 수요가 배경이라고 밝혔다.",
+      "body": "구글 대변인은 이번 계약을 ‘최근 선보인 AI 제품에 대한 예상치 못한 수요’의 결과로 설명했다. 월 9.2억 달러 규모의 컴퓨팅 조달은 AI 인프라 확보 경쟁이 얼마나 치열한지를 단적으로 보여준다. 빅테크들이 GPU·데이터센터·전력 등 연산 자원을 두고 막대한 자본을 투입하는 흐름이 가속되고 있다.",
+      "url": "https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/",
+      "source": "TechCrunch AI",
+      "category": "big_tech",
+      "publishedAt": "2026-06-06T03:57:20+09:00",
+      "readTime": 4,
+      "imageGradient": 4
+    },
+    {
+      "id": "rss_005",
+      "title": "구글, ‘Gemma 4 QAT’ 모델 공개… 모바일·노트북용 압축 최적화",
+      "excerpt": "구글의 Gemma 4 양자화 인식 학습(QAT) 체크포인트가 공개됐다. 에지 기기와 소비자용 GPU에서의 로컬 실행을 위해 메모리 요구량과 온디바이스 성능을 최적화했다.",
+      "body": "Gemma 4 QAT는 학습 단계에서 양자화를 시뮬레이션해, 압축 시 발생하는 품질 손실을 크게 줄인다. 표준 사후 양자화(PTQ) 기준선보다 전반적 품질이 높으면서도 메모리 사용량을 낮춰, 일상적인 에지 디바이스와 노트북·소비자용 GPU에서 로컬로 돌리기 적합하다. 온디바이스 LLM 실행을 노리는 개발자들에게 실용적 선택지를 넓혔다.",
+      "url": "https://news.hada.io/topic?id=30218",
+      "source": "GeekNews",
+      "category": "ai_ml",
+      "publishedAt": "2026-06-06T09:35:42+09:00",
+      "readTime": 4,
+      "imageGradient": 0
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_001",
+        "title": "트럼프 행정부, OpenAI 지분 인수 검토",
+        "excerpt": "트럼프 대통령이 미국 정부가 OpenAI의 지분을 확보하는 방안을 논의 중이라고 밝혔다. ‘AI의 성공으로 미국 국민이 혜택을 받을 수 있는 거래’를 언급했다.",
+        "body": "도널드 트럼프 대통령은 AI 기업의 성공이 국민에게 돌아갈 수 있는 구조를 모색 중이며, 그 일환으로 OpenAI 지분 인수 가능성을 거론했다. 정부가 민간 AI 선두 기업의 지분을 직접 보유하는 방안은 전례가 드물어, 정책적·규제적 논란을 예고한다. 정부 개입이 AI 산업 경쟁 구도와 거버넌스에 미칠 파장에 업계의 이목이 쏠리고 있다.",
+        "url": "https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-07T01:17:21+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_002",
+        "title": "WWDC 2026 임박… 시리 대규모 개편·애플 인텔리전스 업데이트 예고",
+        "excerpt": "애플의 연례 개발자 회의 WWDC 2026이 다가오는 가운데, 오래 기다려온 시리(Siri)의 대대적 개편과 애플 인텔리전스 업데이트가 핵심 관전 포인트로 꼽힌다.",
+        "body": "애플은 WWDC 2026에서 그동안 지연돼 온 차세대 시리를 공개할 것으로 예상된다. 더 자연스러운 대화형 어시스턴트와 온디바이스 AI 강화가 기대를 모은다. 애플 인텔리전스의 기능 확장과 개발자용 AI API 개방 여부도 주목된다. 경쟁사들이 생성형 AI를 빠르게 제품에 통합하는 가운데, 애플이 뒤처진 격차를 어떻게 메울지가 관건이다.",
+        "url": "https://techcrunch.com/2026/06/06/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-07T03:13:36+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_005",
+        "title": "구글, ‘Gemma 4 QAT’ 모델 공개… 모바일·노트북용 압축 최적화",
+        "excerpt": "구글의 Gemma 4 양자화 인식 학습(QAT) 체크포인트가 공개됐다. 에지 기기와 소비자용 GPU에서의 로컬 실행을 위해 메모리 요구량과 온디바이스 성능을 최적화했다.",
+        "body": "Gemma 4 QAT는 학습 단계에서 양자화를 시뮬레이션해, 압축 시 발생하는 품질 손실을 크게 줄인다. 표준 사후 양자화(PTQ) 기준선보다 전반적 품질이 높으면서도 메모리 사용량을 낮춰, 일상적인 에지 디바이스와 노트북·소비자용 GPU에서 로컬로 돌리기 적합하다. 온디바이스 LLM 실행을 노리는 개발자들에게 실용적 선택지를 넓혔다.",
+        "url": "https://news.hada.io/topic?id=30218",
+        "source": "GeekNews",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-06T09:35:42+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_006",
+        "title": "스리람 크리슈난, 백악관 AI 보좌관직 사임",
+        "excerpt": "트럼프 행정부의 AI 정책을 이끌던 스리람 크리슈난이 백악관 AI 보좌관직에서 물러난다. 그는 AI 정책을 계속 형성할 새 기관을 설립할 것으로 알려졌다.",
+        "body": "스리람 크리슈난은 백악관에서 AI 정책 방향을 잡아온 핵심 인물로, 이번에 보좌관직을 떠나 새로운 기관을 세워 트럼프 행정부의 AI 정책에 계속 영향력을 행사할 계획이라고 전해진다. 미국의 AI 규제·산업 정책이 형성되는 중요한 시기에 인적 변동이 발생하면서 정책 연속성에 관심이 모인다.",
+        "url": "https://techcrunch.com/2026/06/06/sriram-krishnan-is-leaving-his-role-as-white-house-ai-advisor/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-07T02:42:15+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_007",
+        "title": "허깅페이스 ‘빌드 스몰 해커톤’… 소형 모델 5개로 만든 금융 드라마",
+        "excerpt": "각 에이전트가 서로 다른 연구소의 소형 모델로 구동되는 창발적 경제 시뮬레이션에서, 플레이어가 자금을 대는 ‘금융가’ 역할을 맡는 실험이 공개됐다.",
+        "body": "허깅페이스의 두 번째 ‘빌드 스몰 해커톤’ 현장 보고서로, 다섯 개 연구소의 각기 다른 소형 모델이 하나의 가상 경제 안에서 에이전트로 협업·경쟁하는 시나리오를 다룬다. ‘Thousand Token Wood’ 샌드박스에서 플레이어는 직접 행동하기보다 자금을 배분해 에이전트들을 움직이는 금융가가 된다. 소형 모델로도 복합 멀티에이전트 시스템을 구성할 수 있음을 보여준다.",
+        "url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v2",
+        "source": "Hugging Face - Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-07T04:02:33+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_008",
+        "title": "비주얼 스튜디오 코드 1.124 업데이트 공개",
+        "excerpt": "마이크로소프트가 코드 에디터 VS Code 1.124 버전을 공개했다. 에디터 환경과 개발 워크플로 전반의 개선이 포함됐다.",
+        "body": "VS Code 1.124는 정기 월간 릴리스로, 편집 경험과 확장성, 에이전트·AI 통합 등 여러 영역의 개선이 담겼다. 개발자들이 가장 널리 쓰는 에디터인 만큼, 새 버전의 기능 변화는 일상적인 개발 워크플로에 폭넓게 영향을 준다.",
+        "url": "https://code.visualstudio.com/updates/v1_124",
+        "source": "Visual Studio Code",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-11T02:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_009",
+        "title": "파이썬 JIT 프로젝트, 개발 중단 요청 받아",
+        "excerpt": "파이썬 운영위원회(Steering Council)가 진행 중이던 JIT 컴파일러 프로젝트에 대해 개발을 잠정 중단할 것을 요청했다는 공지가 나왔다.",
+        "body": "CPython에 도입을 추진하던 JIT(적시 컴파일) 작업이 운영위원회의 요청으로 일시 멈추게 됐다. 성능 향상에 대한 기대와 유지보수 부담·복잡성 사이의 균형을 두고 커뮤니티 내 논의가 이어지고 있다. 파이썬 성능 개선 로드맵의 방향성에 영향을 줄 수 있는 사안이다.",
+        "url": "https://discuss.python.org/t/an-announcement-from-the-steering-council-regarding-the-jit-project/107638",
+        "source": "Hacker News",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-07T00:30:09+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_010",
+        "title": "마이크로파이썬과 WASM으로 코드 샌드박스 실행하기",
+        "excerpt": "사이먼 윌리슨이 마이크로파이썬(MicroPython)을 웹어셈블리(WASM) 위에서 구동해 파이썬 코드를 안전하게 샌드박스 실행하는 방법을 소개했다.",
+        "body": "브라우저나 격리 환경에서 신뢰할 수 없는 파이썬 코드를 안전하게 실행하기 위해, 가벼운 마이크로파이썬을 WASM으로 컴파일해 샌드박스로 활용하는 기법이다. LLM이 생성한 코드를 실행해 보는 등 에이전트·도구 사용 시나리오에서 보안 경계를 확보하는 실용적 접근으로 주목된다.",
+        "url": "https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/",
+        "source": "Hacker News",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-06T23:15:32+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_003",
+        "title": "리드 호프먼, MS 이사회 떠나 AI 신약개발 스타트업 ‘마누스’에 집중",
+        "excerpt": "링크드인 창업자이자 투자자인 리드 호프먼이 10년간 몸담은 마이크로소프트 이사회에서 물러나 AI 신약개발 스타트업 마누스(Manus)에 ‘파운더 모드’로 전념한다.",
+        "body": "수익성 높은 10년간의 MS 이사회 활동을 마무리하고, 리드 호프먼은 AI 기반 신약개발 스타트업 마누스에 집중하기로 했다. 그는 창업자로서 직접 회사를 이끄는 ‘파운더 모드’로 돌아간다. AI가 제약·바이오 연구의 속도를 끌어올리는 흐름 속에서, 거물 투자자의 이번 결정은 AI 신약개발 분야에 대한 기대를 다시 부각시킨다.",
+        "url": "https://techcrunch.com/2026/06/05/reid-hoffman-is-leaving-microsofts-board-to-go-founder-mode-with-startup-manus/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-06-06T07:35:01+09:00",
+        "readTime": 4,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_004",
+        "title": "메타, AI가 생성한 클릭베이트 뉴스피드 ‘포 유’ 출시",
+        "excerpt": "메타 AI 앱에 AI가 만든 클릭베이트형 기사들을 모아 보여주는 ‘포 유(For You)’ 섹션이 추가됐다. 주제·이미지·텍스트가 모두 AI로 생성된다.",
+        "body": "페이스북은 오랫동안 클릭베이트 기사로 가득했지만, 이제 메타는 AI로 직접 그런 기사를 만들어낸다. 독립형 메타 AI 앱의 ‘포 유’ 섹션은 AI가 생성한 자극적 스토리 목록을 제공하는데, 주제와 이미지, 본문이 모두 인공지능 산출물이며 품질과 신뢰성에 의문이 제기된다. AI 슬롭(저품질 생성물)이 플랫폼 피드를 잠식하는 흐름의 단적인 사례로 평가된다.",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/944235/meta-app-ai-clickbait-articles",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-06-06T23:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_011",
+        "title": "구글, AI 컴퓨팅 수요 폭증에 스페이스X와 월 9.2억 달러 계약",
+        "excerpt": "구글이 스페이스X에 매월 9억 2천만 달러를 컴퓨팅 비용으로 지불하기로 했다. 최근 출시한 AI 제품의 예상 밖 수요가 배경이라고 밝혔다.",
+        "body": "구글 대변인은 이번 계약을 ‘최근 선보인 AI 제품에 대한 예상치 못한 수요’의 결과로 설명했다. 월 9.2억 달러 규모의 컴퓨팅 조달은 AI 인프라 확보 경쟁이 얼마나 치열한지를 단적으로 보여준다. 빅테크들이 GPU·데이터센터·전력 등 연산 자원을 두고 막대한 자본을 투입하는 흐름이 가속되고 있다.",
+        "url": "https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/",
+        "source": "TechCrunch AI",
+        "category": "big_tech",
+        "publishedAt": "2026-06-06T03:57:20+09:00",
+        "readTime": 4,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_012",
+        "title": "‘인스타그램을 넘어’… 차세대 소셜 앱들의 부상",
+        "excerpt": "빅테크의 알고리즘 피드에 대한 대안으로, 관심사·창작·커뮤니티에 초점을 맞춘 새로운 세대의 소셜 앱들이 등장하고 있다.",
+        "body": "기존 대형 플랫폼의 광고·알고리즘 중심 피드에 피로를 느낀 사용자들을 겨냥해, 관심사 기반 연결과 창작·커뮤니티를 강조하는 신생 소셜 앱들이 주목받고 있다. 이들은 거대 피드 대신 더 작고 의도된 상호작용을 지향하며, 소셜 미디어의 다음 형태를 모색한다.",
+        "url": "https://techcrunch.com/2026/06/06/beyond-instagram-introducing-the-next-generation-of-social-apps/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-06-07T00:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_013",
+        "title": "엔비디아, 윈도우 PC용 고성능 CPU 시스템 제안",
+        "excerpt": "엔비디아가 윈도우 PC를 겨냥한 강력한 CPU 시스템을 제안하고 있다는 소식이 개발자 커뮤니티에서 화제가 됐다.",
+        "body": "GPU 강자인 엔비디아가 윈도우 PC용 CPU 플랫폼으로 영역을 넓히려는 움직임으로 해석된다. ARM 기반 PC 칩 경쟁이 달아오르는 가운데, 엔비디아의 진입은 인텔·AMD·퀄컴이 형성한 PC 프로세서 시장 구도에 변수를 더한다. 구체적 사양과 출시 시점에 관심이 모인다.",
+        "url": "https://twitter.com/lemire/status/2062880075117113739",
+        "source": "Hacker News",
+        "category": "big_tech",
+        "publishedAt": "2026-06-06T21:52:18+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Nikolay Savinov",
+        "handle": "SavinovNikolay",
+        "content": "OpenAI 런던 오피스에 pretraining 작업을 위해 합류하게 되어 정말 기쁩니다. 지난 몇 년간 pretraining과 long-context 분야에 집중해 왔고, 이번에는 런던 팀의 성장을 돕게 될 예정입니다. 뛰어난 연구원들을 채용 중입니다.",
+        "context": "OpenAI에서 pretraining·롱컨텍스트를 연구해온 니콜라이 사비노프가 런던 팀 합류 소식을 알리며 채용 의사를 밝혔다. OpenAI의 글로벌 연구 거점 확장을 보여준다.",
+        "url": "https://x.com/SavinovNikolay/status/2062923614987661637",
+        "publishedAt": "2026-06-05T15:44:51.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "와, 인터넷 초창기 시절은 정말 특별했어.",
+        "context": "OpenAI CEO 샘 올트먼이 인터넷 초창기에 대한 향수를 짧게 남겼다.",
+        "url": "https://x.com/sama/status/2062661191969972645",
+        "publishedAt": "2026-06-04T22:22:05.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "ChatGPT로 웹 앱을 빌드하고 퍼블리싱하세요! 어린 시절에 이게 있었으면 좋았을 텐데요. 그래도 하이퍼카드가 그립습니다.",
+        "context": "샘 올트먼이 ChatGPT로 웹 앱을 만들고 배포하는 기능을 소개하며, 과거 하이퍼카드에 대한 향수를 함께 표현했다.",
+        "url": "https://x.com/sama/status/2062661071761211561",
+        "publishedAt": "2026-06-04T22:21:36.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "Codex를 통해 컴퓨터를 사용하는 게 훨씬 더 재미있어졌습니다.",
+        "context": "OpenAI 사장 그렉 브록먼이 코딩 에이전트 Codex로 컴퓨터를 다루는 경험을 호평했다.",
+        "url": "https://x.com/gdb/status/2063102501847757197",
+        "publishedAt": "2026-06-06T03:35:41.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "ChatGPT와의 이메일 통합 기능을 소개합니다.",
+        "context": "그렉 브록먼이 ChatGPT의 이메일 통합 기능을 소개했다. ChatGPT가 작업 흐름 속에서 이메일까지 처리하는 방향을 보여준다.",
+        "url": "https://x.com/gdb/status/2063056196735504796",
+        "publishedAt": "2026-06-06T00:31:41.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "content": "다음 달 동안 Claude Cowork 사용 한도를 두 배로 늘렸습니다. 이는 5시간 단위 속도 제한에 적용됩니다. 크고 복잡한 프로젝트를 미뤄두고 있었다면, 지금이 바로 시작할 때입니다.",
+        "context": "Claude Code를 만든 보리스 체르니가 Cowork 사용 한도를 한 달간 두 배로 늘렸다고 알리며 대형 프로젝트 착수를 권했다.",
+        "url": "https://x.com/bcherny/status/2063028954546733462",
+        "publishedAt": "2026-06-05T22:43:26.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "content": "Cowork는 채팅으로는 감당하기 어려운 대규모 작업에서 가장 빛을 발합니다. 수십 개 계정에 걸친 리서치, 반복 보고서 작성, 받은 편지함 정리 및 답장 초안 작성 등이 그 예입니다.",
+        "context": "보리스 체르니가 Cowork가 리서치·반복 보고서·받은편지함 정리 같은 대규모 작업에서 강점을 보인다고 설명했다.",
+        "url": "https://x.com/bcherny/status/2063028956211867837",
+        "publishedAt": "2026-06-05T22:43:27.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "일부 사용자 계정이 잘못 정지되는 문제가 발생했습니다. 현재 접근을 복구하고 있으며, 관련 구독 및 크레딧 문제도 함께 해결하고 있습니다.",
+        "context": "OpenAI 공식 계정이 일부 계정이 잘못 정지된 문제를 인정하고 접근 복구와 구독·크레딧 보상을 진행 중이라고 공지했다.",
+        "url": "https://x.com/OpenAI/status/2062927046448431587",
+        "publishedAt": "2026-06-05T15:58:29.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_009",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "저희 모델 중 하나가 80년 된 에르되시 추측에 대한 반례를 발견했을 때 무슨 일이 일어났을까요? 연구원들이 OpenAI 팟캐스트에서 그 이야기를 공유하며, 수학자와 모델이 어떻게 함께 새로운 발견을 만들어내는지 들려줍니다.",
+        "context": "OpenAI가 자사 모델이 80년 된 에르되시 추측의 반례를 발견한 사례를 팟캐스트에서 다룬다고 소개했다. AI와 수학자의 협업 연구를 강조한다.",
+        "url": "https://x.com/OpenAI/status/2062630454537424930",
+        "publishedAt": "2026-06-04T20:19:56.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_010",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "이제 Codex 프로필 공유 카드가 테마와 일치하며, 선택한 커스텀 펫도 함께 표시됩니다.",
+        "context": "OpenAI 개발자 계정이 Codex 프로필 공유 카드가 테마·커스텀 펫과 연동된다고 알렸다.",
+        "url": "https://x.com/OpenAIDevs/status/2063043968028569609",
+        "publishedAt": "2026-06-05T23:43:06.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_011",
+        "author": "Amp",
+        "handle": "AmpCode",
+        "content": "Amp의 Deep 및 Rush 모드(GPT-5.5)가 이제 작업을 최대 40% 더 빠르게 완료합니다. 지난달 Amp를 재구축하여 GPU 간 홉을 줄이고 에이전트 루프를 지속 실행 환경에서 돌려 장기 웹소켓의 이점을 극대화했습니다.",
+        "context": "코딩 에이전트 Amp가 GPT-5.5 기반 Deep·Rush 모드로 작업 속도를 최대 40% 끌어올렸다고 밝혔다. 에이전트 실행 구조를 재설계한 결과다.",
+        "url": "https://x.com/AmpCode/status/2063009699369513117",
+        "publishedAt": "2026-06-05T21:26:55.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_012",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "개발자들이 Codex로 빌드하는 것이 마치 날아가는 것 같다고 말합니다. 'Time to Fly' 빌드의 뒷이야기를 살펴보세요.",
+        "context": "OpenAI 개발자 계정이 Codex로 빠르게 빌드한 ‘Time to Fly’ 사례의 비하인드를 소개했다.",
+        "url": "https://x.com/OpenAIDevs/status/2062995624665194959",
+        "publishedAt": "2026-06-05T20:31:00.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_013",
+        "author": "ChatGPT",
+        "handle": "ChatGPTapp",
+        "content": "ChatGPT와 Codex를 활용해 일본에서 농장을 운영하는 히로키 토미야스 씨를 만나보세요.",
+        "context": "ChatGPT 공식 계정이 ChatGPT·Codex로 일본에서 농장을 운영하는 사용자 사례를 공유했다.",
+        "url": "https://x.com/ChatGPTapp/status/2062973447635095682",
+        "publishedAt": "2026-06-05T19:02:52.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_014",
+        "author": "ChatGPT",
+        "handle": "ChatGPTapp",
+        "content": "초안을 작성하고, 수정하고, 보내세요. 이제 웹에서 ChatGPT의 작성 블록을 떠나지 않고도 이메일을 직접 보낼 수 있습니다.",
+        "context": "ChatGPT가 웹 작성 블록에서 대화를 벗어나지 않고 바로 이메일을 보낼 수 있는 기능을 알렸다.",
+        "url": "https://x.com/ChatGPTapp/status/2062944254591430917",
+        "publishedAt": "2026-06-05T17:06:52.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_015",
+        "author": "ChatGPT",
+        "handle": "ChatGPTapp",
+        "content": "ChatGPT는 중요한 것을 기억하는 데 점점 더 능숙해지고 있습니다. 당신의 선호도, 제약 조건, 그리고 이전에 멈춘 지점에서 다시 시작하도록 돕는 맥락이 그것입니다. 메모리 요약을 통해 ChatGPT가 기억하는 내용을 검토하고 조정할 수 있습니다.",
+        "context": "ChatGPT가 사용자 선호·맥락을 더 잘 기억하는 메모리 개선과, 기억 내용을 검토·조정하는 메모리 요약 기능을 예고했다.",
+        "url": "https://x.com/ChatGPTapp/status/2062653758178549798",
+        "publishedAt": "2026-06-04T21:52:32.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_016",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "새로운 Anthropic 과학 블로그: Claude를 화학자로 만드는 법. 분자를 다루려면 먼저 그 구조를 이해해야 하며, 핵심 도구는 NMR 분광법입니다. Opus 4.7이 전용 NMR 소프트웨어에 필적하고 일부 작업에서는 이를 능가하는 것을 발견했습니다.",
+        "context": "Anthropic이 Claude(Opus 4.7)가 NMR 분광 분석에서 전용 소프트웨어에 필적·능가했다는 과학 블로그를 공개했다.",
+        "url": "https://x.com/AnthropicAI/status/2062979607448682731",
+        "publishedAt": "2026-06-05T19:27:21.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_017",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "수정합니다: Claude Opus 4의 평균 약 3배 속도 향상은 2024년 5월이 아니라 2025년 5월 기준입니다. 이 평가는 2024년 9월부터 존재했지만 이전 모델들에 대해 역으로 테스트한 결과, 2024년 5월 모델들은 속도 향상이 전혀 없었습니다.",
+        "context": "Anthropic이 Claude Opus 4의 약 3배 속도 향상 기준 시점을 2025년 5월로 정정하는 내용을 공지했다.",
+        "url": "https://x.com/AnthropicAI/status/2062634151556292775",
+        "publishedAt": "2026-06-04T20:34:38.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_018",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Claude Cowork에서 다음 달 동안 사용 한도를 두 배로 늘렸습니다. Claude에게 더 크고 복잡한 작업을 위임해 보세요.",
+        "context": "Claude 공식 계정이 Cowork 사용 한도를 한 달간 두 배로 늘렸다고 알리며 복잡한 작업 위임을 권했다.",
+        "url": "https://x.com/claudeai/status/2063018337567670285",
+        "publishedAt": "2026-06-05T22:01:15.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_019",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "7월 5일까지 모든 유료 플랜에서 지금 바로 이용 가능합니다. Cowork를 체험하려면 Claude 데스크톱 앱을 다운로드하세요.",
+        "context": "Claude가 7월 5일까지 모든 유료 플랜에서 Cowork를 이용할 수 있다며 데스크톱 앱 다운로드를 안내했다.",
+        "url": "https://x.com/claudeai/status/2063018339710992794",
+        "publishedAt": "2026-06-05T22:01:15.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "ElevenLabs가 ElevenCreative에 Flows Agent를 출시했습니다. 이제 사용자는 무엇을 만들고 싶은지 설명만 하면, Flows Agent가 이미지·영상·음성·음악 모델을 선택하고 노드를 생성·연결해 전체 제작 파이프라인을 자동으로 구성합니다. '목소리를 더 따뜻하게', '배경 변경', '스페인어 버전 추가' 같은 요청을 대화 형태로 처리합니다.",
+        "context": "국내 대표 AI 채널 ‘CHOI(choi.openai)’가 전한 최신 AI 소식이다.",
+        "url": "https://www.threads.net/@choi.openai/post/DZQZe8AgWHe",
+        "publishedAt": "2026-06-07T05:00:00.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "씽킹 머신즈(Thinking Machines Lab) 공동 창업자이자 CEO 미라 무라티는 현재 AI가 명령을 주고받는 순차적 대화 방식에 머물러 상호작용에 한계를 보인다고 분석했습니다. 그녀는 오디오·텍스트·영상을 실시간 동시에 처리하는 고성능 '인터랙션 모델' 개발의 중요성을 강조했습니다.",
+        "context": "국내 대표 AI 채널 ‘CHOI(choi.openai)’가 전한 최신 AI 소식이다.",
+        "url": "https://www.threads.net/@choi.openai/post/DZQPObVD2-Y",
+        "publishedAt": "2026-06-07T03:30:00.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_003",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "Higgsfield가 마인크래프트용 AI 모드를 공개했습니다. 게임 안에서 '뉴욕 스카이라인 만들어줘', '자유의 여신상 지어줘' 같은 프롬프트로 건물과 도시를 생성할 수 있고, 스크린샷을 다른 스타일로 바꾸거나 텍스트만으로 영상을 만들고 게임 속 사진을 영상으로 애니메이션화하는 것도 가능합니다.",
+        "context": "국내 대표 AI 채널 ‘CHOI(choi.openai)’가 전한 최신 AI 소식이다.",
+        "url": "https://www.threads.net/@choi.openai/post/DZQE9Raidv6",
+        "publishedAt": "2026-06-07T02:30:00.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_004",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "오픈AI 연구원 노암 브라운은 최신 인하우스 모델의 연산·수학 추론 능력을 토대로 내년까지 국제수학올림피아드(IMO) 만점 모델이 나올 것이라 예측했습니다. 그는 머지않아 경쟁 수학·코딩 시험은 큰 의미를 갖지 못하게 될 것이며, AI 연구의 진짜 프론티어는 현실의 미해결 문제를 푸는 '진짜 연구'라고 강조했습니다.",
+        "context": "국내 대표 AI 채널 ‘CHOI(choi.openai)’가 전한 최신 AI 소식이다.",
+        "url": "https://www.threads.net/@choi.openai/post/DZP6pJrkT-3",
+        "publishedAt": "2026-06-07T00:30:00.000Z",
+        "platform": "threads"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "Nature Machine Intelligence 투고 경험 있으신 분? [R]",
+        "originalTitle": "Anyone here with experience submitting to Nature Machine Intelligence? [R]",
+        "summary": "Nature Machine Intelligence 저널 투고·심사 경험을 묻는 머신러닝 연구자들의 글이다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1tylgoq/anyone_here_with_experience_submitting_to_nature/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-06-07T01:15:30+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "학습 없이도 GCN에 필적하는 그래프 SSL, 라벨 5배 적게 사용 — 라이브 데모 [P]",
+        "originalTitle": "Training-free graph SSL matches GCN with 5× fewer labels — live demo [P]",
+        "summary": "학습이 필요 없는 그래프 자기지도학습이 5배 적은 라벨로 GCN 수준 성능을 낸다는 프로젝트로, 라이브 데모를 공개했다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1tyovlr/trainingfree_graph_ssl_matches_gcn_with_5_fewer/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-06-07T03:27:18+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "코히어(Cohere)의 미공개 코딩 모델, LocalLLaMA에 얼리 액세스 제공",
+        "originalTitle": "Cohere's unreleased coding model (early access for localllama)",
+        "summary": "코히어가 아직 공개하지 않은 코딩 모델을 LocalLLaMA 커뮤니티에 사전 체험으로 풀었다는 글이다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tylzy2/coheres_unreleased_coding_model_early_access_for/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-06-07T01:36:41+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "KV 캐시 양자화 벤치마크: KVarN 6비트가 q8_0, 4비트가 q5_0에 필적",
+        "originalTitle": "KV cache quant benchmarks: KVarN 6-bit matches q8_0, 4-bit matches q5_0. Massive!",
+        "summary": "KV 캐시 양자화 기법 KVarN의 벤치마크로, 6비트가 q8_0, 4비트가 q5_0 수준 품질을 낸다는 결과다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tyockn/kv_cache_quant_benchmarks_kvarn_6bit_matches_q8_0/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-06-07T03:06:48+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "12GB VRAM에서 Gemma 4 12B QAT MTP로 120 tok/s 달성",
+        "originalTitle": "120 tok/s on 12GB VRAM with Gemma 4 12B QAT MTP",
+        "summary": "12GB VRAM 환경에서 Gemma 4 12B QAT와 MTP로 초당 120토큰 속도를 냈다는 로컬 실행 성과 공유다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1typjmc/120_toks_on_12gb_vram_with_gemma_4_12b_qat_mtp/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-06-07T03:53:19+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "2026 하버드 클래스 데이로 본 AI의 혜택과 위험",
+        "originalTitle": "Benefits and Risks of AI at Harvard Class Day 2026",
+        "summary": "2026년 하버드 클래스 데이에서 다뤄진 AI의 이점과 위험에 대한 논의를 공유한 글이다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1ty7pt5/benefits_and_risks_of_ai_at_harvard_class_day_2026/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-06-06T13:49:30+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "앤트로픽 ‘AI가 곧 인간 개입 없이 스스로를 구축할 수도’ 경고하며 전 세계적 일시중지 촉구",
+        "originalTitle": "Anthropic warns AI could soon build itself without human involvement—and urges a global pause on development",
+        "summary": "앤트로픽이 AI가 머지않아 인간 개입 없이 스스로를 개발할 수 있다고 경고하며 글로벌 차원의 속도 조절을 제안했다는 내용이다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1tymofh/anthropic_warns_ai_could_soon_build_itself/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-06-07T02:03:00+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "Claude Cowork 사용 한도, 다음 달 동안 두 배로",
+        "originalTitle": "Your Claude Cowork usage limits just doubled for the next month.",
+        "summary": "Claude Cowork의 사용 한도가 한 달간 두 배로 늘었다는 공지를 공유한 글이다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1txyx3j/your_claude_cowork_usage_limits_just_doubled_for/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-06-06T07:02:45+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "‘앤트로픽은 평범한 회사가 아니다’",
+        "originalTitle": "Anthropic is not a normal company",
+        "summary": "앤트로픽의 독특한 문화와 행보에 대한 커뮤니티의 호평·토론 글이다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1tybrpv/anthropic_is_not_a_normal_company/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-06-06T17:36:09+09:00"
+      },
+      {
+        "id": "reddit_010",
+        "title": "SQLite에서 UUID 기본 키의 위험성",
+        "originalTitle": "The perils of UUID primary keys in SQLite",
+        "summary": "SQLite에서 UUID를 기본 키로 쓸 때 발생하는 성능·저장 효율 문제를 짚은 글이다.",
+        "url": "https://www.reddit.com/r/programming/comments/1tyalr6/the_perils_of_uuid_primary_keys_in_sqlite/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-06-06T16:27:40+09:00"
+      },
+      {
+        "id": "reddit_011",
+        "title": "컨벤셔널 커밋(Conventional Commits) 사용을 중단하라",
+        "originalTitle": "Stop Using Conventional Commits",
+        "summary": "컨벤셔널 커밋 관행의 실효성에 의문을 제기하며 사용 중단을 주장하는 글로, 개발자들 사이에서 논쟁을 불렀다.",
+        "url": "https://www.reddit.com/r/programming/comments/1tydqbt/stop_using_conventional_commits/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-06-06T19:32:53+09:00"
+      },
+      {
+        "id": "reddit_012",
+        "title": "UBTech, 6월 30일 공개 앞두고 ‘감정형’ 휴머노이드 로봇 커플의 얼굴 공개",
+        "originalTitle": "UBTech teases the faces of their 'emotional' humanoid robot couple, ahead of their June 30 debut",
+        "summary": "UBTech가 6월 30일 데뷔를 앞두고 ‘감정’을 가진 휴머노이드 로봇 커플의 얼굴을 예고 공개했다는 소식이다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1tym7i2/ubtech_teases_the_faces_of_their_emotional/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-06-07T01:44:53+09:00"
+      },
+      {
+        "id": "reddit_013",
+        "title": "AI 회의론자지만, 동료들이 최소한 기본 검산 용도로라도 AI를 썼으면",
+        "originalTitle": "As an AI cautionist, I wish some of my coworkers would at least use it as a basic sanity check.\"",
+        "summary": "AI에 신중한 입장이면서도 동료들이 적어도 기본적인 점검 도구로 AI를 활용하길 바란다는 경험 많은 개발자의 글이다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1tymls8/as_an_ai_cautionist_i_wish_some_of_my_coworkers/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-06-07T02:00:16+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "qb_001",
+        "title": "GOV.UK, 결제 대행사 스트라이프를 네덜란드 아디옌으로 교체",
+        "excerpt": "공공 서비스의 온라인 결제 구축 부담을 줄이는 GOV.UK Pay가 다수 결제 처리에서 Stripe 대신 네덜란드 제공업체 Adyen을 사용 Adyen은 지방정부, 경찰, 군 부대의 카드 결제와 pay by bank 서비스를 맡으며, 계약 기간은 3년이고 최대 ...",
+        "url": "https://news.hada.io/topic?id=30226",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-06T11:36:42+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      },
+      {
+        "id": "qb_002",
+        "title": "‘컨벤셔널 커밋(Conventional Commits) 사용을 중단하라’ 주장 화제",
+        "excerpt": "Conventional Commits는 <type>[optional scope]: <description> 형식으로 커밋 메시지에 의미를 부여하려 하지만, 변경 유형을 앞세우고 범위를 선택사항으로 둬 실제 탐색에 필요한 정보를 뒤로 미룸 기여자·디버거·장애 대응자는 커밋 로그에서 변경이",
+        "url": "https://news.hada.io/topic?id=30224",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-06T11:02:21+09:00",
+        "readTime": 2,
+        "imageGradient": 7
+      },
+      {
+        "id": "qb_003",
+        "title": "Mouseless: macOS·리눅스·윈도우용 키보드 기반 제어 도구",
+        "excerpt": "키보드만으로 커서를 제어해 마우스 클릭을 빠르게 수행하도록 설계된 크로스 플랫폼 앱 마우스를 잡고 클릭한 뒤 키보드로 돌아오는 방식은 2초 이상 걸리지만, 몇 개의 좌표를 입력해 1초 미만으로 클릭할 수 있음 왼쪽·오른쪽·가운데·뒤로·앞으로 버튼과 클릭·이동·드래그·드롭·스크롤...",
+        "url": "https://news.hada.io/topic?id=30219",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-06T09:37:28+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      },
+      {
+        "id": "qb_004",
+        "title": "pg_durable: PostgreSQL을 위한 내구성 SQL 함수",
+        "excerpt": "PostgreSQL 내부에서 재시도, 스케줄링, 병렬 fan-out, 조건 분기를 작은 SQL DSL만으로 처리하는 durable function 확장 컨테이너나 외부 서비스 없이 Postgres와 백그라운드 워커만으로 동작 모든 단계가 PostgreSQL에 상태를 체크포인...",
+        "url": "https://news.hada.io/topic?id=30225",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-06T11:29:05+09:00",
+        "readTime": 2,
+        "imageGradient": 7
+      },
+      {
+        "id": "qb_005",
+        "title": "Ntsc-rs: 아날로그 TV·VHS 화질 결함을 재현하는 오픈소스 영상 에뮬레이션",
+        "excerpt": "Article URL: https://ntsc.rs/ Comments URL: https://news.ycombinator.com/item?id=48428025 Points: 19 # Comments: 5",
+        "url": "https://ntsc.rs/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-07T04:17:46+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      },
+      {
+        "id": "qb_006",
+        "title": "메타, AI 챗봇 악용해 인스타그램 계정 수천 개 해킹 사실 확인",
+        "excerpt": "Article URL: https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/ Comments URL: https://news.yco",
+        "url": "https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-07T03:35:27+09:00",
+        "readTime": 2,
+        "imageGradient": 7
+      },
+      {
+        "id": "qb_008",
+        "title": "포켓몬 에메랄드, 웹어셈블리로 포팅… 10만 FPS 구현",
+        "excerpt": "Article URL: https://pokeemerald.com/ Comments URL: https://news.ycombinator.com/item?id=48423762 Points: 188 # Comments: 56",
+        "url": "https://pokeemerald.com/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-06T20:12:58+09:00",
+        "readTime": 1,
+        "imageGradient": 7
+      },
+      {
+        "id": "qb_009",
+        "title": "Zeroserve: eBPF로 스크립팅 가능한 제로설정 웹 서버",
+        "excerpt": "Article URL: https://su3.io/posts/introducing-zeroserve Comments URL: https://news.ycombinator.com/item?id=48425723 Points: 106 # Comments: 26",
+        "url": "https://su3.io/posts/introducing-zeroserve",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-06T23:59:43+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      },
+      {
+        "id": "qb_010",
+        "title": "한국 커뮤니티·포럼, 모든 업로드 이미지 AI 검열 도구 검사 의무화",
+        "excerpt": "전기통신사업법 변경으로 한국 인터넷 커뮤니티와 포럼 운영자에게 사용자가 업로드하는 모든 이미지와 영상을 AI로 검사하도록 요구함 AI 모델 실행용 하드웨어는 정부가 제공하지 않으며, 웹사이트 운영자가 데이터센터급 Nvidia GPU를 직접 구매해야 해 소규모 ...",
+        "url": "https://news.hada.io/topic?id=30222",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-06T09:51:31+09:00",
+        "readTime": 2,
+        "imageGradient": 7
+      },
+      {
+        "id": "qb_011",
+        "title": "Ask HN: 생성형 AI를 보며 ‘아, 큰일 났다’고 느낀 순간은?",
+        "excerpt": "DALL-E와 ChatGPT를 처음엔 한물간 장난으로 치부했지만, 실사용 과정에서 능력의 한계를 깨닫고 충격받은 구체적 경험담을 공유하는 스레드 가장 인기 좋은 사례는 구형·폐기 하드웨어의 펌웨어 리버스 엔지니어링으로, 신디사이저·피아노·파이어스틱 등을 Claude...",
+        "url": "https://news.hada.io/topic?id=30227",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-06T15:57:01+09:00",
+        "readTime": 1,
+        "imageGradient": 6
+      },
+      {
+        "id": "qb_012",
+        "title": "Mbodi AI(YC P25), 창립 멤버급 로보틱스 ML 엔지니어 채용",
+        "excerpt": "Article URL: https://www.ycombinator.com/companies/mbodi-ai/jobs/WYAcNkX-founding-machine-learning-engineer Comments URL: https://news.ycombinator.com/item?id=4",
+        "url": "https://www.ycombinator.com/companies/mbodi-ai/jobs/WYAcNkX-founding-machine-learning-engineer",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-06T21:00:56+09:00",
+        "readTime": 1,
+        "imageGradient": 7
+      }
+    ]
+  }
+}
