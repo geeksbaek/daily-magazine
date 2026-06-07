@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-06-08",
+      "issueNumber": 69,
+      "mainHeadline": "팀 쿡의 마지막 WWDC — 애플, 새로운 Siri로 AI 레이스 반격 나선다",
+      "headlines": [
+        "OpenAI, 프롬프트 인젝션 막는 락다운 모드 공개",
+        "노션, 서비스 중단 사태 후 Anthropic 접근 복구",
+        "해킹·유출·랜섬 — 2026년 상반기 최악의 보안 사고 총정리"
+      ]
+    },
+    {
       "date": "2026-06-07",
       "issueNumber": 68,
       "mainHeadline": "트럼프 행정부, OpenAI 지분 인수 검토… ‘AI 성공의 과실 국민과 공유’",
@@ -700,5 +710,5 @@
       ]
     }
   ],
-  "latestIssue": 68
+  "latestIssue": 69
 }
