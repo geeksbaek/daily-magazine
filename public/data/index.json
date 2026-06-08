@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-06-09",
+      "issueNumber": 70,
+      "mainHeadline": "애플, 'Siri AI' 전격 공개 — 구글 Gemini 품고 AI 레이스 정면 돌파",
+      "headlines": [
+        "마이크로소프트 오픈소스 도구 해킹 — AI 개발자 자격증명 노렸다",
+        "엔비디아·LG그룹, AI 팩토리 구축으로 피지컬 AI 가속",
+        "샤오미, 1조 파라미터 모델로 초당 1000토큰 추론 주장"
+      ]
+    },
+    {
       "date": "2026-06-08",
       "issueNumber": 69,
       "mainHeadline": "팀 쿡의 마지막 WWDC — 애플, 새로운 Siri로 AI 레이스 반격 나선다",
@@ -710,5 +720,5 @@
       ]
     }
   ],
-  "latestIssue": 69
+  "latestIssue": 70
 }

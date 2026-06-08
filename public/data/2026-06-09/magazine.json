@@ -1,0 +1,554 @@
+{
+  "date": "2026-06-09",
+  "issueNumber": 70,
+  "cover": {
+    "mainHeadline": "애플, 'Siri AI' 전격 공개 — 구글 Gemini 품고 AI 레이스 정면 돌파",
+    "mainExcerpt": "애플이 WWDC 2026에서 수년간 미뤄온 Siri 대개편을 공개했다. 화면 맥락을 이해하고 앱을 가로질러 일하는 새 'Siri AI'는 구글 Gemini 모델을 기반으로 하며, 받아쓰기·이미지 생성·검색까지 Apple Intelligence가 시스템 전반으로 확장됐다. 다만 EU에서는 DMA 규제로 출시가 지연된다.",
+    "headlines": [
+      "마이크로소프트 오픈소스 도구 해킹 — AI 개발자 자격증명 노렸다",
+      "엔비디아·LG그룹, AI 팩토리 구축으로 피지컬 AI 가속",
+      "샤오미, 1조 파라미터 모델로 초당 1000토큰 추론 주장"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_hl_01",
+      "title": "애플, 차세대 Apple Intelligence와 Siri AI 공개… AI 레이스에 본격 반격",
+      "excerpt": "애플이 WWDC 2026에서 대대적으로 개편한 Siri AI와 차세대 Apple Intelligence를 공개했다. 수년간의 지연 끝에 등장한 새 Siri는 화면 인식과 개인 맥락을 이해해 앱을 가로질러 작업을 수행하는 진짜 'AI 비서'로 거듭났다.",
+      "url": "https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/",
+      "source": "Apple Newsroom",
+      "category": "big_tech",
+      "publishedAt": "2026-06-09T03:18:43+09:00",
+      "readTime": 6,
+      "imageGradient": 4,
+      "body": "애플은 팀 쿡 체제의 마지막으로 알려진 WWDC 2026 기조연설에서 차세대 Apple Intelligence와 전면 재설계된 Siri AI를 전격 공개했다. 새 Siri는 단순한 음성 명령 처리기를 넘어 화면에 보이는 내용과 사용자의 개인 맥락(메시지·사진·일정 등)을 이해하고, 여러 앱에 걸쳐 작업을 대신 수행하는 에이전트형 비서로 진화했다. 애플은 시스템 전반에 걸친 받아쓰기, 향상된 이미지 생성(Image Playground), 사진 편집의 'Reframe' 기능, 그리고 완전히 재구축된 검색 기능까지 함께 선보였다. 수년간 'AI 후발주자'라는 평가를 받아온 애플이 마침내 생태계 전반에 생성형 AI를 통합하며 본격적인 반격에 나섰다는 평가다. 다만 EU에서는 DMA 규제 이슈로 Siri AI 출시가 지연된다."
+    },
+    {
+      "id": "rss_hl_02",
+      "title": "마이크로소프트 오픈소스 도구 해킹… AI 개발자 비밀번호 탈취 시도",
+      "excerpt": "공격자들이 마이크로소프트의 Azure 및 AI 코딩 도구 오픈소스 저장소를 침해해 AI 개발자들의 자격 증명을 탈취하려 한 정황이 드러났다. 마이크로소프트는 관련 GitHub 저장소 수십 개를 긴급 폐쇄했다.",
+      "url": "https://techcrunch.com/2026/06/08/microsofts-open-source-tools-were-hacked-to-steal-passwords-of-ai-developers/",
+      "source": "TechCrunch",
+      "category": "big_tech",
+      "publishedAt": "2026-06-09T05:03:44+09:00",
+      "readTime": 4,
+      "imageGradient": 5,
+      "body": "마이크로소프트가 Azure와 AI 코딩 도구 관련 GitHub 저장소 수십 개를 긴급 폐쇄했다. 보고된 해킹에 따르면 공격자들은 오픈소스 도구에 악성 코드를 심어 이를 사용하는 AI 개발자들의 비밀번호와 자격 증명을 빼내려 했다. 이번 사건은 최근 잇따르는 소프트웨어 공급망 공격의 연장선으로, 개발 생태계의 신뢰 기반인 오픈소스 패키지가 표적이 되고 있음을 보여준다. 개발자들은 의존성 점검과 자격 증명 교체를 권고받았다."
+    },
+    {
+      "id": "rss_hl_03",
+      "title": "오픈소스 진영, 에이전트 강화학습 표준 'OpenEnv'에 결집",
+      "excerpt": "허깅페이스를 비롯한 오픈소스 커뮤니티가 에이전트 강화학습(Agentic RL)을 위한 공통 환경 표준 OpenEnv를 지지하고 나섰다. 에이전트 훈련 환경의 파편화를 해소할 표준으로 주목받는다.",
+      "url": "https://huggingface.co/blog/openenv-agentic-rl",
+      "source": "Hugging Face",
+      "category": "ai_ml",
+      "publishedAt": "2026-06-08T09:00:00+09:00",
+      "readTime": 5,
+      "imageGradient": 0,
+      "body": "허깅페이스가 에이전트 강화학습을 위한 표준 환경 인터페이스 'OpenEnv'에 오픈소스 커뮤니티가 결집하고 있다고 밝혔다. OpenEnv는 AI 에이전트를 훈련·평가하기 위한 환경을 표준화된 방식으로 정의해, 그동안 연구·개발마다 제각각이던 에이전트 훈련 환경의 파편화 문제를 해결하는 것을 목표로 한다. 강화학습 기반 에이전트가 차세대 AI의 핵심으로 떠오르는 가운데, 공통 표준의 등장은 재현성과 협업을 크게 끌어올릴 것으로 기대된다."
+    },
+    {
+      "id": "rss_hl_04",
+      "title": "오픈AI, 'Economic Research Exchange' 출범… AI의 경제 영향 연구 지원",
+      "excerpt": "오픈AI가 AI가 경제에 미치는 영향을 연구하는 경제학자들을 지원하는 새 프로그램 'Economic Research Exchange'를 발표했다. 노동·생산성 등 AI의 거시 효과 규명에 초점을 맞춘다.",
+      "url": "https://openai.com/index/economic-research-exchange",
+      "source": "OpenAI News",
+      "category": "ai_ml",
+      "publishedAt": "2026-06-08T09:00:00+09:00",
+      "readTime": 4,
+      "imageGradient": 1,
+      "body": "오픈AI가 AI 기술이 경제·노동·생산성에 미치는 영향을 연구하는 경제학자들을 위한 새 프로그램 'Economic Research Exchange'를 출범했다. 이 프로그램은 연구자들에게 데이터와 자원을 제공해, AI 확산이 일자리와 산업 구조를 어떻게 바꾸는지에 대한 실증 연구를 촉진하는 것을 목표로 한다. AI의 사회·경제적 파급효과에 대한 논쟁이 가열되는 가운데, 선도 기업이 직접 학술 연구 생태계 조성에 나섰다는 점에서 의미가 있다."
+    },
+    {
+      "id": "rss_hl_05",
+      "title": "엔비디아·LG그룹, AI 팩토리 구축… 피지컬 AI·모빌리티 가속",
+      "excerpt": "엔비디아와 LG그룹이 피지컬 AI와 모빌리티, AI 인프라 발전을 위한 'AI 팩토리' 구축에 협력한다. 국내 대기업의 대규모 AI 인프라 투자가 본격화되는 모습이다.",
+      "url": "https://blogs.nvidia.com/blog/nvidia-and-lg-group-ai-factory/",
+      "source": "NVIDIA Blog",
+      "category": "big_tech",
+      "publishedAt": "2026-06-08T12:00:50+09:00",
+      "readTime": 5,
+      "imageGradient": 4,
+      "body": "엔비디아와 LG그룹이 피지컬 AI(물리 세계에서 작동하는 AI), 모빌리티, AI 인프라를 발전시키기 위한 'AI 팩토리' 구축에 손을 잡았다. AI 팩토리는 대규모 GPU 기반 연산 인프라로, 제조·로보틱스·자율주행 등 LG의 산업 전반에 생성형 AI와 피지컬 AI를 적용하기 위한 기반이 된다. 같은 날 엔비디아는 두산그룹과의 협력, 그리고 한국 PC방을 겨냥한 RTX 관련 행사도 함께 발표하며 한국 시장에 대한 공세를 강화했다."
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_ai_01",
+        "title": "수년 기다린 애플의 AI Siri 대개편, 드디어 공개",
+        "excerpt": "새 'Siri AI'의 핵심은 음성 명령에 그치던 비서를 훨씬 더 많은 일을 해내는 'AI 동반자'로 바꾸는 것이다. 화면 맥락 이해와 앱 간 작업 수행이 가능해졌다.",
+        "url": "https://techcrunch.com/2026/06/08/apples-long-awaited-ai-siri-overhaul-is-finally-here/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-09T02:56:21+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_ai_02",
+        "title": "애플, 구글 Gemini 모델 기반의 새 AI 아키텍처 공개",
+        "excerpt": "애플이 새 Apple Intelligence의 핵심 모델로 구글 Gemini를 채택한 아키텍처를 공개했다. 자체 모델만으로는 한계가 있던 애플이 외부 프런티어 모델과 손잡은 점이 주목된다.",
+        "url": "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/",
+        "source": "MacRumors",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-09T04:14:47+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_ai_03",
+        "title": "애플, 새 단축어 앱에서 AI로 워크플로 제작 지원",
+        "excerpt": "단축어(Shortcuts) 앱이 AI 업그레이드를 받아, 원하는 작업을 프롬프트로 설명하면 워크플로를 자동 생성해준다. 자동화의 진입 장벽을 크게 낮춘다.",
+        "url": "https://techcrunch.com/2026/06/08/apple-will-let-you-build-workflows-using-ai-in-its-new-shortcuts-app/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-09T03:45:12+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_ai_04",
+        "title": "샤오미 MiMo-v2.5-Pro-UltraSpeed, 1조 파라미터 모델로 초당 1000토큰",
+        "excerpt": "샤오미가 표준 8-GPU 서버에서 1조(1T) 파라미터 모델로 초당 1000토큰 이상의 추론 속도를 달성했다고 주장해 화제다. 대형 모델의 추론 효율 경쟁이 가열되고 있다.",
+        "url": "https://mimo.xiaomi.com/blog/mimo-tilert-1000tps",
+        "source": "Hacker News",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-09T00:27:33+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_ai_05",
+        "title": "오픈AI, 여전히 '슈퍼앱' 개발 중… \"채팅은 죽었다\"",
+        "excerpt": "한 오픈AI 고위 직원이 \"채팅은 죽었다\"고 언급하며, ChatGPT를 단순 대화창을 넘어선 '슈퍼앱'으로 재편하는 작업이 진행 중임을 시사했다.",
+        "url": "https://techcrunch.com/2026/06/07/openai-is-still-working-on-that-super-app/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-08T01:23:22+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_dev_01",
+        "title": "클라우드플레어, 위협 지표를 실시간 WAF 규칙으로 전환",
+        "excerpt": "클라우드플레어가 자사가 수집한 위협 인텔리전스를 실시간으로 웹 방화벽(WAF) 규칙에 반영하는 파이프라인을 공개했다. 신종 공격에 대한 대응 속도를 끌어올린다.",
+        "url": "https://blog.cloudflare.com/realtime-threat-intel-waf-rules/",
+        "source": "Cloudflare Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-08T22:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_dev_02",
+        "title": "개발팀을 위한 소프트웨어 공급망 보안 5대 모범사례",
+        "excerpt": "도커가 실제 파이프라인에 적용 가능한 소프트웨어 공급망 보안 모범사례 5가지를 정리했다. 최근 잇따른 공급망 공격 속에서 실천 가능한 가이드를 제시한다.",
+        "url": "https://www.docker.com/blog/software-supply-chain-security-best-practices/",
+        "source": "Docker Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-09T04:54:40+09:00",
+        "readTime": 5,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_dev_03",
+        "title": "타입스크립트를 LLVM 기계어로 직접 컴파일하는 'Perry' 네이티브 컴파일러",
+        "excerpt": "TS를 JS로 트랜스파일한 뒤 무거운 JIT 런타임에서 구동하던 기존 방식을 벗어나, 타입스크립트를 LLVM 기계어로 직접 컴파일하는 네이티브 컴파일러 'Perry'가 등장했다.",
+        "url": "https://news.hada.io/topic?id=30287",
+        "source": "GeekNews",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-08T22:46:59+09:00",
+        "readTime": 5,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_dev_04",
+        "title": "리니어(Linear)는 어떻게 이렇게 빠른가 — 기술적 분석",
+        "excerpt": "리니어는 이슈 관리를 브라우저 내 데이터베이스(IndexedDB)와 로컬 우선 동기화로 처리해 변경이 수 밀리초 안에 UI에 반영된다. 로컬 퍼스트 아키텍처의 정수를 보여준다.",
+        "url": "https://news.hada.io/topic?id=30276",
+        "source": "GeekNews",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-08T12:35:37+09:00",
+        "readTime": 5,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_dev_05",
+        "title": "깃허브 입문자를 위한 자주 묻는 질문 정리",
+        "excerpt": "깃허브가 입문자들이 흔히 궁금해하는 질문들에 답하는 가이드를 공개했다. 버전 관리와 협업의 기초를 처음 접하는 개발자에게 유용하다.",
+        "url": "https://github.blog/developer-skills/github/github-for-beginners-answers-to-some-common-questions/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-09T01:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 2
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_bt_01",
+        "title": "애플, Siri AI 탑재한 watchOS 27 공개",
+        "excerpt": "애플이 Siri AI 지원, 재설계된 '다이내믹' 앱 그리드 등을 담은 차세대 애플워치 운영체제 watchOS 27을 발표했다.",
+        "url": "https://www.theverge.com/tech/943145/apple-watch-watchos-27-wwdc-2026",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-06-09T04:34:10+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_bt_02",
+        "title": "애플, 다수의 구형 iPad·애플워치 지원 종료",
+        "excerpt": "최신 watchOS 27과 iPadOS 27이 상당수의 구형 애플워치·아이패드에서 구동되지 않는다. 기기 교체 압박이 커질 전망이다.",
+        "url": "https://www.theverge.com/news/946147/apple-watchos-27-ipados-27-supported-devices-dropped",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-06-09T04:45:00+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_bt_03",
+        "title": "펜타곤, 알리바바·바이두·BYD·유니트리를 中 군 지원 기업으로 지목",
+        "excerpt": "미 국방부가 알리바바, 바이두, BYD, 유니트리 등을 중국군을 지원하는 기업 명단에 올렸다. 4개월 전 갱신본을 돌연 철회했다 다시 공개한 것이다.",
+        "url": "https://techcrunch.com/2026/06/08/pentagon-says-alibaba-baidu-byd-and-unitree-support-chinas-military/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-06-09T03:57:49+09:00",
+        "readTime": 4,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_bt_04",
+        "title": "애플, 논란의 '리퀴드 글래스' 디자인 손질",
+        "excerpt": "투명하고 매끈한 '글래시'한 디자인을 좋아한 사용자도 있었지만, 가독성이 떨어진다는 비판이 컸던 지난해 디자인 개편을 애플이 다시 다듬는다.",
+        "url": "https://techcrunch.com/2026/06/08/apple-is-tweaking-its-controversial-liquid-glass-design/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-06-09T02:24:33+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_bt_05",
+        "title": "EU에서는 DMA 규제로 iOS 27·iPadOS 27의 Siri AI 출시 지연",
+        "excerpt": "애플이 EU의 디지털시장법(DMA) 요건 때문에 iOS 27·iPadOS 27의 Siri AI 출시를 EU에서 지연한다고 밝혔다. 규제와 혁신의 충돌이 재현됐다.",
+        "url": "https://www.apple.com/newsroom/2026/06/due-to-dma-siri-ai-delayed-in-eu-for-ios-27-and-ipados-27/",
+        "source": "Apple Newsroom",
+        "category": "big_tech",
+        "publishedAt": "2026-06-09T03:13:26+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "여기 흥미로운 재귀 루프가 있을지도 몰라요",
+        "context": "오픈AI CEO 샘 올트먼이 AI의 자기개선 가능성을 짧게 시사했다. '재귀 루프'는 AI가 스스로를 개선하는 순환을 가리키는 표현으로, 짧은 한마디도 업계에서 크게 회자됐다.",
+        "url": "https://x.com/sama/status/2063779477419901071",
+        "publishedAt": "2026-06-08T09:25:45+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "Codex 활용 사례: “소프트웨어 엔지니어링과 디자인부터 데이터 분석과 운영에 이르기까지, Codex는 단순한 AI 조수가 아니라 AI 팀원이 되고 있습니다.”",
+        "context": "오픈AI 사장 그렉 브록먼이 자사 코딩 에이전트 Codex의 실사용 사례를 소개하며, Codex가 단순 보조도구를 넘어 'AI 팀원'이 되고 있다고 강조했다.",
+        "url": "https://x.com/gdb/status/2063705280270021087",
+        "publishedAt": "2026-06-08T04:30:55+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "코덱스를 작업에 사용하지 않을 때마다, 왜 그런지 스스로에게 묻곤 해요. 보통은 맥락이 좀 부족했거나, 스킬을 작성해야 했거나, 아니면 그냥 사용해야겠다는 생각을 안 했기 때문이라는 걸 깨닫죠. 모델의 능력 범위를 벗어나서 그런 경우는 거의 없어요. 지금 오버행은 꽤 크다고 느껴지네요.",
+        "context": "브록먼이 자신조차 Codex를 충분히 활용하지 못하는 이유를 성찰했다. 모델 성능보다 사용 습관·맥락이 병목이며, 잠재력 대비 실사용 격차(오버행)가 크다는 진단이다.",
+        "url": "https://x.com/gdb/status/2063437915347136554",
+        "publishedAt": "2026-06-07T10:48:30+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "content": "Claude Code를 처음 내부에서 데모했을 때, Slack에서 두 가지 반응이 나왔습니다. GA 이후 1년 만에 @_catwu 와 제가 앉아서 무엇이 바뀌었는지 이야기했습니다: 왜 제가 플랜 모드 대신 오토 모드를 사용하는지, 루틴이 제가 보기 전에 버그를 어떻게 고치는지, 왜 이제 대부분의 코딩을 휴대폰에서 하는지.",
+        "context": "Claude Code 핵심 개발자 보리스 체르니가 정식 출시 1년을 맞아 변화를 회고했다. 플랜 모드 대신 오토 모드를 쓰고, 코딩의 상당 부분을 휴대폰에서 한다는 워크플로 변화를 전했다.",
+        "url": "https://x.com/bcherny/status/2064034799711588805",
+        "publishedAt": "2026-06-09T02:20:18+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "content": "Opus가 장시간 작업에 최적의 모델임을 보여주는 여러 벤치마크를 보았습니다. Opus를 몇 시간/며칠 동안 자율적으로 실행하는 5가지 팁: 1. 권한 승인에 자동 모드를 사용하세요(Claude가 승인을 요청하지 않도록). 2. 동적 워크플로우를 사용하세요(Claude가 수백/수천 개의 에이전트를 다룰 수 있도록).",
+        "context": "체르니가 Claude의 Opus 모델을 몇 시간~며칠씩 자율 실행하기 위한 5가지 팁을 공유했다. 권한 자동 승인, 동적 워크플로 활용 등 장시간 에이전트 운용 노하우다.",
+        "url": "https://x.com/bcherny/status/2063792263067754658",
+        "publishedAt": "2026-06-08T10:16:33+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "ChatGPT",
+        "handle": "ChatGPTapp",
+        "content": "데이터와 비교를 ChatGPT에서 직접 차트로 변환하세요. 지금 모바일과 웹에서 사용 가능합니다.",
+        "context": "ChatGPT 공식 계정이 대화 중 데이터·비교 내용을 곧바로 차트로 변환하는 기능을 발표했다. 모바일과 웹에서 바로 쓸 수 있다.",
+        "url": "https://x.com/ChatGPTapp/status/2064018770839113769",
+        "publishedAt": "2026-06-09T01:16:37+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "새로운 과학 블로그: 왜 AI는 생물학보다 코딩에서 더 빠르게 발전했을까? 에이전트들에게 생물 데이터베이스는 자동차 이전에 지어진 도시와 같다—다른 교통을 위해 설계되었기 때문에 운전하기 짜증 나게 어렵다. 에이전트가 사용할 수 있는 인프라를 어떻게 구축할까?",
+        "context": "앤트로픽 공식 계정이 'AI가 왜 생물학보다 코딩에서 더 빨리 발전했나'를 다룬 과학 블로그를 소개했다. 생물 데이터베이스가 에이전트가 다루기 어려운 구조라는 비유가 핵심이다.",
+        "url": "https://x.com/AnthropicAI/status/2064054837294354677",
+        "publishedAt": "2026-06-09T03:39:56+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "Suraj Sharma",
+        "handle": "suraj_sharma14",
+        "content": "OpenAI가 방금 수십 가지의 실세계 워크플로를 공개했으며, 이는 팀들이 이를 어떻게 활용해 업무를 자동화하고 있는지를 보여줍니다. 받은편지함을 관리하고 내 목소리로 답장 초안을 작성하기, 인간 검토 전에 GitHub 풀 리퀘스트를 검토하기, Figma 디자인을 프로덕션 준비 완료 코드로 변환하기 등.",
+        "context": "오픈AI가 받은편지함 관리, GitHub PR 리뷰, Figma 디자인의 코드 변환 등 수십 가지 실제 업무 자동화 워크플로를 공개한 내용을 정리한 게시물(오픈AI 개발자 계정에서 공유됨).",
+        "url": "https://x.com/suraj_sharma14/status/2063589795813785841",
+        "publishedAt": "2026-06-07T20:52:01+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "데미스 하사비스 구글 딥마인드 CEO가 런던 노벨 프라이즈 다이얼로그에서 AGI의 도래가 머지않았다고 경고했습니다. 그는 “AGI까지 남은 시간이 많지 않으며 불과 몇 년밖에 남지 않았다”며, 기술 개발자뿐 아니라 경제학자·사회학자 등 사회 전반이 이를 더 진지하게 받아들여야 한다고 강조했습니다. 2020년 알파폴드(AlphaFold)조차 지금의 발전 속도에서 보면 AI의 ‘고대 유물’ 같다고 평했고, 알파고-이세돌 대국 10주년을 맞아 이제는 현실 경제와 과학 패러다임을 통째로 바꿀 거대한 지능의 폭발을 준비해야 할 때라고 분석했습니다.",
+        "context": "국내 대표 AI 채널 'CHOI'가 데미스 하사비스 구글 딥마인드 CEO의 노벨 프라이즈 다이얼로그 발언을 전했다. AGI 임박 경고와 사회적 대비 필요성을 강조한 내용이다.",
+        "url": "https://www.threads.net/@choi.openai/post/DZUotiigUku",
+        "publishedAt": "2026-06-08T20:00:06+09:00",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "한 개발자가 구글의 TurboQuant에서 영감을 받아 만든 TurboVec이 해외 커뮤니티에서 ‘SK하이닉스 끝났다’는 말이 나올 만큼 주목받고 있습니다. TurboQuant는 구글 리서치가 2026년 3월 공개한 벡터 양자화 알고리즘으로, 고차원 벡터를 2~4비트로 극단 압축하면서도 검색 정확도를 유지합니다. 입력 벡터에 무작위 회전 행렬을 곱해 정보를 균등 분산시킨 뒤 스칼라 양자화를 적용하고, 내적 추정 편향은 잔차의 부호만 저장해 보정합니다. 특히 LLM의 KV 캐시를 3비트로 압축하면 H100에서 최대 6배까지 메모리를 절감할 수 있어 화제입니다.",
+        "context": "CHOI가 구글 TurboQuant에서 파생된 벡터 압축 기법 TurboVec을 상세히 해설했다. KV 캐시 압축으로 메모리를 크게 줄일 수 있어 메모리 반도체 시장 영향까지 거론된다.",
+        "url": "https://www.threads.net/@choi.openai/post/DZUbuuGD6rh",
+        "publishedAt": "2026-06-08T18:06:40+09:00",
+        "platform": "threads"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "오픈소스 이미지 생성 모델, 생각보다 폐쇄형 품질에 근접 [토론]",
+        "originalTitle": "Open image generation models are closer to closed-source quality than this sub thinks [D]",
+        "summary": "오픈 이미지 생성 모델의 품질이 상용 폐쇄형 모델과의 격차를 빠르게 좁히고 있다는 주장과 근거를 두고 r/MachineLearning에서 논의가 벌어졌다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1u0119r/open_image_generation_models_are_closer_to/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-06-08T16:35:53+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "샤오미, 표준 8-GPU 서버에서 1조 모델로 초당 1000토큰 돌파 주장",
+        "originalTitle": "Xiaomi just claimed 1,000+ tps on a 1T model using a standard 8-GPU server",
+        "summary": "샤오미가 1T 파라미터 모델을 일반적인 8-GPU 서버에서 초당 1000토큰 이상으로 구동했다고 주장하자, 추론 효율과 진위 여부를 두고 r/LocalLLaMA에서 토론이 뜨겁다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u0buhm/xiaomi_just_claimed_1000_tps_on_a_1t_model_using/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-06-09T00:51:46+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "Gemma 4 챗 템플릿, 이제 '추론 과정 보존' 지원",
+        "originalTitle": "Gemma 4 Chat Template now has preserve thinking",
+        "summary": "구글 Gemma 4의 채팅 템플릿이 모델의 사고(thinking) 흐름을 보존하도록 업데이트돼, 로컬 추론 사용자들이 활용법을 공유하고 있다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u084qi/gemma_4_chat_template_now_has_preserve_thinking/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-06-08T22:35:56+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "아카이브(arXiv), AI 슬롭 제출 시 연구자 1년 게시 금지 방침",
+        "originalTitle": "ArXiv to Ban Researchers for a Year if They Submit AI Slop",
+        "summary": "arXiv가 AI로 양산된 저품질 논문('AI 슬롭')을 제출한 연구자를 1년간 차단하겠다고 밝히면서, 학술 출판의 AI 오남용 문제를 두고 갑론을박이 이어진다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1u0bptw/arxiv_to_ban_researchers_for_a_year_if_they/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-06-09T00:47:18+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "\"첫 대형 AI 에이전트 참사까지 약 12개월 남았다\"",
+        "originalTitle": "I think we're about 12 months away from the first major AI agent disaster",
+        "summary": "자율 AI 에이전트의 확산 속도를 감안하면 머지않아 중대한 사고가 터질 것이라는 경고성 글로, 에이전트 안전성을 둘러싼 우려를 자극했다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1tzy180/i_think_were_about_12_months_away_from_the_first/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-06-08T13:48:03+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "\"지금 Claude Code에 백도어를 심는 공격 진행 중\" — npm 자격증명 유출 경고",
+        "originalTitle": "An active attack is planting backdoors inside Claude Code right now. If you use npm, your credentials may already be compromised.",
+        "summary": "npm 패키지를 통해 Claude Code 환경에 백도어를 심는 공격이 진행 중이라는 커뮤니티 경고(사용자 제보). 같은 시기 보고된 오픈소스 공급망 공격과 맞물려 주의가 필요하다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1u05t5e/an_active_attack_is_planting_backdoors_inside/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-06-08T20:59:46+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "VS Code, 공급망 공격 차단 위해 확장 자동 업데이트에 2시간 지연 도입",
+        "originalTitle": "VS Code Adds 2-Hour Extension Auto-Update Delay to Limit Supply Chain Attacks",
+        "summary": "VS Code가 악성 확장 확산을 막기 위해 확장 자동 업데이트를 2시간 지연시키는 장치를 도입했다. 최근 공급망 공격 흐름에 대한 대응이다.",
+        "url": "https://www.reddit.com/r/programming/comments/1u089ai/vs_code_adds_2hour_extension_autoupdate_delay_to/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-06-08T22:40:51+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "컴파일러 엔지니어가 빠른 행렬곱에 슈트라센 알고리즘을 잘 안 쓰는 이유",
+        "originalTitle": "Why Compiler Engineers Rarely Use Strassen's Algorithm for Fast Matrix Multiplications",
+        "summary": "이론적으로 더 빠른 슈트라센 행렬곱이 실제 컴파일러·하드웨어에서는 잘 쓰이지 않는 이유를 수치 안정성과 캐시 효율 관점에서 설명한 글이다.",
+        "url": "https://www.reddit.com/r/programming/comments/1u09rah/why_compiler_engineers_rarely_use_strassens/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-06-08T23:36:19+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "제프 베이조스, 뇌의 '핵심 알고리즘'을 찾는 야심찬 연구에 자금 지원",
+        "originalTitle": "Jeff Bezos Is Funding a Wild Hunt for the Brain’s ‘Core Algorithm’",
+        "summary": "제프 베이조스가 인간 지능의 근간이 되는 '뇌의 핵심 알고리즘'을 규명하려는 연구에 투자한다는 소식으로, AGI 경로를 둘러싼 논의를 자극했다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1u079tc/jeff_bezos_is_funding_a_wild_hunt_for_the_brains/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-06-08T22:02:37+09:00"
+      },
+      {
+        "id": "reddit_010",
+        "title": "\"채팅은 죽었다\": 오픈AI, ChatGPT 대대적 개편 준비",
+        "originalTitle": "\"Chat is dead\": OpenAI preps overhaul of ChatGPT",
+        "summary": "오픈AI가 ChatGPT를 단순 채팅을 넘어선 형태로 재편 중이라는 보도를 공유한 글로, '슈퍼앱' 방향성에 대한 기대와 회의가 엇갈린다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1u09t2y/chat_is_dead_openai_preps_overhaul_of_chatgpt/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-06-08T23:38:11+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_qb_01",
+        "title": "\"AI는 둔화되고 있다\" — AI 발전 속도론에 던지는 반론",
+        "excerpt": "최근 AI 발전이 정체되고 있다는 도발적 분석이 커뮤니티에서 큰 반향을 일으켰다. 과열된 기대에 대한 냉정한 점검을 촉구한다.",
+        "url": "https://www.wheresyoured.at/ai-is-slowing-down/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-09T00:46:37+09:00",
+        "readTime": 4,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_qb_02",
+        "title": "'토큰포칼립스'의 서막? AI 가격 인상 전망",
+        "excerpt": "주요 AI 기업들이 상장을 준비하면서 API 토큰 가격 인상이 잇따를 것이라는 전망이 나온다. 저렴한 AI의 시대가 끝나가는 신호일 수 있다.",
+        "url": "https://techcrunch.com/2026/06/07/is-this-the-dawn-of-the-tokenpocalypse/",
+        "source": "TechCrunch",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-08T05:26:13+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_qb_03",
+        "title": "매사추세츠, 정밀 위치데이터 판매 금지 프라이버시 법안 통과",
+        "excerpt": "매사추세츠주가 정밀 위치 정보 판매를 금지하는 새 프라이버시 권리 법안을 통과시켰다. 위치 데이터 거래 관행에 제동을 거는 조치다.",
+        "url": "https://techcrunch.com/2026/06/08/massachusetts-votes-to-pass-new-privacy-rights-bill-that-bans-sale-of-precise-location-data/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-09T02:07:33+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_qb_04",
+        "title": "아마존, AI로 생성하는 맞춤형 굿즈 출시",
+        "excerpt": "아마존이 알렉사로 디자인을 생성해 티셔츠·물병·후디 등에 인쇄하는 AI 맞춤 굿즈 기능을 확대한다. 주문형 인쇄와 생성형 AI의 결합이다.",
+        "url": "https://www.theverge.com/news/945905/amazon-alexa-shopping-ai-generated-custom-merch-design-printing",
+        "source": "The Verge",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-09T02:52:51+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_qb_05",
+        "title": "\"이제 Figma보다 Claude로 더 많이 디자인한다\"",
+        "excerpt": "명세 문서와 Figma 목업을 거쳐 구현을 검토하던 디자인 워크플로가, 실제 코드베이스에 동작하는 프로토타입을 만드는 흐름으로 이동 중이라는 현장 경험담이다.",
+        "url": "https://news.hada.io/topic?id=30285",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-08T19:35:42+09:00",
+        "readTime": 4,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_qb_06",
+        "title": "저작권 만료 이미지 1만여 점을 모은 'Public Domain Image Archive'",
+        "excerpt": "저작권이 만료된 작품 11,082점을 탐색·다운로드·재사용할 수 있는 이미지 아카이브가 공개됐다. 매주 새 이미지가 추가되는 살아 있는 데이터베이스다.",
+        "url": "https://news.hada.io/topic?id=30290",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-09T01:33:02+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      }
+    ]
+  }
+}
