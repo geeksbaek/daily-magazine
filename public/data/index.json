@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-06-10",
+      "issueNumber": 71,
+      "mainHeadline": "앤트로픽, 5세대 프런티어 'Claude Fable 5·Mythos 5' 전격 공개 — 역대 최강 공개 모델",
+      "headlines": [
+        "WWDC 2026: 새 시리 AI·iOS 27·애플 인텔리전스 공개",
+        "오픈AI, 앤트로픽 뒤이어 비공개로 IPO 신청",
+        "애플, EU엔 시리 AI 출시 보류 — 규제에 책임 떠넘기기"
+      ]
+    },
+    {
       "date": "2026-06-09",
       "issueNumber": 70,
       "mainHeadline": "애플, 'Siri AI' 전격 공개 — 구글 Gemini 품고 AI 레이스 정면 돌파",
@@ -720,5 +730,5 @@
       ]
     }
   ],
-  "latestIssue": 70
+  "latestIssue": 71
 }

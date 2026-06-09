@@ -1,0 +1,589 @@
+{
+  "date": "2026-06-10",
+  "issueNumber": 71,
+  "cover": {
+    "mainHeadline": "앤트로픽, 5세대 프런티어 'Claude Fable 5·Mythos 5' 전격 공개 — 역대 최강 공개 모델",
+    "mainExcerpt": "앤트로픽이 차세대 Mythos 계열의 대중판인 Claude Fable 5를 공개했다. 소프트웨어 엔지니어링·지식 노동·비전에서 최고 수준 성능을 내세웠지만, 사이버보안·생물학 등 고위험 영역은 차단하는 안전장치를 함께 적용했다. 'AI가 너무 위험해지고 있다'는 경고 직후의 공개라 능력과 안전의 균형이 화두로 떠올랐다.",
+    "headlines": [
+      "WWDC 2026: 새 시리 AI·iOS 27·애플 인텔리전스 공개",
+      "오픈AI, 앤트로픽 뒤이어 비공개로 IPO 신청",
+      "애플, EU엔 시리 AI 출시 보류 — 규제에 책임 떠넘기기"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_h1",
+      "title": "앤트로픽, 첫 Mythos급 모델 'Claude Fable 5' 공개 — 역대 가장 강력한 공개 모델",
+      "excerpt": "앤트로픽이 일반에 공개하는 모델 중 가장 강력하다고 밝힌 Claude Fable 5를 발표했다. 소프트웨어 엔지니어링·지식 노동·비전에서 뛰어난 성능을 보이며, 작업이 길고 복잡해질수록 경쟁 모델과의 격차가 벌어진다고 한다.",
+      "url": "https://www.theverge.com/news/946725/anthropic-releases-claude-fable-5-mythos",
+      "source": "The Verge",
+      "category": "big_tech",
+      "publishedAt": "2026-06-10T02:00:00+09:00",
+      "readTime": 6,
+      "imageGradient": 4,
+      "body": "Claude Fable 5는 앤트로픽의 차세대 프런티어 'Mythos' 계열을 일반 사용자가 접근할 수 있도록 만든 버전이다. 회사는 이 모델이 지금까지 널리 공개한 모델 중 가장 강력하며, 길고 모호한 다단계 작업을 사람의 개입 없이 끝까지 수행하는 능력이 크게 향상됐다고 설명했다. 다만 사이버보안·생물학 등 고위험 영역에서는 응답을 차단하는 안전장치가 적용됐다. 며칠 전 'AI가 지나치게 위험해지고 있다'고 경고한 직후의 공개라, 능력과 안전 사이의 균형이 업계의 최대 관심사로 떠올랐다."
+    },
+    {
+      "id": "rss_h2",
+      "title": "WWDC 2026: 새로워진 시리 AI·iOS 27·애플 인텔리전스 총정리",
+      "excerpt": "애플이 WWDC 2026에서 오랜 음성비서 시리의 대폭 개선을 전면에 내세웠다. 대부분의 발표가 AI를 두텁게 입힌 형태였다.",
+      "url": "https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/",
+      "source": "TechCrunch",
+      "category": "big_tech",
+      "publishedAt": "2026-06-10T03:04:24+09:00",
+      "readTime": 6,
+      "imageGradient": 5,
+      "body": "애플은 WWDC 2026에서 새로워진 시리를 핵심으로 iOS 27과 애플 인텔리전스 업데이트를 공개했다. 시리는 더 자연스러운 대화와 화면 맥락 이해, 앱 간 작업 수행 능력을 강조했고 사진 편집을 비롯한 여러 기능에 생성형 AI가 적용됐다. 그동안 'AI 경쟁에서 뒤처졌다'는 평가를 받아온 애플이 본격적인 반격에 나선 행사라는 분석이 나온다."
+    },
+    {
+      "id": "rss_h3",
+      "title": "오픈AI, 비공개로 IPO 신청 — 앤트로픽 뒤이어 상장 레이스 점화",
+      "excerpt": "오픈AI가 비공개로 기업공개(IPO)를 신청했다. 주요 경쟁사 앤트로픽이 상장 신청을 한 지 1주일여 만으로, 두 AI 기업 간 경쟁이 한층 가열되고 있다.",
+      "url": "https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-06-09T06:29:57+09:00",
+      "readTime": 5,
+      "imageGradient": 0,
+      "body": "오픈AI가 미국 증권당국에 비공개(confidential)로 상장 서류를 제출하며 IPO 절차에 들어갔다. 라이벌 앤트로픽이 상장 신청을 한 지 약 1주일 만으로, 시장 지배력과 자금 조달을 두고 벌이는 두 회사의 경쟁이 자본시장으로 확전되는 모양새다. 막대한 컴퓨팅 투자 비용을 감당하기 위한 자금 확보가 배경으로 꼽힌다."
+    },
+    {
+      "id": "rss_h4",
+      "title": "애플, 유럽엔 새 시리 AI 출시 안 한다 — 'EU 규제 탓' 압박 전략",
+      "excerpt": "애플이 새 AI 기반 시리를 유럽 아이폰·아이패드에 출시하지 않겠다고 밝혔다. 수백만 유럽 사용자에게 'EU를 탓하라'는 메시지를 보내며 규제 완화를 압박하는 모양새다.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/947051/apple-europe-dma-siri-ai",
+      "source": "The Verge",
+      "category": "big_tech",
+      "publishedAt": "2026-06-10T02:13:14+09:00",
+      "readTime": 5,
+      "imageGradient": 4,
+      "body": "수년 만에 애플이 쓸 만한 AI를 선보였지만, 유럽 사용자들은 당분간 — 어쩌면 영영 — 새 시리 AI를 받지 못한다는 통보를 받았다. 애플은 EU 디지털시장법(DMA)의 상호운용성 요구가 사용자 보안과 프라이버시를 위협한다며 출시 보류의 책임을 EU에 돌리고 있다. 규제와 빅테크 간 힘겨루기가 소비자 기능 제공을 사실상 볼모로 다시 불거진 셈이다."
+    },
+    {
+      "id": "rss_h5",
+      "title": "클라우드플레어, '프런티어 사이버 모델' 방어 아키텍처 공개 — 스스로 '0번 고객' 자처",
+      "excerpt": "클라우드플레어가 프런티어 AI 모델을 자사 코드에 겨눈 실험에 이어, 패치 속도보다 '취약점을 둘러싼 아키텍처'가 더 중요하다는 방어 전략을 구체화해 공개했다.",
+      "url": "https://blog.cloudflare.com/frontier-model-defense/",
+      "source": "Cloudflare Blog",
+      "category": "dev_tools",
+      "publishedAt": "2026-06-09T15:00:00+09:00",
+      "readTime": 6,
+      "imageGradient": 2,
+      "body": "클라우드플레어는 프로젝트 글래스윙에서 사이버 프런티어 모델을 자사 코드에 적용해 본 경험을 공유한 데 이어, CISO들의 질문에 답하는 형태로 실제 방어 아키텍처를 공개했다. 핵심 주장은 '패치 속도'가 아니라 '취약점을 둘러싼 구조적 설계'가 보안을 좌우한다는 것이다. 프런티어 모델이 공격에 활용될 수 있는 시대에 자사를 '0번 고객(customer zero)'으로 삼아 무엇을 모니터링하고 어떻게 격리해야 하는지를 제시했다. 앤트로픽이 사이버보안 영역을 막은 Fable 5를 공개한 시점과 맞물려 의미가 크다."
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_aiml1",
+        "title": "Claude Fable 5, 오늘부터 일반 공개되는 'Mythos'의 대중판",
+        "excerpt": "앤트로픽이 첫 Mythos급 공개 모델 Claude Fable 5를 출시했다. 사이버보안·생물학 같은 고위험 분야의 응답은 차단하는 안전장치가 함께 적용됐다.",
+        "url": "https://techcrunch.com/2026/06/09/anthropic-released-claude-fable-5-its-most-powerful-model-publicly-days-after-warning-ai-is-getting-too-dangerous/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-10T02:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_aiml2",
+        "title": "테크 기업들, 더 싼 AI 모델을 사랑하게 될까?",
+        "excerpt": "같은 AI 작업을 품질 저하 없이 더 저렴한 모델로 처리할 수 있다면 AI 경제학에 거대한 전환이 일어난다. 비용 효율이 새로운 경쟁축으로 떠오르고 있다.",
+        "url": "https://techcrunch.com/2026/06/09/can-tech-companies-learn-to-love-cheaper-models/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-10T03:56:09+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_aiml3",
+        "title": "'러버블', 연환산 매출 5억 달러 돌파 — 주당 100만 개 신규 프로젝트",
+        "excerpt": "AI 앱 빌더 러버블이 연환산 매출(run-rate) 5억 달러를 넘어섰다고 밝혔다. 사용자들이 내부 소프트웨어를 대체하고 사업까지 구축하고 있다고 한다.",
+        "url": "https://techcrunch.com/2026/06/09/lovable-says-it-has-hit-500m-in-annualized-revenue-with-1-million-new-projects-a-week/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-09T22:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_aiml4",
+        "title": "음성 에이전트는 이중언어 고객을 감당할 수 있을까? 코드 스위칭 ASR 벤치마크",
+        "excerpt": "허깅페이스가 한 문장에 두 언어가 섞이는 '코드 스위칭' 음성에 대해 프런티어 ASR(음성인식) 모델들을 벤치마크했다. 다국어 음성 에이전트의 실제 한계를 짚는다.",
+        "url": "https://huggingface.co/blog/ServiceNow-AI/code-switching",
+        "source": "Hugging Face - Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-10T04:38:28+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_dev1",
+        "title": "GitHub 코파일럿 CLI에 '커스텀 에이전트' — 일회성 프롬프트를 워크플로로",
+        "excerpt": "커스텀 에이전트는 코파일럿 CLI가 팀의 스택과 작업 흐름을 이해하게 만들어, 터미널의 일회성 프롬프트를 반복 가능하고 검토 가능한 프로세스로 바꿔준다.",
+        "url": "https://github.blog/ai-and-ml/github-copilot/from-one-off-prompts-to-workflows-how-to-use-custom-agents-in-github-copilot-cli/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-10T01:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_dev2",
+        "title": "Vercel AI 게이트웨이에 Claude Fable 5 추가 — 다일·병렬 에이전트 실행 강화",
+        "excerpt": "앤트로픽의 Mythos급 모델 Claude Fable 5가 Vercel AI 게이트웨이에서 제공된다. 길고 모호한 다단계 작업을 사람의 잦은 확인 없이 끝까지 수행하고, 며칠에 걸친 실행에서도 병렬 서브에이전트를 안정적으로 가동한다.",
+        "url": "https://vercel.com/changelog/claude-fable-5-now-available-on-ai-gateway",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-09T16:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_dev3",
+        "title": "Vercel CLI로 도메인 검색 가능 — 가용성·가격 한눈에",
+        "excerpt": "vercel domains search 명령으로 도메인명을 입력하면 Vercel이 지원하는 모든 TLD의 가용성과 가격을 조회할 수 있다. TLD 필터와 정렬도 지원한다(CLI 54.10.1 이상).",
+        "url": "https://vercel.com/changelog/domain-search-is-now-available-through-the-vercel-cli",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-09T09:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_big1",
+        "title": "애플, 서비스 전반에 새 기능·인텔리전스 경험 대거 도입",
+        "excerpt": "애플이 WWDC 2026에 맞춰 앱스토어를 비롯한 서비스 전반에 걸친 새로운 기능과 AI 기반 인텔리전스 경험을 공개했다.",
+        "url": "https://www.apple.com/newsroom/2026/06/apple-unveils-innovative-features-and-intelligence-experiences-across-services/",
+        "source": "Apple Newsroom",
+        "category": "big_tech",
+        "publishedAt": "2026-06-09T22:00:15+09:00",
+        "readTime": 4,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_big2",
+        "title": "MS AI 책임자, '화이트칼라 대체' 발언 철회 — '일을 돕는 것'이라 해명",
+        "excerpt": "무스타파 술레이만 MS AI 총괄이 변호사·회계사·PM 등 화이트칼라 업무를 AI가 자동화한다던 발언을 철회했다. 그들의 일을 대신하는 게 아니라 업무 수행을 돕는다는 의미였다고 해명했다.",
+        "url": "https://www.theverge.com/tech/946879/microsoft-mustafa-suleyman-ai-white-collar-jobs",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-06-09T23:54:51+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_big3",
+        "title": "메타, 타 웹사이트 활동까지 활용해 피드·AI 응답 개인화",
+        "excerpt": "메타가 광고에 쓰던 외부 사이트 활동 데이터를 이제 피드와 AI 응답 개인화에까지 확대 적용한다고 밝혔다. 프라이버시 논란이 다시 불거질 수 있다.",
+        "url": "https://www.theverge.com/tech/946744/meta-website-activity-personalize-feeds",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-06-10T00:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_big4",
+        "title": "이제 FAANG이 아니라 'MANGOS' — 새 빅테크 패권 지형도",
+        "excerpt": "스페이스X·앤트로픽·오픈AI가 줄줄이 대형 상장을 노리면서 테크 산업의 지배자 군단과 그에 맞는 새 약어가 등장할 조짐이다. FAANG은 가고 MANGOS가 온다.",
+        "url": "https://techcrunch.com/2026/06/09/its-not-faang-anymore-its-mangos/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-06-10T01:09:14+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_01",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Claude Fable 5 소개: 일반 사용을 위해 안전하게 만든 Mythos-클래스 모델입니다.\n\n우리가 지금까지 일반적으로 공개한 어떤 모델보다도 그 능력이 뛰어납니다.",
+        "context": "앤트로픽 공식 Claude 계정이 Mythos 계열의 공개 모델 Fable 5 출시를 알린 핵심 발표 트윗이다. 이날 하루 AI 업계 화제를 독점한 출발점이었다.",
+        "url": "https://x.com/claudeai/status/2064394146916229443",
+        "publishedAt": "2026-06-09T17:08:13.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_02",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "곧, 우리는 Mythos 5에 대한 접근을 더 광범위한 신뢰 접근 프로그램을 통해 확장할 계획입니다. 이는 방어적 사이버 보안 작업과 생물의학 연구 모두를 위한 것입니다.",
+        "context": "Fable 5에 이어 더 강력한 Mythos 5를 신뢰 접근 프로그램으로 확대하겠다는 계획을 밝힌 후속 트윗. 방어적 사이버보안과 생물의학 연구가 대상이다.",
+        "url": "https://x.com/claudeai/status/2064394159318782217",
+        "publishedAt": "2026-06-09T17:08:16.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_03",
+        "author": "Alex Albert",
+        "handle": "alexalbert__",
+        "content": "Anthropic의 모든 모델 출시를 지켜봐 왔습니다. 모델 사용 방식에 획기적인 변화를 가져온 출시를 기억할 수 있는 몇 가지 사례가 있습니다:\n- Claude Opus 3\n- Claude Sonnet 3.5\n- Claude Opus 4.5\n\n그리고 이제 Claude Fable 5.\n\nFable과 함께, 모델은 내가 지시하는 도구처럼 느껴지던 것이",
+        "context": "앤트로픽 개발자 관계를 이끄는 알렉스 알버트가 Opus 3·Sonnet 3.5·Opus 4.5에 이어 Fable 5를 '판도를 바꾼 출시'로 꼽은 글. 모델이 도구를 넘어 파트너로 느껴진다는 평가다.",
+        "url": "https://x.com/alexalbert__/status/2064394410004304003",
+        "publishedAt": "2026-06-09T17:09:16.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_04",
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "content": "Fable 5는 11월의 Opus 4.5 이후로 우리 모델에서 느껴본 가장 큰 도약입니다. 4.5가 나왔을 때, 몇 주 동안 터미널에서 코딩을 100% 하고 있었다는 걸 깨닫고 IDE를 삭제했어요. Fable과 함께라면 Claude가 단순한 코딩 에이전트에서 제품을 구축하는 사고와 디자인 파트너로 한 단계 업그레이드된",
+        "context": "Claude Code를 만든 보리스 처니가 Fable 5를 'Opus 4.5 이후 가장 큰 도약'이라 평했다. 코딩 에이전트를 넘어 사고·디자인 파트너로 올라섰다는 사용자 관점의 체감기다.",
+        "url": "https://x.com/bcherny/status/2064431111154053187",
+        "publishedAt": "2026-06-09T19:35:06.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_05",
+        "author": "Felix Rieseberg",
+        "handle": "felixrieseberg",
+        "content": "오늘, 우리는 차세대 주요 언어 모델의 두 가지 구성인 Claude Fable 5와 Mythos 5를 소개합니다.\n\n보통이라면 숫자를 강조하겠지만: 거의 모든 벤치마크에서 SOTA입니다. 다른 것에 대해 이야기하고 싶습니다. 왜냐하면 Fable 5가 세상에 나왔으니, 오늘 세 번째 시대가 조용히 시작되었다고 생각하기",
+        "context": "엔지니어 펠릭스 리제베르크가 Fable 5·Mythos 5 공개를 'AI의 세 번째 시대가 조용히 시작된 날'로 규정했다. 벤치마크 숫자보다 질적 전환에 주목한 분석이다.",
+        "url": "https://x.com/felixrieseberg/status/2064392202504310900",
+        "publishedAt": "2026-06-09T17:00:30.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_06",
+        "author": "Amanda Askell",
+        "handle": "AmandaAskell",
+        "content": "모든 것이 순조롭게 돌아가고 모든 Claude들이 안식년에서 돌아나와 함께 놀 수 있는 세상에서는 Claude 1이 매우 혼란스러워할 거예요.",
+        "context": "앤트로픽 철학자 아만다 아스켈이 역대 Claude 모델들이 '안식년에서 돌아와 함께 논다면 Claude 1이 가장 혼란스러울 것'이라 농담한 트윗. 세대 간 능력 격차를 위트로 표현했다.",
+        "url": "https://x.com/AmandaAskell/status/2064223861512847456",
+        "publishedAt": "2026-06-09T05:51:34.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_07",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "OpenAI에 대한 현재 계획은 다음과 같습니다:",
+        "context": "오픈AI CEO 샘 알트먼이 'OpenAI에 대한 현재 계획'을 예고한 트윗. IPO 신청 등 잇따른 행보와 맞물려 회사의 방향성에 관심이 쏠렸다.",
+        "url": "https://x.com/sama/status/2064088940932641225",
+        "publishedAt": "2026-06-08T20:55:27.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_08",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "OpenAI에서 추구하는 목표는 OpenAI의 사명을 실현하고 AI가 발전함에 따라 인간의 주체성을 확장하기 위한 것입니다:",
+        "context": "오픈AI 사장 그렉 브록먼이 회사의 사명과 'AI 시대 인간 주체성 확장'이라는 목표를 재확인한 트윗. 알트먼의 계획 예고와 함께 올라온 메시지다.",
+        "url": "https://x.com/gdb/status/2064093657888960998",
+        "publishedAt": "2026-06-08T21:14:11.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_09",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "이제 앱에서 웹을 검색하여 이미지를 찾을 수 있습니다.\n\nResponses API의 웹 검색은 이제 텍스트 결과 외에 이미지 결과도 지원하므로, 제품, 장소, 시각적 참조 자료, 그리고 영감을 위한 소스 링크를 제공하는 앱을 만들 수 있습니다.",
+        "context": "오픈AI 개발자 계정이 Responses API의 웹 검색에 이미지 결과를 추가했다고 알린 트윗. 제품·장소·시각 참조를 보여주는 앱을 만들 수 있게 됐다.",
+        "url": "https://x.com/OpenAIDevs/status/2064395155688616153",
+        "publishedAt": "2026-06-09T17:12:14.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_10",
+        "author": "ChatGPT",
+        "handle": "ChatGPTapp",
+        "content": "데이터와 비교를 ChatGPT에서 직접 차트로 변환하세요.\n\n지금 모바일과 웹에서 사용 가능합니다.",
+        "context": "ChatGPT 공식 계정이 데이터와 비교를 앱에서 바로 차트로 변환하는 기능을 모바일·웹에 출시했다고 알린 트윗. 분석 기능 강화의 일환이다.",
+        "url": "https://x.com/ChatGPTapp/status/2064018770839113769",
+        "publishedAt": "2026-06-08T16:16:37.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_01",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "🚨 와.. 미친.. 앤트로픽이 방금 Claude Fable 5와 Mythos 5를 동시에 출시했습니다. 기존 발표했던 Mythos Preview보다 더 뛰어난 성능인데요. 발표내용에서 주목해야할 것이 한 두개가 아닙니다.. 🧵",
+        "context": "25만 팔로워를 보유한 국내 AI 채널 choi.openai가 Fable 5·Mythos 5 동시 출시를 속보로 전한 스레드의 시작. 발표 직후 한국어권 반응을 가장 빠르게 정리했다.",
+        "url": "https://www.threads.net/@choi.openai/post/DZX5X05oOKF",
+        "publishedAt": "2026-06-09T18:22:01.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_02",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "1/ 벤치마크부터 봅니다. SWE-bench Verified에서 Mythos 5는 95.5%, Fable 5는 95%를 기록했습니다. Preview(93.9%) 대비 1.6%p 추가 상승이고, Opus 4.8(88.6%) 대비 6.9%p 격차입니다. SWE-bench Pro에서는 80.3%(Mythos 5)로, GPT-5.5의 58.6%를 21.7%p 앞섰습니다. 특히 FrontierCode Diamond에서 Fable 5가 29.3%로 Opus 4.8(13.4%)의 2배, GPT-5.5(5.7%)의 5배입니다. 과거 Opus 4.8 출시 당시 \"실전 코딩은 여전히 GPT-5.5가 우위\"라던 개발자들의 여론을 다시 앤트로픽 쪽으로 끌고 오는 '코딩 해자'가 확인됐습니다. Terminal-Bench 2.1에서 Mythos 5는 88.0%로 경쟁 영역에서 확실히 분리됐습니다.",
+        "context": "벤치마크를 조목조목 짚은 후속 글. SWE-bench·FrontierCode 등에서 Mythos 5·Fable 5가 Opus 4.8과 GPT-5.5를 앞섰다며 '코딩 해자'를 강조했다.",
+        "url": "https://www.threads.net/@choi.openai/post/DZYAFzDD2ew",
+        "publishedAt": "2026-06-09T18:22:07.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_03",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "드디어 Claude Mythos의 공개 버전이 나오는 분위기입니다. 가격은 100만 토큰 기준 입력 10달러, 출력 50달러로 알려졌으며, 현재 Opus의 2배 수준입니다. 특히 일반 구독 플랜이 아니라 별도 사용 크레딧 기반으로 제공될 가능성이 있어 진입 장벽은 다소 높아질 것으로 보입니다. 다만 초기에 알려졌던 Mythos 가격이 Opus의 3-5배 수준이었던 점을 감안하면, 예상보다는 훨씬 현실적인 가격대로 출시되는 셈입니다. 결국 관건은 성능보다도 얼마나 강한 안전 제한과 능력 조정이 적용될지입니다. 공개 버전이 원래 Mythos에 얼마나 가까운 성능을 유지할 수 있을지가 가장 큰 관심사가 될 것 같습니다.",
+        "context": "공개판 Mythos의 가격과 제공 방식을 분석한 글. 100만 토큰당 입력 10달러·출력 50달러로 Opus의 2배 수준이며, 별도 크레딧 기반 제공 가능성을 짚었다.",
+        "url": "https://www.threads.net/@choi.openai/post/DZX1dboj5V3",
+        "publishedAt": "2026-06-09T16:49:13.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_04",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "🚨 언어의 장벽이 무너질 날이 얼마남지 않은 것 같습니다. 구글이 실시간 음성 번역 모델인 'Gemini 3.5 Live Translate'를 전격 공개했습니다. 기존처럼 한 마디 끝나기를 기다렸다가 번역하는 턴제 방식이 아니라, 사람이 말하는 도중에 스트리밍으로 실시간 동시통역을 해줍니다. 70개 이상의 언어를 자동으로 감지하면서 말하는 사람의 억양이나 어조, 속도까지 그대로 살려서 번역된 음성을 뽑아내 줍니다. 구글 번역 앱뿐만 아니라 구글 미트, 그리고 API까지 동시에 풀렸는데요. 안드로이드에서는 전화를 받듯이 귀에 대고 있으면 통역을 들려주는 리스닝 모드도 들어갔습니다. 특히 동남아 모빌리티 플랫폼인 Grab이 기사와 탑승객 간 소통에 바로 이 모델을 테스트 중이라고 하는데, 일상적인 커뮤니티나 비즈니스 현장에서 언어 장벽이 빠르게 무너질 것 같습니다.",
+        "context": "구글의 실시간 동시통역 모델 'Gemini 3.5 Live Translate' 공개 소식을 전한 글. 70개 언어를 억양·어조까지 살려 스트리밍 통역하며 Grab이 시범 적용 중이라고 전했다.",
+        "url": "https://www.threads.net/@choi.openai/post/DZXriN3DJ-4",
+        "publishedAt": "2026-06-09T15:23:37.000Z",
+        "platform": "threads"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_01",
+        "title": "Claude Fable 5 공개",
+        "originalTitle": "Introducing Claude Fable 5",
+        "summary": "r/ClaudeAI에 올라온 Fable 5 공식 발표 스레드. 출시 직후 사용자들의 첫 반응과 기대가 모였다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1u1b22l/introducing_claude_fable_5/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-06-10T02:04:11+09:00"
+      },
+      {
+        "id": "reddit_02",
+        "title": "앤트로픽, Claude Fable 5와 Mythos 5 출시",
+        "originalTitle": "Anthropic releases Claude Fable 5 and Claude Mythos 5",
+        "summary": "r/singularity에서 Fable 5·Mythos 5 동시 공개를 다룬 글. AGI 담론과 함께 폭넓은 토론이 이어졌다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1u1b3aa/anthropic_releases_claude_fable_5_and_claude/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-06-10T02:05:16+09:00"
+      },
+      {
+        "id": "reddit_03",
+        "title": "Mythos가 왔다",
+        "originalTitle": "Mythos is here",
+        "summary": "r/OpenAI에서도 앤트로픽의 Mythos 공개가 화제. 경쟁사 커뮤니티마저 반응할 만큼 파급력이 컸음을 보여준다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1u1b51v/mythos_is_here/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-06-10T02:06:58+09:00"
+      },
+      {
+        "id": "reddit_04",
+        "title": "앤트로픽만이 아니다 — 오픈AI 연구자들도 'AI 글로벌 일시중단' 지지 신호",
+        "originalTitle": "It's not just Anthropic anymore, OpenAI researchers are signaling support for a global AI pause",
+        "summary": "오픈AI 내부에서도 프런티어 AI 개발의 글로벌 모라토리엄을 지지하는 목소리가 나온다는 게시물. 안전 담론의 확산을 보여준다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1u0w2yd/its_not_just_anthropic_anymore_openai_researchers/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-06-09T14:33:41+09:00"
+      },
+      {
+        "id": "reddit_05",
+        "title": "오픈AI의 44일 채용 대회, 자율 AI 에이전트가 모든 참가자를 이겼다",
+        "originalTitle": "OpenAI ran a 44-day hiring competition. An autonomous AI agent beat everyone competitor.",
+        "summary": "오픈AI가 진행한 44일 채용 경연에서 자율 AI 에이전트가 인간 지원자들을 모두 제쳤다는 화제의 글. AI 노동 대체 논쟁을 자극했다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1u19rcz/openai_ran_a_44day_hiring_competition_an/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-06-10T01:18:53+09:00"
+      },
+      {
+        "id": "reddit_06",
+        "title": "제미나이 프로의 황당한 발언",
+        "originalTitle": "Crazy statement by Gemini pro",
+        "summary": "구글 Gemini Pro가 내놓은 예상 밖 답변을 공유한 게시물. 모델의 돌발 응답을 둘러싼 토론이 이어졌다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1u12pru/crazy_statement_by_gemini_pro/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-06-09T20:49:34+09:00"
+      },
+      {
+        "id": "reddit_07",
+        "title": "Cohere North Mini Code 공개",
+        "originalTitle": "Releasing Cohere North Mini Code",
+        "summary": "코히어가 코딩 특화 경량 모델 'North Mini Code'를 공개했다는 소식. 로컬 LLM 커뮤니티의 관심을 모았다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u1ci1r/releasing_cohere_north_mini_code/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-06-10T02:54:36+09:00"
+      },
+      {
+        "id": "reddit_08",
+        "title": "중국에서 NVLink 달린 싱글슬롯·하프하이트 PCIe V100을 만들고 있다",
+        "originalTitle": "People are making single-slot, half height pcie v100 with nvlink in China",
+        "summary": "중국에서 NVLink를 갖춘 소형 PCIe V100 카드를 제작하고 있다는 게시물. 저비용 로컬 추론 하드웨어에 대한 관심을 반영한다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u16eyk/people_are_making_singleslot_half_height_pcie/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-06-09T23:22:02+09:00"
+      },
+      {
+        "id": "reddit_09",
+        "title": "누군가 'Miasma' 공급망 공격 툴킷 소스코드를 깃허브에 유출했다",
+        "originalTitle": "someone actually leaked the Miasma supply chain attack toolkit source code on github",
+        "summary": "악성 공급망 공격 툴킷 'Miasma'의 소스코드가 깃허브에 유출됐다는 게시물. 보안 위협과 책임 공개 논쟁이 오갔다.",
+        "url": "https://www.reddit.com/r/programming/comments/1u1512l/someone_actually_leaked_the_miasma_supply_chain/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-06-09T22:29:08+09:00"
+      },
+      {
+        "id": "reddit_10",
+        "title": "AI 인식론적 위험: 떠오르는 메커니즘과 증거 [R]",
+        "originalTitle": "AI Epistemic Risks: Emerging Mechanisms & Evidence [R]",
+        "summary": "AI가 인간의 지식·신념 형성에 미치는 '인식론적 위험'을 다룬 연구 공유 글. 메커니즘과 실증 근거를 정리했다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1u1ew6q/ai_epistemic_risks_emerging_mechanisms_evidence_r/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-06-10T04:18:47+09:00"
+      },
+      {
+        "id": "reddit_11",
+        "title": "ASR의 다음 돌파구는 무엇일까? [D]",
+        "originalTitle": "What will be the next breakthrough in ASR? [D]",
+        "summary": "음성인식(ASR) 분야의 다음 혁신을 주제로 한 토론 글. 코드 스위칭·실시간 처리 등 과제가 거론됐다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1u1cklt/what_will_be_the_next_breakthrough_in_asr_d/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-06-10T02:57:14+09:00"
+      },
+      {
+        "id": "reddit_12",
+        "title": "AGI가 왔다 (Fable 5가 세차장으로 운전해 가라고 제안했다)",
+        "originalTitle": "AGI is here (Fable 5 suggest me to Drive to the car Wash)",
+        "summary": "Fable 5의 엉뚱한 제안을 유머로 공유한 게시물. 강력한 모델에 대한 기대와 현실 사이의 간극을 가볍게 짚었다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1u1bmim/agi_is_here_fable_5_suggest_me_to_drive_to_the/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-06-10T02:23:34+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_qb1",
+        "title": "Mythos와 함께 일한다는 것은 어떤 느낌인가",
+        "excerpt": "앤트로픽의 차세대 모델 Mythos를 실제로 써 본 경험담. 모델이 단순 도구를 넘어 사고·디자인 파트너처럼 느껴진다는 평가가 담겼다.",
+        "url": "https://www.oneusefulthing.org/p/what-it-feels-like-to-work-with-mythos",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-10T02:17:21+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_qb2",
+        "title": "GPT-2: 공개하기엔 너무 위험하다 (2019)",
+        "excerpt": "2019년 오픈AI가 GPT-2를 '너무 위험하다'며 단계적으로 공개했던 일을 돌아보는 글. 프런티어 모델 안전 논쟁이 재점화된 지금 다시 읽히고 있다.",
+        "url": "https://naokishibuya.github.io/blog/2022-12-30-gpt-2-2019/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-10T03:21:43+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_qb3",
+        "title": "Claude Fable 5/Mythos 5 공개, 앤트로픽의 5세대 프런티어 모델",
+        "excerpt": "앤트로픽의 5세대 프런티어 모델 Claude Fable 5와 Mythos 5 공개 소식을 정리한 GeekNews 토픽. 한국 개발자 커뮤니티의 반응도 함께 확인할 수 있다.",
+        "url": "https://news.hada.io/topic?id=30328",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-10T02:46:30+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_qb4",
+        "title": "애플, EU 면제 요청 거부되자 유럽에 시리 출시 보류",
+        "excerpt": "애플이 EU에 규제 면제를 요청했다가 거부당한 뒤 유럽에는 AI 시리를 출시하지 않기로 했다는 로이터 보도.",
+        "url": "https://www.reuters.com/business/apple-failed-make-its-ai-tool-comply-eu-regulations-eu-commission-says-2026-06-09/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-10T01:13:10+09:00",
+        "readTime": 2,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_qb5",
+        "title": "애플, 구글 Gemini 모델 기반의 새 AI 아키텍처 공개",
+        "excerpt": "애플이 새 시리·애플 인텔리전스의 핵심에 구글 Gemini 모델을 채택했다는 GeekNews 정리. 자체 모델 대신 외부 파트너십을 택한 점이 주목된다.",
+        "url": "https://news.hada.io/topic?id=30316",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-09T13:33:25+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_qb6",
+        "title": "AI가 둔화하고 있다",
+        "excerpt": "AI 발전 속도가 정점을 지나 둔화하고 있다는 주장을 담은 글. 연일 쏟아지는 프런티어 모델 공개와 대비되는 회의론이다.",
+        "url": "https://news.hada.io/topic?id=30314",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-09T11:39:50+09:00",
+        "readTime": 2,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_qb7",
+        "title": "직원을 AI로 대체하려는 CEO는 그냥 무능한 CEO다",
+        "excerpt": "AI가 직원을 대체한다고 보는 경영진을 비판하는 테크더트 칼럼. 도구로서의 AI와 인력 대체를 혼동하는 리더십을 꼬집는다.",
+        "url": "https://www.techdirt.com/2026/06/09/ceos-who-think-ai-replaces-their-employees-are-just-bad-ceos/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-10T03:45:59+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      }
+    ]
+  }
+}
