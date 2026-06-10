@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-06-11",
+      "issueNumber": 72,
+      "mainHeadline": "다리오 아모데이, 'AI 지수적 성장' 정책 에세이 발표 — 앤트로픽, 의무적 제3자 안전 테스트 촉구",
+      "headlines": [
+        "구글 딥마인드 'DiffusionGemma' 공개 — 엔비디아 가속으로 로컬 초고속 텍스트 생성",
+        "앤트로픽 Claude Fable 5, 기초 생물학 질문엔 답 거부…가드레일 논란",
+        "마이크로소프트, 데이터 보존 우려로 직원의 Claude Fable 사용 제한"
+      ]
+    },
+    {
       "date": "2026-06-10",
       "issueNumber": 71,
       "mainHeadline": "앤트로픽, 5세대 프런티어 'Claude Fable 5·Mythos 5' 전격 공개 — 역대 최강 공개 모델",
@@ -730,5 +740,5 @@
       ]
     }
   ],
-  "latestIssue": 71
+  "latestIssue": 72
 }

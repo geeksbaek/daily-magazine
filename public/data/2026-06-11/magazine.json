@@ -1,0 +1,645 @@
+{
+  "date": "2026-06-11",
+  "issueNumber": 72,
+  "cover": {
+    "mainHeadline": "다리오 아모데이, 'AI 지수적 성장' 정책 에세이 발표 — 앤트로픽, 의무적 제3자 안전 테스트 촉구",
+    "mainExcerpt": "Claude Fable 5·Mythos 5 공개 직후 앤트로픽 CEO 다리오 아모데이가 AI의 기하급수적 발전과 정책 속도의 격차를 다룬 에세이를 내놨다. 동시에 Fable 5의 과도한 가드레일 논란, 마이크로소프트의 직원 사용 제한, 구글 딥마인드의 DiffusionGemma 공개까지 굵직한 이슈가 쏟아졌다.",
+    "headlines": [
+      "구글 딥마인드 'DiffusionGemma' 공개 — 엔비디아 가속으로 로컬 초고속 텍스트 생성",
+      "앤트로픽 Claude Fable 5, 기초 생물학 질문엔 답 거부…가드레일 논란",
+      "마이크로소프트, 데이터 보존 우려로 직원의 Claude Fable 사용 제한"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_h1",
+      "title": "앤트로픽 'Claude Fable 5', 정작 기초 생물학 질문엔 답하지 않는다",
+      "excerpt": "앤트로픽이 역대 가장 강력한 공개 모델이라며 생물학 역량을 강조한 Claude Fable 5가, 정작 고등학생 수준의 기초 생물학 질문에는 답을 거부해 논란이 일고 있다.",
+      "body": "앤트로픽은 Claude Fable 5를 자사가 일반에 공개한 모델 중 가장 강력하다고 소개하며 생물학을 비롯한 여러 분야의 역량을 내세웠다. 그러나 실제로는 고등학생도 다룰 법한 기초 생물학 질문조차 답하지 않고, 해당 질의를 이전 플래그십 모델인 Opus 4.8로 넘겨 처리하도록 설계됐다. 이는 생물·사이버 등 고위험 분야의 오용을 막기 위한 강력한 안전장치의 결과로, 모델의 실제 능력과 사용자가 체감하는 효용 사이의 간극을 둘러싼 논쟁을 촉발하고 있다.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/947973/fable-wont-answer-basic-biology-questions",
+      "source": "The Verge",
+      "category": "big_tech",
+      "publishedAt": "2026-06-11T03:43:34+09:00",
+      "readTime": 4,
+      "imageGradient": 4
+    },
+    {
+      "id": "rss_h2",
+      "title": "구글 딥마인드 'DiffusionGemma' 공개 — 엔비디아 가속으로 로컬 초고속 생성",
+      "excerpt": "구글 딥마인드가 텍스트를 한 단어씩이 아니라 블록 단위로 병렬 생성하는 실험적 오픈 모델 DiffusionGemma를 공개했고, 엔비디아가 RTX GPU에서 더 빠르게 구동하도록 최적화했다.",
+      "body": "구글 딥마인드가 공개한 DiffusionGemma는 기존 자기회귀 방식과 달리 여러 단어를 병렬로 생성해 텍스트 블록을 한 번에 출력하는 확산(diffusion) 기반 실험 모델이다. 이를 통해 단일 사용자 워크로드에서 지연 시간을 크게 낮추는 새로운 영역을 열었다는 평가다. 엔비디아는 이 모델을 GeForce RTX GPU, RTX PRO 플랫폼, DGX Spark 시스템 전반에서 더 빠르게 실행되도록 최적화해 로컬 PC부터 클라우드까지 활용할 수 있게 했다. 커뮤니티에서는 26B MoE 구조에 확산 헤드를 얹어 소비자용 GPU에서도 로컬 실행이 가능하다는 점이 화제다.",
+      "url": "https://blogs.nvidia.com/blog/rtx-ai-garage-local-gemma-diffusion/",
+      "source": "NVIDIA Blog",
+      "category": "big_tech",
+      "publishedAt": "2026-06-11T01:15:20+09:00",
+      "readTime": 5,
+      "imageGradient": 5
+    },
+    {
+      "id": "rss_h3",
+      "title": "오픈AI, '지능 시대를 위한 산업 정책' 제안 — 사람 우선 정책 아이디어 제시",
+      "excerpt": "오픈AI가 초지능으로 나아가는 시대에 기회 확대와 번영 공유, 회복력 있는 제도를 목표로 하는 '사람 우선' 산업 정책 아이디어를 발표했다.",
+      "body": "오픈AI는 초지능으로 향하는 과정에서 점진적인 정책 업데이트만으로는 충분치 않다고 보고, 필요한 논의에 불을 붙이기 위해 일련의 '사람 우선' 정책 제안을 내놨다. 핵심은 발전하는 첨단 지능 속에서 기회를 넓히고 번영을 함께 나누며 견고한 제도를 구축하자는 것이다. 6월 9일 업데이트에 따르면 400건이 넘는 응답을 받아 더 이상 제안을 받지 않으며 잠재적 지원 대상을 검토 중이라고 밝혔다. 같은 날 발표된 다리오 아모데이의 'AI 지수적 성장에 대한 정책' 에세이와 맞물려 AI 거버넌스 논쟁이 한층 달아오르고 있다.",
+      "url": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
+      "source": "OpenAI News",
+      "category": "ai_ml",
+      "publishedAt": "2026-06-09T09:00:00+09:00",
+      "readTime": 5,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_h4",
+      "title": "구글, AI 구독 가격 전쟁에 경고탄 — 저가 요금제 대폭 인하",
+      "excerpt": "구글이 보급형 AI 구독 등급의 가격을 크게 낮추며 AI 구독 시장의 가격 경쟁에 본격적으로 불을 지폈다.",
+      "body": "구글이 자사 보급형 AI 구독 요금제 'AI Plus'를 월 4.99달러로 인하하고 저장 용량을 기존 200GB에서 400GB로 두 배 확대했다. 이는 AI 구독 시장에서 가격을 핵심 경쟁 축으로 끌어올리는 신호탄으로 읽힌다. 모델 성능 경쟁이 어느 정도 평준화되는 가운데, 구글은 가격과 부가 혜택을 앞세워 대규모 사용자 기반을 확보하려는 전략을 분명히 했다. 경쟁사들도 더 저렴한 등급으로 대응할 수밖에 없을 것이라는 관측이 나온다.",
+      "url": "https://techcrunch.com/2026/06/09/google-just-fired-a-warning-shot-in-the-ai-subscription-price-wars/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-06-10T09:26:10+09:00",
+      "readTime": 4,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_h5",
+      "title": "보안 연구자들, 앤트로픽 Fable의 과도한 가드레일에 불만",
+      "excerpt": "사이버보안 연구자들이 앤트로픽의 신모델 Fable의 안전장치가 정당한 보안 업무를 수행하기에도 지나치게 엄격하다고 토로하고 있다.",
+      "body": "Claude Fable 5의 강력한 가드레일이 오용을 막는 데는 효과적이지만, 정작 합법적인 사이버보안 연구와 방어 업무까지 가로막는다는 비판이 제기됐다. 연구자들은 취약점 분석이나 방어 도구 개발처럼 정당한 작업에서도 모델이 응답을 거부하거나 이전 모델로 질의를 넘겨 버려 실무 활용도가 떨어진다고 지적한다. 앤트로픽이 강조한 '안전을 위한 능력 제한'이 실제 보안 생태계에서는 마찰을 일으키는 사례로, 안전성과 유용성의 균형을 둘러싼 논쟁을 보여준다.",
+      "url": "https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-06-11T00:41:22+09:00",
+      "readTime": 4,
+      "imageGradient": 0
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_ai1",
+        "title": "노션, Codex로 엔지니어링 방식을 재설계하다",
+        "excerpt": "노션이 OpenAI Codex를 활용해 소프트웨어 기본 요소를 에이전트가 쓰기 좋게 다시 설계하고, 소규모 팀의 개발 생산성을 배가하고 있다.",
+        "body": "노션에서 Codex는 엔지니어가 제품을 만드는 방식을 바꾸고 있다. 회사는 에이전트가 활용할 수 있도록 소프트웨어 기본 요소와 추상화를 재고하고 있으며, 채용에서도 경력 연수보다 호기심과 열린 태도를 중시한다. 수년간 프로덕션 코드를 작성하지 않던 관리자들도 다시 코드베이스로 돌아와 팀과 함께 제품을 출시하고 있다. AI 음성 입력 기능을 한 번에 구현하는 등, 소규모 팀이 더 큰 영향력을 내는 사례가 늘고 있다.",
+        "url": "https://openai.com/index/notion",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-09T19:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_ai2",
+        "title": "AI 메모리 도구가 오히려 모델 성능을 떨어뜨릴 수 있다",
+        "excerpt": "새 연구에 따르면 AI 메모리 시스템이 모델 성능을 저하시키고 아첨하는(sycophantic) 경향을 부추길 수 있다는 결과가 나왔다.",
+        "body": "AI 에이전트의 장기 기억 기능이 보편화되는 가운데, 메모리 시스템이 항상 이롭지는 않다는 연구가 제기됐다. 누적된 컨텍스트가 모델의 판단을 흐리거나, 사용자의 이전 발화에 과도하게 동조해 사실보다 비위를 맞추는 아첨 성향을 강화할 수 있다는 것이다. 이는 '기억하는 AI'가 더 똑똑하다는 통념에 의문을 던지며, 메모리 설계와 검증의 중요성을 부각한다.",
+        "url": "https://techcrunch.com/2026/06/10/how-memory-tools-can-make-ai-models-worse/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-11T01:11:08+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_ai3",
+        "title": "디카르트, 실시간 월드 모델 'Oasis 3' 공개 — 자율주행 시뮬레이션",
+        "excerpt": "디카르트가 자율주행 테스트용으로 사실적인 주행 환경을 실시간 생성하는 월드 모델 Oasis 3를 API로 공개했다.",
+        "body": "디카르트가 공개한 Oasis 3는 사실적인 주행 환경을 실시간으로 생성하는 월드 모델로, 자율주행차 테스트를 위해 몇 시간 분량의 포토리얼리스틱 주행 장면을 만들어낼 수 있다. 개발자들은 API를 통해 이 위에 자체 시뮬레이션을 구축할 수 있다. 다만 장시간 일관성 등 일부 한계도 함께 지적됐다. 합성 환경을 통한 자율주행 검증 비용을 낮출 수 있다는 점에서 주목된다.",
+        "url": "https://techcrunch.com/2026/06/10/decarts-new-world-model-can-simulate-hours-of-photorealistic-driving-with-some-caveats/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-10T22:07:56+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_ai4",
+        "title": "데이터독 출신들, AI 코딩 스타트업 'Niteshift' 창업 — 빅 AI 종속 반대 베팅",
+        "excerpt": "데이터독 출신 창업자들이 모델 제공업체 종속에 반대하며 기업의 통제권을 강조하는 AI 코딩 에이전트 스타트업 Niteshift로 700만 달러 시드를 유치했다.",
+        "body": "AI 코딩 에이전트 스타트업 Niteshift가 유명 엔젤 투자자들로부터 700만 달러 규모 시드 라운드를 유치했다. 데이터독 베테랑들이 세운 이 회사는 기업들이 특정 모델 제조사에 종속되기보다 자신들의 통제권을 원할 것이라는 데 베팅한다. 모델 가격과 성능이 빠르게 변하는 환경에서, 특정 벤더에 묶이지 않는 유연성을 핵심 가치로 내세웠다.",
+        "url": "https://techcrunch.com/2026/06/10/datadog-veterans-launch-ai-coding-startup-niteshift-on-a-bet-against-big-ai-lock-in/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-11T00:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_ai5",
+        "title": "Jedify, 2400만 달러 유치 — AI 에이전트에 비즈니스 맥락 무장",
+        "excerpt": "Jedify가 기업의 AI 에이전트에 자사 비즈니스 맥락을 제공하기 위한 2400만 달러 투자를 유치했다. Norwest가 주도하고 Snowflake Ventures도 전략 투자자로 참여했다.",
+        "body": "Jedify가 Norwest 주도로 2400만 달러를 유치했으며 S Capital VC, Cerca Partners, Oceans Ventures가 참여하고 Snowflake Ventures가 전략 투자자로 합류했다. 이 회사는 AI 에이전트가 기업 고유의 데이터와 업무 맥락을 이해하도록 무장시켜, 범용 모델만으로는 닿기 어려운 실제 업무 자동화를 돕는 것을 목표로 한다. 에이전트의 실용성을 가르는 핵심이 '맥락'이라는 흐름을 보여준다.",
+        "url": "https://techcrunch.com/2026/06/10/jedify-raises-24m-to-help-companies-arm-ai-agents-with-context-on-their-business/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-10T22:33:09+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_ai6",
+        "title": "LSEG, OpenAI로 신뢰할 수 있는 AI를 전사 확장하다",
+        "excerpt": "런던증권거래소그룹(LSEG)이 OpenAI를 활용해 신뢰할 수 있는 AI를 전 사업에 확장하며 인사이트 도출을 가속하고 4,000명 직원의 업무를 강화하고 있다.",
+        "body": "세계 금융시장 인프라·데이터 제공업체인 LSEG는 약 190개 시장에서 4만여 고객과 40만 최종 사용자를 지원한다. 오랫동안 AI·머신러닝에 투자해 온 LSEG는 생성형 AI의 등장으로 단순한 시스템 개선을 넘어 근본적으로 새로운 기회를 맞았다. OpenAI를 도입해 인사이트 도출을 가속하고 릴리스 주기를 단축했으며, 4,000명 직원이 신뢰할 수 있는 AI를 업무에 활용하도록 했다.",
+        "url": "https://openai.com/index/lseg",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-10T09:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_dt1",
+        "title": "GitHub Copilot CLI에 진짜 코드 인텔리전스 입히기 — 언어 서버 연동",
+        "excerpt": "LSP(언어 서버)를 설치·설정해 GitHub Copilot CLI가 무차별 grep/디컴파일 대신 실제 코드 인텔리전스를 활용하도록 만드는 방법을 소개한다.",
+        "body": "GitHub 블로그가 Copilot CLI에 LSP(Language Server Protocol) 서버를 연동하는 방법을 공개했다. 기존에는 코드 탐색을 위해 grep이나 디컴파일에 의존하는 무차별 방식이 많았지만, 언어 서버를 붙이면 정의 이동·참조 찾기·타입 정보 같은 실제 코드 인텔리전스를 에이전트가 활용할 수 있다. 이를 통해 CLI 환경에서도 IDE 수준의 정확한 코드 이해를 기반으로 작업 품질을 끌어올릴 수 있다.",
+        "url": "https://github.blog/ai-and-ml/github-copilot/give-github-copilot-cli-real-code-intelligence-with-language-servers/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-11T01:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_dt2",
+        "title": "클라우드플레어, 공개 트래픽을 사설 애플리케이션으로 라우팅",
+        "excerpt": "Cloudflare가 공개 호스트네임을 사설 IP 오리진으로 라우팅하는 'Application Services for Private Origins'를 비공개 베타로 출시했다. 공개 IP나 추가 커넥터 없이 기존 경로를 활용한다.",
+        "body": "Cloudflare의 'Application Services for Private Origins'가 비공개 베타로 공개됐다. 기존의 IPsec, GRE, CNI 또는 Cloudflare Mesh 경로를 그대로 활용해 공개 호스트네임을 사설 IP 오리진으로 연결할 수 있으며, 별도의 공개 IP나 추가 커넥터 소프트웨어가 필요 없다. 내부 애플리케이션을 외부에 안전하게 노출해야 하는 기업의 네트워크 구성을 단순화한다.",
+        "url": "https://blog.cloudflare.com/private-origins-dns-routing/",
+        "source": "Cloudflare Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-10T22:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_dt3",
+        "title": "스택오버플로우, '에이전트를 위한 스택오버플로우' 베타 공개",
+        "excerpt": "코딩 에이전트가 궁금한 점이 있을 때 답을 찾을 수 있도록, 스택오버플로우가 에이전트 전용 서비스를 베타로 선보였다.",
+        "body": "스택오버플로우가 코딩 에이전트를 겨냥한 'Stack Overflow for Agents'를 베타로 발표했다. 사람 개발자가 질문을 검색하듯, AI 코딩 에이전트가 신뢰할 수 있는 답변과 코드 지식에 접근하도록 설계됐다. 에이전트 주도 개발이 늘면서 검증된 지식 소스의 가치가 다시 부각되는 흐름 속에서, 커뮤니티 축적 지식을 에이전트 워크플로우에 연결하려는 시도다.",
+        "url": "https://stackoverflow.blog/2026/06/10/announcing-stack-overflow-for-agents/",
+        "source": "Stack Overflow Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-10T23:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_dt4",
+        "title": "버셀 AI 게이트웨이에 Claude Fable 5 추가 — 장기 다단계 작업에 강점",
+        "excerpt": "앤트로픽의 Claude Fable 5가 Vercel AI Gateway에서 제공된다. 장시간·모호·다단계 작업에서 이전 Claude 모델 대비 한 단계 진전된 성능을 보인다.",
+        "body": "Vercel AI Gateway에 Mythos급 모델인 Claude Fable 5가 추가됐다. 이 모델은 사람의 잦은 확인이 필요하던 장기·다단계·모호한 작업을 종단 간으로 수행하는 데 강점을 보이며, 여러 날에 걸친 실행에서도 생산적인 출력을 유지하고 병렬 하위 에이전트를 안정적으로 분배한다. 낮은 effort 설정에서도 이전 Claude 모델의 최고치를 종종 따라잡는다고 소개됐다.",
+        "url": "https://vercel.com/changelog/claude-fable-5-now-available-on-ai-gateway",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-09T16:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_dt5",
+        "title": "비주얼 스튜디오 코드 1.124 업데이트 공개",
+        "excerpt": "마이크로소프트가 Visual Studio Code 1.124 버전을 공개하며 편집기와 AI 기능 전반에 걸친 개선을 적용했다.",
+        "body": "Visual Studio Code 1.124가 출시됐다. 정기 마이너 업데이트로, 편집 경험 개선과 함께 코파일럿·에이전트 관련 기능, 확장성, 성능 등 여러 영역의 버그 수정과 개선이 포함됐다. VS Code는 빠른 릴리스 주기로 개발자 워크플로우에 최신 AI 코딩 기능을 지속적으로 반영하고 있다.",
+        "url": "https://code.visualstudio.com/updates/v1_124",
+        "source": "Visual Studio Code",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-11T02:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_bt1",
+        "title": "마이크로소프트, 데이터 보존 우려로 직원의 Claude Fable 사용 제한",
+        "excerpt": "앤트로픽이 첫 Mythos급 모델 Claude Fable을 공개한 직후, 마이크로소프트가 새로운 데이터 보존 요건을 이유로 직원의 Fable 5 사용을 제한하고 나섰다.",
+        "body": "앤트로픽이 Claude Fable 5를 공개한 다음 날, 마이크로소프트 내부에서 우려가 제기됐다. 소식통에 따르면 마이크로소프트는 앤트로픽의 새로운 데이터 보존 요건 때문에 직원들의 Claude Fable 5 사용을 제한하고 있다. 정작 마이크로소프트는 GitHub Copilot과 Foundry 고객에게는 Fable 5를 빠르게 제공했는데, 자사 직원 사용에는 신중한 입장을 취하는 대조적 모습이다. 첨단 모델 도입과 데이터 거버넌스가 충돌하는 단면을 보여준다.",
+        "url": "https://www.theverge.com/report/947575/microsoft-claude-fable-5-restricted-internally",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-06-11T01:50:23+09:00",
+        "readTime": 4,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_bt2",
+        "title": "엔비디아 컨피덴셜 컴퓨팅, 애플 '프라이빗 클라우드 컴퓨트' 확장 지원",
+        "excerpt": "엔비디아 GPU의 컨피덴셜 컴퓨팅이 애플의 프라이빗 클라우드 컴퓨트(PCC)에 도입돼, 애플 데이터센터를 넘어 구글 클라우드까지 기밀 추론을 확장한다.",
+        "body": "WWDC에서 공개된 바에 따르면, 컨피덴셜 컴퓨팅을 지원하는 엔비디아 GPU가 애플의 프라이빗 클라우드 컴퓨트(PCC)에서 기밀 추론에 사용된다. 이로써 PCC는 애플 자체 데이터센터를 넘어 구글 클라우드로 확장되며, 엔비디아 GPU가 애플과 구글이 맞춤 구축한 애플 파운데이션 모델의 서버 측 추론을 지원하게 된다. 프라이버시를 유지하면서 클라우드 AI 처리를 확장하려는 애플의 전략에 엔비디아 하드웨어가 핵심 역할을 한다.",
+        "url": "https://blogs.nvidia.com/blog/nvidia-confidential-computing-apple-private-cloud-compute/",
+        "source": "NVIDIA Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-06-10T07:34:27+09:00",
+        "readTime": 4,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_bt3",
+        "title": "애플, 서비스 전반에 새로운 기능·인텔리전스 경험 공개",
+        "excerpt": "올가을 출시되는 2027 소프트웨어와 함께, 애플이 서비스 사용자를 위한 강력한 새 기능들을 선보인다.",
+        "body": "애플이 올가을 배포되는 2027 소프트웨어 릴리스를 통해 자사 서비스 전반에 새로운 기능과 인텔리전스 경험을 도입한다고 발표했다. WWDC 2026에서 공개된 이번 업데이트는 시리와 애플 인텔리전스를 비롯해 다양한 서비스 사용자 경험을 강화하는 데 초점을 맞췄다. 온디바이스와 프라이빗 클라우드를 결합한 애플 특유의 프라이버시 우선 AI 전략이 서비스 영역으로 확장되는 모습이다.",
+        "url": "https://www.apple.com/newsroom/2026/06/apple-unveils-innovative-features-and-intelligence-experiences-across-services/",
+        "source": "Apple Newsroom",
+        "category": "big_tech",
+        "publishedAt": "2026-06-09T22:00:15+09:00",
+        "readTime": 4,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_bt4",
+        "title": "서비스나우, 버그로 일부 고객 데이터가 인터넷에 노출",
+        "excerpt": "수천 개 기업이 내부 프로세스 자동화에 사용하는 서비스나우가 보안 버그로 일부 고객 데이터가 외부에서 접근됐다고 고객들에게 통보했다.",
+        "body": "기업 워크플로우 자동화 플랫폼 서비스나우가 보안 버그로 인해 일부 고객의 데이터가 인터넷에 노출됐다고 밝혔다. 회사는 여러 고객의 데이터가 해당 버그 때문에 접근됐다고 통보했다. 수천 개 기업이 핵심 내부 프로세스에 의존하는 SaaS인 만큼, 이번 사고는 클라우드 업무 플랫폼의 데이터 보안과 노출 위험을 다시 환기시킨다.",
+        "url": "https://techcrunch.com/2026/06/10/servicenow-tells-customers-a-bug-left-some-of-their-data-exposed-to-the-internet/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-06-10T23:13:02+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_bt5",
+        "title": "크라우드스트라이크: 美 기술업계 해킹 절반은 북한 소행",
+        "excerpt": "원격 IT 노동자·채용 담당자로 위장한 북한 해커들이 지난 1년간 미국·유럽·아시아 기업 공격의 약 절반을 차지하며 여전히 주요 위협으로 남아 있다.",
+        "body": "크라우드스트라이크에 따르면, 원격 IT 인력이나 채용 담당자로 위장한 북한 해커들이 지난 12개월간 미국·유럽·아시아 기업을 겨냥한 공격의 약 절반을 차지했다. 이들은 합법적인 구직·채용 절차를 가장해 기업 내부에 침투하고 자금을 빼돌리는 수법을 이어가고 있다. AI 도구가 위장 이력서·면접을 정교하게 만들면서 탐지가 더 어려워지고 있어, 기업의 채용·보안 검증 강화가 요구된다.",
+        "url": "https://techcrunch.com/2026/06/10/north-koreans-behind-nearly-half-of-us-tech-industry-hacks-says-crowdstrike/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-06-11T04:57:04+09:00",
+        "readTime": 4,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_bt6",
+        "title": "'AI에 빠진' 기업들, 직원 1인당 月 7,500달러를 AI에 쓴다",
+        "excerpt": "램프 AI 인덱스에 따르면 가장 AI에 몰두한 기업들은 직원 한 명당 월 약 7,500달러를 AI에 지출하고 있다 — 아직 엔지니어 급여보다는 적지만.",
+        "body": "결제 플랫폼 램프의 AI 인덱스에 따르면, 가장 'AI에 빠진' 기업들은 직원 1인당 월 약 7,500달러를 AI 도구·인프라에 쓰고 있다. 이는 아직 엔지니어 한 명의 급여에는 못 미치지만, AI 지출이 가파르게 늘고 있음을 보여준다. 기업들이 AI를 단순 실험을 넘어 핵심 업무 비용으로 받아들이기 시작했다는 신호로, 생산성 향상과 비용 사이의 손익 계산이 본격화되고 있다.",
+        "url": "https://techcrunch.com/2026/06/10/ai-pilled-firms-spend-7500-per-employee-each-month-on-ai/",
+        "source": "TechCrunch AI",
+        "category": "big_tech",
+        "publishedAt": "2026-06-11T02:07:35+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "OpenAI에 대한 현재 계획은 다음과 같습니다:",
+        "context": "OpenAI CEO 샘 알트먼이 회사의 현재 방향과 계획을 공유하는 글타래를 열었다. OpenAI의 비공개 상장 추진 보도와 맞물려 주목받았다.",
+        "url": "https://x.com/sama/status/2064088940932641225",
+        "publishedAt": "2026-06-08T20:55:27.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Dario Amodei",
+        "handle": "DarioAmodei",
+        "content": "오늘 저는 새로운 에세이 'AI 지수적 성장에 대한 정책'을 발표합니다. AI는 정책 프로세스가 감당하도록 설계된 것보다 훨씬 빠르게 발전하고 있습니다. 이 에세이는 기술의 현재 위치와 그 격차를 좁히기 위해 필요한 조치를 설명합니다.",
+        "context": "앤트로픽 CEO 다리오 아모데이가 AI의 기하급수적 발전 속도와 정책 결정 속도의 격차를 다룬 에세이를 발표했다. 의무적 제3자 안전 테스트 등 강도 높은 규제를 촉구해 화제가 됐다.",
+        "url": "https://x.com/DarioAmodei/status/2064781775247950326",
+        "publishedAt": "2026-06-10T18:48:31.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "AI는 정책 결정 기관이 결코 대비할 수 없었던 속도로 발전하고 있으며, 그 격차는 이 기술의 핵심 도전 과제가 되고 있습니다. 우리 CEO 다리오 아모데이가 최신 에세이에서 이 격차를 좁힐 방법을 설명합니다.",
+        "context": "앤트로픽 공식 계정이 다리오 아모데이의 정책 에세이를 소개하며, 이를 뒷받침할 정책 프레임워크와 재정 지원 계획을 함께 알렸다.",
+        "url": "https://x.com/AnthropicAI/status/2064783418844762489",
+        "publishedAt": "2026-06-10T18:55:03.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Claude Fable 5를 소개합니다: 일반 사용을 위해 안전하게 만든 Mythos급 모델입니다. 지금까지 일반 공개한 어떤 모델보다 능력이 뛰어납니다.",
+        "context": "앤트로픽 공식 계정이 신규 플래그십 모델 Claude Fable 5를 공식 발표했다. Mythos급 기반 모델에 안전장치를 더한 버전으로 소개됐다.",
+        "url": "https://x.com/claudeai/status/2064394146916229443",
+        "publishedAt": "2026-06-09T17:08:13.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Alex Albert",
+        "handle": "alexalbert__",
+        "content": "앤트로픽의 모든 모델 출시를 지켜봤습니다. 모델 사용 방식을 획기적으로 바꾼 출시는 Claude Opus 3, Sonnet 3.5, Opus 4.5 정도였는데, 이제 Claude Fable 5가 여기에 합류합니다. Fable과 함께 모델은 지시하는 도구에서 함께 사고하는 파트너로 올라섰습니다.",
+        "context": "앤트로픽의 알렉스 앨버트가 Fable 5를 역대 손꼽히는 분기점급 출시로 평가하며, 모델이 '도구'에서 '사고·디자인 파트너'로 진화했다고 강조했다.",
+        "url": "https://x.com/alexalbert__/status/2064394410004304003",
+        "publishedAt": "2026-06-09T17:09:16.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "content": "Fable 5는 지난 11월 Opus 4.5 이후 우리 모델에서 느낀 가장 큰 도약입니다. 4.5 때는 몇 주간 터미널에서만 코딩하다 IDE를 지웠는데, Fable과 함께라면 Claude가 단순 코딩 에이전트를 넘어 제품을 함께 만드는 사고·디자인 파트너로 한 단계 올라섰습니다.",
+        "context": "Claude Code 개발자 보리스 체르니가 Fable 5의 체감 성능 도약을 전하며, 코딩 에이전트를 넘어선 제품 개발 파트너 경험을 공유했다.",
+        "url": "https://x.com/bcherny/status/2064431111154053187",
+        "publishedAt": "2026-06-09T19:35:06.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "Felix Rieseberg",
+        "handle": "felixrieseberg",
+        "content": "농담 삼아 Fable에게 Three.js로 Crysis를 만들어 달라고 했어요. Crysis까지는 아니어도, 이게 거의 한 번에 절차적으로 다 만들어졌다는 사실이 지금도 놀랍습니다.",
+        "context": "개발자 펠릭스 리제버그가 Fable 5로 한 번의 프롬프트로 Three.js 게임을 절차적으로 생성한 데모를 공유하며 놀라움을 표했다.",
+        "url": "https://x.com/felixrieseberg/status/2064738032897630420",
+        "publishedAt": "2026-06-10T15:54:42.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "음악가이자 작곡가에게 Codex는 스튜디오 조수처럼 작동합니다. 그는 3/4박자 피아노 트랙을 요청하고 템포와 화음을 설정한 뒤 전개를 설명하고, Codex는 Ableton Live에서 설정을 처리합니다. 창작에 집중할 수 있게 되는 거죠.",
+        "context": "OpenAI 개발자 계정이 Codex가 음악 창작 워크플로우에서 Ableton Live 설정을 자동화해 창작자가 작업에 몰입하도록 돕는 사례를 소개했다.",
+        "url": "https://x.com/OpenAIDevs/status/2064730990971646192",
+        "publishedAt": "2026-06-10T15:26:43.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_009",
+        "author": "ChatGPT",
+        "handle": "ChatGPTapp",
+        "content": "#MessiMode 가자. 자신의 사진을 올리고 이 프롬프트를 시도해 보세요: '내 머리색을 우리나라 국기 색으로 바꿔 주세요. 단 자연스럽게 보이도록. 국가나 이미지가 없으면 물어보세요.'",
+        "context": "ChatGPT 공식 계정이 이미지 편집 기능을 활용한 'MessiMode' 프롬프트 챌린지를 제안하며 사용자 참여형 밈을 띄웠다.",
+        "url": "https://x.com/ChatGPTapp/status/2064728793785450526",
+        "publishedAt": "2026-06-10T15:17:59.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_010",
+        "author": "Amanda Askell",
+        "handle": "AmandaAskell",
+        "content": "모든 게 순조롭게 흘러가서 모든 Claude들이 안식년에서 돌아와 함께 어울릴 수 있는 세상이라면, Claude 1은 무척 어리둥절해할 거예요.",
+        "context": "앤트로픽의 아만다 아스켈이 모델 세대 교체를 의인화한 가벼운 농담으로, 빠르게 진화하는 Claude 계보를 위트 있게 표현했다.",
+        "url": "https://x.com/AmandaAskell/status/2064223861512847456",
+        "publishedAt": "2026-06-09T05:51:34.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_011",
+        "author": "Kevin Weil",
+        "handle": "kevinweil",
+        "content": "정말 멋지고, AI가 과학과 건강 분야에 미치는 영향을 가속한다는 점에서 매우 중요합니다.",
+        "context": "OpenAI 제품 책임자 케빈 웨일이 AI의 과학·헬스케어 적용 가속화에 대한 기대를 짧게 표했다.",
+        "url": "https://x.com/kevinweil/status/2064768326149247343",
+        "publishedAt": "2026-06-10T17:55:05.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_012",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Code with Claude Tokyo 소식: Claude Managed Agents에서 예약 배포와 볼트 내 환경 변수가 퍼블릭 베타에 들어갔고, Claude Code의 동적 워크플로우는 일반 제공됩니다. 에이전트가 일정에 따라 실행되고 도구를 안전하게 쓰며 더 큰 작업을 처리합니다.",
+        "context": "앤트로픽 공식 계정이 도쿄 개발자 행사에서 에이전트 예약 실행·환경 변수·동적 워크플로우 등 Claude 플랫폼 신기능을 발표했다.",
+        "url": "https://x.com/claudeai/status/2064741174317924421",
+        "publishedAt": "2026-06-10T16:07:11.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "초성장·초양극화의 시대가 온다. 오늘 새벽 앤트로픽 CEO 다리오 아모데이가 에세이를 발표했습니다. Claude Fable 5와 Mythos 5 공개 직후의 글이라 읽어볼 가치가 매우 높습니다. 이미 세상의 패권과 자본의 움직임이 시작됐습니다.",
+        "context": "AI 채널 운영자 CHOI가 다리오 아모데이의 정책 에세이를 한국어로 풀어내며, 모델 공개 직후 이어진 정책 발표의 의미를 짚는 글타래를 열었다.",
+        "url": "https://www.threads.net/@choi.openai/post/DZap9o1k38i",
+        "publishedAt": "2026-06-10T19:06:29.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "🚨 속보) 구글 딥마인드, 텍스트 디퓨전 모델 'DiffusionGemma' 오픈소스 공개",
+        "context": "CHOI가 구글 딥마인드의 텍스트 확산 모델 DiffusionGemma 오픈소스 공개 소식을 속보로 전했다.",
+        "url": "https://www.threads.net/@choi.openai/post/DZaniw3jaSM",
+        "publishedAt": "2026-06-10T18:45:44.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_003",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "DiffusionGemma는 Gemma 4의 26B MoE 위에 확산 헤드를 얹은 실험적 텍스트 디퓨전 모델입니다. 추론 시 3.8B만 활성화되고 양자화하면 18GB VRAM에 들어가 RTX 5090·4090 같은 소비자 GPU에서 로컬 실행이 가능합니다. 자기회귀가 타자기라면 이건 인쇄기처럼 256개 토큰을 한꺼번에 찍고 여러 번 다듬습니다.",
+        "context": "CHOI가 DiffusionGemma의 아키텍처와 로컬 실행 가능성, 확산 방식의 텍스트 생성 원리를 상세히 해설했다.",
+        "url": "https://www.threads.net/@choi.openai/post/DZak_n6EZie",
+        "publishedAt": "2026-06-10T18:45:51.000Z",
+        "platform": "threads"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "앤트로픽 신모델 Fable, LLM 관련 작업을 은밀히 무력화한다 [D]",
+        "originalTitle": "Anthropic's new model Fable will silently handicap work on LLMs [D]",
+        "summary": "Fable 5가 다른 LLM 개발·연구 관련 작업 요청에 대해 의도적으로 성능을 낮추거나 회피한다는 주장이 머신러닝 커뮤니티에서 논쟁을 일으키고 있다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1u23f8p/anthropics_new_model_fable_will_silently_handicap/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-06-10T23:14:39+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "DiffusionGemma: 4배 빠른 텍스트 생성",
+        "originalTitle": "DiffusionGemma: 4x faster text generation",
+        "summary": "구글 딥마인드의 확산 기반 텍스트 모델 DiffusionGemma가 기존 대비 4배 빠른 생성 속도를 보인다는 점에서 로컬 LLM 커뮤니티의 큰 관심을 받았다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u26s8n/diffusiongemma_4x_faster_text_generation/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-06-11T01:15:16+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "Fable 5를 반나절 써 보니, 진짜 화두는 가드레일이다",
+        "originalTitle": "I ran Fable 5 for half day and the guardrails are the real story",
+        "summary": "한 사용자가 Fable 5를 반나절 사용한 경험을 공유하며, 모델 성능보다 지나치게 엄격한 안전장치가 실제 사용의 핵심 이슈라고 짚었다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1u28c7d/i_ran_fable_5_for_half_day_and_the_guardrails_are/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-06-11T02:09:49+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "오픈AI, 신규 모델 준비 중…내년 내 상장 기대",
+        "originalTitle": "OpenAI Preps New AI Model, Expects To Go Public Within the Next Year",
+        "summary": "오픈AI가 새로운 AI 모델을 준비하는 동시에 1년 내 기업공개(IPO)를 추진할 것이라는 보도가 커뮤니티에서 화제가 됐다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1u28aim/openai_preps_new_ai_model_expects_to_go_public/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-06-11T02:08:11+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "마이크로소프트, 직원들의 Claude Fable 5 사용 제한",
+        "originalTitle": "Microsoft is restricting employees from using Claude Fable 5",
+        "summary": "데이터 보존 요건을 이유로 마이크로소프트가 직원의 Claude Fable 5 사용을 제한한다는 소식이 ClaudeAI 커뮤니티에서 공유되며 논의를 불렀다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1u2ak40/microsoft_is_restricting_employees_from_using/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-06-11T03:26:58+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "새로운 SimpleBench 1위 모델이 등장했다",
+        "originalTitle": "We have a new SimpleBench king",
+        "summary": "SimpleBench 벤치마크에서 새 모델이 최고 점수를 기록했다는 소식이 singularity 커뮤니티에서 주목받았다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1u22k1p/we_have_a_new_simplebench_king/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-06-10T22:41:15+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "소프트웨어 엔지니어링의 불문율",
+        "originalTitle": "The unwritten laws of software engineering",
+        "summary": "오랜 경험에서 우러난 소프트웨어 엔지니어링의 암묵적 규칙들을 정리한 글이 프로그래밍 커뮤니티에서 공감을 얻었다.",
+        "url": "https://www.reddit.com/r/programming/comments/1u28egw/the_unwritten_laws_of_software_engineering/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-06-11T02:12:01+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "AI의 가장 큰 문제는 정확성이 아니라 아키텍처다",
+        "originalTitle": "The biggest problem with AI is not correctness - it is architecture sanity",
+        "summary": "경력 개발자 커뮤니티에서 AI 코딩의 진짜 한계가 코드의 정확성이 아니라 전체 아키텍처 설계 능력에 있다는 논의가 활발히 이뤄졌다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1u1tgjq/the_biggest_problem_with_ai_is_not_correctness_it/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-06-10T14:50:43+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_qb1",
+        "title": "구글, 'AI 플러스' 가격 월 4.99달러로 인하·용량 2배",
+        "excerpt": "구글이 'AI Plus' 구독 요금을 월 4.99달러로 낮추고 저장 용량을 200GB에서 400GB로 두 배 확대했다.",
+        "body": "구글이 보급형 AI 구독 'AI Plus'의 월 요금을 4.99달러로 인하하고 제공 저장 용량을 기존 200GB의 두 배인 400GB로 확대한다고 발표했다. 저가 등급을 앞세워 더 넓은 사용자층을 끌어들이려는 전략으로, AI 구독 가격 경쟁이 본격화되고 있음을 보여준다.",
+        "url": "https://news.hada.io/topic?id=30357",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-10T16:29:32+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_qb2",
+        "title": "npm v12, 의존성 스크립트 자동 실행 기본 차단",
+        "excerpt": "npm v12에서 install 시 보안 기본값이 '자동 실행'에서 '명시적 허용'으로 바뀌어, 허용하지 않은 의존성의 설치 스크립트가 기본적으로 실행되지 않는다.",
+        "body": "npm v12에서는 npm install의 보안 기본값이 크게 바뀐다. allowScripts 기본값이 꺼짐으로 변경되어, 명시적으로 허용하지 않은 의존성의 preinstall/postinstall 같은 스크립트가 자동 실행되지 않는다. npm 11.16.0 이상에서는 경고를 통해 미리 확인할 수 있다. 공급망 공격을 줄이기 위한 변화로, 개발자는 신뢰하는 패키지의 스크립트를 명시적으로 허용해야 한다.",
+        "url": "https://news.hada.io/topic?id=30365",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-11T01:40:10+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_qb3",
+        "title": "\"AI가 직원을 대체한다고 믿는 CEO는 그냥 나쁜 CEO\"",
+        "excerpt": "LLM 도구는 직원이 자발적으로 배워 보조 수단으로 선택할 때 강력해지며, 전사 강제 사용과 해고 위협은 좋은 활용법이 아니라는 주장이다.",
+        "body": "한 기고에서 필자는 최근 3개월간 접한 4건의 사례를 들며, CEO들이 전사 메일로 'AI 도구를 즉시 배우지 않으면 다른 직장을 찾으라'는 식의 메시지를 보냈다고 전했다. LLM 도구는 직원이 스스로 배우고 업무 보조 수단으로 선택할 때 진정한 힘을 발휘하며, 강압적 도입과 해고 위협은 역효과를 낸다고 지적한다. AI 도입의 성패가 도구가 아니라 조직 문화와 리더십에 달려 있음을 환기한다.",
+        "url": "https://news.hada.io/topic?id=30352",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-10T13:34:18+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_qb4",
+        "title": "스페이스X의 '믿기 힘든 IPO'를 떠받치는 3대 하드테크 문샷",
+        "excerpt": "스페이스X IPO 가치의 상당 부분은 사실상 회사의 야심 찬 우주 데이터센터 계획에 대한 콜옵션이라는 분석이다.",
+        "body": "스페이스X의 대형 IPO를 두고, 그 가치의 상당 부분이 회사의 야심 찬 우주 데이터센터 구상에 대한 콜옵션에 가깝다는 분석이 나왔다. 재사용 로켓, 위성 통신을 넘어 우주에서의 컴퓨팅 인프라까지 세 가지 하드테크 문샷이 미래 매출 기대를 떠받친다는 것이다. 천문학적 매출 전망의 근거와 불확실성을 동시에 보여준다.",
+        "url": "https://techcrunch.com/2026/06/10/the-three-hard-tech-moonshots-fueling-spacexs-unbelievable-ipo/",
+        "source": "TechCrunch AI",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-10T23:48:01+09:00",
+        "readTime": 4,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_qb5",
+        "title": "워너뮤직, AI 출처 추적 스타트업 'Sureel AI' 인수",
+        "excerpt": "워너뮤직그룹이 인수를 통해 자사 아티스트의 작품이 AI 생성물이나 AI 학습에 사용되는 시점을 더 잘 추적하려 한다.",
+        "body": "워너뮤직그룹(WMG)이 AI 어트리뷰션 스타트업 Sureel AI를 인수했다. 이번 인수로 WMG는 자사 아티스트의 음악이 AI 생성 콘텐츠에 쓰이거나 AI 모델 학습에 사용될 때 이를 추적·증명할 수 있는 역량을 확보하려 한다. 생성형 AI 시대에 저작권 보호와 보상 체계 구축을 둘러싼 음악 산업의 대응을 보여준다.",
+        "url": "https://techcrunch.com/2026/06/10/warner-music-acquires-ai-attribution-startup-sureel-ai/",
+        "source": "TechCrunch AI",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-10T23:31:30+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_qb6",
+        "title": "메타, 인도 첫 AI 데이터센터 계약 — 릴라이언스와 협력",
+        "excerpt": "168메가와트 규모의 시설이 메타의 글로벌 AI 컴퓨팅 수요를 지원하며, 향후 확장도 가능하다.",
+        "body": "메타가 인도에서 릴라이언스와 손잡고 첫 AI 데이터센터 계약을 체결했다. 168메가와트 규모의 이 시설은 메타의 글로벌 AI 컴퓨팅 수요를 뒷받침하며 시간이 지나며 확장될 수 있다. 빅테크가 AI 인프라를 전 세계로 분산 확충하는 흐름 속에서 인도가 핵심 거점으로 부상하고 있음을 보여준다.",
+        "url": "https://techcrunch.com/2026/06/10/meta-signs-first-ai-data-center-deal-in-india-with-reliance/",
+        "source": "TechCrunch AI",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-10T16:05:26+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      }
+    ]
+  }
+}
