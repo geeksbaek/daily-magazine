@@ -1,0 +1,676 @@
+{
+  "date": "2026-06-12",
+  "issueNumber": 73,
+  "cover": {
+    "mainHeadline": "OpenAI, 에이전트 배포 스타트업 'Ona' 인수…기업·정책 전선서 Anthropic과 정면충돌",
+    "mainExcerpt": "OpenAI가 프로덕션 에이전트 배포 스타트업 Ona를 인수하며 기업용 AI 경쟁을 키웠다. 같은 날 Anthropic은 다리오 아모데이의 정책 에세이와 1억 5천만 달러 'Claude Corps' 펠로우십을 잇따라 내놓으며 기업·정책 양쪽에서 맞불을 놨다.",
+    "headlines": [
+      "다리오 아모데이, 'AI 지수적 성장' 에세이서 의무적 제3자 안전 테스트 제안",
+      "Anthropic, 1억 5천만 달러 'Claude Corps' 전국 펠로우십 출범",
+      "Ramp 지수: 기업 AI 채택, Anthropic이 41%로 선두…OpenAI는 정체"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_001",
+      "title": "OpenAI, 에이전트 배포 스타트업 'Ona' 인수… 기업용 AI 경쟁 가속",
+      "excerpt": "OpenAI가 조직들이 프로덕션 환경에서 AI 에이전트를 안전하게 배포하도록 돕는 스타트업 Ona를 인수했다. 기업용 에이전트 시장을 둘러싼 경쟁이 한층 치열해지고 있다.",
+      "body": "OpenAI는 Ona 팀이 합류한다고 발표하며, 기업이 실제 운영 환경에서 자율 에이전트를 안전하게 배포·관리할 수 있도록 돕는 데 초점을 맞추겠다고 밝혔다. Codex를 비롯한 OpenAI의 개발자 도구 라인업과 결합해 엔터프라이즈 에이전트 운영 역량을 강화하려는 행보다. Greg Brockman과 Sam Altman도 직접 환영 메시지를 남기며 인수를 알렸다. 같은 날 Anthropic이 'Claude Corps' 펠로우십과 정책 제안을 잇따라 내놓으며, 두 선두 기업의 기업·정책 영역 경쟁이 선명해졌다.",
+      "url": "https://openai.com/index/openai-to-acquire-ona",
+      "source": "OpenAI News",
+      "category": "ai_ml",
+      "publishedAt": "2026-06-11T09:00:00+09:00",
+      "readTime": 4,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_017",
+      "title": "아마존, 은행권서 175억 달러 차입… AI 투자 위해 채권 발행에 추가 조달",
+      "excerpt": "아마존이 채권 발행에 이어 은행권에서 175억 달러를 추가로 빌리며 AI 인프라 투자 자금을 확보했다.",
+      "body": "AI 데이터센터와 컴퓨팅 인프라 확충에 막대한 자본이 투입되면서 빅테크의 자금 조달 규모가 커지고 있다. 아마존의 대규모 차입은 AI 투자 사이클이 현금흐름을 넘어 외부 조달로 확대되고 있음을 시사하며, 투자 회수 시점에 대한 시장의 주시가 이어지고 있다.",
+      "url": "https://techcrunch.com/2026/06/10/fresh-off-bond-sale-amazon-borrows-17-5-billion-from-banks-as-ai-spending-continues/",
+      "source": "TechCrunch AI",
+      "category": "big_tech",
+      "publishedAt": "2026-06-11T05:19:31+09:00",
+      "readTime": 3,
+      "imageGradient": 4
+    },
+    {
+      "id": "rss_005",
+      "title": "Deezer, Spotify·Apple Music의 AI 생성 음악 식별 도구 공개",
+      "excerpt": "음악 스트리밍 업체 Deezer가 Spotify, Apple Music 등 타 플랫폼의 AI 생성 음악을 식별하는 도구를 선보였다.",
+      "body": "Deezer의 새 도구는 곡이 AI로 생성됐는지 여부를 탐지해 표시하며, AI 음악의 급증 속에서 창작자 권리와 콘텐츠 투명성 문제에 대응하려는 시도다. 스트리밍 플랫폼들이 AI 생성 콘텐츠의 홍수에 직면하면서, 추천·정산 체계의 공정성을 둘러싼 논의가 본격화되고 있다.",
+      "url": "https://techcrunch.com/2026/06/11/deezers-new-tool-can-identify-ai-music-from-spotify-apple-music-and-others/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-06-12T01:36:20+09:00",
+      "readTime": 3,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_008",
+      "title": "GitHub, 시크릿 스캐닝 신뢰도 강화… 대규모 오탐 감축",
+      "excerpt": "GitHub가 시크릿 스캐닝의 오탐(false positive)을 대폭 줄여 보안 알림의 신뢰도를 높였다.",
+      "body": "GitHub는 대규모 환경에서 발생하던 오탐을 줄이기 위해 탐지 로직을 개선했다고 밝혔다. 오탐이 많으면 개발자가 경고를 무시하게 되어 실제 유출 위험을 놓칠 수 있는데, 정확도를 높여 의미 있는 알림에 집중하도록 했다. 자격증명 유출이 주요 침해 경로로 지목되는 가운데 실효성 있는 개선으로 평가된다.",
+      "url": "https://github.blog/security/making-secret-scanning-more-trustworthy-reducing-false-positives-at-scale/",
+      "source": "GitHub Blog",
+      "category": "dev_tools",
+      "publishedAt": "2026-06-12T01:00:00+09:00",
+      "readTime": 3,
+      "imageGradient": 2
+    },
+    {
+      "id": "rss_015",
+      "title": "아마존 데이터센터, 작년 물 25억 갤런 사용… AI 전력·물 부담 부각",
+      "excerpt": "아마존의 데이터센터가 지난해 약 25억 갤런의 물을 사용한 것으로 나타나, AI 인프라의 환경 부담이 다시 도마에 올랐다.",
+      "body": "The Verge 보도에 따르면 냉각용 수자원 소비가 빠르게 늘고 있으며, AI 수요 급증으로 데이터센터 전력·용수 사용이 가파르게 증가하고 있다. 같은 날 아마존이 AI 투자 확대를 위해 은행권에서 175억 달러를 추가 차입했다는 소식까지 겹치며, 'AI 인프라 군비경쟁'의 비용과 지속가능성 문제가 부각됐다.",
+      "url": "https://www.theverge.com/tech/948534/amazon-data-centers-water-use",
+      "source": "The Verge",
+      "category": "big_tech",
+      "publishedAt": "2026-06-12T02:26:57+09:00",
+      "readTime": 3,
+      "imageGradient": 4
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_001",
+        "title": "OpenAI, 에이전트 배포 스타트업 'Ona' 인수… 기업용 AI 경쟁 가속",
+        "excerpt": "OpenAI가 조직들이 프로덕션 환경에서 AI 에이전트를 안전하게 배포하도록 돕는 스타트업 Ona를 인수했다. 기업용 에이전트 시장을 둘러싼 경쟁이 한층 치열해지고 있다.",
+        "body": "OpenAI는 Ona 팀이 합류한다고 발표하며, 기업이 실제 운영 환경에서 자율 에이전트를 안전하게 배포·관리할 수 있도록 돕는 데 초점을 맞추겠다고 밝혔다. Codex를 비롯한 OpenAI의 개발자 도구 라인업과 결합해 엔터프라이즈 에이전트 운영 역량을 강화하려는 행보다. Greg Brockman과 Sam Altman도 직접 환영 메시지를 남기며 인수를 알렸다. 같은 날 Anthropic이 'Claude Corps' 펠로우십과 정책 제안을 잇따라 내놓으며, 두 선두 기업의 기업·정책 영역 경쟁이 선명해졌다.",
+        "url": "https://openai.com/index/openai-to-acquire-ona",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-11T09:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_002",
+        "title": "천체물리학자, Codex로 블랙홀 시뮬레이션 가속",
+        "excerpt": "한 천체물리학자가 OpenAI Codex를 활용해 블랙홀 시뮬레이션 코드를 작성·최적화하는 사례가 소개됐다. 과학 연구에서 AI 코딩 에이전트의 실효성을 보여준다.",
+        "body": "OpenAI가 공개한 사례에 따르면, 연구자는 복잡한 수치 시뮬레이션 코드를 Codex와 함께 빠르게 프로토타이핑하고 디버깅하며 연구 생산성을 끌어올렸다. 반복적인 코드 작성과 수정 작업을 에이전트에 위임함으로써 물리적 모델링과 결과 해석이라는 본질적 작업에 더 집중할 수 있었다고 전한다. AI 코딩 도구가 소프트웨어 엔지니어링을 넘어 기초과학 연구 워크플로우로 확산되고 있음을 보여주는 대표 사례다.",
+        "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-11T09:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_003",
+        "title": "BBVA, OpenAI로 은행 업무 핵심에 AI 도입",
+        "excerpt": "스페인 대형 은행 BBVA가 OpenAI 모델을 핵심 업무 전반에 통합하며 금융권 AI 도입을 가속하고 있다.",
+        "body": "BBVA는 고객 응대, 내부 생산성, 데이터 분석 등 다양한 영역에 OpenAI 기술을 도입해 직원 업무를 보조하고 의사결정을 지원한다고 밝혔다. 규제가 엄격한 금융권에서 대규모로 생성형 AI를 도입하는 사례로, 보안·컴플라이언스를 충족하면서도 실질적인 업무 효율을 확보하려는 전략이 담겼다. 엔터프라이즈 AI 채택이 기술 기업을 넘어 전통 산업으로 빠르게 번지고 있음을 보여준다.",
+        "url": "https://openai.com/index/bbva",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-11T09:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_004",
+        "title": "다리오 아모데이, 직속 보고자는 단 한 명",
+        "excerpt": "Anthropic CEO 다리오 아모데이의 독특한 조직 운영 방식이 화제다. 단 한 명의 직속 보고자를 두는 구조로 의사결정 집중도를 높인다.",
+        "body": "TechCrunch 보도에 따르면 아모데이는 전통적인 다층 보고 체계 대신 극도로 단순화된 직속 구조를 운영하며, 회사의 안전·정책 메시지에 일관성을 부여하고 있다. 같은 시기 그는 'AI 지수적 성장에 대한 정책' 에세이를 발표하고 프론티어 모델에 대한 의무적 제3자 안전 테스트를 제안하는 등 정책 의제를 주도했다. 빠르게 성장하는 AI 기업의 조직 설계와 리더십 스타일에 대한 관심이 커지고 있다.",
+        "url": "https://techcrunch.com/2026/06/10/anthropics-dario-amodei-has-just-one-direct-report/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-11T12:53:06+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_005",
+        "title": "Deezer, Spotify·Apple Music의 AI 생성 음악 식별 도구 공개",
+        "excerpt": "음악 스트리밍 업체 Deezer가 Spotify, Apple Music 등 타 플랫폼의 AI 생성 음악을 식별하는 도구를 선보였다.",
+        "body": "Deezer의 새 도구는 곡이 AI로 생성됐는지 여부를 탐지해 표시하며, AI 음악의 급증 속에서 창작자 권리와 콘텐츠 투명성 문제에 대응하려는 시도다. 스트리밍 플랫폼들이 AI 생성 콘텐츠의 홍수에 직면하면서, 추천·정산 체계의 공정성을 둘러싼 논의가 본격화되고 있다.",
+        "url": "https://techcrunch.com/2026/06/11/deezers-new-tool-can-identify-ai-music-from-spotify-apple-music-and-others/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-12T01:36:20+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_006",
+        "title": "DoorDash, 프롬프트·사진으로 주문하는 AI 챗봇 도입",
+        "excerpt": "DoorDash가 자연어 프롬프트와 사진으로 음식을 주문할 수 있는 AI 챗봇을 공개했다.",
+        "body": "사용자는 원하는 메뉴를 텍스트로 설명하거나 사진을 올려 주문을 진행할 수 있다. 검색·탐색 중심이던 배달 앱 경험을 대화형 에이전트로 전환하려는 시도로, 커머스 전반에서 'AI 에이전트가 대신 구매하는' 흐름이 가시화되고 있다.",
+        "url": "https://techcrunch.com/2026/06/11/doordashs-new-ai-chatbot-lets-you-order-with-prompts-and-photos/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-11T23:23:43+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_007",
+        "title": "xAI, Grok 안전성 우려 제기한 엔지니어 해고… 소송으로 비화",
+        "excerpt": "xAI가 Grok의 안전성 문제를 제기한 엔지니어를 해고했다는 새로운 소송이 제기됐다.",
+        "body": "소송에 따르면 해당 엔지니어는 Grok의 안전 관련 우려를 내부에 알린 뒤 해고됐다고 주장한다. 프론티어 AI 기업의 내부 안전 문화와 내부고발자 보호를 둘러싼 논쟁이 다시 불거지는 가운데, 다리오 아모데이가 같은 주에 의무적 안전 테스트를 제안한 것과 맞물려 업계의 자율 규제 실효성에 대한 의문이 커지고 있다.",
+        "url": "https://techcrunch.com/2026/06/10/xai-fired-an-engineer-who-raised-alarms-about-grok-safety-new-lawsuit-claims/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-11T07:31:19+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_008",
+        "title": "GitHub, 시크릿 스캐닝 신뢰도 강화… 대규모 오탐 감축",
+        "excerpt": "GitHub가 시크릿 스캐닝의 오탐(false positive)을 대폭 줄여 보안 알림의 신뢰도를 높였다.",
+        "body": "GitHub는 대규모 환경에서 발생하던 오탐을 줄이기 위해 탐지 로직을 개선했다고 밝혔다. 오탐이 많으면 개발자가 경고를 무시하게 되어 실제 유출 위험을 놓칠 수 있는데, 정확도를 높여 의미 있는 알림에 집중하도록 했다. 자격증명 유출이 주요 침해 경로로 지목되는 가운데 실효성 있는 개선으로 평가된다.",
+        "url": "https://github.blog/security/making-secret-scanning-more-trustworthy-reducing-false-positives-at-scale/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-12T01:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_009",
+        "title": "Docker, 강화 이미지에 향상된 취약점 스캐닝 추가",
+        "excerpt": "Docker가 'Hardened Images'에 향상된 취약점 스캐닝 기능을 통합해 공급망 보안을 강화했다.",
+        "body": "Docker Hardened Images는 최소 권한·최소 구성으로 공격 표면을 줄인 컨테이너 이미지로, 이번 업데이트로 취약점 탐지 정확도와 가시성이 개선됐다. 컨테이너 기반 배포가 보편화되면서 이미지 단계에서 보안을 확보하려는 '시프트 레프트' 흐름이 강해지고 있다.",
+        "url": "https://www.docker.com/blog/docker-hardened-images-enhanced-vulnerability-scanning-with-docker-and-aikido/",
+        "source": "Docker Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-11T21:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_010",
+        "title": "코드 작성 비용이 0에 수렴할 때, 엔지니어링 리더십은?",
+        "excerpt": "Stack Overflow 블로그가 AI로 코드 생산 비용이 급감하는 시대의 엔지니어링 리더십 변화를 짚었다.",
+        "body": "글은 코드 작성 자체의 비용이 낮아질수록 가치의 무게중심이 문제 정의, 아키텍처, 검증, 협업으로 옮겨간다고 진단한다. 리더는 산출물의 양보다 방향 설정과 품질 보증, 팀의 학습에 집중해야 한다는 메시지다. AI 코딩 도구 확산이 개발 조직의 역할과 평가 기준을 재구성하고 있다.",
+        "url": "https://stackoverflow.blog/2026/06/11/engineering-leadership-zero-cost-code/",
+        "source": "Stack Overflow Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-11T16:40:00+09:00",
+        "readTime": 4,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_011",
+        "title": "Vercel 플러그인, Grok Build에서 사용 가능",
+        "excerpt": "Vercel 플러그인이 xAI의 Grok Build에서 제공되기 시작했다.",
+        "body": "이번 통합으로 개발자는 Grok Build 환경에서 Vercel의 배포·미리보기 워크플로우를 활용할 수 있게 됐다. AI 코딩·빌드 도구와 배포 플랫폼이 긴밀히 연동되며, 프롬프트에서 프로덕션 배포까지 이어지는 흐름이 매끄러워지고 있다.",
+        "url": "https://vercel.com/changelog/vercel-plugin-is-now-available-in-grok-build",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-11T09:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_012",
+        "title": "AI Gateway, Azure 경유 DeepSeek 모델 지원 추가",
+        "excerpt": "Vercel AI Gateway가 Azure를 통해 DeepSeek 모델을 사용할 수 있도록 지원을 확대했다.",
+        "body": "개발자는 AI Gateway를 통해 단일 인터페이스로 다양한 모델 제공사를 전환하며 호출할 수 있는데, 이번에 Azure 기반 DeepSeek가 추가됐다. 멀티 모델 라우팅과 비용·성능 최적화를 위한 게이트웨이 전략이 표준으로 자리 잡고 있다.",
+        "url": "https://vercel.com/changelog/deepseek-models-now-available-via-azure-on-ai-gateway",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-11T09:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_013",
+        "title": "블루스카이, 그룹 채팅 출시… 커뮤니티 기능 강화로 방향 전환",
+        "excerpt": "Bluesky가 그룹 채팅 기능을 출시하며 커뮤니티 중심 기능으로 전략을 옮기고 있다.",
+        "body": "Bluesky는 다이렉트 메시지에 이어 그룹 채팅을 도입해 사용자 간 소통과 커뮤니티 형성을 강화한다. 탈중앙 SNS로서 성장하는 가운데, 단순 피드를 넘어 관계 기반의 상호작용을 늘려 체류와 충성도를 높이려는 행보로 풀이된다.",
+        "url": "https://techcrunch.com/2026/06/11/bluesky-launches-group-chats-as-company-shifts-focus-to-community-features/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-06-12T04:41:05+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_014",
+        "title": "메타 'Edits' 앱, AI 어시스턴트·데스크톱 버전 추가",
+        "excerpt": "Meta의 영상 편집 앱 Edits가 AI 어시스턴트와 데스크톱 버전을 새로 지원한다.",
+        "body": "Edits는 크리에이터를 위한 영상 편집 도구로, 이번 업데이트로 AI 보조 기능과 데스크톱 작업 환경을 더했다. CapCut 등 경쟁 도구를 의식한 행보로, 짧은 영상 제작 파이프라인 전반에 AI를 녹여 진입 장벽을 낮추려는 전략이다.",
+        "url": "https://techcrunch.com/2026/06/11/metas-edits-app-is-getting-an-ai-assistant-and-a-desktop-version/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-06-12T02:30:00+09:00",
+        "readTime": 2,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_015",
+        "title": "아마존 데이터센터, 작년 물 25억 갤런 사용… AI 전력·물 부담 부각",
+        "excerpt": "아마존의 데이터센터가 지난해 약 25억 갤런의 물을 사용한 것으로 나타나, AI 인프라의 환경 부담이 다시 도마에 올랐다.",
+        "body": "The Verge 보도에 따르면 냉각용 수자원 소비가 빠르게 늘고 있으며, AI 수요 급증으로 데이터센터 전력·용수 사용이 가파르게 증가하고 있다. 같은 날 아마존이 AI 투자 확대를 위해 은행권에서 175억 달러를 추가 차입했다는 소식까지 겹치며, 'AI 인프라 군비경쟁'의 비용과 지속가능성 문제가 부각됐다.",
+        "url": "https://www.theverge.com/tech/948534/amazon-data-centers-water-use",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-06-12T02:26:57+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_016",
+        "title": "코인베이스, AI 에이전트가 직접 거래·결제하는 도구 공개",
+        "excerpt": "Coinbase가 AI 에이전트가 프리미엄 리서치 등을 거래하고 결제할 수 있도록 돕는 도구를 선보였다.",
+        "body": "이 도구는 자율 에이전트가 콘텐츠나 서비스 대금을 직접 지불하고 거래할 수 있게 한다. 'AI 에이전트 경제'에서 결제·정산 인프라를 선점하려는 시도로, 사람을 거치지 않는 기계 간 상거래가 현실화되는 흐름을 보여준다.",
+        "url": "https://techcrunch.com/2026/06/11/coinbase-debuts-mcp-for-agent-trading/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-06-12T02:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_017",
+        "title": "아마존, 은행권서 175억 달러 차입… AI 투자 위해 채권 발행에 추가 조달",
+        "excerpt": "아마존이 채권 발행에 이어 은행권에서 175억 달러를 추가로 빌리며 AI 인프라 투자 자금을 확보했다.",
+        "body": "AI 데이터센터와 컴퓨팅 인프라 확충에 막대한 자본이 투입되면서 빅테크의 자금 조달 규모가 커지고 있다. 아마존의 대규모 차입은 AI 투자 사이클이 현금흐름을 넘어 외부 조달로 확대되고 있음을 시사하며, 투자 회수 시점에 대한 시장의 주시가 이어지고 있다.",
+        "url": "https://techcrunch.com/2026/06/10/fresh-off-bond-sale-amazon-borrows-17-5-billion-from-banks-as-ai-spending-continues/",
+        "source": "TechCrunch AI",
+        "category": "big_tech",
+        "publishedAt": "2026-06-11T05:19:31+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Dario Amodei",
+        "handle": "DarioAmodei",
+        "content": "오늘 저는 새로운 에세이, \"AI 지수적 성장에 대한 정책\"을 발표합니다. AI는 극도로 빠르게 발전하고 있습니다—정책 프로세스가 이를 다루도록 설계된 것보다 훨씬 빠르게요. 이 에세이는 제가 생각하는 기술의 현재 위치와 그 격차를 좁히기 위해 필요한 조치를 설명합니다:",
+        "context": "Anthropic CEO 다리오 아모데이가 'AI 지수적 성장에 대한 정책'이라는 새 에세이를 발표했다. AI 발전 속도가 정책 수립 속도를 크게 앞지른다는 문제의식을 담았다.",
+        "url": "https://x.com/DarioAmodei/status/2064781775247950326",
+        "publishedAt": "2026-06-10T18:48:31.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Dario Amodei",
+        "handle": "DarioAmodei",
+        "content": "투명성 외에도, 저는 이제 프론티어 모델들이 사이버, 생물학, 자율성 위험에 대한 의무적인 제3자 테스트를 받아야 한다고 믿습니다—재앙적 위험을 초래하는 모델의 배포를 차단하거나 철회할 수 있는 권한과 함께.",
+        "context": "아모데이는 프론티어 모델에 대한 의무적 제3자 안전 테스트와, 재앙적 위험 모델의 배포를 차단·철회할 권한을 제안했다. 업계 자율 규제를 넘어선 강한 정책 신호다.",
+        "url": "https://x.com/DarioAmodei/status/2064781778599268818",
+        "publishedAt": "2026-06-10T18:48:32.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "우리는 Claude Corps를 시작합니다. 경력 초기에 있는 사람들을 미국 비영리 단체와 매칭하는 전국 펠로우십 프로그램입니다. 우리는 1,000명에게 Claude 사용법을 가르치고, AI를 사용해 호스트 단체의 사명을 발전시키는 대가로 그들에게 비용을 지불할 것입니다.",
+        "context": "Anthropic 공식 계정이 'Claude Corps' 출범을 알렸다. 경력 초기 인재를 비영리 단체와 연결하는 전국 펠로우십 프로그램이다.",
+        "url": "https://x.com/AnthropicAI/status/2065057393927467084",
+        "publishedAt": "2026-06-11T13:03:44.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "그리고 내일, 우리는 경력 초기에 있는 사람들이 미국 전역의 커뮤니티에 AI의 이점을 확장할 수 있도록 돕기 위해 설계된 1억 5천만 달러 규모의 전국 펠로우십 프로그램을 시작할 것입니다.",
+        "context": "Anthropic이 1억 5천만 달러 규모의 전국 펠로우십을 예고했다. AI의 혜택을 미국 전역 커뮤니티로 확장하려는 사회적 투자다.",
+        "url": "https://x.com/AnthropicAI/status/2064783424251101553",
+        "publishedAt": "2026-06-10T18:55:04.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Code with Claude Tokyo의 새로운 소식: Claude Managed Agents에서 스케줄된 배포와 볼트 내 환경 변수가 퍼블릭 베타 단계에 있으며, Claude Code의 동적 워크플로우는 일반 제공 중입니다. 에이전트는 이제 스케줄에 따라 실행되며, 도구를 안전하게 사용하고 더 큰 작업을 처리할 수 있습니다.",
+        "context": "Code with Claude Tokyo에서 공개된 업데이트. Claude Managed Agents의 스케줄 배포와 환경 변수가 퍼블릭 베타에 들어갔고, Claude Code 동적 워크플로우가 일반 제공된다.",
+        "url": "https://x.com/claudeai/status/2064741174317924421",
+        "publishedAt": "2026-06-10T16:07:11.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "마이클 트루엘(@mntruell)은 12세에 코딩에 푹 빠졌습니다. 그가 공동 창업한 회사 @cursor_ai는 2년 만에 직원 수를 15명에서 700명으로 늘렸습니다. 오늘날 포춘 500대 기업의 60% 이상이 그들의 AI 코딩 플랫폼을 사용해 개발하고 있습니다.",
+        "context": "Claude 공식 계정이 소개한 창업자 이야기. Cursor 공동창업자 마이클 트루엘과 AI 코딩 플랫폼의 급성장을 조명했다.",
+        "url": "https://x.com/claudeai/status/2064757537992249734",
+        "publishedAt": "2026-06-10T17:12:13.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "@ona_hq 팀에 오신 것을 환영합니다. 조직들이 프로덕션에서 에이전트를 안전하게 배포할 수 있도록 돕기 위해!",
+        "context": "OpenAI 공동창업자 Greg Brockman이 Ona 팀의 합류를 환영했다. 프로덕션 환경의 안전한 에이전트 배포가 인수의 목표다.",
+        "url": "https://x.com/gdb/status/2065155654286020628",
+        "publishedAt": "2026-06-11T19:34:11.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "정말 함께 일하게 되어 기대됩니다!",
+        "context": "OpenAI CEO 샘 올트먼이 Ona 인수 소식에 환영 메시지를 남겼다. 기업용 에이전트 배포 역량 강화 의지를 드러냈다.",
+        "url": "https://x.com/sama/status/2065160791205310565",
+        "publishedAt": "2026-06-11T19:54:36.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_009",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "음악가이자 작곡가인 @sound4movement에게 Codex는 스튜디오 조수처럼 작동합니다. 그는 3/4 박자의 피아노 트랙을 요청하고, 템포와 화음을 설정한 다음, 연주가 어떻게 전개되어야 하는지 설명합니다. Codex는 Ableton Live에서 설정을 처리합니다.",
+        "context": "OpenAI Developers가 소개한 Codex 활용 사례. 작곡가가 Ableton Live에서 Codex를 스튜디오 조수처럼 활용해 작업한다.",
+        "url": "https://x.com/OpenAIDevs/status/2064730990971646192",
+        "publishedAt": "2026-06-10T15:26:43.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_010",
+        "author": "ChatGPT",
+        "handle": "ChatGPTapp",
+        "content": "#MessiMode 가자. 자신의 사진을 업로드하고 이 프롬프트를 시도해 보세요: \"내 머리색을 내 나라 국기 색깔로 바꿔 주세요. 하지만 자연스럽게 보이도록 유지해 주세요. 국가나 이미지가 제공되지 않으면 물어보세요.\"",
+        "context": "ChatGPT 공식 계정이 이미지 편집 프롬프트 챌린지 '#MessiMode'를 제안했다. 국기 색을 머리색에 자연스럽게 입히는 프롬프트가 화제다.",
+        "url": "https://x.com/ChatGPTapp/status/2064728793785450526",
+        "publishedAt": "2026-06-10T15:17:59.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_011",
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "content": "Code with Claude Tokyo에서 인사드립니다!!",
+        "context": "Claude Code 개발자 Boris Cherny가 Code with Claude Tokyo 현장에서 인사를 전했다.",
+        "url": "https://x.com/bcherny/status/2064885111477219664",
+        "publishedAt": "2026-06-11T01:39:08.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_012",
+        "author": "Kevin Weil",
+        "handle": "kevinweil",
+        "content": "이건 정말 멋지네요—AI가 과학과 건강에 미치는 영향을 가속화하는 데 매우 중요해요.",
+        "context": "OpenAI 제품 책임자 Kevin Weil이 AI의 과학·건강 분야 영향에 대한 기대를 밝혔다.",
+        "url": "https://x.com/kevinweil/status/2064768326149247343",
+        "publishedAt": "2026-06-10T17:55:05.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_013",
+        "author": "Felix Rieseberg",
+        "handle": "felixrieseberg",
+        "content": "약 3시간 전에 나는 내 에스프레소 머신에 디스플레이가 있어야 한다고 결정했습니다. 50달러짜리 컨트롤러로, 이제 나는 머신을 제어할 수 있는 작은 장치를 갖게 되었습니다. 기회가 된다면, Claude에게 하드웨어에 대해 이야기해 보세요. 당신이 생각하는 것보다 훨씬 더 저렴하고 쉽습니다.",
+        "context": "엔지니어 Felix Rieseberg가 Claude로 에스프레소 머신 제어 장치를 직접 만든 경험을 공유했다. AI로 하드웨어 진입 장벽이 크게 낮아졌다는 메시지다.",
+        "url": "https://x.com/felixrieseberg/status/2064839830077579682",
+        "publishedAt": "2026-06-10T22:39:13.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_014",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "많은 사람들이 내가 Fable을 사용해서 자체 런치 비디오를 어떻게 편집했는지 물어보길래, 그에 대해 영상을 하나 만들었어요! TLDR: 코드와 도구 호출을 많이 작성해서 전사 서비스, ffmpeg를 사용하고, 컬러 그레이딩을 하고, figma mcp를 사용하고, remotion UI를 만들고 렌더링했어요.",
+        "context": "Anthropic의 Thariq가 Fable로 자체 런치 비디오를 편집한 과정을 영상으로 공개했다. 전사·ffmpeg·컬러 그레이딩까지 코드와 도구 호출로 처리했다.",
+        "url": "https://x.com/trq212/status/2064826394589442448",
+        "publishedAt": "2026-06-10T21:45:49.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_015",
+        "author": "Ara Kharazian",
+        "handle": "arakharazian",
+        "content": "NEW: 2026년 6월 Ramp AI 지수. 1. 우리는 OpenAI가 Codex 출시를 통해 성장할 것으로 예상했습니다. 하지만 지난달 비즈니스 채택률은 제자리걸음이었습니다. 2. Anthropic은 기업의 41%까지 2.5%포인트 성장했습니다. 이제는 AI를 처음 도입하는 기업들의 새로운 AI 채택을 주도하고 있습니다.",
+        "context": "Ramp의 Ara Kharazian이 2026년 6월 AI 지수를 공유했다. OpenAI 비즈니스 채택은 정체된 반면 Anthropic은 기업의 41%까지 성장했다는 분석이다.",
+        "url": "https://x.com/arakharazian/status/2064736003416604940",
+        "publishedAt": "2026-06-10T15:46:38.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_016",
+        "author": "Adam Fry",
+        "handle": "adamhfry",
+        "content": "ChatGPT의 모델 선택기에 작은 업데이트를 진행하고 있습니다! 많은 사람들의 업무에 중요한 부분이고, 이 부분을 깊이 신경 쓰는 많은 유료 사용자들이 있다는 점을 잘 알고 있어서, 이번 조정을 자세히 설명하기 위해 시간을 들였습니다.",
+        "context": "OpenAI의 Adam Fry가 ChatGPT 모델 선택기 개편을 예고했다. 유료 사용자 워크플로우에 중요한 변화를 신중히 설명하겠다고 밝혔다.",
+        "url": "https://x.com/adamhfry/status/2064768231903285451",
+        "publishedAt": "2026-06-10T17:54:42.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "팔란티어 CEO 알렉스 카프(Alex Karp)는 최근 빅테크 중심의 '프론티어 랩스(Frontier Labs)'가 가진 맹목적인 기술 낙관주의를 정면으로 비판했습니다. 그는 이들의 태도를 \"과하게 낙관하는 신념(Hyper Optimism)\"이라고 지적하며, 이들이 과거, 현재, 미래의 모든 인간 사회적 문제와 경제적 격차까지 기술로 전부 해결할 수 있다고 믿는 것은 철학적·기술적으로 완전히 틀렸다고 주장했습니다. 특히 인프라와 비즈니스 관점에서 \"기업들은 (이러한 환상이) 현실 세계에서 실제로 작동하지 않는다는 것을 알고 완전히 지쳐 있다\"고 강조했습니다.",
+        "context": "AI/테크 소식을 큐레이션하는 한국어 Threads 계정의 글. 팔란티어 CEO의 프론티어 랩스 비판을 정리했다.",
+        "url": "https://www.threads.com/@choi.openai/post/DZdDyJbAUf7",
+        "publishedAt": "2026-06-11T17:30:35.000Z",
+        "platform": "threads"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "팰런티어 CEO 알렉스 카프(Alex Karp)는 프런티어 랩스(Frontier Labs)의 AI 기업들이 비즈니스의 본질을 놓치고 있다고 강력히 비판했습니다. 그는 샌프란시스코 테크 기업들의 \"우린 오늘 네 문제를 꼭 해결할 필요 없어. 어차피 내일이면 네 문제는 전부 저절로 해결될 거니까\"라는 태도가 마치 종교와 같다고 지적했습니다. 단순히 \"코드 배포만 하면 Palantir 같은 기업을 복제할 수 있다\"는 생각은 착각이며, 이들이 토큰 판매가 쉬운 가장 단순한 문제만 풀고 있다고 꼬집었습니다.",
+        "context": "같은 계정의 후속 글로, 카프가 지적한 AI 기업들의 비즈니스 본질 결여 문제를 구체적으로 풀어냈다.",
+        "url": "https://www.threads.com/@choi.openai/post/DZc5ezYgNon",
+        "publishedAt": "2026-06-11T16:00:34.000Z",
+        "platform": "threads"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "Anthropic, AI 모델 '조용한 성능 저하' 정책 철회…사용자에게 알리기로",
+        "originalTitle": "Anthropic walks back policy on silent nerfing for AI/ML, will notify users [N]",
+        "summary": "Anthropic이 모델 성능을 사전 고지 없이 낮추던 정책을 철회하고 사용자에게 변경을 알리기로 했다는 소식이 ML 커뮤니티에서 논의됐다. 모델 투명성 요구가 반영된 결과로 평가된다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1u2tk0i/anthropic_walks_back_policy_on_silent_nerfing_for/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-06-11T17:51:10+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "LLM 시대에 심볼릭 회귀(Symbolic Regression)는 여전히 유효한가?",
+        "originalTitle": "Is Symbolic Regression still a thing, given LLMs' performance? [D]",
+        "summary": "LLM의 강력한 성능 속에서 전통적 기법인 심볼릭 회귀의 입지를 묻는 토론. 해석 가능성과 과학적 발견에서의 역할을 두고 의견이 오갔다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1u2yqnu/is_symbolic_regression_still_a_thing_given_llms/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-06-11T22:13:32+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "ML 분야 포스닥, 지금도 가치가 있을까",
+        "originalTitle": "Post-docs in ML [D]",
+        "summary": "산업계 수요가 큰 ML 분야에서 박사후연구원(포스닥) 과정의 의미와 커리어 트레이드오프를 두고 연구자들이 경험을 나눈 토론이다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1u390q5/postdocs_in_ml_d/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-06-12T04:33:36+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "시급 2.6달러로 집안일 녹화해 AI 로봇 학습…노동 이면 조명",
+        "originalTitle": "Indian woman earns $2.60/hr recording household chores to train AI robots.",
+        "summary": "한 인도 여성이 시급 약 2.6달러를 받고 가사 노동을 녹화해 AI 로봇 학습 데이터를 만든다는 사례가 화제가 됐다. AI 데이터 노동의 저임금 구조를 둘러싼 논쟁을 촉발했다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1u32njc/indian_woman_earns_260hr_recording_household/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-06-12T00:42:30+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "제프 베이조스, 신생기업 'Prometheus'로 '인공 일반 엔지니어' 구축 공개",
+        "originalTitle": "Jeff Bezos Reveals His New Startup Prometheus Is Building an “Artificial General Engineer”",
+        "summary": "제프 베이조스가 새 스타트업 Prometheus를 통해 '인공 일반 엔지니어(Artificial General Engineer)'를 만들겠다고 밝혀 주목받았다. AGI 경쟁에 거물 창업자가 직접 뛰어든 셈이다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1u33h6v/jeff_bezos_reveals_his_new_startup_prometheus_is/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-06-12T01:12:31+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "Claude Opus 4.8과 Claude Fable 5, MineBench 성능 비교",
+        "originalTitle": "Differences Between Claude Opus 4.8 and Claude Fable 5 on MineBench",
+        "summary": "MineBench 벤치마크에서 Claude Opus 4.8과 신모델 Claude Fable 5의 성능 차이를 비교·분석한 게시물이다. 신구 모델의 강점과 한계를 두고 토론이 이어졌다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1u35fjw/differences_between_claude_opus_48_and_claude/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-06-12T02:23:46+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_018",
+        "title": "크롬, MV2 확장 프로그램 영구 중단 추진",
+        "excerpt": "구글 크롬이 Manifest V2(MV2) 확장 프로그램을 영구적으로 중단하려는 움직임을 보이고 있다. 일부 광고 차단 확장에 영향이 예상된다.",
+        "url": "https://news.hada.io/topic?id=30404",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-12T03:40:35+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_019",
+        "title": "AWS Bedrock, Mythos 등 향후 모델에서 Anthropic과 데이터 공유 요구 예정",
+        "excerpt": "AWS Bedrock이 Mythos를 비롯한 향후 모델에서 Anthropic과의 데이터 공유를 요구할 예정이라는 소식이 전해졌다.",
+        "url": "https://news.hada.io/topic?id=30403",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-12T03:37:35+09:00",
+        "readTime": 2,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_020",
+        "title": "Claude Desktop, 채팅 전용 사용에도 실행마다 1.8GB Hyper-V VM 생성",
+        "excerpt": "Claude Desktop이 채팅 용도로만 쓸 때도 실행할 때마다 1.8GB 규모의 Hyper-V VM을 생성한다는 지적이 나왔다.",
+        "url": "https://news.hada.io/topic?id=30401",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-12T02:35:13+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_021",
+        "title": "소프트웨어는 커밋과 커밋 사이에서 만들어진다",
+        "excerpt": "개발의 본질이 최종 코드가 아니라 커밋 사이의 사고·결정 과정에 있다는 통찰을 담은 글이 해커뉴스에서 주목받았다.",
+        "url": "https://zed.dev/blog/introducing-deltadb",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-12T01:28:24+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_022",
+        "title": "美 태양광, 사상 처음으로 석탄보다 많은 에너지 생산",
+        "excerpt": "미국에서 태양광 발전량이 사상 처음으로 석탄을 앞질렀다. 에너지 전환의 상징적 분기점이다.",
+        "url": "https://www.theguardian.com/us-news/2026/jun/11/solar-energy-us-coal",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-12T01:10:05+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_023",
+        "title": "AMD가 고치지 않으려 한 원격 코드 실행(RCE) 취약점",
+        "excerpt": "AMD가 수정을 거부한 원격 코드 실행 취약점에 대한 분석이 공개되며 보안 커뮤니티의 관심을 모았다.",
+        "url": "https://mrbruh.com/amd2/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-12T01:03:40+09:00",
+        "readTime": 2,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_024",
+        "title": "MiMo Code 정식 출시 및 오픈소스 공개",
+        "excerpt": "코딩에 특화된 MiMo Code가 정식 출시되며 오픈소스로 공개됐다.",
+        "url": "https://mimo.xiaomi.com/mimocode",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-11T23:27:19+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      }
+    ]
+  }
+}
