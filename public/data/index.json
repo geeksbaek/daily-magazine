@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-06-14",
+      "issueNumber": 74,
+      "mainHeadline": "앤트로픽, 美 정부 명령으로 Fable 5·Mythos 5 전 세계 접근 차단",
+      "headlines": [
+        "보도: 아마존의 보안 연구가 백악관의 앤트로픽 모델 차단을 촉발",
+        "OpenAI, 美 주 법무장관들의 조사 대상에",
+        "앤트로픽 모델 중단 사태에 인도 등 'AI 자립' 논쟁 가열"
+      ]
+    },
+    {
       "date": "2026-06-12",
       "issueNumber": 73,
       "mainHeadline": "OpenAI, 에이전트 배포 스타트업 'Ona' 인수…기업·정책 전선서 Anthropic과 정면충돌",
@@ -750,5 +760,5 @@
       ]
     }
   ],
-  "latestIssue": 73
+  "latestIssue": 74
 }
