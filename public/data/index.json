@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-06-16",
+      "issueNumber": 76,
+      "mainHeadline": "美 정부, Anthropic 최신 모델 해외 접근 차단 — AI 패권 갈등 격화",
+      "headlines": [
+        "SpaceX 상장 완료 — 사상 최대 857억 달러 조달",
+        "세일즈포스, AI 고객서비스 Fin 36억 달러 인수",
+        "메타, 페이스북에 'AI 모드' 도입"
+      ]
+    },
+    {
       "date": "2026-06-15",
       "issueNumber": 75,
       "mainHeadline": "中, 앤트로픽 Mythos 접근 정황…백악관 모델 차단의 진짜 이유였다",
@@ -770,5 +780,5 @@
       ]
     }
   ],
-  "latestIssue": 74
+  "latestIssue": 76
 }
