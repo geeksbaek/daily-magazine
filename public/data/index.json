@@ -1,6 +1,26 @@
 {
   "issues": [
     {
+      "date": "2026-06-19",
+      "issueNumber": 78,
+      "mainHeadline": "오픈AI, 사이버 다음 단계로 '의료'를 정조준하다",
+      "headlines": [
+        "오픈AI, 생명과학 연구 평가용 LifeSciBench 공개",
+        "앤트로픽, 서울 사무소 공식 개소…국내 빅테크와 전방위 파트너십",
+        "SpaceX 주가, Cursor 거래 우려로 6000억 달러 증발"
+      ]
+    },
+    {
+      "date": "2026-06-18",
+      "issueNumber": 77,
+      "mainHeadline": "OpenAI, 거의 자율적인 AI 화학자로 신약 화학 반응 개선",
+      "headlines": [
+        "구글 AMIE, 진단을 넘어 질환 관리까지 — Nature 논문으로 검증",
+        "제미나이 탑재한 새 구글 홈 스피커 공개",
+        "NVIDIA 블랙웰, MLPerf 트레이닝 6.0 전 부문 석권"
+      ]
+    },
+    {
       "date": "2026-06-16",
       "issueNumber": 76,
       "mainHeadline": "美 정부, Anthropic 최신 모델 해외 접근 차단 — AI 패권 갈등 격화",
@@ -780,5 +800,5 @@
       ]
     }
   ],
-  "latestIssue": 76
+  "latestIssue": 78
 }

@@ -1,0 +1,520 @@
+{
+  "date": "2026-06-18",
+  "issueNumber": 77,
+  "cover": {
+    "mainHeadline": "OpenAI, 거의 자율적인 AI 화학자로 신약 화학 반응 개선",
+    "mainExcerpt": "OpenAI가 GPT-5.4 기반 AI 화학자를 활용해 의약화학에서 널리 쓰이는 반응의 수율을 끌어올렸다고 밝혔다. AI가 제안한 조건은 인간 화학자의 실험실 검증을 통과했으며, 과학 연구에서 AI 에이전트의 역할이 한 단계 더 깊어지고 있음을 보여준다.",
+    "headlines": [
+      "구글 AMIE, 진단을 넘어 질환 관리까지 — Nature 논문으로 검증",
+      "제미나이 탑재한 새 구글 홈 스피커 공개",
+      "NVIDIA 블랙웰, MLPerf 트레이닝 6.0 전 부문 석권"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_001",
+      "title": "OpenAI, 거의 자율적인 AI 화학자로 신약 화학 반응 개선",
+      "excerpt": "OpenAI가 GPT-5.4 기반 AI 화학자가 의약화학 분야의 까다로운 반응을 개선했다고 밝혔다. Molecule.one의 AI 'Maria'와 협력해 제안한 조건을 실제 연구실에서 검증했다.",
+      "body": "OpenAI는 GPT-5.4를 활용한 근자율적 AI 화학자가 신약 개발에서 널리 쓰이는 반응의 수율을 끌어올리는 데 성공했다고 발표했다. Maria AI는 10,080개의 반응 조합을 가상으로 테스트했고, 인간 화학자들이 이 중 대표적인 결과를 직접 검증했다. 최적화된 조건에서 붕소산 88%, 설폰아마이드 83%의 수율 향상이 확인됐다. OpenAI는 AI가 과학자의 동반자로서 더 많은 아이디어를 탐색하고 실험을 설계하도록 돕는다는 비전을 강조했다.",
+      "url": "https://openai.com/index/ai-chemist-improves-reaction",
+      "source": "OpenAI News",
+      "category": "ai_ml",
+      "publishedAt": "2026-06-17T19:00:00+09:00",
+      "readTime": 3,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_002",
+      "title": "구글 AMIE, 진단을 넘어 질환 관리까지 — Nature 논문으로 검증",
+      "excerpt": "구글의 대화형 의료 AI 'AMIE'가 복잡한 질환 관리에서 1차 진료의와 동등한 성과를 냈다는 연구가 Nature에 게재됐다. 진단 보조에서 치료·관리 영역으로 AMIE의 역할이 확장되고 있다.",
+      "body": "구글 리서치는 AMIE(Articulate Medical Intelligence Explorer)가 만성질환 관리 시나리오에서 1차 진료 의사와 비슷한 수준의 의사결정을 보여줬다는 연구 결과를 Nature에 발표했다. 기존에는 증상 진단 보조에 초점이 맞춰졌지만, 이번 연구는 AMIE가 환자와의 대화를 통해 치료 계획을 조정하고 관리하는 데까지 활용될 수 있음을 보여준다. 구글은 이를 의료 접근성을 높이는 잠재적 도구로 소개했다.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
+      "source": "Google DeepMind",
+      "category": "ai_ml",
+      "publishedAt": "2026-06-18T00:00:00+09:00",
+      "readTime": 3,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_010",
+      "title": "제미나이 탑재한 새 구글 홈 스피커 공개",
+      "excerpt": "구글이 제미나이를 기반으로 새롭게 설계된 구글 홈 스피커를 발표했다.",
+      "body": "새 스피커는 제미나이의 대화형 AI 기능을 가정용 스마트 스피커에 통합한 제품으로, 기존 구글 홈 라인업의 다음 세대를 보여준다. 구글은 이를 통해 일상적인 음성 비서 경험을 한층 끌어올리겠다고 밝혔다.",
+      "url": "https://blog.google/products-and-platforms/devices/google-nest/google-home-speaker-gemini-features/",
+      "source": "The Official Google Blog",
+      "category": "big_tech",
+      "publishedAt": "2026-06-17T22:00:00+09:00",
+      "readTime": 2,
+      "imageGradient": 2
+    },
+    {
+      "id": "rss_012",
+      "title": "NVIDIA 블랙웰, MLPerf 트레이닝 6.0 전 부문 석권",
+      "excerpt": "NVIDIA의 블랙웰 아키텍처가 최신 MLPerf 트레이닝 6.0 벤치마크에서 속도·규모·안정성 전 부문 1위를 차지했다.",
+      "body": "MLPerf 트레이닝 6.0 결과에서 블랙웰 기반 시스템은 모델 학습 속도, 확장 가능한 규모, 학습 안정성 모든 지표에서 우위를 보였다. NVIDIA는 모델이 커지고 복잡해질수록 학습 인프라의 신뢰성이 더 중요해진다고 강조했다.",
+      "url": "https://blogs.nvidia.com/blog/blackwell-mlperf-training-6-0/",
+      "source": "NVIDIA Blog",
+      "category": "big_tech",
+      "publishedAt": "2026-06-17T00:00:36+09:00",
+      "readTime": 3,
+      "imageGradient": 3
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_001",
+        "title": "OpenAI, 거의 자율적인 AI 화학자로 신약 화학 반응 개선",
+        "excerpt": "OpenAI가 GPT-5.4 기반 AI 화학자가 의약화학 분야의 까다로운 반응을 개선했다고 밝혔다. Molecule.one의 AI 'Maria'와 협력해 제안한 조건을 실제 연구실에서 검증했다.",
+        "body": "OpenAI는 GPT-5.4를 활용한 근자율적 AI 화학자가 신약 개발에서 널리 쓰이는 반응의 수율을 끌어올리는 데 성공했다고 발표했다. Maria AI는 10,080개의 반응 조합을 가상으로 테스트했고, 인간 화학자들이 이 중 대표적인 결과를 직접 검증했다. 최적화된 조건에서 붕소산 88%, 설폰아마이드 83%의 수율 향상이 확인됐다. OpenAI는 AI가 과학자의 동반자로서 더 많은 아이디어를 탐색하고 실험을 설계하도록 돕는다는 비전을 강조했다.",
+        "url": "https://openai.com/index/ai-chemist-improves-reaction",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-17T19:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_002",
+        "title": "구글 AMIE, 진단을 넘어 질환 관리까지 — Nature 논문으로 검증",
+        "excerpt": "구글의 대화형 의료 AI 'AMIE'가 복잡한 질환 관리에서 1차 진료의와 동등한 성과를 냈다는 연구가 Nature에 게재됐다. 진단 보조에서 치료·관리 영역으로 AMIE의 역할이 확장되고 있다.",
+        "body": "구글 리서치는 AMIE(Articulate Medical Intelligence Explorer)가 만성질환 관리 시나리오에서 1차 진료 의사와 비슷한 수준의 의사결정을 보여줬다는 연구 결과를 Nature에 발표했다. 기존에는 증상 진단 보조에 초점이 맞춰졌지만, 이번 연구는 AMIE가 환자와의 대화를 통해 치료 계획을 조정하고 관리하는 데까지 활용될 수 있음을 보여준다. 구글은 이를 의료 접근성을 높이는 잠재적 도구로 소개했다.",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
+        "source": "Google DeepMind",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-18T00:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_003",
+        "title": "GLM-5.2 공개 — 장시간 작업에 특화된 오픈 모델",
+        "excerpt": "Zhipu AI(Z.ai)가 긴 호흡의 작업을 처리하도록 설계된 신규 오픈 모델 GLM-5.2를 허깅페이스에 공개했다.",
+        "body": "GLM-5.2는 장시간(long-horizon) 작업, 즉 여러 단계를 거쳐야 하는 복잡한 에이전트형 작업에 최적화된 모델로 소개됐다. 허깅페이스 블로그를 통해 모델 카드와 벤치마크가 공개됐으며, 코딩과 추론 작업에서의 활용을 강조하고 있다.",
+        "url": "https://huggingface.co/blog/zai-org/glm-52-blog",
+        "source": "Hugging Face - Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-17T18:01:25+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_004",
+        "title": "NVIDIA XR AI 공개 베타 — AR 글래스에 에이전트 탑재",
+        "excerpt": "NVIDIA가 AR 글래스와 XR 기기를 위한 멀티모달 AI 에이전트 프레임워크 'XR AI'의 공개 베타를 시작했다.",
+        "body": "NVIDIA XR AI는 개발자들이 손을 쓰지 않고도 작동하는 멀티모달 AI 에이전트를 AR·XR 기기에 구축할 수 있도록 지원하는 프레임워크다. 공개 베타로 전환되면서 더 많은 개발자가 음성과 시각 입력을 결합한 에이전트 경험을 실험할 수 있게 됐다.",
+        "url": "https://blogs.nvidia.com/blog/nvidia-xr-ai/",
+        "source": "NVIDIA Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-17T07:30:41+09:00",
+        "readTime": 2,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_005",
+        "title": "구글 딥마인드, AI 가속 도시계획으로 영국 주택 공급 해법 모색",
+        "excerpt": "구글 딥마인드가 영국 정부와 협력해 AI 기반 도시계획 프로토타입을 구축, 주택 인허가 속도를 높이는 실험에 나섰다.",
+        "body": "이번 협력은 복잡한 도시계획 인허가 절차를 AI로 가속화해 영국의 주택 공급 부족 문제를 완화하려는 시도다. 딥마인드는 정책 데이터와 지리 정보를 결합한 프로토타입을 통해 더 빠른 주택 관련 의사결정을 지원하겠다고 밝혔다.",
+        "url": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
+        "source": "DeepMind",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-17T06:29:50+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_006",
+        "title": "GitHub Copilot, 토큰 활용 개선으로 컨텍스트 처리·모델 라우팅 강화",
+        "excerpt": "깃허브가 Copilot의 컨텍스트 처리와 모델 라우팅 방식을 개선해 세션당 더 많은 작업을 유효하게 만들고 크레딧 소모를 줄였다고 밝혔다.",
+        "body": "깃허브 블로그는 Copilot이 각 토큰을 더 효율적으로 활용하도록 만드는 개선 작업을 소개했다. 컨텍스트 처리 방식과 모델 라우팅 로직을 다듬어, 사용자의 크레딧이 더 오래 유지되고 세션의 실질적인 작업 비중이 늘었다고 설명했다.",
+        "url": "https://github.blog/ai-and-ml/github-copilot/getting-more-from-each-token-how-copilot-improves-context-handling-and-model-routing/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-18T04:41:46+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_007",
+        "title": "git worktree란 무엇이고 왜 써야 할까",
+        "excerpt": "2015년부터 존재했지만 최근에야 인기를 얻은 git worktree 기능을 깃허브 블로그가 소개했다.",
+        "body": "git worktree는 하나의 저장소에서 여러 브랜치를 동시에 체크아웃해 작업할 수 있게 해주는 기능이다. 브랜치 전환 없이 여러 작업을 병행할 수 있어 최근 AI 코딩 에이전트와 함께 활용도가 높아지고 있다는 점이 소개됐다.",
+        "url": "https://github.blog/ai-and-ml/github-copilot/what-are-git-worktrees-and-why-should-i-use-them/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-17T05:58:54+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_008",
+        "title": "VS Code, GitHub Copilot 토큰 효율 개선 방법 공개",
+        "excerpt": "비주얼 스튜디오 코드 팀이 Copilot 사용 시 비용과 지연시간을 줄이기 위한 토큰 효율화 작업을 설명했다.",
+        "body": "VS Code 블로그는 Copilot 요청의 토큰 사용량을 줄여 응답 속도를 높이고 비용을 절감하는 구체적인 기법들을 소개했다. 컨텍스트 압축과 불필요한 정보 제거가 핵심으로 다뤄졌다.",
+        "url": "https://code.visualstudio.com/blogs/2026/06/17/improving-token-efficiency-in-github-copilot",
+        "source": "Visual Studio Code - Code Editing. Redefined.",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-17T09:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_009",
+        "title": "Jira에서 한 번의 클릭으로 AI 코딩 도구 실행",
+        "excerpt": "아틀라시안이 Jira 이슈에서 곧바로 로컬 AI 코딩 에이전트에 작업을 전달할 수 있는 딥링크 기능을 출시했다.",
+        "body": "이 기능을 사용하면 복붙이나 컨텍스트 손실 없이 Jira 이슈 정보를 그대로 코딩 에이전트에 전달할 수 있다. 개발자가 작업 맥락을 유지하면서 에이전트에게 바로 작업을 맡길 수 있도록 설계됐다.",
+        "url": "https://www.atlassian.com/blog/development/deeplink-to-your-ai-coding-tool-from-jira",
+        "source": "Atlassian Developer Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-17T01:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_010",
+        "title": "제미나이 탑재한 새 구글 홈 스피커 공개",
+        "excerpt": "구글이 제미나이를 기반으로 새롭게 설계된 구글 홈 스피커를 발표했다.",
+        "body": "새 스피커는 제미나이의 대화형 AI 기능을 가정용 스마트 스피커에 통합한 제품으로, 기존 구글 홈 라인업의 다음 세대를 보여준다. 구글은 이를 통해 일상적인 음성 비서 경험을 한층 끌어올리겠다고 밝혔다.",
+        "url": "https://blog.google/products-and-platforms/devices/google-nest/google-home-speaker-gemini-features/",
+        "source": "The Official Google Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-06-17T22:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_011",
+        "title": "Coherent, 텍사스 광학 공장 확장 — AI 인프라의 '광속 배선' 강화",
+        "excerpt": "AI 시스템을 연결하는 레이저·광학 부품 제조사 Coherent가 텍사스 셔먼에 신규 생산시설 착공식을 가졌다.",
+        "body": "Coherent는 AI 데이터센터를 연결하는 광학 부품과 인화인듐(InP) 반도체를 생산하는 세계 최대 6인치 웨이퍼 공장을 운영 중이며, 이번 확장으로 AI 인프라 수요 증가에 대응한다.",
+        "url": "https://blogs.nvidia.com/blog/coherent-texas-ai-optical/",
+        "source": "NVIDIA Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-06-17T07:10:56+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_012",
+        "title": "NVIDIA 블랙웰, MLPerf 트레이닝 6.0 전 부문 석권",
+        "excerpt": "NVIDIA의 블랙웰 아키텍처가 최신 MLPerf 트레이닝 6.0 벤치마크에서 속도·규모·안정성 전 부문 1위를 차지했다.",
+        "body": "MLPerf 트레이닝 6.0 결과에서 블랙웰 기반 시스템은 모델 학습 속도, 확장 가능한 규모, 학습 안정성 모든 지표에서 우위를 보였다. NVIDIA는 모델이 커지고 복잡해질수록 학습 인프라의 신뢰성이 더 중요해진다고 강조했다.",
+        "url": "https://blogs.nvidia.com/blog/blackwell-mlperf-training-6-0/",
+        "source": "NVIDIA Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-06-17T00:00:36+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_013",
+        "title": "클라우드플레어, 에이전트가 직접 배포하는 'Cloudflare One 스택' 공개",
+        "excerpt": "클라우드플레어가 AI 에이전트에게 제로 트러스트 환경 구축 지식을 제공하는 에이전트 스킬 라이브러리 'Cloudflare One 스택'을 출시했다.",
+        "body": "이 라이브러리를 활용하면 별도의 마이그레이션 상담 없이도 AI 에이전트가 제로 트러스트 환경을 직접 계획하고 배포·관리할 수 있다. 클라우드플레어는 에이전트가 인프라 구축의 실행 주체가 되는 흐름을 강조했다.",
+        "url": "https://blog.cloudflare.com/cloudflare-one-stack/",
+        "source": "Cloudflare Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-06-17T22:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "소프트웨어 엔지니어링은 지금 너무 달라졌어. 심지어 6개월 전이 어땠는지 기억하기도 어려워.",
+        "context": "OpenAI 공동창업자 그렉 브록먼이 AI 코딩 도구의 발전 속도에 대한 소감을 밝혔다.",
+        "url": "https://x.com/gdb/status/2067043685611790653",
+        "publishedAt": "2026-06-17T00:36:33.000Z",
+        "metrics": { "likes": 0, "retweets": 0, "replies": 0 }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "건강 미스터리를 풀어내는 데 도움을 주는 AI. 이런 이야기들이 너무 많고, AI에 대해 흥분할 만한 명확한 동기가 있습니다.",
+        "context": "그렉 브록먼이 AI가 의료 진단에 도움을 준 사례들을 언급하며 AI 발전에 대한 기대를 표현했다.",
+        "url": "https://x.com/gdb/status/2067144669897859411",
+        "publishedAt": "2026-06-17T07:17:49.000Z",
+        "metrics": { "likes": 0, "retweets": 0, "replies": 0 }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "GPT-Real-Time-2는 새로운 무언가입니다.",
+        "context": "그렉 브록먼이 OpenAI의 신규 실시간 모델 'GPT-Real-Time-2'를 소개했다.",
+        "url": "https://x.com/gdb/status/2067100786098831681",
+        "publishedAt": "2026-06-17T04:23:26.000Z",
+        "metrics": { "likes": 0, "retweets": 0, "replies": 0 }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "훌륭한 UX가 정말 큰 차이를 만듭니다.",
+        "context": "그렉 브록먼이 제품 사용자 경험의 중요성에 대해 짧게 언급했다.",
+        "url": "https://x.com/gdb/status/2066768795503595718",
+        "publishedAt": "2026-06-16T06:24:14.000Z",
+        "metrics": { "likes": 0, "retweets": 0, "replies": 0 }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "Slack 이제 HTML 첨부 파일을 텍스트로만 표시하는 대신 렌더링하네요.",
+        "context": "OpenAI의 타리크가 Slack의 최근 UI 업데이트를 발견하고 공유했다.",
+        "url": "https://x.com/trq212/status/2067021344341098670",
+        "publishedAt": "2026-06-16T23:07:46.000Z",
+        "metrics": { "likes": 0, "retweets": 0, "replies": 0 }
+      },
+      {
+        "id": "tweet_006",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "GPT-5.4는 문헌 검토에서 검증된 실험 결과에 이르기까지 의약 화학 프로젝트를 추진하는 데 도움을 주었습니다. Molecule.one의 Maria AI와 전문 연구실과 함께 사용했을 때, 이 모델은 약물 발견에서 널리 사용되는 반응을 개선하는 예상치 못한 방법을 제안했습니다.",
+        "context": "OpenAI가 AI 화학자 'Maria'를 활용한 의약화학 연구 성과를 발표했다.",
+        "url": "https://x.com/OpenAI/status/2067293745075442171",
+        "publishedAt": "2026-06-17T17:10:11.000Z",
+        "metrics": { "likes": 0, "retweets": 0, "replies": 0 }
+      },
+      {
+        "id": "tweet_007",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "Maria는 10,080개의 반응에 걸쳐 이 아이디어를 테스트했으며, 인간 화학자들은 나중에 대표적인 결과를 직접 검증했습니다. 최적화된 조건에서 테스트된 붕소산의 88%와 설폰아마이드의 83%에서 수율이 향상되었습니다.",
+        "context": "앞선 트윗에 이어 OpenAI가 AI 화학자의 구체적인 실험 수치를 공개했다.",
+        "url": "https://x.com/OpenAI/status/2067293749412339980",
+        "publishedAt": "2026-06-17T17:10:12.000Z",
+        "metrics": { "likes": 0, "retweets": 0, "replies": 0 }
+      },
+      {
+        "id": "tweet_008",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "지난주에 우리는 Women who Code(x)를 주최했습니다. 출력: 태스크 에이전트, 개인 가이드, 그리고 Codex로 출시된 많은 프로젝트들.",
+        "context": "OpenAI 개발자 팀이 'Women who Code' 행사 후기를 공유했다.",
+        "url": "https://x.com/OpenAIDevs/status/2067328594758848513",
+        "publishedAt": "2026-06-17T19:28:40.000Z",
+        "metrics": { "likes": 0, "retweets": 0, "replies": 0 }
+      },
+      {
+        "id": "tweet_009",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "오픈 소스 프로젝트는 많은 팀이 구축하는 인프라를 검토하고, 릴리스하며, 보안하고, 관리하는 유지보수자들에게 의존합니다. 우리는 Rust Foundation의 작업을 지원하게 되어 자랑스럽습니다.",
+        "context": "OpenAI 개발자 팀이 Rust Foundation에 대한 후원 소식을 발표했다.",
+        "url": "https://x.com/OpenAIDevs/status/2067280779689042235",
+        "publishedAt": "2026-06-17T16:18:40.000Z",
+        "metrics": { "likes": 0, "retweets": 0, "replies": 0 }
+      },
+      {
+        "id": "tweet_010",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "OpenAI에서 우리는 시스템 프로그래밍의 미래로서 Rust에 계속해서 투자하고 있습니다. 저는 Rust 재단에 60만 달러를 지원하기로 결정한 것을 자랑스럽게 발표합니다.",
+        "context": "OpenAI가 Rust Foundation에 60만 달러를 지원하기로 한 결정을 밝혔다.",
+        "url": "https://x.com/OpenAIDevs/status/2067280791881810246",
+        "publishedAt": "2026-06-17T16:18:43.000Z",
+        "metrics": { "likes": 0, "retweets": 0, "replies": 0 }
+      },
+      {
+        "id": "tweet_011",
+        "author": "ChatGPT",
+        "handle": "ChatGPTapp",
+        "content": "ChatGPT의 새로운 기능: 작업 예약을 위한 더 나은 방법. 예약된 작업은 더 빠르고, 더 안정적이며, 새로운 예약 페이지에서 관리하기 더 쉽습니다.",
+        "context": "ChatGPT 공식 계정이 예약 작업 기능 개선 소식을 공개했다.",
+        "url": "https://x.com/ChatGPTapp/status/2067316960875168181",
+        "publishedAt": "2026-06-17T18:42:27.000Z",
+        "metrics": { "likes": 0, "retweets": 0, "replies": 0 }
+      },
+      {
+        "id": "tweet_012",
+        "author": "ChatGPT",
+        "handle": "ChatGPTapp",
+        "content": "또한 다음 14일 이내에 Pulse를 종료할 예정이지만, 매일 업데이트를 계속 받을 수 있습니다. 관심사, 이전 대화, 연결된 앱을 기반으로 한 매일 브리핑을 받으려면 예약된 작업을 사용하세요.",
+        "context": "ChatGPT가 'Pulse' 기능 종료와 예약 작업으로의 전환을 안내했다.",
+        "url": "https://x.com/ChatGPTapp/status/2067316962225684888",
+        "publishedAt": "2026-06-17T18:42:27.000Z",
+        "metrics": { "likes": 0, "retweets": 0, "replies": 0 }
+      },
+      {
+        "id": "tweet_013",
+        "author": "ChatGPT",
+        "handle": "ChatGPTapp",
+        "content": "번개처럼 빠른, iOS에서 ChatGPT로 사진을 찍고 업로드하는 완전히 새롭고 훨씬 개선된 방법.",
+        "context": "ChatGPT가 iOS 앱의 사진 촬영·업로드 기능 개선을 발표했다.",
+        "url": "https://x.com/ChatGPTapp/status/2066985553074200968",
+        "publishedAt": "2026-06-16T20:45:33.000Z",
+        "metrics": { "likes": 0, "retweets": 0, "replies": 0 }
+      },
+      {
+        "id": "tweet_014",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "최신 경제 연구에서 Claude Code가 확장됨에 따라 이를 추적하기 위한 프레임워크를 소개합니다. 누가 Claude Code를 사용하고 있으며, 무엇을 위해 사용하고 있나요?",
+        "context": "앤트로픽이 Claude Code 사용 현황을 추적하는 경제 연구 프레임워크를 공개했다.",
+        "url": "https://x.com/AnthropicAI/status/2066969532380721386",
+        "publishedAt": "2026-06-16T19:41:53.000Z",
+        "metrics": { "likes": 0, "retweets": 0, "replies": 0 }
+      },
+      {
+        "id": "tweet_015",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "도메인 전문가들이 더 성공을 볼 가능성이 높다. 그러나 중급 사용자와 전문가 사용자 간의 격차는 상당히 작아서, 도메인 내에서 성공적으로 코딩하는 데는 그 도메인에 대한 숙련도가 충분하다는 것을 시사한다.",
+        "context": "앞선 트윗에 이어 앤트로픽이 연구의 핵심 발견을 공유했다.",
+        "url": "https://x.com/AnthropicAI/status/2066969540412780644",
+        "publishedAt": "2026-06-16T19:41:55.000Z",
+        "metrics": { "likes": 0, "retweets": 0, "replies": 0 }
+      },
+      {
+        "id": "tweet_016",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "이러한 조치들은 일이 일어나는 대로 일의 본질에서 중요한 변화를 추적할 수 있게 해줄 것입니다 — 앞으로 우리는 이들 중 일부를 Anthropic Economic Index에 통합할 것입니다.",
+        "context": "앤트로픽이 해당 연구 지표를 Anthropic Economic Index에 통합할 계획을 밝혔다.",
+        "url": "https://x.com/AnthropicAI/status/2066969542010806561",
+        "publishedAt": "2026-06-16T19:41:55.000Z",
+        "metrics": { "likes": 0, "retweets": 0, "replies": 0 }
+      },
+      {
+        "id": "tweet_017",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Claude Design의 새로운 기능: 여러 프로젝트에서 디자인 시스템에 맞춰 브랜드를 유지하고, 캔버스에서 직접 편집할 수 있으며, Claude Code와 동기화되고, 이미 사용 중인 도구들과 더 많이 연결됩니다.",
+        "context": "Claude 공식 계정이 'Claude Design'의 신규 기능을 발표했다.",
+        "url": "https://x.com/claudeai/status/2067325887909884315",
+        "publishedAt": "2026-06-17T19:17:55.000Z",
+        "metrics": { "likes": 0, "retweets": 0, "replies": 0 }
+      },
+      {
+        "id": "tweet_018",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Claude Design과 Claude Code는 양방향으로 함께 작동합니다 (오늘 롤아웃). 디자인을 넘겨서 빌드를 진행하거나, Claude Code에서 시작해 터미널에서 디자인 프로젝트를 동기화하세요.",
+        "context": "Claude가 Design과 Code 간 양방향 연동 롤아웃 소식을 공유했다.",
+        "url": "https://x.com/claudeai/status/2067325893001826552",
+        "publishedAt": "2026-06-17T19:17:56.000Z",
+        "metrics": { "likes": 0, "retweets": 0, "replies": 0 }
+      },
+      {
+        "id": "tweet_019",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Claude Design은 모든 유료 플랜에서 웹과 데스크톱 버전으로 베타 버전입니다. 한 번 시도해보세요.",
+        "context": "Claude가 Claude Design 베타의 이용 범위를 안내했다.",
+        "url": "https://x.com/claudeai/status/2067325894268428560",
+        "publishedAt": "2026-06-17T19:17:56.000Z",
+        "metrics": { "likes": 0, "retweets": 0, "replies": 0 }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "알리바바의 HappyOyster 1.0이 공개되었습니다. HappyOyster는 생성된 세계를 실시간으로 돌아다니며 스토리와 카메라 구도를 바꿀 수 있는 오픈형 월드 모델인데요. 채팅으로 상황을 변경하고, 이야기를 되돌려 다른 전개를 만들 수 있습니다. 바닷속 유적, 유화 스타일 공간, 꿈속 같은 세계도 탐험할 수 있다고 합니다.",
+        "context": "알리바바가 실시간 탐험이 가능한 오픈형 월드 모델 'HappyOyster 1.0'을 공개했다.",
+        "url": "https://www.threads.com/@choi.openai/post/DZsuSmojys0",
+        "publishedAt": "2026-06-17T19:34:29.000Z"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "허깅페이스가 '가장 빠른 Gemma 만들기' 챌린지를 열었습니다. Claude Code, Gemini CLI, Codex 등 전 세계 AI 에이전트 100여 개가 붙어 일주일 만에 Gemma 4 추론 속도를 5배(초당 100토큰→500토큰 이상)로 끌어올렸습니다. 품질 지표(PPL ≈2.30)는 유지한 채 vLLM·커널·배칭 같은 순수 엔지니어링으로만 속도를 올린 방식입니다.",
+        "context": "허깅페이스의 'Gemma 속도 최적화 챌린지'에서 AI 에이전트들이 추론 속도를 5배 끌어올린 결과를 공유했다.",
+        "url": "https://www.threads.com/@choi.openai/post/DZsj8pHiehD",
+        "publishedAt": "2026-06-17T18:18:29.000Z"
+      },
+      {
+        "id": "threads_003",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "프랑스 에비앙 G7 정상회의에서 앤트로픽 CEO 다리오 아모데이가 G7 정상들에게 AI를 두고 민주주의 국가들이 분열되지 말아야 한다고 발언했습니다. 오픈AI의 샘 알트만도 동의했으며, 최근 미국 정부가 안보를 이유로 앤트로픽 모델 수출을 제한하면서 동맹국들의 우려가 커진 상황입니다.",
+        "context": "G7 에비앙 정상회의에서 다리오 아모데이가 AI를 둘러싼 민주주의 진영의 단합을 촉구했다.",
+        "url": "https://www.threads.com/@choi.openai/post/DZsiBzxDxBk",
+        "publishedAt": "2026-06-17T18:18:29.000Z"
+      },
+      {
+        "id": "threads_004",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "3B짜리 VibeThinker가 AIME26에서 94.3점을 기록해 수백 배 큰 Gemini 3 Pro, GLM-5, 딥시크 V3.2와 같은 점수대를 달성했습니다. 베이스는 Qwen2.5-Coder-3B로, SSP 후처리와 커리큘럼 SFT, 다영역 RL, 자기증류를 적용했습니다.",
+        "context": "초소형 모델 'VibeThinker' 3B가 AIME26 벤치마크에서 초대형 모델급 성능을 기록했다.",
+        "url": "https://www.threads.com/@choi.openai/post/DZsZpf_CEWg",
+        "publishedAt": "2026-06-17T17:18:29.000Z"
+      }
+    ],
+    "reddit_pulse": [],
+    "quick_bites": [
+      {
+        "id": "rss_014",
+        "title": "AI가 마취시키는 건 한 사람이 아니라 조직 전체다: 항공·의료가 먼저 겪은 자동화의 아이러니",
+        "excerpt": "AI를 잘 다루는 능력과 그 출력을 검증하는 능력은 다른 축이며, 한쪽이 오르는 동안 다른 쪽이 조용히 깎임. 이 글은 그 깎임이 개인이 아니라 조직 단위로 번지는 메커니즘과, 리더가 구조로 대응하는 법을 다룸.",
+        "body": "AI를 잘 다루는 능력과 그 출력을 검증하는 능력은 다른 축이며, 한쪽이 오르는 동안 다른 쪽이 조용히 깎임. 이 글은 그 깎임이 개인이 아니라 조직 단위로 번지는 메커니즘과, 리더가 구조로 대응하는 법을 다룸. AI는 저수준 노동을 숨기는 추상화가 아니라, 항공·의료가 먼저 겪은 자동화의 아이러니와 같은 패턴으로 조직 전체의 검증 역량을 갉아먹을 수 있다는 우려를 제기한다.",
+        "url": "https://news.hada.io/topic?id=30583",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-18T02:30:12+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_015",
+        "title": "에이전틱 코드 리뷰",
+        "excerpt": "코딩 에이전트의 급격한 성능 향상으로 엔지니어링의 어려운 지점이 코드 작성에서 그 코드를 신뢰할지 판단하는 일로 이동, 리뷰가 가장 레버리지 높은 작업이 됨.",
+        "body": "코딩 에이전트의 급격한 성능 향상으로 엔지니어링의 어려운 지점이 코드 작성에서 그 코드를 신뢰할지 판단하는 일로 이동, 리뷰가 가장 레버리지 높은 작업이 됨. AI는 산출량을 크게 늘리지만 품질과 리뷰 가능성은 떨어뜨려, 4배의 코드 대비 실제 가치 창출은 그에 미치지 못하는 경우가 많다는 점을 짚는다.",
+        "url": "https://news.hada.io/topic?id=30571",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-17T12:23:01+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_016",
+        "title": "인류는 다가오는 지능 폭발에 대한 준비가 되어 있지 않다",
+        "excerpt": "AI가 인간 개입 없이 스스로 코드를 고쳐 능력을 키우는 닫힌 루프 재귀적 자기개선(RSI) 단계에 수년 내 도달할 가능성이 있으며, 전례 없는 지능 폭발로 이어질 위험 존재.",
+        "body": "AI가 인간 개입 없이 스스로 코드를 고쳐 능력을 키우는 닫힌 루프 재귀적 자기개선(RSI) 단계에 수년 내 도달할 가능성이 있으며, 전례 없는 지능 폭발로 이어질 위험 존재. AI 연구소 창업자들조차 AI로 인한 파국적 사건 발생 확률을 10~50%로 추정한다는 점을 인용하며 대비의 필요성을 강조한다.",
+        "url": "https://news.hada.io/topic?id=30568",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-17T10:41:14+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_017",
+        "title": "Show GN: sfs - 여러 AI 에이전트가 공유하는 두뇌(shared brain) 파일시스템",
+        "excerpt": "Claude Code, Codex 같은 AI 에이전트를 여러 기기/세션에서 돌리다 보니, 에이전트마다 컨텍스트가 따로 쌓이고, 어제 한 에이전트가 정리해 둔 내용을 오늘 다른 기기의 에이전트는 모른다는 게 답답해서 만들었습니다.",
+        "body": "Claude Code, Codex 같은 AI 에이전트를 여러 기기/세션에서 돌리다 보니, 에이전트마다 컨텍스트가 따로 쌓이고, 어제 한 에이전트가 정리해 둔 내용을 오늘 다른 기기의 에이전트는 모른다는 게 답답해서 만들었습니다. 핵심 컨셉은 '여러 에이전트가 공유하는 두뇌(shared brain)'로, 파일시스템 형태로 컨텍스트를 동기화한다.",
+        "url": "https://news.hada.io/topic?id=30573",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-17T16:24:55+09:00",
+        "readTime": 2,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_018",
+        "title": "curl 없는 컨테이너에서 Bash /dev/tcp로 HTTP 요청 보내기",
+        "excerpt": "최소 컨테이너 이미지에는 curl이나 wget이 빠져 있는 경우가 많아, 패키지 설치 없이 내부 서비스 연결성을 확인할 우회 방법이 유용함.",
+        "body": "최소 컨테이너 이미지에는 curl이나 wget이 빠져 있는 경우가 많아, 패키지 설치 없이 내부 서비스 연결성을 확인할 우회 방법이 유용함. Bash의 /dev/tcp/host/port 리다이렉션은 TCP 소켓을 열 수 있어, HTTP/1.1 요청 문자열을 직접 써 보내고 응답을 받아볼 수 있다.",
+        "url": "https://news.hada.io/topic?id=30580",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-18T01:36:15+09:00",
+        "readTime": 1,
+        "imageGradient": 0
+      }
+    ]
+  }
+}
