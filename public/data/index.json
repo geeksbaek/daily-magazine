@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-06-21",
+      "issueNumber": 79,
+      "mainHeadline": "오픈AI·구글 딥마인드, AI 통제 로드맵 공개 행렬",
+      "headlines": [
+        "GPT-5.5, MIT 라이선스 오픈웨이트 GLM-5.2보다 환각률 3배 높아",
+        "구글 제미니 공동 리더 노암 셔자이어, 오픈AI로 이적설",
+        "GitHub Copilot, Opus 4.6(fast) 6월 29일 단계적 종료"
+      ]
+    },
+    {
       "date": "2026-06-19",
       "issueNumber": 78,
       "mainHeadline": "오픈AI, 사이버 다음 단계로 '의료'를 정조준하다",

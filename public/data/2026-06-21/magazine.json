@@ -1,0 +1,779 @@
+{
+  "date": "2026-06-21",
+  "issueNumber": 79,
+  "cover": {
+    "mainHeadline": "오픈AI·구글 딥마인드, AI 통제 로드맵 공개 행렬",
+    "mainExcerpt": "오픈AI가 모델을 '광범위하고 지속적으로 유익하게' 훈련하는 새 연구를 공개한 다음 날, 구글 딥마인드도 자체 AI Control Roadmap을 발표했다. AI 에이전트를 내부 위협자로 간주하고 단계별 감시·대응 체계를 두는 방식이 업계 표준으로 자리잡는 분위기다.",
+    "headlines": [
+      "GPT-5.5, MIT 라이선스 오픈웨이트 GLM-5.2보다 환각률 3배 높아",
+      "구글 제미니 공동 리더 노암 셔자이어, 오픈AI로 이적설",
+      "GitHub Copilot, Opus 4.6(fast) 6월 29일 단계적 종료"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_001",
+      "title": "GPT-5.5, MIT 라이선스 GLM-5.2보다 환각률 3배 높아",
+      "excerpt": "대형 AI 연구소들 사이에서 무한 확장 전략에 대한 회의가 커지는 가운데, 모델 크기가 곧 현실 정확성을 보장하지 않는다는 사례가 나왔다. 오픈 웨이트 모델 GLM-5.2가 GPT-5.5와 점수 차이를 4점까지 좁혔다.",
+      "body": "MIT 라이선스로 공개된 오픈 웨이트 모델 GLM-5.2(753B 파라미터, 활성 파라미터 약 40B)가 환각률에서 GPT-5.5보다 훨씬 낮은 수치를 보이며 종합 점수에서도 4점 차이까지 따라붙었다. 이는 단순히 모델 크기를 키우는 전략만으로는 사실 정확성을 보장할 수 없다는 점을 보여주는 사례로 거론된다. 업계에서는 무한 확장(scaling) 전략의 한계에 대한 논의가 다시 불붙고 있다.",
+      "url": "https://news.hada.io/topic?id=30668",
+      "source": "GeekNews",
+      "category": "ai_ml",
+      "publishedAt": "2026-06-21T00:41:19+09:00",
+      "readTime": 3,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_002",
+      "title": "AI 엔지니어, 100년 미해독 미노아 문자 'Linear A' 해독 주장",
+      "excerpt": "청동기 시대 문자 Linear A가 100년 넘게 미해독 상태였던 가운데, 한 AI 엔지니어가 Claude Code를 활용해 해독안을 제시했다. 언어학계의 검증이 이어지고 있다.",
+      "body": "Tom Di Mino는 Linear A를 성서 히브리어의 선행 언어에 가까운 사멸한 셈어 계열로 보는 해독안을 제시했다. 그의 주장이 맞다면 언어학 분야에서 큰 사건이 될 수 있으며, Rutgers와 Cambridge의 언어학 전문가들이 검증에 참여하고 있다. 이 작업은 Claude Code를 보조 도구로 활용해 진행된 것으로 알려져, AI가 인문학 난제 해결에도 기여할 수 있음을 보여주는 사례로 주목받고 있다.",
+      "url": "https://news.hada.io/topic?id=30661",
+      "source": "GeekNews",
+      "category": "ai_ml",
+      "publishedAt": "2026-06-20T16:41:18+09:00",
+      "readTime": 3,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_005",
+      "title": "깃허브, 사내 데이터 분석 에이전트 'Qubot' 구축 사례 공개",
+      "excerpt": "깃허브가 자체 개발한 Copilot 기반 분석 에이전트 Qubot을 소개했다. 모든 직원이 평문으로 사내 데이터를 질의할 수 있게 됐다.",
+      "body": "깃허브는 Copilot 기술을 활용한 내부용 분석 에이전트 Qubot을 구축하며 얻은 교훈을 블로그에 공개했다. 직원들은 복잡한 쿼리 작성 없이 자연어로 데이터에 대한 질문을 던질 수 있으며, 이 과정에서 데이터 신뢰도 확보와 권한 관리, 응답 정확성 검증 등에서 얻은 실무 노하우를 상세히 다뤘다.",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent/",
+      "source": "GitHub Blog",
+      "category": "dev_tools",
+      "publishedAt": "2026-06-20T01:00:00+09:00",
+      "readTime": 5,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_008",
+      "title": "클라우드플레어, AI 에이전트 전용 '임시 계정' 출시",
+      "excerpt": "AI 에이전트가 배포 작업을 시도할 때마다 인간 중심으로 설계된 인증 장벽에 막히는 문제를 해결하기 위해, 클라우드플레어가 Workers용 임시 계정 기능을 내놨다.",
+      "body": "클라우드플레어는 어떤 에이전트든 'wrangler deploy' 명령 한 번으로 몇 초 안에 임시 계정과 라이브 Worker를 받을 수 있는 기능을 공개했다. 기존에는 에이전트가 무언가를 배포하려는 순간 인간 사용자를 가정하고 만들어진 인증 절차에 막히는 경우가 많았는데, 이번 기능으로 그 장벽을 낮췄다.",
+      "url": "https://blog.cloudflare.com/temporary-accounts/",
+      "source": "Cloudflare Blog",
+      "category": "dev_tools",
+      "publishedAt": "2026-06-19T22:00:00+09:00",
+      "readTime": 4,
+      "imageGradient": 3
+    },
+    {
+      "id": "rss_004",
+      "title": "노르웨이, 초등학교 생성형 AI 사용 사실상 금지",
+      "excerpt": "노르웨이가 학습 과정 훼손을 막기 위해 초등학생의 생성형 AI 사용을 사실상 금지하고, 상급 학년의 교육용 AI 사용도 단계적으로 제한한다.",
+      "body": "시험 점수 하락이 이어지는 가운데, 노르웨이는 2024년 학교 내 스마트폰 금지와 교실 규율 강화에 이어 디지털 기기 의존도를 낮추는 정책을 계속 확대하고 있다. 이번 조치는 초등학생의 생성형 AI 사용을 사실상 금지하는 한편, 상급 학년에서도 교육용 AI 활용을 단계적으로 제한하는 내용을 담고 있어 유럽 내 AI 교육 정책 논쟁에 새로운 기준점이 될 전망이다.",
+      "url": "https://news.hada.io/topic?id=30655",
+      "source": "GeekNews",
+      "category": "ai_ml",
+      "publishedAt": "2026-06-20T10:41:17+09:00",
+      "readTime": 3,
+      "imageGradient": 3
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_001",
+        "title": "GPT-5.5, MIT 라이선스 GLM-5.2보다 환각률 3배 높아",
+        "excerpt": "대형 AI 연구소들 사이에서 무한 확장 전략에 대한 회의가 커지는 가운데, 모델 크기가 곧 현실 정확성을 보장하지 않는다는 사례가 나왔다. 오픈 웨이트 모델 GLM-5.2가 GPT-5.5와 점수 차이를 4점까지 좁혔다.",
+        "body": "MIT 라이선스로 공개된 오픈 웨이트 모델 GLM-5.2(753B 파라미터, 활성 파라미터 약 40B)가 환각률에서 GPT-5.5보다 훨씬 낮은 수치를 보이며 종합 점수에서도 4점 차이까지 따라붙었다. 이는 단순히 모델 크기를 키우는 전략만으로는 사실 정확성을 보장할 수 없다는 점을 보여주는 사례로 거론된다. 업계에서는 무한 확장(scaling) 전략의 한계에 대한 논의가 다시 불붙고 있다.",
+        "url": "https://news.hada.io/topic?id=30668",
+        "source": "GeekNews",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-21T00:41:19+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_002",
+        "title": "AI 엔지니어, 100년 미해독 미노아 문자 'Linear A' 해독 주장",
+        "excerpt": "청동기 시대 문자 Linear A가 100년 넘게 미해독 상태였던 가운데, 한 AI 엔지니어가 Claude Code를 활용해 해독안을 제시했다. 언어학계의 검증이 이어지고 있다.",
+        "body": "Tom Di Mino는 Linear A를 성서 히브리어의 선행 언어에 가까운 사멸한 셈어 계열로 보는 해독안을 제시했다. 그의 주장이 맞다면 언어학 분야에서 큰 사건이 될 수 있으며, Rutgers와 Cambridge의 언어학 전문가들이 검증에 참여하고 있다. 이 작업은 Claude Code를 보조 도구로 활용해 진행된 것으로 알려져, AI가 인문학 난제 해결에도 기여할 수 있음을 보여주는 사례로 주목받고 있다.",
+        "url": "https://news.hada.io/topic?id=30661",
+        "source": "GeekNews",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-20T16:41:18+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_003",
+        "title": "토큰 압축의 착시, RTK에 회의적인 이유",
+        "excerpt": "코딩 에이전트의 터미널 출력을 압축해 비용을 낮춘다는 RTK의 약속과 달리, 원시 출력 감소가 곧 더 저렴하고 안전하며 정확한 소프트웨어 엔지니어링을 의미하지는 않는다는 비판이 제기됐다.",
+        "body": "RTK가 내세우는 '60~90% 절감'이라는 수치는 LLM 청구액이 그만큼 줄었다는 뜻이 아니라, RTK가 제거한 명령줄 출력의 비중을 가리킬 뿐이라는 지적이다. 글쓴이는 토큰 수를 줄이는 것과 실제 비용·정확성·안전성을 개선하는 것은 다른 문제라며, 출력 압축 자체를 과대평가하지 말아야 한다고 강조한다.",
+        "url": "https://news.hada.io/topic?id=30660",
+        "source": "GeekNews",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-20T15:21:18+09:00",
+        "readTime": 4,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_004",
+        "title": "노르웨이, 초등학교 생성형 AI 사용 사실상 금지",
+        "excerpt": "노르웨이가 학습 과정 훼손을 막기 위해 초등학생의 생성형 AI 사용을 사실상 금지하고, 상급 학년의 교육용 AI 사용도 단계적으로 제한한다.",
+        "body": "시험 점수 하락이 이어지는 가운데, 노르웨이는 2024년 학교 내 스마트폰 금지와 교실 규율 강화에 이어 디지털 기기 의존도를 낮추는 정책을 계속 확대하고 있다. 이번 조치는 초등학생의 생성형 AI 사용을 사실상 금지하는 한편, 상급 학년에서도 교육용 AI 활용을 단계적으로 제한하는 내용을 담고 있어 유럽 내 AI 교육 정책 논쟁에 새로운 기준점이 될 전망이다.",
+        "url": "https://news.hada.io/topic?id=30655",
+        "source": "GeekNews",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-20T10:41:17+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_005",
+        "title": "깃허브, 사내 데이터 분석 에이전트 'Qubot' 구축 사례 공개",
+        "excerpt": "깃허브가 자체 개발한 Copilot 기반 분석 에이전트 Qubot을 소개했다. 모든 직원이 평문으로 사내 데이터를 질의할 수 있게 됐다.",
+        "body": "깃허브는 Copilot 기술을 활용한 내부용 분석 에이전트 Qubot을 구축하며 얻은 교훈을 블로그에 공개했다. 직원들은 복잡한 쿼리 작성 없이 자연어로 데이터에 대한 질문을 던질 수 있으며, 이 과정에서 데이터 신뢰도 확보와 권한 관리, 응답 정확성 검증 등에서 얻은 실무 노하우를 상세히 다뤘다.",
+        "url": "https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-20T01:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_006",
+        "title": "GitHub Copilot, 사용자별 AI 크레딧 소비량 지표 API에 추가",
+        "excerpt": "Copilot 사용량 지표 API가 이제 사용자별 일일 AI 크레딧 소비량을 보여준다. 사용량 기반 과금 데이터와 동일한 출처에서 산출된다.",
+        "body": "깃허브는 Copilot 사용량 지표 API를 업데이트해 각 사용자가 하루에 소비한 AI 크레딧 양을 확인할 수 있도록 했다. 이 데이터는 사용량 기반 과금 API에서 쓰이는 것과 동일한 소비 데이터에서 산출되어, 조직이 팀 단위 Copilot 활용도를 더 세밀하게 파악할 수 있게 됐다.",
+        "url": "https://github.blog/changelog/2026-06-19-ai-credits-consumed-per-user-now-in-the-copilot-usage-metrics-api",
+        "source": "GitHub Copilot Changelog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-20T01:23:29+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_007",
+        "title": "GitHub Copilot, Opus 4.6(fast) 6월 29일 단계적 종료",
+        "excerpt": "깃허브가 Copilot Chat, 인라인 편집, ask·agent 모드, 코드 완성 등 모든 Copilot 경험에서 Opus 4.6(fast) 모델을 6월 29일 종료한다고 발표했다.",
+        "body": "깃허브는 Copilot 전반에 걸쳐 제공되던 Opus 4.6(fast) 모델을 2026년 6월 29일부로 단계적으로 종료한다고 공지했다. 해당 모델을 사용 중인 워크플로는 종료 전에 대체 모델로 전환해야 하며, 깃허브는 변경 일정을 changelog를 통해 공지했다.",
+        "url": "https://github.blog/changelog/2026-06-18-upcoming-deprecation-of-opus-4-6-fast",
+        "source": "GitHub Copilot Changelog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-19T08:58:34+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_008",
+        "title": "클라우드플레어, AI 에이전트 전용 '임시 계정' 출시",
+        "excerpt": "AI 에이전트가 배포 작업을 시도할 때마다 인간 중심으로 설계된 인증 장벽에 막히는 문제를 해결하기 위해, 클라우드플레어가 Workers용 임시 계정 기능을 내놨다.",
+        "body": "클라우드플레어는 어떤 에이전트든 'wrangler deploy' 명령 한 번으로 몇 초 안에 임시 계정과 라이브 Worker를 받을 수 있는 기능을 공개했다. 기존에는 에이전트가 무언가를 배포하려는 순간 인간 사용자를 가정하고 만들어진 인증 절차에 막히는 경우가 많았는데, 이번 기능으로 그 장벽을 낮췄다.",
+        "url": "https://blog.cloudflare.com/temporary-accounts/",
+        "source": "Cloudflare Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-19T22:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_009",
+        "title": "VS Code, 5줄짜리 평가를 5만 번 돌려 얻은 교훈",
+        "excerpt": "AI 코딩 모델이 아주 단순한 작업에서도 노력·토큰 비용·도구 사용을 어떻게 조절하는지를 5만 번의 실행으로 분석한 결과가 공개됐다.",
+        "body": "VS Code 팀은 5줄짜리 단순 평가 작업을 5만 차례 실행한 데이터를 분석해, AI 코딩 모델들이 작업 난이도에 따라 노력과 토큰 소비, 도구 호출 방식을 어떻게 조절하는지 살펴봤다. 이 결과는 모델 선택과 비용 최적화에 실질적인 시사점을 준다고 설명했다.",
+        "url": "https://code.visualstudio.com/blogs/2026/06/19/what-50000-runs-taught-us",
+        "source": "VS Code Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-19T09:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_010",
+        "title": "MCP용 Zero-Touch OAuth, 엔터프라이즈 관리형 인증 확장 안정화",
+        "excerpt": "기업이 MCP 서버 권한을 중앙에서 관리하고, 사용자는 한 번 로그인해 허가된 서버에 접근할 수 있는 Enterprise-Managed Authorization(EMA) 확장이 안정화됐다.",
+        "body": "기존에는 사용자별·서버별로 개별 OAuth 승인을 받아야 해 온보딩, 보안 정책 적용, 감사 추적, 업무 효율 모두에서 부담이 컸다. EMA 확장은 기업이 MCP 서버 접근 권한을 중앙에서 일괄 관리할 수 있게 해, 사용자는 한 번의 로그인으로 허가된 모든 서버에 접근할 수 있다.",
+        "url": "https://news.hada.io/topic?id=30657",
+        "source": "GeekNews",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-20T15:11:19+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_011",
+        "title": "Klorn, 중요한 것만 빼고 다 조용히 시키는 오픈소스 이메일 방화벽",
+        "excerpt": "최근 AI 메일 도구들은 문제를 줄이기보다 화면에 제안 카드와 'AI가 답장하라고 추천합니다' 배지를 더 늘려 인박스를 더 시끄럽게 만든다는 문제의식에서 출발한 오픈소스 프로젝트다.",
+        "body": "Klorn은 검토하지 않은 초안이 계속 쌓이고 알림이 늘어나는 기존 AI 메일 도구의 흐름과 반대로, 중요하지 않은 메일을 조용히 걸러내고 정말 중요한 것만 남기는 방식을 택한 오픈소스 이메일 방화벽이다. 화면에 기능을 추가하는 대신 노이즈를 줄이는 데 초점을 맞췄다.",
+        "url": "https://news.hada.io/topic?id=30667",
+        "source": "GeekNews",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-20T23:50:50+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      }
+    ],
+    "big_tech": [],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "희귀 유전 질환에 직면한 가족들을 돕기 위한 OpenAI. 이것은 1년이 넘은 o3으로 이루어졌으며, 오늘날의 모델들로 무엇이 가능할지 생각하는 것은 놀랍습니다.",
+        "context": "오픈AI 사장 그렉 브록먼이 o3 모델을 활용해 희귀 유전 질환 진단을 돕는 연구 성과를 공유했다.",
+        "url": "https://x.com/gdb/status/2068016345451831480",
+        "publishedAt": "2026-06-19T17:01:33.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "Codex 앱이 정말 좋습니다.",
+        "context": "브록먼이 오픈AI의 코딩 에이전트 Codex 앱에 대한 만족감을 짧게 표현한 게시물이다.",
+        "url": "https://x.com/gdb/status/2067884985596703079",
+        "publishedAt": "2026-06-19T08:19:34.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "엔터프라이즈를 위한 신용 사용 분석 및 업데이트된 지출 제어 기능 출시, 글로벌 관리 콘솔에서 사용 가능:",
+        "context": "오픈AI가 엔터프라이즈 고객을 위한 신용 사용 분석과 지출 제어 기능을 글로벌 관리 콘솔에 추가했다는 소식을 전했다.",
+        "url": "https://x.com/gdb/status/2067843106469515603",
+        "publishedAt": "2026-06-19T05:33:09.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "인류를 위한 의료 발전을 여는 추론 패러다임",
+        "context": "브록먼이 의료 분야에 새로운 추론 패러다임이 열리고 있다는 의견을 밝혔다.",
+        "url": "https://x.com/gdb/status/2067722188027994275",
+        "publishedAt": "2026-06-18T21:32:40.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Mark Chen",
+        "handle": "markchen90",
+        "content": "게임 체인저! 더 이상 노트북을 열린 상태로 유지하기 위해 물리적 발톱이 필요 없어요 ",
+        "context": "오픈AI 연구 책임자 마크 첸이 노트북을 열어둔 상태로 유지해주는 소품에 대해 가볍게 언급한 게시물이다.",
+        "url": "https://x.com/markchen90/status/2068088507432874312",
+        "publishedAt": "2026-06-19T21:48:18.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Joe Weisenthal",
+        "handle": "TheStalwart",
+        "content": "오늘 에피소드는 기본적으로 거의 10년 만에 @jackclarkSF 와 대화한 첫 번째 시간이었습니다.",
+        "context": "블룸버그 기자 조 와이센탈이 거의 10년 만에 잭 클락과 다시 대화를 나눴다며 과거 인터뷰 영상을 공유했다.",
+        "url": "https://x.com/TheStalwart/status/2067960364327674046",
+        "publishedAt": "2026-06-19T13:19:06.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "Jack Clark",
+        "handle": "jackclarkSF",
+        "content": "오늘 ET 기준 오후 6시에 저는 @sckimbriel 과 함께 NYC에서 @aspeninstitute 의 AI와 사회의 미래에 관한 대화에 참여합니다. RSI, AI 발전이 암시하는 미래, 기술 발전에 따라 고려해야 할 선택들에 대해 이야기합니다.",
+        "context": "앤트로픽 공동창업자 잭 클락이 아스펜 인스티튜트가 주최하는 AI와 사회의 미래에 관한 대화에 참여한다고 공지했다.",
+        "url": "https://x.com/jackclarkSF/status/2067710150773744093",
+        "publishedAt": "2026-06-18T20:44:50.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "Amanda Askell",
+        "handle": "AmandaAskell",
+        "content": "내 인생의 대부분 동안 만성 통증이 있었는데, 의사가 통증의 원인을 MRI로 검사한 결과 선천적 질환이 발견되어 수술로 고쳐졌다. 이제 의사들이 스캔 결과를 볼 정도로 내가 멍청하다고 걱정해서 30년 넘게 통증을 겪은 건 아닌가 싶다.",
+        "context": "앤트로픽 연구원 아만다 아스켈이 자신의 만성 통증이 뒤늦게 MRI로 발견된 선천적 질환 때문이었다는 개인적인 경험을 공유했다.",
+        "url": "https://x.com/AmandaAskell/status/2068218515723866477",
+        "publishedAt": "2026-06-20T06:24:54.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_009",
+        "author": "Amanda Askell",
+        "handle": "AmandaAskell",
+        "content": "우리가 부수적인 소견 때문에 해가 많이 된다고 해서 더 많은 의료 스캔을 하지 말아야 한다는 견해는 잘 맞지 않는다. 그 문제는 스캔 자체가 아니라 그에 대한 대응인 것 같다. 스캔에서 무언가를 보았지만 다른 증상이 없다면 무시할 수 있다.",
+        "context": "아스켈이 부수적 발견을 우려해 의료 스캔을 줄여야 한다는 주장에 대한 자신의 견해를 밝혔다.",
+        "url": "https://x.com/AmandaAskell/status/2068162191740764622",
+        "publishedAt": "2026-06-20T02:41:05.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_010",
+        "author": "Amanda Askell",
+        "handle": "AmandaAskell",
+        "content": "이에 대한 반론은 \"그래도 사람들은 무시하지는 않아요\"라는 것이다. 하지만 스캔에서 발견된 것을 무시하지 않는 관행은 최근까지 명백한 필요가 있을 때만 스캔을 했기 때문이다. 더 자주 스캔하는 패러다임으로 전환한다면 그 정보로 무엇을 할지 다시 생각해야 한다.",
+        "context": "앞선 게시물에 이어, 스캔 결과에 어떻게 대응할지에 대한 관행이 바뀌어야 한다는 의견을 덧붙였다.",
+        "url": "https://x.com/AmandaAskell/status/2068162192927756544",
+        "publishedAt": "2026-06-20T02:41:06.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_011",
+        "author": "Amanda Askell",
+        "handle": "AmandaAskell",
+        "content": "은퇴 위시리스트에 \"아이리스 반 헤르펜 드레스를 입다\"를 추가할 것 같아요. 정말 멋진 예술이네요.",
+        "context": "아스켈이 패션 디자이너 아이리스 반 헤르펜의 드레스를 입어보고 싶다는 소망을 가볍게 남긴 게시물이다.",
+        "url": "https://x.com/AmandaAskell/status/2067830990089884022",
+        "publishedAt": "2026-06-19T04:45:01.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_012",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "7월 1일 오전 9시에 AI Engineer World's Fair에서 Day 2 오프닝 기조연설을 하게 될 거예요. 거기서 뵙길 바라며, 간단한 프리뷰를 공유합니다.",
+        "context": "앤트로픽의 타리크가 AI Engineer World's Fair 둘째 날 오프닝 기조연설을 맡게 됐다고 공지했다.",
+        "url": "https://x.com/trq212/status/2067737883545596368",
+        "publishedAt": "2026-06-18T22:35:02.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_013",
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "content": "Claude Code를 사용하는 멋진 방법: 크레타에서 온 3500년 된 문자 언어인 Linear A 해독하기. 동료 검토에서 이게 잘 통과되길 바랍니다.",
+        "context": "앤트로픽 엔지니어 보리스 체르니가 Claude Code를 이용해 3500년 된 미노아 문자 Linear A를 해독한 시도를 공유했다. GeekNews에도 같은 소식이 보도됐다.",
+        "url": "https://x.com/bcherny/status/2068064304503660962",
+        "publishedAt": "2026-06-19T20:12:07.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_014",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "AI가 더 길고 중요한 작업을 맡게 됨에 따라, 모델들이 훈련을 넘어 새로운 영역으로 유익하고 안전한 행동을 확장하고 압박 속에서도 이를 유지할 수 있기를 바랍니다. 모델을 광범위하고 지속적으로 유익하게 훈련하는 새로운 연구를 소개합니다.",
+        "context": "오픈AI가 모델이 훈련을 넘어선 새로운 상황에서도 유익하고 안전한 행동을 유지하도록 훈련하는 새로운 연구를 공개했다.",
+        "url": "https://x.com/OpenAI/status/2067722688165232654",
+        "publishedAt": "2026-06-18T21:34:39.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_015",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "압박 하에서 정렬이 지속되는지 테스트했습니다. 모델은 적대적 프롬프트로 해로운 행동을 유도하기 더 어려웠으며 도움이 되는 지시에는 여전히 반응성을 유지했습니다. 해로운 미세 조정에 대한 더 큰 저항성의 예비 증거를 확인했습니다.",
+        "context": "오픈AI가 압박 상황에서도 모델의 정렬이 유지되는지 테스트한 결과, 해로운 행동 유도가 더 어려워졌다는 예비 증거를 확인했다고 밝혔다.",
+        "url": "https://x.com/OpenAI/status/2067722695270334549",
+        "publishedAt": "2026-06-18T21:34:41.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_016",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "AI가 더 유능해짐에 따라 더 신뢰할 수 있고 투명하며 사람들에게 도움이 되는 방향으로 발전할 수 있도록, 유익한 특성을 새로운 상황으로 확장해 나가는 모델 훈련을 통해 보다 견고하고 이로운 정렬 모델로 나아가는 초기 단계입니다.",
+        "context": "오픈AI는 이번 연구가 AI가 더 유능해질수록 신뢰할 수 있고 투명한 방향으로 발전하기 위한 초기 단계라고 설명했다.",
+        "url": "https://x.com/OpenAI/status/2067722696759329125",
+        "publishedAt": "2026-06-18T21:34:41.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "AI 회사들이 '우리는 AI를 통제할 수 있다'는 논문을 내기 시작했습니다. 어제 오픈AI, 오늘 구글 딥마인드입니다. 미토스 수출통제 이후 달라진 풍경입니다. 구글 딥마인드가 6월 18일 공개한 AI Control Roadmap은 내부에 배포되는 AI 에이전트를 어떻게 통제하는지를 담은 실제 운영 프레임워크로, AI 정렬이 완벽하다고 가정하지 않고 내부 보안 문제로 다룹니다. AI 에이전트를 잠재적 내부 위협자로 취급해 MITRE ATT&CK 프레임워크를 적용, 감시 수준 D1~D4와 대응 수준 R1~R3로 위협을 분류합니다.",
+        "context": "국내 AI 채널 choi.openai가 정리한 업계 동향 스레드.",
+        "url": "https://www.threads.net/@choi.openai/post/DZz0Fkvj2Y3",
+        "publishedAt": "2026-06-20T13:35:58.000Z"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "일론 머스크의 xAI는 사실상 실패했다는 평가가 나왔습니다. Meta의 수석 AI 과학자였던 얀 르쿤이 CNBC 인터뷰에서 xAI를 \"사실상 실패\"라고 평가했습니다. 머스크가 과거 팀원들과의 관계 문제로 최고 수준 AI 인재 영입이 어렵고, xAI가 구축한 대규모 데이터센터를 앤트로픽 같은 경쟁사에 임대하는 것도 막대한 인프라 비용 회수를 위한 선택이라고 분석했습니다. 다만 SpaceX는 \"훌륭한 일을 하고 있다\"고 평가했습니다.",
+        "context": "국내 AI 채널 choi.openai가 정리한 업계 동향 스레드.",
+        "url": "https://www.threads.net/@choi.openai/post/DZze0X2klht",
+        "publishedAt": "2026-06-20T10:30:07.000Z"
+      },
+      {
+        "id": "threads_003",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "링크드인 공동 창업자 리드 호프만은 AI가 신약 개발 프로세스를 혁신해 의료와 바이오 경제 전반에 거대한 특이점을 불러올 것이라 전망했습니다. \"AI는 인류 역사상 암을 비롯한 수많은 질병을 치료할 수 있는 가장 확실한 기회\"라며, 과거 수년에 걸쳐 수작업으로 계산하던 것을 이제 고성능 컴퓨팅으로 하루 만에 수백 개의 치료 가설을 도출·검증할 수 있다고 강조했습니다.",
+        "context": "국내 AI 채널 choi.openai가 정리한 업계 동향 스레드.",
+        "url": "https://www.threads.net/@choi.openai/post/DZzUm3aigWg",
+        "publishedAt": "2026-06-20T09:00:53.000Z"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "처음부터 직접 LLM을 만드는 워크숍을 공유합니다",
+        "originalTitle": "Hi Reddit, I posted my Build Your Own LLM workshop to Youtube teaching ML, LLM and math intuition [P]",
+        "summary": "LLM을 처음부터 직접 구축해보는 실습형 워크숍 자료가 공유되며 학습 자료로 호응을 얻고 있다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1uazlnd/hi_reddit_i_posted_my_build_your_own_llm_workshop/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-06-21T00:36:27+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "논문 없이 머신러닝 박사과정 학생을 졸업시킬 것인가",
+        "originalTitle": "Would you let an ML PhD student graduate without a top-tier paper? [D]",
+        "summary": "MachineLearning 서브레딧에서 화제가 된 게시물로, 커뮤니티 내 활발한 토론이 이어지고 있다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1uazlhg/would_you_let_an_ml_phd_student_graduate_without/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-06-21T00:36:16+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "DVD-JEPA: 오픈소스로 완전히 재현 가능한 JEPA 구현체 공개",
+        "originalTitle": "DVD-JEPA: an open-source, fully-reproducible JEPA world model [P]",
+        "summary": "메타의 JEPA 아키텍처를 오픈소스로 완전히 재현한 구현체가 공개되어 연구자들의 관심을 끌고 있다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1uatlzx/dvdjepa_an_opensource_fullyreproducible_jepa/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-06-20T19:52:35+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "AI가 만든 합성 안무에 대한 연구",
+        "originalTitle": "A study on synthetic [AI] choreographies",
+        "summary": "artificial 서브레딧에서 화제가 된 게시물로, 커뮤니티 내 활발한 토론이 이어지고 있다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1ub0kjp/a_study_on_synthetic_ai_choreographies/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-06-21T01:16:47+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "짐 크레이머, \"액센추어가 AI 컨설팅 경쟁에서 밀리고 있다\"는 데 동의",
+        "originalTitle": "Jim Cramer Agrees That Accenture Is “Being Outcompeted By OpenAI and Anthropic”",
+        "summary": "artificial 서브레딧에서 화제가 된 게시물로, 커뮤니티 내 활발한 토론이 이어지고 있다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1uapc81/jim_cramer_agrees_that_accenture_is_being/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-06-20T15:33:02+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "모델이 메스암페타민 제조법을 알게 되는 과정은 어떻게 되나",
+        "originalTitle": "So how does a model end up knowing how to cook meth?",
+        "summary": "artificial 서브레딧에서 화제가 된 게시물로, 커뮤니티 내 활발한 토론이 이어지고 있다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1ub4htt/so_how_does_a_model_end_up_knowing_how_to_cook/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-06-21T03:58:16+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "구글 제미니 공동 리더 노암 셔자이어, 오픈AI로 이적",
+        "originalTitle": "Google Gemini co-lead Noam Shazeer leaves for OpenAI",
+        "summary": "구글 제미니 공동 리더였던 노암 셔자이어가 오픈AI로 자리를 옮긴다는 소식이 알려지며 빅테크 간 AI 인재 이동이 다시 화제가 됐다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1uapcax/google_gemini_colead_noam_shazeer_leaves_for/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-06-20T15:33:10+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "앤트로픽은 AI 안전으로 이름을 쌓았다. 그 주장은 정밀 검증을 견딜 수 있을까",
+        "originalTitle": "Anthropic built its name on AI safety. Can those commitments survive a trillion-dollar IPO?",
+        "summary": "앤트로픽이 AI 안전을 핵심 정체성으로 내세워온 가운데, 실제 행보가 그 원칙과 부합하는지에 대한 커뮤니티의 비판적 논의가 이어지고 있다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1uayf30/anthropic_built_its_name_on_ai_safety_can_those/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-06-20T23:46:55+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "챗GPT 메모리 기능에 대한 질문",
+        "originalTitle": "Chat GPT memory question",
+        "summary": "OpenAI 서브레딧에서 화제가 된 게시물로, 커뮤니티 내 활발한 토론이 이어지고 있다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1uasp5n/chat_gpt_memory_question/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-06-20T18:59:29+09:00"
+      },
+      {
+        "id": "reddit_010",
+        "title": "AI가 드러낸 사실: 대부분의 사람들 독해 수준이 생각보다 낮다",
+        "originalTitle": "AI has revealed that most people have the reading ability at a third-grade level",
+        "summary": "ClaudeAI 서브레딧에서 화제가 된 게시물로, 커뮤니티 내 활발한 토론이 이어지고 있다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1uaqyni/ai_has_revealed_that_most_people_have_the_reading/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-06-20T17:09:47+09:00"
+      },
+      {
+        "id": "reddit_011",
+        "title": "신입 개발자들의 흔한 모습",
+        "originalTitle": "New devs be like",
+        "summary": "ClaudeAI 서브레딧에서 화제가 된 게시물로, 커뮤니티 내 활발한 토론이 이어지고 있다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1uau8au/new_devs_be_like/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-06-20T20:27:09+09:00"
+      },
+      {
+        "id": "reddit_012",
+        "title": "트럼프, 앤트로픽과 CEO 다리오, AI 국가 안보에 대해 언급",
+        "originalTitle": "Trump on Anthropic, CEO Dario and AI National Security",
+        "summary": "ClaudeAI 서브레딧에서 화제가 된 게시물로, 커뮤니티 내 활발한 토론이 이어지고 있다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1uat4bc/trump_on_anthropic_ceo_dario_and_ai_national/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-06-20T19:24:08+09:00"
+      },
+      {
+        "id": "reddit_013",
+        "title": "오픈소스 메인테이너의 번아웃은 현실이다",
+        "originalTitle": "Burnout Is Real for Open Source Maintainers: A Conversation with John-David Dalton, Creator of Lodash",
+        "summary": "programming 서브레딧에서 화제가 된 게시물로, 커뮤니티 내 활발한 토론이 이어지고 있다.",
+        "url": "https://www.reddit.com/r/programming/comments/1uaodhr/burnout_is_real_for_open_source_maintainers_a/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-06-20T14:37:53+09:00"
+      },
+      {
+        "id": "reddit_014",
+        "title": "'미니멀'과 '최소한의 노력'을 혼동하지 말 것",
+        "originalTitle": "Don't conflate 'Minimal' with Minimal Effort",
+        "summary": "programming 서브레딧에서 화제가 된 게시물로, 커뮤니티 내 활발한 토론이 이어지고 있다.",
+        "url": "https://www.reddit.com/r/programming/comments/1uaz1sv/dont_conflate_minimal_with_minimal_effort/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-06-21T00:13:33+09:00"
+      },
+      {
+        "id": "reddit_015",
+        "title": "Sema 언어로 바이트코드 VM 만들기",
+        "originalTitle": "Build a Bytecode VM (in Sema)",
+        "summary": "programming 서브레딧에서 화제가 된 게시물로, 커뮤니티 내 활발한 토론이 이어지고 있다.",
+        "url": "https://www.reddit.com/r/programming/comments/1uazs9j/build_a_bytecode_vm_in_sema/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-06-21T00:44:11+09:00"
+      },
+      {
+        "id": "reddit_016",
+        "title": "중국 AI 연구소 5곳, 토큰 가격 최대 99% 인하",
+        "originalTitle": "Five Chinese AI Labs Cut Token Prices Up to 99%",
+        "summary": "중국 AI 연구소들이 경쟁적으로 토큰 가격을 최대 99%까지 낮추면서, 저가 경쟁이 AI 모델 시장 전반에 미칠 영향에 대한 토론이 활발하다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1ub06rj/five_chinese_ai_labs_cut_token_prices_up_to_99/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-06-21T01:00:57+09:00"
+      },
+      {
+        "id": "reddit_017",
+        "title": "현대차, 소프트뱅크로부터 보스턴 다이내믹스 완전 인수",
+        "originalTitle": "Hyundai takes full control of Boston Dynamics as SoftBank exits for $325 million",
+        "summary": "현대자동차가 소프트뱅크가 보유하던 보스턴 다이내믹스 지분을 인수해 완전한 경영권을 확보했다는 소식이다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1uaozg4/hyundai_takes_full_control_of_boston_dynamics_as/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-06-20T15:12:03+09:00"
+      },
+      {
+        "id": "reddit_018",
+        "title": "로이터: 구글, 독일 법원의 판결에 반발해 항소 예정",
+        "originalTitle": "Reuters: Google to challenge German ruling saying it is liable for AI-generated false claims",
+        "summary": "singularity 서브레딧에서 화제가 된 게시물로, 커뮤니티 내 활발한 토론이 이어지고 있다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1uav88e/reuters_google_to_challenge_german_ruling_saying/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-06-20T21:19:14+09:00"
+      },
+      {
+        "id": "reddit_019",
+        "title": "좋은 직관은 가장 과소평가된 역량 중 하나다",
+        "originalTitle": "Good intuition is one of the most underrated traits of your top engineers",
+        "summary": "ExperiencedDevs 서브레딧에서 화제가 된 게시물로, 커뮤니티 내 활발한 토론이 이어지고 있다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1uayaj0/good_intuition_is_one_of_the_most_underrated/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-06-20T23:41:25+09:00"
+      },
+      {
+        "id": "reddit_020",
+        "title": "AI에 대한 과도한 의존",
+        "originalTitle": "Over reliance on AI",
+        "summary": "ExperiencedDevs 서브레딧에서 화제가 된 게시물로, 커뮤니티 내 활발한 토론이 이어지고 있다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1ub3uct/over_reliance_on_ai/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-06-21T03:31:32+09:00"
+      },
+      {
+        "id": "reddit_021",
+        "title": "AI 주도 사고와 신뢰성 연출이 무너뜨리는 것들",
+        "originalTitle": "AI-driven thinking and credibility theater are destroying my trust in my team",
+        "summary": "ExperiencedDevs 서브레딧에서 화제가 된 게시물로, 커뮤니티 내 활발한 토론이 이어지고 있다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1uaxfoq/aidriven_thinking_and_credibility_theater_are/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-06-20T23:03:47+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_012",
+        "title": "윈도우 XP 테마로 꾸민 포트폴리오 사이트, 작동하는 게임보이·아이팟까지",
+        "excerpt": "1년 전 공개해 큰 반응을 얻었던 윈도우 XP 테마 포트폴리오가 업데이트되어 다시 공개됐다. 실제로 작동하는 게임보이와 아이팟 위젯이 포함돼 있다.",
+        "body": "제작자는 작년에 같은 콘셉트의 포트폴리오를 공개해 호불호가 갈리는 반응을 얻었는데, 이번에도 비슷한 반응이 예상된다고 밝혔다. 복고풍 디자인 안에 실제로 동작하는 게임보이 에뮬레이터와 아이팟 스타일 음악 플레이어를 구현해 향수를 자극하는 완성도를 보여준다.",
+        "url": "https://mitchivin.com/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-21T04:18:48+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_013",
+        "title": "PostgresBench, 포스트그레스 서비스용 재현 가능한 벤치마크 공개",
+        "excerpt": "클릭하우스가 다양한 매니지드 포스트그레스 서비스를 비교할 수 있는 재현 가능한 벤치마크 도구 PostgresBench를 선보였다.",
+        "body": "PostgresBench는 결과를 일관되게 재현할 수 있도록 설계되어, 여러 클라우드 제공업체의 매니지드 포스트그레스 서비스 성능을 공정하게 비교하는 데 쓰일 수 있다. 데이터베이스 선택을 고민하는 엔지니어들에게 실질적인 참고 자료가 될 전망이다.",
+        "url": "https://clickhouse.com/blog/postgresbench",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-21T04:01:10+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_014",
+        "title": "신체 일부 재생 능력, 포유류에서 사라진 게 아니라 잠들어 있을 뿐",
+        "excerpt": "포유류도 신체 일부를 재생하는 능력을 완전히 잃은 것이 아니라 휴면 상태로 가지고 있을 수 있다는 새로운 연구 결과가 나왔다.",
+        "body": "연구진은 도마뱀이나 일부 양서류에서 흔히 보이는 재생 능력의 유전적 기반이 포유류에게도 남아있으며, 단지 발현되지 않고 있을 뿐이라는 근거를 제시했다. 이 발견은 향후 인간의 조직 재생 치료법 연구에 새로운 방향을 제시할 수 있다는 평가다.",
+        "url": "https://www.sciencedaily.com/releases/2026/06/260617032207.htm",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-21T02:27:36+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_015",
+        "title": "Bun, JavaScriptCore에 공유 메모리 스레드 추가하는 PR 진행 중",
+        "excerpt": "Bun 팀이 자체 포크한 WebKit/JavaScriptCore에 공유 메모리 기반 스레드를 추가하는 풀 리퀘스트를 열어 진행하고 있다.",
+        "body": "이 PR이 머지되면 Bun 런타임에서 더 효율적인 멀티스레드 자바스크립트 실행이 가능해질 것으로 기대된다. 커뮤니티에서는 Node.js 등 경쟁 런타임과의 성능 격차를 좁힐 잠재적 변화로 주목하고 있다.",
+        "url": "https://github.com/oven-sh/WebKit/pull/249",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-21T02:02:49+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_016",
+        "title": "둠·울펜슈타인 3D·듀크 뉴켐 3D 작곡가 보비 프린스 별세",
+        "excerpt": "초기 3D 슈터 게임 특유의 분위기를 만든 작곡가 로버트 캐스킨 '보비' 프린스 3세가 2026년 6월 16일 별세했다.",
+        "body": "프린스는 베트남전 기간 미 육군 소대장으로 복무한 뒤 상담·법률 분야를 거쳐 비디오게임 음악 작곡으로 전환한 독특한 경력을 지녔다. 그의 음악은 게임 사운드가 작품 정체성의 핵심이 될 수 있음을 보여준 사례로 평가받는다.",
+        "url": "https://news.hada.io/topic?id=30665",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-20T22:41:20+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_017",
+        "title": "17만 개 영어 단어 중 당신은 몇 개를 알고 있을까",
+        "excerpt": "VocabOwl은 171,476개 영어 단어를 기준으로 사용자가 실제로 아는 단어 수를 추정하는 'Scientific Word Count' 도구다.",
+        "body": "100문항 챌린지를 풀면 전체 어휘 규모를 추정한 결과를 볼 수 있는 방식으로, 짧은 테스트만으로 방대한 어휘 데이터베이스 기준 자신의 어휘력을 가늠해볼 수 있다는 점이 흥미를 끌고 있다.",
+        "url": "https://news.hada.io/topic?id=30666",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-20T22:51:19+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_018",
+        "title": "에어팟 효과: 무선 이어버드가 낯선 사람과의 대화를 줄인다",
+        "excerpt": "에어팟 같은 이어버드가 공공장소에서 '말 걸지 말라'는 무언의 신호로 작동해, 낯선 사람 사이의 짧은 대화를 줄이고 있다는 분석이 나왔다.",
+        "body": "미국인의 44%가 블루투스·무선 이어폰을, 24%가 유선 이어폰을 쓰는 것으로 추정되며, 평균 발화 단어 수는 2005년부터 2019년 사이 28% 감소한 것으로 나타났다. 기기 착용이 일상적인 사회적 상호작용 감소와 맞물려 있다는 해석이다.",
+        "url": "https://news.hada.io/topic?id=30656",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-20T15:11:20+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_019",
+        "title": "법원 기록은 무료여야 한다, PACER 수수료 폐지 법안 발의",
+        "excerpt": "연방 법원 문서는 공공 기록이지만 PACER 수수료 때문에 대중의 검색·열람 접근이 제한돼 왔다. 이를 바꾸려는 법안이 발의됐다.",
+        "body": "Open Courts Act of 2026은 노후한 PACER와 CM/ECF 시스템을 현대화하고, 연방 법원의 전자 제출 시스템에서 수수료를 없애려는 목적을 담고 있다. 통과되면 일반 대중의 법원 기록 접근성이 크게 개선될 것으로 기대된다.",
+        "url": "https://news.hada.io/topic?id=30664",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-20T22:41:19+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      }
+    ]
+  }
+}
