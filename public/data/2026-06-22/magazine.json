@@ -1,0 +1,682 @@
+{
+  "date": "2026-06-22",
+  "issueNumber": 80,
+  "cover": {
+    "mainHeadline": "클로드 소넷 5 출시 임박 — 커뮤니티 곳곳서 동시 포착",
+    "mainExcerpt": "r/ClaudeAI와 r/singularity 양쪽에서 동시에 클로드 소넷 5의 흔적이 포착됐다는 제보가 올라오며 다음 주 출시 기대감이 커지고 있다. 같은 시점에 트럼프 행정부의 앤트로픽 추가 단속, Mythos 수출통제 논란, NSA 기밀시스템 침해 보도까지 겹치며 앤트로픽을 둘러싼 화제가 한꺼번에 몰리는 분위기다.",
+    "headlines": [
+      "얀 르쿤, \"xAI는 일종의 실패작\" — AI 업계 전체가 리셋을 맞을 수도 있다고 경고",
+      "NSA, 앤트로픽 Mythos가 기밀 시스템을 몇 시간 만에 뚫었다는 보도 재확산",
+      "앤트로픽, Claude 이용자 대상 신원 확인 절차 새로 도입"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_001",
+      "title": "트럼프 행정부의 앤트로픽 추가 단속, 득을 보는 건 누구인가",
+      "excerpt": "팟캐스트 Equity 최신 에피소드에서, 트럼프 행정부가 앤트로픽을 상대로 또다시 압박에 나선 실제 배경과 그 의도를 짚었다. 이번 조치가 AI 생태계 전반에 어떤 파장을 남길지가 핵심 쟁점이다.",
+      "body": "TechCrunch의 팟캐스트 Equity는 최근 트럼프 행정부가 앤트로픽을 겨냥해 추가로 단속에 나선 배경을 분석했다. 진행자들은 이번 조치를 촉발한 실제 계기가 무엇인지, 그리고 이것이 AI 업계 전체 경쟁 구도에 어떤 영향을 줄지 논의했다. 이미 Mythos 수출통제와 Fable 5 모델 회수 조치로 홍역을 치른 앤트로픽이 이번에는 어떤 식으로 대응할지, 경쟁사들이 반사 이익을 얻을 가능성은 없는지가 주요 관전 포인트로 떠올랐다.",
+      "url": "https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-06-22T00:28:17+09:00",
+      "readTime": 3,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_004",
+      "title": "유비소프트 공동창업자 클로드 기유모, 비행기 추락 사고로 사망",
+      "excerpt": "형제들과 함께 유비소프트를 세운 클로드 기유모가 69세를 일기로 비행기 추락 사고로 세상을 떠났다.",
+      "body": "프랑스 게임업계의 거목으로 꼽히는 클로드 기유모가 비행기 추락 사고로 사망했다. 그는 네 형제와 함께 1986년 유비소프트를 공동 창업해 어쌔신 크리드, 파 크라이 등 굵직한 프랜차이즈를 키워낸 인물로, 향년 69세였다. 게임업계 전반에서 추모가 이어지고 있다.",
+      "url": "https://techcrunch.com/2026/06/21/ubisoft-co-founder-claude-guillemot-dies-in-plane-crash/",
+      "source": "TechCrunch",
+      "category": "big_tech",
+      "publishedAt": "2026-06-22T03:34:31+09:00",
+      "readTime": 2,
+      "imageGradient": 3
+    },
+    {
+      "id": "rss_005",
+      "title": "시리 너머 — iOS 27에서 만나는 실용적인 AI 기능들",
+      "excerpt": "WWDC에서는 시리의 AI 개편이 가장 큰 화제였지만, 정작 아이폰 사용자에게 유용한 AI 기능들은 iOS 27의 다른 곳곳에 숨어 있다.",
+      "body": "애플이 WWDC에서 발표한 iOS 27은 시리의 전면적인 AI 개편이 헤드라인을 장식했지만, 실제 사용자 체감도가 높은 변화는 카메라, 메모, 메시지 등 일상 앱 곳곳에 스며든 실용적 AI 기능들이라는 분석이다. 화려한 발표보다 조용히 일상을 바꾸는 기능들이 iOS 27의 진짜 핵심이라는 평가가 나온다.",
+      "url": "https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-06-21T23:40:28+09:00",
+      "readTime": 3,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_002",
+      "title": "노벨상 수상자 존 점퍼, 구글 딥마인드 떠나 경쟁사 앤트로픽으로",
+      "excerpt": "알파폴드로 노벨화학상을 받은 존 점퍼가 구글 딥마인드를 떠나 경쟁사인 앤트로픽으로 자리를 옮긴다. 점퍼만이 아니라 딥마인드를 떠나는 빅네임이 잇따르고 있다는 점도 눈길을 끈다.",
+      "body": "단백질 구조 예측 모델 알파폴드로 노벨화학상을 공동 수상한 존 점퍼가 구글 딥마인드를 나와 경쟁사 앤트로픽에 합류한다. 보도에 따르면 점퍼의 이동은 최근 딥마인드를 떠나는 핵심 연구자 행렬의 일부로, 구글의 AI 연구 조직이 인재 유출을 겪고 있다는 신호로 해석된다. 앤트로픽이 최근 Mythos 수출통제 논란 속에서도 핵심 인재 영입을 이어가고 있다는 점에서, 이번 영입은 업계 역학 구도에 작지 않은 변화를 예고한다.",
+      "url": "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-06-21T01:39:57+09:00",
+      "readTime": 3,
+      "imageGradient": 2
+    },
+    {
+      "id": "rss_003",
+      "title": "PGP에서 Mythos까지 — 누구도 막지 못했던 사이버 수출통제의 역사",
+      "excerpt": "지난 30년간 사이버보안 관련 소프트웨어의 국외 유출을 막으려는 수출통제는 효과를 보지 못했다. 앤트로픽의 사이버보안 모델 Mythos에 대한 통제가 이번엔 다를 거라는 근거는 부족하다는 분석이다.",
+      "body": "기사는 1990년대 PGP 암호화 소프트웨어 수출통제 논란부터 스파이웨어 규제 시도까지, 지난 30년간 사이버보안 관련 기술의 국경을 넘는 흐름을 막으려 했던 시도들이 대부분 실패했다는 역사를 되짚는다. 최근 미국 정부가 앤트로픽의 사이버보안 특화 모델 Mythos에 대해 수출통제에 나섰지만, 과거 사례들을 볼 때 이런 식의 통제가 실제로 기술 확산을 막을 수 있을지는 의문이라는 게 핵심 주장이다. 오히려 통제 시도 자체가 해당 기술의 화제성과 가치를 부각시키는 역효과를 낳을 수 있다는 지적도 곁들여졌다.",
+      "url": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-06-20T07:40:14+09:00",
+      "readTime": 4,
+      "imageGradient": 0
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_001",
+        "title": "트럼프 행정부의 앤트로픽 추가 단속, 득을 보는 건 누구인가",
+        "excerpt": "팟캐스트 Equity 최신 에피소드에서, 트럼프 행정부가 앤트로픽을 상대로 또다시 압박에 나선 실제 배경과 그 의도를 짚었다. 이번 조치가 AI 생태계 전반에 어떤 파장을 남길지가 핵심 쟁점이다.",
+        "body": "TechCrunch의 팟캐스트 Equity는 최근 트럼프 행정부가 앤트로픽을 겨냥해 추가로 단속에 나선 배경을 분석했다. 진행자들은 이번 조치를 촉발한 실제 계기가 무엇인지, 그리고 이것이 AI 업계 전체 경쟁 구도에 어떤 영향을 줄지 논의했다. 이미 Mythos 수출통제와 Fable 5 모델 회수 조치로 홍역을 치른 앤트로픽이 이번에는 어떤 식으로 대응할지, 경쟁사들이 반사 이익을 얻을 가능성은 없는지가 주요 관전 포인트로 떠올랐다.",
+        "url": "https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-22T00:28:17+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_005",
+        "title": "시리 너머 — iOS 27에서 만나는 실용적인 AI 기능들",
+        "excerpt": "WWDC에서는 시리의 AI 개편이 가장 큰 화제였지만, 정작 아이폰 사용자에게 유용한 AI 기능들은 iOS 27의 다른 곳곳에 숨어 있다.",
+        "body": "애플이 WWDC에서 발표한 iOS 27은 시리의 전면적인 AI 개편이 헤드라인을 장식했지만, 실제 사용자 체감도가 높은 변화는 카메라, 메모, 메시지 등 일상 앱 곳곳에 스며든 실용적 AI 기능들이라는 분석이다. 화려한 발표보다 조용히 일상을 바꾸는 기능들이 iOS 27의 진짜 핵심이라는 평가가 나온다.",
+        "url": "https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-21T23:40:28+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_002",
+        "title": "노벨상 수상자 존 점퍼, 구글 딥마인드 떠나 경쟁사 앤트로픽으로",
+        "excerpt": "알파폴드로 노벨화학상을 받은 존 점퍼가 구글 딥마인드를 떠나 경쟁사인 앤트로픽으로 자리를 옮긴다. 점퍼만이 아니라 딥마인드를 떠나는 빅네임이 잇따르고 있다는 점도 눈길을 끈다.",
+        "body": "단백질 구조 예측 모델 알파폴드로 노벨화학상을 공동 수상한 존 점퍼가 구글 딥마인드를 나와 경쟁사 앤트로픽에 합류한다. 보도에 따르면 점퍼의 이동은 최근 딥마인드를 떠나는 핵심 연구자 행렬의 일부로, 구글의 AI 연구 조직이 인재 유출을 겪고 있다는 신호로 해석된다. 앤트로픽이 최근 Mythos 수출통제 논란 속에서도 핵심 인재 영입을 이어가고 있다는 점에서, 이번 영입은 업계 역학 구도에 작지 않은 변화를 예고한다.",
+        "url": "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-21T01:39:57+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_003",
+        "title": "PGP에서 Mythos까지 — 누구도 막지 못했던 사이버 수출통제의 역사",
+        "excerpt": "지난 30년간 사이버보안 관련 소프트웨어의 국외 유출을 막으려는 수출통제는 효과를 보지 못했다. 앤트로픽의 사이버보안 모델 Mythos에 대한 통제가 이번엔 다를 거라는 근거는 부족하다는 분석이다.",
+        "body": "기사는 1990년대 PGP 암호화 소프트웨어 수출통제 논란부터 스파이웨어 규제 시도까지, 지난 30년간 사이버보안 관련 기술의 국경을 넘는 흐름을 막으려 했던 시도들이 대부분 실패했다는 역사를 되짚는다. 최근 미국 정부가 앤트로픽의 사이버보안 특화 모델 Mythos에 대해 수출통제에 나섰지만, 과거 사례들을 볼 때 이런 식의 통제가 실제로 기술 확산을 막을 수 있을지는 의문이라는 게 핵심 주장이다. 오히려 통제 시도 자체가 해당 기술의 화제성과 가치를 부각시키는 역효과를 낳을 수 있다는 지적도 곁들여졌다.",
+        "url": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-20T07:40:14+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_006",
+        "title": "시그널의 메러디스 휘태커, \"AI 챗봇은 당신의 친구가 아니다\"",
+        "excerpt": "시그널 대표 메러디스 휘태커가 AI 챗봇을 친구처럼 여기는 흐름에 강한 경고를 던졌다. \"이것들은 의식이 없고, 감각이 있는 대화 상대도 아니다\"라는 게 그의 핵심 메시지다.",
+        "body": "프라이버시 메신저 시그널을 이끄는 메러디스 휘태커가 AI 챗봇에 대한 의인화 경향을 강하게 비판했다. 그는 챗봇이 친구도, 의식이 있는 존재도, 감각을 지닌 대화 상대도 아니라고 못박으며, 이용자들이 AI와의 관계를 지나치게 정서적으로 받아들이는 최근 흐름에 우려를 표했다. 정서적 의존이 커질수록 데이터 프라이버시와 조작 위험에 대한 경계심이 낮아질 수 있다는 점도 함께 지적됐다.",
+        "url": "https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-21T05:32:29+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_007",
+        "title": "'In the Weights', AI 모델 안에서 내 이름을 검색하는 새로운 '바니티 서치'",
+        "excerpt": "구글에 자기 이름을 검색하던 시대를 지나, 이제는 AI 모델이 나를 얼마나 '알고' 있는지를 확인하는 'In the Weights'가 새로운 자기검색 놀이로 떠올랐다.",
+        "body": "In the Weights는 대형언어모델의 학습 데이터(웨이트) 안에 자신에 대한 정보가 얼마나, 어떻게 담겨 있는지를 점수로 보여주는 신규 서비스다. 과거 검색엔진에 자기 이름을 입력해 보던 '바니티 서치' 문화가 이제 AI 모델을 대상으로 옮겨가는 모습을 보여준다는 평가다. 단순한 흥미 위주 서비스지만, AI 모델이 개인에 대한 정보를 얼마나 흡수했는지를 체감하게 해준다는 점에서 화제를 모으고 있다.",
+        "url": "https://techcrunch.com/2026/06/20/in-the-weights-is-your-new-ai-centric-vanity-search/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-21T04:41:11+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      }
+    ],
+    "dev_tools": [],
+    "big_tech": [
+      {
+        "id": "rss_004",
+        "title": "유비소프트 공동창업자 클로드 기유모, 비행기 추락 사고로 사망",
+        "excerpt": "형제들과 함께 유비소프트를 세운 클로드 기유모가 69세를 일기로 비행기 추락 사고로 세상을 떠났다.",
+        "body": "프랑스 게임업계의 거목으로 꼽히는 클로드 기유모가 비행기 추락 사고로 사망했다. 그는 네 형제와 함께 1986년 유비소프트를 공동 창업해 어쌔신 크리드, 파 크라이 등 굵직한 프랜차이즈를 키워낸 인물로, 향년 69세였다. 게임업계 전반에서 추모가 이어지고 있다.",
+        "url": "https://techcrunch.com/2026/06/21/ubisoft-co-founder-claude-guillemot-dies-in-plane-crash/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-06-22T03:34:31+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_008",
+        "title": "폴리마켓, 가짜 베팅 영상 제작에 크리에이터들에게 돈 줬다는 의혹",
+        "excerpt": "예측시장 플랫폼 폴리마켓이 크리에이터들에게 돈을 주고 가짜 베팅·당첨 영상을 제작하게 했다는 의혹이 제기됐다. 영상 다수가 폴리마켓 사이트를 거의 완벽하게 복제한 가짜 화면에서 촬영된 것으로 알려졌다.",
+        "body": "보도에 따르면 폴리마켓은 크리에이터들에게 비용을 지불해, 실제로는 존재하지 않는 거래와 수익을 보여주는 영상을 제작하도록 했다는 의혹을 받고 있다. 해당 영상들은 폴리마켓 실제 웹사이트를 거의 완벽하게 복제한 가짜 화면에서 촬영된 것으로 전해졌다. 예측시장 플랫폼의 신뢰성과 마케팅 관행에 대한 의문이 커지고 있다.",
+        "url": "https://techcrunch.com/2026/06/21/polymarket-reportedly-paid-creators-to-post-deceptive-videos-about-fake-bets/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-06-22T01:35:00+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_009",
+        "title": "새로운 로보택시 스코어카드, 중국의 압도적 우위를 보여주다",
+        "excerpt": "TechCrunch Mobility 뉴스레터가 공개한 새 로보택시 평가표에서 중국 업체들이 전 세계 시장을 압도하는 것으로 나타났다.",
+        "body": "TechCrunch의 모빌리티 전문 뉴스레터가 공개한 최신 로보택시 스코어카드에 따르면, 차량 운행 규모와 기술 성숙도 양면에서 중국 업체들이 글로벌 경쟁사들을 크게 앞서고 있는 것으로 나타났다. 미국과 유럽 업체들의 추격이 쉽지 않을 것이라는 전망이 나온다.",
+        "url": "https://techcrunch.com/2026/06/21/techcrunch-mobility-a-new-robotaxi-scorecard-shows-chinas-dominance/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-06-22T01:05:00+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_010",
+        "title": "전기 에어택시, 사업은 법정에서 가로막혔다",
+        "excerpt": "차세대 모빌리티로 기대를 모았던 전기 에어택시 업계가 잇따른 소송에 휘말리며 사업 진척에 어려움을 겪고 있다.",
+        "body": "더버지의 주간 뉴스레터 '더 스텝백'이 전기 에어택시 산업의 현황을 짚었다. 안전 인증과 영공 사용권을 둘러싼 분쟁이 격화되며 여러 업체가 법적 다툼에 휘말렸고, 이로 인해 상용화 일정이 줄줄이 지연되고 있다는 내용이다. 항공 모빌리티의 미래로 주목받던 산업이 정작 규제와 소송이라는 현실적 장벽 앞에서 발이 묶인 모습이다.",
+        "url": "https://www.theverge.com/column/950975/electric-air-taxis-lawsuits",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-06-21T21:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_011",
+        "title": "소니 엑스페리아 1 VIII, 여전히 '팬을 위한' 폰",
+        "excerpt": "소니의 플래그십 스마트폰 엑스페리아 1 VIII가 디자인과 카메라 시스템에 큰 변화를 시도했지만, 여전히 마니아층을 위한 제품이라는 평가다.",
+        "body": "엑스페리아 1 VIII는 외관 디자인을 전면 개편하고 카메라 시스템도 손봤는데, 지난 4세대를 상징했던 연속 광학 줌 망원 렌즈를 과감히 빼는 결단을 내렸다. 다만 소니 특유의 디자인 언어와 마니아 친화적 기능들은 그대로 유지돼, 대중적인 인기보다는 충성도 높은 팬덤을 겨냥한 제품이라는 평가가 이어진다.",
+        "url": "https://www.theverge.com/tech/952245/sony-xperia-1-viii-review",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-06-21T20:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_012",
+        "title": "디 애틀랜틱, AI 학습에 쓰인 음악 데이터베이스 검색 기능 공개",
+        "excerpt": "디 애틀랜틱 기자가 AI 모델 학습에 사용된 음악 데이터셋 네 종을 발굴해 누구나 검색할 수 있도록 공개했다. 두 데이터셋은 각각 1200만, 900만 곡 규모에 달한다.",
+        "body": "디 애틀랜틱의 기자 알렉스 라이스너가 AI 모델 학습용으로 수집된 음악 데이터셋 4종을 찾아내, 곡명과 아티스트로 검색할 수 있는 데이터베이스를 만들어 공개했다. 이 중 두 개 데이터셋은 각각 1200만 곡과 900만 곡에 달하는 방대한 규모이며, 나머지 두 개도 상당한 양의 학습 데이터를 포함하고 있다. 음악 저작권자들이 자신의 곡이 AI 학습에 쓰였는지 직접 확인할 수 있게 됐다는 점에서 주목받고 있다.",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/953183/the-atlantic-searchable-database-music-ai-training-data",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-06-21T03:46:48+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_013",
+        "title": "무료 동영상 플레이어를 매끄럽게 만든 그가, 이번엔 로봇을 매끄럽게 만든다",
+        "excerpt": "오픈소스 전설로 불리는 프랑스 출신 연쇄 창업가 장바티스트 켐프가 이번에는 로봇 등 원격 기기를 실시간으로 제어하는 인프라 레이어 'Kyber'를 구축하고 있다.",
+        "body": "VLC 미디어 플레이어로 잘 알려진 오픈소스 개발자 장바티스트 켐프가 새로운 도전에 나섰다. 그가 만들고 있는 Kyber는 로봇 등 원격 기기를 실시간으로 제어할 수 있게 해주는 인프라 레이어로, 동영상 스트리밍 분야에서 쌓은 저지연 처리 기술 노하우를 로보틱스 분야로 옮겨온 시도로 평가받는다.",
+        "url": "https://techcrunch.com/2026/06/19/he-made-your-free-video-player-run-smoothly-now-hes-doing-that-for-robots/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-06-20T09:47:44+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_014",
+        "title": "파운더스 펀드의 이례적인 투자, '인도적으로 도살되는 물고기'",
+        "excerpt": "피터 틸의 파운더스 펀드가 물고기를 빠르고 인도적으로 도살하는 냉장고 크기 로봇 '포세이돈'을 만드는 스타트업 신케이에 투자했다.",
+        "body": "수산업계의 도살 방식을 바꾸려는 스타트업 신케이가 파운더스 펀드의 투자를 받았다. 신케이가 개발한 냉장고 크기의 로봇 '포세이돈'은 물고기를 빠르고 인도적인 방식으로 도살해, 육질 보존과 동물복지를 동시에 잡겠다는 목표를 갖고 있다. AI·소프트웨어 투자가 주를 이루는 파운더스 펀드의 포트폴리오에서 이례적인 베팅으로 꼽힌다.",
+        "url": "https://techcrunch.com/2026/06/20/founders-funds-outlier-bet-on-humanely-killed-fish/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-06-21T03:26:02+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_015",
+        "title": "화려하진 않아도 알아두면 좋을 iOS 27의 모든 신기능",
+        "excerpt": "애플의 새 시리 AI와 애플 인텔리전스 업그레이드만큼 화려하진 않지만, iOS 27에는 알고 나면 유용한 작은 기능 추가가 여럿 숨어 있다.",
+        "body": "애플이 iOS 27에서 시리와 애플 인텔리전스 같은 큰 AI 업그레이드 외에도, 카메라, 알림, 멀티태스킹 등 곳곳에 실용적인 기능 개선을 더했다는 정리 기사다. 화제성은 떨어지지만 실제 사용 경험을 개선하는 디테일들이 다수 포함됐다는 평가다.",
+        "url": "https://techcrunch.com/2026/06/20/every-new-ios-27-feature-thats-worth-knowing-about/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-06-21T00:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "앱의 모든 기능을 테스트하기 위한 코드:",
+        "context": "오픈AI 사장 그렉 브록먼이 앱의 기능을 테스트하는 코드 작성 과정을 공유한 게시물이다.",
+        "url": "https://x.com/gdb/status/2068761809318990054",
+        "publishedAt": "2026-06-21T18:23:45.000Z",
+        "metrics": { "likes": 0, "retweets": 0, "replies": 0 }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Amanda Askell",
+        "handle": "AmandaAskell",
+        "content": "내 인생의 대부분 동안 만성 통증이 있었는데, 의사가 통증의 원인을 MRI로 검사한 결과 선천적 질환이 발견되어 수술로 고쳐졌다. 이제 의사들이 스캔 결과를 볼 수 있을 정도로 내가 너무 멍청하다고 걱정해서 내가 30년 넘게 통증을 겪은 건 아닌가 싶다.",
+        "context": "앤트로픽 연구원 아만다 아스켈이 자신의 만성 통증이 뒤늦게 MRI로 발견된 선천적 질환 때문이었다는 개인적인 경험을 공유했다.",
+        "url": "https://x.com/AmandaAskell/status/2068218515723866477",
+        "publishedAt": "2026-06-20T06:24:54.000Z",
+        "metrics": { "likes": 0, "retweets": 0, "replies": 0 }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Amanda Askell",
+        "handle": "AmandaAskell",
+        "content": "우리가 부수적인 소견 때문에 해가 많이 된다고 해서 더 많은 의료 스캔을 하지 말아야 한다는 견해는 나에게 잘 맞지 않는다. 그것이 지적하는 문제는 스캔 자체가 아니라 그에 대한 대응인 것 같다. 스캔에서 무언가를 보았지만 다른 증상이 없다면, 그것을 무시할 수 있다.",
+        "context": "아스켈이 부수적 발견을 우려해 의료 스캔을 줄여야 한다는 주장에 대한 자신의 반론을 밝혔다.",
+        "url": "https://x.com/AmandaAskell/status/2068162191740764622",
+        "publishedAt": "2026-06-20T02:41:05.000Z",
+        "metrics": { "likes": 0, "retweets": 0, "replies": 0 }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Amanda Askell",
+        "handle": "AmandaAskell",
+        "content": "이에 대한 반론은 \"그래도 사람들은 *무시하지는* 않아요\"라는 것입니다. 하지만 스캔에서 발견된 것을 무시하지 않는 것이 우리의 관행인 이유는, 최근까지는 명백한 필요가 있을 때만 스캔을 했기 때문입니다. 만약 우리가 더 자주 스캔하는 패러다임으로 전환한다면, 그 정보로 무엇을 할지에 대한",
+        "context": "앞선 게시물에 이어, 더 자주 스캔하는 패러다임으로 전환할 경우 그 정보에 어떻게 대응할지에 대한 관행도 함께 바뀌어야 한다는 의견을 덧붙였다.",
+        "url": "https://x.com/AmandaAskell/status/2068162192927756544",
+        "publishedAt": "2026-06-20T02:41:06.000Z",
+        "metrics": { "likes": 0, "retweets": 0, "replies": 0 }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "Mythos의 수출통제에 대한 사유가 추가로 나왔습니다.\n마크 워너 상원 정보위 부위원장이 The Economist에 전한 내용인데요.\nNSA와 펜타곤 사이버사령부를 동시에 이끄는 조슈아 러드 장군이, 앤트로픽의 Mythos가 \"우리 기밀 시스템 거의 전부를, 몇 주가 아니라 몇 시간 만에 뚫었다\"고 말했다는 겁니다.\n물론 의심도 있습니다. \"차단을 정당화하려는 과장 아니냐\", \"NSA가 자기 약점을 이렇게 공개로 인정할 리 없다\"는 반응도 같이 나오고 있지만, NSA같이 세계 최고 수준의 사이버 보안 역량을 보유한 기관조차 AI를 막지 못했다는 것은 지금까지 인간의 시간과 인력으로 유지되던 보안 체계 자체가 AI 앞에서 재검토되어야 한다는 신호일 수 있습니다.\nAI가 사이버 보안 분야에서의 논의는 앞으로 더 커질 것으로 보입니다.",
+        "context": "Mythos 수출통제 논란에 새로운 근거가 추가됐다는 소식을 정리한 국내 AI 채널의 스레드.",
+        "url": "https://www.threads.com/@choi.openai/post/DZ1bh95D0Lz",
+        "publishedAt": "2026-06-21T04:39:52.000Z"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "1/ 앤드루 응은 2011년 Jeff Dean과 함께 Google Brain을 공동 창립한 사람입니다.\nAI 교육의 세계 표준이 된 Coursera와 DeepLearning.AI를 만들었고, 수천만 명의 개발자가 그의 강의로 기초를 쌓았습니다. Google Brain이라는 이름을 만들었고, 그 팀이 훗날 현대 AI의 토대를 놓았습니다.\n그런 그가 이번 주 긴 글을 썼습니다. 계기는 이겁니다.\n앤트로픽은 6월 9일 Fable 5를 출시했습니다. Fable 5는 자신들의 가장 강력한 모델 Mythos 5에 안전 장치를 달아 일반에 공개한 버전입니다.\n문제는 그 안전 장치 안에 뜻밖의 조항이 숨어 있었습니다. 사전 학습 파이프라인을 구축하거나 ML 가속기를 설계하는 등 경쟁 AI 연구에 쓰이면, 모델이 사용자에게 아무 말도 하지 않은 채 스스로 성능을 낮춰버린다는 것이었습니다. 이 내용은 319페이지짜리 시스템 카드 어딘가에 묻혀 있었습니다.",
+        "context": "구글 브레인 공동창립자 앤드루 응이 앤트로픽 Fable 5의 안전장치에 숨겨진 경쟁 제한 조항을 비판한 글을 정리한 스레드.",
+        "url": "https://www.threads.com/@choi.openai/post/DZ2J1XIjzhq",
+        "publishedAt": "2026-06-21T11:24:28.000Z"
+      },
+      {
+        "id": "threads_003",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "얀 르쿤(Yann LeCun)은 10년 뒤 다가올 미래 사회의 모습을 예측하며 미래에 \"모든 사람이 가상 인공지능 팀을 이끄는 보스(Boss)가 될 것\"이라고 강조했습니다.\n마치 거물 기업가나 정치인이 개인 보좌진을 거느리는 것처럼, 모든 개인이 스마트폰이나 스마트 글래스를 통해 일상적인 업무를 돕고 문제를 해결해 주는 지능형 에이전트 스태프를 두게 된다는 설명입니다.\n얀 르쿤은 이러한 에이전트 생태계의 고도화가 인간의 생산성을 극대화하여 미래 기술 경제의 패러다임을 바꿀 것으로 분석했습니다.\n나아가 기술적 과제가 아직 남아있지만, 기하급수적인 성능 발전을 통해 가사 로봇의 대중화와 완전 자율주행차의 상용화 역시 10년 안에 충분히 실현될 수 있을 것이라 전망했습니다.",
+        "context": "얀 르쿤이 10년 뒤 모든 개인이 AI 에이전트 팀을 이끄는 '보스'가 되는 미래를 예측했다는 소식을 정리한 스레드.",
+        "url": "https://www.threads.com/@choi.openai/post/DZ2brnkjMTU",
+        "publishedAt": "2026-06-21T14:00:25.000Z"
+      },
+      {
+        "id": "threads_004",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "1/ AI 시대의 진짜 레버는 모델이 아니라 돈이라고 생각합니다.\n우리는 보통 누가 더 좋은 모델을 만드느냐로 다툽니다. 오픈AI냐 구글이냐 앤트로픽이냐 하는 식으로요. 그런데 AI가 생산을 대신하기 시작하면 판이 바뀝니다.\n모델 성능보다, 일하지 않아도 먹고살게 해주는 그 '돈'을 누가 쥐고 어떤 조건으로 주느냐가 사람들의 삶을 더 크게 좌우하게 됩니다.\n케인스는 1919년 '평화의 경제적 결과'에 \"레닌은 자본주의를 무너뜨리는 가장 확실한 방법이 화폐를 타락시키는 것이라 말했다고 한다\"고 적었습니다. 돈을 쥔 쪽이 체제를 쥔다는 오래된 통찰인데, AI는 이 레버를 그 어느 때보다 강하게 만듭니다.\n저는 AGI 이후 사회의 권력이 거기서 갈린다고 봅니다. 그래서 모델 경쟁보다 '돈의 배관'을 더 들여다보게 됩니다.",
+        "context": "AGI 이후 사회의 권력은 모델 경쟁이 아니라 누가 '돈'을 쥐고 분배하는지에서 갈린다는 주장을 정리한 스레드.",
+        "url": "https://www.threads.com/@choi.openai/post/DZ1vUq2j9xJ",
+        "publishedAt": "2026-06-21T07:32:49.000Z"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "약간 개선된 DVD-JEPA 데모 공개 [P]",
+        "originalTitle": "A slightly improved DVD-JEPA demo [P]",
+        "summary": "메타의 JEPA 월드모델을 재현한 DVD-JEPA 프로젝트의 개선된 데모가 공개되며 연구자들의 관심을 끌고 있다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1ubtf09/a_slightly_improved_dvdjepa_demo_p/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-06-22T00:49:36+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "[ECCV 2026] 논문 심사 결과 이의제기 논의 [D]",
+        "originalTitle": "[ECCV 2026] Paper Decision Appeals Discussion [D]",
+        "summary": "ECCV 2026 논문 심사 결과에 대한 이의제기 절차를 두고 연구자들 사이에서 토론이 이어지고 있다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1uc0m1e/eccv_2026_paper_decision_appeals_discussion_d/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-06-22T05:39:17+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "LoRA에 EMA를 적용할 수 있을까? [R]",
+        "originalTitle": "EMA on LoRA ? [R]",
+        "summary": "LoRA 파인튜닝에 지수이동평균(EMA)을 적용하는 방법에 대한 연구 논의가 MachineLearning 서브레딧에서 진행되고 있다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1ubv0f5/ema_on_lora_r/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-06-22T01:54:28+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "토크노믹스",
+        "originalTitle": "Tokenomics",
+        "summary": "LLM 추론 비용과 토큰 경제성을 다루는 논의가 LocalLLaMA 서브레딧에서 화제가 되고 있다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ubrcwj/tokenomics/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-06-21T23:23:33+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "버셀 CEO, \"GLM-5.2의 코딩 실력에 거의 충격받았다\"",
+        "originalTitle": "Vercel CEO: \"Almost shocked\" by how good GLM-5.2 is at coding",
+        "summary": "버셀 CEO가 오픈웨이트 모델 GLM-5.2의 코딩 능력에 놀랐다는 발언을 남기며, 오픈웨이트 모델의 실용성에 대한 관심이 높아지고 있다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ubk57k/vercel_ceo_almost_shocked_by_how_good_glm52_is_at/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-06-21T16:55:27+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "신모델 소식은 아니고, 그냥 아버지의 날 인사와 감사 인사입니다",
+        "originalTitle": "Not a new model, just a Happy Father's Day and a thank you.",
+        "summary": "새 모델 발표 대신, 커뮤니티에 대한 감사와 아버지의 날 인사를 전하는 따뜻한 게시물이 호응을 얻었다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ubzzib/not_a_new_model_just_a_happy_fathers_day_and_a/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-06-22T05:13:33+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "AI 때문에 수업에서 낙제할 것 같다",
+        "originalTitle": "AI might make me fail my class",
+        "summary": "AI 도구 사용과 관련한 학사 정책 문제로 낙제 위기에 놓였다는 학생의 고민이 artificial 서브레딧에서 공감을 얻고 있다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1ubzc6m/ai_might_make_me_fail_my_class/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-06-22T04:47:03+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "'슬롭의 급증' — 챗GPT-3.5 출시 이후 아마존 전자책 출간량 3배 폭증, 전부 AI 생성 도서 때문 [이코노미스트]",
+        "originalTitle": "The Surge of Slop—since the release of ChatGPT-3.5 in late 2022, the number of e-books published on Amazon has skyrocketed, tripling by late 2025.",
+        "summary": "2022년 말 챗GPT-3.5 출시 이후 아마존 전자책 출간량이 2025년 말까지 3배로 폭증했는데, 새로운 과학 분석에 따르면 이 증가분 전부가 AI 생성 도서 때문인 것으로 나타났다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1ubnaqo/the_surge_of_slopsince_the_release_of_chatgpt35/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-06-21T20:06:25+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "유타주 데이터센터, 광범위한 주민 반대에도 강행 승인",
+        "originalTitle": "Utah Data Center Brute Forced Through to Approval Despite Widespread Popular Opposition",
+        "summary": "유타주의 대규모 데이터센터 건설 계획이 지역 주민들의 거센 반대에도 불구하고 승인을 강행받았다는 소식이 논란이 되고 있다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1ubm0q3/utah_data_center_brute_forced_through_to_approval/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-06-21T18:50:37+09:00"
+      },
+      {
+        "id": "reddit_010",
+        "title": "NSA",
+        "originalTitle": "NSA",
+        "summary": "NSA와 관련된 Mythos 보안 침해 보도를 다루는 게시물로, OpenAI 서브레딧에서도 화제가 되고 있다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1ubrpm6/nsa/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-06-21T23:38:50+09:00"
+      },
+      {
+        "id": "reddit_011",
+        "title": "GPT-Image가 손을 보태주네요",
+        "originalTitle": "GPT-Image lending me a hand",
+        "summary": "GPT의 이미지 생성 기능을 활용한 작업 사례가 OpenAI 서브레딧에서 공유되며 호응을 얻고 있다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1uc14sw/gptimage_lending_me_a_hand/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-06-22T06:01:00+09:00"
+      },
+      {
+        "id": "reddit_012",
+        "title": "'죽은 인터넷 이론'의 실현 — 와우 서버에 인간 없이 딥시크 기반 봇 1800개만 접속해 플레이 중",
+        "originalTitle": "The \"dead internet theory\" in action: In World of Warcraft, a server without humans has appeared - instead, 1,800 DeepSeek-based bots are playing there.",
+        "summary": "월드 오브 워크래프트의 한 서버에 인간 플레이어 없이 딥시크 기반 봇 1800개만 접속해, 채팅하고 레벨업하고 던전을 돌고 서로 싸우는 등 실제 플레이어처럼 행동하고 있다는 소식이 화제다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1ubkxsw/the_dead_internet_theory_in_action_in_world_of/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-06-21T17:43:52+09:00"
+      },
+      {
+        "id": "reddit_013",
+        "title": "클로드 소넷 5 포착, 다음 주 출시 예상",
+        "originalTitle": "Claude Sonnet 5 Spotted, Release Expected Next Week",
+        "summary": "커뮤니티에서 클로드 소넷 5의 흔적이 포착됐다는 제보가 이어지며, 다음 주 출시 가능성에 기대가 모이고 있다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1ubuobh/claude_sonnet_5_spotted_release_expected_next_week/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-06-22T01:40:51+09:00"
+      },
+      {
+        "id": "reddit_014",
+        "title": "사무실 동료들이 이걸 이해해줄 때 묘하게 뿌듯함",
+        "originalTitle": "kinda proud when office teammates understand this",
+        "summary": "AI 도구 사용과 관련한 밈성 게시물이 ClaudeAI 서브레딧에서 공감을 얻고 있다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1ubp7mw/kinda_proud_when_office_teammates_understand_this/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-06-21T21:48:06+09:00"
+      },
+      {
+        "id": "reddit_015",
+        "title": "앤트로픽, 신원 확인 절차 도입 중. 바로 어제 업데이트됨",
+        "originalTitle": "Anthropic is rolling out identity verification. Updated just yesterday.",
+        "summary": "앤트로픽이 클로드 이용자를 대상으로 신원 확인 절차를 새로 도입하고 있다는 소식이 전해지며 관련 논의가 이어지고 있다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1uboasr/anthropic_is_rolling_out_identity_verification/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-06-21T21:01:07+09:00"
+      },
+      {
+        "id": "reddit_016",
+        "title": "OCaml 5.5.0 출시",
+        "originalTitle": "OCaml 5.5.0 released",
+        "summary": "함수형 프로그래밍 언어 OCaml의 새 버전 5.5.0이 출시되며 변경 사항에 대한 논의가 이어지고 있다.",
+        "url": "https://www.reddit.com/r/programming/comments/1ubn4uj/ocaml_550_released/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-06-21T19:57:13+09:00"
+      },
+      {
+        "id": "reddit_017",
+        "title": "리눅스 epoll과 io_uring 비교",
+        "originalTitle": "epoll vs io_uring in Linux",
+        "summary": "리눅스의 epoll과 io_uring 두 I/O 모델의 차이를 다루는 글이 programming 서브레딧에서도 토론을 낳고 있다.",
+        "url": "https://www.reddit.com/r/programming/comments/1ubsndj/epoll_vs_io_uring_in_linux/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-06-22T00:17:44+09:00"
+      },
+      {
+        "id": "reddit_018",
+        "title": "OpenAPI에서 인증·인가를 기술하는 실용 가이드",
+        "originalTitle": "A practical guide to describing authentication and authorization in OpenAPI.",
+        "summary": "OpenAPI 스펙에서 인증과 인가를 명세하는 실용적인 방법을 정리한 가이드가 programming 서브레딧에서 공유됐다.",
+        "url": "https://www.reddit.com/r/programming/comments/1ubwqzn/a_practical_guide_to_describing_authentication/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-06-22T03:03:08+09:00"
+      },
+      {
+        "id": "reddit_019",
+        "title": "앤트로픽의 차세대 내부용 Mythos 후속 모델 등장",
+        "originalTitle": "Anthropic's Internal Mythos Successor Emerges",
+        "summary": "앤트로픽이 Mythos의 후속으로 보이는 내부용 모델의 흔적이 포착됐다는 소식이 singularity 서브레딧에서 화제가 되고 있다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1ubwtut/anthropics_internal_mythos_successor_emerges/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-06-22T03:06:13+09:00"
+      },
+      {
+        "id": "reddit_020",
+        "title": "얀 르쿤, \"xAI는 일종의 실패작\" — AI 업계 전체가 리셋을 맞을 수도 있다",
+        "originalTitle": "Yann LeCun says xAI is \"kind of a failure\" and the whole AI industry might be headed for a reset",
+        "summary": "얀 르쿤이 xAI를 사실상 실패로 평가하며, AI 업계 전반이 거품 리셋 국면에 들어설 수 있다고 경고했다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1ubswog/yann_lecun_says_xai_is_kind_of_a_failure_and_the/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-06-22T00:28:36+09:00"
+      },
+      {
+        "id": "reddit_021",
+        "title": "클로드 소넷 5 포착, 다음 주 출시 예상",
+        "originalTitle": "Claude Sonnet 5 Spotted, Release Expected Next Week",
+        "summary": "클로드 소넷 5의 출시 흔적이 포착됐다는 소식이 singularity 서브레딧에도 확산되며 기대감을 키우고 있다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1ubvt62/claude_sonnet_5_spotted_release_expected_next_week/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-06-22T02:25:54+09:00"
+      },
+      {
+        "id": "reddit_022",
+        "title": "팀리드라면, 부진한 주니어에 대한 부정적 피드백을 매니저에게 언제 보고해야 할까?",
+        "originalTitle": "As a TL, at what point do you need to raise negative feedback for an underperforming junior with your manager?",
+        "summary": "팀 리드 경험자들이 부진한 주니어 개발자에 대한 피드백을 언제, 어떻게 상위 관리자에게 전달해야 하는지를 두고 의견을 나누고 있다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1ubu0x9/as_a_tl_at_what_point_do_you_need_to_raise/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-06-22T01:14:31+09:00"
+      },
+      {
+        "id": "reddit_023",
+        "title": "정리해고 당했을 때, 누가 연락해왔는지에 놀란 적 있나요?",
+        "originalTitle": "Were you surpised by who reached out to you when you were laid off?",
+        "summary": "정리해고를 겪은 개발자들이 예상치 못했던 사람들로부터 받은 연락에 대한 경험을 나누며 공감대를 형성하고 있다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1ubibym/were_you_surpised_by_who_reached_out_to_you_when/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-06-21T15:07:38+09:00"
+      },
+      {
+        "id": "reddit_024",
+        "title": "에이전시 생활 끝내고 인하우스로 복귀",
+        "originalTitle": "Moving back to in house after agency",
+        "summary": "에이전시 근무를 마치고 인하우스 개발팀으로 복귀한 경험을 공유하는 게시물에 비슷한 경험을 가진 개발자들의 댓글이 이어지고 있다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1ubutds/moving_back_to_in_house_after_agency/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-06-22T01:46:33+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_016",
+        "title": "Apertus — 주권 AI를 위한 오픈 파운데이션 모델",
+        "excerpt": "특정 기업이나 국가에 종속되지 않는 '주권 AI'를 목표로 하는 오픈 파운데이션 모델 Apertus가 해커뉴스에서 화제를 모았다.",
+        "body": "Apertus는 누구나 자유롭게 활용할 수 있는 오픈 파운데이션 모델을 표방하며, 특정 빅테크에 의존하지 않는 '주권 AI(Sovereign AI)'라는 개념을 내세웠다. 해커뉴스에서 54점의 추천을 받으며 오픈소스 AI 생태계의 다양성 확대 흐름의 하나로 주목받았다.",
+        "url": "https://apertvs.ai/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-22T06:29:43+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_017",
+        "title": "세션마다 프로젝트를 다시 설명하느라 토큰 낭비하지 말 것",
+        "excerpt": "AI 코딩 도구를 쓸 때마다 프로젝트 맥락을 처음부터 다시 설명해야 하는 비효율을 해결하려는 오픈소스 도구 'recall'이 해커뉴스에서 소개됐다.",
+        "body": "AI 코딩 어시스턴트를 쓰는 개발자라면 누구나 겪는 문제, 즉 새 세션을 시작할 때마다 프로젝트 구조와 맥락을 처음부터 다시 설명해야 하는 비효율을 줄이기 위한 오픈소스 프로젝트 recall이 공개됐다. 세션 간 컨텍스트를 저장해 재사용함으로써 토큰 소모를 줄이는 것을 목표로 하며, 해커뉴스에서 22개의 댓글과 함께 활발한 토론이 이어지고 있다.",
+        "url": "https://github.com/raiyanyahya/recall",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-22T06:05:37+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_018",
+        "title": "opencodex — Codex에서 아무 LLM이나 쓸 수 있게 해주는 로컬 프록시",
+        "excerpt": "OpenAI 모델만 지원하는 Codex의 한계를 풀어주는 로컬 프록시 opencodex가 공개됐다. Claude나 GLM-5.2 등 원하는 LLM을 Codex와 연결해 쓸 수 있다.",
+        "body": "Codex는 기본적으로 OpenAI 모델만 사용할 수 있어, Claude나 GLM-5.2 같은 다른 LLM으로 코딩하고 싶어도 OpenAI가 지원을 추가할 때까지 기다려야 했다. opencodex는 Codex와 LLM 프로바이더 사이에 끼어들어 프로토콜을 실시간으로 번역해주는 로컬 프록시로, 스트리밍과 도구 호출, 추론 토큰, 이미지 입출력까지 양방향으로 지원한다.",
+        "url": "https://news.hada.io/topic?id=30685",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-21T17:29:47+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_019",
+        "title": "리눅스 epoll과 io_uring, 무엇이 다른가",
+        "excerpt": "TinyGate 리버스 프록시가 워커 기반 구조에서 epoll로 전환해 성능을 끌어올렸지만, 결국 한계에 부딪혀 io_uring으로 다시 작성한 과정을 소개한다.",
+        "body": "TinyGate 개발팀은 처음 워커 기반 구조로 시작한 리버스 프록시를 epoll 기반으로 바꿔 큰 성능 향상을 얻었지만, 이후 또 다른 한계에 부딪혀 io_uring으로 재작성하게 된 경험을 공유했다. epoll은 I/O가 가능해진 시점만 알려주는 '준비 상태 통지' 모델이라 epoll_wait 이후에도 별도의 read()/write() 호출이 필요한 반면, io_uring은 비동기 완료 모델로 동작해 시스템 콜 오버헤드를 크게 줄일 수 있다는 차이를 설명한다.",
+        "url": "https://news.hada.io/topic?id=30698",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-22T06:35:52+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_020",
+        "title": "리눅스, 6년·패치 360개 끝에 strncpy API 완전 제거",
+        "excerpt": "리눅스 7.2에서 커널 내부 strncpy API 사용이 완전히 사라졌다. 오랫동안 버그의 원인으로 지목되며 폐기 예정이던 문자열 복사 함수가 6년간 360개 넘는 패치를 거쳐 마침내 퇴출됐다.",
+        "body": "strncpy()는 지정한 바이트 수만큼 문자열을 복사하지만 NUL 종료 동작이 직관적이지 않아 커널 내부에서 수년간 버그의 원인으로 지적돼 왔다. 리눅스 커널 개발자들은 약 6년에 걸쳐 360개 이상의 패치를 차례로 적용하며 strncpy 사용처를 점진적으로 제거했고, 리눅스 7.2 버전에서 마침내 커널 내부의 모든 사용처가 사라졌다.",
+        "url": "https://news.hada.io/topic?id=30696",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-22T03:33:59+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_021",
+        "title": "잘못된 추상화보다는 중복을 택하라 (2016)",
+        "excerpt": "샌디 메츠의 2016년 글이 다시 화제에 올랐다. 잘못 설계된 추상화를 억지로 재사용하기보다, 차라리 코드를 중복해 두는 편이 장기적으로 더 낫다는 주장이다.",
+        "body": "이 글은 섣부른 추상화가 오히려 코드베이스를 더 망가뜨릴 수 있다는 경고를 담고 있다. 비슷해 보이는 코드를 억지로 하나의 추상화로 묶었다가, 요구사항이 갈라지기 시작하면 그 추상화를 둘러싼 조건문과 플래그가 눈덩이처럼 불어난다는 것이다. 저자는 추상화가 잘못된 것으로 판명되면 주저 없이 다시 중복으로 되돌리는 것이 장기적으로 유지보수성을 지키는 길이라고 강조한다. 발행된 지 10년 가까이 지났지만 해커뉴스에서 265개의 댓글과 390점의 추천을 받으며 여전히 큰 공감을 얻고 있다.",
+        "url": "https://sandimetz.com/blog/2016/1/20/the-wrong-abstraction",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-22T01:08:23+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_022",
+        "title": "개인 웹사이트를 위한 JSON-LD 쉽게 이해하기",
+        "excerpt": "검색엔진과 AI 크롤러가 웹사이트 콘텐츠를 더 잘 이해하도록 돕는 구조화 데이터 형식 JSON-LD를, 개인 웹사이트 운영자 관점에서 쉽게 풀어 설명한 글이다.",
+        "body": "JSON-LD는 웹페이지에 기계가 읽을 수 있는 구조화된 메타데이터를 추가하는 표준 형식으로, 검색엔진 결과 노출이나 AI 기반 콘텐츠 요약에 활용된다. 이 글은 복잡한 스펙 설명 대신 개인 블로그나 포트폴리오 사이트에 적용할 수 있는 실용적인 예시 중심으로 JSON-LD를 설명해, 해커뉴스에서 122점의 추천과 31개의 댓글을 받았다.",
+        "url": "https://hawksley.dev/blog/json-ld-explained-for-personal-websites/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-22T03:51:47+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_023",
+        "title": "FDA 자문위, 한바탕 내홍 끝에 모더나 mRNA 백신 승인에 만장일치",
+        "excerpt": "그동안 내부 갈등을 겪었던 FDA 자문위원회가 모더나의 mRNA 백신 승인에 만장일치로 찬성표를 던졌다.",
+        "body": "FDA 산하 자문위원회 내에서 한동안 정치적 갈등과 인사 논란이 이어졌던 가운데, 위원회는 모더나의 mRNA 백신에 대해 만장일치로 승인 권고를 의결했다. 그간의 내부 드라마를 감안하면 이례적으로 매끄러운 합의였다는 평가가 나오며, 해커뉴스에서도 보건 정책에 대한 활발한 토론으로 이어졌다.",
+        "url": "https://arstechnica.com/health/2026/06/fda-advisors-unanimously-vote-to-approve-modernas-mrna-after-agency-drama/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-22T06:30:25+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      }
+    ]
+  }
+}
