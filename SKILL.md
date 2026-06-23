@@ -33,7 +33,7 @@ RSS 피드 + X 트윗 20개 계정 + Reddit 8개 서브레딧을 수집하고, �
 | Python 스크립트 실행 | `mcp__Desktop_Commander__start_process` 사용 |
 | 파일 읽기/쓰기 | `/Users/jongyeol/GitHub/daily-magazine/...` 직접 접근 |
 | 임시 데이터 파일 | `/tmp/rss_results.json`, `/tmp/twitter_results.json`, `/tmp/reddit_results.json` |
-| feeds.csv | `/Users/jongyeol/GitHub/daily-feed/backend/feeds.csv` |
+| feeds.csv | `/Users/jongyeol/GitHub/daily-magazine/config/feeds.csv` |
 
 **Desktop Commander로 Python 스크립트를 파일로 저장 후 실행하는 방식 사용.**
 
@@ -41,7 +41,7 @@ RSS 피드 + X 트윗 20개 계정 + Reddit 8개 서브레딧을 수집하고, �
 
 `mcp__Desktop_Commander__start_process`로 Python 스크립트를 실행:
 
-피드 목록은 `/Users/jongyeol/GitHub/daily-feed/backend/feeds.csv`에서 읽어오기.
+피드 목록은 `/Users/jongyeol/GitHub/daily-magazine/config/feeds.csv`에서 읽어오기 (daily-magazine repo 내부 경로 — daily-feed repo에 대한 의존성 없음).
 (컬럼: Title, RSS URL, Website, Category)
 
 ```python
@@ -75,7 +75,7 @@ def fetch_jina(url, timeout=12):
             return strip_html(resp.read().decode('utf-8', errors='replace'))[:2500]
     except: return ''
 
-feeds = list(csv.DictReader(open('/Users/jongyeol/GitHub/daily-feed/backend/feeds.csv')))
+feeds = list(csv.DictReader(open('/Users/jongyeol/GitHub/daily-magazine/config/feeds.csv')))
 all_articles = []
 
 for feed_info in feeds:
@@ -157,6 +157,7 @@ JSON.stringify(results);
 **중요: 리트윗인 경우 URL에서 추출한 actualHandle을 handle로 사용. 프로필 handle로 덮어쓰지 말 것.**
 
 3. 수집된 트윗을 `/tmp/twitter_results.json`에 저장
+4. 수집 완료 후 **Chrome 탭 정리**: `mcp__Claude_in_Chrome__tabs_close_mcp` 호출로 수집에 사용한 MCP 탭을 닫는다.
 
 ## Step 3: Reddit 수집
 

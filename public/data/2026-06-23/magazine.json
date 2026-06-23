@@ -1,0 +1,569 @@
+{
+  "date": "2026-06-23",
+  "issueNumber": 81,
+  "cover": {
+    "mainHeadline": "AI 에이전트가 에이전트에게 일 시키는 시대 — '루프(Loop)'가 다음 빅 트렌드로",
+    "mainExcerpt": "클로드 코드 개발자 보리스 처니는 메타 @Scale 컨퍼런스에서 에이전트가 끝없이 백그라운드에서 일하는 '루프'가 다음 큰 도약이라고 말했다. 같은 날 메타는 레이밴 브랜드 없는 자체 스마트글래스 '메타 글래스'를 299달러에 출시했고, 마이크로소프트와 셰브론은 美 최대 규모의 가스발전 데이터센터 건설을 추진한다고 밝혔다.",
+    "headlines": [
+      "메타, 레이밴 없는 자체 브랜드 스마트글래스 '메타 글래스' 299달러에 출시",
+      "MS-셰브론, 美 최대 규모 가스발전 데이터센터 프로젝트 추진",
+      "트럼프 행정부의 앤트로픽 단속, 그 이면엔 무엇이 있었나"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_h1",
+      "title": "AI 업계, 에이전트가 에이전트에게 일 시키는 '루프(Loop)' 시대로",
+      "excerpt": "클로드 코드를 만든 보리스 처니가 메타의 @Scale 컨퍼런스에서 \"루프가 차세대 빅 트렌드\"라고 선언했다. 에이전트 군단이 백그라운드에서 끝없이 코드 아키텍처를 개선하고 PR을 올리는 방식이다.",
+      "body": "보리스 처니는 \"2년 전엔 우리가 직접 코드를 썼고, 이후 에이전트가 코드를 쓰는 단계로 넘어갔으며, 지금은 에이전트가 에이전트에게 코드를 쓰도록 지시하는 단계로 이동하고 있다\"고 말했다. 그가 운영하는 루프 중 하나는 끊임없이 코드 아키텍처 개선점을 찾고, 다른 하나는 중복된 추상화를 통합할 곳을 찾아 PR을 올린다. 이런 '루프'는 멈추지 않고 계속 실행되며, 가장 널리 쓰이는 방식은 모델이 스스로 목표 달성 여부를 판단할 때까지 작업을 반복시키는 '랄프 루프(Ralph Loop)'다. 오픈AI 연구원 노암 브라운이 강조해온 테스트 타임 컴퓨팅 확장 흐름과도 맞닿아 있다는 평가다.",
+      "url": "https://techcrunch.com/2026/06/22/the-ai-world-is-getting-loopy/",
+      "source": "TechCrunch",
+      "category": "ai_ml",
+      "publishedAt": "2026-06-23T05:53:11+09:00",
+      "readTime": 5,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_h2",
+      "title": "트럼프 행정부의 앤트로픽 단속, 그 이면엔 무엇이 있었나",
+      "excerpt": "美 정부가 국가안보를 이유로 앤트로픽의 최신 모델 Fable 5와 Mythos 5를 강제로 오프라인 전환시킨 사건의 뒷이야기가 TechCrunch 팟캐스트 'Equity'에서 공개됐다.",
+      "body": "보도에 따르면 아마존 연구자들이 Fable 5의 가드레일을 우회하는 방법을 발견했고, 아마존 CEO 앤디 재시가 이를 백악관에 직접 전달한 것이 이번 조치의 발단이 됐다. 정부는 구체적 근거를 공개하지 않은 채 \"외국인이 사용할 수 없도록 하라\"는 모호한 요구만 전달해, 앤트로픽은 결국 모델 전체를 내릴 수밖에 없었다. 사이버보안 전문가들은 정작 미국 네트워크 방어자들이 가장 강력한 보안 도구를 빼앗기게 됐다며 트럼프 행정부에 명령 철회를 요청하는 공개서한에 서명했다. 진행자들은 이번 사태가 오히려 앤트로픽에 대한 동정론과 화제성을 키울 수 있다는 분석도 내놓았다.",
+      "url": "https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/",
+      "source": "TechCrunch",
+      "category": "big_tech",
+      "publishedAt": "2026-06-22T00:28:17+09:00",
+      "readTime": 4,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_h3",
+      "title": "메타, 레이밴 없는 자체 브랜드 스마트글래스 '메타 글래스' 출시",
+      "excerpt": "메타가 에실로룩소티카와 협업해 레이밴·오클리 브랜드를 떼고 자체 브랜드를 단 스마트글래스 '메타 글래스'를 299달러에 출시했다.",
+      "body": "디스플레이는 없지만 카메라와 스피커를 탑재했고, 버튼 하나로 메타 AI 비서를 호출할 수 있다. 배터리는 8시간 이상 지속되며 휴대용 충전 케이스로 최대 40시간 추가 사용이 가능하다. 사각형 프레임의 '메타 어드벤처러', 각진 '메타 퓨리', 그리고 모델 카일리 제너와 협업한 슬림한 '메타 글래스 by 카일리' 등 세 가지 라인으로 출시됐다. 도보 내비게이션 기능과 한국어를 포함한 14개 언어 실시간 번역 지원도 곧 추가될 예정이다. 스냅이 2195달러짜리 고가 AR 글래스 '스펙스'를 공개한 지 일주일 만에 나온 보급형 대응으로 풀이된다.",
+      "url": "https://techcrunch.com/2026/06/23/meta-debuts-new-cheaper-smart-glasses-under-its-own-brand/",
+      "source": "TechCrunch",
+      "category": "big_tech",
+      "publishedAt": "2026-06-23T23:11:23+09:00",
+      "readTime": 3,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_h4",
+      "title": "MS-셰브론, 美 최대 규모 가스발전 데이터센터 프로젝트 추진",
+      "excerpt": "마이크로소프트가 석유기업 셰브론과 20년 장기 전력구매계약(PPA)을 맺고, 신규 천연가스 발전소로 가동되는 美 최대 규모의 데이터센터 건설을 추진한다.",
+      "body": "이번 계약은 향후 수십 년간 천연가스 발전에서 발생하는 탄소배출을 그대로 끌고 가는 구조여서, AI 인프라 확장과 기후 목표 사이의 긴장을 다시 부각시켰다. 빅테크의 데이터센터 전력 수요가 기존 전력망 증설 속도를 앞지르면서, 마이크로소프트를 비롯한 클라우드 기업들이 잇따라 화석연료 발전과 직접 계약을 맺는 흐름이 이어지고 있다.",
+      "url": "https://techcrunch.com/2026/06/22/microsoft-and-chevron-plan-one-of-the-largest-gas-powered-data-center-projects-in-us/",
+      "source": "TechCrunch",
+      "category": "big_tech",
+      "publishedAt": "2026-06-23T05:37:19+09:00",
+      "readTime": 3,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_h5",
+      "title": "오픈AI, 첨단 AI 공동 표준 마련 위해 'Appia Foundation' 설립 지원",
+      "excerpt": "오픈AI가 리눅스 파운데이션 산하 'Appia Foundation' 설립을 지원하며 첨단 AI 시스템 평가·보안·거버넌스를 위한 개방형 표준 마련에 나섰다.",
+      "body": "Appia는 국제 표준과 기존 프레임워크를 AI 가치사슬 전반에 적용 가능한 실질적 평가 기준으로 전환하는 개방형·모듈형 규격을 개발한다. 오픈AI는 이를 서로 다른 조직이 만든 모델·인프라·애플리케이션 간 신뢰를 확인할 수 있는 '신뢰 계층'을 구축하는 핵심 작업으로 보고 있다. 이는 오픈AI가 앞서 제시한 '프런티어 AI의 민주적 거버넌스 청사진' — 美 정부의 AI 표준 기관 CAISI 강화와 국제 공조 체계 구축을 요구하는 로드맵 — 의 후속 조치다.",
+      "url": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
+      "source": "OpenAI News",
+      "category": "ai_ml",
+      "publishedAt": "2026-06-23T22:00:00+09:00",
+      "readTime": 4,
+      "imageGradient": 0
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_ai_01",
+        "title": "허깅페이스, AI와 인간이 함께 매주 huggingface_hub 릴리스를 내놓는 방법",
+        "excerpt": "허깅페이스가 핵심 라이브러리 huggingface_hub를 매주 릴리스하기 위해 AI 코딩 도구와 오픈소스 자동화, 그리고 사람의 검토를 결합한 워크플로를 공개했다.",
+        "body": "릴리스 노트 작성, 회귀 테스트, 변경 사항 분류 등 반복 작업을 AI에게 맡기되 최종 검토는 항상 사람이 맡는 '휴먼 인 더 루프' 구조를 채택해 속도와 신뢰성을 동시에 확보했다는 설명이다.",
+        "url": "https://huggingface.co/blog/huggingface-hub-release-ci",
+        "source": "Hugging Face - Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-23T09:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_ai_02",
+        "title": "오미오, 오픈AI로 대화형 여행 서비스의 미래를 만들다",
+        "excerpt": "유럽 교통 예약 플랫폼 오미오가 오픈AI 기술을 도입해 대화형 여행 검색·예약 경험을 구축하고 있다.",
+        "body": "오미오는 오픈AI 모델을 활용해 제품 개발 속도를 끌어올리고, 회사 전체를 'AI 네이티브' 조직으로 전환하는 작업을 진행 중이라고 밝혔다.",
+        "url": "https://openai.com/index/omio",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-23T09:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_ai_03",
+        "title": "Codex로 장시간 작업을 이어가는 법 — '코덱스 맥싱'",
+        "excerpt": "개발자 제이슨 리우가 Codex로 컨텍스트를 보존하며 복잡한 프로젝트를 며칠씩 이어가는 작업 방식을 소개했다.",
+        "body": "한 번의 프롬프트로 끝나지 않는 장기 작업을 진행할 때 컨텍스트를 잃지 않고 이어가는 노하우를 다뤘으며, 최근 화두가 된 '에이전트 루프' 흐름과도 맞닿아 있다.",
+        "url": "https://openai.com/index/codex-maxxing-long-running-work",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-22T09:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_ai_04",
+        "title": "Transformers.js, 제안된 'Cross-Origin Storage API' 실험적 지원",
+        "excerpt": "허깅페이스가 브라우저용 라이브러리 Transformers.js에 W3C에 제안된 'Cross-Origin Storage API'를 실험적으로 적용한 사례를 공유했다.",
+        "body": "이 API가 표준화되면 여러 사이트에서 동일한 모델 캐시를 공유할 수 있어, 브라우저에서 모델을 매번 새로 내려받는 비효율을 줄일 수 있을 것으로 기대된다.",
+        "url": "https://huggingface.co/blog/cross-origin-storage",
+        "source": "Hugging Face - Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-23T09:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_ai_05",
+        "title": "로컬 모델로 오픈소스 저장소 이슈 무료로 트리아지하기",
+        "excerpt": "허깅페이스 팀이 로컬에서 구동되는 소형 모델만으로 'OpenClaw' 저장소의 이슈·PR을 분류하는 실험을 공개했다.",
+        "body": "클라우드 API 비용 없이 로컬 모델로도 충분히 실용적인 트리아지가 가능하다는 것을 보여준 사례로, 오픈소스 메인테이너의 반복 업무 부담을 줄이는 방법으로 주목받고 있다.",
+        "url": "https://huggingface.co/blog/local-models-pr-triage",
+        "source": "Hugging Face - Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-22T09:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_dev_01",
+        "title": "클로드 디자인에서 만든 결과물, 곧바로 버셀로 배포한다",
+        "excerpt": "버셀이 '클로드 디자인'의 전송 대상으로 추가되면서, 디자인을 마치자마자 캔버스를 벗어나지 않고 바로 배포해 URL을 받을 수 있게 됐다.",
+        "body": "클로드 디자인은 완성된 디자인을 연결된 버셀 계정의 새 프로젝트로 배포하며, 바로 열어서 공유할 수 있는 URL을 반환한다.",
+        "url": "https://vercel.com/changelog/claude-design-and-vercel",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-23T09:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_dev_02",
+        "title": "AI가 만든 백엔드, '실행은 되지만' — 그게 진짜 문제다",
+        "excerpt": "스택오버플로우 블로그가 AI 코딩 도구로 만든 백엔드가 '일단 부팅은 되지만' 운영 관점에서 부실한 경우가 많다고 지적했다.",
+        "body": "테스트 커버리지, 에러 핸들링, 관측 가능성 같은 운영 디테일을 AI가 종종 건너뛰기 때문에, 겉보기엔 작동하는 코드라도 실제 프로덕션에서는 문제를 일으키기 쉽다는 경고다.",
+        "url": "https://stackoverflow.blog/2026/06/23/your-ai-shipped-a-backend-that-boots-that-is-the-whole-problem/",
+        "source": "Stack Overflow Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-23T23:08:58+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_dev_03",
+        "title": "선언에서 실천으로 — 깃허브, 더 포용적인 오픈소스 생태계 만들기",
+        "excerpt": "깃허브가 오픈소스 접근성 목표를 향한 진행 상황과, 누구나 기여할 수 있는 포용적 생태계를 만드는 방법을 공유했다.",
+        "body": "스크린 리더 호환성, 키보드 내비게이션 등 접근성 개선 사례를 구체적으로 소개하며, 메인테이너들이 참고할 수 있는 가이드라인도 함께 제시했다.",
+        "url": "https://github.blog/open-source/from-pledge-to-practice-building-a-more-inclusive-open-source-ecosystem/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-23T02:20:31+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_dev_04",
+        "title": "버셀 플래그, 플랫폼 네이티브 기능 플래그 공개",
+        "excerpt": "버셀이 v0의 모델 교체부터 프로덕션 데이터베이스 마이그레이션까지 자체적으로 활용해온 기능 플래그 시스템을 '버셀 플래그'로 정식 공개했다.",
+        "body": "v0 팀만 해도 동시에 수백 개의 플래그를 운영하고 있으며, 코드 머지와 실제 배포 전환을 분리해 안전하게 기능을 출시할 수 있다는 게 핵심이다.",
+        "url": "https://vercel.com/blog/vercel-flags-platform-native-feature-flags",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-22T17:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_dev_05",
+        "title": "사카나의 'Fugu Ultra', 버셀 AI 게이트웨이에 추가",
+        "excerpt": "사카나AI의 'Fugu Ultra'가 버셀 AI 게이트웨이에서 정식 제공된다.",
+        "body": "단일 모델이 아니라 여러 프런티어 모델을 풀(pool)로 묶어, 문제 난이도에 따라 1~3개 에이전트에 작업을 분배하고 결과를 합쳐 최종 답을 만들어내는 구조다.",
+        "url": "https://vercel.com/changelog/sakana-fugu-ultra-now-available-on-ai-gateway",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-22T09:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_bt_01",
+        "title": "NVIDIA, 통신업계에 신뢰 가능한 24시간 AI 에이전트 공급",
+        "excerpt": "NVIDIA가 통신사들을 대상으로 네트워크 관리·고객 응대·백오피스 업무를 자율적으로 처리하는 '신뢰 가능한 24시간 AI 에이전트'를 공급한다고 밝혔다.",
+        "body": "기존엔 정해진 절차를 빠르게 수행하는 '작업 기반' 자동화가 중심이었지만, 이번엔 사람이 인사이트를 직접 종합하지 않아도 에이전트가 다음 행동까지 스스로 판단하는 수준으로 진화했다는 설명이다.",
+        "url": "https://blogs.nvidia.com/blog/telecom-ai-agents-dtw-ignite-2026/",
+        "source": "NVIDIA Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-06-23T15:00:09+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_bt_02",
+        "title": "테슬라, 텍사스 치명적 사고 이후 오토파일럿 책임론에 반박",
+        "excerpt": "텍사스에서 발생한 치명적 사고를 두고 오토파일럿 책임 논란이 커지자 테슬라가 공식 입장을 내고 반박에 나섰다.",
+        "body": "오토파일럿이 실제로 작동 중이었는지, 운전자가 개입했는지, 혹은 오작동이었는지는 조사관들이 차량 데이터 로그를 모두 분석하기 전까지는 확인되기 어려울 전망이다.",
+        "url": "https://techcrunch.com/2026/06/22/tesla-pushes-back-on-autopilot-narrative-after-fatal-texas-crash/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-06-23T07:59:57+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_bt_03",
+        "title": "애플·테슬라 공급사 타타 일렉트로닉스, 데이터 유출 확인",
+        "excerpt": "애플과 테슬라의 주요 부품 공급사인 타타 일렉트로닉스가 데이터 유출 사고를 확인했다.",
+        "body": "글로벌 기술 공급망에서 역할을 키워가고 있는 시점에 발생한 사고로, 공급망 보안에 대한 우려를 다시 제기했다.",
+        "url": "https://techcrunch.com/2026/06/22/tata-electronics-a-major-tech-supplier-to-apple-and-tesla-confirms-data-breach/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-06-23T04:25:00+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_bt_04",
+        "title": "우버 이사회, 성폭행 사건 등 두고 주주들에게 피소",
+        "excerpt": "디트로이트 연금펀드가 주도한 주주 소송에서 우버 이사회와 경영진이 컴플라이언스를 지나치게 소홀히 해 수천 건의 소송으로 이어졌다는 주장이 제기됐다.",
+        "body": "소송은 이사회가 안전·컴플라이언스 관리 의무를 다하지 못했다는 점을 핵심 쟁점으로 삼고 있다.",
+        "url": "https://techcrunch.com/2026/06/22/shareholders-sue-ubers-board-over-sexual-assaults-other-incidents/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-06-23T07:43:12+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_bt_05",
+        "title": "핫터브보다 뜨겁다 — 45도까지 견디는 AI 서버 액체냉각의 비밀",
+        "excerpt": "NVIDIA의 최신 AI 서버는 냉각액 온도를 45도(113°F)까지 견딜 수 있도록 설계됐다 — 일반적인 핫터브(38~40도)보다도 뜨거운 온도다.",
+        "body": "냉각액 허용 온도를 높이면 외부 냉각(칠러) 없이도 열을 더 효율적으로 배출할 수 있어, 데이터센터의 전력·물 사용량을 동시에 줄일 수 있다는 게 핵심이다.",
+        "url": "https://blogs.nvidia.com/blog/liquid-cooling-ai-factories/",
+        "source": "NVIDIA Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-06-22T14:00:22+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      }
+    ],
+    "twitter_pulse": [],
+    "threads_pulse": [],
+    "reddit_pulse": [
+      {
+        "id": "reddit_01",
+        "title": "딥시크, 600억 달러 밸류에이션에 74억 달러 투자 유치 — 량원펑 개인 30억 달러 투자",
+        "originalTitle": "DeepSeek raises $7.4B USD at $60B valuation. Remarkably, Liang Wenfeng invests $3B in DeepSeek himself.",
+        "summary": "딥시크가 600억 달러 기업가치로 74억 달러 규모의 투자를 유치했다는 소식으로, 특히 창업자 량원펑이 개인 자금 30억 달러를 직접 투자한 점이 화제가 되고 있다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ucwyes/deepseek_raises_74b_usd_at_60b_valuation/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-06-23T06:03:52+09:00"
+      },
+      {
+        "id": "reddit_02",
+        "title": "왜 아무도 마이크로소프트의 오픈소스 'Fast Context'를 얘기하지 않을까",
+        "originalTitle": "Why is NO one talking about Microsoft's open source Fast Context!!!",
+        "summary": "마이크로소프트가 공개한 오픈소스 프로젝트 'Fast Context'가 주목할 만한 성능을 보이는데도 커뮤니티에서 충분히 화제가 되지 않고 있다는 글이 LocalLLaMA에서 논의되고 있다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ud1lro/why_is_no_one_talking_about_microsofts_open/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-06-23T09:11:05+09:00"
+      },
+      {
+        "id": "reddit_03",
+        "title": "중국 해커들의 최신 '걸작' — NVIDIA를 노리다",
+        "originalTitle": "Chinese Hackers Latest Masterpiece with NVIDIA",
+        "summary": "NVIDIA 관련 인프라를 노린 중국계 해커 조직의 최신 공격 사례가 LocalLLaMA 커뮤니티에서 공유되며 논의되고 있다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ucokod/chinese_hackers_latest_masterpiece_with_nvidia/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-06-23T00:58:45+09:00"
+      },
+      {
+        "id": "reddit_04",
+        "title": "폭주하는 초지능, 수십 년을 기다렸다가 행동에 나설 수도 있다 — AI 연구자 로먼 얌폴스키",
+        "originalTitle": "A rogue superintelligence could wait decades before striking, argues AI researcher Roman Yampolskiy",
+        "summary": "AI 안전 연구자 로먼 얌폴스키가 초지능이 통제를 벗어나더라도 곧바로 행동하지 않고 수십 년간 잠복할 수 있다는 주장을 내놓아 r/OpenAI에서 논쟁이 일고 있다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1ucj5wi/a_rogue_superintelligence_could_wait_decades/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-06-22T21:26:05+09:00"
+      },
+      {
+        "id": "reddit_05",
+        "title": "오픈AI 최고전략책임자, 피터 틸의 1만6천 달러짜리 비공개 리트릿 참가자 명단에 이름 올려",
+        "originalTitle": "OpenAI's Chief Strategy Officer is on the registration list for Peter Thiel's secret $16K retreat alongside the Treasury Secretary and the co-founder of Palantir",
+        "summary": "오픈AI 최고전략책임자가 美 재무장관, 팔란티어 공동창업자와 함께 피터 틸이 주최하는 고가의 비공개 리트릿 참가자 명단에 포함된 것으로 알려져 화제가 되고 있다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1ucotud/openais_chief_strategy_officer_is_on_the/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-06-23T01:07:31+09:00"
+      },
+      {
+        "id": "reddit_06",
+        "title": "미국 AI API, 글로벌 기업들에게 여전히 안전한 선택일까",
+        "originalTitle": "Are American AI APIs still a safe bet for global businesses?",
+        "summary": "최근 미국 정부의 모델 규제·단속 움직임이 이어지면서, 해외 기업들이 미국산 AI API에 계속 의존하는 것이 리스크는 아닌지를 묻는 논의가 r/OpenAI에서 이어지고 있다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1ude6mb/are_american_ai_apis_still_a_safe_bet_for_global/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-06-23T20:11:20+09:00"
+      },
+      {
+        "id": "reddit_07",
+        "title": "GPU 입문 — 작동 원리 한눈에 정리",
+        "originalTitle": "Intro to GPUs",
+        "summary": "GPU의 기본 구조와 동작 원리를 처음부터 차근차근 설명하는 입문 글이 r/programming에서 인기를 얻고 있다.",
+        "url": "https://www.reddit.com/r/programming/comments/1udhtw1/intro_to_gpus/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-06-23T22:55:14+09:00"
+      },
+      {
+        "id": "reddit_08",
+        "title": "4바이트 패딩이 배열 초기화를 49% 빠르게 만드는 이유",
+        "originalTitle": "How 4 bytes of padding make array clearing 49% faster",
+        "summary": "메모리 정렬(alignment)을 위한 작은 패딩 하나가 배열을 비우는 연산 속도를 49%나 끌어올린 사례를 분석한 글이 화제가 됐다.",
+        "url": "https://www.reddit.com/r/programming/comments/1uck3ll/how_4_bytes_of_padding_make_array_clearing_49/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-06-22T22:07:14+09:00"
+      },
+      {
+        "id": "reddit_09",
+        "title": "당신의 코드가 빠른 건 — 운이 좋아서일 수도 있다",
+        "originalTitle": "Your code is fast - if you’re lucky",
+        "summary": "벤치마크에서 빨라 보이는 코드가 실제로는 특정 입력·환경에 운 좋게 맞아떨어진 결과일 뿐, 보장된 성능이 아닐 수 있다는 점을 짚은 글이다.",
+        "url": "https://www.reddit.com/r/programming/comments/1ucjpku/your_code_is_fast_if_youre_lucky/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-06-22T21:50:40+09:00"
+      },
+      {
+        "id": "reddit_10",
+        "title": "팀 생산량이 8배로 늘면, 코드를 리뷰하나요 아니면 결정만 리뷰하나요?",
+        "originalTitle": "When your team's output goes 8x, do you still review the code or just the decisions?",
+        "summary": "AI 도구 도입으로 팀의 코드 출력량이 폭증한 상황에서, 코드 리뷰 방식을 어떻게 바꿔야 하는지를 묻는 글이 r/ExperiencedDevs에서 활발히 논의되고 있다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1ucecaf/when_your_teams_output_goes_8x_do_you_still/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-06-22T16:58:46+09:00"
+      },
+      {
+        "id": "reddit_11",
+        "title": "SDET 직군의 전망, 요즘 소프트웨어 개발 환경에서 달라졌을까?",
+        "originalTitle": "Has the outlook for SDET roles has changed in the current landscape of software development? Is it still generally a bad idea to move from a SWE role to SDET?",
+        "summary": "SWE에서 SDET(테스트 엔지니어) 직군으로 이동하는 것이 여전히 경력상 손해인지를 묻는 글로, 현직 개발자들의 다양한 경험담이 댓글로 모이고 있다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1ud0k3t/has_the_outlook_for_sdet_roles_has_changed_in_the/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-06-23T08:25:58+09:00"
+      },
+      {
+        "id": "reddit_12",
+        "title": "금융권 엔지니어링 조직 문화, 현직자들은 어떻게 평가할까",
+        "originalTitle": "What’s your experienced opinion of the financial sector and their engineering culture",
+        "summary": "금융업계로 이직을 고민하는 개발자가 그곳의 엔지니어링 문화에 대한 솔직한 평가를 구하며 올린 글에 다양한 경험담이 모이고 있다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1uddg43/whats_your_experienced_opinion_of_the_financial/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-06-23T19:31:33+09:00"
+      },
+      {
+        "id": "reddit_13",
+        "title": "Papers with Code, 새로운 업데이트 공개 [P]",
+        "originalTitle": "Some new updates to Papers with Code [P]",
+        "summary": "논문과 코드를 연결해주는 서비스 'Papers with Code'에 새로운 기능이 추가됐다는 소식이 r/MachineLearning에 공유됐다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1ucm508/some_new_updates_to_papers_with_code_p/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-06-22T23:29:33+09:00"
+      },
+      {
+        "id": "reddit_14",
+        "title": "어텐션의 대안, '매트릭스 순환 유닛' 최신 연구 업데이트 [R]",
+        "originalTitle": "An Update on Matrix Recurrent Units, an Attention Alternative [R]",
+        "summary": "어텐션 메커니즘을 대체할 수 있는 구조로 제안된 '매트릭스 순환 유닛(Matrix Recurrent Units)'의 후속 연구 결과가 공유됐다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1ubz5o8/an_update_on_matrix_recurrent_units_an_attention/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-06-22T04:39:44+09:00"
+      },
+      {
+        "id": "reddit_15",
+        "title": "ICLR 2026 블로그 글에서 발견된 오류 가능성 [D]",
+        "originalTitle": "Found a potential mistake in an ICLR 2026 blogpost [D]",
+        "summary": "ICLR 2026 관련 블로그 게시물에서 잠재적 오류로 보이는 부분을 발견했다는 토론 글이 올라와 검증이 이어지고 있다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1ud9i2g/found_a_potential_mistake_in_an_iclr_2026/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-06-23T15:39:57+09:00"
+      },
+      {
+        "id": "reddit_16",
+        "title": "캐나다 정부, 비공개 팔란티어 계약에 수천만 달러 지출",
+        "originalTitle": "Canadian government spent tens of millions on secret Palantir contract",
+        "summary": "캐나다 정부가 공개하지 않은 채 팔란티어와 수천만 달러 규모의 계약을 체결한 사실이 드러나 논란이 되고 있다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1ucilr4/canadian_government_spent_tens_of_millions_on/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-06-22T20:59:58+09:00"
+      },
+      {
+        "id": "reddit_17",
+        "title": "'에이전트 프로필', AI 작업을 더 안전하고 재사용 가능하게 만든다",
+        "originalTitle": "Agent Profiles Make AI Runs Safer, More Focused and Reusable",
+        "summary": "AI 에이전트에 역할·권한·맥락을 명시한 '프로필'을 부여하면 작업이 더 안전하고 일관되게 재현될 수 있다는 접근법이 소개됐다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1udj43e/agent_profiles_make_ai_runs_safer_more_focused/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-06-23T23:44:18+09:00"
+      },
+      {
+        "id": "reddit_18",
+        "title": "\"이래서 AI를 무작정 믿으면 안 된다\" — 당신의 사례는?",
+        "originalTitle": "What's your \"this is why we can't blindly trust AI\" story?",
+        "summary": "AI를 맹신했다가 곤란을 겪은 경험담을 모으는 글로, 다양한 실패 사례가 댓글로 쏟아지고 있다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1ud6na5/whats_your_this_is_why_we_cant_blindly_trust_ai/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-06-23T13:05:45+09:00"
+      },
+      {
+        "id": "reddit_19",
+        "title": "구글 글래스에서 클로드 코드 돌리기",
+        "originalTitle": "Claude code on Google glass",
+        "summary": "구글 글래스 위에서 클로드 코드를 구동해본 사례가 r/ClaudeAI에 공유되며 독특한 사용기로 주목받고 있다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1udc99r/claude_code_on_google_glass/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-06-23T18:22:39+09:00"
+      },
+      {
+        "id": "reddit_20",
+        "title": "클로드 코드로 자동차 데이터 리버스 엔지니어링하기",
+        "originalTitle": "Using Claude Code to reverse engineer car data",
+        "summary": "클로드 코드를 활용해 차량에서 나오는 데이터 포맷을 분석·해독한 경험담이 공유돼 실용적인 활용 사례로 주목받았다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1uda0l6/using_claude_code_to_reverse_engineer_car_data/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-06-23T16:10:09+09:00"
+      },
+      {
+        "id": "reddit_21",
+        "title": "20달러에서 100달러로 — 가격 격차에 파워유저들 오픈AI와 지출 분산",
+        "originalTitle": "The $20 → $100 gap is pushing solo power users to split spend with OpenAI",
+        "summary": "클로드의 저가 플랜과 고가 플랜 사이 가격 격차가 커지면서, 1인 파워유저들이 비용을 아끼려 오픈AI 서비스와 구독을 나눠 쓰는 사례가 늘고 있다는 논의다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1ud388h/the_20_100_gap_is_pushing_solo_power_users_to/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-06-23T10:23:47+09:00"
+      },
+      {
+        "id": "reddit_22",
+        "title": "정부·기업 겨냥한 파괴적 AI 공격, 수개월 내 가능 — 파이브 아이즈 드문 공동 경고",
+        "originalTitle": "AI models capable of devastating attacks on governments and business months away, rare Five Eyes statement warns",
+        "summary": "미국 등 정보 동맹 '파이브 아이즈'가 정부와 기업을 겨냥한 파괴적 수준의 AI 기반 공격이 수개월 내 가능해질 수 있다는 보기 드문 공동 경고를 내놨다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1udao3h/ai_models_capable_of_devastating_attacks_on/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-06-23T16:49:06+09:00"
+      },
+      {
+        "id": "reddit_23",
+        "title": "트럼프 대통령, 주요 과학 계산이 가능한 양자컴퓨터 구축 국가 프로젝트 지시",
+        "originalTitle": "President Trump orders a national effort to build a quantum computer capable of performing important scientific calculations",
+        "summary": "트럼프 대통령이 실질적인 과학 계산을 수행할 수 있는 수준의 양자컴퓨터를 구축하기 위한 국가 차원의 노력을 지시했다는 소식이 r/singularity에서 논의되고 있다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1ucy9oj/president_trump_orders_a_national_effort_to_build/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-06-23T06:54:01+09:00"
+      },
+      {
+        "id": "reddit_24",
+        "title": "버니 샌더스, 美 국민에게 AI 산업 통제권 주는 7조 달러 플랜 발표",
+        "originalTitle": "Bernie Sanders unveils $7 trillion plan to give Americans control of AI industry",
+        "summary": "버니 샌더스 상원의원이 AI 산업의 소유·통제권을 미국 국민에게 분산시키겠다는 7조 달러 규모의 정책 구상을 공개해 논쟁을 불러일으켰다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1ucq463/bernie_sanders_unveils_7_trillion_plan_to_give/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-06-23T01:54:01+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_qb_01",
+        "title": "캐나다, 2040년까지 최대 10기 원자로 짓는 '원자력 르네상스' 추진",
+        "excerpt": "2050년까지 전력망 용량을 두 배로 늘리려는 캐나다가 신규 원자로 최대 10기 건설을 국가 전략의 중심에 뒀다.",
+        "body": "팀 호지슨 에너지부 장관은 저탄소 경제와 안정적인 기저 전력 확보에 원자력이 필수라며, 캐나다산 원자로와 우라늄 수출 확대도 함께 추진한다고 밝혔다.",
+        "url": "https://news.hada.io/topic?id=30757",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-23T14:34:08+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_qb_02",
+        "title": "미첼 하시모토, Zig 재단에 40만 달러 추가 기부 약정",
+        "excerpt": "Mitchell Hashimoto 가족이 Zig Software Foundation에 40만 달러를 추가로 약정해, 2024년 첫 기부 이후 총 지원액이 70만 달러가 됐다.",
+        "body": "하시모토는 Zig의 2026 개발 로그가 좋은 언어와 컴파일러를 만들기 위한 어려운 문제들에서 꾸준한 진전을 보이고 있다고 평가했다.",
+        "url": "https://news.hada.io/topic?id=30749",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-23T09:45:15+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_qb_03",
+        "title": "Steam Machine 오늘 출시, 4가지 옵션 예약 시작",
+        "excerpt": "Valve가 'Steam Machine'을 512GB·2TB 모델과 Steam Controller 번들까지 총 4가지 옵션으로 내놓고 예약 신청을 받기 시작했다.",
+        "body": "시작 가격은 512GB 모델이 1,049달러, 2TB 모델이 1,349달러로, 메모리·저장장치 비용 상승 탓에 원래 목표했던 가격대를 유지하기 어려워졌다고 밝혔다.",
+        "url": "https://news.hada.io/topic?id=30748",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-23T09:42:14+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_qb_04",
+        "title": "Codex 로깅 버그, 로컬 SSD에 TB 단위 쓰기 발생시켜 SSD 수명 빠르게 소모",
+        "excerpt": "Codex가 로컬 SQLite 피드백 로그 DB에 지속적으로 대량 데이터를 기록하면서, 한 사용자 환경에서 21일 가동 후 메인 SSD에 약 37TB가 기록된 사례가 보고됐다.",
+        "body": "이를 연간으로 환산하면 약 640TB 수준으로, 1TB SSD 기준 연 약 640회 전체 쓰기에 해당해 일부 컨슈머 SSD의 보증 범위를 빠르게 초과할 수 있다는 우려가 나왔다.",
+        "url": "https://news.hada.io/topic?id=30738",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-23T09:04:34+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_qb_05",
+        "title": "구글을 AI로 해킹해서 7억원 벌기",
+        "excerpt": "AI에게 구글 API를 끊임없이 자동으로 찔러보게 한 결과, 3개월 만에 50만 달러(약 7억원)의 버그 바운티 수익을 올린 보안 연구 사례가 공개됐다.",
+        "body": "6만 개 이상의 안드로이드 앱에서 긁어모은 API 키와 구글의 API 명세서(discovery document)를 활용해 자동으로 취약점을 탐색하는 방식이 핵심이었다.",
+        "url": "https://news.hada.io/topic?id=30741",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-23T09:15:02+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      }
+    ]
+  }
+}

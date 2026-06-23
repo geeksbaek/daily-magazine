@@ -1,0 +1,19 @@
+Title,RSS URL,Website,Category
+OpenAI News,https://openai.com/news/rss.xml,https://openai.com/news,ai_ml
+Hugging Face - Blog,https://huggingface.co/blog/feed.xml,https://huggingface.co/blog,ai_ml
+LangChain Blog,https://blog.langchain.dev/rss/,https://blog.langchain.dev,ai_ml
+AI & Machine Learning,https://blog.google/technology/ai/rss/,https://blog.google,ai_ml
+Microsoft Research,https://www.microsoft.com/en-us/research/feed/,https://www.microsoft.com/research,ai_ml
+TechCrunch AI,https://techcrunch.com/category/artificial-intelligence/feed/,https://techcrunch.com,ai_ml
+GitHub Blog,https://github.blog/feed/,https://github.blog,dev_tools
+Vercel Blog,https://vercel.com/atom,https://vercel.com/blog,dev_tools
+Docker Blog,https://www.docker.com/blog/feed/,https://www.docker.com/blog,dev_tools
+Stack Overflow Blog,https://stackoverflow.blog/feed/,https://stackoverflow.blog,dev_tools
+Visual Studio Code,https://code.visualstudio.com/feed.xml,https://code.visualstudio.com,dev_tools
+Cloudflare Blog,https://blog.cloudflare.com/rss/,https://blog.cloudflare.com,dev_tools
+NVIDIA Blog,https://blogs.nvidia.com/feed/,https://blogs.nvidia.com,big_tech
+Apple Newsroom,https://www.apple.com/newsroom/rss-feed.rss,https://www.apple.com/newsroom,big_tech
+The Verge,https://www.theverge.com/rss/index.xml,https://www.theverge.com,big_tech
+TechCrunch,https://techcrunch.com/feed/,https://techcrunch.com,big_tech
+Hacker News,https://hnrss.org/frontpage,https://news.ycombinator.com,quick_bites
+GeekNews,https://news.hada.io/rss/news,https://news.hada.io,quick_bites
