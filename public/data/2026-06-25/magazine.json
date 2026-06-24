@@ -1,0 +1,559 @@
+{
+  "date": "2026-06-25",
+  "issueNumber": 83,
+  "cover": {
+    "mainHeadline": "오픈AI-브로드컴, 9개월 만에 만든 첫 자체 추론 칩 'Jalapeño' 공개",
+    "mainExcerpt": "오픈AI가 브로드컴과 함께 설계한 첫 '지능 처리 장치(IPU)' Jalapeño를 공개했다. LLM 추론에 특화해 처음부터 새로 설계됐으며, 와트당 성능에서 기존 최고 수준을 크게 앞선다. 제품·모델에 이어 칩까지 아우르는 오픈AI의 풀스택 전략이 한 단계 더 확장됐다.",
+    "headlines": [
+      "구글, 플레이스토어 외부 결제 전면 개방 — 안드로이드 반독점 합의 이행",
+      "피그마, 코드 레이어·애니메이션·AI 플러그인 기능 대거 추가",
+      "어질리티 로보틱스, 25억 달러 규모 SPAC 합병으로 상장 추진"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_001",
+      "title": "오픈AI-브로드컴, 9개월 만에 만든 첫 자체 추론 칩 'Jalapeño' 공개",
+      "excerpt": "오픈AI가 브로드컴과 함께 LLM 추론에 특화된 첫 가속기 'Jalapeño'를 공개했다. 설계부터 생산까지 9개월이 걸렸으며, 와트당 성능이 기존 최고 수준을 크게 앞선다.",
+      "body": "오픈AI와 브로드컴(NASDAQ: AVGO)이 오픈AI의 첫 '지능 처리 장치(Intelligence Processor)'인 Jalapeño를 공개했다. 이 칩은 LLM 추론의 미래를 염두에 두고 처음부터 새로 설계된 가속기로, 두 회사가 함께 구축하는 다세대 컴퓨팅 플랫폼의 첫 AI 가속기다. 초기 테스트 결과 와트당 성능이 현재 최고 수준의 가속기보다 상당히 우수한 것으로 나타났다. Jalapeño는 샘 알트먼 오픈AI CEO와 그레그 브록먼 사장에게 브로드컴의 호크 탄 CEO와 찰리 카와스 사장이 직접 전달했으며, 제품과 모델에 이어 칩까지 아우르는 오픈AI의 풀스택 전략에서 중요한 전환점으로 평가된다. 이 칩은 향후 데이터센터 파트너들과 함께 기가와트 규모로 여러 세대에 걸쳐 배치될 예정이다.",
+      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+      "source": "OpenAI News",
+      "category": "ai_ml",
+      "publishedAt": "2026-06-24T15:00:00+09:00",
+      "readTime": 4,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_009",
+      "title": "구글, 플레이스토어 외부 결제 전면 개방 — 안드로이드 반독점 합의 이행",
+      "excerpt": "구글이 에픽게임즈와의 반독점 소송 합의에 따라 플레이스토어의 결제 정책을 전 세계적으로 개방하기 시작했다. 기존 30% 수수료 정책이 크게 바뀐다.",
+      "body": "법원이 에픽게임즈와 구글 간 반독점 소송을 해결할 대규모 합의안에 아직 최종 서명하지 않았지만, 구글은 전 세계 개발자를 대상으로 안드로이드 앱스토어 결제 방식을 변경하는 작업을 시작한다고 밝혔다. 지난 3월 발표된 대로, 기존의 일률적인 30% 수수료 정책에 변화가 생기며, 개발자들은 플레이스토어 외부의 대안 결제 시스템을 더 자유롭게 이용할 수 있게 된다. 이번 조치는 모바일 앱 생태계의 결제 구조에 상당한 영향을 미칠 것으로 보인다.",
+      "url": "https://www.theverge.com/policy/956296/google-play-app-store-alternative-billing-fee-antitrust",
+      "source": "The Verge",
+      "category": "big_tech",
+      "publishedAt": "2026-06-25T02:36:44+09:00",
+      "readTime": 3,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_002",
+      "title": "피그마, 코드 레이어·애니메이션·AI 플러그인 기능 대거 추가",
+      "excerpt": "피그마가 새 업데이트를 통해 코드 레이어, 모션·셰이더 지원, AI 기반 커스텀 플러그인 제작 기능을 한꺼번에 추가했다.",
+      "body": "피그마가 이번 업데이트에서 새로운 코드 레이어를 도입하고, 모션과 셰이더 지원을 추가했다. 또한 사용자가 AI를 활용해 다양한 작업을 위한 커스텀 플러그인을 직접 만들 수 있는 기능도 새로 제공한다. 디자인 도구에 AI 네이티브 기능을 빠르게 통합하려는 업계 흐름 속에서, 피그마는 디자이너와 개발자 간 협업 워크플로우를 한층 더 가속화하려 하고 있다.",
+      "url": "https://techcrunch.com/2026/06/24/figma-adds-code-layers-support-for-animations-more-ai-features-in-new-update/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-06-25T01:15:00+09:00",
+      "readTime": 3,
+      "imageGradient": 2
+    },
+    {
+      "id": "rss_011",
+      "title": "어질리티 로보틱스, 25억 달러 규모 SPAC 합병으로 상장 추진",
+      "excerpt": "오리건 주립대에서 분사한 휴머노이드 로봇 스타트업 어질리티 로보틱스가 SPAC 합병을 통해 상장을 추진하며 6억 2천만 달러의 자금 확보를 기대하고 있다.",
+      "body": "2015년 오리건 주립대에서 분사한 휴머노이드 로보틱스 스타트업 어질리티 로보틱스가 기업인수목적회사(SPAC)와의 합병을 통해 상장할 계획이라고 밝혔다. 이번 거래로 회사는 약 6억 2천만 달러의 자금을 확보할 것으로 예상된다. 휴머노이드 로봇 산업에 대한 투자 열기가 이어지는 가운데, 이번 상장은 관련 업계에서 주목받는 대형 이벤트로 꼽힌다.",
+      "url": "https://techcrunch.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal/",
+      "source": "TechCrunch AI",
+      "category": "big_tech",
+      "publishedAt": "2026-06-25T01:48:43+09:00",
+      "readTime": 3,
+      "imageGradient": 3
+    },
+    {
+      "id": "rss_014",
+      "title": "2,700만 달러 쓴 앤트로픽·오픈AI '대리전', 결국 무승부로 끝나",
+      "excerpt": "친AI 슈퍼팩의 공격으로 화제가 됐던 뉴욕주 의원 알렉스 보레스가 민주당 예비선거에서 근소한 차이로 패배하며, 앤트로픽과 오픈AI 사이의 거액 정치 대리전이 무승부로 마무리됐다.",
+      "body": "앤트로픽과 오픈AI 사이에서 벌어진 2,700만 달러 규모의 정치적 대리전이 무승부로 끝났다. 친AI 성향의 슈퍼팩 표적이 되면서 인기가 급상승했던 뉴욕주 하원의원 알렉스 보레스가 뉴욕 12선거구 민주당 예비선거에서 근소한 차이로 패배했다. 보레스는 한때 주 의회에서 AI 규제 법안을 주도한 인물로 알려져 있으며, 이번 선거는 AI 기업들이 정치 자금을 동원해 직접적인 영향력을 행사하려는 움직임을 보여준 사례로 평가된다.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/956263/alex-bores-new-york-12th-district-congressional-primary-results",
+      "source": "The Verge",
+      "category": "big_tech",
+      "publishedAt": "2026-06-25T02:25:00+09:00",
+      "readTime": 3,
+      "imageGradient": 4
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_001",
+        "title": "오픈AI-브로드컴, 9개월 만에 만든 첫 자체 추론 칩 'Jalapeño' 공개",
+        "excerpt": "오픈AI가 브로드컴과 함께 LLM 추론에 특화된 첫 가속기 'Jalapeño'를 공개했다. 설계부터 생산까지 9개월이 걸렸으며, 와트당 성능이 기존 최고 수준을 크게 앞선다.",
+        "body": "오픈AI와 브로드컴(NASDAQ: AVGO)이 오픈AI의 첫 '지능 처리 장치(Intelligence Processor)'인 Jalapeño를 공개했다. 이 칩은 LLM 추론의 미래를 염두에 두고 처음부터 새로 설계된 가속기로, 두 회사가 함께 구축하는 다세대 컴퓨팅 플랫폼의 첫 AI 가속기다. 초기 테스트 결과 와트당 성능이 현재 최고 수준의 가속기보다 상당히 우수한 것으로 나타났다. 제품과 모델에 이어 칩까지 아우르는 오픈AI의 풀스택 전략에서 중요한 전환점으로 평가된다.",
+        "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-24T15:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_002",
+        "title": "피그마, 코드 레이어·애니메이션·AI 플러그인 기능 대거 추가",
+        "excerpt": "피그마가 새 업데이트를 통해 코드 레이어, 모션·셰이더 지원, AI 기반 커스텀 플러그인 제작 기능을 한꺼번에 추가했다.",
+        "body": "피그마가 이번 업데이트에서 새로운 코드 레이어를 도입하고, 모션과 셰이더 지원을 추가했다. 또한 사용자가 AI를 활용해 다양한 작업을 위한 커스텀 플러그인을 직접 만들 수 있는 기능도 새로 제공한다. 디자인 도구에 AI 네이티브 기능을 빠르게 통합하려는 업계 흐름이 이어지고 있다.",
+        "url": "https://techcrunch.com/2026/06/24/figma-adds-code-layers-support-for-animations-more-ai-features-in-new-update/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-25T01:15:00+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_003",
+        "title": "페이스북, 크리에이터를 위한 AI 동반자 앱 출시",
+        "excerpt": "페이스북이 일부 크리에이터를 대상으로 AI 동반자 앱 테스트를 시작했다. 최근 공개한 AI 크리에이터 어시스턴트가 앱에 내장돼 있다.",
+        "body": "페이스북이 선별된 크리에이터를 대상으로 새로운 AI 동반자 앱을 시범 운영하고 있다고 밝혔다. 이 앱에는 페이스북이 최근 선보인 AI 크리에이터 어시스턴트 기능이 내장돼 있어, 콘텐츠 제작자들이 아이디어 구상부터 제작 과정까지 AI의 도움을 받을 수 있다. 메타가 크리에이터 생태계를 AI로 강화하려는 행보의 연장선으로 풀이된다.",
+        "url": "https://techcrunch.com/2026/06/24/facebook-rolls-out-an-ai-companion-app-for-creators/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-25T02:16:24+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_004",
+        "title": "MS리서치, 자동 반복 유전체 재분석으로 희귀질환 진단 가속화",
+        "excerpt": "마이크로소프트 리서치가 공개한 'Talos' 시스템이 유전체 의학의 핵심 병목인 전문가 검토 시간을 크게 줄여준다.",
+        "body": "마이크로소프트 리서치가 희귀질환 진단의 주요 병목 현상인 인간 전문가의 검토 시간을 줄이기 위해 'Talos'라는 오픈소스 시스템을 개발했다. 이 시스템은 자동화되고 반복적인 유전체 재분석을 통해 진단 범위 내 사례의 90%를 복구하면서도, 환자당 평균 1.3개의 후보 변이만을 전문가 검토용으로 제시했다. 유전체 의학 분야에서 AI 기반 자동화가 진단 효율을 크게 높일 수 있음을 보여주는 사례다.",
+        "url": "https://www.microsoft.com/en-us/research/blog/talos-scaling-rare-disease-diagnosis-with-automated-iterative-genomic-reanalysis/",
+        "source": "Microsoft Research",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-24T23:00:14+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_005",
+        "title": "허깅페이스, 실세계 음성인식 벤치마크 'FFASR 리더보드' 공개",
+        "excerpt": "허깅페이스가 실제 환경에서의 자동 음성 인식(ASR) 성능을 평가하는 새로운 리더보드 FFASR을 발표했다.",
+        "body": "허깅페이스가 실세계 조건에서의 자동 음성 인식(ASR) 모델 성능을 비교 평가할 수 있는 새로운 리더보드 'FFASR'을 공개했다. 기존 벤치마크가 깨끗한 스튜디오 환경의 음성 데이터에 치중했던 것과 달리, 이번 리더보드는 잡음, 억양, 다양한 녹음 환경 등 실제 사용 상황을 반영해 모델의 실용적 성능을 더 정확히 비교할 수 있게 했다.",
+        "url": "https://huggingface.co/blog/ffasr-leaderboard",
+        "source": "Hugging Face - Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-24T09:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_006",
+        "title": "비주얼 스튜디오 코드 1.126 버전 출시",
+        "excerpt": "VS Code 1.126이 새로운 기능과 개선 사항을 담아 출시됐다.",
+        "body": "마이크로소프트가 비주얼 스튜디오 코드 1.126 버전을 출시했다. 이번 업데이트에는 에디터 사용성 개선과 각종 버그 수정, 확장 기능 관련 업데이트가 포함됐다. VS Code는 정기적인 월간 업데이트를 통해 개발자 워크플로우 개선을 지속하고 있다.",
+        "url": "https://code.visualstudio.com/updates/v1_126",
+        "source": "Visual Studio Code",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-25T02:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_007",
+        "title": "클라우드플레어, 모든 개발자에 'OAuth for All' 개방",
+        "excerpt": "클라우드플레어가 자체 관리형 OAuth를 모든 개발자에게 개방하며, 핵심 OAuth 엔진을 무중단으로 마이그레이션한 과정을 공개했다.",
+        "body": "클라우드플레어가 '셀프 매니지드 OAuth'를 모든 개발자가 사용할 수 있도록 개방했다고 발표했다. 이번 글에서는 회사가 핵심 OAuth 엔진을 무중단으로 마이그레이션하기 위해 어떤 과정을 거쳤는지 자세히 공개했다. 이를 통해 개발자들은 클라우드플레어 생태계 내에서 자체 OAuth 플로우를 더 유연하게 구축할 수 있게 됐다.",
+        "url": "https://blog.cloudflare.com/oauth-for-all/",
+        "source": "Cloudflare Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-24T15:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_008",
+        "title": "버셀 AI 게이트웨이, 'GLM 5.2 Fast via Wafer' 지원 추가",
+        "excerpt": "버셀의 AI 게이트웨이가 Wafer를 통한 GLM 5.2 Fast 모델을 지원하기 시작했다. 자체 벤치마크에서 다른 제공업체보다 2배 높은 처리량을 기록했다.",
+        "body": "버셀이 AI 게이트웨이에 Wafer를 통한 'GLM 5.2 Fast' 모델 지원을 추가했다고 발표했다. 자체 벤치마크에 따르면 소규모·대규모 컨텍스트와 도구 호출 시나리오 전반에서 Wafer가 다른 제공업체 대비 2배 높은 처리량을 보였으며, 디코딩과 전체 생성 속도에서도 앞선 것으로 나타났다.",
+        "url": "https://vercel.com/changelog/glm-5-2-fast-via-wafer-now-available-on-ai-gateway",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-24T09:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_009",
+        "title": "구글, 플레이스토어 외부 결제 전면 개방 — 안드로이드 반독점 합의 이행",
+        "excerpt": "구글이 에픽게임즈와의 반독점 소송 합의에 따라 플레이스토어의 결제 정책을 전 세계적으로 개방하기 시작했다.",
+        "body": "법원이 에픽게임즈와 구글 간 반독점 소송을 해결할 대규모 합의안에 아직 최종 서명하지 않았지만, 구글은 전 세계 개발자를 대상으로 안드로이드 앱스토어 결제 방식을 변경하는 작업을 시작한다고 밝혔다. 지난 3월 발표된 대로, 기존의 일률적인 30% 수수료 정책에 변화가 생기며, 개발자들은 대안 결제 시스템을 더 자유롭게 이용할 수 있게 된다.",
+        "url": "https://www.theverge.com/policy/956296/google-play-app-store-alternative-billing-fee-antitrust",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-06-25T02:36:44+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_010",
+        "title": "주크, 상업 서비스 앞두고 로보택시 업그레이드",
+        "excerpt": "주크의 새 로보택시가 더 나은 쿠션, 밝은 색상, 향상된 마이크·스피커를 갖췄다.",
+        "body": "아마존 산하 자율주행 스타트업 주크가 상업 서비스 출시를 앞두고 로보택시를 업그레이드했다. 새 모델은 더 부드러운 쿠션과 밝은 색상의 인테리어, 그리고 주크 고객지원팀과의 소통을 위한 향상된 마이크와 스피커를 탑재했다. 본격적인 상용 서비스를 위한 마지막 준비 단계로 풀이된다.",
+        "url": "https://techcrunch.com/2026/06/24/zoox-upgrades-its-robotaxi-as-it-prepares-for-commercial-service/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-06-25T00:01:49+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_011",
+        "title": "어질리티 로보틱스, 25억 달러 규모 SPAC 합병으로 상장 추진",
+        "excerpt": "오리건 주립대에서 분사한 휴머노이드 로봇 스타트업 어질리티 로보틱스가 SPAC 합병을 통해 상장을 추진한다.",
+        "body": "2015년 오리건 주립대에서 분사한 휴머노이드 로보틱스 스타트업 어질리티 로보틱스가 기업인수목적회사(SPAC)와의 합병을 통해 상장할 계획이라고 밝혔다. 이번 거래로 회사는 약 6억 2천만 달러의 자금을 확보할 것으로 예상된다.",
+        "url": "https://techcrunch.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal/",
+        "source": "TechCrunch AI",
+        "category": "big_tech",
+        "publishedAt": "2026-06-25T01:48:43+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_012",
+        "title": "NVIDIA-AWS, AI 프로덕션 규모 확장 위해 협력",
+        "excerpt": "NVIDIA와 AWS가 대규모 AI 시스템 구축을 위해 협력하며, 아마존 오픈서치와 EC2 전반에 AI 인프라를 강화한다.",
+        "body": "대규모 AI 시스템 구축에는 저지연 추론, 빠른 벡터 검색, 우수한 GPU 가격 대 성능비, 그리고 운영 복잡도를 늘리지 않고 확장할 수 있는 인프라가 필요하다. NVIDIA의 최신 AWS 협력은 이러한 과제들을 해결하기 위한 것으로, 아마존 오픈서치와 아마존 EC2 전반에서 기업들이 더 실용적인 AI 인프라 경로를 확보할 수 있도록 돕는다.",
+        "url": "https://blogs.nvidia.com/blog/nvidia-aws-ai-production-scale/",
+        "source": "NVIDIA Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-06-24T09:05:37+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_013",
+        "title": "슬레이트오토, 2만 4,950달러짜리 초간단 전기 트럭 가격 공개",
+        "excerpt": "제프 베이조스가 투자한 슬레이트오토가 데뷔작 전기차의 세부 가격을 공개했다. SUV 모델은 2만 9,950달러부터 시작한다.",
+        "body": "제프 베이조스가 투자한 스타트업 슬레이트오토가 마침내 데뷔 전기차의 세부 가격 정보를 공개했다. SUV 모델은 2만 9,950달러부터 시작하며, 기본 주행거리는 205마일로 늘어났다. 트럭 모델은 2만 4,950달러부터 시작해, 단순하고 저렴한 전기차 시장을 공략하려는 회사의 전략을 보여준다.",
+        "url": "https://techcrunch.com/2026/06/24/slate-autos-radically-simple-electric-truck-starts-at-24950/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-06-24T21:33:34+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_014",
+        "title": "2,700만 달러 쓴 앤트로픽·오픈AI '대리전', 결국 무승부로 끝나",
+        "excerpt": "친AI 슈퍼팩의 표적이 되며 화제가 됐던 뉴욕주 의원 알렉스 보레스가 민주당 예비선거에서 근소한 차이로 패배했다.",
+        "body": "앤트로픽과 오픈AI 사이에서 벌어진 2,700만 달러 규모의 정치적 대리전이 무승부로 끝났다. 친AI 성향의 슈퍼팩 표적이 되면서 인기가 급상승했던 뉴욕주 하원의원 알렉스 보레스가 뉴욕 12선거구 민주당 예비선거에서 근소한 차이로 패배했다. 이번 선거는 AI 기업들이 정치 자금을 동원해 직접적인 영향력을 행사하려는 움직임을 보여준 사례로 평가된다.",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/956263/alex-bores-new-york-12th-district-congressional-primary-results",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-06-25T02:25:00+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Claude Tag 소개: 팀이 Claude와 함께 일하는 새로운 방법입니다.\n\nSlack에서 Claude는 선택한 채널과 도구에 접근할 수 있는 팀 멤버로 참여합니다. Claude를 태그하고 다른 작업에 집중하는 동안 작업을 위임하세요.",
+        "context": "앤트로픽이 슬랙에서 Claude를 팀원처럼 태그해 업무를 위임할 수 있는 'Claude Tag' 기능을 공개하며 직접 소개한 트윗이다. 어제 출시된 이 기능에 대한 반향이 오늘도 이어지고 있다.",
+        "url": "https://x.com/claudeai/status/2069468693017268244",
+        "publishedAt": "2026-06-23T17:12:39.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "content": "채널에서 Claude를 태그하면, 자체 샌드박스가 있는 인스턴스를 시작합니다. 저장소를 복제하고, 코드를 작성하며, 테스트하고, 컴파일을 모두 그 격리된 환경에서 수행한 후 작업이 완료되면 샌드박스가 폐기됩니다. 스레드당 하나의 인스턴스, 채널당 자체 메모리와 권한입니다.",
+        "context": "앤트로픽 엔지니어 보리스 체르니가 Claude Tag의 내부 작동 방식을 설명한 트윗으로, 채널마다 격리된 샌드박스 환경에서 작업이 처리된다는 기술적 디테일을 공유했다.",
+        "url": "https://x.com/bcherny/status/2069474689819480394",
+        "publishedAt": "2026-06-23T17:36:29.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Andrej Karpathy",
+        "handle": "karpathy",
+        "content": "이것은 Claude와 상호작용하는 새로운 패러다임으로, 조직 전체의 모든 다른 인간 활동과 훨씬 더 \"인라인\"으로 맞춰진 방식입니다. 이 모든 내부 엔지니어링 작업(예: 도구, 통합, 컴퓨팅 환경, 메모리, 보안 등)을 수행하여 이것이 \"그냥 작동\"하도록 만든 후에, Claude는 기본적으로 팀에 원활하게 합류합니다.",
+        "context": "AI 연구자 안드레이 카파시가 Claude Tag 출시를 두고 남긴 평으로, 인간 조직 활동에 AI가 더 '인라인'으로 통합되는 새로운 상호작용 패러다임이라고 분석했다.",
+        "url": "https://x.com/karpathy/status/2069547676849557725",
+        "publishedAt": "2026-06-23T22:26:31.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "Claude Tag는 에이전트를 위한 놀라운 새로운 형태의 형식입니다. 그래서 최선의 관행을 파악하는 데 시간이 좀 걸릴 거라고 생각하지만, 이것들은 제가 가장 좋아하는 것들 중 일부예요",
+        "context": "앤트로픽 직원 타리크가 Claude Tag를 실제로 사용해보며 느낀 자신만의 베스트 프랙티스를 공유한 트윗이다.",
+        "url": "https://x.com/trq212/status/2069474335656694003",
+        "publishedAt": "2026-06-23T17:35:05.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "Jalapeño 소개 — 9개월 동안 우리 모델의 가속화로 LLM 추론을 위해 처음부터 설계되었습니다. 와트당 성능이 놀라울 정도로 훌륭합니다.",
+        "context": "오픈AI 사장 그레그 브록먼이 브로드컴과 함께 공개한 첫 자체 추론 칩 'Jalapeño'를 직접 소개한 트윗이다.",
+        "url": "https://x.com/gdb/status/2069809298612621629",
+        "publishedAt": "2026-06-24T15:46:06.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "당신을 위한 GPT-5.5 Instant의 새로운 버전이 나왔습니다. 그리고 대화하기가 훨씬 더 재미있어졌어요.\n\n가장 많이 사용되는 모델이 이제 질문 뒤에 숨은 의도를 더 잘 이해하고 그에 맞게 응답을 조정하는 데 더 뛰어나졌습니다.\n\n또한 복잡한 제약 조건을 더 안정적으로 처리하며, 쇼핑과 지역 추천 등에서 개선되었습니다.",
+        "context": "오픈AI 공식 계정이 ChatGPT에서 가장 많이 쓰이는 모델인 GPT-5.5 Instant의 업데이트를 발표한 트윗이다. 의도 파악과 제약 조건 처리 능력이 개선됐다.",
+        "url": "https://x.com/OpenAI/status/2069843083701915755",
+        "publishedAt": "2026-06-24T18:00:21.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "OpenAI DevDay 2026 참가 신청이 시작되었습니다.\n\n9월 29일 샌프란시스코에서 저희와 함께하세요:\n\n• 새로운 기능과 실험해 보세요\n• 다른 빌더들과 빌드 노트를 공유하세요\n• 기술 세션에 깊이 빠져보세요\n• 가장 날카로운 질문을 가져오세요\n\n7월 10일까지 신청하세요",
+        "context": "오픈AI 개발자 공식 계정이 올해 9월 29일 샌프란시스코에서 열리는 DevDay 2026 참가 신청 개시를 알린 트윗이다.",
+        "url": "https://x.com/OpenAIDevs/status/2069484303281779090",
+        "publishedAt": "2026-06-23T18:14:41.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "Chad Jones",
+        "handle": "ChadJonesEcon",
+        "content": "일부 소식: 6월 30일부터 스탠퍼드에서 휴직하며 Anthropic으로 이동합니다. Anthropic Institute에 합류할 예정이며, 그곳에서 AI와 우리의 경제적 미래에 대한 연구를 계속하고, 늘 그렇듯 세미나와 강연을 진행할 것입니다.",
+        "context": "스탠퍼드 경제학자 채드 존스가 6월 30일부터 휴직하고 앤트로픽 인스티튜트에 합류해 AI와 경제의 미래를 연구하겠다고 밝힌 트윗으로, 앤트로픽 공동창업자 잭 클라크가 이를 리트윗했다.",
+        "url": "https://x.com/ChadJonesEcon/status/2069410576326156478",
+        "publishedAt": "2026-06-23T13:21:43.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "앤트로픽(Anthropic)의 공동 창립자 잭 클라크(Jack Clark)는 AI 모델을 훈련할 때 의도하지 않아도 성격과 같은 '창발적 특성'이 나타날 수 있다고 분석했습니다. 그는 인터넷 자료로 학습한 시스템은 사람들이 온라인에서 행동하는 방식을 그대로 성격처럼 반영하게 된다고 설명했습니다. 이에 대응하기 위해 인간 피드백 기반 강화학습(RLHF)을 적용하기도 하지만, 이는 때로 아첨하는 결과로 이어지는 한계가 있습니다. 따라서 그는 AI가 가져야 할 성격 요소를 명확히 규정하는 일종의 '헌법'을 제정하고 이를 시스템에 의도적으로 반영해야 한다고 강조했습니다.",
+        "context": "앤트로픽 공동창립자 잭 클라크가 AI 모델의 '성격'이 의도치 않게 형성되는 메커니즘과, 이를 의도적으로 설계해야 한다는 주장을 펼친 인터뷰 내용을 정리한 게시물이다.",
+        "url": "https://www.threads.com/@choi.openai/post/DZ-lfrvjkj1",
+        "publishedAt": "2026-06-24T18:00:06.000Z"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "앤트로픽의 공동 창립자 잭 클라크(Jack Clark)는 이 기술이 잘 풀릴 가능성을 분명히 믿는다며 그 세계를 그렸습니다. \"과학을 지금보다 10배, 100배 빠르게 의도적으로 가속한다는 게 무슨 의미겠어요. 진정한 '근원적 풍요'를 가져올 수 있습니다.\" 오늘이라면 살았을 텐데 치료법이 늦어 떠난 이들이 주변에도 있었다며, 치매·알츠하이머도 언젠가 치료법을 찾을 수 있다고 했습니다.",
+        "context": "잭 클라크가 AI를 통한 과학 발전 가속화가 가져올 낙관적인 미래상을 설명하며, 질병 치료 등 구체적 사례를 들어 AI의 긍정적 가능성을 강조한 발언을 정리한 게시물이다.",
+        "url": "https://www.threads.com/@choi.openai/post/DZ-bQDDk83b",
+        "publishedAt": "2026-06-24T16:30:35.000Z"
+      },
+      {
+        "id": "threads_003",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "실제 인터넷보다 가짜 인터넷에서 훈련한 AI가 더 똑똑해졌습니다. Qwen이 MCP, 웹, 터미널, 안드로이드 등 7개 환경을 시뮬레이션하는 월드 모델 \"Qwen-AgentWorld\"를 공개했습니다. 지금까지는 에이전트를 훈련했다면, 이번에는 에이전트가 활동할 환경 자체를 학습시키는 접근입니다. 실제 검색엔진에 연결해 학습한 에이전트보다, 가상 환경에서 훈련한 에이전트가 더 높은 성능을 기록했습니다. 자체 벤치마크에서는 Claude Opus 4.8과 GPT-5.4를 앞섰다고 합니다.",
+        "context": "Qwen이 공개한 시뮬레이션 월드 모델 'Qwen-AgentWorld'를 소개하며, 에이전트 학습 패러다임이 '다음 단어 예측'에서 '다음 상태 예측'으로 옮겨가는 흐름을 짚은 게시물이다.",
+        "url": "https://www.threads.com/@choi.openai/post/DZ-Q8KlgElo",
+        "publishedAt": "2026-06-24T15:00:29.000Z"
+      },
+      {
+        "id": "threads_004",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "앤트로픽(Anthropic)의 공동 창업자 잭 클라크(Jack Clark)는 AI가 다음 세대의 AI 모델을 스스로 설계하는 '재귀적 자기 개선(Recursive Self-Improvement)'의 특이점이 2028년쯤 도래할 수 있으며, 이로 인해 과학적 발전의 속도를 결정하는 주체가 인간에서 기술 자체로 전환될 것이라 내다봤습니다. 클라크는 앞으로 2년 내에 AI 시스템이 제공하는 고도의 전문 지식(법률, 번역, 코딩)에 대한 개인의 접근 범위와 해킹 및 감시 능력 통제 사이에서 사회가 매우 중요한 규제적 선택을 내려야 할 것이라고 강조했습니다.",
+        "context": "잭 클라크가 AI의 재귀적 자기 개선이 2028년경 가능해질 수 있다는 전망과, 이로 인해 사회가 직면할 규제적 선택의 어려움을 설명한 발언을 정리한 게시물이다.",
+        "url": "https://www.threads.com/@choi.openai/post/DZ-GnxNiOKQ",
+        "publishedAt": "2026-06-24T13:30:19.000Z"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "한곳에 모은 최고의 오픈소스 OCR 모델 모음",
+        "originalTitle": "Find the best open-source OCR models in one place at Papers with Code",
+        "summary": "Papers with Code가 오픈소스 OCR 모델들을 한 곳에서 비교할 수 있는 정리 페이지를 만들었다는 소식이다. 문서 인식 모델을 찾는 연구자와 개발자들에게 유용한 레퍼런스로 호응을 얻고 있다.",
+        "url": "https://old.reddit.com/r/MachineLearning/comments/1ueiam6/find_the_best_opensource_ocr_models_in_one_place/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-06-25T01:26:21+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "한국은행, AI가 생산성에 미치는 영향 보고서 발표",
+        "originalTitle": "The Bank of Korea just released a report about AI productivity",
+        "summary": "한국은행이 AI 도입이 생산성에 미치는 영향을 분석한 보고서를 발표했다는 소식으로, LocalLLaMA 커뮤니티에서 각국 중앙은행의 AI 경제 분석에 대한 관심을 보여준다.",
+        "url": "https://old.reddit.com/r/LocalLLaMA/comments/1uecytz/the_bank_of_korea_just_released_a_report_about_ai/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-06-24T22:04:58+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "저가 중국산 AI 모델, 전 세계 고객층을 빠르게 확보 중",
+        "originalTitle": "Cheap Chinese AI models are quickly gaining customers across...",
+        "summary": "가격 경쟁력을 갖춘 중국산 오픈소스 AI 모델들이 전 세계 시장에서 빠르게 점유율을 넓혀가고 있다는 내용으로, 글로벌 AI 모델 경쟁 구도의 변화를 보여준다.",
+        "url": "https://old.reddit.com/r/artificial/comments/1udzf0d/cheap_chinese_ai_models_are_quickly_gaining/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-06-24T10:13:30+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "GPT-5.5 Instant 순차 배포 시작",
+        "originalTitle": "GPT-5.5 Instant now rolling out",
+        "summary": "오픈AI가 ChatGPT의 기본 모델인 GPT-5.5 Instant 업데이트를 단계적으로 배포하기 시작했다는 소식이다.",
+        "url": "https://old.reddit.com/r/OpenAI/comments/1uen1zv/gpt55_instant_now_rolling_out/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-06-25T04:17:59+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "Claude를 토큰 소진으로 굿즈까지 받은 사연",
+        "originalTitle": "I burnt so many tokens they sent me merch",
+        "summary": "Claude를 매우 많이 사용한 한 이용자가 앤트로픽으로부터 굿즈를 받았다는 후기로, ClaudeAI 커뮤니티에서 화제가 된 게시물이다.",
+        "url": "https://old.reddit.com/r/ClaudeAI/comments/1ueeve0/i_burnt_so_many_tokens_they_sent_me_merch/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-06-24T23:20:22+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "이름 짓기에 대한 (꽤 정확한) 의견 가득한 가이드",
+        "originalTitle": "An opinionated (and mainly correct) guide to naming",
+        "summary": "변수와 함수 등 코드 작성 시 이름을 짓는 방법에 대한 의견을 담은 가이드 글로, r/programming에서 개발자들 사이 활발한 토론을 이끌었다.",
+        "url": "https://old.reddit.com/r/programming/comments/1ue916q/an_opinionated_and_mainly_correct_guide_to_naming/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-06-24T18:49:09+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "오픈AI·앤트로픽·스트라이프·빌 게이츠, 5억 달러 공동 투자",
+        "originalTitle": "OpenAI, Anthropic, Stripe and Bill Gates are putting $500 million...",
+        "summary": "오픈AI, 앤트로픽, 스트라이프, 빌 게이츠가 함께 5억 달러 규모의 공동 투자에 나섰다는 소식으로, 경쟁사인 두 AI 기업이 한 프로젝트에 동시에 참여한 점이 주목받고 있다.",
+        "url": "https://old.reddit.com/r/singularity/comments/1uefo1j/openai_anthropic_stripe_and_bill_gates_are/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-06-24T23:50:35+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "AI 도입 이후 팀 내 협업이 줄어들었나?",
+        "originalTitle": "Has AI made developers less collaborative in your team?",
+        "summary": "AI 코딩 도구 도입 이후 개발팀 내 동료 간 협업과 코드 리뷰 문화가 줄어들었는지에 대한 경험을 나누는 토론 게시물로, ExperiencedDevs에서 많은 공감을 얻고 있다.",
+        "url": "https://old.reddit.com/r/ExperiencedDevs/comments/1uecvi7/has_ai_made_developers_less_collaborative_in_your/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-06-24T22:01:12+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_015",
+        "title": "Gemini 3.5 Flash, 컴퓨터 사용 기능 도입",
+        "excerpt": "구글이 Gemini 3.5 Flash 모델에 화면을 직접 보고 조작하는 '컴퓨터 사용' 기능을 추가했다.",
+        "body": "구글이 Gemini 3.5 Flash 모델에 컴퓨터 화면을 인식하고 마우스·키보드 동작을 수행할 수 있는 '컴퓨터 사용' 기능을 새로 도입했다고 발표했다. 해커뉴스에서도 큰 관심을 받으며 활발한 토론이 이어지고 있다.",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-25T02:21:34+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_016",
+        "title": "왜 대형 AI 연구소들은 철학자를 채용하는가",
+        "excerpt": "이코노미스트가 주요 AI 연구소들이 철학자를 다수 채용하는 이유를 분석한 기사를 보도했다.",
+        "body": "이코노미스트의 보도에 따르면, 오픈AI와 앤트로픽 등 주요 AI 연구소들이 AI 안전성과 윤리 문제를 다루기 위해 철학 전공자들을 적극적으로 채용하고 있다. AI 시스템의 가치 정렬과 행동 규범을 설계하는 데 철학적 사고가 핵심 역할을 한다는 인식이 확산되고 있다.",
+        "url": "https://www.economist.com/science-and-technology/2026/06/24/why-big-ai-labs-are-hiring-so-many-philosophers",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-25T01:40:13+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_017",
+        "title": "세계 대부분에게 오픈소스 AI는 유일한 선택지다",
+        "excerpt": "전 세계 많은 국가에게 오픈소스 AI 모델이 현실적으로 유일하게 접근 가능한 대안이라는 주장을 담은 기고문이다.",
+        "body": "TechStrong AI에 게재된 기고문은 폐쇄형 프론티어 모델에 대한 접근이 제한적인 많은 국가에게 오픈소스 AI가 실질적으로 유일한 선택지라고 주장한다. 비용, 주권, 현지화 문제 등을 이유로 오픈소스 모델의 중요성이 커지고 있다는 분석이다.",
+        "url": "https://techstrong.ai/articles/for-most-of-the-world-open-source-ai-is-the-only-way-forward/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-24T23:50:22+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_018",
+        "title": "TypeScript 7.0 RC 발표 — Go로 재작성돼 약 10배 빨라져",
+        "excerpt": "마이크로소프트가 Go로 새로 작성한 TypeScript 7.0의 릴리스 후보를 발표했다. 컴파일 속도가 약 10배 빨라졌다.",
+        "body": "마이크로소프트가 TypeScript 7.0의 릴리스 후보(RC)를 발표했다. 기존에 자바스크립트로 컴파일되던 부트스트랩 코드베이스를 지난 1년간 Go로 포팅한 것이 핵심으로, 네이티브 코드 실행 속도와 공유 메모리 병렬 처리 덕분에 컴파일 속도가 약 10배 빨라졌다.",
+        "url": "https://news.hada.io/topic?id=30788",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-24T12:45:43+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_019",
+        "title": "미스트랄, 문서 이해 모델 'Mistral OCR 4' 공개",
+        "excerpt": "미스트랄AI가 텍스트 추출을 넘어 바운딩 박스, 블록 분류, 신뢰도 점수까지 함께 반환하는 문서 이해 모델을 공개했다.",
+        "body": "미스트랄AI가 공개한 Mistral OCR 4는 단순 텍스트 추출형 OCR을 넘어, 바운딩 박스와 블록 분류, 인라인 신뢰도 점수까지 함께 반환하는 문서 이해 모델이다. 10개 언어 그룹의 170개 언어를 지원하며 단일 컨테이너로 자체 호스팅이 가능해, 데이터 주권과 컴플라이언스가 중요한 환경에서 활용도가 높을 것으로 보인다.",
+        "url": "https://news.hada.io/topic?id=30781",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-24T09:52:24+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_020",
+        "title": "다가오는 '루프' — 에이전트 엔지니어링의 새 중심 패턴",
+        "excerpt": "코딩 에이전트 바깥에서 작업 큐와 하네스가 반복을 관리하는 '하네스 레벨 루프'가 에이전트 엔지니어링의 새로운 중심 패턴으로 떠오르고 있다.",
+        "body": "코딩 에이전트 내부가 아니라 바깥에서 작업 큐와 하네스가 반복(루프)을 관리하는 '하네스 레벨 루프' 패턴이 에이전트 엔지니어링의 새로운 중심으로 떠오르고 있다는 분석이다. 모델이 오래 자율적으로 실행될수록 강한 불변식을 보장하기보다는 국소적인 방어 로직과 폴백을 덧붙이는 방식이 늘고 있어, 장기적으로 유지보수되는 코드 설계에 새로운 고민을 던진다.",
+        "url": "https://news.hada.io/topic?id=30799",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-25T00:48:08+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      }
+    ]
+  }
+}
