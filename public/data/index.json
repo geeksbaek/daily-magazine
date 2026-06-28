@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-06-29",
+      "issueNumber": 87,
+      "mainHeadline": "美 정부, AI 최상위 모델 '승인제' 시대 열다 — GPT-5.6 Sol 제한 출시·앤트로픽 Mythos 5 재허가",
+      "headlines": [
+        "앤트로픽 수출 금지 틈타 아시아 스타트업들 Mythos급 모델 잇따라 출시",
+        "中, 2018년 이후 처음으로 '세계 최고속 슈퍼컴퓨터' 탈환",
+        "애플, 블랙리스트 中 메모리 업체서 RAM 구매 허가 요청 — 'RAMageddon' 후폭풍"
+      ]
+    },
+    {
       "date": "2026-06-28",
       "issueNumber": 86,
       "mainHeadline": "애플, 美 블랙리스트 오른 中 메모리 업체서 구매 허가 요청 — 'RAMageddon' 파장 확산",

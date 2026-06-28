@@ -1,0 +1,557 @@
+{
+  "date": "2026-06-29",
+  "issueNumber": 87,
+  "cover": {
+    "mainHeadline": "美 정부, AI 최상위 모델 '승인제' 시대 열다 — GPT-5.6 Sol 제한 출시·앤트로픽 Mythos 5 재허가",
+    "mainExcerpt": "오픈AI가 역대 최강 GPT-5.6 Sol·Terra를 미국 정부 요청에 따라 제한된 프리뷰로만 출시한 데 이어, 트럼프 행정부는 앤트로픽 Mythos 5를 100곳 넘는 미국 기업·기관에 사용 허가했다. 정부가 최상위 AI 모델을 한 곳씩 심사·승인하는 새로운 통제 국면이 본격화됐다.",
+    "headlines": [
+      "앤트로픽 수출 금지 틈타 아시아 스타트업들 Mythos급 모델 잇따라 출시",
+      "中, 2018년 이후 처음으로 '세계 최고속 슈퍼컴퓨터' 탈환",
+      "애플, 블랙리스트 中 메모리 업체서 RAM 구매 허가 요청 — 'RAMageddon' 후폭풍"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_001",
+      "title": "트럼프 행정부, 앤트로픽 'Mythos 5' 100개 이상 美 기업·기관에 사용 허가 — 비미국인 직원 포함",
+      "excerpt": "트럼프 행정부가 앤트로픽의 최강 사이버보안 모델 Mythos 5를 100곳이 넘는 미국 기업과 정부기관이 사용할 수 있도록 승인했다. 승인 대상에는 해당 기관의 비미국인 직원까지 포함된 것으로 전해졌다.",
+      "body": "테크크런치에 따르면 미국 정부는 한때 외국인 접근을 막아 전 세계에서 내려갔던 앤트로픽 Mythos 5의 사용을 100개 이상의 미국 기업·기관에 다시 허가했다. Mythos 5는 앤트로픽이 보유한 가장 강력한 사이버보안 모델로, 중요 인프라를 운영·방어하는 조직들에 우선 재배포된다. 정부가 고객사를 한 곳씩 심사해 승인하는 방식이 적용되면서, 최상위 AI 모델이 사실상 국가 안보 자산으로 관리되는 새로운 국면이 열렸다.",
+      "url": "https://techcrunch.com/2026/06/26/trump-admin-releases-anthropic-mythos-to-be-used-by-more-than-100-us-companies-agencies/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-06-27T10:01:37+09:00",
+      "readTime": 5,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_002",
+      "title": "아시아 AI 스타트업, '앤트로픽 수출 금지' 틈타 Mythos급 모델 잇따라 출시",
+      "excerpt": "앤트로픽 모델의 수출 제한이 장기화되는 가운데, 아시아에서 수출 금지 우려 없이 Mythos급 성능을 약속하는 신규 모델들이 쏟아지고 있다. 미국 AI 기업들이 이 거대 시장을 영영 회복하지 못할 수 있다는 분석이 나온다.",
+      "body": "미국 정부의 수출통제로 앤트로픽 Mythos·Fable 계열의 해외 접근이 막힌 사이, 아시아 스타트업들이 비슷한 사이버·추론 능력을 지역 제한 없이 제공하는 모델을 연달아 내놓고 있다. 특히 중국 Z.ai의 GLM-5.2는 오픈 웨이트로, 그것도 훨씬 낮은 가격에 공개돼 빠르게 점유율을 흡수하고 있다. 전문가들은 미국이 안전을 명분으로 빗장을 걸수록 표준 자리만 중국·아시아 오픈 웨이트 진영에 넘겨주는 역설이 현실화되고 있다고 지적한다.",
+      "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-06-27T21:00:00+09:00",
+      "readTime": 5,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_003",
+      "title": "中, 2018년 이후 처음으로 '세계 최고속 슈퍼컴퓨터' 탈환 — 美 부품 규제 무색",
+      "excerpt": "미국의 무역 제재에도 불구하고 중국이 2018년 이후 처음으로 세계 최고속 슈퍼컴퓨터 자리를 되찾았다. 신규 시스템 'LineShine'이 미국의 El Capitan을 제치고 TOP500 1위에 올랐다.",
+      "body": "더버지에 따르면 중국의 LineShine이 TOP500 슈퍼컴퓨터 순위에서 미국 로런스리버모어연구소의 El Capitan을 밀어내고 1위를 차지했다. 미국 기업이 여전히 순위 대부분을 점유하고 고성능 컴퓨팅 부품의 대중국 수출을 엄격히 제한하고 있음에도, 중국이 자체 기술로 정상에 복귀했다는 점에서 상징성이 크다. 이는 반도체·컴퓨팅 수출통제가 중국의 자립을 가속화했을 뿐이라는 비판에 힘을 싣는다.",
+      "url": "https://www.theverge.com/tech/958768/china-claims-the-worlds-fastest-supercomputer",
+      "source": "The Verge",
+      "category": "big_tech",
+      "publishedAt": "2026-06-29T02:20:59+09:00",
+      "readTime": 4,
+      "imageGradient": 2
+    },
+    {
+      "id": "rss_004",
+      "title": "애플, 블랙리스트 中 메모리 업체서 RAM 구매 허가 요청 — 'RAMageddon' 후폭풍",
+      "excerpt": "애플이 치솟는 메모리 가격에 대응하기 위해, 미 국방부 블랙리스트에 오른 중국 메모리 업체 CXMT로부터 RAM을 구매할 수 있도록 트럼프 행정부에 예외 승인을 요청하고 있다고 파이낸셜타임스가 보도했다.",
+      "body": "더버지가 인용한 파이낸셜타임스 보도에 따르면, 애플은 공급망 압박을 덜기 위해 인민해방군과의 연관성을 이유로 미 국방부 블랙리스트에 오른 중국 기업 CXMT로부터 RAM 칩 구매 허가를 받으려 하고 있다. RAM과 스토리지 가격이 폭등하는 이른바 'RAMageddon' 국면에서, 애플마저 안보 민감 공급사에 손을 뻗을 만큼 메모리 수급난이 심각하다는 신호다. 이는 빅테크 공급망 전략과 미·중 기술 규제가 정면으로 충돌하는 지점을 보여준다.",
+      "url": "https://www.theverge.com/tech/958707/apple-ram-buy-memory-blacklisted-china-cxmt",
+      "source": "The Verge",
+      "category": "big_tech",
+      "publishedAt": "2026-06-28T02:28:18+09:00",
+      "readTime": 5,
+      "imageGradient": 3
+    },
+    {
+      "id": "rss_005",
+      "title": "애플 비전 프로 총괄, 오픈AI 하드웨어팀으로 이적",
+      "excerpt": "비전 프로 헤드셋을 책임지던 애플 부사장 폴 미드가 오픈AI 하드웨어팀에 합류하기 위해 회사를 떠나는 것으로 전해졌다.",
+      "body": "테크크런치에 따르면 애플에서 비전 프로 헤드셋을 총괄해온 부사장 폴 미드가 오픈AI의 하드웨어 조직으로 자리를 옮긴다. 오픈AI는 조니 아이브와의 협업 등을 통해 전용 AI 디바이스 개발에 속도를 내고 있으며, 이번 영입은 애플의 공간 컴퓨팅 인재가 AI 하드웨어 경쟁으로 이동하는 흐름을 단적으로 보여준다. 비전 프로의 향후 로드맵에도 적지 않은 영향이 예상된다.",
+      "url": "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-06-28T01:45:09+09:00",
+      "readTime": 4,
+      "imageGradient": 4
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_010",
+        "title": "포드, AI로 대체했던 베테랑 엔지니어 재고용 — 'AI만으로는 품질 못 낸다'",
+        "excerpt": "포드가 AI 도입만으로 고품질 제품을 만들 수 있다고 본 판단이 빗나가자, 경험 많은 베테랑('gray beard') 엔지니어들을 다시 불러들이고 있다.",
+        "body": "테크크런치 보도에 따르면 포드 경영진은 \"인공지능을 도입하기만 하면 고품질 제품이 나올 것이라고 잘못 생각했다\"고 인정하며, 한때 효율화를 이유로 내보냈던 숙련 엔지니어들을 재고용하고 있다. AI가 도메인 전문성과 현장 경험을 완전히 대체하지 못한다는 점을 보여주는 사례로, 제조업의 AI 전환이 기대만큼 단순하지 않다는 교훈을 준다.",
+        "url": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-29T04:05:39+09:00",
+        "readTime": 4,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_011",
+        "title": "월가, '제2의 엔비디아'로 美 메모리 기업 마이크론 지목",
+        "excerpt": "엔비디아만큼 성장할 차기 AI 수혜주를 찾던 월가 투자자들이 미국 메모리 제조사 마이크론을 유력 후보로 보고 있다.",
+        "body": "테크크런치에 따르면 AI 붐의 다음 승자를 찾는 월가의 시선이 메모리 반도체 기업 마이크론으로 쏠리고 있다. AI 데이터센터 수요로 HBM(고대역폭메모리)을 비롯한 메모리 가격이 급등하면서 마이크론의 실적 기대가 커진 영향이다. 메모리 가격 폭등이 애플 같은 수요 기업에는 비용 부담이지만, 공급 측 기업에는 엔비디아급 기회로 해석되고 있다.",
+        "url": "https://techcrunch.com/2026/06/28/why-wall-street-thinks-us-memory-maker-micron-is-the-next-nvidia/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-29T00:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_012",
+        "title": "소프트뱅크 CEO만이 아니다 — 머스크의 '궤도 데이터센터' 구상에 쏟아지는 의문",
+        "excerpt": "일론 머스크가 제시한 우주 궤도 데이터센터 비전을 두고 회의적 시각이 확산되고 있다. 소프트뱅크 CEO를 비롯한 업계 인사들이 실현 가능성에 의문을 제기한다.",
+        "body": "테크크런치에 따르면 머스크가 내세운 궤도 데이터센터 구상에 대해 소프트뱅크 CEO를 포함한 여러 전문가가 비용·열관리·전력·운영 측면의 현실성을 문제 삼고 있다. AI 연산 수요 폭증으로 데이터센터 입지가 화두가 된 가운데, 우주 기반 인프라가 진지한 대안인지 아니면 과장된 비전인지를 둘러싼 논쟁이 가열되고 있다.",
+        "url": "https://techcrunch.com/2026/06/27/softbanks-ceo-isnt-the-only-one-with-questions-about-elon-musks-orbital-data-center-hype/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-28T05:42:36+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_020",
+        "title": "EU AI법 준수, 무엇이 필요한가 — 위험 등급별 요건과 2027년까지의 시한",
+        "excerpt": "도커가 EU AI법의 위험 등급별 준수 요건, 2027년까지 이어지는 핵심 마감 시한, 그리고 엔지니어링 팀이 AI 거버넌스를 실무에 적용하는 방법을 정리했다.",
+        "body": "도커 블로그가 EU AI법(EU AI Act) 준수를 위해 개발 조직이 알아야 할 사항을 정리했다. 글은 AI 시스템을 위험 수준에 따라 분류하고 각 등급마다 요구되는 문서화·투명성·모니터링 의무를 설명하며, 2027년까지 단계적으로 적용되는 주요 마감 시한을 짚는다. 또한 컨테이너·CI 파이프라인 등 기존 엔지니어링 워크플로에 AI 거버넌스를 실제로 녹여 넣는 방법을 제안한다.",
+        "url": "https://www.docker.com/blog/eu-ai-act-compliance/",
+        "source": "Docker Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-27T12:11:14+09:00",
+        "readTime": 5,
+        "imageGradient": 2
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_030",
+        "title": "검찰, 팰리세이즈 산불 재판서 ChatGPT 대화 기록을 증거로 제출",
+        "excerpt": "2025년 새해 첫날 발생해 LA 역사상 최악의 산불 중 하나가 된 팰리세이즈 화재 방화 재판에서, 검찰이 피고인의 ChatGPT 사용 기록을 증거로 활용했다.",
+        "body": "더버지에 따르면 방화 혐의로 기소된 조너선 린더크네히트 재판에서 검찰이 그의 ChatGPT 대화 로그를 증거로 제출했다. AI 챗봇과의 대화가 형사 재판의 정황 증거로 쓰인 사례로, 사용자가 AI에 남긴 기록이 사법 절차에서 어떻게 다뤄질 수 있는지에 대한 프라이버시·증거능력 논쟁을 촉발하고 있다.",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/958751/prosecutors-chatgpt-palisades-wildfire-arson-mistrial",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-06-28T23:12:06+09:00",
+        "readTime": 4,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_031",
+        "title": "마거릿 애트우드 \"AI의 문제는 결국 가비지 인, 가비지 아웃\"",
+        "excerpt": "'시녀 이야기'의 작가 마거릿 애트우드가 포르투에서 열린 문학·문화 축제 인터뷰에서 AI의 한계를 \"쓰레기를 넣으면 쓰레기가 나온다\"는 말로 요약했다.",
+        "body": "더버지에 따르면 마거릿 애트우드는 AI가 학습 데이터의 질을 넘어설 수 없다는 점을 지적하며 \"가비지 인, 가비지 아웃\"이라는 오래된 격언으로 현재의 생성형 AI를 평가했다. 인간 창작의 가치와 데이터 품질의 중요성을 강조한 발언으로, AI 시대에 작가·예술가의 역할을 둘러싼 논의에 무게를 더했다.",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/958715/margaret-atwood-ai-problem-garbage-in-garbage-out",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-06-28T03:39:32+09:00",
+        "readTime": 4,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_032",
+        "title": "이제 '광고 없는 스트리밍'은 사치재가 됐다",
+        "excerpt": "주요 스트리밍 서비스들이 광고 요금제를 기본값으로 밀면서, 광고 없는 시청 경험이 점점 더 비싼 프리미엄 옵션으로 변하고 있다.",
+        "body": "더버지의 뉴스레터 'The Stepback'은 스트리밍 산업이 광고 기반 요금제를 전면에 내세우면서, 광고 없는 시청이 사실상 고가의 사치 옵션이 되어가고 있다고 분석했다. 구독료 인상과 광고 도입이 동시에 진행되면서 소비자 부담이 커지는 가운데, 한때 케이블 TV의 대안으로 여겨졌던 스트리밍이 점차 비슷한 비즈니스 모델로 수렴하고 있다는 지적이다.",
+        "url": "https://www.theverge.com/column/958379/streaming-industry-ads",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-06-28T21:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_033",
+        "title": "인스타그램, '내 알고리즘' 직접 조정 기능 추가 실험",
+        "excerpt": "인스타그램이 사용자가 추천 피드 알고리즘을 더 세밀하게 조정할 수 있는 새로운 기능들을 테스트하고 있다.",
+        "body": "테크크런치에 따르면 인스타그램은 사용자가 보고 싶은 콘텐츠 유형을 직접 선택·조정할 수 있는 'Your Algorithm' 관련 기능을 확대 실험 중이다. 추천 시스템의 불투명성에 대한 비판이 이어지는 가운데, 플랫폼이 이용자에게 피드 제어권을 일부 넘겨 만족도와 체류 시간을 동시에 높이려는 시도로 풀이된다.",
+        "url": "https://techcrunch.com/2026/06/27/instagram-is-testing-more-ways-for-users-to-customize-your-algorithm/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-06-28T06:27:37+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_034",
+        "title": "FTC, 머스크의 스페이스X 출신 스타트업 'Mesh' 인수 승인",
+        "excerpt": "미 연방거래위원회(FTC)가 일론 머스크의 Mesh 인수를 허가했다. Mesh는 지난 2월 5천만 달러 시리즈A와 함께 베일을 벗은 스페이스X 동문 창업 스타트업이다.",
+        "body": "테크크런치에 따르면 FTC는 머스크가 스페이스X 출신들이 세운 스타트업 Mesh를 인수하는 것을 승인했다. Mesh는 올해 2월 5천만 달러 규모 시리즈A 투자를 받으며 스텔스 모드에서 벗어난 신생 기업으로, 이번 인수는 머스크 진영의 기술·인재 통합 전략의 연장선으로 해석된다.",
+        "url": "https://techcrunch.com/2026/06/26/ftc-gives-musk-the-ok-to-acquire-spacex-alumni-startup-mesh/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-06-27T09:38:34+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "좋은 소식 먼저: Sol은 스마트하고 효율적이며 중요한 진전입니다. GPT-5.5와 동일한 가격입니다. 또한 GPT-5.6 계열에서 Terra가 출시되는데, 절반 가격에 5.5 수준의 성능을 제공합니다.\n\n나쁜 소식: 미국 정부의 요청으로, 우리가 계획했던 공개 액세스 출시 대신 오늘 제한된 프리뷰로 출시됩니다.",
+        "context": "샘 올트먼이 GPT-5.6 Sol과 Terra 출시를 알리면서, 미국 정부의 요청으로 당초 계획했던 공개 출시 대신 제한된 프리뷰로 내놓는다고 밝힌 핵심 발표다.",
+        "url": "https://x.com/sama/status/2070607488274358364",
+        "publishedAt": "2026-06-26T20:37:49.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "6월 12일 이후로, 우리는 미국 정부와 긴밀히 협력하여 Claude Mythos 5와 Fable 5에 대한 액세스를 복원하기 위해 노력해 왔습니다. 오늘 정부로부터 Mythos 5, 우리 최강의 사이버 보안 모델이 중요 인프라를 운영하고 방어하는 미국 조직 세트에 재배포될 수 있다는 통지를 받았습니다.\n\n우리는",
+        "context": "앤트로픽 공식 계정이 미국 정부와 협의 끝에 최강 사이버보안 모델 Mythos 5를 중요 인프라를 운영·방어하는 미국 조직들에 재배포할 수 있게 됐다고 공지한 글이다.",
+        "url": "https://x.com/AnthropicAI/status/2070665903440871779",
+        "publishedAt": "2026-06-27T00:29:57.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "Codex 품질 개선 업데이트가 이번 주에 적용되었습니다\n\n긴 스레드부터 시작해서: 이제 스크롤이 더 부드럽고, 대화 사이를 이동할 때도 당신의 위치가 그대로 유지됩니다.",
+        "context": "오픈AI 개발자 계정이 Codex 앱의 스크롤·대화 탐색 등 사용성을 개선한 이번 주 품질 업데이트를 공유했다.",
+        "url": "https://x.com/OpenAIDevs/status/2070922791529091376",
+        "publishedAt": "2026-06-27T17:30:44.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Matthew Botvinick",
+        "handle": "mattbotvinick",
+        "content": "우리는 @Anthropic 에서 AI와 법치에 초점을 맞춘 팀을 구축하고 있습니다. 첫 번째 채용을 완료했으며, 이제 새로운 연구 엔지니어 역할을 개설합니다. AI/딥러닝/NLP, 풀스택 개발, 데이터 과학을 포함한 고급 기술 스킬을 갖추고 있으며, 법학, 정부, 정치학 또는 관련 분야에서의 훈련이나 경험을",
+        "context": "딥마인드 출신 매슈 보트비닉이 앤트로픽에서 'AI와 법치'에 초점을 맞춘 팀의 연구 엔지니어를 채용한다고 알린 글로, AI 거버넌스 인재 수요를 보여준다.",
+        "url": "https://x.com/mattbotvinick/status/2070841025195647161",
+        "publishedAt": "2026-06-27T12:05:49.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "다른 소식으로는, 이번 주에 ChatGPT에서 사용하는 5.5 인스턴트 모델을 업데이트했습니다.\n\n그 분위기가 마음에 들어요.",
+        "context": "샘 올트먼이 ChatGPT에 쓰이는 5.5 인스턴트 모델을 이번 주 업데이트했으며 그 결과물의 '분위기'가 만족스럽다고 언급한 글이다.",
+        "url": "https://x.com/sama/status/2070612055225483692",
+        "publishedAt": "2026-06-26T20:55:58.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "데이비드 색스가 1년 전 트럼프가 내건 AI 전략(혁신·인프라·에너지·수출 우선)에서 벗어나면 위험하다고 경고했습니다. 행정부 비판처럼 보이지만, 결국 그가 늘 강조해온 '확산' 얘기입니다. 색스가 보는 레이스의 승리는 미국 스택이 세계 표준, 즉 점유율을 쥐는 거니까요. 그런데 지금은 정반대로 가고 있습니다. 정부가 앤트로픽 Fable 5·Mythos 5의 외국인 접근을 막자 두 모델은 전 세계에서 내려갔고, 그 사이 중국 Z.ai는 GLM-5.2를 지역 제한 없는 오픈 웨이트로, 그것도 4분의 1 값에 풀었습니다. 수출통제의 함정이 여기서 발생합니다. 가중치를 받아 아무나 돌리는 모델은 잠글 수가 없습니다. 미국 모델을 닫아도 그 사이버 능력이 사라지는 게 아니라, 표준 자리만 중국 오픈 웨이트로 넘어갈 뿐입니다. 안전을 명분으로 건 빗장이 점유율은 잃고 확산은 못 막는다면, 정작 위험한 건 그 빗장입니다.",
+        "context": "데이비드 색스의 발언을 빌려, 미국이 수출통제로 자국 모델 접근을 막을수록 표준 주도권을 중국 오픈 웨이트에 넘겨주는 역설을 짚은 분석글이다.",
+        "url": "https://www.threads.com/@choi.openai/post/DaI_oscCj_9",
+        "publishedAt": "2026-06-28T19:00:55.000Z",
+        "metrics": {
+          "likes": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "Financial Times 보도에 따르면 구글이 컴퓨팅 자원 부족으로 Meta의 'Gemini' 사용을 일부 제한한 것으로 알려졌습니다. 이 영향으로 Meta 내부의 고객 지원과 콘텐츠 검토 관련 프로젝트 일정에도 지연이 발생한 것으로 전해졌는데요. AI 업계에서는 모델 성능뿐 아니라 컴퓨팅 자원과 토큰 효율이 경쟁력을 좌우하는 요소로 더욱 중요해지고 있다는 분석이 나오고 있습니다.",
+        "context": "파이낸셜타임스 보도를 인용해 구글이 컴퓨팅 자원 부족으로 메타의 Gemini 사용을 일부 제한했고, 컴퓨팅·토큰 효율이 AI 경쟁력의 핵심으로 부상하고 있다고 전한 글이다.",
+        "url": "https://www.threads.com/@choi.openai/post/DaIxzR_CifK",
+        "publishedAt": "2026-06-28T17:00:02.000Z",
+        "metrics": {
+          "likes": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "threads_003",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "일론 머스크가 'Grok 4.5'가 SpaceX와 Tesla에서 비공개 베타 테스트를 시작했다고 밝혔습니다. '1.5T V9' 기반 모델에 Cursor 데이터를 추가 학습했으며, 초기 평가에서는 Claude Opus에 근접하거나 이를 뛰어넘는 성능을 보였다고 설명했습니다. 또한 강화학습(RL)으로 성능을 계속 개선하고 있으며, 올해는 완전히 새롭게 처음부터 학습한 모델을 매달 공개할 계획이라고 전했습니다.",
+        "context": "일론 머스크가 Grok 4.5를 스페이스X·테슬라에서 비공개 베타 테스트 중이며 Claude Opus에 근접·상회하는 성능을 보였다고 밝혔다는 소식을 정리한 글이다.",
+        "url": "https://www.threads.com/@choi.openai/post/DaIkIhmjwly",
+        "publishedAt": "2026-06-28T15:00:36.000Z",
+        "metrics": {
+          "likes": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "threads_004",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "오픈AI가 역대 최강 모델 GPT-5.6을 공개했습니다. 역대 최강이라는 Sol을 비롯해 Terra, Luna까지 세 모델인데, 미국 정부 요청으로 승인된 20여 개 기업에만 먼저 풀렸습니다. 정부가 고객사를 한 곳씩 들여다보고 승인하는 방식입니다. 2주 전 앤트로픽 Fable·Mythos가 같은 식으로 막혔을 때, 같은 잣대라면 오픈AI도 피하기 어렵다고 적었는데 그대로 됐습니다. 가장 강력한 모델이 어떻게 가장 닫힌 모델이 됐는지 정리했습니다.",
+        "context": "오픈AI가 역대 최강 GPT-5.6(Sol·Terra·Luna)을 공개했지만 미국 정부 승인을 받은 20여 개 기업에만 우선 제공된 배경을 분석한 글이다.",
+        "url": "https://www.threads.com/@choi.openai/post/DaEYYrYj6BD",
+        "publishedAt": "2026-06-27T00:00:59.000Z",
+        "metrics": {
+          "likes": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "title": "중국, 사이버보안에서 앤트로픽과 동등 수준 도달하며 AI 경쟁 재편",
+        "originalTitle": "China Has Matched Anthropic in Cybersecurity, Resetting AI Race",
+        "summary": "중국 모델이 사이버보안 역량에서 앤트로픽 수준에 도달했다는 주장과 그것이 AI 경쟁 구도에 미칠 영향을 논의하는 글이다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ui3tck/china_has_matched_anthropic_in_cybersecurity/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-06-29T02:51:28+09:00",
+        "id": "reddit_001"
+      },
+      {
+        "title": "앤트로픽 수출 금지 장기화에 아시아 스타트업들이 Mythos급 모델 출시",
+        "originalTitle": "Asian AI startups launch Mythos-like models as Anthropic's export ban drags on",
+        "summary": "수출 제한이 길어지는 틈을 타 아시아 스타트업들이 Mythos급 성능의 모델을 잇따라 내놓고 있다는 기사를 공유·토론하는 글이다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1ui1wci/asian_ai_startups_launch_mythoslike_models_as/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-06-29T01:36:08+09:00",
+        "id": "reddit_002"
+      },
+      {
+        "title": "기업 환경에 AI 에이전트를 배포하기 위한 28개 항목 컴플라이언스 체크리스트",
+        "originalTitle": "28 point compliance checklist for shipping AI agents into enterprise environments",
+        "summary": "AI 에이전트를 실제 엔터프라이즈 환경에 출시할 때 점검해야 할 28가지 보안·규정 준수 항목을 정리한 실무 가이드다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1ui052c/28_point_compliance_checklist_for_shipping_ai/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-06-29T00:26:20+09:00",
+        "id": "reddit_003"
+      },
+      {
+        "title": "트랜스포머를 화면에 다 들어올 만큼 축소하고 가중치를 직접 편집해보다",
+        "originalTitle": "I shrank a transformer until every number fitted on the screen and made the weights editable [R]",
+        "summary": "모든 수치가 화면에 들어올 정도로 작은 트랜스포머를 만들어 가중치를 직접 수정·관찰할 수 있게 한 교육·시각화 프로젝트다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1uhw7fu/i_shrank_a_transformer_until_every_number_fitted/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-06-28T21:35:42+09:00",
+        "id": "reddit_004"
+      },
+      {
+        "title": "무상태 LLM 챗봇의 장기 기억 한계 평가 — 피드백 요청",
+        "originalTitle": "Evaluating long-term memory limits in stateless LLM chatbots — feedback needed [D]",
+        "summary": "상태를 저장하지 않는 LLM 챗봇에서 장기 기억의 한계를 어떻게 측정할지 방법론을 제안하고 커뮤니티 피드백을 구하는 글이다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1ui27i1/evaluating_longterm_memory_limits_in_stateless/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-06-29T01:48:42+09:00",
+        "id": "reddit_005"
+      },
+      {
+        "title": "Ornith-1.0-35B GGUF 업데이트: 네이티브 MTP 추측 디코딩 접목 + 서빙 지표 공개",
+        "originalTitle": "Ornith-1.0-35B GGUF update: native MTP speculative-decode graft + full serving/TTFT/long-context numbers (llama.cpp, tp=1)",
+        "summary": "오픈 모델 Ornith-1.0-35B의 GGUF 빌드에 네이티브 MTP 추측 디코딩을 결합하고 TTFT·롱컨텍스트 등 서빙 성능 수치를 공개한 글이다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ui4yn6/ornith1035b_gguf_update_native_mtp/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-06-29T03:35:53+09:00",
+        "id": "reddit_006"
+      },
+      {
+        "title": "애플 리퍼비시에서 쓸 만한 M5 Max 옵션 다수 등장",
+        "originalTitle": "A lot of good M5 Max options available at Apple Refurbished",
+        "summary": "로컬 LLM 구동용으로 주목받는 M5 Max 맥들이 애플 리퍼비시 스토어에 다수 풀렸다는 정보를 공유하는 글이다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ui3oeu/a_lot_of_good_m5_max_options_available_at_apple/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-06-29T02:45:57+09:00",
+        "id": "reddit_007"
+      },
+      {
+        "title": "Graphify, 2.5개월 만에 깃허브 스타 7.3만·다운로드 220만 돌파하며 YC 합류",
+        "originalTitle": "Graphify hit 73k stars and 2.2M downloads in 2.5 months, and we just got into YC",
+        "summary": "오픈소스 프로젝트 Graphify가 출시 2.5개월 만에 폭발적으로 성장하고 Y Combinator에 합류했다는 성과를 공유하는 글이다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1ui6unv/graphify_hit_73k_stars_and_22m_downloads_in_25/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-06-29T04:49:02+09:00",
+        "id": "reddit_008"
+      },
+      {
+        "title": "\"Opus 4.8, 너무 지친다\" — 사용자 토로",
+        "originalTitle": "Opus 4.8 is so exhausting!",
+        "summary": "Claude Opus 4.8 사용 경험에 대한 한 사용자의 솔직한 불만과 그에 대한 커뮤니티의 다양한 반응이 오가는 글이다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1ui3yjv/opus_48_is_so_exhausting/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-06-29T02:57:20+09:00",
+        "id": "reddit_009"
+      },
+      {
+        "title": "\"Temporal은 필요 없다. Postgres면 충분하다\"",
+        "originalTitle": "You don't need Temporal. You need Postgres.",
+        "summary": "워크플로 오케스트레이션을 위해 Temporal 같은 전용 도구 대신 Postgres만으로 충분하다고 주장하는 도발적인 기술 글이다.",
+        "url": "https://www.reddit.com/r/programming/comments/1ui798p/you_dont_need_temporal_you_need_postgres/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-06-29T05:04:48+09:00",
+        "id": "reddit_010"
+      },
+      {
+        "title": "\"당신의 console.log는 거짓말을 하고 있다\" — 디버깅 함정과 팁",
+        "originalTitle": "Your console.log Is Lying to You: debugging traps and tricks",
+        "summary": "console.log가 실제 값을 잘못 보여줄 수 있는 함정들과 이를 피하는 디버깅 기법을 정리한 글이다.",
+        "url": "https://www.reddit.com/r/programming/comments/1ui7237/your_consolelog_is_lying_to_you_debugging_traps/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-06-29T04:57:09+09:00",
+        "id": "reddit_011"
+      },
+      {
+        "title": "Ante: 보로우 체킹과 참조 카운팅을 결합하는 새로운 방식",
+        "originalTitle": "Ante: A New Way to Blend Borrow Checking and Reference Counting",
+        "summary": "프로그래밍 언어 Ante가 보로우 체킹과 참조 카운팅을 혼합해 메모리 관리를 다루는 새 접근법을 소개하는 글이다.",
+        "url": "https://www.reddit.com/r/programming/comments/1ui2ql9/ante_a_new_way_to_blend_borrow_checking_and/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-06-29T02:09:35+09:00",
+        "id": "reddit_012"
+      },
+      {
+        "title": "\"왜 많은 사람들이 AGI가 정부·억만장자의 통제 하에 남을 거라 가정할까?\"",
+        "originalTitle": "Why do so many people assume AGI will remain under the control of governments and billionaires?",
+        "summary": "AGI가 결국 정부와 소수 부유층의 통제를 벗어날 수 있는지에 대한 가정과 전제를 비판적으로 따져보는 토론 글이다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1ui5jhu/why_do_so_many_people_assume_agi_will_remain/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-06-29T03:58:19+09:00",
+        "id": "reddit_013"
+      },
+      {
+        "title": "한편 중국에선 1만 대 넘는 배달 로봇이 라스트마일 물류를 바꾸는 중",
+        "originalTitle": "Meanwhile in China, 10,000+ delivery bots are transforming last-mile fulfillment by making deliveries faster, cheaper, and more autonomous",
+        "summary": "중국에서 1만 대 이상의 자율 배달 로봇이 라스트마일 배송을 더 빠르고 저렴하며 자율적으로 만들고 있다는 사례를 공유하는 글이다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1uhxshz/meanwhile_in_china_10000_delivery_bots_are/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-06-28T22:49:06+09:00",
+        "id": "reddit_014"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_040",
+        "title": "캘리포니아, 7월 1일부터 스트리밍 광고 과도한 음량 금지",
+        "excerpt": "캘리포니아에서 7월 1일부터 스트리밍 플랫폼이 시청 중인 콘텐츠보다 큰 광고 음량을 내보낼 수 없게 된다. TV 중심이던 광고 음량 규제가 스트리밍으로 확대됐다.",
+        "body": "2025년 10월 개빈 뉴섬 주지사가 서명한 SB 576에 따라, 캘리포니아 내 비디오 스트리밍 서비스는 7월 1일부터 시청 콘텐츠보다 큰 광고 오디오를 송출할 수 없다. 기존 TV 광고 음량 규제(CALM Act)의 적용 범위를 스트리밍 시대에 맞춰 넓힌 조치다.",
+        "url": "https://news.hada.io/topic?id=30913",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-29T04:36:00+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_041",
+        "title": "RTPVM: macOS에서 안드로이드 USB 테더링을 가능케 하는 가상화 앱",
+        "excerpt": "macOS가 지원하지 않는 RNDIS 프로토콜 탓에 막혀 있던 맥-안드로이드 USB 테더링을, 가상화 프레임워크를 활용해 우회하는 오픈소스 앱이 등장했다.",
+        "body": "대부분의 안드로이드 기기는 USB 테더링에 RNDIS 프로토콜을 쓰지만 macOS는 이를 지원하지 않아 그동안 맥북에서 안드로이드 USB 테더링이 불가능했다. macOS 27의 가상화 프레임워크를 이용해 이 문제를 해결한 Show GN 프로젝트 RTPVM이 공개돼 개발자들의 주목을 받고 있다.",
+        "url": "https://news.hada.io/topic?id=30912",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-29T04:28:26+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_042",
+        "title": "LibrePods: 애플 생태계에서 '해방된' 에어팟",
+        "excerpt": "에어팟을 애플 기기 밖에서도 온전히 활용할 수 있게 해주는 오픈소스 프로젝트 LibrePods가 깃허브에서 화제다.",
+        "body": "LibrePods는 애플 생태계에 묶여 있던 에어팟의 기능을 비애플 기기에서도 사용할 수 있도록 리버스 엔지니어링한 오픈소스 프로젝트다. 안드로이드 등 다른 플랫폼에서 노이즈 캔슬링·자동 전환 같은 기능을 일부 되살리려는 시도로, 폐쇄형 하드웨어 생태계에 대한 개발자 커뮤니티의 반발을 보여준다.",
+        "url": "https://github.com/librepods-org/librepods",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-29T03:48:53+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_043",
+        "title": "\"美는 한때 최고의 기술을 요구했지만, 이제는 그것을 금지한다\"",
+        "excerpt": "한때 최첨단 기술을 적극 채택하던 미국이 이제는 안보를 이유로 첨단 기술을 스스로 차단하고 있다는 비판적 칼럼이 화제다.",
+        "body": "PCMag의 오피니언은 미국이 과거 최고의 기술을 먼저 도입·요구하던 자세에서 벗어나, 최근에는 수출통제와 사용 제한으로 첨단 AI·컴퓨팅 기술을 금지하는 방향으로 돌아섰다고 지적한다. 앤트로픽·오픈AI 최상위 모델의 접근 제한, 대중국 부품 규제 등이 오히려 미국의 경쟁력과 표준 주도권을 약화시킬 수 있다는 우려를 담았다.",
+        "url": "https://www.pcmag.com/opinions/the-us-used-to-demand-the-best-tech-now-we-ban-it",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-29T04:07:49+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_044",
+        "title": "Semgrep \"GLM 5.2, 사이버 벤치마크에서 Claude를 능가\"",
+        "excerpt": "보안 도구 업체 Semgrep이 자체 사이버보안 벤치마크에서 중국 오픈 웨이트 모델 GLM 5.2가 Claude를 앞섰다는 결과를 공개했다.",
+        "body": "Semgrep은 \"우리에겐 집에 Mythos가 있다(we have Mythos at home)\"는 제목의 글에서, 자사 사이버보안 평가 항목들에서 GLM 5.2가 Claude를 능가했다고 보고했다. 앤트로픽 Mythos의 외부 접근이 막힌 상황에서 오픈 웨이트 모델이 비용·접근성·성능 모두에서 빠르게 대안으로 부상하고 있음을 보여주는 사례다.",
+        "url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-29T02:50:47+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_045",
+        "title": "오픈 웨이트 LLM과 폐쇄형 LLM의 격차",
+        "excerpt": "오픈 웨이트 모델과 폐쇄형(상용) 모델 간 성능·활용 격차를 짚은 글이 개발자 커뮤니티에서 주목받고 있다.",
+        "body": "긱뉴스에 공유된 이 글은 오픈 웨이트 LLM이 폐쇄형 상용 모델과의 성능 차이를 빠르게 좁히는 한편, 접근성·커스터마이즈·비용 측면에서는 오히려 앞서는 영역이 늘고 있음을 분석한다. 최근 중국발 오픈 웨이트 모델들의 약진과 맞물려, 폐쇄형 모델의 해자가 얼마나 견고한지에 대한 논쟁을 환기한다.",
+        "url": "https://news.hada.io/topic?id=30896",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-28T08:35:27+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_046",
+        "title": "\"Claude Code로 내 MRI 결과의 추가 소견을 받아봤다\"",
+        "excerpt": "한 개발자가 Claude Code를 활용해 자신의 MRI 영상 판독에 대한 보조적 의견을 얻어본 경험을 공유해 화제가 됐다.",
+        "body": "Hacker News에서 화제가 된 이 글에서 필자는 Claude Code를 이용해 자신의 MRI 분석을 보조적으로 검토한 과정을 기록했다. AI가 의료 영상 해석에서 환자에게 추가적 관점을 제공할 가능성을 보여주는 동시에, 전문의 진단을 대체할 수 없다는 한계와 책임·정확성 문제도 함께 환기한다.",
+        "url": "https://antoine.fi/mri-analysis-using-claude-code-opus",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-29T01:35:19+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_047",
+        "title": "TOP500, ISC'26에서 새 1위 등극 — 슈퍼컴퓨터 판도 변화",
+        "excerpt": "독일 ISC'26 행사에서 발표된 최신 TOP500 슈퍼컴퓨터 순위에서 새로운 1위 시스템이 등장하며 판도가 바뀌었다.",
+        "body": "기술 분석 매체 Chips and Cheese가 ISC'26에서 공개된 최신 TOP500 순위를 정리했다. 새로운 1위 시스템의 등장으로 그간 정상을 지켜온 기존 슈퍼컴퓨터가 밀려났으며, 이는 같은 기간 보도된 중국 LineShine의 1위 탈환과 맞물려 글로벌 고성능 컴퓨팅 경쟁 구도의 변화를 보여준다.",
+        "url": "https://chipsandcheese.com/p/top500-at-isc26-we-have-a-new-number",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-29T04:38:00+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      }
+    ]
+  }
+}
