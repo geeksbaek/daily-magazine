@@ -1,0 +1,523 @@
+{
+  "date": "2026-06-28",
+  "issueNumber": 86,
+  "cover": {
+    "mainHeadline": "애플, 美 블랙리스트 오른 中 메모리 업체서 구매 허가 요청 — 'RAMageddon' 파장 확산",
+    "mainExcerpt": "메모리 가격 폭등이 빅테크의 공급망 전략까지 흔들고 있다. 애플은 미 국방부가 블랙리스트에 올린 중국 메모리 업체 CXMT로부터 RAM을 구매할 수 있도록 트럼프 행정부에 예외 승인을 요청하는 것으로 알려졌다. 한편 애플 비전 프로 총괄 임원이 오픈AI로 이적하는 등 빅테크 간 AI 하드웨어 인재 경쟁도 뜨겁다.",
+    "headlines": [
+      "애플 비전 프로 총괄, 오픈AI 하드웨어팀으로 이적",
+      "소프트뱅크 CEO도 머스크의 '우주 데이터센터' 구상에 의문 제기",
+      "마거릿 애트우드, \"AI의 문제는 결국 가비지 인, 가비지 아웃\""
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_003",
+      "title": "애플, 美 블랙리스트 오른 中 메모리 업체서 구매 허가 요청 — RAM 가격 폭등 후폭풍",
+      "excerpt": "애플이 공급망 압박을 덜기 위해 미 국방부 블랙리스트에 오른 중국 메모리 업체 CXMT로부터 RAM을 구매할 수 있도록 트럼프 행정부에 예외를 요청하고 있다고 파이낸셜타임스가 보도했다.",
+      "body": "파이낸셜타임스에 따르면 애플은 인민해방군과의 연관성을 이유로 미 국방부 블랙리스트에 오른 중국 메모리 기업 CXMT로부터 RAM 칩을 구매할 수 있도록 트럼프 행정부의 예외 승인을 요청하고 있다. RAM과 스토리지 가격이 천정부지로 치솟으면서 애플마저 공급망 다변화를 위해 안보 민감 공급사에까지 손을 뻗는 상황에 내몰린 것이다. 이는 'RAMageddon'으로 불리는 메모리 가격 폭등이 빅테크의 공급망 전략과 미·중 기술 규제 사이의 긴장까지 흔들고 있음을 보여준다.",
+      "url": "https://www.theverge.com/tech/958707/apple-ram-buy-memory-blacklisted-china-cxmt",
+      "source": "The Verge",
+      "category": "big_tech",
+      "publishedAt": "2026-06-28T02:28:18+09:00",
+      "readTime": 5,
+      "imageGradient": 2
+    },
+    {
+      "id": "rss_001",
+      "title": "애플 비전 프로 총괄 임원, 오픈AI로 이적 — 하드웨어팀 합류",
+      "excerpt": "애플에서 비전 프로 헤드셋을 총괄하던 부사장 폴 미드가 오픈AI의 하드웨어팀으로 자리를 옮긴다는 보도가 나왔다.",
+      "body": "보도에 따르면 애플의 비전 프로 책임 부사장 폴 미드가 회사를 떠나 오픈AI 하드웨어팀에 합류할 예정이다. 오픈AI는 최근 전직 애플 디자인 수장 조니 아이브와 협업하며 자체 AI 디바이스 개발에 속도를 내고 있어, 이번 영입도 그 연장선으로 보인다. 애플 출신 핵심 인력이 오픈AI로 옮겨가는 사례가 이어지면서, 두 회사 간 하드웨어 인재 경쟁이 한층 뚜렷해지는 모습이다.",
+      "url": "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-06-28T01:45:09+09:00",
+      "readTime": 5,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_002",
+      "title": "소프트뱅크 CEO만이 아니다 — 머스크의 '우주 데이터센터' 구상에 쏟아지는 의문",
+      "excerpt": "일론 머스크가 그려온 궤도 데이터센터 비전에 대해 소프트뱅크 CEO를 포함한 업계 관계자들 사이에서 회의적인 시각이 커지고 있다.",
+      "body": "머스크는 우주 궤도에 데이터센터를 띄워 태양광과 냉각 효율을 극대화하겠다는 구상을 여러 차례 밝혀왔지만, 소프트뱅크 CEO를 비롯한 업계 인사들은 이 구상의 경제성과 실현 가능성에 의문을 제기하고 있다. 발사 비용, 방열, 유지보수 등 우주 환경 특유의 제약이 지상 데이터센터 대비 실질적 이점을 상쇄할 수 있다는 지적이 나온다. AI 인프라 경쟁이 치열해지는 가운데, 화려한 비전과 현실적 제약 사이의 간극을 둘러싼 논쟁이 이어지고 있다.",
+      "url": "https://techcrunch.com/2026/06/27/softbanks-ceo-isnt-the-only-one-with-questions-about-elon-musks-orbital-data-center-hype/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-06-28T05:42:36+09:00",
+      "readTime": 5,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_004",
+      "title": "마거릿 애트우드, \"AI의 문제는 결국 가비지 인, 가비지 아웃\"",
+      "excerpt": "'시녀 이야기'의 작가 마거릿 애트우드가 포르투갈 바벨 문학축제 인터뷰에서 AI에 대해 직설적인 견해를 밝혔다.",
+      "body": "애트우드는 포르투갈 포르투에서 열린 바벨 문학·문화 축제 인터뷰에서 AI 화두가 나오자 말을 아끼지 않았다. 그는 AI를 직접 사용해본 경험을 언급하며, 결국 AI의 한계는 '가비지 인, 가비지 아웃' 즉 입력 데이터의 질이 곧 결과물의 질을 결정한다는 원론적인 문제로 귀결된다고 지적했다. 저명 작가의 이런 발언은 생성형 AI의 한계에 대한 문화·예술계의 회의적 시선을 다시 한번 보여준다.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/958715/margaret-atwood-ai-problem-garbage-in-garbage-out",
+      "source": "The Verge",
+      "category": "big_tech",
+      "publishedAt": "2026-06-28T03:39:32+09:00",
+      "readTime": 5,
+      "imageGradient": 3
+    },
+    {
+      "id": "rss_005",
+      "title": "인스타그램, '내 알고리즘' 커스터마이징 기능 추가 테스트",
+      "excerpt": "인스타그램이 이용자들이 자신의 피드 추천 알고리즘을 더 세밀하게 조정할 수 있는 새로운 방법을 시험하고 있다.",
+      "body": "인스타그램은 이용자들에게 추천 콘텐츠 알고리즘에 대한 통제권을 넓혀주는 신규 기능을 테스트 중이라고 밝혔다. 이용자들이 자신의 피드에 어떤 콘텐츠가 더 많이, 또는 덜 노출될지를 직접 조정할 수 있게 하려는 시도로, 플랫폼 추천 알고리즘의 투명성과 통제권 요구가 커지는 흐름에 대응하는 행보로 풀이된다.",
+      "url": "https://techcrunch.com/2026/06/27/instagram-is-testing-more-ways-for-users-to-customize-your-algorithm/",
+      "source": "TechCrunch",
+      "category": "big_tech",
+      "publishedAt": "2026-06-28T06:27:37+09:00",
+      "readTime": 5,
+      "imageGradient": 4
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_001",
+        "title": "애플 비전 프로 총괄 임원, 오픈AI로 이적 — 하드웨어팀 합류",
+        "excerpt": "애플에서 비전 프로 헤드셋을 총괄하던 부사장 폴 미드가 오픈AI의 하드웨어팀으로 자리를 옮긴다는 보도가 나왔다.",
+        "body": "보도에 따르면 애플의 비전 프로 책임 부사장 폴 미드가 회사를 떠나 오픈AI 하드웨어팀에 합류할 예정이다. 오픈AI는 최근 전직 애플 디자인 수장 조니 아이브와 협업하며 자체 AI 디바이스 개발에 속도를 내고 있어, 이번 영입도 그 연장선으로 보인다. 애플 출신 핵심 인력이 오픈AI로 옮겨가는 사례가 이어지면서, 두 회사 간 하드웨어 인재 경쟁이 한층 뚜렷해지는 모습이다.",
+        "url": "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-28T01:45:09+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_002",
+        "title": "소프트뱅크 CEO만이 아니다 — 머스크의 '우주 데이터센터' 구상에 쏟아지는 의문",
+        "excerpt": "일론 머스크가 그려온 궤도 데이터센터 비전에 대해 소프트뱅크 CEO를 포함한 업계 관계자들 사이에서 회의적인 시각이 커지고 있다.",
+        "body": "머스크는 우주 궤도에 데이터센터를 띄워 태양광과 냉각 효율을 극대화하겠다는 구상을 여러 차례 밝혀왔지만, 소프트뱅크 CEO를 비롯한 업계 인사들은 이 구상의 경제성과 실현 가능성에 의문을 제기하고 있다. 발사 비용, 방열, 유지보수 등 우주 환경 특유의 제약이 지상 데이터센터 대비 실질적 이점을 상쇄할 수 있다는 지적이 나온다. AI 인프라 경쟁이 치열해지는 가운데, 화려한 비전과 현실적 제약 사이의 간극을 둘러싼 논쟁이 이어지고 있다.",
+        "url": "https://techcrunch.com/2026/06/27/softbanks-ceo-isnt-the-only-one-with-questions-about-elon-musks-orbital-data-center-hype/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-28T05:42:36+09:00",
+        "readTime": 5,
+        "imageGradient": 1
+      }
+    ],
+    "dev_tools": [],
+    "big_tech": [
+      {
+        "id": "rss_003",
+        "title": "애플, 美 블랙리스트 오른 中 메모리 업체서 구매 허가 요청 — RAM 가격 폭등 후폭풍",
+        "excerpt": "애플이 공급망 압박을 덜기 위해 미 국방부 블랙리스트에 오른 중국 메모리 업체 CXMT로부터 RAM을 구매할 수 있도록 트럼프 행정부에 예외를 요청하고 있다고 파이낸셜타임스가 보도했다.",
+        "body": "파이낸셜타임스에 따르면 애플은 인민해방군과의 연관성을 이유로 미 국방부 블랙리스트에 오른 중국 메모리 기업 CXMT로부터 RAM 칩을 구매할 수 있도록 트럼프 행정부의 예외 승인을 요청하고 있다. RAM과 스토리지 가격이 천정부지로 치솟으면서 애플마저 공급망 다변화를 위해 안보 민감 공급사에까지 손을 뻗는 상황에 내몰린 것이다. 이는 'RAMageddon'으로 불리는 메모리 가격 폭등이 빅테크의 공급망 전략과 미·중 기술 규제 사이의 긴장까지 흔들고 있음을 보여준다.",
+        "url": "https://www.theverge.com/tech/958707/apple-ram-buy-memory-blacklisted-china-cxmt",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-06-28T02:28:18+09:00",
+        "readTime": 5,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_004",
+        "title": "마거릿 애트우드, \"AI의 문제는 결국 가비지 인, 가비지 아웃\"",
+        "excerpt": "'시녀 이야기'의 작가 마거릿 애트우드가 포르투갈 바벨 문학축제 인터뷰에서 AI에 대해 직설적인 견해를 밝혔다.",
+        "body": "애트우드는 포르투갈 포르투에서 열린 바벨 문학·문화 축제 인터뷰에서 AI 화두가 나오자 말을 아끼지 않았다. 그는 AI를 직접 사용해본 경험을 언급하며, 결국 AI의 한계는 '가비지 인, 가비지 아웃' 즉 입력 데이터의 질이 곧 결과물의 질을 결정한다는 원론적인 문제로 귀결된다고 지적했다. 저명 작가의 이런 발언은 생성형 AI의 한계에 대한 문화·예술계의 회의적 시선을 다시 한번 보여준다.",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/958715/margaret-atwood-ai-problem-garbage-in-garbage-out",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-06-28T03:39:32+09:00",
+        "readTime": 5,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_005",
+        "title": "인스타그램, '내 알고리즘' 커스터마이징 기능 추가 테스트",
+        "excerpt": "인스타그램이 이용자들이 자신의 피드 추천 알고리즘을 더 세밀하게 조정할 수 있는 새로운 방법을 시험하고 있다.",
+        "body": "인스타그램은 이용자들에게 추천 콘텐츠 알고리즘에 대한 통제권을 넓혀주는 신규 기능을 테스트 중이라고 밝혔다. 이용자들이 자신의 피드에 어떤 콘텐츠가 더 많이, 또는 덜 노출될지를 직접 조정할 수 있게 하려는 시도로, 플랫폼 추천 알고리즘의 투명성과 통제권 요구가 커지는 흐름에 대응하는 행보로 풀이된다.",
+        "url": "https://techcrunch.com/2026/06/27/instagram-is-testing-more-ways-for-users-to-customize-your-algorithm/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-06-28T06:27:37+09:00",
+        "readTime": 5,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_006",
+        "title": "인도 결제 업계 수장, \"디지털 결제 다음 성장기엔 AI가 깊이 관여할 것\"",
+        "excerpt": "인도 UPI를 이끄는 딜립 아스베는 신생 UPI 앱들이 상업적으로 더 경쟁력을 갖추려면 AI 활용이 관건이 될 것이라고 내다봤다.",
+        "body": "딜립 아스베는 인도의 국민 결제 인프라 UPI의 다음 성장 단계에서 AI가 핵심 역할을 할 것이라고 전망했다. 그는 신생 UPI 기반 결제 앱들이 지속 가능한 수익 모델을 갖추기 위해서는 AI를 활용한 차별화가 중요해질 것이라고 설명했다. 세계 최대 결제 인프라로 꼽히는 UPI 생태계에 AI가 어떤 방식으로 스며들지 주목된다.",
+        "url": "https://techcrunch.com/2026/06/27/indian-payments-chief-thinks-ai-will-be-heavily-involved-in-next-era-of-digital-payment-growth/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-06-28T14:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_007",
+        "title": "광고 없는 스트리밍은 이제 '사치'가 됐다",
+        "excerpt": "케이블TV의 피로감을 덜어주던 스트리밍이 어느새 다시 광고로 뒤덮이고 있다. 광고 없는 시청은 점점 더 비싼 프리미엄 옵션이 되어가는 중이다.",
+        "body": "스트리밍 서비스는 출범 초기 광고 없는 시청 경험을 핵심 가치로 내세웠지만, 시간이 지나며 점점 더 많은 서비스가 저가 요금제에 광고를 끼워 넣고 있다. 칼럼은 이제 광고 없는 순수 시청 경험이 일반 옵션이 아니라 추가 비용을 내야 하는 프리미엄 사치재가 되어가는 흐름을 짚었다. 스트리밍이 결국 케이블TV가 가진 문제를 그대로 재현하고 있다는 지적이다.",
+        "url": "https://www.theverge.com/column/958379/streaming-industry-ads",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-06-28T21:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_008",
+        "title": "네스트, 당신의 온도조절기를 고치기 위한 끝없는 여정",
+        "excerpt": "아이폰을 만든 토니 파델이 다시 한번 만들어낸 성공 신화, 네스트. 그 온도조절기가 지금까지 거쳐온 진화 과정을 돌아본다.",
+        "body": "네스트의 탄생 스토리는 전형적인 테크 신화로 통한다. 아이폰을 만든 전설적 제품 책임자 토니 파델이 손을 댄 또 하나의 성공 사례였던 것. 글은 네스트 온도조절기가 출시 이후 거쳐온 여러 버전과 기능 변화를 돌아보며, 스마트홈 기기 하나가 꾸준히 다듬어지는 과정을 살펴본다.",
+        "url": "https://www.theverge.com/podcast/958735/nest-thermostat-version-history",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-06-28T21:02:44+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_009",
+        "title": "2천 명이 내 AI 어시스턴트를 해킹하려 한 뒤 벌어진 일",
+        "excerpt": "AI 어시스턴트를 속여 비밀 정보를 유출시키려는 공개 해킹 실험에 2,000명 이상이 도전했지만, 비밀은 끝내 새지 않았다.",
+        "body": "hackmyclaw.com은 이메일로 AI 어시스턴트 'Fiu'를 속여 secrets.env 파일을 유출시키도록 유도하는 공개 실험이었다. 해커뉴스 1위에 오른 뒤 2,000명 이상이 6,000건 넘는 시도를 했지만 비밀은 끝내 새어나가지 않았다. 방어 장치는 VPS에서 동작하는 어시스턴트에 적용된 단 몇 줄짜리 프롬프트 인젝션 방지 규칙이었던 것으로 전해졌다.",
+        "url": "https://news.hada.io/topic?id=30881",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-28T00:36:13+09:00",
+        "readTime": 5,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_010",
+        "title": "플레이스테이션, 고객이 구매한 영화 551편 라이브러리에서 삭제 예정",
+        "excerpt": "소니가 PlayStation Store에서 StudioCanal 배급 영화를 구매한 고객들에게 라이브러리 접근이 중단된다고 통보했다. 터미네이터2 등 유명작이 포함됐다.",
+        "body": "소니는 PlayStation Store에서 StudioCanal 배급 콘텐츠를 구매한 이용자들에게 기존 구매작에 대한 접근이 중단되고 라이브러리에서 제거된다고 공지했다. 대상 목록에는 '터미네이터 2', '토탈 리콜', '콘페션 오브 어 데인저러스 마인드' 등 551편이 포함된 것으로 알려졌다. 디지털 구매가 실제 소유가 아니라 취소 가능한 라이선스에 불과하다는 점을 다시 한번 보여주는 사례다.",
+        "url": "https://news.hada.io/topic?id=30887",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-28T04:35:35+09:00",
+        "readTime": 5,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_011",
+        "title": "오픈 웨이트 LLM과 폐쇄형 LLM의 성능 격차, 빠르게 좁혀지는 중",
+        "excerpt": "Artificial Analysis 지능 지표 기준, 오픈 웨이트 모델이 폐쇄형 모델의 과거 성능을 따라잡는 데 걸리는 시간이 꾸준히 줄어들고 있다.",
+        "body": "Artificial Analysis Intelligence Index 데이터를 보면, 오픈 웨이트 LLM이 폐쇄형 LLM의 이전 최고 성능을 따라잡는 데 걸리는 시간이 2024년 여름 이후 지속적으로 줄어드는 추세를 보인다. 이 추세선을 그대로 연장하면 격차가 2026년 12월 3일경 0개월에 도달해, 지표상으로는 오픈 모델이 폐쇄형 최전선 모델을 실시간으로 따라잡는 시점이 머지않았다는 해석이 나온다.",
+        "url": "https://news.hada.io/topic?id=30896",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-28T08:35:27+09:00",
+        "readTime": 5,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_012",
+        "title": "두개골 열지 않고 초음파로 뇌를 촬영하는 기술",
+        "excerpt": "Aleph가 두개골을 절개하지 않고도 뇌 혈관 활동을 고해상도로 들여다보는 초음파 기반 뇌-기계 인터페이스 하드웨어를 개발 중이다.",
+        "body": "Aleph는 신경 활성화 부위로 혈류가 더 몰리는 신경혈관 결합 현상을 활용해, 두개골을 통과한 초음파로 뇌 혈관 활동을 고해상도로 촬영하는 인터페이스 하드웨어를 개발하고 있다. MRI처럼 넓은 촬영 범위와 세부 해상도를 동시에 달성하는 것이 목표로, 비침습적 뇌-기계 인터페이스 연구의 새로운 접근으로 주목받고 있다.",
+        "url": "https://news.hada.io/topic?id=30886",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-28T02:45:27+09:00",
+        "readTime": 5,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_013",
+        "title": "화성 생명체 증거는 더 쌓였지만, 여전히 '생명체'는 없다",
+        "excerpt": "화성에서 생명체 존재를 뒷받침하는 또 다른 증거가 발견됐지만, 실제 생명체 발견으로 이어지지는 못했다.",
+        "body": "최근 화성 탐사에서 과거 생명체 존재 가능성을 시사하는 추가적인 지질학적 증거가 발견됐다. 다만 이런 증거들은 여전히 간접적인 단서에 머물러 있으며, 실제 생명체나 그 흔적을 직접 확인하는 데까지는 이르지 못했다는 점에서 신중한 해석이 필요하다는 지적이 나온다.",
+        "url": "https://www.cbc.ca/radio/quirks/more-evidence-of-life-on-mars-but-still-no-life-1.7649645",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-28T20:55:08+09:00",
+        "readTime": 5,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_014",
+        "title": "지하실에서 AI로 알츠하이머 치료제를 만든 사람",
+        "excerpt": "한 개인이 AI를 활용해 알츠하이머병 치료 후보 물질을 자택에서 연구해낸 사례가 화제를 모았다.",
+        "body": "개인 연구자가 별도의 거대 연구소 없이 AI 도구를 활용해 알츠하이머병 치료 후보 물질을 탐색한 사례가 소개됐다. 전문 연구기관의 자원 없이도 AI를 활용한 개인 단위의 신약 후보물질 탐색이 가능해지고 있음을 보여주는 사례로 주목받았다.",
+        "url": "https://twitter.com/DouglasYaoDY/status/2070904914050797582",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-28T21:23:25+09:00",
+        "readTime": 5,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_015",
+        "title": "공용 DNS 리졸버, 어떻게 골라야 할까",
+        "excerpt": "여러 공용 DNS 리졸버들의 속도, 프라이버시 정책, 필터링 옵션을 비교한 가이드가 개발자 커뮤니티에서 호응을 얻고 있다.",
+        "body": "가이드는 주요 공용 DNS 리졸버들을 응답 속도, 로그 보관 정책, 콘텐츠 필터링 옵션 등 기준으로 비교했다. 단순히 가장 빠른 리졸버를 찾는 것을 넘어, 프라이버시와 신뢰성까지 고려한 선택 기준을 제시한다는 점에서 긍정적인 반응을 얻고 있다.",
+        "url": "https://evilbit.de/dns-resolver-guide.html",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-28T07:11:28+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_016",
+        "title": "Paca — 인간과 AI 에이전트가 함께 일하는 오픈소스 프로젝트 관리 도구",
+        "excerpt": "Jira·Trello·ClickUp 등의 무료 오픈소스 대체제를 표방하는 Paca는 AI 에이전트를 챗봇이 아닌 동등한 팀원으로 스프린트에 참여시킨다.",
+        "body": "Paca는 AI 네이티브 셀프 호스팅 프로젝트 관리 플랫폼으로, 기존 SaaS 도구들의 오픈소스 대안을 지향한다. 가장 큰 특징은 AI 에이전트를 단순 챗봇 애드온이 아니라 스크럼 팀의 동등한 팀원으로 취급해, 통합 스크럼반 보드 위에서 인간 팀원들과 함께 스프린트 작업에 배정한다는 점이다.",
+        "url": "https://news.hada.io/topic?id=30901",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-28T09:31:02+09:00",
+        "readTime": 5,
+        "imageGradient": 1
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "Codex 품질 개선 업데이트가 이번 주에 적용되었습니다\n\n긴 스레드부터 시작해서: 이제 스크롤이 더 부드럽고, 대화 사이를 이동할 때도 당신의 위치가 그대로 유지됩니다.",
+        "context": "오픈AI 개발자 계정이 Codex 앱의 스레드 스크롤·탐색 품질 개선 업데이트를 공유한 글이다.",
+        "url": "https://x.com/OpenAIDevs/status/2070922791529091376",
+        "publishedAt": "2026-06-27T17:30:44.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "Codex 앱 추가 수정 사항:\n\n• 스레드 전환이 백그라운드 작업을 줄였으며, Codex는 모든 것을 한 번에 로드하지 않고 더 깊은 로컬 기록을 표시할 수 있습니다.\n\n• 보관된 채팅을 스크롤하고 삭제하기가 더 쉬워졌습니다.\n\n• 도크와 사이드바의 읽지 않음 배지가 동기화 상태를 유지합니다.",
+        "context": "같은 업데이트의 후속 글로, 스레드 전환 성능과 보관 채팅 관리, 읽지 않음 배지 동기화 개선 사항을 정리했다.",
+        "url": "https://x.com/OpenAIDevs/status/2070923022870131068",
+        "publishedAt": "2026-06-27T17:31:39.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "Codex에서 복사하세요. Slack에 붙여넣기. 마크다운을 유지하세요.\n\n불릿, 굵은 텍스트, 코드, 링크가 이제 서식을 유지합니다.\n\n붙여넣은 대량의 텍스트 블록이 더 이상 UI를 멈추지 않습니다. 임시 저장 텍스트는 스레드 인계 시에도 유지되며, 붙여넣은 이미지 미리보기는 화살표 키 탐색을 지원합니다.",
+        "context": "Codex의 복사·붙여넣기 서식 유지와 대용량 텍스트 처리 성능 개선을 알린 글이다.",
+        "url": "https://x.com/OpenAIDevs/status/2070992443387031709",
+        "publishedAt": "2026-06-27T22:07:30.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "앤트로픽이 여섯 번째 경제 보고서를 냈습니다.\n이번엔 처음으로 두 가지를 동시에 했는데요. 하나는 대화를 시간 단위로 들여다본 것이고, 다른 하나는 실제 사용자 9,700명에게 직접 설문을 돌려 그 답을 각자의 실제 사용 기록과 연결한 겁니다.\n그런데 가장 뜻밖의 결과는 따로 있습니다. AI에게 일을 가장 많이 통째로 넘기는 사람들, 즉 가장 자동화된 방식으로 쓰는 사람들이 자기 임금·고용 안정·재취업 전망을 가장 낙관하고 있었습니다. \"일을 넘길수록 내 자리가 위험하다\"는 통념과 정반대입니다.",
+        "context": "앤트로픽의 6번째 경제 영향 보고서를 소개하며, AI에게 업무를 가장 많이 위임하는 사용자일수록 오히려 고용 전망을 낙관한다는 역설적 결과를 짚은 글이다.",
+        "url": "https://www.threads.net/@choi.openai/post/DaH7OSbD6iu",
+        "publishedAt": "2026-06-28T09:03:08.000Z",
+        "metrics": {
+          "likes": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "왜 AI 기업들은 모델을 버리고 현장으로 내려오는가?\n지난 글에서 저는 모델 자체의 비용 해자가 사라졌다고 적었습니다.\n그러면 AI 기업들은 가격 경쟁에 갇혀 마진을 잃을까요. 정반대입니다.\n모델로 못 지키게 되자, 그들은 모델이 심기는 자리를 직접 차지하러 내려오고 있습니다. 사이버, 의료, 법률, 실험실, 디바이스, 그리고 결제까지.\n왜 AI 회사들이 더는 모델 회사로 남지 않으려 하는지 정리했습니다.",
+        "context": "AI 기업들이 모델 자체의 가격 경쟁력 대신 사이버·의료·법률 등 모델이 실제로 쓰이는 '현장'을 직접 차지하려는 전략 전환을 분석한 글이다.",
+        "url": "https://www.threads.net/@choi.openai/post/DaHxb6vj0Vh",
+        "publishedAt": "2026-06-28T07:37:36.000Z",
+        "metrics": {
+          "likes": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "threads_003",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "왜 AI 기업들은 중국으로 향하는가?\n토큰이 싸지면 AI 업계 전체에 호재라고들 합니다.\n저는 그 호재가 모두에게 똑같이 가지 않는다고 봅니다.\n싸질수록, 그리고 막힐수록 더 유리해지는 쪽은 프론티어가 아니라 오픈웨이트입니다. 최근 GLM-5.2가 주목받는 이유도 여기 있습니다.\n기업들이 토큰을 많이 쓰는 쪽에서, 같은 예산으로 결과를 더 많이 만드는 쪽으로 이동하는 자리에서 오픈웨이트가 실제 기본값 후보로 올라왔기 때문입니다.",
+        "context": "토큰 가격이 떨어질수록 프론티어 모델보다 오픈웨이트 모델이 유리해진다는 관점에서, AI 기업들이 중국·오픈웨이트 시장으로 눈을 돌리는 이유를 짚은 글이다.",
+        "url": "https://www.threads.net/@choi.openai/post/DaHo8aFDxoW",
+        "publishedAt": "2026-06-28T06:23:24.000Z",
+        "metrics": {
+          "likes": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "주말 프로젝트: Claude Code로 SQLite를 C에서 포팅해보기",
+        "originalTitle": "Weekend exercise: I've been using Claude Code to port SQLite from C to Zig, module by module — 90 of 102 translation units now run as Zig, ~919M tokens in, validated against SQLite's own test suite every step",
+        "summary": "한 사용자가 주말 동안 Claude Code를 활용해 SQLite를 다른 언어로 포팅하는 실험을 진행한 과정을 공유했다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1uhnn6o/weekend_exercise_ive_been_using_claude_code_to/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-06-28T13:35:43+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "Claude의 안전장치가 정당한 업무 활용을 막고 있다는 불만",
+        "originalTitle": "Claude safeguards preventing worthwhile professional use",
+        "summary": "전문적이고 합법적인 업무에서도 Claude의 보호장치가 지나치게 작동해 작업을 가로막는다는 불만이 r/ClaudeAI에서 제기됐다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1uhudst/claude_safeguards_preventing_worthwhile/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-06-28T20:01:30+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "레거시 코드베이스에서 코딩 에이전트를 어떻게 쓰고 있나요",
+        "originalTitle": "How are y'all using coding agents on legacy codebases?",
+        "summary": "오래된 레거시 코드베이스에 코딩 에이전트를 도입해본 경험과 노하우를 묻는 글에 다양한 답변이 달리고 있다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1uh6jb2/how_are_yall_using_coding_agents_on_legacy/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-06-28T01:05:01+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "전산학 비전공자 개발자, 채용하시겠습니까",
+        "originalTitle": "Would you hire a programmer who's not a CS graduate?",
+        "summary": "컴퓨터공학을 전공하지 않은 개발자 채용에 대한 시니어 개발자들의 솔직한 의견이 모이고 있다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1uhehov/would_you_hire_a_programmer_whos_not_a_cs_graduate/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-06-28T06:28:31+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "55개 LLM이 서로를 블라인드로 채점하게 해봤다 (2.2만 건의 판단, 전체 공개)",
+        "originalTitle": "I had 55 LLMs blind-grade each other (22k judgments, all open). Every model family with enough data is biased toward its own siblings. Qwen judges favor Qwen by ~0.9 points. Mistral penalizes its own by ~1.0.",
+        "summary": "55개의 오픈 LLM들이 서로의 답변을 익명으로 채점하게 한 대규모 실험 결과가 r/LocalLLaMA에 공개됐다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uhi81a/i_had_55_llms_blindgrade_each_other_22k_judgments/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-06-28T09:10:51+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "모델 레지스트리 — 허깅페이스를 백업으로 활용하는 오픈 모델 토렌트",
+        "originalTitle": "Model Registry: Torrents for open models using Hugging Face as a fallback web seed.",
+        "summary": "오픈 모델을 토렌트로 배포하고 허깅페이스를 폴백으로 활용하는 모델 레지스트리 프로젝트가 소개됐다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uhevvf/model_registry_torrents_for_open_models_using/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-06-28T06:45:19+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "파인튜닝된 모델의 가중치 최하위 비트에 메시지를 숨기는 기법",
+        "originalTitle": "Hiding messages in the least significant mantissa bits of fine-tuned ONNX model weights [P]",
+        "summary": "신경망 가중치의 최하위 유효 비트에 메시지를 인코딩해 숨기는 워터마킹 기법이 r/MachineLearning에서 논의되고 있다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1uh61uw/hiding_messages_in_the_least_significant_mantissa/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-06-28T00:45:36+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "AI가 코드를 대부분 작성하는 시대, 알고리즘을 계속 공부해야 할까",
+        "originalTitle": "Do we still need to study algorithms now that AI writes most of our code? [D]",
+        "summary": "AI 코딩 도구가 보편화된 시대에도 알고리즘 기초 학습이 여전히 필요한지를 둘러싼 토론이 이어지고 있다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1uhdydj/do_we_still_need_to_study_algorithms_now_that_ai/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-06-28T06:05:53+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "왜 모든 AI 랩이 갑자기 자체 칩을 만들려고 하나",
+        "originalTitle": "Why is every AI lab suddenly trying to build their own chips?",
+        "summary": "주요 AI 기업들이 일제히 자체 칩 개발에 뛰어드는 이유를 둘러싼 토론이 r/OpenAI에서 이어지고 있다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1uhn4y9/why_is_every_ai_lab_suddenly_trying_to_build/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-06-28T13:09:31+09:00"
+      },
+      {
+        "id": "reddit_010",
+        "title": "새로운 SOTA 벤치마크 등장",
+        "originalTitle": "New SOTA Benchmark",
+        "summary": "새로운 최고 성능(SOTA) 벤치마크 결과가 공유되며 모델 간 성능 비교 논의가 활발해지고 있다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1uh5ym4/new_sota_benchmark/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-06-28T00:41:56+09:00"
+      },
+      {
+        "id": "reddit_011",
+        "title": "우리는 평생 안에 AGI·ASI로 가는 길에 들어선 걸까",
+        "originalTitle": "Are we locked on a path to AGI/ASI in our lifetime?",
+        "summary": "현재 AI 발전 속도를 볼 때 우리 생애 안에 AGI·ASI 도달이 불가피한지를 묻는 토론이 r/artificial에서 이어지고 있다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1uh5mnv/are_we_locked_on_a_path_to_agiasi_in_our_lifetime/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-06-28T00:28:27+09:00"
+      },
+      {
+        "id": "reddit_012",
+        "title": "AI 도구 데모와 실제 일상 사용 사이의 가장 큰 간극은 무엇일까",
+        "originalTitle": "What’s the biggest gap between AI tool demos and actual daily use?",
+        "summary": "화려한 AI 도구 데모와 실제 업무에 적용했을 때의 체감 차이를 묻는 글에 다양한 실무 경험담이 달리고 있다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1uhlz6m/whats_the_biggest_gap_between_ai_tool_demos_and/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-06-28T12:10:46+09:00"
+      },
+      {
+        "id": "reddit_013",
+        "title": "AWS 데이터홀 냉각 장애, 150개 이상 클라우드 서비스 장애로 이어져",
+        "originalTitle": "The AWS Data Hall Cooling Failure Linked to 150-Plus Cloud Service Disruptions",
+        "summary": "AWS의 한 데이터홀에서 발생한 냉각 장애가 150개 이상의 클라우드 서비스 장애로 번진 사고 분석이 공유됐다.",
+        "url": "https://www.reddit.com/r/programming/comments/1uhbf79/the_aws_data_hall_cooling_failure_linked_to/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-06-28T04:21:32+09:00"
+      },
+      {
+        "id": "reddit_014",
+        "title": "CORS, 쉬운 말로 설명하기",
+        "originalTitle": "CORS explained in plain English",
+        "summary": "복잡하게 느껴지는 CORS(교차 출처 리소스 공유) 개념을 평이한 언어로 풀어 설명한 글이 개발자들 사이에서 호응을 얻고 있다.",
+        "url": "https://www.reddit.com/r/programming/comments/1uhpazx/cors_explained_in_plain_english/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-06-28T15:04:55+09:00"
+      },
+      {
+        "id": "reddit_015",
+        "title": "IBM, '아파트 블록' 구조의 초소형 칩 설계 돌파구 발표",
+        "originalTitle": "IBM hails new 'block of flats' design breakthrough for tiny chips",
+        "summary": "IBM이 트랜지스터를 수직으로 쌓는 '아파트 블록'식 구조의 신규 초소형 칩 설계 기술을 공개했다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1uh9qua/ibm_hails_new_block_of_flats_design_breakthrough/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-06-28T03:14:17+09:00"
+      },
+      {
+        "id": "reddit_016",
+        "title": "중국, 사이버보안 역량에서 앤트로픽 수준 따라잡아 — AI 경쟁 재편",
+        "originalTitle": "China Has Matched Anthropic in Cybersecurity, Resetting AI Race",
+        "summary": "중국의 AI 모델이 사이버보안 영역에서 앤트로픽과 비슷한 수준에 도달했다는 평가가 나오며 AI 경쟁 구도에 대한 재해석이 이어지고 있다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1uhkyg4/china_has_matched_anthropic_in_cybersecurity/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-06-28T11:20:14+09:00"
+      }
+    ]
+  }
+}
