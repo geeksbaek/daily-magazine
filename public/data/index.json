@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-06-26",
+      "issueNumber": 84,
+      "mainHeadline": "램값 폭등 'RAMageddon'에 애플도 백기 — 맥·아이패드 가격 전격 인상",
+      "headlines": [
+        "앤트로픽 Claude, 유료 소비자 시장서 ChatGPT 아성 흔든다",
+        "IBM, 세계 최초 1나노미터 미만 칩 기술 공개",
+        "오픈AI '에이전트가 일하는 방식을 바꾼다' — 업무 단위가 위임형 장기 과제로"
+      ]
+    },
+    {
       "date": "2026-06-25",
       "issueNumber": 83,
       "mainHeadline": "오픈AI-브로드컴, 9개월 만에 만든 첫 자체 추론 칩 'Jalapeño' 공개",

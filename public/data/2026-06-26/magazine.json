@@ -1,0 +1,725 @@
+{
+  "date": "2026-06-26",
+  "issueNumber": 84,
+  "cover": {
+    "mainHeadline": "램값 폭등 'RAMageddon'에 애플도 백기 — 맥·아이패드 가격 전격 인상",
+    "mainExcerpt": "AI 데이터센터 수요로 메모리 가격이 치솟는 'RAMageddon'이 소비자 기기까지 덮쳤다. 막대한 구매력으로 가격 변동을 흡수해 온 애플마저 맥과 아이패드 가격을 올렸고, 아이폰은 일단 제외됐다. 부품 원가 압박이 업계 전반의 가격 정책을 흔들고 있다.",
+    "headlines": [
+      "앤트로픽 Claude, 유료 소비자 시장서 ChatGPT 아성 흔든다",
+      "IBM, 세계 최초 1나노미터 미만 칩 기술 공개",
+      "오픈AI '에이전트가 일하는 방식을 바꾼다' — 업무 단위가 위임형 장기 과제로"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_001",
+      "title": "램값 대폭등 'RAMageddon'이 현실로 — 애플마저 가격 인상 압박",
+      "excerpt": "메모리 반도체 가격이 폭등하면서 막대한 구매력과 높은 마진으로 가격 변동을 흡수해 온 애플조차 제품 가격을 올리기 시작했다. 더 버지는 애플의 가격 인상을 '탄광 속 카나리아'에 빗대며 업계 전반의 비용 압박이 한계에 다다랐다고 분석했다.",
+      "body": "AI 데이터센터 수요 폭증으로 D램과 낸드 가격이 급등하는 이른바 'RAMageddon' 국면이 소비자 기기 시장까지 덮쳤다. 애플은 통상 공급망 변동을 자체 흡수해 왔지만 이번에는 맥과 아이패드 라인 전반의 가격을 올렸다. 업계에서는 애플이 가격을 올렸다는 것 자체가 메모리 부족 사태의 심각성을 보여주는 신호로 받아들여진다.",
+      "url": "https://www.theverge.com/tech/956950/ram-crisis-apple-price-increase",
+      "source": "The Verge",
+      "category": "big_tech",
+      "publishedAt": "2026-06-26T05:00:00+09:00",
+      "readTime": 5,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_003",
+      "title": "앤트로픽 Claude, 유료 소비자 시장서 ChatGPT 아성 흔든다",
+      "excerpt": "ChatGPT가 시장을 압도적으로 주도하고 있지만, AI에 돈을 지불하는 유료 소비자들 사이에서는 앤트로픽의 Claude를 선택하는 비율이 꾸준히 늘고 있다는 데이터가 나왔다.",
+      "body": "유료 AI 구독 시장에서 Claude의 존재감이 빠르게 커지고 있다. 전체 사용자 수에서는 ChatGPT가 여전히 압도적이지만, 실제로 비용을 지불하는 헤비 유저층에서는 Claude를 택하는 흐름이 강해지고 있다는 분석이다. 코딩·업무 자동화 등 고부가 영역에서의 강점이 유료 전환을 견인하는 것으로 보인다.",
+      "url": "https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt/",
+      "source": "TechCrunch",
+      "category": "ai_ml",
+      "publishedAt": "2026-06-26T02:38:27+09:00",
+      "readTime": 5,
+      "imageGradient": 2
+    },
+    {
+      "id": "rss_004",
+      "title": "오픈AI '에이전트가 일하는 방식을 바꾼다' — 업무 단위가 위임형 장기 과제로",
+      "excerpt": "오픈AI는 에이전트형 AI가 지식 노동의 단위를 단발성 상호작용에서 '위임된 장기 과제'로 바꾸고 있다고 밝혔다. 에이전트는 수 분에서 수 시간 동안 독립적으로 도구를 호출하며 문제를 해결한다.",
+      "body": "오픈AI는 블로그에서 챗봇과의 짧고 단발적인 대화와 달리, 에이전트는 도구 호출·환경 상호작용·반복 개선을 스스로 조율하며 장시간 자율적으로 작동한다고 설명했다. 지난 1년간 에이전트가 업무에서 가장 강력한 AI 도구로 빠르게 자리잡았으며, 사내 전반에서 Codex 등을 활용해 더 복잡하고 협업적인 작업을 수행하고 있다고 덧붙였다.",
+      "url": "https://openai.com/index/how-agents-are-transforming-work",
+      "source": "OpenAI News",
+      "category": "ai_ml",
+      "publishedAt": "2026-06-25T11:00:00+09:00",
+      "readTime": 5,
+      "imageGradient": 3
+    },
+    {
+      "id": "rss_005",
+      "title": "IBM, 세계 최초 1나노미터 미만 칩 기술 공개",
+      "excerpt": "IBM이 세계 최초로 1나노미터 벽을 넘은 0.7나노(7옹스트롬)급 칩 기술을 공개했다. 트랜지스터를 옆이 아니라 위로 쌓는 '나노스택' 구조로 성능과 전력효율을 크게 끌어올렸다.",
+      "body": "IBM이 0.7나노미터 수준의 차세대 칩 기술을 발표하며 반도체 미세공정의 새 이정표를 세웠다. 손톱 크기 칩에 약 1,000억 개의 트랜지스터를 집적할 수 있는 수준으로, 트랜지스터를 수직으로 적층하는 나노스택 구조를 통해 성능 약 50%, 전력효율 약 70% 개선을 달성했다. 다만 IBM이 직접 양산하지는 않아 실제 수율 확보는 파운드리의 몫으로 남는다.",
+      "url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
+      "source": "Hacker News",
+      "category": "quick_bites",
+      "publishedAt": "2026-06-26T00:33:37+09:00",
+      "readTime": 5,
+      "imageGradient": 4
+    },
+    {
+      "id": "rss_006",
+      "title": "아마존, 인도에 130억 달러 추가 AI 인프라 투자",
+      "excerpt": "아마존이 인도 AI 인프라에 130억 달러를 추가 투자한다. 글로벌 빅테크들이 인도를 차세대 AI 인프라 거점으로 삼기 위한 경쟁을 가속하는 가운데 나온 결정이다.",
+      "body": "아마존이 인도 시장에 130억 달러 규모의 신규 AI 인프라 투자를 발표했다. 데이터센터와 클라우드 역량 확충을 위한 것으로, 마이크로소프트·구글 등 경쟁사들이 인도에 대규모 투자를 잇따라 단행하는 흐름과 맞물린다. 인도가 미국·중국에 이은 핵심 AI 인프라 시장으로 부상하고 있음을 보여준다.",
+      "url": "https://techcrunch.com/2026/06/25/amazon-ups-india-bet-with-fresh-13b-ai-infrastructure-investment/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-06-25T21:00:38+09:00",
+      "readTime": 5,
+      "imageGradient": 5
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_003",
+        "title": "앤트로픽 Claude, 유료 소비자 시장서 ChatGPT 아성 흔든다",
+        "excerpt": "ChatGPT가 시장을 압도적으로 주도하고 있지만, AI에 돈을 지불하는 유료 소비자들 사이에서는 앤트로픽의 Claude를 선택하는 비율이 꾸준히 늘고 있다는 데이터가 나왔다.",
+        "body": "유료 AI 구독 시장에서 Claude의 존재감이 빠르게 커지고 있다. 전체 사용자 수에서는 ChatGPT가 여전히 압도적이지만, 실제로 비용을 지불하는 헤비 유저층에서는 Claude를 택하는 흐름이 강해지고 있다는 분석이다. 코딩·업무 자동화 등 고부가 영역에서의 강점이 유료 전환을 견인하는 것으로 보인다.",
+        "url": "https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-26T02:38:27+09:00",
+        "readTime": 5,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_004",
+        "title": "오픈AI '에이전트가 일하는 방식을 바꾼다' — 업무 단위가 위임형 장기 과제로",
+        "excerpt": "오픈AI는 에이전트형 AI가 지식 노동의 단위를 단발성 상호작용에서 '위임된 장기 과제'로 바꾸고 있다고 밝혔다. 에이전트는 수 분에서 수 시간 동안 독립적으로 도구를 호출하며 문제를 해결한다.",
+        "body": "오픈AI는 블로그에서 챗봇과의 짧고 단발적인 대화와 달리, 에이전트는 도구 호출·환경 상호작용·반복 개선을 스스로 조율하며 장시간 자율적으로 작동한다고 설명했다. 지난 1년간 에이전트가 업무에서 가장 강력한 AI 도구로 빠르게 자리잡았으며, 사내 전반에서 Codex 등을 활용해 더 복잡하고 협업적인 작업을 수행하고 있다고 덧붙였다.",
+        "url": "https://openai.com/index/how-agents-are-transforming-work",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-25T11:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_006",
+        "title": "아마존, 인도에 130억 달러 추가 AI 인프라 투자",
+        "excerpt": "아마존이 인도 AI 인프라에 130억 달러를 추가 투자한다. 글로벌 빅테크들이 인도를 차세대 AI 인프라 거점으로 삼기 위한 경쟁을 가속하는 가운데 나온 결정이다.",
+        "body": "아마존이 인도 시장에 130억 달러 규모의 신규 AI 인프라 투자를 발표했다. 데이터센터와 클라우드 역량 확충을 위한 것으로, 마이크로소프트·구글 등 경쟁사들이 인도에 대규모 투자를 잇따라 단행하는 흐름과 맞물린다. 인도가 미국·중국에 이은 핵심 AI 인프라 시장으로 부상하고 있음을 보여준다.",
+        "url": "https://techcrunch.com/2026/06/25/amazon-ups-india-bet-with-fresh-13b-ai-infrastructure-investment/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-25T21:00:38+09:00",
+        "readTime": 5,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_007",
+        "title": "어도비, 이미지·영상 화질개선 툴 토파즈랩스 인수",
+        "excerpt": "어도비가 이미지·영상 향상 도구 제작사 토파즈랩스를 인수한다고 밝혔다. 토파즈의 기술을 자사 앱 전반에 통합할 계획이다.",
+        "body": "어도비가 AI 기반 이미지·영상 업스케일링 및 노이즈 제거로 유명한 토파즈랩스를 인수했다. 어도비는 토파즈의 화질 개선 기술을 포토샵·라이트룸·프리미어 등 자사 제품군 전반에 녹여 넣을 방침이다. 생성·편집 워크플로 전반에 걸친 AI 역량 강화 행보로 풀이된다.",
+        "url": "https://techcrunch.com/2026/06/25/adobe-acquires-image-and-video-enhancement-tool-maker-topaz-labs/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-25T22:30:00+09:00",
+        "readTime": 5,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_008",
+        "title": "前 데이터브릭스 AI 총괄 '1000배 전력 절감' 도전",
+        "excerpt": "데이터브릭스의 전 AI 총괄이 AI의 전력 소비를 최대 1,000배까지 줄일 수 있다는 새로운 시스템을 들고 나왔다. 기존 AI 연산을 훨씬 적은 전력으로 재현하는 것을 목표로 한다.",
+        "body": "AI 데이터센터의 폭발적 전력 수요가 사회적 문제로 떠오른 가운데, 데이터브릭스 전 AI 책임자가 전력 효율을 극적으로 끌어올리는 기술 스타트업을 선보였다. 이미지 생성 등에서 기존 AI 시스템과 동등한 성능을 훨씬 낮은 전력으로 구현할 수 있음을 처음으로 입증했다고 주장한다.",
+        "url": "https://techcrunch.com/2026/06/25/databricks-former-ai-chief-thinks-he-can-cut-ais-power-bill-by-1000x/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-26T01:48:11+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_009",
+        "title": "비디오게임으로 AI 에이전트를 훈련 — 제너럴인튜이션 3.2억 달러 조달",
+        "excerpt": "제너럴인튜이션이 수백만 시간의 게임플레이로 학습한 AI를 키우기 위해 3억 2,000만 달러를 조달했다. 행동 데이터가 AI에 인간에 가까운 직관을 길러줄 수 있다는 베팅이다.",
+        "body": "제너럴인튜이션은 비디오게임 플레이 영상에 담긴 풍부한 '행동 데이터'가 현실 세계에서 작동하는 AI 에이전트 훈련의 열쇠라고 본다. 기업가치 23억 달러를 인정받으며 3억 2,000만 달러를 유치했고, 게임 환경에서의 시행착오를 통해 AI가 인간의 직관에 가까운 판단력을 갖추도록 하는 것을 목표로 한다.",
+        "url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-26T01:55:00+09:00",
+        "readTime": 5,
+        "imageGradient": 1
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_010",
+        "title": "Vercel, AI SDK 7 출시 — 에이전트 운영을 위한 프로덕션 기능 강화",
+        "excerpt": "주간 1,600만 다운로드를 기록하는 TypeScript용 AI SDK가 7버전으로 업데이트됐다. 추론 제어, 도구 승인, 내구성(WorkflowAgent), 샌드박스 등 에이전트 실전 운영에 필요한 기능을 대거 추가했다.",
+        "body": "Vercel의 AI SDK 7은 에이전트 개발·운영·통합 전반을 강화했다. 추론 제어와 런타임 컨텍스트, 스킬·MCP 앱 지원으로 에이전트를 개발하고, 도구 승인·타임아웃·내구 실행(WorkflowAgent)·샌드박스로 안정적으로 운영하며, 어떤 에이전트 하니스와도 통합할 수 있도록 설계됐다. 모든 모델 프로바이더를 아우르는 표준 레이어로서의 입지를 더욱 다졌다.",
+        "url": "https://vercel.com/blog/ai-sdk-7",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-25T22:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_012",
+        "title": "클라우드플레어, Workflows에 사가 롤백 기능 도입",
+        "excerpt": "클라우드플레어가 다단계 내구 애플리케이션 플랫폼 Workflows에 '사가(saga) 롤백'을 추가했다. 장시간 실행되는 워크플로 도중 실패가 발생하면 이전 단계들을 안전하게 되돌릴 수 있다.",
+        "body": "클라우드플레어 Workflows는 재시도와 상태 영속성을 갖춘 다단계 애플리케이션을 구축할 수 있게 해준다. 이번에 도입된 사가 롤백은 분산 트랜잭션에서 일부 단계가 실패했을 때 이미 수행된 단계들을 보상 트랜잭션으로 되돌려 데이터 일관성을 유지한다. 복잡한 장기 실행 프로세스의 신뢰성을 높이는 기능이다.",
+        "url": "https://blog.cloudflare.com/rollbacks-for-workflows/",
+        "source": "Cloudflare Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-25T22:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 4
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_001",
+        "title": "램값 대폭등 'RAMageddon'이 현실로 — 애플마저 가격 인상 압박",
+        "excerpt": "메모리 반도체 가격이 폭등하면서 막대한 구매력과 높은 마진으로 가격 변동을 흡수해 온 애플조차 제품 가격을 올리기 시작했다. 더 버지는 애플의 가격 인상을 '탄광 속 카나리아'에 빗대며 업계 전반의 비용 압박이 한계에 다다랐다고 분석했다.",
+        "body": "AI 데이터센터 수요 폭증으로 D램과 낸드 가격이 급등하는 이른바 'RAMageddon' 국면이 소비자 기기 시장까지 덮쳤다. 애플은 통상 공급망 변동을 자체 흡수해 왔지만 이번에는 맥과 아이패드 라인 전반의 가격을 올렸다. 업계에서는 애플이 가격을 올렸다는 것 자체가 메모리 부족 사태의 심각성을 보여주는 신호로 받아들여진다.",
+        "url": "https://www.theverge.com/tech/956950/ram-crisis-apple-price-increase",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-06-26T05:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_002",
+        "title": "애플, 맥·아이패드 가격 인상 — 아이폰은 일단 제외",
+        "excerpt": "애플이 맥북 에어·프로와 아이패드 에어·프로의 가격을 인상했다. 치솟는 메모리 비용이 원인이며, 아이폰은 당분간 가격을 유지한다.",
+        "body": "애플이 메모리 가격 급등을 이유로 맥북 에어·프로, 아이패드 에어·프로 가격을 일제히 올렸다. 다만 가장 큰 판매 비중을 차지하는 아이폰은 이번 인상 대상에서 제외했다. 메모리 원가 상승이 프리미엄 제조사의 가격 정책까지 흔들고 있다는 점에서 향후 추가 인상 가능성도 거론된다.",
+        "url": "https://techcrunch.com/2026/06/25/apple-raises-mac-and-ipad-prices-spares-iphone-for-now/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-06-25T23:52:35+09:00",
+        "readTime": 5,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_013",
+        "title": "노션 메일, 에이전트 전환 흐름 속 서비스 종료",
+        "excerpt": "노션이 이메일 클라이언트 '노션 메일'을 종료한다. AI 에이전트가 이메일 업무를 대체하는 흐름 속에서 내려진 결정이다.",
+        "body": "노션이 비교적 최근 선보였던 노션 메일 서비스를 접는다. 에이전트형 AI가 받은편지함 정리·답장 등 이메일 업무를 자동으로 처리하는 방향으로 시장이 빠르게 이동하면서, 전통적 메일 클라이언트의 입지가 흔들리고 있음을 보여주는 사례다.",
+        "url": "https://techcrunch.com/2026/06/25/notion-mail-shuts-down-amid-agent-takeover/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-06-26T04:14:46+09:00",
+        "readTime": 5,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_014",
+        "title": "트럼프 행정부, 폴스타 신형 전기차 미국 판매 금지",
+        "excerpt": "트럼프 행정부가 중국산 소프트웨어를 문제 삼아 폴스타의 신형 전기차 미국 판매를 차단했다. 폴스타는 사실상 미국 시장에서 밀려나게 됐다.",
+        "body": "미국 정부가 커넥티드카에 탑재된 중국산 소프트웨어를 안보 위협으로 규정하면서 폴스타가 신차를 미국에서 판매할 수 없게 됐다. 중국과 연관된 자동차 기술에 대한 미국의 규제가 강화되는 흐름 속에서, 폴스타는 핵심 시장 중 하나인 미국에서 입지를 크게 잃게 됐다.",
+        "url": "https://techcrunch.com/2026/06/25/trump-admin-bars-polestar-from-selling-its-new-evs-in-the-us/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-06-25T23:55:25+09:00",
+        "readTime": 5,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_015",
+        "title": "엑스박스, 애플 따라 가격 인상",
+        "excerpt": "마이크로소프트가 애플에 이어 엑스박스 제품 가격을 올린다. 부품 원가 상승이 게임 콘솔 시장까지 번지고 있다.",
+        "body": "메모리를 비롯한 부품 가격 급등이 게임 콘솔로까지 확산되며 마이크로소프트가 엑스박스 가격을 인상한다. 애플의 맥·아이패드 인상에 이어 나온 조치로, 하드웨어 전반의 원가 압박이 소비자 가격에 본격 반영되는 양상이다.",
+        "url": "https://techcrunch.com/2026/06/25/xbox-follows-apple-with-price-increases/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-06-26T04:39:55+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Andrej Karpathy",
+        "handle": "karpathy",
+        "content": "이것은 Claude와 상호작용하는 새로운 패러다임으로, 조직 내 다른 모든 인간 활동과 훨씬 더 '인라인'으로 맞춰진 방식입니다. 도구·통합·컴퓨팅 환경·메모리·보안 등 내부 엔지니어링을 모두 갖춰 '그냥 작동'하게 만들면, Claude가 팀에 자연스럽게 녹아듭니다.",
+        "context": "카파시는 AI가 별도 챗봇이 아니라 조직의 업무 흐름 안에 직접 통합되는 새로운 협업 방식을 강조했다. Claude Tag 같은 사내 통합 사례를 두고 한 발언으로 보인다.",
+        "url": "https://x.com/karpathy/status/2069547676849557725",
+        "publishedAt": "2026-06-24T07:26:31+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "에이전트들이 매우 빠르게 채택되며 업무를 가속하고 있습니다. OpenAI 사내 전반에서 이것이 어떻게 작동하는지 공유합니다.",
+        "context": "오픈AI 사장 그렉 브록먼이 사내에서 에이전트가 실제로 업무를 어떻게 바꾸고 있는지 소개하는 블로그를 알리며 남긴 글이다.",
+        "url": "https://x.com/gdb/status/2070199649823297653",
+        "publishedAt": "2026-06-26T02:37:13+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "GPT-5.5 Instant를 크게 개선했습니다. 대화가 훨씬 더 즐거워졌으니 한번 써보세요.",
+        "context": "브록먼이 GPT-5.5 Instant 모델의 대화 품질 개선을 알리며 사용을 권한 글이다.",
+        "url": "https://x.com/gdb/status/2069845493199597944",
+        "publishedAt": "2026-06-25T03:09:56+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "Jalapeño를 소개합니다 — 9개월에 걸쳐 우리 모델 가속을 위해 LLM 추론에 맞춰 처음부터 설계한 칩입니다. 와트당 성능이 놀라울 만큼 뛰어납니다.",
+        "context": "오픈AI가 브로드컴과 함께 만든 첫 자체 추론 칩 'Jalapeño'를 브록먼이 소개한 글이다. 전력 효율을 핵심 강점으로 내세웠다.",
+        "url": "https://x.com/gdb/status/2069809298612621629",
+        "publishedAt": "2026-06-25T00:46:06+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "OpenAI에서의 업무가 모든 부서에서 에이전트에 의해 바뀌고 있습니다. 전사적으로 사람들은 Codex를 활용해 더 복잡하고 장기적이며 협업적인 작업을 수행하고 있습니다.",
+        "context": "오픈AI 공식 계정이 사내 에이전트·Codex 활용 사례를 정리한 발표를 알린 글이다.",
+        "url": "https://x.com/OpenAI/status/2070196105745518913",
+        "publishedAt": "2026-06-26T02:23:08+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "여러분을 위한 새로운 GPT-5.5 Instant가 나왔습니다. 대화가 훨씬 더 즐거워졌으며, 가장 많이 쓰이는 모델인 만큼 큰 개선입니다.",
+        "context": "오픈AI가 GPT-5.5 Instant 업데이트를 공식 발표한 글이다.",
+        "url": "https://x.com/OpenAI/status/2069843083701915755",
+        "publishedAt": "2026-06-25T03:00:21+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "우리의 첫 AI 칩 Jalapeño를 설계·제작했습니다. 오픈AI가 처음부터 설계하고 브로드컴과 함께 양산에 이르게 한 칩입니다.",
+        "context": "오픈AI가 자체 추론 칩 Jalapeño의 공식 공개를 알린 글이다.",
+        "url": "https://x.com/OpenAI/status/2069770172802773292",
+        "publishedAt": "2026-06-24T22:10:38+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "ChatGPT",
+        "handle": "ChatGPTapp",
+        "content": "새로운 GPT-5.5 Instant는 매우 똑똑하고 직관적이며 대화가 정말 즐겁습니다. 지금 Pro 사용자를 시작으로 Plus 사용자에게 순차 배포 중입니다.",
+        "context": "ChatGPT 공식 계정이 GPT-5.5 Instant의 단계적 배포 일정을 안내한 글이다.",
+        "url": "https://x.com/ChatGPTapp/status/2069851262498291919",
+        "publishedAt": "2026-06-25T03:32:51+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_009",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "우리는 RAISE US의 창립 파트너로 참여합니다. RAISE US는 고용주 주도 행동, AI 기반 훈련, 정책 혁신으로 미국 노동력의 AI 전환을 돕습니다.",
+        "context": "앤트로픽이 AI 시대 노동력 재교육 이니셔티브 'RAISE US'의 창립 파트너로 참여한다고 알린 글이다.",
+        "url": "https://x.com/AnthropicAI/status/2070183531612172697",
+        "publishedAt": "2026-06-26T01:33:10+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_010",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "금요일에 Claude Tag에 대해 더 이야기할 예정입니다. 이 영상도 Claude로 편집했습니다 :)",
+        "context": "앤트로픽 직원 타리크가 Claude Tag 관련 발표 일정을 알리며, 소개 영상조차 Claude로 편집했다고 덧붙인 글이다.",
+        "url": "https://x.com/trq212/status/2070238932621811713",
+        "publishedAt": "2026-06-26T05:13:19+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_011",
+        "author": "Derya Unutmaz, MD",
+        "handle": "DeryaTR_",
+        "content": "OpenAI에서 나온 이 기사가 정말 흥분됩니다. 몇 년 전 우리가 했던 실험 결과를 이해하기 위해 GPT-5 Pro를 활용했던 경험이 담겨 있습니다.",
+        "context": "면역학자 데리야 우누트마즈 박사가 GPT-5 Pro를 연구 데이터 해석에 활용한 사례를 오픈AI가 소개하자 이를 공유한 글이다.",
+        "url": "https://x.com/DeryaTR_/status/2069846329287651765",
+        "publishedAt": "2026-06-25T03:13:15+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_012",
+        "author": "jason",
+        "handle": "jxnlco",
+        "content": "컴퓨터야, 방화벽 활성화해! gpt-realtime-2로 각성 단어와 추론을 맥락 안에서 프롬프트할 수 있고, 약간 엉뚱한 게임들도 만들 수 있습니다.",
+        "context": "개발자 제이슨이 gpt-realtime-2 음성 모델로 '사이먼 가라사대' 같은 실시간 음성 게임을 만든 사례를 공유한 글이다.",
+        "url": "https://x.com/jxnlco/status/2069837549682753652",
+        "publishedAt": "2026-06-25T02:38:22+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "마이크로소프트가 Excel용 Copilot에 'Skills' 기능을 추가했습니다. 반복 작업을 SKILL.md 파일로 정의하면 Copilot이 DCF 모델 작성, 결산, 분산 분석 같은 업무를 그 방식대로 수행합니다. 핵심은 AI가 엑셀을 대신하는 게 아니라 회사의 업무 방식 자체를 학습한다는 점입니다.",
+        "context": "MS가 Excel Copilot에 SKILL.md 기반 'Skills'를 도입했다는 소식을 전하며, 앞으로는 어떤 Skills를 보유했는지가 생산성을 가른다고 분석했다.",
+        "url": "https://www.threads.net/@choi.openai/post/DaBYEzlAma4",
+        "publishedAt": "2026-06-26T05:00:33+09:00",
+        "metrics": {
+          "likes": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "투자하시는 분들은 주목할 소식입니다. 구글이 Google Finance를 베타에서 정식 출시하고 새 안드로이드 앱도 공개했습니다. AI가 포트폴리오를 분석하고 관심 종목 기반 시장 브리핑을 자동 생성해 원하는 시간에 전달합니다.",
+        "context": "구글 파이낸스의 정식 출시와 AI 기반 시장 브리핑 기능을 소개한 글이다.",
+        "url": "https://www.threads.net/@choi.openai/post/DaBNz75ghSB",
+        "publishedAt": "2026-06-26T03:30:52+09:00",
+        "metrics": {
+          "likes": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "threads_003",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "IBM이 세계 최초로 1나노 벽을 넘었습니다. 0.7나노(7옹스트롬) 칩 기술로, 손톱만 한 칩에 트랜지스터 약 1,000억 개를 집적합니다. 위로 쌓는 '나노스택' 구조로 성능 50%, 전력효율 70%를 끌어올렸습니다. 다만 IBM이 직접 양산하지는 않습니다.",
+        "context": "IBM의 0.7나노급 나노스택 칩 기술을 정리하며, 설계는 IBM이 쥐어도 양산 수율 확보는 파운드리의 몫이라고 짚었다.",
+        "url": "https://www.threads.net/@choi.openai/post/DaBDefiirNw",
+        "publishedAt": "2026-06-26T02:00:34+09:00",
+        "metrics": {
+          "likes": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "threads_004",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "점점 모델 출시에 대한 좋은 시그널이 많이 보입니다. 잘하면 오늘 새벽에 Fable 5와 GPT 5.6을 함께 받을 수도 있겠습니다. 다만 Fable 5는 신원인증이 동반될 가능성이 있습니다.",
+        "context": "임박한 신규 모델(Fable 5, GPT 5.6) 출시 신호를 전하며 신원인증 도입 가능성을 언급한 글이다.",
+        "url": "https://www.threads.net/@choi.openai/post/DaAhA8OjwYz",
+        "publishedAt": "2026-06-25T20:59:26+09:00",
+        "metrics": {
+          "likes": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "보도: 애플, M6 Pro/Max 건너뛰고 M7 조기 투입해 로컬 AI 가속",
+        "originalTitle": "Report: Apple to skip M6 Pro/Max chips, fast-track M7 for local AI",
+        "summary": "애플이 M6 Pro/Max 칩을 건너뛰고 온디바이스 AI에 최적화된 M7을 앞당겨 내놓는다는 보도가 LocalLLaMA에서 화제다.",
+        "url": "https://old.reddit.com/r/LocalLLaMA/comments/1ufhu3s/report_apple_to_skip_m6_promax_chips_fasttrack_m7/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-06-26T03:11:35+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "NVIDIA, 디퓨전 기반 언어모델 Nemotron-TwoTower-30B 공개",
+        "originalTitle": "NVIDIA has released Nemotron-TwoTower-30B-A3B-Base-BF16, an unusual diffusion-based language model built from the Nemotron 3 Nano 30B-A3B backbone.",
+        "summary": "엔비디아가 이례적인 디퓨전 방식의 언어모델 Nemotron-TwoTower-30B-A3B를 공개해 커뮤니티의 관심을 끌고 있다.",
+        "url": "https://old.reddit.com/r/LocalLLaMA/comments/1uf4azy/nvidia_has_released/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-06-25T17:34:20+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "허깅페이스에 Ornith-1.0 모델 공개",
+        "originalTitle": "Ornith-1.0 released on Hugging Face",
+        "summary": "새로운 오픈 모델 Ornith-1.0이 허깅페이스에 공개되며 로컬 LLM 사용자들 사이에서 논의되고 있다.",
+        "url": "https://old.reddit.com/r/LocalLLaMA/comments/1ufc9vp/ornith10_released_on_hugging_face/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-06-25T23:52:07+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "GPT-5.6 프리뷰 곧 공개될 듯",
+        "originalTitle": "GPT 5.6 preview is about to be dropped",
+        "summary": "오픈AI가 GPT-5.6 프리뷰를 곧 공개할 것이라는 추측이 r/OpenAI에서 활발히 오가고 있다.",
+        "url": "https://old.reddit.com/r/OpenAI/comments/1uf6702/gpt_56_preview_is_about_to_be_dropped/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-06-25T19:25:31+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "Grok 트래픽의 절반이 NSFW라는 주장",
+        "originalTitle": "Half of Grok's traffic is NSFW",
+        "summary": "xAI의 Grok 트래픽 중 상당 부분이 성인용(NSFW) 콘텐츠라는 주장이 제기돼 논쟁이 벌어지고 있다.",
+        "url": "https://old.reddit.com/r/OpenAI/comments/1ufbllt/half_of_groks_traffic_is_nsfw/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-06-25T23:27:23+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "Claude Fable 5, 13일간 정부 강제 중단 끝에 오늘 복귀 가능성",
+        "originalTitle": "Claude Fable 5 may return today after 13-day government-forced suspension",
+        "summary": "정부에 의해 13일간 강제 중단됐던 Claude Fable 5가 오늘 다시 돌아올 수 있다는 소식이 공유됐다.",
+        "url": "https://old.reddit.com/r/artificial/comments/1uf5pzu/claude_fable_5_may_return_today_after_13day/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-06-25T18:58:37+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "내일 AI가 사라진다면, 일상에서 가장 영향받을 부분은?",
+        "originalTitle": "If AI disappeared tomorrow, what part of your daily life would be affected the most?",
+        "summary": "AI가 갑자기 사라진다면 일상에서 무엇이 가장 크게 바뀔지를 묻는 토론이 r/artificial에서 활발하다.",
+        "url": "https://old.reddit.com/r/artificial/comments/1ufbt84/if_ai_disappeared_tomorrow_what_part_of_your/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-06-25T23:35:22+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "개인 Pro 구독 18개월 만에 회사가 엔터프라이즈 라이선스 도입",
+        "originalTitle": "After using my own Pro subscription for 18 months, my job finally got an enterprise license. I just had Opus spawn 451 Sonnet subagents which used 14M worth of tokens in a single 5 hour session -- and it didn't even hit the limit. This is amazing.",
+        "summary": "18개월간 사비로 Claude Pro를 쓰던 사용자가 마침내 회사에서 엔터프라이즈 라이선스를 받게 된 경험담을 공유했다.",
+        "url": "https://old.reddit.com/r/ClaudeAI/comments/1uf2nba/after_using_my_own_pro_subscription_for_18_months/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-06-25T15:56:04+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "7개 매장 레스토랑의 모든 인스타 DM에 Sonnet 4.6 적용, 캐시 적중률 97%",
+        "originalTitle": "Running Sonnet 4.6 on every Instagram DM for a 7-location restaurant. 97% cache hit is the only reason it's affordable",
+        "summary": "7개 지점 레스토랑의 인스타그램 DM 응대를 Sonnet 4.6으로 자동화하면서 97% 캐시 적중률로 비용을 크게 절감한 사례를 공유했다.",
+        "url": "https://old.reddit.com/r/ClaudeAI/comments/1uf8gd5/running_sonnet_46_on_every_instagram_dm_for_a/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-06-25T21:21:27+09:00"
+      },
+      {
+        "id": "reddit_010",
+        "title": "IBM, 세계 최초 1나노 미만 칩 기술 공개",
+        "originalTitle": "IBM Debuts World’s First Sub-1 Nanometer Chip Technology",
+        "summary": "IBM의 세계 최초 0.7나노급 칩 기술 발표가 r/singularity에서 큰 주목을 받고 있다.",
+        "url": "https://old.reddit.com/r/singularity/comments/1ufbp4g/ibm_debuts_worlds_first_sub1_nanometer_chip/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-06-25T23:31:08+09:00"
+      },
+      {
+        "id": "reddit_011",
+        "title": "AI는 주먹을 맞고, 마진은 메모리 카르텔이 챙긴다",
+        "originalTitle": "AI takes the punches, the memory cartel takes the margins",
+        "summary": "AI 붐의 실질적 이익을 메모리 반도체 공급사들이 가져가고 있다는 시각의 토론이 이어지고 있다.",
+        "url": "https://old.reddit.com/r/singularity/comments/1ufdm4c/ai_takes_the_punches_the_memory_cartel_takes_the/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-06-26T00:40:42+09:00"
+      },
+      {
+        "id": "reddit_012",
+        "title": "효과적인 소프트웨어 설계 문서 작성법",
+        "originalTitle": "How to Write an Effective Software Design Document",
+        "summary": "실무에서 통하는 소프트웨어 설계 문서 작성 방법을 정리한 글이 r/programming에서 호응을 얻고 있다.",
+        "url": "https://old.reddit.com/r/programming/comments/1uevttg/how_to_write_an_effective_software_design_document/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-06-25T10:09:56+09:00"
+      },
+      {
+        "id": "reddit_013",
+        "title": "엔티티 기반 서비스·리포지토리라는 도그마",
+        "originalTitle": "The dogma of entity-based Services and Repositories",
+        "summary": "엔티티 중심의 서비스·리포지토리 설계 관행을 비판적으로 바라보는 글이 개발자들 사이에서 논의되고 있다.",
+        "url": "https://old.reddit.com/r/programming/comments/1ufc0ki/the_dogma_of_entitybased_services_and_repositories/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-06-25T23:42:45+09:00"
+      },
+      {
+        "id": "reddit_014",
+        "title": "ECCV 2026 카메라레디 마감, 6월 27일인가 30일인가?",
+        "originalTitle": "ECCV 2026 camera-ready deadline: June 27 or June 30? [D]",
+        "summary": "ECCV 2026 최종본 제출 마감일을 두고 연구자들이 정확한 날짜를 확인하는 논의를 나누고 있다.",
+        "url": "https://old.reddit.com/r/MachineLearning/comments/1ufgwhd/eccv_2026_cameraready_deadline_june_27_or_june_30/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-06-26T02:38:26+09:00"
+      },
+      {
+        "id": "reddit_015",
+        "title": "진화 알고리즘으로 LMAPF 가이던스 그래프 최적화 — 조언 구함",
+        "originalTitle": "Optimising LMAPF guidance graphs using Evolutionary algorithms: Advice needed [R]",
+        "summary": "다중 에이전트 경로 탐색(LMAPF)의 가이던스 그래프를 진화 알고리즘으로 최적화하는 연구에 대한 조언을 구하는 글이다.",
+        "url": "https://old.reddit.com/r/MachineLearning/comments/1ufdzsr/optimising_lmapf_guidance_graphs_using/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-06-26T00:54:31+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_005",
+        "title": "IBM, 세계 최초 1나노미터 미만 칩 기술 공개",
+        "excerpt": "IBM이 세계 최초로 1나노미터 벽을 넘은 0.7나노(7옹스트롬)급 칩 기술을 공개했다. 트랜지스터를 옆이 아니라 위로 쌓는 '나노스택' 구조로 성능과 전력효율을 크게 끌어올렸다.",
+        "body": "IBM이 0.7나노미터 수준의 차세대 칩 기술을 발표하며 반도체 미세공정의 새 이정표를 세웠다. 손톱 크기 칩에 약 1,000억 개의 트랜지스터를 집적할 수 있는 수준으로, 트랜지스터를 수직으로 적층하는 나노스택 구조를 통해 성능 약 50%, 전력효율 약 70% 개선을 달성했다. 다만 IBM이 직접 양산하지는 않아 실제 수율 확보는 파운드리의 몫으로 남는다.",
+        "url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-26T00:33:37+09:00",
+        "readTime": 5,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_020",
+        "title": "AI가 인간이 상상조차 못 한 무선 칩을 설계하다",
+        "excerpt": "AI가 사람이 떠올리기 어려운 비직관적 구조의 무선(RF) 칩을 설계해냈다. 기존 설계 관행을 벗어난 형태로 더 나은 성능을 달성했다.",
+        "body": "AI가 사람이 떠올리기 어려운 비직관적 구조의 무선(RF) 칩을 설계해냈다. 기존 설계 관행을 벗어난 형태로 더 나은 성능을 달성했다.",
+        "url": "https://spectrum.ieee.org/ai-radio-chip-design",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-26T04:39:38+09:00",
+        "readTime": 5,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_021",
+        "title": "헤르쿨라네움 두루마리 한 권 전체, 처음으로 해독되다",
+        "excerpt": "화산재에 묻혀 있던 고대 헤르쿨라네움 파피루스 두루마리 전체가 AI와 X선 영상 기술로 처음으로 완독됐다.",
+        "body": "화산재에 묻혀 있던 고대 헤르쿨라네움 파피루스 두루마리 전체가 AI와 X선 영상 기술로 처음으로 완독됐다.",
+        "url": "https://scrollprize.org/firstscroll",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-26T00:48:07+09:00",
+        "readTime": 5,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_022",
+        "title": "윈도우 10, 조용히 1년 더 지원 연장",
+        "excerpt": "마이크로소프트가 윈도우 10의 지원 및 업데이트를 1년 더 조용히 연장했다. 사용자들에게 마이그레이션 여유가 생겼다.",
+        "body": "마이크로소프트가 윈도우 10의 지원 및 업데이트를 1년 더 조용히 연장했다. 사용자들에게 마이그레이션 여유가 생겼다.",
+        "url": "https://www.neowin.net/news/windows-10-quietly-gets-one-more-year-of-support-and-updates/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-26T00:59:54+09:00",
+        "readTime": 5,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_023",
+        "title": "앤트로픽 'Alibaba가 Claude AI 모델 역량을 불법 추출했다'",
+        "excerpt": "앤트로픽이 알리바바가 Claude 모델의 역량을 불법적으로 추출(distill)했다고 주장하며 논란이 일고 있다.",
+        "body": "앤트로픽이 알리바바가 Claude 모델의 역량을 불법적으로 추출(distill)했다고 주장하며 논란이 일고 있다.",
+        "url": "https://news.hada.io/topic?id=30820",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-25T19:36:25+09:00",
+        "readTime": 5,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_024",
+        "title": "Krea 2 공개 — 오픈 가중치 12B 이미지 생성 모델",
+        "excerpt": "120억 파라미터 규모의 오픈 가중치 이미지 생성 모델 Krea 2의 기술 보고서가 공개됐다.",
+        "body": "120억 파라미터 규모의 오픈 가중치 이미지 생성 모델 Krea 2의 기술 보고서가 공개됐다.",
+        "url": "https://news.hada.io/topic?id=30825",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-26T00:50:43+09:00",
+        "readTime": 5,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_025",
+        "title": "45°C 냉각 설계로 데이터센터 물 사용량을 거의 0으로",
+        "excerpt": "45도 고온 냉각 설계를 통해 데이터센터의 물 사용량을 사실상 0에 가깝게 줄이는 방식이 소개됐다.",
+        "body": "45도 고온 냉각 설계를 통해 데이터센터의 물 사용량을 사실상 0에 가깝게 줄이는 방식이 소개됐다.",
+        "url": "https://news.hada.io/topic?id=30824",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-25T23:36:59+09:00",
+        "readTime": 5,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_026",
+        "title": "Xteink X4 E-Ink 리더 공개",
+        "excerpt": "새로운 E-Ink 전자책 리더 Xteink X4가 공개돼 주목받고 있다.",
+        "body": "새로운 E-Ink 전자책 리더 Xteink X4가 공개돼 주목받고 있다.",
+        "url": "https://news.hada.io/topic?id=30828",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-26T04:44:38+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_027",
+        "title": "'Code as Agent Harness' — 코드를 에이전트 실행 기반으로 보는 102페이지 서베이",
+        "excerpt": "코드를 AI 에이전트의 실행 하니스로 활용하는 접근을 정리한 102페이지 분량의 서베이가 공개됐다.",
+        "body": "코드를 AI 에이전트의 실행 하니스로 활용하는 접근을 정리한 102페이지 분량의 서베이가 공개됐다.",
+        "url": "https://news.hada.io/topic?id=30815",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-25T11:49:09+09:00",
+        "readTime": 5,
+        "imageGradient": 1
+      }
+    ]
+  }
+}
