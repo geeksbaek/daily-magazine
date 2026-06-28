@@ -1,0 +1,694 @@
+{
+  "date": "2026-06-27",
+  "issueNumber": 85,
+  "cover": {
+    "mainHeadline": "오픈AI·앤트로픽, 정부 개입으로 최상위 모델 동시 제한 — \"AI가 정치 문제가 됐다\"",
+    "mainExcerpt": "오픈AI가 미국 정부 요청으로 GPT-5.6을 제한된 프리뷰로 축소 출시하고, 앤트로픽도 정부와 협의 끝에 Mythos 5의 일부 기관 접근만 복원했다. 두 회사가 같은 날 비슷한 정부 개입을 겪으며, AI 최첨단 모델을 둘러싼 경쟁의 축이 기업 간 우위 다툼에서 국가 정책 문제로 옮겨가고 있다는 진단이 나온다.",
+    "headlines": [
+      "왜 오픈AI부터 스페이스X까지 모두 자체 칩을 만드나",
+      "애플, 메모리 가격 폭등 탓에 또 가격 인상 — 'RAMageddon' 후폭풍",
+      "재규어랜드로버 25억 달러 해킹, 배후는 러시아 해커였다"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_001",
+      "title": "오픈AI, 정부 요청으로 GPT-5.6 출시 제한 — \"이런 방식이 관행 되면 안 돼\"",
+      "excerpt": "오픈AI가 미국 정부의 요청으로 차세대 모델 GPT-5.6의 공개 범위를 제한된 프리뷰로 축소했다. 오픈AI는 이런 정부 개입이 장기적인 기본값이 되어서는 안 된다고 밝혔다.",
+      "body": "오픈AI는 원래 계획했던 공개 출시 대신 정부 요청에 따라 GPT-5.6을 제한된 프리뷰로 내놓았다고 밝혔다. 회사는 공식적으로 \"이런 정부 접근 절차가 장기적인 기본값이 되어서는 안 된다고 본다\"며 \"이는 사용자, 개발자, 기업, 사이버 방어자, 그리고 이를 필요로 하는 글로벌 파트너들로부터 최고의 도구를 멀어지게 한다\"고 우려를 표했다. 앞서 앤트로픽도 유사한 정부 제한으로 최상위 모델 Mythos 5와 Fable 5에 대한 접근이 제한된 바 있어, AI 최첨단 모델에 대한 정부 개입이 업계 전반의 화두로 떠오르고 있다.",
+      "url": "https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-06-27T03:32:14+09:00",
+      "readTime": 5,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_002",
+      "title": "트럼프 행정부, 앤트로픽 Mythos 모델 100여개 미국 기관에 공개 허용",
+      "excerpt": "미국 정부가 앤트로픽의 최상위 모델 Mythos 5에 대한 접근 제한을 일부 완화해, 100개 이상의 미국 기업과 정부 기관이 이를 사용할 수 있도록 허용했다. 비미국 직원도 포함된다.",
+      "body": "보도에 따르면 100개 이상의 기업과 정부기관이 Mythos 5 사용을 공식 승인받았으며, 해당 기관에 소속된 비미국 국적 직원들도 접근 대상에 포함됐다. 이는 앤트로픽이 6월 12일 이후 미국 정부와 긴밀히 협의하며 Mythos 5와 Fable 5에 대한 접근 복원을 추진해 온 결과로, 회사는 중요 인프라를 운영·방어하는 조직들을 우선 대상으로 접근을 신속히 넓히고 있다고 설명했다. 다만 일반 소비자용 Fable 5의 전면 재개는 아직 이뤄지지 않은 상태다.",
+      "url": "https://techcrunch.com/2026/06/26/trump-admin-releases-anthropic-mythos-to-be-used-by-more-than-100-us-companies-agencies/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-06-27T10:01:37+09:00",
+      "readTime": 5,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_003",
+      "title": "오픈AI부터 스페이스X까지, 왜 모두 자체 칩을 만드나 — 엔비디아 향한 압박",
+      "excerpt": "엔비디아가 수년간 AI 칩 시장을 지배해 왔지만, 단일 공급사에 전적으로 의존하는 시대가 끝나가고 있다. 오픈AI는 브로드컴과 함께 만든 추론 칩 Jalapeño로 이 흐름에 합류했다.",
+      "body": "오픈AI는 최근 자체 추론 칩 'Jalapeño'를 공개하며 구글, 애플, 스페이스X 등과 함께 단일 공급사 의존 위험에서 벗어나려는 기업 목록에 이름을 올렸다. 이런 자체 칩 개발 흐름의 목표는 엔비디아를 완전히 대체하는 것이 아니라, 특정 워크로드에서 비용과 전력 효율을 직접 통제함으로써 공급망 리스크를 분산하는 데 있다는 분석이다. AI 모델 학습·추론 수요가 급증하면서 빅테크들의 '자체 실리콘' 경쟁이 한층 가속화되는 모습이다.",
+      "url": "https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-06-27T02:43:22+09:00",
+      "readTime": 5,
+      "imageGradient": 2
+    },
+    {
+      "id": "rss_013",
+      "title": "빅테크의 AI 집착 때문에 내가 더 비싼 돈을 내야 하나",
+      "excerpt": "팀 쿡이 최근 가격 인상이 '불가피했다'며 회사의 가격 정책이 '지속 불가능한' 수준이라고 밝혔다. 16인치 맥북 프로는 300달러, 11인치 아이패드 에어는 599달러에서 749달러로 올랐고, 홈팟 미니도 30달러 올랐다.",
+      "body": "애플 CEO 팀 쿡은 최근 가격 인상이 불가피했다고 인정하며, 회사의 기존 가격 정책이 더 이상 지속 가능하지 않다고 밝혔다. 16인치 맥북 프로는 300달러, 11인치 아이패드 에어는 599달러에서 749달러로, 홈팟 미니조차 30달러가 올라 129달러가 됐다. 쿡은 이런 인상의 책임을 AI 데이터센터 붐으로 치솟은 메모리 가격에 돌렸으며, 이는 최근 'RAMageddon'으로 불리는 메모리 가격 폭등이 소비자 가전 가격 전반에 본격적으로 반영되고 있음을 보여주는 또 다른 사례다.",
+      "url": "https://www.theverge.com/report/958678/apple-consumer-price-increase-ai-big-tech",
+      "source": "The Verge",
+      "category": "big_tech",
+      "publishedAt": "2026-06-27T22:30:00+09:00",
+      "readTime": 5,
+      "imageGradient": 5
+    },
+    {
+      "id": "rss_012",
+      "title": "재규어랜드로버 25억 달러 해킹, 배후는 러시아 해커였다",
+      "excerpt": "지난해 자동차 대기업 재규어랜드로버를 강타한 해킹 사건이 러시아 해커들의 소행으로 드러났다. 최근 몇 년간 가장 파괴적이고 비용이 많이 든 해킹 사건 중 하나로 꼽힌다.",
+      "body": "보도에 따르면 재규어랜드로버를 겨냥한 해킹 공격의 배후로 러시아 해커 조직이 지목됐다. 이 해킹은 생산 중단과 공급망 혼란을 일으키며 25억 달러에 달하는 피해를 낳은 것으로 평가되는, 최근 몇 년간 가장 파괴적인 사이버 공격 사례 중 하나다. 자동차 산업이 점점 더 소프트웨어 의존적으로 변하면서 제조업체를 겨냥한 국가 연계 해킹 위협도 커지고 있음을 보여준다.",
+      "url": "https://techcrunch.com/2026/06/26/russian-hackers-were-behind-2-5-billion-hack-of-jaguar-land-rover-report/",
+      "source": "TechCrunch",
+      "category": "big_tech",
+      "publishedAt": "2026-06-27T02:29:29+09:00",
+      "readTime": 5,
+      "imageGradient": 4
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_001",
+        "title": "오픈AI, 정부 요청으로 GPT-5.6 출시 제한 — \"이런 방식이 관행 되면 안 돼\"",
+        "excerpt": "오픈AI가 미국 정부의 요청으로 차세대 모델 GPT-5.6의 공개 범위를 제한된 프리뷰로 축소했다. 오픈AI는 이런 정부 개입이 장기적인 기본값이 되어서는 안 된다고 밝혔다.",
+        "body": "오픈AI는 원래 계획했던 공개 출시 대신 정부 요청에 따라 GPT-5.6을 제한된 프리뷰로 내놓았다고 밝혔다. 회사는 공식적으로 \"이런 정부 접근 절차가 장기적인 기본값이 되어서는 안 된다고 본다\"며 \"이는 사용자, 개발자, 기업, 사이버 방어자, 그리고 이를 필요로 하는 글로벌 파트너들로부터 최고의 도구를 멀어지게 한다\"고 우려를 표했다. 앞서 앤트로픽도 유사한 정부 제한으로 최상위 모델 Mythos 5와 Fable 5에 대한 접근이 제한된 바 있어, AI 최첨단 모델에 대한 정부 개입이 업계 전반의 화두로 떠오르고 있다.",
+        "url": "https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-27T03:32:14+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_002",
+        "title": "트럼프 행정부, 앤트로픽 Mythos 모델 100여개 미국 기관에 공개 허용",
+        "excerpt": "미국 정부가 앤트로픽의 최상위 모델 Mythos 5에 대한 접근 제한을 일부 완화해, 100개 이상의 미국 기업과 정부 기관이 이를 사용할 수 있도록 허용했다. 비미국 직원도 포함된다.",
+        "body": "보도에 따르면 100개 이상의 기업과 정부기관이 Mythos 5 사용을 공식 승인받았으며, 해당 기관에 소속된 비미국 국적 직원들도 접근 대상에 포함됐다. 이는 앤트로픽이 6월 12일 이후 미국 정부와 긴밀히 협의하며 Mythos 5와 Fable 5에 대한 접근 복원을 추진해 온 결과로, 회사는 중요 인프라를 운영·방어하는 조직들을 우선 대상으로 접근을 신속히 넓히고 있다고 설명했다. 다만 일반 소비자용 Fable 5의 전면 재개는 아직 이뤄지지 않은 상태다.",
+        "url": "https://techcrunch.com/2026/06/26/trump-admin-releases-anthropic-mythos-to-be-used-by-more-than-100-us-companies-agencies/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-27T10:01:37+09:00",
+        "readTime": 5,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_003",
+        "title": "오픈AI부터 스페이스X까지, 왜 모두 자체 칩을 만드나 — 엔비디아 향한 압박",
+        "excerpt": "엔비디아가 수년간 AI 칩 시장을 지배해 왔지만, 단일 공급사에 전적으로 의존하는 시대가 끝나가고 있다. 오픈AI는 브로드컴과 함께 만든 추론 칩 Jalapeño로 이 흐름에 합류했다.",
+        "body": "오픈AI는 최근 자체 추론 칩 'Jalapeño'를 공개하며 구글, 애플, 스페이스X 등과 함께 단일 공급사 의존 위험에서 벗어나려는 기업 목록에 이름을 올렸다. 이런 자체 칩 개발 흐름의 목표는 엔비디아를 완전히 대체하는 것이 아니라, 특정 워크로드에서 비용과 전력 효율을 직접 통제함으로써 공급망 리스크를 분산하는 데 있다는 분석이다. AI 모델 학습·추론 수요가 급증하면서 빅테크들의 '자체 실리콘' 경쟁이 한층 가속화되는 모습이다.",
+        "url": "https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-27T02:43:22+09:00",
+        "readTime": 5,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_004",
+        "title": "이제는 앤트로픽 대 오픈AI 경쟁이 아니다 — AI가 정치 문제가 된 순간",
+        "excerpt": "AI 모델의 역량이 실질적인 정치적 결과를 낳을 수 있는 수준에 이르렀다는 진단이 나왔다. 이런 결과에 대응하려면 기업 간 경쟁을 넘어선 업계 차원의 공동 대응이 필요하다는 주장이다.",
+        "body": "최근 미국 정부가 오픈AI의 GPT-5.6과 앤트로픽의 Mythos 5·Fable 5 접근을 동시에 제한한 사례는, AI 경쟁의 축이 기업 간 우위 다툼에서 국가·정책 차원의 문제로 옮겨갔음을 보여준다. 칼럼은 최첨단 모델의 능력이 이제 안보·외교 같은 정치적 함의를 갖게 됐으며, 개별 기업이 단독으로 대응하기 어려운 영역에 들어섰다고 짚었다. 이에 따라 업계 전체가 정부와의 관계 설정, 정책 대응 방식에 대해 집단적인 논의를 시작해야 한다는 제언이 이어졌다.",
+        "url": "https://techcrunch.com/2026/06/26/its-not-about-anthropic-vs-openai-anymore/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-27T01:24:47+09:00",
+        "readTime": 5,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_005",
+        "title": "오픈AI, 우버 인디아 대표 영입 — 미국 밖 최대 시장 이끈다",
+        "excerpt": "오픈AI가 우버의 인디아 대표를 영입해 자사의 미국 외 최대 시장인 인도 사업을 이끌도록 했다. 인도 내 오피스 확장과 파트너십 강화가 이어지고 있다.",
+        "body": "오픈AI가 우버 인디아를 이끌던 임원을 영입하며 인도 시장 공략에 속도를 내고 있다. 인도는 오픈AI에게 미국을 제외한 가장 큰 시장으로 꼽히며, 이번 영입은 현지 오피스 확장과 파트너십 체결이 이어지는 가운데 나왔다. 빅테크들의 인도 투자 경쟁이 가속화되는 흐름과 맞물려, 오픈AI도 현지 리더십을 강화해 시장 지배력을 다지려는 행보로 풀이된다.",
+        "url": "https://techcrunch.com/2026/06/26/openai-poaches-uber-india-chief-to-lead-its-biggest-market-outside-the-u-s/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-27T03:19:36+09:00",
+        "readTime": 5,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_006",
+        "title": "아시아 AI 스타트업들, Mythos급 모델 잇따라 출시 — 앤트로픽 수출 제한 장기화 틈새",
+        "excerpt": "앤트로픽의 최상위 모델에 대한 수출 제한이 길어지자, 아시아 지역 스타트업들이 Mythos에 준하는 역량을 내세운 모델을 잇따라 내놓고 있다. 미국 AI 기업들이 이 거대 시장을 영영 놓칠 수 있다는 우려도 나온다.",
+        "body": "앤트로픽의 Mythos 5에 대한 수출 제한이 풀리지 않는 사이, 아시아의 AI 스타트업들이 비슷한 역량을 갖췄다고 주장하는 모델들을 잇따라 출시하고 있다. 기사는 이런 흐름이 일시적 틈새 공략을 넘어, 미국 프론티어 모델들이 한 번 놓친 거대 아시아 시장을 다시 되찾기 어려울 수 있다는 경고로 이어진다고 짚었다. 정부 규제가 길어질수록 현지 대안 모델의 입지가 굳어지는 역설적 상황이 펼쳐지고 있다.",
+        "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-27T21:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_007",
+        "title": "가장 건강했던 창업자가 암 진단을 받았다 — 그는 AI로 맞서 싸웠다",
+        "excerpt": "건강관리에 철저했던 한 창업자가 암 진단을 받은 뒤, 자신의 혈액검사·스캔 데이터·웨어러블 기록·일지를 모두 Claude에 입력해 치료 과정을 직접 분석하고 대응했다.",
+        "body": "창업자 코너 크리스토우는 암 진단 이후 자신의 혈액검사 결과, 스캔 데이터, 웨어러블 기기 기록, 개인 일지 등 건강과 관련된 모든 정보를 Claude에 입력해 분석을 맡겼다. 그는 이렇게 AI를 활용해 자신의 상태를 더 깊이 이해하고 치료 결정에 참고할 정보를 스스로 정리해 나갔다. 개인 건강 데이터를 AI로 통합 분석하는 이런 사례는, 일반 소비자 영역에서 AI가 의료 의사결정을 보조하는 방식의 한 단면을 보여준다.",
+        "url": "https://techcrunch.com/2026/06/27/the-fittest-founder-in-the-room-got-cancer-heres-how-he-used-ai-to-fight-back/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-06-27T23:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 6
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_008",
+        "title": "Vercel Ship 2026 리캡 — 이제는 '에이전트를 위한 인프라' 시대",
+        "excerpt": "런던에서 열린 Vercel Ship 2026 컨퍼런스에 2,500명 이상이 모여 에이전트 시대의 풀스택 플랫폼 비전을 공유했다. 지난 10년이 웹을 만드는 방식을 바꿨다면, 이번은 에이전트를 만드는 방식을 바꾸는 자리였다.",
+        "body": "Vercel CEO 기예르모 라우치는 Ship 컨퍼런스 개막에서 처음부터 에이전트를 위해 설계된 인프라 위에 다음 10년의 승자가 만들어질 것이라는 비전을 공유했다. 행사에는 2,500명 이상이 참석해 에이전트형 인프라 구축 사례와 도구들을 함께 살펴봤으며, Vercel이 단순 배포 플랫폼을 넘어 에이전트 개발·운영을 아우르는 진짜 풀스택 플랫폼으로 자리매김하려는 행보가 두드러졌다.",
+        "url": "https://vercel.com/blog/vercel-ship-2026-recap",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-27T01:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_009",
+        "title": "깃허브-UNDP, 가나 오픈소스 디지털 개혁 지원 협력",
+        "excerpt": "깃허브가 유엔개발계획(UNDP)과 손잡고 가나의 디지털 개혁 우선과제를 오픈소스 거버넌스로 지원하는 방안을 모색한다.",
+        "body": "깃허브는 UNDP 가나 사무소와 협력해 서아프리카에서 가장 야심찬 디지털 개혁 추진 사례 중 하나를 오픈소스 거버넌스 관점에서 지원하기로 했다. 양 기관은 오픈소스 방식이 정부 디지털 전환 프로젝트의 투명성과 지속가능성을 높이는 데 어떻게 기여할 수 있는지 함께 탐색할 계획이다.",
+        "url": "https://github.blog/open-source/social-impact/github-and-undp-team-up-to-advance-development-priorities-in-ghana-with-open-source/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-27T01:53:57+09:00",
+        "readTime": 5,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_010",
+        "title": "도커, \"EU AI Act 컴플라이언스, 무엇이 필요한가\" 가이드 공개",
+        "excerpt": "도커가 EU AI Act의 위험 등급별 요구사항과 2027년까지의 주요 시한, 엔지니어링 팀이 AI 거버넌스를 실제로 운영하는 방법을 정리한 가이드를 내놨다.",
+        "body": "도커 블로그는 EU AI Act가 요구하는 컴플라이언스 수준을 위험 등급별로 나눠 설명하고, 2027년까지 다가오는 주요 이행 시한들을 정리했다. 특히 엔지니어링 조직이 추상적인 규제 요건을 실제 개발·운영 프로세스에 어떻게 반영해 AI 거버넌스를 구체적으로 실행할 수 있는지에 초점을 맞췄다.",
+        "url": "https://www.docker.com/blog/eu-ai-act-compliance/",
+        "source": "Docker Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-06-27T12:11:14+09:00",
+        "readTime": 5,
+        "imageGradient": 2
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_011",
+        "title": "테슬라, FSD 사망사고 소송 합의 — 연방 조사는 계속",
+        "excerpt": "테슬라가 자사의 완전자율주행(FSD) 기능이 탑재된 차량의 2023년 사망사고와 관련된 소송을 합의로 마무리했다. 다만 관련 연방 조사는 여전히 진행 중이다.",
+        "body": "이번 합의는 2023년 테슬라의 운전자 보조 시스템 '풀 셀프 드라이빙(FSD)'을 사용하던 차량에서 발생한 사망사고를 둘러싼 소송에서 이뤄졌다. 소송은 합의로 종결됐지만, FSD를 둘러싼 연방 차원의 별도 조사는 계속되고 있어 테슬라의 자율주행 안전성 논란은 쉽게 가라앉지 않을 전망이다.",
+        "url": "https://techcrunch.com/2026/06/26/tesla-settles-fsd-crash-lawsuit-as-federal-investigations-continue/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-06-27T01:32:55+09:00",
+        "readTime": 5,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_012",
+        "title": "재규어랜드로버 25억 달러 해킹, 배후는 러시아 해커였다",
+        "excerpt": "지난해 자동차 대기업 재규어랜드로버를 강타한 해킹 사건이 러시아 해커들의 소행으로 드러났다. 최근 몇 년간 가장 파괴적이고 비용이 많이 든 해킹 사건 중 하나로 꼽힌다.",
+        "body": "보도에 따르면 재규어랜드로버를 겨냥한 해킹 공격의 배후로 러시아 해커 조직이 지목됐다. 이 해킹은 생산 중단과 공급망 혼란을 일으키며 25억 달러에 달하는 피해를 낳은 것으로 평가되는, 최근 몇 년간 가장 파괴적인 사이버 공격 사례 중 하나다. 자동차 산업이 점점 더 소프트웨어 의존적으로 변하면서 제조업체를 겨냥한 국가 연계 해킹 위협도 커지고 있음을 보여준다.",
+        "url": "https://techcrunch.com/2026/06/26/russian-hackers-were-behind-2-5-billion-hack-of-jaguar-land-rover-report/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-06-27T02:29:29+09:00",
+        "readTime": 5,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_013",
+        "title": "빅테크의 AI 집착 때문에 내가 더 비싼 돈을 내야 하나",
+        "excerpt": "팀 쿡이 최근 가격 인상이 '불가피했다'며 회사의 가격 정책이 '지속 불가능한' 수준이라고 밝혔다. 16인치 맥북 프로는 300달러, 11인치 아이패드 에어는 599달러에서 749달러로 올랐고, 홈팟 미니도 30달러 올랐다.",
+        "body": "애플 CEO 팀 쿡은 최근 가격 인상이 불가피했다고 인정하며, 회사의 기존 가격 정책이 더 이상 지속 가능하지 않다고 밝혔다. 16인치 맥북 프로는 300달러, 11인치 아이패드 에어는 599달러에서 749달러로, 홈팟 미니조차 30달러가 올라 129달러가 됐다. 쿡은 이런 인상의 책임을 AI 데이터센터 붐으로 치솟은 메모리 가격에 돌렸으며, 이는 최근 'RAMageddon'으로 불리는 메모리 가격 폭등이 소비자 가전 가격 전반에 본격적으로 반영되고 있음을 보여주는 또 다른 사례다.",
+        "url": "https://www.theverge.com/report/958678/apple-consumer-price-increase-ai-big-tech",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-06-27T22:30:00+09:00",
+        "readTime": 5,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_014",
+        "title": "FTC, 머스크의 스페이스X 동문 스타트업 'Mesh' 인수 승인",
+        "excerpt": "미국 연방거래위원회(FTC)가 일론 머스크의 Mesh 인수를 승인했다. Mesh는 지난 2월 5,000만 달러 규모의 시리즈 A를 유치하며 스텔스 모드를 벗어난 스타트업이다.",
+        "body": "FTC가 반독점 심사를 거쳐 머스크의 Mesh 인수를 승인하면서 거래가 본격적으로 진행될 수 있게 됐다. Mesh는 스페이스X 출신 인력들이 설립한 스타트업으로, 지난 2월 5,000만 달러 규모의 시리즈 A 투자를 유치하며 처음 알려졌다. 머스크가 자신의 기업 생태계 안에 스페이스X 동문 창업 기업을 다시 끌어들이는 모습이다.",
+        "url": "https://techcrunch.com/2026/06/26/ftc-gives-musk-the-ok-to-acquire-spacex-alumni-startup-mesh/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-06-27T09:38:34+09:00",
+        "readTime": 5,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_015",
+        "title": "와이콤비네이터 투자 보험테크 스타트업 Corgi, \"오픈소스 도용 아니다\" 반박",
+        "excerpt": "주목받던 보험테크 스타트업 Corgi가 오픈소스 도용 의혹에 휩싸였다. Papermark가 자사 소프트웨어를 훔쳤다고 주장하자 Corgi는 이를 정면 반박했다.",
+        "body": "Corgi는 Papermark로부터 자사의 오픈소스 소프트웨어를 무단 도용했다는 비난을 받으며 논란의 중심에 섰다. Corgi 측은 이를 부인하며 도용 사실이 없다고 밝혔지만, 이번 사건은 AI 코딩 도구를 활용한 '바이브 코딩' 관행이 기존 오픈소스 라이선스 및 저작권 경계를 어디까지 존중하고 있는지에 대한 새로운 의문을 불러일으켰다.",
+        "url": "https://techcrunch.com/2026/06/26/corgi-the-buzzy-y-combinator-backed-insurance-tech-startup-says-it-didnt-steal-an-open-source-product/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-06-27T07:00:37+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_016",
+        "title": "스마트홈 업계, 4년 전 약속한 'Matter'에 여전히 베팅 중",
+        "excerpt": "4년 전 암스테르담에서 애플·구글·아마존 등 경쟁사들이 손잡고 출범시킨 상호운용성 표준 'Matter'. 스마트홈 업계의 오랜 숙제를 풀어줄 해법으로 환영받았던 이 표준은 지금 어디까지 왔을까.",
+        "body": "스마트홈 산업의 오랜 난제였던 기기 간 호환성 문제를 풀기 위해 애플, 구글, 아마존 등 전통적 경쟁사들이 수년간 협력해 만든 개방형 표준이 바로 Matter다. 출범 4년이 지난 지금도 업계는 여전히 Matter를 상호운용성의 해법으로 보고 베팅을 이어가고 있으며, 최근 컨퍼런스에서는 그간의 성과와 남은 과제들이 함께 논의됐다.",
+        "url": "https://www.theverge.com/tech/958008/matter-unify-conference-csa-apple-google-amazon-samsung-smart-home-interoperability",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-06-27T22:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 1
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_017",
+        "title": "오픈소스 Obsidian/Notion 대안 'OpenKnowledge' 공개",
+        "excerpt": "Obsidian과 Notion을 대체할 수 있는 오픈소스 지식관리 도구 OpenKnowledge가 Show HN을 통해 소개됐다.",
+        "body": "Show HN 게시물을 통해 공개된 OpenKnowledge는 기존 노트·지식관리 도구들의 오픈소스 대안을 표방한다. 커뮤니티에서는 락인 우려 없이 개인 지식 베이스를 구축할 수 있는 선택지로 주목하고 있다.",
+        "url": "https://news.hada.io/topic?id=30860",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-27T21:10:27+09:00",
+        "readTime": 5,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_018",
+        "title": "gofumpt — gofmt보다 더 엄격한 Go 코드 포매터",
+        "excerpt": "Go 표준 포매터 gofmt보다 한층 엄격한 규칙을 적용하는 코드 포매터 gofumpt가 개발자 커뮤니티에서 소개됐다.",
+        "body": "gofumpt는 gofmt의 규칙을 그대로 따르면서도 추가적인 스타일 규칙을 더해 한층 일관된 코드 포맷을 강제하는 도구다. 팀 단위로 코드 스타일 편차를 줄이고 싶은 Go 개발자들 사이에서 대안 포매터로 거론되고 있다.",
+        "url": "https://news.hada.io/topic?id=30864",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-27T09:31:02+09:00",
+        "readTime": 5,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_019",
+        "title": "CVE-2026-LGTM 사고 보고서 공개",
+        "excerpt": "'CVE-2026-LGTM'으로 명명된 보안 사고에 대한 상세 사고 보고서가 공개돼 보안 커뮤니티에서 논의되고 있다.",
+        "body": "사고 보고서는 해당 취약점이 발견되고 악용된 경위, 영향 범위, 대응 과정을 시간순으로 정리했다. 코드 리뷰 승인('LGTM') 관행과 맞물린 보안 사고라는 점에서 자동화된 리뷰·머지 프로세스의 위험성을 다시 한번 환기시키는 사례로 받아들여지고 있다.",
+        "url": "https://news.hada.io/topic?id=30868",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-27T10:00:05+09:00",
+        "readTime": 5,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_020",
+        "title": "오픈소스 보안 강화를 위한 'Akrites' 공개서한 발표",
+        "excerpt": "오픈소스 생태계의 보안을 함께 지키자는 취지의 공개서한 'Akrites'가 발표되며 메인테이너와 기업들의 동참을 호소했다.",
+        "body": "공개서한은 오픈소스 프로젝트들이 마주한 공급망 보안 위협에 메인테이너 개인의 노력만으로 대응하기 어렵다는 문제의식에서 출발했다. 기업과 재단, 개발자 커뮤니티가 함께 보안 검증과 자원 지원에 나서야 한다는 제안을 담고 있다.",
+        "url": "https://news.hada.io/topic?id=30869",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-27T10:03:05+09:00",
+        "readTime": 5,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_021",
+        "title": "Springer Nature, 막스플랑크 연구소 논문 2편 철회 논란",
+        "excerpt": "학술 출판사 Springer Nature가 막스플랑크 연구소 소속 연구자들의 논문 2편을 삭제하면서 학계에서 논란이 일고 있다.",
+        "body": "해당 논문 철회를 둘러싸고 절차의 투명성과 정당성에 의문을 제기하는 목소리가 학계 커뮤니티에서 나오고 있다. 대형 학술 출판사의 논문 철회 결정이 연구자들의 경력과 후속 연구에 미치는 영향에 대한 우려도 함께 제기됐다.",
+        "url": "https://news.hada.io/topic?id=30877",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-27T15:36:53+09:00",
+        "readTime": 5,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_022",
+        "title": "익명 GitHub 계정, 미공개 0-day 취약점 대량 공개",
+        "excerpt": "정체불명의 GitHub 계정이 여러 소프트웨어의 미공개 0-day 취약점 정보를 한꺼번에 쏟아내며 보안 업계에 긴장감을 불러일으켰다.",
+        "body": "공개된 저장소 'Exploitarium'에는 공개 검증코드(PoC)와 취약점 연구 자료가 한곳에 정리되어 있으며, 새로운 항목이 자체 완결형 폴더 형태로 계속 추가되고 있다. 영향받는 소프트웨어 목록에는 널리 쓰이는 압축, 원격제어, 컨테이너, 브라우저 도구들이 포함돼 있어 보안 담당자들의 대응이 시급한 상황이다.",
+        "url": "https://github.com/bikini/exploitarium",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-27T07:33:13+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_023",
+        "title": "Om Malik을 추모하며",
+        "excerpt": "테크 저널리즘 업계의 원로로 꼽히는 Om Malik을 기리는 추모글이 커뮤니티에 공유됐다.",
+        "body": "글은 Om Malik이 테크 저널리즘과 블로깅 생태계에 남긴 발자취를 돌아보며 그의 글쓰기와 통찰이 업계에 미친 영향을 회고한다. 오랜 독자들 사이에서 추모와 회고의 댓글이 이어지고 있다.",
+        "url": "https://news.hada.io/topic?id=30880",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-06-27T20:35:50+09:00",
+        "readTime": 5,
+        "imageGradient": 1
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "좋은 소식 먼저: Sol은 스마트하고 효율적이며 중요한 진전입니다. GPT-5.5와 동일한 가격입니다. 또한 GPT-5.6 계열에서 Terra가 출시되는데, 절반 가격에 5.5 수준의 성능을 제공합니다.\n\n나쁜 소식: 미국 정부의 요청으로, 우리가 계획했던 공개 액세스 출시 대신 오늘 제한된 프리뷰로 출시됩니다.",
+        "context": "샘 알트먼이 GPT-5.6 라인업(Sol/Terra/Luna) 출시를 알리면서, 동시에 미국 정부 요청으로 공개 출시가 제한된 프리뷰로 축소됐다고 밝힌 글이다.",
+        "url": "https://x.com/sama/status/2070607488274358364",
+        "publishedAt": "2026-06-26T20:37:49.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "아 그리고... 750 토큰/초가 7월에 5.6 솔로 출시될 거야!",
+        "context": "알트먼이 GPT-5.6 Sol의 추론 속도가 7월 출시 시점에 초당 750토큰에 달할 것이라고 추가로 언급한 글이다.",
+        "url": "https://x.com/sama/status/2070609922631537024",
+        "publishedAt": "2026-06-26T20:47:30.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "다른 소식으로는, 이번 주에 ChatGPT에서 사용하는 5.5 인스턴트 모델을 업데이트했습니다.\n\n그 분위기가 마음에 들어요.",
+        "context": "알트먼이 이번 주 ChatGPT의 5.5 인스턴트 모델 업데이트 소식을 전하며 개선된 대화 품질에 만족감을 표한 글이다.",
+        "url": "https://x.com/sama/status/2070612055225483692",
+        "publishedAt": "2026-06-26T20:55:58.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "GPT-5.6 솔 프리뷰 — 좋은 모델입니다:",
+        "context": "오픈AI 사장 그렉 브록먼이 GPT-5.6 Sol 프리뷰 출시를 알리며 모델 성능에 대한 긍정적 평가를 짧게 남긴 글이다.",
+        "url": "https://x.com/gdb/status/2070555985840906333",
+        "publishedAt": "2026-06-26T17:13:10.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "GPT-5.6 Sol, 차세대 프론티어 모델인 우리 다음 세대 모델의 제한적 프리뷰를 소개합니다. 또한 효율적이고 일상적인 작업을 위한 균형 잡힌 모델인 GPT-5.6 Terra와 대량 작업을 위한 빠르고 저렴한 모델인 GPT-5.6 Luna도 소개합니다.",
+        "context": "오픈AI 공식 계정이 GPT-5.6 라인업(Sol/Terra/Luna)의 출시를 공식 발표한 글이다.",
+        "url": "https://x.com/OpenAI/status/2070555272230384038",
+        "publishedAt": "2026-06-26T17:10:20.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "GPT-5.6 Sol은 사이버 보안 분야에서 우리가 아직까지 개발한 가장 강력한 모델입니다.\n\n이 모델은 취약점 연구와 활용을 포함한 장기적인 보안 작업에 대한 성능-효율성 프론티어를 이동시킵니다.",
+        "context": "오픈AI가 GPT-5.6 Sol의 사이버보안 역량이 역대 자사 모델 중 최고 수준이라고 강조한 글이다.",
+        "url": "https://x.com/OpenAI/status/2070555278576439306",
+        "publishedAt": "2026-06-26T17:10:22.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "ChatGPT",
+        "handle": "ChatGPTapp",
+        "content": "새로운 모델들이 코앞에 다가오고 있습니다.",
+        "context": "ChatGPT 공식 계정이 신규 모델 출시가 임박했음을 짧게 예고한 글이다.",
+        "url": "https://x.com/ChatGPTapp/status/2070572959086121283",
+        "publishedAt": "2026-06-26T18:20:37.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "Adam Fry",
+        "handle": "adamhfry",
+        "content": "이번 주 ChatGPT 신기능 업데이트 - 6월 26일:\n\n1/ 새로운 음성 입력 모델 – 언어와 억양을 더 정확하게 전사하며, 특히 일본어, 한국어, 중국어, 우르두어, 베트남어에서 향상됨\n\n2/ 웹상의 '컴포저' 새로워짐 – 특히 새로운 Plus (+) 메뉴와 @ 입력으로 Gmail 같은 서비스에 빠르게 연결하거나 이미지 추가, 웹 검색 가능\n\n3/ 새로운 5.5 인스턴트 모델 - 어제 배포된 개선사항; 전반적으로 더 똑똑하게 느껴질 것임\n\n4/ 모바일 사이드바 개선 – 단순화하고 아이콘과 타이포그래피를 새로워졌으며, 이제 대화를 완전히 가리지 않고 위에 열림\n\n팀은 매주 Chat에 대한 개선을 배포하고 있으며, 모든 피드백을 듣고 있으니 계속 공유해주세요!",
+        "context": "오픈AI 직원 애덤 프라이가 ChatGPT의 주간 업데이트 내역을 음성 인식, 컴포저, 5.5 인스턴트, 모바일 UI 개선 등 4가지로 정리해 공유한 글이다.",
+        "url": "https://x.com/adamhfry/status/2070574374667854045",
+        "publishedAt": "2026-06-26T18:26:14.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_009",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "6월 12일 이후로, 우리는 미국 정부와 긴밀히 협력하여 Claude Mythos 5와 Fable 5에 대한 액세스를 복원하기 위해 노력해 왔습니다. 오늘 정부로부터 Mythos 5, 우리 최강의 사이버보안 모델이 중요 인프라를 운영하고 방어하는 미국 조직 세트에 재배포될 수 있다는 통지를 받았습니다.\n\n우리는 이러한 조직들에 대한 액세스를 신속히 복원하고 있으며, Mythos 5에 대한 액세스를 확대하고 Fable 5를 다시 일반 사용으로 이용할 수 있도록 하기 위해 정부와의 협력을 계속하고 있습니다.",
+        "context": "앤트로픽이 정부와의 협의를 거쳐 Mythos 5의 중요 인프라 기관 대상 접근이 복원됐다고 공식 발표한 글이다.",
+        "url": "https://x.com/AnthropicAI/status/2070665903440871779",
+        "publishedAt": "2026-06-27T00:29:57.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_010",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "응답자의 거의 절반이 향후 12개월 내에 업무 책임이 크게 변화할 것으로 예상합니다.\n\n10% 미만만이 1년 이내에 자신의 일자리를 잃을 것이라고 생각하지만, 훨씬 더 많은 이들이 동료들을 걱정합니다: 1/3 이상이 주니어 동료가 일자리를 잃을 확률을 60% 이상으로 보고 있습니다.",
+        "context": "앤트로픽이 자사 경제 영향 보고서에서 응답자들의 업무 책임 변화 전망과 동료의 고용 불안에 대한 인식 차이를 공유한 글이다.",
+        "url": "https://x.com/AnthropicAI/status/2070528969523499460",
+        "publishedAt": "2026-06-26T15:25:49.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_011",
+        "author": "The OpenAI Foundation",
+        "handle": "FoundationOAI",
+        "content": "OpenAI 재단은 우리의 AI 회복력 프로그램을 통해 Intercept의 창립 파트너로 참여합니다.\n\nAI가 생물학과 의학 분야의 발전을 가속화함에 따라, 우리는 오용의 위험에 대비해야 하며, 이는 설계된 발병 가능성을 포함합니다.\n\nIntercept Health Fund는 병원체 무관 접근 방식을 통해 호흡기 팬데믹을 종식시키기 위해 노력하고 있으며, 광범위한 위협에 대처할 수 있는 광범위 예방책과 비약물 개입에 투자하여 인류를 위한 새로운 회복력 층을 강화합니다.",
+        "context": "샘 알트먼이 공유한 글로, 오픈AI 재단이 생물보안 회복력 프로그램의 일환으로 Intercept Health Fund의 창립 파트너로 참여한다는 소식이다.",
+        "url": "https://x.com/FoundationOAI/status/2070533340416164196",
+        "publishedAt": "2026-06-26T15:43:11.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_012",
+        "author": "Matthew Botvinick",
+        "handle": "mattbotvinick",
+        "content": "우리는 @Anthropic에서 AI와 법치에 초점을 맞춘 팀을 구축하고 있습니다. 첫 번째 채용을 완료했으며, 이제 새로운 연구 엔지니어 역할을 개설합니다. AI/딥러닝/NLP, 풀스택 개발, 데이터 과학을 포함한 고급 기술 스킬을 갖추고 있으며, 법학, 정부, 정치학 또는 관련 분야에서의 훈련이나 경험을 겸비한 인재를 찾고 있습니다. 이게 당신이거나 친구라면, 연락 주세요.",
+        "context": "앤트로픽 연구자 매튜 보트비닉이 AI와 법치를 다루는 신규 팀의 연구 엔지니어 채용 소식을 공유한 글이다.",
+        "url": "https://x.com/mattbotvinick/status/2070841025195647161",
+        "publishedAt": "2026-06-27T12:05:49.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "Claude로 PDF 작업의 가장 큰 불만을 해결했다",
+        "originalTitle": "I used Claude to fix my biggest frustration with PDFs",
+        "summary": "한 사용자가 Claude를 활용해 평소 PDF 작업에서 겪던 불편함을 직접 해결한 경험을 공유했다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1ugj1bt/i_used_claude_to_fix_my_biggest_frustration_with/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-06-27T06:05:42+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "단독: 강력한 앤트로픽 모델 Fable 5, 곧 복귀할 듯",
+        "originalTitle": "Scoop: Powerful Anthropic model, Fable 5, on track to return soon",
+        "summary": "정부 제한으로 묶여 있던 Fable 5가 곧 다시 풀릴 조짐이 보인다는 소식이 r/ClaudeAI에서 공유돼 기대감을 키우고 있다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1uh3dj3/scoop_powerful_anthropic_model_fable_5_on_track/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-06-27T22:53:42+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "AI로 무장한 신입·주니어의 '더닝-크루거' 현상, 다들 느끼나요",
+        "originalTitle": "Anyone else notice supercharged junior/new grad dunning-kruger behavior lately?",
+        "summary": "AI 도구를 적극 활용하는 신입·주니어 개발자들 사이에서 실력 대비 과신하는 경향이 두드러진다는 경험담이 r/ExperiencedDevs에서 공감을 얻고 있다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1ugaqo5/anyone_else_notice_supercharged_juniornew_grad/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-06-27T00:56:02+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "AI 개발 직군으로 성공적으로 전환한 분 있나요",
+        "originalTitle": "Anyone Here Successfully Transitioned to AI Development?",
+        "summary": "기존 개발자가 AI 관련 직무로 커리어를 전환하는 방법과 경험을 묻는 글이 활발한 토론을 이끌고 있다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1ugrb61/anyone_here_successfully_transitioned_to_ai/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-06-27T12:08:43+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "중국 화창베이산 96GB 5090, 로컬 LLM 커뮤니티에 등장",
+        "originalTitle": "96 gig 5090s from Shenzhen's Huaqiangbei",
+        "summary": "중국 선전 화창베이 시장에서 유통되는 96GB VRAM 개조 RTX 5090이 로컬 LLM 구동용으로 화제가 되고 있다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ugyqsi/96_gig_5090s_from_shenzhens_huaqiangbei/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-06-27T19:00:35+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "\"96GB 4090·5090은 사기다\" — 직접 개조해본 사용자의 경고",
+        "originalTitle": "96gb+ 4090's and 5090 are literally a scam. I mods these cards myself",
+        "summary": "VRAM을 늘린 개조 그래픽카드를 직접 손봐본 사용자가 품질과 신뢰성 문제를 지적하며 구매에 신중하라고 경고했다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uh1lc7/96gb_4090s_and_5090_are_literally_a_scam_i_mods/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-06-27T21:32:23+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "RL 보상함수용 디버거 — 학습 중 보상 해킹을 실시간 탐지",
+        "originalTitle": "A debugger for RL reward functions that detects reward hacking during training [P]",
+        "summary": "강화학습 보상 함수의 '보상 해킹' 현상을 학습 도중 실시간으로 탐지해주는 디버깅 도구가 r/MachineLearning에 소개됐다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1uga687/a_debugger_for_rl_reward_functions_that_detects/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-06-27T00:34:28+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "MMA 경기를 '시청'하며 이벤트를 라벨링하는 ML 모델 제작기",
+        "originalTitle": "Showcase: Building ML models that \"watch\" MMA fights and label events and positional changes making these moments all searchable on a timeline [P]",
+        "summary": "격투기 경기 영상을 분석해 타격·테이크다운 등 이벤트를 자동으로 라벨링하는 머신러닝 모델 제작 사례가 공유됐다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1ugwrmz/showcase_building_ml_models_that_watch_mma_fights/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-06-27T17:01:25+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "GPT-5.6 Sol 프리뷰 공식 발표, 커뮤니티 반응 후끈",
+        "originalTitle": "Previewing GPT‑5.6 Sol: Next-Generation Model | OpenAI",
+        "summary": "오픈AI의 GPT-5.6 Sol 공식 발표 소식이 r/OpenAI에 공유되며 신모델에 대한 기대와 토론이 이어지고 있다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1ugljgh/previewing_gpt56_sol_nextgeneration_model_openai/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-06-27T07:45:39+09:00"
+      },
+      {
+        "id": "reddit_010",
+        "title": "GPT-5.6 Sol, 초당 750토큰 속도에 \"말도 안 된다\"",
+        "originalTitle": "750 tps on GPT 5.6 Sol, INSANE",
+        "summary": "샘 알트먼이 언급한 GPT-5.6 Sol의 초당 750토큰 추론 속도에 커뮤니티가 놀라움을 표하고 있다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1ughtpx/750_tps_on_gpt_56_sol_insane/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-06-27T05:19:18+09:00"
+      },
+      {
+        "id": "reddit_011",
+        "title": "구글, 핵심 AI 연구자 잇따라 이탈 — \"해자는 가중치가 아니었다\"",
+        "originalTitle": "Google keeps losing top ai researchers, the moat was never the weights",
+        "summary": "구글의 핵심 AI 연구 인력 유출이 계속되는 가운데, 모델 가중치 자체가 경쟁우위의 핵심이 아니라는 분석이 제기됐다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1ugbwol/google_keeps_losing_top_ai_researchers_the_moat/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-06-27T01:38:18+09:00"
+      },
+      {
+        "id": "reddit_012",
+        "title": "\"AI 최전선이 정부 승인 뒤에 잠겼다\" — 대다수는 아직 모른다",
+        "originalTitle": "The AI frontier just got locked behind government approval, and most of us aren’t on the list",
+        "summary": "정부의 모델 접근 제한 조치로 AI 최전선 기술이 사실상 승인제로 묶이게 됐다는 우려가 r/artificial에서 제기됐다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1uh4han/the_ai_frontier_just_got_locked_behind_government/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-06-27T23:41:11+09:00"
+      },
+      {
+        "id": "reddit_013",
+        "title": "당신의 패키지 매니저는 거짓말을 하고 있다 — npm·Yarn·pnpm·Bun·Deno 비교",
+        "originalTitle": "Your Package Manager Is Lying to You: npm, Yarn, pnpm, Bun & Deno",
+        "summary": "npm, Yarn, pnpm, Bun, Deno 등 주요 패키지 매니저들이 실제로 보여주는 설치 속도·캐시 동작과 사용자 인식 사이의 간극을 짚은 글이 화제다.",
+        "url": "https://www.reddit.com/r/programming/comments/1uh0m01/your_package_manager_is_lying_to_you_npm_yarn/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-06-27T20:43:01+09:00"
+      },
+      {
+        "id": "reddit_014",
+        "title": "Mojo 프로그래밍 언어, 곧 오픈소스로 전환",
+        "originalTitle": "Mojo programming language will become open-source soon.",
+        "summary": "Modular의 Mojo 언어가 머지않아 오픈소스로 공개될 예정이라는 소식에 개발자 커뮤니티가 반기고 있다.",
+        "url": "https://www.reddit.com/r/programming/comments/1uh1qm4/mojo_programming_language_will_become_opensource/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-06-27T21:39:40+09:00"
+      },
+      {
+        "id": "reddit_015",
+        "title": "미국, Mythos 5 차단 조치 해제",
+        "originalTitle": "The US lifts its block on Mythos 5",
+        "summary": "미국 정부가 앤트로픽 Mythos 5에 대한 접근 차단을 해제했다는 소식이 r/singularity에서 빠르게 공유됐다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1ugme72/the_us_lifts_its_block_on_mythos_5/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-06-27T08:21:14+09:00"
+      },
+      {
+        "id": "reddit_016",
+        "title": "데미스 하사비스, \"AI가 뇌 스캔으로 꿈 내용을 재구성할 수 있다\"",
+        "originalTitle": "Demis Hassabis: AI can now reconstruct what people are dreaming from brain scans -- \"We're going to have sci-fi devices in the next few years\"",
+        "summary": "딥마인드 데미스 하사비스가 AI를 활용해 뇌 스캔 데이터로부터 사람이 꾸는 꿈을 재구성할 수 있다고 밝힌 발언이 화제다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1ugw8t1/demis_hassabis_ai_can_now_reconstruct_what_people/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-06-27T16:31:16+09:00"
+      }
+    ]
+  }
+}
