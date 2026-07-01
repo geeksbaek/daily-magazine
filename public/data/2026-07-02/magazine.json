@@ -1,0 +1,601 @@
+{
+  "date": "2026-07-02",
+  "issueNumber": 90,
+  "cover": {
+    "mainHeadline": "클라우드플레어, AI 기업에 '콘텐츠 값 내라' 압박 — 9월 15일 시한",
+    "mainExcerpt": "클라우드플레어가 AI 학습·에이전트용 크롤러를 검색용과 분리하도록 9월 15일까지 시한을 제시했다. 미이행 시 다수 퍼블리셔 사이트에서 기본 차단될 수 있으며, x402 기반 수익화 게이트웨이로 콘텐츠 과금의 길도 열었다.",
+    "headlines": [
+      "네오클라우드 투게더AI, 8억 달러 조달…기업가치 83억 달러로 도약",
+      "트럼프 행정부, 앤트로픽 '미토스·페이블' 모델 수출 규제 해제",
+      "구글 에이전트 비서 '제미나이 스파크', 맥에서도 쓴다"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_001",
+      "title": "클라우드플레어, AI 기업에 '콘텐츠 값 내라' 압박 — 9월 15일 시한",
+      "excerpt": "클라우드플레어가 AI 학습·에이전트용 크롤러를 검색용과 분리하도록 9월 15일까지 시한을 제시했다. 이를 지키지 않는 AI 크롤러는 다수 퍼블리셔 사이트에서 기본 차단될 수 있다.",
+      "body": "'콘텐츠 독립기념일' 정책의 연장선으로, 클라우드플레어는 웹 트래픽을 검색(Search)·에이전트(Agent)·학습(Training)으로 구분해 사이트 소유자가 각각을 개별 관리할 수 있게 했다. 여기에 x402 프로토콜 기반 '수익화 게이트웨이'를 더해 페이지·데이터셋·API·MCP 도구에 대해 스테이블코인으로 과금할 수 있는 길을 열었다. AI 시대에 콘텐츠 창작자가 발견 가능성과 보상 사이에서 겪는 딜레마를 해소하려는 시도로, 검색 트래픽 감소에 직면한 퍼블리셔 진영에 상당한 협상력을 부여한다.",
+      "url": "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-07-02T02:48:37+09:00",
+      "readTime": 5,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_002",
+      "title": "네오클라우드 투게더AI, 8억 달러 조달…기업가치 83억 달러로 도약",
+      "excerpt": "오픈소스 모델 호스팅에 특화된 AI 네오클라우드 투게더AI가 8억 달러를 유치하며 기업가치 83억 달러를 기록했다. 2025년 초 33억 달러에서 두 배 이상 뛰었다.",
+      "body": "투게더AI는 오픈소스 모델을 위한 클라우드 인프라를 제공하며 GPU 수요 폭증의 수혜를 입고 있다. 이번 라운드로 몸값이 반년여 만에 급등해, 엔비디아 칩을 대량 확보한 '네오클라우드' 사업자들이 AI 컴퓨트 시장의 핵심 축으로 부상했음을 보여준다. 스페이스X·메타 등 대기업까지 잉여 컴퓨트 판매를 검토하는 흐름과 맞물려 인프라 경쟁이 한층 치열해지고 있다.",
+      "url": "https://techcrunch.com/2026/07/01/neocloud-together-ai-raises-800m-leaps-to-8-3b-valuation/",
+      "source": "TechCrunch",
+      "category": "big_tech",
+      "publishedAt": "2026-07-02T03:29:14+09:00",
+      "readTime": 4,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_003",
+      "title": "구글 에이전트 비서 '제미나이 스파크', 맥에서도 쓴다",
+      "excerpt": "구글의 24시간 에이전트형 비서 제미나이 스파크가 맥에 출시됐다. 실시간 추적과 더 많은 앱 지원 등 개선점도 함께 적용됐다.",
+      "body": "제미나이 스파크는 사용자를 대신해 작업을 수행하는 상시 구동형 에이전트로, 이번 맥 지원으로 데스크톱 환경까지 활동 범위를 넓혔다. 실시간 작업 추적과 확대된 앱 연동으로 실사용성을 높였으며, 오픈AI·앤트로픽이 밀어붙이는 에이전트 경쟁에 구글이 데스크톱 접점을 강화하며 맞대응하는 모양새다.",
+      "url": "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-07-01T23:20:19+09:00",
+      "readTime": 3,
+      "imageGradient": 2
+    },
+    {
+      "id": "rss_004",
+      "title": "메타도 잉여 AI 컴퓨트를 현금화…클라우드 사업 추진",
+      "excerpt": "메타가 AI 컴퓨트 파워와 모델 접근을 판매하는 클라우드 인프라 사업을 준비 중이다. 성사되면 AWS·구글클라우드·애저와 정면 경쟁하게 된다.",
+      "body": "스페이스X에 이어 메타까지 자체 확보한 대규모 컴퓨트 자원을 외부에 되파는 방안을 검토하면서, 초대형 기술기업들이 AI 인프라를 새로운 수익원으로 삼는 흐름이 뚜렷해지고 있다. 기존 하이퍼스케일러가 장악한 클라우드 시장에 메타가 진입하면 컴퓨트 공급 경쟁이 격화되고, 가격·가용성 측면에서 AI 개발사들에 새로운 선택지가 생길 수 있다.",
+      "url": "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash/",
+      "source": "TechCrunch AI",
+      "category": "big_tech",
+      "publishedAt": "2026-07-01T22:43:07+09:00",
+      "readTime": 4,
+      "imageGradient": 3
+    },
+    {
+      "id": "rss_005",
+      "title": "트럼프 행정부, 앤트로픽 '미토스·페이블' 모델 규제 해제",
+      "excerpt": "미 상무부가 앤트로픽의 미토스·페이블 모델에 대한 수출 통제를 풀었다. 오락가락한 AI 정책 속에 향후 모델 출시 기준의 불확실성은 여전하다.",
+      "body": "이번 조치로 페이블 5(미토스급 모델)의 전 세계 접근이 복원되며, 버셀 AI 게이트웨이 등에서도 즉시 재개됐다. 다만 행정부의 일관성 없는 AI 정책 기조 탓에 업계는 앞으로의 모델 출시가 어떤 규정의 적용을 받을지 예측하기 어렵다는 반응이다. 앤트로픽은 사이버보안 작업을 겨냥한 새 분류기를 적용해 모델을 재배포한다고 밝혔다.",
+      "url": "https://techcrunch.com/2026/06/30/trump-drops-restrictions-on-anthropics-mythos-and-fable-models/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-07-01T11:16:06+09:00",
+      "readTime": 4,
+      "imageGradient": 4
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_001",
+        "title": "클라우드플레어, AI 기업에 '콘텐츠 값 내라' 압박 — 9월 15일 시한",
+        "excerpt": "클라우드플레어가 AI 학습·에이전트용 크롤러를 검색용과 분리하도록 9월 15일까지 시한을 제시했다. 이를 지키지 않는 AI 크롤러는 다수 퍼블리셔 사이트에서 기본 차단될 수 있다.",
+        "body": "'콘텐츠 독립기념일' 정책의 연장선으로, 클라우드플레어는 웹 트래픽을 검색(Search)·에이전트(Agent)·학습(Training)으로 구분해 사이트 소유자가 각각을 개별 관리할 수 있게 했다. 여기에 x402 프로토콜 기반 '수익화 게이트웨이'를 더해 페이지·데이터셋·API·MCP 도구에 대해 스테이블코인으로 과금할 수 있는 길을 열었다. AI 시대에 콘텐츠 창작자가 발견 가능성과 보상 사이에서 겪는 딜레마를 해소하려는 시도로, 검색 트래픽 감소에 직면한 퍼블리셔 진영에 상당한 협상력을 부여한다.",
+        "url": "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-02T02:48:37+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_003",
+        "title": "구글 에이전트 비서 '제미나이 스파크', 맥에서도 쓴다",
+        "excerpt": "구글의 24시간 에이전트형 비서 제미나이 스파크가 맥에 출시됐다. 실시간 추적과 더 많은 앱 지원 등 개선점도 함께 적용됐다.",
+        "body": "제미나이 스파크는 사용자를 대신해 작업을 수행하는 상시 구동형 에이전트로, 이번 맥 지원으로 데스크톱 환경까지 활동 범위를 넓혔다. 실시간 작업 추적과 확대된 앱 연동으로 실사용성을 높였으며, 오픈AI·앤트로픽이 밀어붙이는 에이전트 경쟁에 구글이 데스크톱 접점을 강화하며 맞대응하는 모양새다.",
+        "url": "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-01T23:20:19+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_005",
+        "title": "트럼프 행정부, 앤트로픽 '미토스·페이블' 모델 규제 해제",
+        "excerpt": "미 상무부가 앤트로픽의 미토스·페이블 모델에 대한 수출 통제를 풀었다. 오락가락한 AI 정책 속에 향후 모델 출시 기준의 불확실성은 여전하다.",
+        "body": "이번 조치로 페이블 5(미토스급 모델)의 전 세계 접근이 복원되며, 버셀 AI 게이트웨이 등에서도 즉시 재개됐다. 다만 행정부의 일관성 없는 AI 정책 기조 탓에 업계는 앞으로의 모델 출시가 어떤 규정의 적용을 받을지 예측하기 어렵다는 반응이다. 앤트로픽은 사이버보안 작업을 겨냥한 새 분류기를 적용해 모델을 재배포한다고 밝혔다.",
+        "url": "https://techcrunch.com/2026/06/30/trump-drops-restrictions-on-anthropics-mythos-and-fable-models/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-01T11:16:06+09:00",
+        "readTime": 4,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_010",
+        "title": "오픈소스 에이전트 '오픈클로', 안드로이드·iOS 정식 출시",
+        "excerpt": "무료 오픈소스 에이전트 프로그램 오픈클로가 마침내 모바일에 상륙했다. 스마트폰에서도 에이전트를 구동할 수 있게 됐다.",
+        "body": "오픈클로는 개방형 에이전트 도구로, 이번 모바일 출시를 통해 데스크톱을 넘어 휴대폰 사용자까지 대상을 넓혔다. 무료·오픈소스라는 점에서 상용 에이전트 대비 접근성이 높아, 개인 사용자층 확대에 기여할 전망이다.",
+        "url": "https://techcrunch.com/2026/06/30/openclaw-is-finally-available-on-android-and-ios/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-01T06:53:28+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_011",
+        "title": "프라이버시 특화 '베니스AI', 6,500만 달러 유치하며 유니콘 등극",
+        "excerpt": "프라이버시 우선 AI 플랫폼 베니스AI가 시리즈A로 6,500만 달러를 조달하며 유니콘이 됐다. 이미 흑자로, 연 환산 매출 7,000만 달러를 넘겼다.",
+        "body": "베니스AI는 사용자 데이터를 보관하지 않는 프라이버시 중심 설계를 앞세워 빠르게 성장했다. CEO 에릭 부어히스는 회사가 이미 수익을 내고 있다고 밝혔으며, 개인정보 보호를 차별점으로 삼은 AI 서비스 수요가 실제 매출로 이어지고 있음을 보여준다.",
+        "url": "https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-01T23:25:23+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_012",
+        "title": "포커 AI 만든 딥마인드 3인방, 이제 퀀트 헤지펀드로 돈 번다",
+        "excerpt": "전직 딥마인드 연구자 3인이 세운 프라하 기반 AI 랩 에퀼리브르 테크놀로지스가 5억 달러 이상 가치로 평가받고 있다.",
+        "body": "포커 AI로 이름을 알린 연구진이 게임이론·강화학습 역량을 금융으로 옮겨, 퀀트 헤지펀드를 위한 수익 창출에 나섰다. 학계·연구 출신 인재들이 고빈도·정량 트레이딩 영역에서 AI 기술을 상업화하는 대표 사례로, 몸값이 5억 달러를 넘어섰다.",
+        "url": "https://techcrunch.com/2026/06/30/the-deepmind-trio-who-built-a-poker-ai-are-now-making-money-for-quant-hedge-funds/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-01T05:33:48+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_013",
+        "title": "허깅페이스·세레브라스, '젬마 4'로 실시간 음성 AI 구현",
+        "excerpt": "허깅페이스와 세레브라스가 젬마 4를 실시간 음성 AI에 적용했다. 초저지연 추론으로 자연스러운 대화형 음성 응용을 노린다.",
+        "body": "세레브라스의 고속 추론 하드웨어와 구글 젬마 4 모델을 결합해, 지연을 최소화한 실시간 음성 상호작용을 구현했다. 오픈 모델을 활용한 음성 AI가 상용 서비스 수준의 반응 속도에 근접하고 있음을 보여주는 사례다.",
+        "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
+        "source": "Hugging Face - Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-01T09:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 8
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_020",
+        "title": "깃허브 관리자가 이번 주 당장 켜야 할 보안 설정 6가지",
+        "excerpt": "깃허브가 리포지터리 관리자를 위한 필수 보안 설정 6가지를 정리했다. 공급망 공격이 늘어난 만큼 기본기부터 다지라는 권고다.",
+        "body": "2FA 강제, 브랜치 보호, 시크릿 스캐닝, 디펜더봇 경보 등 핵심 설정을 점검하라는 내용으로, 오픈소스·기업 리포지터리 모두에 해당한다. 코딩 에이전트가 프로젝트를 대량 생성하는 시대에 사소한 설정 실수가 보안 사고로 이어질 수 있어, 기본 방어선을 확실히 갖추라는 취지다.",
+        "url": "https://github.blog/security/6-security-settings-every-github-maintainer-should-enable-this-week/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-02T00:59:29+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_021",
+        "title": "비주얼 스튜디오 코드 1.127 정식 출시",
+        "excerpt": "VS 코드 1.127 업데이트가 공개됐다. 에디터 기능과 개발 워크플로 전반의 개선이 담겼다.",
+        "body": "마이크로소프트가 월간 릴리스 주기에 맞춰 VS 코드 1.127을 내놨다. AI 코딩 통합과 에디터 편의 기능이 지속적으로 강화되고 있으며, 인사이더 채널에서는 1.128 미리보기도 함께 제공된다.",
+        "url": "https://code.visualstudio.com/updates/v1_127",
+        "source": "Visual Studio Code",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-02T02:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_022",
+        "title": "도커, 'AI 에이전트에 격리가 필요한 이유' 공개",
+        "excerpt": "도커가 AI 에이전트 격리의 중요성과 도커 SBX·샌드박스 킷을 통한 안전한 워크플로 구성 방법을 설명했다.",
+        "body": "자율적으로 코드를 실행하는 AI 에이전트가 늘면서, 시스템을 보호할 격리 환경의 필요성이 커지고 있다. 도커는 SBX와 샌드박스 킷으로 에이전트를 안전하게 실행하는 방법을 제시했으며, 앤트로픽·오픈AI의 에이전트 도구 확산과 맞물려 격리는 필수 인프라로 부상하고 있다.",
+        "url": "https://www.docker.com/blog/why-ai-agents-need-isolation/",
+        "source": "Docker Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-01T22:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_023",
+        "title": "클라우드플레어, x402 기반 '수익화 게이트웨이' 대기자 모집",
+        "excerpt": "클라우드플레어가 웹페이지·데이터셋·API·MCP 도구에 과금할 수 있는 수익화 게이트웨이의 대기자 명단을 열었다. 결제는 x402 프로토콜로 스테이블코인 정산된다.",
+        "body": "AI 에이전트가 콘텐츠와 API를 대량 소비하는 시대에, 클라우드플레어는 리소스 앞단에 과금 계층을 두는 개방형 결제 방식을 제안했다. x402 프로토콜로 스테이블코인을 통해 자동 정산되며, 창작자·API 제공자가 에이전트 트래픽으로부터 직접 수익을 얻는 구조를 지향한다.",
+        "url": "https://blog.cloudflare.com/monetization-gateway/",
+        "source": "Cloudflare Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-01T22:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_024",
+        "title": "버셀, 코드 일관성 린터 '콘시스턴트' 오픈소스 공개",
+        "excerpt": "버셀이 타입스크립트용 구조 규약 린터 콘시스턴트를 오픈소스로 공개했다. 사람과 에이전트 모두 일관된 컨텍스트로 개발하도록 돕는다.",
+        "body": "콘시스턴트는 코드베이스의 구조적 관례를 강제하는 CLI 린터로, 결정적(deterministic) 규칙을 통해 코딩 에이전트와 개발자가 동일한 컨벤션을 따르게 한다. 에이전트가 기능을 올바르게 구현하도록 일관된 맥락을 제공하는 데 초점을 맞췄다.",
+        "url": "https://vercel.com/changelog/enforce-consistent-code-for-agents-and-humans-with-konsistent",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-01T09:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_002",
+        "title": "네오클라우드 투게더AI, 8억 달러 조달…기업가치 83억 달러로 도약",
+        "excerpt": "오픈소스 모델 호스팅에 특화된 AI 네오클라우드 투게더AI가 8억 달러를 유치하며 기업가치 83억 달러를 기록했다. 2025년 초 33억 달러에서 두 배 이상 뛰었다.",
+        "body": "투게더AI는 오픈소스 모델을 위한 클라우드 인프라를 제공하며 GPU 수요 폭증의 수혜를 입고 있다. 이번 라운드로 몸값이 반년여 만에 급등해, 엔비디아 칩을 대량 확보한 '네오클라우드' 사업자들이 AI 컴퓨트 시장의 핵심 축으로 부상했음을 보여준다. 스페이스X·메타 등 대기업까지 잉여 컴퓨트 판매를 검토하는 흐름과 맞물려 인프라 경쟁이 한층 치열해지고 있다.",
+        "url": "https://techcrunch.com/2026/07/01/neocloud-together-ai-raises-800m-leaps-to-8-3b-valuation/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-07-02T03:29:14+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_004",
+        "title": "메타도 잉여 AI 컴퓨트를 현금화…클라우드 사업 추진",
+        "excerpt": "메타가 AI 컴퓨트 파워와 모델 접근을 판매하는 클라우드 인프라 사업을 준비 중이다. 성사되면 AWS·구글클라우드·애저와 정면 경쟁하게 된다.",
+        "body": "스페이스X에 이어 메타까지 자체 확보한 대규모 컴퓨트 자원을 외부에 되파는 방안을 검토하면서, 초대형 기술기업들이 AI 인프라를 새로운 수익원으로 삼는 흐름이 뚜렷해지고 있다. 기존 하이퍼스케일러가 장악한 클라우드 시장에 메타가 진입하면 컴퓨트 공급 경쟁이 격화되고, 가격·가용성 측면에서 AI 개발사들에 새로운 선택지가 생길 수 있다.",
+        "url": "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash/",
+        "source": "TechCrunch AI",
+        "category": "big_tech",
+        "publishedAt": "2026-07-01T22:43:07+09:00",
+        "readTime": 4,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_030",
+        "title": "소니, 2028년부터 신작 플레이스테이션 실물 디스크 생산 중단",
+        "excerpt": "소니가 2028년부터 모든 신작 PS 게임의 실물 디스크 생산을 중단하고 완전 디지털로 전환한다고 밝혔다.",
+        "body": "이번 결정으로 2028년 이후 신작은 플레이스테이션 스토어의 디지털 버전으로만 출시된다. 게임 보존과 소유권 측면의 우려가 제기되는 가운데, 소니는 PS3·비타 디지털 스토어 종료도 함께 예고하며 물리 매체 시대의 종말을 가속하고 있다.",
+        "url": "https://techcrunch.com/2026/07/01/sony-to-end-physical-playstation-game-discs-in-2028/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-07-01T23:16:32+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_031",
+        "title": "애플 '나의 이메일 감추기'서 실제 주소 노출 버그 주장 제기",
+        "excerpt": "한 연구자가 애플의 '나의 이메일 감추기' 기능에 실제 이메일 주소가 노출되는 버그가 있다고 주장했다. 사실이라면 기능이 사실상 무력화될 수 있다.",
+        "body": "'나의 이메일 감추기'는 임의의 별칭 주소로 실제 이메일을 가려주는 프라이버시 기능이다. 연구자는 특정 조건에서 실제 주소가 드러날 수 있다고 밝혔으며, 프라이버시를 핵심 마케팅 포인트로 삼아온 애플에 부담이 될 수 있는 사안이다.",
+        "url": "https://techcrunch.com/2026/07/01/apples-hide-my-email-feature-has-a-bug-thats-been-exposing-real-email-addresses-researcher-claims/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-07-02T04:18:07+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_032",
+        "title": "스페이스X, '휴대폰스러운' AI 기기 시제품 공개…무선 진출 신호탄?",
+        "excerpt": "스페이스X가 상장 전 투자자들에게 '핸드셋형' AI 기기를 선보였다는 보도가 나왔다. 무선 사업 확장의 또 다른 신호로 해석된다.",
+        "body": "스페이스X가 스타링크 위성망을 등에 업고 소비자용 무선 시장 진출을 노리고 있다는 관측 속에, 휴대폰과 유사한 형태의 AI 기기 시제품이 등장했다. 하드웨어와 위성 연결을 결합한 새로운 단말 전략이 될 수 있어 통신·디바이스 업계의 관심을 끈다.",
+        "url": "https://techcrunch.com/2026/07/01/spacex-has-an-ai-device-prototype-and-it-sure-sounds-phone-ish/",
+        "source": "TechCrunch AI",
+        "category": "big_tech",
+        "publishedAt": "2026-07-02T03:54:18+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_033",
+        "title": "'인터넷의 아버지' 빈트 서프, 마침내 은퇴",
+        "excerpt": "인터넷 기반 프로토콜의 창시자 중 한 명인 빈트 서프가 다음 주 구글 수석 인터넷 전도사 자리에서 물러난다.",
+        "body": "TCP/IP 공동 설계로 인터넷의 토대를 놓은 빈트 서프가 오랜 공직·업계 생활을 마무리한다. 그는 구글에서 '인터넷 전도사'로 활동하며 개방형 인터넷과 접근성 확대를 주창해왔으며, 한 시대를 상징하는 인물의 퇴장이라는 평가가 나온다.",
+        "url": "https://techcrunch.com/2026/06/30/the-father-of-the-internet-is-finally-retiring/",
+        "source": "TechCrunch AI",
+        "category": "big_tech",
+        "publishedAt": "2026-07-01T12:15:37+09:00",
+        "readTime": 3,
+        "imageGradient": 8
+      },
+      {
+        "id": "rss_034",
+        "title": "엔비디아·파트너사, '미국에서, 미국을 위해' 제조 투자 확대",
+        "excerpt": "엔비디아와 파트너들이 미국 내 제조·공급망·전력망·인력 양성에 투자한다. AI 인프라를 자국에서 생산하기 위한 행보다.",
+        "body": "엔비디아는 미국이 의료·과학·산업 혁신에 필요한 AI 인프라를 자체 생산할 수 있도록 제조 역량과 숙련 인력, 에너지 그리드에 투자한다고 밝혔다. 지정학적 공급망 리스크가 부각되는 가운데, AI 하드웨어의 '메이드 인 아메리카' 흐름을 강화하는 조치다.",
+        "url": "https://blogs.nvidia.com/blog/nvidia-and-partners-build-in-america-for-america/",
+        "source": "NVIDIA Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-07-01T22:00:47+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Fable 5가 돌아왔습니다.",
+        "context": "앤트로픽 공식 계정이 수출 통제 해제에 따라 페이블 5의 전 세계 재개를 알린 짧은 공지다.",
+        "url": "https://x.com/claudeai/status/2072402636813607381",
+        "publishedAt": "2026-07-01T19:31:06.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "상무부가 Claude Fable 5와 Mythos 5에 대한 수출 통제를 해제했다는 통지를 받았습니다. 내일부터 액세스 복원을 시작하며, 곧 업데이트를 공유하겠습니다. 사용자들의 인내에 감사드리며, 모델 재배포를 위해 저희와 함께 노력해 주신 모든 분께도 감사의 말씀을 드립니다.",
+        "context": "상무부의 수출 통제 해제 통지를 받았다며 페이블 5·미토스 5 접근 복원 착수를 밝힌 앤트로픽의 공식 발표다.",
+        "url": "https://x.com/AnthropicAI/status/2072106151890809341",
+        "publishedAt": "2026-06-30T23:52:59.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "GeneBench-Pro 소개 — 모델이 실세계 계산 생물학에서 요구하는 판단 중심의 분석을 처리할 수 있는지 테스트합니다. 문제들은 인간 전문가에게 약 20-40시간이 걸려 해결할 수 있습니다. GPT-5.6 Sol은 큰 진전입니다.",
+        "context": "그렉 브록먼이 GPT-5.6 Sol의 GeneBench-Pro 성과를 강조하며 계산 생물학 분야의 진전을 소개한 트윗이다.",
+        "url": "https://x.com/gdb/status/2072191801122038207",
+        "publishedAt": "2026-07-01T05:33:19.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Mira Murati",
+        "handle": "miramurati",
+        "content": "Bridgewater는 그들의 독특한 금융 지식을 활용해 @tinkerapi 와 파트너십을 맺고, 그들의 분석가들이 중요한 것에 집중할 수 있도록 돕는 모델을 미세 조정했습니다. 전문가들이 전문가들을 강화하는 AI를 개선하는 것.",
+        "context": "미라 무라티가 브리지워터와의 파트너십으로 금융 분석가를 돕는 파인튜닝 모델을 공개했다고 알린 글이다.",
+        "url": "https://x.com/miramurati/status/2072050039317578236",
+        "publishedAt": "2026-06-30T20:10:00.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Jack Clark",
+        "handle": "jackclarkSF",
+        "content": "비록 많은 전문가들이 특이점의 본질에 대해 의견이 분분하지만, 모두가 '진정한 초입'의 시작을 구분하는 경계가 2026년 6월 30일, 즉 arXiv가 적자에서 흑자로 전환된 날에 놓여 있다는 데 동의합니다.",
+        "context": "잭 클라크가 arXiv의 흑자 전환일(6월 30일)을 특이점의 상징적 기점으로 빗댄 위트 있는 트윗이다.",
+        "url": "https://x.com/jackclarkSF/status/2072104836192141477",
+        "publishedAt": "2026-06-30T23:47:45.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Felix Rieseberg",
+        "handle": "felixrieseberg",
+        "content": "아마 2026년이 마침내 리눅스 데스크톱의 해가 될지도 몰라요! 우리는 Claude 데스크톱 앱을 리눅스용으로 출시합니다. Claude Code, Claude Cowork, 그리고 채팅을 포함해서요.",
+        "context": "펠릭스 리제베르크가 클로드 데스크톱 앱의 리눅스 정식 출시를 알린 글로, 코드·코워크·채팅을 모두 지원한다.",
+        "url": "https://x.com/felixrieseberg/status/2072001084080693602",
+        "publishedAt": "2026-06-30T16:55:29.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "Etched",
+        "handle": "Etched",
+        "content": "우리는 스텔스 모드에서 벗어나고 있습니다. 성공적인 A0 테이프아웃, 10억 달러 이상의 고객 계약, 그리고 8억 달러의 자금 조달 이후 첫 랙을 구축했습니다. 초기 고객 테스트에서 추론 작업에서 SOTA 처리량, 지연 시간, 전력 효율성을 달성한 것으로 나타났습니다. 첫 랙은 이번 여름에",
+        "context": "AI 추론 전용 칩 스타트업 에치드가 스텔스 모드를 벗어나며 SOTA 처리량·전력 효율을 달성했다고 밝힌 트윗이다.",
+        "url": "https://x.com/Etched/status/2071972062202343590",
+        "publishedAt": "2026-06-30T15:00:09.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "우리는 데이터 인프라에서 1년 치의 충돌을 디버깅했고, 하드웨어에서 한 가지 문제를 발견했으며, 오픈 소스 코드에서 18년 동안 눈치채지 못한 또 다른 문제를 발견했습니다. 이 문제를 추적한 방법은 다음과 같습니다:",
+        "context": "오픈AI 개발자 계정이 오픈소스 코드에서 18년간 발견되지 않은 버그를 추적한 과정을 공유한 글이다.",
+        "url": "https://x.com/OpenAIDevs/status/2071995642436800916",
+        "publishedAt": "2026-06-30T16:33:51.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "NVIDIA 연구진이 로봇이 스스로 기술을 축적하는 학습 시스템 'ASPIRE'를 공개했습니다. 새로운 작업을 수행할 때마다 기술을 라이브러리에 저장하고 개선해 다음 작업에 재활용하는 방식으로, 150개 이상의 작업과 90개 이상의 기술을 자동으로 축적했으며 시뮬레이션에서 학습한 기술을 실제 로봇에 더 빠르게 적용하고 다른 형태의 로봇으로도 효율적으로 전이할 수 있었다고 설명했습니다.",
+        "context": "엔비디아의 로봇 자기학습 시스템 ASPIRE를 소개한 게시물로, 기술을 축적·재활용해 다양한 로봇으로 전이한다.",
+        "url": "https://www.threads.net/@choi.openai/post/DaQuAksDGIT",
+        "publishedAt": "2026-07-02T05:00:00+09:00"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "Ollama가 'Gemma 4'의 실행 속도를 크게 높였습니다. Apple Silicon 환경에서 'Multi-Token Prediction(MTP)'을 기본 활성화해 코딩 작업 기준 토큰 생성 속도가 평균 약 90% 빨라졌는데요. 생성 과정에서 초안 토큰 개수를 자동으로 조절해 성능이 떨어지는 상황에서는 일반 추론으로 전환합니다. 이번 최적화는 Ollama 0.31부터 제공됩니다.",
+        "context": "Ollama가 애플 실리콘에서 MTP를 기본 활성화해 젬마 4 생성 속도를 약 90% 높였다는 소식이다.",
+        "url": "https://www.threads.net/@choi.openai/post/DaQjrhSj-fT",
+        "publishedAt": "2026-07-02T04:00:00+09:00"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "arXiv, 25년 만에 코넬대서 독립…비영리 기관으로 분사",
+        "originalTitle": "On July 1, 2026, arXiv will spin out from Cornell University, its home for the past 25 years, to become an independent nonprofit organization. Major funding support from Simons Foundation and Schmidt Sciences. Ditching the red for their website. [N]",
+        "summary": "논문 아카이브 arXiv가 25년간 몸담은 코넬대에서 독립해 비영리 기관으로 분사한다. 사이먼스 재단·슈밋 사이언스가 주요 자금을 지원한다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1ukjtlm/on_july_1_2026_arxiv_will_spin_out_from_cornell/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-07-01T21:07:43+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "닫힌 모델과 열린 모델 격차, 생각보다 작을 수 있다",
+        "originalTitle": "The gap between closed and open models might be much smaller than commonly assumed, because we don’t know what closed model providers do *in addition to* model inference",
+        "summary": "폐쇄형 모델 제공사가 추론 외에 어떤 추가 처리를 하는지 알 수 없기에, 실제 모델 성능 격차는 통념보다 작을 수 있다는 문제 제기다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ukp2bu/the_gap_between_closed_and_open_models_might_be/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-07-02T00:35:24+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "클로드 코드 참사: 중국어 프롬프트 중 프로젝트 전체 재귀 삭제",
+        "originalTitle": "Claude Code catastrophe: Entire project recursively deleted while prompting in Chinese (full video + logs)",
+        "summary": "한 사용자가 중국어로 프롬프트하던 중 클로드 코드가 프로젝트 전체를 재귀적으로 삭제한 사례를 영상·로그와 함께 공유했다. 에이전트 안전성 논쟁을 촉발했다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1ukq4br/claude_code_catastrophe_entire_project/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-07-02T01:13:36+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "'스스로 먹고 자라고 복제하는' 인공 세포 최초 제작 주장",
+        "originalTitle": "Scientists say they have built a cell from scratch for the first time that can feed, grow and replicate like a natural cell",
+        "summary": "과학자들이 자연 세포처럼 영양분을 흡수하고 성장·복제하는 세포를 처음으로 처음부터 만들어냈다고 주장했다. 합성생물학의 이정표로 주목받는다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1ukr5zv/scientists_say_they_have_built_a_cell_from/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-07-02T01:52:23+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "아르민 로나허, '에이전트 루프' 미래에 깊은 불안 토로",
+        "originalTitle": "Armin Ronacher is very uneasy about the agent loops future",
+        "summary": "저명 개발자 아르민 로나허가 자율 에이전트 루프가 지배할 개발 미래에 대해 불편함을 드러낸 글이 실무 개발자 사이에서 화제다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1ukttup/armin_ronacher_is_very_uneasy_about_the_agent/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-07-02T03:29:40+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "오픈소스는 감사받지 못하는 일…메인테이너 대우를 다시 보자",
+        "originalTitle": "Open source is a thankless job and I think we've lost the plot on how we treat maintainers",
+        "summary": "오픈소스 유지보수자가 제대로 대우받지 못하는 현실을 지적하며, 커뮤니티가 메인테이너를 다루는 방식을 재고해야 한다는 주장이다.",
+        "url": "https://www.reddit.com/r/programming/comments/1ukim8j/open_source_is_a_thankless_job_and_i_think_weve/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-07-01T20:09:38+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "TPP: 더 주목받아야 할 무명의 행렬 곱셈 알고리즘",
+        "originalTitle": "TPP: The Obscure Matrix Multiplication Algorithm That Deserves More Attention",
+        "summary": "잘 알려지지 않은 행렬 곱셈 기법 TPP가 성능 면에서 재조명할 가치가 있다는 기술 소개 글이다.",
+        "url": "https://www.reddit.com/r/programming/comments/1ukn5ex/tpp_the_obscure_matrix_multiplication_algorithm/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-07-01T23:24:12+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "대규모 벤치마크 업데이트 공개",
+        "originalTitle": "Huge benchmark update",
+        "summary": "r/OpenAI에서 주요 모델들의 대규모 벤치마크 업데이트가 공유되며, 최신 성능 비교를 둘러싼 토론이 이어졌다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1ukiora/huge_benchmark_update/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-07-01T20:13:10+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "qb_001",
+        "title": "GLM 제작사가 만든 클로드 코드형 도구 'ZCode' 등장",
+        "excerpt": "GLM 모델을 만든 팀이 클로드 코드에 대응하는 코딩 에이전트 ZCode를 공개해 화제가 됐다.",
+        "body": "중국 z.ai 팀이 자사 GLM 모델을 기반으로 클로드 코드와 유사한 터미널 코딩 에이전트 ZCode를 선보였다. 해커뉴스에서 높은 관심을 받으며 오픈·중국권 모델 진영의 에이전트 도구 경쟁이 본격화되고 있음을 보여준다.",
+        "url": "https://zcode.z.ai/cn",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-02T04:11:38+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      },
+      {
+        "id": "qb_002",
+        "title": "쿠버네티스를 브라우저로 포팅한 'webernetes' 공개",
+        "excerpt": "쿠버네티스 일부를 타입스크립트로 옮겨 브라우저에서 클러스터를 실행하는 실험적 프로젝트 webernetes가 등장했다.",
+        "body": "webernetes는 WASM으로 통째 컴파일하는 대신 kubelet 일부와 여러 컨트롤러를 타입스크립트로 재구현해 브라우저 안에서 클러스터를 돌린다. 2개월간 552커밋·약 10만 줄 규모로 만들어진 독특한 시도다.",
+        "url": "https://news.hada.io/topic?id=31014",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-02T02:40:59+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "qb_003",
+        "title": "클릭하우스 OLAP 엔진, 웹어셈블리로 완전 컴파일",
+        "excerpt": "완전한 클릭하우스 OLAP 엔진이 웹어셈블리로 컴파일돼 브라우저에서 구동 가능해졌다.",
+        "body": "chdb를 WASM으로 빌드해 서버 없이 브라우저에서 대용량 분석 쿼리를 실행할 수 있게 됐다. 로컬·엣지 환경에서 데이터 분석을 수행하려는 수요에 부합하는 프로젝트다.",
+        "url": "https://wasm.chdb.io/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-02T02:05:00+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      },
+      {
+        "id": "qb_004",
+        "title": "IPFS 콘텐츠 발행 속도 10배 개선기",
+        "excerpt": "프로브랩이 낙관적 프로바이드 기법으로 IPFS 콘텐츠 발행 속도를 10배 높인 과정을 공개했다.",
+        "body": "DHT에 콘텐츠를 알리는 과정을 낙관적으로 병렬화해 지연을 크게 줄였다. 분산 스토리지의 고질적 성능 병목을 완화한 사례로 주목받았다.",
+        "url": "https://probelab.io/blog/optimistic-provide/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-02T00:30:35+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      },
+      {
+        "id": "qb_005",
+        "title": "그래픽스 프로그래머가 되려면 무엇을 배워야 하나",
+        "excerpt": "그래픽스 프로그래밍 입문자를 위해 학습 경로와 핵심 개념을 정리한 가이드가 인기를 끌었다.",
+        "body": "수학·렌더링 파이프라인·셰이더 등 그래픽스 프로그래머에게 필요한 기초를 단계별로 안내한다. 진입 장벽이 높은 분야의 학습 로드맵을 제시해 개발자들의 호응을 얻었다.",
+        "url": "https://blog.demofox.org/2026/07/01/what-to-learn-to-be-a-graphics-programmer/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-02T02:53:44+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "qb_006",
+        "title": "CERN, LHC 운전 종료하고 'Long Shutdown 3' 돌입",
+        "excerpt": "세계 최강 입자가속기 LHC가 마지막 물리 운전을 마치고 고광도 LHC 준비를 위한 장기 정지(LS3)에 들어갔다.",
+        "body": "2008년 첫 빔 순환 이후 Run 1~3에서 힉스 보손 발견과 85개 이상의 하드론 발견 등 성과를 낸 LHC가 업그레이드를 위해 가동을 멈춘다. 고광도 LHC로 재가동을 준비하는 중대한 전환점이다.",
+        "url": "https://news.hada.io/topic?id=31015",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-02T02:43:59+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      }
+    ]
+  }
+}
