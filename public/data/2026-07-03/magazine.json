@@ -1,0 +1,463 @@
+{
+  "date": "2026-07-03",
+  "issueNumber": 91,
+  "cover": {
+    "mainHeadline": "앤트로픽, 삼성과 자체 AI 칩 개발 논의 — 프런티어 랩 '실리콘 독립' 경쟁 가속",
+    "mainExcerpt": "앤트로픽이 삼성과 손잡고 자체 AI 칩 개발을 논의 중이다. OpenAI가 브로드컴과 자체 칩을 발표한 지 일주일 만으로, 엔비디아 의존도를 낮추려는 주요 AI 기업들의 움직임이 본격화되고 있다.",
+    "headlines": [
+      "OpenAI, 지분 5%를 미국 국부펀드에 기부 제안",
+      "마이크로소프트, 25억 달러 규모 AI 배포 회사 설립",
+      "클라우드플레어, AI 기업에 콘텐츠 대가 지불 압박 — 9월 15일 시한"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_001",
+      "title": "앤트로픽, 삼성과 자체 AI 칩 개발 논의",
+      "excerpt": "앤트로픽이 삼성과 자체 AI 칩 개발을 논의 중이라는 보도가 나왔다. OpenAI가 브로드컴과 손잡고 자체 칩을 발표한 지 약 일주일 만이다.",
+      "body": "앤트로픽이 삼성과 협력해 자체 맞춤형 AI 칩을 개발하는 방안을 논의하고 있다고 전해졌다. 이는 엔비디아 GPU 의존도를 낮추고 추론 비용을 절감하려는 주요 AI 기업들의 흐름과 맥을 같이한다. OpenAI가 브로드컴과의 파트너십으로 자체 칩을 공개한 지 불과 일주일 만에 나온 소식으로, 프런티어 랩들의 자체 실리콘 경쟁이 본격화되고 있음을 보여준다.",
+      "url": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-07-03T03:31:09+09:00",
+      "readTime": 4,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_002",
+      "title": "OpenAI, 지분 5%를 미국 국부펀드에 기부 제안",
+      "excerpt": "샘 올트먼이 OpenAI 지분 5%를 미국 국부펀드에 기부하겠다고 제안한 것으로 알려졌다. AI 붐의 financial 이익을 대중과 공유하는 논의를 되살렸다.",
+      "body": "샘 올트먼 OpenAI CEO가 회사 지분의 5%를 미국 국부펀드(sovereign wealth fund)에 기부하겠다고 제안한 것으로 보도됐다. 이는 AI 붐이 창출하는 경제적 이익을 일반 대중이 나눠 가질 수 있게 하자는 논의를 다시 불러일으켰다. 정부와 AI 기업 간 관계 재편이 진행되는 가운데 나온 파격적 제안으로 평가된다.",
+      "url": "https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-07-03T00:20:51+09:00",
+      "readTime": 4,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_003",
+      "title": "마이크로소프트, 25억 달러 규모 AI 배포 회사 설립",
+      "excerpt": "마이크로소프트가 25억 달러를 투입해 자체 AI 배포 회사를 설립했다. 아마존, OpenAI, 앤트로픽에 이은 행보다.",
+      "body": "마이크로소프트가 25억 달러 투자를 약속하며 자체 AI 배포(deployment) 조직을 신설했다. 이는 아마존, OpenAI, 앤트로픽이 각각 AI 배포 그룹을 꾸린 데 이은 것으로, AI 모델을 실제 기업 환경에 통합·운영하는 배포 단계가 새로운 경쟁 전장이 되고 있음을 보여준다.",
+      "url": "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-07-02T22:53:00+09:00",
+      "readTime": 4,
+      "imageGradient": 2
+    },
+    {
+      "id": "rss_004",
+      "title": "클라우드플레어, AI 기업에 콘텐츠 대가 지불 압박",
+      "excerpt": "클라우드플레어가 AI 기업들에게 9월 15일까지 검색용 크롤러와 AI 학습·에이전트용 크롤러를 분리하도록 요구했다. 따르지 않으면 다수 퍼블리셔 사이트에서 기본 차단된다.",
+      "body": "클라우드플레어가 새 정책을 통해 AI 기업들에게 9월 15일까지 검색용 웹 크롤러와 AI 학습·에이전트용 크롤러를 명확히 분리할 것을 요구했다. 이를 이행하지 않는 봇은 다수의 퍼블리셔 사이트에서 기본적으로 차단된다. 콘텐츠 창작자에게 AI 학습 대가를 지불하도록 강제하려는 움직임으로, 웹 콘텐츠 수익화 구조에 큰 변화를 예고한다.",
+      "url": "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-07-02T02:48:37+09:00",
+      "readTime": 4,
+      "imageGradient": 3
+    },
+    {
+      "id": "rss_005",
+      "title": "메타, 남는 AI 연산력을 현금화 추진",
+      "excerpt": "메타가 AI 연산력과 모델 접근권을 판매하는 클라우드 인프라 사업을 준비 중이다. AWS, 구글 클라우드, 애저와 정면 경쟁하게 된다.",
+      "body": "메타가 자사의 잉여 AI 연산 자원과 모델 접근권을 판매하는 클라우드 인프라 사업 계획을 마련하고 있다. 실현되면 아마존 웹서비스(AWS), 구글 클라우드, 마이크로소프트 애저 같은 대형 클라우드 사업자와 직접 경쟁하게 된다. 스페이스X와 유사하게, 막대한 AI 인프라 투자를 수익으로 전환하려는 시도다.",
+      "url": "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-07-01T22:43:07+09:00",
+      "readTime": 4,
+      "imageGradient": 4
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_101",
+        "title": "제미나이 스파크, 이제 맥에서도 사용 가능",
+        "excerpt": "구글의 24시간 에이전트 비서 제미나이 스파크가 맥에 출시됐다. 실시간 추적과 더 많은 앱 지원이 함께 추가됐다.",
+        "body": "구글의 상시 작동 에이전트 비서 '제미나이 스파크'가 맥에서도 사용 가능해졌다. 실시간 작업 추적, 더 많은 앱 지원 등의 개선이 함께 이뤄졌다. 데스크톱 전반으로 에이전트형 비서의 저변이 확대되고 있다.",
+        "url": "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-01T23:20:19+09:00",
+        "readTime": 4,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_102",
+        "title": "프라이버시 우선 '베니스 AI', 6500만 달러 유치하며 유니콘 등극",
+        "excerpt": "프라이버시 중심 AI 플랫폼 베니스 AI가 6500만 달러 시리즈 A로 유니콘이 됐다. 이미 흑자이며 연환산 매출 7000만 달러를 넘는다.",
+        "body": "프라이버시를 최우선으로 하는 AI 플랫폼 베니스 AI가 6500만 달러 규모 시리즈 A 투자를 유치하며 유니콘 기업이 됐다. 에릭 부어히스 CEO에 따르면 회사는 이미 흑자를 내고 있으며 연환산 매출(run-rate)이 7000만 달러를 넘는다. 프라이버시 보장을 차별점으로 내세운 AI 서비스의 성장세를 보여준다.",
+        "url": "https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-01T23:25:23+09:00",
+        "readTime": 4,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_103",
+        "title": "인도 IT 거물, 사재 3000만 달러로 'MS 오피스 대항마' 개발",
+        "excerpt": "바빈 투라키아가 사재 3000만 달러를 투입해 AI 기반 오피스 대안 'Neo'를 만든다. MS 오피스와 구글 앱스에 도전한다.",
+        "body": "인도 IT 거물 바빈 투라키아가 자신의 돈 3000만 달러를 걸고 다섯 번째 창업에 나섰다. 신규 벤처 'Neo'는 AI를 앞세워 마이크로소프트 오피스와 구글 워크스페이스에 도전하는 기업용 생산성 소프트웨어다. 오피스 시장의 AI 재편 경쟁에 새 도전자가 등장했다.",
+        "url": "https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-02T14:30:00+09:00",
+        "readTime": 4,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_104",
+        "title": "메타, 바이브코딩 게임 앱 '포켓' 조용히 출시",
+        "excerpt": "메타가 텍스트 프롬프트로 미니 게임을 생성·공유하는 실험적 AI 앱 '포켓'을 조용히 선보였다.",
+        "body": "메타가 사용자가 텍스트 프롬프트만으로 인터랙티브 미니 게임을 생성하고 공유할 수 있는 실험적 AI 앱 '포켓(Pocket)'을 조용히 출시했다. 이른바 '바이브코딩'을 소비자 게임 영역으로 확장한 시도로, 생성형 AI를 활용한 캐주얼 게임 제작 트렌드를 보여준다.",
+        "url": "https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-03T03:44:02+09:00",
+        "readTime": 4,
+        "imageGradient": 8
+      },
+      {
+        "id": "rss_105",
+        "title": "스페이스X, '폰 같은' AI 기기 프로토타입 공개",
+        "excerpt": "스페이스X가 상장 전 투자자들에게 '핸드셋 형태'의 AI 기기를 선보였다. 무선 사업 확장 신호일 수 있다.",
+        "body": "스페이스X가 기업공개(IPO)를 앞두고 투자자들에게 '핸드셋과 유사한' AI 기기 프로토타입을 시연한 것으로 전해졌다. 이는 스페이스X가 위성 통신을 넘어 무선 단말·통신 사업으로 영역을 확장하려는 신호로 해석된다.",
+        "url": "https://techcrunch.com/2026/07/01/spacex-has-an-ai-device-prototype-and-it-sure-sounds-phone-ish/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-02T03:54:18+09:00",
+        "readTime": 4,
+        "imageGradient": 9
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_201",
+        "title": "비주얼 스튜디오 코드 1.127 출시",
+        "excerpt": "마이크로소프트가 VS Code 1.127 정식 버전을 공개했다.",
+        "body": "마이크로소프트가 인기 코드 에디터 비주얼 스튜디오 코드(VS Code)의 1.127 버전을 출시했다. 새로운 기능과 개선 사항이 포함됐으며, 인사이더 채널에서는 1.128 버전도 함께 공개됐다.",
+        "url": "https://code.visualstudio.com/updates/v1_127",
+        "source": "Visual Studio Code",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-02T02:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_202",
+        "title": "버셀 AI 게이트웨이, 라우팅 규칙 지원",
+        "excerpt": "버셀 AI 게이트웨이가 방화벽 형태의 라우팅 규칙을 지원한다. 팀이 사용할 모델을 게이트웨이 레벨에서 제어할 수 있다.",
+        "body": "버셀 AI 게이트웨이가 '라우팅 규칙(routing rules)'을 도입했다. 이는 애플리케이션 코드가 아닌 게이트웨이 레벨에서 팀이 어떤 모델을 사용할 수 있는지 통제하는 방화벽 스타일 규칙이다. 모델이 중단되거나 폐기될 때 코드 배포 없이 규칙 하나만 수정하면 모든 요청이 즉시 다른 모델로 재라우팅된다.",
+        "url": "https://vercel.com/changelog/ai-gateway-routing-rules",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-02T09:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_203",
+        "title": "깃허브, 시크릿 스캐닝으로 '인박스 제로' 달성",
+        "excerpt": "깃허브가 1만5000개 저장소에 걸친 2만여 개 시크릿 스캐닝 경고를 정리해 인박스 제로를 달성한 방법을 공개했다.",
+        "body": "깃허브는 1만5000개 이상의 저장소에 걸쳐 2만 건이 넘는 시크릿 스캐닝 경고를 안고 있었다. 이 글에서는 노이즈와 신호를 분리하고, 조치(remediation) 워크플로우를 구축해 내부적으로 '인박스 제로'에 도달한 과정을 상세히 설명한다. 대규모 조직의 보안 경고 관리에 실질적 참고가 된다.",
+        "url": "https://github.blog/security/application-security/how-github-used-secret-scanning-to-reach-inbox-zero/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-03T01:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_204",
+        "title": "클라우드플레어, x402 기반 '수익화 게이트웨이' 발표",
+        "excerpt": "클라우드플레어가 x402 프로토콜로 클라우드플레어 뒤의 모든 리소스에 과금할 수 있는 수익화 게이트웨이를 선보였다.",
+        "body": "클라우드플레어가 x402 결제 프로토콜을 활용해 클라우드플레어를 거치는 모든 리소스에 대해 과금할 수 있는 '수익화 게이트웨이(Monetization Gateway)'를 발표했다. AI 에이전트와 봇이 콘텐츠·API에 접근할 때 대가를 지불하도록 하는 인프라로, 콘텐츠 수익화 정책 강화와 맞물린다.",
+        "url": "https://blog.cloudflare.com/monetization-gateway/",
+        "source": "Cloudflare Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-01T22:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 3
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_301",
+        "title": "AI의 진짜 비용 경고 — 구글·아마존의 탄소 딜레마",
+        "excerpt": "AI가 아마존과 구글 같은 기업의 넷제로 달성을 크게 어렵게 만들고 있다는 분석이다.",
+        "body": "AI 연산 수요 급증이 아마존, 구글 등 빅테크의 '넷제로(net-zero)' 탄소 감축 약속 이행을 훨씬 어렵게 만들고 있다. 데이터센터 전력 소비가 폭증하면서 기후 목표와 AI 확장 사이의 긴장이 커지고 있다. AI의 환경적 비용이 본격적으로 드러나기 시작했다는 경고다.",
+        "url": "https://techcrunch.com/2026/07/02/a-warning-sign-about-ais-real-cost-courtesy-of-google-and-amazon/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-07-03T04:14:46+09:00",
+        "readTime": 4,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_302",
+        "title": "엔비디아, 대규모 AI 연산 개방…인프라 파트너 초청",
+        "excerpt": "엔비디아가 대규모 다중 테넌트 가속 컴퓨팅을 빠르게 공급하기 위해 자본 파트너들을 초청했다.",
+        "body": "AI가 모델 개발에서 프로덕션 추론 단계로 이동하면서, 토큰을 대규모로 생성하는 상시 가동 'AI 팩토리'에 대한 연산 수요가 급증하고 있다. 엔비디아는 빠르게 온라인화되고 높은 가동률을 유지하는 대규모 다중 테넌트 가속 컴퓨팅을 공급하기 위해 자본·인프라 파트너들을 초청한다고 밝혔다.",
+        "url": "https://blogs.nvidia.com/blog/nvidia-unlocks-ai-compute-at-scale-capital-partners-to-power-ai-infrastructure-buildout/",
+        "source": "NVIDIA Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-07-02T12:34:48+09:00",
+        "readTime": 4,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_303",
+        "title": "테슬라, 2분기 판매 25% 급증",
+        "excerpt": "테슬라가 2분기 생산 확대에 힘입어 판매가 25% 급증했다.",
+        "body": "테슬라의 2026년 2분기 판매가 전분기 대비 크게 늘며 25% 급증했다. 생산 램프업이 실적을 견인했으며, 최근 부진했던 판매 흐름을 반전시키는 신호로 주목된다.",
+        "url": "https://techcrunch.com/2026/07/02/tesla-saw-a-massive-sales-jump-in-the-second-quarter/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-07-02T22:20:15+09:00",
+        "readTime": 4,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_304",
+        "title": "미국 정부, 또다시 해킹 당했다",
+        "excerpt": "미국 정부가 다시 한 번 해킹 피해를 입었다고 밝혔다.",
+        "body": "미국 정부가 또 한 차례 사이버 공격으로 시스템이 침해됐다고 인정했다. 반복되는 정부 기관 해킹 사례는 공공 부문 사이버 보안의 취약성에 대한 우려를 다시 키우고 있다.",
+        "url": "https://techcrunch.com/2026/07/02/us-government-says-it-got-hacked-again/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-07-02T23:22:36+09:00",
+        "readTime": 4,
+        "imageGradient": 7
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "상무부가 Claude Fable 5와 Mythos 5에 대한 수출 통제를 해제했다는 통지를 받았습니다. 내일부터 액세스 복원을 시작하며 곧 업데이트를 공유하겠습니다.",
+        "context": "앤트로픽이 미국 상무부의 수출 통제 해제 통지를 받고 Fable 5·Mythos 5 모델 접근 복원에 나섰다는 공식 발표. 최근 트럼프 행정부의 규제 해제 흐름과 직접 연결된다.",
+        "url": "https://x.com/AnthropicAI/status/2072106151890809341",
+        "publishedAt": "2026-06-30T23:52:59.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "Claude Fable 5가 내일부터 다시 전 세계에서 이용 가능해집니다. 새로운 분류기로 사이버 보안 작업을 더 효과적으로 차단하도록 모델을 재배포하며, 단기적으로 코딩·디버깅 같은 일상 작업은 Opus 4.8로 대체됩니다.",
+        "context": "Fable 5 글로벌 재출시와 보안 강화 재배포 계획을 설명한 앤트로픽의 공식 트윗. 정부와의 대화를 거친 안전장치 강화가 핵심이다.",
+        "url": "https://x.com/AnthropicAI/status/2072163884430229756",
+        "publishedAt": "2026-07-01T03:42:23.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "GeneBench-Pro 소개 — 모델이 실세계 계산 생물학이 요구하는 판단 중심 분석을 처리할 수 있는지 테스트합니다. 문제는 인간 전문가에게 20~40시간이 걸립니다. GPT-5.6 Sol은 큰 진전입니다.",
+        "context": "OpenAI가 계산 생물학 분야의 새 벤치마크 GeneBench-Pro를 공개하고 GPT-5.6 Sol의 성과를 강조한 트윗. AI의 과학 연구 활용 가능성을 보여준다.",
+        "url": "https://x.com/gdb/status/2072191801122038207",
+        "publishedAt": "2026-07-01T05:33:19.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "월드컵 경기에 가는 건 늘 멋지지만, 미국 독립기념일 주간에 미국에서 미국이 이기는 걸 보는 건 정말 놀라웠어.",
+        "context": "샘 올트먼이 미국 독립기념일 주간에 월드컵 경기를 관람한 소감을 남긴 개인적 트윗.",
+        "url": "https://x.com/sama/status/2072773542576586790",
+        "publishedAt": "2026-07-02T20:04:57.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Mira Murati",
+        "handle": "miramurati",
+        "content": "브리지워터가 고유의 금융 지식을 활용해 Tinker와 파트너십을 맺고, 분석가들이 중요한 일에 집중하도록 돕는 모델을 미세조정했습니다. 전문가가 전문가를 강화하는 AI를 개선하는 일입니다.",
+        "context": "미라 무라티가 자신의 스타트업 Tinker와 헤지펀드 브리지워터의 협업을 소개한 트윗. 도메인 전문성을 살린 모델 파인튜닝 사례다.",
+        "url": "https://x.com/miramurati/status/2072050039317578236",
+        "publishedAt": "2026-06-30T20:10:00.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Jack Clark",
+        "handle": "jackclarkSF",
+        "content": "많은 전문가가 특이점의 본질을 두고 의견이 갈리지만, '진정한 초입'의 경계가 arXiv가 흑자로 전환된 2026년 6월 30일에 있다는 데는 모두 동의합니다.",
+        "context": "앤트로픽의 잭 클라크가 AI 특이점을 소재로 한 위트 있는 트윗. arXiv 재정 전환을 상징적 분기점으로 빗댔다.",
+        "url": "https://x.com/jackclarkSF/status/2072104836192141477",
+        "publishedAt": "2026-06-30T23:47:45.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "보리스 체르니와 캣 우와의 대화: Claude Code에서 Claude Tag으로 이어진 여정, 그리고 그것이 앤트로픽 엔지니어링 전반으로 퍼진 방법. Claude Fable 5를 이제 Claude Tag에서 쓸 수 있습니다.",
+        "context": "앤트로픽이 자사 개발 도구 Claude Tag과 Fable 5 통합을 소개한 트윗. 내부 엔지니어링 문화 확산 사례를 담았다.",
+        "url": "https://x.com/claudeai/status/2072725610061803522",
+        "publishedAt": "2026-07-02T16:54:29.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "사티야 나델라: 단순히 파운데이션 모델을 소비하는 데 그치면 기업 고유의 가치를 유지·창출하기 어렵다. 참된 혁신은 모든 기업이 프런티어 모델로 자신만의 '힐 클라이밍 머신'을 구축할 때 시작된다. 기업은 고유의 데이터와 과제를 바탕으로 자체 강화학습(RL) 환경과 평가 시스템(Evals)을 설계해 모델을 지속 고도화하고, 인간 자본뿐 아니라 토큰 자본까지 결합해 고유 IP를 축적해야 한다고 강조했다.",
+        "context": "OpenAI 관련 소식을 전하는 한국어 스레드 계정의 게시물.",
+        "url": "https://www.threads.net/@choi.openai/post/DaTWJOLESyP",
+        "publishedAt": "2026-07-02T19:30:01.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "에릭 슈미트: 미국이 글로벌 기술 경쟁에서 중국을 압도하지 못하고 있다며 강한 우려를 표했다. 중국은 AI·양자컴퓨팅 전 분야 우위를 위해 막대한 투자를 하고 있으며, 인류를 뛰어넘는 '초지능'이 10년 내 등장할 수 있다고 내다봤다. 중국이 초지능에 먼저 도달하면 지금 상상할 수 없는 대미 공격 벡터를 찾아낼 것이라 경고하며, 기술 혁신에 대한 막대한 자금 지원을 촉구했다.",
+        "context": "AI·기술 정책 관련 인사이트를 소개하는 게시물.",
+        "url": "https://www.threads.net/@choi.openai/post/DaTL2BFklsq",
+        "publishedAt": "2026-07-02T18:00:00.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "'페이퍼 피싱'에 대해 어떻게 생각하나요?",
+        "originalTitle": "What do you think about paper fishing? [D]",
+        "summary": "관심을 끌기 위한 자극적 제목의 논문 관행('페이퍼 피싱')을 두고 벌어진 r/MachineLearning 토론.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1ulgunh/what_do_you_think_about_paper_fishing_d/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-07-02T21:26:55+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "ML 연구를 위한 수학 기초를 다질 책/자료 추천",
+        "originalTitle": "Books/Resources to improve mathematical foundations for ML research [D]",
+        "summary": "머신러닝 연구에 필요한 수학적 기초를 다지기 위한 학습 자료를 묻고 추천하는 스레드.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1ulmy9g/booksresources_to_improve_mathematical/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-07-03T01:24:23+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "BMVC 2026 리뷰 논의 스레드",
+        "originalTitle": "BMVC 2026 Review Discussion Thread [D]",
+        "summary": "BMVC 2026 학회 논문 리뷰 결과를 공유하고 논의하는 커뮤니티 스레드.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1ulnp4d/bmvc_2026_review_discussion_thread_d/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-07-03T01:52:04+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_401",
+        "title": "구직 포기 증가…경제활동참가율 최저치로 하락",
+        "excerpt": "구직자들이 포기하면서 노동시장 참가율이 최저 수준으로 떨어졌다는 분석이다.",
+        "body": "구직 활동을 아예 접는 사람들이 늘면서 경제활동참가율이 낮은 수준으로 하락했다. AI 확산과 고용 시장 변화가 맞물린 배경으로 지목된다.",
+        "url": "https://www.cnbc.com/2026/07/02/job-seekers-giving-up-labor-force-participation-rate-falls-to-lowest-in-50-years-outside-of-covid-era.html",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-03T04:16:20+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_402",
+        "title": "OpenAI, 코덱스 전용 미니 키보드 'Codex Micro' 티저 공개",
+        "excerpt": "OpenAI가 코덱스 전용 미니 키보드 'Codex Micro'의 티저를 공개했다.",
+        "body": "OpenAI가 코딩 에이전트 코덱스(Codex) 전용 미니 키보드 'Codex Micro'의 티저 이미지를 공개하며 화제를 모았다. AI 코딩 도구 전용 하드웨어라는 새로운 시도가 개발자 커뮤니티의 관심을 끌고 있다.",
+        "url": "https://news.hada.io/topic?id=31049",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-03T01:02:31+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_403",
+        "title": "AI가 일자리보다 먼저 앗아가는 것",
+        "excerpt": "AI가 일자리를 대체하기 전에 먼저 가져가는 것이 무엇인지 짚는 글이다.",
+        "body": "AI가 실제로 일자리를 없애기 전에, 업무의 의미·성취감·학습 기회 같은 것들을 먼저 앗아간다는 관점을 제시하는 글이다. 자동화 논의에서 자주 간과되는 측면을 조명한다.",
+        "url": "https://news.hada.io/topic?id=31051",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-03T01:09:54+09:00",
+        "readTime": 4,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_404",
+        "title": "의존성에 LLM 생성 코드를 넣지 말라",
+        "excerpt": "의존성(라이브러리)에 LLM이 생성한 코드를 포함시키는 것에 대한 우려를 다룬 글이다.",
+        "body": "오픈소스 의존성에 대규모 언어모델(LLM)이 생성한 코드가 검증 없이 포함되는 관행에 대한 문제 제기다. 공급망 신뢰와 코드 품질 관점에서 개발자 커뮤니티의 논쟁을 촉발했다.",
+        "url": "https://joeyh.name/blog/entry/no_LLM_code_in_dependencies/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-02T23:17:23+09:00",
+        "readTime": 4,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_405",
+        "title": "AI는 특허 발명자로 등재될 수 없다 — 일본 판결",
+        "excerpt": "일본에서 AI를 특허 출원의 발명자로 등재할 수 없다는 판단이 나왔다.",
+        "body": "일본에서 AI가 특허 출원서의 발명자(inventor)로 이름을 올릴 수 없다는 결정이 내려졌다. 미국·유럽 등 여러 관할권과 궤를 같이하는 판단으로, AI 창작물의 지식재산권 귀속 문제를 둘러싼 논쟁이 이어지고 있다.",
+        "url": "https://japannews.yomiuri.co.jp/science-nature/technology/20260306-314930/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-02T22:43:41+09:00",
+        "readTime": 4,
+        "imageGradient": 4
+      }
+    ]
+  }
+}
