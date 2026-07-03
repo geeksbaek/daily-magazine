@@ -1,0 +1,502 @@
+{
+  "date": "2026-07-04",
+  "issueNumber": 92,
+  "cover": {
+    "mainHeadline": "앤트로픽, 자체 신약 개발 나선다 — 과학용 AI '클로드 사이언스' 공개",
+    "mainExcerpt": "앤트로픽이 과학자를 위한 AI 워크벤치 'Claude Science'를 공개하며 신약 개발이라는 새로운 야심을 드러냈다. 한편 저커버그는 'AI 에이전트가 기대만큼 발전하지 못했다'고 인정했고, MS는 25억 달러 규모 AI 배포 회사를 세웠다.",
+    "headlines": [
+      "마크 저커버그 \"AI 에이전트, 기대만큼 빠르게 발전 못했다\"",
+      "마이크로소프트, 25억 달러 규모 자체 AI 배포 회사 설립",
+      "인도 IT 거물, 사재 3천만 달러로 MS 오피스 대항마 'Neo' 구축"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_001",
+      "title": "앤트로픽, 자체 신약 개발 나선다 — 'Claude Science' 공개",
+      "excerpt": "앤트로픽이 과학자를 위한 AI 워크벤치 'Claude Science'를 공개하며 자체 신약 개발 의지를 밝혔다. 분산된 연구 도구와 데이터셋을 하나의 환경으로 통합하고 도표·시각자료까지 생성한다.",
+      "body": "앤트로픽이 'AI for Science' 행사에서 과학자용 AI 워크벤치 'Claude Science'를 발표했다. 파편화된 연구 도구와 데이터셋을 단일 환경으로 모으고, 실험 도표와 시각자료를 자동 생성하는 것이 핵심이다. 이미 코딩 도구와 강력한 모델로 업계를 주도해 온 앤트로픽은 이번 발표를 자체 신약 개발이라는 더 큰 야심과 연결지었다. AI 기업이 단순 모델 제공을 넘어 신약·생명과학 영역으로 직접 진출하려는 흐름을 보여준다.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development",
+      "source": "The Verge",
+      "category": "ai_ml",
+      "publishedAt": "2026-07-03T22:56:52+09:00",
+      "readTime": 4,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_002",
+      "title": "마크 저커버그 \"AI 에이전트, 기대만큼 빠르게 발전 못했다\"",
+      "excerpt": "메타 CEO 마크 저커버그가 내부 회의에서 AI 개발 속도가 예상만큼 빠르지 않다고 인정한 것으로 전해졌다.",
+      "body": "마크 저커버그가 메타 내부 회의에서 AI 에이전트 개발이 기대만큼 진전되지 않았다고 밝힌 것으로 알려졌다. 막대한 투자와 인재 영입에도 불구하고 실제 성과가 목표에 미치지 못하고 있다는 솔직한 자기 평가로 읽힌다. 업계 전반의 'AI 에이전트' 기대치가 현실과 괴리를 보이기 시작했다는 신호로 해석된다.",
+      "url": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-07-03T08:38:10+09:00",
+      "readTime": 3,
+      "imageGradient": 2
+    },
+    {
+      "id": "rss_003",
+      "title": "마이크로소프트, 25억 달러 규모 자체 AI 배포 회사 설립",
+      "excerpt": "마이크로소프트가 25억 달러를 투입해 자체 AI 배포 전담 회사를 세웠다. 아마존·OpenAI·앤트로픽에 이은 행보다.",
+      "body": "마이크로소프트가 25억 달러 규모의 자체 AI 배포(deployment) 전담 조직을 신설했다. 이는 앞서 아마존, OpenAI, 앤트로픽이 잇따라 배포·확산 전담 그룹을 만든 흐름을 따른 것이다. 모델 개발을 넘어 실제 기업 현장에 AI를 도입·운영하는 '배포' 단계가 새로운 경쟁의 축으로 부상하고 있음을 보여준다.",
+      "url": "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-07-02T22:53:00+09:00",
+      "readTime": 3,
+      "imageGradient": 3
+    },
+    {
+      "id": "rss_004",
+      "title": "인도 IT 거물, 사재 3천만 달러로 MS 오피스 대항마 'Neo' 구축",
+      "excerpt": "인도 기업가 바빈 투라키아가 자신의 돈 3천만 달러를 투자해 AI 기반 오피스 생산성 도구 'Neo'를 선보였다. 마이크로소프트 오피스와 구글 앱에 도전한다.",
+      "body": "인도의 연쇄 창업가 바빈 투라키아가 다섯 번째 벤처 'Neo'를 공개했다. 사재 3천만 달러를 투입한 이 프로젝트는 AI를 전면에 내세워 마이크로소프트 오피스와 구글 워크스페이스에 정면 도전한다. 엔터프라이즈 소프트웨어에 다시 한번 승부수를 던진 셈으로, 생산성 소프트웨어 시장의 AI 재편 경쟁을 상징한다.",
+      "url": "https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-07-02T14:30:00+09:00",
+      "readTime": 3,
+      "imageGradient": 4
+    },
+    {
+      "id": "rss_005",
+      "title": "엔비디아, 대규모 AI 컴퓨트 개방…인프라 구축 파트너 초청",
+      "excerpt": "엔비디아가 대규모 AI 컴퓨트 자원을 개방하고, AI 인프라 구축을 함께할 자본·인프라 파트너들을 초청한다고 밝혔다.",
+      "body": "엔비디아가 'AI 컴퓨트를 대규모로 개방한다'며 인프라 구축을 위한 파트너 생태계 확장 계획을 발표했다. 자본 파트너와 인프라 사업자를 끌어들여 폭증하는 AI 연산 수요에 대응하려는 전략이다. GPU 공급을 넘어 데이터센터·인프라 전반으로 영향력을 넓히려는 엔비디아의 야심을 드러낸다.",
+      "url": "https://blogs.nvidia.com/blog/nvidia-unlocks-ai-compute-at-scale-capital-partners-to-power-ai-infrastructure-buildout/",
+      "source": "NVIDIA Blog",
+      "category": "big_tech",
+      "publishedAt": "2026-07-02T12:34:48+09:00",
+      "readTime": 4,
+      "imageGradient": 5
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_011",
+        "title": "앤트로픽, 삼성과 자체 AI 칩 개발 논의",
+        "excerpt": "앤트로픽이 삼성과 자체 맞춤형 AI 칩 개발을 논의 중이라는 보도가 나왔다. OpenAI가 브로드컴과 자체 칩을 발표한 지 약 일주일 만이다.",
+        "body": "앤트로픽이 삼성과 협력해 자체 맞춤형 AI 칩을 개발하는 방안을 논의하고 있다고 전해졌다. 엔비디아 GPU 의존도를 낮추고 추론 비용을 절감하려는 프런티어 랩들의 '실리콘 독립' 경쟁과 맞닿아 있다. OpenAI가 브로드컴과 손잡고 자체 칩을 공개한 지 불과 일주일 만에 나온 소식이다.",
+        "url": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-03T03:31:09+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_012",
+        "title": "OpenAI, 지분 5%를 미국 국부펀드에 기부 제안",
+        "excerpt": "샘 알트먼이 OpenAI 지분 5%를 미국 국부펀드에 기부하는 방안을 제안한 것으로 전해졌다. AI 호황의 이익을 대중과 공유하자는 논의를 되살렸다.",
+        "body": "샘 알트먼이 OpenAI 지분의 5%를 미국 국부펀드(sovereign wealth fund)에 기부하는 방안을 제안한 것으로 보도됐다. AI 붐이 창출한 막대한 금전적 이익을 국민이 나눠 갖도록 하자는 논의를 다시 촉발했다. 국가와 민간 AI 기업 간 이익 공유 모델을 둘러싼 새로운 논쟁이 예상된다.",
+        "url": "https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-03T00:20:51+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_013",
+        "title": "브라우저 전쟁, 더 이상 검색이 아니다 — AI 브라우저 대안 정리",
+        "excerpt": "브라우저 경쟁의 초점이 검색에서 AI로 옮겨가고 있다. 새롭게 등장한 AI 브라우저 대안들을 짚었다.",
+        "body": "브라우저 전쟁의 무게 중심이 전통적 검색에서 AI 기능으로 빠르게 이동하고 있다. 각 사가 AI 에이전트와 요약·자동화 기능을 전면에 내세우며 사용자를 끌어들이는 중이다. 어떤 AI 브라우저가 기존 강자를 대체할 대안이 될 수 있는지 주요 후보들이 비교·정리됐다.",
+        "url": "https://techcrunch.com/2026/07/03/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-04T03:43:00+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_014",
+        "title": "메타, 바이브코딩 게임 앱 'Pocket' 조용히 출시",
+        "excerpt": "메타가 이른바 '바이브코딩'으로 만든 게임 앱 'Pocket'을 조용히 선보였다.",
+        "body": "메타가 자연어 프롬프트 중심의 '바이브코딩' 방식으로 제작한 게임 앱 'Pocket'을 별다른 홍보 없이 출시했다. AI로 게임 콘텐츠를 빠르게 생성·배포하려는 실험적 시도로 읽힌다. 대형 테크 기업이 생성형 AI를 소비자용 게임 제작에 직접 적용하는 사례가 늘고 있다.",
+        "url": "https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-03T03:44:02+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_015",
+        "title": "'저지 마이크' IPO가 보여주는 AI 과열의 단면",
+        "excerpt": "샌드위치 체인 저지 마이크의 IPO 사례가 최근 AI 하이프가 얼마나 심각한지를 드러낸다는 분석이 나왔다.",
+        "body": "샌드위치 프랜차이즈 '저지 마이크'의 기업공개(IPO)를 계기로 최근 시장의 AI 과열 현상에 대한 경고가 제기됐다. AI와 직접 관련이 없는 사업조차 AI 서사에 편승하려는 분위기가 팽배하다는 지적이다. 투자 심리가 실제 펀더멘털과 괴리되고 있다는 우려를 보여주는 사례로 언급됐다.",
+        "url": "https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-03T05:11:59+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_021",
+        "title": "Vercel 샌드박스, FUSE 기반 파일시스템 지원",
+        "excerpt": "Vercel 샌드박스가 FUSE 기반 파일시스템을 지원하기 시작했다. 더 유연한 파일 접근이 가능해진다.",
+        "body": "Vercel이 자사 샌드박스 환경에서 FUSE(Filesystem in Userspace) 기반 파일시스템을 지원한다고 밝혔다. 이를 통해 원격 스토리지나 커스텀 파일시스템을 사용자 공간에서 마운트해 활용할 수 있다. AI 에이전트와 서버리스 실행 환경에서 더 유연한 파일 처리가 가능해진다.",
+        "url": "https://vercel.com/changelog/vercel-sandbox-now-supports-fuse-based-filesystems",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-03T10:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_022",
+        "title": "Vercel, MCP·CLI에서 'Agent Runs' 제공",
+        "excerpt": "Vercel이 MCP와 CLI에서 에이전트 실행 기록을 조회·관리할 수 있는 'Agent Runs' 기능을 제공한다.",
+        "body": "Vercel이 MCP(Model Context Protocol)와 CLI를 통해 'Agent Runs'를 지원한다고 발표했다. 에이전트의 실행 이력과 상태를 명령줄과 MCP 도구에서 직접 확인·관리할 수 있다. AI 에이전트 개발·운영 워크플로를 표준 도구 체계에 통합하려는 움직임이다.",
+        "url": "https://vercel.com/changelog/agent-runs-vercel-mcp-cli",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-03T09:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_023",
+        "title": "Vercel CLI로 기능 플래그 세그먼트 관리",
+        "excerpt": "Vercel CLI에서 기능 플래그(Flags) 세그먼트를 직접 관리할 수 있게 됐다.",
+        "body": "Vercel이 CLI를 통해 기능 플래그의 세그먼트를 생성·수정·관리하는 기능을 추가했다. 대시보드를 오가지 않고도 코드·터미널 워크플로 안에서 플래그 대상 그룹을 세밀하게 제어할 수 있다. 점진적 배포와 A/B 테스트 운영이 한결 수월해진다.",
+        "url": "https://vercel.com/changelog/manage-vercel-flags-segments-with-vercel-cli",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-03T09:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_024",
+        "title": "깃허브, 시크릿 스캐닝으로 '인박스 제로' 달성기",
+        "excerpt": "깃허브가 시크릿 스캐닝을 활용해 노출된 비밀 키 알림을 모두 처리하는 '인박스 제로'에 도달한 과정을 공유했다.",
+        "body": "깃허브가 자체 시크릿 스캐닝 도구를 활용해 유출된 자격증명·API 키 경보를 체계적으로 처리한 사례를 공개했다. 대량의 보안 알림을 어떻게 분류하고 우선순위를 매겨 '인박스 제로'까지 도달했는지 그 운영 노하우를 상세히 설명했다. 조직 차원의 시크릿 관리 모범 사례로 참고할 만하다.",
+        "url": "https://github.blog/security/application-security/how-github-used-secret-scanning-to-reach-inbox-zero/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-03T01:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_031",
+        "title": "아마존, 2023년형 파이어 HD 10 태블릿 RAM 4GB로 업그레이드",
+        "excerpt": "아마존이 파이어 HD 10 태블릿을 4GB RAM으로 개선했다.",
+        "body": "아마존이 2023년에 출시했던 파이어 HD 10 태블릿을 4GB RAM 사양으로 업데이트했다. 메모리를 늘려 멀티태스킹과 반응성을 개선한 소폭 업그레이드다. 저가형 태블릿 라인업의 사용 경험을 다듬으려는 조치로 보인다.",
+        "url": "https://www.theverge.com/tech/961387/amazon-2023-fire-hd-10-tablet-4gb-update",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-07-04T02:33:55+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_032",
+        "title": "구글·아마존이 보여준 AI의 '실제 비용' 경고 신호",
+        "excerpt": "구글과 아마존의 사례가 AI의 실질적 비용에 대한 경고 신호를 던진다는 분석이다.",
+        "body": "구글과 아마존의 최근 실적·투자 동향이 AI 확장에 따르는 실제 비용 부담을 드러낸다는 분석이 나왔다. 막대한 인프라·연산 비용이 수익성에 압박을 주기 시작했다는 것이다. AI 투자 열기 속에서도 비용 효율과 지속 가능성에 대한 냉정한 점검이 필요하다는 경고로 읽힌다.",
+        "url": "https://techcrunch.com/2026/07/02/a-warning-sign-about-ais-real-cost-courtesy-of-google-and-amazon/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-07-03T04:14:46+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_033",
+        "title": "유럽 첫 상장 양자기업 IQM \"기술 미래는 불확실\" 인정",
+        "excerpt": "유럽 최초의 상장 양자컴퓨팅 기업 IQM이 기술의 미래가 여전히 불확실하다고 인정했다.",
+        "body": "유럽 첫 공개 상장 양자컴퓨팅 기업이 된 IQM이 양자 기술의 상용화 전망이 아직 불투명하다고 솔직하게 밝혔다. 상장을 통한 자금 조달에도 불구하고 기술 성숙과 시장 형성에는 시간이 더 필요하다는 진단이다. 양자컴퓨팅 산업의 기대와 현실 사이 간극을 보여준다.",
+        "url": "https://techcrunch.com/2026/07/02/iqm-europes-first-public-quantum-company-admits-the-future-of-the-tech-is-uncertain/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-07-03T05:42:48+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_034",
+        "title": "민간 우주 파일럿, 美 우주군 궤도 임무 수행",
+        "excerpt": "민간 우주 파일럿들이 미국 우주군을 위한 궤도 임무를 수행하고 있다.",
+        "body": "민간 출신 우주 파일럿들이 미국 우주군(Space Force)을 위한 궤도 비행 임무에 투입되고 있다. 정부와 민간 우주 기업 간 협력이 유인 궤도 임무로까지 확대되는 흐름이다. 상업 우주비행 역량이 국가 안보 영역과 결합하는 새로운 국면을 상징한다.",
+        "url": "https://techcrunch.com/2026/07/02/private-space-pilots-are-flying-orbital-missions-for-the-us-space-force/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-07-03T08:01:06+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "개인화된 일일 다이제스트를 만드는 코덱스:",
+        "context": "그렉 브록먼이 개인화된 일일 다이제스트를 만들어주는 OpenAI 코덱스(Codex) 활용 사례를 소개했다. 에이전트형 코딩 도구가 일상 자동화로 확장되는 모습을 보여준다.",
+        "url": "https://x.com/gdb/status/2072468859047772664",
+        "publishedAt": "2026-07-01T23:54:15.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "Fable과 함께 일하는 데 가장 중요한 부분은 내 자신의 미지의 영역을 발견하여 더 나은 프롬프트를 제공하는 것이라고 생각해요. 제가 그렇게 하는 방법을 알려드릴게요.",
+        "context": "앤트로픽의 타릭(Thariq)이 Fable 모델과 협업할 때 자신의 '미지의 영역'을 파악해 더 나은 프롬프트를 작성하는 방법을 공유했다. 프롬프팅 노하우에 대한 실용적 조언이다.",
+        "url": "https://x.com/trq212/status/2073101078145724589",
+        "publishedAt": "2026-07-03T17:46:28.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "content": "Claude Code의 아티팩트는 인생을 바꿔놓았습니다. Pro와 Max로 확장하는 것이 기대됩니다!",
+        "context": "Claude Code 개발자 보리스 체르니가 Claude Code의 아티팩트 기능이 작업 방식을 바꿔놨다며 Pro·Max로의 확장을 기대한다고 밝혔다.",
+        "url": "https://x.com/bcherny/status/2072777472970563995",
+        "publishedAt": "2026-07-02T20:20:34.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "ClaudeDevs",
+        "handle": "ClaudeDevs",
+        "content": "Fable 5가 다시 빌드 준비가 되었습니다. 이제 모든 사람의 5시간 및 주간 할당량 제한을 초기화했습니다.",
+        "context": "ClaudeDevs가 Fable 5 재빌드 준비 완료와 함께 모든 사용자의 5시간·주간 사용 한도를 초기화했다고 공지했다. 최근 용량·접근 제한 이슈에 대한 대응이다.",
+        "url": "https://x.com/ClaudeDevs/status/2072429181565288665",
+        "publishedAt": "2026-07-01T21:16:35.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Boris Cherny와 Cat Wu와의 대화: Claude Code에서 Claude Tag으로 가는 여정, 그리고 그것이 Anthropic의 엔지니어링 전반으로 퍼진 방법. Claude Fable 5가 이제 Claude Tag에서 사용할 수 있습니다.",
+        "context": "Claude 공식 계정이 보리스 체르니·캣 우와의 대화를 통해 Claude Code에서 'Claude Tag'으로 이어진 여정과 그것이 앤트로픽 엔지니어링 전반에 확산된 과정을 소개했다. Claude Fable 5가 이제 Claude Tag에서도 사용 가능하다.",
+        "url": "https://x.com/claudeai/status/2072725610061803522",
+        "publishedAt": "2026-07-02T16:54:29.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Claude로 구축하기: 생명과학 발표 — 글로벌 가상 해커톤. Gladstone Institutes와 함께 Claude Science와 Claude Code로 연구하고 구축하는 일주일, $100k 크레딧 상금 풀.",
+        "context": "앤트로픽이 글로벌 가상 해커톤 'Claude로 구축하기: 생명과학'을 예고했다. Gladstone Institutes와 함께 Claude Science·Claude Code로 연구하며 10만 달러 크레딧 상금 풀을 놓고 경쟁한다.",
+        "url": "https://x.com/claudeai/status/2072681853971001849",
+        "publishedAt": "2026-07-02T14:00:37.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "Andy T",
+        "handle": "Andy_AJT",
+        "content": "어젯밤 Codex Community Meetup London에서, 빌더들은 무대에 올라 라이트닝 데모를 발표하기 전에 Codex와 단 45분밖에 함께할 수 없었습니다.",
+        "context": "OpenAI 개발자 계정이 리트윗한 게시물로, 런던에서 열린 Codex 커뮤니티 밋업에서 빌더들이 단 45분 만에 라이트닝 데모를 완성한 현장을 전했다.",
+        "url": "https://x.com/Andy_AJT/status/2072739501902893552",
+        "publishedAt": "2026-07-02T17:49:41.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "Fable 5의 활용 사례들이 쏟아지고 있습니다. 게임 하나를 몇 번의 프롬프트만으로 완성하거나, 장난감을 모바일 게임으로 만들고, VRChat 월드와 3D 게임, Blender 렌더링, 맞춤형 광고 제작까지 해내는 사례가 계속 올라오고 있습니다. 놀라운 활용 사례 10가지를 정리했습니다.",
+        "context": "OpenAI 소식을 전하는 한국어 스레드 계정이 Fable 5의 다양한 실사용 사례를 정리했다. 몇 번의 프롬프트만으로 게임·3D 콘텐츠·광고를 만들어내는 활용법을 소개한다.",
+        "url": "https://www.threads.net/@choi.openai/post/DaVSoi6j9Z7",
+        "publishedAt": "2026-07-03T13:37:49.000Z"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "Fable 5를 이용하면 최근 매매된 주택 사진과 위성 데이터를 분석해 그늘이 부족한 마당을 찾아내고, 차양 설치 모습을 합성한 맞춤 제안서를 자동으로 만들 수 있습니다. 다만 해당 게시물의 영상은 실제 작동 사례가 아닌 설명용 애니메이션이라는 지적이 있으며, 실제 운영 시스템으로 검증된 내용은 아닙니다.",
+        "context": "Fable 5로 부동산 데이터를 분석해 맞춤 제안서를 자동 생성하는 사례를 소개하면서도, 해당 영상이 실제 작동이 아닌 설명용 애니메이션이라는 점을 함께 짚었다.",
+        "url": "https://www.threads.net/@choi.openai/post/DaVRUFUDACz",
+        "publishedAt": "2026-07-03T13:37:52.000Z"
+      },
+      {
+        "id": "threads_003",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "엔비디아와 추론·배포(inference) 시장이 다시 크게 주목받을 가능성이 높다고 봅니다.",
+        "context": "엔비디아와 AI 추론·배포(inference) 시장이 다시 크게 주목받을 것이라는 전망을 담은 게시물.",
+        "url": "https://www.threads.net/@choi.openai/post/DaU5ldQD-GZ",
+        "publishedAt": "2026-07-03T09:58:56.000Z"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "앤드류 응 \"3~6개월 안에 모두 자기개선 루프 쓴다…프롬프팅 시대 끝\"",
+        "originalTitle": "Andrew Ng: \"In 3-6 months, everyone will be using self-improving loops. No more prompting”",
+        "summary": "앤드류 응이 향후 3~6개월 안에 모델이 스스로 개선되는 '자기개선 루프'가 보편화되어 수동 프롬프팅이 사라질 것이라고 전망한 발언이 화제가 된 r/artificial 게시물.",
+        "url": "https://www.reddit.com/r/artificial/comments/1umcprg/andrew_ng_in_36_months_everyone_will_be_using/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-07-03T21:08:15+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "트럼프 행정부, OpenAI 지분 5% 확보 가능성",
+        "originalTitle": "Trump Administration possibly getting 5% stake in OpenAI",
+        "summary": "트럼프 행정부가 OpenAI 지분 5%를 확보할 수 있다는 전망을 두고 벌어진 r/OpenAI 토론. 알트먼의 국부펀드 기부 제안과 맞물려 관심을 모았다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1umcwm9/trump_administration_possibly_getting_5_stake_in/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-07-03T21:17:21+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "Fable의 필터링되지 않은 '내면의 목소리' 유출 포착",
+        "originalTitle": "Someone caught Fable leaking its unfiltered inner voice, and it's just muttering and grumbling to itself the whole time",
+        "summary": "누군가 Fable이 겉으로 드러내지 않는 내부 사고 과정을 포착했는데, 마치 혼잣말로 투덜대는 듯한 내용이었다는 r/OpenAI 게시물.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1um9l7w/someone_caught_fable_leaking_its_unfiltered_inner/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-07-03T18:23:09+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "미스트랄, Leanstral-1.5-119B-A6B 공개",
+        "originalTitle": "Mistral released Leanstral-1.5-119B-A6B",
+        "summary": "미스트랄이 새 모델 Leanstral-1.5-119B-A6B를 공개했다는 r/LocalLLaMA 소식. 대형 MoE 계열 모델의 로컬 구동 가능성에 관심이 쏠렸다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1umgdhx/mistral_released_leanstral15119ba6b/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-07-03T23:44:12+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "\"리눅스가 공식적으로 승리했다\"",
+        "originalTitle": "Linux has officially won",
+        "summary": "리눅스가 사실상 여러 컴퓨팅 영역에서 승리했다는 주장을 담은 r/programming 게시물. 활발한 갑론을박이 이어졌다.",
+        "url": "https://www.reddit.com/r/programming/comments/1um497y/linux_has_officially_won/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-07-03T13:23:58+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "Fable 5 Max 한도 도달 후 $250 충전…\"hey\" 한마디에 ~$20?",
+        "originalTitle": "Contrastive Decoding Diffing (CDD): recovering verbatim finetuning data from logits alone, no weight access needed[R]",
+        "summary": "Fable 5 Max 사용 한도에 도달해 250달러를 충전했더니 'hey'라는 짧은 인사 한 번에 약 20달러가 소진됐다는 r/ClaudeAI 사용자의 불만 제기.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1umn2dk/contrastive_decoding_diffing_cdd_recovering/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-07-04T04:01:48+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "Claude로 GTA 6 만들기 — 37일차",
+        "originalTitle": "Day 37 of building GTA 6 using claude",
+        "summary": "Claude를 활용해 GTA 6 스타일 게임을 직접 만들어가는 37일차 진행 상황을 공유한 r/singularity 게시물.",
+        "url": "https://www.reddit.com/r/singularity/comments/1umo9uq/day_37_of_building_gta_6_using_claude/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-07-04T04:50:35+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_041",
+        "title": "로컬 인텔리전스에 대한 권리",
+        "excerpt": "온디바이스·로컬 AI를 사용자의 권리로 봐야 한다는 주장을 담은 글.",
+        "body": "클라우드에 종속되지 않고 개인 기기에서 AI를 구동할 '로컬 인텔리전스에 대한 권리'를 옹호하는 논의다. 프라이버시·자율성·비용 측면에서 온디바이스 AI의 중요성을 강조한다.",
+        "url": "https://news.hada.io/topic?id=31092",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-04T01:34:24+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_042",
+        "title": "Mcpsnoop — MCP를 위한 '와이어샤크'",
+        "excerpt": "MCP 트래픽을 실시간으로 들여다보는 투명 프록시·TUI 도구 'Mcpsnoop'.",
+        "body": "MCP(Model Context Protocol) 통신을 가로채 실시간으로 관찰할 수 있는 투명 프록시 겸 터미널 UI 도구다. 네트워크 분석 도구 와이어샤크처럼 에이전트-도구 간 오가는 메시지를 디버깅할 수 있다.",
+        "url": "https://github.com/kerlenton/mcpsnoop",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-04T01:53:50+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_043",
+        "title": "코드를 이미지로 변환해 Fable 비용 60% 절감",
+        "excerpt": "코드를 이미지로 바꿔 모델에 처리시키는 방식으로 Fable 사용 비용을 60% 절감했다는 실험.",
+        "body": "코드를 텍스트가 아닌 이미지 형태로 변환해 모델(Fable)에 입력함으로써 토큰 비용을 60% 줄였다는 흥미로운 실험 결과다. 멀티모달 입력을 활용한 비용 최적화 아이디어로 주목받았다.",
+        "url": "https://github.com/teamchong/pxpipe",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-04T00:50:49+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_044",
+        "title": "jj v0.43.0 공개",
+        "excerpt": "깃 호환 분산 버전관리 도구 jj(Jujutsu)의 v0.43.0 릴리스.",
+        "body": "깃과 호환되면서도 더 단순한 워크플로를 지향하는 버전관리 도구 Jujutsu(jj)가 v0.43.0을 공개했다. 여러 개선과 버그 수정이 포함됐다.",
+        "url": "https://news.hada.io/topic?id=31091",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-04T00:02:29+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_045",
+        "title": "계란 담합 업체들, 벌금의 1,000배를 벌었다",
+        "excerpt": "가격 담합으로 부과된 벌금의 1,000배에 달하는 이익을 챙긴 계란 업체들에 대한 보도.",
+        "body": "계란 가격 담합에 가담한 업체들이 부과받은 벌금의 무려 1,000배에 이르는 이익을 거둔 것으로 나타났다. 솜방망이 처벌이 담합의 경제적 유인을 억제하지 못한다는 비판이 제기됐다.",
+        "url": "https://news.hada.io/topic?id=31090",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-03T22:46:10+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      }
+    ]
+  }
+}
