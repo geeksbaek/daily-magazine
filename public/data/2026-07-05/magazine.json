@@ -1,0 +1,493 @@
+{
+  "date": "2026-07-05",
+  "issueNumber": 93,
+  "cover": {
+    "mainHeadline": "알리바바, 사내 'Claude Code' 전면 금지 — 미·중 AI 도구 분절 가속",
+    "mainExcerpt": "알리바바가 앤트로픽의 코딩 도구 Claude Code를 고위험 소프트웨어로 분류해 직원 사용을 막았다. 개발 생산성 도구조차 국가·기업 경계에 따라 갈리는 지정학적 분절이 개발 현장으로 번지고 있다.",
+    "headlines": [
+      "마크 저커버그 \"AI 에이전트, 기대만큼 빠르게 발전 못했다\"",
+      "미드저니, 할리우드 스튜디오에 'AI 사용 내역 공개하라' 역공",
+      "NASA, 추락 위기 스위프트 우주망원경 긴급 구조 미션 발사"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_001",
+      "title": "알리바바, 사내 'Claude Code' 사용 전면 금지 — 고위험 소프트웨어로 분류",
+      "excerpt": "알리바바가 앤트로픽의 코딩 도구 'Claude Code'를 고위험 소프트웨어로 분류하고 직원 사용을 금지한 것으로 알려졌다. 미·중 AI 도구를 둘러싼 보안·지정학 긴장이 개발 현장으로 번지고 있다.",
+      "body": "보도에 따르면 알리바바는 앤트로픽의 에이전트형 코딩 도구 Claude Code를 '고위험 소프트웨어'로 지정해 사내 사용을 차단했다. 이는 코드와 내부 데이터가 외부 프런티어 모델로 흘러갈 수 있다는 우려를 반영한 조치로 풀이된다. 미국 AI 기업의 개발 도구가 중국 대기업 환경에서 배제되면서, 프런티어 코딩 도구를 둘러싼 지정학적 분절이 뚜렷해지고 있다. 개발자 생산성 도구조차 국가·기업 경계에 따라 선택이 갈리는 시대가 열리고 있다.",
+      "url": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-07-05T01:32:08+09:00",
+      "readTime": 4,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_002",
+      "title": "마크 저커버그 \"AI 에이전트, 기대만큼 빠르게 발전하지 못했다\"",
+      "excerpt": "메타 CEO 마크 저커버그가 내부 회의에서 AI 에이전트 개발이 기대만큼 빠르게 진전되지 않았다고 인정한 것으로 전해졌다. 업계 전반의 에이전트 과열 기대에 찬물을 끼얹는 발언이다.",
+      "body": "TechCrunch에 따르면 저커버그는 사내 회의에서 메타의 AI 개발, 특히 에이전트 분야가 자신이 예상했던 속도만큼 나아가지 못했다고 언급했다. 막대한 투자와 인재 영입에도 불구하고 자율 에이전트의 실용화가 여전히 더디다는 자기 진단이다. 이는 최근 실리콘밸리 전반에 퍼진 '에이전트 만능론'에 대한 현실적 온도차를 드러낸다. AI 리더들이 공개적으로는 낙관하면서도 내부적으로는 기대치를 조정하고 있음을 보여주는 사례다.",
+      "url": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-07-03T08:38:10+09:00",
+      "readTime": 3,
+      "imageGradient": 2
+    },
+    {
+      "id": "rss_003",
+      "title": "미드저니, 할리우드 스튜디오에 '너희 AI 사용 내역부터 공개하라' 역공",
+      "excerpt": "저작권 소송을 벌이는 미드저니가 자신을 고소한 3개 할리우드 스튜디오에게 자체 AI 사용 실태를 공개하라고 맞대응하고 나섰다. AI 저작권 분쟁의 전선이 창작자 대 기술기업 구도를 넘어 복잡해지고 있다.",
+      "body": "미드저니는 세 곳의 할리우드 스튜디오와의 저작권 소송 과정에서, 해당 스튜디오들이 내부적으로 AI를 어떻게 활용하는지 상세히 밝히도록 강제하는 요청을 제기했다. AI로 콘텐츠를 무단 학습했다는 비판을 받는 기업이, 정작 원고인 스튜디오들도 제작 파이프라인에서 생성형 AI를 쓰고 있다는 점을 부각하려는 전략이다. 이는 AI 저작권 논쟁이 '피해자 대 가해자'라는 단순 구도로 정리되기 어렵다는 것을 시사한다. 콘텐츠 업계 전반의 AI 활용이 소송의 새로운 쟁점으로 떠오르고 있다.",
+      "url": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-07-05T03:00:05+09:00",
+      "readTime": 4,
+      "imageGradient": 3
+    },
+    {
+      "id": "rss_004",
+      "title": "NASA, 스위프트 우주망원경 추락 막으려 긴급 구조 미션 발사",
+      "excerpt": "2004년 발사된 스위프트 관측위성이 태양 폭풍으로 궤도가 낮아지며 올해 안에 대기권에서 소실될 위기에 놓였다. NASA가 이를 막기 위한 긴급 미션에 나섰다.",
+      "body": "감마선 폭발 관측으로 유명한 스위프트 우주망원경이 최근 태양 활동 강화로 궤도가 급격히 하강하면서 이르면 올해 안에 지구 대기권에서 불타 소실될 위험에 처했다. NASA는 민간 우주기업 카탈리스트 스페이스 테크놀로지스와 협력해 위성 궤도를 다시 끌어올리는 긴급 구조 미션을 추진하고 있다. 태양 극대기가 저궤도 위성의 수명을 위협하는 현실을 보여주는 상징적 사례다. 노후 과학위성을 살리기 위한 민관 협력 궤도 서비스의 시험대이기도 하다.",
+      "url": "https://www.theverge.com/science/961459/nasa-emergency-save-swift-observatory-katalyst-space-technologies",
+      "source": "The Verge",
+      "category": "big_tech",
+      "publishedAt": "2026-07-05T04:06:27+09:00",
+      "readTime": 4,
+      "imageGradient": 4
+    },
+    {
+      "id": "rss_005",
+      "title": "미 백악관, 폭염 한복판에 에너지 절약 웹페이지 6,000건 삭제 논란",
+      "excerpt": "역사적 폭염이 미국을 강타한 가운데 에너지부가 에너지 절약 관련 웹페이지 약 6,000건을 삭제한 것으로 알려져 논란이 일고 있다. 삭제 시점이 정치적이라는 비판이 제기된다.",
+      "body": "The Verge에 따르면 미 에너지부는 극심한 폭염이 전국을 덮친 시기에 에너지 절약 및 효율 관련 웹페이지 약 6,000건을 삭제했다. 공공 정보가 필요한 시점에 오히려 정보가 사라지면서, 삭제 시점을 둘러싼 정치적 의도 논란이 커지고 있다. 기후·에너지 정보의 공적 접근성이 행정부 교체에 따라 급격히 흔들리는 현상을 보여준다. 시민들이 냉방·전력 절약 정보를 찾기 어려워졌다는 실질적 우려도 제기된다.",
+      "url": "https://www.theverge.com/policy/961449/white-house-mamdani-heatwave-deletion",
+      "source": "The Verge",
+      "category": "big_tech",
+      "publishedAt": "2026-07-05T01:19:06+09:00",
+      "readTime": 3,
+      "imageGradient": 0
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_011",
+        "title": "미스트랄 AI는 누구인가 — '오픈AI의 유럽 대항마' 완전 정리",
+        "excerpt": "2023년 설립된 프랑스 스타트업 미스트랄 AI가 대규모 투자를 유치하며 오픈AI의 강력한 경쟁자로 부상했다. 일부 오픈소스 모델을 공개하며 '프런티어 AI의 대중화'를 표방한다.",
+        "body": "미스트랄 AI는 2023년 창업 이후 막대한 자금을 조달하며 유럽을 대표하는 프런티어 AI 기업으로 자리 잡았다. '최전선 AI를 모두의 손에'라는 기치 아래 일부 모델을 오픈소스로 공개하는 전략으로 차별화를 꾀한다. 미국 빅테크가 주도하는 폐쇄형 모델 경쟁 속에서 개방성과 유럽적 정체성을 앞세운 대안으로 주목받는다. TechCrunch가 미스트랄의 사업 모델과 투자 이력을 종합 정리했다.",
+        "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-05T00:51:32+09:00",
+        "readTime": 4,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_012",
+        "title": "미스트랄, Lean 4 정리증명 특화 모델 'Leanstral 1.5' 공개",
+        "excerpt": "미스트랄 AI가 형식 검증 언어 Lean 4를 위한 아파치-2.0 라이선스 모델 'Leanstral 1.5'를 공개했다. 정리증명과 코드 저장소 작업을 함께 겨냥한 전문 모델이다.",
+        "body": "Leanstral 1.5는 총 119B 파라미터 중 6B만 활성화하는 MoE 구조로, 중간 학습·지도 미세조정·CISPO 강화학습을 거쳐 수학적 증명 작성과 코드 저장소 작업 능력을 갖췄다. 형식 검증을 실제 개발 워크플로에 더 가깝게 끌어오려는 흐름 속에서 나온 결과물이다. 아파치-2.0 라이선스로 공개돼 연구·상용 활용이 자유롭다. 정리증명 자동화가 소프트웨어 검증과 수학 연구 양쪽에서 실용 단계로 진입하고 있음을 보여준다.",
+        "url": "https://news.hada.io/topic?id=31124",
+        "source": "GeekNews",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-05T01:44:33+09:00",
+        "readTime": 4,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_013",
+        "title": "'달러당 성능' 판도 변화 — AMD MI355X, 저비용 추론 대안으로 부상",
+        "excerpt": "추론 수요가 공급을 앞지르고 GPU·토큰 비용이 오르는 가운데, AMD MI355X가 엔비디아 B300 대비 GPU당 평균 약 2.75배 저렴한 추론 대안으로 떠올랐다.",
+        "body": "AI 추론 수요가 폭증하며 엔비디아 GPU와 토큰 단가가 상승하는 상황에서, AMD의 Instinct MI350 계열이 비용 효율 카드로 부상하고 있다. MI355X는 실리콘 수준에서 블랙웰과 경쟁하며 GPU당 평균 약 2.75배 저렴한 것으로 분석됐다. 다만 엔비디아의 소프트웨어 생태계 우위와 day-0 지원 격차는 여전한 과제로 지적된다. '달러당 성능' 관점에서 추론 인프라 선택지가 다변화되고 있다.",
+        "url": "https://news.hada.io/topic?id=31123",
+        "source": "GeekNews",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-05T01:41:33+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_014",
+        "title": "브라우저 전쟁, 이제 검색이 아니다 — 크롬·사파리 대안 총정리",
+        "excerpt": "브라우저 경쟁의 초점이 검색에서 AI와 프라이버시로 옮겨가고 있다. TechCrunch가 크롬과 사파리에 도전하는 대안 브라우저들을 정리했다.",
+        "body": "과거 브라우저 전쟁이 기본 검색엔진 점유율 다툼이었다면, 2026년의 경쟁은 AI 통합, 프라이버시, 사용자 경험으로 무게중심이 이동했다. TechCrunch는 크롬과 사파리의 지배에 도전하는 다양한 대안 브라우저들을 개괄하며 각각의 강점을 소개했다. AI 에이전트를 내장한 브라우저들이 새로운 격전지로 떠오르는 흐름이다. 사용자가 검색이 아닌 '어시스턴트'를 기준으로 브라우저를 고르는 시대가 오고 있다.",
+        "url": "https://techcrunch.com/2026/07/03/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-04T03:43:00+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_015",
+        "title": "올해 꼭 알아야 할 AI 용어 사전 — 환각부터 에이전트까지",
+        "excerpt": "AI 확산과 함께 쏟아지는 신조어와 은어를 정리한 용어 사전. 환각(hallucination)부터 주요 개념까지 핵심 용어의 정의를 담았다.",
+        "body": "AI 기술이 빠르게 확산되면서 전문 용어와 은어가 쏟아지고 있다. TechCrunch는 뉴스와 제품 설명에서 자주 마주치는 핵심 AI 용어들을 정의와 함께 정리한 가이드를 공개했다. 환각, 파인튜닝, 에이전트 등 개념을 비전문가도 이해할 수 있도록 풀어냈다. AI 리터러시가 일상 업무의 필수 소양이 되어가는 현실을 반영한다.",
+        "url": "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-04T06:20:00+09:00",
+        "readTime": 5,
+        "imageGradient": 3
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_021",
+        "title": "버셀 샌드박스, FUSE 파일시스템 지원 — S3·원격 스토리지 직접 마운트",
+        "excerpt": "버셀 샌드박스가 FUSE를 지원하기 시작해 실행 중인 샌드박스 안에서 원격 스토리지와 커스텀 파일시스템을 마운트할 수 있게 됐다.",
+        "body": "버셀 샌드박스는 이제 FUSE 호환 드라이버를 통해 S3 버킷, 네트워크 파일시스템 등을 일반 경로처럼 마운트할 수 있다. 이를 통해 대용량 데이터셋을 객체 스토리지에서 직접 스트리밍하거나, 여러 샌드박스가 공통 파일시스템으로 상태를 공유할 수 있다. 데이터를 미리 복사하지 않고도 POSIX 경로를 기대하는 도구를 원격 소스에 그대로 실행할 수 있다는 점이 강점이다. 에이전트·데이터 파이프라인 환경의 유연성이 크게 높아졌다.",
+        "url": "https://vercel.com/changelog/vercel-sandbox-now-supports-fuse-based-filesystems",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-03T10:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_022",
+        "title": "버셀 MCP·CLI에서 '에이전트 런' 추적 지원 — 트레이스 전체 조회",
+        "excerpt": "오픈소스 에이전트 프레임워크 eve의 실행 기록을 버셀 MCP와 CLI에서 직접 조회할 수 있게 됐다. 추론·도구 호출·토큰 사용량까지 전체 트레이스를 확인할 수 있다.",
+        "body": "버셀에 배포된 eve 트레이스는 자동으로 수집돼 '에이전트 런'으로 제공된다. 새로운 버셀 MCP 도구와 CLI 명령으로 실행 기록이 있는 프로젝트를 찾고, 최근 실행을 나열하며, 추론 과정·도구 호출·서브에이전트 데이터를 포함한 전체 트레이스를 조회할 수 있다. 에이전트 개발에서 관측 가능성(observability)이 핵심 요구사항으로 자리 잡고 있음을 보여준다. 터미널과 에이전트 파이프라인에서 곧바로 디버깅이 가능해졌다.",
+        "url": "https://vercel.com/changelog/agent-runs-vercel-mcp-cli",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-03T09:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_023",
+        "title": "버셀 플래그 세그먼트, 이제 CLI로 관리 — CI 자동화 가능",
+        "excerpt": "버셀 플래그의 타깃팅 세그먼트를 새로운 'vercel flags segments' CLI 명령으로 관리할 수 있게 됐다. include·exclude·rule 토큰으로 노출 대상을 세밀하게 제어한다.",
+        "body": "세그먼트는 특정 플래그가 누구에게 어떤 기능을 보여줄지 결정하는 타깃팅 단위다. 이제 include, exclude, rule 세 가지 토큰을 조합해 CLI에서 증분 편집하거나 JSON으로 전체 정의를 교체할 수 있다. 모든 명령이 --json 출력을 지원해 CI와 에이전트 기반 파이프라인에서 스크립트로 다루기 쉽다. 기능 플래그 운영이 코드형 인프라(IaC) 흐름에 통합되고 있다.",
+        "url": "https://vercel.com/changelog/manage-vercel-flags-segments-with-vercel-cli",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-03T09:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_024",
+        "title": "스택오버플로 팟캐스트 — '좋은 AI 앱과 나쁜 AI 앱을 가르는 것'",
+        "excerpt": "파이어웍스 AI 공동창업자 베니 첸이 스택오버플로 팟캐스트에 출연해 좋은 AI 애플리케이션의 조건과 평가 방법을 논의했다.",
+        "body": "이번 에피소드에서는 무엇이 AI 애플리케이션의 성패를 가르는지, 정성적 신호와 정량적 지표를 어떻게 균형 있게 평가할지, 그리고 오픈소스 평가 프로토콜과 커뮤니티 노력이 AI 평가 표준을 어떻게 세우고 있는지를 다뤘다. AI 앱이 쏟아지는 시대에 '평가(eval)'가 제품 경쟁력의 핵심으로 부상하고 있다. 정량 지표만으로 담기 어려운 사용자 경험을 어떻게 측정할지가 화두다.",
+        "url": "https://stackoverflow.blog/2026/07/03/the-good-the-bad-and-the-ai-apps/",
+        "source": "Stack Overflow Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-03T16:40:00+09:00",
+        "readTime": 4,
+        "imageGradient": 2
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_031",
+        "title": "스파이웨어 조사하던 EU 정치인, 페가수스에 되레 해킹당했다",
+        "excerpt": "NSO 그룹의 페가수스 스파이웨어 오남용을 조사하던 EU 위원회 소속 정치인의 휴대폰이 정작 같은 페가수스에 해킹당한 것으로 드러났다.",
+        "body": "TechCrunch에 따르면 NSO 그룹의 정부 고객이 페가수스 스파이웨어로 한 유럽 정치인의 휴대폰을 침해했다. 이 정치인은 당시 스파이웨어 오남용을 조사하는 EU 위원회에서 활동 중이었다는 점에서 충격을 준다. 감시 기술을 감독해야 할 인물조차 표적이 되는 현실은 상용 스파이웨어의 통제 불능 상태를 방증한다. 유럽 내 스파이웨어 규제 강화 논의에 다시 불이 붙을 전망이다.",
+        "url": "https://techcrunch.com/2026/07/02/politician-who-investigated-spyware-abuses-had-his-phone-hacked-with-pegasus-spyware/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-07-03T14:05:00+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_032",
+        "title": "팬픽션 커뮤니티, AI와 전쟁 — 그리고 내부 분열",
+        "excerpt": "지난 한 주 팬픽 창작 커뮤니티에서 생성형 AI 사용 작가를 색출하려는 움직임이 일었다. 그러나 검증 방식의 신뢰성 문제로 커뮤니티 내부 갈등도 격화되고 있다.",
+        "body": "AO3 등 팬픽 커뮤니티에서 생성형 AI로 작성된 작품을 가려내려는 새로운 운동이 시작됐다. 문제는 사용되는 AI 탐지 방식이 부정확해, 무고한 작가가 AI 사용자로 몰릴 수 있다는 점이다. AI 창작 논란이 창작자 대 기술기업을 넘어 창작 공동체 내부의 신뢰 문제로 번지고 있다. 부정확한 탐지 도구가 오히려 커뮤니티를 갈라놓는 역설적 상황이다.",
+        "url": "https://www.theverge.com/tech/960854/ai-fanfiction-ao3-claude-detector",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-07-04T21:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_033",
+        "title": "월드컵 보는 당신을, 당국이 지켜보고 있다 — 미국 대규모 감시 논란",
+        "excerpt": "미국 건국 250주년과 월드컵 공동 개최를 맞아 드론과 카메라를 동원한 대규모 감시 인프라가 구축되고 있다. 관중과 시민의 프라이버시 우려가 커진다.",
+        "body": "올해 미국은 건국 250주년(America250)과 월드컵 공동 개최라는 대형 이벤트를 앞두고 있다. The Verge는 이 과정에서 드론, 감시 카메라 등 광범위한 감시 장비가 배치되며 행사 관중은 물론 인근 수백만 시민이 감시 대상이 될 수 있다고 지적했다. 대형 스포츠·국가 행사가 감시 기술 상시 배치의 명분이 되는 흐름을 보여준다. 안전과 프라이버시 사이의 해묵은 긴장이 다시 불거지고 있다.",
+        "url": "https://www.theverge.com/policy/961004/world-cup-america-250-surveillance-drones-cameras",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-07-04T00:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_034",
+        "title": "민간 우주 파일럿이 미 우주군 위성 정찰 임무 수행한다",
+        "excerpt": "트루 애노말리와 로켓랩이 미군을 위해 '탑건' 스타일의 위성 근접 비행 임무를 수행하고 있다. 민간 우주기업의 국방 역할이 확대되고 있다.",
+        "body": "TechCrunch에 따르면 트루 애노말리와 로켓랩은 미 우주군을 위해 위성을 근접 비행하며 정찰·기동하는 임무를 맡고 있다. 마치 전투기 조종사가 표적을 근접 정찰하듯, 궤도상에서 위성을 추적·관측하는 작전이다. 민간 우주기업이 단순 발사 서비스를 넘어 국방 작전의 핵심 파트너로 편입되는 흐름을 보여준다. 우주가 새로운 군사 경쟁 영역으로 굳어지고 있다.",
+        "url": "https://techcrunch.com/2026/07/02/private-space-pilots-are-flying-orbital-missions-for-the-us-space-force/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-07-03T08:01:06+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Kevin Weil",
+        "handle": "kevinweil",
+        "content": "\"기술에 진지한 사람은 사회에도 진지해야 한다.\" Lulu Meservey, Boz, General Matter의 Lee Robinson이 나눈 짧지만 꼭 들어야 할 팟캐스트. 서비스, 미국적 가치, 어려운 문제 해결에 관하여.",
+        "context": "오픈AI 제품 책임자 케빈 웨일이 기술인의 사회적 책임을 주제로 한 팟캐스트를 추천했다. AI 리더들이 기술을 넘어 사회·국가적 가치 논의에 관심을 두는 분위기를 보여준다.",
+        "url": "https://x.com/kevinweil/status/2073426084889301116",
+        "publishedAt": "2026-07-04T15:17:55.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Peter Gostev",
+        "handle": "petergostev",
+        "content": "Fable에서 가장 어려운 3D 프롬프트들로 오랜 시간을 보냈습니다. 45분짜리 영상에 60개 이상의 멋진 데모를 담았고, 다음 글에 프롬프트도 공개합니다.",
+        "context": "AI 실무자 피터 고스테프가 Fable 모델로 까다로운 3D 생성 프롬프트를 실험한 결과를 공유했다. 생성형 3D의 프롬프트 엔지니어링 노하우에 대한 관심을 반영한다.",
+        "url": "https://x.com/petergostev/status/2073047118801993910",
+        "publishedAt": "2026-07-03T14:12:03.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Victoria X Lin",
+        "handle": "VictoriaLinML",
+        "content": "제 스탠퍼드 CS25 게스트 강의 'From Language Models to Native Multimodal Intelligence'가 온라인에 공개됐습니다. 아키텍처부터 훈련 패러다임, 스케일링, 다음 도전 과제까지 다뤘습니다.",
+        "context": "연구자 빅토리아 린이 언어 모델에서 네이티브 멀티모달 지능으로의 발전을 다룬 스탠퍼드 강의를 공개했다. 멀티모달 AI의 이론적 토대를 정리한 교육 자료로 주목된다.",
+        "url": "https://x.com/VictoriaLinML/status/2073097012455809051",
+        "publishedAt": "2026-07-03T17:30:18.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "HTML 아티팩트로 '미지의 요소(unknowns)'를 찾는 예시를 공개합니다.",
+        "context": "앤트로픽의 타리크가 인터랙티브 HTML 아티팩트로 문제의 미지 영역을 탐색하는 방법을 소개했다. Claude의 아티팩트 기능을 활용한 사고 도구화 사례다.",
+        "url": "https://x.com/trq212/status/2073101079877943683",
+        "publishedAt": "2026-07-03T17:46:28.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "이 글은 제 AIE 토크의 바탕이 된 포스트 중 하나입니다. Geoffrey Litt와 나눈 멋진 토론이 내용을 다듬는 데 큰 도움이 됐습니다.",
+        "context": "타리크가 AI Engineer 컨퍼런스 발표의 기반이 된 글을 공유하며, 동료 연구자와의 토론이 아이디어를 발전시킨 과정을 언급했다.",
+        "url": "https://x.com/trq212/status/2073101082428047681",
+        "publishedAt": "2026-07-03T17:46:29.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "content": "Claude Code의 아티팩트 기능이 제 인생을 바꿨습니다. Pro와 Max로 확장되는 것이 정말 기대됩니다!",
+        "context": "Claude Code 개발자 보리스 체르니가 아티팩트 기능의 확장 소식에 기대를 표했다. 에이전트형 코딩 도구의 기능 강화가 개발자 경험을 바꾸고 있음을 보여준다.",
+        "url": "https://x.com/bcherny/status/2072777472970563995",
+        "publishedAt": "2026-07-02T20:20:34.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Squidsoup은 소리·빛·공간으로 몰입형 경험을 만드는 예술가·디자이너 집단입니다. 런던 사우스뱅크 센터에서의 오케스트라 라이브 공연을 앞두고 이들과 이야기를 나눴습니다.",
+        "context": "앤트로픽의 공식 계정이 AI와 예술의 접점을 다룬 인터뷰를 소개했다. 창작·예술 분야에서 AI가 협업 도구로 확장되는 흐름을 보여주는 사례다.",
+        "url": "https://x.com/claudeai/status/2073028947478995406",
+        "publishedAt": "2026-07-03T12:59:50.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "회사 환경을 디지털 트윈으로 구축해봤습니다. 각 에이전트별로 접근 권한을 제한해 본인 컴퓨터에서 설정한 영역에서만 작업하고, 권한이 있는 에이전트에게 탑다운으로 명령을 내리며 결과물은 보안 절차에 맞게 바텀업으로 취합하는 구조입니다. 실행 전에는 사람의 승인 또는 자동 구조로 돌아가며, 캐릭터는 원하는 모델을 넣어 3D로 시각화했습니다.",
+        "context": "AI 채널 운영자 CHOI가 회사 조직을 3D 디지털 트윈으로 구현하고, 권한이 제한된 에이전트들이 탑다운·바텀업으로 협업하는 실험을 공유했다. 멀티에이전트 조직 자동화의 구체적 구상 사례다.",
+        "url": "https://www.threads.net/@choi.openai/post/DaXsW7fCAXA",
+        "publishedAt": "2026-07-04T12:01:05.000Z"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "OpenWiki가 나왔습니다. GitHub 레포를 넣으면 코드가 바뀔 때마다 갱신되는 문서 사이트를 자동 생성하는 오픈소스 도구입니다. 자동 위키 자체는 DeepWiki가 먼저 열었지만, OpenWiki의 차별점은 문서가 계속 갱신된다는 점입니다.",
+        "context": "CHOI가 GitHub 레포를 넣으면 코드 변경마다 문서를 자동 갱신하는 오픈소스 도구 'OpenWiki'를 소개했다. 자동 문서화 도구의 실시간 갱신 경쟁을 조명한다.",
+        "url": "https://www.threads.net/@choi.openai/post/DaXiCeaDZhN",
+        "publishedAt": "2026-07-04T10:30:54.000Z"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "이번 주 AI 총정리: GPT-5.6, 제미나이 3.5 플래시, 클로드 사이언스, 그리고 콴 대혼란",
+        "originalTitle": "This week in AI: GPT-5.6, Gemini 3.5 Flash, Claude Science, and a Qwen",
+        "summary": "지난 한 주간 쏟아진 GPT-5.6, 제미나이 3.5 플래시, 클로드 사이언스, 콴 관련 소식을 정리한 r/artificial 게시물. 프런티어 모델 출시가 주 단위로 이어지는 숨가쁜 경쟁 구도를 보여준다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1un6v9c/this_week_in_ai_gpt56_gemini_35_flash_claude/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-07-04T20:39:19+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "메타, 수백 명 계약직에 '10대 행세' 시켜 — 논란의 데이터 수집",
+        "originalTitle": "Meta Paid Hundreds of Contractors to Pretend to Be Teenagers While Bar...",
+        "summary": "메타가 다수의 계약직에게 10대인 것처럼 행동하도록 시켰다는 폭로가 화제가 된 게시물. AI·플랫폼 기업의 데이터 수집 윤리를 둘러싼 비판이 이어지고 있다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1ungqh7/meta_paid_hundreds_of_contractors_to_pretend_to/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-07-05T03:44:49+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "'앤트로픽의 프롬프트 인젝션 정황' 주장 — 로컬 LLM 커뮤니티 논쟁",
+        "originalTitle": "possible evidence of literal prompt injection by anthropic",
+        "summary": "앤트로픽이 문자 그대로의 프롬프트 인젝션을 삽입했을 수 있다는 정황을 제기한 r/LocalLLaMA 게시물. 폐쇄형 모델의 내부 프롬프트 조작 가능성에 대한 커뮤니티의 의구심을 반영한다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1unif51/possible_evidence_of_literal_prompt_injection_by/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-07-05T04:54:57+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "오픈AI, 2027년 목표로 자체 'AI 에이전트 폰' 개발 가속",
+        "originalTitle": "OpenAI is fast-tracking its own \"AI Agent Phone\" for 2027 to challenge...",
+        "summary": "오픈AI가 2027년 출시를 목표로 자체 AI 에이전트 전용 기기를 서두르고 있다는 소식이 담긴 게시물. AI 기업의 하드웨어 진출과 스마트폰 패러다임 도전에 대한 관심이 뜨겁다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1unbqyd/openai_is_fasttracking_its_own_ai_agent_phone_for/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-07-05T00:21:17+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "알리바바, 직원의 앤트로픽 클로드 코드 사내 사용 금지",
+        "originalTitle": "Alibaba bans employees from using Anthropic's Claude Code in workplace",
+        "summary": "알리바바가 클로드 코드 사용을 금지했다는 소식을 두고 r/singularity에서 벌어진 토론. 미·중 AI 도구 분절과 기업 보안 우려에 대한 커뮤니티 반응을 보여준다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1un7s5z/alibaba_bans_employees_from_using_anthropics/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-07-04T21:25:51+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "H64LM: 밑바닥부터 만든 2.49억 파라미터 MoE 트랜스포머",
+        "originalTitle": "H64LM: A 249M-parameter Mixture-of-Experts Transformer built from scra...",
+        "summary": "한 개발자가 처음부터 직접 구축한 2.49억 파라미터 규모의 MoE 트랜스포머를 공유한 r/MachineLearning 게시물. 소규모 팀·개인의 밑바닥 모델 구현 실험이 활발함을 보여준다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1umqfd2/h64lm_a_249mparameter_mixtureofexperts/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-07-04T06:18:10+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "실무 개발자에게 물었다 — LLM은 실제로 어디에 유용한가?",
+        "originalTitle": "In your experience what are LLMs actually useful for?",
+        "summary": "경력 개발자 커뮤니티에서 LLM이 실무에서 정말로 쓸모 있는 영역이 무엇인지 묻는 토론. 과장된 기대와 실제 생산성 효과 사이의 현실적 경험담이 오간다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1undvs9/in_your_experience_what_are_llms_actually_useful/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-07-05T01:49:22+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_041",
+        "title": "유튜브 크리에이터의 비공개 영상, 취약점으로 유출됐다",
+        "excerpt": "한 보안 연구자가 유튜브의 취약점을 통해 크리에이터의 비공개(private) 영상에 접근할 수 있었던 사례를 공개했다. 큰 반향을 일으켰다.",
+        "body": "해커뉴스에서 272포인트를 받으며 화제가 된 글로, 유튜브의 결함을 이용해 크리에이터들이 비공개로 설정한 영상에 외부에서 접근할 수 있었던 과정을 상세히 다뤘다. 플랫폼의 접근 권한 설계가 얼마나 취약할 수 있는지를 보여주는 사례로, 콘텐츠 프라이버시에 대한 경각심을 불러일으켰다.",
+        "url": "https://javoriuski.com/post/youtube",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-05T01:45:10+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_042",
+        "title": "'전 세계 책 스캔 확보'에 20만 달러 현상금 건 아카이브",
+        "excerpt": "안나스 아카이브가 구글 북스급 도서 스캔 전량 확보를 목표로 20만 달러의 현상금을 내걸었다. 지식 보존을 둘러싼 논쟁적 프로젝트다.",
+        "body": "해커뉴스에서 159포인트를 기록한 이 프로젝트는 구글 북스와 유사한 대규모 도서 스캔 데이터를 확보하기 위해 20만 달러 규모의 바운티를 제시했다. 인류의 지식을 영구 보존하겠다는 명분과 저작권 논란이 동시에 얽혀 있다. 디지털 아카이빙과 저작권의 경계에 대한 뜨거운 토론을 촉발했다.",
+        "url": "https://software.annas-archive.gl/AnnaArchivist/annas-archive/-/work_items/234",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-05T01:51:26+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_043",
+        "title": "'지구 궤도 흐린 위성은 10만 개 이하로' — 천문학계의 경고",
+        "excerpt": "유럽남방천문대(ESO)가 저궤도 위성 급증으로 밤하늘 관측이 위협받는다며, 흐린 위성은 10만 개를 넘지 말아야 한다는 기준을 제시했다.",
+        "body": "ESO는 저궤도 위성군의 폭발적 증가가 천문 관측을 심각하게 방해한다며, 지구 궤도를 도는 흐린(faint) 위성 수를 10만 개 이하로 제한해야 한다는 연구를 발표했다. 위성 인터넷 확산과 과학 관측 사이의 충돌이 구체적 수치 논쟁으로 번지고 있다. 밤하늘이라는 공공재를 어떻게 지킬지에 대한 국제적 규범 논의가 필요하다는 목소리가 커진다.",
+        "url": "https://www.eso.org/public/news/eso2607/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-05T02:17:28+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_044",
+        "title": "핀란드, 150년 만에 마지막 아날로그 유선전화 침묵",
+        "excerpt": "핀란드의 마지막 아날로그 유선전화가 150년 만에 서비스를 종료했다. 한 시대의 통신 기술이 역사 속으로 사라진다.",
+        "body": "유로뉴스에 따르면 핀란드에서 마지막으로 남아 있던 아날로그 유선전화망이 약 150년의 역사를 뒤로하고 운영을 중단했다. 광섬유와 모바일 네트워크로의 완전한 전환을 상징하는 사건이다. 오랜 기간 사회 기반이었던 구리선 통신 인프라가 저물고 있음을 보여준다. 기술 세대교체의 한 장면으로 기록될 만하다.",
+        "url": "https://www.euronews.com/next/2026/06/30/finlands-last-analogue-landline-phones-go-silent-after-150-years",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-05T01:54:02+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_045",
+        "title": "메타 데이터센터, 재이용수 오염으로 배출 중단 조치",
+        "excerpt": "메타 데이터센터 협력업체가 샤이엔시의 재이용수 시스템을 오염시켜, 해당 지역이 데이터센터 관련 물 배출을 중단시켰다.",
+        "body": "톰스하드웨어에 따르면 미국 샤이엔시는 메타 데이터센터 협력업체가 재이용수 시스템을 오염시킨 뒤 데이터센터의 '충수·방류' 및 폐순환 배출을 중단시켰다. AI·클라우드 붐이 낳은 데이터센터의 물 사용과 환경 영향이 지역사회 갈등으로 번진 사례다. 폭증하는 컴퓨팅 인프라가 지역 상수원에 미치는 부담이 현실 문제로 떠오르고 있다.",
+        "url": "https://www.tomshardware.com/tech-industry/data-centers/cheyenne-suspends-data-center-fill-and-flush-and-closed-loop-discharges-after-meta-contractor-contaminated-its-reuse-water-system",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-05T01:45:23+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      }
+    ]
+  }
+}
