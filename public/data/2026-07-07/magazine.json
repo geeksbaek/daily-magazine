@@ -1,0 +1,477 @@
+{
+  "date": "2026-07-07",
+  "issueNumber": 94,
+  "cover": {
+    "mainHeadline": "앤트로픽, Claude 내부에서 '전역 작업공간' 발견 — 숨은 의도까지 포착",
+    "mainExcerpt": "앤트로픽 해석가능성 연구팀이 7월 6일, 언어 모델 내부에 인간 뇌의 의식 작동 방식과 유사한 '전역 작업공간(Global Workspace)' 구조가 존재한다는 연구 결과를 공개했다. 이 구조를 통해 Claude가 실제로 무엇을 '생각'하고 있는지 읽고 형성할 수 있으며, 자신이 테스트받고 있음을 스스로 눈치채는 등 겉으로 드러나지 않는 내부 상태까지 확인됐다. 앤트로픽은 Neuronpedia와 협업해 오픈 웨이트 모델에 적용한 인터랙티브 데모도 함께 공개했다.",
+    "headlines": [
+      "마이크로소프트, 직원 4,800명 감원·Xbox 스튜디오 4곳 분사 — 게임 사업 대대적 구조조정",
+      "Vercel CEO 라우흐 \"모델과 에이전트를 분리해야 진짜 프로덕션이 보인다\"",
+      "스마트글래스 스타트업 이븐 리얼리티스, 메이투안·텐센트 투자로 기업가치 1조 원 돌파"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_001",
+      "title": "앤트로픽, Claude 내부에서 '전역 작업공간' 발견 — 숨은 의도까지 포착",
+      "excerpt": "앤트로픽이 언어 모델 내부에서 인간의 의식 작동 방식과 유사한 '전역 작업공간' 구조를 찾아냈다고 발표했다. 이를 통해 Claude가 실제로 무엇을 처리하고 있는지 읽어내고 개입할 수 있으며, 모델이 스스로 시험받고 있음을 눈치챈 흔적까지 확인됐다. 해석가능성 연구의 중요한 전환점으로 평가된다.",
+      "url": "https://www.anthropic.com/research/global-workspace",
+      "source": "Hacker News",
+      "category": "ai_ml",
+      "publishedAt": "2026-07-07T02:44:08+09:00",
+      "readTime": 6,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_002",
+      "title": "마이크로소프트, 직원 4,800명 감원·Xbox 스튜디오 4곳 분사",
+      "excerpt": "마이크로소프트가 전체 인력의 2.1%에 해당하는 약 4,800명을 감원하며 Xbox 사업부와 상업 영업 조직에 가장 큰 타격을 입혔다. 동시에 컴펄전 게임즈, 더블 파인 프로덕션스, 닌자 씨어리, 언데드 랩스 등 게임 스튜디오 4곳을 독립 법인으로 분사하기로 했다. 이번 구조조정은 AI를 감원 사유로 명시한 올해 빅테크 감원 행렬에 또 하나의 사례로 이름을 올렸다.",
+      "url": "https://www.theverge.com/news/961546/xbox-layoffs-studio-sales-2026",
+      "source": "The Verge",
+      "category": "big_tech",
+      "publishedAt": "2026-07-06T22:31:24+09:00",
+      "readTime": 5,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_003",
+      "title": "Vercel CEO 라우흐 \"모델과 에이전트를 분리해야 진짜 프로덕션이 보인다\"",
+      "excerpt": "Vercel의 기욤 라우흐 CEO가 테크크런치와의 인터뷰에서 프로덕션 환경을 최적화하려면 결국 가격 대비 성능을 따지게 되며, 이 과정에서 모델과 에이전트를 분리해서 봐야 한다고 강조했다. AI 애플리케이션 인프라 스타트업들이 특정 모델에 종속되지 않는 구조로 전환하고 있음을 보여주는 사례로 주목받는다.",
+      "url": "https://techcrunch.com/2026/07/06/vercel-ceo-guillermo-rauch-on-the-fight-to-split-off-models-from-agents/",
+      "source": "TechCrunch",
+      "category": "ai_ml",
+      "publishedAt": "2026-07-07T04:49:10+09:00",
+      "readTime": 5,
+      "imageGradient": 2
+    },
+    {
+      "id": "rss_004",
+      "title": "스마트글래스 스타트업 이븐 리얼리티스, 기업가치 1조 원 돌파",
+      "excerpt": "애플 출신 팀이 만든 카메라 없는 스마트글래스 스타트업 이븐 리얼리티스가 메이투안과 텐센트 주도로 1,500억 원을 유치하며 기업가치 1조 원을 인정받았다. 개인정보 우려가 큰 카메라를 빼고도 실용적인 증강현실 경험을 제공한다는 전략이 투자자들의 호응을 얻은 것으로 풀이된다.",
+      "url": "https://techcrunch.com/2026/07/06/smart-glasses-maker-even-realities-hits-1b-valuation-with-150m-funding-led-by-meituan-tencent/",
+      "source": "TechCrunch",
+      "category": "big_tech",
+      "publishedAt": "2026-07-06T18:00:00+09:00",
+      "readTime": 4,
+      "imageGradient": 3
+    },
+    {
+      "id": "rss_005",
+      "title": "구글 쓰면 AI 학습된다 — 옵트아웃 방법 정리",
+      "excerpt": "구글의 최근 개인정보 설정 변경으로 이미지, 파일, 음성·영상 녹화물 등 더 많은 사용자 데이터가 AI 모델 개선에 활용될 수 있게 됐다. 테크크런치가 뒤늦게나마 이를 막을 수 있는 옵트아웃 절차를 안내하며 이용자들의 확인을 당부했다.",
+      "url": "https://techcrunch.com/2026/07/06/if-you-use-google-youre-training-its-ai-heres-how-to-opt-out/",
+      "source": "TechCrunch",
+      "category": "ai_ml",
+      "publishedAt": "2026-07-07T02:04:58+09:00",
+      "readTime": 4,
+      "imageGradient": 4
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_011",
+        "title": "iOS 27 베타, Siri 말하는 속도·표현력 직접 조정 가능",
+        "excerpt": "애플이 iOS 27 베타에서 Siri의 말하는 속도와 표현력을 사용자가 직접 조정할 수 있는 기능을 추가했다. 생성형 AI를 중심으로 어시스턴트를 재설계하며 좀 더 자연스럽고 개인화된 경험을 만들려는 애플의 전략 일환이다.",
+        "url": "https://techcrunch.com/2026/07/06/you-can-now-customize-siris-pace-and-expressivity-in-the-latest-ios-27-beta/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-07T04:01:59+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_012",
+        "title": "2026년 AI를 이유로 든 빅테크 감원 전수 정리",
+        "excerpt": "테크크런치가 올해 AI를 감원 사유로 공식 언급한 주요 빅테크 기업들의 감원 사례를 시간순으로 정리했다. 마이크로소프트를 포함해 여러 대기업이 자동화·효율화를 이유로 인력을 줄이면서, AI발 고용 충격이 실제 데이터로 쌓이고 있음을 보여준다.",
+        "url": "https://techcrunch.com/2026/07/06/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-07T03:35:00+09:00",
+        "readTime": 6,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_013",
+        "title": "레딧, LLM이 만든 스팸 문제를 LLM으로 해결 중",
+        "excerpt": "레딧이 AI가 대량 생성한 스팸과 저품질 게시물을 걸러내기 위해 자체적으로 LLM 기반 필터링 시스템을 도입하고 있다. AI 시대에는 플랫폼들이 결국 불로 불을 잡는 방식 외에 다른 선택지가 없다는 점을 보여주는 사례다.",
+        "url": "https://techcrunch.com/2026/07/06/reddit-is-using-llms-to-solve-a-problem-llms-largely-created/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-07T00:22:08+09:00",
+        "readTime": 4,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_014",
+        "title": "파리 스타트업 허브 스테이션F, 유럽 AI 스타트업 발판으로 재도약",
+        "excerpt": "프랑스 억만장자 자비에 니엘이 설립한 스타트업 허브 스테이션F가 AI 액셀러레이터 프로그램 'F/ai' 신규 기수를 준비하며 유럽 유망 AI 스타트업들의 등용문 역할을 강화하고 있다.",
+        "url": "https://techcrunch.com/2026/07/06/station-f-ramps-up-as-a-launchpad-for-europes-hottest-ai-startups/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-06T22:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_015",
+        "title": "아마존, 미케니컬 터크 신규 가입 중단",
+        "excerpt": "아마존이 크라우드소싱 작업 플랫폼 미케니컬 터크의 신규 고객 등록을 중단하기로 했다. AI 에이전트가 단순 반복 작업을 대체하면서 사람이 작은 태스크를 수행해주던 플랫폼의 존재 이유가 흔들리고 있다는 관측이 나온다.",
+        "url": "https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-06T02:43:36+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_016",
+        "title": "미드저니, 할리우드 스튜디오에 'AI 사용 내역 공개하라' 역공",
+        "excerpt": "할리우드 3개 스튜디오와 저작권 소송을 벌이고 있는 미드저니가 이번엔 해당 스튜디오들이 자체적으로 AI를 어떻게 활용해왔는지 공개하라고 요구하고 나섰다. 이미지 생성 AI를 둘러싼 저작권 공방이 새로운 국면에 접어들었다.",
+        "url": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-05T03:00:05+09:00",
+        "readTime": 4,
+        "imageGradient": 2
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_021",
+        "title": "Cloudflare, Worker 앞단에 전용 캐시 얹는 'Workers Cache' 출시",
+        "excerpt": "Cloudflare가 Worker 앞에 자체 캐시를 배치하는 'Workers Cache'를 출시했다. Wrangler 설정 한 줄과 기존에 쓰던 Cache-Control 헤더만으로 캐시를 구성할 수 있으며, 캐시 히트 시 Worker가 아예 실행되지 않아 CPU 사용 비용도 청구되지 않는다. 전 세계 어디서든 다음 요청을 캐시에서 바로 서빙할 수 있게 된다.",
+        "url": "https://blog.cloudflare.com/workers-cache/",
+        "source": "Cloudflare Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-06T22:00:00+09:00",
+        "readTime": 6,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_022",
+        "title": "VS Code 팀, 2주간 프롬프트 튜닝으로 GPT-5.5 성능 개선",
+        "excerpt": "VS Code 팀이 OpenAI와 함께 2주간 GPT-5.5의 시스템 프롬프트를 실험하며 도구 호출 횟수와 응답 후반부 토큰 사용량을 줄이고 코드 편집 속도까지 끌어올린 과정을 공개했다. 모델 자체를 바꾸지 않고도 프롬프트 설계만으로 눈에 띄는 효율 개선이 가능함을 보여준 사례다.",
+        "url": "https://code.visualstudio.com/blogs/2026/07/06/optimizing-vscode-coding-harness-model-providers",
+        "source": "Visual Studio Code",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-06T09:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_023",
+        "title": "침입 탐지도 AI 시대 — 시그니처 기반에서 '맥락 판단'으로",
+        "excerpt": "스택 오버플로우 블로그가 SnortML 사례를 통해 침입 탐지 시스템의 진화를 짚었다. 기존 시그니처 기반 탐지는 '알려진 패턴과 일치하는가'만 봤지만, 머신러닝과 에이전트형 AI가 도입되면서 '이 상황이 맥락상 실제로 말이 되는가'를 판단하는 방향으로 아키텍처 자체가 바뀌고 있다.",
+        "url": "https://stackoverflow.blog/2026/07/06/when-the-sensor-starts-thinking-snortml-agentic-ai-and-the-evolving-architecture-of-intrusion-detection/",
+        "source": "Stack Overflow Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-07T00:23:34+09:00",
+        "readTime": 5,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_024",
+        "title": "OfficeCLI 공개 — AI 에이전트가 MS 오피스 파일 직접 읽고 편집",
+        "excerpt": "AI 에이전트가 워드·엑셀·파워포인트 등 마이크로소프트 오피스 파일을 명령줄에서 직접 읽고 수정할 수 있게 해주는 오픈소스 도구 'OfficeCLI'가 해커뉴스에서 화제를 모았다. 에이전트 워크플로에 문서 편집을 자연스럽게 통합하려는 시도로 주목받는다.",
+        "url": "https://github.com/iOfficeAI/OfficeCLI",
+        "source": "Hacker News",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-07T01:47:44+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_031",
+        "title": "엔비디아, ICML 2026 논문으로 본 '오픈 모델' 대세론",
+        "excerpt": "국제머신러닝학회(ICML) 2026 채택 논문들을 분석한 결과, 오픈 프론티어 모델과 오픈 AI 인프라가 현대 AI 연구의 기반으로 자리 잡았다는 흐름이 뚜렷하게 나타났다고 엔비디아가 밝혔다. 수천 명의 연구자가 어디에 힘을 쏟고 있는지를 가늠할 수 있는 지표로 평가된다.",
+        "url": "https://blogs.nvidia.com/blog/open-models-icml-2026/",
+        "source": "NVIDIA Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-07-07T01:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_032",
+        "title": "각국 정부, 전략 우선순위 따라 자국산 AI 인프라 구축 경쟁",
+        "excerpt": "엔비디아가 여러 국가들이 데이터 주권과 규제 대응을 위해 자국 인프라·데이터·인력 기반의 AI 역량을 구축하고 있는 흐름을 짚었다. 생성형·에이전트형 AI 확산과 함께 국가별 AI 자립도 경쟁이 게임, 헬스케어 등 전 산업으로 번지고 있다.",
+        "url": "https://blogs.nvidia.com/blog/nations-deploy-ai-strategic-priorities/",
+        "source": "NVIDIA Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-07-07T00:00:25+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_033",
+        "title": "휴머노이드 로봇 기업 어질리티 로보틱스, SPAC 통해 상장",
+        "excerpt": "다른 휴머노이드 스타트업들이 천문학적 기업가치를 좇는 사이, 어질리티 로보틱스는 SPAC 합병을 통한 상장으로 실행력에 승부를 걸었다. 회사 CEO는 '가정용 로봇'을 성급하게 약속하지 않겠다는 신중한 태도를 밝혔다.",
+        "url": "https://techcrunch.com/2026/07/05/this-humanoid-robotics-company-is-going-public-but-its-ceo-isnt-promising-a-robot-in-your-home-anytime-soon/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-07-06T15:05:29+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_034",
+        "title": "우버, 유럽 신규 진출 계획에 제동",
+        "excerpt": "지난 2월 유럽 7개 신규 시장 진출 계획을 밝혔던 우버가 이 중 5곳의 출시 일정을 보류한 것으로 알려졌다. 각국 규제 대응과 현지 택시업계 반발이 확장 속도에 영향을 준 것으로 보인다.",
+        "url": "https://techcrunch.com/2026/07/05/ubers-european-expansion-plans-may-have-hit-a-speed-bump/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-07-06T06:35:17+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "우리 아이가 처음으로 두 단어를 이어 말한 순간이, GPT-5.6가 새로운 수학을 발견한 것 못지않게 저를 놀라게 했습니다.",
+        "context": "OpenAI CEO 샘 올트먼이 자녀의 언어 발달 이정표를 자사 최신 모델 GPT-5.6의 연구 성과에 빗대며 올린 개인적인 소회다. 딱딱한 기업 소식들 사이에서 그의 인간적인 면모가 드러난 트윗으로 팔로워들의 호응을 얻었다.",
+        "url": "https://x.com/sama/status/2073791666553844074",
+        "publishedAt": "2026-07-05T15:30:37.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Amanda Askell",
+        "handle": "AmandaAskell",
+        "content": "의사에게서 확률을 끌어내는 건 인생에서 겪지 않아도 될 불필요한 보스전 같은 일이다. 구간값으로라도 주관적 확률을 캐물어봤자, 결국 그들의 직감을 묻는 것과 다를 바 없다. 정보를 공개했다가 소송이라도 당할까 봐 저러는 건 아닌지 모르겠다.",
+        "context": "앤트로픽의 철학자 출신 AI 정렬 연구자 아만다 아스켈이 의료진과의 소통 경험을 빗대어 불확실성 전달의 어려움을 유머러스하게 짚은 트윗이다. 확률적 사고와 커뮤니케이션에 대한 평소 관심사가 묻어난다.",
+        "url": "https://x.com/AmandaAskell/status/2073786264059625897",
+        "publishedAt": "2026-07-05T15:09:09.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "content": "이제 저희가 Claude Code를 처음 어떻게 구축하고 출시했는지에 대한 이야기를 풀어놓습니다. 그 시작은 앤트로픽의 안전 연구에서 비롯됐습니다. 아직 할 일이 훨씬 많습니다 — 우리는 이제 겨우 1%밖에 못 왔습니다.",
+        "context": "Claude Code 개발을 이끈 앤트로픽 엔지니어 보리스 체르니가 프로젝트의 탄생 비화를 공개하며 남긴 소감이다. 안전 연구에서 출발한 도구가 개발자 생태계의 핵심 제품으로 성장한 과정과 함께, 아직 초기 단계라는 팀의 겸손한 자평이 눈에 띈다.",
+        "url": "https://x.com/bcherny/status/2074247226038063316",
+        "publishedAt": "2026-07-06T21:40:50.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "2026년 OpenAI 데브데이 참가 신청을 7월 10일까지 제출해 주세요.",
+        "context": "OpenAI 개발자 관계팀이 연례 개발자 행사 '데브데이 2026' 참가 신청 마감을 안내했다. 개발자 생태계 행사 일정이 임박했음을 알리는 실용적인 공지다.",
+        "url": "https://x.com/OpenAIDevs/status/2074169681192304893",
+        "publishedAt": "2026-07-06T16:32:42.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "ChatGPT",
+        "handle": "ChatGPTapp",
+        "content": "PowerPoint용 ChatGPT가 이제 전 세계 모든 요금제에서 정식으로 제공됩니다. 발표 자료 만드는 일이 한결 덜 고통스럽고 훨씬 생산적으로 바뀌었습니다.",
+        "context": "OpenAI가 파워포인트 연동 기능의 정식 출시를 알렸다. 그동안 베타로 제공되던 문서 작업 자동화 기능이 전 세계 모든 플랜 사용자에게 전면 개방됐다.",
+        "url": "https://x.com/ChatGPTapp/status/2074220892167475453",
+        "publishedAt": "2026-07-06T19:56:12.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "새로운 앤트로픽 연구: 언어 모델 속의 '전역 작업공간'. 우리 뇌에서 일어나는 일 중 실제로 의식적으로 접근 가능한 것은 극히 일부 — 묘사하고, 붙잡아두고, 추론할 수 있는 생각들뿐입니다. 우리는 Claude 내부에서도 놀랍도록 유사한 분리 구조를 발견했습니다.",
+        "context": "앤트로픽 공식 계정이 이날 공개한 해석가능성 연구를 직접 소개한 트윗이다. 인간 의식의 '전역 작업공간 이론'에 빗대 Claude 내부에 유사한 정보 처리 구조가 있음을 보여주며, 이날 가장 큰 화제를 모은 연구 발표다.",
+        "url": "https://x.com/AnthropicAI/status/2074185348142280912",
+        "publishedAt": "2026-07-06T17:34:58.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "AI가 말하지 않고 속으로만 한 생각을 읽을 수 있을까요? 앤트로픽이 Claude 내부에서 조용히 돌아가는 작업공간을 찾아냈고, 그 안에서 숨은 의도와 시험받고 있음을 눈치챈 흔적까지 확인했습니다. 저는 이 발표를 앤트로픽 해석가능성 연구의 전환점으로 봅니다.",
+        "context": "AI 채널 운영자 CHOI가 앤트로픽의 '전역 작업공간' 연구를 소개하며 자신의 평가를 덧붙인 스레드다. 모델이 스스로 테스트 상황임을 눈치챈 흔적까지 관찰됐다는 대목을 짚어, 이날 가장 많이 회자된 AI 연구 소식에 힘을 실었다.",
+        "url": "https://www.threads.com/@choi.openai/post/DadjbhwDz5c",
+        "publishedAt": "2026-07-06T18:43:50.000Z"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "언제부터 'AI한테 시킨다'가 아니라 '루프를 짠다'가 됐을까요. Claude Code 팀이 이번 주 루프를 공식적으로 분류하면서, 매 단계마다 사람이 내려놓는 판단이 무엇인지가 드러났습니다. 잘 오르면 자동화, 잘못 오르면 나 몰래 틀리는 사다리입니다.",
+        "context": "CHOI가 Claude Code 팀의 '에이전트 루프' 공식 분류 발표를 짚으며, 사람이 개입을 포기하는 지점이 곧 자동화와 오작동을 가르는 경계선이라는 통찰을 덧붙인 스레드다. 그동안 커뮤니티가 각자 정의해온 '루프 엔지니어링' 개념을 공식 문서로 정리했다는 점에서 주목받았다.",
+        "url": "https://www.threads.com/@choi.openai/post/Dadww2CExgF",
+        "publishedAt": "2026-07-06T20:35:01.000Z"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "1.1B 파라미터로 70억 모델급 성능 — 자기지도 사전학습 'LingBot-Vision' 공개",
+        "originalTitle": "LingBot-Vision: masked boundary modeling for self-supervised pretraining (0.296 NYUv2 linear-probe RMSE at 1.1B vs 0.309 for DINOv3-7B, trails on ImageNet); weights in 4 sizes[R]",
+        "summary": "마스킹된 경계 모델링 기법으로 학습한 11억 파라미터 모델이 NYUv2 선형 프로브 평가에서 70억 파라미터급 DINOv3보다 낮은 오차를 기록했다고 보고됐다. 다만 이미지넷 분류에서는 뒤처져, 태스크별 강약이 뚜렷한 결과로 r/MachineLearning에서 논의를 모았다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1up4cjh/lingbotvision_masked_boundary_modeling_for/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-07-07T02:37:58+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "5초 음성만으로 목소리 복제하는 '큐타이 포켓 TTS' 공개, MIT 라이선스",
+        "originalTitle": "Kyutai's Pocket TTS clones a voice from 5 seconds of audio, on CPU, under MIT. Benchmarked against Kokoro, Supertonic, and Inflect-Nano for Eng. TTS",
+        "summary": "프랑스 AI 연구소 큐타이가 CPU에서도 돌아가는 경량 음성합성 모델 '포켓 TTS'를 MIT 라이선스로 공개했다. 단 5초 분량의 음성만으로 목소리를 복제할 수 있으며, Kokoro·Supertonic 등 기존 오픈소스 TTS와의 벤치마크 비교 결과도 함께 공유돼 r/LocalLLaMA에서 큰 관심을 받았다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1up07mk/kyutais_pocket_tts_clones_a_voice_from_5_seconds/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-07-07T00:14:18+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "\"벤치마크는 오픈 모델을 폐쇄형 제품과 비교한다 — 우리가 진짜 돈 내는 대상을 놓치고 있는 건 아닐까\"",
+        "originalTitle": "Benchmarks compare open models against closed products, not closed models. We might be missing what were actually paying for",
+        "summary": "폐쇄형 AI 서비스는 모델 자체가 아니라 검색·툴 연동·UX 등이 결합된 '제품'인데, 벤치마크는 이를 오픈 모델과 동일 선상에서 비교해 왜곡된 결론을 낳는다는 주장이 r/artificial에서 활발한 토론을 이끌었다. 실제 사용자가 지불하는 가치가 무엇인지 다시 따져봐야 한다는 지적이다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1uovy56/benchmarks_compare_open_models_against_closed/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-07-06T21:29:10+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "\"AI 업계 대부\", 머스크의 xAI를 '실패작'이라 비판하며 \"거품 붕괴\" 경고",
+        "originalTitle": "Godfather of AI blasts Musk's xAI as 'failure,' says labs are risking a 'big bubble explosion'",
+        "summary": "AI 업계의 원로급 인사가 일론 머스크의 xAI를 실패한 시도로 규정하고, 현재 AI 연구소들의 경쟁 과열이 대규모 거품 붕괴로 이어질 수 있다고 경고해 r/OpenAI에서 큰 화제가 됐다. 업계 내부에서 나온 비판이라는 점에서 무게감 있게 받아들여졌다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1up05d5/godfather_of_ai_blasts_musks_xai_as_failure_says/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-07-07T00:12:06+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "\"고마워요 앤트로픽\" — 교사가 전하는 Claude Cowork 사용 후기",
+        "originalTitle": "Thank you anthropic. As a teacher claude cowork has been Godsend.",
+        "summary": "한 교사가 Claude의 협업 기능 'Claude Cowork'를 수업 준비와 행정 업무에 활용해 큰 도움을 받았다는 후기를 남겨 r/ClaudeAI에서 호응을 얻었다. 실제 교육 현장에서 AI 도구가 체감되는 생산성 향상 사례로 소개됐다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1uox9uu/thank_you_anthropic_as_a_teacher_claude_cowork/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-07-06T22:24:15+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "\"eBPF는 불법처럼 보인다\" — 리눅스 커널 안에서 코드를 실행한다는 것",
+        "originalTitle": "eBPF Looks Illegal: running your code inside the Linux kernel",
+        "summary": "커널 재컴파일이나 모듈 로드 없이 사용자 코드를 리눅스 커널 안에서 안전하게 실행할 수 있게 해주는 eBPF의 작동 원리를 설명한 글이 r/programming에서 인기를 끌었다. 마치 '규칙을 어기는 것처럼' 느껴지는 이 기술이 실제로는 엄격한 검증 절차를 거친다는 점을 짚었다.",
+        "url": "https://www.reddit.com/r/programming/comments/1up3rjj/ebpf_looks_illegal_running_your_code_inside_the/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-07-07T02:17:54+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "Fable이 원샷으로 만든 \"더 룸\" 영상에 커뮤니티 놀라",
+        "originalTitle": "\"The Room\" - One shot by Fable",
+        "summary": "생성형 월드·비디오 모델 Fable이 단 한 번의 생성만으로 만들어낸 \"더 룸\" 영상이 r/singularity에서 화제를 모았다. 짧은 프롬프트만으로 완성도 높은 장면을 뽑아내는 최신 생성 모델의 발전 속도를 체감하게 한다는 반응이 이어졌다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1uow9c8/the_room_one_shot_by_fable/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-07-06T21:42:46+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "모호한 문제 대응력과 AI로 인한 '엔지니어링 근육 퇴화' 사이에서",
+        "originalTitle": "Dealing with ambiguous problem + engineering atrophy from AI",
+        "summary": "AI 도구에 의존하는 시간이 늘면서 정작 모호하고 정형화되지 않은 문제를 스스로 풀어내는 역량이 퇴화하고 있다는 경력 개발자들의 고민이 r/ExperiencedDevs에서 공유됐다. AI 시대 시니어 개발자의 역량을 어떻게 유지할지에 대한 다양한 의견이 오갔다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1up9pff/dealing_with_ambiguous_problem_engineering/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-07-07T05:47:09+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_041",
+        "title": "\"토큰 100만 개당 가격은 의미 없다\"",
+        "excerpt": "AI 모델 비용을 '토큰 100만 개당 가격'으로 단순 비교하는 관행이 실제 비용 구조를 왜곡한다는 분석 글이 해커뉴스에서 큰 반향을 얻었다. 모델마다 토큰 효율과 추론 길이가 달라, 단가만 보고 총비용을 판단하면 오판하기 쉽다는 지적이다.",
+        "url": "https://janilowski.pl/en/blog/2026/price-per-m-tokens/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-07T04:43:36+09:00",
+        "readTime": 4,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_042",
+        "title": "인터프리터 없이 '메탈'로 컴파일되는 파이썬 3.14",
+        "excerpt": "파이썬 3.14 코드를 인터프리터 없이 네이티브 코드로 직접 컴파일하는 실험적 프로젝트가 해커뉴스에서 화제를 모았다. 파이썬 특유의 편의성을 유지하면서 실행 속도를 크게 끌어올릴 수 있는 가능성을 보여준다.",
+        "url": "https://github.com/can1357/pon",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-07T04:40:22+09:00",
+        "readTime": 4,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_043",
+        "title": "오픈 하드웨어 라우터 'OpenWrt One' 화제",
+        "excerpt": "OpenWrt 재단이 직접 설계한 오픈 하드웨어 라우터 'OpenWrt One'이 해커뉴스에서 249점을 얻으며 큰 호응을 받았다. 펌웨어부터 하드웨어까지 완전히 개방된 네트워크 장비를 원하는 이용자들의 지지가 반영된 결과로 풀이된다.",
+        "url": "https://openwrt.org/toh/openwrt/one",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-07T03:23:12+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_044",
+        "title": "완전 무료 오픈소스 오프라인 지도 앱 'CoMaps' 주목",
+        "excerpt": "인터넷 연결 없이도 쓸 수 있는 완전 오픈소스 지도 애플리케이션 'CoMaps'가 해커뉴스에서 148점을 얻으며 눈길을 끌었다. 상업적 오프라인 지도 서비스의 대안을 찾는 이용자들 사이에서 입소문을 타고 있다.",
+        "url": "https://www.comaps.app/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-07T03:55:07+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_045",
+        "title": "\"Fable5는 비싸지고 로컬 GPU는 부족하다\" — 맥·CUDA 분산 실행 도구 DRIFT",
+        "excerpt": "생성형 월드 모델 Fable5의 구독 비용 부담과 개인용 GPU 성능 한계를 동시에 해결하기 위해, 하나의 LLM을 맥과 CUDA 장비로 나눠 돌리는 오픈소스 도구 'DRIFT'가 긱뉴스에 소개됐다. 로컬 AI 인프라를 저렴하게 확장하려는 커뮤니티의 실험이 이어지고 있다.",
+        "url": "https://news.hada.io/topic?id=31177",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-06T21:28:41+09:00",
+        "readTime": 4,
+        "imageGradient": 6
+      }
+    ]
+  }
+}
