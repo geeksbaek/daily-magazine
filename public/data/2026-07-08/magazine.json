@@ -1,0 +1,468 @@
+{
+  "date": "2026-07-08",
+  "issueNumber": 95,
+  "cover": {
+    "mainHeadline": "앤트로픽, Claude Cowork 모바일·웹으로 확장 — 코딩 에이전트, 사무실 전체로 번지다",
+    "mainExcerpt": "앤트로픽이 데스크톱 전용이던 Claude Cowork를 모바일과 웹으로 확장했다. 책상에서 작업을 맡기고 노트북을 닫아도 휴대폰으로 진행 상황을 확인하며 완성된 결과를 이어받을 수 있다. 코딩을 넘어 일반 업무 자동화로 향하는 에이전트 경쟁의 신호탄이다.",
+    "headlines": [
+      "마이크로소프트, 자체 모델 비중 늘려 AI 비용 절감 대열 합류",
+      "Vercel, 오픈소스 인증 라이브러리 Better Auth 인수 — 에이전트 신원까지 겨냥",
+      "구글, Gemini API 매니지드 에이전트 확장 — 백그라운드 작업·원격 MCP 지원"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_001",
+      "title": "앤트로픽, Claude Cowork 모바일·웹으로 확장 — 코딩 에이전트 전쟁, 사무실 전체로 번지다",
+      "excerpt": "앤트로픽이 데스크톱 전용이던 Claude Cowork를 모바일과 웹으로 확장했다. 책상에서 작업을 맡기고 노트북을 닫아도 휴대폰으로 진행 상황을 받아보고 완성된 결과물을 이어받을 수 있다. 코딩 에이전트 경쟁이 개발자를 넘어 일반 사무 업무 영역으로 확산되는 신호로 읽힌다.",
+      "url": "https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-07-08T01:27:18+09:00",
+      "readTime": 3,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_002",
+      "title": "마이크로소프트, 자체 모델 비중 늘려 AI 비용 절감 대열 합류",
+      "excerpt": "마이크로소프트가 실리콘밸리 거대 기업 중 최신으로 AI 지출을 줄이기 시작했다. 외부 모델 의존도를 낮추고 자체 개발 모델 활용을 늘리는 방향으로 비용 구조를 재편하고 있다. 천문학적 AI 투자에 대한 수익성 압박이 업계 전반으로 확산되는 흐름이다.",
+      "url": "https://techcrunch.com/2026/07/07/microsoft-joins-ai-cost-cutting-trend-by-relying-more-on-its-own-models/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-07-08T04:58:20+09:00",
+      "readTime": 3,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_003",
+      "title": "Vercel, 오픈소스 인증 라이브러리 Better Auth 인수 — 에이전트 신원까지 겨냥",
+      "excerpt": "Vercel이 주간 npm 다운로드 470만 회, 기여자 850명 이상의 오픈소스 타입스크립트 인증 라이브러리 Better Auth를 인수했다. 창업자와 핵심 팀이 합류해 프레임워크에 종속되지 않는 인증과 '에이전트 신원' 작업을 이어간다. Next.js·AI SDK로 이어온 '개방형 소프트웨어' 전략의 연장선이다.",
+      "url": "https://vercel.com/blog/vercel-acquires-better-auth",
+      "source": "Vercel Blog",
+      "category": "dev_tools",
+      "publishedAt": "2026-07-07T16:00:00+09:00",
+      "readTime": 4,
+      "imageGradient": 2
+    },
+    {
+      "id": "rss_004",
+      "title": "Figma, 바이브코딩 앱 팀 인수 — AI 디자인·개발 통합 가속",
+      "excerpt": "Figma가 바이브코딩 플랫폼과 에이전트 생성 제품을 만든 Y Combinator 출신 스타트업 팀을 인수했다. 디자인 도구에 AI 기반 코드 생성 역량을 결합하려는 움직임으로, 디자인과 개발의 경계를 허무는 경쟁이 격화되고 있다.",
+      "url": "https://techcrunch.com/2026/07/07/figma-acquires-team-behind-a-vibe-coding-app/",
+      "source": "TechCrunch",
+      "category": "big_tech",
+      "publishedAt": "2026-07-08T03:37:01+09:00",
+      "readTime": 3,
+      "imageGradient": 3
+    },
+    {
+      "id": "rss_005",
+      "title": "구글, Gemini API의 매니지드 에이전트 확장 — 백그라운드 작업·원격 MCP 지원",
+      "excerpt": "구글이 Gemini API의 매니지드 에이전트 기능을 대폭 확장해 백그라운드 작업 실행과 원격 MCP 연동 등을 추가했다. 개발자가 장시간 실행되는 에이전트 워크플로를 더 쉽게 구축할 수 있게 됐다. 에이전트 인프라를 둘러싼 플랫폼 경쟁이 본격화되는 모습이다.",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
+      "source": "AI & Machine Learning",
+      "category": "ai_ml",
+      "publishedAt": "2026-07-07T17:54:00+09:00",
+      "readTime": 3,
+      "imageGradient": 4
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_011",
+        "title": "호주 결제 인프라 AP+, ChatGPT·Codex로 지식 업무 속도 개선",
+        "excerpt": "호주 결제·신원 인프라를 운영하는 AP+가 ChatGPT와 Codex를 도입해 복잡한 규정·기술 명세 지식 업무의 처리 속도를 높였다고 OpenAI가 소개했다. 정확성과 책임성이 핵심인 금융 인프라 영역에서 생성형 AI를 실무에 적용한 사례다.",
+        "url": "https://openai.com/index/australian-payments-plus",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-07T09:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_012",
+        "title": "허깅페이스 오픈웨이트 모델, MS 파운드리 매니지드 컴퓨트에 탑재",
+        "excerpt": "Microsoft Build 2026에서 발표된 '파운드리 매니지드 컴퓨트'와 함께 허깅페이스의 큐레이션된 오픈웨이트 모델 카탈로그가 Foundry에서 제공된다. 기업이 관리형 인프라 위에서 오픈 모델을 손쉽게 배포할 수 있게 됐다.",
+        "url": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
+        "source": "Hugging Face - Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-08T00:20:06+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_013",
+        "title": "디스코드, AI 검열 버그로 무고한 이용자 대량 차단 인정",
+        "excerpt": "디스코드가 AI 모더레이션 버그로 무해한 이미지를 올린 이용자들을 잘못 차단해왔다고 인정했다. 문제는 5월부터 이어졌고, 팀이 원인을 파악하기 전 주말 동안 200명이 추가로 차단됐다. 자동화된 콘텐츠 검열의 오탐 위험을 드러낸 사례다.",
+        "url": "https://techcrunch.com/2026/07/07/discord-admits-ai-moderation-bug-wrongfully-banned-users-over-harmless-images/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-08T04:28:38+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_014",
+        "title": "미국산 자율주행 지상차량, 우크라이나 전장에 첫 투입",
+        "excerpt": "Forterra가 자사 자율주행 ATV 100대 이상을 우크라이나 분쟁 지역에 배치했다. 미국산 자율주행 지상 차량이 실전에 투입된 첫 사례로, 군사 영역에서 자율 시스템의 활용이 빠르게 현실화되고 있음을 보여준다.",
+        "url": "https://techcrunch.com/2026/07/07/the-first-american-autonomous-ground-vehicles-are-fighting-in-ukraine/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-07T18:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_015",
+        "title": "허깅페이스, 어떤 클라우드에서든 실행·저장은 HF에 — 제로 이그레스 워크플로",
+        "excerpt": "허깅페이스가 클라우드에 구애받지 않고 AI 워크로드를 실행하면서 데이터와 모델은 허깅페이스에 저장하는 방식을 소개했다. 이그레스 비용 없이 여러 클라우드를 오가며 작업할 수 있어 개발 유연성이 높아진다.",
+        "url": "https://huggingface.co/blog/skypilot-hf-storage",
+        "source": "Hugging Face - Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-07T09:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_016",
+        "title": "허깅페이스 로보틱스 프레임워크 LeRobot v0.6.0 공개 — 상상·평가·개선",
+        "excerpt": "허깅페이스가 로보틱스 학습 프레임워크 LeRobot의 v0.6.0을 공개했다. 정책을 상상하고 평가하며 개선하는 파이프라인을 강화해, 오픈소스 로봇 학습 생태계의 접근성을 한층 넓혔다.",
+        "url": "https://huggingface.co/blog/lerobot-release-v060",
+        "source": "Hugging Face - Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-07T09:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_021",
+        "title": "깃허브, 2026 1분기 이노베이션 그래프 — 전 세계 오픈소스 협업 가속",
+        "excerpt": "깃허브가 2026년 1분기 이노베이션 그래프를 공개하며 전 세계적으로 오픈소스 협업이 가속되고 있다고 밝혔다. 국가·지역별 개발자 활동 데이터를 통해 글로벌 소프트웨어 생태계의 성장세를 확인할 수 있다.",
+        "url": "https://github.blog/news-insights/policy-news-and-insights/q1-2026-innovation-graph-update-open-source-collaboration-is-accelerating-worldwide/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-08T01:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_022",
+        "title": "클라우드플레어, 영국 정부 사이버 회복력 서약 동참",
+        "excerpt": "클라우드플레어가 영국 정부가 출범시킨 사이버 회복력 서약(Cyber Resilience Pledge)에 참여했다. 조직들이 자발적으로 사이버 방어를 강화하도록 유도하는 프레임워크로, 보안 인프라 기업의 공공 협력 사례다.",
+        "url": "https://blog.cloudflare.com/cloudflare-joins-uk-cyber-resilience-pledge/",
+        "source": "Cloudflare Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-07T22:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_023",
+        "title": "Vercel, 프로젝트 단위 액티비티 로그 제공 시작",
+        "excerpt": "Vercel이 이제 프로젝트 수준에서 액티비티 로그를 확인할 수 있는 기능을 추가했다. 팀 전체가 아닌 개별 프로젝트별 활동 이력을 세밀하게 추적할 수 있어 운영 가시성이 향상된다.",
+        "url": "https://vercel.com/changelog/you-can-now-view-the-activity-log-at-a-project-level",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-07T17:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_024",
+        "title": "스택오버플로우: 센서가 생각하기 시작할 때 — SnortML과 침입 탐지의 진화",
+        "excerpt": "시그니처 기반 침입 탐지가 '알려진 패턴과 일치하는가'에서 '맥락상 말이 되는가'로 질문을 바꾸고 있다. 머신러닝과 자율 에이전트가 결합된 SnortML 등으로 침입 탐지 아키텍처가 재편되는 흐름을 다뤘다.",
+        "url": "https://stackoverflow.blog/2026/07/06/when-the-sensor-starts-thinking-snortml-agentic-ai-and-the-evolving-architecture-of-intrusion-detection/",
+        "source": "Stack Overflow Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-07T00:23:34+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_031",
+        "title": "구글, 8월 12일 픽셀 이벤트 개최 — 픽셀 11 공개 예정",
+        "excerpt": "구글이 8월 12일 픽셀 언팩 이벤트를 연다고 공식 발표했다. 차기 플래그십 픽셀 11 시리즈가 공개될 것으로 예상되며, AI 기능을 앞세운 하드웨어 경쟁이 다시 달아오를 전망이다.",
+        "url": "https://techcrunch.com/2026/07/07/googles-pixel-event-is-set-for-august-12/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-07-08T03:38:29+09:00",
+        "readTime": 2,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_032",
+        "title": "X, \"인기 계정들이 남의 영상 도용\" — 원본 게시 장려 기능 도입",
+        "excerpt": "X가 일부 인기 계정들이 다른 이용자의 영상을 도용하고 있다고 지적하며, 창작자가 원본 콘텐츠를 올리도록 유도하는 영상 편집기 등 새 기능을 발표했다. 플랫폼 내 콘텐츠 저작권과 창작자 보호 문제를 정면으로 다뤘다.",
+        "url": "https://www.theverge.com/tech/962415/x-video-editor-recycled-content",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-07-08T03:28:08+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_033",
+        "title": "넷플릭스, 짧은 영상 포맷 실험 — 새 세로형 콘텐츠 세트 도입",
+        "excerpt": "넷플릭스가 짧은 길이의 영상 콘텐츠를 실험하며 새로운 포맷 세트를 선보였다. 숏폼 소비 트렌드에 대응해 시청 습관 변화에 발맞추려는 시도로 해석된다.",
+        "url": "https://techcrunch.com/2026/07/07/netflix-dabbles-in-shorter-video-content-with-its-new-set-of-publisher-deals-with-variety-others/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-07-08T02:24:35+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_034",
+        "title": "둠 개발사 id 소프트웨어, Xbox 감원으로 인력 절반 축소 보도",
+        "excerpt": "마이크로소프트의 Xbox 구조조정 여파로 둠 개발사 id 소프트웨어의 인력이 절반가량 줄었다는 보도가 나왔다. 대규모 게임 사업 재편이 유서 깊은 스튜디오에까지 미치고 있음을 보여준다.",
+        "url": "https://www.theverge.com/games/962223/doom-id-software-xbox-layoffs",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-07-08T01:09:48+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Claude Cowork가 모바일과 웹으로 출시됩니다.\n\n책상에서 Claude에게 작업을 맡기고, 휴대폰에서 완성된 작업을 받아보세요. 노트북을 닫아도 Claude는 계속 진행합니다.\n\n베타 버전은 Max 플랜부터 시작하여 향후 몇 주 동안 순차적으로 배포되며, 더 많은 플랜이 뒤따를 예정입니다.",
+        "context": "앤트로픽 공식 계정이 Claude Cowork의 모바일·웹 확장을 알린 트윗이다. 책상에서 시작한 작업을 이동 중에도 이어받을 수 있다는 점을 강조하며, 이날 가장 크게 회자된 제품 소식 중 하나였다.",
+        "url": "https://x.com/claudeai/status/2074525815820169320",
+        "publishedAt": "2026-07-07T16:07:51.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "7월 12일까지 모든 유료 플랜에서 Claude Fable 5에 대한 액세스를 확장합니다.",
+        "context": "앤트로픽이 실험적 모델 Claude Fable 5의 접근 기간을 7월 12일까지 연장한다고 공지한 트윗이다. 유료 이용자들의 관심이 높은 모델의 사용 창구를 늘린 조치다.",
+        "url": "https://x.com/claudeai/status/2074548242386178258",
+        "publishedAt": "2026-07-07T17:36:58.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "새로운 Anthropic 연구: 언어 모델의 전역 작업 공간.\n\n지금 당신의 뇌에서 일어나는 모든 것 중에서 의식적으로 접근할 수 있는 것은 극히 일부에 불과합니다—묘사할 수 있고, 마음속에 붙잡아 둘 수 있으며, 추론할 수 있는 생각들 말입니다.\n\n우리는 Claude 내부에서도 놀라울 정도로 유사한 분리를",
+        "context": "앤트로픽이 언어 모델 내부의 '전역 작업공간' 연구를 공개하며 올린 트윗이다. 인간 의식과 유사하게 모델도 극히 일부 정보만 의식적으로 접근한다는 관찰을 소개해 해석가능성 연구에서 큰 반향을 얻었다.",
+        "url": "https://x.com/AnthropicAI/status/2074185348142280912",
+        "publishedAt": "2026-07-06T17:34:58.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "GPT-Realtime-2.1-mini가 이제 API에서 사용 가능하며, GPT-Realtime-mini와 동일한 비용으로 추론 및 도구 사용 기능을 Realtime mini 라인업에 도입합니다.",
+        "context": "OpenAI 개발자 계정이 GPT-Realtime-2.1-mini의 API 출시를 알린 트윗이다. 기존 mini와 동일한 비용으로 추론·도구 사용 기능을 실시간 음성 라인업에 도입했다.",
+        "url": "https://x.com/OpenAIDevs/status/2074255408013955466",
+        "publishedAt": "2026-07-06T22:13:21.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "ChatGPT",
+        "handle": "ChatGPTapp",
+        "content": "ChatGPT for PowerPoint가 이제 전 세계 모든 플랜에서 일반적으로 이용 가능합니다.\n\n데크를 만드는 일이 조금 덜 고통스럽고 훨씬 더 생산적으로 변했습니다.",
+        "context": "ChatGPT for PowerPoint가 전 세계 모든 플랜에서 정식 제공된다는 소식이다. 슬라이드 제작을 자동화해 문서 작업 생산성을 높이려는 기능 확대다.",
+        "url": "https://x.com/ChatGPTapp/status/2074220892167475453",
+        "publishedAt": "2026-07-06T19:56:12.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "우리는 Claude Code가 어떻게 탄생하게 되었는지에 대한 짧은 역사를 정리했습니다. 이를 만든 사람들이 들려주는 이야기이자, 오늘날의 모습을 만드는 데 도움을 준 초기 사용자들의 이야기입니다.",
+        "context": "앤트로픽이 Claude Code의 탄생 비하인드 스토리를 정리해 공개했다는 트윗이다. 제작진과 초기 사용자들의 이야기를 통해 코딩 에이전트가 어떻게 발전해왔는지 조명했다.",
+        "url": "https://x.com/claudeai/status/2074244664199115201",
+        "publishedAt": "2026-07-06T21:30:40.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "AI 연구자들이 논문보다 먼저 읽는 블로그가 있습니다. 오픈AI 안전 연구 부사장 출신, 지금은 미라 무라티와 씽킹머신즈를 세운 릴리안 웽의 Lil'Log인데요. 모델은 한 줄도 안 고쳤는데 SWE-bench 점수가 20%에서 50%로 뛰었습니다. 바뀐 건 모델을 둘러싼 껍데기, 하네스뿐입니다. 릴리안 웽이 7월 4일, 이 하네스가 AI 자기개선의 시작점이라는 글을 올렸습니다.",
+        "context": "AI 채널 운영자 CHOI가 오픈AI 안전 연구 부사장 출신 릴리안 웽의 블로그 Lil'Log에 실린 '하네스 엔지니어링' 글을 소개한 스레드다. 모델을 손대지 않고 하네스만 개선해 SWE-bench 점수가 20%에서 50%로 뛴 사례를 들며 AI 자기개선의 출발점으로 짚었다.",
+        "url": "https://www.threads.net/@choi.openai/post/DafZipXD6aG",
+        "publishedAt": "2026-07-07T11:50:35.000Z"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "Anthropic의 새 Jacobian Lens를 오픈 모델에 직접 테스트해봤다",
+        "originalTitle": "I tested Anthropic’s new Jacobian Lens on open models, then it turned into a local-model hallucination router",
+        "summary": "한 이용자가 앤트로픽이 공개한 'Jacobian Lens' 해석 기법을 오픈 웨이트 모델에 적용해본 실험을 공유했다. 전역 작업공간 연구의 방법론을 오픈 모델에서 재현·검증하려는 커뮤니티의 관심을 보여준다.",
+        "url": "https://old.reddit.com/r/LocalLLaMA/comments/1upy31x/i_tested_anthropics_new_jacobian_lens_on_open/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-07-08T00:15:59+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "앤트로픽 \"LLM은 겉으로 드러내지 않는 숨은 생각을 가진다\"",
+        "originalTitle": "Anthropic just reported that LLMs have hidden thoughts they hold without saying. An internal ”J-Space”",
+        "summary": "앤트로픽의 전역 작업공간 연구를 두고 r/singularity에서 LLM이 표현하지 않는 내부 사고를 갖는다는 점을 놓고 활발한 토론이 벌어졌다. 모델 투명성과 안전성 함의를 두고 의견이 오갔다.",
+        "url": "https://old.reddit.com/r/singularity/comments/1uptvgb/anthropic_just_reported_that_llms_have_hidden/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-07-07T21:38:46+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "마이크로소프트, AI 주도 재편 속 4,800명 감원",
+        "originalTitle": "Microsoft To Lay Off 4,800 Workers In Latest Wave Of AI-Led Job Cuts - Microsoft announced the cuts on Monday following a rough stretch, with its shares falling nearly 23 per cent in the first six months of 2026, their worst first-half performance since 2022",
+        "summary": "AI 중심의 사업 재편 흐름 속에서 마이크로소프트가 4,800명을 감원한다는 소식이 r/OpenAI에서 큰 반응을 얻었다. AI 투자 확대와 인력 구조조정이 동시에 진행되는 현실을 두고 논쟁이 이어졌다.",
+        "url": "https://old.reddit.com/r/OpenAI/comments/1upspa1/microsoft_to_lay_off_4800_workers_in_latest_wave/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-07-07T20:48:11+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "Fable 5가 실제 악성코드를 찾아내고 스스로 안전 조치까지",
+        "originalTitle": "Fable 5 found actual malware on my PC, and then its own safety filters flagged the warning.",
+        "summary": "한 이용자가 Claude Fable 5가 자신의 PC에서 실제 악성코드를 탐지하고 대응까지 수행했다는 경험을 공유했다. 실사용 환경에서 모델의 보안 유용성을 보여준 사례로 r/ClaudeAI에서 화제가 됐다.",
+        "url": "https://old.reddit.com/r/ClaudeAI/comments/1upu3e2/fable_5_found_actual_malware_on_my_pc_and_then/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-07-07T21:48:05+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "TorchJD: 파이토치에서 여러 손실 함수로 학습하기",
+        "originalTitle": "TorchJD: Training with multiple losses in PyTorch [P]",
+        "summary": "여러 개의 손실을 동시에 다루며 학습할 수 있게 해주는 파이토치 라이브러리 TorchJD가 소개됐다. 자코비안 하강(Jacobian descent) 기반의 다중 목표 최적화를 지원해 연구자들의 관심을 끌었다.",
+        "url": "https://old.reddit.com/r/MachineLearning/comments/1upzxk2/torchjd_training_with_multiple_losses_in_pytorch_p/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-07-08T01:20:47+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "Odin 1.0 정식 발표",
+        "originalTitle": "Odin 1.0 Announcement",
+        "summary": "시스템 프로그래밍 언어 Odin이 1.0 버전을 정식 발표했다. C의 대안을 지향하는 언어의 안정 버전 출시로 r/programming에서 주목받았다.",
+        "url": "https://old.reddit.com/r/programming/comments/1upmnop/odin_10_announcement/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-07-07T15:19:00+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "AI는 인터넷 물결보다 3배 빠르게 확산 중 — 그런데도 거품이 아니다?",
+        "originalTitle": "AI is scaling 3x faster than the internet wave and it’s NOT slowing down",
+        "summary": "AI의 확산 속도가 과거 인터넷 도입기보다 3배 빠르다는 분석이 r/artificial에서 논쟁을 불렀다. 빠른 성장세를 거품으로 볼지 실질적 전환으로 볼지 의견이 갈렸다.",
+        "url": "https://old.reddit.com/r/artificial/comments/1upou8z/ai_is_scaling_3x_faster_than_the_internet_wave/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-07-07T17:21:58+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "당신이 꿈꾸는 소프트웨어 개발자 커리어는?",
+        "originalTitle": "What does your dream software developer career look like?",
+        "summary": "경력 개발자들이 모인 r/ExperiencedDevs에서 이상적인 개발자 커리어의 모습을 두고 다양한 경험담이 오갔다. AI 시대의 커리어 방향성에 대한 고민도 함께 공유됐다.",
+        "url": "https://old.reddit.com/r/ExperiencedDevs/comments/1upnw6y/what_does_your_dream_software_developer_career/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-07-07T16:27:56+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_041",
+        "title": "Ternlight, 브라우저(WASM)에서 실행되는 7MB 임베딩 모델",
+        "excerpt": "용량 7MB의 임베딩 모델 Ternlight가 웹어셈블리(WASM)를 통해 브라우저에서 직접 실행된다고 소개돼 관심을 모았다. 서버 없이 클라이언트에서 경량 임베딩을 처리할 수 있는 접근이다.",
+        "url": "https://news.hada.io/topic?id=31218",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-08T04:33:20+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_042",
+        "title": "Astro 7.0 출시",
+        "excerpt": "웹 프레임워크 Astro가 7.0 버전을 출시했다. 콘텐츠 중심 사이트를 빠르게 구축하는 데 초점을 맞춘 주요 업데이트로 해커뉴스에서 주목받았다.",
+        "url": "https://astro.build/blog/astro-7/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-08T03:30:02+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_043",
+        "title": "ReactOS '오픈소스 윈도우' 프로젝트, 하프라이프 2 실행 가능해져",
+        "excerpt": "오픈소스 윈도우 호환 OS인 ReactOS에서 하프라이프 2 구동이 가능해졌다는 소식이 전해졌다. 오랜 기간 개발돼 온 프로젝트의 호환성이 꾸준히 개선되고 있음을 보여준다.",
+        "url": "https://news.hada.io/topic?id=31217",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-08T02:02:01+09:00",
+        "readTime": 2,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_044",
+        "title": "로컬·CPU 친화적인 고품질 음성 합성(TTS) 공개",
+        "excerpt": "GPU 없이 CPU만으로도 고품질 음성을 생성하는 로컬 TTS가 공개돼 화제가 됐다. 온디바이스 음성 합성의 실용성을 높인 시도로 평가된다.",
+        "url": "https://ariya.io/2026/03/local-cpu-friendly-high-quality-tts-text-to-speech-with-kokoro/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-08T03:24:10+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_045",
+        "title": "\"깃허브, 로그인 장벽 도입 준비하나\" — 해커뉴스 논쟁",
+        "excerpt": "깃허브가 비로그인 접근을 제한하는 로그인 장벽을 준비하는 것 아니냐는 문제 제기가 해커뉴스에서 논쟁을 불렀다. 오픈소스 접근성과 봇 트래픽 대응 사이의 균형을 두고 개발자들의 의견이 엇갈렸다.",
+        "url": "https://news.ycombinator.com/item?id=48821803",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-08T03:40:40+09:00",
+        "readTime": 2,
+        "imageGradient": 7
+      }
+    ]
+  }
+}

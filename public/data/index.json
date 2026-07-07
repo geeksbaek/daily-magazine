@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-07-08",
+      "issueNumber": 95,
+      "mainHeadline": "앤트로픽, Claude Cowork 모바일·웹으로 확장 — 코딩 에이전트, 사무실 전체로 번지다",
+      "headlines": [
+        "마이크로소프트, 자체 모델 비중 늘려 AI 비용 절감 대열 합류",
+        "Vercel, 오픈소스 인증 라이브러리 Better Auth 인수 — 에이전트 신원까지 겨냥",
+        "구글, Gemini API 매니지드 에이전트 확장 — 백그라운드 작업·원격 MCP 지원"
+      ]
+    },
+    {
       "date": "2026-07-07",
       "issueNumber": 94,
       "mainHeadline": "앤트로픽, Claude 내부에서 '전역 작업공간' 발견 — 숨은 의도까지 포착",
@@ -960,5 +970,5 @@
       ]
     }
   ],
-  "latestIssue": 92
+  "latestIssue": 95
 }
