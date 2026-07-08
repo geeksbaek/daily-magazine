@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-07-09",
+      "issueNumber": 96,
+      "mainHeadline": "오픈AI, 실시간 음성 AI 'GPT-Live' 공개 — 영화 '허(Her)'가 현실로",
+      "headlines": [
+        "머스크의 SpaceXAI, 'Opus급' Grok 4.5 출시 — 비용은 10분의 1",
+        "타입스크립트 7 정식 출시 — 네이티브 컴파일러로 대전환",
+        "AI 칩 스타트업 삼바노바, 110억 달러 가치에 10억 달러 유치"
+      ]
+    },
+    {
       "date": "2026-07-08",
       "issueNumber": 95,
       "mainHeadline": "앤트로픽, Claude Cowork 모바일·웹으로 확장 — 코딩 에이전트, 사무실 전체로 번지다",
@@ -970,5 +980,5 @@
       ]
     }
   ],
-  "latestIssue": 95
+  "latestIssue": 96
 }
