@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-07-11",
+      "issueNumber": 98,
+      "mainHeadline": "오픈AI GPT-5.6 패밀리 출격 — MS 코파일럿 접수하고 수학 난제까지 정복",
+      "headlines": [
+        "GPT-5.6, MS 365 코파일럿 '선호 모델'로 채택 — 결별설 속 협력 재확인",
+        "허깅페이스 CEO \"기업들, 이제 AI를 빌려 쓰지 않는다\" — 오픈소스 급성장",
+        "SK하이닉스, 265억 달러 美 상장 — 역대 최대 외국 기업 IPO"
+      ]
+    },
+    {
       "date": "2026-07-10",
       "issueNumber": 97,
       "mainHeadline": "오픈AI, GPT-5.6·ChatGPT Work·GPT-Live 동시 공개 — AI가 '답변'에서 '실행'으로",
@@ -990,5 +1000,5 @@
       ]
     }
   ],
-  "latestIssue": 96
+  "latestIssue": 98
 }

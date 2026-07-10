@@ -1,0 +1,640 @@
+{
+  "date": "2026-07-11",
+  "issueNumber": 98,
+  "cover": {
+    "mainHeadline": "오픈AI GPT-5.6 패밀리 출격 — MS 코파일럿 접수하고 수학 난제까지 정복",
+    "mainExcerpt": "오픈AI가 GPT-5.6 신규 모델 패밀리와 ChatGPT Work를 공개하며 코딩·과학·사이버보안 전반의 성능을 끌어올렸다. GPT-5.6는 MS 365 코파일럿의 기본 모델로 채택됐고, 50년 된 수학 추측 해결 사례까지 등장했다.",
+    "headlines": [
+      "GPT-5.6, MS 365 코파일럿 '선호 모델'로 채택 — 결별설 속 협력 재확인",
+      "허깅페이스 CEO \"기업들, 이제 AI를 빌려 쓰지 않는다\" — 오픈소스 급성장",
+      "SK하이닉스, 265억 달러 美 상장 — 역대 최대 외국 기업 IPO"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_h1",
+      "title": "오픈AI, GPT-5.6 신규 모델 패밀리 공개 — 코딩·사이버보안까지 전방위 향상",
+      "excerpt": "오픈AI가 GPT-5.6를 필두로 한 새로운 모델 패밀리를 출시했다. 코딩, 과학, 사이버보안 등 광범위한 영역에서 성능이 개선됐다.",
+      "body": "오픈AI는 GPT-5.6를 중심으로 Sol·Luna·Terra 등으로 구성된 새 모델 패밀리를 발표했다. 회사는 이번 세대가 코딩과 과학 추론은 물론 사이버보안 방어 능력까지 폭넓게 향상됐다고 밝혔다. 특히 더 적은 토큰으로 더 낮은 비용에 고난도 작업을 처리하도록 최적화된 점이 강조됐으며, 마이크로소프트 365 코파일럿의 기본 모델로도 채택됐다.",
+      "url": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-07-10T07:24:24+09:00",
+      "readTime": 5,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_h2",
+      "title": "GPT-5.6, MS 365 코파일럿의 '선호 모델'로 채택 — 결별설 속 협력 재확인",
+      "excerpt": "마이크로소프트가 GPT-5.6를 코파일럿 제품군의 선호 모델로 지정했다. 양사 결별설이 도는 가운데 나온 발표다.",
+      "body": "오픈AI는 GPT-5.6가 마이크로소프트의 업무·생산성 앱 전반을 계속 구동할 것이라고 밝혔다. 최근 양사 관계 재편 관측이 이어지는 상황에서, 마이크로소프트가 신모델을 코파일럿 365의 기본 모델로 지정하며 협력 관계를 재확인한 셈이다. 오픈AI의 IPO 가능성과 앤스로픽과의 엔터프라이즈 경쟁이 맞물린 미묘한 시점이라는 분석이다.",
+      "url": "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-07-10T09:16:54+09:00",
+      "readTime": 4,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_h3",
+      "title": "허깅페이스 CEO \"기업들, 이제 AI를 빌려 쓰지 않는다\" — 오픈소스 AI 급성장",
+      "excerpt": "클렘 델랑그 허깅페이스 CEO는 오픈소스 AI가 폭발적으로 성장하고 있으며, 기업들이 모델을 임대하는 단계를 지나 자체 소유·운영으로 전환하고 있다고 밝혔다.",
+      "body": "허깅페이스는 최근 몇 년간 AI 분야의 깃허브로 성장해, 포춘 500대 기업의 약 절반이 오픈 모델과 데이터셋을 공유·다운로드하는 허브가 됐다. 델랑그 CEO는 기업들이 처음엔 상용 API를 임대해 쓰다가, 결국 비용·통제·데이터 주권을 이유로 자체 오픈 모델 구축으로 옮겨가는 패턴이 반복되고 있다고 설명했다.",
+      "url": "https://techcrunch.com/2026/07/10/hugging-faces-ceo-on-why-companies-are-done-renting-their-ai/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-07-10T23:00:00+09:00",
+      "readTime": 4,
+      "imageGradient": 2
+    },
+    {
+      "id": "rss_h4",
+      "title": "SK하이닉스, 265억 달러 규모 美 상장 — 역대 최대 외국 기업 IPO",
+      "excerpt": "SK하이닉스가 미국 증시에서 역대 최대 규모의 외국 기업 IPO로 265억 달러를 조달했다. AI 칩 붐이 만든 최대 월가 이벤트다.",
+      "body": "AI 반도체 수요 급증이 월가 최대 상장으로 이어졌다. SK하이닉스는 미국 상장으로 265억 달러를 확보했으며, 삼성과 함께 미국 내 신규 반도체 공장 건설을 요구받고 있다. HBM 등 AI 메모리 시장의 폭발적 성장이 이번 IPO의 배경으로 꼽힌다.",
+      "url": "https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-07-11T02:17:12+09:00",
+      "readTime": 4,
+      "imageGradient": 3
+    },
+    {
+      "id": "rss_h5",
+      "title": "깃허브 \"더 좋은 도구가 코파일럿 코드 리뷰를 더 나쁘게 만들었다\"",
+      "excerpt": "깃허브가 코파일럿 코드 리뷰를 유닉스 스타일 공용 탐색 도구로 이전하며 리뷰 비용을 절감한 과정을 공개했다. 도구를 늘리는 것이 오히려 성능을 떨어뜨렸다는 역설적 교훈이다.",
+      "body": "깃허브 엔지니어링팀은 코파일럿 코드 리뷰 에이전트에 더 많은 전용 도구를 추가했더니 오히려 품질이 나빠졌다고 밝혔다. 해법은 에이전트가 코드베이스를 유닉스 스타일의 공용 탐색 도구(grep·find 등)로 직접 훑도록 재설계하는 것이었고, 이를 통해 리뷰 비용과 컨텍스트 낭비를 크게 줄였다.",
+      "url": "https://github.blog/ai-and-ml/github-copilot/better-tools-made-copilot-code-review-worse-heres-how-we-actually-improved-it/",
+      "source": "GitHub Blog",
+      "category": "dev_tools",
+      "publishedAt": "2026-07-11T00:57:47+09:00",
+      "readTime": 5,
+      "imageGradient": 4
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_ai1",
+        "title": "피지 시모, 오픈AI 2인자 자리에서 물러나 — 리더십 공백 우려",
+        "excerpt": "오픈AI의 2인자였던 피지 시모가 예상보다 길어진 의료 휴직 끝에 전임 역할에서 물러난다. IPO와 엔터프라이즈 경쟁을 앞둔 민감한 시점이다.",
+        "body": "오픈AI 애플리케이션 부문을 이끌던 피지 시모가 건강상 이유로 전임직에서 하차한다. 회사가 상장 가능성을 저울질하고 앤스로픽을 상대로 기업 시장 추격에 나선 시점이라, 이번 리더십 공백이 전략 실행에 부담이 될 수 있다는 관측이 나온다.",
+        "url": "https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-10T08:38:00+09:00",
+        "readTime": 4,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_ai2",
+        "title": "오픈AI, AI 브라우저 'Atlas' 종료 — 에이전트 브라우징은 데스크톱·크롬 확장으로",
+        "excerpt": "오픈AI가 출시 1년도 안 된 AI 브라우저 Atlas를 접는다. 다만 에이전트형 브라우징 기능은 데스크톱 앱과 크롬 확장 프로그램으로 옮겨 계속 확장한다.",
+        "body": "오픈AI는 독립 AI 브라우저 Atlas를 종료하는 대신, 웹을 자동으로 탐색·조작하는 에이전트 브라우징 기능을 자사 데스크톱 앱과 크롬 확장으로 이관한다. 전용 브라우저 대신 기존 워크플로에 브라우징 에이전트를 녹여 넣는 방향으로 전략을 선회한 것으로 풀이된다.",
+        "url": "https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-10T07:03:54+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_ai3",
+        "title": "AI 에이전트 스타트업 Lyzr, 자사 에이전트로 1억 달러 펀딩 진행",
+        "excerpt": "기업용 AI 에이전트를 만드는 Lyzr가 자사 AI 에이전트를 활용해 1억 달러 라운드를 유치했다. 제품이 실제로 작동한다는 증명인 셈이다.",
+        "body": "Lyzr는 자체 AI 에이전트에게 투자 유치 과정 상당 부분을 맡겨 1억 달러 규모의 라운드를 성사시켰다. 자사 제품을 자사 자금 조달에 직접 투입해 성능을 입증하는 독특한 마케팅이자, 에이전트가 실무 업무를 어디까지 대체할 수 있는지 보여주는 사례로 주목받았다.",
+        "url": "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-10T07:08:58+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_ai4",
+        "title": "허깅페이스 파이토치 프로파일링 3부 — 어텐션 병목 분석",
+        "excerpt": "허깅페이스가 파이토치 프로파일링 시리즈 3편을 공개했다. 트랜스포머의 핵심인 어텐션 연산의 성능 병목을 프로파일러로 추적하는 실전 기법을 다룬다.",
+        "body": "이번 3부는 어텐션 메커니즘에서 발생하는 연산·메모리 병목을 파이토치 프로파일러로 계측하는 방법을 설명한다. 커널 실행 시간, 메모리 이동, 커널 융합 여부 등을 실제 사례로 분석하며 모델 추론·학습 성능을 끌어올리는 최적화 포인트를 짚는다.",
+        "url": "https://huggingface.co/blog/torch-attention-profile",
+        "source": "Hugging Face - Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-10T09:00:00+09:00",
+        "readTime": 6,
+        "imageGradient": 8
+      },
+      {
+        "id": "rss_ai5",
+        "title": "오픈AI, 도이체텔레콤과 손잡고 통신 인프라 AI로 재설계",
+        "excerpt": "3억 명 이상 고객을 둔 도이체텔레콤이 오픈AI 기술로 통신 운영을 재편한다. 대규모 통신 인프라에 AI를 접목하는 대표 사례다.",
+        "body": "유럽·미국에서 3억 명 이상을 서비스하고 20만 명 이상을 고용한 도이체텔레콤이 오픈AI와 협력해 통신망 운영과 고객 서비스에 생성형 AI를 도입한다. 네트워크 관리, 상담 자동화 등 통신사 핵심 업무 전반에 AI 에이전트를 적용하는 엔터프라이즈 도입 사례로 평가된다.",
+        "url": "https://openai.com/index/deutsche-telekom",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-10T16:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 9
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "dev1",
+        "title": "Vercel, 트레이스에 트리·워터폴 뷰 추가 — 로그에서 바로 스팬 분석",
+        "excerpt": "Vercel 로그의 트레이스가 트리 뷰와 워터폴 뷰를 지원한다. 로그를 벗어나지 않고 스팬 계층과 임계 경로, 타이밍을 확인할 수 있다.",
+        "body": "트리 뷰는 스팬을 부모·자식 관계로 묶고 로드 시 소요 시간 순으로 정렬해 가장 느린 스팬을 먼저 보여준다. 워터폴 뷰는 모든 스팬을 하나의 시간 축에 배치해 무엇이 병렬로 실행됐고 어디서 시간이 낭비됐는지 드러낸다. 분산 트레이싱 디버깅을 로그 화면 안에서 끝낼 수 있게 됐다.",
+        "url": "https://vercel.com/changelog/traces-now-support-tree-and-waterfall-views",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-11T00:40:00+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "dev2",
+        "title": "스택오버플로 \"에이전트 하네스, 그 이상을 만들다\"",
+        "excerpt": "스택오버플로 블로그가 단순한 에이전트 실행 하네스를 넘어서는 시스템 설계에 대해 논한다. 에이전트를 감싸는 인프라·평가·안전장치의 중요성을 강조한다.",
+        "body": "글은 LLM 에이전트를 프로덕션에 올릴 때 단순히 툴 호출 루프를 돌리는 하네스만으로는 부족하다고 지적한다. 관측성, 평가(Evals), 안전장치, 상태 관리 등 에이전트를 둘러싼 엔지니어링 전반을 갖춰야 신뢰할 수 있는 제품이 된다는 관점을 제시한다.",
+        "url": "https://stackoverflow.blog/2026/07/10/building-more-than-just-an-agent-harness/",
+        "source": "Stack Overflow Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-10T16:40:00+09:00",
+        "readTime": 5,
+        "imageGradient": 1
+      },
+      {
+        "id": "dev3",
+        "title": "클라우드플레어, 퍼블릭 클라우드 리전용 스마트 계층형 캐시 개선",
+        "excerpt": "클라우드플레어가 퍼블릭 클라우드 리전을 대상으로 스마트 계층형 캐시(Smart Tiered Cache)를 개선했다. 오리진 부하를 줄이고 캐시 적중률을 높였다.",
+        "body": "스마트 계층형 캐시는 엣지와 오리진 사이에 상위 캐시 계층을 두어 오리진 요청을 줄이는 기능이다. 이번 개선으로 주요 퍼블릭 클라우드 리전에서 상위 캐시 선택 로직이 최적화돼, 지연 시간과 오리진 대역폭 비용을 함께 낮출 수 있게 됐다.",
+        "url": "https://blog.cloudflare.com/smart-tiered-cache-for-public-clouds/",
+        "source": "Cloudflare Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-10T22:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 2
+      },
+      {
+        "id": "dev4",
+        "title": "깃허브, 모든 저장소에 영구적 소유자 부여 기능 도입",
+        "excerpt": "깃허브가 모든 저장소에 지속적인 소유권(durable owner)을 부여하는 기능을 공개했다. 계정 이전·삭제에도 저장소 소유 관계가 안정적으로 유지된다.",
+        "body": "이 기능은 사용자·조직 계정이 변경되거나 삭제되더라도 저장소의 소유 관계와 참조 무결성을 안정적으로 보존하도록 설계됐다. 대규모 협업 환경에서 소유자 부재로 발생하던 링크 깨짐과 권한 혼란을 줄이려는 조치다.",
+        "url": "https://github.blog/security/application-security/how-github-gave-every-repository-a-durable-owner/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-10T01:29:37+09:00",
+        "readTime": 4,
+        "imageGradient": 3
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "bt1",
+        "title": "엔비디아 최대 RAM 공급사 SK하이닉스, 조 단위 증시 데뷔",
+        "excerpt": "엔비디아의 최대 RAM 공급사인 SK하이닉스가 대형 상장으로 조 단위 가치를 인정받으며 화려하게 증시에 데뷔했다.",
+        "body": "SK하이닉스는 엔비디아 AI 가속기에 필수적인 HBM 메모리의 핵심 공급사로, 이번 미국 상장에서 역대급 규모의 자금을 조달했다. AI 반도체 수요가 메모리 업체의 기업가치를 끌어올린 대표 사례로, 미국 내 생산 확대 압력도 커지고 있다.",
+        "url": "https://www.theverge.com/tech/964121/sk-hynix-nvidia-ram-stock-market-debut",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-07-11T02:31:35+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "bt2",
+        "title": "오라토믹, 2만 큐비트로 실용 양자컴퓨터 구현에 3억 달러 유치",
+        "excerpt": "양자컴퓨팅 스타트업 오라토믹(Oratomic)이 단 2만 큐비트만으로 실용적 양자컴퓨터를 만들겠다는 목표로 3억 달러를 조달했다.",
+        "body": "오라토믹은 기존 방식보다 훨씬 적은 2만 큐비트 규모로도 오류 정정과 유용한 연산이 가능한 양자컴퓨터를 구현하겠다고 밝혔다. 대규모 큐비트 확보 경쟁 대신 효율적 아키텍처로 실용성을 앞당기겠다는 전략에 대형 투자가 몰렸다.",
+        "url": "https://techcrunch.com/2026/07/10/oratomic-raises-300m-to-build-a-viable-quantum-computer-that-needs-only-20k-qubits/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-07-11T00:00:09+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "bt3",
+        "title": "EU, 메타에 페이스북·인스타 '중독 유발 기능' 벌금 경고",
+        "excerpt": "EU가 페이스북과 인스타그램의 중독성 설계를 문제 삼아 메타에 벌금을 부과할 수 있다고 경고했다. 디지털서비스법(DSA) 집행이 강화되는 흐름이다.",
+        "body": "EU 규제당국은 메타의 무한 스크롤·알림 등 사용자 참여를 극대화하는 설계가 이용자, 특히 미성년자에게 해롭다고 보고 있다. 위반이 확인되면 DSA에 따라 막대한 벌금이 부과될 수 있어, 소셜 플랫폼의 '중독 유발' 기능에 대한 규제 압박이 거세지고 있다.",
+        "url": "https://techcrunch.com/2026/07/10/eu-threatens-meta-with-fines-over-addictive-features-on-facebook-and-instagram/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-07-10T23:19:40+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "bt4",
+        "title": "중국, 일론 머스크의 재사용 로켓 기술 빠르게 추격",
+        "excerpt": "중국이 스페이스X가 개척한 재사용 로켓 기술을 빠르게 따라잡고 있다. 발사 비용을 낮추는 재사용 경쟁이 미·중 우주 경쟁의 핵심으로 떠올랐다.",
+        "body": "여러 중국 기업과 국영 기관이 1단 로켓 회수·재사용에 잇따라 성공하거나 근접하며, 머스크의 스페이스X가 주도해온 재사용 발사 분야 격차를 좁히고 있다. 재사용 기술은 발사 단가를 획기적으로 낮추는 만큼, 위성·유인 우주 프로그램 전반의 경쟁 구도에 영향을 줄 전망이다.",
+        "url": "https://techcrunch.com/2026/07/10/china-is-catching-up-to-elon-musks-reusable-rockets/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-07-11T01:51:07+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "bt5",
+        "title": "디즈니+, 무료 광고 기반 스트리밍 등급 검토 중",
+        "excerpt": "디즈니+가 광고 기반 무료 스트리밍 등급 도입을 검토 중인 것으로 알려졌다. 넷플릭스 등과의 이용자 확보 경쟁이 배경이다.",
+        "body": "보도에 따르면 디즈니는 구독료 없이 광고를 보는 대가로 일부 콘텐츠를 제공하는 무료 등급을 저울질하고 있다. 스트리밍 시장 성장 둔화와 광고 매출 확대 필요성 속에서, 무료 유입 창구를 열어 유료 전환을 노리려는 전략으로 해석된다.",
+        "url": "https://techcrunch.com/2026/07/10/disney-is-considering-a-free-streaming-tier-report-says/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-07-11T01:29:05+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Mira Murati",
+        "handle": "miramurati",
+        "content": "오늘 우리는 우리의 사명 뒤에 숨은 세계관을 공유합니다. 인간의 가치는 평균화되지 않습니다. 지역 지식은 중앙화될 수 없습니다. 좋은 미래에는 여러 AI가 존재하며, 서로 다른 장소에서 자라나, 그들이 봉사하는 사람들에 의해 형성되고, 우리가 서로 의견을 달리하듯 서로 동의하지 않습니다.",
+        "context": "미라 무라티가 자신의 스타트업(Thinking Machines)의 사명과 세계관을 공개했다. 여러 AI가 지역과 사람에 뿌리내려 다양성을 갖는 미래를 지향한다는 비전이다.",
+        "url": "https://x.com/miramurati/status/2075621073308311701",
+        "publishedAt": "2026-07-10T16:40:01.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "GPT-5.6가 이제 마이크로소프트 365 코파일럿의 선호 모델이 되었습니다.",
+        "context": "샘 올트먼이 GPT-5.6가 마이크로소프트 365 코파일럿의 선호 모델이 됐다고 알렸다. 오픈AI-MS 협력 관계를 재확인하는 발언이다.",
+        "url": "https://x.com/sama/status/2075585386441789605",
+        "publishedAt": "2026-07-10T14:18:13.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "50년 된 수학 추측이 Sol Ultra로 해결됨. 할 수 있는 것의 한계가 점점 더 당신의 야망과 상상력처럼 느껴집니다:",
+        "context": "그레그 브록만이 GPT-5.6 Sol Ultra로 50년 된 수학 추측이 해결됐다며, 이제 한계는 능력이 아니라 야망과 상상력이라고 강조했다.",
+        "url": "https://x.com/gdb/status/2075670151702430044",
+        "publishedAt": "2026-07-10T19:55:02.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "ChatGPT Work는 에이전트를 소비자 규모로 가져옵니다. 이는 사용성(휴대폰에서 바로 작업을 할 수 있어 노트북이 필요 없습니다)과 접근성 면에서 한 단계 업그레이드된 것으로, 개인 생활과 직업 생활 모두에 적용됩니다.",
+        "context": "그레그 브록만이 ChatGPT Work가 에이전트를 소비자 규모로 확장한다고 설명했다. 휴대폰만으로도 업무를 처리할 수 있는 접근성 향상을 강조했다.",
+        "url": "https://x.com/gdb/status/2075628596232884556",
+        "publishedAt": "2026-07-10T17:09:55.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Tejal Patwardhan",
+        "handle": "tejalpatwardhan",
+        "content": "GPT-5.6 Sol로 Luna 모델을 사후 학습(post-train)했습니다!",
+        "context": "오픈AI 연구원 테잘 파트와르단이 GPT-5.6 Sol로 Luna 모델을 사후 학습(post-train)했다고 밝혔다. 모델 패밀리 내부 개발 방식을 엿볼 수 있다.",
+        "url": "https://x.com/tejalpatwardhan/status/2075272564629451110",
+        "publishedAt": "2026-07-09T17:35:10.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Claude Developers",
+        "handle": "ClaudeDevs",
+        "content": "데스크톱에서 Claude Code가 이제 앱 내 브라우저를 지원합니다. Claude는 문서, 디자인 또는 기타 사이트를 불러올 수 있습니다. 로컬 개발 서버와 동일하게 읽고, 클릭하며, 상호 작용할 수 있습니다. 샌드박스 처리되어 있으며 구성 가능합니다.",
+        "context": "앤스로픽이 데스크톱용 Claude Code에 앱 내 브라우저를 추가했다고 발표했다. 로컬 개발 서버처럼 문서·디자인·사이트를 읽고 클릭·상호작용할 수 있다.",
+        "url": "https://x.com/ClaudeDevs/status/2075635283211772279",
+        "publishedAt": "2026-07-10T17:36:29.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "content": "Claude Code의 새로운 기능: /checkup. /checkup을 실행하면 다음을 수행합니다: 1. 사용하지 않는 스킬/MCP/플러그인을 정리하고 컨텍스트를 절약 2. 로컬 CLAUDE.md를 체크인된 CLAUDE.md와 비교하여 중복 제거 3. 루트 CLAUDE.md를 중첩된 CLAUDE.md + 스킬로 분할 4. 느린 훅을 비활성화",
+        "context": "Claude Code 개발자 보리스 체르니가 새 기능 /checkup을 소개했다. 미사용 스킬·MCP 정리, CLAUDE.md 중복 제거, 느린 훅 비활성화 등을 자동 수행한다.",
+        "url": "https://x.com/bcherny/status/2074997570317779038",
+        "publishedAt": "2026-07-08T23:22:27.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "ChatGPT Work를 소개합니다. Codex와 GPT-5.6으로 구동되는 ChatGPT의 새로운 에이전트입니다. 이것은 앱과 파일 전반에 걸쳐 작업을 수행할 수 있으며, 필요하다면 몇 시간 동안 프로젝트에 머물며 목표를 완성된 작업으로 전환할 수 있습니다.",
+        "context": "오픈AI가 Codex와 GPT-5.6로 구동되는 새 에이전트 ChatGPT Work를 공식 소개했다. 앱과 파일을 넘나들며 몇 시간짜리 프로젝트도 완수한다.",
+        "url": "https://x.com/OpenAI/status/2075274271845404744",
+        "publishedAt": "2026-07-09T17:41:57.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_009",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "우리의 생물학 분야 고급 AI 기능에 대한 보호 장치를 강화하려는 지속적인 노력의 일환으로, 우리는 Bio Bug Bounty를 지속적인 비공개 프로그램으로 발전시키고 있으며, 이를 OpenAI Bio Bug Bounty 프로그램으로 명명하고 보상금을 $50K로 두 배로 늘립니다.",
+        "context": "오픈AI가 생물학 분야 안전을 강화하기 위해 Bio Bug Bounty를 상시 프로그램으로 전환하고 보상금을 5만 달러로 두 배 상향했다.",
+        "url": "https://x.com/OpenAI/status/2075647722766614733",
+        "publishedAt": "2026-07-10T18:25:55.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_010",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "GPT-5.6는 @SnorkelAI 의 Ankit Aich를 위해 거의 1,000줄에 달하는 복잡한 코딩 작업을 맡아, 반복적인 프롬프트나 손잡아주기 없이 처음부터 끝까지 작업을 처리했습니다.",
+        "context": "오픈AI 개발자 계정이 GPT-5.6가 반복 프롬프트 없이 1,000줄에 달하는 복잡한 코딩 작업을 처음부터 끝까지 처리한 사례를 공유했다.",
+        "url": "https://x.com/OpenAIDevs/status/2075657031844028615",
+        "publishedAt": "2026-07-10T19:02:54.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_011",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "저희 장기 혜택 신탁이 벤 버냉키 박사를 최신 회원으로 임명했습니다. 자세히 읽기:",
+        "context": "앤스로픽이 장기 혜택 신탁(Long-Term Benefit Trust)의 신규 위원으로 전 연준 의장 벤 버냉키를 임명했다고 발표했다.",
+        "url": "https://x.com/AnthropicAI/status/2075257492716879967",
+        "publishedAt": "2026-07-09T16:35:17.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_012",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "AE Studio와 이 연구를 함께 진행하게 되어 기쁩니다. 오프-스위치 및 이중 용도 연구에 대한 자세한 내용은 여기서 확인하세요.",
+        "context": "앤스로픽이 AE Studio와 함께 진행한 오프-스위치·이중용도 연구를 공개했다. AI 안전성 관련 공동 연구 성과다.",
+        "url": "https://x.com/AnthropicAI/status/2075005777522172146",
+        "publishedAt": "2026-07-08T23:55:03.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_013",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "메모리 기능이 현재 Free, Pro, Max 플랜에서 웹과 데스크톱에서 베타 버전으로 제공 중입니다. 메모리가 켜져 있을 때만 실행되며, 시크릿 채팅과 건강 통합 콘텐츠는 제외됩니다.",
+        "context": "앤스로픽이 Claude의 메모리 기능을 Free·Pro·Max 전 플랜에 웹·데스크톱 베타로 확대했다. 시크릿 채팅과 건강 콘텐츠는 제외된다.",
+        "url": "https://x.com/claudeai/status/2075225960916369551",
+        "publishedAt": "2026-07-09T14:29:59.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "엔비디아 CEO 젠슨 황은 AI 도입이 일자리 감소가 아닌 새로운 고용 창출로 이어지고 있다고 분석했습니다. 그는 “AI를 더 많이 사용할수록 어떻게든 더 많은 사람을 고용해야 한다”라며, AI 에이전트 시스템의 확장이 소프트웨어 엔지니어에게 새로운 기술적 과제를 부여하고 있다고 설명했습니다. 기존에 단순히 파이썬 코드를 작성하던 엔지니어들은 이제 자율형 에이전트를 구축하고, 평가 시스템(Evals)과 벤치마크, 안전 장치(Guardrails)를 설계하는 시스템 엔지니어로 진화하고 있습니다.",
+        "context": "엔비디아 젠슨 황의 발언을 인용해 AI가 일자리를 없애기보다 엔지니어 역할을 시스템 설계자로 진화시킨다는 관점을 전한 글.",
+        "url": "https://www.threads.com/@choi.openai/post/Dan_8mOAlVC",
+        "publishedAt": "2026-07-10T20:00:06.000Z"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "잭슨 유전의학 연구소의 인간 면역학자 데리아 우누트마즈 교수는 AI와 바이오 기술이 결합한 미래 의학 혁신을 제시했습니다. 그는 인간의 복잡한 생물학적 시스템을 완벽히 모방하는 '디지털 트윈'의 필요성을 강조했습니다. AI가 인간의 생물학적 구조를 완벽히 시뮬레이션할 수 있게 되면, 실제 환자가 아닌 AI 기반 디지털 트윈을 대상으로 치료제와 면역 반응을 시험할 수 있어, 수년이 걸리던 임상시험 기간을 며칠로 단축하고 부작용 없는 개인 맞춤형 치료가 가능해집니다.",
+        "context": "AI와 바이오가 결합한 '디지털 트윈' 기반 신약·면역 연구가 임상 기간을 획기적으로 단축할 수 있다는 전망을 소개한 글.",
+        "url": "https://www.threads.com/@choi.openai/post/DanyPHKAXG9",
+        "publishedAt": "2026-07-10T18:00:18.000Z"
+      },
+      {
+        "id": "threads_003",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "Notion이 'Ship OS'를 공개했습니다. Ship OS는 고객 피드백부터 작업 분류, 담당자 배정, 요약, PR 병합까지 제품 개발 과정을 에이전트가 지원하는 워크플로입니다. 최종 판단은 사람이 맡고 반복적인 작업은 AI가 처리하는 방식입니다. Notion은 내부 제품 출시에 이미 활용하고 있으며, 7월 22일 실제 운영 방식을 소개하는 라이브 세션도 진행할 예정입니다.",
+        "context": "Notion이 제품 개발 전 과정을 에이전트가 지원하는 워크플로 'Ship OS'를 공개했다는 소식을 전한 글.",
+        "url": "https://www.threads.com/@choi.openai/post/Danu2niCJdZ",
+        "publishedAt": "2026-07-10T17:30:44.000Z"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "적대적 강화학습에 관하여 [R]",
+        "originalTitle": "On Adversarial RL [R]",
+        "summary": "적대적 환경에서의 강화학습 연구를 공유하고 토론하는 게시물.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1usx96p/on_adversarial_rl_r/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-07-11T04:15:02+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "2.5배 빠른 Qwen3.6 NVFP4 Unsloth 양자화",
+        "originalTitle": "2.5x faster Qwen3.6 NVFP4 Unsloth quants",
+        "summary": "Unsloth의 NVFP4 양자화로 Qwen3.6 추론이 2.5배 빨라졌다는 로컬 LLM 커뮤니티의 공유 글.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1usniqh/25x_faster_qwen36_nvfp4_unsloth_quants/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-07-10T22:20:19+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "GPT-5.6 Sol은 진짜배기다",
+        "originalTitle": "GPT-5.6 Sol is the real deal.",
+        "summary": "사용자들이 GPT-5.6 Sol의 실사용 성능이 기대 이상이라고 평가하는 글. 커뮤니티의 초기 반응을 보여준다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1usoe1c/gpt56_sol_is_the_real_deal/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-07-10T22:54:48+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "새 ChatGPT 라이브 음성 모드로 러시아어 대화, 정말 놀랍다",
+        "originalTitle": "Talking to the new ChatGPT Live Voice mode in Russian is INSANE",
+        "summary": "새로 공개된 ChatGPT 라이브 음성 모드의 다국어 대화 품질에 놀란 사용자의 후기와 반응.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1usrsk6/talking_to_the_new_chatgpt_live_voice_mode_in/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-07-11T01:00:37+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "데스크톱 Claude Code에 이제 앱 내 브라우저가 생겼다",
+        "originalTitle": "Claude Code on desktop now has an in-app browser.",
+        "summary": "Claude Code 데스크톱 앱의 새 인앱 브라우저 기능에 대한 사용자 반응과 활용 사례를 나누는 글.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1usx952/claude_code_on_desktop_now_has_an_inapp_browser/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-07-11T04:14:59+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "좋은 도구는 눈에 띄지 않는다",
+        "originalTitle": "Good Tools Are Invisible",
+        "summary": "훌륭한 개발 도구일수록 존재를 의식하지 않게 된다는 관점을 다룬 프로그래밍 에세이.",
+        "url": "https://www.reddit.com/r/programming/comments/1usjlm7/good_tools_are_invisible/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-07-10T19:19:51+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "양자컴퓨터는 128비트 대칭 암호에 위협이 되지 않는다",
+        "originalTitle": "Quantum Computers Are Not a Threat to 128-bit Symmetric Keys",
+        "summary": "양자컴퓨팅이 대칭키 암호에 실질적 위협이 아니라는 주장을 두고 벌어지는 기술 토론.",
+        "url": "https://www.reddit.com/r/programming/comments/1usmas0/quantum_computers_are_not_a_threat_to_128bit/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-07-10T21:29:44+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "Postgres는 우리가 인정하는 것보다 더 많은 걸 해낸다",
+        "originalTitle": "Postgres is enough for more than we admit",
+        "summary": "많은 경우 별도 인프라 없이 Postgres 하나로 충분하다는 주장을 담은 글.",
+        "url": "https://www.reddit.com/r/programming/comments/1us129c/postgres_is_enough_for_more_than_we_admit/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-07-10T04:52:08+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "GPT-5.6, 또 하나의 미해결 문제를 풀다",
+        "originalTitle": "GPT-5.6 Solves Yet Another Unsolved Problem",
+        "summary": "GPT-5.6가 미해결 난제를 풀었다는 소식을 두고 특이점 커뮤니티가 벌이는 토론.",
+        "url": "https://www.reddit.com/r/singularity/comments/1usvzqw/gpt56_solves_yet_another_unsolved_problem/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-07-11T03:30:04+09:00"
+      },
+      {
+        "id": "reddit_010",
+        "title": "주니어는 가치 있다 — 채용하지 않는 건 실수다",
+        "originalTitle": "Juniors are valuable and not hiring them is a mistake",
+        "summary": "주니어 개발자 채용을 기피하는 최근 흐름이 장기적으로 손해라는 시니어 개발자들의 토론.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1uryhih/juniors_are_valuable_and_not_hiring_them_is_a/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-07-10T03:20:40+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "qb1",
+        "title": "GPT-5.6 Sol Ultra, 사이클 이중 커버 추측 증명 생성",
+        "excerpt": "오픈AI가 GPT-5.6 Sol Ultra가 생성한 사이클 이중 커버(Cycle Double Cover) 추측 관련 증명 문서를 공개했다. AI의 수학적 추론 능력을 보여주는 사례다.",
+        "body": "오픈AI는 GPT-5.6 Sol Ultra가 작성한 그래프 이론 난제 관련 증명 PDF를 공개하며, 최신 모델의 고난도 수학 추론 능력을 강조했다. 그레그 브록만이 언급한 '50년 된 수학 추측 해결'과 맞물려 화제가 됐다.",
+        "url": "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-11T03:29:19+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "qb2",
+        "title": "Rust 1.97.0 발표",
+        "excerpt": "러스트 팀이 Rust 1.97.0을 공개했다. 언어와 표준 라이브러리, 툴체인 전반에 걸친 개선이 포함됐다.",
+        "body": "이번 릴리스는 안정화된 API 추가와 컴파일러·툴체인 개선을 담고 있다. 러스트는 안전성과 성능을 앞세워 시스템 프로그래밍은 물론 최근에는 Postgres 재작성 같은 대형 프로젝트에서도 채택이 늘고 있다.",
+        "url": "https://news.hada.io/topic?id=31303",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-11T05:01:57+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      },
+      {
+        "id": "qb3",
+        "title": "Postgres를 Rust로 재작성 — 회귀 테스트 100% 통과",
+        "excerpt": "Postgres를 러스트로 재작성하는 프로젝트가 Postgres 회귀 테스트 전체를 통과했다는 소식이 전해졌다. 메모리 안전성과 호환성을 동시에 노린 시도다.",
+        "body": "해당 프로젝트는 기존 C 기반 Postgres의 동작을 러스트로 옮기면서, 상위 호환성을 검증하는 공식 회귀 테스트를 100% 통과했다고 밝혔다. 데이터베이스처럼 안정성이 극도로 중요한 시스템에서도 러스트 재작성이 현실적 선택지가 되고 있음을 보여준다.",
+        "url": "https://news.hada.io/topic?id=31296",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-10T14:36:25+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "qb4",
+        "title": "마이크로소프트, AI 에이전트용 시각화 언어 'Flint' 공개",
+        "excerpt": "마이크로소프트가 AI 에이전트를 위한 시각화 언어 Flint를 공개했다. 에이전트의 동작과 상태를 시각적으로 표현하기 위한 시도다.",
+        "body": "Flint는 에이전트가 수행하는 작업과 데이터 흐름을 사람이 이해하기 쉬운 형태로 시각화하도록 설계된 언어·도구다. 복잡해지는 에이전트 워크플로의 관측성과 디버깅을 돕는 것을 목표로 한다.",
+        "url": "https://news.hada.io/topic?id=31287",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-10T09:52:04+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      },
+      {
+        "id": "qb5",
+        "title": "텐센트, 오픈소스 모델 'Hy3' 공개",
+        "excerpt": "텐센트가 새로운 오픈소스 모델 Hy3를 공개했다. 중국 빅테크의 오픈웨이트 모델 경쟁이 이어지고 있다.",
+        "body": "텐센트가 오픈웨이트로 공개한 Hy3는 오픈소스 AI 생태계에 또 하나의 선택지를 더한다. 알리바바·텐센트 등 중국 기업들이 잇따라 강력한 오픈 모델을 내놓으며 글로벌 오픈소스 모델 경쟁이 격화되고 있다.",
+        "url": "https://news.hada.io/topic?id=31290",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-10T09:56:21+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      },
+      {
+        "id": "qb6",
+        "title": "미첼 하시모토 인터뷰 — Ghostty, Zig, 오픈소스 유지보수",
+        "excerpt": "하시코프 창업자 미첼 하시모토가 터미널 에뮬레이터 Ghostty와 Zig 언어, 오픈소스 유지보수에 관해 이야기했다.",
+        "body": "인터뷰에서 하시모토는 자신이 개발 중인 Ghostty 터미널과 Zig 언어 선택 이유, 그리고 대규모 오픈소스 프로젝트를 지속 가능하게 유지보수하는 방법에 대한 견해를 밝혔다.",
+        "url": "https://news.hada.io/topic?id=31294",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-10T12:04:01+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      }
+    ]
+  }
+}
