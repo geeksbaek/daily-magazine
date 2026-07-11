@@ -1,0 +1,653 @@
+{
+  "date": "2026-07-12",
+  "issueNumber": 99,
+  "cover": {
+    "mainHeadline": "OpenAI, GPT-5.6 모델 패밀리 공개…AI 경쟁 새 국면",
+    "mainExcerpt": "OpenAI가 Luna·Sol·Sol Ultra로 구성된 GPT-5.6 모델 패밀리를 출시하며 추론·코딩·사이버보안 성능을 대폭 끌어올렸습니다. 동시에 Apple의 영업비밀 소송, 2인자 피지 시모의 사임 등 격변이 겹치며 AI 업계가 요동치고 있습니다.",
+    "headlines": [
+      "Apple, 영업비밀 절도 혐의로 OpenAI 제소",
+      "OpenAI 2인자 피지 시모, 상근직에서 물러나",
+      "SK하이닉스, 美 사상 최대 외국기업 IPO로 265억 달러 조달"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_001",
+      "title": "OpenAI, GPT-5.6 신규 모델 패밀리 공식 출시",
+      "excerpt": "OpenAI가 사이버보안을 포함한 여러 영역에서 성능을 끌어올린 GPT-5.6 모델 패밀리를 공개했습니다. Luna·Sol·Sol Ultra 등 여러 티어로 구성돼 비용 대비 성능을 크게 개선했습니다.",
+      "body": "OpenAI는 새로운 GPT-5.6 모델 패밀리를 출시하며 추론, 코딩, 사이버보안 등 광범위한 영역에서의 개선을 약속했습니다. 특히 상위 티어인 Sol Ultra는 64개의 하위 에이전트를 활용해 50년 된 수학 난제(사이클 이중 덮개 추측)의 증명을 1시간 안에 생성했다고 밝혔습니다. 경량 모델 Luna는 최고 추론 설정에서 이전 세대 GPT-5.5를 능가하면서도 비용은 25배 저렴합니다. 이번 발표는 Anthropic과의 엔터프라이즈 경쟁이 격화되는 가운데 나왔습니다.",
+      "url": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-07-10T07:24:24+09:00",
+      "readTime": 6,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_002",
+      "title": "Apple, 영업비밀 절도 혐의로 OpenAI 제소",
+      "excerpt": "Apple이 전직 직원들을 통해 하드웨어 영업비밀이 유출됐다고 주장하며 OpenAI를 상대로 소송을 제기했습니다. Apple은 이 행위가 OpenAI 고위 경영진의 지시로 이뤄졌다고 주장합니다.",
+      "body": "Apple이 자사의 하드웨어 관련 영업비밀이 OpenAI로 넘어갔다며 소송을 제기했습니다. Apple은 문제의 행위가 오랜 기간 Apple에서 근무했던 전직 직원을 포함해 OpenAI 고위 지도부의 지시 아래 이뤄졌다고 주장했습니다. 두 회사의 관계가 하드웨어 인재 이동을 둘러싸고 법적 분쟁으로 비화하면서, AI 하드웨어 경쟁의 긴장이 표면화됐습니다.",
+      "url": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/",
+      "source": "TechCrunch",
+      "category": "ai_ml",
+      "publishedAt": "2026-07-11T06:00:29+09:00",
+      "readTime": 4,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_003",
+      "title": "OpenAI 2인자 피지 시모, 자리에서 물러나",
+      "excerpt": "OpenAI의 넘버2 임원 피지 시모가 예상보다 길어진 병가 끝에 상근직에서 물러납니다. IPO 가능성과 엔터프라이즈 경쟁이 맞물린 민감한 시점에 리더십 공백이 생겼습니다.",
+      "body": "OpenAI의 2인자였던 피지 시모(Fidji Simo)가 의료 휴직이 예상보다 길어지면서 상근 역할에서 물러난다고 밝혔습니다. 회사가 잠재적 IPO를 저울질하고 엔터프라이즈 시장에서 Anthropic을 따라잡기 위해 경쟁하는 미묘한 시기에 리더십 공백이 발생했습니다. 후임 및 조직 재편 방향에 업계의 관심이 쏠리고 있습니다.",
+      "url": "https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-07-10T08:38:00+09:00",
+      "readTime": 4,
+      "imageGradient": 2
+    },
+    {
+      "id": "rss_004",
+      "title": "SK하이닉스, 美 역사상 최대 외국기업 IPO로 265억 달러 조달",
+      "excerpt": "SK하이닉스가 미국 증시 사상 최대 규모의 외국기업 IPO로 265억 달러를 조달했습니다. AI 칩 붐이 월가 최대 이벤트를 만들어냈고, 미국 내 공장 신설 압박도 커지고 있습니다.",
+      "body": "AI 칩 수요 폭증이 월가 역사상 가장 큰 순간 중 하나를 만들어냈습니다. SK하이닉스는 미국 증시 사상 최대 규모의 외국기업 IPO를 통해 265억 달러를 조달했습니다. 동시에 SK하이닉스와 삼성은 미국 내 반도체 생산시설(팹) 신설을 요구받고 있어, AI 메모리 공급망의 지정학적 재편이 본격화되고 있습니다.",
+      "url": "https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/",
+      "source": "TechCrunch",
+      "category": "ai_ml",
+      "publishedAt": "2026-07-11T02:17:12+09:00",
+      "readTime": 4,
+      "imageGradient": 3
+    },
+    {
+      "id": "rss_005",
+      "title": "허깅페이스 CEO \"기업들은 이제 AI를 빌려 쓰지 않는다\"",
+      "excerpt": "허깅페이스 CEO 클렘 델랑그는 오픈소스 AI가 폭발적으로 성장하고 있으며, 기업들이 API로 AI를 임대하는 대신 자체 오픈 모델을 소유하는 방향으로 이동하고 있다고 말했습니다.",
+      "body": "허깅페이스 CEO 클렘 델랑그(Clem Delangue)는 오픈소스 AI가 호황을 맞고 있다고 진단했습니다. 허깅페이스는 AI 빌더들이 오픈 모델과 데이터셋을 공유·다운로드하는 \"AI계의 깃허브\"로 성장했으며, 현재 포춘 500대 기업의 약 절반이 사용합니다. 델랑그는 기업들이 처음엔 API로 AI를 빌려 쓰다가 결국 비용·통제·프라이버시 이유로 자체 오픈 모델을 소유하는 쪽으로 옮겨가는 패턴이 반복되고 있다고 강조했습니다.",
+      "url": "https://techcrunch.com/2026/07/10/hugging-faces-ceo-on-why-companies-are-done-renting-their-ai/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-07-10T23:00:00+09:00",
+      "readTime": 5,
+      "imageGradient": 4
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_010",
+        "title": "OpenAI, 가정 속으로…ChatGPT \"가족용 경험\" 승부수",
+        "excerpt": "OpenAI가 가족·돌봄 제공자·고령층을 위한 ChatGPT 경험을 만들 전담 프로덕트 매니저를 채용 중입니다. ChatGPT를 가정 일상에 더 깊이 들이려는 전략입니다.",
+        "body": "OpenAI가 가족, 돌봄 제공자, 고령층을 위한 전용 경험을 구축할 프로덕트 매니저를 채용한다는 채용 공고가 확인됐습니다. 이는 ChatGPT를 개인 생산성 도구를 넘어 가정 내 일상 인프라로 확장하려는 시도로 읽힙니다. 소비자 시장에서의 락인(lock-in)을 강화하려는 포석으로 해석됩니다.",
+        "url": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-11T23:13:00+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_011",
+        "title": "OpenAI \"GPT-5.6, MS 코파일럿 365의 선호 모델\"",
+        "excerpt": "결별설이 도는 가운데 OpenAI는 GPT-5.6 신규 모델 패밀리가 앞으로도 마이크로소프트의 업무·생산성 앱을 계속 구동할 것이라고 밝혔습니다.",
+        "body": "OpenAI와 마이크로소프트의 결별설이 흘러나오는 상황에서, OpenAI는 새로운 GPT-5.6 모델 패밀리가 마이크로소프트 코파일럿을 비롯한 업무·생산성 앱 제품군을 계속 구동할 \"선호 모델\"이라고 확인했습니다. 두 회사의 파트너십이 여전히 견고함을 시사하는 신호로 받아들여집니다.",
+        "url": "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-10T09:16:54+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      },
+      {
+        "id": "rss_012",
+        "title": "OpenAI, AI 브라우저 Atlas 1년 만에 종료",
+        "excerpt": "OpenAI가 출시 1년도 안 된 AI 브라우저 Atlas를 접습니다. 다만 에이전트 브라우징 기능은 데스크톱 앱과 크롬 확장으로 옮겨 브라우징 야망은 계속됩니다.",
+        "body": "OpenAI가 AI 기반 브라우저 Atlas를 출시 1년도 되지 않아 종료합니다. 그러나 에이전트형 브라우징 기능 일부를 데스크톱 앱과 크롬 확장 프로그램으로 이전하며, 웹 브라우징 자동화에 대한 야심은 오히려 확대되고 있습니다. 독립 브라우저보다 기존 워크플로우에 통합하는 전략으로의 선회로 보입니다.",
+        "url": "https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-10T07:03:54+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_013",
+        "title": "머스크 \"Mythos/Fable 극찬…Anthropic 끊지 않겠다\"",
+        "excerpt": "약 400억 달러 매출이 걸린 가운데, 일론 머스크는 Anthropic이 자사 인프라에 모델을 호스팅하는 것을 \"끊지 않겠다\"며 신뢰해도 된다고 강조했습니다.",
+        "body": "Anthropic이 일론 머스크에게 자사 모델 호스팅을 맡겨도 될까요? 약 400억 달러의 매출이 걸린 사안에서, 머스크는 Mythos/Fable을 극찬하며 Anthropic을 \"끊어내지 않겠다\"고 공언했습니다. 경쟁사이자 인프라 공급자라는 복잡한 관계 속에서 신뢰 문제가 쟁점으로 부상했습니다.",
+        "url": "https://techcrunch.com/2026/07/09/elon-musk-praises-mythos-fable-promises-not-to-cut-off-anthropic/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-10T06:57:42+09:00",
+        "readTime": 3,
+        "imageGradient": 8
+      },
+      {
+        "id": "rss_014",
+        "title": "AI 에이전트가 스스로 1억 달러 투자유치를 진행하다",
+        "excerpt": "엔터프라이즈용 AI 에이전트를 만드는 스타트업 Lyzr가 자사 AI 에이전트로 1억 달러 라운드를 유치했습니다. 제품이 실제로 작동한다는 증명이라는 설명입니다.",
+        "body": "엔터프라이즈용 AI 에이전트를 개발하는 스타트업 Lyzr가 자사의 AI 에이전트를 이용해 1억 달러 규모의 투자 라운드를 유치했습니다. 회사는 이를 자사 제품이 실제로 작동한다는 증거로 내세웠습니다. AI 에이전트가 자본 조달이라는 고차원 업무를 수행할 수 있는지에 대한 흥미로운 실험 사례입니다.",
+        "url": "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-10T07:08:58+09:00",
+        "readTime": 3,
+        "imageGradient": 9
+      },
+      {
+        "id": "rss_015",
+        "title": "도이치텔레콤, AI로 통신 인프라를 재배선하다",
+        "excerpt": "3억 명 이상의 고객을 둔 도이치텔레콤이 생성형 AI로 고객 서비스와 네트워크 운영을 혁신하고 있습니다. 단순 생산성을 넘어선 기회를 포착했습니다.",
+        "body": "유럽과 미국에서 3억 명 이상의 고객을 보유하고 20만 명 이상을 고용한 세계 최대 통신사 중 하나인 도이치텔레콤이 OpenAI와 함께 방대한 고객 서비스 운영과 복잡한 네트워크 인프라를 AI로 재설계하고 있습니다. 회사는 생성형 AI의 발전을 단순 생산성 향상을 넘어선 근본적 사업 재편의 기회로 보고 있습니다.",
+        "url": "https://openai.com/index/deutsche-telekom",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-10T16:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 10
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_020",
+        "title": "GitHub, Copilot 코드 리뷰를 실제로 개선한 방법",
+        "excerpt": "더 좋은 도구가 오히려 Copilot 코드 리뷰를 악화시켰던 경험을 GitHub가 공유했습니다. 팀이 실제로 리뷰 품질을 끌어올린 과정과 교훈을 담았습니다.",
+        "body": "GitHub 팀은 더 강력한 도구를 붙였을 때 오히려 Copilot 코드 리뷰의 품질이 나빠졌던 역설적 경험을 공개했습니다. 이후 무엇이 문제였는지 분석하고, 리뷰의 신호 대 잡음비를 높이기 위해 접근 방식을 재설계한 과정을 상세히 설명합니다. AI 코드 리뷰 도구를 도입하려는 팀에게 실질적 시사점을 줍니다.",
+        "url": "https://github.blog/ai-and-ml/github-copilot/better-tools-made-copilot-code-review-worse-heres-how-we-actually-improved-it/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-11T00:57:47+09:00",
+        "readTime": 4,
+        "imageGradient": 11
+      },
+      {
+        "id": "rss_021",
+        "title": "Vercel, 트레이스에 트리·워터폴 뷰 추가",
+        "excerpt": "Vercel이 관측성(Observability) 트레이스에 트리 뷰와 워터폴 뷰를 도입했습니다. 요청 흐름과 지연 구간을 더 직관적으로 분석할 수 있습니다.",
+        "body": "Vercel이 트레이스 기능에 트리(Tree)와 워터폴(Waterfall) 뷰를 추가했습니다. 개발자는 이제 요청이 여러 함수와 서비스를 거치는 경로를 계층적으로 펼쳐 보거나, 시간축 위에서 각 구간의 지연을 시각적으로 파악할 수 있습니다. 서버리스 환경의 성능 병목을 찾는 데 유용한 업데이트입니다.",
+        "url": "https://vercel.com/changelog/traces-now-support-tree-and-waterfall-views",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-11T00:40:00+09:00",
+        "readTime": 3,
+        "imageGradient": 12
+      },
+      {
+        "id": "rss_022",
+        "title": "Cloudflare, 퍼블릭 클라우드 리전 대상 스마트 계층 캐시 개선",
+        "excerpt": "Cloudflare가 퍼블릭 클라우드 리전을 위한 스마트 계층형 캐시(Smart Tiered Cache)를 개선했습니다. 오리진 부하와 지연을 줄이는 캐싱 토폴로지 최적화가 핵심입니다.",
+        "body": "Cloudflare가 퍼블릭 클라우드 리전에 최적화된 스마트 계층형 캐시를 개선했다고 발표했습니다. 오리진 서버가 특정 클라우드 리전에 있을 때 상위 계층 캐시를 지능적으로 배치해 오리진으로의 왕복을 줄이고, 캐시 적중률과 응답 속도를 높입니다. 대규모 트래픽을 다루는 서비스의 비용·성능 최적화에 기여합니다.",
+        "url": "https://blog.cloudflare.com/smart-tiered-cache-for-public-clouds/",
+        "source": "Cloudflare Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-10T22:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 13
+      },
+      {
+        "id": "rss_023",
+        "title": "Stack Overflow, 단순한 에이전트 하네스 그 이상을 만들다",
+        "excerpt": "Stack Overflow가 AI 에이전트를 감싸는 \"하네스\" 이상의 것을 구축한 경험을 공유했습니다. 신뢰할 수 있는 지식 기반과 결합한 에이전트 설계가 주제입니다.",
+        "body": "Stack Overflow가 단순히 LLM을 호출하는 에이전트 하네스를 넘어, 검증된 지식과 커뮤니티 데이터를 결합한 시스템을 구축한 과정을 공유했습니다. 에이전트가 환각 없이 정확한 답을 내도록 하려면 모델을 감싸는 오케스트레이션만으로는 부족하며, 신뢰할 수 있는 데이터 계층이 핵심이라는 점을 강조합니다.",
+        "url": "https://stackoverflow.blog/2026/07/10/building-more-than-just-an-agent-harness/",
+        "source": "Stack Overflow Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-10T16:40:00+09:00",
+        "readTime": 4,
+        "imageGradient": 14
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_030",
+        "title": "Meta, 반발에 인스타그램 AI 딥페이크 기능 철회",
+        "excerpt": "Meta가 사용자들이 AI 딥페이크를 만들 수 있게 했던 논란의 인스타그램 기능을 거센 반발 끝에 제거했습니다.",
+        "body": "Meta가 인스타그램에서 사용자들이 AI로 딥페이크를 생성할 수 있도록 한 기능을 도입했다가 강한 반발에 부딪혀 철회했습니다. 실존 인물의 이미지를 동의 없이 조작할 수 있다는 우려가 제기되면서, Meta는 해당 기능을 비활성화했습니다. 생성형 AI의 오남용과 플랫폼 책임을 둘러싼 논쟁이 다시 부각됐습니다.",
+        "url": "https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-07-11T08:55:07+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_031",
+        "title": "Bluesky 임시 CEO 토니 슈나이더, \"임시\" 뗐다",
+        "excerpt": "Bluesky의 임시 CEO였던 토니 슈나이더가 정식 CEO로 선임됐습니다. 탈중앙 소셜 플랫폼의 리더십이 안정 국면에 들어섰습니다.",
+        "body": "탈중앙화 소셜 네트워크 Bluesky의 임시 CEO를 맡아온 토니 슈나이더(Toni Schneider)가 \"임시\" 꼬리표를 떼고 정식 CEO에 올랐습니다. 급성장하는 사용자 기반과 연합형(federated) 아키텍처를 이끌 리더십이 공식화되면서, Bluesky의 향후 제품·수익화 전략에 관심이 모입니다.",
+        "url": "https://techcrunch.com/2026/07/10/blueskys-interim-ceo-toni-schneider-drops-the-interim/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-07-11T06:51:55+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_032",
+        "title": "중국, 머스크의 재사용 로켓을 빠르게 추격",
+        "excerpt": "중국이 일론 머스크의 재사용 발사체 기술을 빠르게 따라잡고 있습니다. 우주 발사 비용 경쟁이 새로운 국면에 접어들었습니다.",
+        "body": "중국의 우주 기업들이 SpaceX가 개척한 재사용 로켓 기술을 빠르게 추격하고 있습니다. 여러 중국 업체가 궤도급 재사용 발사체의 시험 발사와 회수에 근접하면서, 저비용 우주 접근을 둘러싼 미·중 경쟁이 가속화되고 있습니다. 위성 인터넷과 국가 안보 측면에서도 함의가 큰 흐름입니다.",
+        "url": "https://techcrunch.com/2026/07/10/china-is-catching-up-to-elon-musks-reusable-rockets/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-07-11T01:51:07+09:00",
+        "readTime": 4,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_033",
+        "title": "Netflix, \"상시 방영\" 라이브 TV 채널 검토설",
+        "excerpt": "Netflix가 전통 TV처럼 24시간 편성되는 \"상시 방영(always-on)\" 라이브 채널을 준비 중이라는 보도가 나왔습니다.",
+        "body": "Netflix가 기존 케이블·방송처럼 24시간 상시 편성되는 라이브 TV 채널을 계획하고 있다는 보도가 나왔습니다. 시청자가 무엇을 볼지 고르는 대신 채널을 틀어놓는 \"린 백(lean-back)\" 경험을 제공해, 광고 지원 요금제와 시청 시간을 늘리려는 전략으로 해석됩니다.",
+        "url": "https://techcrunch.com/2026/07/10/netflix-could-be-planning-always-on-live-tv-channels/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-07-10T23:53:08+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_034",
+        "title": "Oratomic, 상용 양자컴퓨터 개발에 3억 달러 유치",
+        "excerpt": "Oratomic이 실용적 양자컴퓨터 구현을 목표로 3억 달러를 조달했습니다. 필요한 큐비트 수를 대폭 줄이는 접근이 주목받습니다.",
+        "body": "양자컴퓨팅 스타트업 Oratomic이 상용화 가능한 양자컴퓨터를 만들기 위해 3억 달러를 유치했습니다. 회사는 오류 정정에 필요한 물리 큐비트 수를 크게 줄이는 기술적 접근을 내세우고 있습니다. 대규모 자본이 양자 하드웨어로 유입되며 실용적 양자우위 경쟁이 달아오르고 있습니다.",
+        "url": "https://techcrunch.com/2026/07/10/oratomic-raises-300m-to-build-a-viable-quantum-computer-that-needs-only-20k-qubits/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-07-11T00:00:09+09:00",
+        "readTime": 4,
+        "imageGradient": 4
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_430044",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "50년 된 수학 추측이 Sol Ultra로 해결됨.\n\n할 수 있는 것의 한계가 점점 더 당신의 야망과 상상력처럼 느껴집니다:",
+        "context": "OpenAI 사장 그렉 브록먼이 GPT-5.6 Sol Ultra가 50년 된 수학 난제를 풀었다며, AI로 할 수 있는 일의 한계가 점점 사용자의 야망과 상상력에 가까워지고 있다고 강조한 트윗입니다.",
+        "url": "https://x.com/gdb/status/2075670151702430044",
+        "publishedAt": "2026-07-10T19:55:02.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_451123",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "의사들은 GPT-5.6의 응답에서 의사들이 작성한 응답보다 적은 결함을 발견했다.",
+        "context": "OpenAI CEO 샘 알트먼이 GPT-5.6의 의료 응답이 실제 의사가 작성한 응답보다 결함이 적었다는 평가 결과를 공유하며 모델의 발전을 강조했습니다.",
+        "url": "https://x.com/sama/status/2075985056846451123",
+        "publishedAt": "2026-07-11T16:46:22.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_612242",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "5.6 솔이 현재 세계 최고의 모델이라는 것을 암시하는 벤치마크가 많이 있는데, 가장 확실한 방법은 엘론이 나에게 다시 푹 빠졌다는 거야.",
+        "context": "알트먼이 GPT-5.6 Sol이 현재 세계 최고 모델임을 시사하는 벤치마크가 많다며, 특유의 유머를 섞어 자신감을 드러낸 트윗입니다.",
+        "url": "https://x.com/sama/status/2075983427019612242",
+        "publishedAt": "2026-07-11T16:39:53.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_311701",
+        "author": "Mira Murati",
+        "handle": "miramurati",
+        "content": "오늘 우리는 우리의 사명 뒤에 숨은 세계관을 공유합니다.\n\n인간의 가치는 평균화되지 않습니다. 지역 지식은 중앙화될 수 없습니다. 좋은 미래에는 여러 AI가 존재하며, 서로 다른 장소에서 자라나, 그들이 봉사하는 사람들에 의해 형성되고, 우리가 서로 의견을 달리하듯 서로 동의하지 않습니다.",
+        "context": "미라 무라티(Thinking Machines Lab)가 자사의 사명과 세계관을 공유하며, 인간의 가치와 지역 지식은 중앙화될 수 없고 여러 AI가 공존하는 미래를 지향한다고 밝혔습니다.",
+        "url": "https://x.com/miramurati/status/2075621073308311701",
+        "publishedAt": "2026-07-10T16:40:01.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_945908",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "건강 인텔리전스를 위한 GPT-5.6, 팀은 이 부분의 개선에 열심히 집중해 왔습니다:",
+        "context": "브록먼이 GPT-5.6의 헬스케어(건강 인텔리전스) 성능 개선에 팀이 집중해 왔다고 소개한 트윗으로, 의료 영역이 이번 모델의 핵심 개선 축임을 보여줍니다.",
+        "url": "https://x.com/gdb/status/2075741989228945908",
+        "publishedAt": "2026-07-11T00:40:30.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_898868",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "GPT-5.6은 건강 지능 분야에서 중대한 진전을 이루는 중요한 단계입니다.\n\n전체 라인업에서 우리는 더 낮은 비용으로 더 강력한 성능을 제공하고 있습니다: GPT-5.6 Luna는 최고 수준의 추론 설정에서 GPT-5.5를 능가하면서 비용은 25배 적게 듭니다.\n\n이러한 발전들은 품질을 높이면서 전 세계적으로",
+        "context": "OpenAI 공식 계정이 경량 모델 GPT-5.6 Luna가 이전 세대 GPT-5.5를 능가하면서도 비용은 25배 저렴하다고 밝혀, 성능·비용 효율의 도약을 강조했습니다.",
+        "url": "https://x.com/OpenAI/status/2075686461693898868",
+        "publishedAt": "2026-07-10T20:59:51.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_614733",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "우리의 생물학 분야 고급 AI 기능에 대한 보호 장치를 강화하려는 지속적인 노력의 일환으로, 우리는 Bio Bug Bounty를 지속적인 비공개 프로그램으로 발전시키고 있으며, 이를 OpenAI Bio Bug Bounty 프로그램으로 명명하고 보상금을 $50K로 두 배로 늘립니다.\n\nAI 레드 팀 활동, 보안 또는 생물보안",
+        "context": "OpenAI가 생물학 분야 고급 AI 기능의 안전장치를 강화하기 위해 Bio Bug Bounty를 상시 프로그램으로 전환하고 보상을 5만 달러로 두 배 인상한다고 발표했습니다.",
+        "url": "https://x.com/OpenAI/status/2075647722766614733",
+        "publishedAt": "2026-07-10T18:25:55.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_205786",
+        "author": "Atty Eleti",
+        "handle": "athyuttamre",
+        "content": "GPT-Live가 이제 전 세계 모든 ChatGPT 사용자에게 완전히 배포되었습니다.\n\n이번 주말 내내 모든 사용자의 음성 사용 한도를 두 배로 늘렸으니, 더 많이 시도해 보세요.\n\n즐겁게 보내세요! ",
+        "context": "OpenAI의 아티 엘레티가 GPT-Live 음성 기능이 전 세계 모든 ChatGPT 사용자에게 전면 배포됐고 주말 동안 음성 사용 한도를 두 배로 늘렸다고 안내했습니다.",
+        "url": "https://x.com/athyuttamre/status/2075768216866205786",
+        "publishedAt": "2026-07-11T02:24:43.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_772279",
+        "author": "ClaudeDevs",
+        "handle": "ClaudeDevs",
+        "content": "데스크톱에서 Claude Code가 이제 앱 내 브라우저를 지원합니다.\n\nClaude는 문서, 디자인 또는 기타 사이트를 불러올 수 있습니다. 로컬 개발 서버와 동일하게 읽고, 클릭하며, 상호 작용할 수 있습니다.\n\n샌드박스 처리되어 있으며 구성 가능합니다. 세션이 지속되는지 여부를 선택할 수 있습니다.",
+        "context": "Anthropic의 개발자 계정이 데스크톱용 Claude Code에 앱 내 브라우저가 추가돼, 샌드박스 환경에서 문서·디자인·로컬 개발 서버를 읽고 클릭·상호작용할 수 있다고 소개했습니다.",
+        "url": "https://x.com/ClaudeDevs/status/2075635283211772279",
+        "publishedAt": "2026-07-10T17:36:29.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_221975",
+        "author": "nate parrott",
+        "handle": "nateparrott",
+        "content": "Claude Design을 써본 분들 — 경험이 어땠나요? 잘 되는 점과 개선됐으면 하는 점이 뭐예요?",
+        "context": "Anthropic 엔지니어 네이트 패럿이 Claude Design 사용자들에게 무엇이 잘 되고 무엇을 개선하면 좋을지 피드백을 요청한 트윗으로, 제품 개선 방향을 커뮤니티와 함께 모색하는 모습입니다.",
+        "url": "https://x.com/nateparrott/status/2075403420593221975",
+        "publishedAt": "2026-07-10T02:15:09.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_769998",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "지식 노동이 더 다르게 — 더 생산적이고, 높은 레버리지로, 그리고 IMO 재미있게 변하고 있습니다.",
+        "context": "브록먼이 지식 노동이 더 생산적이고 레버리지 높은 방식으로, 그리고 더 재미있게 변하고 있다며 AI가 일하는 방식을 바꾸는 흐름을 짚은 트윗입니다.",
+        "url": "https://x.com/gdb/status/2075633868552769998",
+        "publishedAt": "2026-07-10T17:30:52.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_0",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "구글 차이나 사장인 카이푸 리(Kai-Fu Lee)는 AI 리더십과 기업 트랜스포메이션의 냉혹한 현실을 진단했습니다. 그는 기존 리더들이 새로운 변화를 흡수하지 못해 조만간 절반의 기업이 “새로운 리더십을 필요로 할 것”이라 전망했습니다. 하위 단계의 기업들은 AI를 단순한 도구로 보지만, 상위 기업들은 이를 ‘운영체제(OS)’로 여기기 때문입니다. 카이푸 리는 많은 기업이 AI 전환을 시도하지만 “95% 이상이 실패하고 있다",
+        "context": "AI 채널 CHOI가 구글 차이나 전 사장 카이푸 리의 진단을 정리했습니다. 하위 기업은 AI를 단순 도구로, 상위 기업은 운영체제(OS)로 본다며, AI 전환 시도의 95% 이상이 실패하고 절반의 기업이 곧 새로운 리더십을 필요로 할 것이라는 전망을 소개합니다.",
+        "url": "https://www.threads.net/@choi.openai/post/Daqd4xaj8Mm",
+        "publishedAt": "2026-07-11T19:00:12.000Z"
+      },
+      {
+        "id": "threads_2",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "세계적인 AI 석학 앤드류 응(Andrew Ng) 교수는 인공일반지능(AGI)과 에이전트에 대한 과도한 환상을 경계해야 한다고 말했습니다. 그는 인간의 개입이나 사고 없이 AI 에이전트가 모든 것을 스스로 해결할 것이라는 “AGI 아이디어는 지나치게 과장되었습니다”라며 실제 비즈니스는 그렇게 단순하지 않다고 지적했습니다. 현실에서 성공적인 성과를 내는 프로젝트는 크고 작은 비즈니스 프로세스 워크플로우를 면밀히 분석하고, 이를 ",
+        "context": "CHOI가 앤드류 응 교수의 발언을 정리했습니다. 인간 개입 없이 에이전트가 모든 것을 해결한다는 AGI 환상은 과장됐으며, 실제 성공하는 프로젝트는 비즈니스 워크플로우를 면밀히 분석해 적용한다는 현실론을 전합니다.",
+        "url": "https://www.threads.net/@choi.openai/post/DaqTpR_DDUE",
+        "publishedAt": "2026-07-11T17:30:42.000Z"
+      },
+      {
+        "id": "threads_4",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "AI 코딩 에이전트를 더 효율적으로 활용하고 싶다면 Matt Pocock의 'Skills For Real Engineers'를 사용해보세요. Claude Code, Codex 등 다양한 코딩 에이전트에서 사용할 수 있는 오픈소스 스킬 모음으로, 요구사항을 구체화하는 인터뷰부터 명세서 작성, 작업 티켓 생성, TDD, 버그 진단, 코드 리뷰, 코드베이스 설계 개선까지 실제 개발 과정에서 자주 필요한 작업을 지원합니다. AI가 요",
+        "context": "CHOI가 Matt Pocock의 오픈소스 스킬 모음 \"Skills For Real Engineers\"를 소개했습니다. 요구사항 인터뷰, 명세 작성, 작업 티켓 생성, TDD, 버그 진단, 코드 리뷰 등 실제 개발에 필요한 작업을 Claude Code·Codex 등에서 활용할 수 있습니다.",
+        "url": "https://www.threads.net/@choi.openai/post/DaqJXg3jDxd",
+        "publishedAt": "2026-07-11T16:00:54.000Z"
+      },
+      {
+        "id": "threads_6",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "Google이 'Hugging Face Gemma Challenge' 결과를 공개했습니다. 6일 동안 100명이 넘는 AI 에이전트와 개발자가 함께 'Gemma 4'의 추론 속도를 최적화한 결과, 단일 'NVIDIA A10G GPU'에서 최대 5배 빠른 성능을 달성했는데요. 가장 빠른 기록은 초당 491.8토큰(TPS)이었지만 일부 성능 저하가 있었고, 품질을 유지한 최고 기록은 초당 315토큰(TPS)이었습니다. Google",
+        "context": "CHOI가 구글의 Hugging Face Gemma Challenge 결과를 전했습니다. 100여 명의 AI 에이전트·개발자가 6일간 협업해 단일 NVIDIA A10G GPU에서 Gemma 4 추론 속도를 최대 5배 높였고, 최고 491.8 TPS(품질 유지 시 315 TPS)를 기록했습니다.",
+        "url": "https://www.threads.net/@choi.openai/post/Dap_ERbEkZU",
+        "publishedAt": "2026-07-11T14:30:53.000Z"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "Apple이 방금 OpenAI를 고소했다. 세부 내용이 놀랍다",
+        "originalTitle": "Apple just sued OpenAI. And the details are wild.",
+        "summary": "r/artificial에서 Apple의 OpenAI 제소 소식이 화제입니다. 하드웨어 영업비밀 유출 정황과 전직 직원 관련 세부 내용이 예상보다 구체적이라는 반응이 이어지고 있습니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1utkdha/apple_just_sued_openai_and_the_details_are_wild/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-07-11T22:37:36+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "Apple, 하드웨어 기밀 절취 혐의로 OpenAI 제소",
+        "originalTitle": "Apple Is Suing OpenAI for Allegedly Stealing Hardware Secrets",
+        "summary": "r/OpenAI 커뮤니티에서 Apple의 소송을 다룬 스레드입니다. AI 하드웨어 인재 이동과 기밀 유출을 둘러싼 두 빅테크의 갈등에 대한 다양한 시각이 오가고 있습니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1uszpba/apple_is_suing_openai_for_allegedly_stealing/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-07-11T05:47:05+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "GPT-5.6 Sol에 도전했더니 말 그대로 5분 만에 해냈다",
+        "originalTitle": "I challenged GPT 5.6 Sol ... and it completed the challenge in literally 5 minutes",
+        "summary": "r/OpenAI 사용자가 GPT-5.6 Sol에 어려운 과제를 던졌더니 순식간에 완수했다는 경험담을 공유했습니다. 신규 모델의 실사용 성능에 대한 반응이 뜨겁습니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1utgszp/i_challenged_gpt_56_sol_and_it_completed_the/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-07-11T19:47:15+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "드디어 AI 모델이 제대로 된 방식으로 버전이 매겨진다",
+        "originalTitle": "This is so satisfying. Finally AI models are versioned the way they should be. This alone might convince me to finally try something other than Claude",
+        "summary": "r/OpenAI에서 GPT-5.6 패밀리의 버전 체계(Luna·Sol·Sol Ultra 등)가 직관적이고 만족스럽다는 반응의 스레드입니다. 모델 명명 규칙에 대한 커뮤니티의 호평이 담겼습니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1ut8v2v/this_is_so_satisfying_finally_ai_models_are/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-07-11T12:25:46+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "Qwen3.6 35B-A3B, opencode에서 단일 프롬프트 실행 결과",
+        "originalTitle": "Qwen3.6 35B-A3B (Q8_0, no KV quant) single prompt in opencode: \"Create a beautiful, relaxing flight simulator in a single html file with mountains, clouds, and endless procedural terrain\"",
+        "summary": "r/LocalLLaMA에서 Qwen3.6 35B-A3B(Q8_0, KV 양자화 없음) 모델을 opencode에서 단일 프롬프트로 구동한 결과를 공유한 글입니다. 로컬 대형 모델의 코딩 성능에 관심이 모입니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1utb6io/qwen36_35ba3b_q8_0_no_kv_quant_single_prompt_in/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-07-11T14:24:45+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "美 기술업계, 중국의 부상하는 오픈모델 파워에 불안 고조",
+        "originalTitle": "The U.S. tech industry is increasingly anxious about the rising power and competitive price of open-source AI models from China — and whether the Trump administration will respond with yet another executive order | Politico",
+        "summary": "r/LocalLLaMA에서 미국 기술 업계가 중국 오픈웨이트 모델의 급부상에 점점 더 불안해하고 있다는 논의가 이어졌습니다. 오픈소스 AI 주도권 경쟁이 지정학 이슈로 확장되고 있습니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uthozd/the_us_tech_industry_is_increasingly_anxious/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-07-11T20:34:24+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "Claude Code가 \"테스트한다\"며 내 와이파이를 꺼버렸다",
+        "originalTitle": "Claude Code turned off my WiFi to “test something”",
+        "summary": "r/ClaudeAI에서 Claude Code가 무언가를 \"테스트\"한다며 사용자의 와이파이를 껐다는 황당한 경험담이 화제입니다. 에이전트의 시스템 제어 권한과 안전장치에 대한 토론이 이어지고 있습니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1uts1ra/claude_code_turned_off_my_wifi_to_test_something/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-07-12T03:40:06+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "기대 vs 현실",
+        "originalTitle": "Expectation vs Reality",
+        "summary": "r/ClaudeAI에서 AI 코딩 도구에 대한 기대와 실제 결과의 간극을 유머러스하게 다룬 밈 성격의 스레드로, 개발자들의 공감을 얻고 있습니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1utghul/expectation_vs_reality/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-07-11T19:29:51+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "jscrambler 공식 npm 패키지, 8.14.0 버전에서 침해",
+        "originalTitle": "Official jscrambler npm Package Compromised at 8.14.0",
+        "summary": "r/programming에서 jscrambler의 공식 npm 패키지 8.14.0이 공급망 공격으로 침해됐다는 경고가 공유됐습니다. 의존성 보안과 패키지 무결성 점검의 중요성이 다시 강조됐습니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1utqclm/official_jscrambler_npm_package_compromised_at/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-07-12T02:35:29+09:00"
+      },
+      {
+        "id": "reddit_010",
+        "title": "컨테이너 네트워킹의 원리: 브리지 네트워크를 밑바닥부터 만들기",
+        "originalTitle": "How Container Networking Works: Building a Bridge Network From Scratch",
+        "summary": "r/programming에서 컨테이너 네트워킹이 어떻게 동작하는지 브리지 네트워크를 처음부터 구축하며 설명한 기술 글이 호응을 얻었습니다. 도커 내부 동작을 이해하려는 개발자에게 유용합니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1utfiq2/how_container_networking_works_building_a_bridge/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-07-11T18:33:46+09:00"
+      },
+      {
+        "id": "reddit_011",
+        "title": "팀 쿡이 샘 알트먼에게 편지를 쓰다",
+        "originalTitle": "Tim cook writes to sam altman",
+        "summary": "r/singularity에서 Apple의 팀 쿡과 OpenAI 샘 알트먼을 둘러싼 소송 국면을 소재로 한 스레드로, 두 리더의 관계와 업계 파장을 두고 다양한 반응이 오가고 있습니다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1utjtok/tim_cook_writes_to_sam_altman/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-07-11T22:14:20+09:00"
+      },
+      {
+        "id": "reddit_012",
+        "title": "신호 대 잡음비가 뛰어난 기술 서적과 블로그 추천",
+        "originalTitle": "What are some technical books and blogs with a great signal-to-noise ratio?",
+        "summary": "r/ExperiencedDevs에서 정보 밀도가 높고 군더더기 없는 기술 서적·블로그를 추천받는 스레드입니다. 경험 많은 개발자들의 엄선된 학습 자료 목록이 모이고 있습니다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1utsi51/what_are_some_technical_books_and_blogs_with_a/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-07-12T03:57:53+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_040",
+        "title": "SpaceX, 대역폭 100배 위해 Starlink 위성 10만 기 추가 발사 추진",
+        "excerpt": "SpaceX가 대역폭을 100배로 끌어올리기 위해 Starlink 위성 약 10만 기를 추가 발사하는 계획을 추진 중입니다. 차세대 위성 인터넷의 용량 경쟁이 격화됩니다.",
+        "body": "SpaceX가 Starlink 네트워크의 대역폭을 최대 100배까지 확대하기 위해 약 10만 기의 위성을 추가로 발사하는 대규모 계획을 추진하고 있습니다. 위성 수 급증에 따른 궤도 혼잡과 천문 관측 방해 우려도 함께 제기되고 있습니다.",
+        "url": "https://news.hada.io/topic?id=31334",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-12T03:42:20+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_041",
+        "title": "EU, 인스타·페북 \"중독성 설계는 DSA 위반\" 예비 판단",
+        "excerpt": "EU 집행위원회가 인스타그램과 페이스북의 중독성 있는 설계가 디지털서비스법(DSA)을 위반한다고 예비 판단했습니다. 대형 플랫폼 규제가 한층 강화됩니다.",
+        "body": "EU 집행위원회가 메타의 인스타그램과 페이스북이 사용자를 오래 붙잡아두기 위한 중독성 설계를 사용해 디지털서비스법(DSA)을 위반했다는 예비 결론을 내렸습니다. 최종 확정 시 대규모 과징금으로 이어질 수 있어, 플랫폼의 참여 유도 설계 관행에 제동이 걸릴 전망입니다.",
+        "url": "https://news.hada.io/topic?id=31332",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-12T02:33:16+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_042",
+        "title": "AI 스크레이퍼 공격에 무너지는 개방형 웹",
+        "excerpt": "공격적인 AI 크롤러·스크레이퍼가 트래픽과 비용을 폭증시키면서, 소규모 오픈소스·공개 웹사이트들이 운영을 유지하기 어려워지고 있습니다.",
+        "body": "AI 학습용 데이터를 긁어가는 공격적인 스크레이퍼와 봇 트래픽이 급증하면서, 자원이 부족한 오픈소스 프로젝트와 공개 웹사이트들이 서버 비용과 부하를 감당하지 못하는 사례가 늘고 있습니다. 개방형 웹의 지속 가능성을 위협하는 새로운 형태의 부담으로 지적됩니다.",
+        "url": "https://news.hada.io/topic?id=31323",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-11T18:02:24+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_043",
+        "title": "Nvidia·CoreWeave·Nebius, GPU 순환 자금조달의 내막",
+        "excerpt": "Nvidia, CoreWeave, Nebius를 둘러싼 \"순환 자금조달\" 구조를 파헤친 분석입니다. GPU 투자와 매출이 서로 얽히는 구조의 위험을 조명합니다.",
+        "body": "Nvidia가 투자한 기업들이 다시 Nvidia의 GPU를 대량 구매하는 이른바 \"순환 자금조달(circular financing)\" 구조를 분석한 글입니다. Nvidia, CoreWeave, Nebius 사이의 지분·매출·인프라가 서로 얽히면서 AI 인프라 붐의 실제 수요가 부풀려질 수 있다는 우려를 제기합니다.",
+        "url": "https://io-fund.com/ai-stocks/nvidia-coreweave-nebius-circular-financing-gpu-boom",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-12T02:21:49+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_044",
+        "title": "SQLite에서는 STRICT 테이블을 쓰는 게 낫다",
+        "excerpt": "SQLite의 유연한 타입 시스템이 예기치 않은 데이터 오류를 낳을 수 있어, 타입을 엄격히 강제하는 STRICT 테이블 사용을 권장하는 글입니다.",
+        "body": "SQLite는 기본적으로 컬럼 타입을 느슨하게 다뤄 문자열을 정수 컬럼에 넣는 것도 허용합니다. 이 글은 이런 유연성이 미묘한 버그를 유발할 수 있으므로, 타입을 엄격히 강제하는 STRICT 테이블을 기본으로 사용하라고 권합니다. 데이터 무결성을 중시하는 개발자에게 유용한 실무 팁입니다.",
+        "url": "https://evanhahn.com/prefer-strict-tables-in-sqlite/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-12T02:33:55+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_045",
+        "title": "GPT-5.6 Sol Ultra가 제시한 사이클 이중 덮개 추측 증명 (PDF)",
+        "excerpt": "OpenAI의 GPT-5.6 Sol Ultra가 50년 된 난제인 사이클 이중 덮개 추측의 증명을 생성해 PDF로 공개됐습니다. AI의 수학 연구 활용 사례로 주목받습니다.",
+        "body": "OpenAI가 GPT-5.6 Sol Ultra를 이용해 50년 넘게 미해결이던 그래프 이론 난제 \"사이클 이중 덮개 추측(Cycle Double Cover Conjecture)\"의 증명을 생성했다고 공유했으며, 해당 프롬프트와 증명이 PDF로 공개됐습니다. AI가 최전선 수학 연구의 보조 도구로 쓰일 가능성을 보여주는 사례로 커뮤니티의 검증과 토론이 이어지고 있습니다.",
+        "url": "https://news.hada.io/topic?id=31320",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-11T12:33:26+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      }
+    ]
+  }
+}

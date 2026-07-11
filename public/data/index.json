@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-07-12",
+      "issueNumber": 99,
+      "mainHeadline": "OpenAI, GPT-5.6 모델 패밀리 공개…AI 경쟁 새 국면",
+      "headlines": [
+        "Apple, 영업비밀 절도 혐의로 OpenAI 제소",
+        "OpenAI 2인자 피지 시모, 상근직에서 물러나",
+        "SK하이닉스, 美 사상 최대 외국기업 IPO로 265억 달러 조달"
+      ]
+    },
+    {
       "date": "2026-07-11",
       "issueNumber": 98,
       "mainHeadline": "오픈AI GPT-5.6 패밀리 출격 — MS 코파일럿 접수하고 수학 난제까지 정복",
@@ -1000,5 +1010,5 @@
       ]
     }
   ],
-  "latestIssue": 98
+  "latestIssue": 99
 }
