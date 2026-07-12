@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-07-13",
+      "issueNumber": 100,
+      "mainHeadline": "오픈AI, ChatGPT를 '가정' 속으로…GPT-Live 전면 배포하며 소비자 저변 확장",
+      "headlines": [
+        "메타, 논란의 인스타그램 AI 기능 이용자 반발에 철회",
+        "리드 잡스 \"성보다 암 정복\"—AI가 바이오 판을 바꾼다",
+        "버셀 AI 게이트웨이, 이미지 모델 Seedream 5.0 Pro 지원"
+      ]
+    },
+    {
       "date": "2026-07-12",
       "issueNumber": 99,
       "mainHeadline": "OpenAI, GPT-5.6 모델 패밀리 공개…AI 경쟁 새 국면",

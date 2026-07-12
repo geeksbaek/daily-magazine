@@ -1,0 +1,405 @@
+{
+  "date": "2026-07-13",
+  "issueNumber": 100,
+  "cover": {
+    "mainHeadline": "오픈AI, ChatGPT를 '가정' 속으로…GPT-Live 전면 배포하며 소비자 저변 확장",
+    "mainExcerpt": "오픈AI가 가족·고령층 전용 제품 매니저 채용에 나서며 ChatGPT를 개인 도구에서 가정 인프라로 확장하고 있다. 실시간 음성 대화 GPT-Live의 전 세계 배포와 GPT-5.6의 '달러당 성능' 공세가 소비자 확산을 뒷받침한다.",
+    "headlines": [
+      "메타, 논란의 인스타그램 AI 기능 이용자 반발에 철회",
+      "리드 잡스 \"성보다 암 정복\"—AI가 바이오 판을 바꾼다",
+      "버셀 AI 게이트웨이, 이미지 모델 Seedream 5.0 Pro 지원"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "aiml_001",
+      "title": "오픈AI, ChatGPT를 가정 속으로…가족·고령층 전용 제품 매니저 채용",
+      "excerpt": "오픈AI가 가족, 돌봄 제공자, 고령층을 위한 ChatGPT 경험을 전담할 제품 매니저를 채용 중이다. 채팅봇을 개인을 넘어 '가정'의 인프라로 확장하려는 전략적 행보다.",
+      "body": "채용 공고에 따르면 오픈AI는 가족·돌봄·노년층 사용자를 겨냥한 전용 제품 라인을 준비하고 있다. GPT-5.6과 GPT-Live의 전면 배포로 소비자 저변이 넓어진 가운데, 오픈AI는 ChatGPT를 개인 도구에서 가정 단위의 일상 인프라로 끌어올리려 하고 있다. 고령층 접근성과 돌봄 시나리오를 겨냥한 이번 움직임은 가정용 AI 시장을 선점하려는 포석으로 읽힌다.",
+      "url": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
+      "source": "TechCrunch",
+      "category": "ai_ml",
+      "publishedAt": "2026-07-11T23:15:00+09:00",
+      "readTime": 4,
+      "imageGradient": 0
+    },
+    {
+      "id": "aiml_002",
+      "title": "메타, 논란의 인스타그램 AI 기능 철회…이용자 반발에 백기",
+      "excerpt": "메타가 공개 콘텐츠를 AI로 재활용하는 인스타그램 기능을 이용자 반발 끝에 철회했다. \"피드백을 들었고 이 기능은 기대에 못 미쳤다\"고 인정했다.",
+      "body": "메타는 이용자의 공개 게시물을 AI가 참조·재가공할 수 있게 한 인스타그램 기능을 도입했다가 강한 반발에 부딪혀 서비스를 중단했다. 회사는 블로그를 통해 \"유용한 창작 도구를 제공하고 이용자에게 통제권을 주려는 의도였다\"면서도 \"기능이 기대에 미치지 못했다는 피드백을 수용해 더 이상 제공하지 않는다\"고 밝혔다. 생성형 AI를 소셜 플랫폼에 이식하는 과정에서 프라이버시·동의 문제가 다시 도마에 올랐다.",
+      "url": "https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/",
+      "source": "TechCrunch",
+      "category": "ai_ml",
+      "publishedAt": "2026-07-11T09:00:00+09:00",
+      "readTime": 4,
+      "imageGradient": 1
+    },
+    {
+      "id": "big_002",
+      "title": "리드 잡스 \"성(姓)보다 암 정복을 말하고 싶다\"…AI가 바이오 판을 바꾼다",
+      "excerpt": "스티브 잡스의 아들 리드 잡스가 이끄는 바이오 벤처 요세미티가 17명 규모로 성장했다. 그는 AI가 신약 개발의 '호기심'에서 '핵심 동력'으로 변했다고 말한다.",
+      "body": "리드 잡스의 벤처 투자사 요세미티는 3년 전 신생 단계에서 이제 17명 팀으로 커졌다. 다수 블록버스터 신약이 비슷한 시기에 특허 보호를 잃으며 새로운 기회가 열리고 있고, AI는 바이오 분야에서 단순한 흥밋거리를 넘어 핵심 동력으로 격상됐다. 잡스는 유명한 성(姓)보다 암 정복이라는 사명에 집중하고 싶다고 강조했다.",
+      "url": "https://techcrunch.com/2026/07/11/reed-jobs-would-rather-talk-about-curing-cancer-than-his-last-name/",
+      "source": "TechCrunch",
+      "category": "big_tech",
+      "publishedAt": "2026-07-12T09:00:00+09:00",
+      "readTime": 5,
+      "imageGradient": 6
+    },
+    {
+      "id": "dev_001",
+      "title": "버셀 AI 게이트웨이, 이미지 생성 모델 'Seedream 5.0 Pro' 지원",
+      "excerpt": "버셀 AI 게이트웨이에서 바이트댄스의 이미지 생성·편집 모델 Seedream 5.0 Pro를 바로 쓸 수 있게 됐다. 오탈자 없는 텍스트 렌더링과 인포그래픽 생성이 강점이다.",
+      "body": "버셀은 AI Gateway에 Seedream 5.0 Pro를 추가했다. 이 모델은 텍스트로부터 이미지를 생성하며, 철자 오류 없이 문자를 렌더링하고 타이포그래피 규칙을 준수한다. 차트·타임라인·레이아웃이 포함된 밀도 높은 인포그래픽을 사실적 이미지와 함께 만들어낼 수 있다. AI SDK에서 모델을 'bytedance/seedream-5.0-pro'로 설정하면 사용 가능하다.",
+      "url": "https://vercel.com/changelog/seedream-5-0-pro-is-now-available-on-ai-gateway",
+      "source": "Vercel Blog",
+      "category": "dev_tools",
+      "publishedAt": "2026-07-11T09:00:00+09:00",
+      "readTime": 3,
+      "imageGradient": 3
+    },
+    {
+      "id": "big_001",
+      "title": "테크크런치 모빌리티: 로보택시 '최후통첩'",
+      "excerpt": "자율주행 로보택시 경쟁이 새 국면에 접어들었다. AI가 교통의 미래에 어느 때보다 깊숙이 관여하며 업계에 사실상의 최후통첩을 던지고 있다.",
+      "body": "테크크런치 모빌리티 뉴스레터가 로보택시 시장의 결정적 분기점을 조명했다. AI 기술이 자율주행의 핵심으로 자리 잡으면서, 상용화 속도와 안전성 사이의 균형이 업계 생존을 가르는 변수로 떠올랐다. 각 사업자는 확장이냐 후퇴냐의 갈림길에서 압박을 받고 있다.",
+      "url": "https://techcrunch.com/2026/07/12/techcrunch-mobility-a-robotaxi-ultimatum/",
+      "source": "TechCrunch",
+      "category": "big_tech",
+      "publishedAt": "2026-07-13T01:00:00+09:00",
+      "readTime": 4,
+      "imageGradient": 5
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "aiml_001",
+        "title": "오픈AI, ChatGPT를 가정 속으로…가족·고령층 전용 제품 매니저 채용",
+        "excerpt": "오픈AI가 가족, 돌봄 제공자, 고령층을 위한 ChatGPT 경험을 전담할 제품 매니저를 채용 중이다. 채팅봇을 개인을 넘어 '가정'의 인프라로 확장하려는 전략적 행보다.",
+        "body": "채용 공고에 따르면 오픈AI는 가족·돌봄·노년층 사용자를 겨냥한 전용 제품 라인을 준비하고 있다. GPT-5.6과 GPT-Live의 전면 배포로 소비자 저변이 넓어진 가운데, 오픈AI는 ChatGPT를 개인 도구에서 가정 단위의 일상 인프라로 끌어올리려 하고 있다. 고령층 접근성과 돌봄 시나리오를 겨냥한 이번 움직임은 가정용 AI 시장을 선점하려는 포석으로 읽힌다.",
+        "url": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-11T23:15:00+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "aiml_002",
+        "title": "메타, 논란의 인스타그램 AI 기능 철회…이용자 반발에 백기",
+        "excerpt": "메타가 공개 콘텐츠를 AI로 재활용하는 인스타그램 기능을 이용자 반발 끝에 철회했다. \"피드백을 들었고 이 기능은 기대에 못 미쳤다\"고 인정했다.",
+        "body": "메타는 이용자의 공개 게시물을 AI가 참조·재가공할 수 있게 한 인스타그램 기능을 도입했다가 강한 반발에 부딪혀 서비스를 중단했다. 회사는 블로그를 통해 \"유용한 창작 도구를 제공하고 이용자에게 통제권을 주려는 의도였다\"면서도 \"기능이 기대에 미치지 못했다는 피드백을 수용해 더 이상 제공하지 않는다\"고 밝혔다. 생성형 AI를 소셜 플랫폼에 이식하는 과정에서 프라이버시·동의 문제가 다시 도마에 올랐다.",
+        "url": "https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-11T09:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      },
+      {
+        "id": "aiml_003",
+        "title": "애플, 영업비밀 절도 혐의로 오픈AI 제소…\"경영진이 지시\"",
+        "excerpt": "애플이 영업비밀을 빼돌렸다며 오픈AI를 상대로 소송을 제기했다. 애플은 오픈AI 고위 경영진, 특히 전직 장기 근속 직원이 이를 주도했다고 주장한다.",
+        "body": "애플은 오픈AI가 자사 영업비밀을 부정하게 취득했다며 소송에 나섰다. 소장에서 애플은 이번 부정행위가 오픈AI 고위 경영진의 지시로 이뤄졌으며, 애플에서 오래 근무하다 이직한 전직 직원이 핵심 역할을 했다고 적시했다. 두 빅테크 간 인재·기술 유출 공방이 법정으로 번지면서 AI 경쟁의 긴장이 한층 고조됐다.",
+        "url": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-11T06:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 2
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "dev_001",
+        "title": "버셀 AI 게이트웨이, 이미지 생성 모델 'Seedream 5.0 Pro' 지원",
+        "excerpt": "버셀 AI 게이트웨이에서 바이트댄스의 이미지 생성·편집 모델 Seedream 5.0 Pro를 바로 쓸 수 있게 됐다. 오탈자 없는 텍스트 렌더링과 인포그래픽 생성이 강점이다.",
+        "body": "버셀은 AI Gateway에 Seedream 5.0 Pro를 추가했다. 이 모델은 텍스트로부터 이미지를 생성하며, 철자 오류 없이 문자를 렌더링하고 타이포그래피 규칙을 준수한다. 차트·타임라인·레이아웃이 포함된 밀도 높은 인포그래픽을 사실적 이미지와 함께 만들어낼 수 있다. AI SDK에서 모델을 'bytedance/seedream-5.0-pro'로 설정하면 사용 가능하다.",
+        "url": "https://vercel.com/changelog/seedream-5-0-pro-is-now-available-on-ai-gateway",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-11T09:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "dev_002",
+        "title": "프로덕션 AI 에이전트를 GPT-5.6으로 이전…\"2.2배 빠르고 27% 저렴\"",
+        "excerpt": "한 개발팀이 프로덕션 AI 에이전트를 GPT-5.6으로 마이그레이션한 결과 응답 속도 2.2배, 비용 27% 절감을 보고했다. 달러당 성능이 실측으로 입증됐다.",
+        "body": "AI 에이전트를 운영하는 한 팀이 백엔드 모델을 GPT-5.6으로 교체한 경험을 공유했다. 동일 워크로드에서 처리 속도가 2.2배 빨라지고 비용은 27% 줄었다는 실측 결과다. 오픈AI가 이번 세대의 승부처로 내세운 '달러당 성능'이 실제 프로덕션 환경에서도 유효함을 보여주는 사례로, 에이전트 운영 비용 최적화 관점에서 주목받고 있다.",
+        "url": "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6",
+        "source": "Hacker News",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-13T02:10:00+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "big_001",
+        "title": "테크크런치 모빌리티: 로보택시 '최후통첩'",
+        "excerpt": "자율주행 로보택시 경쟁이 새 국면에 접어들었다. AI가 교통의 미래에 어느 때보다 깊숙이 관여하며 업계에 사실상의 최후통첩을 던지고 있다.",
+        "body": "테크크런치 모빌리티 뉴스레터가 로보택시 시장의 결정적 분기점을 조명했다. AI 기술이 자율주행의 핵심으로 자리 잡으면서, 상용화 속도와 안전성 사이의 균형이 업계 생존을 가르는 변수로 떠올랐다. 각 사업자는 확장이냐 후퇴냐의 갈림길에서 압박을 받고 있다.",
+        "url": "https://techcrunch.com/2026/07/12/techcrunch-mobility-a-robotaxi-ultimatum/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-07-13T01:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 5
+      },
+      {
+        "id": "big_002",
+        "title": "리드 잡스 \"성(姓)보다 암 정복을 말하고 싶다\"…AI가 바이오 판을 바꾼다",
+        "excerpt": "스티브 잡스의 아들 리드 잡스가 이끄는 바이오 벤처 요세미티가 17명 규모로 성장했다. 그는 AI가 신약 개발의 '호기심'에서 '핵심 동력'으로 변했다고 말한다.",
+        "body": "리드 잡스의 벤처 투자사 요세미티는 3년 전 신생 단계에서 이제 17명 팀으로 커졌다. 다수 블록버스터 신약이 비슷한 시기에 특허 보호를 잃으며 새로운 기회가 열리고 있고, AI는 바이오 분야에서 단순한 흥밋거리를 넘어 핵심 동력으로 격상됐다. 잡스는 유명한 성(姓)보다 암 정복이라는 사명에 집중하고 싶다고 강조했다.",
+        "url": "https://techcrunch.com/2026/07/11/reed-jobs-would-rather-talk-about-curing-cancer-than-his-last-name/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-07-12T09:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 6
+      },
+      {
+        "id": "big_003",
+        "title": "카메라 없는 스마트 안경?…이븐 리얼리티스 \"녹화보다 생산성\"",
+        "excerpt": "이븐 리얼리티스가 카메라를 뺀 스마트 안경으로 승부수를 던졌다. 회의·발표·다국어 이동이 잦은 사용자를 겨냥해 '모두를 녹화하지 않는' 생산성 도구를 표방한다.",
+        "body": "스마트 안경 스타트업 이븐 리얼리티스는 카메라를 탑재하지 않은 제품을 내놨다. 끊임없이 회의에 참석하고 프레젠테이션을 하며 다른 언어권을 오가는 사용자를 표적으로, 주변인을 촬영하는 대신 실시간 정보 제공과 번역 같은 생산성 기능에 집중한다. 프라이버시 논란을 피하면서 실용성으로 차별화하려는 전략이다.",
+        "url": "https://techcrunch.com/2026/07/11/smart-glasses-without-a-camera-even-realities-bets-productivity-beats-recording-everyone/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-07-12T02:30:00+09:00",
+        "readTime": 4,
+        "imageGradient": 7
+      },
+      {
+        "id": "big_004",
+        "title": "블루스카이, '임시' 뗀 CEO 토니 슈나이더 정식 선임",
+        "excerpt": "블루스카이의 임시 CEO였던 토니 슈나이더가 정식 CEO로 취임했다. 오토매틱 전 CEO 출신인 그는 탈중앙 SNS에 \"전력투구하겠다\"고 밝혔다.",
+        "body": "탈중앙 소셜미디어 블루스카이가 임시 직함을 달았던 토니 슈나이더를 정식 CEO로 확정했다. 워드프레스 모회사 오토매틱의 전 CEO이자 트루벤처스 파트너인 슈나이더는 이 독특한 플랫폼에 \"올인\"하겠다고 말했다. 트위터 대안으로 주목받아온 블루스카이가 리더십을 안정화하며 다음 성장 단계를 준비한다.",
+        "url": "https://techcrunch.com/2026/07/10/blueskys-interim-ceo-toni-schneider-drops-the-interim/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-07-11T22:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 8
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "현재까지 나는 AI가 순(純) 일자리 창출 효과를 내고 있다고 확신한다. 이건 내가 예상한 바가 아니었다—나는 남들보다 훨씬 덜 비관적이었지만, 이 정도 능력 수준에 이르면 어떤 영향이 보일 거라 생각했다. 이 흐름이 계속될 가능성도 있다.",
+        "context": "오픈AI CEO가 AI의 고용 영향에 대해 낙관론을 폈다. GPT-5.6 세대에 이르러서도 일자리 순증 효과가 이어지고 있다는 관찰로, AI 자동화의 고용 대체 우려에 반론을 제기한 발언이다.",
+        "url": "https://x.com/sama/status/2076036901824532530",
+        "publishedAt": "2026-07-11T20:12:22.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "의사들은 GPT-5.6의 응답에서 의사가 직접 작성한 응답보다 결함을 더 적게 발견했다.",
+        "context": "오픈AI가 강조하는 GPT-5.6의 '건강 지능' 성능을 뒷받침하는 언급이다. 실제 의료 전문가 평가에서 모델 응답이 사람 응답보다 오류가 적었다는 주장으로, 의료 AI 활용 확대의 근거로 제시됐다.",
+        "url": "https://x.com/sama/status/2075985056846451123",
+        "publishedAt": "2026-07-11T16:46:22.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "건강 지능을 위한 GPT-5.6—팀이 이 부분 개선에 집중해왔다.",
+        "context": "오픈AI 사장이 GPT-5.6의 헬스케어 역량 강화를 예고했다. 건강·의료 영역을 이번 모델의 핵심 개선 축으로 삼았음을 시사하는 게시물이다.",
+        "url": "https://x.com/gdb/status/2075741989228945908",
+        "publishedAt": "2026-07-11T00:40:30.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "GPT-5.6은 건강 지능 분야의 중대한 진전이다. 전 라인업에서 더 낮은 비용으로 더 강력한 성능을 제공한다: GPT-5.6 Luna는 최고 추론 설정에서 GPT-5.5를 능가하면서 비용은 25배 저렴하다.",
+        "context": "오픈AI 공식 계정이 GPT-5.6 라인업의 핵심 셀링포인트를 요약했다. 경량 모델 Luna가 이전 세대를 능가하면서도 비용을 25배 낮췄다는 '달러당 성능' 메시지가 반복된다.",
+        "url": "https://x.com/OpenAI/status/2075686461693898868",
+        "publishedAt": "2026-07-10T20:59:51.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Atty Eleti",
+        "handle": "athyuttamre",
+        "content": "GPT-Live가 전 세계 모든 ChatGPT 사용자에게 완전히 배포됐다. 주말 동안 모든 사용자의 음성 사용 한도를 두 배로 늘렸으니 더 많이 시도해보길. 즐기시길!",
+        "context": "오픈AI 엔지니어가 실시간 음성 대화 기능 GPT-Live의 전면 배포를 알렸다. 주말 한정 음성 한도 2배 이벤트까지 더해 소비자 확산에 드라이브를 걸었다.",
+        "url": "https://x.com/athyuttamre/status/2075768216866205786",
+        "publishedAt": "2026-07-11T02:24:43.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Jack Clark",
+        "handle": "jackclarkSF",
+        "content": "Import AI는 이번 주 쉰다. 지금 내 삶을 지배하는 두 힘, 유아들의 요구와 잉글랜드의 월드컵 여정 때문이다.",
+        "context": "앤트로픽 공동창업자가 유명 AI 뉴스레터 'Import AI'의 이번 주 휴간을 알렸다. 육아와 월드컵을 이유로 든 가벼운 근황 공유다.",
+        "url": "https://x.com/jackclarkSF/status/2076340790381641830",
+        "publishedAt": "2026-07-12T16:19:55.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "모든 유료 플랜에서 Claude Fable 5 접근을 연장하고, 클로드 코드의 주간 사용 한도를 50% 상향해 7월 19일까지 유지한다.",
+        "context": "앤트로픽이 최신 모델 Fable 5의 접근 기간을 연장하고 클로드 코드 사용 한도를 한시적으로 확대했다. 7월 19일까지 유료 사용자 대상 혜택이다.",
+        "url": "https://x.com/claudeai/status/2076351399999557669",
+        "publishedAt": "2026-07-12T17:02:05.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "1/ 오픈AI가 GPT-5.6을 정식 출시했다. 6월 26일부터 정부 승인 파트너 20곳에만 열려 있던 프리뷰가 사실상의 수출통제 해제와 함께 누구나 쓰는 정식 출시로 전환됐다. 구성은 플래그십 Sol, 중간 Terra, 경량 Luna 세 모델이며, 숫자는 세대를, 이름은 능력 등급을 가리키는 새 명명 체계다. 주목할 건 전략이다. SWE-Bench Pro와 FrontierMath에서 Fable 5에 뒤지는 수치를 표에 그대로 실었는데, 이번 세대의 승부처를 절대 성능이 아니라 '달러당 성능'으로 잡았기 때문이다. Terra와 Luna가 Fable 5의 약 16분의 1 비용이라는 문구가 발표문에서 가장 자주 반복된다.",
+        "context": "GPT-5.6 정식 출시의 맥락과 전략을 정리한 스레드다. 절대 성능 대신 비용 대비 성능을 전면에 내세운 오픈AI의 포지셔닝을 분석했다.",
+        "url": "https://www.threads.net/@choi.openai/post/DasMORJjwFk",
+        "publishedAt": "2026-07-12T00:00:00+09:00"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "GPT-5.6과 ChatGPT Work 출시부터 세계 최고 코더들의 완패, 애플의 오픈AI 제소까지. 이제는 '모른다'고 넘어갈 수 없다.",
+        "context": "최근 일주일 AI 업계의 굵직한 사건들을 한 줄로 요약한 게시물이다. GPT-5.6·ChatGPT Work 출시, 코딩 벤치마크 화제, 애플-오픈AI 소송 등 주요 이슈를 짚었다.",
+        "url": "https://www.threads.net/@choi.openai/post/DasMN5aD-7b",
+        "publishedAt": "2026-07-12T00:00:00+09:00"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "Zer0Fit: 구글의 새 TabFM·TimesFM 파운데이션 모델을 제로샷 ML용 MCP 서버로 만들다",
+        "originalTitle": "Zer0Fit: I took Google's new TabFM & TimesFM ML foundation models and made them available as an MCP server for zero-shot ML tasks (forecasts / classifications / regressions). 100% local. [P]",
+        "summary": "구글의 신규 테이블·시계열 파운데이션 모델(TabFM, TimesFM)을 제로샷 예측·분류·회귀 작업에 쓸 수 있도록 MCP 서버로 패키징한 프로젝트다. 100% 로컬 실행이 특징으로, r/MachineLearning에서 주목받았다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1uue8cc/zer0fit_i_took_googles_new_tabfm_timesfm_ml/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-07-12T21:32:29+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "운영연구 박사·빅테크 엔지니어의 질문: 로봇·국방·금융 등 고부가 산업의 중고급 ML로 어떻게 전환하나",
+        "originalTitle": "Ph.D. in Operations Research / Big Tech Eng: How to transition into intermediate/advanced ML for high-value industries (Robotics, Defense, Finance)? [D]",
+        "summary": "운영연구(OR) 박사 학위와 빅테크 엔지니어 경력을 가진 이용자가 로보틱스·국방·금융 같은 고부가가치 산업의 심화 ML 분야로 커리어를 옮기는 방법을 묻는 토론이다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1uumkkg/phd_in_operations_research_big_tech_eng_how_to/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-07-13T02:58:18+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "NeurIPS 2026 워크숍 제안 심사 결과",
+        "originalTitle": "NeurIPS 2026 Workshop Proposal Decisions [D]",
+        "summary": "NeurIPS 2026 워크숍 제안서의 채택 여부 결과를 공유하고 논의하는 스레드다. 학계 연구자들이 심사 결과와 경험을 나누고 있다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1uuhzzc/neurips_2026_workshop_proposal_decisions_d/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-07-13T00:08:00+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "qb_001",
+        "title": "조지 호츠 \"나는 LLM을 사랑하지만 과장은 싫다\"",
+        "excerpt": "해커 조지 호츠(geohot)가 LLM에 대한 애정과 과대광고에 대한 반감을 동시에 담은 글을 올려 해커뉴스에서 화제다.",
+        "body": "조지 호츠가 LLM 기술의 실질적 가치를 인정하면서도 시장의 과장된 기대를 비판하는 에세이를 공개했다. 기술 자체에 대한 애정과 하이프에 대한 피로감이 교차하는 논조로, 해커뉴스에서 110포인트를 받으며 활발한 토론을 촉발했다.",
+        "url": "https://geohot.github.io//blog/jekyll/update/2026/07/12/i-love-llms.html",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-13T03:30:00+09:00",
+        "readTime": 3,
+        "imageGradient": 9
+      },
+      {
+        "id": "qb_002",
+        "title": "\"클로드 코드는 프롬프트 전에 3만3천 토큰을 보낸다\"…오픈코드는 7천",
+        "excerpt": "한 개발팀이 클로드 코드와 오픈코드의 토큰 오버헤드를 비교했다. 클로드 코드가 프롬프트를 읽기도 전에 훨씬 많은 토큰을 소비한다는 분석이다.",
+        "body": "평소 오픈코드를 쓰던 팀이 사정상 클로드 코드를 사용하면서 사용량 미터가 유독 빠르게 오르는 것을 발견하고 분석에 나섰다. 측정 결과 클로드 코드는 실제 프롬프트를 처리하기 전 약 3만3천 토큰을, 오픈코드는 약 7천 토큰을 선(先)전송하는 것으로 나타났다. 코딩 에이전트의 숨은 비용 구조를 짚은 사례다.",
+        "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-13T03:20:00+09:00",
+        "readTime": 3,
+        "imageGradient": 10
+      },
+      {
+        "id": "qb_003",
+        "title": "엔비디아·코어위브·네비우스가 만든 GPU 붐의 '순환 금융' 구조",
+        "excerpt": "코어위브와 네비우스가 엔비디아 GPU를 빠르게 공급해 대형 장기계약을 확보했지만, 실제 데이터센터 용량 전환에는 현금흐름을 크게 웃도는 자본지출이 필요하다는 분석이다.",
+        "body": "네오클라우드 사업자들이 최신 엔비디아 GPU를 앞세워 마이크로소프트·메타 등과 최대 1,222억 달러 규모 계약을 맺었지만, 계약된 전력을 실제 가동 용량으로 전환하려면 감당하기 힘든 자본지출이 필요하다. GPU 공급-계약-투자로 이어지는 순환 금융 구조가 AI 인프라 붐의 지속 가능성에 의문을 던진다.",
+        "url": "https://news.hada.io/topic?id=31349",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-12T18:30:00+09:00",
+        "readTime": 4,
+        "imageGradient": 11
+      },
+      {
+        "id": "qb_004",
+        "title": "대규모 언어모델의 추론, 우리는 이해할 수 있는가",
+        "excerpt": "ACM Communications가 LLM의 추론 과정을 인간이 해석할 수 있는지 다뤘다. 해석 가능성 연구의 현주소를 짚는 글이다.",
+        "body": "미국컴퓨터학회(ACM) 매거진이 대규모 언어모델의 추론 메커니즘을 인간이 어디까지 이해할 수 있는지 조명했다. 모델 내부의 작동 원리를 규명하려는 해석 가능성(interpretability) 연구의 성과와 한계를 정리하며, AI 신뢰성 확보의 핵심 과제로 이 문제를 제시한다.",
+        "url": "https://cacm.acm.org/news/can-we-understand-how-large-language-models-reason/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-13T02:50:00+09:00",
+        "readTime": 3,
+        "imageGradient": 12
+      },
+      {
+        "id": "qb_005",
+        "title": "Mesh LLM, iroh 기반 분산 AI 컴퓨팅",
+        "excerpt": "여러 머신에 흩어진 GPU와 메모리를 하나로 묶어 로컬 실행·피어 전달·분할 실행을 OpenAI 호환 API로 제공하는 오픈소스 프로젝트가 공개됐다.",
+        "body": "Mesh LLM은 iroh를 기반으로 여러 노드의 GPU·메모리를 단일 컴퓨팅 자원처럼 활용한다. 요청은 로컬 GPU나 모델을 적재한 피어에서 처리되고, 한 머신에 담기지 않는 대형 모델은 여러 노드에 파이프라인 단계로 분할 실행된다. 이 모든 것을 OpenAI 호환 API 하나로 제공해 분산 추론의 접근성을 높였다.",
+        "url": "https://news.hada.io/topic?id=31351",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-12T21:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 13
+      }
+    ]
+  }
+}
