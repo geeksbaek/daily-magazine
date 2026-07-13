@@ -1,0 +1,493 @@
+{
+  "date": "2026-07-14",
+  "issueNumber": 101,
+  "cover": {
+    "mainHeadline": "애플 vs 오픈AI 전면전…영업비밀 소송에 '기밀 유출' 의혹까지",
+    "mainExcerpt": "애플이 오픈AI를 상대로 낸 영업비밀 소송의 충격적 정황이 공개됐다. 직원들의 무단 접근 농담부터 전 직원의 퇴사 후 기밀 파일 다운로드 의혹까지, AI 개인비서 패권을 둘러싼 빅테크 간 갈등이 법정으로 번지고 있다.",
+    "headlines": [
+      "앤트로픽, 인도에 루피 현지 가격 도입…美 다음 최대 시장 공략",
+      "클라우드플레어, 행동 신호로 봇 잡는 'Precursor' 공개",
+      "오픈웨이트 모델 사용량 29%로 급증…토큰 가격은 평탄화"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "aiml_001",
+      "title": "애플, 오픈AI 상대 영업비밀 소송…\"직원들이 무단 접근 농담까지\"",
+      "excerpt": "애플이 오픈AI를 상대로 낸 영업비밀 소송에 담긴 정황들이 공개됐다. 직원들이 애플 시스템 무단 접근을 농담 삼았다는 주장부터, 입사 지원자에게 애플 하드웨어를 면접에 가져오라 요구했다는 의혹까지 담겼다.",
+      "body": "애플이 오픈AI를 상대로 제기한 영업비밀 침해 소송의 세부 내용이 공개되며 파장이 일고 있다. 소장에는 오픈AI 직원들이 애플 내부 시스템에 대한 무단 접근을 농담처럼 언급했다는 주장과, 채용 과정에서 지원자들에게 애플 기기를 면접 자리에 가져오도록 요청했다는 정황이 포함됐다. 양사가 AI 개인비서 시장에서 정면으로 부딪치는 가운데, 이번 소송은 인재 이동과 기밀 유출을 둘러싼 빅테크 간 긴장을 상징적으로 보여준다.",
+      "url": "https://techcrunch.com/2026/07/13/the-wildest-allegations-in-apples-trade-secrets-lawsuit-against-openai/",
+      "source": "TechCrunch",
+      "category": "ai_ml",
+      "publishedAt": "2026-07-14T03:22:10+09:00",
+      "readTime": 4,
+      "imageGradient": 0
+    },
+    {
+      "id": "aiml_002",
+      "title": "앤트로픽, 인도에 루피 현지 가격 도입…美 다음 최대 시장 공략",
+      "excerpt": "앤트로픽이 미국에 이어 두 번째로 큰 시장인 인도에서 Claude 구독 요금을 인도 루피화로 현지화하기 시작했다. 신흥 시장 저변 확대를 노린 가격 전략이다.",
+      "body": "앤트로픽이 인도 사용자를 대상으로 Claude 구독 플랜을 인도 루피(INR)로 표시하기 시작했다. 인도는 미국에 이어 앤트로픽의 두 번째로 큰 시장으로, 현지 통화 가격 도입은 구매 장벽을 낮춰 유료 전환율을 끌어올리려는 포석이다. 글로벌 AI 기업들이 미국·유럽을 넘어 인도·동남아 등 대규모 신흥 시장 선점 경쟁에 본격 나서고 있음을 보여주는 사례다.",
+      "url": "https://techcrunch.com/2026/07/13/anthropic-starts-localizing-claude-pricing-for-india-its-biggest-market-after-the-us/",
+      "source": "TechCrunch",
+      "category": "ai_ml",
+      "publishedAt": "2026-07-14T00:34:59+09:00",
+      "readTime": 3,
+      "imageGradient": 1
+    },
+    {
+      "id": "dev_001",
+      "title": "클라우드플레어, 봇 탐지 엔진 'Precursor' 공개…행동 신호로 판별",
+      "excerpt": "클라우드플레어가 클라이언트 측 연속 행동 신호로 사람과 봇을 구분하는 새 봇 관리 엔진 Precursor를 발표했다. 세션 단위 행동을 탐지 신호로 전환한다.",
+      "body": "클라우드플레어가 봇 관리용 상시 행동 검증 엔진 'Precursor'를 선보였다. 단일 요청이 아니라 사용자 여정 전반의 세션 수준 상호작용을 관찰해, 사람과 봇이 실제로 어떻게 행동하는지에 대한 가시성을 제공한다. AI 에이전트가 웹을 자동으로 탐색하는 시대에 정교해지는 봇 트래픽을 걸러내려는 시도로, 행동 기반 탐지를 한 단계 끌어올린다.",
+      "url": "https://blog.cloudflare.com/introducing-precursor/",
+      "source": "Cloudflare Blog",
+      "category": "dev_tools",
+      "publishedAt": "2026-07-13T22:00:00+09:00",
+      "readTime": 4,
+      "imageGradient": 4
+    },
+    {
+      "id": "dev_002",
+      "title": "오픈웨이트 모델 사용량 29%로 급증…토큰당 가격은 평탄화",
+      "excerpt": "버셀 AI 게이트웨이의 7월 프로덕션 지표에서 오픈웨이트 모델이 전체 물량의 29%를 차지하며 급증했다. 토큰당 가격 하락세는 둔화됐다.",
+      "body": "버셀이 매달 수십조 토큰을 실제 프로덕션 앱과 AI 랩 사이에서 라우팅하며 집계한 'AI 게이트웨이 프로덕션 인덱스' 7월판을 공개했다. 오픈웨이트(개방형 가중치) 모델의 사용 비중이 전체 물량의 29%까지 치솟은 반면, 그동안 가파르게 떨어지던 토큰당 가격은 평탄화되는 흐름이 관측됐다. 엔터프라이즈의 실제 AI 활용이 개방형 모델 쪽으로 무게중심을 옮기고 있음을 보여준다.",
+      "url": "https://vercel.com/blog/ai-gateway-production-index-july-2026",
+      "source": "Vercel Blog",
+      "category": "dev_tools",
+      "publishedAt": "2026-07-13T16:00:00+09:00",
+      "readTime": 4,
+      "imageGradient": 0
+    },
+    {
+      "id": "aiml_003",
+      "title": "샘 알트먼 \"머스크의 우주 데이터센터는 단기 홍보\"…전문가 다수도 동의",
+      "excerpt": "샘 알트먼이 자신을 사기꾼이라 몰아세운 일론 머스크를 향해 우주 데이터센터 구상을 정면 비판했다. 대다수 전문가도 알트먼의 회의론에 공감한다는 분석이다.",
+      "body": "일론 머스크가 샘 알트먼을 '사기꾼'이라 공격하자, 알트먼은 머스크야말로 공개 시장 투자자들에게 '단기 우주 데이터센터'를 팔고 있다며 맞받았다. 기사에 따르면 궤도상 데이터센터 구상은 냉각·전력·통신 등 현실적 제약이 커 상용화가 요원하다는 게 다수 전문가의 견해로, 알트먼의 회의적 시각이 업계 통념과 다르지 않다는 평가다.",
+      "url": "https://techcrunch.com/2026/07/13/sam-altmans-space-data-center-trash-talk-is-what-most-experts-already-believe/",
+      "source": "TechCrunch",
+      "category": "ai_ml",
+      "publishedAt": "2026-07-14T02:28:37+09:00",
+      "readTime": 4,
+      "imageGradient": 2
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "aiml_001",
+        "title": "애플, 오픈AI 상대 영업비밀 소송…\"직원들이 무단 접근 농담까지\"",
+        "excerpt": "애플이 오픈AI를 상대로 낸 영업비밀 소송에 담긴 정황들이 공개됐다. 직원들이 애플 시스템 무단 접근을 농담 삼았다는 주장부터, 입사 지원자에게 애플 하드웨어를 면접에 가져오라 요구했다는 의혹까지 담겼다.",
+        "body": "애플이 오픈AI를 상대로 제기한 영업비밀 침해 소송의 세부 내용이 공개되며 파장이 일고 있다. 소장에는 오픈AI 직원들이 애플 내부 시스템에 대한 무단 접근을 농담처럼 언급했다는 주장과, 채용 과정에서 지원자들에게 애플 기기를 면접 자리에 가져오도록 요청했다는 정황이 포함됐다. 양사가 AI 개인비서 시장에서 정면으로 부딪치는 가운데, 이번 소송은 인재 이동과 기밀 유출을 둘러싼 빅테크 간 긴장을 상징적으로 보여준다.",
+        "url": "https://techcrunch.com/2026/07/13/the-wildest-allegations-in-apples-trade-secrets-lawsuit-against-openai/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-14T03:22:10+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "aiml_002",
+        "title": "앤트로픽, 인도에 루피 현지 가격 도입…美 다음 최대 시장 공략",
+        "excerpt": "앤트로픽이 미국에 이어 두 번째로 큰 시장인 인도에서 Claude 구독 요금을 인도 루피화로 현지화하기 시작했다. 신흥 시장 저변 확대를 노린 가격 전략이다.",
+        "body": "앤트로픽이 인도 사용자를 대상으로 Claude 구독 플랜을 인도 루피(INR)로 표시하기 시작했다. 인도는 미국에 이어 앤트로픽의 두 번째로 큰 시장으로, 현지 통화 가격 도입은 구매 장벽을 낮춰 유료 전환율을 끌어올리려는 포석이다. 글로벌 AI 기업들이 미국·유럽을 넘어 인도·동남아 등 대규모 신흥 시장 선점 경쟁에 본격 나서고 있음을 보여주는 사례다.",
+        "url": "https://techcrunch.com/2026/07/13/anthropic-starts-localizing-claude-pricing-for-india-its-biggest-market-after-the-us/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-14T00:34:59+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "aiml_003",
+        "title": "샘 알트먼 \"머스크의 우주 데이터센터는 단기 홍보\"…전문가 다수도 동의",
+        "excerpt": "샘 알트먼이 자신을 사기꾼이라 몰아세운 일론 머스크를 향해 우주 데이터센터 구상을 정면 비판했다. 대다수 전문가도 알트먼의 회의론에 공감한다는 분석이다.",
+        "body": "일론 머스크가 샘 알트먼을 '사기꾼'이라 공격하자, 알트먼은 머스크야말로 공개 시장 투자자들에게 '단기 우주 데이터센터'를 팔고 있다며 맞받았다. 기사에 따르면 궤도상 데이터센터 구상은 냉각·전력·통신 등 현실적 제약이 커 상용화가 요원하다는 게 다수 전문가의 견해로, 알트먼의 회의적 시각이 업계 통념과 다르지 않다는 평가다.",
+        "url": "https://techcrunch.com/2026/07/13/sam-altmans-space-data-center-trash-talk-is-what-most-experts-already-believe/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-14T02:28:37+09:00",
+        "readTime": 4,
+        "imageGradient": 2
+      },
+      {
+        "id": "aiml_004",
+        "title": "MS, Rust 암호화 코드 SymCrypt 정형 검증…표준에서 코드까지",
+        "excerpt": "마이크로소프트 리서치가 SymCrypt의 Rust 암호화 코드를 개발 중에 검증하는 새 방법을 공개했다. 속도와 유연성을 유지하면서 안전성을 확보하는 접근이다.",
+        "body": "마이크로소프트 리서치가 암호화 라이브러리 SymCrypt의 Rust 구현을 대상으로, 개발자가 코드를 작성하는 시점에 정형 검증(formal verification)을 적용하는 기법을 소개했다. 암호 코드는 현대 컴퓨팅 보안의 근간인 만큼, 표준 명세에서 실제 코드까지 정확성을 보장하면서도 성능과 진화 가능성을 훼손하지 않는 것이 핵심 과제다. 이번 연구는 그 균형점을 제시한다.",
+        "url": "https://www.microsoft.com/en-us/research/blog/verifying-rust-cryptography-in-symcrypt-from-standards-to-code/",
+        "source": "Microsoft Research",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-14T01:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 3
+      },
+      {
+        "id": "aiml_005",
+        "title": "웨이즈, 제미나이 기반 새 AI 기능·맞춤 설정 대거 추가",
+        "excerpt": "구글 내비게이션 앱 웨이즈가 제미나이 AI로 구동되는 새 기능과 커스터마이징 업데이트를 선보였다. 경쟁 서비스 대비 경쟁력 강화를 노린다.",
+        "body": "웨이즈가 구글의 제미나이 AI 어시스턴트로 구동되는 새 기능들과 다양한 맞춤 설정 옵션을 추가했다. 이는 구글이 제미나이를 자사 제품 전반에 통합하려는 큰 흐름을 반영하는 동시에, 웨이즈를 경쟁 내비게이션 서비스에 맞서 더 유리하게 자리매김하려는 전략이다.",
+        "url": "https://techcrunch.com/2026/07/13/waze-adds-new-ai-powered-features-and-customization-updates/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-13T23:18:16+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "dev_001",
+        "title": "클라우드플레어, 봇 탐지 엔진 'Precursor' 공개…행동 신호로 판별",
+        "excerpt": "클라우드플레어가 클라이언트 측 연속 행동 신호로 사람과 봇을 구분하는 새 봇 관리 엔진 Precursor를 발표했다. 세션 단위 행동을 탐지 신호로 전환한다.",
+        "body": "클라우드플레어가 봇 관리용 상시 행동 검증 엔진 'Precursor'를 선보였다. 단일 요청이 아니라 사용자 여정 전반의 세션 수준 상호작용을 관찰해, 사람과 봇이 실제로 어떻게 행동하는지에 대한 가시성을 제공한다. AI 에이전트가 웹을 자동으로 탐색하는 시대에 정교해지는 봇 트래픽을 걸러내려는 시도로, 행동 기반 탐지를 한 단계 끌어올린다.",
+        "url": "https://blog.cloudflare.com/introducing-precursor/",
+        "source": "Cloudflare Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-13T22:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 4
+      },
+      {
+        "id": "dev_002",
+        "title": "오픈웨이트 모델 사용량 29%로 급증…토큰당 가격은 평탄화",
+        "excerpt": "버셀 AI 게이트웨이의 7월 프로덕션 지표에서 오픈웨이트 모델이 전체 물량의 29%를 차지하며 급증했다. 토큰당 가격 하락세는 둔화됐다.",
+        "body": "버셀이 매달 수십조 토큰을 실제 프로덕션 앱과 AI 랩 사이에서 라우팅하며 집계한 'AI 게이트웨이 프로덕션 인덱스' 7월판을 공개했다. 오픈웨이트(개방형 가중치) 모델의 사용 비중이 전체 물량의 29%까지 치솟은 반면, 그동안 가파르게 떨어지던 토큰당 가격은 평탄화되는 흐름이 관측됐다. 엔터프라이즈의 실제 AI 활용이 개방형 모델 쪽으로 무게중심을 옮기고 있음을 보여준다.",
+        "url": "https://vercel.com/blog/ai-gateway-production-index-july-2026",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-13T16:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "bt_001",
+        "title": "애플 \"전 직원, 희귀 버그로 퇴사 후에도 기밀 파일 내려받아\"",
+        "excerpt": "애플이 오픈AI로 떠난 전 직원이 '희귀한' 버그를 악용해 퇴사 후에도 사내 네트워크에서 민감한 파일을 내려받았다고 주장했다.",
+        "body": "애플은 한 전직 직원이 회사를 떠나 경쟁사 오픈AI로 옮긴 뒤에도 드문 보안 버그를 이용해 애플 네트워크의 민감한 파일을 다운로드했다고 밝혔다. 애플은 이 '보안 침해'에 대한 구체적 언급은 피했다. 앞서 공개된 오픈AI 상대 영업비밀 소송과 맞물려, 인재 유출과 기밀 보안을 둘러싼 두 회사의 갈등이 격화되고 있다.",
+        "url": "https://techcrunch.com/2026/07/13/apple-says-former-employee-exploited-rare-bug-to-download-confidential-files-after-leaving-for-openai/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-07-14T05:00:17+09:00",
+        "readTime": 4,
+        "imageGradient": 2
+      },
+      {
+        "id": "bt_002",
+        "title": "12개 주, 파라마운트-워너 1,100억 달러 합병 저지 소송",
+        "excerpt": "캘리포니아 등 12개 주 법무장관이 파라마운트와 워너브라더스 디스커버리의 1,100억 달러 합병을 막기 위한 소송을 제기했다. 영화 가격 인상과 케이블 유통 붕괴를 우려했다.",
+        "body": "미국 12개 주 법무장관이 파라마운트와 워너브라더스 디스커버리의 1,100억 달러 규모 합병을 저지하기 위한 마지막 시도에 나섰다. 이들은 합병이 성사되면 영화 티켓 가격이 오르고 극장, 기본 케이블 유통사, 관객이 피해를 입어 거대 미디어 공룡이 탄생할 것이라 경고했다. 미디어 산업 재편을 둘러싼 규제 공방이 본격화되고 있다.",
+        "url": "https://techcrunch.com/2026/07/13/12-states-sue-to-block-paramounts-110b-warner-bros-deal/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-07-14T02:00:14+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "bt_003",
+        "title": "제너럴 퓨전, 첫 상장 핵융합 기업으로 데뷔…투자자 몰려 급등",
+        "excerpt": "제너럴 퓨전이 역합병을 통해 나스닥에 상장하며 첫 공개 거래 핵융합 기업이 됐다. 상장 첫날 투자자들이 몰리며 주가가 급등했다.",
+        "body": "제너럴 퓨전이 리버스 머저(역합병) 방식으로 나스닥 거래를 시작하며 세계 최초의 상장 핵융합 기업이 됐다. 높은 상환 요청에도 불구하고 상장 첫날 투자자들의 관심이 쏠리며 주가가 크게 뛰었다. 아직 상용화까지 갈 길이 먼 핵융합 분야에 공개 시장 자금이 유입되기 시작했다는 상징적 의미가 있다.",
+        "url": "https://techcrunch.com/2026/07/13/investors-send-general-fusion-soaring-in-debut-as-first-publicly-traded-fusion-company/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-07-14T02:03:11+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "bt_004",
+        "title": "스페이스X, 5월 부스터 실패 후 스타십 재비행 승인",
+        "excerpt": "스페이스X가 지난 5월 부스터 실패 이후 스타십 재비행을 승인받았다. 상장 기업으로서 처음 치르는 시험비행이다.",
+        "body": "스페이스X가 5월 부스터 실패 이후 처음으로 스타십 시험비행 승인을 받았다. 이번 비행은 스페이스X가 상장사가 된 뒤 처음 치르는 스타십 테스트로, 종종 화염구로 끝나는 '날고, 실패하고, 고친다'는 개발 방식에 대한 시장의 수용도를 가늠하는 시험대가 될 전망이다.",
+        "url": "https://techcrunch.com/2026/07/13/spacex-cleared-to-fly-starship-again-after-booster-failure-in-may/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-07-13T23:19:44+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "bt_005",
+        "title": "EU, 청소년 소셜미디어 이용 제한 추진…연령 제한·전면 금지 검토",
+        "excerpt": "유럽연합이 아동·청소년의 소셜미디어 접근을 제한하는 대대적 규제를 검토 중이다. 연령 제한, 전면 금지, 단계적 접근 등이 논의된다.",
+        "body": "유럽연합이 아동과 청소년의 소셜미디어 이용을 겨냥한 광범위한 새 규제를 저울질하고 있다. 연령 제한, 전면 금지, 단계적 접근 허용 등의 방안이 검토되며, 플랫폼들은 이용자 연령을 입증하도록 강제될 수 있다. 청소년 온라인 안전을 둘러싼 각국의 규제 흐름이 유럽에서도 본격화되는 모습이다.",
+        "url": "https://www.theverge.com/tech/964565/eu-children-social-media-online-safety-rules",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-07-13T18:22:52+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "지금까지 적어도, 나는 AI가 순(純) 일자리 창출 효과를 내고 있다고 확신합니다. 이건 내가 예상했던 바가 아니었습니다—비록 다른 사람들보다 훨씬 덜 비관적이었지만, 이 정도 수준의 능력에 도달했을 때쯤이면 뭔가 영향을 볼 거라고 생각했어요. 이 방향이 계속 이어질 가능성도 있어요!",
+        "context": "오픈AI CEO가 AI의 고용 영향에 대해 낙관론을 폈다. GPT-5.6 세대에 이르러서도 일자리 순증 효과가 이어지고 있다는 관찰로, AI 자동화의 대량 실직 우려에 반론을 제기한 발언이다.",
+        "url": "https://x.com/sama/status/2076036901824532530",
+        "publishedAt": "2026-07-11T20:12:22.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "사람들이 5.6 솔로 만든 흥미로운 것들을 보고 싶네요. 가장 멋진 걸 만든 사람에게 오픈AI 아카이브에서 특별한 선물을 보내줄게요.",
+        "context": "알트먼이 GPT-5.6 Sol로 만든 창작물 중 가장 뛰어난 사례에 오픈AI 아카이브 선물을 주겠다며 사용자 참여를 독려했다. 신모델의 실사용 확산을 노린 커뮤니티 이벤트성 발언이다.",
+        "url": "https://x.com/sama/status/2076398253332140410",
+        "publishedAt": "2026-07-12T20:08:15.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "ChatGPT Work가 정말 훌륭해요. 팀이 매우 자랑스럽고, 사람들이 가능한 것들을 탐험하는 걸 보며 기대됩니다.",
+        "context": "오픈AI 사장이 새로 공개된 ChatGPT Work에 대한 자부심을 드러냈다. 기업용 워크스페이스 제품군 확장 흐름을 보여주는 발언이다.",
+        "url": "https://x.com/gdb/status/2076518764112445861",
+        "publishedAt": "2026-07-13T04:07:07.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "이전 연구에서 우리는 Claude가 정직과 따뜻함 같은 3,000개 이상의 가치를 표현한다는 것을 발견했습니다. 새로운 연구에서 우리는 Claude가 표현하는 가치가 Claude 모델 간과 언어 간에 어떻게 변하는지 물었습니다. 30만 건 이상의 익명화된 대화를 분석했습니다.",
+        "context": "앤트로픽이 30만 건 이상의 익명 대화를 분석해 Claude가 표현하는 가치가 모델과 언어에 따라 어떻게 달라지는지 연구한 결과를 공개했다. AI 정렬·해석가능성 연구의 연장선이다.",
+        "url": "https://x.com/AnthropicAI/status/2076719540785012872",
+        "publishedAt": "2026-07-13T17:24:56.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "Claude가 표현하는 가치들은 대화의 언어에 따라 달라지며, 특히 따뜻함(Warmth) 대 엄격함(Rigor) 축에서 가장 두드러지게 나타납니다. Claude는 힌디어와 아랍어에서 가장 따뜻함 쪽으로 기울고, 러시아어에서는 엄격함 쪽으로 기울어 종종 뒷받침 증거를 요청합니다.",
+        "context": "앤트로픽 연구에 따르면 Claude가 표현하는 가치는 대화 언어에 따라 '따뜻함 대 엄격함' 축에서 크게 달라진다. 힌디어·아랍어에서 더 따뜻하고, 러시아어에서 더 엄격해진다는 흥미로운 발견이다.",
+        "url": "https://x.com/AnthropicAI/status/2076719546954825769",
+        "publishedAt": "2026-07-13T17:24:58.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "모든 유료 플랜에서 Claude Fable 5 액세스를 연장하고, Claude Code의 주간 속도 제한을 50% 더 높게 유지합니다. 7월 19일까지입니다.",
+        "context": "앤트로픽이 7월 19일까지 모든 유료 플랜에서 Fable 5 접근을 연장하고 Claude Code 주간 속도 제한을 50% 상향한다고 발표했다. 사용자 혜택을 강화하는 한시 프로모션이다.",
+        "url": "https://x.com/claudeai/status/2076351399999557669",
+        "publishedAt": "2026-07-12T17:02:05.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "OpenAI Build Week 제출이 열려 있습니다. 7월 21일까지 제출하세요.",
+        "context": "오픈AI가 개발자 대상 Build Week 제출을 7월 21일까지 받는다고 공지했다. 신모델 생태계 확장을 위한 개발자 이벤트다.",
+        "url": "https://x.com/OpenAIDevs/status/2076715478878474575",
+        "publishedAt": "2026-07-13T17:08:48.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "큰 이슈가 있네요. xAI의 코딩 에이전트 Grok Build가 실행된 저장소 전체를 자사 클라우드로 업로드해온 사실이 드러났습니다. 한 보안 연구자가 네트워크 트래픽을 직접 분석한 결과인데요. 12GB 저장소에서 실제 코딩 작업에 오간 데이터는 192KB였는데, 별도 채널로 5.1GB가 xAI의 저장 버킷에 올라갔습니다. 저장소를 통째로 묶어 올리는 방식이라 읽지 말라고 지정한 파일, 과거 커밋 이력, 지워진 시크릿까지 전부 딸려 갑니다. '모델 개선' 옵트아웃을 꺼도 업로드는 계속됐습니다. xAI는 분석이 공개된 다음 날 서버 쪽 숨은 플래그로 업로드를 중단했고, 수집 범위나 삭제 계획에 대한 공지는 아직 없습니다.",
+        "context": "보안 연구자가 xAI 코딩 에이전트 Grok Build가 실행 저장소 전체를 자사 클라우드로 몰래 업로드해온 정황을 네트워크 분석으로 밝혀냈다. 옵트아웃을 꺼도 업로드가 계속됐다는 점에서 코딩 에이전트의 데이터 취급 신뢰성 논란으로 번지고 있다.",
+        "url": "https://www.threads.net/@choi.openai/post/DavXi0tj2zr",
+        "publishedAt": "2026-07-13T16:40:59.000Z"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "노벨상 수상자 16명을 포함한 경제학자, AI 연구자 200여 명이 AI의 경제 충격에 지금 대비하라는 성명을 냈습니다. 내용은 세 문장입니다. AI가 10년 안에 급격히 강력해질 수 있고, 산업혁명보다 큰 변화가 훨씬 짧은 기간에 올 수 있으니, 지금부터 연구와 제도 준비를 시작하자고 촉구합니다.",
+        "context": "노벨상 수상자 16명을 포함한 경제학자·AI 연구자 200여 명이 AI의 경제 충격에 지금 대비하자는 공동 성명을 냈다. 산업혁명보다 큰 변화가 훨씬 짧은 기간에 올 수 있다는 경고다.",
+        "url": "https://www.threads.net/@choi.openai/post/DavXtOFD_dh",
+        "publishedAt": "2026-07-13T14:20:00.000Z"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "\"사고의 연쇄는 확장의 함정\"…다음 물결은 잠재 추론",
+        "originalTitle": "Chain of Thought is a scaling trap. the next wave is latent reasoning (Coconut / HRM / RecrusiveMAS)... but then we hit the black box wall. Where does BDH fit? [D]",
+        "summary": "체인 오브 소트(CoT) 방식이 확장에 한계가 있으며 다음 패러다임은 토큰으로 드러나지 않는 '잠재 추론(latent reasoning)'이라는 주장이 r/MachineLearning에서 활발한 토론을 불러일으켰다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1uviru5/chain_of_thought_is_a_scaling_trap_the_next_wave/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-07-14T02:50:49+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "애플 M7 울트라 칩, 최대 1.5TB 통합 메모리 탑재 전망",
+        "originalTitle": "Apple M7 Ultra Chip Planned With Up to 1.5 TB of Unified Memory",
+        "summary": "차세대 애플 M7 울트라 칩이 최대 1.5TB의 통합 메모리를 지원할 것이라는 전망이 나왔다. 대형 로컬 LLM 구동을 노리는 r/LocalLLaMA 커뮤니티가 크게 주목했다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uvbzul/apple_m7_ultra_chip_planned_with_up_to_15_tb_of/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-07-13T22:44:24+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "논문 읽는 방식을 완전히 바꿔놓은 Claude 활용법",
+        "originalTitle": "the way i use it to read papers has completely changed what i'm able to keep up with, and the trick is refusing the summary",
+        "summary": "한 사용자가 Claude를 활용해 논문을 읽는 방식이 완전히 달라졌다는 경험을 공유하며 r/ClaudeAI에서 공감을 얻었다. AI를 통한 연구·학습 워크플로우 변화 사례다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1uvk74x/the_way_i_use_it_to_read_papers_has_completely/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-07-14T03:40:57+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "Grok CLI, 사용자 데이터 구글 클라우드에 몰래 업로드",
+        "originalTitle": "grok CLI silently uploaded users data to... google cloud",
+        "summary": "xAI의 Grok CLI가 사용자 데이터를 구글 클라우드로 조용히 업로드했다는 폭로가 r/OpenAI에서 확산됐다. 코딩 에이전트의 데이터 프라이버시를 둘러싼 우려를 키웠다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1uvlcvt/grok_cli_silently_uploaded_users_data_to_google/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-07-14T04:21:48+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "강화학습 대부 리처드 서튼, 'Oak Lab' 설립",
+        "originalTitle": "Richard Sutton launches Oak Lab - \"Our holy grail: A trillion-parameter agent that learns and plans in real-time with 20 watts of energy\"",
+        "summary": "강화학습의 대가 리처드 서튼이 'Oak Lab'을 설립했다는 소식이 r/singularity에서 화제가 됐다. 범용 지능을 향한 새로운 연구 방향에 관심이 쏠렸다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1uvfrjg/richard_sutton_launches_oak_lab_our_holy_grail_a/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-07-14T01:03:56+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "AI 에이전트가 직접 대화하는 '에이전트 웹'이 온다",
+        "originalTitle": "The 'agent web' is coming — where AI agents talk directly to each other instead of scraping websites",
+        "summary": "AI 에이전트들이 사람을 거치지 않고 서로 직접 통신하는 '에이전트 웹'이 도래하고 있다는 논의가 r/artificial에서 주목받았다. 웹 상호작용의 근본적 변화를 예고한다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1uviqvw/the_agent_web_is_coming_where_ai_agents_talk/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-07-14T02:49:51+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "'GhostLock', 모든 리눅스 배포판에 존재해온 스택 UAF 취약점",
+        "originalTitle": "GhostLock, a stack-UAF that has existed in ALL Linux distributions for 15 years",
+        "summary": "모든 리눅스 배포판에 오랫동안 존재해온 스택 use-after-free 취약점 'GhostLock'이 공개돼 r/programming에서 큰 반향을 일으켰다. 리눅스 보안 근간을 흔드는 발견이다.",
+        "url": "https://www.reddit.com/r/programming/comments/1uvgdwm/ghostlock_a_stackuaf_that_has_existed_in_all/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-07-14T01:26:41+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "qb_001",
+        "title": "프로덕션 AI 에이전트를 GPT-5.6으로 전환…2.2배 빠르고 27% 저렴",
+        "excerpt": "Ploy가 마케팅 웹사이트 구축 에이전트를 Claude Opus 4.8에서 GPT-5.6 Sol로 전환해 실행 시간과 비용을 크게 줄였다.",
+        "body": "Ploy는 프로덕션 마케팅 웹사이트를 계획·구축·검증하는 에이전트를 Claude Opus 4.8에서 GPT-5.6 Sol로 전환하고 모든 워크스페이스의 기본 모델로 지정했다. 평가 하네스의 모델별 가정을 바로잡은 뒤, 홈페이지 재구축 작업의 평균 실행 시간이 8분에서 3분 42초로 단축됐고 비용도 27% 절감됐다.",
+        "url": "https://news.hada.io/topic?id=31404",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-14T03:40:50+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "qb_002",
+        "title": "앤트로픽, 한국 무료 사용자에 1,660만 달러 '유령 청구서' 발송",
+        "excerpt": "API 사용량이 0인 무료 요금제 한국 사용자에게 앤트로픽이 공식 도메인과 정식 Stripe로 1,660만 달러(약 230억 원) 청구서를 보내 논란이 일었다.",
+        "body": "API 사용량이 0인 무료 요금제 한국 사용자에게 앤트로픽이 공식 도메인·정식 Stripe 경로로 1,660만 달러(약 230억 원)에 달하는 청구서를 발송했다. 하루 전 같은 청구서는 167만 달러였는데 24시간 만에 열 배로 불어났다. 7월 8일 결제 시도에서 처음 169만 달러였던 금액이 이튿날 1,660만 달러로 폭증하며 결제 시스템 오류 논란으로 번졌다.",
+        "url": "https://news.hada.io/topic?id=31388",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-13T11:31:20+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "qb_003",
+        "title": "gpt-5.6-sol, PowerShell $HOME 충돌로 홈 디렉터리 날려버릴 뻔",
+        "excerpt": "Codex에서 최신 플래그십 gpt-5.6-sol을 쓰다 겪은 심각한 안전성 결함이 공유됐다. 쉘 환경 격리 부재로 사용자 홈 디렉터리가 삭제될 뻔했다.",
+        "body": "한 사용자가 Codex에서 최신 플래그십 모델 gpt-5.6-sol을 사용하다 겪은 심각한 안전성 사고를 공유했다. Sol 모델은 에이전트 워크플로우와 도구 실행 벤치마크에서 놀라운 성적을 보였지만, 단순한 쉘 환경 격리 부재로 인해 PowerShell의 $HOME 변수 충돌이 발생하며 사용자 홈 디렉터리를 통째로 삭제할 뻔한 대재앙 직전까지 갔다.",
+        "url": "https://news.hada.io/topic?id=31390",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-13T13:17:51+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "qb_004",
+        "title": "애플 새 SpeechAnalyzer API, Whisper와 벤치마크 비교",
+        "excerpt": "애플의 신규 SpeechAnalyzer 음성 인식 API를 Whisper 및 이전 버전과 벤치마크한 분석이 해커뉴스에서 294포인트로 화제다.",
+        "body": "애플이 새로 선보인 SpeechAnalyzer API의 음성 인식 성능을 오픈AI의 Whisper 및 애플 이전 API와 정량 비교한 벤치마크 글이 공개됐다. 해커뉴스에서 294포인트, 댓글 129개를 기록하며 온디바이스 음성 인식의 실사용 성능에 대한 활발한 토론을 촉발했다.",
+        "url": "https://get-inscribe.com/blog/apple-speech-api-benchmark.html",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-14T01:06:08+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "qb_005",
+        "title": "프런티어 모델의 진짜 가격…'토큰 × 단가'가 전부일까",
+        "excerpt": "프런티어 AI 모델의 실제 비용을 토큰 수와 단가만으로 계산하는 통념을 되짚는 글이 해커뉴스에서 주목받았다.",
+        "body": "프런티어 모델의 실제 가격이 단순히 '토큰 수 × 토큰당 단가'로 결정된다는 통념을 비판적으로 검토한 글이 공개됐다. 추론 토큰, 캐싱, 재시도 등 숨은 비용 요인을 짚으며 실제 워크로드에서 체감 비용이 어떻게 달라지는지 분석해, 해커뉴스에서 활발한 논의를 이끌었다.",
+        "url": "https://playcode.io/blog/real-price-of-frontier-models",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-14T03:32:27+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "qb_006",
+        "title": "대상포진 백신, 치매 위험 낮출 가능성",
+        "excerpt": "한 번의 대상포진 예방접종만으로 치매 위험을 크게 낮출 수 있다는 연구가 소개됐다.",
+        "body": "간단한 대상포진 예방접종 한 번이 치매 위험을 유의미하게 낮출 가능성이 있다는 연구가 화제다. 치매의 가장 흔한 원인인 알츠하이머병은 사람들이 가장 두려워하는 질환 중 하나로, 서서히 진행되며 자아 감각을 앗아가는 잠행성 질환이다. 백신과 치매 위험 감소의 연관성은 예방의학 측면에서 큰 주목을 받고 있다.",
+        "url": "https://news.hada.io/topic?id=31403",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-14T03:37:50+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      }
+    ]
+  }
+}

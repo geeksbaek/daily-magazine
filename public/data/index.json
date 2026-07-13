@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-07-14",
+      "issueNumber": 101,
+      "mainHeadline": "애플 vs 오픈AI 전면전…영업비밀 소송에 '기밀 유출' 의혹까지",
+      "headlines": [
+        "앤트로픽, 인도에 루피 현지 가격 도입…美 다음 최대 시장 공략",
+        "클라우드플레어, 행동 신호로 봇 잡는 'Precursor' 공개",
+        "오픈웨이트 모델 사용량 29%로 급증…토큰 가격은 평탄화"
+      ]
+    },
+    {
       "date": "2026-07-13",
       "issueNumber": 100,
       "mainHeadline": "오픈AI, ChatGPT를 '가정' 속으로…GPT-Live 전면 배포하며 소비자 저변 확장",
@@ -1020,5 +1030,5 @@
       ]
     }
   ],
-  "latestIssue": 99
+  "latestIssue": 101
 }
