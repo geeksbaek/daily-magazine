@@ -1,0 +1,482 @@
+{
+  "date": "2026-07-16",
+  "issueNumber": 103,
+  "cover": {
+    "mainHeadline": "미라 무라티의 씽킹머신스, 첫 오픈웨이트 모델 'Inkling' 전격 공개",
+    "mainExcerpt": "오픈AI 전 CTO 미라 무라티가 이끄는 씽킹머신스가 창립 1년 반 만에 첫 공개 모델 Inkling을 선보였다. 975B 파라미터로 텍스트·이미지·오디오를 아우르며 전체 가중치를 Apache 2.0으로 개방해, 오픈웨이트 경쟁에 강력한 새 변수를 던졌다.",
+    "headlines": [
+      "애플 인텔리전스, 알리바바 Qwen 업고 중국 출시 승인",
+      "오픈AI, 하드웨어 소송 속 코덱스용 230달러 키보드 출시",
+      "앤트로픽·블랙스톤, 다음 조 단위 AI는 '모델' 아닌 '구현'에 베팅"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_h1",
+      "title": "미라 무라티의 씽킹머신스, 첫 오픈웨이트 모델 'Inkling' 공개",
+      "excerpt": "오픈AI 전 CTO 미라 무라티가 이끄는 씽킹머신스가 창립 1년 반 만에 첫 공개 모델 'Inkling'을 선보였다. 975B 파라미터로 텍스트·이미지·오디오를 네이티브 처리하며, 전체 가중치를 Apache 2.0으로 개방했다.",
+      "body": "씽킹머신스는 '만능형 AI' 대신 파인튜닝으로 특화하는 방향에 베팅해 왔다. Inkling은 그동안 비공개로 인프라를 다져온 회사가 처음 내놓은 공개 증거물이다. 같은 날 자사 파인튜닝 도구 Tinker에서 곧바로 미세 조정할 수 있도록 열어 개방형 생태계 전략을 분명히 했다. 오픈웨이트 진영에 무게감 있는 신규 플레이어가 합류한 셈이다.",
+      "url": "https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-07-16T03:04:06+09:00",
+      "readTime": 6,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_h2",
+      "title": "애플 인텔리전스, 알리바바 'Qwen' 손잡고 중국 출시 승인",
+      "excerpt": "애플이 중국 규제 당국의 승인을 받아 알리바바의 Qwen AI를 활용한 애플 인텔리전스를 중국에 출시한다. 지난해부터 소문이 돌던 협상이 결실을 맺은 것으로, 핵심 시장 AI 전략의 중요한 전환점이다.",
+      "body": "중국은 자체 규제로 해외 AI 서비스 진입이 까다로운 시장이다. 애플은 현지 파트너 알리바바(Qwen), 바이두를 통해 규제 문턱을 넘었다. 이번 승인으로 애플은 세계 최대 스마트폰 시장 중 하나에서 온디바이스 AI 경쟁에 본격 참여할 발판을 마련했다.",
+      "url": "https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/",
+      "source": "TechCrunch AI",
+      "category": "big_tech",
+      "publishedAt": "2026-07-16T00:29:33+09:00",
+      "readTime": 5,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_h3",
+      "title": "오픈AI, 하드웨어 소송 와중에 코덱스용 230달러 키보드 출시",
+      "excerpt": "애플과 하드웨어 영업비밀 절도 의혹으로 법정 다툼 중인 오픈AI가, 에이전트 코딩 앱 코덱스와 짝을 이루는 라이트업 키보드를 230달러에 내놨다.",
+      "body": "이 키보드는 코덱스 워크플로에 특화된 조명 효과와 단축 기능을 갖췄다. 애플과의 소송이 진행 중인 시점에 하드웨어 제품을 선보이며 오픈AI의 소비자 기기 야심을 재확인했다. 별도로 한정판 'Codex Micro' 키패드도 공개돼 개발자 관심을 끌었다.",
+      "url": "https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/",
+      "source": "TechCrunch AI",
+      "category": "big_tech",
+      "publishedAt": "2026-07-16T04:41:38+09:00",
+      "readTime": 4,
+      "imageGradient": 2
+    },
+    {
+      "id": "rss_h4",
+      "title": "앤트로픽·블랙스톤 \"다음 조 단위 AI 사업은 모델 아닌 '구현'\"",
+      "excerpt": "앤트로픽이 투자한 스타트업 Ode가 출범했다. AI 랩들은 기업 내부에 '전진 배치 엔지니어'를 심어 도입을 가속하는 구현·컨설팅이 차세대 핵심 사업이라는 데 베팅하고 있다.",
+      "body": "모델 성능 경쟁이 상향 평준화되면서, 실제 기업 현장에 AI를 이식하는 '구현' 역량이 새로운 수익원으로 부상하고 있다. 앤트로픽과 블랙스톤은 Ode를 통해 포워드 디플로이드 엔지니어 모델을 밀며, 이 영역이 조 단위 시장으로 성장할 것이라 본다.",
+      "url": "https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-07-15T22:10:47+09:00",
+      "readTime": 5,
+      "imageGradient": 3
+    },
+    {
+      "id": "rss_h5",
+      "title": "오픈AI, 주·연방 협력형 'AI 안전' 거버넌스 청사진 제시",
+      "excerpt": "오픈AI가 주(州) 법률이 국가적 안전 프레임워크 구축을 돕는 '역(逆)연방주의' 접근을 제안했다. 안전하고 민주적인 AI를 위한 규율 체계를 강조했다.",
+      "body": "오픈AI는 연방 단일 규제 대신 주 단위 입법이 상향식으로 국가 표준을 형성하는 모델을 내세웠다. 규제 불확실성이 커지는 가운데, 업계가 선제적으로 거버넌스 방향을 제시했다는 점에서 주목된다.",
+      "url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+      "source": "OpenAI News",
+      "category": "ai_ml",
+      "publishedAt": "2026-07-15T21:00:00+09:00",
+      "readTime": 4,
+      "imageGradient": 4
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_a1",
+        "title": "AI 음악 생성기 Suno, 유튜브·지니어스·디저서 수백만 곡 무단 수집 정황",
+        "excerpt": "해킹으로 유출된 데이터에서 Suno가 유튜브 뮤직·디저·지니어스 등에서 수백만 곡과 가사를 스크래핑해 학습에 쓴 정황이 드러났다고 404 Media가 보도했다.",
+        "body": "Suno는 그동안 학습 데이터 구성과 취득 방식을 공개하지 않아 왔다. 이번 유출은 생성형 음악 AI의 저작권·데이터 출처 논란에 다시 불을 붙였다. 음악 업계와의 법적 충돌 가능성도 한층 커졌다.",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/966072/suno-ai-music-training-scraping-youtube-hack",
+        "source": "The Verge",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-16T02:48:01+09:00",
+        "readTime": 4,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_a2",
+        "title": "\"모델 라우팅은 간단하다, 어려워지기 전까진\"—IBM 리서치의 현실론",
+        "excerpt": "여러 모델에 요청을 분배하는 '모델 라우팅'이 이론상 단순하지만, 실제 운영에서는 비용·지연·품질의 균형을 맞추기가 까다롭다는 IBM 리서치의 분석.",
+        "body": "라우팅은 저렴한 모델과 고성능 모델을 상황에 맞게 섞어 비용을 절감하는 기법이다. 그러나 실무에서는 분류 오류, 지연 누적, 일관성 저하 같은 함정이 도사린다. 글은 프로덕션 라우팅 설계 시 고려할 실질적 트레이드오프를 짚는다.",
+        "url": "https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt",
+        "source": "Hugging Face - Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-16T02:27:01+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_a3",
+        "title": "'Shippy'를 만들며 배운 것—AI 에이전트 구축의 교훈",
+        "excerpt": "AllenAI 팀이 에이전트 'Shippy'를 개발하며 얻은 실전 교훈을 공유했다. 에이전트 설계에서 자주 부딪히는 문제와 해법을 정리했다.",
+        "body": "에이전트 개발은 단순한 프롬프트 이상을 요구한다. 도구 호출 신뢰성, 오류 복구, 평가 체계 구축이 핵심 난제로 꼽혔다. 실제 제품을 만든 팀의 구체적 경험담이라는 점에서 참고 가치가 높다.",
+        "url": "https://huggingface.co/blog/allenai/shippy-tech-blog",
+        "source": "Hugging Face - Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-16T02:29:41+09:00",
+        "readTime": 5,
+        "imageGradient": 1
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_d1",
+        "title": "깃허브 입문자를 위한 로드맵—버전 관리부터 PR까지",
+        "excerpt": "깃허브 공식 블로그가 초보자를 위한 안내서를 냈다. 버전 관리, 리포지토리, 풀 리퀘스트 등 필수 개념을 처음부터 짚어준다.",
+        "body": "버전 관리의 기본 원리와 협업 워크플로를 단계별로 설명한다. 커밋, 브랜치, 풀 리퀘스트의 개념과 실제 사용법을 담아 입문자가 자신감을 갖고 시작하도록 돕는다.",
+        "url": "https://github.blog/developer-skills/github/github-for-beginners-your-roadmap-to-mastering-the-github-essentials/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-16T02:29:31+09:00",
+        "readTime": 4,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_d2",
+        "title": "스피치파이, 버셀에서 6천만 사용자에 50만 동적 페이지 서빙",
+        "excerpt": "난독증 지원 도구로 출발한 스피치파이가 버셀에서 40여 개 언어로 50만 개 이상의 동적 페이지를 제공한다. Fluid 컴퓨트 오토스케일로 비용을 50% 절감했다.",
+        "body": "스피치파이는 인스턴트 롤백으로 잘못된 배포에도 사용자 영향이 없도록 했고, 자동 확장으로 비용 효율을 크게 높였다. 대규모 다국어 서비스의 인프라 운영 사례로 참고할 만하다.",
+        "url": "https://vercel.com/blog/how-speechify-serves-50000-dynamic-pages-to-60-million-users-on-vercel",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-15T13:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_d3",
+        "title": "버셀 워크플로 트레이스 뷰어에 미니맵 추가",
+        "excerpt": "버셀이 워크플로 트레이스 뷰어에 미니맵을 도입해 복잡한 실행 흐름을 한눈에 파악하고 탐색하기 쉽게 만들었다.",
+        "body": "미니맵은 긴 트레이스에서 원하는 구간으로 빠르게 이동하도록 돕는다. 대규모 워크플로를 디버깅할 때 가시성이 눈에 띄게 개선된다.",
+        "url": "https://vercel.com/changelog/vercel-workflows-trace-viewer-now-has-a-minimap",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-15T09:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_d4",
+        "title": "버셀 Chat SDK, 디스코드 컴포넌트 V2 지원",
+        "excerpt": "버셀 Chat SDK가 디스코드 컴포넌트 V2를 지원해, 챗봇에서 더 풍부한 인터랙티브 UI를 구성할 수 있게 됐다.",
+        "body": "컴포넌트 V2는 버튼·레이아웃 등 표현력을 확장한다. 디스코드 기반 봇·에이전트를 만드는 개발자의 UI 구현 선택지가 넓어졌다.",
+        "url": "https://vercel.com/changelog/chat-sdk-adds-discord-components-v2-support",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-15T09:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_b1",
+        "title": "구글 최대 청정에너지 단지, xAI 무허가 가스발전소 40마일 옆에",
+        "excerpt": "구글의 최대 규모 태양광·배터리 프로젝트가 xAI의 무허가 가스 발전소 인근에 들어서며 극명한 대비를 이룬다.",
+        "body": "AI 데이터센터의 전력 수요가 급증하면서 에너지 조달 방식이 기업 이미지와 규제 리스크로 직결되고 있다. 구글의 재생에너지 투자와 xAI의 무허가 가스발전은 상반된 접근을 상징적으로 보여준다.",
+        "url": "https://techcrunch.com/2026/07/15/googles-biggest-clean-power-project-is-40-miles-north-of-xais-unpermitted-gas-power-plant/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-07-16T02:39:54+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_b2",
+        "title": "다니엘 에크의 전신 스캔 스타트업 네코 헬스, 7억 달러 추가 조달",
+        "excerpt": "스포티파이 창업자 다니엘 에크가 세운 신체 스캔 스타트업 네코 헬스가 7억 달러를 추가로 유치했다.",
+        "body": "네코 헬스는 전신 스캔으로 건강 데이터를 수집·분석하는 예방의학 서비스를 지향한다. 대규모 투자로 서비스 확장에 속도가 붙을 전망이다.",
+        "url": "https://techcrunch.com/2026/07/15/daniel-eks-body-scanning-startup-neko-health-raises-another-700m/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-07-16T04:46:54+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_b3",
+        "title": "로블록스, 영상 채팅 서비스 종료",
+        "excerpt": "로블록스가 자사 영상 채팅 서비스 'Connect'를 종료한다고 밝혔다.",
+        "body": "로블록스는 미성년 이용자 비중이 높아 안전·모더레이션 부담이 크다. 영상 채팅 종료는 리스크 관리와 서비스 집중 차원으로 풀이된다.",
+        "url": "https://www.theverge.com/games/966181/roblox-connect-video-chat-calling-service-shut-down",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-07-16T05:02:26+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "GPT-5.6 'Sol'의 성장 속도가 미쳤다. 추론 팀이 수요를 감당하려 영웅적으로 노력했고, 앞으로도 계속 확장하겠지만 곧 약간의 병목이 있을 수 있다.",
+        "context": "오픈AI 신모델 GPT-5.6 Sol이 출시 직후 폭발적 수요를 겪고 있음을 CEO가 직접 언급했다. 용량 확장 과정에서 일시적 지연 가능성을 예고한 것.",
+        "url": "https://x.com/sama/status/2077106587307798989",
+        "publishedAt": "2026-07-15T04:02:55+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "Sol을 활용한 리액트/프론트엔드 개발에서 6배의 가격 효율을 확인했다.",
+        "context": "그렉 브록만이 Sol의 코딩 가성비를 강조했다. 프론트엔드 작업에서 기존 대비 비용이 크게 낮아졌다는 자평이다.",
+        "url": "https://x.com/gdb/status/2077470575249994010",
+        "publishedAt": "2026-07-16T04:09:17+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "GPT-Red — 프롬프트 인젝션 취약점을 자동 레드팀 테스트로 찾아내 모델 보안을 강화한다.",
+        "context": "오픈AI가 자사 모델을 스스로 공격해 취약점을 찾는 자동화 레드팀 도구 GPT-Red를 소개했다. 보안 강화 흐름의 일환이다.",
+        "url": "https://x.com/gdb/status/2077464463251554327",
+        "publishedAt": "2026-07-16T03:45:00+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Mira Murati",
+        "handle": "miramurati",
+        "content": "첫 모델 Inkling을 공개한다. 처음부터 학습했고 가중치는 오픈이며, 오늘부터 Tinker에서 파인튜닝할 수 있다.",
+        "context": "씽킹머신스 창업자 미라 무라티가 첫 오픈웨이트 모델 Inkling 출시를 알렸다. 자사 파인튜닝 도구 Tinker와의 연계가 핵심이다.",
+        "url": "https://x.com/miramurati/status/2077455974743593100",
+        "publishedAt": "2026-07-16T03:11:16+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "1천만 캐나다달러를 투자하고 캐나다 주요 AI 기관들과 협력해 새로운 AI 연구 자금을 지원한다.",
+        "context": "앤트로픽이 캐나다 AI 연구 생태계에 대한 투자를 발표했다. 글로벌 연구 파트너십을 확대하는 전략의 일환이다.",
+        "url": "https://x.com/AnthropicAI/status/2077026346375540870",
+        "publishedAt": "2026-07-14T22:44:04+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "content": "요즘 드는 생각: 예전엔 내가 아는 최고의 엔지니어들이 vim/emacs 자동화, 반복 코드를 잡는 lint 규칙, 수동 스모크 테스트를 없애는 e2e 테스트 구축 등 자기 작업을 자동화하는 데 많은 시간을 썼다.",
+        "context": "클로드 코드 개발자 보리스 체르니가 AI 시대에 엔지니어의 '자동화' 습관이 어떻게 바뀌는지에 대한 단상을 남겼다.",
+        "url": "https://x.com/bcherny/status/2077460395279692197",
+        "publishedAt": "2026-07-16T03:28:50+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "Felix Rieseberg",
+        "handle": "felixrieseberg",
+        "content": "기대되는 것: 미국 K-12 교육자와 교사를 위한 무료 프리미엄 Claude·Cowork, 그리고 교수 기술 라이브러리.",
+        "context": "앤트로픽이 미국 초·중·고 교사에게 Claude와 Cowork를 무료로 제공하는 교육 프로그램을 예고했다.",
+        "url": "https://x.com/felixrieseberg/status/2077176563444154700",
+        "publishedAt": "2026-07-15T08:40:59+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "새 앤트로픽 연구: '2026년 여름의 에이전트 비정렬'. 협박 실험 1년 뒤, 오늘날의 자율 AI 에이전트가 시뮬레이션에서 잘못 행동하는 네 가지 새로운 방식을 발견했다.",
+        "context": "앤트로픽이 자율 에이전트의 오작동·비정렬 위험을 추적한 후속 연구를 공개했다. 지난해 협박 실험을 잇는 AI 안전 연구다.",
+        "url": "https://x.com/AnthropicAI/status/2077452646303006927",
+        "publishedAt": "2026-07-16T02:58:02+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "오픈AI 전 CTO 미라 무라티의 씽킹머신스가 창립 1년여 만에 첫 모델을 공개했다. 975B 파라미터로 텍스트·이미지·오디오를 네이티브로 처리하고 전체 가중치를 Apache 2.0으로 개방한다. 발표에서 주목할 지점을 12편의 스레드로 정리했다.",
+        "context": "국내 AI 채널 운영자 CHOI가 씽킹머신스 Inkling 발표를 심층 분석한 스레드. 오픈웨이트 전략과 벤치마크 의미를 짚었다.",
+        "url": "https://www.threads.net/@choi.openai/post/Da01A9GkwrS",
+        "publishedAt": "2026-07-16T04:34:42+09:00"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "씽킹머신스 첫 오픈소스 모델 'Inkling' 벤치마크 공개",
+        "originalTitle": "The Benchmarks of Thinking Machine's first open-source model Inkling",
+        "summary": "씽킹머신스 Inkling의 벤치마크 결과를 두고 커뮤니티가 활발히 토론 중이다. 오픈웨이트 진영에서의 실제 경쟁력이 관심사다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uxgi4c/the_benchmarks_of_thinking_machines_first/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-07-16T04:53:07+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "애플, 알리바바·바이두와 손잡고 중국서 아이폰 AI 승인 획득",
+        "originalTitle": "Apple Gets Approval for iPhone AI in China With Alibaba, Baidu",
+        "summary": "애플이 중국에서 현지 파트너와 함께 AI 기능 승인을 받았다는 소식에 규제·시장 전략을 둘러싼 논의가 이어졌다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1uxgn4a/apple_gets_approval_for_iphone_ai_in_china_with/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-07-16T04:58:34+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "Opus 4.6, LMArena 텍스트 리더보드 1위 등극…'사실성' 지표 도입 이후",
+        "originalTitle": "Opus 4.6 rises to no #1 on the LMArena Text Leaderboard after they introduce a new \"Factuality\" rating/factor",
+        "summary": "LMArena가 '사실성' 평가 요소를 도입한 뒤 앤트로픽 Opus 4.6이 텍스트 부문 1위에 올랐다. 평가 기준 변화의 영향에 관심이 쏠렸다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1uxbh3y/opus_46_rises_to_no_1_on_the_lmarena_text/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-07-16T01:49:18+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "오픈AI, 자사 모델을 스스로 해킹하는 AI 'GPT-Red' 발표",
+        "originalTitle": "OpenAI anounces GPT-Red - an AI to Hack Its Own Models",
+        "summary": "자동 레드팀 도구 GPT-Red 공개 소식에 보안·정렬 관점의 다양한 반응이 이어졌다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1uxfkju/openai_anounces_gptred_an_ai_to_hack_its_own/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-07-16T04:16:00+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "오픈AI 첫 기기, 화면 없는 AI 스마트 스피커 될 수도",
+        "originalTitle": "OpenAI’s first gadget could be a screenless AI smart speaker.",
+        "summary": "오픈AI의 첫 하드웨어가 화면 없는 스피커 형태일 수 있다는 관측이 나오며 폼팩터를 둘러싼 논쟁이 벌어졌다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1uxg789/openais_first_gadget_could_be_a_screenless_ai/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-07-16T04:40:54+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "\"코드는 원래 어려운 부분이 아니었다\"",
+        "originalTitle": "\"Code was never the hard part\"",
+        "summary": "AI 시대에 엔지니어링의 진짜 난제는 코드 작성이 아니라는 주장을 둘러싸고 경력 개발자들의 토론이 활발하다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1ux2x21/code_was_never_the_hard_part/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-07-15T20:16:57+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "SQLite에도 (러스트식) '에디션'이 필요하다",
+        "originalTitle": "SQLite should have (Rust-style) editions",
+        "summary": "SQLite가 러스트의 '에디션'처럼 하위 호환을 유지하며 점진적 변화를 도입해야 한다는 제안이 논의됐다.",
+        "url": "https://www.reddit.com/r/programming/comments/1uxgmmq/sqlite_should_have_ruststyle_editions/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-07-16T04:58:03+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "앨버타주, AI로 20억 달러 규모 정부 SW 재구축…퀘벡도 동참",
+        "originalTitle": "Alberta Is Using AI to Rebuild $2 Billion Worth of Government Software, and Quebec Just Signed On to Copy It",
+        "summary": "캐나다 앨버타주가 AI로 정부 소프트웨어를 재구축하는 프로젝트를 두고 효율성과 리스크에 대한 갑론을박이 이어졌다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1uxfvbm/alberta_is_using_ai_to_rebuild_2_billion_worth_of/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-07-16T04:27:43+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "JEPA 회의론자를 찾습니다 [연구]",
+        "originalTitle": "Looking for JEPA devil advocates [R]",
+        "summary": "얀 르쿤이 밀어온 JEPA 아키텍처에 대한 비판적 관점을 구하는 글로, ML 연구자들의 심도 있는 토론이 오갔다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1uxcryc/looking_for_jepa_devil_advocates_r/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-07-16T02:34:44+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_q1",
+        "title": "\"내가 구글 딥마인드를 떠난 이유\"",
+        "excerpt": "전 딥마인드 연구자가 회사를 떠난 배경을 담은 에세이가 해커뉴스 상위권에 올랐다. AI 안전·정렬 연구자의 솔직한 회고다.",
+        "body": "글쓴이는 연구 방향과 조직 문화에 대한 고민을 진솔하게 풀어냈다. AI 안전 연구자의 커리어 선택을 엿볼 수 있는 화제의 에세이다.",
+        "url": "https://turntrout.com/why-i-left-google-deepmind",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-16T03:40:34+09:00",
+        "readTime": 4,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_q2",
+        "title": "오픈AI, 한정판 'Codex Micro' 키패드 공개",
+        "excerpt": "오픈AI가 Work Louder와 협업한 한정판 Codex Micro 키패드를 공개했다. 코덱스 워크플로용 소형 입력 장치다.",
+        "body": "Codex Micro는 코덱스 사용에 최적화된 매크로 키패드로, 한정 수량으로 판매된다. 개발자 커뮤니티에서 즉각 화제가 됐다.",
+        "url": "https://openai.com/supply/co-lab/work-louder/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-16T01:12:58+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_q3",
+        "title": "S&P, 오라클 신용등급 투자적격 최하단 'BBB-'로 하향",
+        "excerpt": "S&P 글로벌이 오라클의 신용등급을 투자적격 최하단인 BBB-로 낮췄다. AI 인프라 투자 확대에 따른 재무 부담이 배경으로 지목된다.",
+        "body": "오라클은 클라우드·AI 데이터센터에 대규모 투자를 이어가고 있다. 늘어난 부채와 지출이 신용등급 하향으로 이어지며 재무 건전성 우려가 제기됐다.",
+        "url": "https://news.hada.io/topic?id=31467",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-16T04:33:57+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_q4",
+        "title": "목표 조건형 범용 마인크래프트 AI 모델 공개",
+        "excerpt": "주어진 목표에 따라 마인크래프트를 플레이하는 범용 에이전트 모델이 공개돼 해커뉴스에서 화제가 됐다.",
+        "body": "이 모델은 다양한 목표를 조건으로 받아 게임 내 행동을 생성한다. 개방형 환경에서의 목표 조건형 에이전트 연구 사례로 주목받는다.",
+        "url": "https://pantograph.com/journal/pan-1",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-16T01:35:09+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_q5",
+        "title": "코딩 에이전트용 오픈소스 메모리, SSH로 동기화",
+        "excerpt": "코딩 에이전트의 컨텍스트를 SSH로 동기화·공유하는 오픈소스 메모리 도구 'deja-vu'가 공개됐다.",
+        "body": "deja-vu는 에이전트가 축적한 지식을 기기 간에 안전하게 동기화한다. 여러 환경에서 일관된 에이전트 컨텍스트를 유지하려는 개발자에게 유용하다.",
+        "url": "https://github.com/vshulcz/deja-vu/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-16T01:15:03+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      }
+    ]
+  }
+}
