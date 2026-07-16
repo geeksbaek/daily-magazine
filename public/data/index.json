@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-07-17",
+      "issueNumber": 104,
+      "mainHeadline": "문샷 '키미 K3', 2~3조 파라미터 중국 최대 오픈모델로 Opus 4.8 추격",
+      "headlines": [
+        "애플 인텔리전스, 알리바바·바이두 손잡고 중국 출시 승인",
+        "구글, 'NotebookLM'을 'Gemini Notebook'으로 개명",
+        "우버, 148억 달러에 딜리버리히어로 인수…글로벌 배달 판도 재편"
+      ]
+    },
+    {
       "date": "2026-07-16",
       "issueNumber": 103,
       "mainHeadline": "미라 무라티의 씽킹머신스, 첫 오픈웨이트 모델 'Inkling' 전격 공개",
@@ -1050,5 +1060,5 @@
       ]
     }
   ],
-  "latestIssue": 102
+  "latestIssue": 104
 }

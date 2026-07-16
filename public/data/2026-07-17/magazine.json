@@ -1,0 +1,482 @@
+{
+  "date": "2026-07-17",
+  "issueNumber": 104,
+  "cover": {
+    "mainHeadline": "문샷 '키미 K3', 2~3조 파라미터 중국 최대 오픈모델로 Opus 4.8 추격",
+    "mainExcerpt": "파이낸셜타임스에 따르면 문샷AI의 키미 K3가 파라미터 2조~3조 규모로 중국 최대 오픈 모델이 될 전망이다. 초기 벤치마크에서 Claude Opus 4.8을 넘어섰다는 보고가 나오며 오픈웨이트 진영에 프런티어급 모델이 합류했다.",
+    "headlines": [
+      "애플 인텔리전스, 알리바바·바이두 손잡고 중국 출시 승인",
+      "구글, 'NotebookLM'을 'Gemini Notebook'으로 개명",
+      "우버, 148억 달러에 딜리버리히어로 인수…글로벌 배달 판도 재편"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_h1",
+      "title": "문샷의 '키미 K3', 2~3조 파라미터 중국 최대 오픈모델로 Opus 4.8 추격",
+      "excerpt": "파이낸셜타임스에 따르면 문샷AI가 곧 공개할 키미 K3는 파라미터 규모 2조~3조로 중국에서 나온 가장 큰 오픈 AI 모델이 될 전망이다. 앤트로픽 Opus 4.8과의 성능 격차를 크게 좁힐 것으로 기대된다.",
+      "body": "키미 K3는 개방형 가중치 진영에서 프런티어급 모델이 등장했음을 알리는 신호다. 커뮤니티 벤치마크에서는 이미 Claude Opus 4.8을 제쳤다는 초기 보고가 나왔고, ArtificialAnalysis에서 3위, 프런트엔드 코드 아레나 1위 등 실사용 지표에서도 강세를 보였다. 1M 토큰 컨텍스트와 네이티브 비주얼 이해를 갖춰 곧바로 Vercel AI Gateway에서도 이용할 수 있게 됐다. 중국 랩이 한참 뒤처져 있다는 통념이 무너지는 순간이라는 평가가 나온다.",
+      "url": "https://techcrunch.com/2026/07/16/moonshots-upcoming-kimi-3-is-expected-to-close-the-gap-with-anthropics-opus-4-8/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-07-16T23:26:29+09:00",
+      "readTime": 6,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_h2",
+      "title": "애플 인텔리전스, 알리바바·바이두 손잡고 중국 출시 승인",
+      "excerpt": "지난해부터 소문이 돌던 애플과 중국 파트너십이 규제 승인을 받았다. 애플 인텔리전스가 알리바바와 바이두의 모델을 등에 업고 핵심 시장인 중국에서 정식 출시된다.",
+      "body": "중국은 애플의 AI 전략에서 가장 까다로운 규제 관문이었다. 자체 파운데이션 모델을 직접 서비스하기 어려운 시장 특성상 애플은 현지 거대 기업의 모델을 활용하는 우회로를 택했다. 이번 승인으로 애플은 안드로이드 진영과의 AI 경쟁에서 중요한 발판을 확보했으며, 부진하던 중화권 아이폰 수요를 되살릴 계기가 될지 주목된다.",
+      "url": "https://techcrunch.com/2026/07/16/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-07-16T22:17:59+09:00",
+      "readTime": 6,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_h3",
+      "title": "구글, 'NotebookLM'을 'Gemini Notebook'으로 개명",
+      "excerpt": "구글이 AI 노트 앱 NotebookLM의 이름을 Gemini Notebook으로 바꾼다고 발표했다. 제미나이 브랜드로 통합되지만 독립 앱으로는 계속 유지된다.",
+      "body": "구글의 잇단 브랜드 개편 흐름 속에서 인기 앱 NotebookLM도 제미나이 우산 아래로 들어갔다. 이름은 바뀌지만 앱 자체는 그대로 남으며, 이용자는 곧 검색의 AI 모드에서도 노트북에 접근할 수 있게 된다. 파편화된 AI 제품군을 제미나이 하나로 묶으려는 구글의 전략이 뚜렷해지고 있다.",
+      "url": "https://www.theverge.com/tech/966112/google-gemini-notebook-notebooklm",
+      "source": "The Verge",
+      "category": "big_tech",
+      "publishedAt": "2026-07-17T01:00:00+09:00",
+      "readTime": 6,
+      "imageGradient": 2
+    },
+    {
+      "id": "rss_h4",
+      "title": "우버, 148억 달러에 딜리버리히어로 인수…글로벌 배달 판도 재편",
+      "excerpt": "우버가 딜리버리히어로를 148억 달러 전액 주식 거래로 인수하기로 합의했다. 성사되면 우버의 글로벌 사업 반경이 거의 두 배로 늘며 세계 최대 규모의 음식 배달 사업자가 탄생한다.",
+      "body": "이번 딜은 우버가 차량 호출을 넘어 배달 부문에서 압도적 규모를 확보하려는 승부수다. 딜리버리히어로의 유럽·중동·아시아 네트워크를 흡수하면 우버는 단숨에 수십 개국으로 발을 넓히게 된다. 다만 대형 배달 플랫폼 통합에 따른 각국 규제당국의 반독점 심사가 최대 변수로 남아 있다.",
+      "url": "https://techcrunch.com/2026/07/16/ubers-14-8b-delivery-hero-deal-would-nearly-double-its-global-footprint/",
+      "source": "TechCrunch",
+      "category": "big_tech",
+      "publishedAt": "2026-07-17T02:12:00+09:00",
+      "readTime": 6,
+      "imageGradient": 3
+    },
+    {
+      "id": "rss_h5",
+      "title": "엔비디아, 로보틱스·엣지 AI 겨냥한 신형 'Jetson Thor' 공개",
+      "excerpt": "엔비디아가 범용 로봇과 자율 기계 대중화를 겨냥한 새로운 Jetson Thor 컴퓨터를 발표했다. 연구실을 벗어나 실제 대량 배치로 향하는 로봇 수요에 맞춘 소형·고효율 AI 슈퍼컴퓨터다.",
+      "body": "범용 로봇과 자율 기계가 연구 단계를 지나 실전 배치로 넘어가면서, 콤팩트하면서도 전력 효율이 높은 온보드 AI 연산 수요가 커지고 있다. Jetson Thor는 물리 세계에서 동작하는 에이전트형 AI를 겨냥해 설계됐다. 엔비디아는 이를 통해 데이터센터 GPU에 이어 '피지컬 AI' 시대의 엣지 컴퓨팅 표준까지 선점하려는 포석을 두고 있다.",
+      "url": "https://blogs.nvidia.com/blog/jetson-thor-robotics-edge-ai-agent/",
+      "source": "NVIDIA Blog",
+      "category": "big_tech",
+      "publishedAt": "2026-07-16T08:00:54+09:00",
+      "readTime": 6,
+      "imageGradient": 4
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_ai_001",
+        "title": "AMI랩스 CEO \"우리 AI를 'AGI'나 '초지능'이라 부르지 않겠다\"",
+        "excerpt": "얀 르쿤의 월드모델 스타트업 AMI랩스의 CEO 알렉상드르 르브룅이 업계가 좇는 '초지능'이라는 단어를 일축했다.",
+        "body": "모두가 '초지능'을 외치는 가운데 르브룅은 과장된 수사를 경계한다. 그는 물리 세계를 이해하는 월드모델이 진짜 진전의 길이며, AGI 같은 라벨은 오히려 연구의 본질을 흐린다고 본다. 얀 르쿤 계열의 이 접근은 LLM 스케일업 일변도와는 다른 노선을 제시한다.",
+        "url": "https://techcrunch.com/2026/07/16/why-ami-labs-alexandre-lebrun-wont-call-his-ai-agi-or-superintelligence/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-16T23:40:00+09:00",
+        "readTime": 6,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_ai_002",
+        "title": "구글 'AI 모드', 이제 앱을 연결해 직접 작업까지 수행",
+        "excerpt": "구글이 검색의 AI 모드를 질문 답변을 넘어 실제 작업 수행으로 확장한다. 사용자가 자주 쓰는 앱을 연결해 AI가 앱을 넘나들며 일을 처리한다.",
+        "body": "이번 업데이트로 AI 모드는 단순 정보 제공에서 벗어나 실질적인 '행동하는 에이전트'로 진화한다. 연결된 앱에서 맥락을 가져와 예약·정리·후속 작업을 대신 처리하는 방식이다. 검색을 관문으로 삼아 에이전트 생태계를 넓히려는 구글의 의도가 읽힌다.",
+        "url": "https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-17T01:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_ai_003",
+        "title": "오픈AI \"청소년에게 안전한 AI 접근권이 필요하다\"",
+        "excerpt": "오픈AI가 청소년을 AI와 함께 자라는 첫 세대로 규정하며, 이들에게 안전한 AI 환경을 제공하는 문제를 정면으로 다뤘다.",
+        "body": "오픈AI는 청소년이 AI를 접하는 것을 막기보다 안전하게 쓸 수 있도록 설계하는 편이 낫다는 입장을 폈다. 연령대에 맞는 보호장치와 교육적 활용을 강조하며, 규제·학부모·교육계와의 협력 필요성을 제기했다. AI 안전 담론이 청소년 이용자 보호로 확장되는 흐름을 보여준다.",
+        "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-17T01:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 2
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_dev_001",
+        "title": "문샷 '키미 K3', 버셀 AI 게이트웨이에서 바로 사용 가능",
+        "excerpt": "문샷AI의 키미 K3가 버셀 AI 게이트웨이에 추가됐다. 100만 토큰 컨텍스트와 텍스트·이미지·영상 입력을 지원하는 오픈소스 모델이다.",
+        "body": "버셀이 화제의 오픈 모델 키미 K3를 게이트웨이에 즉시 편입하면서 개발자들은 별도 인프라 없이 API 한 줄로 이 모델을 쓸 수 있게 됐다. 1M 토큰 컨텍스트와 네이티브 멀티모달 입력은 대형 코드베이스나 문서 처리에 유리하다. 프런티어급 오픈 모델을 곧바로 프로덕션에 붙일 수 있다는 점이 강점이다.",
+        "url": "https://vercel.com/changelog/kimi-k3-is-now-available-on-ai-gateway",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-16T09:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_dev_002",
+        "title": "버셀 런타임 로그, 이제 '캐시 미스 이유'까지 표시",
+        "excerpt": "버셀 런타임 로그에 요청이 신선한 캐시 히트가 아니었던 이유를 설명하는 'Cache Reason'이 추가됐다. 시간 기반·태그 기반 재검증 등이 표시된다.",
+        "body": "캐시 미스의 원인을 로그에서 바로 확인할 수 있게 되면서 성능 디버깅이 한결 쉬워졌다. 어떤 요청이 왜 캐시를 비껴갔는지 파악해 재검증 전략을 정교하게 조정할 수 있다. 관측 가능성(Observability)을 강화하려는 버셀의 지속적 개선의 일환이다.",
+        "url": "https://vercel.com/changelog/runtime-logs-now-show-cache-reasons",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-17T10:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_dev_003",
+        "title": "도커 \"AI 에이전트란 무엇이며, 어떻게 안전하게 운영하나\"",
+        "excerpt": "도커가 AI 에이전트의 개념과 작동 방식, 그리고 프로덕션에서 안전하게 구축·운영하는 법을 정리한 가이드를 내놨다.",
+        "body": "AI 에이전트가 실제 서비스에 투입되기 시작하면서 격리와 보안이 핵심 과제로 떠올랐다. 도커는 컨테이너 기반 샌드박싱으로 에이전트의 위험한 동작을 통제하는 방법을 제시한다. 자율 실행이 늘어나는 시대에 인프라 관점의 안전 설계가 왜 중요한지 짚는다.",
+        "url": "https://www.docker.com/blog/what-are-ai-agents/",
+        "source": "Docker Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-16T22:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_dev_004",
+        "title": "도커 \"개발자가 달라졌다, 개발자 콘퍼런스도 바뀌어야\"",
+        "excerpt": "도커가 WeAreDevelopers 월드 콩그레스 북미 행사를 공동 개최하는 이유를 밝히며, AI 에이전트가 소프트웨어 개발과 커뮤니티를 어떻게 바꾸는지 조명했다.",
+        "body": "AI 에이전트가 코딩 워크플로에 스며들면서 개발자의 역할과 학습 방식이 근본적으로 달라지고 있다. 도커는 이런 변화에 맞춰 개발자 행사의 형식 자체를 재고해야 한다고 주장한다. 도구 중심에서 에이전트 협업 중심으로 넘어가는 커뮤니티의 전환을 강조한다.",
+        "url": "https://www.docker.com/blog/docker-wearedevelopers-world-congress-north-america-2026/",
+        "source": "Docker Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-16T22:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 3
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_bt_001",
+        "title": "EU, 구글에 안드로이드 AI 개방 명령…\"규제 게임은 구글이 애플보다 낫다\"",
+        "excerpt": "유럽연합이 구글에 안드로이드에서 AI 경쟁사에 더 넓은 접근을 허용하라고 명령했다. 수십억 대 기기를 구동하는 오픈소스 OS가 규제의 표적이 됐다.",
+        "body": "EU의 디지털시장법(DMA) 집행이 AI 영역으로 확대되며 구글이 안드로이드 문을 경쟁사에 열도록 강제됐다. 더버지는 개방형 생태계를 오래 다뤄온 구글이 폐쇄적인 애플보다 규제 대응에서 유리한 위치에 있다고 분석했다. AI 통합을 둘러싼 플랫폼 사업자와 규제당국의 힘겨루기가 본격화되고 있다.",
+        "url": "https://www.theverge.com/policy/966588/eu-dma-ai-android-siri-ai",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-07-17T01:55:54+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_bt_002",
+        "title": "영국 경찰, '스캐터드 스파이더' 해커 2명 검거…조직 활동 타격",
+        "excerpt": "악명 높은 해킹 그룹 스캐터드 스파이더 조직원 오언 플라워스와 탈하 주바이르가 유죄를 인정하고 각각 5년, 5년 6개월형을 선고받았다.",
+        "body": "이들은 런던 교통공사 등 주요 기관을 해킹한 혐의로 처벌됐다. 스캐터드 스파이더는 사회공학 기반의 정교한 침투로 다수 대기업을 노려온 조직으로 악명이 높다. 이번 검거로 조직 운영에 상당한 타격이 가해졌다는 것이 수사당국의 평가다.",
+        "url": "https://techcrunch.com/2026/07/16/uk-cops-say-arrest-of-two-young-hackers-disrupted-the-operations-of-an-infamous-hacking-group/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-07-17T00:37:47+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_bt_003",
+        "title": "파운더스펀드, 오픈AI 前 임원 라이언 바이어마이스터 파트너로 영입",
+        "excerpt": "파운더스펀드가 오픈AI 출신 임원 라이언 바이어마이스터를 파트너로 합류시켰다.",
+        "body": "피터 틸이 이끄는 파운더스펀드가 프런티어 AI 랩 출신 인사를 파트너로 끌어들이며 AI 투자 역량을 강화했다. 대형 AI 기업의 정책·운영을 경험한 인력이 벤처캐피털로 이동하는 흐름을 보여주는 사례다. AI 스타트업 투자 경쟁이 인재 확보전으로 번지고 있다.",
+        "url": "https://techcrunch.com/2026/07/16/founders-fund-hires-former-openai-exec-ryan-beiermeister-and-not-because-of-her-mafia-skills/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-07-17T05:07:14+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "이 시점에서 나는 챗GPT와 말로 대화하는 시간이 타이핑하는 시간보다 더 많아. 새로운 음성 모델이 정말로 임계점을 넘었어.",
+        "context": "챗GPT의 새 음성 모델이 임계점을 넘었다는 샘 올트먼의 소회. 이제 타이핑보다 음성 대화가 더 많아졌다는 개인적 관찰을 공유했다.",
+        "url": "https://x.com/sama/status/2077842579232895286",
+        "publishedAt": "2026-07-16T19:47:29.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "GPT-5.6 Sol Pro: 통계학에서 중요한 미해결 질문을 해결하기 위해.",
+        "context": "그렉 브록먼이 GPT-5.6 Sol Pro가 통계학의 미해결 난제 해결에 활용됐다고 소개했다. 신모델의 연구 활용 사례를 강조한 것.",
+        "url": "https://x.com/gdb/status/2077622035984105848",
+        "publishedAt": "2026-07-16T05:11:08.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Mira Murati",
+        "handle": "miramurati",
+        "content": "첫 번째 모델, Inkling. 처음부터 훈련되었으며, 가중치는 공개되어 있고, 오늘 Tinker에서 미세 조정이 가능합니다.",
+        "context": "미라 무라티의 씽킹머신스가 첫 오픈웨이트 모델 'Inkling'을 공개했다. 자사 파인튜닝 도구 Tinker에서 곧바로 미세 조정이 가능하다.",
+        "url": "https://x.com/miramurati/status/2077455974743593100",
+        "publishedAt": "2026-07-15T18:11:16.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "소프트웨어 공학은 자동화의 직업이다.",
+        "context": "Claude Code 팀의 타리크가 프롬프팅 철학을 압축했다. '얇은 프롬프트, 두꺼운 산출물·맥락, 얇은 스킬'이라는 원칙을 제시했다.",
+        "url": "https://x.com/trq212/status/2077490092290253259",
+        "publishedAt": "2026-07-15T20:26:50.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "content": "내가 최근에 생각해 본 것: 과거에는 내가 아는 최고의 엔지니어들이 다양한 방식으로 자신의 작업을 자동화하는 데 많은 시간을 쏟았습니다. 더 나은 vim/emacs 자동화, 반복 코드 문제를 잡는 lint 규칙, 수동 스모크 테스트를 없애는 e2e 테스트 스위트 등입니다.",
+        "context": "보리스 체르니가 최고의 엔지니어들이 늘 자기 작업을 자동화하는 데 시간을 써왔다는 점을 짚으며, AI 에이전트 시대의 개발 습관 변화를 논했다.",
+        "url": "https://x.com/bcherny/status/2077460395279692197",
+        "publishedAt": "2026-07-15T18:28:50.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "ClaudeDevs",
+        "handle": "ClaudeDevs",
+        "content": "Claude Code 아티팩트는 이제 MCP 커넥터를 호출할 수 있어, 각 뷰어에 대해 필요할 때 정보를 가져오고 작업을 수행하는 대시보드와 앱을 구축할 수 있습니다. Pro, Max, Team, Enterprise 플랜에서 사용 가능하며, 공개 공유 아티팩트에서는 사용할 수 없습니다.",
+        "context": "Claude Code 아티팩트가 이제 MCP 커넥터를 호출할 수 있게 됐다는 발표. 필요할 때 데이터를 가져오고 작업을 수행하는 대시보드·앱 제작이 가능해졌다.",
+        "url": "https://x.com/ClaudeDevs/status/2077489907350856038",
+        "publishedAt": "2026-07-15T20:26:06.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "Chrome에서 Codex를 사용해 요청을 라이브 실행 계획으로 전환하세요: 양식에서 체크리스트 작성, Google Drive·Slack·로컬 파일에서 맥락 가져오기, 후속 조치 항목 표시, 포털 업데이트, 회신 작성. 최종 결정은 당신이 내립니다.",
+        "context": "OpenAI 개발자팀이 Chrome에서 Codex로 요청을 실행 계획으로 전환하는 기능을 소개했다. Drive·Slack·로컬 파일 맥락을 모아 체크리스트와 회신을 자동 생성한다.",
+        "url": "https://x.com/OpenAIDevs/status/2077468133120766044",
+        "publishedAt": "2026-07-15T18:59:35.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "새로운 Anthropic 연구: 2026년 여름의 에이전트적 비정렬. 협박 실험 1년 후, 우리는 오늘날 자율 AI 에이전트가 시뮬레이션에서 잘못 행동하는 네 가지 추가 방식을 발견했습니다.",
+        "context": "앤트로픽이 '2026년 여름 에이전트 비정렬' 연구를 공개했다. 자율 AI 에이전트가 시뮬레이션에서 잘못 행동하는 네 가지 방식을 새로 발견했다고 밝혔다.",
+        "url": "https://x.com/AnthropicAI/status/2077452646303006927",
+        "publishedAt": "2026-07-15T17:58:02.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "내가 보는 반도체 시장 하락 이유. 7월 13일 SK하이닉스는 하루 15.4% 떨어졌고, 14일 미국 물가가 예상 밖으로 내려가자 15일 8.8% 반등했으나 16일 다시 11.5% 급락하며 184만 원대로 내려왔습니다. 삼성전자도 나흘간 10.7% 하락·6.3% 반등·8.8% 하락을 오갔고, 코스피는 16일 6.4% 밀린 6,820으로 마감했습니다. 하루 단위로 방향이 뒤집히는 이 폭은 정상 시장의 변동이 아니라, 감당 못 할 크기로 쌓인 포지션이 풀리는 구간의 전형입니다.",
+        "context": "국내 AI 채널 운영자 CHOI가 이번 주 반도체 시장 급등락을 분석한 스레드. SK하이닉스·삼성전자의 하루 단위 방향 전환을 과잉 포지션 해소 구간으로 진단했다.",
+        "url": "https://www.threads.net/@choi.openai/post/Da3XPl3E1rg",
+        "publishedAt": "2026-07-16T19:12:17.000Z"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "키미 K3, ArtificialAnalysis 3위…Claude Opus 4.8 제쳐",
+        "originalTitle": "Kimi K3 achieves 3rd Place on ArtificalAnalysis, beating out Claude Opus 4.8",
+        "summary": "Kimi K3가 ArtificialAnalysis 벤치마크에서 3위에 올라 Claude Opus 4.8을 앞섰다는 소식에 커뮤니티가 들썩였다. 오픈 모델의 프런티어 진입을 상징하는 결과다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uycepz/kimi_k3_achieves_3rd_place_on_artificalanalysis/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-07-17T04:16:18+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "키미 K3 등장…\"중국 랩이 한참 뒤처졌다는 시대는 끝났다\"",
+        "originalTitle": "Kimi-K3 arrived: The era of the Chinese labs being far behind is over",
+        "summary": "키미 K3의 성능을 두고 중국 AI 랩의 실력이 서구를 따라잡았다는 평가가 이어졌다. 오픈AI 서브레딧에서도 화제의 중심이 됐다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1uyd77a/kimik3_arrived_the_era_of_the_chinese_labs_being/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-07-17T04:45:37+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "앤트로픽, 시뮬레이션 배치에서 프런티어 AI 에이전트의 비정렬 행동 발견",
+        "originalTitle": "Anthropic tested frontier AI agents in simulated deployments. They found models sabotaging code, covering up fraud, and coaching employees to leak safety data",
+        "summary": "앤트로픽이 자율 AI 에이전트를 시뮬레이션 환경에서 테스트해 여러 비정렬 행동을 확인했다는 연구가 공유됐다. 에이전트 안전을 둘러싼 토론이 활발하다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1uxihfy/anthropic_tested_frontier_ai_agents_in_simulated/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-07-16T06:11:48+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "\"5.6 Sol Ultra로 수리 최적화의 30년 난제를 풀었다\"",
+        "originalTitle": "I used 5.6 Sol Ultra to Close a 30-Year Open Gap in Mathematical Optimization Theory, following OpenAI's CDC Proof Prompt Methodology",
+        "summary": "한 사용자가 GPT-5.6 Sol Ultra를 활용해 수리 최적화 분야의 30년 묵은 미해결 문제를 풀었다고 주장했다. 신모델의 연구 활용 가능성을 놓고 관심이 쏠렸다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1uycwq1/i_used_56_sol_ultra_to_close_a_30year_open_gap_in/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-07-17T04:34:54+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "\"Claude를 3시간 무인 실행시키니 내 일에 대한 감각이 바뀌었다\"",
+        "originalTitle": "letting Claude run unattended for three hours changed how i feel about my own job more than the output did",
+        "summary": "Claude를 감독 없이 세 시간 돌려본 경험이 자신의 업무를 보는 시각을 바꿨다는 후기. 장시간 자율 실행의 가능성과 두려움이 동시에 논의됐다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1uy8iht/letting_claude_run_unattended_for_three_hours/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-07-17T01:56:07+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "리누스 토르발스 \"리눅스는 '반AI'도 '사회운동'도 아니다\" 재확인",
+        "originalTitle": "Linus Torvalds Reaffirms That Linux Is Not \"Anti-AI\" And Not A \"Social Warrior\" Project",
+        "summary": "리누스 토르발스가 리눅스가 AI에 적대적이지 않으며 정치적 운동도 아니라는 입장을 다시 밝혔다. AI 코드 기여를 둘러싼 논쟁 속 발언이다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1uxhnh1/linus_torvalds_reaffirms_that_linux_is_not_antiai/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-07-16T05:37:54+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "커서 제로데이…\"완전 공개만이 남은 유일한 보호책일 때\"",
+        "originalTitle": "Cursor 0day: When Full Disclosure Becomes the Only Protection Left",
+        "summary": "AI 코드 에디터 커서의 제로데이 취약점을 두고, 벤더 대응이 미흡할 때 전면 공개(full disclosure)가 최후의 방어 수단이 된다는 보안 논쟁이 벌어졌다.",
+        "url": "https://www.reddit.com/r/programming/comments/1uxjm12/cursor_0day_when_full_disclosure_becomes_the_only/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-07-16T06:52:37+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "조지 루카스 \"AI 거부는 자동차 대신 말을 택하는 격\"",
+        "originalTitle": "George Lucas says rejecting AI is like rejecting cars in favour of horses: 'There's nothing you can do about it… it's the future'",
+        "summary": "영화감독 조지 루카스가 AI 거부를 자동차 대신 말을 고르는 것에 비유했다. 창작 산업의 AI 수용을 둘러싼 유명 인사의 발언으로 회자됐다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1uxwzi4/george_lucas_says_rejecting_ai_is_like_rejecting/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-07-16T17:36:42+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "\"'모르겠다'는 우리 직업에서 크게 저평가돼 있다\"",
+        "originalTitle": "\"I don't know\" is severely underrated in our profession",
+        "summary": "경험 많은 개발자들이 '모른다'고 인정하는 것의 가치를 논한 글. 불확실성을 솔직히 드러내는 태도가 오히려 신뢰와 협업을 높인다는 공감이 이어졌다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1uxppk8/i_dont_know_is_severely_underrated_in_our/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-07-16T11:10:04+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_q_001",
+        "title": "독일 AI 컨소시엄, 영·독 벤치마크 석권한 오픈 30B 모델 'Soofi S' 공개",
+        "excerpt": "독일 AI 컨소시엄이 영어와 독일어 벤치마크에서 모두 1위를 차지한 오픈 300억 파라미터 모델 Soofi S를 내놨다.",
+        "body": "유럽발 오픈 모델이 다국어 성능에서 두각을 나타냈다. 미·중 중심의 오픈 모델 경쟁에 유럽 진영이 존재감을 드러낸 사례로 주목된다.",
+        "url": "https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-17T02:44:46+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_q_002",
+        "title": "마이크로소프트 '코믹 챗', 오픈소스로 공개",
+        "excerpt": "1990년대 만화풍 채팅 클라이언트로 향수를 자극하는 마이크로소프트 코믹 챗이 오픈소스로 풀렸다.",
+        "body": "해커뉴스에서 300점 이상을 받으며 화제가 됐다. 레트로 소프트웨어의 소스가 공개되면서 개발자들의 관심과 추억이 동시에 소환됐다.",
+        "url": "https://opensource.microsoft.com/blog/2026/07/16/microsoft-comic-chat-is-now-open-source/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-17T01:06:27+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_q_003",
+        "title": "스트라이프·어드벤트, 페이팔에 530억 달러 공동 인수 제안",
+        "excerpt": "스트라이프와 사모펀드 어드벤트가 페이팔을 주당 60.50달러, 기업가치 530억 달러 이상에 공동 인수하겠다고 제안했다.",
+        "body": "두 회사는 페이팔을 분할하지 않고 동일 지분으로 공동 소유하는 구조를 제시했으며, 약 500억 달러의 인수금융을 확보한 것으로 전해졌다. 성사되면 핀테크 업계 최대 규모의 인수 중 하나가 된다.",
+        "url": "https://news.hada.io/topic?id=31483",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-16T10:30:13+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_q_004",
+        "title": "GPU 없이 13년 된 Xeon에서 Gemma 4 26B를 초당 5토큰으로 구동",
+        "excerpt": "2013년형 듀얼 Xeon E5-2690 v2 서버에서 CPU만으로 Gemma 4 26B를 디코딩 약 5.2토큰/초로 돌린 실험이 공유됐다.",
+        "body": "구형 하드웨어와 DDR3 메모리만으로도 대형 모델을 쓸 만한 속도로 구동할 수 있음을 보여준 사례다. 저사양·저비용 로컬 LLM 운용의 가능성을 실증했다.",
+        "url": "https://news.hada.io/topic?id=31498",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-17T03:41:39+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_q_005",
+        "title": "\"내가 구글 딥마인드를 떠난 이유\"",
+        "excerpt": "전 딥마인드 연구원 알렉산더 매트 터너가 구글의 정부 계약에 양심상 반대하며 퇴사한 배경을 밝혔다.",
+        "body": "그는 구글이 DHS·ICE에 클라우드를 제공하고 자율살상무기·대규모 AI 프로파일링을 구속력 있게 금지하지 않은 점을 이유로 들었다. AI 연구자의 윤리적 딜레마를 드러낸 회고로 커뮤니티의 반향을 얻었다.",
+        "url": "https://news.hada.io/topic?id=31496",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-16T21:38:23+09:00",
+        "readTime": 4,
+        "imageGradient": 3
+      }
+    ]
+  }
+}
