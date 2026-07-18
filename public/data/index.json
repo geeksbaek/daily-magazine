@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-07-18",
+      "issueNumber": 105,
+      "mainHeadline": "애플, OpenAI 겨냥 대형 소송…IPO 계획에 먹구름",
+      "headlines": [
+        "OpenAI, 'AI 시대의 성적표' 공개…성능 넘어 책임성 지표 제시",
+        "엔비디아 베라 루빈, 포스트 트레이닝서 '달러당 지능' 극대화",
+        "애플·구글, 앱스토어서 '누디파이' 앱 퇴출 명령 받아"
+      ]
+    },
+    {
       "date": "2026-07-17",
       "issueNumber": 104,
       "mainHeadline": "문샷 '키미 K3', 2~3조 파라미터 중국 최대 오픈모델로 Opus 4.8 추격",
@@ -1060,5 +1070,5 @@
       ]
     }
   ],
-  "latestIssue": 104
+  "latestIssue": 105
 }
