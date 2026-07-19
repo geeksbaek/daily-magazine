@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-07-20",
+      "issueNumber": 107,
+      "mainHeadline": "애플 소송, OpenAI 하드웨어 사업 계획 흔드나",
+      "headlines": [
+        "크리스토퍼 놀란 감독, AI를 '명백한 트로이 목마'라 직격",
+        "Claude Code, 러스트로 다시 쓰인 Bun 런타임으로 전환",
+        "데이브 에거스, OpenAI 직원들에게 'ChatGPT가 한 세대를 침묵시키고 있다' 경고"
+      ]
+    },
+    {
       "date": "2026-07-19",
       "issueNumber": 106,
       "mainHeadline": "데이터브릭스, 기업가치 1,880억 달러 돌파…AI 2막의 최대 수혜주로",
@@ -1080,5 +1090,5 @@
       ]
     }
   ],
-  "latestIssue": 105
+  "latestIssue": 107
 }
