@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-07-21",
+      "issueNumber": 108,
+      "mainHeadline": "美 정부, 중국산 오픈웨이트 AI 모델 금지 재추진…프런티어 AI 평가 기관은 수장 공백 장기화",
+      "headlines": [
+        "OpenAI, 장기 실행 모델의 새로운 안전 위험과 대응법 공개",
+        "허깅페이스, 대규모 침해 사고 확인…자격증명 회전 권고",
+        "엔비디아, SIGGRAPH서 에이전틱·피지컬 AI 대공세"
+      ]
+    },
+    {
       "date": "2026-07-20",
       "issueNumber": 107,
       "mainHeadline": "애플 소송, OpenAI 하드웨어 사업 계획 흔드나",
@@ -1090,5 +1100,5 @@
       ]
     }
   ],
-  "latestIssue": 107
+  "latestIssue": 108
 }
