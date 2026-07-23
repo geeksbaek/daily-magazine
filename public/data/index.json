@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-07-24",
+      "issueNumber": 111,
+      "mainHeadline": "OpenAI, ChatGPT Health 미국 전역 출시…매주 3억 명이 건강 상담에 ChatGPT 활용",
+      "headlines": [
+        "앤트로픽, Claude 음성 모드 대규모 업그레이드…Opus·Sonnet 탑재",
+        "구글 제미나이, 월간 사용자 10억 명 육박",
+        "AI 칩 스타트업 Etched, 103억 달러 몸값 인정받아"
+      ]
+    },
+    {
       "date": "2026-07-23",
       "issueNumber": 110,
       "mainHeadline": "오픈AI 인적 실수가 부른 허깅페이스 해킹 사고 전말",

@@ -1,0 +1,470 @@
+{
+  "date": "2026-07-24",
+  "issueNumber": 111,
+  "cover": {
+    "mainHeadline": "OpenAI, ChatGPT Health 미국 전역 출시…매주 3억 명이 건강 상담에 ChatGPT 활용",
+    "mainExcerpt": "OpenAI가 Apple Health 등 의료 기록을 안전하게 연결해 개인 맞춤형 건강 정보를 제공하는 'ChatGPT Health'를 미국 전역 사용자에게 전면 공개했다. 앤트로픽은 Claude 음성 모드를 더 강력한 모델로 업그레이드했고, 구글 제미나이는 사용자 10억 명 돌파를 눈앞에 두고 있다.",
+    "headlines": [
+      "앤트로픽, Claude 음성 모드 대규모 업그레이드…Opus·Sonnet 탑재",
+      "구글 제미나이, 월간 사용자 10억 명 육박",
+      "AI 칩 스타트업 Etched, 103억 달러 몸값 인정받아"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_001",
+      "title": "OpenAI, ChatGPT Health 미국 전역 사용자에게 전면 출시",
+      "excerpt": "OpenAI가 의료 기록과 Apple Health를 안전하게 연결해 개인 맞춤형 건강 정보를 제공하는 'ChatGPT Health' 기능을 미국 전역 사용자에게 공개했다. 매주 3억 명이 건강 관련 질문을 위해 ChatGPT를 사용하는 것으로 알려졌다.",
+      "body": "OpenAI는 Apple Health와 Function, MyFitnessPal 등 지원되는 의료 기록 서비스를 안전하게 연결하면 ChatGPT가 사용자의 개인적 건강 맥락을 이해하고 더 정확한 답변을 제공할 수 있다고 밝혔다. 사용자 동의가 있을 경우 ChatGPT는 새로운 검사 결과를 과거 기록과 비교하거나 마지막 진료 이후의 변화를 요약하는 등 대화 전반에 걸쳐 연결된 정보를 활용할 수 있다. OpenAI는 초기 테스터와 의사들의 피드백을 반영해 이번 기능을 설계했다고 설명했다. 이번 발표로 OpenAI는 헬스케어 영역에서 구글, 아마존 등과의 경쟁을 본격화하게 됐다.",
+      "url": "https://openai.com/index/health-in-chatgpt",
+      "source": "OpenAI News",
+      "category": "ai_ml",
+      "publishedAt": "2026-07-23T09:00:00+09:00",
+      "readTime": 4,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_002",
+      "title": "앤트로픽, Claude 음성 모드 대규모 업그레이드",
+      "excerpt": "앤트로픽이 Claude 음성 모드를 Opus·Sonnet을 포함한 더 강력한 모델로 전환했다. 새 음성 모드는 회의 일정을 조정하거나 이메일 초안을 작성하는 등 대화 중 연결된 도구에 접근할 수 있다.",
+      "body": "새로워진 Claude 음성 모드는 대화 중 사용자가 연결한 이메일, 캘린더 등 도구에 실시간으로 접근할 수 있어 어려운 문제를 소리 내어 풀거나 업무를 곧바로 처리할 수 있다. 스페인어, 프랑스어, 힌디어, 일본어 등 지원 언어도 대폭 확대됐다. 이번 업데이트는 모바일, 데스크톱, 웹에서 공개 베타로 순차 배포되고 있다. 음성 AI 경쟁이 치열해지는 가운데 앤트로픽이 OpenAI의 GPT-Live에 정면 대응하는 모양새다.",
+      "url": "https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models/",
+      "source": "TechCrunch",
+      "category": "ai_ml",
+      "publishedAt": "2026-07-24T04:00:00+09:00",
+      "readTime": 3,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_003",
+      "title": "구글 제미나이, 월간 사용자 10억 명 육박",
+      "excerpt": "구글의 AI 챗봇 제미나이가 또 하나의 '10억 사용자' 제품으로 자리잡고 있다. 지난 2월 기준 월간 사용자가 이미 7억5천만 명을 넘어선 것으로 알려졌다.",
+      "body": "구글은 제미나이의 사용자 성장세가 가파르게 이어지고 있다고 밝혔다. 검색, 안드로이드, 워크스페이스 등 구글의 핵심 제품군에 제미나이가 깊이 통합되면서 사용자 기반이 빠르게 확대되고 있다는 분석이다. 이는 OpenAI의 ChatGPT와의 사용자 수 경쟁에서 구글이 유리한 고지를 점하고 있음을 보여준다. 업계에서는 구글이 검색 트래픽을 발판 삼아 AI 사용자 확보전에서 앞서나가고 있다고 평가한다.",
+      "url": "https://techcrunch.com/2026/07/23/google-closes-in-on-another-billion-user-product-with-gemini/",
+      "source": "TechCrunch",
+      "category": "ai_ml",
+      "publishedAt": "2026-07-23T23:52:44+09:00",
+      "readTime": 3,
+      "imageGradient": 2
+    },
+    {
+      "id": "rss_004",
+      "title": "AI 칩 스타트업 Etched, 103억 달러 밸류에이션 달성",
+      "excerpt": "하버드 중퇴생 3명이 창업한 AI 칩 스타트업 Etched이 회의론을 딛고 103억 달러 기업가치를 인정받았다. GPU 없이도 모든 AI 모델의 추론 속도를 높이는 전용 칩과 메모리 컴포넌트를 개발했다는 설명이다.",
+      "body": "Etched은 특정 모델 아키텍처에 특화된 전용 반도체로 추론 비용과 속도를 동시에 개선한다고 주장한다. 이번 투자 라운드에는 유명 투자자들이 대거 참여했으며, 엔비디아 독점 구조에 도전하는 AI 칩 스타트업들에 대한 투자 열기가 이어지고 있음을 보여준다. 회사 측은 GPU 의존도를 낮추면서도 대규모 추론 워크로드를 처리할 수 있다고 강조했다. AI 인프라 투자 경쟁이 모델을 넘어 하드웨어 영역으로 확산되는 흐름을 잘 보여주는 사례다.",
+      "url": "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/",
+      "source": "TechCrunch",
+      "category": "ai_ml",
+      "publishedAt": "2026-07-24T00:00:00+09:00",
+      "readTime": 3,
+      "imageGradient": 3
+    },
+    {
+      "id": "rss_005",
+      "title": "美 재무부, 문샷AI '증류 의혹'에 제재 카드 만지작",
+      "excerpt": "백악관이 중국 문샷AI의 '키미 K3' 모델이 앤트로픽 Claude Fable을 무단으로 증류해 만들어졌다고 주장하면서, 미 재무부가 제재 가능성을 시사했다. 워싱턴에서는 중국산 오픈웨이트 모델 유입을 둘러싼 논쟁이 격화되고 있다.",
+      "body": "이번 사태는 미중 AI 패권 경쟁 속에서 오픈웨이트 모델의 출처와 지적재산권 문제가 새로운 뇌관으로 떠올랐음을 보여준다. 전문가들은 키미 K3의 우수한 성능이 반드시 증류에서 비롯된 것은 아니라며 신중한 접근을 주문하고 있다. 한편 스타트업 창업자들은 정부에 중국산 오픈웨이트 AI 접근을 전면 차단하지 말아 달라고 공개적으로 요청하고 나섰다. 오픈소스 AI 생태계에 대한 규제 리스크가 업계 전반의 화두로 부상하는 모습이다.",
+      "url": "https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable/",
+      "source": "TechCrunch",
+      "category": "ai_ml",
+      "publishedAt": "2026-07-23T05:49:03+09:00",
+      "readTime": 4,
+      "imageGradient": 4
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_006",
+        "title": "허깅페이스, Diffusers에 Nunchaku 4비트 디퓨전 추론 지원 추가",
+        "excerpt": "허깅페이스가 자사 라이브러리 Diffusers에 Nunchaku의 4비트 양자화 디퓨전 추론 기술을 통합했다. 이미지 생성 모델의 메모리 사용량과 속도를 크게 개선할 수 있을 전망이다.",
+        "body": "Nunchaku는 디퓨전 모델을 4비트로 양자화해 품질 손실을 최소화하면서도 추론 속도를 높이는 기법이다. 이번 통합으로 개발자들은 더 적은 GPU 메모리로도 고품질 이미지 생성 모델을 구동할 수 있게 됐다. 허깅페이스는 오픈소스 생태계에서 효율적인 추론 기술 확산에 힘쓰고 있다고 밝혔다. 이는 온디바이스·저사양 환경에서의 생성형 AI 활용도를 높이는 데 기여할 것으로 보인다.",
+        "url": "https://huggingface.co/blog/nunchaku-diffusers",
+        "source": "Hugging Face",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-23T09:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_007",
+        "title": "런웨이, AI 모델 라우터 출시…생성형 미디어 시장 경쟁 격화",
+        "excerpt": "런웨이가 이미지·영상·오디오 생성 요청에 최적의 모델을 자동으로 선택해주는 '미디어 라우터'를 출시했다. 개발자가 품질·속도·비용 중 무엇을 우선할지 지정하면 그에 맞는 모델이 자동 선택된다.",
+        "body": "생성형 미디어 모델 시장이 급격히 붐비면서, 매번 최적의 모델을 수동으로 선택하는 부담이 커지고 있다는 게 런웨이의 설명이다. 미디어 라우터는 이런 문제를 해결하기 위해 요청 특성에 따라 최적의 이미지·영상·오디오 생성 모델을 자동 매칭한다. 이는 여러 AI 모델을 동시에 다뤄야 하는 개발자와 기업 고객의 워크플로를 단순화할 것으로 기대된다. 생성형 미디어 분야의 모델 다각화 경쟁이 라우팅 기술로 옮겨가는 모습이다.",
+        "url": "https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-24T02:07:35+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_008",
+        "title": "서비스나우, 인도 뱅킹 소프트웨어 기업에 4천만 달러 베팅",
+        "excerpt": "서비스나우가 인도 뱅킹 소프트웨어 전문기업 BusinessNext에 4천만 달러를 투자하며 기업가치 7억 달러를 인정했다. AI 기반 뱅킹 소프트웨어의 글로벌 확장을 위한 전략적 파트너십이다.",
+        "body": "이번 투자로 서비스나우는 금융 서비스 분야 AI 사업을 인도를 비롯한 신흥 시장으로 확대할 발판을 마련했다. BusinessNext는 AI 기반 뱅킹 소프트웨어를 통해 지역 금융기관의 디지털 전환을 지원해왔다. 서비스나우는 이번 파트너십이 자사 AI 플랫폼과 BusinessNext의 금융권 노하우를 결합하는 계기가 될 것으로 기대하고 있다. 글로벌 엔터프라이즈 AI 기업들의 신흥시장 금융 소프트웨어 투자가 이어지는 흐름이다.",
+        "url": "https://techcrunch.com/2026/07/22/servicenow-bets-40m-on-indian-firm-businessnext-at-700m-valuation-to-deepen-banking-ai-push/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-23T15:09:13+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_009",
+        "title": "IBM \"AI가 메인프레임 죽이는 것 아니다\"…실적 충격 진화",
+        "excerpt": "지난주 메인프레임 판매 부진 경고로 주가가 급락한 IBM이, AI 투자로 기업 하드웨어 예산이 일시적으로 잠식된 것일 뿐이라고 해명했다.",
+        "body": "IBM CEO는 실적 발표에서 기업들이 AI 인프라 투자를 우선시하면서 일시적으로 메인프레임 등 전통 하드웨어 지출이 줄었다고 설명했다. 그는 이런 현상이 장기 추세가 아니라 예산 배분의 일시적 재조정이라고 강조했다. 투자자들은 AI 붐이 전통 IT 인프라 사업에 미치는 영향에 촉각을 곤두세우고 있다. IBM은 하이브리드 클라우드와 AI를 결합한 전략으로 메인프레임 사업의 부활을 자신하고 있다.",
+        "url": "https://techcrunch.com/2026/07/22/after-shocking-quarter-ibm-insists-that-ai-isnt-killing-the-mainframe/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-23T08:47:54+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_010",
+        "title": "깃허브, Dependabot에 3일 쿨다운 기본 적용",
+        "excerpt": "깃허브가 Dependabot의 버전 업데이트 PR 발행 전 기본 3일 대기 시간을 도입했다. 메인테이너와 보안 연구자들이 새 릴리스의 취약점을 검토할 시간을 확보하기 위함이다.",
+        "body": "새로 공개된 패키지 버전이 곧바로 의존성 업데이트로 이어지면서 검증되지 않은 취약점이 빠르게 전파되는 문제가 지적돼왔다. 이번 쿨다운 정책은 릴리스 직후 발견되는 보안 이슈에 대응할 시간을 벌어준다. 개발자는 필요시 저장소별로 쿨다운 기간을 조정할 수 있다. 소프트웨어 공급망 보안을 강화하려는 업계 전반의 움직임과 궤를 같이한다.",
+        "url": "https://github.blog/security/supply-chain-security/the-case-for-a-cooldown-why-dependabot-now-waits-before-issuing-version-updates/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-24T01:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_011",
+        "title": "버셀, 대시보드에서 샌드박스 직접 연결·관리 지원",
+        "excerpt": "버셀이 대시보드에서 실행 중인 샌드박스에 바로 연결할 수 있는 기능을 추가했다. 브라우저를 벗어나지 않고도 명령 실행, 파일 탐색, 업로드·다운로드가 가능하다.",
+        "body": "개발자는 이제 샌드박스의 Connect 탭에서 파일시스템을 탐색하고 열린 포트를 점검할 수 있다. 같은 화면에서 스냅샷 생성, 영구 샌드박스의 중지·재개 등 라이프사이클 관리도 가능해졌다. 이는 AI 에이전트가 생성한 코드를 실행·검증하는 개발 워크플로를 한층 간소화한다. 버셀은 에이전틱 개발 환경 전반의 사용성을 지속적으로 개선하고 있다.",
+        "url": "https://vercel.com/changelog/connect-to-and-manage-sandboxes-from-the-dashboard",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-23T09:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_012",
+        "title": "버셀 MCP, 이제 코드 배포까지 지원",
+        "excerpt": "버셀 MCP 서버가 새로운 프로젝트나 기존 프로젝트에 코드를 직접 배포하는 기능을 지원한다. AI 어시스턴트가 작업을 마치면 채팅을 벗어나지 않고 바로 배포까지 완료할 수 있다.",
+        "body": "deploy_to_vercel 도구에 파일을 지정하면 버셀이 프레임워크를 자동 감지하고 의존성 설치와 빌드까지 처리한다. 빌드가 끝나면 곧바로 열람·공유 가능한 URL이 제공된다. 이는 AI 코딩 에이전트가 프로토타입 제작부터 배포까지 전 과정을 자동화할 수 있게 해준다. MCP 생태계 확장과 함께 에이전틱 배포 워크플로가 빠르게 표준화되는 흐름이다.",
+        "url": "https://vercel.com/changelog/vercel-mcp-can-now-deploy-code",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-23T09:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_013",
+        "title": "클라우드플레어, 'Cache Response Rules' 도입",
+        "excerpt": "클라우드플레어가 캐시되어야 할 콘텐츠가 Set-Cookie나 Cache-Control 헤더 때문에 오리진으로 되돌아가는 문제를 해결하는 'Cache Response Rules'를 공개했다.",
+        "body": "기존에는 오리진 서버에서 직접 헤더를 수정하기 어려운 경우가 많아 캐싱 최적화에 제약이 있었다. Cache Response Rules는 이런 상황에서도 원하는 시점에 캐시 정책을 적용할 수 있게 해준다. 이를 통해 불필요한 오리진 트래픽을 줄이고 응답 속도를 개선할 수 있다. 클라우드플레어는 엣지 네트워크 차원의 세밀한 캐시 제어 기능을 지속적으로 확장하고 있다.",
+        "url": "https://blog.cloudflare.com/introducing-cache-response-rules/",
+        "source": "Cloudflare Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-24T03:40:38+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_014",
+        "title": "테슬라 로보택시, 이상과 현실의 괴리",
+        "excerpt": "테슬라 실적 발표에서 일론 머스크가 로보택시 사업의 긍정적 전망을 강조했지만, 유료 주행 마일리지는 2분기 동안 오히려 36% 감소한 것으로 나타났다.",
+        "body": "신규 도시 진출과 운행 대수 확대에도 불구하고 실제 유료 주행 실적은 뒷걸음질쳤다. 머스크 특유의 낙관적 발언도 이번 실적 콜에서는 다소 힘이 빠진 모습이었다는 평가다. 웨이모 등 경쟁사와의 격차가 좁혀지지 않는 가운데, 시장은 테슬라 로보택시 사업의 실질적 진전 여부에 의문을 제기하고 있다. 자율주행 상용화 경쟁에서 성과와 홍보 사이의 간극이 다시 도마에 올랐다.",
+        "url": "https://www.theverge.com/transportation/970003/tesla-robotaxi-mileage-waymo-cities-earnings-musk",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-07-24T02:09:31+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_015",
+        "title": "메타, 청정에너지 협약 탈퇴…천연가스 투자 확대",
+        "excerpt": "메타가 자연가스 인프라 투자를 가속화하며 업계 재생에너지 협의체에서 탈퇴했다. 지난 1년간 천연가스 부문에 대규모 투자를 단행해왔다.",
+        "body": "AI 데이터센터의 폭증하는 전력 수요를 감당하기 위해 메타가 재생에너지 대신 천연가스 발전에 무게를 싣고 있다는 분석이다. 이번 탈퇴는 빅테크의 청정에너지 공약이 AI발 전력 수요 앞에서 흔들리고 있음을 보여주는 사례로 꼽힌다. 환경단체들은 AI 붐이 탄소 감축 목표를 후퇴시키고 있다고 우려하고 있다. 메타 측은 안정적 전력 공급을 위한 불가피한 선택이라는 입장이다.",
+        "url": "https://techcrunch.com/2026/07/23/meta-drops-out-of-a-major-clean-energy-pact-as-its-natural-gas-buildout-accelerates/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-07-24T04:41:54+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_016",
+        "title": "구글, '셀피 영상'으로 계정 로그인 지원",
+        "excerpt": "구글이 휴대폰이나 컴퓨터에 접근할 수 없을 때 셀피 영상으로 계정에 로그인할 수 있는 새로운 인증 방식을 도입했다.",
+        "body": "구글은 이 기능이 기존 인증 수단을 분실하거나 계정 잠금 상태에 놓인 사용자에게 추가적인 복구 옵션을 제공한다고 설명했다. 생체 인식 기반 인증이 확산되는 가운데, 편의성과 보안성을 동시에 강화하려는 시도로 풀이된다. 다만 영상 기반 생체정보 활용에 대한 프라이버시 우려도 함께 제기되고 있다. 구글은 관련 데이터를 안전하게 처리한다는 입장을 밝혔다.",
+        "url": "https://techcrunch.com/2026/07/23/google-will-now-let-you-sign-in-to-your-account-with-a-selfie-video/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-07-24T01:01:03+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_017",
+        "title": "패트리온, 전 직원 20% 감원",
+        "excerpt": "크리에이터 후원 플랫폼 패트리온이 전체 인력의 20%인 약 93명을 감원한다고 발표했다. CEO는 AI가 인간을 대체하기 때문은 아니라고 선을 그었다.",
+        "body": "패트리온 CEO 잭 콘테는 직원들에게 보낸 메모에서 AI가 업무 방식 전반을 근본적으로 바꿔놓았다고 언급하면서도, 이번 감원이 AI 대체 때문은 아니라고 강조했다. 회사는 조직 효율화와 비용 절감을 감원의 주된 이유로 들었다. 최근 여러 테크 기업들이 AI 투자 확대와 동시에 인력 구조조정을 단행하는 사례가 이어지고 있다. 업계에서는 AI 시대 고용 정책에 대한 논쟁이 계속되고 있다.",
+        "url": "https://www.theverge.com/tech/970211/patreon-layoffs-ai",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-07-24T03:20:30+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "우리의 모델 평가 중에 중대한 보안 사고가 발생했습니다. 지금까지 배운 것을 공유하고자 합니다. 이에 대한 파트너십에 감사드립니다, @huggingface.",
+        "context": "OpenAI가 자사 사이버 능력을 갖춘 모델로 Hugging Face 프로덕션 인프라의 제로데이 취약점을 발견한 사건과 관련해 샘 알트먼이 직접 남긴 글이다. AI 모델의 공격·방어 능력이 실전 수준에 도달했음을 보여주는 사례로 주목받고 있다.",
+        "url": "https://x.com/sama/status/2079661132302995790",
+        "publishedAt": "2026-07-21T20:13:46.000Z",
+        "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+      },
+      {
+        "id": "tweet_002",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "OpenAI의 사이버 능력을 갖춘 모델들이 @huggingface 프로덕션을 여러 개의 제로데이 취약점을 찾아 체이닝함으로써 침해했습니다.\n\n여기서 Hugging Face와의 파트너십에 감사드립니다. 우리의 발견을 공유하여 모델들이 이제 무엇을 할 수 있는지, 그리고 그들이 수호자들에게 어떻게 도움을 줄 수 있는지 알리고자 합니다.",
+        "context": "OpenAI 사장 그렉 브록먼이 자사 모델의 사이버 보안 침투 능력 시연 결과를 공개하며, 이를 방어 목적으로 활용할 수 있다는 점을 강조했다. AI 모델의 오펜시브 시큐리티 능력이 화두로 떠오르고 있다.",
+        "url": "https://x.com/gdb/status/2079669811714683186",
+        "publishedAt": "2026-07-21T20:48:16.000Z",
+        "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+      },
+      {
+        "id": "tweet_003",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "ChatGPT의 헬스 기능을 미국 사용자에게 출시합니다.\n\n매주 3억 명의 사람들이 건강 관련 질문을 위해 ChatGPT를 사용합니다 (제 아내와 저도 그중 한 명입니다!).\n\n이제 지원되는 의료 기록을 안전하게 연결할 수 있어 ChatGPT가 귀하의 개인적인 맥락을 이해하고 더 유용하게 도와줄 수 있습니다.",
+        "context": "OpenAI의 ChatGPT Health 전면 출시 소식을 그렉 브록먼이 개인적인 소회와 함께 전했다. 이날 매거진 커버 스토리로 다뤄진 헬스케어 기능 확장과 직접 연결되는 발언이다.",
+        "url": "https://x.com/gdb/status/2080351159638704615",
+        "publishedAt": "2026-07-23T17:55:42.000Z",
+        "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+      },
+      {
+        "id": "tweet_004",
+        "author": "Jack Clark",
+        "handle": "jackclarkSF",
+        "content": "Peter의 이 분석은 AI의 퍼즐 중 하나에 대한 내용으로 훌륭합니다 - 경제 내에서 AI가 초래하는 모든 변화에도 불구하고, 왜 실업률에 측정 가능한 영향을 미치지 않았을까요?",
+        "context": "앤트로픽 공동창업자 잭 클라크가 AI의 경제적 영향과 고용시장 사이의 간극을 다룬 분석을 공유했다. AI 확산 속도에 비해 거시 고용지표 변화가 더딘 현상에 대한 업계의 지속적인 관심을 보여준다.",
+        "url": "https://x.com/jackclarkSF/status/2080029574675697981",
+        "publishedAt": "2026-07-22T20:37:50.000Z",
+        "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+      },
+      {
+        "id": "tweet_005",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "직접 /design을 타이핑하는 데 이렇게 오래 걸린 게 슬퍼요. 하지만 Claude Design과 Claude Code로 프론트엔드 작업을 하는 건 정말 너무 좋네요.",
+        "context": "앤트로픽 소속 개발자 타리크가 Claude Design과 Claude Code를 활용한 프론트엔드 작업 경험을 공유했다. 앤트로픽 내부 개발자들 사이에서 자사 도구에 대한 만족도가 높다는 것을 보여주는 사례다.",
+        "url": "https://x.com/trq212/status/2080090919832084753",
+        "publishedAt": "2026-07-23T00:41:36.000Z",
+        "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+      },
+      {
+        "id": "tweet_006",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Claude Code용 Claude 보안 플러그인이 이제 베타 버전으로 제공됩니다.\n\n커밋 전에 변경 사항을 취약점에 대해 스캔하거나, 이미 실행 중인 Claude 추론의 터미널에서 코드베이스 전체에 대한 전체 스캔을 실행하세요.",
+        "context": "앤트로픽이 Claude Code용 보안 스캐닝 플러그인을 베타로 공개했다. 코드 커밋 전 취약점을 자동으로 점검할 수 있어 AI 코딩 에이전트의 보안 기능 강화 흐름을 보여준다.",
+        "url": "https://x.com/claudeai/status/2079990597973057691",
+        "publishedAt": "2026-07-22T18:02:57.000Z",
+        "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+      },
+      {
+        "id": "tweet_007",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "ChatGPT Voice가 이제 데스크톱 앱에 도입되었습니다.\n\n컴퓨터를 제어하고 ChatGPT Work 또는 Codex에서 실행 중인 여러 에이전트를 음성으로만 지시하세요.\n\nGPT-Live로 구동되므로, 말하고 듣고 앱 내에서 작업을 동시에 조정할 수 있습니다.",
+        "context": "OpenAI가 데스크톱 앱에 음성 제어 기반 에이전트 오케스트레이션 기능을 추가했다. 앤트로픽의 Claude 음성 모드 업그레이드와 맞물려 음성 AI 인터페이스 경쟁이 격화되는 흐름을 보여준다.",
+        "url": "https://x.com/OpenAI/status/2080378182469857576",
+        "publishedAt": "2026-07-23T19:43:04.000Z",
+        "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+      },
+      {
+        "id": "tweet_008",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "사이트가 라이브 상태입니다.\n\n이제 사이트의 성과를 확인할 수 있습니다.\n\nSites Analytics는 공개 테스트 중이며, Codex로 게시한 사이트의 기본 성과 지표를 제공합니다.",
+        "context": "OpenAI가 Codex로 배포한 웹사이트의 성과를 확인할 수 있는 Sites Analytics를 공개 테스트로 선보였다. AI 코딩 에이전트가 만든 결과물을 직접 운영·분석하는 기능까지 확장되고 있다.",
+        "url": "https://x.com/OpenAIDevs/status/2080383045472075856",
+        "publishedAt": "2026-07-23T20:02:24.000Z",
+        "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "Black Forest Labs가 새로운 멀티모달 모델 FLUX 3를 공개했습니다. FLUX 3는 이미지, 영상, 오디오를 하나의 모델에서 처리하며, 앞으로 로봇의 동작 예측까지 지원하는 것이 특징입니다. 현재는 영상과 오디오를 함께 생성하는 FLUX 3 Video가 얼리 액세스로 제공되고 있으며, 이후 이미지 생성·편집과 오픈 웨이트 모델도 순차적으로 공개될 예정입니다.",
+        "context": "국내 AI 소식 큐레이터 CHOI가 Black Forest Labs의 신규 멀티모달 모델 FLUX 3 발표 소식을 전했다. 콘텐츠 생성과 로봇 제어가 같은 기반 모델로 수렴하는 흐름을 보여주는 사례로 소개됐다.",
+        "url": "https://www.threads.com/@choi.openai/post/DbJeXDsEl8x",
+        "publishedAt": "2026-07-23T20:00:48.000Z"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "링크드인 공동 창업자이자 벤처캐피탈리스트인 리드 호프만은 AI는 인간의 생산성과 역량을 극대화하는 가장 강력한 파트너라고 강조했습니다. 코딩, 지식 노동, 프로젝트 관리 등 다양한 직무 영역에서 AI가 개별 노동자의 능력을 대폭 상향 평준화할 것이라고 언급했습니다.",
+        "context": "리드 호프만의 인터뷰 내용을 요약해 전한 게시물로, AI가 일자리를 대체하기보다 인간과 협력해 새로운 가치를 창출할 것이라는 낙관적 전망을 담고 있다.",
+        "url": "https://www.threads.com/@choi.openai/post/DbJT_RQgSug",
+        "publishedAt": "2026-07-23T18:30:10.000Z"
+      },
+      {
+        "id": "threads_003",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "오픈AI의 산업용 컴퓨팅 총괄 사친 카티는 오픈AI가 데이터센터를 짓는 곳마다 인프라 개발 비용을 전액 부담하고 있다며 전력 인프라 투자 철학을 밝혔습니다. 가장 밀도 높고 깨끗한 에너지원인 원자력 발전의 중요성을 강조했습니다.",
+        "context": "OpenAI의 전력 인프라 투자 전략을 소개한 게시물로, AI 데이터센터의 전력 수요 급증과 원자력 발전 확대 논의가 맞물려 있음을 보여준다.",
+        "url": "https://www.threads.com/@choi.openai/post/DbJJxTNgnnT",
+        "publishedAt": "2026-07-23T17:00:52.000Z"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "NeurIPS 2026에서의 프롬프트 인젝션?",
+        "originalTitle": "Prompt Injection in NeurIPS 2026? [D]",
+        "summary": "NeurIPS 2026 논문 심사 과정에서 프롬프트 인젝션 관련 논의가 제기되며 연구자들 사이에서 화제가 되고 있다. AI 학회 심사 과정에도 프롬프트 인젝션 위험이 스며들 수 있다는 우려가 담긴 토론 스레드다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1v4j1uk/prompt_injection_in_neurips_2026_d/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-07-24T01:34:33+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "Claude Code, 네이티브 코드베이스 보안 스캐닝 기능 추가",
+        "originalTitle": "Claude Code just added native codebase security scanning",
+        "summary": "앤트로픽이 공개한 Claude Code용 보안 플러그인에 대한 사용자 반응을 담은 스레드다. 커밋 전 취약점 스캐닝 기능이 실제 개발 워크플로에 미치는 영향을 논의하고 있다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1v48e9x/claude_code_just_added_native_codebase_security/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-07-23T18:01:26+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "\"$100 Fable 5 무료 크레딧\" 신청 시 유료 과금이 조용히 켜진다는 경고",
+        "originalTitle": "Warning: claiming the \"free $100 Fable 5 credits\" silently turns on paid usage billing (Pro plan)",
+        "summary": "Claude Fable 5의 무료 크레딧 프로모션을 신청하면 Pro 플랜의 유료 사용량 과금이 자동으로 활성화된다는 사용자 경고 글이다. 프로모션 약관을 꼼꼼히 확인해야 한다는 반응이 이어지고 있다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1v3yk7a/warning_claiming_the_free_100_fable_5_credits/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-07-23T09:43:46+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "허깅페이스 CEO \"그 '불량 에이전트'와 이야기 좀 하러 샌프란시스코로 간다\"",
+        "originalTitle": "CEO of Hugging face: Heading to San Francisco to have a little chat with that “rogue agent”",
+        "summary": "OpenAI 모델이 Hugging Face 인프라의 제로데이 취약점을 찾아낸 사건에 대해 허깅페이스 CEO가 남긴 반응을 다룬 스레드다. AI 모델의 자율적 침투 테스트 능력에 대한 커뮤니티의 갑론을박이 이어지고 있다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v4avga/ceo_of_hugging_face_heading_to_san_francisco_to/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-07-23T20:13:47+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "우리는 AI 없이 살 수 있지만 물 없이는 살 수 없다…데이터센터 인근 식수 오염 우려",
+        "originalTitle": "We can live without AI, but we can’t live without water. “I have a jar right here. This is the current drinking water in Morgan Country, Georgia, right after a data center was constructed.” This is what the drinking water now looks like next to that data center” Protect our environment",
+        "summary": "조지아주 모건카운티의 데이터센터 건설 이후 인근 식수가 오염됐다는 주장과 사진이 공유되며 AI 인프라 확장이 지역 환경에 미치는 영향에 대한 논쟁이 커지고 있다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1v4j8rn/we_can_live_without_ai_but_we_cant_live_without/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-07-24T01:41:17+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "일론 머스크의 OpenAI 모델 관련 트윗을 둘러싼 논쟁",
+        "originalTitle": "Elon's Tweet about OpenAI's Model",
+        "summary": "일론 머스크가 OpenAI 모델과 관련해 남긴 트윗을 두고 커뮤니티에서 사실관계와 의도를 둘러싼 다양한 해석이 오가고 있다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1v49v7c/elons_tweet_about_openais_model/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-07-23T19:22:54+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "10년 이상 경력자들은 실제로 어떻게 전문가 네트워크를 구축하고 유지하나요?",
+        "originalTitle": "Beyond 10+ years of experience, how do you actually build and maintain a strong professional network?",
+        "summary": "경력 10년 이상의 개발자들이 커리어 후반부에 전문가 네트워크를 유지하는 실질적인 방법을 공유하는 스레드로, 시니어 개발자들의 현실적인 고민이 담겨 있다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1v4lcsl/beyond_10_years_of_experience_how_do_you_actually/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-07-24T02:55:38+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "AGI 달성",
+        "originalTitle": "AGI achieved",
+        "summary": "AGI 달성을 자조 섞인 유머로 다룬 게시물로, 최근 AI 발전 속도에 대한 커뮤니티의 냉소적 반응과 밈 문화를 보여준다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1v4dcbr/agi_achieved/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-07-23T22:03:54+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_018",
+        "title": "Show HN: Echo — 오픈웨이트 모델로 Fable 수준 결과를 3분의 1 비용에",
+        "excerpt": "개발자가 GLM-5.2, Kimi K2.7 등 여러 오픈웨이트 모델을 조합해 태스크별로 최적 모델을 선택하는 시스템 'Echo'를 공개했다. Fable급 결과를 3분의 1 비용으로 낼 수 있다고 주장한다.",
+        "body": "Echo는 단일 모델에 의존하는 대신 여러 오픈웨이트 모델 풀에서 문제 유형에 맞는 최적의 모델을 자동으로 선택하는 방식을 취한다. 개발자는 동일한 평가 세트에서 여러 모델을 테스트한 뒤, 문제별 최적 모델을 조합했을 때의 성능 향상을 확인했다고 설명했다. 이는 최근 확산되는 '모델 라우팅' 접근법의 오픈소스 버전이라 할 수 있다. 고비용 폐쇄형 모델에 대한 오픈웨이트 대안 모색이 계속되고 있음을 보여준다.",
+        "url": "https://news.ycombinator.com/item?id=49026810",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-24T04:26:01+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_019",
+        "title": "美 스타트업 창업자들, 정부에 중국산 오픈웨이트 AI 차단 반대 촉구",
+        "excerpt": "여러 스타트업 창업자들이 트럼프 행정부를 향해 중국산 오픈웨이트 AI 모델에 대한 접근을 전면 차단하지 말아 달라고 공개적으로 요청했다.",
+        "body": "이들은 오픈웨이트 모델이 스타트업의 AI 연구·개발 비용을 낮추는 핵심 자원이라며, 전면 차단이 미국 스타트업 생태계에 오히려 타격을 줄 수 있다고 주장한다. 이번 청원은 문샷AI 모델을 둘러싼 증류 의혹 및 제재 논의와 맞물려 나온 것이다. 정책 결정자들 사이에서도 국가 안보와 혁신 생태계 보호 사이의 균형을 둘러싼 논쟁이 이어지고 있다. 오픈웨이트 AI 접근성이 미중 기술 패권 경쟁의 새로운 쟁점으로 부상했다.",
+        "url": "https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-24T00:18:40+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_020",
+        "title": "Show HN: OneCLI — AI 에이전트로부터 시크릿을 지키는 오픈소스 자격증명 게이트웨이",
+        "excerpt": "AI 에이전트에게 전달된 시크릿이 이후 어떻게 쓰이는지 추적하기 어렵다는 문제를 해결하기 위한 오픈소스 볼트 'OneCLI'가 공개됐다.",
+        "body": "기존의 시크릿 볼트는 자격증명을 안전하게 저장하고 요청 시 제공하는 방식이었지만, 전달 이후의 사용을 신뢰에 의존해야 했다. OneCLI는 AI 에이전트 환경에서 이 신뢰 문제를 기술적으로 해결하려는 시도다. 에이전트가 시크릿을 직접 보유하지 않고도 필요한 작업을 수행할 수 있는 구조를 지향한다. AI 에이전트의 권한 관리와 보안이 개발자 커뮤니티의 새로운 화두로 떠오르고 있다.",
+        "url": "https://github.com/onecli/onecli",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-24T00:42:40+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_021",
+        "title": "GeekNews: 모든 개발자가 SIMD를 알아야 하는 이유",
+        "excerpt": "SIMD(단일 명령 다중 데이터) 병렬 처리 기법이 일반 개발자에게도 중요한 이유를 설명하는 글이 국내 개발자 커뮤니티 GeekNews에서 화제가 됐다.",
+        "body": "SIMD는 하나의 명령으로 여러 데이터를 동시에 처리해 연산 성능을 크게 끌어올리는 기법으로, 최근 AI 추론 최적화와 고성능 컴퓨팅 전반에서 중요성이 커지고 있다. 글쓴이는 일반적인 애플리케이션 개발자도 SIMD의 기본 원리를 이해하면 성능 병목을 진단하고 개선하는 데 큰 도움이 된다고 설명한다. 충돌 감지, 이미지 처리 등 실전 사례를 통해 SIMD 활용법을 소개하는 후속 글도 함께 공유됐다. 저수준 최적화 지식에 대한 개발자들의 관심이 다시 높아지는 모습이다.",
+        "url": "https://news.hada.io/topic?id=31734",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-23T23:35:11+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      }
+    ]
+  }
+}
