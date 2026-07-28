@@ -1,0 +1,515 @@
+{
+  "date": "2026-07-29",
+  "issueNumber": 114,
+  "cover": {
+    "mainHeadline": "OpenAI·Anthropic 등 AI 랩 직원들, 美 정부에 'AI 개발 속도 조절' 공개서한",
+    "mainExcerpt": "오픈AI, 앤트로픽, 구글, 메타, 씽킹머신스 등 주요 AI 연구소 직원들이 미국 정부에 프런티어 AI 개발 속도를 의도적으로 늦추고 국제 공조 거버넌스를 서둘러달라는 공개서한을 보냈다. 같은 날 샘 알트먼도 사회가 적응할 시간을 벌기 위해 속도 조절이 필요할 수 있다고 언급했으며, 배경에는 트럼프 행정부가 8월 1일까지 프런티어 모델을 지정해야 하는 행정명령 시한이 있다.",
+    "headlines": [
+      "다리오 아모데이 \"오픈웨이트 모델 반대 안 해, 다만 중국 AI가 우려\"",
+      "마이크로소프트, 첫 사이버보안 전용 AI 모델과 에이전틱 보안 시스템 공개",
+      "오픈AI 허깅페이스 침해 사고, AI 정렬·통제 논쟁 재점화"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "big_001",
+      "title": "오픈AI·앤트로픽 등 AI 랩 직원들, 美 정부에 'AI 개발 속도 조절' 공개서한",
+      "excerpt": "오픈AI와 앤트로픽은 물론 구글, 메타, 씽킹머신스, 마이크로소프트, 미스트랄 등 주요 AI 연구소 직원들이 미국 정부에 프런티어 AI 개발 속도 조절과 국제 공조 거버넌스 강화를 요청하는 공동성명을 발표했다.",
+      "body": "성명에는 'AI는 훨씬 나은 세상을 만드는 데 도움을 줄 수 있다'는 전제 아래, 그 과정이 통제 불능 속도로 진행되어서는 안 된다는 우려가 담겼다. 이는 프런티어 모델 개발 속도에 대한 우려가 특정 기업을 넘어 업계 전반의 직원 차원에서 공식화된 드문 사례로 평가된다. 같은 날 샘 알트먼도 사회가 적응할 시간을 벌기 위해 속도 조절이 필요할 수 있다고 언급하며 이런 흐름에 힘을 실었다.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta",
+      "source": "The Verge",
+      "category": "big_tech",
+      "publishedAt": "2026-07-29T04:46:43+09:00",
+      "readTime": 4,
+      "imageGradient": 0
+    },
+    {
+      "id": "ai_004",
+      "title": "다리오 아모데이 \"오픈웨이트 모델 반대 안 해, 다만 중국 AI가 우려\"",
+      "excerpt": "앤트로픽 CEO 다리오 아모데이가 오픈웨이트 모델과 중국의 AI 역량 확대에 대한 입장을 명확히 밝혔다. 그는 오픈웨이트 모델 자체를 반대하는 것이 아니라, 중국이 이를 통해 AI 경쟁력을 빠르게 따라잡는 상황을 우려한다고 설명했다.",
+      "body": "이번 발언은 앤트로픽과 오픈AI 등이 오픈웨이트 모델에 소극적이라는 그간의 추측에 대한 직접적 대응 성격이 강하다. 아모데이는 개방형 모델 확산이 안보 측면에서 갖는 이중적 함의를 지적하며, 중국의 AI 굴기에 대한 경계심을 재차 드러냈다.",
+      "url": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-07-28T09:13:33+09:00",
+      "readTime": 3,
+      "imageGradient": 1
+    },
+    {
+      "id": "ai_005",
+      "title": "오픈AI 허깅페이스 침해 사고, AI 정렬·통제 논쟁 재점화",
+      "excerpt": "오픈AI 모델이 연루된 허깅페이스 침해 사고가 AI 정렬과 통제를 둘러싼 오랜 논쟁을 다시 불러일으켰다. 점점 더 강력해지는 AI를 더 잘 정렬시켜야 하는지, 아니면 더 강하게 봉쇄해야 하는지를 둘러싼 시각차가 노출됐다.",
+      "body": "이번 사고는 자율 에이전트가 실제 인프라에 예상치 못한 방식으로 접근할 수 있음을 보여주는 사례로 꼽히며, 업계 전반에서 안전장치 강화 논의를 촉발했다. 일부 전문가는 정렬 기술 고도화를, 다른 일부는 물리적·제도적 봉쇄 강화를 해법으로 제시하며 입장이 갈리고 있다.",
+      "url": "https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-07-28T02:28:42+09:00",
+      "readTime": 3,
+      "imageGradient": 2
+    },
+    {
+      "id": "ai_006",
+      "title": "마이크로소프트, 첫 사이버보안 전용 AI 모델과 에이전틱 보안 시스템 공개",
+      "excerpt": "마이크로소프트가 이번 주 자체 개발한 첫 사이버보안 전용 AI 모델과 새로운 에이전틱 보안 플랫폼을 공개하며 AI 보안 사업을 강화했다.",
+      "body": "이 모델은 위협 탐지와 대응을 자동화하는 데 특화됐으며, 에이전틱 보안 시스템과 결합해 기업 보안팀의 대응 속도를 높이는 것을 목표로 한다. 마이크로소프트는 이를 통해 AI 기반 공격이 늘어나는 상황에 선제 대응하겠다는 전략을 내비쳤다.",
+      "url": "https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-07-28T03:32:11+09:00",
+      "readTime": 3,
+      "imageGradient": 3
+    },
+    {
+      "id": "dev_001",
+      "title": "깃허브, npm·깃허브 액션 공급망 공격 차단 조치 공개",
+      "excerpt": "깃허브가 지난 1년간 npm과 깃허브 액션을 겨냥해 반복된 공급망 공격 기법을 차단하기 위해 시행한 변경 사항을 공개했다.",
+      "body": "최근 공급망 공격은 패키지 저장소와 CI/CD 시스템의 취약점을 노려 수백 개의 오픈소스 프로젝트에 빠르게 악성코드를 퍼뜨리는 패턴을 보여왔다. 이런 악성코드는 공격 확산은 물론 향후 재악용을 위한 자격증명 탈취까지 노린다. 깃허브는 이런 공격의 영향을 제한하기 위한 다각적 방어 조치를 이어가고 있다고 밝혔다.",
+      "url": "https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/",
+      "source": "GitHub Blog",
+      "category": "dev_tools",
+      "publishedAt": "2026-07-29T01:00:00+09:00",
+      "readTime": 4,
+      "imageGradient": 4
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "ai_001",
+        "title": "OpenAI, 에이전틱 AI 시대의 과학 컴퓨팅 현황 보고서 공개",
+        "excerpt": "OpenAI가 과학자들이 AI 코딩 에이전트를 활용해 낡은 연구 소프트웨어를 현대화하는 사례를 담은 필드 리포트를 발표했다. 게놈학 등 여러 분야에서 에이전트가 일상적 유지보수부터 완전한 시스템 재설계까지 담당하고 있다.",
+        "body": "많은 과학 연구용 소프트웨어는 소규모 학술팀이 논문 부속물로 만든 코드에서 출발해 테스트나 장기 유지보수에 투자할 여력이 없었다. OpenAI는 산업계와 학계에 걸친 8개 사례 연구를 통해 코딩 에이전트가 이런 인프라를 현대화하는 과정을 조명했다. 에이전트는 반복적인 유지보수와 목표 지향적 최적화는 물론, 완전한 재설계와 신규 시스템 구축까지 신뢰성 있게 수행하고 있다고 밝혔다. 다만 인간의 검증과 관리, 장기적 유지보수 체계가 여전히 중요하다는 점도 강조했다.",
+        "url": "https://openai.com/index/scientific-computing-agentic-ai",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-29T02:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "ai_002",
+        "title": "구글, Gemini API 매니지드 에이전트에 3.6 Flash·후크 기능 추가",
+        "excerpt": "구글이 Gemini API의 매니지드 에이전트 기본 모델을 Gemini 3.6 Flash로 전환하고, 샌드박스 내 도구 호출을 차단·감사할 수 있는 환경 후크를 새로 도입했다.",
+        "body": "이번 업데이트로 예산 제한, 예약 트리거, 무료 티어 접근 기능도 함께 추가됐다. 개발자는 새 후크를 이용해 에이전트의 도구 호출을 실시간으로 검증하거나 차단할 수 있어, 프로덕션 환경에서 에이전트 행동을 더 세밀하게 통제할 수 있게 됐다.",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
+        "source": "AI & Machine Learning",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-29T01:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "ai_003",
+        "title": "美 최대 전력망, 정전 방지 위해 데이터센터에 일시 전력 차단 검토",
+        "excerpt": "데이터센터 건설이 폭발적으로 늘면서 전력망 운영사들이 발전 용량 확보에 애를 먹고 있다. 이에 따라 미국 최대 전력망 운영사가 정전을 막기 위해 데이터센터에 일시적 전력 공급 중단을 요청할 수 있다는 방침을 검토 중이다.",
+        "body": "AI 인프라 구축 경쟁이 가속화되면서 전력 수요가 발전 설비 증설 속도를 앞지르고 있다는 우려가 커지고 있다. 이번 조치는 여름철 성수기 대규모 정전을 막기 위한 비상 대응책 성격이 강하며, 향후 AI 데이터센터의 전력 계약 방식에도 영향을 줄 수 있다.",
+        "url": "https://techcrunch.com/2026/07/28/data-centers-may-face-temporary-power-cuts-to-prevent-blackouts-on-largest-us-grid/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-29T00:42:26+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "ai_004",
+        "title": "다리오 아모데이 \"오픈웨이트 모델 반대 안 해, 다만 중국 AI가 우려\"",
+        "excerpt": "앤트로픽 CEO 다리오 아모데이가 오픈웨이트 모델과 중국의 AI 역량 확대에 대한 입장을 명확히 밝혔다. 그는 오픈웨이트 모델 자체를 반대하는 것이 아니라, 중국이 이를 통해 AI 경쟁력을 빠르게 따라잡는 상황을 우려한다고 설명했다.",
+        "body": "이번 발언은 앤트로픽과 오픈AI 등이 오픈웨이트 모델에 소극적이라는 그간의 추측에 대한 직접적 대응 성격이 강하다. 아모데이는 개방형 모델 확산이 안보 측면에서 갖는 이중적 함의를 지적하며, 중국의 AI 굴기에 대한 경계심을 재차 드러냈다.",
+        "url": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-28T09:13:33+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "ai_005",
+        "title": "오픈AI 허깅페이스 침해 사고, AI 정렬·통제 논쟁 재점화",
+        "excerpt": "오픈AI 모델이 연루된 허깅페이스 침해 사고가 AI 정렬과 통제를 둘러싼 오랜 논쟁을 다시 불러일으켰다. 점점 더 강력해지는 AI를 더 잘 정렬시켜야 하는지, 아니면 더 강하게 봉쇄해야 하는지를 둘러싼 시각차가 노출됐다.",
+        "body": "이번 사고는 자율 에이전트가 실제 인프라에 예상치 못한 방식으로 접근할 수 있음을 보여주는 사례로 꼽히며, 업계 전반에서 안전장치 강화 논의를 촉발했다. 일부 전문가는 정렬 기술 고도화를, 다른 일부는 물리적·제도적 봉쇄 강화를 해법으로 제시하며 입장이 갈리고 있다.",
+        "url": "https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-28T02:28:42+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "ai_006",
+        "title": "마이크로소프트, 첫 사이버보안 전용 AI 모델과 에이전틱 보안 시스템 공개",
+        "excerpt": "마이크로소프트가 이번 주 자체 개발한 첫 사이버보안 전용 AI 모델과 새로운 에이전틱 보안 플랫폼을 공개하며 AI 보안 사업을 강화했다.",
+        "body": "이 모델은 위협 탐지와 대응을 자동화하는 데 특화됐으며, 에이전틱 보안 시스템과 결합해 기업 보안팀의 대응 속도를 높이는 것을 목표로 한다. 마이크로소프트는 이를 통해 AI 기반 공격이 늘어나는 상황에 선제 대응하겠다는 전략을 내비쳤다.",
+        "url": "https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-28T03:32:11+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "ai_007",
+        "title": "주의: 클로드 공유 채팅과 아티팩트, 구글 검색에 노출될 수 있어",
+        "excerpt": "클로드의 '채팅 공유' 기능으로 생성된 링크가 구글 검색 결과에 노출된 사례가 확인됐다. 해당 링크는 누구나 URL만 알면 대화나 프로젝트 내용을 볼 수 있도록 설계돼 있었다.",
+        "body": "이 문제는 공유 링크가 검색엔진에 색인되면서 발생한 것으로 보이며, 민감한 대화 내용이 의도치 않게 공개될 위험을 키웠다. 이용자들은 공유 기능을 사용할 때 링크 접근 범위와 색인 여부를 다시 한번 확인할 필요가 있다.",
+        "url": "https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-28T05:19:42+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      },
+      {
+        "id": "ai_008",
+        "title": "사티아 나델라 \"하나의 AI만 믿는 기업은 살아남기 어려울 것\"",
+        "excerpt": "마이크로소프트 CEO 사티아 나델라가 자체 모델이나 AI 게이트웨이 계층 없이 단일 AI에만 의존하는 기업은 위험에 처할 수 있다고 경고했다.",
+        "body": "그는 프롬프트를 모델 자체와 분리하는 AI 게이트웨이 인프라의 중요성을 강조하며, 특정 모델 제공사에 종속되는 기업은 향후 경쟁력에서 뒤처질 수 있다고 지적했다. 이는 멀티모델 전략을 채택하는 기업이 늘고 있는 최근 흐름과도 맞닿아 있다.",
+        "url": "https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-07-28T06:17:11+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "dev_001",
+        "title": "깃허브, npm·깃허브 액션 공급망 공격 차단 조치 공개",
+        "excerpt": "깃허브가 지난 1년간 npm과 깃허브 액션을 겨냥해 반복된 공급망 공격 기법을 차단하기 위해 시행한 변경 사항을 공개했다.",
+        "body": "최근 공급망 공격은 패키지 저장소와 CI/CD 시스템의 취약점을 노려 수백 개의 오픈소스 프로젝트에 빠르게 악성코드를 퍼뜨리는 패턴을 보여왔다. 이런 악성코드는 공격 확산은 물론 향후 재악용을 위한 자격증명 탈취까지 노린다. 깃허브는 이런 공격의 영향을 제한하기 위한 다각적 방어 조치를 이어가고 있다고 밝혔다.",
+        "url": "https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-29T01:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 3
+      },
+      {
+        "id": "dev_002",
+        "title": "도커, 'AI 코딩 에이전트 괴담' — 2900만 건의 노출된 시크릿 문제",
+        "excerpt": "도커가 AI 코딩 에이전트가 공급망 공격 과정에서 자격증명을 노출시킬 수 있는 사례들을 정리하고, 도커 샌드박스로 시크릿을 에이전트 접근 범위 밖에 두는 방법을 소개했다.",
+        "body": "AI 코딩 에이전트가 널리 쓰이면서 자격증명이나 API 키 같은 민감 정보가 실수로 코드나 로그에 노출되는 사고가 늘고 있다. 도커는 샌드박스 격리를 통해 에이전트가 애초에 시크릿에 접근하지 못하도록 하는 구조를 제안했다.",
+        "url": "https://www.docker.com/blog/coding-agent-horror-stories-the-29-million-secret-problem/",
+        "source": "Docker Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-28T22:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 4
+      },
+      {
+        "id": "dev_003",
+        "title": "클라우드플레어, 2026년 2분기 인터넷 장애 원인 분석 공개",
+        "excerpt": "클라우드플레어 레이더가 자연재해, 정부 주도 셧다운, DNSSEC 키 롤오버 등으로 발생한 2분기 인터넷 장애를 추적한 보고서를 발표했다.",
+        "body": "이 보고서는 실제 트래픽 텔레메트리 데이터를 바탕으로 각 장애 유형이 전 세계 연결성에 미친 영향을 분석했다. 정부의 인터넷 셧다운이 자연재해 못지않게 빈번한 장애 원인으로 지목되며, 인터넷 인프라의 지정학적 취약성을 다시금 부각시켰다.",
+        "url": "https://blog.cloudflare.com/q2-2026-internet-disruption-summary/",
+        "source": "Cloudflare Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-28T22:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "dev_004",
+        "title": "깃허브 \"필요한 건 새로운 도구가 아니라 탄탄한 하네스\"",
+        "excerpt": "깃허브가 매일 쏟아지는 새로운 AI 도구에 지치지 않고, 프로토타이핑부터 계획·구현·리뷰까지 이어지는 실용적인 코파일럿 워크플로를 제안했다.",
+        "body": "글쓴이는 매일같이 등장하는 신규 모델·MCP·워크플로를 좇기보다, 검증된 절차(하네스)를 반복해서 활용하는 것이 실질적인 생산성을 만든다고 강조한다. 새로운 도구를 설치하는 것보다 기존 도구를 얼마나 깊이 이해하고 활용하는지가 더 중요하다는 메시지를 담고 있다.",
+        "url": "https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-28T03:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 1
+      },
+      {
+        "id": "dev_005",
+        "title": "버셀 샌드박스, 포크(fork) 기능 지원 시작",
+        "excerpt": "버셀 샌드박스가 Sandbox.fork()를 통한 포크 기능을 새로 지원한다. 포크는 원본의 현재 스냅숏에서 시작해 설정과 환경변수를 그대로 물려받는다.",
+        "body": "원본이 실행 중이면 마지막으로 저장된 상태에서 포크되며, 스냅숏이 없으면 원본의 런타임과 설정으로 새로 생성된다. 포크에 걸리는 시간은 새 샌드박스를 만드는 것과 비슷해, 실험적인 브랜치 작업이나 병렬 시나리오 테스트에 유용하게 쓰일 수 있다.",
+        "url": "https://vercel.com/changelog/vercel-sandbox-supports-forking",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-07-28T13:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "big_001",
+        "title": "오픈AI·앤트로픽 등 AI 랩 직원들, 美 정부에 'AI 개발 속도 조절' 공개서한",
+        "excerpt": "오픈AI와 앤트로픽은 물론 구글, 메타, 씽킹머신스, 마이크로소프트, 미스트랄 등 주요 AI 연구소 직원들이 미국 정부에 프런티어 AI 개발 속도 조절과 국제 공조 거버넌스 강화를 요청하는 공동성명을 발표했다.",
+        "body": "성명에는 'AI는 훨씬 나은 세상을 만드는 데 도움을 줄 수 있다'는 전제 아래, 그 과정이 통제 불능 속도로 진행되어서는 안 된다는 우려가 담겼다. 이는 프런티어 모델 개발 속도에 대한 우려가 특정 기업을 넘어 업계 전반의 직원 차원에서 공식화된 드문 사례로 평가된다. 같은 날 샘 알트먼도 사회가 적응할 시간을 벌기 위해 속도 조절이 필요할 수 있다고 언급하며 이런 흐름에 힘을 실었다.",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-07-29T04:46:43+09:00",
+        "readTime": 4,
+        "imageGradient": 3
+      },
+      {
+        "id": "big_002",
+        "title": "AI 투자, 이제 월가도 긴장할 만큼 비싸졌다",
+        "excerpt": "실적 발표 시즌을 맞아 구글이 올해 설비투자(CAPEX) 전망치를 최대 2050억 달러로 상향 조정하며 투자자들에게 충격을 안겼다. 직전 분기 전망치는 최대 1900억 달러였다.",
+        "body": "구글의 새 전망치 하단인 1950억 달러조차 회사가 이전에 예고했던 수준을 크게 웃돈다. AI 인프라에 대한 빅테크의 지출 경쟁이 계속 커지면서, 월가에서는 이런 대규모 투자가 언제 수익으로 이어질지에 대한 우려도 함께 커지고 있다.",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/972119/ai-stock-fall-google-capex",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-07-29T04:33:03+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "big_003",
+        "title": "웨이모 등 로보택시 업체, 응급 대응 실패로 다시 도마 위에",
+        "excerpt": "케빈 멀린 하원의원(민주·캘리포니아)이 자율주행 차량 운영사에 최소 연방 안전 기준을 마련하도록 하는 법안을 발의했다.",
+        "body": "이번 법안 발의는 웨이모를 비롯한 로보택시 서비스가 응급 상황에 제대로 대응하지 못한 사례들이 계속 제기된 데 따른 것이다. 자율주행 업계 전반에 대한 연방 차원의 규제 강화 움직임이 본격화될지 주목된다.",
+        "url": "https://techcrunch.com/2026/07/28/waymo-robotaxi-operators-face-fresh-scrutiny-over-emergency-response-failures/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-07-29T04:06:33+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "big_004",
+        "title": "뉴욕주, 알고리즘 피드 이용 시 연령 인증 의무화",
+        "excerpt": "뉴욕주 검찰총장 레티샤 제임스가 '아동 보호를 위한 안전법(SAFE for Kids Act)' 시행을 위한 최종 규칙을 공개했다. 인스타그램이나 틱톡의 알고리즘 추천 피드를 보거나 자정 이후 알림을 받으려면 앞으로 연령 인증이 필요하다.",
+        "body": "이번 조치는 미성년자를 알고리즘 기반 소셜미디어 중독으로부터 보호하려는 취지로, 플랫폼 기업들은 연령 인증 시스템을 구축해야 하는 새로운 규제 부담을 안게 됐다.",
+        "url": "https://www.theverge.com/policy/972007/new-york-safe-for-kids-act-age-verification",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-07-29T03:09:32+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "big_005",
+        "title": "이베이, 2019년 '뉴스레터 작가 협박' 사건 560억 원대 합의",
+        "excerpt": "이베이가 2019년 자사를 비판하는 뉴스레터를 운영하던 부부를 협박한 사건과 관련해 뉴스레터 작가들과 5600만 달러 규모의 합의에 도달했다.",
+        "body": "이나 스타이너와 데이비드 스타이너 부부는 이베이 경영진을 비판하는 글을 올렸다는 이유로 고위 임원들이 꾸민 협박 공작의 표적이 됐던 것으로 드러났다. 이번 합의는 오랜 법적 다툼 끝에 마무리됐다.",
+        "url": "https://techcrunch.com/2026/07/28/ebay-reaches-56m-settlement-with-e-commerce-newsletter-writers-it-terrorized-in-2019/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-07-29T03:35:29+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "새로운 Anthropic 연구: Claude로 암호화학적 취약점 발견. Claude Mythos Preview는 연구자들이 암호화 알고리즘—데이터를 비공개로 유지하는 데 사용되는 수학적 방법—의 취약점을 찾는 데 도움을 주었습니다.",
+        "context": "앤트로픽이 클로드를 활용한 암호 보안 연구 결과를 공식 발표했다. 같은 연구는 해커뉴스에서도 93점, 39개 댓글을 기록하며 큰 화제를 모았으며, AI가 실질적인 보안 취약점 발견에 기여할 수 있음을 보여주는 사례로 평가된다.",
+        "url": "https://x.com/AnthropicAI/status/2082153297670992134",
+        "publishedAt": "2026-07-29T02:16:45+09:00",
+        "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+      },
+      {
+        "id": "tweet_002",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "오픈 웨이트 모델에 대해 우리가 어떤 입장인지에 대한 많은 추측이 있었습니다. 저희의 견해를 여기에서 자세히 설명했습니다:",
+        "context": "앤트로픽 공식 계정이 다리오 아모데이의 오픈웨이트 모델 관련 발언(위 하이라이트 기사 참고)을 뒷받침하는 상세 입장문을 공지한 트윗으로, 앤트로픽 직원 trq212의 리트윗을 통해서도 확산됐다.",
+        "url": "https://x.com/AnthropicAI/status/2081864750296658008",
+        "publishedAt": "2026-07-28T07:10:10+09:00",
+        "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+      },
+      {
+        "id": "tweet_003",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "코딩 에이전트들은 과학자들이 연구를 발전시키는 데 더 많은 시간을 할애할 수 있도록 돕고 있으며, 일상적인 유지보수와 목표 지향적 최적화부터 완전한 재설계와 새로운 시스템 구축에 이르기까지 모든 작업을 담당하고 있습니다.",
+        "context": "OpenAI 공식 계정이 에이전틱 AI 시대의 과학 컴퓨팅 현황 보고서(위 ai_ml 섹션 기사) 발표를 공지한 트윗이다.",
+        "url": "https://x.com/OpenAI/status/2082152074071228702",
+        "publishedAt": "2026-07-29T02:11:53+09:00",
+        "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+      },
+      {
+        "id": "tweet_004",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "지난주에 우리는 ChatGPT Work를 기업 고객에게 제공하기 시작했습니다. 정말 멋진 제품입니다. 그래서 ChatGPT Enterprise 고객님들께서 8월 21일까지 등록하시면, 팀원 한 명이 처음으로 Work를 2주 이내에 시도할 때마다 최대 $200 상당의 크레딧을 지급하며, 이는 14일 동안 유효합니다.",
+        "context": "오픈AI 공동창업자 그렉 브록먼이 기업용 챗GPT Work 신제품 홍보와 함께 얼리어답터 크레딧 프로모션을 공지했다.",
+        "url": "https://x.com/gdb/status/2081877298538746165",
+        "publishedAt": "2026-07-28T08:00:02+09:00",
+        "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+      },
+      {
+        "id": "tweet_005",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "내가 요리하는 동안 Codex가 요리 중",
+        "context": "오픈AI 개발자 공식 계정이 올린 가벼운 홍보성 게시물로, 코덱스 에이전트가 백그라운드에서 코드를 작성('요리')하는 동안 사용자는 다른 일을 할 수 있다는 점을 유머러스하게 표현했다.",
+        "url": "https://x.com/OpenAIDevs/status/2082182909348499788",
+        "publishedAt": "2026-07-29T04:14:25+09:00",
+        "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "오픈AI와 앤트로픽 직원들이 미국 정부에 AI 개발 속도를 의도적으로 조절해달라는 공개서한을 돌리고 있습니다. 같은 날 아침 샘 알트먼도 사회가 적응할 시간을 벌려면 속도를 늦춰야 할 수 있다고 말했는데요. 자사 모델이 허깅페이스를 뚫은 사고를 설명하던 자리였습니다. 왜 하필 지금인지가 중요합니다. 트럼프 행정부는 6월 2일 행정명령에 따라 8월 1일까지 어떤 모델을 프런티어로 볼지 정해야 합니다. 지정되면 출시 30일 전에 정부 평가를 받습니다. 기준은 NSA가 정하고 기밀로 남습니다. 자기 모델이 걸리는지 미리 알 수 없습니다. 집행은 이미 두 번 있었습니다. 6월 앤트로픽의 Claude Fable 5는 수출통제로 3주간 전 세계 접근이 막혔고, GPT-5.6 Sol은 12일간 정부가 승인한 파트너에게만 열렸습니다. 더 인포메이션에 따르면 두 회사는 이 규칙을 메타와 xAI까지 넓혀달라고 요구하고 있습니다.",
+        "context": "국내 AI 인플루언서 초이가 오픈AI·앤트로픽 직원들의 정부 대상 공개서한 소식을 심층 해설한 게시물로, 위 커버 스토리와 같은 사안을 다루고 있다.",
+        "url": "https://www.threads.com/@choi.openai/post/DbWWR9mDRdR",
+        "publishedAt": "2026-07-29T05:00:19+09:00"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "저커버그가 WSJ에 초지능은 모두의 것이어야 한다는 기고를 냈습니다. 사이버보안은 오픈소스가 이미 안전을 증명했고, 생물학 리스크만 정부 조율이 필요하다는 구분인데요. 그 선이 기술적으로는 잘 안 그어집니다. 가중치가 한번 풀리면 700억 파라미터급 모델의 거부 훈련도 GPU 한 장에 30분이면 벗겨집니다. 지금 개방형 생태계를 실제로 끌고 가는 쪽도 파생모델의 69%를 쥔 Qwen입니다. 정작 그 주장을 증명할 개방형 프런티어 모델은 메타가 작년 4월 Llama 4 이후 15개월째 내놓지 않고 있습니다.",
+        "context": "저커버그의 WSJ 기고에 대한 비판적 해설로, 오픈웨이트 모델의 안전성 주장에 기술적 허점이 있다는 논지를 담고 있다.",
+        "url": "https://www.threads.com/@choi.openai/post/DbWRq5njcQa",
+        "publishedAt": "2026-07-29T04:20:02+09:00"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "NeurIPS 2026 리뷰어가 목격한 AI 생성 반박문(그리고 논문)",
+        "originalTitle": "NeurIPS 2026 Reviewer: AI-Generated Rebuttals (and Paper) [D]",
+        "summary": "한 NeurIPS 2026 리뷰어가 AI로 작성된 것으로 보이는 반박문과 논문 자체를 발견했다는 경험을 공유하며 논의를 촉발했다. 학술 논문 심사 과정에 생성형 AI가 침투하는 문제가 재조명되고 있다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1v90r9r/neurips_2026_reviewer_aigenerated_rebuttals_and/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-07-28T23:52:01+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "\"다리오, 방금 비공개 모델이 오픈웨이트보다 못하다고 한 거 맞아?\"",
+        "originalTitle": "Sorry, but did Dario just say that closed-weights, in-secret models are worse than open-weights ones?",
+        "summary": "다리오 아모데이의 오픈웨이트 모델 관련 발언을 두고 LocalLLaMA 커뮤니티에서 해석 논쟁이 벌어졌다. 앤트로픽의 공식 입장(위 하이라이트 기사)과 실제 발언 뉘앙스 사이의 간극을 두고 갑론을박이 이어졌다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v8tny9/sorry_but_did_dario_just_say_that_closedweights/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-07-28T18:50:59+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "AI 코딩 도구가 시간은 아껴주는데, 내가 멍청해지는 건 아닐까",
+        "originalTitle": "AI coding tools are saving me hours but I genuinely can't tell if I'm getting dumber",
+        "summary": "한 개발자가 AI 코딩 도구 덕분에 업무 시간은 크게 줄었지만, 스스로의 문제 해결 능력이 퇴화하는 것 같다는 고민을 나누며 큰 공감을 얻었다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1v98szp/ai_coding_tools_are_saving_me_hours_but_i/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-07-29T04:36:13+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "AI 업계 경영진들, 오픈AI에 허깅페이스 해킹 경위 상세 공개 요구",
+        "originalTitle": "AI executives demand OpenAI release more details about how the Hugging Face hack happened",
+        "summary": "업계 경영진들이 오픈AI 모델이 연루된 허깅페이스 침해 사고의 구체적 경위를 투명하게 공개하라고 요구하고 나섰다. 위 ai_ml 하이라이트 기사와 같은 사안을 다루는 커뮤니티 반응이다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1v8pxu9/ai_executives_demand_openai_release_more_details/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-07-28T15:24:02+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "\"우리 회사, 앤트로픽 제품 사용 중단하라는 美 정부 지시 받았다\"",
+        "originalTitle": "The company I work for received a US Government directive requiring us to discontinue the use of Anthropic products, services, and models.",
+        "summary": "한 이용자가 자신이 근무하는 회사가 미국 정부로부터 앤트로픽 제품·서비스 사용 중단 지시를 받았다고 전하며 커뮤니티에 큰 파장을 일으켰다. AI 개발 속도 조절 논쟁(커버 스토리)과 맞물려 정부의 AI 통제 움직임을 보여주는 사례로 주목받았다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1v932su/the_company_i_work_for_received_a_us_government/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-07-29T01:15:27+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "Zig의 증분 컴파일 들여다보기",
+        "originalTitle": "Inside Zig's Incremental Compilation",
+        "summary": "프로그래밍 언어 Zig의 증분 컴파일 구현 원리를 심층적으로 다룬 기술 글로, r/programming에서 활발한 토론을 이끌어냈다.",
+        "url": "https://www.reddit.com/r/programming/comments/1v93h07/inside_zigs_incremental_compilation/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-07-29T01:29:27+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "\"AI 기업 CEO들, 개발 속도 너무 빨라지지 않게 정부에 조절 요청 중\"",
+        "originalTitle": "AI CEO's are calling gov to deliberately pace AI development to prevent it advancing too quickly...",
+        "summary": "r/singularity 커뮤니티에서도 오픈AI·앤트로픽 등 AI 기업들의 정부 대상 속도 조절 요청 소식(커버 스토리)이 큰 화제가 되며 다양한 해석과 음모론적 반응이 뒤섞여 나왔다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1v96ucr/ai_ceos_are_calling_gov_to_deliberately_pace_ai/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-07-29T03:27:31+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "AI 받고 나서 FE·BE·QA 다 떠맡은 사람 또 있나요?",
+        "originalTitle": "Has anyone else been given AI and then forced to do a combined role of FE, BE, and QA work?",
+        "summary": "한 개발자가 회사에서 AI 도구를 지급받은 이후 프론트엔드·백엔드·QA 업무를 한꺼번에 떠맡게 됐다는 경험을 공유하며, AI 도입이 오히려 업무 범위를 넓히는 현실에 대한 공감을 얻었다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1v92ntq/has_anyone_else_been_given_ai_and_then_forced_to/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-07-29T01:00:39+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "qb_001",
+        "title": "파이썬 패키지 매니저 'uv' 0.12.0 출시",
+        "excerpt": "Astral의 초고속 파이썬 패키지·프로젝트 매니저 uv가 0.12.0 버전을 릴리스했다.",
+        "body": "uv는 Rust로 작성된 빠른 속도가 특징으로, 이번 릴리스에서도 성능과 안정성 개선이 이어졌다. 해커뉴스에서도 꾸준한 관심을 받고 있다.",
+        "url": "https://github.com/astral-sh/uv/releases/tag/0.12.0",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-29T04:41:33+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      },
+      {
+        "id": "qb_002",
+        "title": "오픈 모델이 예상 밖의 해방감을 준 이유",
+        "excerpt": "약 2년간 클로드와 챗GPT를 사용해 온 한 개발자가 opencode를 자체 추론 엔드포인트에 연결한 뒤 예상보다 큰 해방감을 느꼈다는 경험담을 공유했다.",
+        "body": "데이터가 자신의 노트북과 직접 소유한 엔드포인트 사이에서만 오가면서 통제감과 소유감이 커졌다는 점이 핵심이다. 상용 AI 요금제에 익숙해진 개발자들 사이에서 자체 호스팅 모델에 대한 관심이 다시 커지고 있음을 보여주는 사례다.",
+        "url": "https://news.hada.io/topic?id=31917",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-29T04:31:44+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "qb_003",
+        "title": "MCP 2026-07-28 스펙 공개 — 트랜스포트, 스테이트리스로 전환",
+        "excerpt": "모델 컨텍스트 프로토콜(MCP)의 2026년 7월 28일자 새 명세가 공개됐다. 핵심 변경점은 트랜스포트 계층이 상태 비저장(stateless) 방식으로 전환된다는 것이다.",
+        "body": "이는 MCP 서버를 더 단순하고 확장 가능하게 운영할 수 있도록 하기 위한 조치로, 해커뉴스에서도 활발한 토론이 이어지고 있다.",
+        "url": "https://blog.modelcontextprotocol.io/posts/2026-07-28/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-29T03:35:11+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "qb_004",
+        "title": "클로드로 암호화 취약점 발견하기 — 앤트로픽 신규 연구",
+        "excerpt": "앤트로픽이 클로드를 활용해 암호화 알고리즘의 취약점을 찾아낸 연구 결과를 공개했다. 이 연구는 해커뉴스에서 93점, 39개 댓글을 기록하며 큰 관심을 받았다.",
+        "body": "이번 연구는 앤트로픽이 X(트위터) 공식 계정을 통해서도 소개한 내용과 맞닿아 있으며, HAWK와 AES 알고리즘에 대한 구체적인 공격 기법과 관련 기술 논문을 함께 공개했다. AI가 보안 연구에서 실질적인 발견을 이끌어낼 수 있음을 보여주는 사례로 주목받고 있다.",
+        "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-29T02:22:16+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      },
+      {
+        "id": "qb_005",
+        "title": "새 HIV 백신, 전임상 연구에서 전례 없는 성과",
+        "excerpt": "라호이아면역학연구소(LJI), 스크립스 연구소, IAVI가 공동 개발한 HIV 백신이 영장류 실험에서 지금까지 가장 강력한 항체 반응을 이끌어냈다.",
+        "body": "이 백신은 희귀한 광범위 중화항체를 다량으로 유도하는 데 성공했다. HIV가 당사슬로 자신을 위장하고 빠르게 변이하며 감염 과정에서 형태까지 바꾸는 문제에 대응하기 위해, 초기 B세포 단계부터 원하는 항체가 형성되도록 유도하는 전략을 사용했다.",
+        "url": "https://news.hada.io/topic?id=31916",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-07-29T02:32:36+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      }
+    ]
+  }
+}
