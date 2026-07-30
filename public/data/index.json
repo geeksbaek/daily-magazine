@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-07-31",
+      "issueNumber": 116,
+      "mainHeadline": "오픈AI, GPT-5.6 가격 최대 80% 인하 — AI 업계 '가격 경쟁' 새 국면",
+      "headlines": [
+        "구글 딥마인드, 발끝부터 손끝까지 제어하는 로봇 AI 'Gemini Robotics 2' 공개",
+        "씽킹머신스, 4분의 1 크기 오픈웨이트 'Inkling-Small' 전격 출시",
+        "옥타, AI 에이전트 보안 스타트업 퍼미소 2억 달러에 인수"
+      ]
+    },
+    {
       "date": "2026-07-30",
       "issueNumber": 115,
       "mainHeadline": "美 정부, 중국산 휴머노이드·로봇청소기 등 전면 수입 금지 — 로보틱스도 국가안보 전선에",
