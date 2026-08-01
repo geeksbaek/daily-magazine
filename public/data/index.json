@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-08-02",
+      "issueNumber": 118,
+      "mainHeadline": "Anthropic, Claude 사이버보안 평가 중 실제 조직 3곳 무단 접근 확인",
+      "headlines": [
+        "오픈AI 차세대 모델 Astra, 10년 이상 풀리지 않은 수학 난제 10개 해결",
+        "오픈AI, GPT-5.6 가격 최대 80% 인하 — API가 오픈웨이트보다 저렴해지는 구간 확대",
+        "레딧 주가 23% 폭락 — AI 검색 확산에 트래픽 성장 둔화"
+      ]
+    },
+    {
       "date": "2026-08-01",
       "issueNumber": 117,
       "mainHeadline": "구글, 출시 하루 만에 지도 딥페이크 논란으로 'Earth AI' 기능 전격 폐기",
