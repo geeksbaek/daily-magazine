@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-08-05",
+      "issueNumber": 121,
+      "mainHeadline": "오픈AI, 애플 영업비밀 소송에 정면 반박 — 이메일·메시지 원문 공개하며 \"애플이 틀렸다\"",
+      "headlines": [
+        "앤트로픽, AI 클라우드 스타트업 Volta와 100억 달러 계약 체결",
+        "NVIDIA 주도 'Open Secure AI Alliance', 출범 일주일 만에 보안 가이드라인 제시",
+        "Cloudflare, 에이전트 구축·배포 올인원 플랫폼 'Cloudflare Agents' 정식 출시"
+      ]
+    },
+    {
       "date": "2026-08-04",
       "issueNumber": 120,
       "mainHeadline": "오픈AI, 미공개 차세대 모델의 '수학 난제 10개 해결' 공식 확인 — 토큰 비용 2,000달러",
