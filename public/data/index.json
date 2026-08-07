@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-08-08",
+      "issueNumber": 124,
+      "mainHeadline": "OpenAI 차세대 모델 'Astra', 사이버보안 능력 '치명적' 등급 첫 지정",
+      "headlines": [
+        "Cloudflare, AI 에이전트 전용 브라우저 'Kitesurf' 전격 공개",
+        "구글 AI 조직 개편 파장 — 제프 딘 등 핵심 인재 잇단 이탈",
+        "뉴멕시코 법원, 메타에 아동 안전 소송 5억6,700만 달러 추가 배상 명령"
+      ]
+    },
+    {
       "date": "2026-08-07",
       "issueNumber": 123,
       "mainHeadline": "오픈AI, ChatGPT 무료 사용자에게 무제한 텍스트 채팅 전면 개방",
