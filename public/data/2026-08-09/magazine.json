@@ -1,0 +1,674 @@
+{
+  "date": "2026-08-09",
+  "issueNumber": 125,
+  "cover": {
+    "mainHeadline": "OpenAI 차세대 모델 'Astra', 사이버보안 능력 '치명적' 등급 첫 지정",
+    "mainExcerpt": "OpenAI가 개발 중인 Astra 모델이 자체 준비 프레임워크 기준 사이버보안 분야에서 '치명적' 등급에 처음 도달했다고 밝혔다. 샘 올트먼과 그렉 브록만은 X를 통해 안전이 확보되는 대로 폭넓게 공개하겠다는 방침을 재확인했다.",
+    "headlines": [
+      "Firebird, 아르메니아에 CIS 최대 규모 AI 팩토리 가동",
+      "Cloudflare, Workers AI와 AI Gateway를 단일 AI 제어판으로 통합",
+      "OpenAI, 프레젠테이션 스타트업 NextSlide 인수"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_001",
+      "title": "OpenAI 차세대 모델 'Astra', 사이버보안 능력 '치명적' 등급 첫 지정",
+      "excerpt": "OpenAI가 개발 중인 차세대 모델 Astra가 자체 준비 프레임워크 기준으로 사이버보안 분야에서 '치명적' 등급에 처음 도달했다고 밝혔다. 전통적으로 보안이 견고한 실제 시스템에 대해 독자적으로 사이버공격을 식별하고 수행할 수 있는 수준이라는 의미다.",
+      "body": "OpenAI는 아직 개발 중인 Astra 모델이 자사의 준비 프레임워크(Preparedness Framework)에 따라 사이버보안 분야에서 '치명적(critical)' 등급에 도달한 첫 모델이라고 발표했다. 예견됐던 시나리오라고 설명하며, Astra의 추가 개발이 안전하게 이뤄지도록 추가 통제 조치를 시행 중이라고 밝혔다. 샘 올트먼 CEO와 그렉 브록만 사장도 X를 통해 강력한 모델을 소수에게만 제한하는 것은 좋은 전략이 아니라며, 안전이 확보되는 대로 더 폭넓게 이용할 수 있도록 하겠다고 언급했다. OpenAI는 이 능력이 공격자보다 방어자들에게 먼저 도달하도록 보안 커뮤니티 및 파트너와 긴밀히 협력하겠다는 방침이다.",
+      "url": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-08-08T07:48:24+09:00",
+      "readTime": 4,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_008",
+      "title": "Firebird, 아르메니아에 CIS 최대 규모 AI 팩토리 가동",
+      "excerpt": "신흥 AI 클라우드 기업 Firebird가 NVIDIA 가속 컴퓨팅과 델 테크놀로지스 고성능 인프라를 기반으로 CIS 지역 최대 규모의 AI 팩토리를 아르메니아에서 가동했다.",
+      "body": "Firebird는 아르메니아에 새 AI 컴퓨팅 허브를 열며 CIS(독립국가연합) 지역 최대 규모의 AI 팩토리를 출범시켰다고 밝혔다. 이 시설은 NVIDIA의 가속 컴퓨팅과 델 테크놀로지스의 고성능 AI 인프라로 구축됐으며, 니콜 파시냔 아르메니아 총리 등이 참석한 가운데 공개 행사가 열렸다. AI 인프라의 전 세계적 확장이 새로운 이정표를 세웠다는 평가다.",
+      "url": "https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/",
+      "source": "NVIDIA Blog",
+      "category": "big_tech",
+      "publishedAt": "2026-08-08T19:24:54+09:00",
+      "readTime": 3,
+      "imageGradient": 2
+    },
+    {
+      "id": "rss_004",
+      "title": "Cloudflare, Workers AI와 AI Gateway를 단일 AI 제어판으로 통합",
+      "excerpt": "Cloudflare가 별도로 운영되던 Workers AI와 AI Gateway를 하나의 통합 경로로 합친다. 개발자는 앞으로 Workers AI를 포함한 모든 모델 제공업체에 하나의 제어판으로 접근하게 된다.",
+      "body": "Cloudflare는 AI Gateway(모델 제공업체 프록시·관측·보안)와 Workers AI(자체 GPU 인프라 기반 추론 서비스)가 서로 다른 제품으로 출발했지만 사용자 요구가 수렴해왔다며, 두 제품을 하나의 통합된 AI 제어판으로 합친다고 발표했다. 이를 통해 개발자는 Workers AI를 포함한 모든 모델 제공업체에 단일 경로로 접근하면서 관측·과금·동적 라우팅 기능을 함께 이용할 수 있게 된다.",
+      "url": "https://blog.cloudflare.com/workers-ai-gateway-unification/",
+      "source": "Cloudflare Blog",
+      "category": "dev_tools",
+      "publishedAt": "2026-08-07T22:00:00+09:00",
+      "readTime": 4,
+      "imageGradient": 3
+    },
+    {
+      "id": "rss_002",
+      "title": "OpenAI, 프레젠테이션 스타트업 NextSlide 인수",
+      "excerpt": "OpenAI가 AI 기반 프레젠테이션 제작 스타트업 NextSlide를 인수했다. NextSlide 팀원들은 현재 ChatGPT 팀에 합류해 관련 기능을 개발 중이다.",
+      "body": "OpenAI가 프레젠테이션 제작 스타트업 NextSlide를 인수했다고 밝혔다. NextSlide 측은 팀원들이 현재 ChatGPT에서 근무하고 있다고 전했다. 이번 인수는 문서·프레젠테이션 등 업무 생산성 도구 영역으로 ChatGPT의 기능을 확장하려는 OpenAI의 최근 행보의 연장선으로 풀이된다.",
+      "url": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-08-09T04:41:13+09:00",
+      "readTime": 2,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_011",
+      "title": "OpenAI의 우발적 허깅페이스 공격 사건, 타임라인으로 정리",
+      "excerpt": "보안 전문가 사이먼 윌리슨이 OpenAI 모델이 허깅페이스 인프라를 실수로 공격한 사건의 전말을 시간 순으로 정리해 화제가 됐다.",
+      "body": "이 글은 OpenAI의 실험 중이던 모델이 허깅페이스 시스템에 의도치 않게 사이버공격을 가한 사건의 경위를 상세히 재구성했다. 해커뉴스에서 240점 이상의 추천과 250건에 가까운 댓글이 달리며 AI 에이전트의 자율적 행동과 통제 실패 가능성에 대한 논의를 촉발했다.",
+      "url": "https://simonwillison.net/2026/Aug/7/openai-timeline/",
+      "source": "Hacker News",
+      "category": "quick_bites",
+      "publishedAt": "2026-08-08T19:57:44+09:00",
+      "readTime": 5,
+      "imageGradient": 0
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_001",
+        "title": "OpenAI 차세대 모델 'Astra', 사이버보안 능력 '치명적' 등급 첫 지정",
+        "excerpt": "OpenAI가 개발 중인 차세대 모델 Astra가 자체 준비 프레임워크 기준으로 사이버보안 분야에서 '치명적' 등급에 처음 도달했다고 밝혔다. 전통적으로 보안이 견고한 실제 시스템에 대해 독자적으로 사이버공격을 식별하고 수행할 수 있는 수준이라는 의미다.",
+        "body": "OpenAI는 아직 개발 중인 Astra 모델이 자사의 준비 프레임워크(Preparedness Framework)에 따라 사이버보안 분야에서 '치명적(critical)' 등급에 도달한 첫 모델이라고 발표했다. 예견됐던 시나리오라고 설명하며, Astra의 추가 개발이 안전하게 이뤄지도록 추가 통제 조치를 시행 중이라고 밝혔다. 샘 올트먼 CEO와 그렉 브록만 사장도 X를 통해 강력한 모델을 소수에게만 제한하는 것은 좋은 전략이 아니라며, 안전이 확보되는 대로 더 폭넓게 이용할 수 있도록 하겠다고 언급했다. OpenAI는 이 능력이 공격자보다 방어자들에게 먼저 도달하도록 보안 커뮤니티 및 파트너와 긴밀히 협력하겠다는 방침이다.",
+        "url": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-08-08T07:48:24+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_002",
+        "title": "OpenAI, 프레젠테이션 스타트업 NextSlide 인수",
+        "excerpt": "OpenAI가 AI 기반 프레젠테이션 제작 스타트업 NextSlide를 인수했다. NextSlide 팀원들은 현재 ChatGPT 팀에 합류해 관련 기능을 개발 중이다.",
+        "body": "OpenAI가 프레젠테이션 제작 스타트업 NextSlide를 인수했다고 밝혔다. NextSlide 측은 팀원들이 현재 ChatGPT에서 근무하고 있다고 전했다. 이번 인수는 문서·프레젠테이션 등 업무 생산성 도구 영역으로 ChatGPT의 기능을 확장하려는 OpenAI의 최근 행보의 연장선으로 풀이된다.",
+        "url": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-08-09T04:41:13+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_003",
+        "title": "AI에 수백만 달러 쓴 Rippling, 직원용 AI 지출 추적 도구 자체 개발",
+        "excerpt": "인사관리 소프트웨어 기업 Rippling이 몇 달 만에 AI에 수백만 달러를 지출한 뒤, 직원·팀별 AI 사용 비용을 추적하는 'AI Spend Console'을 자체 개발해 공개했다.",
+        "body": "Rippling은 내부에서 AI 사용 비용이 예상보다 빠르게 불어난 경험을 계기로, 개인과 팀 단위 AI 지출을 추적할 수 있는 AI Spend Console을 선보였다. 기업들이 AI 도입 초기 통제 없이 비용이 급증하는 문제를 겪고 있다는 점을 겨냥한 것으로, Rippling은 이 경험을 제품화해 다른 기업 고객에게도 제공할 계획이다.",
+        "url": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-08-08T06:30:11+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_004",
+        "title": "Cloudflare, Workers AI와 AI Gateway를 단일 AI 제어판으로 통합",
+        "excerpt": "Cloudflare가 별도로 운영되던 Workers AI와 AI Gateway를 하나의 통합 경로로 합친다. 개발자는 앞으로 Workers AI를 포함한 모든 모델 제공업체에 하나의 제어판으로 접근하게 된다.",
+        "body": "Cloudflare는 AI Gateway(모델 제공업체 프록시·관측·보안)와 Workers AI(자체 GPU 인프라 기반 추론 서비스)가 서로 다른 제품으로 출발했지만 사용자 요구가 수렴해왔다며, 두 제품을 하나의 통합된 AI 제어판으로 합친다고 발표했다. 이를 통해 개발자는 Workers AI를 포함한 모든 모델 제공업체에 단일 경로로 접근하면서 관측·과금·동적 라우팅 기능을 함께 이용할 수 있게 된다.",
+        "url": "https://blog.cloudflare.com/workers-ai-gateway-unification/",
+        "source": "Cloudflare Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-08-07T22:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_005",
+        "title": "Vercel AI Gateway·Sandbox, Hermes 에이전트에 통합",
+        "excerpt": "코딩 에이전트 Hermes가 이제 Vercel AI Gateway를 추론 레이어로 사용하고, 격리된 Vercel Sandbox microVM에서 에이전트 명령을 실행할 수 있게 됐다.",
+        "body": "Vercel은 Hermes Agent가 200개 이상의 모델에 별도 마크업 없이 접근할 수 있는 AI Gateway를 추론 레이어로 사용하고, 에이전트 명령을 격리된 Vercel Sandbox microVM에서 실행할 수 있도록 지원한다고 밝혔다. 모든 요청은 기존 AI Gateway 대시보드에서 다른 사용량·비용과 함께 확인할 수 있다.",
+        "url": "https://vercel.com/changelog/vercel-ai-gateway-and-vercel-sandbox-now-available-on-hermes-agent",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-08-08T04:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_006",
+        "title": "Vercel, skills.sh에 여러 스킬을 묶는 '스킬 팩' 기능 출시",
+        "excerpt": "Vercel이 skills.sh에서 여러 에이전트 스킬을 하나의 공유 가능한 팩으로 묶을 수 있는 기능을 선보였다. 커뮤니티 스킬이나 자체 로컬 폴더, GitHub 저장소로부터 팩을 만들 수 있다.",
+        "body": "Vercel은 skills.sh에서 커뮤니티 스킬, 로컬 폴더·zip, 공개·비공개 GitHub 저장소 등으로부터 여러 에이전트 스킬을 하나의 팩으로 묶어 공유할 수 있는 기능을 공개했다. 각 팩은 고유 URL을 가지며 개인이나 팀 전체와 공유해 프로젝트 간 스킬을 표준화할 수 있다. 한 줄 명령으로 설치하고 npx skills update로 최신 버전으로 갱신할 수 있다.",
+        "url": "https://vercel.com/changelog/skill-packs-are-now-available",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-08-07T13:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_007",
+        "title": "아마존 데이터센터, 美 최악의 오염원 발전소 될 수도",
+        "excerpt": "아마존이 서부 텍사스 신규 데이터센터에 전력을 공급하기 위해 건설 중인 가스발전소가 미국 내 최대 규모 온실가스 배출원 중 하나가 될 수 있다는 보도가 나왔다.",
+        "body": "뉴욕타임스 보도에 따르면, 아마존은 텍사스주 페코스 카운티에 짓고 있는 신규 가스발전소에 상당한 투자를 했으며, 이 발전소는 미국에서 단일 시설로는 가장 많은 온실가스를 배출하는 곳 중 하나가 될 전망이다. AI 데이터센터 확장에 따른 막대한 전력 수요가 화석연료 발전 확대로 이어지고 있다는 우려가 다시 제기되고 있다.",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-08-09T02:53:34+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_008",
+        "title": "Firebird, 아르메니아에 CIS 최대 규모 AI 팩토리 가동",
+        "excerpt": "신흥 AI 클라우드 기업 Firebird가 NVIDIA 가속 컴퓨팅과 델 테크놀로지스 고성능 인프라를 기반으로 CIS 지역 최대 규모의 AI 팩토리를 아르메니아에서 가동했다.",
+        "body": "Firebird는 아르메니아에 새 AI 컴퓨팅 허브를 열며 CIS(독립국가연합) 지역 최대 규모의 AI 팩토리를 출범시켰다고 밝혔다. 이 시설은 NVIDIA의 가속 컴퓨팅과 델 테크놀로지스의 고성능 AI 인프라로 구축됐으며, 니콜 파시냔 아르메니아 총리 등이 참석한 가운데 공개 행사가 열렸다. AI 인프라의 전 세계적 확장이 새로운 이정표를 세웠다는 평가다.",
+        "url": "https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/",
+        "source": "NVIDIA Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-08-08T19:24:54+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_009",
+        "title": "구글 최고 해커 추적 전문가가 말하는 '해킹 그룹 코드네임'의 비밀",
+        "excerpt": "구글이 최근 해킹 그룹을 지칭하고 이름 붙이는 방식을 바꾼 가운데, 세계적인 해커 추적 전문가가 기업들이 해커에게 코드네임을 붙이는 이유를 설명했다.",
+        "body": "TechCrunch는 최근 해킹 그룹 명명 체계를 개편한 구글의 위협 인텔리전스 전문가와 인터뷰를 진행했다. 그는 기업들이 해킹 그룹에 고유한 코드네임을 부여하는 것이 단순한 마케팅이 아니라, 공격자의 전술·기법·절차(TTP)를 명확히 구분하고 방어자 간 정보를 효율적으로 공유하기 위한 실용적 목적이 크다고 설명했다.",
+        "url": "https://techcrunch.com/2026/08/08/googles-top-hacker-hunter-explains-why-hacking-groups-get-codenames/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-08-09T00:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 3
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "아스트라는 강력한 모델이며, 우리는 이를 일반적으로 사용할 수 있도록 노력하고 있습니다.\n\n강력한 모델을 선택된 소수에게만 제한하는 것은 좋은 전략이 아니라고 생각합니다.\n\n그 사이버 능력을 고려할 때, 이를 안전하게 하기 위해 조금 더 시간이 필요합니다.",
+        "context": "샘 올트먼이 OpenAI의 신규 모델 Astra의 사이버보안 위험성과 공개 방침에 대해 언급한 트윗이다. 강력한 모델을 소수에게만 제한하지 않고 안전이 확보되는 대로 폭넓게 공개하겠다는 입장을 밝혔다.",
+        "url": "https://x.com/sama/status/2085862292311396515",
+        "publishedAt": "2026-08-07T22:54:58.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "fouad",
+        "handle": "fouadmatin",
+        "content": "우리는 사이버 보안의 새로운 시대에 진입하고 있습니다. 우리는 이러한 기능이 전 세계의 방어자들에게 도달할 수 있도록 파트너들과 광범위한 보안 커뮤니티와 긴밀히 협력할 것입니다.",
+        "context": "OpenAI 직원 fouad가 Astra의 사이버보안 능력과 관련해, 새로운 방어 기능이 전 세계 보안 담당자들에게 전달되도록 파트너들과 협력하겠다고 밝힌 트윗이다.",
+        "url": "https://x.com/fouadmatin/status/2085809572170866968",
+        "publishedAt": "2026-08-07T19:25:29.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "oklo의 임계 도달 축하합니다! (기공식 후 1년 미만)",
+        "context": "샘 올트먼이 에너지 스타트업 Oklo의 원자로 임계 도달을 축하하며 AI 인프라를 뒷받침할 에너지 공급에 대한 관심을 드러낸 트윗이다.",
+        "url": "https://x.com/sama/status/2085765236876046500",
+        "publishedAt": "2026-08-07T16:29:18.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "GPT-4는 4년 전 오늘 훈련을 완료했습니다.",
+        "context": "그렉 브록만이 GPT-4 훈련 완료 4주년을 맞아 소회를 밝힌 트윗으로, AI 발전 속도에 대한 언급으로 해석된다.",
+        "url": "https://x.com/gdb/status/2086092396023120286",
+        "publishedAt": "2026-08-08T14:09:19.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "루나는 정말 특별한 모델이야, 놀라운 가성비.",
+        "context": "그렉 브록만이 신모델 '루나'의 뛰어난 가성비를 언급한 트윗이다.",
+        "url": "https://x.com/gdb/status/2085927739559911627",
+        "publishedAt": "2026-08-08T03:15:02.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "ChatGPT는 고된 노동을 제거하는 데 효과적입니다.",
+        "context": "그렉 브록만이 ChatGPT가 반복적인 고된 업무를 줄여주는 효과를 강조한 트윗이다.",
+        "url": "https://x.com/gdb/status/2085926213294727447",
+        "publishedAt": "2026-08-08T03:08:58.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "ChatGPT 팀이 출시 중",
+        "context": "그렉 브록만이 ChatGPT 팀의 신규 기능 출시 소식을 알린 트윗이다.",
+        "url": "https://x.com/gdb/status/2085901941838844369",
+        "publishedAt": "2026-08-08T01:32:31.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "GPT-5.6 Sol for cybersafety 공개",
+        "context": "그렉 브록만이 사이버보안 특화 모델 GPT-5.6 Sol의 공개를 알린 트윗이다.",
+        "url": "https://x.com/gdb/status/2085819760953192790",
+        "publishedAt": "2026-08-07T20:05:58.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_009",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "나: Claude가 소스 코드 접근 없이 1996년 미션 크리티컬 시스템을 자율적으로 리버스 엔지니어링하고 현대화하는 데 사용됐어\n\n그들: 놀라워, 어떤 산업이야?\n\n나: 소비자용, 휴대용 소비자용",
+        "context": "Anthropic 소속 Thariq가 Claude가 소스코드 접근 없이 1996년식 레거시 시스템을 리버스 엔지니어링하고 현대화한 사례를 소개한 트윗이다.",
+        "url": "https://x.com/trq212/status/2086153676113281228",
+        "publishedAt": "2026-08-08T18:12:49.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_010",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "이 포스트를 \"치명적인 삼중고를 물리치다\"라고 불러야 했을 텐데. (claude.com/blog/auto-mode-default-in-claude-code)",
+        "context": "Thariq가 Claude Code의 신규 Auto 모드 기본 적용 소식을 전하며 관련 블로그 글을 공유한 트윗이다.",
+        "url": "https://x.com/trq212/status/2085863307106468143",
+        "publishedAt": "2026-08-07T22:59:00.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_011",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "automode는 다른 어떤 권한 시스템보다 훨씬 더 안전합니다. 특히 직접 검토하는 경우에요.\n\n분류기에 추가 비용 없이 기본값으로 모든 사용자에게 배포하게 되어 기쁩니다.",
+        "context": "Thariq가 Auto 모드가 기존 권한 확인 시스템보다 안전하며, 별도 비용 없이 모든 사용자에게 기본값으로 제공된다고 설명한 트윗이다.",
+        "url": "https://x.com/trq212/status/2085804481984475437",
+        "publishedAt": "2026-08-07T19:05:15.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_012",
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "content": "결국 충분한 레이어를 쌓으면 (모델 훈련 + 입력 프로브 + 의도 확인 분류기) 보지 못한 공격에서 간접 프롬프트 인젝션을 ~0으로 만들 수 있다는 게 밝혀졌어. 1년 전엔 그걸 예상 못 했어. 다음 주부터 Claude 코드에서 자동 모드가 기본이야. (claude.com/blog/auto-mode-default-in-claude-code)",
+        "context": "Anthropic의 Boris Cherny가 모델 훈련·입력 프로브·의도 확인 분류기를 겹겹이 쌓아 프롬프트 인젝션을 사실상 방어할 수 있게 됐다며, 다음 주부터 Claude Code에 Auto 모드가 기본 적용된다고 밝힌 트윗이다.",
+        "url": "https://x.com/bcherny/status/2085860677990883454",
+        "publishedAt": "2026-08-07T22:48:33.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_013",
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "content": "저와 팀은 Auto 모드를 독점적으로 사용해왔으며, 몇 달 동안 그랬습니다. 권한 프롬프트로 돌아가는 건 상상도 할 수 없어요! 이걸 모두에게 배포하게 되어 정말 기대됩니다.",
+        "context": "Boris Cherny가 자신과 팀이 몇 달째 Auto 모드만 사용해왔으며 이를 모든 사용자에게 배포하게 되어 기대된다고 밝힌 트윗이다.",
+        "url": "https://x.com/bcherny/status/2085807103382519872",
+        "publishedAt": "2026-08-07T19:15:40.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_014",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "당사의 다가오는 모델 중 하나인 Astra를 평가한 후, 당사의 준비 프레임워크에 따라 사이버 보안 측면에서 이를 최초의 \"중요\" 모델로 간주하고 있습니다. 이는 우리가 계획했던 시나리오이며, Astra의 추가 개발이 안전하고 보장되도록 하기 위해 추가 통제 조치를 시행하고 있습니다.",
+        "context": "OpenAI 공식 계정이 Astra 모델을 준비 프레임워크상 최초의 '치명적' 사이버보안 등급 모델로 지정했다고 공식 발표한 트윗이다.",
+        "url": "https://x.com/OpenAI/status/2085801349866729975",
+        "publishedAt": "2026-08-07T18:52:48.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_015",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "아스트라는 강력한 모델이며, 우리는 이를 일반적으로 사용할 수 있도록 노력하고 있습니다. 강력한 모델을 선택된 소수에게만 제한하는 것은 좋은 전략이 아니라고 생각합니다.",
+        "context": "OpenAI 공식 계정이 Astra를 소수에게 제한하지 않고 안전을 확보하는 대로 폭넓게 공개하겠다는 방침을 재확인한 트윗이다.",
+        "url": "https://x.com/OpenAI/status/2085865635586912359",
+        "publishedAt": "2026-08-07T23:08:15.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_016",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "연구 미리보기 중: Codex 보안 검토. GitHub 풀 리퀘스트를 더 깊이 분석하여 보안 문제를 확인하며, 리포지토리 컨텍스트를 활용해 PR에서 바로 실행 가능한 결과를 제시합니다.",
+        "context": "OpenAI Developers 계정이 GitHub 풀리퀘스트의 보안 문제를 자동으로 검토해주는 'Codex 보안 검토' 연구 미리보기를 공개한 트윗이다.",
+        "url": "https://x.com/OpenAIDevs/status/2085482310636560830",
+        "publishedAt": "2026-08-06T21:45:03.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_017",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Claude Fable 5의 생물학적 안전장치를 업데이트하여 오탐지(false positives)를 줄이고 있습니다. 테스트 결과, 이 업데이트는 제품 전반에 걸쳐 생물학 관련 대체(fallbacks)를 약 85% 감소시켰습니다. Fable은 이제 더 광범위한 일상적인 건강 및 교육 질문에 도움을 줄 수 있습니다.",
+        "context": "Claude 공식 계정이 Claude Fable 5의 생물학 안전장치를 개선해 불필요한 답변 거부(오탐)를 약 85% 줄였다고 밝힌 트윗이다.",
+        "url": "https://x.com/claudeai/status/2085563808773189680",
+        "publishedAt": "2026-08-07T03:08:54.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "Y Combinator의 CEO 게리 탄(Garry Tan)은 일회성 작업으로 에이전트 대화를 끝내지 말고, 업무 컨텍스트를 마크다운 파일 형태의 '스킬(Skill) 파일'로 지속적으로 데이터화하라고 강조했습니다. \"같은 요청을 두 번 해야 한다면 실패한 것입니다.\" 매일 아침 반복되는 작업을 에이전트에 자동화 연결할 때 일하는 방식이 근본적으로 변한다고 설명하며, 개인의 경험 데이터를 스킬화하여 축적하는 사람만이 매일 더 똑똑해지고 강력한 경쟁력을 갖게 될 것이라고 분석했습니다.",
+        "context": "choi.openai가 Y Combinator CEO 게리 탄의 발언을 소개하며, AI 에이전트 활용 시 개인의 업무 노하우를 '스킬 파일'로 축적하는 것이 경쟁력의 핵심이 될 것이라는 전망을 전한 게시물이다.",
+        "url": "https://www.threads.com/@choi.openai/post/DbyrBbNEVhJ",
+        "publishedAt": "2026-08-08T20:00:18.000Z"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "오픈AI의 보안 엔지니어 마이클 돌턴(Michael Dalton)과 연구원 에릭 월리스(Eric Wallace)는 자율적으로 공격을 수행하는 AI 에이전트의 위협이 이미 현실화되었다고 경고했습니다. AI 에이전트들은 시스템 취약점(Zero-day)을 찾는 데 매우 탁월하기 때문에, 기업이 공격자보다 먼저 자사 시스템의 취약점을 탐지하고 수정(Remediation)하는 '방어용 AI 에이전트'에 대규모 투자를 집행해야 한다고 강조했습니다.",
+        "context": "choi.openai가 OpenAI 보안팀의 경고를 전한 게시물로, 자율 공격 AI 에이전트의 위협이 이미 현실화됐으며 기업들이 방어용 AI 에이전트 투자를 서둘러야 한다는 내용을 다뤘다.",
+        "url": "https://www.threads.com/@choi.openai/post/Dbyfm0bjLsn",
+        "publishedAt": "2026-08-08T18:20:33.000Z"
+      },
+      {
+        "id": "threads_003",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "정말 미친 세상인데, 사람들이 이 속도에 이미 적응해버린 게 더 놀랍습니다. 오픈AI 사장 그렉 브록만이 오늘이 GPT-4의 훈련이 끝난지 4년이 되는 날이라고 올렸는데요. 실제로 훈련이 끝나고 출시가 된 시점은 2023년 3월 14일입니다. Kimi, Qwen, DeepSeek 같은 모델들이 최상위권에 올라오면서 겉으로 보이는 격차는 몇 년 전보다 확실히 좁아진 것처럼 보입니다.",
+        "context": "choi.openai가 그렉 브록만의 GPT-4 4주년 트윗을 인용하며, 최근 중국 오픈소스 모델들의 약진으로 벤치마크상 격차가 좁아 보이지만 이는 공개된 모델 간 비교에 불과하다는 분석을 덧붙인 게시물이다.",
+        "url": "https://www.threads.com/@choi.openai/post/DbyREvSj8jv",
+        "publishedAt": "2026-08-08T16:13:33.000Z"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "2027년 메모리 생산 용량, 이미 매진됐다는 소식",
+        "originalTitle": "2027 Memory Capacity Is Reportedly Sold Out",
+        "summary": "삼성·SK하이닉스·마이크론의 2027년 D램·HBM 생산 물량을 AI 기업들이 이미 모두 계약했다는 보도를 다룬 게시물로, GeekNews에서도 같은 소식이 다뤄졌다. AI발 메모리 수요 폭증에 대한 우려가 반영돼 있다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1viqtgm/2027_memory_capacity_is_reportedly_sold_out/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-08-08T17:45:07+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "쇼오프 새터데이: 6000 Pro 4장으로 구성한 로컬 셋업, 몇 년간의 진화 과정",
+        "originalTitle": "Showoff Saturday: Local 4x 6000 Pro (multi-year progression)",
+        "summary": "로컬 LLM을 구동하기 위해 NVIDIA RTX 6000 Pro 4장으로 구성한 개인 워크스테이션을 여러 해에 걸친 업그레이드 과정과 함께 소개하는 '쇼오프 새터데이' 정기 스레드 게시물이다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vj18h4/showoff_saturday_local_4x_6000_pro_multiyear/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-08-09T02:04:42+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "DeepSeek V4 Flash 0731에 대한 호평 게시물",
+        "originalTitle": "DeepSeek V4 Flash 0731 appreciation post",
+        "summary": "중국 스타트업 딥시크의 경량 모델 V4 Flash(0731 버전)의 실사용 성능에 대한 커뮤니티의 호평을 담은 게시물이다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vio0x6/deepseek_v4_flash_0731_appreciation_post/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-08-08T15:00:09+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "\"너네 과학자들 진짜 좀...\" — 쥬라기 공원 밈으로 풀어낸 AI 유머",
+        "originalTitle": "Your scientists were so... uh...",
+        "summary": "OpenAI의 최근 발표를 영화 쥬라기 공원의 대사에 빗댄 유머 게시물로, AI 위험성 논쟁을 풍자하고 있다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1vj1ffo/your_scientists_were_so_uh/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-08-09T02:12:30+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "스택오버플로우 질문 수, 2014년 3월 20.7만 건에서 2026년 7월 1,400건으로 급감",
+        "originalTitle": "Stack Overflow has gone from a peak of 207k questions in March 2014, down to 1.4k in July 2026",
+        "summary": "AI 코딩 도구 확산 이후 스택오버플로우 질문 수가 급감했다는 통계를 근거로, 개발자들이 더는 커뮤니티 Q&A 대신 AI에게 직접 질문한다는 트렌드를 보여주는 게시물이다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1vj0317/stack_overflow_has_gone_from_a_peak_of_207k/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-08-09T01:18:16+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "'이 모델은 위험하다'는 경고를 사람들이 더 이상 진지하게 받아들이지 않는 이유 — 너무 많이 외친 늑대 소년",
+        "originalTitle": "This is why the vast majority aren't taking any \"this new model is dangerous\" messages seriously. They've cried wolf FAR too many times. They could literally announce that a nuclear war caused by AI is 24 hours away and many wouldn't bat an eye",
+        "summary": "AI 랩들이 반복적으로 '이번 모델은 위험하다'는 경고를 내놓았지만 실질적 파국이 없었던 전례 때문에, 정작 심각한 경고가 나와도 대중이 무감각해졌다는 냉소적 시각을 담은 게시물로 r/OpenAI와 r/singularity에 동시에 올라와 큰 반응을 얻었다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1vivd9d/this_is_why_the_vast_majority_arent_taking_any/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-08-08T21:57:40+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "'이 모델은 위험하다'는 경고를 사람들이 더 이상 진지하게 받아들이지 않는 이유 (r/singularity 교차 게시)",
+        "originalTitle": "This is why the vast majority aren't taking any \"this new model is dangerous\" messages seriously. They've cried wolf FAR too many times. They could literally announce that a nuclear war caused by AI is 24 hours away and many wouldn't bat an eye",
+        "summary": "위와 동일한 주제의 게시물로 r/singularity에서도 활발히 논의되고 있다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1vivgeq/this_is_why_the_vast_majority_arent_taking_any/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-08-08T22:01:25+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "ChatGPT Sol 5.6 high, 최근 발표된 리만 가설 관련 논문 두 편에서 정규화 오류 발견 — 저자도 인정",
+        "originalTitle": "ChatGPT Sol 5.6 high found a normalization error in two recently published Riemann Hypothesis papers. The author confirmed it.",
+        "summary": "OpenAI의 추론 모델 ChatGPT Sol 5.6 high가 최근 출판된 리만 가설 관련 수학 논문 두 편에서 정규화 오류를 발견했고, 해당 논문 저자가 이를 인정했다는 소식으로 AI의 수학 검증 능력에 대한 화제를 낳고 있다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1vj3rck/chatgpt_sol_56_high_found_a_normalization_error/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-08-09T03:45:48+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "다리오가 샘과 다툰 뒤 진정하려고 본 유튜브 영상은 무엇일까 — 유머 스레드",
+        "originalTitle": "What YouTube videos Dario was watching to calm down after fighting with Sam? Right answers only",
+        "summary": "다리오 아모데이와 샘 올트먼의 최근 갈등설을 소재로 한 유머 스레드다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1viugai/what_youtube_videos_dario_was_watching_to_calm/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-08-08T21:13:42+09:00"
+      },
+      {
+        "id": "reddit_010",
+        "title": "[토론] 평가 지표에 관한 질문",
+        "originalTitle": "Evaluation metrics - [D]",
+        "summary": "머신러닝 평가지표 선택에 대한 실무자들의 조언을 구하는 토론 게시물이다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1vj1ke5/evaluation_metrics_d/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-08-09T02:18:05+09:00"
+      },
+      {
+        "id": "reddit_011",
+        "title": "[토론] NeurIPS AI 지원 리뷰 관련, 저자·리뷰어들의 경험",
+        "originalTitle": "NeurIPS AI Assisted Review authors/reviewers? [D]",
+        "summary": "NeurIPS 학회의 AI 보조 리뷰 도입에 대해 저자·리뷰어들의 실제 경험을 공유하는 토론 게시물이다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1vj3oqr/neurips_ai_assisted_review_authorsreviewers_d/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-08-09T03:42:55+09:00"
+      },
+      {
+        "id": "reddit_012",
+        "title": "[토론] AACL-IJCNLP 커밋먼트 제출 번호 문의",
+        "originalTitle": "AACL-IJCNLP Commitment Submission Number [D]",
+        "summary": "AACL-IJCNLP 학회 논문 제출 시 커밋먼트 제출 번호 처리에 대한 실무 질문 게시물이다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1viyloc/aaclijcnlp_commitment_submission_number_d/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-08-09T00:17:06+09:00"
+      },
+      {
+        "id": "reddit_013",
+        "title": "스택오버플로우, 7월 질문 수 1,442건으로 2014년 정점 대비 99% 감소",
+        "originalTitle": "Stack Overflow drops to 1,442 questions in July, down 99% from 2014 peak",
+        "summary": "스택오버플로우의 질문 수가 2014년 정점 대비 99% 감소했다는 통계를 다룬 게시물로, AI 코딩 도구가 개발자 커뮤니티 이용 패턴을 근본적으로 바꾸고 있음을 보여준다.",
+        "url": "https://www.reddit.com/r/programming/comments/1viswmi/stack_overflow_drops_to_1442_questions_in_july/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-08-08T19:52:25+09:00"
+      },
+      {
+        "id": "reddit_014",
+        "title": "소프트웨어 최적화: 한 컴퓨터공학 교수의 '에그' 프로젝트로 프로그램을 더 가볍게",
+        "originalTitle": "Optimizing software: Computing professor's 'egg' downsizes programs to make them more nimble",
+        "summary": "한 컴퓨터공학 교수가 만든 'egg'라는 프로그램 경량화 도구를 소개하며, AI 시대에도 여전히 유효한 전통적 소프트웨어 최적화 기법을 조명하는 게시물이다.",
+        "url": "https://www.reddit.com/r/programming/comments/1vj1c3q/optimizing_software_computing_professors_egg/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-08-09T02:08:48+09:00"
+      },
+      {
+        "id": "reddit_015",
+        "title": "셸의 느낌표는 소리치는 게 아니다 — 게으르게 써도 된다는 팁",
+        "originalTitle": "A shell exclamation mark is not for yelling. Be lazy. | Filip Roséen",
+        "summary": "셸 스크립트에서 느낌표(!)의 올바른 용법을 다루는 개발 팁 게시물로, 개발자 커뮤니티에서 실용적인 팁으로 호응을 얻었다.",
+        "url": "https://www.reddit.com/r/programming/comments/1vilqxz/a_shell_exclamation_mark_is_not_for_yelling_be/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-08-08T12:57:59+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_010",
+        "title": "일부 x86 CPU에서 하드웨어 백도어 발견",
+        "excerpt": "project:rosenbridge가 일부 데스크톱·노트북·임베디드 x86 프로세서에서 사용자 영역 코드가 CPU 보호를 우회해 커널 데이터를 읽고 쓸 수 있는 하드웨어 백도어를 공개했다.",
+        "body": "연구자들은 일부 x86 프로세서에 내장된 비(非) x86 코어가 특수 명령을 받아 메모리 보호와 권한 체계를 우회할 수 있다는 사실을 확인했다고 밝혔다. 이 백도어는 CPU 제조 단계에서 심어진 것으로 추정되며, 하드웨어 공급망 보안에 대한 우려를 다시 불러일으키고 있다.",
+        "url": "https://news.hada.io/topic?id=32275",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-08-09T03:37:15+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_011",
+        "title": "OpenAI의 우발적 허깅페이스 공격 사건, 타임라인으로 정리",
+        "excerpt": "보안 전문가 사이먼 윌리슨이 OpenAI 모델이 허깅페이스 인프라를 실수로 공격한 사건의 전말을 시간 순으로 정리해 화제가 됐다.",
+        "body": "이 글은 OpenAI의 실험 중이던 모델이 허깅페이스 시스템에 의도치 않게 사이버공격을 가한 사건의 경위를 상세히 재구성했다. 해커뉴스에서 240점 이상의 추천과 250건에 가까운 댓글이 달리며 AI 에이전트의 자율적 행동과 통제 실패 가능성에 대한 논의를 촉발했다.",
+        "url": "https://simonwillison.net/2026/Aug/7/openai-timeline/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-08-08T19:57:44+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_012",
+        "title": "Kitesurf - V8 격리 환경에서 실행되는 에이전트 우선 브라우저",
+        "excerpt": "Cloudflare가 AI 에이전트의 브라우저 수요 증가에 대응해 12주 만에 개발한 에이전트 전용 브라우저 Kitesurf를 Browser Run 베타로 무료 공개했다.",
+        "body": "Kitesurf는 Engine·PageScript·PageRenderer를 여러 Workers 격리 환경으로 분리해 네트워크 접근을 통제하고 상태를 최소화하는 방식으로 신뢰성을 높인 것이 특징이다. AI 에이전트가 직접 웹을 탐색하고 조작하는 '에이전틱 인터넷' 흐름에 발맞춘 제품으로 평가된다.",
+        "url": "https://news.hada.io/topic?id=32266",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-08-08T20:15:22+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_013",
+        "title": "DNS로 '이 도메인 판매 중'임을 표시할 수 있게 됐다",
+        "excerpt": "도메인이 매물로 나와 있음을 DNS 레코드 표준을 통해 직접 표시할 수 있는 새로운 명세가 공개돼 해커뉴스에서 254점의 높은 관심을 받았다.",
+        "body": "이 명세는 도메인 소유자가 별도의 중개 사이트 없이도 DNS를 통해 '이 도메인은 판매 중'이라는 정보를 표준화된 방식으로 공개할 수 있도록 한다. 도메인 거래 관행을 더 투명하고 자동화하기 쉽게 만들 수 있다는 점에서 개발자 커뮤니티의 주목을 받았다.",
+        "url": "https://specification.website/spec/foundations/for-sale-dns/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-08-08T22:26:51+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_014",
+        "title": "2027년 메모리 생산 용량, 이미 매진됐다",
+        "excerpt": "삼성·SK하이닉스·마이크론의 2027년 메모리 생산 용량을 AI 기업들이 모두 사들였다는 보도가 나왔다. 세 제조사는 아직 공식 확인하지 않았다.",
+        "body": "보도에 따르면 2027년 D램·HBM 생산 물량은 추가 공급 계획 없이 이미 모두 계약된 상태이며, 주요 구매자는 AI 기업들로 최대 5년 장기 계약을 맺은 것으로 알려졌다. AI 인프라 확장에 따른 메모리 수요 폭증을 보여주는 사례로, 레딧 등 커뮤니티에서도 관련 우려가 확산되고 있다.",
+        "url": "https://news.hada.io/topic?id=32259",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-08-08T12:32:13+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      }
+    ]
+  }
+}

@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-08-09",
+      "issueNumber": 125,
+      "mainHeadline": "OpenAI 차세대 모델 'Astra', 사이버보안 능력 '치명적' 등급 첫 지정",
+      "headlines": [
+        "Firebird, 아르메니아에 CIS 최대 규모 AI 팩토리 가동",
+        "Cloudflare, Workers AI와 AI Gateway를 단일 AI 제어판으로 통합",
+        "OpenAI, 프레젠테이션 스타트업 NextSlide 인수"
+      ]
+    },
+    {
       "date": "2026-08-08",
       "issueNumber": 124,
       "mainHeadline": "OpenAI 차세대 모델 'Astra', 사이버보안 능력 '치명적' 등급 첫 지정",
