@@ -1,0 +1,731 @@
+{
+  "date": "2026-08-11",
+  "issueNumber": 127,
+  "cover": {
+    "mainHeadline": "오픈AI, 사이버 방어용 GPT-5.6-Cyber 공개 — Daybreak 프로그램 확대",
+    "mainExcerpt": "오픈AI가 사이버 보안 전용 모델 GPT-5.6-Cyber를 출시하고 승인된 보안 파트너들에게 프론티어 인텔리전스를 개방했다. 공격자들이 AI를 무기화하는 속도가 빨라지는 가운데, 방어자들의 손에 최전선 기술을 먼저 쥐어주겠다는 전략이다. 크롬 V8 엔진 등 주요 오픈소스 소프트웨어에서 알려지지 않은 취약점도 이미 발견했다.",
+    "headlines": [
+      "저커버그, 6,500단어 분량 AI 미래 선언문 공개 — '모두를 위한 미래'",
+      "앤트로픽, 미공개 연구용 Claude로 리만 가설 도전 — 제타함수 영점 하한 41.6%→67.2%로 끌어올려",
+      "메타, 온디바이스 오픈소스 코딩 모델 'Muse Glimmer' 공개"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_001",
+      "title": "오픈AI, 사이버 방어용 신모델 GPT-5.6-Cyber와 Daybreak 확장 발표",
+      "excerpt": "오픈AI가 승인된 보안 파트너에게 프론티어 사이버 모델을 개방하는 'Daybreak' 프로그램을 확대하고, 고급 승인 작업 전용 모델 GPT-5.6-Cyber를 공개했다. 공격 AI가 대규모로 배치되기 전에 방어자들이 먼저 최전선 기술을 손에 쥐도록 한다는 목표다.",
+      "body": "오픈AI는 텍사스 주지사에게 보낸 서한으로 책임있는 AI 인프라 구축 방침을 밝힌 데 이어, 사이버 방어 역량을 강화하는 발표를 잇달아 내놨다. GPT-5.6-Cyber는 이미 실세계 취약점 연구에 폭넓게 쓰이며 크롬 V8 엔진을 포함한 주요 오픈소스 소프트웨어에서 이전에 알려지지 않은 취약점을 찾아냈다. 접근 권한은 승인된 방어자로 제한되고 고위험 작업에는 추가 통제와 모니터링이 적용된다. 동시에 Daybreak Cyber Partner Program을 통해 보안 기업들이 이미 쓰는 제품과 서비스에 프론티어 인텔리전스를 직접 통합하도록 지원한다.",
+      "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
+      "source": "OpenAI News",
+      "category": "ai_ml",
+      "publishedAt": "2026-08-11T02:16:51+09:00",
+      "readTime": 5,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_002",
+      "title": "저커버그, 6,500단어 AI 미래 선언문 '모두를 위한 미래' 공개",
+      "excerpt": "마크 저커버그가 인간과 AI가 공존할 이상적 미래에 대한 장문의 에세이를 발표했다. 초지능 시대에 대한 그의 개인적 비전을 담았다.",
+      "body": "저커버그는 월요일 'The Future is for Everyone'이라는 제목의 6,500단어 분량 선언문을 통해 AI와 인류의 공존에 대한 신념을 광범위하게 제시했다. 메타의 슈퍼인텔리전스 연구소가 공격적인 인재 영입과 투자를 이어가는 가운데 나온 것으로, 회사의 장기 AI 전략 방향을 가늠할 단서로 주목받고 있다.",
+      "url": "https://www.theverge.com/tech/977395/meta-mark-zuckerberg-superintelligent-ai-ramble",
+      "source": "The Verge",
+      "category": "big_tech",
+      "publishedAt": "2026-08-10T00:00:00+09:00",
+      "readTime": 4,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_003",
+      "title": "앤트로픽, 미공개 연구용 Claude로 리만 가설에 도전",
+      "excerpt": "앤트로픽이 아직 출시되지 않은 연구용 Claude 모델에게 리만 가설을 풀어보도록 시켰다. 가설 자체는 해결하지 못했지만 관련 문제에서 의미 있는 진전을 이뤘다.",
+      "body": "리만 제타 함수의 영점 중 가설을 만족하는 비율에 대한 하한을 기존 41.6%에서 67.2%로 끌어올리는 성과를 냈다. AI가 수학 난제 연구를 보조하는 능력을 보여주는 사례로, 해커뉴스 등 개발자 커뮤니티에서도 큰 화제가 됐다.",
+      "url": "https://www.anthropic.com/research/riemann-zeta",
+      "source": "Anthropic",
+      "category": "ai_ml",
+      "publishedAt": "2026-08-10T00:00:00+09:00",
+      "readTime": 4,
+      "imageGradient": 2
+    },
+    {
+      "id": "rss_004",
+      "title": "메타, 온디바이스 오픈소스 코딩 모델 'Muse Glimmer' 공개",
+      "excerpt": "메타가 로컬 기기에서 실행 가능한 에이전틱 멀티모달 오픈소스 모델 Muse Glimmer를 다시 선보였다.",
+      "body": "약 30B 규모의 오픈 웨이트 코딩 모델로, 기기에서 직접 구동되는 것이 특징이다. 저커버그의 개인적인 AI 비전을 엿볼 수 있는 행보로도 해석되며, 오픈소스 진영에 힘을 싣는 메타의 전략을 재확인시켰다.",
+      "url": "https://huggingface.co/blog/muse-glimmer",
+      "source": "Hugging Face - Blog",
+      "category": "ai_ml",
+      "publishedAt": "2026-08-10T00:00:00+09:00",
+      "readTime": 3,
+      "imageGradient": 3
+    },
+    {
+      "id": "rss_005",
+      "title": "앤트로픽, Claude Code '자동 모드' 기본값으로 전환",
+      "excerpt": "Claude Code가 최근 자동 모드를 기본값으로 설정하면서 더 이상 모든 작업마다 승인할 필요가 없어졌다. 어떤 작업이 안전하게 자동 실행될 수 있는지가 핵심 쟁점으로 떠올랐다.",
+      "body": "개발자 경험은 한층 매끄러워지지만 프롬프트 인젝션 등 자동화된 공격에 대한 우려도 함께 제기된다. 앤트로픽의 보리스 체르니는 에이전트가 악성 웹사이트를 방문했을 때 숨겨진 지시를 명령으로 오인해 SSH 키나 비밀번호를 유출할 위험을 별도로 경고했다.",
+      "url": "https://news.hada.io/topic?id=32365",
+      "source": "GeekNews",
+      "category": "ai_ml",
+      "publishedAt": "2026-08-11T00:00:00+09:00",
+      "readTime": 3,
+      "imageGradient": 4
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_001",
+        "title": "오픈AI, 사이버 방어용 신모델 GPT-5.6-Cyber와 Daybreak 확장 발표",
+        "excerpt": "오픈AI가 승인된 보안 파트너에게 프론티어 사이버 모델을 개방하는 'Daybreak' 프로그램을 확대하고, 고급 승인 작업 전용 모델 GPT-5.6-Cyber를 공개했다. 공격 AI가 대규모로 배치되기 전에 방어자들이 먼저 최전선 기술을 손에 쥐도록 한다는 목표다.",
+        "body": "오픈AI는 텍사스 주지사에게 보낸 서한으로 책임있는 AI 인프라 구축 방침을 밝힌 데 이어, 사이버 방어 역량을 강화하는 발표를 잇달아 내놨다. GPT-5.6-Cyber는 이미 실세계 취약점 연구에 폭넓게 쓰이며 크롬 V8 엔진을 포함한 주요 오픈소스 소프트웨어에서 이전에 알려지지 않은 취약점을 찾아냈다. 접근 권한은 승인된 방어자로 제한되고 고위험 작업에는 추가 통제와 모니터링이 적용된다. 동시에 Daybreak Cyber Partner Program을 통해 보안 기업들이 이미 쓰는 제품과 서비스에 프론티어 인텔리전스를 직접 통합하도록 지원한다.",
+        "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-08-11T02:16:51+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_003",
+        "title": "앤트로픽, 미공개 연구용 Claude로 리만 가설에 도전",
+        "excerpt": "앤트로픽이 아직 출시되지 않은 연구용 Claude 모델에게 리만 가설을 풀어보도록 시켰다. 가설 자체는 해결하지 못했지만 관련 문제에서 의미 있는 진전을 이뤘다.",
+        "body": "리만 제타 함수의 영점 중 가설을 만족하는 비율에 대한 하한을 기존 41.6%에서 67.2%로 끌어올리는 성과를 냈다. AI가 수학 난제 연구를 보조하는 능력을 보여주는 사례로, 해커뉴스 등 개발자 커뮤니티에서도 큰 화제가 됐다.",
+        "url": "https://www.anthropic.com/research/riemann-zeta",
+        "source": "Anthropic",
+        "category": "ai_ml",
+        "publishedAt": "2026-08-10T00:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_004",
+        "title": "메타, 온디바이스 오픈소스 코딩 모델 'Muse Glimmer' 공개",
+        "excerpt": "메타가 로컬 기기에서 실행 가능한 에이전틱 멀티모달 오픈소스 모델 Muse Glimmer를 다시 선보였다.",
+        "body": "약 30B 규모의 오픈 웨이트 코딩 모델로, 기기에서 직접 구동되는 것이 특징이다. 저커버그의 개인적인 AI 비전을 엿볼 수 있는 행보로도 해석되며, 오픈소스 진영에 힘을 싣는 메타의 전략을 재확인시켰다.",
+        "url": "https://huggingface.co/blog/muse-glimmer",
+        "source": "Hugging Face - Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-08-10T00:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_005",
+        "title": "앤트로픽, Claude Code '자동 모드' 기본값으로 전환",
+        "excerpt": "Claude Code가 최근 자동 모드를 기본값으로 설정하면서 더 이상 모든 작업마다 승인할 필요가 없어졌다. 어떤 작업이 안전하게 자동 실행될 수 있는지가 핵심 쟁점으로 떠올랐다.",
+        "body": "개발자 경험은 한층 매끄러워지지만 프롬프트 인젝션 등 자동화된 공격에 대한 우려도 함께 제기된다. 앤트로픽의 보리스 체르니는 에이전트가 악성 웹사이트를 방문했을 때 숨겨진 지시를 명령으로 오인해 SSH 키나 비밀번호를 유출할 위험을 별도로 경고했다.",
+        "url": "https://news.hada.io/topic?id=32365",
+        "source": "GeekNews",
+        "category": "ai_ml",
+        "publishedAt": "2026-08-11T00:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_006",
+        "title": "Model ML, GPT-5.6 Sol로 금융 업무 자동화 고도화",
+        "excerpt": "금융 분석 결과를 클라이언트 앞에 내놓기까지의 마지막 단계인 근거 대조, 문서 작성, 수치 검증 작업을 에이전트가 대신 처리한다.",
+        "body": "Model ML의 핵심 에이전트는 작업을 계획하고 적합한 도구를 선택하며 각 단계를 GPT-5.6 Sol을 비롯한 최적 모델로 라우팅한다. 자체 문서 도구로 추적 가능한 파워포인트·엑셀 파일을 직접 생성해, 두 차례 성공적인 엑싯을 경험한 창업자들이 실제 업무 고충에서 출발해 만든 워크플로다.",
+        "url": "https://openai.com/index/model-ml",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-08-10T00:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_007",
+        "title": "엔비디아, 저지연 다국어 음성 에이전트용 오픈 웨이트 공개",
+        "excerpt": "엔비디아가 Magpie TTS 기반의 다국어 음성 에이전트를 오픈 웨이트로 공개하며 배포 전 과정을 직접 통제할 수 있게 했다.",
+        "body": "허깅페이스 블로그를 통해 공개된 이번 모델은 개발자가 자체 인프라에서 저지연 음성 에이전트를 직접 구축·배포할 수 있도록 오픈 웨이트와 전체 배포 도구를 함께 제공한다.",
+        "url": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
+        "source": "Hugging Face - Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-08-10T00:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_008",
+        "title": "지식 증류 비용을 대폭 낮춰 대규모 적용 가능하게",
+        "excerpt": "값비싼 지식 증류(knowledge distillation) 과정을 저렴하게 만들어 더 많은 팀이 소형 모델을 대규모로 활용할 수 있게 하는 방법이 소개됐다.",
+        "body": "허깅페이스와 Multiverse Computing이 공동으로 소개한 이 접근법은 대형 모델의 지식을 소형 모델로 옮기는 비용을 낮춰, 자원이 제한된 팀도 실용적인 수준에서 증류 기법을 적용할 수 있도록 돕는다.",
+        "url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
+        "source": "Hugging Face - Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-08-10T00:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_009",
+        "title": "ChatGPT Business, 프리미엄 좌석 도입",
+        "excerpt": "8월 20일까지 가입하면 워크스페이스 크레딧 100달러를 지급하고 팀의 고강도 작업을 위한 사용량 한도를 높여준다.",
+        "body": "오픈AI는 ChatGPT Business에 프리미엄 좌석 옵션을 도입한다고 발표했다. 가장 까다로운 업무를 처리하는 팀원들에게 더 높은 사용 한도를 제공하는 것이 핵심이다.",
+        "url": "https://openai.com/index/premium-seats-chatgpt-business",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-08-10T00:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_010",
+        "title": "VS Code 1.133 인사이더 빌드 공개",
+        "excerpt": "비주얼 스튜디오 코드의 최신 인사이더 빌드 1.133이 배포되며 새로운 기능들이 추가됐다.",
+        "body": "마이크로소프트가 VS Code 1.133 인사이더 빌드를 공개하고 변경 사항을 정리한 릴리스 노트를 게시했다.",
+        "url": "https://code.visualstudio.com/updates/v1_133",
+        "source": "Visual Studio Code",
+        "category": "dev_tools",
+        "publishedAt": "2026-08-11T00:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_011",
+        "title": "GitHub Copilot SDK for Java 공개",
+        "excerpt": "자바 개발자가 프레임워크에 종속되지 않고 AI를 앱에 직접 연동할 수 있는 첫 프레임워크 무관 SDK가 나왔다.",
+        "body": "기존에는 Langchain4j나 Spring AI처럼 특정 프레임워크에 의존해야 했지만, GitHub Copilot SDK for Java는 BYOK를 지원해 오픈AI·애저·앤트로픽 등 원하는 모델 제공자를 자유롭게 선택할 수 있다. Copilot 구독 없이도 사용 가능하다.",
+        "url": "https://github.blog/engineering/using-the-github-copilot-sdk-for-java/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-08-11T04:30:00+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_012",
+        "title": "클라우드플레어, 'Agents Week' 발표 총정리",
+        "excerpt": "클라우드플레어가 AI 에이전트 관련 신기능을 대거 공개한 'Agents Week' 행사의 발표 내용을 한데 모아 정리했다.",
+        "body": "Workers AI, AI 게이트웨이 등 에이전트 개발에 필요한 다양한 제품 업데이트가 한 주간 순차적으로 공개됐으며, 이번 글은 그 전체 발표를 총정리한 리뷰다.",
+        "url": "https://blog.cloudflare.com/agents-week-review-august-2026/",
+        "source": "Cloudflare Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-08-11T03:34:10+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_013",
+        "title": "Vercel Sandbox, 관리형 이미지(VMI) 도입",
+        "excerpt": "버전이 관리되는 오픈소스 베이스 이미지 세트인 Vercel Managed Images가 새로 도입돼 기존 샌드박스 런타임을 대체한다.",
+        "body": "Sandbox SDK v3부터 새로 생성되는 샌드박스는 기본으로 vercel/sandbox/universal:latest 이미지를 사용하며, Node.js와 Python 등이 포함돼 있다. 모든 이미지의 소스는 공개 저장소에서 확인할 수 있다.",
+        "url": "https://vercel.com/changelog/vercel-sandbox-managed-images",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-08-10T00:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_014",
+        "title": "클라우드플레어, 미국 정부용 FedRAMP Class D(High) 인증 획득",
+        "excerpt": "클라우드플레어 포 거번먼트가 FedRAMP Class D(High) 인증을 획득했으며, DoD IL4 인가 추진도 함께 발표했다.",
+        "body": "이번 인증으로 클라우드플레어는 공공 부문에도 세계적 수준의 보안·성능·개발자 제품을 제공할 수 있게 됐다.",
+        "url": "https://blog.cloudflare.com/fedramp-class-d-certification/",
+        "source": "Cloudflare Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-08-10T00:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_015",
+        "title": "Vercel Functions, Bun.serve 엔트리포인트 지원",
+        "excerpt": "Vercel의 Bun 런타임이 이제 웹소켓 핸들러를 포함한 Bun.serve()를 함수 엔트리포인트로 직접 지원한다.",
+        "body": "로컬에서 Bun으로 실행하던 서버 코드를 별도 프레임워크로 감쌀 필요 없이 그대로 배포할 수 있다. vercel.json에서 bunVersion을 1.x로 설정하면 활성화된다.",
+        "url": "https://vercel.com/changelog/bun-serve-entrypoint-for-vercel-functions",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-08-10T00:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_002",
+        "title": "저커버그, 6,500단어 AI 미래 선언문 '모두를 위한 미래' 공개",
+        "excerpt": "마크 저커버그가 인간과 AI가 공존할 이상적 미래에 대한 장문의 에세이를 발표했다. 초지능 시대에 대한 그의 개인적 비전을 담았다.",
+        "body": "저커버그는 월요일 'The Future is for Everyone'이라는 제목의 6,500단어 분량 선언문을 통해 AI와 인류의 공존에 대한 신념을 광범위하게 제시했다. 메타의 슈퍼인텔리전스 연구소가 공격적인 인재 영입과 투자를 이어가는 가운데 나온 것으로, 회사의 장기 AI 전략 방향을 가늠할 단서로 주목받고 있다.",
+        "url": "https://www.theverge.com/tech/977395/meta-mark-zuckerberg-superintelligent-ai-ramble",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-08-10T00:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_016",
+        "title": "메타 Glimmer, 저커버그의 '개인 지능' 비전을 엿보게 하다",
+        "excerpt": "메타의 신규 오픈 웨이트 모델 Muse Glimmer가 저커버그가 그리는 개인화된 초지능 비전의 단서를 보여준다는 분석이 나왔다.",
+        "body": "테크크런치는 이번 모델이 사용자가 소유하고 직접 접근할 수 있는 AI와, 그렇지 않은 AI 사이의 새로운 균열을 보여준다고 평가했다.",
+        "url": "https://techcrunch.com/2026/08/10/metas-new-glimmer-ai-model-offers-a-hint-at-zuckerbergs-personal-intelligence-vision/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-08-10T00:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_017",
+        "title": "유튜브, 수익 창출 조건 두 배로 강화",
+        "excerpt": "유튜브에서 수익을 내려면 최근 1년간 최소 8천 시간의 유효 시청 시간, 또는 최근 90일간 2천만 회의 유효 쇼츠 조회수가 필요해졌다.",
+        "body": "기존보다 훨씬 높아진 기준으로, 신규 크리에이터들의 수익화 진입 장벽이 한층 높아질 전망이다.",
+        "url": "https://techcrunch.com/2026/08/10/youtube-now-requires-creators-to-have-twice-as-many-watch-hours-to-start-earning-money/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-08-10T00:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_018",
+        "title": "물류기업 Ceva Logistics 데이터 유출, 은행·유통·스팀 이용자까지 파장",
+        "excerpt": "Ceva Logistics를 통해 상품을 배송하던 여러 기업들이 최근 사이버 공격으로 고객 개인정보가 유출됐다고 밝혔다.",
+        "body": "이번 유출은 은행, 유통업체는 물론 스팀 게이머들에게까지 영향을 미치며 공급망 전반의 보안 리스크를 드러냈다.",
+        "url": "https://techcrunch.com/2026/08/10/a-data-breach-at-shipping-giant-ceva-logistics-is-rippling-across-banks-retailers-steam-gamers-and-beyond/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-08-10T00:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_019",
+        "title": "보잉, 에어택시 자회사들 아처 에비에이션에 매각",
+        "excerpt": "보잉이 자율주행 전기항공기를 개발해온 Wisk Aero를 포함한 3개 eVTOL 자회사를 아처 에비에이션에 매각한다.",
+        "body": "보잉은 매각과 함께 아처 에비에이션의 지분(비공개)도 취득한다. 매각 대상에는 항공교통관리 시스템을 개발하는 SkyGrid도 포함된다.",
+        "url": "https://www.theverge.com/transportation/977306/boeing-selling-evtol-archer-wisk-air-taxi",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-08-10T00:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_020",
+        "title": "배터리 소재 스타트업 Sila, 국방부서 14억 달러 대출",
+        "excerpt": "각국 군이 배터리 수요를 늘리는 가운데, Sila가 미 국방부로부터 14억 달러 대출을 확보해 워싱턴주 공장 생산을 확대한다.",
+        "body": "이번 대출은 군수용 배터리 공급망을 자국 내에서 확보하려는 미국의 전략과 맞물려 있다.",
+        "url": "https://techcrunch.com/2026/08/10/sila-lands-1-4b-pentagon-loan-as-militaries-demand-more-batteries/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-08-10T00:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_021",
+        "title": "구글, 2026년 픽셀 하드웨어 공개 행사 예고",
+        "excerpt": "구글이 수요일 연례 'Made by Google' 행사를 열고 신형 픽셀 스마트폰을 공개할 예정이다.",
+        "body": "슬랩형과 폴더블 스마트폰 티저는 이미 공개됐으며, 새로운 워치와 이어버드 색상, 추가 기기 발표 가능성도 유출을 통해 점쳐지고 있다.",
+        "url": "https://www.theverge.com/tech/977448/made-by-google-2026-pixel-hardware-launch-event",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-08-10T00:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_022",
+        "title": "Show HN: 오프라인에서 돌아가는 단일 바이너리 코딩 에이전트 'Ante'",
+        "excerpt": "네트워크 연결 없이도 로컬에서 실행되는 단일 바이너리 형태의 코딩 에이전트가 해커뉴스에 소개됐다.",
+        "body": "개발자들 사이에서 클라우드 의존 없는 코딩 에이전트에 대한 관심이 반영된 프로젝트로, 해커뉴스에서 큰 호응을 얻었다.",
+        "url": "https://github.com/AntigmaLabs/ante",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-08-10T00:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_023",
+        "title": "Docker Sandboxes, AI 에이전트 전용 일회성 격리 환경 제공",
+        "excerpt": "AI 코딩 에이전트마다 전용 microVM을 붙여 호스트와 분리된 환경에서 장시간 무인 작업을 실행할 수 있게 하는 기능이 소개됐다.",
+        "body": "샌드박스에는 개발 환경과 프로젝트 작업공간만 마운트되며, 에이전트는 그 안에서 패키지 설치, 설정 변경, 서비스·컨테이너 구동까지 자유롭게 수행할 수 있다.",
+        "url": "https://news.hada.io/topic?id=32357",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-08-11T00:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_024",
+        "title": "HackerOne에 무슨 일이 일어났나?",
+        "excerpt": "2017년부터 HackerOne을 연구자·프로그램 관리자로 경험한 필자가 회사의 정체성 변화를 돌아본 글이다.",
+        "body": "해커 중심 커뮤니티였던 HackerOne이 영업·계약·AI 제품 중심 기업으로 바뀌며 정체성을 잃었다는 분석으로, 대규모 투자 유치 이후 커진 수익화 압력이 배경으로 지목됐다.",
+        "url": "https://news.hada.io/topic?id=32358",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-08-11T00:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_025",
+        "title": "1991년산 Mars Bar 발견 — 현재 제품보다 20g 이상 커",
+        "excerpt": "영국에서 물건이 가득 쌓인 집을 정리하던 중 유통기한이 1991년인 35년 된 Mars Bar가 발견돼 화제가 됐다.",
+        "body": "옛 제품 중량은 62.5g, 현재 제품은 40g으로 22.5g 차이가 나며, 과거 제품 크기에 대한 향수 섞인 반응이 소셜미디어에서 이어졌다.",
+        "url": "https://news.hada.io/topic?id=32366",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-08-11T00:00:00+09:00",
+        "readTime": 1,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_026",
+        "title": "GPU 위에서 돌리는 Rust SIMD",
+        "excerpt": "Rust로 GPU에서 SIMD 연산을 구현하는 방법을 다룬 기술 글이 해커뉴스에서 화제가 됐다.",
+        "body": "GPU 아키텍처의 병렬 연산 특성을 Rust의 SIMD 추상화와 결합하는 시도를 다루며, 성능 최적화에 관심 있는 개발자들의 토론을 이끌어냈다.",
+        "url": "https://www.vectorware.com/blog/simd-on-gpu/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-08-10T00:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_027",
+        "title": "'인지 공유지의 비극' — AI 시대 집단 사고력 저하 우려",
+        "excerpt": "AI 도구에 대한 과도한 의존이 인간의 집단적 사고 능력을 갉아먹을 수 있다는 우려를 다룬 논문이 소개됐다.",
+        "body": "공유 자원이 남용되면 고갈되는 '공유지의 비극'을 인간의 인지 능력에 빗대어, AI에 사고를 아웃소싱하는 현상의 장기적 위험을 분석한 아카이브 논문이다.",
+        "url": "https://arxiv.org/abs/2607.29380",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-08-10T00:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_028",
+        "title": "모노리포 희망편 — 절망의 리포가 부활하기까지 1년",
+        "excerpt": "토스의 모노리포가 100명 넘는 프론트엔드 엔지니어 규모에서도 하루 수백 번 배포되며 굴러가는 비결을 정리한 글이다.",
+        "body": "모든 서비스가 동일한 버전의 React 19, Next.js 15, Go로 재작성된 TypeScript 7을 사용하도록 통일하는 과정에서 겪은 시행착오와, 절망적이었던 모노리포가 1년 만에 희망적인 구조로 되살아난 과정을 다뤘다.",
+        "url": "https://news.hada.io/topic?id=32347",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-08-11T00:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 2
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "시스템 방어를 돕기 위해 오픈AI 모델을 사용하는 것을 고려해 주세요.",
+        "context": "샘 알트먼이 오픈AI의 사이버 보안 모델을 방어 목적으로 활용해 달라고 당부한 트윗으로, 같은 날 발표된 GPT-5.6-Cyber 및 Daybreak 확장 소식과 맞닿아 있다.",
+        "url": "https://x.com/sama/status/2086881528282587524",
+        "publishedAt": "2026-08-10T18:25:03.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "ㅋㅋ 오픈AI에서 내가 가장 좋아하는 것 중 하나가 또 티보(tibo)야",
+        "context": "오픈AI 관련 인물에 대한 애정을 가볍게 드러낸 일상적인 트윗이다.",
+        "url": "https://x.com/sama/status/2086470022772457950",
+        "publishedAt": "2026-08-09T15:09:52.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "병목 현상은 점점 더 당신이 무엇을 원하는지 아는 데 달려 있다.",
+        "context": "그렉 브록만이 AI 시대의 병목은 기술력이 아니라 사용자가 스스로 원하는 바를 명확히 아는 것이라는 통찰을 공유한 트윗이다.",
+        "url": "https://x.com/gdb/status/2086530739609407502",
+        "publishedAt": "2026-08-09T19:11:08.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "텍사스에서 AI 인프라를 책임감 있게 구축하는 방법:",
+        "context": "오픈AI가 텍사스 주지사에게 보낸 책임있는 AI 인프라 구축 관련 서한을 소개하며 공유한 트윗이다.",
+        "url": "https://x.com/gdb/status/2086868041451901009",
+        "publishedAt": "2026-08-10T17:31:27.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "우리는 새로운 모델(GPT-5.6-Cyber)을 출시하고 있으며, Daybreak을 확장하여 프론티어 인텔리전스를 방어자들의 손에 쥐어주고 있습니다.",
+        "context": "이날 최대 화제였던 GPT-5.6-Cyber와 Daybreak 확장 발표를 브록만이 직접 공유한 트윗이다.",
+        "url": "https://x.com/gdb/status/2086866967479341305",
+        "publishedAt": "2026-08-10T17:27:11.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "잔돈 데이터를 읽어 돈을 절약하는 방법에 대한 코덱스:",
+        "context": "Codex를 활용해 잔돈(거스름돈) 데이터를 분석하여 절약 팁을 찾아낸 사례를 소개한 것으로 보이는 트윗이다.",
+        "url": "https://x.com/gdb/status/2086516262491046364",
+        "publishedAt": "2026-08-09T18:13:37.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "ChatGPT Work 사용법 배우기:",
+        "context": "업무용 ChatGPT 활용법을 안내하는 콘텐츠를 공유한 트윗이다.",
+        "url": "https://x.com/gdb/status/2086482546389631111",
+        "publishedAt": "2026-08-09T15:59:38.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "때로는 Claude에게 '계속해'라고 말하는 것만 하면 됩니다.",
+        "context": "Claude Code 같은 코딩 에이전트를 다룰 때 복잡한 지시보다 짧은 개입만으로 충분한 경우가 많다는 개발자들의 경험을 공유한 트윗이다.",
+        "url": "https://x.com/trq212/status/2086876017319457181",
+        "publishedAt": "2026-08-10T18:03:09.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_009",
+        "author": "ClaudeDevs",
+        "handle": "ClaudeDevs",
+        "content": "저희는 최근 Claude Code에서 자동 모드를 기본값으로 설정했습니다. 이는 더 이상 모든 작업을 승인할 필요가 없다는 의미입니다. 하지만 어떤 것이 실행해도 안전한지 결정하는 기준은 무엇일까요? 작동 방식을 확인해 보세요.",
+        "context": "앤트로픽 공식 개발자 계정 ClaudeDevs가 Claude Code 자동 모드 전환의 배경과 안전 기준을 설명한 트윗이다. 보리스 체르니의 재게시로 확인됐다.",
+        "url": "https://x.com/ClaudeDevs/status/2086844755770757531",
+        "publishedAt": "2026-08-10T15:58:56.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_010",
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "content": "프롬프트 인젝션은 사기꾼들이 사람과 에이전트를 공격하는 가장 흔한 방법입니다. 에이전트가 악성 웹사이트를 방문하면, 웹사이트에 숨겨진 악성 텍스트가 있고 모델은 이를 지시로 해석하고 맙니다.",
+        "context": "보리스 체르니가 프롬프트 인젝션의 작동 방식을 설명하며, 에이전트가 숨은 지시를 진짜 명령으로 착각해 민감 정보를 유출할 위험을 경고한 트윗이다.",
+        "url": "https://x.com/bcherny/status/2086520950259118464",
+        "publishedAt": "2026-08-09T18:32:14.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_011",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "우리는 사이버 보안 이니셔티브 Daybreak을 확장하고 있으며, 고급 승인된 사이버 보안 작업을 위한 새로운 모델인 GPT-5.6-Cyber를 소개합니다. 위협 환경이 진화함에 따라, 공격자들이 대규모로 공격 AI를 배포하기 전에 신뢰할 수 있는 방어자들의 손에 최전선 인텔리전스를 쥐어주고자 합니다.",
+        "context": "오픈AI 공식 계정이 GPT-5.6-Cyber와 Daybreak 프로그램 확장을 공식 발표한 트윗이다.",
+        "url": "https://x.com/OpenAI/status/2086864365379010729",
+        "publishedAt": "2026-08-10T17:16:51.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_012",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "우리는 GPT-5.6-Cyber를 실세계 취약점 연구에 광범위하게 사용해 왔으며, 여기에는 크롬의 V8 엔진과 같은 인기 오픈소스 소프트웨어에서 이전에 알려지지 않은 취약점을 발견한 작업이 포함됩니다.",
+        "context": "GPT-5.6-Cyber가 크롬 V8 엔진 등에서 실제로 미공개 취약점을 발견한 사례를 공개한 트윗이다.",
+        "url": "https://x.com/OpenAI/status/2086864372500942906",
+        "publishedAt": "2026-08-10T17:16:53.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_013",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "고급 기능에는 강력한 보호 장치가 필요합니다. 그래서 접근은 승인된 방어자들에게만 제한되며, 고위험 사이버 보안 작업에는 추가 통제와 모니터링이 적용됩니다.",
+        "context": "고위험 사이버 보안 기능에 대한 접근을 승인된 방어자로 제한하는 안전장치를 설명한 트윗이다.",
+        "url": "https://x.com/OpenAI/status/2086864374837150108",
+        "publishedAt": "2026-08-10T17:16:53.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_014",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "전 세계 Build Week 참가자들이 Codex를 통해 아이디어를 실제 프로젝트로 구현했습니다.",
+        "context": "오픈AI 개발자 계정이 전 세계에서 열린 Build Week 행사에서 Codex를 활용한 참가자들의 성과를 소개한 트윗이다.",
+        "url": "https://x.com/OpenAIDevs/status/2086856098091528301",
+        "publishedAt": "2026-08-10T16:44:00.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_015",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "수상자 발표가 곧 이루어집니다. 기대해 주세요.",
+        "context": "Build Week 수상자 발표를 예고하는 후속 트윗이다.",
+        "url": "https://x.com/OpenAIDevs/status/2086856110083129437",
+        "publishedAt": "2026-08-10T16:44:03.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_016",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "우리는 출시되지 않은 연구 버전의 Claude에게 리만 가설에 도전해 보라고 요청했습니다. 가설을 풀지는 못했지만, 관련 문제에서 진전을 이루었습니다: 리만 제타 함수의 영점 중 가설을 만족하는 영점의 비율에 대한 하한을 41.6%에서 67.2%로 증가시켰습니다.",
+        "context": "앤트로픽 공식 계정이 미공개 연구용 Claude로 리만 가설에 도전한 성과를 공개한 트윗으로, 이날 매거진 하이라이트로도 다뤄진 소식이다.",
+        "url": "https://x.com/AnthropicAI/status/2086867246073401655",
+        "publishedAt": "2026-08-10T17:28:18.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_017",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Claude Sonnet 5의 출시 가격을 영구적으로 적용합니다. 우리는 6월에 Sonnet 5를 백만 입력 토큰당 $2, 백만 출력 토큰당 $10에 출시했으며, 8월 31일까지 그 가격을 유지했는데, 그 가격은 변경 없이 유지될 것입니다.",
+        "context": "클로드 공식 계정이 6월 출시 당시 가격을 8월 31일 이후에도 그대로 유지하겠다고 공지한 트윗이다.",
+        "url": "https://x.com/claudeai/status/2086891169217122586",
+        "publishedAt": "2026-08-10T19:03:21.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "실시간 립싱크 얼굴 영상 모델 LeapTalk가 공개됐습니다. 오디오를 넣으면 인물 사진, 카툰, 회화 이미지 위에서 말하는 영상을 만들고, 단일 스텝 생성으로 최대 200FPS까지 간다고 설명합니다. 긴 영상에서 얼굴이 점점 달라지는 문제를 줄이기 위해, 매번 노이즈에서 다시 그리지 않고 참조 이미지를 기준으로 프레임을 옮기는 Brownian bridge 구조를 씁니다. 입 모양 동기화를 유지하는 오디오 유도 메커니즘도 붙였고, 기반은 Wan2.1-T2V-1.3B입니다.",
+        "context": "AI 아바타·라이브 영상 생성 모델의 최신 동향을 소개하는 게시물로, 장시간 재생 시 얼굴이 무너지는 문제를 해결한 새로운 오픈 연구를 다뤘다.",
+        "url": "https://www.threads.com/@choi.openai/post/Db3m6a9CZBf",
+        "publishedAt": "2026-08-10T18:00:35.000Z"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "Qwen이 에이전트에 시각 능력을 붙여주는 Qwen-MM-Plugins를 공개했습니다. 이미지·영상·문서를 읽는 것은 물론 OCR, 장시간 영상 분석, 영상 편집, Blender 기반 3D 모델링과 FreeCAD 기반 CAD 작업까지 지원합니다. Qwen-MM-Plugins는 Claude Code, Codex, Qwen Code, Gemini CLI 같은 기존 하네스에 스킬과 MCP 서버를 붙여 멀티모달 능력의 간극을 메웁니다.",
+        "context": "코딩 에이전트에 멀티모달 능력을 더하는 오픈소스 프로젝트를 소개하며, Claude Code·Codex 같은 기존 에이전트 하네스와의 호환성을 강조했다.",
+        "url": "https://www.threads.com/@choi.openai/post/Db3ckN9kyK_",
+        "publishedAt": "2026-08-10T16:30:11.000Z"
+      },
+      {
+        "id": "threads_003",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "GPT 새로운 이미지 모델 정말 미친 것 같다..",
+        "context": "오픈AI의 최신 이미지 생성 모델에 대한 개인적인 감상을 짧게 남긴 게시물이다.",
+        "url": "https://www.threads.com/@choi.openai/post/Db3SRjsAd96",
+        "publishedAt": "2026-08-10T15:00:15.000Z"
+      },
+      {
+        "id": "threads_004",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "Grok 이미지 생성 정말 좋아졌다.",
+        "context": "xAI의 Grok 이미지 생성 기능이 최근 크게 개선됐다는 평가를 담은 게시물이다.",
+        "url": "https://www.threads.com/@choi.openai/post/Db3H-Lbkjlb",
+        "publishedAt": "2026-08-10T13:30:13.000Z"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "트랜스포머는 산술 연산에 약하기로 유명한데, 학습 없이 가중치를 직접 설계해 100% 정확도로 곱셈을 하게 만들었다 [P]",
+        "originalTitle": "Transformers are famously bad at arithmetic, so I set one's weights by hand (no training) and it multiplies with 100% accuracy [P]",
+        "summary": "학습 과정 없이 트랜스포머의 가중치를 손으로 직접 설계해 곱셈 연산을 완벽하게 수행하도록 만든 프로젝트다. 트랜스포머 아키텍처가 산술 연산에 약한 이유를 구조적으로 파헤친 실험으로 커뮤니티에서 주목받고 있다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1vkrnb5/transformers_are_famously_bad_at_arithmetic_so_i/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-08-11T02:37:35+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "게재된 CVPR 논문에 이의를 제기하려면 어떻게 해야 하나요? [R]",
+        "originalTitle": "How to file a complaint about a published CVPR paper? [R]",
+        "summary": "이미 학회에 게재된 CVPR 논문에 문제를 제기하는 절차를 묻는 글로, 학계의 논문 검증·이의제기 프로세스에 대한 논의가 댓글에서 이어지고 있다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1vkn5x9/how_to_file_a_complaint_about_a_published_cvpr/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-08-10T23:56:16+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "fru - 빠른 랜덤 포레스트 구현체 [P]",
+        "originalTitle": "fru - Fast Random Forest Implementation [P]",
+        "summary": "성능 최적화에 초점을 맞춘 새로운 랜덤 포레스트 구현 라이브러리를 소개하는 프로젝트 공유 게시물이다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1vkrvks/fru_fast_random_forest_implementation_p/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-08-11T02:45:41+09:00"
+      }
+    ]
+  }
+}

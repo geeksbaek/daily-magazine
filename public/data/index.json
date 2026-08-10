@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-08-11",
+      "issueNumber": 127,
+      "mainHeadline": "오픈AI, 사이버 방어용 GPT-5.6-Cyber 공개 — Daybreak 프로그램 확대",
+      "headlines": [
+        "저커버그, 6,500단어 분량 AI 미래 선언문 공개 — '모두를 위한 미래'",
+        "앤트로픽, 미공개 연구용 Claude로 리만 가설 도전 — 제타함수 영점 하한 41.6%→67.2%로 끌어올려",
+        "메타, 온디바이스 오픈소스 코딩 모델 'Muse Glimmer' 공개"
+      ]
+    },
+    {
       "date": "2026-08-10",
       "issueNumber": 126,
       "mainHeadline": "앤트로픽, Claude Code '자동 모드' 기본값으로 전환 — 프롬프트 인젝션 방어에 자신감",
