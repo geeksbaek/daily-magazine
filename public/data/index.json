@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-08-12",
+      "issueNumber": 128,
+      "mainHeadline": "ChatGPT와 Gemini, 나란히 월간 사용자 10억 명 돌파",
+      "headlines": [
+        "OpenAI 최장수 임원 브래드 라이트캡, 8년 만에 회사 떠나 '새로운 도전' 예고",
+        "앤트로픽, Claude 생성 텍스트에 워터마킹 도입 — EU AI 법 대응 본격화",
+        "오픈AI, AI발 사이버공격 급증에 신규 방어 모델 'GPT-5.6-Cyber' 출시"
+      ]
+    },
+    {
       "date": "2026-08-11",
       "issueNumber": 127,
       "mainHeadline": "오픈AI, 사이버 방어용 GPT-5.6-Cyber 공개 — Daybreak 프로그램 확대",
