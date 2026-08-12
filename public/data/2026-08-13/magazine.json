@@ -1,0 +1,569 @@
+{
+  "date": "2026-08-13",
+  "issueNumber": 129,
+  "cover": {
+    "mainHeadline": "xAI, Grok 4.6 공개 — GPT-5.6 Sol과 벤치마크 동률",
+    "mainExcerpt": "일론 머스크의 xAI가 신규 모델 Grok 4.6을 출시하며 Artificial Analysis Intelligence Index에서 오픈AI GPT-5.6 Sol과 동일한 점수를 기록했다. 커서(Cursor)와 Grok Build에서 출시 당일부터 사용할 수 있다.",
+    "headlines": [
+      "AI 코딩 스타트업 코그니션, 400억 달러 밸류에이션 논의 — 몇 달 만에 몸값 재상승",
+      "노코드 개발툴 러버블, 133억 달러 밸류에이션 확정 — 4억 달러 추가 투자",
+      "구글 'Made by Google 26' — 픽셀11 시리즈와 제미나이 신기능 대거 공개"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_001",
+      "title": "xAI, Grok 4.6 공개 — GPT-5.6 Sol과 벤치마크 동률",
+      "excerpt": "일론 머스크의 xAI가 신규 모델 Grok 4.6을 출시했다. 아홉 개 벤치마크를 종합한 Artificial Analysis Intelligence Index에서 오픈AI의 GPT-5.6 Sol과 동일한 61점을 기록했다.",
+      "body": "Grok 4.6은 Cursor와 Grok Build에서 출시 당일부터 사용할 수 있으며, 두 서비스는 첫 주간 포함 사용량을 두 배로 제공한다. Artificial Analysis Intelligence Index는 CursorBench, FrontierCode, AA-Omniscience 등 아홉 개 벤치마크를 종합한 지표로, xAI는 이번 결과가 파라미터 확장이 아닌 사후학습(post-training) 투자에 집중한 성과라고 설명했다. 해커뉴스에서도 212점의 높은 반응을 얻으며 AI 모델 경쟁이 다시 한 번 가열되고 있음을 보여줬다.",
+      "url": "https://x.ai/news/grok-4-6",
+      "source": "Hacker News",
+      "category": "ai_ml",
+      "publishedAt": "2026-08-13T00:32:50+09:00",
+      "readTime": 3,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_002",
+      "title": "AI 코딩 스타트업 코그니션, 400억 달러 밸류에이션 논의",
+      "excerpt": "AI 코딩 스타트업 코그니션(Cognition)이 260억 달러였던 기업가치를 400억 달러로 끌어올리는 신규 투자 라운드를 논의 중인 것으로 알려졌다.",
+      "body": "코그니션은 불과 몇 달 전 10억 달러 규모의 투자를 260억 달러 밸류에이션에 유치한 바 있다. 이번 라운드가 성사되면 기업가치가 다시 큰 폭으로 뛰게 되며, AI 코딩 에이전트 시장에 대한 투자자들의 열기가 식지 않고 있음을 보여준다.",
+      "url": "https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-08-13T03:19:12+09:00",
+      "readTime": 3,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_003",
+      "title": "노코드 개발툴 러버블, 133억 달러 밸류에이션 확정 — 4억 달러 추가 투자",
+      "excerpt": "AI 코딩 스타트업 러버블(Lovable)이 133억 달러 기업가치로 4억 달러 규모의 신규 투자를 유치했다고 확인했다.",
+      "body": "이번 투자는 러버블이 지난 6월 연환산 매출 5억 달러를 돌파한 직후 이뤄졌다. 자연어만으로 완성된 웹·앱을 만들어주는 서비스로 빠르게 성장하며, AI 코딩 툴 시장에서 몸값이 가장 빠르게 뛰는 스타트업 중 하나로 꼽힌다.",
+      "url": "https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-08-13T01:04:27+09:00",
+      "readTime": 3,
+      "imageGradient": 2
+    },
+    {
+      "id": "rss_004",
+      "title": "구글 'Made by Google 26' — 픽셀11 시리즈와 제미나이 신기능 대거 공개",
+      "excerpt": "구글이 연례 하드웨어 행사 'Made by Google 26'에서 픽셀11 시리즈와 애플 에어태그 경쟁 제품, 다수의 제미나이 신기능을 한꺼번에 공개했다.",
+      "body": "이번 행사에서는 픽셀11, 픽셀11 프로, 픽셀11 프로 XL, 픽셀11 프로 폴드 등 4종의 신규 스마트폰과 위치추적기 '픽셀 태그', 픽셀 워치5가 함께 공개됐다. 기본형 픽셀11은 899달러부터 시작하며, 프로와 프로 XL은 각각 1099달러, 1299달러로 책정됐다. 구글은 카메라 성능 개선과 함께 제미나이 기반 기능을 대거 탑재해 애플과 삼성을 겨냥한 하드웨어 라인업을 강화했다.",
+      "url": "https://techcrunch.com/2026/08/12/google-unveils-pixel-11-lineup-new-airtag-rival-and-gemini-features-at-made-by-google-2026/",
+      "source": "TechCrunch",
+      "category": "big_tech",
+      "publishedAt": "2026-08-12T23:20:33+09:00",
+      "readTime": 4,
+      "imageGradient": 3
+    },
+    {
+      "id": "rss_005",
+      "title": "힌턴·페이페이 리·앤드류 응, AI 안전 논쟁 속 '개방성' 옹호",
+      "excerpt": "AI 산업의 원로 연구자 세 명이 Ai4 컨퍼런스에서 규제와 오픈소스 접근성을 놓고 열띤 토론을 벌였다.",
+      "body": "제프리 힌턴, 페이페이 리, 앤드류 응은 AI 안전 우려가 커지는 가운데서도 오픈소스 모델과 개방적 접근이 여전히 중요하다는 입장을 밝혔다. 이들은 중국이 AI 경쟁에서 빠르게 앞서 나가는 상황에서 미국이 경쟁력을 유지하려면 규제 일변도의 접근보다 개방적 생태계를 지켜야 한다고 주장했다. 최근 AI 안전성 논쟁이 격화되는 가운데, 업계 원로들이 내놓은 이례적인 개방 옹호론으로 주목받고 있다.",
+      "url": "https://techcrunch.com/2026/08/12/as-ai-safety-concerns-mount-three-pioneers-make-the-case-for-staying-open/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-08-13T02:51:00+09:00",
+      "readTime": 4,
+      "imageGradient": 4
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_006",
+        "title": "오픈AI 지원 스라이브 홀딩스, 기업용 AI 확산에 20억 달러 조달",
+        "excerpt": "오픈AI가 지원하는 스라이브 홀딩스(Thrive Holdings)가 소프트뱅크 등으로부터 20억 달러 규모의 신규 투자를 유치했다.",
+        "body": "이번 라운드는 D1 캐피털 파트너스, 알티미터 캐피털 등이 참여했으며 기업가치는 120억 달러로 평가됐다. 스라이브 홀딩스는 오픈AI의 기술을 활용해 전통 기업들의 AI 전환을 돕는 사업을 확장하고 있다.",
+        "url": "https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-08-13T02:41:29+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_007",
+        "title": "리퀴드AI, 엣지용 경량 비전 모델 'LFM2.5-VL-3B' 공개",
+        "excerpt": "리퀴드AI가 더 빠르고 정확한 엣지 디바이스용 비전-언어 모델 'LFM2.5-VL-3B'를 허깅페이스에 공개했다.",
+        "body": "30억 파라미터 규모의 경량 모델로, 온디바이스 환경에서도 향상된 비전 캡션 생성 및 이해 능력을 제공하는 데 초점을 맞췄다.",
+        "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
+        "source": "Hugging Face - Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-08-12T23:00:51+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_008",
+        "title": "마이크로소프트 리서치, VLM 공간 추론 능력 평가하는 'MindTopo' 공개",
+        "excerpt": "마이크로소프트 리서치가 시각언어모델(VLM)의 위상학적 공간 이해 능력을 측정하는 새 벤치마크 'MindTopo'를 발표했다.",
+        "body": "길, 울타리, 매듭과 같은 위상적 관계를 AI가 얼마나 잘 이해하는지 테스트하며, 공간 추론과 계획 능력을 강화할 새로운 연구 기회를 제시한다는 평가다.",
+        "url": "https://www.microsoft.com/en-us/research/blog/mindtopo-reveals-vlms-spatial-reasoning-abilities/",
+        "source": "Microsoft Research",
+        "category": "ai_ml",
+        "publishedAt": "2026-08-13T01:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_009",
+        "title": "오픈AI \"기업 AI, '보조'에서 '실행'으로\" — 상위 10% 기업, 토큰 사용량 8.3배",
+        "excerpt": "오픈AI가 발표한 기업 AI 도입 현황 보고서에 따르면, AI 사용 상위 10% '프론티어 기업'은 일반 기업보다 8.3배 많은 출력 토큰을 생성하고 있다.",
+        "body": "기업들이 AI를 활용하는 범위와 깊이가 동시에 확대되고 있으며, 특히 선도 기업과 후발 기업 간의 격차가 점점 벌어지고 있다는 분석이다. 오픈AI는 이번 조사를 통해 기업 AI 도입 속도의 차이가 향후 경쟁력을 가르는 핵심 변수가 될 것이라고 진단했다.",
+        "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-08-12T15:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_010",
+        "title": "AI 코드 테스트 스타트업 블랙스미스, 1년 만에 기업가치 10배 급등",
+        "excerpt": "AI 기반 코드 테스트 스타트업 블랙스미스(Blacksmith)의 기업가치가 1년도 안 돼 10배 가까이 뛰어 5억5천만 달러로 평가됐다.",
+        "body": "블랙스미스는 지난 1년간 매출이 10배 넘게 성장했다고 밝혔다. AI 코딩이 확산되면서 소프트웨어 검증·테스트 자동화 수요가 급증한 결과로 풀이된다.",
+        "url": "https://techcrunch.com/2026/08/12/blacksmiths-valuation-jumps-10x-to-550m-as-ai-coding-fuels-software-validation/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-08-12T20:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_011",
+        "title": "깃허브, 'Copilot 앱 첫 프롬프트 작성법' 가이드 공개",
+        "excerpt": "깃허브가 Copilot 앱에서 첫 프롬프트를 작성하는 방법을 안내하는 가이드를 공개했다.",
+        "body": "적절한 컨텍스트와 모델을 선택하는 방법부터 첫 작업을 자신 있게 시작하는 법까지 다루며, 신규 이용자의 진입 장벽을 낮추는 데 초점을 맞췄다.",
+        "url": "https://github.blog/ai-and-ml/github-copilot/write-your-first-prompt-with-the-github-copilot-app/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-08-13T04:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_012",
+        "title": "\"당신의 컨트리뷰터는 이제 AI다\" — 깃허브, 오픈소스 메인테이너에 조언",
+        "excerpt": "깃허브 블로그가 오픈소스 프로젝트의 기여자 구성이 이미 AI 중심으로 바뀌고 있다고 진단했다.",
+        "body": "AutoGPT 메인테이너 니콜라스 틴들은 AI 기여자들이 이미 프로젝트의 PR 큐에 들어와 있다며, 메인테이너가 통제권을 유지하기 위한 저장소 지침과 게이트, 경계 설정 방법을 공유했다.",
+        "url": "https://github.blog/open-source/maintainers/your-contributors-are-ai-first-now-is-your-project/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-08-13T03:00:08+09:00",
+        "readTime": 4,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_013",
+        "title": "도커, 'Docker VMM' 퍼블릭 베타 공개 — 성능 전면 개편",
+        "excerpt": "도커가 맥과 윈도우용 가상머신 매니저 'Docker VMM'의 퍼블릭 베타를 공개했다.",
+        "body": "이번 개편은 성능과 안정성, 거버넌스 전반을 새롭게 설계한 것으로, 도커는 블로그를 통해 변경 사항과 사용 방법을 자세히 안내했다.",
+        "url": "https://www.docker.com/blog/docker-vmm-public-beta/",
+        "source": "Docker Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-08-13T03:13:20+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_014",
+        "title": "도커, 엔터프라이즈 AI 에이전트 보안 기준선 'Agent Baseline' 제시",
+        "excerpt": "도커가 기업의 AI 에이전트 도입을 위한 보안 청사진 'Agent Baseline'을 공개했다.",
+        "body": "고객 지원 에이전트가 첨부파일이 포함된 티켓을 받는 상황 등을 예로 들며, 에이전트에 과도한 권한을 주지 않으면서도 업무를 수행하게 하는 여섯 가지 보안 목표를 제시했다.",
+        "url": "https://www.docker.com/blog/a-new-security-baseline-for-enterprise-agentic-adoption/",
+        "source": "Docker Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-08-13T02:25:31+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_015",
+        "title": "딥시크 V4 Pro, 버셀 AI 게이트웨이서 가중치 업데이트",
+        "excerpt": "딥시크 V4 Pro 모델이 버셀 AI 게이트웨이에서 업데이트된 가중치로 구동을 시작했다.",
+        "body": "기존 모델 ID나 코드 변경 없이도 deepseek/deepseek-v4-pro 호출 시 새 가중치가 기본 적용되며, 기존 요청도 별도 조치 없이 자동으로 반영된다.",
+        "url": "https://vercel.com/changelog/deepseek-v4-pro-now-runs-updated-weights-on-ai-gateway",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-08-12T16:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_016",
+        "title": "트위치, 스트리머 대상 아마존 AI 학습 옵트아웃 기능 도입",
+        "excerpt": "트위치가 스트리머들이 자신의 콘텐츠를 아마존 생성형 AI 학습에 사용되지 않도록 거부할 수 있는 옵트아웃 기능을 새로 도입했다.",
+        "body": "옵트아웃을 선택하면 스트림, VOD, 클립, 채팅, 채널의 사진·텍스트가 아마존 AI 모델의 향후 학습에 사용되지 않는다. 크리에이터의 콘텐츠가 동의 없이 AI 학습에 활용되는 데 대한 반발이 커지는 가운데 나온 조치다.",
+        "url": "https://www.theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-08-13T02:29:10+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_017",
+        "title": "애플 아이폰18 기본 모델, 올가을 출시 불발 확실시",
+        "excerpt": "애플 아이폰18 프로 시리즈는 예정대로 올가을 출시되지만, 기본형 아이폰18은 내년 상반기로 밀릴 것으로 보인다.",
+        "body": "애플 부품 협력사 페가트론 경영진이 실적 발표에서 이 같은 일정을 사실상 확인했다. 이코노믹데일리뉴스 보도를 맥루머스가 인용해 전한 내용으로, 애플이 프로와 기본 모델의 출시 시점을 분리하는 전략을 이어가고 있음을 보여준다.",
+        "url": "https://www.theverge.com/tech/979231/apple-base-iphone-18-launch-delayed",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-08-13T04:27:47+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_018",
+        "title": "픽셀11 프로 폴드 vs 갤럭시 Z 폴드8, 무엇이 다른가",
+        "excerpt": "구글의 신형 폴더블 픽셀11 프로 폴드와 삼성 갤럭시 Z 폴드8 울트라를 비교한 분석이 나왔다.",
+        "body": "구글은 폴더블 시장에 가장 먼저 뛰어든 업체는 아니지만, 여권 형태의 넓은 화면 디자인을 대중화시키며 독자적인 입지를 구축해왔다. 이번 비교는 두 회사의 폴더블 전략 차이와 카메라·디스플레이 사양 격차를 조명했다.",
+        "url": "https://www.theverge.com/tech/972498/google-pixel-11-pro-fold-samsung-galaxy-z-fold-8-ultra-specs-comparison",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-08-13T01:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_019",
+        "title": "기타 제조사 다다리오, 홍보 영상에 AI 음악 사용 결국 시인",
+        "excerpt": "기타 현 제조사 다다리오(D'Addario)가 최근 홍보 영상에 AI 음악 생성 서비스 수노(Suno)를 사용했다고 인정했다.",
+        "body": "약 2주간 관련 의혹을 부인해온 다다리오는 증거가 계속 쌓이자 결국 사실을 시인했다. 음악 업계에서 AI 생성 콘텐츠 사용을 둘러싼 신뢰 문제가 다시 도마 위에 올랐다.",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/978982/daddario-guitar-ai-music-suno",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-08-13T00:52:07+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_020",
+        "title": "우버 프레이트, 해킹 그룹의 데이터 유출 주장에 조사 착수",
+        "excerpt": "운송업체와 사모펀드를 노려온 것으로 알려진 한 갈취 조직이 우버 프레이트에서 데이터를 탈취했다고 주장하면서 회사가 조사에 나섰다.",
+        "body": "우버 프레이트 측은 보도에 대해 조사 중이라고 밝혔다. 해당 해킹 그룹은 최근 운송·물류 업계를 잇달아 공격 대상으로 삼아온 것으로 알려졌다.",
+        "url": "https://techcrunch.com/2026/08/12/uber-freight-reportedly-investigating-after-hacking-group-claims-data-breach/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-08-13T02:15:41+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Jack Clark",
+        "handle": "jackclarkSF",
+        "content": "젊은 아이를 둔 것의 아름답고도 비극적인 점은, 대가족과 함께 현관에서 비눗방울을 불며 놀아주다 보면 \"이게 내 인생 최고의 순간이야\"라고 생각하게 되고, 그 생각이 맞다는 거예요.",
+        "context": "앤트로픽 공동창업자 잭 클라크가 자녀와 함께한 개인적인 순간을 담은 소감을 남겼다.",
+        "url": "https://x.com/jackclarkSF/status/2087377891340468391",
+        "publishedAt": "2026-08-12T03:17:25.000Z",
+        "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+      },
+      {
+        "id": "tweet_002",
+        "author": "Amanda Askell",
+        "handle": "AmandaAskell",
+        "content": "스카이림을 처음 플레이했을 때, 살생을 전혀 하지 않고도 꽤 많은 진행을 할 수 있다는 걸 금방 깨달았어요. 고아들을 입양해서 좋은 집을 지어줄 수도 있어서, 저는 그쪽에 집중했죠. 솔직히 스토리는 거의 기억나지 않고 그냥 '힘든 판타지 자선 게임'으로만 기억해요.",
+        "context": "앤트로픽의 AI 정렬 연구자 아만다 아스켈이 게임 스카이림을 플레이했던 경험을 유쾌하게 회고했다.",
+        "url": "https://x.com/AmandaAskell/status/2087597131800674495",
+        "publishedAt": "2026-08-12T17:48:36.000Z",
+        "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+      },
+      {
+        "id": "tweet_003",
+        "author": "Amanda Askell",
+        "handle": "AmandaAskell",
+        "content": "게임마다 '윤리적인' 플레이의 기준이 다르다는 게 흥미로워요. 바이오쇼크에서는 그 기준이 말 그대로 '아이들을 죽이지 않는 것'이에요. 어른을 죽이는 건 괜찮고요.",
+        "context": "아스켈이 게임별로 다른 '윤리적 플레이'의 기준을 비교하며, AI 정렬 연구자 특유의 시각으로 가벼운 농담을 던졌다.",
+        "url": "https://x.com/AmandaAskell/status/2087606022961865148",
+        "publishedAt": "2026-08-12T18:23:56.000Z",
+        "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+      },
+      {
+        "id": "tweet_004",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "이는 EU AI 법안과 협력하는 과정의 일부이며, 다른 연구소들도 유사한 워터마킹을 추가하고 있습니다. AI 생성 텍스트를 식별하기 어렵기 때문에, 이것은 사람들에게 이를 더 잘 수행할 수 있는 도구를 제공합니다. 우리는 또한 여러분이 직접 사용할 수 있는 텍스트 감지 API를 출시할 예정입니다.",
+        "context": "앤트로픽 소속 타리크가 Claude 생성 텍스트 워터마킹 기능의 배경을 스레드로 설명했다. EU AI 법 대응 차원의 조치임을 강조했다.",
+        "url": "https://x.com/trq212/status/2087258090169414008",
+        "publishedAt": "2026-08-11T19:21:22.000Z",
+        "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+      },
+      {
+        "id": "tweet_005",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "모든 Claude로 생성된 텍스트에는 이 워터마킹이 내장되어 있을 것입니다. 예를 들어, PR이 Claude Code에 의해 생성되었는지 확인할 수 있습니다. 그렇기는 하지만, 제한점이 있습니다.",
+        "context": "워터마킹 기능이 Claude Code로 작성된 PR 등을 식별하는 데 쓰일 수 있다는 점과 함께, 완벽하지 않다는 한계도 함께 설명했다.",
+        "url": "https://x.com/trq212/status/2087258091821949074",
+        "publishedAt": "2026-08-11T19:21:23.000Z",
+        "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+      },
+      {
+        "id": "tweet_006",
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "content": "LLM들은 여전히 버그를 생성하지만, 그 버그들은 이전과는 다른 종류입니다. 더 이상 오프-바이-원(off-by-one) 오류가 적고, 시스템 설계, UI 사용성, 더 넓은 맥락 누락 등에 관한 것입니다. 일부 종류의 코딩은 해결되었지만, 모든 것은 아닙니다.",
+        "context": "앤트로픽 소속 보리스 체르니가 LLM 코딩 도구의 발전으로 버그의 성격 자체가 바뀌고 있다는 관찰을 공유했다.",
+        "url": "https://x.com/bcherny/status/2087284684103537011",
+        "publishedAt": "2026-08-11T21:07:03.000Z",
+        "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+      },
+      {
+        "id": "tweet_007",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "현재 프리뷰 중: Linux용 ChatGPT 데스크톱 앱. 지원되는 Linux 시스템에서 프로젝트와 브라우저 워크플로와 함께 이미 작업하고 구축하는 곳에서 ChatGPT, ChatGPT Work, Codex를 사용하세요.",
+        "context": "오픈AI가 리눅스용 ChatGPT 데스크톱 앱을 프리뷰로 출시했다고 공식 발표했다.",
+        "url": "https://x.com/OpenAI/status/2087231350134980830",
+        "publishedAt": "2026-08-11T17:35:07.000Z",
+        "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+      },
+      {
+        "id": "tweet_008",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "ChatGPT 데스크톱 앱은 이제 다음 Linux 배포판의 데스크톱 변형에서 프리뷰로 사용할 수 있습니다: Ubuntu 24.04 LTS 및 26.04 LTS, Debian 13, Fedora 43 및 44. x64 또는 ARM64용 .deb 또는 .rpm 패키지로 설치하세요.",
+        "context": "리눅스용 ChatGPT 앱이 지원하는 구체적인 배포판과 설치 패키지 형식을 안내했다.",
+        "url": "https://x.com/OpenAI/status/2087248033906094175",
+        "publishedAt": "2026-08-11T18:41:25.000Z",
+        "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+      },
+      {
+        "id": "tweet_009",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "코드가 이미 있는 곳에서 빌드하세요. Codex는 ChatGPT 데스크톱 앱에서 Linux로 출시될 예정이므로, 프로젝트, 개발 워크플로우, 지원되는 브라우저 도구를 함께 유지할 수 있습니다. 프리뷰에서 사용 가능합니다.",
+        "context": "오픈AI 개발자 공식 계정이 Codex의 리눅스 지원 확장 소식을 전했다.",
+        "url": "https://x.com/OpenAIDevs/status/2087231793682694410",
+        "publishedAt": "2026-08-11T17:36:53.000Z",
+        "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+      },
+      {
+        "id": "tweet_010",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "이제 다른 에이전트의 작업을 ChatGPT Work와 Codex와 동기화하여 유지할 수 있습니다. 프로젝트, 채팅, 스킬, 플러그인을 가져오고, 가져온 기록을 검토하며, 설정에서 자동 업데이트를 선택할 수 있습니다.",
+        "context": "ChatGPT Work와 Codex 간 작업 동기화 기능 출시를 안내했다.",
+        "url": "https://x.com/OpenAIDevs/status/2087242829076791392",
+        "publishedAt": "2026-08-11T18:20:44.000Z",
+        "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "샘 알트만(Sam Altman)은 차세대 AI가 사용자의 모든 업무와 상호작용 맥락을 이해하는 파트너 역할을 하게 될 것이라고 밝혔습니다. \"우리는 챗GPT의 후속 버전이 사용자의 전체 삶과 문맥을 이해하는 세상에 거의 다다랐습니다.\" AI가 사용자의 회의, 문서, 통화, 피드백 등 업무 전반의 맥락을 학습해 전략 수립 시 새로운 아이디어를 제안하거나 실수를 짚어주는 실질적인 피어(Peer) 역할을 수행하게 될 것이라는 설명입니다. 그는 모델 한 세대 정도의 기술적 진보만 남았으며, \"앞으로 6개월 이내에 이러한 변화가 시작되어 일하는 방식을 근본적으로 바꿀 것\"이라고 강조했습니다.",
+        "context": "국내 AI 인플루언서 CHOI가 샘 올트먼의 인터뷰 발언을 정리해 전했다.",
+        "url": "https://www.threads.com/@choi.openai/post/Db8b7FrDEwm",
+        "publishedAt": "2026-08-12T15:00:46.000Z"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "스레드를 해야하는 이유.",
+        "context": "CHOI가 스레드(Threads) 플랫폼 활용을 독려하는 짧은 게시물을 남겼다.",
+        "url": "https://www.threads.com/@choi.openai/post/Db8RifrEvFu",
+        "publishedAt": "2026-08-12T13:30:02.000Z"
+      },
+      {
+        "id": "threads_003",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "AI 영상을 배우고 싶으신 분은 꼭 참고하세요. 힉스필드 홈페이지에서는 영상 AI에 대한 기초 강의와 영상에 대한 프롬프트부터 에셋까지 오픈소스로 공유하고 있습니다. 어떻게 시작해야할지 막막했다면 정말 추천드립니다.",
+        "context": "CHOI가 영상 생성 AI 학습에 도움이 되는 힉스필드의 무료 강의 자료를 소개했다.",
+        "url": "https://www.threads.com/@choi.openai/post/Db8HVNGErda",
+        "publishedAt": "2026-08-12T12:00:50.000Z"
+      },
+      {
+        "id": "threads_004",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "Manus가 한시적으로 무료로 제공됩니다. 에이전틱AI를 사용해보고 싶으신 분들은 꼭 한 번 경험해보시길 바랍니다.",
+        "context": "CHOI가 에이전틱 AI 서비스 Manus의 한시적 무료 제공 소식을 전했다.",
+        "url": "https://www.threads.com/@choi.openai/post/Db79AMVDXVf",
+        "publishedAt": "2026-08-12T10:30:35.000Z"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "완전한 자유는 주지만 지도는 거의 없는 지도교수, 선택하시겠습니까? [D]",
+        "originalTitle": "Would you choose a PhD advisor who gives you complete freedom but almost no guidance? [D]",
+        "summary": "박사과정 지도교수의 '방임형' 지도 스타일을 두고 머신러닝 커뮤니티 이용자들이 장단점을 활발히 토론하는 글이다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1vmhks7/would_you_choose_a_phd_advisor_who_gives_you/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-08-13T00:36:44+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "'솔직한' CS 학회 순위를 만들어봤습니다 — 권위가 아니라 출장 만족도 기준으로 [P]",
+        "originalTitle": "I built an \"honest\" CS conference ranking: sorted by how good the trip is, not the CORE ranking [P]",
+        "summary": "학술적 권위를 나타내는 CORE 랭킹 대신, 학회가 열리는 장소의 여행 매력도를 기준으로 컴퓨터과학 학회 순위를 재구성한 프로젝트를 공유했다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1vmbdk6/i_built_an_honest_cs_conference_ranking_sorted_by/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-08-12T20:23:32+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "손실 함수는 기저(basis)를 보지 않지만, Adam은 본다 [R]",
+        "originalTitle": "The Loss Does Not See the Basis, But Adam Does [R]",
+        "summary": "Adam 옵티마이저가 파라미터의 좌표 기저 선택에 따라 실질적으로 다르게 동작한다는 점을 짚은 연구 결과를 공유했다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1vmjb3p/the_loss_does_not_see_the_basis_but_adam_does_r/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-08-13T01:39:12+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "구글이 '샘이 죽었다'고 표시한다?",
+        "originalTitle": "Google says Sam is dead?",
+        "summary": "구글 검색 또는 AI 개요 기능이 샘 올트먼 관련 정보를 오류로 잘못 표시한 사례를 커뮤니티가 공유하며 화제가 됐다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1vmcmh6/google_says_sam_is_dead/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-08-12T21:23:17+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "샌드박스 엔지니어들 반응",
+        "originalTitle": "Sandbox engineers be like:",
+        "summary": "AI 에이전트 샌드박스를 운영하는 엔지니어들의 고충을 밈 형식으로 유쾌하게 표현한 게시물이다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1vmf29k/sandbox_engineers_be_like/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-08-12T23:04:01+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "구글이 샘 올트먼을 사망 처리 — 유족은 그의 서브 에이전트들",
+        "originalTitle": "Sam Altman declared dead by Google. He is survived by his sub agents",
+        "summary": "앞서 화제가 된 '구글이 샘을 사망 처리했다'는 사건을 소재로 한 후속 패러디 게시물이다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1vmd9jw/sam_altman_declared_dead_by_google_he_is_survived/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-08-12T21:51:06+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "딥마인드, 수어를 텍스트로 바꾸는 'SL2T' 공개 — 청각장애인 커뮤니티와 협업해 개발",
+        "originalTitle": "DeepMind just released SL2T, sign language-to-text model, deaf users can now sign into their phones instead of typing, developed with heavy input from the Deaf community",
+        "summary": "구글 딥마인드가 청각장애인 커뮤니티의 의견을 적극 반영해 개발한 수어-텍스트 변환 모델 SL2T를 공개한 소식이다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1vmflo1/deepmind_just_released_sl2t_sign_languagetotext/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-08-12T23:24:01+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "Artificial Analysis 아레나 기준, Grok 4.6이 GPT-5.6 Sol과 동급",
+        "originalTitle": "Grok 4.6 is an equivalent to Sol 5.6 according to artificial analysis arena",
+        "summary": "벤치마크 평가 기관 Artificial Analysis의 아레나 결과에서 xAI의 신모델 Grok 4.6이 오픈AI GPT-5.6 Sol과 동등한 성능을 보였다는 소식이 공유됐다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1vmhtfu/grok_46_is_an_equivalent_to_sol_56_according_to/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-08-13T00:45:53+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "Grok 4.6 벤치마크 결과 공개",
+        "originalTitle": "Grok 4.6 Benchmarks",
+        "summary": "xAI가 공개한 신모델 Grok 4.6의 세부 벤치마크 수치를 정리해 전한 게시물이다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1vmhvc3/grok_46_benchmarks/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-08-13T00:47:42+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_021",
+        "title": "코드 에디터 Zed, 신기능 'Delta' 공개",
+        "excerpt": "AI 네이티브 코드 에디터 Zed가 새로운 기능 'Delta'를 발표해 해커뉴스에서 136점의 반응을 얻었다.",
+        "body": "Zed 팀은 블로그를 통해 Delta 기능의 세부 내용을 공개했으며, 해커뉴스 이용자들 사이에서 51개의 댓글이 달리며 활발한 토론이 이어졌다.",
+        "url": "https://zed.dev/blog/introducing-delta",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-08-13T03:19:59+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_022",
+        "title": "알리바바, 2.4조 파라미터 규모 'Qwen3.8' 공개",
+        "excerpt": "알리바바가 허깅페이스를 통해 2.4조 파라미터 규모의 신규 모델 Qwen3.8을 공개하며 해커뉴스에서 286점의 큰 반응을 얻었다.",
+        "body": "이번 공개는 FP8 양자화 버전을 포함하며, 대형 오픈소스 모델 경쟁이 계속되고 있음을 보여준다. 해커뉴스에서는 68개의 댓글이 달리며 모델 성능과 구조에 대한 논의가 이어졌다.",
+        "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-08-13T00:01:17+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_023",
+        "title": "테일스케일, 16년 묵은 SQLite WAL 버그로 DB 손상 원인 추적",
+        "excerpt": "테일스케일이 6개월간 19건의 데이터베이스 손상과 반복적인 장애를 조사한 끝에, 16년 된 SQLite WAL 체크포인트 버그를 원인으로 찾아냈다.",
+        "body": "SQLite의 체크포인트와 쓰기 트랜잭션 사이에서 발생하는 희귀한 데이터 경쟁으로 인해, WAL 페이지가 주 데이터베이스에 실제로 복사되지 않았는데도 체크포인트가 완료된 것으로 처리돼 데이터가 영구 손실되는 문제였다. 해커뉴스에서 546점, 댓글 90개로 큰 반향을 얻었다.",
+        "url": "https://tailscale.com/blog/sqlite-wal-reset-bug",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-08-12T23:22:30+09:00",
+        "readTime": 4,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_024",
+        "title": "AI가 소프트웨어 엔지니어링의 '중산층'을 없애고 있다",
+        "excerpt": "AI가 구현 속도의 제약을 없애면서, 엔지니어링 문화가 취약한 프로젝트일수록 복구 불가능한 복잡성에 도달하는 시간이 크게 단축되고 있다는 분석이 나왔다.",
+        "body": "AI를 활용하면 하루 만에 수만 줄의 코드를 생성할 수 있지만, 사람이 이를 이해하고 검토하는 속도는 그대로여서 잘못된 설계와 추상화가 검토 역량을 압도하는 상황이 벌어지고 있다는 지적이다. GeekNews를 통해 소개되며 국내 개발자 커뮤니티에서도 관심을 끌었다.",
+        "url": "https://news.hada.io/topic?id=32441",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-08-13T02:35:46+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_025",
+        "title": "AI가 코드를 쓰는 시대, antirez는 왜 다시 C로 돌아갔나",
+        "excerpt": "레디스(Redis) 창시자 antirez가 Mac용 MiniMax-H3 추론 엔진 'H3-metal'을 C, Objective-C, Metal로 직접 만든 이유를 밝혔다.",
+        "body": "텍스트로 영상과 오디오를 함께 생성하는 모델을 애플 실리콘에서 구동하기 위해 만든 이 엔진은, 범용 AI 프레임워크에 의존하지 않고 아이디어를 직접 통제하겠다는 그의 개발 철학을 보여준다. GeekNews에서 소개되며 AI 시대 저수준 언어의 가치를 재조명했다.",
+        "url": "https://news.hada.io/article/antirez-controls-the-ideas",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-08-12T16:17:03+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_026",
+        "title": "HOP, HWP·HWPX 문서를 다루는 오픈소스 데스크톱 앱 공개",
+        "excerpt": "한글 문서 포맷인 HWP·HWPX를 macOS, 윈도우, 리눅스에서 열고 편집할 수 있는 오픈소스 데스크톱 앱 'HOP'이 공개됐다.",
+        "body": "Rust 기반 HWP·HWPX 파서·에디터인 rhwp를 문서 엔진으로 사용하며, 그 위에 데스크톱 환경에 필요한 기능을 추가한 구조다. 특정 OS에 종속되지 않고 한글 문서를 다룰 수 있는 오픈소스 대안으로 GeekNews에서 소개됐다.",
+        "url": "https://news.hada.io/topic?id=32428",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-08-12T15:32:44+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      }
+    ]
+  }
+}

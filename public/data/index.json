@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-08-13",
+      "issueNumber": 129,
+      "mainHeadline": "xAI, Grok 4.6 공개 — GPT-5.6 Sol과 벤치마크 동률",
+      "headlines": [
+        "AI 코딩 스타트업 코그니션, 400억 달러 밸류에이션 논의 — 몇 달 만에 몸값 재상승",
+        "노코드 개발툴 러버블, 133억 달러 밸류에이션 확정 — 4억 달러 추가 투자",
+        "구글 'Made by Google 26' — 픽셀11 시리즈와 제미나이 신기능 대거 공개"
+      ]
+    },
+    {
       "date": "2026-08-12",
       "issueNumber": 128,
       "mainHeadline": "ChatGPT와 Gemini, 나란히 월간 사용자 10억 명 돌파",
