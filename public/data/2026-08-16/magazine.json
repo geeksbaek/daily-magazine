@@ -1,0 +1,447 @@
+{
+  "date": "2026-08-16",
+  "issueNumber": 132,
+  "cover": {
+    "mainHeadline": "앤트로픽, Claude 워터마킹 세부 작동 방식 공개 — 코드 생성물에도 적용",
+    "mainExcerpt": "앤트로픽이 Claude의 새 AI 워터마킹 기능이 실제로 어떻게 작동하는지 FAQ 형태로 공개했다. 편집으로 워터마크를 제거할 수 있는지, 코드 생성물에는 어떤 영향을 주는지 등 그동안 제기된 질문에 답했다. EU AI법 준수 차원의 조치로, 다른 주요 AI 기업들도 같은 워터마킹 실천 강령에 서명한 상태다.",
+    "headlines": [
+      "스페이스X, AI 코딩 스타트업 커서 인수 공식 완료",
+      "메타, 오픈웨이트 모델 '글리머' 공개 — 저커버그 'AI는 모두를 위한 것' 서한과 함께",
+      "구글, 동형 암호화 컴파일러 HEIR 공개 — 복호화 없이 프라이빗 AI 추론 실현"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "ai_ml_001",
+      "title": "앤트로픽, Claude 워터마킹 세부 작동 방식 공개",
+      "excerpt": "앤트로픽이 Claude의 새 워터마킹 기능에 대한 FAQ를 공개했다. 워터마크가 어떻게 심어지는지, 편집으로 지울 수 있는지, 코드에는 어떤 영향을 주는지를 설명했다.",
+      "body": "앤트로픽은 Claude 신형 모델에 적용되는 워터마킹 기능과 관련해 자주 나온 질문들에 답하는 FAQ를 발표했다. EU AI법 준수를 위해 워터마킹을 도입했으며, 다른 주요 모델 개발사들도 같은 실천 강령에 서명해 워터마킹을 구현할 예정이라고 밝혔다. 워터마크는 문자나 메타데이터가 아니라 다음 단어를 고르는 확률적 선택 과정에 비밀 패턴을 심는 방식으로 작동하며, 회사 측은 이 방식이 Claude의 출력 품질에 영향을 주지 않는다고 강조했다.",
+      "url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
+      "source": "TechCrunch",
+      "category": "ai_ml",
+      "publishedAt": "2026-08-16T03:58:39+09:00",
+      "readTime": 4,
+      "imageGradient": 0
+    },
+    {
+      "id": "ai_ml_002",
+      "title": "스페이스X, AI 코딩 스타트업 커서 인수 공식 완료",
+      "excerpt": "AI 코딩 스타트업 커서가 공식적으로 스페이스X의 일부가 됐다. 인수가 마무리되면서 두 회사의 결합이 어떤 시너지로 이어질지 관심이 쏠린다.",
+      "body": "AI 기반 코딩 도구를 만드는 스타트업 커서가 스페이스X의 인수를 공식적으로 마쳤다. 이번 인수 완료로 커서는 스페이스X 산하에서 사업을 이어가게 됐으며, 우주·항공 엔지니어링 소프트웨어 개발에 AI 코딩 도구가 어떻게 접목될지가 업계의 관심사로 떠올랐다.",
+      "url": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/",
+      "source": "TechCrunch",
+      "category": "ai_ml",
+      "publishedAt": "2026-08-16T01:30:00+09:00",
+      "readTime": 3,
+      "imageGradient": 1
+    },
+    {
+      "id": "ai_ml_003",
+      "title": "메타, 오픈웨이트 모델 '글리머' 공개",
+      "excerpt": "메타가 누구나 내려받아 자체 하드웨어에서 구동할 수 있는 오픈웨이트 모델 '글리머'를 공개했다. 자체 API 뒤에 잠긴 상위 모델 '뮤즈 스파크'와 대비된다.",
+      "body": "메타가 이번 주 오픈웨이트 AI 모델 글리머를 공개했다. 누구나 다운로드해 자체 하드웨어에서 실행할 수 있는 모델로, API 뒤에 잠겨 있는 메타의 더 강력한 모델 뮤즈 스파크와는 성격이 다르다. 공개와 함께 마크 저커버그는 AI가 소수의 연구소에 의해 통제되기보다 '모두를 위한 것'이 되어야 한다는 내용의 서한을 내놓았지만, 실제 행보가 이 원칙에 부합하는지를 두고는 뒷말이 나오고 있다.",
+      "url": "https://techcrunch.com/podcast/metas-open-ai-and-a-250m-deal-gone-very-wrong/",
+      "source": "TechCrunch",
+      "category": "ai_ml",
+      "publishedAt": "2026-08-14T23:00:00+09:00",
+      "readTime": 5,
+      "imageGradient": 2
+    },
+    {
+      "id": "dev_001",
+      "title": "GitHub, 에이전트 앱으로 SDLC 전체 워크플로 통합 지원",
+      "excerpt": "깃허브가 기능 기획부터 보안 검토, 배포까지 소프트웨어 개발 생애주기 전체를 깃허브 안에서 처리할 수 있는 4가지 에이전트 앱 활용법을 소개했다.",
+      "body": "깃허브는 기능을 설계하고, 보안을 점검하고, 배포하고, 출시하는 소프트웨어 개발 생애주기(SDLC) 전 과정을 깃허브를 벗어나지 않고 처리할 수 있도록 돕는 4가지 에이전트 앱을 소개하는 글을 게재했다. 개발팀이 여러 도구를 오가지 않고도 기능 개발 전 과정을 한 곳에서 관리할 수 있다는 점을 강조했다.",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps/",
+      "source": "GitHub Blog",
+      "category": "dev_tools",
+      "publishedAt": "2026-08-15T01:00:00+09:00",
+      "readTime": 4,
+      "imageGradient": 3
+    },
+    {
+      "id": "big_001",
+      "title": "페이팔, 스트라이프·어드벤트에 매각 협상 재점화",
+      "excerpt": "페이팔이 신임 CEO 취임 후 실적 반등을 노리는 가운데, 스트라이프와 사모펀드 어드벤트에 회사를 매각하는 협상이 다시 활발해졌다는 보도가 나왔다.",
+      "body": "페이팔이 스트라이프 및 사모펀드 어드벤트와 매각 협상을 이어가고 있는 것으로 전해졌다. 새로 취임한 CEO가 실적 반등을 시도하는 와중에 나온 소식으로, 핀테크 업계의 지각변동 가능성에 관심이 쏠리고 있다.",
+      "url": "https://techcrunch.com/2026/08/14/talks-to-sell-paypal-to-stripe-and-advent-are-heating-up/",
+      "source": "TechCrunch",
+      "category": "big_tech",
+      "publishedAt": "2026-08-15T07:43:24+09:00",
+      "readTime": 3,
+      "imageGradient": 4
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "ai_ml_001",
+        "title": "앤트로픽, Claude 워터마킹 세부 작동 방식 공개",
+        "excerpt": "앤트로픽이 Claude의 새 워터마킹 기능에 대한 FAQ를 공개했다. 워터마크가 어떻게 심어지는지, 편집으로 지울 수 있는지, 코드에는 어떤 영향을 주는지를 설명했다.",
+        "body": "앤트로픽은 Claude 신형 모델에 적용되는 워터마킹 기능과 관련해 자주 나온 질문들에 답하는 FAQ를 발표했다. EU AI법 준수를 위해 워터마킹을 도입했으며, 다른 주요 모델 개발사들도 같은 실천 강령에 서명해 워터마킹을 구현할 예정이라고 밝혔다. 워터마크는 문자나 메타데이터가 아니라 다음 단어를 고르는 확률적 선택 과정에 비밀 패턴을 심는 방식으로 작동하며, 회사 측은 이 방식이 Claude의 출력 품질에 영향을 주지 않는다고 강조했다.",
+        "url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-08-16T03:58:39+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "ai_ml_002",
+        "title": "스페이스X, AI 코딩 스타트업 커서 인수 공식 완료",
+        "excerpt": "AI 코딩 스타트업 커서가 공식적으로 스페이스X의 일부가 됐다.",
+        "body": "AI 기반 코딩 도구를 만드는 스타트업 커서가 스페이스X의 인수를 공식적으로 마쳤다. 이번 인수 완료로 커서는 스페이스X 산하에서 사업을 이어가게 됐으며, 우주·항공 엔지니어링 소프트웨어 개발에 AI 코딩 도구가 어떻게 접목될지가 업계의 관심사로 떠올랐다.",
+        "url": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-08-16T01:30:00+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "ai_ml_003",
+        "title": "메타, 오픈웨이트 모델 '글리머' 공개",
+        "excerpt": "메타가 누구나 내려받아 구동할 수 있는 오픈웨이트 모델 '글리머'를 공개했다.",
+        "body": "메타가 이번 주 오픈웨이트 AI 모델 글리머를 공개했다. 누구나 다운로드해 자체 하드웨어에서 실행할 수 있는 모델로, API 뒤에 잠겨 있는 메타의 더 강력한 모델 뮤즈 스파크와는 성격이 다르다. 공개와 함께 마크 저커버그는 AI가 소수의 연구소에 의해 통제되기보다 '모두를 위한 것'이 되어야 한다는 내용의 서한을 내놓았지만, 실제 행보가 이 원칙에 부합하는지를 두고는 뒷말이 나오고 있다.",
+        "url": "https://techcrunch.com/podcast/metas-open-ai-and-a-250m-deal-gone-very-wrong/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-08-14T23:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 2
+      },
+      {
+        "id": "ai_ml_004",
+        "title": "프랑스 스타트업 콕, GPU에서 추론 성능 더 짜낸다",
+        "excerpt": "GPU가 에이전틱 워크플로에 부적합하다는 통념과 달리, 콕은 GPU 최적화만으로 추론 효율을 크게 끌어올릴 수 있다고 주장한다.",
+        "body": "프랑스 스타트업 콕은 GPU가 에이전틱 워크플로에 원래 적합하지 않다는 통념이 오해일 수 있다고 주장한다. 회사는 하드웨어 교체 없이 소프트웨어 최적화만으로 GPU에서 더 많은 추론 처리량을 뽑아낼 수 있다는 접근을 취하고 있으며, 이는 고가의 신규 인프라 투자 없이 추론 비용을 낮추려는 기업들의 관심을 끌고 있다.",
+        "url": "https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-08-14T23:50:11+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "ai_ml_005",
+        "title": "허깅페이스, '2026년 여름 오픈 모델 현황' 리포트 발행",
+        "excerpt": "허깅페이스가 오픈소스 AI 모델 생태계의 최신 동향을 정리한 여름 리포트를 공개했다.",
+        "body": "허깅페이스가 오픈소스 AI 모델 생태계의 흐름을 정리한 '2026년 여름 오픈 모델 현황' 리포트를 발행했다. 오픈 웨이트 모델들의 성능 향상 속도와 커뮤니티 활용 양상 등 올해 상반기 오픈소스 진영의 변화를 조망하는 내용을 담고 있다.",
+        "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+        "source": "Hugging Face - Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-08-14T09:00:00+09:00",
+        "readTime": 6,
+        "imageGradient": 4
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "dev_001",
+        "title": "GitHub, 에이전트 앱으로 SDLC 전체 워크플로 통합 지원",
+        "excerpt": "깃허브가 기능 기획부터 보안 검토, 배포까지 개발 생애주기 전체를 깃허브 안에서 처리하는 4가지 에이전트 앱 활용법을 소개했다.",
+        "body": "깃허브는 기능을 설계하고, 보안을 점검하고, 배포하고, 출시하는 소프트웨어 개발 생애주기(SDLC) 전 과정을 깃허브를 벗어나지 않고 처리할 수 있도록 돕는 4가지 에이전트 앱을 소개하는 글을 게재했다. 개발팀이 여러 도구를 오가지 않고도 기능 개발 전 과정을 한 곳에서 관리할 수 있다는 점을 강조했다.",
+        "url": "https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-08-15T01:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "dev_002",
+        "title": "스택오버플로우, 'AI 컨텍스트 아키텍처'를 쉽게 설명하다",
+        "excerpt": "스택오버플로우가 AI 컨텍스트 아키텍처란 무엇이고 왜 중요한지, 직접 만들지 vs 사서 쓸지를 문답 형식으로 풀어냈다.",
+        "body": "스택오버플로우 블로그의 '바보 같은 질문은 없다' 코너에서 엔지니어링 매니저와 프로덕트 매니저가 AI 컨텍스트 아키텍처의 개념과 중요성을 설명했다. 좋은 컨텍스트 아키텍처의 조건은 무엇인지, 왜 직접 구축하는 대신 기존 솔루션을 도입하는 편이 나을 수 있는지를 다뤘다.",
+        "url": "https://stackoverflow.blog/2026/08/14/ndq-ai-context-architecture-build-buy/",
+        "source": "Stack Overflow Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-08-15T03:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      },
+      {
+        "id": "dev_003",
+        "title": "클라우드플레어, MCP 트래픽 탐지·보안 기능 공개",
+        "excerpt": "클라우드플레어 게이트웨이가 프로토콜 수준의 휴리스틱으로 MCP 요청을 식별해, 승인되지 않은 '섀도 MCP' 트래픽을 찾아내고 차단할 수 있게 됐다.",
+        "body": "클라우드플레어는 게이트웨이가 프로토콜 수준의 휴리스틱을 이용해 MCP(Model Context Protocol) 트래픽을 식별한다고 밝혔다. 보안팀은 이 신호를 활용해 승인받지 않은 섀도 MCP 트래픽을 찾아내고, 승인된 서버에 한해서만 포털을 통한 접근을 허용하며, 관리 대상 네트워크 경로에서 직접 연결을 차단할 수 있다.",
+        "url": "https://blog.cloudflare.com/mcp-security-updates/",
+        "source": "Cloudflare Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-08-14T22:12:12+09:00",
+        "readTime": 5,
+        "imageGradient": 2
+      },
+      {
+        "id": "dev_004",
+        "title": "버셀 CDN, 암호화된 클라이언트 헬로(ECH) 지원 시작",
+        "excerpt": "버셀 DNS로 관리되는 도메인에서 TLS 핸드셰이크 중 SNI를 암호화하는 ECH 기능이 지원된다.",
+        "body": "버셀은 자사 CDN이 암호화된 클라이언트 헬로(ECH) 기능을 지원한다고 발표했다. ECH는 TLS 핸드셰이크에서 어떤 호스트명에 접속하는지 드러내던 서버 네임 인디케이션(SNI)을 암호화해, 네트워크 관찰자에게는 버셀의 공유 ECH 호스트명으로의 접속만 보이게 한다. 이 기능은 플랫폼 차원에서 관리돼 자동으로 적용된다.",
+        "url": "https://vercel.com/changelog/encrypted-client-hello-now-supported-on-vercel-cdn",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-08-15T01:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "big_001",
+        "title": "페이팔, 스트라이프·어드벤트에 매각 협상 재점화",
+        "excerpt": "페이팔이 신임 CEO 취임 후 실적 반등을 노리는 가운데, 스트라이프와 사모펀드 어드벤트에 매각하는 협상이 다시 활발해졌다는 보도가 나왔다.",
+        "body": "페이팔이 스트라이프 및 사모펀드 어드벤트와 매각 협상을 이어가고 있는 것으로 전해졌다. 새로 취임한 CEO가 실적 반등을 시도하는 와중에 나온 소식으로, 핀테크 업계의 지각변동 가능성에 관심이 쏠리고 있다.",
+        "url": "https://techcrunch.com/2026/08/14/talks-to-sell-paypal-to-stripe-and-advent-are-heating-up/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-08-15T07:43:24+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "big_002",
+        "title": "자율주행 트럭, 캘리포니아 고속도로 공식 시험 주행 시작",
+        "excerpt": "오로라 이노베이션과 코디악 AI가 캘리포니아주 차량국(DMV) 허가를 받아 자율주행 트럭 시험 주행에 나섰다.",
+        "body": "자율주행 트럭을 개발 중인 오로라 이노베이션과 코디악 AI가 캘리포니아주 차량관리국(DMV)으로부터 허가를 받아 캘리포니아 고속도로에서 공식 시험 주행을 시작했다. 물류·화물 운송 분야에서 자율주행 상용화 경쟁이 한층 가시화되는 모습이다.",
+        "url": "https://techcrunch.com/2026/08/14/self-driving-trucks-are-officially-testing-on-california-highways/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-08-15T05:37:49+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "big_003",
+        "title": "누적 1억 달러 이상 투자받은 핵융합 스타트업 총정리",
+        "excerpt": "핵융합 스타트업들이 지금까지 누적 71억 달러를 투자받았으며, 그중 대부분이 소수 기업에 집중된 것으로 나타났다.",
+        "body": "테크크런치가 지금까지 1억 달러 이상을 투자받은 핵융합 스타트업들을 정리해 보도했다. 핵융합 분야 스타트업 전체 누적 투자액은 71억 달러에 달하지만, 이 중 상당 부분이 소수의 선두 기업에 쏠려 있는 것으로 나타나 투자 쏠림 현상이 두드러진다.",
+        "url": "https://techcrunch.com/2026/08/15/every-fusion-startup-that-has-raised-over-100m/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-08-15T22:15:20+09:00",
+        "readTime": 4,
+        "imageGradient": 2
+      },
+      {
+        "id": "big_004",
+        "title": "인도네시아 첫 대학 AI 센터, 가자마다대·인도삿·엔비디아 손잡고 출범",
+        "excerpt": "인도네시아 정부와 인도삿, 엔비디아, 가자마다대학교가 협력해 인도네시아 최초의 대학 기반 AI 기술 센터를 욕야카르타에 열었다.",
+        "body": "인도네시아 통신정보부(코민포)와 인도삿 우레두 허치슨, 엔비디아, 가자마다대학교(UGM)가 협력해 욕야카르타에 인도네시아 최초의 대학 기반 AI 기술 센터(NVAITC)를 열었다. 인도네시아의 AI 센터 오브 엑설런스 계획의 일환으로 설립됐으며, 현지 AI 인재 양성을 목표로 한다.",
+        "url": "https://blogs.nvidia.com/blog/ugm-indosat-nvidia-ai-technology-center/",
+        "source": "NVIDIA Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-08-15T02:13:05+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "솔이 14배 속도로 나온다는 게 정말 놀랍다.",
+        "context": "오픈AI가 세레브라스 인프라를 기반으로 GPT-5.6 Sol의 '울트라패스트' 모드를 공개하며 최대 14배 빠른 응답 속도를 선보인 것에 대한 그렉 브록만의 반응이다.",
+        "url": "https://x.com/gdb/status/2088111733973934346",
+        "publishedAt": "2026-08-14T03:53:27.000Z",
+        "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+      },
+      {
+        "id": "tweet_002",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "이제 더 이상 모델을 수동으로 선택할 필요가 없는 방향으로 나아가고 있다.",
+        "context": "ChatGPT가 작업에 맞는 모델을 자동으로 선택해주는 방향으로 발전하고 있다는 오픈AI 내부 방향성을 시사하는 트윗이다.",
+        "url": "https://x.com/gdb/status/2088658133971509640",
+        "publishedAt": "2026-08-15T16:04:39.000Z",
+        "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+      },
+      {
+        "id": "tweet_003",
+        "author": "Jack Clark",
+        "handle": "jackclarkSF",
+        "content": "연구 커뮤니티가 집단적으로 힐클라이밍하고 있는 최근 AI 발전의 대략적인 시대 구분: 2018-2022년은 요약·코딩 등 기본 능력의 시대, 2022-2026년은 RLHF·CAI와 더 긴 맥락, 에이전트 등 규범과 시간적 일관성의 시대, 2026년부터 2028년까지는 과학적 직관과 독립성의 시대가 될 것이다.",
+        "context": "앤트로픽 정책팀장 잭 클라크가 AI 발전 단계를 시기별로 구분하며, 다음 국면은 AI가 과학적 직관과 독립적 판단 능력을 갖추는 시기가 될 것이라는 전망을 내놓았다.",
+        "url": "https://x.com/jackclarkSF/status/2088372330515104191",
+        "publishedAt": "2026-08-14T21:08:58.000Z",
+        "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+      },
+      {
+        "id": "tweet_004",
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "content": "지난 몇 주 동안 시도해 온 실험은 Claude에게 우리 앱의 일상적인 유지보수를 맡기는 것이다. 초기 징후로는 가능할 수도 있어 보인다. 설정은 간단하다. 'proj-claude-maintains-apps'라는 슬랙 채널을 만들고, 그 안에서 Claude Tag가 iOS, 안드로이드, 데스크톱, 웹 앱을 계속 관리하도록 했다.",
+        "context": "앤트로픽 엔지니어 보리스 체르니가 Claude에게 앱 유지보수 업무를 위임하는 실험을 슬랙 채널을 통해 진행 중이라고 공유했다.",
+        "url": "https://x.com/bcherny/status/2088014489438621990",
+        "publishedAt": "2026-08-13T21:27:02.000Z",
+        "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+      },
+      {
+        "id": "tweet_005",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "ChatGPT가 이제 컴퓨터의 앱과 웹사이트에서의 활동을 기억할 수 있다. 데스크톱 앱의 '컴퓨터 기록' 기능을 통해 앞으로의 상호작용이 더 개인화되고 별도 설명이 덜 필요해질 것이다.",
+        "context": "오픈AI가 ChatGPT 데스크톱 앱에 사용자의 컴퓨터 활동 기록을 반영하는 '컴퓨터 히스토리' 기능을 공식 소개했다.",
+        "url": "https://x.com/OpenAI/status/2087996496088297746",
+        "publishedAt": "2026-08-13T20:15:32.000Z",
+        "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+      },
+      {
+        "id": "tweet_006",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "코덱스와 ChatGPT가 이제 최근 작업 맥락을 이해할 수 있다. 컴퓨터 기록에 참여해 ChatGPT에 더 풍부한 맥락을 제공하면, 하던 지점에서 이어가거나 반복 작업에 대한 자동화 제안을 받을 수 있다.",
+        "context": "오픈AI 개발자 계정이 컴퓨터 히스토리 기능을 코덱스와 ChatGPT의 작업 맥락 이해에 활용하는 방법을 안내했다.",
+        "url": "https://x.com/OpenAIDevs/status/2088000960891408677",
+        "publishedAt": "2026-08-13T20:33:16.000Z",
+        "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+      },
+      {
+        "id": "tweet_007",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "워터마킹에 대해 받은 질문들에 답하는 FAQ를 작성했다. EU AI법 준수를 위해 워터마킹을 구현하고 있으며, 다른 주요 모델 개발사들도 같은 실천 강령에 서명해 워터마킹을 도입할 예정이다. 워터마킹 방식은 Claude의 출력 품질에 영향을 주지 않는다.",
+        "context": "앤트로픽 공식 계정이 새 워터마킹 기능에 대한 FAQ 발표를 공지한 트윗으로, 오늘 커버 기사의 원문 출처다.",
+        "url": "https://x.com/AnthropicAI/status/2088343978873966687",
+        "publishedAt": "2026-08-14T19:16:18.000Z",
+        "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+      },
+      {
+        "id": "tweet_008",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "책임 있는 확장 정책의 일환으로 정기적인 위험 보고서를 발행한다. 이 보고서는 우리 시스템의 위험 요소와 이에 대한 대응 준비 상황을 상세히 공유한다. 두 번째 위험 보고서가 공개됐다.",
+        "context": "앤트로픽이 책임 있는 확장 정책(RSP)에 따라 두 번째 정기 위험 보고서를 발행했다고 공지했다.",
+        "url": "https://x.com/AnthropicAI/status/2088324824863236248",
+        "publishedAt": "2026-08-14T18:00:12.000Z",
+        "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "오픈AI의 매출 구조가 불과 몇 달 만에 뒤집혔다. 올해 초만 해도 개인 사용자와 기업 매출 비중이 60대 40으로 개인 사용자가 더 컸는데, 현재는 기업 매출이 개인 사용자 매출을 넘어선 것으로 전해졌다. 오픈AI의 연환산 매출도 400억 달러를 넘어섰고, 7월에는 전월 대비 20% 이상 증가했다.",
+        "context": "오픈AI와 앤트로픽의 경쟁 축이 일반 소비자용 챗봇에서 기업 매출 확보 경쟁으로 옮겨가고 있다는 분석을 담은 게시물이다.",
+        "url": "https://www.threads.net/@choi.openai/post/DcEsmzyjUsZ",
+        "publishedAt": "2026-08-15T20:00:28.000Z"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "앤트로픽의 성장세가 상당히 가파르다. 2분기 예비 매출이 115억 달러를 넘어선 것으로 전해졌다. 앤트로픽의 연간반복매출(ARR)이 3월 말 300억 달러에서 6월 말 650억 달러까지 증가했을 것으로 추정되며, 이를 바탕으로 계산한 2분기 매출도 약 118억 달러로 비슷하다.",
+        "context": "앤트로픽의 매출 급성장세를 블룸버그 보도를 인용해 전한 게시물로, 오픈AI와의 매출 경쟁 구도를 짚었다.",
+        "url": "https://www.threads.net/@choi.openai/post/DcEiUuak-yQ",
+        "publishedAt": "2026-08-15T18:30:37.000Z"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "스타필드 파우나 데이터셋 공개 — 50개 종, 이미지 2만 장",
+        "originalTitle": "Dataset: Starfield Fauna - 20,000 images in 50 species categories. [P]",
+        "summary": "r/MachineLearning에 올라온 게시물로, 50개 동물 종을 분류한 이미지 2만 장 규모의 오픈 데이터셋을 공개하며 커뮤니티의 피드백을 구하고 있다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1vp9q5v/dataset_starfield_fauna_20000_images_in_50/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-08-16T03:06:57+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "GPU가 잔뜩 있다면 뭘 만들겠는가 (LLM 구동 제외)",
+        "originalTitle": "If you had a bunch of GPUs lying around, what would you actually build with them? (Running LLMs is off the table) [D]",
+        "summary": "r/MachineLearning 토론 스레드로, LLM 구동을 제외하고 유휴 GPU 자원을 활용할 만한 프로젝트 아이디어를 묻고 있다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1vowcmb/if_you_had_a_bunch_of_gpus_lying_around_what/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-08-15T16:26:32+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "NeurIPS 2026 저자 통보 일정, ICLR 마감과 겹쳐 논란",
+        "originalTitle": "NeurIPS 2026 Author Notifications Close to ICLR Deadline [D]",
+        "summary": "r/MachineLearning에서 NeurIPS 2026 논문 저자 통보 일정이 ICLR 제출 마감과 시기적으로 겹치는 데 대한 연구자들의 불만과 논의가 오가고 있다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1vp4tc0/neurips_2026_author_notifications_close_to_iclr/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-08-15T23:50:57+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "qb_001",
+        "title": "AI 신약 개발, 실제 성과는 어디까지 왔나",
+        "excerpt": "AI 기반 신약 개발 열풍이 실제로 얼마나 성과를 냈는지 데이터를 바탕으로 짚어보는 글이 화제다.",
+        "body": "AI 신약 개발 스타트업들이 쏟아지는 가운데, 실제로 임상 성공률과 개발 기간 단축 등에서 유의미한 성과가 나오고 있는지를 데이터로 점검한 글이 해커뉴스에서 주목받았다. 과장된 기대와 실제 진전 사이의 간극을 짚는 내용이다.",
+        "url": "https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-08-16T04:12:53+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "qb_002",
+        "title": "AI는 수학자보다 더 똑똑한 게 아니라 더 잘 기억할 뿐",
+        "excerpt": "AI가 수학 문제를 잘 푸는 것은 추론 능력이 뛰어나서가 아니라 방대한 기존 풀이를 기억해 재현하는 능력 때문이라는 주장이 제기됐다.",
+        "body": "AI가 수학적으로 인간을 능가하는 것처럼 보이는 현상이 실제로는 새로운 추론이 아니라 학습 데이터에 담긴 방대한 풀이 패턴을 잘 기억하고 재조합하는 능력에서 비롯된다는 분석 글이 해커뉴스에서 큰 반향을 얻었다.",
+        "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-08-16T03:13:02+09:00",
+        "readTime": 5,
+        "imageGradient": 1
+      },
+      {
+        "id": "qb_003",
+        "title": "코덱스 자동 연구로 GPU 커널 속도 232배 개선",
+        "excerpt": "GPU Mode의 QR 분해 대회에서 코덱스 기반 반복 최적화로 처리 시간을 기준 대비 232배 단축한 사례가 공유됐다.",
+        "body": "GPU Mode가 주최한 qr_v2 대회에서 코덱스를 활용한 반복적 자동 최적화로 torch.geqrf 기준 약 41만9000마이크로초였던 처리 시간을 1805마이크로초까지 줄여 183명 중 12위를 기록한 사례가 GeekNews에 소개됐다. 순차 의존성이 강한 하우스홀더 QR 분해를 블록 하우스홀더·WY 표현으로 재구성한 접근이 핵심이다.",
+        "url": "https://news.hada.io/topic?id=32535",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-08-16T03:41:34+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "qb_004",
+        "title": "Claude Code 세션, 이렇게 하면 비용을 아낄 수 있다",
+        "excerpt": "Claude Code 세션의 토큰 사용량과 비용을 줄이는 방법을 정리한 글이 개발자들 사이에서 공유되고 있다.",
+        "body": "같은 작업이라도 컨텍스트 크기와 유지 턴 수, 병렬 컨텍스트 개수에 따라 Claude Code의 토큰 사용량이 크게 달라지므로 세션에는 필요한 정보만 남겨야 한다는 조언이 GeekNews에 소개됐다. 비용은 모델, 입출력 유형, 프롬프트 캐시 활용 여부에 좌우되며 출력 토큰은 입력 토큰보다 약 5배 비싸다는 점도 짚었다.",
+        "url": "https://news.hada.io/topic?id=32534",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-08-16T03:38:34+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "qb_005",
+        "title": "구글, 동형 암호화로 프라이빗 AI 실용화 나서",
+        "excerpt": "구글이 데이터를 복호화하지 않고도 AI 추론에 활용할 수 있는 오픈소스 컴파일러 HEIR을 공개했다.",
+        "body": "구글이 암호화된 데이터를 복호화하지 않고 AI 추론에 활용하는 오픈소스 컴파일러 HEIR을 프라이빗 컴퓨팅 툴킷에 추가했다. 동형 암호화를 활용하면 서버가 암호문 상태 그대로 연산해 암호화된 결과를 반환하므로, 사용자 데이터와 서비스 제공자의 독점 AI 모델을 동시에 보호할 수 있다는 설명이다.",
+        "url": "https://news.hada.io/topic?id=32522",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-08-15T14:32:30+09:00",
+        "readTime": 4,
+        "imageGradient": 4
+      },
+      {
+        "id": "qb_006",
+        "title": "AI 텍스트 워터마킹, 실제로는 어떻게 작동하나",
+        "excerpt": "AI 텍스트 워터마크가 눈에 보이는 표식이 아니라 단어 선택 확률에 심어지는 비밀 패턴이라는 점을 설명하는 해설 글이 눈길을 끈다.",
+        "body": "AI 텍스트 워터마크는 특수 문자나 메타데이터가 아니라, 다음 단어를 고르는 확률적 선택 과정에 비밀 패턴을 심는 방식으로 작동한다는 해설이 GeekNews에 소개됐다. 구글은 2024년부터 제미나이 앱과 웹에 이 방식을 적용해왔고, Claude 신형 모델도 2026년 8월부터 모델 수준에서 워터마킹을 적용하기 시작했다.",
+        "url": "https://news.hada.io/topic?id=32518",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-08-15T09:43:26+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      }
+    ]
+  }
+}
