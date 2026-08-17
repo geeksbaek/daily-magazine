@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-08-18",
+      "issueNumber": 133,
+      "mainHeadline": "Stripe, AI 게이트웨이 스타트업 OpenRouter 70억 달러 이상에 인수 합의",
+      "headlines": [
+        "OpenAI, 오하이오 파이크카운티에 8GW 데이터센터 프로젝트 참여 — 엔비디아·美 에너지부와 협력",
+        "엔비디아, 소프트뱅크 데이터센터 개발사에 15억 달러 투자 — OpenAI 프로젝트향 GPU 공급 확정",
+        "AI가 만든 깃허브 코파일럿 '오토픽스' 코드, 스노우플레이크 지라 침해로 이어져"
+      ]
+    },
+    {
       "date": "2026-08-16",
       "issueNumber": 132,
       "mainHeadline": "앤트로픽, Claude 워터마킹 세부 작동 방식 공개 — 코드 생성물에도 적용",
@@ -1340,5 +1350,5 @@
       ]
     }
   ],
-  "latestIssue": 110
+  "latestIssue": 133
 }
