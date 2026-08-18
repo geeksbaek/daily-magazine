@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-08-19",
+      "issueNumber": 134,
+      "mainHeadline": "OpenAI, 프론티어 모델 RL 훈련 2주간 중단 — 허깅페이스 침해·'아스트라' 사이버 위험 대응",
+      "headlines": [
+        "OpenAI, 10대 전용 챗GPT 출시 — 나이 추정·보호자 통제 기능 신설",
+        "애플, EU 앱스토어 수수료 개편 — 외부 배포 수수료 5% 단일화",
+        "AI 반도체 스타트업 에처드, 한 달 만에 기업가치 210억 달러로 2배 급증"
+      ]
+    },
+    {
       "date": "2026-08-18",
       "issueNumber": 133,
       "mainHeadline": "Stripe, AI 게이트웨이 스타트업 OpenRouter 70억 달러 이상에 인수 합의",
