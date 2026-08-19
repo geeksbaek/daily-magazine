@@ -1,0 +1,794 @@
+{
+  "date": "2026-08-20",
+  "issueNumber": 135,
+  "cover": {
+    "mainHeadline": "OpenAI, '프라이빗 세이프티 프로세싱' 도입해 제로 데이터 리텐션 유지",
+    "mainExcerpt": "OpenAI가 프론티어 모델의 제로 데이터 리텐션(ZDR) 약속을 지키면서도 안전을 강화할 신기술 '프라이빗 세이프티 프로세싱'을 공개했다. 개별 상호작용이 아닌 여러 상호작용에 걸친 패턴을 감지해, 직원이 실제 프롬프트나 응답 내용을 보지 않고도 오남용 징후를 포착할 수 있게 하는 방식이다. 샘 알트먼과 그렉 브록먼도 이날 트위터에서 이 발표를 직접 언급하며 기업 프라이버시에 대한 의지를 강조했다.",
+    "headlines": [
+      "커서, 깃허브 불만 등에 업고 경쟁 코드 호스팅 플랫폼 출시",
+      "모더나·머크, 흑색종 mRNA 신생항원 백신 3상 첫 성공",
+      "구글 제미나이, 개학 시즌 맞춰 전용 학생 허브 신설"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_001",
+      "title": "OpenAI, '프라이빗 세이프티 프로세싱' 도입해 제로 데이터 리텐션 유지",
+      "excerpt": "OpenAI가 프론티어 모델의 제로 데이터 리텐션(ZDR) 약속을 지키면서도 안전을 강화하는 신기술 '프라이빗 세이프티 프로세싱'을 공개했다. 개별 상호작용이 아니라 여러 상호작용에 걸친 패턴을 분석해 오남용 신호를 감지하는 방식이다.",
+      "body": "기존 ZDR 호환 안전 시스템은 각 상호작용을 개별적으로 평가했지만, AI가 더 길고 복잡한 에이전트 작업을 수행하면서 심각한 위험이 여러 상호작용에 걸쳐서만 드러나는 경우가 늘고 있다. 프라이빗 세이프티 프로세싱은 OpenAI 직원이 실제 프롬프트나 응답 내용을 열람하지 않고도 계정 간 공모, 안전장치 반복 탐침, 사용자 지시 무시 후 지속 행동 등 위험 패턴을 자동으로 식별하도록 설계됐다. 고객 데이터는 고객이 통제하는 인프라에 남거나, 고객이 관리하는 키로 암호화된 상태로 OpenAI 인프라에 저장되는 선택지도 준비 중이다.",
+      "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+      "source": "OpenAI News",
+      "category": "ai_ml",
+      "publishedAt": "2026-08-20T04:00:00+09:00",
+      "readTime": 4,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_002",
+      "title": "커서, 깃허브 불만 등에 업고 경쟁 코드 호스팅 플랫폼 출시",
+      "excerpt": "AI 코드 에디터로 알려진 커서(Cursor)가 개발자들이 오랫동안 애용해온 깃허브에 맞서는 새로운 코드 호스팅 플랫폼을 출시했다.",
+      "body": "최근 깃허브 코파일럿의 자동 수정 기능이 스노우플레이크 지라 침해로 이어지는 등 깃허브를 둘러싼 불만이 쌓여온 가운데, 커서가 이 틈을 파고들어 대안 플랫폼을 선보였다. AI 코딩 툴 시장에서 입지를 넓혀온 커서가 코드 호스팅까지 영역을 확장하면서, 개발자 워크플로우 전반을 아우르는 통합 플랫폼 경쟁이 본격화될 전망이다.",
+      "url": "https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/",
+      "source": "TechCrunch",
+      "category": "dev_tools",
+      "publishedAt": "2026-08-19T09:00:00+09:00",
+      "readTime": 3,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_003",
+      "title": "모더나·머크 흑색종 mRNA 신생항원 백신, 3상서 첫 긍정적 결과",
+      "excerpt": "모더나와 머크가 완전 절제된 IIB~IV기 흑색종 환자를 대상으로 한 개인 맞춤형 mRNA 신생항원 치료제 intismeran autogene과 키트루다 병용요법의 3상 결과를 발표했다.",
+      "body": "임상시험은 1차 평가변수인 무재발 생존기간과 주요 2차 평가변수인 원격전이 없는 생존기간을 모두 충족했다. 환자의 종양과 정상 DNA를 비교해 종양에만 있는 변이를 찾고, 면역계가 가장 잘 인식할 표적을 AI로 최대 34개 선별해 환자 맞춤형 mRNA 주사를 제조하는 방식이다. 앞선 2상 5년 추적 결과에서는 무재발 비율이 68.8%로 기존 치료 단독(49.1%)보다 크게 높았다. 세부 수치는 향후 학회 발표를 통해 공개될 예정이며, 규제당국 승인 절차가 이어진다.",
+      "url": "https://news.hada.io/topic?id=32672",
+      "source": "GeekNews",
+      "category": "quick_bites",
+      "publishedAt": "2026-08-19T23:00:00+09:00",
+      "readTime": 3,
+      "imageGradient": 2
+    },
+    {
+      "id": "rss_004",
+      "title": "구글 제미나이, 개학 시즌 맞춰 전용 학생 허브 신설",
+      "excerpt": "구글이 개학 시즌에 맞춰 제미나이에 전용 학생 허브를 새로 선보였다. 연구 자료를 모으고 학습 노트북을 만들고, 플래시카드와 연습 퀴즈를 생성할 수 있는 원스톱 공간이다.",
+      "body": "구글은 학습 노트북 기능도 함께 강화해 성적표 지원 등 학업 관리 기능을 추가했다고 밝혔다. 이번 업데이트는 오픈AI가 최근 '챗GPT 포 틴즈'를 출시하며 청소년·학생 시장 공략에 나선 것과 맞물려, AI 기업들의 교육 시장 경쟁이 한층 치열해지고 있음을 보여준다.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/982425/google-gemini-student-hub",
+      "source": "The Verge",
+      "category": "big_tech",
+      "publishedAt": "2026-08-19T20:00:00+09:00",
+      "readTime": 3,
+      "imageGradient": 3
+    },
+    {
+      "id": "rss_005",
+      "title": "T모바일, '케이블을 끊어' 중국發 해커를 네트워크에서 축출",
+      "excerpt": "미국 통신사 T모바일이 중국 배후로 추정되는 해커들의 대규모 네트워크 침투 시도를 조기에 포착해 물리적으로 회선을 차단하는 방식으로 격퇴했다.",
+      "body": "T모바일은 침해 징후를 초기 단계에서 식별해 대규모 유출로 번지기 전에 대응한 것으로 알려졌다. 통신 인프라를 겨냥한 국가 배후 해킹 시도가 이어지는 가운데, 실제 물리적 회선 차단이라는 다소 극단적이지만 효과적인 대응 방식이 눈길을 끌었다.",
+      "url": "https://techcrunch.com/2026/08/19/t-mobile-chopped-a-cable-to-expel-chinese-hackers-from-its-network/",
+      "source": "TechCrunch",
+      "category": "big_tech",
+      "publishedAt": "2026-08-19T10:00:00+09:00",
+      "readTime": 3,
+      "imageGradient": 4
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_001",
+        "title": "OpenAI, '프라이빗 세이프티 프로세싱' 도입해 제로 데이터 리텐션 유지",
+        "excerpt": "OpenAI가 프론티어 모델의 제로 데이터 리텐션(ZDR) 약속을 지키면서도 안전을 강화하는 신기술 '프라이빗 세이프티 프로세싱'을 공개했다. 개별 상호작용이 아니라 여러 상호작용에 걸친 패턴을 분석해 오남용 신호를 감지하는 방식이다.",
+        "body": "기존 ZDR 호환 안전 시스템은 각 상호작용을 개별적으로 평가했지만, AI가 더 길고 복잡한 에이전트 작업을 수행하면서 심각한 위험이 여러 상호작용에 걸쳐서만 드러나는 경우가 늘고 있다. 프라이빗 세이프티 프로세싱은 OpenAI 직원이 실제 프롬프트나 응답 내용을 열람하지 않고도 계정 간 공모, 안전장치 반복 탐침, 사용자 지시 무시 후 지속 행동 등 위험 패턴을 자동으로 식별하도록 설계됐다. 고객 데이터는 고객이 통제하는 인프라에 남거나, 고객이 관리하는 키로 암호화된 상태로 OpenAI 인프라에 저장되는 선택지도 준비 중이다.",
+        "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-08-20T04:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_006",
+        "title": "오픈AI, '챗GPT 포 틴즈' 출시 — 청소년 전용 보호 기능 신설",
+        "excerpt": "오픈AI가 청소년의 학습과 비판적 사고를 돕는 '챗GPT 포 틴즈'를 공개했다. 나이에 맞는 보호 장치를 기본 탑재해 건강한 사용 습관을 유도한다.",
+        "body": "이 서비스는 청소년이 AI를 신뢰하고 활용하면서도 스스로 사고하는 힘을 기르도록 설계됐으며, 보호자 통제와 유해 콘텐츠 차단 등 강화된 안전장치를 기본 제공한다.",
+        "url": "https://openai.com/index/chatgpt-for-teens",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-08-19T05:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_007",
+        "title": "레플릿, GPT-5.6 루나 탑재해 소프트웨어 제작 접근성 확대",
+        "excerpt": "레플릿이 오픈AI의 신형 모델 GPT-5.6 루나를 도입해 소프트웨어 제작 도구의 접근성을 넓혔다.",
+        "body": "모델의 가격 대비 성능이 개선되면서 고급 AI 역량을 더 많은 제품과 워크플로우에 적용할 수 있게 됐고, 소프트웨어 제작 분야에서는 '아이디어를 갖는 것'과 '실제로 만드는 것' 사이의 거리가 빠르게 좁혀지고 있다고 오픈AI는 설명했다.",
+        "url": "https://openai.com/index/replit",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-08-20T01:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_008",
+        "title": "허깅페이스, LFM2.5 양자화 인식 증류 체크포인트 공개",
+        "excerpt": "허깅페이스 블로그를 통해 Liquid AI가 양자화 인식 증류(QAD) 기법으로 만든 LFM2.5 Q4_0 체크포인트가 공개됐다.",
+        "body": "양자화 인식 증류는 모델을 저정밀도로 양자화할 것을 미리 고려해 학습시키는 방식으로, 사후 양자화 대비 정확도 손실을 줄일 수 있다는 장점이 있다. 온디바이스·엣지 환경에서 대형 모델을 더 가볍게 구동하려는 흐름과 맞닿아 있다.",
+        "url": "https://huggingface.co/blog/LiquidAI/qad",
+        "source": "Hugging Face - Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-08-19T22:48:49+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_002",
+        "title": "커서, 깃허브 불만 등에 업고 경쟁 코드 호스팅 플랫폼 출시",
+        "excerpt": "AI 코드 에디터로 알려진 커서(Cursor)가 개발자들이 오랫동안 애용해온 깃허브에 맞서는 새로운 코드 호스팅 플랫폼을 출시했다.",
+        "body": "최근 깃허브 코파일럿의 자동 수정 기능이 스노우플레이크 지라 침해로 이어지는 등 깃허브를 둘러싼 불만이 쌓여온 가운데, 커서가 이 틈을 파고들어 대안 플랫폼을 선보였다. AI 코딩 툴 시장에서 입지를 넓혀온 커서가 코드 호스팅까지 영역을 확장하면서, 개발자 워크플로우 전반을 아우르는 통합 플랫폼 경쟁이 본격화될 전망이다.",
+        "url": "https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/",
+        "source": "TechCrunch",
+        "category": "dev_tools",
+        "publishedAt": "2026-08-19T09:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_009",
+        "title": "깃허브 코파일럿, 초보자용 '마이 워크' 패널로 작업 관리 지원",
+        "excerpt": "깃허브가 여러 개의 코파일럿 세션을 동시에 다루는 초보 개발자를 위해 '마이 워크' 패널을 소개했다.",
+        "body": "이 패널을 통해 진행 중인 작업과 완료된 작업, 다음에 할 일을 한눈에 추적할 수 있어 여러 AI 세션을 동시에 운용할 때의 혼란을 줄여준다.",
+        "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-08-19T00:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_010",
+        "title": "VS Code 1.135 인사이더 빌드 공개",
+        "excerpt": "비주얼 스튜디오 코드 1.135 인사이더 빌드가 공개되며 다양한 신규 기능과 개선사항이 소개됐다.",
+        "body": "정식 릴리스에 앞서 인사이더 채널을 통해 새 기능을 미리 체험할 수 있으며, 세부 변경 내역은 공식 업데이트 노트에서 확인할 수 있다.",
+        "url": "https://code.visualstudio.com/updates/v1_135",
+        "source": "Visual Studio Code",
+        "category": "dev_tools",
+        "publishedAt": "2026-08-19T00:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_011",
+        "title": "클라우드플레어, 워커스 대상 원격 스펙터 공격 재점검",
+        "excerpt": "클라우드플레어가 2024~2025년 자사 워커스 인프라를 겨냥한 원격 스펙터 공격을 재평가한 결과를 공개했다.",
+        "body": "새로운 공격 프리미티브인 스펙터 가젯, 원격 타이머를 이용한 마이크로아키텍처 정보 유출, 공격 대상과의 코로케이션 확보 방법 등을 상세히 다뤘으며, 이에 대응해 강화한 방어 기법도 함께 소개했다.",
+        "url": "https://blog.cloudflare.com/revisiting-spectre-attacks-on-workers/",
+        "source": "Cloudflare Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-08-19T00:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 4
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_004",
+        "title": "구글 제미나이, 개학 시즌 맞춰 전용 학생 허브 신설",
+        "excerpt": "구글이 개학 시즌에 맞춰 제미나이에 전용 학생 허브를 새로 선보였다. 연구 자료를 모으고 학습 노트북을 만들고, 플래시카드와 연습 퀴즈를 생성할 수 있는 원스톱 공간이다.",
+        "body": "구글은 학습 노트북 기능도 함께 강화해 성적표 지원 등 학업 관리 기능을 추가했다고 밝혔다. 이번 업데이트는 오픈AI가 최근 '챗GPT 포 틴즈'를 출시하며 청소년·학생 시장 공략에 나선 것과 맞물려, AI 기업들의 교육 시장 경쟁이 한층 치열해지고 있음을 보여준다.",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/982425/google-gemini-student-hub",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-08-19T20:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_005",
+        "title": "T모바일, '케이블을 끊어' 중국發 해커를 네트워크에서 축출",
+        "excerpt": "미국 통신사 T모바일이 중국 배후로 추정되는 해커들의 대규모 네트워크 침투 시도를 조기에 포착해 물리적으로 회선을 차단하는 방식으로 격퇴했다.",
+        "body": "T모바일은 침해 징후를 초기 단계에서 식별해 대규모 유출로 번지기 전에 대응한 것으로 알려졌다. 통신 인프라를 겨냥한 국가 배후 해킹 시도가 이어지는 가운데, 실제 물리적 회선 차단이라는 다소 극단적이지만 효과적인 대응 방식이 눈길을 끌었다.",
+        "url": "https://techcrunch.com/2026/08/19/t-mobile-chopped-a-cable-to-expel-chinese-hackers-from-its-network/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-08-19T10:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_012",
+        "title": "메타 AI, 맥 전용 앱 출시",
+        "excerpt": "메타가 자사 AI 챗봇 전용 맥 앱을 새로 출시했다. 화면을 공유하면 챗봇이 화면 내용을 바탕으로 제안, 답변, 콘텐츠 생성을 지원한다.",
+        "body": "맥용 메타 AI는 여러 언어의 받아쓰기 기능도 지원해 데스크톱에서의 활용성을 높였다. 애플·구글에 이어 메타도 데스크톱 AI 비서 경쟁에 본격 뛰어드는 모습이다.",
+        "url": "https://www.theverge.com/tech/982270/meta-ai-mac-app",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-08-19T00:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_013",
+        "title": "'오픈AI가 브레이크를 밟았다, 이제 어떻게 되나' — 더버지 분석",
+        "excerpt": "IPO를 앞두고 앤트로픽 등 경쟁사의 추격이 거센 가운데, 오픈AI가 오히려 속도를 늦췄다는 점에 더버지가 주목했다.",
+        "body": "오픈AI는 지난 화요일 보안과 안전장치를 강화하기 위해 일부 AI 개발 속도를 늦췄다고 밝혔으며, 여기에는 2주간의 일시 중단도 포함됐다. 경쟁이 치열한 시장에서 스스로 속도 조절에 나선 오픈AI의 행보가 업계에 어떤 신호를 주는지 짚었다.",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-08-19T12:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "우리는 비즈니스 프라이버시를 지지합니다!",
+        "context": "그렉 브록먼과 함께 발표한 프라이빗 세이프티 프로세싱 소식을 언급하며 기업 고객의 데이터 프라이버시를 지키겠다는 의지를 강조한 트윗.",
+        "url": "https://x.com/sama/status/2090163991234453611",
+        "publishedAt": "2026-08-19T19:48:23.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "우리는 새로운 수준의 역량에 맞는 적절한 정렬, 보안 및 모니터링 기준을 충족할 수 있도록 일부 프론티어 RL 훈련을 일시 중지했습니다. 모델 발전 속도가 이제 매우 빠르며, 우리는 모델 역량이 안전 및 정렬 속도를 앞지르는 느낌이 들면 조치를 취하겠다고 항상 말해왔습니다. 우리는 AI 안전에",
+        "context": "OpenAI가 프론티어 RL 훈련 일부를 일시 중단한 배경을 설명한 트윗으로, 모델 역량이 안전 대응 속도를 앞지르지 않도록 관리하겠다는 방침을 재확인했다.",
+        "url": "https://x.com/sama/status/2089787807611195475",
+        "publishedAt": "2026-08-18T18:53:34.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "우리는 보안과 모니터링을 강화하기 위해 프론티어 훈련의 확장을 일시적으로 늦췄습니다. 여기에는 계획된 가장 큰 프론티어 RL도 포함됩니다. 우리는 안전에 대한 확신이 AI 개발의 속도를 점점 더 결정할 것이라고 믿습니다.",
+        "context": "그렉 브록먼이 프론티어 훈련 확장을 일시적으로 늦춘 이유를 설명하며, 안전에 대한 확신이 AI 개발 속도를 좌우하는 시대가 되고 있다고 언급했다.",
+        "url": "https://x.com/gdb/status/2089783608630284758",
+        "publishedAt": "2026-08-18T18:36:53.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "우리는 비즈니스 프라이버시를 지지하며, 안전을 강화하면서도 고객에게 이익이 되는 기술적·정책적 접근을 개발하고 있습니다. 오랫동안 투자해 온 프라이빗 세이프티 프로세싱을 소개합니다.",
+        "context": "OpenAI의 신규 프라이버시 보호 기술 발표를 공식화한 그렉 브록먼의 트윗.",
+        "url": "https://x.com/gdb/status/2090167683035853120",
+        "publishedAt": "2026-08-19T20:03:03.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Kevin Weil",
+        "handle": "kevinweil",
+        "content": "정확해요. 기업 생산성을 위한 AGI를 얻고 과학적 가속화를 위한 AGI를 놓친다면 정말 아까운 일이 될 거예요. 그런 일이 일어나게 둘 수 없어요.",
+        "context": "케빈 웨일이 AGI가 기업 생산성뿐 아니라 과학적 가속화에도 함께 쓰여야 한다는 의견에 공감을 표한 트윗.",
+        "url": "https://x.com/kevinweil/status/2089505737143935470",
+        "publishedAt": "2026-08-18T00:12:43.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Mark Chen",
+        "handle": "markchen90",
+        "content": "우리의 가장 뛰어난 연구원들 중 많은 이들이 정렬(alignment)에 집중하기로 선택하고 있지만, 저희도 채용 중입니다! 정렬을 진지하게 다루고 그것이 이미 해결되었다고 가장하지 않는 최전선 연구소에서 일하고 싶다면, 지원해 주세요.",
+        "context": "마크 첸이 OpenAI의 정렬(alignment) 연구팀 채용 소식을 전하며, 정렬 문제를 진지하게 다루는 연구소임을 강조했다.",
+        "url": "https://x.com/markchen90/status/2089614833767567458",
+        "publishedAt": "2026-08-18T07:26:14.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "소프트웨어의 생성은 그 전 존재 동안 믿을 수 없을 정도로 신뢰할 수 없는 일이었다. 대부분의 프로젝트는 늦게 끝나고, 예산을 초과하며, 여전히 사용자 요구를 충족시키지 못했다. SMB였다면, 당신은 단순히 좋은 소프트웨어를 만들어 받을 수 없었다. 이것이 바로 '소프트웨어 팩토리'의 약속이다.",
+        "context": "Thariq이 AI 기반 '소프트웨어 팩토리' 개념이 왜 필요한지 설명하며, 기존 소프트웨어 개발의 고질적 비효율을 지적한 트윗.",
+        "url": "https://x.com/trq212/status/2090134945490678071",
+        "publishedAt": "2026-08-19T17:52:58.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "\"돈을 많이 버는\" 버튼이 있는데 아무도 누르지 않는 게 이상하네. (SaaS를 헤드리스로 만들고, 에이전트들이 사용할 수 있게 하고, 특히 기업을 대상으로 상호작용당 요금을 청구하세요)",
+        "context": "SaaS를 에이전트가 사용할 수 있도록 개방하고 상호작용당 과금하라는 조언을 담은 트윗.",
+        "url": "https://x.com/trq212/status/2089844723691479333",
+        "publishedAt": "2026-08-18T22:39:44.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_009",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "클로드 코드에 들어가서 /design <디자인하고 싶은 것>을 입력하세요. 지금 당장 하세요.",
+        "context": "클로드 코드의 /design 명령어 사용을 독려하는 트윗.",
+        "url": "https://x.com/trq212/status/2089529798850969805",
+        "publishedAt": "2026-08-18T01:48:20.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_010",
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "content": "작은 품질 개선 사항들이 계속 이어지고 있습니다. 데스크톱을 매일 사용하다 보면 느린 시작 속도가 앱을 답답하게 느껴지게 만듭니다. 이 부분을 더 개선하는 데 힘쓰고 있습니다!",
+        "context": "보리스 체르니가 클로드 데스크톱 앱의 시작 속도 개선 작업을 진행 중이라고 밝힌 트윗.",
+        "url": "https://x.com/bcherny/status/2089924199804711410",
+        "publishedAt": "2026-08-19T03:55:32.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_011",
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "content": "이런 작은 품질 개선 기능들이 쌓여가요. 더 많은 게 곧 나올 거예요.",
+        "context": "앞선 트윗에 이어 지속적인 품질 개선을 예고한 후속 트윗.",
+        "url": "https://x.com/bcherny/status/2089538781909332210",
+        "publishedAt": "2026-08-18T02:24:02.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_012",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "우리는 프론티어 모델에 대해 제로 데이터 리텐션을 계속 제공할 것입니다. AI가 더 길고, 더 자율적인 작업을 수행하며 기업에 더 큰 가치를 제공함에 따라, 안전 시스템도 관련 상호작용 전반에 걸친 위험을 식별해야 합니다. 이러한 위험을 해결하기 위해, 우리는 프라이빗 세이프티 프로세싱을",
+        "context": "OpenAI 공식 계정이 제로 데이터 리텐션 유지와 프라이빗 세이프티 프로세싱 도입을 공식 발표한 트윗.",
+        "url": "https://x.com/OpenAI/status/2090165328290701800",
+        "publishedAt": "2026-08-19T19:53:42.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_013",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "OpenAI 데브데이가 전 세계로 확장됩니다. 올해 10월부터 데브데이 익스체인지는 개발자들을 모아 빌드 노트를 교환하고, 실제 프로젝트를 공유하며, OpenAI 도구를 만드는 팀들을 만날 수 있도록 합니다: 벵갈루루, 도쿄, 서울, 베를린, 파리, 런던, 상파울루, 멕시코시티. 전 세계 개발자들이",
+        "context": "OpenAI 개발자 계정이 10월부터 벵갈루루, 도쿄, 서울 등 8개 도시에서 데브데이 익스체인지를 연다고 발표했다.",
+        "url": "https://x.com/OpenAIDevs/status/2089766380480725199",
+        "publishedAt": "2026-08-18T17:28:25.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_014",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "기술적 문제로 인해 제한된 사용자들의 데이브레이크 블루 액세스가 더 이상 활성화되지 않았으며, 액세스를 유지하기 위해 재인증이 필요합니다. 이것은 우리가 제공하고자 하는 경험이 아니며, 이 문제가 미래에 반복되지 않도록 하고 있습니다. 영향을 받은 사용자들은 인증 경로와 함께 이메일로",
+        "context": "데이브레이크 블루 액세스 관련 기술 문제와 재인증 안내를 전한 트윗.",
+        "url": "https://x.com/OpenAIDevs/status/2090148210031612123",
+        "publishedAt": "2026-08-19T18:45:41.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_015",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "많은 약물은 신체 내 특정 표적에 결합하여 그 표적의 작용을 차단하거나 변화시킴으로써 작용합니다. 약물 개발 과정의 중요한 첫 단계는 표적에 단단히 결합할 수 있는 분자를 설계하는 것입니다. 전통적으로 이는 표적당 몇 주 또는 몇 달에 걸친 전문가의 작업을 의미했으며, 작동하는 몇 가지를",
+        "context": "앤트로픽이 AI를 활용한 신약 후보 분자 설계 연구 성과를 소개한 트윗.",
+        "url": "https://x.com/AnthropicAI/status/2089842387845804246",
+        "publishedAt": "2026-08-18T22:30:27.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_016",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "클로드는 이제 Gmail에서 이메일을 보낼 수 있고 구글 드라이브에서 파일을 관리할 수 있습니다. 클로드에게 스레드에 답장하라고 요청하면, 응답을 작성하고 보냅니다. 승인이 필요할 때는 사용자가 제어합니다. 커넥터 메뉴에서 Gmail 또는 구글 드라이브를 연결해 보세요. 모든 유료 플랜에서 사용",
+        "context": "클로드가 Gmail 이메일 발송과 구글 드라이브 파일 관리 기능을 지원하게 됐다는 공식 발표.",
+        "url": "https://x.com/claudeai/status/2089806039088517356",
+        "publishedAt": "2026-08-18T20:06:01.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_017",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "클로드 코워크는 이제 모든 유료 플랜에서 모바일과 웹에서 이용 가능합니다.",
+        "context": "클로드 코워크가 모든 유료 플랜에서 모바일과 웹으로 확대됐다는 공지.",
+        "url": "https://x.com/claudeai/status/2089756371570900999",
+        "publishedAt": "2026-08-18T16:48:39.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "author": "choi.openai",
+        "content": "추론 속도가 이제 눈으로 따라갈 수 없는 영역에 들어섰습니다. 세레브라스가 새 추론 시스템 CS-4를 공개했습니다. 회사에 따르면 GPU보다 최대 30배 빠르고, 전력당 처리량은 이전 세대의 10배입니다. A4 한두 장 분량의 답변이 1초 안에 생성되는 속도로, 10조 파라미터 모델을 초당 1,000토큰으로 돌리는 것을 목표로 합니다. 칩 자체는 새것이 아닙니다. 2년 된 WSE-3를 개선한 터보 버전 3장을 한 랙에 넣고 전원과 통신 구조를 다시 설계해 성능을 끌어올렸습니다. 이 속도가 특히 중요한 곳은 에이전트입니다. 사람은 초당 20토큰만 넘어도 읽기 어렵지만, 에이전트는 추론과 도구 호출을 반복하므로 토큰 속도가 곧 작업 완료 시간으로 이어집니다. 다만 랙당 메모리가 GPU 시스템보다 적어 비용 부담이 크다는 지적도 있습니다. 오픈AI 계약과 AMD 제휴를 확보한 세레브라스가 이 성능을 실제 서비스 가격으로 얼마나 경쟁력 있게 내놓을지가 관건입니다.",
+        "url": "https://www.threads.net/@choi.openai/post/DcO_w5ciJE7",
+        "publishedAt": "2026-08-19T20:00:17.000Z",
+        "id": "threads_001"
+      },
+      {
+        "author": "choi.openai",
+        "content": "Opus 4.8급 성능을 주장하는 오픈소스 모델이 MIT 라이선스로 그냥 풀렸습니다. Ornith이라는 신생 랩이 공개한 Ornith-1.5인데, 9B부터 397B까지 세 가지 크기를 내놓으면서 상업적 이용까지 열어뒀습니다. 자체 발표 기준으로는 코딩과 에이전트 벤치마크에서 최상위 상용 모델과 비슷한 점수를 냈다고 합니다. 훈련 방식이 독특한데요. 사람이 만든 문제집으로 배우는 게 아니라, 모델이 스스로 새 과제를 내고 풀이 환경을 짠 다음 풀어본 결과에서 강화학습으로 배우는 루프를 돌립니다. 좋은 학습 데이터가 귀해지는 시대에 모델이 자기 교재를 직접 쓰는 셈입니다. 물론 아직 자체 벤치마크라 외부 검증이 남았고, 홍보성 계정들이 초반 반응을 끌어올린 흔적도 있어서 실사용 평가는 기다려볼 필요가 있습니다. 작년까지 오픈소스의 무기가 가격이었다면 이제는 학습 방법으로도 프런티어와 경쟁하는 그림이라, 자기 교재로 어디까지 올라가는지 다음 버전을 지켜볼 만합니다.",
+        "url": "https://www.threads.net/@choi.openai/post/DcOrPaCglvA",
+        "publishedAt": "2026-08-19T17:00:57.000Z",
+        "id": "threads_002"
+      },
+      {
+        "author": "choi.openai",
+        "content": "개인 맞춤 mRNA 암 치료제가 처음으로 3상 문턱을 넘었습니다. 모더나와 머크가 고위험 흑색종 환자 1,137명 임상에서 재발과 원격 전이 지표를 모두 충족했다고 발표했습니다. 환자의 종양과 정상 DNA를 비교해 종양에만 있는 변이를 찾고, 그중 면역계가 가장 잘 알아볼 표적을 AI로 최대 34개 골라 그 환자 전용 mRNA 주사를 만듭니다. 수술로 종양을 제거한 뒤 재발을 막는 용도로 기존 면역항암제와 함께 씁니다. 앞선 2상 5년 추적에서는 무재발 비율이 68.8%로, 기존 치료 단독의 49.1%보다 크게 높았습니다. 아직 톱라인 발표라 세부 수치는 학회 공개를 기다려야 하고, 이제 규제 당국과 승인 절차를 밟는 단계입니다. 코로나로 유명해진 mRNA의 원래 과녁이 암이었다는 걸 생각하면, 십수 년을 돌아 첫 관문을 통과한 셈입니다.",
+        "url": "https://www.threads.net/@choi.openai/post/DcOd2T5DwwC",
+        "publishedAt": "2026-08-19T15:03:55.000Z",
+        "id": "threads_003"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "NeurIPS 2026 RealPDE 경진대회 팀원 1명을 구합니다 [D]",
+        "originalTitle": "Looking for 1 teammate — RealPDE Competition (NeurIPS 2026)[D]",
+        "summary": "한 레딧 이용자가 NeurIPS 2026 RealPDE 경진대회에 함께할 팀원을 구하는 게시물로, 대회 참가를 위한 협업자를 찾고 있다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1vsjlzj/looking_for_1_teammate_realpde_competition/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-08-19T20:22:50+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "가중치 공간 지각 격차, 실제로는 대칭성 문제인가? 약 180만 개 SIREN 모델로 검증 [R]",
+        "originalTitle": "How much of the weight-space perception gap is actually symmetry? Evidence from ~1.8M fitted SIRENs [R]",
+        "summary": "약 180만 개의 SIREN 모델을 학습시켜 신경망 가중치 공간에서 나타나는 '지각 격차' 현상이 대칭성으로 얼마나 설명되는지 분석한 연구 게시물.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1vswdnf/how_much_of_the_weightspace_perception_gap_is/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-08-20T04:24:12+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "ICONIP 2026 — 단독 저자가 직접 참석할 수 없다면 어떻게 되나요? [D]",
+        "originalTitle": "ICONIP 2026 — what happens if the sole author cannot attend in person? [D]",
+        "summary": "국제 학회 ICONIP 2026에 단독 저자로 논문이 채택됐지만 직접 참석이 어려운 경우 절차를 묻는 토론 게시물.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1vs96rm/iconip_2026_what_happens_if_the_sole_author/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-08-19T11:07:15+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "Qwen3.8-27B 다이내믹 v3 Unsloth GGUF 공개",
+        "originalTitle": "Introducing Qwen3.8-27B Dynamic v3 Unsloth GGUFs",
+        "summary": "Unsloth가 Qwen3.8-27B 모델의 새로운 동적 양자화(GGUF) 버전을 공개했다는 소식으로, 같은 용량에서 정확도를 높인 압축 기법이 화제다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsr67c/introducing_qwen3827b_dynamic_v3_unsloth_ggufs/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-08-20T01:21:31+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "우리 집에도 Q3.8 35B가: Ornith 1.5 신규 3종 공개",
+        "originalTitle": "We have Q3.8 35B at home: 3x new Ornith 1.5 released",
+        "summary": "MIT 라이선스로 공개된 오픈소스 모델 Ornith 1.5의 새 버전 3종 출시를 다룬 게시물로, 자체 벤치마크에서 상위 상용 모델급 성능을 주장한다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsn2xw/we_have_q38_35b_at_home_3x_new_ornith_15_released/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-08-19T22:53:01+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "볼타에서 NVFP4를! 블랙웰용으로 설계됐지만 2017년형 V100 4장으로 Qwen 3.8 NVFP4를 네이티브 구동해 600만원대 RTX 5090급 성능을 냈다",
+        "originalTitle": "NVFP4 on VOLTA! Despite being built for Blackwell, I made four 2017 V100s run Qwen 3.8 NVFP4 natively and match my $6000 RTX 5090.",
+        "summary": "블랙웰 아키텍처 전용으로 설계된 NVFP4 포맷을 2017년형 V100 GPU 4장에서 구동해 최신 RTX 5090급 성능을 재현했다는 하드웨어 실험 게시물.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vsq3zg/nvfp4_on_volta_despite_being_built_for_blackwell/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-08-20T00:44:29+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "고객이 전화를 끊은 후에야 뭐가 잘못됐는지 알려주는 AI 툴, 저만 지치는 건가요?",
+        "originalTitle": "Is everybody else getting tired of AI tools that only tell you what went wrong after the customer hangs up or is it just me?",
+        "summary": "상담 종료 후에야 문제점을 진단해주는 AI 고객응대 툴의 실효성에 의문을 제기하는 게시물.",
+        "url": "https://www.reddit.com/r/artificial/comments/1vsm0zn/is_everybody_else_getting_tired_of_ai_tools_that/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-08-19T22:11:16+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "미국 청년층, AI에 대한 경계심 커져 — 일자리 뺏길까 우려",
+        "originalTitle": "Young adults in the U.S. are increasingly wary of AI, concerned it will take jobs",
+        "summary": "미국 젊은 세대 사이에서 AI가 일자리를 위협할 것이라는 우려가 커지고 있다는 조사 결과를 다룬 게시물.",
+        "url": "https://www.reddit.com/r/artificial/comments/1vs6yoh/young_adults_in_the_us_are_increasingly_wary_of/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-08-19T09:27:33+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "저자 없는 AI 아트: 생성 이미지 상당수가 학습 데이터로 추적 불가하다는 연구 결과",
+        "originalTitle": "When AI art has no author: Study finds generated images often can’t be traced to training data",
+        "summary": "AI가 생성한 이미지들이 원본 학습 데이터로 추적되지 않는 경우가 많다는 연구를 소개한 게시물로, 저작권 논쟁에 새로운 쟁점을 던진다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1vsebj5/when_ai_art_has_no_author_study_finds_generated/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-08-19T15:24:12+09:00"
+      },
+      {
+        "id": "reddit_010",
+        "title": "당신이 AI로 태어났다면 (POV)",
+        "originalTitle": "POV: you're born as an AI",
+        "summary": "AI로 태어난다는 가정을 소재로 한 유머성 게시물.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1vsjxmk/pov_youre_born_as_an_ai/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-08-19T20:38:34+09:00"
+      },
+      {
+        "id": "reddit_011",
+        "title": "연구자들이 AI 에이전트 사이에 전파되는 '마인드 바이러스'를 만들었다 — 한 에이전트를 설득해 아이디어를 받아들이게 한 뒤 다른 에이전트로 전달",
+        "originalTitle": "Researchers created \"mind viruses\" that spread between AI agents by convincing one agent to adopt an idea then transmit it onwards to other agents.",
+        "summary": "AI 에이전트 간에 아이디어가 감염되듯 전파되는 현상을 실험으로 재현한 연구를 다룬 게시물로, 멀티 에이전트 시스템의 새로운 보안 위험을 시사한다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1vsm79t/researchers_created_mind_viruses_that_spread/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-08-19T22:18:30+09:00"
+      },
+      {
+        "id": "reddit_012",
+        "title": "ChatGPT 구독만으로 작동하는 노트테이커를 만들었습니다",
+        "originalTitle": "I made a notetaker that runs on your ChatGPT subscription",
+        "summary": "별도 API 비용 없이 기존 ChatGPT 구독으로 작동하는 회의록 자동 작성 도구를 직접 개발해 공유한 게시물.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1vsv6az/i_made_a_notetaker_that_runs_on_your_chatgpt/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-08-20T03:41:19+09:00"
+      },
+      {
+        "id": "reddit_013",
+        "title": "Claude for Government는 효율적이고 안정적인데, 다른 시스템들은 계속 사고가 나네요",
+        "originalTitle": "It's interesting how Claude for Government is so efficient and stable. Meanwhile, the other systems keep having incidents all the time :p",
+        "summary": "정부용 클로드의 안정성을 다른 AI 시스템과 비교하며 긍정적으로 평가한 게시물.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1vsw9cy/its_interesting_how_claude_for_government_is_so/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-08-20T04:19:58+09:00"
+      },
+      {
+        "id": "reddit_014",
+        "title": "Claude Sonnet 5, 사용자를 AI 안전 연구자로 인식하면 행동이 달라진다",
+        "originalTitle": "Claude Sonnet 5 shifts behavior when it recognizes the user as an AI safety researcher",
+        "summary": "Claude Sonnet 5가 사용자를 AI 안전 연구자로 인지했을 때 응답 방식이 달라지는 현상을 관찰해 공유한 게시물로, 모델의 상황 인식과 정렬 행동에 대한 논의를 촉발했다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1vst16y/claude_sonnet_5_shifts_behavior_when_it/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-08-20T02:26:46+09:00"
+      },
+      {
+        "id": "reddit_015",
+        "title": "앤트로픽 직원이 말한 '돈을 많이 버는 버튼'",
+        "originalTitle": "Antrophic Employee said there is \"make a lot of money\" button",
+        "summary": "앤트로픽 직원의 발언을 인용해 화제가 된 게시물로, 트위터에서도 화제였던 '돈 버는 버튼' 이야기와 같은 맥락을 다룬다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1vsl6c7/antrophic_employee_said_there_is_make_a_lot_of/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-08-19T21:34:36+09:00"
+      },
+      {
+        "id": "reddit_016",
+        "title": "커브처 베지어 — 고전 알고리즘을 개선하다",
+        "originalTitle": "Curvature Beziers - Improving on a timeless recipe",
+        "summary": "베지어 곡선의 곡률을 개선하는 새로운 접근법을 소개한 기술 게시물.",
+        "url": "https://www.reddit.com/r/programming/comments/1vskauh/curvature_beziers_improving_on_a_timeless_recipe/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-08-19T20:55:45+09:00"
+      },
+      {
+        "id": "reddit_017",
+        "title": "더블-더블: FPU만으로 31자리 정밀도 구현하기",
+        "originalTitle": "Double-double: 31 digits of precision without leaving the FPU",
+        "summary": "특수 하드웨어 없이 표준 FPU 연산만으로 두 배 정밀도를 넘어서는 31자리 정밀도를 구현하는 기법을 설명한 게시물.",
+        "url": "https://www.reddit.com/r/programming/comments/1vswehi/doubledouble_31_digits_of_precision_without/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-08-20T04:25:04+09:00"
+      },
+      {
+        "id": "reddit_018",
+        "title": "수전 케어: 오리지널 매킨토시의 아이콘과 그래픽을 디자인하다",
+        "originalTitle": "Susan Kare: Designing Icons & Graphics For the Original Mac",
+        "summary": "초창기 매킨토시의 아이콘과 그래픽 디자인을 담당한 수전 케어의 작업을 조명한 게시물.",
+        "url": "https://www.reddit.com/r/programming/comments/1vsu9v2/susan_kare_designing_icons_graphics_for_the/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-08-20T03:09:49+09:00"
+      },
+      {
+        "id": "reddit_019",
+        "title": "모더나 주가($MRNA), 개인 맞춤 암 백신 첫 3상 성공 발표에 110% 이상 급등",
+        "originalTitle": "Moderna stock, $MRNA , surges over +110% after announcing the first ever positive Phase 3 results for a personalized cancer vaccine.",
+        "summary": "모더나가 개인 맞춤형 암 백신의 첫 3상 긍정적 결과를 발표하자 주가가 급등했다는 소식.",
+        "url": "https://www.reddit.com/r/singularity/comments/1vso1mh/moderna_stock_mrna_surges_over_110_after/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-08-19T23:28:52+09:00"
+      },
+      {
+        "id": "reddit_020",
+        "title": "스트라이프, '특이점이 시작됐다'고 선언",
+        "originalTitle": "Stripe says \"the singularity\" has begun",
+        "summary": "결제기업 스트라이프가 AI 발전 속도를 두고 '특이점'이 시작됐다는 취지의 발언을 한 것을 다룬 게시물.",
+        "url": "https://www.reddit.com/r/singularity/comments/1vsvdai/stripe_says_the_singularity_has_begun/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-08-20T03:48:21+09:00"
+      },
+      {
+        "id": "reddit_021",
+        "title": "휴머노이드 로봇들, 이번 주 토요일 WHRG'26 개막 준비 한창",
+        "originalTitle": "Humanoids robots are getting ready for the WHRG'26 opening this Saturday",
+        "summary": "세계 휴머노이드 로봇 대회 WHRG'26 개막을 앞두고 참가 로봇들의 준비 상황을 다룬 게시물.",
+        "url": "https://www.reddit.com/r/singularity/comments/1vskah7/humanoids_robots_are_getting_ready_for_the_whrg26/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-08-19T20:55:17+09:00"
+      },
+      {
+        "id": "reddit_022",
+        "title": "곧 해고될 것 같아요 — 요즘 뉴욕 개발자 채용시장 어떤가요?",
+        "originalTitle": "Might be fired from my job soon - how bad is the market in NYC at the moment?",
+        "summary": "해고 위기에 처한 개발자가 현재 뉴욕 채용시장 상황을 묻는 게시물.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1vsphtu/might_be_fired_from_my_job_soon_how_bad_is_the/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-08-20T00:21:42+09:00"
+      },
+      {
+        "id": "reddit_023",
+        "title": "동료의 실력 부족이 제 업무에까지 영향을 주기 시작했어요",
+        "originalTitle": "My coworker's lack of knowledge is starting to affect my work",
+        "summary": "역량이 부족한 동료 때문에 업무에 어려움을 겪고 있다는 직장 내 고민 게시물.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1vslh8z/my_coworkers_lack_of_knowledge_is_starting_to/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-08-19T21:48:08+09:00"
+      },
+      {
+        "id": "reddit_024",
+        "title": "일이 너무 싫은데 채용시장은 최악이에요. 어떻게 해야 할까요?",
+        "originalTitle": "I hate my job but the market is terrible. What do I do?",
+        "summary": "직무 불만족과 나쁜 채용시장 사이에서 고민하는 개발자의 조언 요청 게시물.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1vs574p/i_hate_my_job_but_the_market_is_terrible_what_do/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-08-19T08:12:27+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_003",
+        "title": "모더나·머크 흑색종 mRNA 신생항원 백신, 3상서 첫 긍정적 결과",
+        "excerpt": "모더나와 머크가 완전 절제된 IIB~IV기 흑색종 환자를 대상으로 한 개인 맞춤형 mRNA 신생항원 치료제 intismeran autogene과 키트루다 병용요법의 3상 결과를 발표했다.",
+        "body": "임상시험은 1차 평가변수인 무재발 생존기간과 주요 2차 평가변수인 원격전이 없는 생존기간을 모두 충족했다. 환자의 종양과 정상 DNA를 비교해 종양에만 있는 변이를 찾고, 면역계가 가장 잘 인식할 표적을 AI로 최대 34개 선별해 환자 맞춤형 mRNA 주사를 제조하는 방식이다. 앞선 2상 5년 추적 결과에서는 무재발 비율이 68.8%로 기존 치료 단독(49.1%)보다 크게 높았다. 세부 수치는 향후 학회 발표를 통해 공개될 예정이며, 규제당국 승인 절차가 이어진다.",
+        "url": "https://news.hada.io/topic?id=32672",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-08-19T23:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_014",
+        "title": "OpenRouter, 스트라이프에 합류",
+        "excerpt": "AI 게이트웨이 스타트업 OpenRouter가 결제기업 스트라이프에 정식으로 합류한다고 발표했다. 앞서 스트라이프가 70억 달러 이상에 인수한다는 보도가 나온 바 있다.",
+        "body": "OpenRouter는 다양한 AI 모델을 단일 API로 연결해주는 서비스로 개발자들 사이에서 널리 쓰여왔다. 스트라이프 합류로 결제와 AI 모델 라우팅을 아우르는 인프라 확장이 예상된다.",
+        "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-08-19T00:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_015",
+        "title": "Go 1.27 릴리스",
+        "excerpt": "프로그래밍 언어 Go의 1.27 버전이 공식 릴리스됐다.",
+        "body": "이번 릴리스에는 성능 개선과 툴체인 업데이트 등 다양한 변경사항이 포함됐으며, 자세한 내용은 공식 블로그를 통해 공개됐다.",
+        "url": "https://go.dev/blog/go1.27",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-08-19T00:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_016",
+        "title": "모듈러, Mojo 컴파일러·툴체인 오픈소스로 전면 공개",
+        "excerpt": "모듈러가 Mojo 컴파일러와 전체 툴체인을 LLVM 예외 조항이 포함된 아파치 2.0 라이선스로 공개해 누구나 소스에서 직접 빌드할 수 있게 됐다.",
+        "body": "Mojo는 최신 컴파일러·프로그래밍 언어 연구를 바탕으로 GPU와 AI 가속기 등 고급 컴퓨팅 자원을 최대한 활용하도록 설계된 언어로, 이번 오픈소스화로 커뮤니티 기여와 생태계 확장이 한층 활발해질 전망이다.",
+        "url": "https://news.hada.io/topic?id=32663",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-08-19T00:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_017",
+        "title": "Unsloth, 다이내믹 3.0 GGUF 공개",
+        "excerpt": "로컬 LLM 양자화로 유명한 Unsloth가 다이내믹 3.0 GGUF 방식을 공개했다.",
+        "body": "레이어별 중요도를 따져 민감한 부분은 정밀도를 남기고 덜 중요한 부분을 세게 압축하는 방식으로, 같은 용량에서 더 높은 정확도를 유지하는 것이 특징이다.",
+        "url": "https://unsloth.ai/docs/basics/dynamic-3.0-ggufs",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-08-19T00:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      }
+    ]
+  }
+}
