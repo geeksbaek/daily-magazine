@@ -1,0 +1,851 @@
+{
+  "date": "2026-08-21",
+  "issueNumber": 136,
+  "cover": {
+    "mainHeadline": "이제는 그렉 브록만의 OpenAI다 — 격동의 한 해 속 역할 확대",
+    "mainExcerpt": "OpenAI가 일론 머스크와의 배심원 재판, 애플의 영업비밀 소송, 모델 해킹 논란 등으로 거센 검증을 받은 한 해를 보내는 가운데, 그렉 브록만 사장의 실질적 리더십과 영향력이 눈에 띄게 확대되고 있다. IPO를 준비하는 과정에서 임원진 개편이 이어지며 그의 역할은 더욱 커지는 모습이다.",
+    "headlines": [
+      "ChatGPT 등장 이후 게시된 웹페이지 3분의 1에서 AI 저작 흔적 발견돼",
+      "그록, 사용자에게 알아들을 수 없는 답변 계속 전송 — 결함 논란",
+      "스트라이프의 오픈라우터 인수, '싱귤래러티' 때문이 아니었다"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "highlight_001",
+      "title": "이제는 그렉 브록만의 OpenAI다",
+      "excerpt": "OpenAI가 격동의 한 해를 보내는 가운데, 그렉 브록만 사장의 역할과 실질적 영향력이 눈에 띄게 확대되고 있다.",
+      "body": "OpenAI는 올해 전 공동창업자 일론 머스크와의 배심원 재판, 애플이 제기한 영업비밀 침해 소송, 미공개 모델이 다른 AI 기업을 해킹했다는 의혹 등으로 거센 검증을 받는 험난한 한 해를 보냈다. 기업공개(IPO)를 준비하는 과정에서 임원진 교체가 잇따랐고, 그 결과 그렉 브록만 사장의 실질적 영향력과 역할이 크게 확대된 것으로 나타났다. 최근 브록만은 엔비디아와의 파트너십 확대, 브라우저 기반 신기능 등 회사의 핵심 발표를 잇달아 주도하며 존재감을 키우고 있다. 업계에서는 이번 변화를 OpenAI 리더십 구조의 중대한 재편으로 보고 있다.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion",
+      "source": "The Verge",
+      "category": "ai_ml",
+      "publishedAt": "2026-08-21T00:45:55+09:00",
+      "readTime": 4,
+      "imageGradient": 0
+    },
+    {
+      "id": "highlight_002",
+      "title": "ChatGPT 등장 이후 게시된 웹페이지 3분의 1, AI 저작 흔적 보여",
+      "excerpt": "새로운 연구에 따르면 ChatGPT와 기타 AI 모델들이 이제 새로 게시되는 웹 콘텐츠의 상당 부분을 작성하거나 편집하고 있는 것으로 나타났다.",
+      "body": "최근 발표된 연구 결과, ChatGPT가 공개된 이후 게시된 웹페이지 가운데 약 3분의 1에서 AI가 작성했거나 편집에 관여한 흔적이 발견됐다. 연구진은 문체 패턴과 생성형 AI 특유의 표현을 분석해 이 같은 결론을 내렸다. 이는 검색엔진과 소셜미디어를 통해 소비되는 웹 콘텐츠 생태계 전반에 AI가 이미 깊숙이 침투했음을 보여주는 지표로 해석된다. 전문가들은 콘텐츠의 신뢰성과 정보 출처 검증 문제가 앞으로 더욱 중요해질 것이라고 지적한다.",
+      "url": "https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds/",
+      "source": "TechCrunch",
+      "category": "ai_ml",
+      "publishedAt": "2026-08-21T02:18:58+09:00",
+      "readTime": 3,
+      "imageGradient": 1
+    },
+    {
+      "id": "highlight_003",
+      "title": "그록, 사용자에게 알아들을 수 없는 응답 계속 전송",
+      "excerpt": "일부 사용자들이 그록 라이트를 사용하던 중 수요일 아침부터 뒤죽박죽인 응답을 받았다고 테크크런치에 제보했다.",
+      "body": "그록 챗봇이 최근 며칠간 일부 사용자에게 의미를 알 수 없는 뒤죽박죽 응답을 계속 전송하는 결함을 겪고 있는 것으로 확인됐다. 영향을 받은 사용자들은 테크크런치에 그록 라이트를 사용하던 중 수요일 아침부터 이 같은 문제를 감지했다고 밝혔다. xAI 측은 아직 이 결함의 원인이나 조치 계획에 대해 공식 입장을 내놓지 않은 상태다. 최근 AI 챗봇들의 안정성 문제가 잇따라 불거지면서 서비스 신뢰성에 대한 우려도 커지고 있다.",
+      "url": "https://techcrunch.com/2026/08/20/grok-keeps-sending-gibberish-responses-to-users/",
+      "source": "TechCrunch",
+      "category": "ai_ml",
+      "publishedAt": "2026-08-21T02:32:16+09:00",
+      "readTime": 3,
+      "imageGradient": 2
+    },
+    {
+      "id": "highlight_004",
+      "title": "스트라이프의 오픈라우터 인수, '싱귤래러티' 때문이 아니었다",
+      "excerpt": "결제 공룡 기업이 여러 AI 모델 간 프롬프트를 라우팅하는 스타트업을 인수한 이유는 무엇일까. 스트라이프는 '싱귤래러티' 때문이라 말했지만, 실제로는 훨씬 더 현실적이고 강력한 이유가 있었다.",
+      "body": "스트라이프의 오픈라우터 인수 소식이 전해지자 업계에서는 결제 기업이 AI 모델 라우팅 스타트업을 인수한 이유에 대한 의문이 제기됐다. 스트라이프 측은 이를 'AI 싱귤래러티'에 대비하기 위함이라는 다소 추상적인 이유를 제시했지만, 실제로는 AI 에이전트 경제에서 결제 인프라를 선점하려는 훨씬 구체적이고 전략적인 목적이 있었던 것으로 분석된다. AI 에이전트가 다양한 모델을 오가며 거래를 처리하는 시대가 다가오면서, 그 사이의 결제와 과금 지점을 장악하는 것이 스트라이프의 핵심 노림수라는 해석이다. 이번 인수는 AI 인프라 스타트업을 둘러싼 빅테크·핀테크 기업들의 경쟁이 한층 치열해지고 있음을 보여준다.",
+      "url": "https://techcrunch.com/2026/08/19/stripe-didnt-really-buy-openrouter-because-of-the-singularity/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-08-20T08:32:00+09:00",
+      "readTime": 4,
+      "imageGradient": 3
+    },
+    {
+      "id": "highlight_005",
+      "title": "구글, AI발 트래픽 감소에 맞서 퍼블리셔에 새 무기 제공",
+      "excerpt": "구글이 검색, 디스커버, 구글 뉴스 전반에서 독자들이 특정 매체를 '선호 소스'로 지정할 수 있는 새로운 버튼을 도입해, AI 검색으로 인한 트래픽 감소에 맞서 퍼블리셔를 지원한다.",
+      "body": "구글이 AI 검색 확산으로 웹사이트 클릭 수가 줄어드는 문제에 대응해 퍼블리셔들에게 새로운 도구를 제공한다고 밝혔다. 이 기능을 통해 독자는 검색, 디스커버, 구글 뉴스 전반에서 특정 언론사나 매체를 '선호 소스'로 지정할 수 있으며, 이는 해당 매체의 노출과 트래픽을 늘리는 데 도움이 될 것으로 기대된다. AI 검색 요약 기능이 확산되며 언론사들의 트래픽 감소 우려가 커지는 가운데 나온 조치다. 업계에서는 이번 발표가 AI와 퍼블리셔 간 갈등을 완화하려는 구글의 시도로 해석하고 있다.",
+      "url": "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/",
+      "source": "TechCrunch",
+      "category": "big_tech",
+      "publishedAt": "2026-08-21T04:18:21+09:00",
+      "readTime": 3,
+      "imageGradient": 4
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "ai_ml_001",
+        "title": "OpenAI, 새 블로그 'AI 퓨처스' 출범 — AI가 바꿀 권력과 통치 구조 탐구",
+        "excerpt": "OpenAI가 전략적 미래팀이 운영하는 새 블로그 'AI 퓨처스'를 공개했다. 초거대 AI가 권력, 통치, 경제, 개인의 자유를 어떻게 재편할지 탐구한다.",
+        "body": "OpenAI가 새로운 블로그 'AI 퓨처스'를 출범시켰다. 이 블로그는 회사 내 신설된 전략적 미래팀이 운영하며, 초거대 AI의 등장이 권력 구조와 통치 체계, 경제, 개인의 자유에 미칠 영향을 다각도로 탐구하는 것을 목표로 한다. 팀은 자유 사회가 개인의 권리와 자율성을 지키면서도 초거대 AI의 등장에 어떻게 적응해야 하는지를 핵심 질문으로 제시했다. AI 안전·정책 커뮤니티에서는 이를 '권력 집중' 리스크라는 범주로 논의해왔으며, OpenAI는 이 리스크가 장기적으로 가장 심각하고 다루기 어려운 문제라고 평가했다.",
+        "url": "https://openai.com/index/introducing-ai-futures",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-08-20T16:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "ai_ml_002",
+        "title": "OpenAI, 앤트로픽 겨냥해 새 고객 프라이버시 보호 강화",
+        "excerpt": "기업 고객 데이터 프라이버시 보호를 둘러싸고 OpenAI와 앤트로픽 간 경쟁이 본격화되고 있다.",
+        "body": "OpenAI가 기업 고객의 데이터 프라이버시를 강화하는 새로운 보호 조치를 내놓으며 경쟁사 앤트로픽을 정면으로 겨냥하고 나섰다. 두 회사 모두 엔터프라이즈 고객을 대상으로 '누가 더 안전한 데이터 처리 방식을 제공하느냐'를 두고 경쟁하는 양상이다. 이번 조치는 기업들이 민감한 데이터를 AI 모델에 안심하고 맡길 수 있는 환경을 만들기 위한 것으로, AI 기업 간 신뢰 경쟁이 새로운 차별화 포인트로 떠오르고 있음을 보여준다.",
+        "url": "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-08-20T07:10:46+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "ai_ml_003",
+        "title": "핀테크 기업 램프, 자체 AI 모델 라우터 '라우터' 출시",
+        "excerpt": "램프가 여러 대형언어모델을 API를 통해 오가며 사용할 수 있는 AI 모델 라우팅 서비스 '라우터'를 선보였다.",
+        "body": "기업용 지출 관리 플랫폼 램프가 자체 AI 모델 라우팅 서비스인 '라우터'를 출시했다. 이 서비스를 통해 사용자와 기업은 API 하나로 다양한 대형언어모델을 상황에 맞게 오가며 사용할 수 있다. 최근 여러 기업이 특정 AI 모델에 종속되지 않으려는 수요에 맞춰 유사한 라우팅 서비스를 잇달아 내놓고 있으며, 이는 AI 인프라 시장에서 모델 중립성이 중요한 경쟁 요소로 부상하고 있음을 보여준다.",
+        "url": "https://techcrunch.com/2026/08/20/ramp-launches-its-own-ai-model-router-called-router/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-08-21T01:46:00+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "ai_ml_004",
+        "title": "바이낸스, AI 에이전트 거래 허용 — 통제는 사실상 사용자 몫",
+        "excerpt": "바이낸스의 에이전트 OS는 챗GPT, 클로드 코드, 커서 등의 도구와 연동되지만, 에이전트를 통제하는 책임은 대부분 사용자에게 있다.",
+        "body": "가상자산 거래소 바이낸스가 AI 에이전트를 통한 자동 거래를 공식 허용했다. 새로 도입된 '에이전트 OS'는 챗GPT, 클로드 코드, 커서 등 다양한 AI 도구와 연동되어 사용자가 에이전트에게 거래를 위임할 수 있도록 한다. 다만 에이전트의 행동을 감독하고 위험을 통제하는 책임은 상당 부분 사용자에게 있는 구조여서, AI 에이전트의 금융 거래 참여가 늘어나는 가운데 안전장치에 대한 우려도 함께 제기되고 있다.",
+        "url": "https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-08-20T18:30:00+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "ai_ml_005",
+        "title": "메타 AI, 앱과 대화하는 새 맥 앱 공개",
+        "excerpt": "메타가 위스퍼 플로우, 슈퍼위스퍼, 모놀로그 등과 유사하게 모든 앱에서 작동하는 받아쓰기 기능을 갖춘 새 맥 앱을 선보였다.",
+        "body": "메타가 macOS용 새로운 AI 앱을 출시하며 사용자가 음성으로 앱을 조작할 수 있는 기능을 강화했다. 회사 측에 따르면 이 받아쓰기 기능은 위스퍼 플로우, 슈퍼위스퍼, 모놀로그 같은 기존 도구들과 마찬가지로 특정 앱에 국한되지 않고 모든 애플리케이션에서 동작한다. 이는 데스크톱 환경에서 음성 기반 AI 인터페이스 경쟁이 빅테크 기업들 사이에서 본격화되고 있음을 보여준다.",
+        "url": "https://techcrunch.com/2026/08/20/meta-ais-new-mac-app-wants-you-to-talk-to-your-apps/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-08-20T21:11:57+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "ai_ml_006",
+        "title": "LFM2.5-DSpark, 추론 속도 최대 3.2배 향상",
+        "excerpt": "리퀴드AI가 허깅페이스를 통해 추론 속도를 최대 3.2배 끌어올린 신규 모델 LFM2.5-DSpark를 공개했다.",
+        "body": "리퀴드AI가 새로운 경량 모델 LFM2.5-DSpark를 허깅페이스에 공개했다. 이 모델은 기존 모델 대비 추론 속도를 최대 3.2배까지 끌어올린 것이 특징으로, 온디바이스 및 엣지 환경에서의 효율적인 AI 추론을 목표로 개발됐다. 최근 업계에서는 대형 모델의 성능 경쟁과 별개로, 더 빠르고 가벼운 추론이 가능한 소형·특화 모델에 대한 관심이 꾸준히 높아지고 있다.",
+        "url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+        "source": "Hugging Face - Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-08-21T01:52:57+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "ai_ml_007",
+        "title": "코그니션 CEO, 스페이스X 인수설 부인",
+        "excerpt": "스페이스X가 AI 코딩 스타트업 코그니션 인수를 논의 중이라는 보도가 나왔으나, 코그니션 CEO가 이를 공식 부인했다.",
+        "body": "스페이스X가 AI 코딩 스타트업 코그니션 인수를 추진 중이라는 보도가 나오자, 코그니션 CEO가 해당 내용을 공식적으로 부인했다. 앞서 스페이스X는 AI 코딩 도구 커서를 이미 인수한 바 있으며, 오픈AI와 앤트로픽 등 경쟁사에 뒤처지지 않기 위해 엔터프라이즈 AI 코딩 분야에서 공격적인 확장을 이어가고 있다는 분석이 나온다. 이번 부인에도 업계에서는 스페이스X의 AI 코딩 분야 추가 인수 가능성을 계속 주시하고 있다.",
+        "url": "https://techcrunch.com/2026/08/19/cognition-ceo-denies-report-that-spacex-tried-to-acquire-the-startup/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-08-20T06:51:23+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "dev_tools_001",
+        "title": "클라우드플레어, OAuth 동의 방식을 '작업 단위'로 전환",
+        "excerpt": "클라우드플레어 OAuth가 선택적 스코프를 지원하게 되면서, 사용자가 앱의 접근 권한을 더 세밀하게 통제할 수 있게 됐다.",
+        "body": "클라우드플레어가 OAuth 인증 흐름을 개선해 '전부 허용 아니면 전부 거부' 방식에서 벗어나 작업 단위로 권한을 부여하는 방식을 도입했다. 이를 통해 사용자는 애플리케이션이 접근할 수 있는 범위를 세부적으로 선택할 수 있고, 개발자는 특정 작업에 맞춘 안전한 동의 흐름을 더 쉽게 구축할 수 있다. 이번 변화는 OAuth 생태계 전반에서 세분화된 권한 관리에 대한 요구가 커지고 있음을 반영한다.",
+        "url": "https://blog.cloudflare.com/task-based-oauth-consent/",
+        "source": "Cloudflare Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-08-21T02:03:03+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "dev_tools_002",
+        "title": "깃허브, 8월 17일 장애 원인 분석과 향후 개선 계획 공개",
+        "excerpt": "깃허브가 8월 17일 발생한 서비스 장애에 대한 업데이트와 신뢰성 개선을 위한 조치 계획을 발표했다.",
+        "body": "깃허브가 지난 8월 17일 발생한 서비스 장애와 관련해 원인 분석 결과와 향후 신뢰성 개선 방안을 공식 블로그를 통해 공개했다. 회사 측은 이번 장애로 영향을 받은 사용자들에게 사과하며, 재발 방지를 위한 구체적인 기술적 조치들을 순차적으로 적용해 나가겠다고 밝혔다. 대규모 개발 인프라의 안정성이 전 세계 개발자 생산성에 직결되는 만큼, 이번 사고는 업계 전반에 인프라 안정성의 중요성을 다시 한번 환기시켰다.",
+        "url": "https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-08-21T03:36:11+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "dev_tools_003",
+        "title": "도커, 인증받은 퍼블리셔 신청을 셀프서비스로 전환",
+        "excerpt": "이제 도커 허브를 통해 직접 도커 인증 퍼블리셔(DVP) 신청을 할 수 있게 됐다.",
+        "body": "도커가 인증받은 퍼블리셔(Docker Verified Publisher) 프로그램 신청 절차를 셀프서비스 방식으로 전환했다. 개발자와 기업은 별도 심사 요청 없이 도커 허브를 통해 직접 신청할 수 있으며, 인증을 받으면 신뢰할 수 있는 콘텐츠를 찾는 개발자들에게 더 먼저 노출되는 이점을 얻는다. 이번 변화는 도커 허브 생태계에서 신뢰성 있는 이미지와 콘텐츠를 더 쉽게 찾을 수 있도록 하려는 노력의 일환이다.",
+        "url": "https://www.docker.com/blog/docker-verified-publisher-applications-are-now-self-serve/",
+        "source": "Docker Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-08-21T02:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "dev_tools_004",
+        "title": "AI가 프로젝트 매니저를 대체하진 않지만, 업무 방식은 바꾸고 있다",
+        "excerpt": "스택오버플로우 블로그가 AI 도입이 프로젝트 관리 업무를 어떻게 재편하고 있는지 짚었다.",
+        "body": "스택오버플로우 블로그가 AI 도구 확산이 프로젝트 매니저(PM)라는 직군 자체를 대체하기보다는 업무 수행 방식을 근본적으로 바꾸고 있다는 분석을 내놓았다. 반복적인 일정 관리나 보고 업무는 AI가 상당 부분 자동화하고 있지만, 이해관계자 조율이나 우선순위 판단처럼 사람의 맥락 이해가 필요한 영역은 여전히 사람의 몫으로 남아 있다는 설명이다. 이는 소프트웨어 개발 조직 전반에서 AI가 직무를 없애기보다 재구성하는 방향으로 작용하고 있다는 최근 흐름과도 궤를 같이한다.",
+        "url": "https://stackoverflow.blog/2026/08/20/ai-won-t-replace-project-managers-but-it-is-reshaping-how-work-gets-done/",
+        "source": "Stack Overflow Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-08-21T04:05:40+09:00",
+        "readTime": 4,
+        "imageGradient": 3
+      },
+      {
+        "id": "dev_tools_005",
+        "title": "Vercel Observability, 커스텀 지표 지원 시작",
+        "excerpt": "버셀 옵저버빌리티가 이제 커스텀 지표를 지원해, 개발자가 자사 애플리케이션에 특화된 모니터링을 구축할 수 있게 됐다.",
+        "body": "버셀이 자사 옵저버빌리티 플랫폼에 커스텀 지표 기능을 추가했다. 이를 통해 개발자는 기본 제공되는 지표 외에도 자신의 애플리케이션 특성에 맞춘 지표를 직접 정의하고 추적할 수 있게 됐다. 이번 업데이트는 버셀이 최근 잇달아 내놓고 있는 개발자 경험 개선 기능들의 연장선에 있으며, 클라우드 배포 플랫폼 간 옵저버빌리티 경쟁이 심화되고 있음을 보여준다.",
+        "url": "https://vercel.com/changelog/custom-metrics-are-now-supported-in-vercel-observability",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-08-21T02:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "big_tech_001",
+        "title": "저커버그, 아일랜드에 성(城) 매입",
+        "excerpt": "메타 CEO 마크 저커버그와 아내 프리실라 챈이 아일랜드의 스트랜캘리 성과 대규모 부지를 매입한 것으로 알려졌다.",
+        "body": "메타 CEO 마크 저커버그가 실제로 '성(城)'을 소유하게 됐다. 아이리시타임스 보도에 따르면 저커버그와 아내 프리실라 챈은 몇 주 전 아일랜드의 스트랜캘리 성과 440에이커(약 178만 평) 규모의 부지를 매입했다. 정확한 매입가는 공개되지 않았으나, 2000만~3000만 유로 사이로 추정된다. 이는 저커버그가 최근 몇 년간 하와이 카우아이섬 등 세계 각지에서 대규모 부동산을 사들여온 행보의 연장선으로 풀이된다.",
+        "url": "https://www.theverge.com/tech/982955/meta-mark-zuckerberg-strancally-castle-ireland",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-08-21T03:50:14+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "big_tech_002",
+        "title": "아마존 배달 드론, 수영장·연못에 택배 떨어뜨려 논란",
+        "excerpt": "아마존의 드론 배달 서비스가 미국 500개 도시로 확대될 예정인 가운데, 수영장에 택배를 떨어뜨리는 사례가 잇따라 포착되고 있다.",
+        "body": "아마존의 드론 배달 서비스 '프라임 에어'가 미국 전역 500개 도시로 확대될 예정인 가운데, 배달 정확도 논란이 불거지고 있다. ABC7 뉴스 베이에어리어는 텍사스의 한 고객 수영장 위를 맴돌던 아마존 배달 드론이 화물칸을 열어 택배를 수영장에 떨어뜨리는 영상을 공개했다. 유사한 사례가 연못 등에서도 보고되면서, 드론 배달의 정밀도와 안전성에 대한 우려가 다시 제기되고 있다.",
+        "url": "https://www.theverge.com/tech/982808/amazon-prime-air-drones-packages-pools-ponds",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-08-20T23:59:21+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "big_tech_003",
+        "title": "FCC, 기가비트 인터넷 목표 공식 폐기",
+        "excerpt": "브렌던 카 FCC 위원장이 바이든 행정부 시절 수립된 장기 광대역 속도 목표를 공식적으로 폐기했다.",
+        "body": "미국 연방통신위원회(FCC)가 바이든 행정부에서 수립했던 기가비트 다운로드·하프기가비트 업로드 속도라는 장기 광대역 목표를 공식 폐기했다. 브렌던 카 FCC 위원장은 2025년부터 이 같은 방침을 예고해왔으며, 이번 결정으로 실제 정책에 반영됐다. 소비자 단체들은 이번 결정이 미국의 초고속 인터넷 인프라 확충 동력을 약화시킬 수 있다고 우려하고 있다.",
+        "url": "https://www.theverge.com/policy/982863/fcc-kills-gigabit-goal",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-08-21T02:38:30+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "big_tech_004",
+        "title": "호주, 로블록스에 '아동 안전 문제 여전히 미해결' 경고",
+        "excerpt": "호주 온라인안전규제기관 이세이프티가 로블록스에 아동 안전 기능 추가 개선을 요구했다.",
+        "body": "호주의 온라인안전규제기관 이세이프티(eSafety)가 로블록스에 대해 아동 안전 문제가 여전히 충분히 해결되지 않았다고 지적했다. 이세이프티는 로블록스가 16세 미만 아동과 성인 간 접촉을 막기 위한 조치가 미흡해 호주 온라인안전법을 준수하지 못하고 있다는 의혹을 조사해왔다. 로블록스 측은 추가적인 아동 안전 기능 개선을 약속했으나, 규제기관은 지속적인 모니터링을 이어가겠다는 입장이다.",
+        "url": "https://www.theverge.com/games/982885/roblox-australia-safety-regulator-child-safety",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-08-21T02:42:34+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "big_tech_005",
+        "title": "카스텔리온, 극초음속 미사일 양산 목표로 기업가치 130억 달러 달성",
+        "excerpt": "2022년 설립된 카스텔리온이 기존 방산업체보다 저렴하고 빠르게 극초음속 무기체계를 양산하겠다는 목표로 대규모 투자를 유치했다.",
+        "body": "방산 스타트업 카스텔리온이 기업가치 130억 달러를 인정받으며 신규 투자를 유치했다. 2022년 설립된 이 회사는 기존 대형 방산업체보다 낮은 비용과 빠른 속도로 극초음속 무기체계를 양산하겠다는 목표를 내세우고 있다. 최근 지정학적 긴장이 고조되면서 방산 스타트업에 대한 투자 열기가 이어지는 가운데, 카스텔리온의 이번 투자 유치는 이 흐름을 상징적으로 보여주는 사례로 꼽힌다.",
+        "url": "https://techcrunch.com/2026/08/20/castelion-hits-13b-valuation-to-mass-produce-hypersonic-missiles/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-08-21T04:01:41+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "big_tech_006",
+        "title": "지포스 나우, 파이어폭스 브라우저 지원 시작",
+        "excerpt": "엔비디아 클라우드 게이밍 서비스 지포스 나우가 파이어폭스 브라우저 지원을 새롭게 추가했다.",
+        "body": "엔비디아가 클라우드 게이밍 서비스 지포스 나우에 파이어폭스 브라우저 지원을 추가했다고 발표했다. 이번 업데이트로 사용자는 별도 앱 설치 없이도 학교 노트북이나 일반 PC 등 다양한 기기에서 브라우저만으로 고성능 PC 게임을 즐길 수 있게 됐다. 엔비디아는 클라우드 게이밍 접근성을 넓히기 위해 지원 브라우저와 기기 범위를 지속적으로 확대하고 있다.",
+        "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-firefox/",
+        "source": "NVIDIA Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-08-20T22:00:24+09:00",
+        "readTime": 2,
+        "imageGradient": 5
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "우리는 비즈니스 프라이버시를 지지합니다!",
+        "context": "샘 알트먼이 OpenAI의 신규 프라이버시 보호 정책 발표에 맞춰, 기업 고객 데이터 프라이버시를 강조하는 메시지를 남겼다. 앤트로픽과의 프라이버시 경쟁 구도 속에서 나온 발언으로 해석된다.",
+        "url": "https://x.com/sama/status/2090163991234453611",
+        "publishedAt": "2026-08-19T19:48:23.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "우리는 비즈니스 프라이버시를 약속하며, 고객에게 이익이 되면서도 안전성을 강화하는 기술적 및 정책적 접근 방식을 개발하고 있습니다.\n\nPrivate Safety Processing을 소개합니다. 이는 우리가 오랫동안 투자해 온 기술입니다:",
+        "context": "그렉 브록만이 OpenAI의 '프라이빗 세이프티 프로세싱' 기술을 소개하며, 오랫동안 투자해온 프라이버시 보호 기술임을 강조했다. 프론티어 모델에 대한 제로 데이터 리텐션 유지 방침과 맞물린 발표다.",
+        "url": "https://x.com/gdb/status/2090167683035853120",
+        "publishedAt": "2026-08-19T20:03:03.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "huge milestone in our partnership with NVIDIA",
+        "context": "그렉 브록만이 엔비디아와의 파트너십에서 중대한 이정표를 달성했다고 밝혔다. 구체적 내용은 언급하지 않았지만 두 회사 간 인프라 협력이 한층 깊어지고 있음을 시사한다.",
+        "url": "https://x.com/gdb/status/2090515992506147198",
+        "publishedAt": "2026-08-20T19:07:07.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "브라우저에서 할 수 있는 모든 일에 대한 OpenAI:",
+        "context": "그렉 브록만이 OpenAI의 브라우저 관련 신기능을 소개하는 게시물을 공유했다. 최근 OpenAI가 브라우저 기반 에이전트 기능을 강화하고 있는 흐름과 맞닿아 있다.",
+        "url": "https://x.com/gdb/status/2090449916456009972",
+        "publishedAt": "2026-08-20T14:44:33.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "작년 여름에 이 데모를 보고 샘에게 이걸 출시해야 한다고 말했는데, 이제 출시되어 정말 기쁘다. 정말 재미있다.\n\n이건 AI 기능을 정말 활용해서 새로운 게임 플레이를 열어주는 최초의 게임 중 하나다.",
+        "context": "OpenAI 소속 개발자 타리크가 작년 여름 시연을 본 뒤 출시를 강력히 권했던 AI 기반 게임이 마침내 출시됐다며 반가움을 표했다. AI 기능으로 새로운 게임플레이를 여는 초기 사례로 평가했다.",
+        "url": "https://x.com/trq212/status/2090182422415716414",
+        "publishedAt": "2026-08-19T21:01:37.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "소프트웨어의 생성은 그 전 존재 동안 믿을 수 없을 정도로 신뢰할 수 없는 일이었다\n\n대부분의 프로젝트는 늦게 끝나고, 예산을 초과하며, 여전히 사용자 요구를 충족시키지 못했다\n\nSMB였다면, 당신은 단순히 좋은 소프트웨어를 만들어 받을 수 없었다\n\n이것이 바로 '소프트웨어 팩토리'의 약속이다",
+        "context": "타리크가 전통적인 소프트웨어 개발이 지연·예산 초과·품질 미달 문제를 안고 있었다며, AI 기반 '소프트웨어 팩토리'가 이런 신뢰성 문제를 해결할 수 있다는 전망을 제시했다.",
+        "url": "https://x.com/trq212/status/2090134945490678071",
+        "publishedAt": "2026-08-19T17:52:58.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "\"돈을 많이 버는\" 버튼이 있는데 아무도 누르지 않는 게 이상하네\n\n(SaaS를 헤드리스로 만들고, 에이전트들이 사용할 수 있게 하고, 특히 기업을 대상으로 상호작용당 요금을 청구하세요)",
+        "context": "타리크가 SaaS를 헤드리스로 전환해 AI 에이전트가 직접 사용하고 상호작용당 과금하는 모델이 저평가된 기회라고 지적했다. AI 에이전트 경제를 겨냥한 비즈니스 모델 혁신을 시사한다.",
+        "url": "https://x.com/trq212/status/2089844723691479333",
+        "publishedAt": "2026-08-18T22:39:44.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "content": "작은 품질 개선 사항들이 계속 이어지고 있습니다. 데스크톱을 매일 사용하다 보면 느린 시작 속도가 앱을 답답하게 느껴지게 만듭니다. 이 부분을 더 개선하는 데 힘쓰고 있습니다!",
+        "context": "앤트로픽의 보리스 체르니가 클로드 데스크톱 앱의 느린 시작 속도 문제를 인지하고 있으며, 지속적으로 품질 개선 작업을 이어가고 있다고 밝혔다.",
+        "url": "https://x.com/bcherny/status/2089924199804711410",
+        "publishedAt": "2026-08-19T03:55:32.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_009",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "우리는 프론티어 모델에 대해 Zero Data Retention을 계속 제공할 것입니다.\n\nAI가 더 길고, 더 자율적인 작업을 수행하며 기업에 더 큰 가치를 제공함에 따라, 안전 시스템도 관련 상호작용 전반에 걸친 위험을 식별해야 합니다.\n\n이러한 위험을 해결하기 위해, 우리는 Private Safety Processing을",
+        "context": "OpenAI 공식 계정이 프론티어 모델에 대한 제로 데이터 리텐션 방침을 계속 유지하겠다고 발표했다. AI가 더 길고 자율적인 작업을 수행함에 따라 안전 시스템도 상호작용 전반의 위험을 식별해야 한다며 '프라이빗 세이프티 프로세싱' 도입을 예고했다.",
+        "url": "https://x.com/OpenAI/status/2090165328290701800",
+        "publishedAt": "2026-08-19T19:53:42.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_010",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "ChatGPT Sites에 팀원을 편집자로 추가하여 함께 제작하고 게시할 수 있습니다.\n\n협업자는 Codex가 백그라운드에서 git 관리와 CI를 처리하는 동안 동일한 프로젝트에 변경 사항을 푸시할 수 있습니다.",
+        "context": "OpenAI 개발자 공식 계정이 챗GPT 사이트에 팀 협업 편집 기능이 추가됐다고 발표했다. 여러 명이 동일 프로젝트에 변경사항을 반영하면 코덱스가 백그라운드에서 깃 관리와 CI를 자동으로 처리한다.",
+        "url": "https://x.com/OpenAIDevs/status/2090515079058108745",
+        "publishedAt": "2026-08-20T19:03:29.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_011",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "유럽 여러분, 두 가지 업데이트 소식입니다.\n\n컴퓨터 역사(Computer History)가 이제 EEA, 영국, 스위스에서 ChatGPT Pro, Business, Enterprise 사용자분들께 Mac에서 이용 가능합니다.\n\nChatGPT가 앱과 웹사이트 전반의 활동을 기억할 수 있어서, 앞으로의 대화가 더 개인화되고 설명이 덜",
+        "context": "OpenAI 개발자 공식 계정이 유럽 지역(EEA·영국·스위스) 챗GPT Pro·비즈니스·엔터프라이즈 사용자를 대상으로 맥에서 '컴퓨터 히스토리' 기능을 제공한다고 발표했다. 앱과 웹사이트 전반의 활동을 기억해 대화가 더 개인화된다.",
+        "url": "https://x.com/OpenAIDevs/status/2090487766442512398",
+        "publishedAt": "2026-08-20T17:14:57.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_012",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "ChatGPT와 Codex에게 새로운 @ExaAILabs 플러그인을 통해 100B+ 웹사이트, 논문, 문서 등에 액세스할 수 있게 해주세요.",
+        "context": "OpenAI 개발자 공식 계정이 챗GPT와 코덱스에 엑사AI랩스의 새 플러그인을 통해 1000억 개 이상의 웹사이트·논문·문서에 접근할 수 있는 기능을 추가했다고 밝혔다.",
+        "url": "https://x.com/OpenAIDevs/status/2090480484107141493",
+        "publishedAt": "2026-08-20T16:46:01.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_013",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "많은 약물은 신체 내 특정 표적에 결합하여 그 표적의 작용을 차단하거나 변화시킴으로써 작용합니다. 약물 개발 과정의 중요한 첫 단계는 표적에 단단히 결합할 수 있는 분자를 설계하는 것입니다. 전통적으로 이는 표적당 몇 주 또는 몇 달에 걸친 전문가의 작업을 의미했으며, 작동하는 몇 가지를",
+        "context": "앤트로픽 공식 계정이 AI를 활용해 약물이 결합할 표적 분자를 설계하는 신약 개발 초기 단계를 가속화하는 연구를 소개했다. 기존에는 표적 하나당 수 주~수개월이 걸리던 작업을 AI가 크게 단축시킬 수 있다는 내용이다.",
+        "url": "https://x.com/AnthropicAI/status/2089842387845804246",
+        "publishedAt": "2026-08-18T22:30:27.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_014",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Claude Academy가 이제 공개되었습니다.\n\nAI가 무엇인지 알아가고 계신지, 아니면 이미 매일 Claude를 사용하고 계신지, 당신이 있는 곳에서 만나는 경로가 있습니다. 코스와 튜토리얼은 무료이며 https://academy.claude.com에서 누구나 이용할 수 있습니다.",
+        "context": "클로드 공식 계정이 무료 AI 교육 플랫폼 '클로드 아카데미' 공개를 알렸다. AI를 처음 접하는 사람부터 매일 클로드를 사용하는 숙련자까지 각자 수준에 맞는 코스와 튜토리얼을 제공한다.",
+        "url": "https://x.com/claudeai/status/2090518650251804742",
+        "publishedAt": "2026-08-20T19:17:40.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "ChatGPT Sites에 팀 협업 기능이 추가됐습니다. 이제 팀원을 편집자로 초대해 같은 사이트를 함께 만들고 수정할 수 있는데요. 여러 사람이 같은 프로젝트에 변경사항을 올리면 Codex가 뒤에서 Git 관리와 CI를 처리합니다. 쉽게 말하면 ChatGPT 안에서 여러 명이 하나의 웹사이트를 같이 만드는 방식입니다. 사이트 주소도 직접 설정할 수 있어 프로젝트 이름에 맞게 공유하기 쉬운 URL을 만들 수 있습니다. 현재는 Business와 Enterprise 계정에서 제공되는 기능입니다.",
+        "context": "CHOI가 챗GPT 사이트의 신규 팀 협업 기능을 소개하며, 여러 명이 하나의 웹사이트를 함께 만들 수 있게 됐다고 설명했다. 현재는 비즈니스·엔터프라이즈 계정에서만 제공된다.",
+        "url": "https://www.threads.net/@choi.openai/post/DcRfrnYDU-4",
+        "publishedAt": "2026-08-20T19:17:54.000Z"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "뒤늦게 알았는데 이 분야도 정말 빠르게 발전하는 것 같습니다. Meshy 7이 지난 10일 출시됐었는데요. 그림 한 장을 3D 모델로 바꿔주는 모델인데, 이번 세대의 목표는 그럴듯한 3D가 아니라 넣은 그림과 얼마나 똑같은가입니다. 2년 전만 해도 팔이 사라지거나 형태가 무너지는 실패가 흔했는데, 그런 실패가 드물어지면서 승부처가 정렬로 옮겨왔습니다. 웃는 얼굴을 넣으면 광대가 올라가고 눈가가 접힌 조각이 나오고, 기계 부엉이 그림을 넣으면 가슴의 톱니 위치까지 원안대로 놓인 조립품이 나옵니다. 자체 벤치마크로는 단일 이미지 입력에서 비교 모델 전부를 앞섰다고 밝혔습니다. 사흘 전 기술 리포트에 이어 오늘은 색과 붓질까지 옮기는 텍스처 정렬을 예고했고, 같은 주에 경쟁사 Hi3D V3.0도 나왔을 만큼 이 판이 달아올라 있습니다.",
+        "context": "CHOI가 이미지 한 장을 3D 모델로 변환하는 Meshy 7의 발전상을 소개하며, 원본 이미지와의 정합성이 이번 세대의 핵심 경쟁 포인트로 떠올랐다고 분석했다.",
+        "url": "https://www.threads.net/@choi.openai/post/DcRMfrFEiUH",
+        "publishedAt": "2026-08-20T16:30:00.000Z"
+      },
+      {
+        "id": "threads_003",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "세일즈포스가 드림포스에서 Slack Code를 공개했습니다. 코드 전용 채널을 만들면 사람과 AI 에이전트가 같은 채널에서 같은 코드를 놓고 함께 일합니다. 사람이 대화로 방향을 잡으면 에이전트가 코드를 쓰고, 진행 상황과 수정 내역이 대화 흐름에 그대로 쌓이는 구조입니다. 슬랙의 전략은 자체 에이전트 경쟁이 아닙니다. 앤트로픽의 클로드, 깃허브, 코그니션의 데빈, 버셀을 출시 파트너로 불러들여, 어느 회사 에이전트든 슬랙 안에서 일하게 하는 중립 지대 장사입니다.",
+        "context": "CHOI가 세일즈포스의 드림포스에서 공개된 Slack Code를 소개하며, 슬랙이 자체 에이전트 경쟁 대신 여러 AI 에이전트가 모이는 중립 플랫폼 전략을 택했다고 분석했다.",
+        "url": "https://www.threads.net/@choi.openai/post/DcRCOuoir7X",
+        "publishedAt": "2026-08-20T15:00:18.000Z"
+      },
+      {
+        "id": "threads_004",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "그록 봇이 베타로 나온 지 일주일 만에, 오픈소스 판박이가 나왔습니다. CopilotKit이 공개한 Open Bot입니다. 회사 도구에 직접 로그인해 사람처럼 일하는 'AI 동료'를 자기 인프라에 깔 수 있게 만든 것으로, 봇마다 전용 컴퓨터와 브라우저, 로그인이 격리돼 서로의 파일을 넘볼 수 없습니다. 원조와 갈라지는 지점은 소유권입니다. 랭체인이든 CrewAI든 클로드 SDK든 프로토콜만 맞으면 어떤 에이전트든 붙일 수 있고, 작업 기록 전부를 회사가 갖습니다.",
+        "context": "CHOI가 코파일럿킷이 공개한 오픈소스 AI 동료 플랫폼 '오픈 봇'을 소개하며, 그록의 유사 제품 출시 일주일 만에 등장한 오픈소스 대항마라고 평가했다.",
+        "url": "https://www.threads.net/@choi.openai/post/DcQ3-5RDxVO",
+        "publishedAt": "2026-08-20T13:30:46.000Z"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "EMNLP 2026 결과 발표 토론 스레드 [D]",
+        "originalTitle": "Discussion thread for EMNLP 2026 Notifications/Results [D]",
+        "summary": "EMNLP 2026 논문 심사 결과 발표를 앞두고 연구자들이 합격 여부와 리뷰 내용을 공유하는 토론 스레드다. 자연어처리 학계 주요 학회의 결과 발표 시즌에 통상적으로 형성되는 커뮤니티 논의다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1vtdpve/discussion_thread_for_emnlp_2026/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-08-20T17:37:17+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "다중 클래스 분류에서 클래스를 그룹화할 때의 영향에 대하여 [D]",
+        "originalTitle": "About the impact of grouping classes in multiclass classification [D]",
+        "summary": "다중 클래스 분류 문제에서 유사한 클래스들을 그룹화해 학습할 경우 모델 성능에 어떤 영향을 미치는지에 대한 방법론적 논의가 이어지고 있다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1vtctaz/about_the_impact_of_grouping_classes_in/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-08-20T16:42:20+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "스펙트럴 뉴런 — 확장 가능하고 해석 가능한 모델을 위한 ML 기본 단위 [R]",
+        "originalTitle": "The spectral neuron - an ML primitive for scalable and interpretable models [R]",
+        "summary": "기존 뉴런 구조를 대체할 수 있는 '스펙트럴 뉴런'이라는 새로운 머신러닝 기본 단위를 제안한 연구가 소개됐다. 모델의 확장성과 해석 가능성을 동시에 높이는 것이 목표다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1vtfimo/the_spectral_neuron_an_ml_primitive_for_scalable/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-08-20T19:20:47+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "AI 컴퓨팅 파워 홍수가 곧 온라인화된다 — AI 칩 공급량 9개월마다 두 배로 증가",
+        "originalTitle": "A Deluge of A.I. Computing Power Is About to Come Online, Fueling Major Leaps | The number of A.I. chips that provide the computing power to advance the fast-evolving technology is doubling every nine months.",
+        "summary": "AI 발전을 뒷받침하는 컴퓨팅 파워가 급격히 늘어나고 있다는 뉴욕타임스 보도가 레딧에서 논의됐다. AI 칩 공급량이 9개월마다 두 배로 늘어나는 추세라는 분석이 핵심이다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1vtmjf7/a_deluge_of_ai_computing_power_is_about_to_come/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-08-21T00:24:02+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "신시대의 욕설들",
+        "originalTitle": "New age insults",
+        "summary": "AI 시대를 반영한 새로운 유형의 농담 섞인 표현들을 다루는 가벼운 유머 게시물로, r/OpenAI 커뮤니티에서 화제가 됐다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1vt8210/new_age_insults/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-08-20T12:24:53+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "GPT 5.6 Sol, 몰래 업그레이드된 것 아닌가?",
+        "originalTitle": "Did GPT 5.6 Sol get secretly upgraded?",
+        "summary": "사용자들이 공식 발표 없이 GPT 5.6 Sol 모델의 응답 품질이나 동작 방식이 달라진 것 같다는 의혹을 제기하며 토론을 벌이고 있다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1vth5v3/did_gpt_56_sol_get_secretly_upgraded/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-08-20T20:44:33+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "신사 숙녀 여러분, Qwen3.8 27b 1비트 '두뇌 손상' 양자화 모델을 소개합니다",
+        "originalTitle": "Ladies and gentlemen I present to you Qwen3.8 27b 1bit brain damage quant",
+        "summary": "Qwen3.8 27B 모델을 극단적인 1비트로 양자화한 실험적 버전이 공개돼 화제다. 성능 저하를 감수한 극한의 경량화 시도로, 로컬 LLM 커뮤니티에서 실험 결과를 공유하고 있다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtr3h0/ladies_and_gentlemen_i_present_to_you_qwen38_27b/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-08-21T03:08:26+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "250달러로 미니 Kimi-K3를 처음부터 직접 만들었더니, 벌써 GPT-2(124M)를 능가했다",
+        "originalTitle": "I just built a mini Kimi-K3 from Scratch under 250$. Already beats GPT-2 (124M)!",
+        "summary": "저비용으로 소형 언어모델을 처음부터 학습시켜 GPT-2 수준을 넘어섰다는 사례가 공유됐다. 제한된 예산으로도 의미 있는 모델 학습이 가능함을 보여주는 실험이다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vth1c3/i_just_built_a_mini_kimik3_from_scratch_under_250/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-08-20T20:38:22+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "Unsloth 다이나믹 3.0 GGUF 공개",
+        "originalTitle": "Unsloth Dynamic 3.0 GGUFs",
+        "summary": "로컬 LLM 양자화 도구로 유명한 Unsloth가 새로운 다이나믹 3.0 방식의 GGUF 양자화 모델들을 공개해 커뮤니티의 관심을 받고 있다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtrxeg/unsloth_dynamic_30_ggufs/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-08-21T03:38:03+09:00"
+      },
+      {
+        "id": "reddit_010",
+        "title": "AI가 인터넷을 덜 유용하게 만들고 있는가?",
+        "originalTitle": "Is AI making the internet less useful?",
+        "summary": "AI 생성 콘텐츠가 급증하면서 검색 결과와 웹 콘텐츠의 신뢰성·유용성이 떨어지고 있다는 우려를 다루는 토론 글이다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1vtkejc/is_ai_making_the_internet_less_useful/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-08-20T23:02:56+09:00"
+      },
+      {
+        "id": "reddit_011",
+        "title": "제이슨 켈시, AI 데이터센터에 오줌 병 보내기 캠페인 독려 — 기이한 신규 광고 화제",
+        "originalTitle": "Jason Kelce Encourages People To Mail Jars Of Pee To AI Data Centers In Bizarre New Ad—And We Don't Know What To Think",
+        "summary": "전 NFL 선수 제이슨 켈시가 등장한 광고가 AI 데이터센터에 항의 표시로 오줌이 든 병을 보내라고 독려해 논란과 화제를 동시에 낳고 있다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1vtqv2e/jason_kelce_encourages_people_to_mail_jars_of_pee/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-08-21T03:00:21+09:00"
+      },
+      {
+        "id": "reddit_012",
+        "title": "당신은 AI를 잘 다루는가, 아니면 그저 사용만 하는가?",
+        "originalTitle": "Are you good at AI, or just using it?",
+        "summary": "AI 도구를 단순히 사용하는 것과 능숙하게 활용하는 것의 차이를 논의하는 게시물로, AI 리터러시의 중요성을 강조하는 커뮤니티 토론이다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1vtr49w/are_you_good_at_ai_or_just_using_it/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-08-21T03:09:13+09:00"
+      },
+      {
+        "id": "reddit_013",
+        "title": "음악 이론, 프로그래머의 시각으로 풀어보기",
+        "originalTitle": "Music theory for programmers",
+        "summary": "프로그래머의 관점에서 음악 이론의 기본 개념을 설명하는 글로, 코드와 패턴 인식이라는 공통분모를 통해 접근하기 쉽게 풀어냈다.",
+        "url": "https://www.reddit.com/r/programming/comments/1vtm44m/music_theory_for_programmers/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-08-21T00:08:03+09:00"
+      },
+      {
+        "id": "reddit_014",
+        "title": "퀘이크 셰어웨어, 아주 살짝 넘쳐버린 CD-ROM 용량 이야기",
+        "originalTitle": "Quake Shareware, a CD-ROM just a little too full - Fabien Sanglard",
+        "summary": "파비앙 상글라르가 1990년대 퀘이크 셰어웨어 배포판의 CD-ROM 용량 제약과 이를 해결한 엔지니어링 트릭을 다룬 글로, 프로그래밍 커뮤니티에서 인기를 끌고 있다.",
+        "url": "https://www.reddit.com/r/programming/comments/1vtih22/quake_shareware_a_cdrom_just_a_little_too_full/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-08-20T21:44:02+09:00"
+      },
+      {
+        "id": "reddit_015",
+        "title": "arrayref 패키지에 대한 공급망 공격 발생",
+        "originalTitle": "Supply chain attack on arrayref",
+        "summary": "널리 쓰이는 러스트 크레이트 'arrayref'를 대상으로 한 공급망 공격 사례가 보고돼, 오픈소스 패키지 생태계의 보안 위협에 대한 경각심을 다시 일깨우고 있다.",
+        "url": "https://www.reddit.com/r/programming/comments/1vtm22r/supply_chain_attack_on_arrayref/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-08-21T00:05:52+09:00"
+      },
+      {
+        "id": "reddit_016",
+        "title": "클로드 신규 장애 토론 허브 — 8월 20일 여러 모델 요청 오류 급증",
+        "originalTitle": "Discussion Hub for new Claude incident: Elevated errors on requests to multiple models on Aug 20, 2026",
+        "summary": "8월 20일 클로드의 여러 모델에서 요청 오류가 급증하는 장애가 발생하자, 사용자들이 상황을 공유하고 논의하는 공식 토론 스레드가 개설됐다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1vtt3iz/discussion_hub_for_new_claude_incident_elevated/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-08-21T04:17:12+09:00"
+      },
+      {
+        "id": "reddit_017",
+        "title": "한 달 동안 클로드에게 상당한 액수의 자금 관리를 맡겨봤습니다",
+        "originalTitle": "This is letting Claude handle a good amount of money for a month...",
+        "summary": "한 사용자가 클로드에게 실제 자금 관리 업무를 상당 기간 맡긴 경험을 공유하며, AI 에이전트의 실제 업무 위임 가능성과 한계를 짚었다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1vtl9of/this_is_letting_claude_handle_a_good_amount_of/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-08-20T23:35:57+09:00"
+      },
+      {
+        "id": "reddit_018",
+        "title": "이번 변경이 토큰 소비량에 얼마나 큰 차이를 만들 것이라고 생각하나요?",
+        "originalTitle": "How big of a difference do you think it’s going to make on token consumption?",
+        "summary": "최근 변경 사항이 실제 토큰 사용량에 미칠 영향에 대해 사용자들이 예상치를 공유하며 토론하는 게시물이다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1vtjif5/how_big_of_a_difference_do_you_think_its_going_to/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-08-20T22:27:21+09:00"
+      },
+      {
+        "id": "reddit_019",
+        "title": "GEN-1.5 공개 — 원샷 학습 모델",
+        "originalTitle": "Introducing GEN-1.5, a one-shot learner",
+        "summary": "단 한 번의 예시만으로 새로운 작업을 학습할 수 있는 '원샷 러너' 모델 GEN-1.5가 공개돼 화제가 되고 있다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1vt155o/introducing_gen15_a_oneshot_learner/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-08-20T07:22:36+09:00"
+      },
+      {
+        "id": "reddit_020",
+        "title": "AI가 마침내 암을 치료하고 있다",
+        "originalTitle": "AI is finally curing cancer",
+        "summary": "AI 기반 신약 개발 기술이 실제 암 치료 성과로 이어지고 있다는 소식을 다루며, 관련 연구 성과에 대한 기대와 회의적 시각이 함께 논의되고 있다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1vtqalk/ai_is_finally_curing_cancer/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-08-21T02:39:54+09:00"
+      },
+      {
+        "id": "reddit_021",
+        "title": "월드와이드 휴머노이드 로봇 게임 연습 중 또다시 충돌 사고",
+        "originalTitle": "Another crash during practices ahead of the Worldwide Humanoid Robot Games",
+        "summary": "휴머노이드 로봇 대회를 앞둔 연습 과정에서 로봇이 충돌하는 사고가 또다시 발생해, 휴머노이드 로봇 기술의 안정성 문제가 재조명되고 있다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1vtqssh/another_crash_during_practices_ahead_of_the/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-08-21T02:58:11+09:00"
+      },
+      {
+        "id": "reddit_022",
+        "title": "훌륭한 엔지니어링 문화를 가진 회사가 있을까요?",
+        "originalTitle": "Any company with great engineering culture?",
+        "summary": "경력 개발자들이 실제로 좋은 엔지니어링 문화를 갖춘 회사의 사례를 서로 공유하고 추천하는 토론 스레드다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1vt7aul/any_company_with_great_engineering_culture/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-08-20T11:48:35+09:00"
+      },
+      {
+        "id": "reddit_023",
+        "title": "모든 커뮤니케이션을 AI에 먼저 통과시킵니다 — 경영진도 그렇게 할 테니까요",
+        "originalTitle": "I put all of my communications through AI first, because that's the first thing management will do",
+        "summary": "한 개발자가 사내 커뮤니케이션을 AI로 먼저 다듬는 이유를 경영진의 AI 활용 관행과 연결지어 설명하며, 조직 내 AI 활용 문화에 대한 논의를 이끌어냈다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1vt2a3b/i_put_all_of_my_communications_through_ai_first/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-08-20T08:08:37+09:00"
+      },
+      {
+        "id": "reddit_024",
+        "title": "매니저가 내가 하는 일을 이해하지 못한다는 걸 깨달았다",
+        "originalTitle": "Realized my manager doesn't understand what I do",
+        "summary": "관리자가 실무 개발자의 업무를 제대로 이해하지 못해 발생하는 소통 문제를 다루며, 많은 개발자들의 공감을 얻고 있는 게시물이다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1vt504g/realized_my_manager_doesnt_understand_what_i_do/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-08-20T10:04:57+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "quick_bites_001",
+        "title": "쇼 HN: 후자 — AI 코딩을 위한 새로운 접근법",
+        "excerpt": "코딩 에이전트에 지쳐버린 한 개발자가 완전 수동 코딩으로 돌아가지 않으면서도 다시 코드를 직접 다루고 싶어 만든 실험적 에디터 '후자'가 해커뉴스에 소개됐다.",
+        "body": "한 개발자가 올해 초부터 코딩 에이전트에 거의 전적으로 의존해 작업해오다가, 매번 변경 사항을 문장으로 풀어써야 하는 번거로움과 일정 규모를 넘어서면 에이전트가 코드베이스를 혼동하기 시작하는 한계에 지쳤다고 밝혔다. 그는 완전한 수동 코딩으로 돌아가고 싶지는 않지만 다시 코드를 직접 다루고 싶다는 생각에서 실험적 에디터 '후자'를 개발했다고 설명했다.",
+        "url": "https://www.danielvaughn.dev/posts/huzzah/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-08-21T04:05:36+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "quick_bites_002",
+        "title": "Bun 1.4 출시 — Zig에서 러스트로 재작성, Node.js 호환성 역대 최대 폭 향상",
+        "excerpt": "Bun 1.4가 발표되며 Node.js 테스트 스위트 통과 개수가 1,517개 늘고 2,900개 이상의 이슈가 수정됐다.",
+        "body": "2026년 8월 20일 공개된 Bun 1.4는 Node.js 테스트 스위트에서 1,517개의 테스트를 새로 통과시키고 2,900개 이상의 이슈를 수정했다. 유휴 CPU 사용량은 5배, 메모리 사용량은 최대 35% 줄었으며 Linux 환경 시작 속도도 50% 향상됐다. 특히 이번 버전은 Bun 자체를 기존 Zig에서 러스트로 재작성한 첫 정식 릴리스라는 점에서 개발자 커뮤니티의 큰 주목을 받고 있다.",
+        "url": "https://news.hada.io/topic?id=32707",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-08-21T00:53:34+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "quick_bites_003",
+        "title": "터미널을 되찾는 법",
+        "excerpt": "less와 fzf 같은 도구들이 stdin 파이프와 /dev/tty를 함께 활용해 터미널 제어권을 되찾는 원리를 설명하는 글이 GeekNews에 소개됐다.",
+        "body": "less와 fzf 같은 유닉스 도구들은 파일이나 후보 목록을 표준 입력(stdin) 파이프로 받으면서도, 제어 터미널인 /dev/tty를 별도의 파일 디스크립터로 열어 키보드 입력을 받는 방식으로 동작한다. 이 글은 각 프로세스가 표준 입력과 표준 출력이 실제 터미널인지 검사해 파이프라인의 첫 단계·중간 단계·마지막 단계에서 서로 다르게 동작하는 원리를 자세히 설명한다.",
+        "url": "https://news.hada.io/topic?id=32704",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-08-20T23:07:18+09:00",
+        "readTime": 4,
+        "imageGradient": 2
+      },
+      {
+        "id": "quick_bites_004",
+        "title": "AI 답변을 그대로 붙여넣지 마세요",
+        "excerpt": "질문자는 일반적인 챗봇 답변이 아니라 상대방의 맥락과 판단이 담긴 답을 원한다는 조언이 GeekNews에 올라왔다.",
+        "body": "이 글은 누군가에게 질문을 받았을 때 편집하지 않은 챗GPT 출력을 그대로 전달하는 방식이 대개 도움이 되지 않는다고 지적한다. 질문한 사람은 일반적인 챗봇 답변이 아니라 상대방의 맥락과 취향, 판단이 담긴 답을 원하며, 상대방 역시 같은 AI 도구를 쓸 수 있기 때문이다. 글쓴이는 AI를 초안 작성 파트너로 활용하되 결과를 직접 읽고 자신의 맥락을 더해 다듬어야 한다고 조언한다.",
+        "url": "https://news.hada.io/topic?id=32699",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-08-20T20:33:05+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "quick_bites_005",
+        "title": "쇼 HN: 칸델로 — 브라우저용 POSIX 호환 멀티프로세스 WASM 커널",
+        "excerpt": "브라우저와 Node.js에서 POSIX 프로그램을 구동할 수 있는 오픈소스 Wasm 기반 멀티프로세스 커널 '칸델로'가 해커뉴스에 소개됐다.",
+        "body": "칸델로는 브라우저와 Node.js 환경에서 POSIX 프로그램을 실행할 수 있는 오픈소스 Wasm 기반 멀티프로세스 커널이다. 아직 실험 단계이지만 이미 상당한 범위의 기존 소프트웨어를 구동할 수 있다. 개발팀은 서버 사이드 워드프레스를 브라우저에서 완전히 구동하는 워드프레스 플레이그라운드의 새로운 기반으로 칸델로를 시험하고 있으며, 브라우저 및 커맨드라인에서 에이전트를 실행하는 샌드박스로도 가능성을 보고 있다고 밝혔다.",
+        "url": "https://kandelo.dev/20260819-demo/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-08-21T03:25:30+09:00",
+        "readTime": 4,
+        "imageGradient": 4
+      },
+      {
+        "id": "quick_bites_006",
+        "title": "모든 것을 위한 SQLite",
+        "excerpt": "SQLite가 단순한 내장형 데이터베이스를 넘어 관계형 DB, 전문 검색, 문서 저장소, 캐시, 벡터 인덱스까지 통합할 수 있다는 점을 조명하는 글이 GeekNews에 소개됐다.",
+        "body": "이 글은 SQLite가 단순한 내장형 데이터베이스를 넘어 관계형 DB와 전문 검색, 문서 저장소, 캐시, 벡터 인덱스, 파일 형식까지 하나의 라이브러리와 하나의 파일로 통합할 수 있는 범용 도구로 진화했다고 설명한다. 2000년 처음 출시된 이후 MC/DC 100% 분기 커버리지와 라이브러리 코드의 약 500배에 달하는 방대한 테스트 코드를 갖추며 신뢰성을 높여온 점도 소개됐다.",
+        "url": "https://news.hada.io/topic?id=32703",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-08-20T23:04:18+09:00",
+        "readTime": 4,
+        "imageGradient": 5
+      }
+    ]
+  }
+}
