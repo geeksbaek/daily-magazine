@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-08-22",
+      "issueNumber": 137,
+      "mainHeadline": "Anthropic, Claude Security 정식 공개 — Mythos 5로 사이버 방어 능력 확대",
+      "headlines": [
+        "OpenAI, GPT-5.6 Sol API 가격 20% 이상 인하",
+        "애플, 비전 프로·시리 팀 200명 이상 감원",
+        "웨이모, 아동 충돌 사고 조사 자료 NHTSA에 제출"
+      ]
+    },
+    {
       "date": "2026-08-21",
       "issueNumber": 136,
       "mainHeadline": "이제는 그렉 브록만의 OpenAI다 — 격동의 한 해 속 역할 확대",
