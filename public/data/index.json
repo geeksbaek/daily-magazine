@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-08-24",
+      "issueNumber": 138,
+      "mainHeadline": "GLM-5.3 오픈 웨이트, Anthropic·OpenAI 모델을 5분의 1 비용으로 제치다",
+      "headlines": [
+        "DeepMind 출신이 세운 Inherent, AI '팀원' 파라데이가 연구 재현에서 Anthropic·OpenAI 앞질러",
+        "프론티어 AI 랩들, 폭주 모델 억제 계획은 여전히 안갯속",
+        "엔비디아, 장비값 올리며 AI 모델 사업까지 직접 진출"
+      ]
+    },
+    {
       "date": "2026-08-22",
       "issueNumber": 137,
       "mainHeadline": "Anthropic, Claude Security 정식 공개 — Mythos 5로 사이버 방어 능력 확대",
