@@ -1,0 +1,778 @@
+{
+  "date": "2026-08-26",
+  "issueNumber": 140,
+  "cover": {
+    "mainHeadline": "OpenAI 첫 자체 칩 Jalapeño, 벤치마크서 엔비디아 앞질렀다",
+    "mainExcerpt": "OpenAI가 브로드컴과 공동 개발한 추론 칩 Jalapeño의 실측 벤치마크 결과를 공개했다. SemiAnalysis의 InferenceX 벤치마크에서 처리량과 지연시간 모두 기존 최고 수준의 상용 시스템을 앞선 것으로 나타나, 엔비디아 의존도를 낮추려는 자체 실리콘 전략이 본격적인 성과를 내기 시작했다는 평가가 나온다.",
+    "headlines": [
+      "Claude Cowork, 채팅과 업무를 아우르는 통합 메모리 기능 도입",
+      "스페이스X, 루이지애나에 1000억 달러 규모 제2 스타베이스 건설",
+      "OpenAI, '풍요로운 지능'을 향한 풀스택 인프라 전략 공개"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_001",
+      "title": "OpenAI 첫 자체 칩 Jalapeño, 벤치마크서 엔비디아 앞질렀다",
+      "excerpt": "OpenAI가 브로드컴과 공동 개발한 첫 자체 추론 칩 Jalapeño가 SemiAnalysis의 InferenceX 벤치마크에서 현재 최고 수준의 상용 시스템보다 사용자당 토큰 처리량과 킬로와트당 처리량 모두 더 높은 것으로 나타났다. OpenAI는 이번 결과를 통해 자체 칩 개발 전략의 성과를 입증했다.",
+      "body": "OpenAI가 처음 공개한 맞춤형 추론 칩 Jalapeño의 실측 벤치마크 결과가 발표됐다. SemiAnalysis의 InferenceX 벤치마크를 기준으로 Jalapeño는 기존 최고 수준 시스템 대비 사용자당 토큰 처리 속도와 킬로와트당 처리량에서 모두 앞서는 것으로 나타났다. 그렉 브록만 OpenAI 사장은 자신의 X 계정에서 이번 결과를 두고 팀의 성과를 강조했으며, OpenAI 공식 계정도 효율성을 희생하지 않으면서 처리량과 지연시간을 동시에 개선했다고 밝혔다. 이는 엔비디아 의존도를 낮추려는 OpenAI의 자체 실리콘 전략이 본격적인 성과를 내기 시작했음을 보여주는 사례로 해석된다.",
+      "url": "https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show/",
+      "source": "TechCrunch",
+      "category": "ai_ml",
+      "publishedAt": "2026-08-25T23:22:04+09:00",
+      "readTime": 4,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_002",
+      "title": "Claude Cowork, 이제 채팅에서 나눈 대화를 기억한다",
+      "excerpt": "Anthropic이 Claude 채팅과 Cowork 전반에 걸쳐 하나의 메모리를 공유하는 기능을 도입했다. 이제 사용자는 프로젝트나 선호도 같은 맥락을 매번 다시 설명할 필요 없이, Claude가 이미 알고 있는 내용을 바탕으로 Cowork 작업을 맡길 수 있다.",
+      "body": "Anthropic이 Claude에 채팅과 Cowork를 아우르는 통합 메모리 기능을 추가했다. Cowork에 작업을 맡기면 Claude는 이전 채팅에서 논의했던 프로젝트, 관리자의 선호도, 지난 분기 클라이언트 정보 등 이미 알고 있는 내용을 바탕으로 작업을 시작한다. 기억된 내용은 설정 화면에서 주제별 목록으로 확인, 편집, 삭제할 수 있으며 대화 중 새로운 정보가 나타날 때마다 자동으로 갱신된다. 사용자가 \"이것을 기억해\"라고 직접 요청해 특정 정보를 저장할 수도 있다.",
+      "url": "https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/",
+      "source": "TechCrunch",
+      "category": "ai_ml",
+      "publishedAt": "2026-08-26T02:50:33+09:00",
+      "readTime": 3,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_003",
+      "title": "OpenAI, '풍요로운 지능'을 향한 풀스택 전략 공개",
+      "excerpt": "OpenAI가 자사 블로그를 통해 모델, 칩, 데이터센터, 애플리케이션까지 시스템 전반이 함께 발전해야 AI 발전 속도가 가장 빨라진다는 요지의 글을 게재했다. 이는 최근 공개한 Jalapeño 칩 등 자체 인프라 투자를 뒷받침하는 전략적 메시지로 풀이된다.",
+      "body": "OpenAI가 'The full stack behind abundant intelligence'라는 제목의 글에서 AI 발전은 모델 하나만 잘 만든다고 이루어지지 않으며, 칩과 데이터센터, 소프트웨어 스택 전체가 함께 개선될 때 가장 빠르게 진전된다고 밝혔다. 그렉 브록만 사장은 자신의 X 계정에 이 글을 공유하며 \"지식 작업을 수행하는 새로운 방법\"이라고 짧게 소개했다. 이 발표는 OpenAI가 브로드컴과 함께 만든 자체 추론 칩 Jalapeño의 벤치마크 결과 공개와 같은 날 이뤄져, 회사의 장기 인프라 투자 전략을 정당화하려는 메시지로 해석된다.",
+      "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+      "source": "OpenAI News",
+      "category": "ai_ml",
+      "publishedAt": "2026-08-25T16:05:00+09:00",
+      "readTime": 5,
+      "imageGradient": 2
+    },
+    {
+      "id": "rss_004",
+      "title": "스페이스X, 루이지애나에 1000억 달러 규모 제2 스타베이스 건설",
+      "excerpt": "스페이스X가 텍사스에 이어 루이지애나에 두 번째 스타십 발사 기지 '스타베이스'를 건설한다고 발표했다. 2027년 착공해 2029년에는 첫 발사를 목표로 하며, 총 투자 규모는 1000억 달러에 달할 것으로 알려졌다.",
+      "body": "스페이스X가 루이지애나주에 1000억 달러 규모의 제2 스타베이스 스페이스포트를 건설한다고 밝혔다. 회사는 2027년 착공을 시작해 이르면 2029년 스타십 로켓의 첫 발사를 목표로 하고 있다고 설명했다. 텍사스 스타베이스에 이은 이번 확장은 스페이스X의 발사 역량을 크게 늘리려는 시도로, 향후 화성 탐사 및 상업 발사 수요 증가에 대응하기 위한 포석으로 풀이된다.",
+      "url": "https://techcrunch.com/2026/08/25/spacex-will-build-a-second-100b-starbase-spaceport-in-louisiana/",
+      "source": "TechCrunch",
+      "category": "big_tech",
+      "publishedAt": "2026-08-26T03:26:55+09:00",
+      "readTime": 3,
+      "imageGradient": 3
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_001",
+        "title": "OpenAI 첫 자체 칩 Jalapeño, 벤치마크서 엔비디아 앞질렀다",
+        "excerpt": "OpenAI가 브로드컴과 공동 개발한 첫 자체 추론 칩 Jalapeño가 SemiAnalysis의 InferenceX 벤치마크에서 현재 최고 수준의 상용 시스템보다 사용자당 토큰 처리량과 킬로와트당 처리량 모두 더 높은 것으로 나타났다. OpenAI는 이번 결과를 통해 자체 칩 개발 전략의 성과를 입증했다.",
+        "body": "OpenAI가 처음 공개한 맞춤형 추론 칩 Jalapeño의 실측 벤치마크 결과가 발표됐다. SemiAnalysis의 InferenceX 벤치마크를 기준으로 Jalapeño는 기존 최고 수준 시스템 대비 사용자당 토큰 처리 속도와 킬로와트당 처리량에서 모두 앞서는 것으로 나타났다. 그렉 브록만 OpenAI 사장은 자신의 X 계정에서 이번 결과를 두고 팀의 성과를 강조했으며, OpenAI 공식 계정도 효율성을 희생하지 않으면서 처리량과 지연시간을 동시에 개선했다고 밝혔다. 이는 엔비디아 의존도를 낮추려는 OpenAI의 자체 실리콘 전략이 본격적인 성과를 내기 시작했음을 보여주는 사례로 해석된다.",
+        "url": "https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-08-25T23:22:04+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_002",
+        "title": "Claude Cowork, 이제 채팅에서 나눈 대화를 기억한다",
+        "excerpt": "Anthropic이 Claude 채팅과 Cowork 전반에 걸쳐 하나의 메모리를 공유하는 기능을 도입했다. 이제 사용자는 프로젝트나 선호도 같은 맥락을 매번 다시 설명할 필요 없이, Claude가 이미 알고 있는 내용을 바탕으로 Cowork 작업을 맡길 수 있다.",
+        "body": "Anthropic이 Claude에 채팅과 Cowork를 아우르는 통합 메모리 기능을 추가했다. Cowork에 작업을 맡기면 Claude는 이전 채팅에서 논의했던 프로젝트, 관리자의 선호도, 지난 분기 클라이언트 정보 등 이미 알고 있는 내용을 바탕으로 작업을 시작한다. 기억된 내용은 설정 화면에서 주제별 목록으로 확인, 편집, 삭제할 수 있으며 대화 중 새로운 정보가 나타날 때마다 자동으로 갱신된다. 사용자가 \"이것을 기억해\"라고 직접 요청해 특정 정보를 저장할 수도 있다.",
+        "url": "https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-08-26T02:50:33+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_003",
+        "title": "OpenAI, '풍요로운 지능'을 향한 풀스택 전략 공개",
+        "excerpt": "OpenAI가 자사 블로그를 통해 모델, 칩, 데이터센터, 애플리케이션까지 시스템 전반이 함께 발전해야 AI 발전 속도가 가장 빨라진다는 요지의 글을 게재했다. 이는 최근 공개한 Jalapeño 칩 등 자체 인프라 투자를 뒷받침하는 전략적 메시지로 풀이된다.",
+        "body": "OpenAI가 'The full stack behind abundant intelligence'라는 제목의 글에서 AI 발전은 모델 하나만 잘 만든다고 이루어지지 않으며, 칩과 데이터센터, 소프트웨어 스택 전체가 함께 개선될 때 가장 빠르게 진전된다고 밝혔다. 그렉 브록만 사장은 자신의 X 계정에 이 글을 공유하며 \"지식 작업을 수행하는 새로운 방법\"이라고 짧게 소개했다. 이 발표는 OpenAI가 브로드컴과 함께 만든 자체 추론 칩 Jalapeño의 벤치마크 결과 공개와 같은 날 이뤄져, 회사의 장기 인프라 투자 전략을 정당화하려는 메시지로 해석된다.",
+        "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-08-25T16:05:00+09:00",
+        "readTime": 5,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_005",
+        "title": "Stability AI, 7600만 달러 추가 투자 유치",
+        "excerpt": "이미지 생성 AI Stable Diffusion 개발사 Stability AI가 7600만 달러 규모의 신규 투자를 유치했다. 이번 라운드로 누적 투자 유치액은 2억3200만 달러로 늘었다.",
+        "body": "Stable Diffusion으로 잘 알려진 이미지 생성 AI 기업 Stability AI가 7600만 달러 규모의 신규 자금을 조달했다고 밝혔다. 이번 투자로 회사의 누적 투자 유치 총액은 2억3200만 달러에 달하게 됐다. 생성형 이미지 AI 시장 경쟁이 치열해지는 가운데, 이번 자금은 모델 연구개발과 사업 확장에 투입될 것으로 보인다.",
+        "url": "https://techcrunch.com/2026/08/25/stability-ai-maker-of-image-generator-stable-diffusion-raises-76-million-in-fresh-funding/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-08-26T04:03:47+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_006",
+        "title": "Keenable, AI 에이전트를 위한 웹 인덱스 스타트업으로 스텔스 탈출",
+        "excerpt": "Accel의 투자를 받은 스타트업 Keenable이 2600만 달러 규모의 시드 투자를 유치하며 스텔스 모드에서 벗어났다. 이 회사는 AI 에이전트가 활용할 수 있는 대규모 웹 검색 인덱스를 구축해왔다.",
+        "body": "AI 에이전트 전용 웹 검색 인프라를 구축해온 스타트업 Keenable이 2600만 달러 규모의 시드 라운드를 발표하며 정식으로 서비스를 공개했다. 회사는 그동안 AI 에이전트들이 웹 정보를 빠르고 정확하게 탐색할 수 있도록 대규모 검색 인덱스를 구축해왔으며, 이번 자금을 바탕으로 사업을 본격화할 계획이다.",
+        "url": "https://techcrunch.com/2026/08/25/accel-backed-keenable-is-indexing-the-web-for-ai-agents/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-08-25T22:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_007",
+        "title": "IBM, Granite 4.2 LLM 공개 — 모델 구축 방식 상세 소개",
+        "excerpt": "IBM이 신형 오픈소스 언어모델 Granite 4.2를 공개하고, 모델 아키텍처와 학습 방식을 상세히 설명하는 기술 블로그를 게재했다.",
+        "body": "IBM 리서치가 새로운 Granite 4.2 계열 언어모델을 공개하며, 모델이 어떻게 설계되고 학습됐는지를 다룬 기술 블로그 글을 함께 게시했다. Hugging Face 블로그를 통해 공개된 이번 글은 아키텍처 선택과 데이터 구성 등 모델 개발 과정의 세부 사항을 담고 있어, 오픈소스 LLM 생태계에 관심 있는 개발자들의 주목을 받고 있다.",
+        "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
+        "source": "Hugging Face - Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-08-26T00:14:14+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_008",
+        "title": "디자인 AI 스타트업 감마(Gamma), 리카(Lica) 인수",
+        "excerpt": "프레젠테이션 제작 AI 스타트업 Gamma가 Accel의 투자를 받은 디자인 스타트업 Lica를 인수했다.",
+        "body": "AI 기반 프레젠테이션 제작 도구로 주목받는 Gamma가 디자인 스타트업 Lica를 인수했다고 밝혔다. Lica의 공동창업자들은 Gamma의 신설 리서치 팀에 합류해 앞으로의 제품 연구를 이끌게 된다.",
+        "url": "https://techcrunch.com/2026/08/25/gamma-acquires-accel-backed-design-startup-lica/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-08-26T00:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_009",
+        "title": "VS Code 1.135 Insiders 버전 공개",
+        "excerpt": "마이크로소프트가 비주얼 스튜디오 코드 1.135 Insiders 버전을 공개하며 새로운 기능과 개선 사항을 소개했다.",
+        "body": "마이크로소프트가 VS Code 1.135 Insiders 릴리스를 공개했다. 공식 업데이트 노트를 통해 새롭게 추가된 기능과 각종 개선 사항을 확인할 수 있으며, 정식 버전 출시에 앞서 미리 테스트해볼 수 있다.",
+        "url": "https://code.visualstudio.com/updates/v1_135",
+        "source": "Visual Studio Code",
+        "category": "dev_tools",
+        "publishedAt": "2026-08-26T02:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_010",
+        "title": "Vercel, Next.js 8월 보안 취약점으로부터 애플리케이션 보호 확인",
+        "excerpt": "2026년 8월 Next.js 보안 릴리스에서 공개된 두 건의 취약점에 대해, Vercel에 호스팅된 Next.js 애플리케이션은 별도 조치 없이 보호된다고 발표했다.",
+        "body": "Next.js에서 두 건의 보안 취약점이 새롭게 공개된 가운데, Vercel은 자사 플랫폼에 호스팅된 Next.js 애플리케이션이 이미 보호되고 있어 고객이 별도로 대응할 필요가 없다고 밝혔다. Vercel은 블로그를 통해 취약점의 세부 내용과 플랫폼 차원의 대응 방식을 설명했다.",
+        "url": "https://vercel.com/changelog/nextjs-august-2026-security-release",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-08-26T01:39:17+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_011",
+        "title": "LinkedIn, 에이전틱 개인화를 위한 '인지 메모리 에이전트' 공개",
+        "excerpt": "LinkedIn의 수석 AI 연구원이 Stack Overflow 팟캐스트에 출연해, 채용 어시스턴트에 지속적이고 개인화된 상태를 부여하는 4계층 메모리 시스템을 소개했다.",
+        "body": "LinkedIn의 프린시펄 AI 연구원 프라빈 보디굴라가 Stack Overflow 블로그 인터뷰에서 자신의 팀이 구축한 4계층 메모리 시스템을 설명했다. 이 시스템은 LinkedIn의 채용 어시스턴트가 사용자별로 지속적이고 개인화된 상태를 유지할 수 있도록 설계됐으며, 에이전트 개인화 연구의 실제 사례로 소개됐다.",
+        "url": "https://stackoverflow.blog/2026/08/25/inside-linkedin-s-cognitive-memory-agent/",
+        "source": "Stack Overflow Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-08-25T16:40:00+09:00",
+        "readTime": 4,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_012",
+        "title": "Vercel, 에이전트를 위한 '자격증명 확산' 문제 해결 나서",
+        "excerpt": "Vercel이 AI 에이전트가 Slack 게시, PR 생성, 내부 API 호출 등 외부 시스템에 접근할 때 발생하는 자격증명 관리 문제를 해결하는 새로운 접근법을 공개했다.",
+        "body": "Vercel은 블로그 글을 통해, 유용한 AI 에이전트일수록 코드베이스를 넘어 Slack, Snowflake, 내부 API 등 다양한 외부 시스템에 접근해야 하는데 이 과정에서 자격증명이 여기저기 흩어지는 '자격증명 확산' 문제가 생긴다고 지적했다. 회사는 장기 보관되는 비밀키 대신 런타임에 단기 발급되는 스코프 토큰을 사용하는 방식을 제안하며, 이를 통해 에이전트의 보안 위험을 줄일 수 있다고 설명했다.",
+        "url": "https://vercel.com/blog/the-end-of-credential-sprawl-for-agents",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-08-25T13:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 5
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_004",
+        "title": "스페이스X, 루이지애나에 1000억 달러 규모 제2 스타베이스 건설",
+        "excerpt": "스페이스X가 텍사스에 이어 루이지애나에 두 번째 스타십 발사 기지 '스타베이스'를 건설한다고 발표했다. 2027년 착공해 2029년에는 첫 발사를 목표로 하며, 총 투자 규모는 1000억 달러에 달할 것으로 알려졌다.",
+        "body": "스페이스X가 루이지애나주에 1000억 달러 규모의 제2 스타베이스 스페이스포트를 건설한다고 밝혔다. 회사는 2027년 착공을 시작해 이르면 2029년 스타십 로켓의 첫 발사를 목표로 하고 있다고 설명했다. 텍사스 스타베이스에 이은 이번 확장은 스페이스X의 발사 역량을 크게 늘리려는 시도로, 향후 화성 탐사 및 상업 발사 수요 증가에 대응하기 위한 포석으로 풀이된다.",
+        "url": "https://techcrunch.com/2026/08/25/spacex-will-build-a-second-100b-starbase-spaceport-in-louisiana/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-08-26T03:26:55+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_013",
+        "title": "인스타그램, 릴스 편집 자동화하는 'First Draft' 기능 출시",
+        "excerpt": "인스타그램이 릴스 제작 과정에서 가장 번거로운 편집 작업을 자동화하는 'First Draft' 기능을 공개했다. 선택한 영상 클립을 자동으로 다듬어주는 방식이다.",
+        "body": "인스타그램이 Threads 게시물을 통해 릴스 편집을 더 쉽게 만드는 신기능 'First Draft'를 공개했다. 이 기능은 사용자가 선택한 영상 클립들을 자동으로 트리밍해 초안을 만들어주며, 크리에이터들이 반복적인 편집 작업에 들이는 시간을 줄여줄 것으로 기대된다.",
+        "url": "https://techcrunch.com/2026/08/25/instagrams-first-draft-feature-aims-to-make-editing-reels-less-tedious/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-08-26T04:22:52+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_014",
+        "title": "中 드리미, '로켓카' 프로젝트 결국 접었다",
+        "excerpt": "글로벌 기술기업을 꿈꾸던 중국 청소기 업체 드리미가 정부 지원금이 끊기면서 자동차 사업을 접은 것으로 알려졌다.",
+        "body": "중국의 로봇청소기 제조사 드리미(Dreame)가 야심 차게 추진했던 '로켓 파워' 자동차 프로젝트를 결국 중단한 것으로 전해졌다. CarNewsChina 보도에 따르면 정부 보조금이 끊기면서 자동차 사업부의 자금난이 심화됐고, 결국 프로젝트 종료로 이어졌다. 가전업체들이 잇따라 전기차 시장에 도전했다가 철수하는 사례가 이어지고 있다.",
+        "url": "https://www.theverge.com/transportation/984485/dreame-rocket-car-shut-down",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-08-26T03:52:53+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_015",
+        "title": "웨이모 로보택시, 독일 뮌헨 진출",
+        "excerpt": "구글 웨이모가 자율주행 규제가 우호적인 독일에서 뮌헨을 새로운 로보택시 테스트 거점으로 선택했다.",
+        "body": "웨이모가 독일 뮌헨에 로보택시 서비스를 확장한다고 밝혔다. 독일의 자율주행차 관련 규제가 비교적 우호적으로 평가되면서, 뮌헨은 자율주행 테스트와 향후 상업용 로보택시 서비스 도입의 핫스팟으로 떠오르고 있다.",
+        "url": "https://techcrunch.com/2026/08/25/waymo-robotaxis-are-headed-to-munich/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-08-26T02:32:03+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "할라페뇨에 대한 추론 수치가 발표되었으며, 팀이 정말 대단한 일을 해냈습니다.\nhttps://openai.com/index/jalapeno-first-results/",
+        "context": "그렉 브록만 OpenAI 사장이 자사의 첫 자체 추론 칩 Jalapeño의 벤치마크 결과가 공개된 것을 언급하며 팀의 성과를 축하했다. RSS로 보도된 Jalapeño 벤치마크 기사와 같은 맥락의 소식이다.",
+        "url": "https://x.com/gdb/status/2092273740239552780",
+        "publishedAt": "2026-08-25T15:31:46.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "지식 작업을 수행하는 새로운 방법",
+        "context": "그렉 브록만이 OpenAI의 새 블로그 글 '풍요로운 지능을 향한 풀스택'을 짧게 소개하며 공유한 트윗이다. AI가 지식노동을 수행하는 방식이 근본적으로 달라지고 있다는 메시지를 담고 있다.",
+        "url": "https://x.com/gdb/status/2091861755253371243",
+        "publishedAt": "2026-08-24T12:14:42.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "OpenAI는 장기 연구 투자에 대한 결단력을 키워왔습니다",
+        "context": "그렉 브록만이 OpenAI의 장기적 연구 투자 기조를 강조한 트윗으로, 최근 이어진 자체 칩·인프라 투자 발표들과 같은 맥락에서 나온 메시지로 풀이된다.",
+        "url": "https://x.com/gdb/status/2091745169221787681",
+        "publishedAt": "2026-08-24T04:31:25.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Jack Clark",
+        "handle": "jackclarkSF",
+        "content": "가끔은 내 영국 유산을 기념하기 위해 기묘하게 입맛이 당기지 않는, 겉보기엔 양념이 부족해 보이는 음식을 만들어야 해. 그럼에도 불구하고, 그건 절대적인 미식이지.",
+        "context": "Anthropic 정책팀을 이끄는 잭 클라크가 영국식 요리에 대한 개인적인 소회를 남긴 가벼운 일상 트윗이다.",
+        "url": "https://x.com/jackclarkSF/status/2091712514472247754",
+        "publishedAt": "2026-08-24T02:21:40.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Jack Clark",
+        "handle": "jackclarkSF",
+        "content": "고려: 구운 감자.",
+        "context": "앞선 트윗에 이어 구운 감자를 언급한 후속 트윗으로, 업무 소식이 아닌 일상적인 유머 트윗이다.",
+        "url": "https://x.com/jackclarkSF/status/2091712563360977242",
+        "publishedAt": "2026-08-24T02:21:51.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "곧 Claude Code를 더 해킹하기 쉽게 만드는 방법에 대해 더 많이 공유하게 되어 기대됩니다.",
+        "context": "Anthropic 소속 개발자 타릭이 Claude Code를 더 해킹하기 쉽게 만드는 방법을 조만간 공유하겠다고 예고했다. 개발자 커뮤니티의 커스터마이징 요구에 대한 응답으로 보인다.",
+        "url": "https://x.com/trq212/status/2092303682616627311",
+        "publishedAt": "2026-08-25T17:30:45.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "Jalapeño, 우리의 첫 번째 맞춤형 추론 칩을 발표한 이후, 우리는 이를 테스트하고 주변 시스템을 함께 검증해 왔습니다. 그 결과는 중대한 발전을 보여줍니다: 와트당 더 많은 지능과 더 빠른 응답 속도를 통해, 효율성을 희생하지 않으면서도 하나의 아키텍처에서 더 높은 처리량과 더 낮은 지연시간을 달성했습니다.",
+        "context": "OpenAI 공식 계정이 Jalapeño 칩 벤치마크 결과를 공식 발표한 트윗으로, 와트당 지능과 응답 속도 개선을 강조했다. TechCrunch 등 주요 매체 보도의 원 출처이기도 하다.",
+        "url": "https://x.com/OpenAI/status/2092300846675505602",
+        "publishedAt": "2026-08-25T17:19:29.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "ChatGPT 비즈니스 프리미엄 시트 소개. 새로운 $100 프리미엄 시트는 소규모 비즈니스와 스타트업을 위한 게임 체인저입니다—자원이 제한된 팀에게 더 나은 도구, 더 빠른 워크플로우, 그리고 한때 대기업만 누릴 수 있었던 기능을 제공합니다. 팀의 야망에 맞춰 확장되는 유연한 플랜.",
+        "context": "OpenAI가 소규모 비즈니스와 스타트업을 겨냥한 100달러 상당의 ChatGPT 비즈니스 프리미엄 시트를 새롭게 소개했다.",
+        "url": "https://x.com/OpenAI/status/2092335305366069305",
+        "publishedAt": "2026-08-25T19:36:25.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_009",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "GPT-5.6이 이제 @kirodotdev 에서 사용 가능하며, 개발자들이 이미 프로덕션에서 사용하는 워크플로우에 최신 모델을 도입하여 소프트웨어를 계획하고, 구축하고, 테스트하고, 검토할 수 있게 합니다.",
+        "context": "OpenAI 개발자 계정이 GPT-5.6 모델이 코딩 도구 kiro.dev에 통합됐다고 공지했다. 이미 프로덕션에서 사용 중인 개발 워크플로우에 최신 모델을 도입할 수 있게 됐다.",
+        "url": "https://x.com/OpenAIDevs/status/2091966982015103068",
+        "publishedAt": "2026-08-24T19:12:50.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_010",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "ChatGPT 확장 프로그램이 이제 더 많은 브라우저를 지원합니다. 열려 있는 탭을 작업으로 가져오면 Codex가 눈앞의 맥락을 바탕으로 작업할 수 있습니다.",
+        "context": "ChatGPT 브라우저 확장 프로그램의 지원 범위가 확대됐다는 공지로, 열린 탭의 맥락을 그대로 Codex 작업에 활용할 수 있게 됐다는 내용이다.",
+        "url": "https://x.com/OpenAIDevs/status/2092343177634017655",
+        "publishedAt": "2026-08-25T20:07:42.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_011",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Claude는 이제 채팅과 Claude Cowork 전반에 걸쳐 하나의 메모리를 가지고 있으며, 그 내용은 당신이 결정합니다. Cowork에게 작업을 맡기면, Claude가 이미 채팅에서 알고 있는 것부터 시작합니다: 함께 논의한 프로젝트, 당신의 관리자의 선호도, 또는 지난 분기 클라이언트.",
+        "context": "Claude 공식 계정이 채팅과 Cowork 전반에 걸친 통합 메모리 기능 출시를 공식 발표했다. 이는 TechCrunch가 보도한 Claude Cowork 메모리 기사와 같은 소식이다.",
+        "url": "https://x.com/claudeai/status/2092299704864284888",
+        "publishedAt": "2026-08-25T17:14:57.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_012",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Claude가 기억하는 모든 것은 설정의 주제 목록으로 저장되며, 여기서 각 항목을 읽거나 편집하거나 삭제할 수 있습니다. 메모리는 대화하는 동안 자동으로 업데이트되며, 새로운 세부 사항이 나타날 때마다 저장합니다. 특정한 것을 저장하려면 \"이것을 기억해\"라고 말할 수도 있습니다.",
+        "context": "새 메모리 기능의 구체적인 작동 방식을 설명한 후속 트윗으로, 설정에서 기억된 항목을 확인·편집·삭제할 수 있다는 내용을 담고 있다.",
+        "url": "https://x.com/claudeai/status/2092299707653439497",
+        "publishedAt": "2026-08-25T17:14:58.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "Perplexity가 NVIDIA DGX Spark에서 실행되는 Portable Computer를 공개했습니다.\n주목할 부분은 AI 에이전트의 모델과 실행 환경을 모두 로컬 기기에서 돌린다는 점인데요. PPLX 27B와 Qwen 3.8 27B를 지원하며, 민감한 문서도 기기 밖으로 보내지 않고 처리할 수 있습니다.\n더 높은 추론 성능이 필요할 때만 사용자 승인을 받아 클라우드 모델을 사용합니다.\n현재 Perplexity Pro·Max 구독자가 이용할 수 있습니다.",
+        "context": "국내 AI 채널 운영자 choi.openai가 Perplexity의 로컬 우선 AI 하드웨어 'Portable Computer' 공개 소식을 정리해 소개한 게시물이다. RSS로 수집된 관련 기사와 같은 소식을 다루고 있다.",
+        "url": "https://www.threads.com/@choi.openai/post/DceVvxqCt8v",
+        "publishedAt": "2026-08-25T19:00:58.000Z",
+        "metrics": {
+          "likes": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "Google Cloud이 Gemini Enterprise의 산업별 버전을 공개했습니다.\n먼저 법률과 금융 분야부터 시작하는데요.\nGemini Enterprise for Legal은 계약 검토·수정, 법률 조사, 규제 확인, 계약서 작성 등을 AI 에이전트로 지원합니다.\nCourtListener, Docusign, Everlaw, Harvey 등 기존 법률 서비스와도 연결할 수 있습니다.\n앞으로 다른 산업용 Gemini Enterprise도 순차적으로 추가될 예정입니다.",
+        "context": "구글 클라우드가 법률·금융 등 산업별 특화 버전의 Gemini Enterprise를 출시했다는 소식을 정리한 게시물이다. 계약 검토, 법률 조사 등 전문 업무에 AI 에이전트를 투입하는 사례로 소개됐다.",
+        "url": "https://www.threads.com/@choi.openai/post/DceLarwAee9",
+        "publishedAt": "2026-08-25T17:30:43.000Z",
+        "metrics": {
+          "likes": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "threads_003",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "엔비디아 초비상! 추론 칩 전쟁의 다음 라운드가 열렸습니다.\n오픈AI가 브로드컴과 만든 첫 칩 Jalapeño의 실측을 공개했는데, 와트당 성능과 지연시간 모두에서 엔비디아 현행 시스템을 앞선다는 주장입니다.",
+        "context": "OpenAI의 Jalapeño 칩 벤치마크 결과를 두고 엔비디아에 대한 위협으로 해석한 국내 AI 채널의 스레드 게시물로, RSS·트윗으로 수집된 Jalapeño 관련 소식과 같은 맥락이다.",
+        "url": "https://www.threads.com/@choi.openai/post/DceABqgj9bE",
+        "publishedAt": "2026-08-25T15:51:10.000Z",
+        "metrics": {
+          "likes": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "AAAI 2027 논문 4편 심사 중인데 전부 코드가 없다면, 리젝트해야 할까? [토론]",
+        "originalTitle": "Reviewing 4 papers for AAAI 2027 and none have code, Reject? [D]",
+        "summary": "AAAI 2027 논문 리뷰어가 심사 중인 4편의 논문 모두 코드를 공개하지 않았다며, 이를 이유로 리젝트해야 하는지 커뮤니티에 의견을 구하는 게시물이다. 논문 재현성 문제를 둘러싼 머신러닝 학계의 오랜 논쟁을 다시 불러일으켰다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1vxryws/reviewing_4_papers_for_aaai_2027_and_none_have/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-08-25T15:34:35+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "소버린AI를 위한 프론티어 모델의 지속 학습 — 기술 보고서와 오픈 웨이트 모델 공개 [연구]",
+        "originalTitle": "Continual Learning of Frontier Models for SovereignAI. Tech Report + Open Weights Model [R]",
+        "summary": "국가·기관 단위의 '소버린 AI'를 위한 프론티어 모델의 지속 학습(continual learning) 기법을 다룬 기술 보고서와 오픈 웨이트 모델이 공개됐다. 자체 AI 주권 확보에 관심 있는 국가·기업들의 관심을 끌 만한 연구다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1vxvzju/continual_learning_of_frontier_models_for/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-08-25T19:30:17+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "[토론] 불완전한 정보 하에서 '알림/대기/통지'를 결정하는 복약 알림 에이전트 모델링 조언 구함",
+        "originalTitle": "[D] Looking for advice: Modelling a medicine-reminder agent that must decide \"remind / wait / notify\" under incomplete information[D]",
+        "summary": "불완전한 정보 상황에서 복약 알림을 보낼지, 기다릴지, 보호자에게 통지할지를 판단해야 하는 에이전트를 어떻게 모델링할지 조언을 구하는 게시물이다. 의사결정 이론과 강화학습을 접목한 실전 사례로 논의되고 있다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1vy8a9g/d_looking_for_advice_modelling_a_medicinereminder/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-08-26T03:34:35+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "우버, 알고리즘이 사람 검토 없이 기사 계정 정지시켜 GDPR 위반으로 10억 달러에 육박하는 과징금",
+        "originalTitle": "Uber hit with a near-$1B GDPR fine after algorithms suspended drivers without human review",
+        "summary": "우버가 알고리즘을 통해 기사들의 계정을 인간의 검토 없이 자동으로 정지시킨 것이 유럽 개인정보보호법(GDPR) 위반으로 판정돼 10억 달러에 가까운 과징금을 부과받았다. 자동화된 의사결정의 법적 책임 문제를 다시 부각시킨 사례다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1vxv8pl/uber_hit_with_a_near1b_gdpr_fine_after_algorithms/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-08-25T18:48:25+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "앤드류 양 \"AI가 수백만 노동자 대체할 것...미국은 재교육에 형편없어\" — \"탄광 노동자들은 코더가 되지 않았다\"",
+        "originalTitle": "Andrew Yang Warns That AI Is Set to Displace Millions of Workers, America Is 'Terrible at Retraining' Workers... 'The Coal Miners Did Not Become Coders'",
+        "summary": "정치인 앤드류 양이 AI가 대규모 일자리 대체를 초래할 것이라 경고하며, 미국의 노동자 재교육 시스템이 부실하다고 비판했다. 과거 탄광 노동자들이 코딩 직군으로 전환하지 못했던 사례를 들어 AI발 실업 대응의 어려움을 지적했다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1vxn7xr/andrew_yang_warns_that_ai_is_set_to_displace/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-08-25T11:27:23+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "OpenAI, ChatGPT Work와 Codex용 관리자 플러그인 추가",
+        "originalTitle": "OpenAI adds an admin plugin for ChatGPT Work and Codex",
+        "summary": "OpenAI가 ChatGPT Work와 Codex에 기업 관리자를 위한 어드민 플러그인을 새롭게 추가했다는 소식으로, 앞서 RSS로 수집된 OpenAI 뉴스와 같은 맥락이다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1vyab8z/openai_adds_an_admin_plugin_for_chatgpt_work_and/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-08-26T04:46:01+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "상자 속의 Claude",
+        "originalTitle": "Claude in a box",
+        "summary": "Claude를 물리적 장치나 독립 실행 환경 형태로 구현한 것으로 보이는 프로젝트를 소개하는 게시물로, r/ClaudeAI 커뮤니티에서 화제가 되고 있다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1vy40r2/claude_in_a_box/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-08-26T01:04:04+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "\"정치 토론계의 오메글\"을 만들었습니다 — 의견이 다른 상대와 매칭되고 Claude Haiku가 실시간으로 토론을 심사합니다",
+        "originalTitle": "I built \"Omegle for political debates\": you get matched with a person who disagrees, and Claude Haiku judges the debate live.",
+        "summary": "낯선 사람과 무작위로 매칭해 정치적 견해가 다른 상대와 실시간 토론을 하고, Claude Haiku 모델이 토론을 심사하는 서비스를 개발했다는 게시물이다. AI를 활용한 토론 중재 아이디어로 주목받고 있다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1vy7ue3/i_built_omegle_for_political_debates_you_get/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-08-26T03:19:10+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "Claude가 손글씨로 답장해주는 필기 노트 앱을 만들었는데, 몇 년 만에 가장 재미있게 공부했습니다",
+        "originalTitle": "I built a handwriting notebook app where Claude writes back and it's the most fun I've had learning in years",
+        "summary": "사용자가 손글씨로 노트에 질문을 쓰면 Claude가 손글씨로 답장을 써주는 학습 앱을 개발했다는 후기 게시물로, 색다른 학습 경험으로 큰 호응을 얻고 있다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1vxqbzs/i_built_a_handwriting_notebook_app_where_claude/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-08-25T14:02:43+09:00"
+      },
+      {
+        "id": "reddit_010",
+        "title": "리크에 따르면 OpenAI가 1조 파라미터 넘는 차기 사전학습 모델 'Bel' 훈련을 막 완료했다",
+        "originalTitle": "According to Leo, OpenAI just finished its next >10T pretrain \"Bel\"",
+        "summary": "익명의 소식통 'Leo'를 인용해 OpenAI가 파라미터 수 10조가 넘는 차세대 모델 'Bel'의 사전학습을 완료했다는 미확인 루머를 다룬 게시물이다. 신빙성은 검증되지 않았으나 커뮤니티에서 큰 화제가 되고 있다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1vy99vk/according_to_leo_openai_just_finished_its_next/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-08-26T04:09:18+09:00"
+      },
+      {
+        "id": "reddit_011",
+        "title": "앤트로픽의 최상위 AI 모델, 저렴한 도구들에 밀려 사용자 확보에 고전",
+        "originalTitle": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
+        "summary": "앤트로픽의 최고급 AI 모델이 상대적으로 저렴한 경쟁 도구들에 밀려 사용자 유치에 어려움을 겪고 있다는 보도를 다룬 게시물이다. 고성능 모델과 가성비 모델 간의 시장 경쟁 구도를 보여준다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1vxzsxc/anthropics_best_ai_model_struggles_to_attract/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-08-25T22:25:20+09:00"
+      },
+      {
+        "id": "reddit_012",
+        "title": "안즈니 미다는 프론티어 AI 업계에서 실제로 발이 넓고 이례적으로 유리한 위치에 있는 인물이다",
+        "originalTitle": "Anjney Midha is a genuinely well-connected and unusually well-placed person in frontier AI.",
+        "summary": "벤처 투자자 안즈니 미다가 프론티어 AI 업계 내에서 갖는 폭넓은 인맥과 영향력을 조명하는 게시물이다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1vy5iqs/anjney_midha_is_a_genuinely_wellconnected_and/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-08-26T01:57:50+09:00"
+      },
+      {
+        "id": "reddit_013",
+        "title": "애플, M5 Max·M5 Ultra 탑재 새 Mac Studio 공개 — 최대 512GB 통합 메모리",
+        "originalTitle": "Apple introduces new Mac Studio with M5 Max and M5 Ultra - up to 512GB of unified memory",
+        "summary": "애플이 M5 Max와 M5 Ultra 칩을 탑재하고 최대 512GB의 통합 메모리를 지원하는 새로운 Mac Studio를 공개했다. 대형 로컬 LLM 구동에 관심 있는 r/LocalLLaMA 커뮤니티에서 큰 관심을 받고 있다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vxzg6v/apple_introduces_new_mac_studio_with_m5_max_and/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-08-25T22:11:09+09:00"
+      },
+      {
+        "id": "reddit_014",
+        "title": "Qwen3.8-Flash-Next, 내일 공개 예정",
+        "originalTitle": "Qwen3.8-Flash-Next tomorrow",
+        "summary": "알리바바의 신형 경량 모델 Qwen3.8-Flash-Next가 곧 공개될 것이라는 소식을 다룬 게시물로, 커뮤니티의 기대감이 높다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vxwtyd/qwen38flashnext_tomorrow/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-08-25T20:13:28+09:00"
+      },
+      {
+        "id": "reddit_015",
+        "title": "Qwen3.8-Flash-Next — 가중치가 공개되면 예상외로 로컬 친화적인 아키텍처가 될 수도",
+        "originalTitle": "Qwen3.8-Flash-Next. This architecture could be surprisingly local-friendly once the weights drop.",
+        "summary": "Qwen3.8-Flash-Next의 아키텍처가 공개되면 로컬 환경에서 구동하기에 의외로 적합할 수 있다는 분석을 담은 후속 게시물이다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vy6smx/qwen38flashnext_this_architecture_could_be/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-08-26T02:42:49+09:00"
+      },
+      {
+        "id": "reddit_016",
+        "title": "ChatGPT Plus 사용자 대상 5시간 제한 부활 — $100·$200 요금제는 몇 달 더 유예",
+        "originalTitle": "5hr Limit is back for Plus users. $100 and $200 get a few more months.",
+        "summary": "ChatGPT Plus 사용자에게 적용되던 5시간 사용 제한이 다시 도입됐다는 소식으로, 상위 요금제인 100달러·200달러 플랜 사용자는 몇 달간 유예된다는 내용이다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1vxnqaq/5hr_limit_is_back_for_plus_users_100_and_200_get/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-08-25T11:50:49+09:00"
+      },
+      {
+        "id": "reddit_017",
+        "title": "OpenAI Jalapeño, 엔비디아 블랙웰보다 낫다는 평가",
+        "originalTitle": "OpenAI Jalapeño: Better Than Nvidia Blackwell",
+        "summary": "OpenAI의 자체 추론 칩 Jalapeño가 엔비디아 블랙웰보다 우수하다는 벤치마크 결과를 다룬 게시물로, RSS로 보도된 Jalapeño 기사와 같은 맥락의 화제다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1vy4be4/openai_jalapeño_better_than_nvidia_blackwell/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-08-26T01:14:38+09:00"
+      },
+      {
+        "id": "reddit_018",
+        "title": "OpenAI, 러시아발 신규 은밀 영향력 공작 차단",
+        "originalTitle": "Disrupting a new covert influence campaign from Russia",
+        "summary": "OpenAI가 러시아 배후로 추정되는 새로운 은밀한 여론 조작·영향력 공작을 자사 모델을 이용해 탐지하고 차단했다고 발표한 소식이다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1vxw9vt/disrupting_a_new_covert_influence_campaign_from/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-08-25T19:45:35+09:00"
+      },
+      {
+        "id": "reddit_019",
+        "title": "EVE 온라인, 파이썬 3 전환 시작",
+        "originalTitle": "EVE Online: The Move to Python 3 Begins!",
+        "summary": "장수 온라인 게임 EVE 온라인의 백엔드가 드디어 파이썬 3로의 전환을 시작했다는 소식으로, 오래된 대형 코드베이스의 마이그레이션 사례로 개발자들의 관심을 끌고 있다.",
+        "url": "https://www.reddit.com/r/programming/comments/1vxz0z4/eve_online_the_move_to_python_3_begins/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-08-25T21:53:38+09:00"
+      },
+      {
+        "id": "reddit_020",
+        "title": "1+N 쿼리 문제 해결하기",
+        "originalTitle": "Solving the 1+N Query Problem",
+        "summary": "데이터베이스 성능 저하의 대표적 원인인 'N+1 쿼리 문제'를 해결하는 방법을 다룬 기술 글로, r/programming에서 실용적인 팁으로 공유되고 있다.",
+        "url": "https://www.reddit.com/r/programming/comments/1vxud0f/solving_the_1n_query_problem/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-08-25T17:56:56+09:00"
+      },
+      {
+        "id": "reddit_021",
+        "title": "수치 연산 코드가 수학적으로 올바른지 테스트하는 방법",
+        "originalTitle": "How to test if your numerical code is Mathematically correct?",
+        "summary": "부동소수점 연산 등 수치 계산 코드의 수학적 정확성을 검증하는 테스트 기법을 다룬 논의 게시물이다.",
+        "url": "https://www.reddit.com/r/programming/comments/1vy6tks/how_to_test_if_your_numerical_code_is/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-08-26T02:43:44+09:00"
+      },
+      {
+        "id": "reddit_022",
+        "title": "경력을 다시 살리려면 어떻게 해야 할까요?",
+        "originalTitle": "How to revive career?",
+        "summary": "경력이 정체됐다고 느끼는 개발자가 커리어를 다시 활성화할 방법에 대해 커뮤니티에 조언을 구하는 게시물이다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1vy59n4/how_to_revive_career/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-08-26T01:48:58+09:00"
+      },
+      {
+        "id": "reddit_023",
+        "title": "실적도 좋고 성과도 검증됐는데, 새로운 매니저에게 어떻게 승진·연봉 인상을 요청해야 할까요?",
+        "originalTitle": "Doing quite well at work with proven qualities and body of work, how can I ask for a promotion/pay rise with a new manager?",
+        "summary": "업무 성과는 검증됐지만 매니저가 새로 바뀐 상황에서 승진이나 연봉 인상을 어떻게 요청해야 할지 조언을 구하는 게시물이다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1vy4gho/doing_quite_well_at_work_with_proven_qualities/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-08-26T01:19:40+09:00"
+      },
+      {
+        "id": "reddit_024",
+        "title": "대규모 프로젝트에서 변경 사항의 영향 범위(blast radius)는 어떻게 추정하시나요?",
+        "originalTitle": "How do you estimate blast radius / impact of changes in huge project ?",
+        "summary": "거대한 코드베이스에서 특정 변경이 미칠 영향 범위를 어떻게 추정하는지 실무 경험을 공유해달라는 게시물이다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1vxz9g9/how_do_you_estimate_blast_radius_impact_of/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-08-25T22:03:21+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_016",
+        "title": "M6·M5 Pro를 탑재한 새로운 Mac mini 공개",
+        "excerpt": "새로운 Mac mini가 M6 또는 M5 Pro 칩을 탑재해 등장했다. 로컬 AI 모델 구동과 상시 실행 AI 에이전트, 전문 제작 작업까지 초소형 데스크톱에서 처리할 수 있게 됐다.",
+        "body": "애플이 M6 또는 M5 Pro 칩을 탑재한 새로운 Mac mini를 공개했다. M6 모델은 이전 M4 대비 AI 성능이 최대 4배, 그래픽과 저장장치 성능은 최대 2배, CPU 성능은 40% 향상됐으며 최대 32GB 통합 메모리를 지원한다. 이번 업그레이드로 초소형 데스크톱에서도 로컬 AI 모델 구동과 상시 실행 AI 에이전트 운용이 한층 수월해질 전망이다.",
+        "url": "https://news.hada.io/topic?id=32884",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-08-26T04:40:29+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_017",
+        "title": "OpenAI, GPT-5.6 Sol 프로모션 가격 최소 11월까지 연장",
+        "excerpt": "OpenAI가 GPT-5.6 Sol 모델의 프로모션 가격을 최소 2026년 11월 21일까지 유지한다고 밝혔다. 스탠다드 단기 컨텍스트 기준 100만 토큰당 입력 4달러, 출력 20달러다.",
+        "body": "OpenAI가 플래그십 모델 GPT-5.6 Sol의 프로모션 가격을 최소 2026년 11월 21일까지 적용한다고 발표했다. 요금은 Standard·Batch·Flex·Fast 모드로 나뉘며, Batch와 Flex 모드는 Standard의 절반 가격, Fast 모드는 두 배 가격으로 책정됐다. 이는 최근 이어진 OpenAI의 공격적인 가격 인하 전략의 연장선으로 풀이된다.",
+        "url": "https://news.hada.io/topic?id=32882",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-08-26T03:33:02+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_018",
+        "title": "Perplexity, 로컬 우선 AI를 위한 'Portable Computer' 공개",
+        "excerpt": "Perplexity가 NVIDIA DGX Spark 기반의 Portable Computer를 공개했다. AI 에이전트의 모델과 실행 환경을 모두 로컬 기기에서 구동해 민감한 문서를 기기 밖으로 내보내지 않고 처리할 수 있다.",
+        "body": "Perplexity가 로컬 우선 AI 처리를 표방하는 새 하드웨어 'Portable Computer'를 공개했다. NVIDIA DGX Spark에서 구동되며 PPLX 27B와 Qwen 3.8 27B 모델을 지원한다. 민감한 문서는 기기 밖으로 나가지 않고 로컬에서 처리되며, 더 높은 추론 성능이 필요할 때만 사용자 승인을 받아 클라우드 모델로 전환한다. 현재 Perplexity Pro·Max 구독자가 이용할 수 있다.",
+        "url": "https://www.perplexity.ai/hub/blog/introducing-portable-computer-for-local-first-ai",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-08-26T04:41:48+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_019",
+        "title": "파이어폭스 157, 모든 플랫폼에서 JPEG XL 기본 지원",
+        "excerpt": "모질라가 파이어폭스 157 버전부터 모든 플랫폼에서 JPEG XL 이미지 포맷을 기본으로 지원한다고 밝혔다.",
+        "body": "모질라 개발팀이 파이어폭스 157 버전부터 JPEG XL 이미지 포맷을 모든 플랫폼에서 기본 활성화한다고 공지했다. 이는 차세대 이미지 포맷 채택을 둘러싼 오랜 논의 끝에 나온 결정으로, 웹 개발자와 이미지 압축 기술에 관심 있는 커뮤니티에서 큰 주목을 받고 있다.",
+        "url": "https://groups.google.com/a/mozilla.org/g/dev-platform/c/3YMV4MS34KA?pli=1",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-08-26T02:55:23+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_020",
+        "title": "FDA, 케톤·혈당 동시 측정 웨어러블 기기 최초 승인",
+        "excerpt": "미국 식품의약국(FDA)이 케톤 수치와 혈당을 동시에 지속적으로 측정할 수 있는 최초의 웨어러블 기기를 승인했다.",
+        "body": "FDA가 케톤 수치와 혈당을 동시에 연속 측정하는 최초의 웨어러블 기기 사용을 승인했다고 발표했다. 이 기기는 당뇨병 관리와 대사 건강 모니터링에 새로운 옵션을 제공할 것으로 기대된다.",
+        "url": "https://www.fda.gov/news-events/press-announcements/fda-authorizes-first-wearable-device-continuously-monitors-both-ketone-levels-and-blood-sugar",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-08-26T04:07:01+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_021",
+        "title": "Pgbot, 5.9MB 크기의 읽기 전용 Postgres 도구 공개",
+        "excerpt": "사람과 AI 에이전트가 함께 사용할 수 있는 5.9MB 크기의 경량 읽기 전용 Postgres 도구 'Pgbot'이 공개돼 해커뉴스에서 화제가 되고 있다.",
+        "body": "가볍고 빠른 읽기 전용 Postgres 데이터베이스 탐색 도구 'Pgbot'이 공개됐다. 크기는 5.9MB에 불과하며 사람뿐 아니라 AI 에이전트가 데이터베이스를 안전하게 조회하는 용도로도 사용할 수 있도록 설계됐다. 해커뉴스에서 개발자들의 관심을 끌며 주요 게시물로 떠올랐다.",
+        "url": "https://pgbot.dev/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-08-26T03:30:57+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      }
+    ]
+  }
+}

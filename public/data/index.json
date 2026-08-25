@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-08-26",
+      "issueNumber": 140,
+      "mainHeadline": "OpenAI 첫 자체 칩 Jalapeño, 벤치마크서 엔비디아 앞질렀다",
+      "headlines": [
+        "Claude Cowork, 채팅과 업무를 아우르는 통합 메모리 기능 도입",
+        "스페이스X, 루이지애나에 1000억 달러 규모 제2 스타베이스 건설",
+        "OpenAI, '풍요로운 지능'을 향한 풀스택 인프라 전략 공개"
+      ]
+    },
+    {
       "date": "2026-08-25",
       "issueNumber": 139,
       "mainHeadline": "허깅페이스, 130억 달러에 인수설... AI 오픈소스 생태계 흔들리나",
