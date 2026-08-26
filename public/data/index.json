@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-08-27",
+      "issueNumber": 141,
+      "mainHeadline": "OpenAI, 허깅페이스 침해사고 공식 보고서 공개 — 훈련·평가 인프라 전면 강화",
+      "headlines": [
+        "OpenAI 임원 줄퇴사 이어져 — 데이터센터 총괄까지 회사 떠나",
+        "Z.ai, 정체불명 화제작 'Ox Alpha'가 자사 GLM-5.3-Flash였다고 공식 확인",
+        "Meta, 아동·청소년 보호 위해 앱 대대적 개편 — 주정부와 합의"
+      ]
+    },
+    {
       "date": "2026-08-26",
       "issueNumber": 140,
       "mainHeadline": "OpenAI 첫 자체 칩 Jalapeño, 벤치마크서 엔비디아 앞질렀다",
