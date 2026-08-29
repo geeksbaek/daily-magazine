@@ -1,0 +1,747 @@
+{
+  "date": "2026-08-30",
+  "issueNumber": 144,
+  "cover": {
+    "mainHeadline": "소니뮤직·워너, 앤트로픽에 '노골적 저작권 침해' 소송 제기",
+    "mainExcerpt": "소니 뮤직과 워너 채플 뮤직이 앤트로픽을 상대로 캘리포니아 북부지방법원에 저작권 소송을 제기했다. 수만 건에 달하는 저작권 곡을 무단으로 복제·학습에 사용했다는 주장으로, 곡당 최대 15만 달러의 손해배상을 요구하고 있다. 앤트로픽은 지난해 도서 저작권 소송에서 15억 달러 규모의 합의를 체결한 데 이어 또 한 번 대형 저작권 소송에 직면하게 됐다.",
+    "headlines": [
+      "OpenAI, 스페이스X의 커서 인수 이후 모델 공급 계약 종료 — 11월 12일부로 접근 차단",
+      "엔비디아의 AI 경쟁력, 이제는 GPU 넘어 데이터센터 전체 효율로 이동",
+      "유럽 AI 콘퍼런스 TechBBQ 화두는 결국 '누가 AI를 통제하는가'"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_001",
+      "title": "소니뮤직·워너, 앤트로픽에 저작권 침해 소송 제기",
+      "excerpt": "소니 뮤직과 워너 채플이 앤트로픽을 상대로 '노골적인 지식재산권 침해 캠페인'을 벌였다며 소송을 제기했다. 앤트로픽을 겨냥한 소송 중 가장 광범위한 사례로 꼽힌다.",
+      "body": "소니 뮤직과 워너 채플 뮤직이 앤트로픽을 상대로 저작권 소송을 제기했다. 두 회사는 앤트로픽이 수만 건에 달하는 저작권 보유 곡을 불법으로 복제·학습해 Claude 모델을 훈련시켰다고 주장하며, 곡당 최대 15만 달러, 저작자 표시가 훼손된 사례마다 추가로 최대 2만5천 달러의 손해배상을 요구했다. 이번 소송은 불법 복제 혐의에 초점을 맞추고 있어 기존 소송보다 훨씬 광범위하다는 평가를 받는다. 앤트로픽은 이미 지난해 도서 저작권 관련 소송에서 15억 달러 규모의 합의를 체결한 바 있어, 이번 음악 업계발 소송이 추가적인 법적·재정적 부담으로 이어질 가능성이 제기된다.",
+      "url": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
+      "source": "TechCrunch",
+      "category": "ai_ml",
+      "publishedAt": "2026-08-30T03:41:59+09:00",
+      "readTime": 4,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_002",
+      "title": "OpenAI, 스페이스X의 커서 인수 이후 모델 공급 계약 종료",
+      "excerpt": "OpenAI가 일론 머스크의 스페이스X에 인수된 AI 코딩 툴 '커서'에 대한 모델 공급 계약을 종료하기로 했다. 11월 12일부로 접근이 차단된다.",
+      "body": "OpenAI가 스페이스X에 모델 공급 계약 종료를 통보했다. 스페이스X가 AI 코딩 도구 커서를 인수한 데 따른 조치로, 계약상 허용되는 최대 통지 기간을 적용해 셧다운 예정일을 11월 12일로 잡았다. OpenAI는 일론 머스크의 기업들이 과거 계약을 위반한 전례가 있어 스페이스X가 이용약관을 준수할지 확신할 수 없다고 설명했다. 머스크가 트위터(현 X)를 인수한 뒤 계약을 위반한 사례, xAI가 OpenAI 데이터를 무단으로 증류해 모델을 훈련시켰다고 법정에서 시인한 사례를 근거로 들었다. 이번 결정으로 커서를 통해 OpenAI 모델에 의존해온 다수의 개발자들이 대체 수단을 찾아야 하는 상황에 놓였다.",
+      "url": "https://news.hada.io/topic?id=33003",
+      "source": "GeekNews",
+      "category": "quick_bites",
+      "publishedAt": "2026-08-29T15:31:45+09:00",
+      "readTime": 3,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_003",
+      "title": "엔비디아의 AI 경쟁력, 이제는 GPU 넘어 데이터센터 전체 효율로",
+      "excerpt": "차세대 데이터센터 시스템은 단순히 프로세서 성능을 높이는 대신, 더 똑똑한 트래픽 제어로 효율을 끌어올리고 있다.",
+      "body": "엔비디아의 AI 경쟁력 원천이 GPU 성능 자체에서 데이터센터 전체의 효율화로 옮겨가고 있다는 분석이 나왔다. 차세대 데이터센터 시스템은 단순히 더 많은 프로세서 사이클을 투입하는 대신, 더 똑똑한 네트워크 트래픽 제어를 통해 효율을 끌어올리고 있다는 것이다. 이는 AI 인프라 경쟁의 초점이 개별 칩 성능에서 시스템 전체 설계로 확장되고 있음을 보여준다.",
+      "url": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/",
+      "source": "TechCrunch",
+      "category": "ai_ml",
+      "publishedAt": "2026-08-29T22:00:00+09:00",
+      "readTime": 3,
+      "imageGradient": 2
+    },
+    {
+      "id": "rss_004",
+      "title": "유럽 AI 콘퍼런스 TechBBQ, 화두는 '누가 AI를 통제하는가'",
+      "excerpt": "북유럽 최대 스타트업 행사 TechBBQ에 모인 유럽 투자자와 창업자들의 대화는 결국 인간이 AI에 대한 통제권을 어떻게 유지할 것인가로 귀결됐다.",
+      "body": "유럽 각지의 투자자, 창업자, 실무자들이 매년 열리는 북유럽 최대 스타트업 행사 TechBBQ에 모여 AI 시대의 화두를 논의했다. 다양한 세션에서 오간 대화는 결국 하나의 질문, 즉 인간이 AI에 대한 주체성과 통제권을 어떻게 유지할 것인가로 수렴됐다. 미국 빅테크 중심의 AI 패권 구도 속에서 유럽 나름의 규제·거버넌스 접근이 필요하다는 목소리가 이어졌다.",
+      "url": "https://techcrunch.com/2026/08/29/at-techbbq-europes-ai-conversations-kept-coming-back-to-whos-actually-in-control/",
+      "source": "TechCrunch",
+      "category": "big_tech",
+      "publishedAt": "2026-08-30T02:51:10+09:00",
+      "readTime": 4,
+      "imageGradient": 3
+    },
+    {
+      "id": "rss_005",
+      "title": "빈제이 판데, a16z 4조원대 배팅에서 소규모 베팅 전략으로",
+      "excerpt": "a16z에서 약 40억 달러 규모 바이오텍 사업부를 이끌던 빈제이 판데가 이를 떠나 훨씬 작은 AI 네이티브 벤처 VZVC를 창업한 이유를 밝혔다.",
+      "body": "a16z에서 약 40억 달러 규모의 바이오테크 투자를 이끌었던 빈제이 판데가 지난해 회사를 떠나 훨씬 규모가 작은 AI 네이티브 벤처캐피털 VZVC를 설립했다. 그는 생물학이 마침내 '발견'의 과학에서 '공학'의 과학으로 전환되고 있는 흐름, 여전히 막대한 비용이 드는 임상시험 구조, 그리고 개방적이고 공유된 데이터의 중요성에 대해 이야기했다. 대규모 베팅 대신 소규모로 정교하게 베팅하는 투자 철학의 배경을 설명했다.",
+      "url": "https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z/",
+      "source": "TechCrunch",
+      "category": "ai_ml",
+      "publishedAt": "2026-08-30T02:36:47+09:00",
+      "readTime": 4,
+      "imageGradient": 4
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_001",
+        "title": "소니뮤직·워너, 앤트로픽에 저작권 침해 소송 제기",
+        "excerpt": "소니 뮤직과 워너 채플이 앤트로픽을 상대로 '노골적인 지식재산권 침해 캠페인'을 벌였다며 소송을 제기했다.",
+        "body": "소니 뮤직과 워너 채플 뮤직이 앤트로픽을 상대로 저작권 소송을 제기했다. 두 회사는 앤트로픽이 수만 건에 달하는 저작권 보유 곡을 불법으로 복제·학습해 Claude 모델을 훈련시켰다고 주장하며, 곡당 최대 15만 달러의 손해배상을 요구했다. 앤트로픽은 이미 지난해 도서 저작권 소송에서 15억 달러 규모의 합의를 체결한 바 있다.",
+        "url": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-08-30T03:41:59+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_005",
+        "title": "빈제이 판데, a16z 4조원대 배팅에서 소규모 베팅 전략으로",
+        "excerpt": "a16z에서 약 40억 달러 규모 바이오텍 사업부를 이끌던 빈제이 판데가 AI 네이티브 벤처 VZVC를 창업한 이유를 밝혔다.",
+        "body": "a16z에서 약 40억 달러 규모의 바이오테크 투자를 이끌었던 빈제이 판데가 회사를 떠나 훨씬 규모가 작은 AI 네이티브 벤처캐피털 VZVC를 설립했다. 그는 생물학이 '발견'의 과학에서 '공학'의 과학으로 전환되는 흐름과 여전히 막대한 비용이 드는 임상시험 구조에 대해 이야기하며, 대규모 베팅 대신 소규모로 정교하게 베팅하는 투자 철학을 설명했다.",
+        "url": "https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-08-30T02:36:47+09:00",
+        "readTime": 4,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_003",
+        "title": "엔비디아의 AI 경쟁력, 이제는 GPU 넘어 데이터센터 전체 효율로",
+        "excerpt": "차세대 데이터센터 시스템은 프로세서 성능 대신 더 똑똑한 트래픽 제어로 효율을 끌어올리고 있다.",
+        "body": "엔비디아의 AI 경쟁력 원천이 GPU 성능 자체에서 데이터센터 전체의 효율화로 옮겨가고 있다는 분석이 나왔다. 차세대 데이터센터 시스템은 단순히 더 많은 프로세서 사이클을 투입하는 대신, 더 똑똑한 네트워크 트래픽 제어를 통해 효율을 끌어올리고 있다. AI 인프라 경쟁의 초점이 개별 칩 성능에서 시스템 전체 설계로 확장되고 있음을 보여준다.",
+        "url": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-08-29T22:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_013",
+        "title": "클라우드플레어, 봇·에이전트 디렉터리 등록 절차 간소화",
+        "excerpt": "클라우드플레어가 봇 운영자를 위한 'BotBase for Operators'를 공개해 대시보드에서 직접 등록·관리할 수 있게 했다.",
+        "body": "클라우드플레어가 봇 운영자들이 자사 봇·에이전트 디렉터리에 더 쉽게 등록할 수 있도록 'BotBase for Operators' 기능을 대시보드에 추가했다. 제출 상태 추적, 제출 내용 수정, 그리고 봇이 콘텐츠를 어떻게 활용하는지 정확히 선언할 수 있는 행동 모델이 새로 포함됐다. AI 크롤러와 에이전트가 폭증하는 가운데 투명성을 높이려는 시도로 풀이된다.",
+        "url": "https://blog.cloudflare.com/botbase-for-operators/",
+        "source": "Cloudflare Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-08-28T21:59:44+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_014",
+        "title": "AI를 'Lean'하게 유지하면 정확성도 지킨다",
+        "excerpt": "Lean 언어 창시자 레오 드 무라가 AI 에이전트의 정확성을 증명하는 방법과 자동 추론의 역할을 이야기했다.",
+        "body": "AWS 수석 응용과학자이자 정리증명 언어 Lean의 창시자인 레오 드 무라가 스택오버플로우와의 인터뷰에서 AI 에이전트의 정확성을 수학적으로 증명하는 방법을 논의했다. 확률적인 AI 모델과 결정론적인 자동 추론이 어떻게 서로를 보완할 수 있는지, 그리고 AI를 활용한 지속적인 코드 최적화 기법에 대해서도 다뤘다.",
+        "url": "https://stackoverflow.blog/2026/08/28/when-you-keep-ai-lean-you-keep-ai-correct/",
+        "source": "Stack Overflow Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-08-28T16:40:00+09:00",
+        "readTime": 4,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_015",
+        "title": "텐센트의 Hy4 프리뷰, 버셀 AI 게이트웨이에 합류",
+        "excerpt": "7,700억 파라미터 규모의 오픈소스 MoE 모델 Hy4 프리뷰가 버셀 AI 게이트웨이에서 제공되기 시작했다.",
+        "body": "텐센트가 개발한 오픈소스 MoE 모델 'Hy4 프리뷰'가 버셀의 AI 게이트웨이를 통해 제공되기 시작했다. 총 7,700억 파라미터 중 토큰당 490억 개가 활성화되는 구조로, 장시간 코딩·문서 분석·게임 개발·과학 추론 등에 특화됐다. 최대 100만 토큰의 컨텍스트 윈도우를 지원한다.",
+        "url": "https://vercel.com/changelog/hy4-preview-now-available-on-ai-gateway",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-08-28T09:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_016",
+        "title": "버셀 대시보드에서 바로 'eve' 에이전트 빌드·배포",
+        "excerpt": "버셀 대시보드에서 곧바로 eve 에이전트를 만들고 채팅해볼 수 있는 기능이 추가됐다.",
+        "body": "버셀이 대시보드에서 직접 eve 에이전트를 생성할 수 있는 기능을 출시했다. 빌더가 에이전트를 스캐폴딩하고, 전용 비공개 깃 저장소를 만들며, 팀의 새 버셀 프로젝트로 즉시 배포까지 처리해준다. 몇 번의 클릭만으로 곧바로 대화 가능한 에이전트를 확보할 수 있다.",
+        "url": "https://vercel.com/changelog/build-and-deploy-eve-agents-from-the-vercel-dashboard",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-08-28T09:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_017",
+        "title": "버셀 CLI, DNS·도메인·프로젝트 명령어 확장",
+        "excerpt": "터미널에서 DNS 레코드·도메인·프로젝트를 직접 관리할 수 있는 전용 명령어가 버셀 CLI에 추가됐다.",
+        "body": "버셀 CLI가 DNS 레코드, 도메인, 프로젝트 관리를 위한 전용 명령어를 새로 제공한다. 기존에는 대시보드와 API로만 가능했던 기능들을 터미널에서 대화형으로, 스크립트로, 또는 에이전트를 통해 사용할 수 있게 됐다. DNS 레코드 조회·수정 등이 가능하다.",
+        "url": "https://vercel.com/changelog/vercel-cli-expands-commands-for-dns-domains-and-projects",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-08-28T09:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_018",
+        "title": "Chat SDK로 Claude Managed Agents 실행 가능",
+        "excerpt": "Chat SDK를 통해 서버 측에서 에이전트 루프 전체를 처리하는 Claude Managed Agents를 실행할 수 있게 됐다.",
+        "body": "버셀이 Chat SDK와 함께 Claude Managed Agents를 실행할 수 있는 기능을 공개했다. Claude Managed Agents는 모델, 도구, 세션 상태, 샌드박스 처리된 웹 리서치까지 에이전트 루프 전체를 서버 측에서 처리한다. 이를 활용하면 지속적인 세션을 유지하는 슬랙 리서치 봇 같은 서비스를 빠르게 구축할 수 있다.",
+        "url": "https://vercel.com/changelog/claude-managed-agents-with-chat-sdk",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-08-28T09:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_004",
+        "title": "유럽 AI 콘퍼런스 TechBBQ, 화두는 '누가 AI를 통제하는가'",
+        "excerpt": "북유럽 최대 스타트업 행사에 모인 유럽 투자자와 창업자들의 대화가 결국 AI 통제권 문제로 수렴됐다.",
+        "body": "유럽 각지의 투자자, 창업자, 실무자들이 북유럽 최대 스타트업 행사 TechBBQ에 모여 AI 시대의 화두를 논의했다. 다양한 세션에서 오간 대화는 결국 인간이 AI에 대한 주체성과 통제권을 어떻게 유지할 것인가로 수렴됐다. 미국 빅테크 중심의 AI 패권 구도 속에서 유럽 나름의 거버넌스 접근이 필요하다는 목소리가 이어졌다.",
+        "url": "https://techcrunch.com/2026/08/29/at-techbbq-europes-ai-conversations-kept-coming-back-to-whos-actually-in-control/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-08-30T02:51:10+09:00",
+        "readTime": 4,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_006",
+        "title": "소니뮤직·워너 채플, 앤트로픽에 소송 제기",
+        "excerpt": "두 음반사가 캘리포니아 북부지방법원에 앤트로픽을 상대로 저작권 소송을 제기하며 곡당 최대 15만 달러의 배상을 요구했다.",
+        "body": "소니 뮤직과 워너 채플이 캘리포니아 북부지방법원에 앤트로픽을 상대로 소송을 제기했다. 저작권이 있는 곡 수만 건을 무단 복제했다는 주장이며, 곡당 최대 15만 달러, 저작자 표시가 훼손된 사례마다 추가로 최대 2만5천 달러의 손해배상을 요구했다. 앤트로픽을 상대로 한 저작권 소송 중 규모와 범위 면에서 손꼽히는 사건으로 평가된다.",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-08-30T03:19:53+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_007",
+        "title": "중국 자동차 업체들, 테슬라 뒤이어 로봇 사업에 베팅",
+        "excerpt": "휴머노이드 로봇 수익화 가능성에 이끌린 중국 완성차 업체들이 잇따라 로봇 시장에 진출하고 있다.",
+        "body": "기술적 진전에 힘입어 새로운 기업들이 휴머노이드 로봇 사업의 수익 가능성에 뛰어들고 있으며, 이들 대부분이 중국 완성차 업체라는 점이 눈에 띈다. 테슬라가 앞서 제시한 '로봇이 다음 대형 수익원'이라는 베팅을 중국 자동차 산업 전반이 따라가는 모습이다.",
+        "url": "https://techcrunch.com/2026/08/28/chinese-automakers-are-following-teslas-bet-that-robots-are-the-next-big-profit-machine/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-08-29T08:24:27+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_008",
+        "title": "구글, AI 모드로 검색 결과를 더 깊숙이 묻는다",
+        "excerpt": "구글이 일부 검색에서 AI 요약을 자동으로 확장 표시하기 시작하면서 기존 링크 목록이 화면 아래로 밀려나고 있다.",
+        "body": "구글이 일부 검색 결과에서 페이지 상단 AI 요약을 자동으로 확장 표시하기 시작했다. 이 변화가 적용되면 기존에 보이던 일반 링크 목록이 결과 페이지 훨씬 아래로 밀려난다. 검색 트래픽에 의존해온 퍼블리셔들의 우려가 다시 커지고 있다.",
+        "url": "https://www.theverge.com/tech/986364/google-search-ai-overviews-auto-expand",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-08-29T07:48:11+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_009",
+        "title": "엑스박스 CEO \"프로젝트 헬릭스는 '기기 패밀리'\"",
+        "excerpt": "차세대 콘솔로 알려졌던 프로젝트 헬릭스가 단일 기기가 아닌 여러 기기로 구성된 '패밀리'가 될 것이라고 밝혔다.",
+        "body": "엑스박스 CEO 아샤 샤르마가 지난 3월 '차세대 콘솔'의 코드명으로 발표했던 프로젝트 헬릭스에 대해, 실제로는 단일 기기가 아닌 여러 기기로 구성된 '패밀리'가 될 것이라고 밝혔다. 마이크로소프트가 차세대 게이밍 하드웨어 전략을 다변화하고 있음을 시사한다.",
+        "url": "https://www.theverge.com/games/986337/xbox-ceo-asha-sharma-project-helix-family-of-devices",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-08-29T07:03:13+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_010",
+        "title": "AI 그리퍼를 쫓는 뮤지션 탐정들",
+        "excerpt": "음악가 출신 이용자들이 직접 나서 AI로 생성된 표절성 음원을 찾아내고 있다.",
+        "body": "오디오 생성 AI 도구가 정교해지면서, 인간 아티스트의 작품에서 알고리즘적으로 파생된 멜로디와 보컬로 채워진 AI 생성 음악이 인터넷에 급속히 퍼지고 있다. 이에 맞서 음악가 출신 이용자들이 직접 이런 콘텐츠를 찾아내 고발하는 '탐정' 역할을 자처하고 나섰다.",
+        "url": "https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-08-29T21:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_011",
+        "title": "극우 트롤 마일로 야노풀로스, 결국 추방",
+        "excerpt": "체류 기간을 초과해 미국에 머물던 극우 논객 마일로 야노풀로스가 ICE에 체포된 뒤 영국으로 추방됐다.",
+        "body": "극우 성향 논객 마일로 야노풀로스가 목요일 이민세관집행국(ICE)에 체포된 데 이어 영국으로 추방됐다고 국토안보부가 로이터와 워싱턴포스트에 확인했다. 그는 2019년 합법적으로 미국에 입국했으나 비자 기간을 초과해 체류해온 것으로 알려졌다.",
+        "url": "https://www.theverge.com/policy/986456/milo-yiannopoulos-deported-ice",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-08-30T04:49:59+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "제번스 역설은 반직관적이면서도 흥미롭다",
+        "context": "OpenAI 사장 그렉 브록만이 AI 효율화가 오히려 수요와 소비를 늘리는 '제번스의 역설'에 대해 남긴 짧은 소회입니다. AI 모델 비용이 낮아질수록 사용량이 폭발적으로 늘어나는 최근 업계 흐름과 맞닿아 있습니다.",
+        "url": "https://x.com/gdb/status/2093389388109717989",
+        "publishedAt": "2026-08-28T17:24:58.000Z",
+        "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+      },
+      {
+        "id": "tweet_002",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "커서 팀의 오랜 팬입니다. AI 코딩을 세상에 알리는 데 이보다 더 많이 기여한 팀은 거의 없습니다.\n\n그들과 계속해서 파트너십을 이어가게 되어 기쁩니다.",
+        "context": "OpenAI 소속 개발자 Thariq가, 회사가 커서에 대한 모델 공급 종료를 결정한 가운데도 커서 팀에 대한 개인적인 존중을 표한 트윗입니다. 회사 차원의 결정과는 별개로 업계 동료에 대한 예우를 보여준 사례로 주목받았습니다.",
+        "url": "https://x.com/trq212/status/2093541555068182781",
+        "publishedAt": "2026-08-29T03:29:37.000Z",
+        "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+      },
+      {
+        "id": "tweet_003",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "인생은 허구보다 더 낯설다",
+        "context": "특별한 부연 설명 없이 남긴 짧은 소회로, 최근 AI 업계에서 벌어지는 예측 불가능한 사건들에 대한 우회적인 반응으로 해석되고 있습니다.",
+        "url": "https://x.com/trq212/status/2093176635940016380",
+        "publishedAt": "2026-08-28T03:19:34.000Z",
+        "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+      },
+      {
+        "id": "tweet_004",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "우리는 Cursor가 SpaceX에 인수된 이후 파트너십을 종료합니다. 우리의 제안에 따라, Cursor의 우리 모델에 대한 직접 액세스는 11월 12일에 종료될 것입니다.\n\n우리는 이 결정으로 가장 큰 영향을 받는 사람들이 Cursor에서 OpenAI 모델에 의존하는 개발자들임을 알고 있습니다. 우리는 이 전환",
+        "context": "OpenAI가 공식 계정을 통해 스페이스X의 커서 인수에 따른 모델 공급 계약 종료를 공식 발표한 트윗입니다. 자사 블로그에 게재한 공식 입장을 요약해 전달했습니다.",
+        "url": "https://x.com/OpenAI/status/2093515564786540695",
+        "publishedAt": "2026-08-29T01:46:20.000Z",
+        "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+      },
+      {
+        "id": "tweet_005",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "⌘ ⌘\n\n앱샷을 사용하여 다음을 수행하세요:\n• 이 슬랙 스레드에 대한 요약(TL;DR)을 알려주세요\n• 이 양식을 확인하고 대신 작성해 주세요\n• 이 API 참조를 사용하여 내 앱에 기능을 추가하세요\n• X의 이 답글들에서 주제를 추출하세요\n• 이 DM들 중 답장이 필요한 것을 찾아주세요\n• 이",
+        "context": "OpenAI 개발자 계정이 '앱샷' 기능의 실무 활용 사례를 소개한 트윗입니다. 슬랙 요약, 폼 작성, API 연동 등 바로 적용 가능한 활용법을 제시했습니다.",
+        "url": "https://x.com/OpenAIDevs/status/2093437797982204052",
+        "publishedAt": "2026-08-28T20:37:19.000Z",
+        "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+      },
+      {
+        "id": "tweet_006",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "WebMCP 챌린지가 한창입니다.\n\n이번 주말에 무엇을 만들 건가요?\n\n프로젝트를 제출할 수 있는 기간은 9월 3일까지입니다.",
+        "context": "OpenAI가 진행 중인 WebMCP 해커톤 챌린지의 제출 마감(9월 3일)을 앞두고 참여를 독려하는 트윗입니다.",
+        "url": "https://x.com/OpenAIDevs/status/2093486538370032050",
+        "publishedAt": "2026-08-28T23:51:00.000Z",
+        "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+      },
+      {
+        "id": "tweet_007",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "신규 펠로우 연구: Claude가 다른 AI를 자율적으로 정렬할 수 있을까?\n\n우리는 Claude에게 48시간과 1개의 GPU를 주어 소형 모델들의 정렬을 개선하도록 했습니다. Claude는 연구하고 방법을 제안한 후, 스스로 모델을 훈련하고 테스트했습니다. 놀랍게도 잘 작동했습니다.",
+        "context": "앤트로픽이 자사 펠로우십 프로그램에서 나온 연구 결과를 공개한 트윗입니다. Claude에게 48시간과 GPU 1개만 주고 다른 소형 모델의 정렬(alignment)을 개선하도록 했더니 스스로 연구·구현·검증까지 마쳤다는 내용으로, AI가 AI를 정렬하는 자가개선 사례로 주목받고 있습니다.",
+        "url": "https://x.com/AnthropicAI/status/2093386528668172373",
+        "publishedAt": "2026-08-28T17:13:36.000Z",
+        "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+      },
+      {
+        "id": "tweet_008",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "Claude는 기만이나 아첨 같은 일반적인 불일치에 대한 안전 벤치마크를 \"언덕 오르기\" 방식으로 최적화했으며, 단 하나의 제약이 있었습니다: 일반 능력을 유지해야 했습니다.\n\n그 후 우리는 그 최적의 방법을 보류된 벤치마크에 적용해 테스트함으로써, 그것들이 일반화되는지 확인했습니다.",
+        "context": "위 자가개선 AI 연구의 세부 방법론을 설명한 후속 트윗입니다. Claude가 일반 능력을 유지하면서도 기만·아첨 등 정렬 문제를 개선하도록 최적화한 과정과 이를 검증한 방식을 설명합니다.",
+        "url": "https://x.com/AnthropicAI/status/2093386529846722913",
+        "publishedAt": "2026-08-28T17:13:36.000Z",
+        "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "AI가 이제 사람이 정해준 문제만 푸는 게 아니라, 스스로 탐색하며 배울 대상을 찾기 시작했습니다. Induction Labs가 'intrinsic discovery'라는 새로운 강화학습 방식을 공개했습니다. 모델이 환경에서 아직 가보지 못한 상태를 발견하면 보상을 주고, 업데이트할 때마다 다시 탐색시키는 방식인데요. 이 방법을 터미널 환경에 적용하자 기존 고정 모델보다 새로운 상태를 5배 더 많이 발견했고, 그렇게 모은 경험만으로 학습한 월드 모델은 터미널 시뮬레이션에서 GPT-5.6 Sol보다 높은 성능을 기록했습니다.",
+        "context": "Induction Labs가 공개한 '내재적 발견(intrinsic discovery)' 강화학습 기법을 소개하는 게시물로, AI가 스스로 탐색 목표를 설정하는 연구 흐름을 짚었습니다.",
+        "url": "https://www.threads.com/@choi.openai/post/Dcovritk9gV",
+        "publishedAt": "2026-08-29T19:59:59.000Z"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "뻥 안치고 제 계정 하나만 보기 위해서 스레드 시작해도 후회 없습니다. 스레드 자체가 한국 정보 최상위권 학습 플랫폼입니다.",
+        "context": "저자가 자신의 스레드 계정을 홍보하며 남긴 유머러스한 게시물입니다.",
+        "url": "https://www.threads.com/@choi.openai/post/DcoJ_A3j4gT",
+        "publishedAt": "2026-08-29T14:30:36.000Z"
+      },
+      {
+        "id": "threads_003",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "중국이 미국의 AI 데이터센터 건설을 늦추기 위해 온라인 여론전에 개입한 정황이 포착됐습니다. Axios에 따르면 X는 중국계로 의심되는 영향력 활동 계정 약 20만 개를 조사했고, 이 가운데 약 200개가 미국의 AI·에너지 정책 논쟁에 영향을 줄 수 있는 게시물을 올린 것으로 확인됐습니다. 데이터센터가 전력망에 부담을 주고 전기요금을 높인다는 내용부터, 데이터센터 사업자들이 주민을 희생해 돈을 번다는 내용의 만화까지 게시됐습니다.",
+        "context": "Axios 보도를 인용해 중국계로 의심되는 계정들이 미국의 AI 데이터센터 확장을 겨냥한 여론전을 벌이고 있다는 정황을 전한 게시물입니다.",
+        "url": "https://www.threads.com/@choi.openai/post/Dcn_pokAAv7",
+        "publishedAt": "2026-08-29T13:00:18.000Z"
+      },
+      {
+        "id": "threads_004",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "구글의 Gemini 출시 속도가 상당히 빨라지고 있습니다. Business Insider에 따르면 구글 직원들이 내부 코딩 플랫폼 Jetski에서 Gemini 3.8 Flash Preview를 테스트하기 시작했습니다. Gemini 3.6 Flash가 7월에 출시되고 불과 3주 뒤 3.7 Flash가 나온 데 이어 벌써 다음 모델을 테스트하는 건데요.",
+        "context": "Business Insider 보도를 바탕으로 구글이 제미나이 플래시 모델을 이례적으로 빠른 주기로 테스트하고 있다는 소식을 전한 게시물입니다.",
+        "url": "https://www.threads.com/@choi.openai/post/Dcn42xAEulk",
+        "publishedAt": "2026-08-29T12:00:55.000Z"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "월드 모델이 대체 뭔가요? [토론]",
+        "originalTitle": "WTF is a World Model? [D]",
+        "summary": "월드 모델이라는 개념이 정확히 무엇을 의미하는지 묻는 토론 스레드로, 최근 AI 커뮤니티에서 자주 언급되지만 정의가 모호한 용어에 대한 활발한 논의가 이어지고 있습니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1w16jwj/wtf_is_a_world_model_d/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-08-29T08:37:24+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "미국 ML 박사과정생에게 인턴십 경험이 취업에 얼마나 중요한가요? [토론]",
+        "originalTitle": "How important is having an internship to get a good job for ML PhD in USA? [D]",
+        "summary": "머신러닝 박사과정 학생이 미국에서 좋은 일자리를 구하는 데 인턴십 경력이 얼마나 결정적인지 묻는 토론으로, AI 인재 채용 시장의 치열함을 보여줍니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1w19tav/how_important_is_having_an_internship_to_get_a/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-08-29T11:09:05+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "LLM 벤치마크 점수 31,352건을 시간대별로 분석해봤습니다 [연구]",
+        "originalTitle": "I analyzed 31,352 hourly LLM benchmark scores: within-day variation was 2.8 points, while between-day variation was 8.4 [P]",
+        "summary": "하루 내 벤치마크 점수 변동폭은 2.8점인 반면 날짜 간 변동폭은 8.4점에 달한다는 분석 결과를 공유한 게시물로, LLM 벤치마크의 신뢰성과 재현성 문제를 제기합니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1w1jp1j/i_analyzed_31352_hourly_llm_benchmark_scores/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-08-29T20:08:03+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "텐센트, Hy4-프리뷰 모델을 1.5TB에서 약 200GB GGUF로 압축 — 성능은 98% 유지",
+        "originalTitle": "Tencent compressed Hy4-preview from 1.5TB to about 200GB GGUF and kept about 98% performance.",
+        "summary": "텐센트의 대형 오픈웨이트 모델 Hy4-프리뷰를 대폭 압축하면서도 성능 손실을 최소화한 GGUF 양자화 결과를 공유한 게시물로, 로컬 LLM 커뮤니티에서 큰 관심을 받고 있습니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1o324/tencent_compressed_hy4preview_from_15tb_to_about/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-08-29T23:31:38+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "16GB GPU에서 Qwen 3.8 27B를 10만 토큰 컨텍스트로 초당 50토큰 속도로 구동",
+        "originalTitle": "Qwen 3.8 27B at 50 tok/s with 100k Context on a 16GB GPU! (beellama.cpp)",
+        "summary": "비교적 저사양 GPU에서도 대형 컨텍스트와 준수한 속도로 로컬 LLM을 구동한 사례를 공유한 게시물입니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1lq7u/qwen_38_27b_at_50_toks_with_100k_context_on_a/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-08-29T21:50:05+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "속도나 컨텍스트를 얼마나 더 확보할 수 있을지 항상 궁금합니다",
+        "originalTitle": "I always wonder how much more speed and/or context they'd be getting..",
+        "summary": "로컬 LLM 하드웨어 최적화에 대한 궁금증을 공유한 게시물로, 커뮤니티의 다양한 벤치마크 실험을 촉발했습니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w1gec7/i_always_wonder_how_much_more_speed_andor_context/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-08-29T16:57:13+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "다들 이런 비슷한 광고 보셨나요?",
+        "originalTitle": "Did yall saw similar ADs?",
+        "summary": "AI 관련 광고를 두고 커뮤니티 이용자들이 유사한 경험을 공유하는 게시물입니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1w1agp2/did_yall_saw_similar_ads/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-08-29T11:40:51+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "AI와 인지 능력",
+        "originalTitle": "AI and Cognitive Ability",
+        "summary": "AI 사용이 인간의 인지 능력에 미치는 영향에 대한 토론 게시물입니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1w1m34z/ai_and_cognitive_ability/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-08-29T22:06:07+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "OpenAI, 11월 12일부로 커서에 모델 공급 중단 예정",
+        "originalTitle": "OpenAI plans to stop supplying models to Cursor on Nov. 12",
+        "summary": "OpenAI가 스페이스X에 인수된 커서에 대한 모델 공급을 중단하기로 한 소식을 다룬 게시물로, 오늘 여러 채널에서 동시에 화제가 된 사안입니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1w1w7f9/openai_plans_to_stop_supplying_models_to_cursor/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-08-30T04:52:27+09:00"
+      },
+      {
+        "id": "reddit_010",
+        "title": "지금의 AI 경제",
+        "originalTitle": "AI Economy Right Now",
+        "summary": "현재 AI 산업을 둘러싼 경제적 상황과 거품 논쟁에 대한 의견을 나누는 게시물입니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1w1q75b/ai_economy_right_now/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-08-30T00:56:33+09:00"
+      },
+      {
+        "id": "reddit_011",
+        "title": "커서와의 계약 종료",
+        "originalTitle": "End of the deal with Cursor",
+        "summary": "OpenAI의 커서 모델 공급 중단 소식에 대한 커뮤니티 반응을 담은 게시물입니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1w1dbxv/end_of_the_deal_with_cursor/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-08-29T14:05:57+09:00"
+      },
+      {
+        "id": "reddit_012",
+        "title": "그런데 이건 완전히 다른 모델 계열 아닌가요?",
+        "originalTitle": "Ok but it is a completely different family?",
+        "summary": "최근 공개된 AI 모델들의 계보와 분류를 두고 벌어진 논쟁을 담은 게시물입니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1w1isyq/ok_but_it_is_a_completely_different_family/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-08-29T19:18:39+09:00"
+      },
+      {
+        "id": "reddit_013",
+        "title": "현재 사용량의 약 20% 감소에 대비하세요",
+        "originalTitle": "Prepare for a decrease of about 20% of current rate",
+        "summary": "Claude 사용량 제한이 조만간 약 20% 줄어들 수 있다는 우려를 공유한 게시물로, 이용자들의 활발한 토론을 이끌어냈습니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1w1s49z/prepare_for_a_decrease_of_about_20_of_current_rate/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-08-30T02:12:25+09:00"
+      },
+      {
+        "id": "reddit_014",
+        "title": "감사합니다, 앤트로픽 (진심으로)",
+        "originalTitle": "Thank you, Anthropic (really)",
+        "summary": "Claude를 사용하며 긍정적인 경험을 한 이용자가 앤트로픽에 감사를 표한 게시물입니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1w1jqsh/thank_you_anthropic_really/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-08-29T20:10:37+09:00"
+      },
+      {
+        "id": "reddit_015",
+        "title": "VSCode에서 사용하는 Claude Opus",
+        "originalTitle": "Claude Opus in VSCode",
+        "summary": "VSCode 환경에서 Claude Opus 모델을 활용한 경험을 공유한 게시물입니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1w1jemb/claude_opus_in_vscode/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-08-29T19:52:41+09:00"
+      },
+      {
+        "id": "reddit_016",
+        "title": "Zod v4.5, 스키마 컴파일 기능 추가로 검증 속도 3~9배 향상",
+        "originalTitle": "Zod v4.5 adds schema compilation (3-9x faster validation)",
+        "summary": "인기 TypeScript 스키마 검증 라이브러리 Zod의 신규 버전이 스키마를 사전 컴파일해 검증 성능을 대폭 끌어올렸다는 소식입니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1w1sl70/zod_v45_adds_schema_compilation_39x_faster/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-08-30T02:30:54+09:00"
+      },
+      {
+        "id": "reddit_017",
+        "title": "재미로 만들어본 데이터베이스 프록시",
+        "originalTitle": "Coding a database proxy for fun",
+        "summary": "개인 프로젝트로 데이터베이스 프록시를 직접 구현해본 경험을 공유한 게시물입니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1w1iiaw/coding_a_database_proxy_for_fun/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-08-29T19:01:37+09:00"
+      },
+      {
+        "id": "reddit_018",
+        "title": "통합 이벤트로 경계 넘나들기",
+        "originalTitle": "Crossing Boundaries with Integration Events",
+        "summary": "마이크로서비스 간 경계를 이벤트 기반 통합 패턴으로 다루는 방법을 설명한 기술 게시물입니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1w1q308/crossing_boundaries_with_integration_events/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-08-30T00:52:00+09:00"
+      },
+      {
+        "id": "reddit_019",
+        "title": "Minimax H3 Max로 실시간보다 빠르게 영상을 생성해 '릭 앤 모티' 무한 스트림을 만든 사례",
+        "originalTitle": "Apparently you can get Minimax H3 Max to run faster than real time, someone made a Rick and Morty interdimensional cable stream (but it keeps getting taken down)",
+        "summary": "AI 영상 생성 모델의 속도가 실시간을 능가할 정도로 발전했음을 보여준 사례로, 저작권 문제로 계속 삭제되고 있다는 후일담도 함께 전해졌습니다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1w1lddy/apparently_you_can_get_minimax_h3_max_to_run/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-08-29T21:33:17+09:00"
+      },
+      {
+        "id": "reddit_020",
+        "title": "사람을 이용해 횡단보도를 건너는 배달 로봇",
+        "originalTitle": "Delivery robots using humans to cross the street",
+        "summary": "자율주행 배달 로봇이 스스로 신호를 판단하지 못해 인간 보행자 뒤를 따라 무단으로 도로를 건너는 모습이 포착되며 화제가 된 게시물입니다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1w1fbvc/delivery_robots_using_humans_to_cross_the_street/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-08-29T15:55:14+09:00"
+      },
+      {
+        "id": "reddit_021",
+        "title": "점점 더 똑똑해지고 있다...",
+        "originalTitle": "They getting smarter...",
+        "summary": "최근 AI 모델들의 발전 속도에 대한 짧은 소감을 담은 게시물입니다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1w1ts9d/they_getting_smarter/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-08-30T03:18:10+09:00"
+      },
+      {
+        "id": "reddit_022",
+        "title": "왜 어떤 사람들은 완전히 다른 세상에 사는 것처럼 느껴질까요?",
+        "originalTitle": "Why does it feel like some people live in a parallel universe?",
+        "summary": "직장 내 동료들과의 인식 차이에 대한 경력 개발자들의 공감대를 이끌어낸 게시물입니다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1w1q7gt/why_does_it_feel_like_some_people_live_in_a/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-08-30T00:56:53+09:00"
+      },
+      {
+        "id": "reddit_023",
+        "title": "몇 년째 생성형 AI를 쓰고 있지만 여전히 슬롯머신 같다",
+        "originalTitle": "Have been using genAI for a few years now and it still feels like a slot machine",
+        "summary": "생성형 AI 도구를 수년간 사용해온 경력 개발자가 여전히 예측 불가능한 결과물에 대한 불만을 토로한 게시물로, 많은 개발자들의 공감을 얻었습니다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1w1l8v4/have_been_using_genai_for_a_few_years_now_and_it/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-08-29T21:27:20+09:00"
+      },
+      {
+        "id": "reddit_024",
+        "title": "잘못된 엔지니어링 결정에 맞서라",
+        "originalTitle": "Challenge Bad Engineering Decisions",
+        "summary": "조직 내에서 잘못된 기술적 결정을 발견했을 때 이를 어떻게 건설적으로 문제 제기할지에 대한 조언을 담은 게시물입니다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1w1mcrn/challenge_bad_engineering_decisions/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-08-29T22:17:58+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_019",
+        "title": "LLM 메모리를 만들다 우연히 프로그램 분석 엔진이 된 이야기",
+        "excerpt": "장시간 취약점 조사에서 폐기된 가정이 되살아나는 문제를 해결하려다, 지식 검색 메모리 대신 현재 유효한 분석 상태를 유지하는 Datalog 엔진 Lemmalog를 개발한 사례입니다.",
+        "body": "장시간 취약점 조사를 진행하다 보면 이미 폐기된 가정과 그에 의존한 결론이 되살아나는 문제가 반복된다. 이를 해결하기 위해 지식을 검색하는 메모리 대신 현재 유효한 분석 상태를 유지하는 Datalog 엔진 'Lemmalog'를 개발했다. LLM은 자연어·코드·디버거 출력을 구조화된 사실로 바꾸고, Lemmalog는 이를 증분적으로 평가해 오래된 가정이 자동으로 무효화되도록 한다.",
+        "url": "https://news.hada.io/topic?id=33015",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-08-30T04:39:01+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_020",
+        "title": "Warp, Claude 기반 자가개선 에이전트를 구축한 방법",
+        "excerpt": "터미널 도구 Warp이 Claude를 활용해 스스로 개선하는 에이전트를 어떻게 구축했는지 소개한 글이 해커뉴스에서 화제가 됐다.",
+        "body": "터미널 애플리케이션 Warp이 Claude를 기반으로 자가개선 에이전트를 구축한 과정을 다룬 앤트로픽 블로그 글이 해커뉴스에서 큰 관심을 받았다. 에이전트가 스스로의 결과물을 평가하고 개선해나가는 구조를 통해 실제 프로덕션 환경에서 신뢰도를 높인 사례로 소개됐다.",
+        "url": "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-08-30T04:09:33+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_021",
+        "title": "Debian, 생성형 AI의 '책임 있는 사용' 허용하기로 결정",
+        "excerpt": "대규모 언어 모델 사용에 관한 Debian 일반결의 투표에서 '생성형 AI의 책임 있는 사용'이 채택됐다.",
+        "body": "대규모 언어 모델 사용에 관한 Debian 프로젝트의 일반결의 투표에서 5번 선택지인 '생성형 AI의 책임 있는 사용'이 채택됐다. 소프트웨어 개발·유지보수·문서화와 패키징 등에서 생성형 AI 사용을 공식적으로 지지하지도, 금지하지도 않는 중립적 방침이다. 책임 있게 활용한다면 자원봉사 인력 부족 문제를 완화하는 데 도움이 될 수 있다는 판단이 반영됐다.",
+        "url": "https://news.hada.io/topic?id=33010",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-08-30T02:33:49+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_022",
+        "title": "vLLM v0.28.0 출시",
+        "excerpt": "고성능 LLM 서빙 엔진 vLLM의 새 버전 v0.28.0이 출시됐다.",
+        "body": "오픈소스 LLM 서빙 엔진 vLLM의 새로운 버전 v0.28.0이 깃허브를 통해 공개됐다. 로컬 및 프로덕션 환경에서 대규모 언어 모델을 효율적으로 서빙하기 위한 각종 개선 사항이 포함된 것으로 알려졌다.",
+        "url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-08-30T03:22:00+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_023",
+        "title": "버그 소문만으로 익스플로잇이 만들어지는 시대",
+        "excerpt": "OCaml cohttp의 취약점 수정 PR이 공개되자 약 10분 만에 실제 공격 시도가 관측됐고, AI 에이전트는 대략적인 취약점 유형만으로 1분 안에 공격 코드를 생성했다.",
+        "body": "OCaml cohttp 6.3.0의 경로 순회 취약점 수정 PR을 공개하자 약 10분 만에 실제 서버로 같은 패턴의 탐색 요청이 들어왔다. AI 에이전트는 상세한 패치 내용 없이 대략적인 취약점 유형만으로도 1분 안에 공격 코드를 생성해낼 수 있었다. 에이전트가 상세 패치 없이도 취약점을 조사할 수 있게 되면서 기존 보안 엠바고 관행이 흔들리고 있다는 우려가 나온다.",
+        "url": "https://news.hada.io/topic?id=33005",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-08-29T16:33:08+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_024",
+        "title": "Codex로 구현해본 22개의 미니 아이디어",
+        "excerpt": "한 개발자가 Codex를 활용해 게임, 음악, 시뮬레이션, 도구 등 22개의 소규모 프로젝트를 만들어본 후기를 공유했다.",
+        "body": "한 개발자가 여가 시간을 활용해 Codex로 총 22개의 아이디어를 구현한 결과물을 공개했다. 게임 12개, 음악 2개, 시뮬레이션 3개, 도구 4개, 웰니스 아이디어 1개로 구성됐으며, 특별한 목적 없이 쉬는 동안 시간이 남아 만들어본 프로젝트라고 밝혔다.",
+        "url": "https://news.hada.io/topic?id=33004",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-08-29T15:45:12+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_025",
+        "title": "StemDeck, 무료 오픈소스 로컬 AI 음원 분리 도구",
+        "excerpt": "인터넷 연결 없이 로컬에서 곡을 보컬·악기별로 분리할 수 있는 무료 오픈소스 도구 StemDeck이 공개됐다.",
+        "body": "음원을 보컬, 드럼, 베이스 등 개별 스템으로 분리해주는 무료 오픈소스 도구 StemDeck이 깃허브에 공개됐다. 클라우드 서비스에 의존하지 않고 로컬 환경에서 AI 기반 음원 분리를 수행할 수 있어, 프라이버시를 중시하는 뮤지션과 개발자들의 관심을 끌고 있다.",
+        "url": "https://github.com/stemdeckapp/stemdeck",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-08-29T10:24:13+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_026",
+        "title": "Yap: LLM이 코드에 남기는 '주석 슬롭'",
+        "excerpt": "LLM이 생성한 코드에 말은 많지만 이해에 도움이 되지 않는 주석, 이른바 'Yap'이 새로운 문제로 지적됐다.",
+        "body": "LLM이 대량의 코드를 생성하면서, 결국 누군가는 그 코드를 읽고 검토해야 하는 시대가 됐다. AI가 만든 코드에는 말은 많지만 실제 이해에 도움이 되지 않는 특정 형태의 주석이 있으며, 이를 'Yap'이라 이름 붙였다. 이런 장황한 주석이 오히려 코드 리뷰의 효율을 떨어뜨린다는 지적이 나온다.",
+        "url": "https://news.hada.io/topic?id=32999",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-08-29T09:19:04+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_027",
+        "title": "독일 Sovereign Tech Agency, Flatpak에 50만 유로 투자",
+        "excerpt": "전문 인력 부족으로 개발이 둔화된 리눅스 배포 포맷 Flatpak에 독일 정부 산하 기관이 2년간 약 51만 유로를 투자한다.",
+        "body": "전문 인력 부족과 유지보수 부담으로 개발 속도가 둔화된 Flatpak에 독일 Sovereign Tech Agency가 2년간 약 50만8,640유로를 투자하기로 했다. Modal과 Para-Real Ltd.가 운영 지원을 맡는다. Fedora Silverblue, openSUSE Aeon, SteamOS, GNOME OS 등 주요 배포판의 핵심 앱 배포 방식인 Flatpak의 지속 가능성을 높이려는 조치로 풀이된다.",
+        "url": "https://news.hada.io/topic?id=33013",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-08-30T03:37:45+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      }
+    ]
+  }
+}
