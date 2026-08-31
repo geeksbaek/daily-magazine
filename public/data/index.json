@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-09-01",
+      "issueNumber": 146,
+      "mainHeadline": "팀 쿡, 15년 만에 애플 CEO 자리 떠나 — 존 터너스 시대 개막",
+      "headlines": [
+        "ChatGPT 광고, 출시 200일도 안 돼 연환산 매출 10억 달러 돌파",
+        "구글, 크롬 웹스토어에서 uBlock Origin 등 MV2 확장 프로그램 전면 제거",
+        "FTC와 22개 주, 아마존 '비밀 광고 수수료' 혐의로 제소"
+      ]
+    },
+    {
       "date": "2026-08-31",
       "issueNumber": 145,
       "mainHeadline": "METR·Redwood, 허깅페이스 AI 에이전트 해킹 사건 전면 재구성한 사후분석 공개",
