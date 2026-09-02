@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-09-03",
+      "issueNumber": 148,
+      "mainHeadline": "OpenAI 차세대 모델 Astra, 사이버 능력 '치명적' 등급 판정 — 안전장치 강화 속 출시 임박",
+      "headlines": [
+        "美 정부, 뉴욕타임스 대 오픈AI 저작권 소송에서 오픈AI 지지 의견서 제출",
+        "구글, 6주 만에 세 번째 Gemini Flash 모델 출시 — Opus급 코딩 성능을 5분의 1 가격에",
+        "우버, 전체 인력의 10%인 3,300명 감원 발표"
+      ]
+    },
+    {
       "date": "2026-09-02",
       "issueNumber": 147,
       "mainHeadline": "앤트로픽, Claude Fable 5.1·Mythos 5.1 동시 출시 — 가격 낮추고 안전장치는 유연하게",

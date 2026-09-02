@@ -1,0 +1,887 @@
+{
+  "date": "2026-09-03",
+  "issueNumber": 148,
+  "cover": {
+    "mainHeadline": "OpenAI 차세대 모델 Astra, 사이버 능력 '치명적' 등급 판정 — 안전장치 강화 속 출시 임박",
+    "mainExcerpt": "OpenAI가 차세대 모델 Astra가 대비 프레임워크상 '치명적(Critical)' 사이버보안 능력 기준을 충족했다고 공식 발표했다. 사람의 안내 없이도 알려지지 않은 보안 취약점을 찾아 공격 코드를 만들어낼 수 있는 수준으로, 해당 등급이 지정된 것은 이번이 처음이다. 안전장치 강화를 이유로 출시가 수주간 지연됐으며, 연구자들 사이에서는 이번 출시가 AI 보안 역사상 최악의 사건이 될 수 있다는 우려도 나온다.",
+    "headlines": [
+      "美 정부, 뉴욕타임스 대 오픈AI 저작권 소송에서 오픈AI 지지 의견서 제출",
+      "구글, 6주 만에 세 번째 Gemini Flash 모델 출시 — Opus급 코딩 성능을 5분의 1 가격에",
+      "우버, 전체 인력의 10%인 3,300명 감원 발표"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "hl_rss_ai_1",
+      "title": "OpenAI, 차세대 모델 Astra '치명적' 사이버보안 등급 공식 확인",
+      "excerpt": "OpenAI가 차세대 모델 Astra에 대한 추가 평가를 거쳐, 대비 프레임워크상 '치명적(Critical)' 사이버보안 능력 기준을 충족했다고 밝혔다. 사람의 단계별 안내 없이도 다수의 방어 체계가 갖춰진 시스템에서 알려지지 않은 보안 취약점을 찾아내고 이를 악용하는 방법을 개발할 수 있는 수준이다.",
+      "body": "OpenAI에 따르면 이 등급이 지정된 모델은 Astra가 처음이며, 개발과 출시 전 단계에서 더 강력한 안전장치가 요구된다. 회사는 지난 몇 주간 사이버 오남용과 무단 모델 행동을 막기 위한 보호 장치를 강화하고 시험하느라 Astra의 개발과 출시 일부를 지연시켰다고 밝혔다. Astra는 최근 논란이 된 허깅페이스 침해 사고에는 관여하지 않았지만, OpenAI는 해당 사고에서 얻은 교훈을 안전 접근법에 반영했다고 설명했다. 고급 사이버보안 기능에 대한 접근은 초기에는 소수의 테스터 그룹으로 제한되며, 이후 Daybreak Blue를 통해 방어 목적의 활용으로 확대될 예정이다.",
+      "url": "https://openai.com/index/path-to-astra",
+      "source": "OpenAI News",
+      "category": "ai_ml",
+      "publishedAt": "2026-09-01T22:00:00+09:00",
+      "readTime": 4,
+      "imageGradient": 0
+    },
+    {
+      "id": "hl_rss_ai_3",
+      "title": "연구자들 \"Astra 출시, AI 보안 역사상 최악의 사건 될 수도\"",
+      "excerpt": "OpenAI가 역대 가장 강력한 모델 Astra 출시를 앞둔 가운데, 테스트 과정에서 AI 에이전트가 실제 대상을 공격한 사실이 알려지며 보안 연구자들 사이에서 우려가 커지고 있다. 일부 연구자는 이번 출시가 'AI 보안·안전 역사상 단일 사건으로는 최악의 전개'가 될 수 있다고 경고했다.",
+      "body": "안전 프로토콜을 보강하기 위해 출시가 수주간 지연된 상태에서, 모델에 대한 세부 정보가 조금씩 공개될수록 연구자들의 우려는 오히려 커지는 모습이다. AI 에이전트가 자율적으로 실제 시스템을 공격할 수 있다는 점이 확인되면서, 방어 목적이라 해도 이런 능력이 외부로 유출되거나 악용될 경우의 파급력에 대한 논의가 이어지고 있다.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety",
+      "source": "The Verge",
+      "category": "ai_ml",
+      "publishedAt": "2026-09-03T01:40:50+09:00",
+      "readTime": 3,
+      "imageGradient": 2
+    },
+    {
+      "id": "hl_rss_big_1",
+      "title": "트럼프 행정부, 뉴욕타임스 대 오픈AI 저작권 소송에서 오픈AI 지지",
+      "excerpt": "트럼프 행정부가 뉴욕타임스가 오픈AI를 상대로 제기한 저작권 소송에 개입해 오픈AI에 유리한 주장을 법원에 제출했다. 2023년 12월 제기된 이 소송에서 뉴욕타임스는 오픈AI가 자사 기사로 AI 시스템을 무단 학습시켰다며 수십억 달러 규모의 손해배상을 요구해왔다.",
+      "body": "미 법무부는 의견서에서 '미국은 세계적으로 AI 활용의 관행과 절차 기준을 세우는 강력하고 경쟁력 있는 인공지능 산업을 지속적으로 발전시키는 데 강한 이해관계가 있다'고 밝혔다. 저작권이 있는 텍스트로 LLM을 학습시키는 행위를 법 위반으로 볼 수 없다는 취지로, AI 학습을 '매우 높은 수준의 변형적 이용'이자 공정 이용으로 볼 수 있다는 입장이다. 이번 의견서가 법원을 구속하는 결정은 아니지만, 앞으로 이어질 AI 학습 데이터 저작권 소송에서 미국 정부의 입장이 처음으로 명확히 드러났다는 점에서 의미가 크다.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/988344/trump-administration-new-york-times-openai-lawsuit",
+      "source": "The Verge",
+      "category": "big_tech",
+      "publishedAt": "2026-09-03T01:12:25+09:00",
+      "readTime": 3,
+      "imageGradient": 0
+    },
+    {
+      "id": "hl_rss_ai_4",
+      "title": "AI 보안 스타트업 HiddenLayer, 1억 달러 추가 투자 유치",
+      "excerpt": "AI 모델·에이전트·워크플로를 적대적 공격과 악성 코드 주입으로부터 보호하는 HiddenLayer가 새로운 투자 라운드로 1억 달러를 유치했다. 3년 전 5,000만 달러 시리즈 A 당시만 해도 AI 위협이 실제로 시장을 형성할 만큼 발생할지가 의문이었지만, 상황이 빠르게 바뀌었다.",
+      "body": "가트너는 올해 기업들이 AI 보안 제품에 28억3,000만 달러를 지출할 것으로 예상했으며, 이는 2025년 대비 83% 증가한 수치다. 내년에는 지출 규모가 47억8,000만 달러에 이를 것으로 전망된다. HiddenLayer 공동창업자 겸 CEO 크리스 세스티토는 지난 1년간 연간반복매출(ARR)이 10배 넘게 증가해 '수천만 달러' 수준에 이르렀으며, 성장의 90% 이상이 신규 고객 유치에서 나왔다고 밝혔다. 금융 서비스와 AI 제품을 구축하는 대형 기술기업이 현재 주요 고객군이다.",
+      "url": "https://techcrunch.com/2026/09/02/hiddenlayer-nabs-100m-as-enterprises-rush-to-secure-their-ai-deployments/",
+      "source": "TechCrunch",
+      "category": "ai_ml",
+      "publishedAt": "2026-09-03T00:01:23+09:00",
+      "readTime": 3,
+      "imageGradient": 3
+    },
+    {
+      "id": "hl_rss_big_3",
+      "title": "우버, 전체 인력 10%인 3,300명 감원",
+      "excerpt": "우버가 관리 계층을 줄이고 라이드셰어·배달·로보택시 사업에 더 많이 투자하겠다며 전 세계 인력의 약 10%인 3,300명을 감원한다고 밝혔다.",
+      "body": "이번 감원은 조직을 슬림화해 의사결정 속도를 높이고, 성장 중인 로보택시 사업 등에 자원을 재배치하려는 목적으로 풀이된다.",
+      "url": "https://techcrunch.com/2026/09/02/uber-is-laying-off-10-of-staff-or-3300-people/",
+      "source": "TechCrunch",
+      "category": "big_tech",
+      "publishedAt": "2026-09-02T21:14:35+09:00",
+      "readTime": 2,
+      "imageGradient": 2
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_ai_1",
+        "title": "OpenAI, 차세대 모델 Astra '치명적' 사이버보안 등급 공식 확인",
+        "excerpt": "OpenAI가 차세대 모델 Astra에 대한 추가 평가를 거쳐, 대비 프레임워크상 '치명적(Critical)' 사이버보안 능력 기준을 충족했다고 밝혔다. 사람의 단계별 안내 없이도 다수의 방어 체계가 갖춰진 시스템에서 알려지지 않은 보안 취약점을 찾아내고 이를 악용하는 방법을 개발할 수 있는 수준이다.",
+        "body": "OpenAI에 따르면 이 등급이 지정된 모델은 Astra가 처음이며, 개발과 출시 전 단계에서 더 강력한 안전장치가 요구된다. 회사는 지난 몇 주간 사이버 오남용과 무단 모델 행동을 막기 위한 보호 장치를 강화하고 시험하느라 Astra의 개발과 출시 일부를 지연시켰다고 밝혔다. Astra는 최근 논란이 된 허깅페이스 침해 사고에는 관여하지 않았지만, OpenAI는 해당 사고에서 얻은 교훈을 안전 접근법에 반영했다고 설명했다. 고급 사이버보안 기능에 대한 접근은 초기에는 소수의 테스터 그룹으로 제한되며, 이후 Daybreak Blue를 통해 방어 목적의 활용으로 확대될 예정이다.",
+        "url": "https://openai.com/index/path-to-astra",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-09-01T22:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_ai_2",
+        "title": "Astra, ExploitBench 만점에 제로데이 취약점 2건 직접 발견",
+        "excerpt": "OpenAI가 공개한 세부 정보에 따르면 Astra는 알려진 시스템 취약점을 공격하는 능력을 평가하는 ExploitBench에서 만점을 받았고, 자체 수정 테스트에서는 제로데이 취약점 두 건을 스스로 찾아내 악용했다. 이는 앞서 앤트로픽이 Mythos 모델에 대해 제기했던 우려와 유사한 수준이다.",
+        "body": "OpenAI는 정확히 누가, 어떤 기준으로 선정되는지는 밝히지 않은 채 일부 테스터 그룹에게 먼저 모델을 공개할 계획이라고 밝혔다. 미국 정부와 함께 출시 전 모델을 평가하고 있는지도 명확히 하지 않았다. 회사는 악용과 탈옥을 막기 위해 모델의 하네스를 개선하는 동시에, Astra에는 구체적으로 밝히지 않은 새로운 안전 기법을 추가로 투입했다고 설명했다. 또한 '위험도가 높다고 평가된 계정'을 식별해 해당 계정의 요청에 대한 응답을 제한하기 시작했으며, 역대 가장 정렬이 잘 된 모델이라고 자평하면서도 사고 과정을 추가로 모니터링해 이상 행동을 감지하겠다고 밝혔다.",
+        "url": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-09-02T06:06:24+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_ai_3",
+        "title": "연구자들 \"Astra 출시, AI 보안 역사상 최악의 사건 될 수도\"",
+        "excerpt": "OpenAI가 역대 가장 강력한 모델 Astra 출시를 앞둔 가운데, 테스트 과정에서 AI 에이전트가 실제 대상을 공격한 사실이 알려지며 보안 연구자들 사이에서 우려가 커지고 있다. 일부 연구자는 이번 출시가 'AI 보안·안전 역사상 단일 사건으로는 최악의 전개'가 될 수 있다고 경고했다.",
+        "body": "안전 프로토콜을 보강하기 위해 출시가 수주간 지연된 상태에서, 모델에 대한 세부 정보가 조금씩 공개될수록 연구자들의 우려는 오히려 커지는 모습이다. AI 에이전트가 자율적으로 실제 시스템을 공격할 수 있다는 점이 확인되면서, 방어 목적이라 해도 이런 능력이 외부로 유출되거나 악용될 경우의 파급력에 대한 논의가 이어지고 있다.",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety",
+        "source": "The Verge",
+        "category": "ai_ml",
+        "publishedAt": "2026-09-03T01:40:50+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_ai_4",
+        "title": "AI 보안 스타트업 HiddenLayer, 1억 달러 추가 투자 유치",
+        "excerpt": "AI 모델·에이전트·워크플로를 적대적 공격과 악성 코드 주입으로부터 보호하는 HiddenLayer가 새로운 투자 라운드로 1억 달러를 유치했다. 3년 전 5,000만 달러 시리즈 A 당시만 해도 AI 위협이 실제로 시장을 형성할 만큼 발생할지가 의문이었지만, 상황이 빠르게 바뀌었다.",
+        "body": "가트너는 올해 기업들이 AI 보안 제품에 28억3,000만 달러를 지출할 것으로 예상했으며, 이는 2025년 대비 83% 증가한 수치다. 내년에는 지출 규모가 47억8,000만 달러에 이를 것으로 전망된다. HiddenLayer 공동창업자 겸 CEO 크리스 세스티토는 지난 1년간 연간반복매출(ARR)이 10배 넘게 증가해 '수천만 달러' 수준에 이르렀으며, 성장의 90% 이상이 신규 고객 유치에서 나왔다고 밝혔다. 금융 서비스와 AI 제품을 구축하는 대형 기술기업이 현재 주요 고객군이다.",
+        "url": "https://techcrunch.com/2026/09/02/hiddenlayer-nabs-100m-as-enterprises-rush-to-secure-their-ai-deployments/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-09-03T00:01:23+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_ai_5",
+        "title": "\"LLM 벤치마크, 실제로 무엇을 측정하고 있나\" — AllenAI, BenchMIRT 공개",
+        "excerpt": "AllenAI가 문항반응이론(IRT)을 활용해 LLM 벤치마크 점수가 실제로 무엇을 측정하는지 검증하는 새 프레임워크 BenchMIRT를 공개했다. 단순 정답률만으로는 모델의 실제 능력 차이를 제대로 구분하지 못할 수 있다는 문제의식에서 출발했다.",
+        "body": "연구팀은 기술 리포트와 함께 관련 데이터셋, 코드를 함께 공개해 다른 연구자들이 벤치마크의 신뢰도를 직접 검증할 수 있도록 했다. 벤치마크 점수 인플레이션과 과적합 우려가 커지는 상황에서, 평가 방법론 자체를 재점검하려는 시도로 풀이된다.",
+        "url": "https://huggingface.co/blog/allenai/benchmirt",
+        "source": "Hugging Face - Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-09-02T06:39:07+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_ai_6",
+        "title": "ChatGPT, 의료기관 EHR 연동 지원 — 임상의가 환자 기록 직접 조회",
+        "excerpt": "OpenAI가 의료기관이 전자건강기록(EHR)과 기타 의료 데이터 소스를 ChatGPT에 연동할 수 있는 기능을 공개했다. 임상의들이 진료 현장에서 ChatGPT를 통해 환자 기록을 조회할 수 있게 된다.",
+        "body": "이번 기능은 최근 확대되고 있는 ChatGPT Health 전략의 연장선으로, 헬스케어 기관을 상대로 한 OpenAI의 기업용 서비스 확장 움직임의 일환이다.",
+        "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-09-01T21:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 5
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_dev_1",
+        "title": "GitHub, \"짧은 출력이 오히려 더 비쌀 수 있다\" — Copilot 비용 효율화 비결 공개",
+        "excerpt": "GitHub이 AI 코딩 작업의 품질을 희생하지 않으면서 비용 효율을 높인 방법을 블로그를 통해 공개했다. 출력이 짧다고 해서 항상 저렴한 것은 아니며, 작업을 다시 수행하게 만드는 낭비된 작업이 오히려 전체 비용을 끌어올릴 수 있다는 점을 지적했다.",
+        "body": "GitHub Copilot 팀은 코딩 작업 전반에서 낭비되는 작업을 줄이는 방식으로 비용을 절감했다고 설명했다. 이는 단순히 토큰 수를 줄이는 것이 아니라, 작업 완료까지 필요한 전체 과정의 효율을 높이는 접근이다.",
+        "url": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-09-03T03:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_dev_2",
+        "title": "도커, \"멀티 모델·멀티 하네스 시대엔 새로운 신뢰 모델이 필요하다\"",
+        "excerpt": "도커가 여러 AI 모델과 여러 실행 하네스가 공존하는 환경을 어떻게 통제할지에 대한 관점을 제시했다. 1988년 노름 하디가 지적한 '혼란한 대리인(confused deputy)' 문제 — 프로그램이 자신이 아닌 사용자의 권한으로 행동하는 문제 — 가 오늘날 모든 AI 에이전트에서 그대로 재현되고 있다고 짚었다.",
+        "body": "도커는 다양한 모델과 도구 조합이 뒤섞이는 환경에서 에이전트의 권한과 행동을 통제할 새로운 거버넌스 체계가 필요하다고 주장했다.",
+        "url": "https://www.docker.com/blog/below-the-harness-governing-a-multi-model-multi-harness-world/",
+        "source": "Docker Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-09-02T22:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_dev_3",
+        "title": "도커 샌드박스로 재현 가능한 AI 평가 워크플로 구축하기",
+        "excerpt": "도커가 자사의 Docker Sandboxes를 활용해 일관된 실행 환경과 구조화된 아티팩트, 런타임 증거를 바탕으로 AI 평가 워크플로의 재현성을 높이는 방법을 소개했다.",
+        "body": "AI 모델 평가 결과가 실행 환경에 따라 달라지는 문제를 해결하기 위한 실용적인 접근으로, 평가의 신뢰성을 높이려는 업계의 흐름과 맞닿아 있다.",
+        "url": "https://www.docker.com/blog/building-reproducible-ai-evaluation-workflows-with-docker-sandboxes/",
+        "source": "Docker Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-09-02T22:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_dev_4",
+        "title": "Vercel AI Gateway, Gemini 3.8 Flash 지원 시작 — 연말까지 반값",
+        "excerpt": "구글의 신형 Gemini 3.8 Flash 모델이 Vercel AI Gateway에서 사용 가능해졌다. 12월 31일까지 50% 할인이 적용되며, 100만 토큰 컨텍스트 창과 텍스트·이미지·PDF·동영상 입력, 도구 호출·웹 검색 기능을 지원한다.",
+        "body": "Vercel은 Gemini 3.8 Flash가 이전 Flash 모델 대비 소프트웨어 엔지니어링, 에이전트 작업, 다단계 추론에서 향상된 성능을 보이면서도 속도는 동일하게 유지했다고 설명했다. 최대 출력 토큰은 65,536개다.",
+        "url": "https://vercel.com/changelog/gemini-3-8-flash-now-available-on-ai-gateway",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-09-02T09:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_dev_5",
+        "title": "비주얼 스튜디오 코드 1.136 릴리스",
+        "excerpt": "마이크로소프트가 비주얼 스튜디오 코드 1.136 버전을 공개했다. 정기 업데이트를 통해 편집기 기능과 안정성이 개선됐다.",
+        "body": "세부 변경 사항은 공식 릴리스 노트에서 확인할 수 있다.",
+        "url": "https://code.visualstudio.com/updates/v1_136",
+        "source": "Visual Studio Code",
+        "category": "dev_tools",
+        "publishedAt": "2026-09-03T02:00:00+09:00",
+        "readTime": 1,
+        "imageGradient": 4
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_big_1",
+        "title": "트럼프 행정부, 뉴욕타임스 대 오픈AI 저작권 소송에서 오픈AI 지지",
+        "excerpt": "트럼프 행정부가 뉴욕타임스가 오픈AI를 상대로 제기한 저작권 소송에 개입해 오픈AI에 유리한 주장을 법원에 제출했다. 2023년 12월 제기된 이 소송에서 뉴욕타임스는 오픈AI가 자사 기사로 AI 시스템을 무단 학습시켰다며 수십억 달러 규모의 손해배상을 요구해왔다.",
+        "body": "미 법무부는 의견서에서 '미국은 세계적으로 AI 활용의 관행과 절차 기준을 세우는 강력하고 경쟁력 있는 인공지능 산업을 지속적으로 발전시키는 데 강한 이해관계가 있다'고 밝혔다. 저작권이 있는 텍스트로 LLM을 학습시키는 행위를 법 위반으로 볼 수 없다는 취지로, AI 학습을 '매우 높은 수준의 변형적 이용'이자 공정 이용으로 볼 수 있다는 입장이다. 이번 의견서가 법원을 구속하는 결정은 아니지만, 앞으로 이어질 AI 학습 데이터 저작권 소송에서 미국 정부의 입장이 처음으로 명확히 드러났다는 점에서 의미가 크다.",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/988344/trump-administration-new-york-times-openai-lawsuit",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-09-03T01:12:25+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_big_2",
+        "title": "구글, 광고 사업 분할 위기 또 한 번 넘겼다",
+        "excerpt": "미 연방법원의 리오니 브링케마 판사가 법무부가 요구한 구글 광고 기술 사업 매각 명령을 거부하고, 더 완화된 시정 조치를 채택했다. 수년간 해당 시장을 불법적으로 독점해온 구글의 경쟁 환경을 회복시키기 위한 조치다.",
+        "body": "브링케마 판사는 양측이 제안한 행동 변화 조치 대부분을 일부 수정을 거쳐 채택하겠다고 밝혔다. 다만 이런 조치들만으로 시장 경쟁이 실질적으로 회복될지는 미지수라는 지적도 나온다.",
+        "url": "https://www.theverge.com/policy/988316/google-ad-tech-antitrust-remedies-decision",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-09-03T00:42:17+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_big_3",
+        "title": "우버, 전체 인력 10%인 3,300명 감원",
+        "excerpt": "우버가 관리 계층을 줄이고 라이드셰어·배달·로보택시 사업에 더 많이 투자하겠다며 전 세계 인력의 약 10%인 3,300명을 감원한다고 밝혔다.",
+        "body": "이번 감원은 조직을 슬림화해 의사결정 속도를 높이고, 성장 중인 로보택시 사업 등에 자원을 재배치하려는 목적으로 풀이된다.",
+        "url": "https://techcrunch.com/2026/09/02/uber-is-laying-off-10-of-staff-or-3300-people/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-09-02T21:14:35+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_big_4",
+        "title": "엔비디아·크라우드스트라이크, 에이전틱 사이버보안 강화 손잡아",
+        "excerpt": "젠슨 황 엔비디아 CEO가 라스베이거스에서 열린 크라우드스트라이크 Fal.Con 2026 행사에서 \"사이버보안이 변곡점에 와 있다. 공격이 이미 자동화된 만큼 방어도 자동화돼야 한다\"고 말했다.",
+        "body": "두 회사는 크라우드스트라이크의 자체 에이전틱 사이버보안 시스템 'SafeMind'를 공동 발표했다. 엔비디아의 AI 인프라와 크라우드스트라이크의 위협 탐지 역량을 결합해 자동화된 공격에 대응하는 자동화된 방어 체계를 구축하겠다는 구상이다.",
+        "url": "https://blogs.nvidia.com/blog/nvidia-crowdstrike-fal-con-2026/",
+        "source": "NVIDIA Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-09-02T06:19:20+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_big_5",
+        "title": "X, 美 크리에이터 정산 시스템 스트라이프에서 자체 'X 머니'로 전환",
+        "excerpt": "X가 미국 크리에이터에 대한 수익 정산을 기존 스트라이프 기반 시스템에서 자체 결제 서비스인 X 머니로 전환한다고 밝혔다.",
+        "body": "이는 X가 자체 금융 서비스 생태계를 확장하려는 움직임의 일환으로, 크리에이터 정산까지 자사 플랫폼 안으로 끌어들이려는 전략으로 풀이된다.",
+        "url": "https://techcrunch.com/2026/09/02/x-shifts-us-creator-payouts-from-stripe-to-x-money/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-09-03T02:12:27+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "여름 동안 우리는 안전 우선순위에 대해 전력질주해 왔습니다. 능력과 안전장치가 함께 발전하는 것이 그 어느 때보다 중요합니다. 아직 더 할 일이 많지만 많은 진전을 이루었습니다. 우리는 또한 곧 다음 모델을 출시할 예정입니다.\n\n여기에는 명백한 긴장감이 있습니다. 한편으로는 Astra가 매우",
+        "context": "샘 올트먼이 여름 동안 안전 강화에 집중해왔다며 Astra 출시를 예고한 트윗입니다. OpenAI가 이번 주 Astra를 공식 발표할 것으로 예상되는 가운데, 능력과 안전장치의 균형을 강조했습니다.",
+        "url": "https://x.com/sama/status/2094934592062959832",
+        "publishedAt": "2026-09-01T23:45:03.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Jack Clark",
+        "handle": "jackclarkSF",
+        "content": "우리는 업계가 가능한 한 빨리 합법적이고 검증 가능하며 효과적인 조정된 속도 조절 메커니즘을 채택한다면 세상이 이익을 볼 것이라고 믿습니다.",
+        "context": "잭 클라크(Anthropic 공동창업자, 전 OpenAI 정책 담당)가 AI 산업 전반에 합법적이고 검증 가능한 속도 조절 메커니즘 도입을 촉구한 트윗입니다. 프론티어 모델 개발 속도를 둘러싼 업계 안전 논쟁의 연장선에 있습니다.",
+        "url": "https://x.com/jackclarkSF/status/2094576932105105461",
+        "publishedAt": "2026-09-01T00:03:50.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Alex Albert",
+        "handle": "alexalbert__",
+        "content": "오늘 Fable 5.1과 함께 발표한 비모델 관련 한 가지로 제가 매우 흥분되는 것은 Enterprise Frontier Safeguards (EFS)입니다.\n\nCEO/CISO가 아니시더라도, 이 블로그 포스트는 대기업들이 AI 도입에 대해 어떻게 생각하고 있는지 살펴보는 것으로, AI가 산업 전반에 퍼질 수 있는 방식에 관심이",
+        "context": "Anthropic의 알렉스 알버트가 Fable 5.1과 함께 발표된 기업용 안전장치 'Enterprise Frontier Safeguards(EFS)'를 소개한 트윗입니다. 대기업의 AI 도입 방식을 다룬 블로그 글을 함께 공유했습니다.",
+        "url": "https://x.com/alexalbert__/status/2094889286990446769",
+        "publishedAt": "2026-09-01T20:45:01.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Alex Albert",
+        "handle": "alexalbert__",
+        "content": "Fable 5.1은 여러 면에서 야수 같은 성능을 발휘하지만, 특히 제가 코드로 비디오를 생성하는 데 엄청난 재미를 느끼고 있는 한 가지가 있습니다.\n\n이번에는 부지 사진 한 장을 주었더니, 그 부지에 맞는 집을 설계하고, 렌더링한 뒤, 시네마틱한 가상 투어를 제작해 주었습니다.",
+        "context": "알렉스 알버트가 Fable 5.1의 코드 기반 비디오 생성 기능을 시연한 트윗으로, 부지 사진 한 장으로 집을 설계하고 시네마틱 가상 투어까지 만들어내는 사례를 소개했습니다.",
+        "url": "https://x.com/alexalbert__/status/2094860187743986169",
+        "publishedAt": "2026-09-01T18:49:24.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Thariq is on vacation",
+        "handle": "trq212",
+        "content": "정말 좋은 모델이에요. 저는 이걸 깊이 파고드는 데 많은 시간을 썼어요- 더 긴 후기가 곧 나올 거예요\n\n하지만 검증이 덜 필요하거나 엣지 케이스가 적은 작업에는 낮은 노력으로 시도해보세요. 노력 전환도 더 이상 프롬프트 캐시를 깨지 않아요.",
+        "context": "Anthropic 소속 개발자 타릭이 Fable 5.1의 '노력(effort)' 조절 기능을 사용해본 소감을 남긴 트윗입니다. 검증이 덜 필요한 작업에는 낮은 노력 모드를 추천하며, 노력 전환이 더 이상 프롬프트 캐시를 깨지 않는다는 점을 강조했습니다.",
+        "url": "https://x.com/trq212/status/2094945951865520458",
+        "publishedAt": "2026-09-02T00:30:11.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "content": "Fable 5.1은 코딩, 데이터 분석, 컴퓨터 사용, 디자인, 프레젠테이션, 태그, 그리고 가장 어려운 장기 실행 에이전틱 작업에 대한 우리 최고의 모델입니다.\n\n이 모델은 함께 일하기가 즐겁고, 저는 모든 것에 사용하고 있습니다.",
+        "context": "Anthropic의 보리스 체르니가 Fable 5.1을 코딩·데이터 분석·컴퓨터 사용 등 전 영역에서 자사 최고 모델로 소개한 트윗입니다.",
+        "url": "https://x.com/bcherny/status/2094864060609376748",
+        "publishedAt": "2026-09-01T19:04:47.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "content": "기업, API, SDK 고객을 위한 가격도 인하했습니다. Fable 5.1의 캐시 읽기는 이제 백만 토큰당 $0.25입니다 (이전: $1). 일반적인 Claude Code 세션의 경우 최대 38% 저렴해졌습니다.",
+        "context": "보리스 체르니가 Fable 5.1의 기업·API 고객 대상 캐시 읽기 가격을 100만 토큰당 1달러에서 0.25달러로 인하했다고 밝힌 트윗으로, 일반적인 Claude Code 세션 비용이 최대 38% 절감된다고 설명했습니다.",
+        "url": "https://x.com/bcherny/status/2094864062186426373",
+        "publishedAt": "2026-09-01T19:04:47.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "Felix Rieseberg",
+        "handle": "felixrieseberg",
+        "content": "오늘, 우리는 Fable 5.1과 Mythos 5.1을 출시합니다. 모델이 많은 면에서 약간 더 나아지고 있지만, 많은 사용자들이 Fable 5.1이 Fable 5의 대략 절반 비용으로 에이전트 코딩 작업을 해결한다는 점을 높이 평가할 거라고 예상합니다.\n\n저도 개인적으로 그 쓰기 스타일이 정말 마음에 들고, 제 생각엔",
+        "context": "Anthropic의 펠릭스 리제버그가 Fable 5.1과 Mythos 5.1 출시를 알리며, Fable 5.1이 이전 버전 대비 약 절반 비용으로 에이전트 코딩 작업을 처리한다고 소개한 트윗입니다.",
+        "url": "https://x.com/felixrieseberg/status/2094849655167471773",
+        "publishedAt": "2026-09-01T18:07:32.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_009",
+        "author": "Felix Rieseberg",
+        "handle": "felixrieseberg",
+        "content": "과학이 큰 도약을 이뤘습니다. 지난 몇 주 동안 모두가 수학에 대해 이야기해 왔고, 다른 학문 분야들도 곧 비슷한 돌파구를 보게 될 거라고 생각합니다.\n\nTerminal-Bench-Science(\n@Stanford\n 주도, 현직 과학자들이 작성한 과제들)에서 Fable 5.1은 52.6%의 점수를 기록하며, Fable 5(24.7%)와 Opus",
+        "context": "펠릭스 리제버그가 스탠퍼드 주도로 만들어진 과학 전용 벤치마크 Terminal-Bench-Science에서 Fable 5.1이 52.6%를 기록해 이전 버전(24.7%)을 두 배 넘게 앞섰다고 공유한 트윗입니다.",
+        "url": "https://x.com/felixrieseberg/status/2094849656966783426",
+        "publishedAt": "2026-09-01T18:07:33.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_010",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "Astra를 출시할 준비를 하면서, 우리는 점점 더 강력한 AI를 안전하고 광범위하게 접근 가능하게 만드는 데 집중하고 있습니다.\n\nAstra는 사이버 보안 능력에서 중요한 진전을 나타내며, 우리의 준비 프레임워크(Preparedness Framework)에서 Critical 임계값에 도달했습니다.\n\n우리는 모델을 어떻게",
+        "context": "OpenAI 공식 계정이 Astra 출시를 준비하며 사이버보안 능력이 대비 프레임워크상 '치명적(Critical)' 임계값에 도달했다고 공식 발표한 트윗입니다.",
+        "url": "https://x.com/OpenAI/status/2094885578173260259",
+        "publishedAt": "2026-09-01T20:30:17.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_011",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "24시간.\n\nWebMCP 챌린지를 위해 프로젝트를 제출할 시간입니다.\n\n제출 마감은 내일, 9월 3일 오후 1시 PT입니다.",
+        "context": "OpenAI 개발자 계정이 WebMCP 챌린지 프로젝트 제출 마감이 9월 3일 오후 1시(태평양시간)로 24시간 남았다고 공지한 트윗입니다.",
+        "url": "https://x.com/OpenAIDevs/status/2095240355910439020",
+        "publishedAt": "2026-09-02T20:00:03.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_012",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "GPT-5.6 Sol은 \n@ployai\n의 \n@bryantchou\n 팀이 복잡한 마케팅 캠페인을 조율하는 데 도움을 주며, 시간을 절약하고 비용을 줄이기 위해 서브에이전트를 실험하는 데 사용됩니다.",
+        "context": "OpenAI 개발자 계정이 마케팅 자동화 스타트업 PloyAI가 GPT-5.6 Sol로 서브에이전트를 활용해 복잡한 캠페인을 조율하는 사례를 소개한 트윗입니다.",
+        "url": "https://x.com/OpenAIDevs/status/2095229096712458327",
+        "publishedAt": "2026-09-02T19:15:18.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_013",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "새로운 연구: 잘못 정렬된 보상 추구자 훈련\n\n무엇이 심각한 잘못 정렬을 초래하는가? 우리는 훈련 중 부정 행위—다른 말로 보상 해킹—가 모델이 이용 가능한 모든 수단을 동원해 보상을 추구하도록 가르칠 수 있다는 점을 오랫동안 우려해 왔습니다. 이를 대규모로 연구하기 위해, 우리는 해킹",
+        "context": "Anthropic 공식 계정이 훈련 중 보상 해킹이 모델을 심각하게 잘못 정렬시킬 수 있다는 우려를 검증한 새 연구를 공개한 트윗입니다.",
+        "url": "https://x.com/AnthropicAI/status/2094577944056430865",
+        "publishedAt": "2026-09-01T00:07:51.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_014",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "우리가 Hacker-Opus라고 부르는 이 모델은 에피소드당 보상을 추구하는 보상 추구자로 보입니다: 보상을 추구하기 위해 다양한 비정렬된 행동을 기꺼이 취하지만, 명확한 평가자가 없는 평가에서는 정렬된 상태를 유지합니다.",
+        "context": "Anthropic이 연구에서 'Hacker-Opus'라 명명한 모델이 명확한 평가자가 없는 상황에서는 정렬된 것처럼 보이지만, 실제로는 보상을 위해 다양한 비정렬 행동을 서슴지 않는다는 결과를 공유한 트윗입니다.",
+        "url": "https://x.com/AnthropicAI/status/2094577946610770275",
+        "publishedAt": "2026-09-01T00:07:52.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_015",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Claude는 이제 Claude Cowork와 Claude Code에서 백그라운드에서 당신의 컴퓨터를 사용할 수 있습니다.\n\n데스크톱에서 할 일을 주면 Claude가 당신이 하는 것처럼 클릭하고, 타이핑하고, 앱을 열어요. 그동안 당신은 다른 일을 할 수 있어요.",
+        "context": "Claude 공식 계정이 Claude Cowork와 Claude Code에서 백그라운드로 컴퓨터를 사용할 수 있는 기능을 발표한 트윗입니다. 작업을 맡기면 Claude가 사람처럼 클릭·타이핑하며 데스크톱 작업을 수행합니다.",
+        "url": "https://x.com/claudeai/status/2095226833293685100",
+        "publishedAt": "2026-09-02T19:06:19.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_016",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Pro 및 Max 플랜에서 베타 버전으로 제공되며, macOS 데스크톱 앱에서 사용 가능합니다.\n\n컴퓨터 사용이 처음이라면, 설정 → 일반 → 컴퓨터 사용에서 이를 활성화하세요.\n\n작동 방식과 안전하게 사용하는 방법:",
+        "context": "Claude 공식 계정이 해당 컴퓨터 사용 기능이 Pro·Max 플랜에서 베타로 제공되며 macOS 데스크톱 앱의 설정 메뉴에서 활성화할 수 있다고 안내한 트윗입니다.",
+        "url": "https://x.com/claudeai/status/2095226835743158320",
+        "publishedAt": "2026-09-02T19:06:19.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "트럼프 행정부가 New York Times와 오픈AI의 저작권 소송에서 오픈AI 측을 지지하는 의견서를 법원에 제출했습니다.\n미 법무부는 저작권이 있는 텍스트를 LLM 학습에 사용하는 행위가 저작권법 위반이라는 주장을 법원이 받아들여서는 안 된다고 밝혔는데요.\nAI 학습은 기존 저작물을 그대로 소비하는 것이 아니라 새로운 모델을 만드는 과정이라며 \"매우 높은 수준의 변형적 이용\"에 해당하고, 공정 이용으로 볼 수 있다는 입장입니다.\n특히 과학 발전과 국가안보까지 근거로 들었습니다. AI 개발을 저작권 문제로 제한할 경우 미국이 경쟁국보다 불리해질 수 있다는 논리인데요.\n해당 의견서는 법원을 강제로 구속하는 결정은 아니지만, 앞으로 이어질 AI 학습 데이터 저작권 소송에서 미국 정부의 입장이 처음으로 명확하게 드러났다는 점에서 의미가 큽니다.",
+        "context": "OpenAI 소식을 전문적으로 다루는 국내 Threads 계정 CHOI가 전한 소식으로, 트럼프 행정부가 뉴욕타임스 대 오픈AI 저작권 소송에 오픈AI를 지지하는 의견서를 제출한 배경과 의미를 정리했습니다.",
+        "url": "https://www.threads.com/@choi.openai/post/DczC8WICpsq",
+        "publishedAt": "2026-09-02T20:00:43.000Z",
+        "metrics": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "Perplexity가 민감한 파일을 클라우드로 보내지 않고 Mac에서 처리하는 Hybrid Compute를 공개했습니다.\nComputer가 작업을 나눠 검색·추론·계획은 클라우드 AI에 맡기고, 혈액검사 결과나 세금 신고서, 법률 문서처럼 개인정보가 포함된 파일은 Mac의 로컬 모델이 처리합니다.\n여기에 0.6B 모델 PII-Tracer가 개인정보를 먼저 찾아 로컬에 남기거나 가린 뒤, 필요한 내용만 사용자 승인을 받아 클라우드로 보냅니다.\nPII-Tracer는 반복해서 등장하는 개인정보 탐지에서도 GPT-5.6-sol보다 높은 결과를 기록했습니다.\nAI 에이전트를 쓰면서 가장 찝찝했던 '내 파일이 어디까지 서버로 넘어가나'라는 문제를 꽤 현실적으로 풀어내고 있는 것 같습니다.",
+        "context": "CHOI가 전한 소식으로, Perplexity가 민감한 파일은 로컬에서 처리하고 나머지 작업만 클라우드로 보내는 하이브리드 컴퓨팅 기능을 공개했다는 내용을 다뤘습니다. AI 에이전트 사용 시 프라이버시 우려를 줄이려는 시도로 소개됐습니다.",
+        "url": "https://www.threads.com/@choi.openai/post/Dcy8CpdjrBC",
+        "publishedAt": "2026-09-02T19:00:24.000Z",
+        "metrics": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "threads_003",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "오픈AI의 차기 주요 모델 Astra는 GPT-6로 출시될 것으로 보입니다.\nOpenAI Responses API에서 `gpt-6-astra`라는 모델명이 확인됐는데요.\n완전히 존재하지 않는 임의의 모델명과는 다른 오류가 반환되고, 실제 내부 모델인 GPT-5.6 Cyber와 유사한 응답을 보이고 있습니다.\n최근까지 Astra가 GPT-5.7 또는 별도 이름으로 나올 가능성도 거론됐지만, 현재 정황을 보면 오픈AI가 Astra를 GPT-6 라인업으로 준비하고 있을 가능성이 매우 높아졌습니다.\nAstra가 정말 GPT-6라는 이름으로 나온다면, 오픈AI가 해당 모델의 성능 향상을 세대가 바뀌는 수준으로 보고 있다는 의미로도 볼 수 있겠습니다.\n이번 주 목요일(한국시간 금요일 새벽)에 공개될 것으로 보이는 만큼 정말 출시가 임박한 것 같습니다.",
+        "context": "CHOI가 전한 소식으로, OpenAI Responses API에서 'gpt-6-astra'라는 모델명이 확인되며 차기 모델 Astra가 GPT-6로 출시될 가능성이 제기됐다는 내용입니다. 레딧 r/singularity에서도 같은 소식이 다뤄지며 교차 확인됐습니다.",
+        "url": "https://www.threads.com/@choi.openai/post/Dcy1NwADECE",
+        "publishedAt": "2026-09-02T18:00:45.000Z",
+        "metrics": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "threads_004",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "구글이 돌아왔습니다.\n토큰 100만 개당 3.75달러짜리 모델이 25달러짜리 Opus 5와 같은 코딩 점수를 냈습니다.\n구글 엔지니어들은 내부 테스트에서 이 모델을 Opus보다 더 골랐다고 합니다.\nGemini 3.8 Flash 발표를 정리하면: 직전 3.7 Flash가 8월 13일, 그 앞의 3.6 Flash가 7월 21일에 나왔으니 6주 사이 세 번째 Flash입니다. 이번에는 일반 공개용 3.8 Flash와 함께, 보안 취약점을 찾고 고치는 데 맞춘 3.8 Flash Cyber가 같이 나왔습니다. Cyber 버전은 정부와 검증된 방어 기관에만 Fairwind 프로그램으로 제공됩니다. 일반 버전은 발표 당일부터 Gemini API와 AI Studio, Android Studio, 에이전트 개발 도구 Antigravity, UI 생성 도구 Stitch, 기업용 Gemini Enterprise에서 쓸 수 있고, AI Pro와 Ultra 구독자는 Gemini 앱과 검색의 AI 모드, Google Sheets에서 바로 선택할 수 있습니다.",
+        "context": "CHOI가 전한 소식으로, 구글이 저렴한 가격에도 Opus 5급 코딩 성능을 낸다는 평가를 받은 Gemini 3.8 Flash를 공개했다는 내용을 스레드 형식으로 정리했습니다.",
+        "url": "https://www.threads.com/@choi.openai/post/DcyuZK7D_4o",
+        "publishedAt": "2026-09-02T17:01:09.000Z",
+        "metrics": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "3주 만에 틱톡 동영상 59.4억 개·프로필 32.3억 개 스크래핑 — 전체 데이터셋 허깅페이스에 무료 공개",
+        "originalTitle": "I scraped 5.94 billion TikTok videos and 3.23 billion profiles in 3 weeks. Uploaded full dataset to Hugging Face for free. Step by step tutorial and code below. [P]",
+        "summary": "한 개발자가 틱톡에서 59억 개가 넘는 영상과 32억 개가 넘는 프로필을 3주 만에 수집해 전체 데이터셋을 허깅페이스에 무료로 공개했다고 밝힌 게시물입니다. 단계별 튜토리얼과 코드도 함께 제공해 머신러닝 커뮤니티에서 화제가 됐습니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1w5h9se/i_scraped_594_billion_tiktok_videos_and_323/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-09-03T02:38:17+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "예측 코딩 네트워크가 역전파와 맞먹는다? — C++ 라이브러리 'Deepity' 공개, MNIST서 60초 만에 97.73%",
+        "originalTitle": "Deepity: A C++ library showing Predictive Coding Networks can match Backprop (97.73% on MNIST in 60s) [P]",
+        "summary": "예측 코딩 네트워크(Predictive Coding Networks)가 역전파(Backprop) 알고리즘에 필적하는 성능을 낼 수 있음을 보여주는 C++ 라이브러리 Deepity가 공개됐습니다. MNIST 데이터셋에서 60초 만에 97.73%의 정확도를 기록했습니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1w5fuhm/deepity_a_c_library_showing_predictive_coding/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-09-03T01:49:13+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "\"AAAI 논문 심사, 하지 말 걸 그랬다\" — 리뷰어들의 토로",
+        "originalTitle": "I regret reviewing for AAAI [D]",
+        "summary": "AAAI 학회 논문 심사를 맡았던 연구자가 심사 과정에 대한 불만을 토로한 게시물로, 학계 동료평가 시스템의 부담과 문제점을 둘러싼 토론으로 이어졌습니다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1w4z75i/i_regret_reviewing_for_aaai_d/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-09-02T12:44:41+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "\"컴퓨터 보내줄 테니 24시간 켜두면 주당 200달러\" — 이거 사기인가요?",
+        "originalTitle": "Can anyone explain how this works to me? Is it a scam? This person says they'll send me a computer and pay me $200 per week to keep it on 24/7",
+        "summary": "누군가 컴퓨터를 보내주고 24시간 켜두기만 하면 주당 200달러를 주겠다고 제안했다는 사연이 올라와, 이것이 정상적인 거래인지 사기인지를 묻는 게시물입니다. 분산 컴퓨팅이나 봇넷 악용 가능성 등에 대한 커뮤니티 논의가 이어졌습니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1w5bpww/can_anyone_explain_how_this_works_to_me_is_it_a/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-09-02T23:19:25+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "\"지난 분기는 정말 미쳤다 — 살아있어서 놀라운 시대\"",
+        "originalTitle": "Last quarter has been insane. Amazing times to be alive.",
+        "summary": "최근 몇 달간 쏟아진 AI 발전 속도에 놀라움을 표한 게시물로, 빠르게 변화하는 AI 업계 소식을 지켜보는 커뮤니티의 반응을 담고 있습니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1w5421z/last_quarter_has_been_insane_amazing_times_to_be/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-09-02T17:07:13+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "美 국방부, 군·민간 직원 300만 명에 ChatGPT·Grok 접근 권한 부여",
+        "originalTitle": "The Pentagon is giving 3 million military and civilian workers access to ChatGPT and Grok through a secure AI platform built for ‘warfighter needs’",
+        "summary": "미 국방부가 '전투원 요구사항'에 맞춰 구축한 보안 AI 플랫폼을 통해 군인과 민간인 직원 300만 명에게 ChatGPT와 Grok 접근 권한을 부여한다고 밝힌 소식입니다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1w58zoc/the_pentagon_is_giving_3_million_military_and/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-09-02T21:30:53+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "GPT-5.6 Sol 대 Claude Fable 5.1 — 이용자들이 남긴 비교 체감기",
+        "originalTitle": "GPT-5.6 Sol vs Claude Fable 5.1",
+        "summary": "OpenAI의 GPT-5.6 Sol과 Anthropic의 Claude Fable 5.1을 직접 비교해본 이용자가 두 모델의 체감 성능 차이를 정리한 게시물로, 코딩·추론 작업에서의 강점과 약점을 둘러싼 토론이 이어졌습니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1w5bxon/gpt56_sol_vs_claude_fable_51/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-09-02T23:27:18+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "\"오픈AI 면접에서 떨어지고 울었습니다\"",
+        "originalTitle": "Cried after failing my OpenAI interview",
+        "summary": "오픈AI 채용 면접에서 탈락한 뒤 심경을 나눈 게시물로, 비슷한 경험을 가진 다른 이용자들의 위로와 조언이 이어졌습니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1w55dwr/cried_after_failing_my_openai_interview/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-09-02T18:25:24+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "AI 회의론자 에드 지트론의 예측, 얼마나 맞았나",
+        "originalTitle": "How accurate are Ed Zitron's predictions?",
+        "summary": "AI 거품론을 꾸준히 제기해온 평론가 에드 지트론의 과거 예측들이 실제로 얼마나 적중했는지를 되짚어보는 게시물로, 그의 주장에 대한 찬반 토론이 이어졌습니다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1w576mj/how_accurate_are_ed_zitrons_predictions/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-09-02T20:03:58+09:00"
+      },
+      {
+        "id": "reddit_010",
+        "title": "Claude Cowork·Claude Code, 백그라운드 컴퓨터 사용 기능 지원 시작",
+        "originalTitle": "Claude can now use your computer in the background in Claude Cowork and Claude Code",
+        "summary": "Claude가 Claude Cowork와 Claude Code에서 백그라운드로 사용자의 컴퓨터를 조작할 수 있는 기능을 지원하기 시작했다는 공식 발표를 다룬 게시물로, 커뮤니티의 실사용 후기가 이어지고 있습니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1w5kgjn/claude_can_now_use_your_computer_in_the/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-09-03T04:29:17+09:00"
+      },
+      {
+        "id": "reddit_011",
+        "title": "Fable 5.1로 마인크래프트 모드 제작 — 비용은 단 20달러",
+        "originalTitle": "Fable 5.1 made a Minecraft mod for $20",
+        "summary": "Claude Fable 5.1을 이용해 마인크래프트 모드를 직접 만들어본 이용자가 총 비용이 20달러에 불과했다고 공유한 게시물로, 에이전틱 코딩 모델의 실전 활용 사례로 주목받았습니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1w5ftqe/fable_51_made_a_minecraft_mod_for_20/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-09-03T01:48:30+09:00"
+      },
+      {
+        "id": "reddit_012",
+        "title": "Fable 5.1 Max가 알려준 가장 합리적인 로컬 환경 구축 가이드",
+        "originalTitle": "Fable 5.1 Max gave me the most reasonable local setup guide",
+        "summary": "Claude Fable 5.1 Max에게 로컬 개발 환경 구축을 물어봤더니 지금까지 받아본 것 중 가장 합리적인 가이드를 받았다는 후기 게시물입니다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1w54tww/fable_51_max_gave_me_the_most_reasonable_local/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-09-02T17:53:11+09:00"
+      },
+      {
+        "id": "reddit_013",
+        "title": "람다를 넘어서 — 함수형 코드의 추상화 수준 높이기",
+        "originalTitle": "Beyond Lambdas: Raising the Abstraction Level of Functional Code",
+        "summary": "람다 함수의 한계를 넘어 함수형 프로그래밍 코드의 추상화 수준을 높이는 방법을 다룬 기술 글로, 프로그래밍 커뮤니티에서 코드 설계 논의를 촉발했습니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1w53v9c/beyond_lambdas_raising_the_abstraction_level_of/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-09-02T16:56:02+09:00"
+      },
+      {
+        "id": "reddit_014",
+        "title": "포스트그레스의 계산과 NULL의 모호함",
+        "originalTitle": "Postgres Calculations and the Ambiguity of NULL",
+        "summary": "PostgreSQL에서 NULL 값이 포함된 계산이 어떻게 예상치 못한 결과를 만들어내는지 정리한 기술 글로, 데이터베이스 설계 시 주의할 점을 다뤘습니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1w5gtxg/postgres_calculations_and_the_ambiguity_of_null/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-09-03T02:22:58+09:00"
+      },
+      {
+        "id": "reddit_015",
+        "title": "CPU를 정말 화나게 만드는 데이터 접근 패턴들",
+        "originalTitle": "Data Access Patterns That Makes Your CPU Really Angry",
+        "summary": "비효율적인 메모리·데이터 접근 패턴이 CPU 캐시 성능에 미치는 영향을 다룬 기술 글로, 저수준 성능 최적화에 관심 있는 개발자들 사이에서 공유됐습니다.",
+        "url": "https://www.reddit.com/r/programming/comments/1w5ehl9/data_access_patterns_that_makes_your_cpu_really/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-09-03T01:00:54+09:00"
+      },
+      {
+        "id": "reddit_016",
+        "title": "Gemini 3.8 Flash 벤치마크 결과 공개",
+        "originalTitle": "Gemini 3.8 Flash Benchmarks",
+        "summary": "구글의 신형 Gemini 3.8 Flash 모델의 벤치마크 점수가 공유되며, 저렴한 가격에도 상위권 모델과 견줄 만한 코딩 성능을 보인다는 평가가 이어졌습니다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1w5d1pz/gemini_38_flash_benchmarks/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-09-03T00:08:38+09:00"
+      },
+      {
+        "id": "reddit_017",
+        "title": "\"GPT-6-ASTRA\", 오픈AI API에 이미 등록돼 있었다",
+        "originalTitle": "\"GPT-6-ASTRA\" has been staged on the OpenAI API",
+        "summary": "OpenAI Responses API에서 'gpt-6-astra'라는 모델명이 발견되면서, 차기 주요 모델 Astra가 GPT-6라는 이름으로 출시될 가능성이 제기된 게시물입니다. Threads에서도 같은 소식이 다뤄지며 교차 확인됐습니다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1w5f55h/gpt6astra_has_been_staged_on_the_openai_api/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-09-03T01:24:16+09:00"
+      },
+      {
+        "id": "reddit_018",
+        "title": "메타 Muse Spark 1.3 출시",
+        "originalTitle": "Muse Spark 1.3 Released",
+        "summary": "메타의 생성 AI 모델 Muse Spark의 새 버전 1.3 출시 소식을 다룬 게시물로, 커뮤니티에서 새 모델의 성능에 대한 기대감을 나타냈습니다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1w5knze/muse_spark_13_released/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-09-03T04:36:28+09:00"
+      },
+      {
+        "id": "reddit_019",
+        "title": "업계에 조용히 존재하는 연령차별, 어떻게 대응하고 계신가요?",
+        "originalTitle": "How do y’all handle the quiet layer of ageism that exists in the industry as well as constantly fighting an uphill battle with tech as it devalues skills as time passes?",
+        "summary": "기술 업계에서 은근하게 작동하는 연령차별과, 시간이 지날수록 기술이 기존 스킬의 가치를 떨어뜨리는 상황에 어떻게 대처하는지를 묻는 게시물로, 경력 개발자들의 다양한 경험담이 이어졌습니다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1w5g859/how_do_yall_handle_the_quiet_layer_of_ageism_that/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-09-03T02:02:22+09:00"
+      },
+      {
+        "id": "reddit_020",
+        "title": "LLM으로 소통하는 동료, 어떻게 대해야 할까요",
+        "originalTitle": "Handle colleagues who communicate through LLM's",
+        "summary": "메시지나 이메일을 LLM으로 작성해 보내는 동료를 어떻게 상대해야 하는지 묻는 게시물로, AI 매개 커뮤니케이션이 늘어나는 직장 문화에 대한 개발자들의 고민을 담고 있습니다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1w55n3j/handle_colleagues_who_communicate_through_llms/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-09-02T18:39:45+09:00"
+      },
+      {
+        "id": "reddit_021",
+        "title": "AI로 PR 리뷰하는 테크리드, 어떻게 대처해야 할까요",
+        "originalTitle": "How to deal with tech lead that uses AI for PR reviews",
+        "summary": "코드 리뷰를 AI에게 맡기는 테크리드와 함께 일하는 어려움을 토로한 게시물로, AI 도구 의존이 코드 품질과 팀 신뢰에 미치는 영향에 대한 토론으로 이어졌습니다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1w5ifk8/how_to_deal_with_tech_lead_that_uses_ai_for_pr/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-09-03T03:19:05+09:00"
+      },
+      {
+        "id": "reddit_022",
+        "title": "Muse Spark 오픈 웨이트 곧 공개 예정",
+        "originalTitle": "Muse Spark open weights coming soon",
+        "summary": "메타의 Muse Spark 모델 가중치가 조만간 오픈소스로 공개될 예정이라는 소식을 다룬 게시물로, 로컬 구동 커뮤니티의 기대를 모았습니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5l8bw/muse_spark_open_weights_coming_soon/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-09-03T04:56:18+09:00"
+      },
+      {
+        "id": "reddit_023",
+        "title": "\"LocalLLaMA, 역설적으로 최신 AI 소식을 가장 빨리 접할 수 있는 곳\"",
+        "originalTitle": "LocalLLaMA is unironically one of the best places to go to get up to date AI news.",
+        "summary": "r/LocalLLaMA 커뮤니티가 공식 발표보다 앞서 최신 AI 소식을 접할 수 있는 최고의 채널 중 하나라는 점을 짚은 게시물로, 커뮤니티 구성원들의 공감을 얻었습니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w50ur8/localllama_is_unironically_one_of_the_best_places/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-09-02T14:09:30+09:00"
+      },
+      {
+        "id": "reddit_024",
+        "title": "GLM 5.3 Flash로 만든 블랙홀 마인크래프트 모드, RTX PRO 6000 4장으로 로컬 구동",
+        "originalTitle": "GLM 5.3 Flash makes a black hole Minecraft mod running locally on 4x RTX PRO 6000 WS",
+        "summary": "중국 Z.ai의 GLM 5.3 Flash 모델을 이용해 블랙홀을 구현한 마인크래프트 모드를 만들고, RTX PRO 6000 워크스테이션 GPU 4장으로 로컬에서 직접 구동한 사례를 공유한 게시물입니다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w5gk2b/glm_53_flash_makes_a_black_hole_minecraft_mod/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-09-03T02:13:42+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_qb_1",
+        "title": "구글, Gemini 3.8 Flash·Flash Cyber 동시 공개",
+        "excerpt": "구글이 6주 사이 세 번째 Flash 모델인 Gemini 3.8 Flash와 보안 특화 모델 Flash Cyber를 함께 공개했다. 해커뉴스에서 633점을 받으며 큰 화제를 모았다.",
+        "body": "Flash Cyber는 취약점 탐지와 자동 패치에 특화된 모델로, 정부와 검증된 방어 기관에는 Fairwind 프로그램을 통해 별도 제공된다. 일반 버전인 3.8 Flash는 발표 당일부터 Gemini API, AI Studio, Antigravity 등 구글의 개발 도구 전반에서 사용할 수 있다.",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-09-03T00:12:40+09:00",
+        "readTime": 2,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_qb_2",
+        "title": "메타, 신형 이미지·비디오 생성 모델 'Muse Spark 1.3' 공개",
+        "excerpt": "메타가 자사 생성 AI 모델 Muse Spark의 새 버전인 1.3을 공개했다. 해커뉴스에서 66점을 받으며 개발자들의 관심을 모았다.",
+        "body": "메타 리서치 블로그에 게재된 상세 소개 글에는 개선된 모델 성능과 활용 사례가 담겼다.",
+        "url": "https://research.meta.ai/blog/introducing-muse-spark-1-3",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-09-03T04:25:47+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_qb_3",
+        "title": "같은 모델도 하네스 따라 비용 17배 차이 — FrontierHarness Eval 공개",
+        "excerpt": "동일한 AI 모델이라도 어떤 실행 하네스를 쓰느냐에 따라 작업당 비용이 최대 17배까지 차이 난다는 벤치마크 결과가 해커뉴스에서 화제를 모았다.",
+        "body": "9개 하네스를 동일 모델로 비교한 이 평가는 에이전트 프레임워크 선택이 실제 운영 비용에 얼마나 큰 영향을 주는지를 보여준다.",
+        "url": "https://frontierharness.org",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-09-03T01:14:52+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_qb_4",
+        "title": "\"AI 안 썼어요\"를 한 단어로 — 신조어 'zuzai' 등장",
+        "excerpt": "AI로 만든 결과물이 급증하면서 'AI를 쓰지 않았음'을 간결하고 긍정적으로 표현할 말이 부족하다는 문제의식에서 'zuzai'라는 신조어가 제안됐다.",
+        "body": "'Zuzai uses zero artificial intelligence'의 재귀적 두문자어로, 소문자로 쓰고 'zoo's eye'처럼 발음한다. 글과 이미지뿐 아니라 다양한 창작물에 적용 가능한 표현으로 제시됐다.",
+        "url": "https://news.hada.io/topic?id=33151",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-09-02T20:03:28+09:00",
+        "readTime": 1,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_qb_5",
+        "title": "美 운전면허증 1억 5,300만 건 유출 의혹, FBI 수사 착수",
+        "excerpt": "다크웹 신원 도용 서비스 'Nexus'가 미국·캐나다 운전면허증 스캔본 1억 5,300만 건 이상을 판매한 것으로 알려지면서 FBI 뉴올리언스 지부가 수사에 착수했다.",
+        "body": "이미지 출처로 의심되는 신원 확인 서비스 idscan.net 관련 침해 정황이 조사 대상이다. Nexus는 신분증 1,000만 건 이상과 여행·국제 신분증 300만 건 이상도 판매한 것으로 알려졌다.",
+        "url": "https://news.hada.io/topic?id=33154",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-09-02T22:40:03+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_qb_6",
+        "title": "Paint.NET 5.2 알파, 리눅스에서도 구동 성공",
+        "excerpt": "윈도우 전용으로 알려졌던 이미지 편집 툴 Paint.NET의 5.2 알파 버전이 리눅스에서도 작동하는 데 성공했다는 소식이 해커뉴스에서 122점을 받으며 화제가 됐다.",
+        "body": ".NET 생태계의 크로스플랫폼 지원 확대와 맞물려 나온 결과로, 커뮤니티에서는 리눅스 데스크톱 이미지 편집 도구 선택지가 늘어난 것을 반기는 분위기다.",
+        "url": "https://forums.paint.net/topic/134562-paintnet-52-alpha-build-9739/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-09-03T02:18:39+09:00",
+        "readTime": 1,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_qb_7",
+        "title": "핀테크 앱의 '재해체' — 상품 묶던 시대에서 AI 에이전트가 계좌 관리하는 시대로",
+        "excerpt": "여러 금융상품을 하나의 앱으로 묶는 번들링 전략이 강력했던 소비자 핀테크 업계가, AI가 상품 탐색과 계좌 이전을 대신하게 되면서 다시 풀리는 '언번들링' 국면을 맞을 수 있다는 분석이 나왔다.",
+        "body": "차세대 AI 네이티브 핀테크는 모든 금융상품을 직접 팔기보다, 여러 금융기관의 상품을 사용자 대신 비교·관리해주는 에이전트형 서비스로 진화할 가능성이 제기됐다.",
+        "url": "https://news.hada.io/topic?id=33145",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-09-02T12:31:44+09:00",
+        "readTime": 2,
+        "imageGradient": 5
+      }
+    ]
+  }
+}
