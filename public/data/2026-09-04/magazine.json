@@ -1,0 +1,865 @@
+{
+  "date": "2026-09-04",
+  "issueNumber": 149,
+  "cover": {
+    "mainHeadline": "OpenAI, GPT-6 Astra 전격 출시 — '사이버 능력 치명적' 등급에도 컴퓨터·브라우저 사용 새 지평",
+    "mainExcerpt": "OpenAI가 차세대 플래그십 모델 GPT-6 Astra를 공개했다. 컴퓨터 사용, 소프트웨어 엔지니어링, 시각적 이해에서 역대 최고 성능을 기록했지만 사이버보안 능력이 처음으로 '치명적' 임계값에 도달해 안전 논쟁이 뜨겁다. 새로 도입된 'recurrent depth' 추론 기법을 두고도 AI 안전 전문가들 사이에서 우려의 목소리가 나오고 있다.",
+    "headlines": [
+      "엔비디아, 허깅페이스 129억 달러에 인수 공식 확정 — 오픈소스 AI 생태계 지각변동",
+      "씽킹머신스, 400억 달러 밸류에이션으로 10억 달러 추가 투자 유치 협상",
+      "메타, 신규 AI 모델 'Muse Spark' 사용자 데이터 제공 시 이용료 95% 할인"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_h1",
+      "title": "OpenAI, GPT-6 Astra 전격 출시 — 컴퓨터·브라우저 사용의 새 지평",
+      "excerpt": "OpenAI가 차세대 플래그십 모델 GPT-6 Astra를 공개했다. 컴퓨터 사용, 소프트웨어 엔지니어링, 시각적 이해 전 영역에서 역대 최고 성능을 기록했지만 '논쟁적'이라는 평가도 함께 받고 있다.",
+      "body": "OpenAI는 GPT-6 Astra가 컴퓨터·브라우저 사용에서 '새로운 프런티어'를 연다고 밝히며, 비교할 수 없는 속도·정확성·안전성으로 작업을 처리한다고 설명했다. 다만 The Verge는 이 모델을 두고 '생성형 AI가 AGI 시대에 진입했다'는 OpenAI의 표현을 전하며, 사이버보안·전문 업무·과학 등 여러 영역에서 '세대적 도약'이라고 평가했다. 동시에 이 모델은 OpenAI의 준비 프레임워크에서 '치명적(Critical)' 사이버보안 능력 임계값에 처음 도달한 모델로 지정돼 안전성 논쟁의 중심에 섰다.",
+      "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
+      "source": "TechCrunch",
+      "category": "ai_ml",
+      "publishedAt": "2026-09-04T03:01:45+09:00",
+      "readTime": 4,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_h2",
+      "title": "엔비디아, 허깅페이스 129억 달러에 인수 공식 확정",
+      "excerpt": "엔비디아가 오픈소스 AI 허브 허깅페이스를 129억 3,030만 달러에 인수하기로 최종 합의했다고 공식 발표했다. 300만 개 이상의 모델과 1,800만 명이 넘는 개발자를 보유한 플랫폼이다.",
+      "body": "젠슨 황 CEO는 공식 블로그를 통해 허깅페이스의 플랫폼을 확장하고 인프라를 강화하며 전 세계 개발자와 기관의 AI 접근성을 넓히겠다고 밝혔다. 클레망 들랑그를 비롯한 허깅페이스 창업팀이 지난 10년간 구축한 오픈소스 AI 생태계의 '허브'가 이번 인수로 엔비디아 생태계에 편입되면서, 오픈소스 AI 커뮤니티 내에서는 독립성과 중립성 훼손에 대한 우려도 함께 제기되고 있다.",
+      "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
+      "source": "NVIDIA Blog",
+      "category": "ai_ml",
+      "publishedAt": "2026-09-03T20:56:49+09:00",
+      "readTime": 3,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_h3",
+      "title": "씽킹머신스, 400억 달러 밸류에이션으로 10억 달러 추가 투자 유치 협상",
+      "excerpt": "미라 무라티가 이끄는 AI 스타트업 씽킹머신스가 액셀 주도로 10억 달러 규모의 신규 투자 라운드를 논의 중이며, 기업가치는 400억 달러에 이를 것으로 알려졌다.",
+      "body": "TechCrunch에 따르면 씽킹머신스의 연환산 매출은 이미 1억 달러를 넘어선 것으로 전해진다. 오픈웨이트 모델 'Inkling'을 선보이며 급성장해온 이 스타트업은 이번 라운드가 성사될 경우 창업 2년 만에 프런티어 AI 랩 중에서도 손꼽히는 몸값을 인정받게 된다.",
+      "url": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
+      "source": "TechCrunch",
+      "category": "ai_ml",
+      "publishedAt": "2026-09-04T04:36:29+09:00",
+      "readTime": 2,
+      "imageGradient": 2
+    },
+    {
+      "id": "rss_h4",
+      "title": "OpenAI의 새 추론 기법 'recurrent depth', AI 안전 전문가들 우려 촉발",
+      "excerpt": "GPT-6 Astra에 적용된 'recurrent depth' 기법이 기존 추론 모델의 순차적 사고 과정을 벗어난 방식으로 작동하면서, AI 안전 연구자들 사이에서 해석 가능성과 통제 가능성에 대한 우려가 커지고 있다.",
+      "body": "TechCrunch는 이 기법이 모델이 순차적인 '생각의 사슬(chain of thought)' 없이도 내부적으로 반복 연산을 수행할 수 있게 해, 외부에서 모델의 추론 과정을 들여다보기 어렵게 만든다고 지적했다. LessWrong 등 AI 안전 커뮤니티에서도 Astra의 순환 구조가 향후 모델 해석 가능성 연구에 미칠 영향을 두고 활발한 토론이 이어지고 있다.",
+      "url": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/",
+      "source": "TechCrunch",
+      "category": "ai_ml",
+      "publishedAt": "2026-09-03T05:19:14+09:00",
+      "readTime": 4,
+      "imageGradient": 3
+    },
+    {
+      "id": "rss_h5",
+      "title": "메타, 신규 모델 'Muse Spark' 사용자 데이터 제공 시 이용료 95% 할인",
+      "excerpt": "메타가 코딩 등 에이전트 운용을 겨냥한 신규 모델 'Muse Spark'에 대해, 프롬프트와 결과물을 향후 모델 개발에 제공하는 이용자에게 평균 95%에 달하는 파격 할인을 제공하고 있다.",
+      "body": "TechCrunch는 이를 두고 메타가 데이터 확보를 위해 명시적인 금전적 인센티브를 내건 이례적 사례라고 평가했다. 이용자가 자신의 사용 패턴과 결과물을 '기여'하는 대가로 대폭 할인된 요금을 지불하는 구조로, AI 기업들의 데이터 확보 경쟁이 새로운 국면에 접어들었다는 분석이 나온다.",
+      "url": "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/",
+      "source": "TechCrunch",
+      "category": "ai_ml",
+      "publishedAt": "2026-09-04T03:19:56+09:00",
+      "readTime": 3,
+      "imageGradient": 4
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "ai_1",
+        "title": "구글, 신형 AI 날씨 예측 모델 'WeatherNext 3' 공개",
+        "excerpt": "구글이 딥러닝 기반 차세대 기상 예측 모델 WeatherNext 3을 공개했다. 검색, 구글 맵, 제미나이 등에 순차적으로 반영될 예정이다.",
+        "body": "WeatherNext 3은 딥러닝 기술이 기상학 분야에 불러온 변화의 최신 산물로, 구글은 이를 검색·구글 맵·제미나이가 제공하는 날씨 정보에 단계적으로 통합할 계획이라고 밝혔다.",
+        "url": "https://techcrunch.com/2026/09/03/googles-latest-ai-weather-model-gives-you-no-excuse-to-forget-your-umbrella/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-09-04T00:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 5
+      },
+      {
+        "id": "ai_2",
+        "title": "'가드레일 제거' 서비스로 사업 키우는 Abliteration.ai",
+        "excerpt": "AI 모델의 안전장치를 제거해주는 서비스를 표방한 Abliteration.ai가 사업을 확장하고 있다. 방어자에게도 공격자와 같은 도구를 제공하는 것이 오히려 보안에 도움이 된다는 논리를 내세운다.",
+        "body": "이 회사는 가드레일이 제거된 강력한 AI 모델에 대한 접근성을 높이는 것을 목표로 하며, 방어 측이 공격자와 동일한 수준의 도구를 확보하면 궁극적으로 사이버보안이 개선될 수 있다고 주장한다. 다만 이러한 서비스가 악용될 가능성에 대한 우려도 함께 제기된다.",
+        "url": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-09-04T03:37:57+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "ai_3",
+        "title": "프라이버시 앞세운 가족용 AI 비서 'Ollie', 승부수 던지다",
+        "excerpt": "가족 단위 이용자를 겨냥한 AI 비서 스타트업 Ollie가 프라이버시를 핵심 차별화 전략으로 내세우며 AI 비서 경쟁에 뛰어들었다.",
+        "body": "Ollie는 이용자의 일상 세부 정보에 대한 접근 권한을 요구하지만, 해당 데이터를 AI 모델 훈련에 사용하거나 제3자와 공유하지 않겠다고 약속하며 신뢰 확보에 주력하고 있다.",
+        "url": "https://techcrunch.com/2026/09/03/ollie-is-betting-privacy-can-win-the-ai-assistant-race/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-09-04T01:09:01+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "ai_4",
+        "title": "허깅페이스, 효율적 멀티모달·다국어 인코더 'NeoMME' 공개",
+        "excerpt": "허깅페이스 블로그를 통해 멀티모달·다국어 처리에 특화된 신형 인코더 모델 NeoMME가 소개됐다.",
+        "body": "NeoMME는 텍스트뿐 아니라 다양한 모달리티와 언어를 효율적으로 처리하도록 설계된 인코더로, 연구 커뮤니티를 대상으로 공개됐다.",
+        "url": "https://huggingface.co/blog/Hcompany/neomme",
+        "source": "Hugging Face",
+        "category": "ai_ml",
+        "publishedAt": "2026-09-03T22:13:48+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "ai_5",
+        "title": "허깅페이스, 코딩 에이전트에 '소유 가능한 메모리' 부여하는 Funes 소개",
+        "excerpt": "허깅페이스가 코딩 에이전트가 이용자 소유의 지속적인 메모리를 갖도록 지원하는 오픈소스 프로젝트 Funes를 공개했다.",
+        "body": "Funes는 코딩 에이전트가 세션이 끝나도 맥락과 학습 내용을 유지할 수 있게 해주는 메모리 시스템으로, 이용자가 데이터를 직접 소유하고 통제할 수 있다는 점을 강조한다.",
+        "url": "https://huggingface.co/blog/funes",
+        "source": "Hugging Face",
+        "category": "ai_ml",
+        "publishedAt": "2026-09-03T09:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "dev_1",
+        "title": "'YOLO 모드' — 가드레일 없이 질주하는 AI 에이전트, 안전할까",
+        "excerpt": "도커가 AI 에이전트를 승인 절차 없이 자율적으로 실행시키는 'YOLO 모드'의 개념과 위험성, 안전하게 사용하는 방법을 정리했다.",
+        "body": "YOLO 모드는 AI 에이전트가 매 단계 사용자 승인을 구하지 않고 스스로 판단해 작업을 이어가도록 하는 실행 방식이다. 도커는 이 모드가 생산성을 크게 높일 수 있지만 예기치 못한 부작용의 위험도 함께 커진다며, 격리된 샌드박스 환경에서 실행할 것을 권고했다.",
+        "url": "https://www.docker.com/blog/what-is-yolo-mode/",
+        "source": "Docker Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-09-04T03:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 4
+      },
+      {
+        "id": "dev_2",
+        "title": "GitHub Copilot 앱, 여러 에이전트 동시 실행 기능으로 입문자 공략",
+        "excerpt": "깃허브가 Copilot 앱에서 초보 개발자도 여러 AI 에이전트를 동시에 병렬로 실행해볼 수 있는 가이드를 공개했다.",
+        "body": "이 가이드는 Copilot 앱에서 병렬 에이전트를 실행하는 방법을 단계별로 안내하며, 처음에는 낯설게 느껴지던 병렬 작업 방식이 익숙해지는 순간부터 얼마나 강력한 도구가 되는지를 강조한다.",
+        "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-09-04T01:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "dev_3",
+        "title": "커서 클라우드 에이전트, 버셀 샌드박스에서도 구동",
+        "excerpt": "커서의 클라우드 에이전트가 이제 자체 호스팅 머신 대신 버셀 샌드박스에서도 실행될 수 있게 됐다.",
+        "body": "커서가 에이전트의 두뇌 역할인 하니스와 추론 루프를 관리하는 동안, 버셀 샌드박스는 각 요청마다 격리된 Firecracker 마이크로 VM으로 실행 환경을 제공한다. 버셀 함수와 워크플로가 요청을 처리하고 세션을 모니터링하는 지속적 제어 플레인 역할을 맡는다.",
+        "url": "https://vercel.com/changelog/run-cursor-cloud-agents-vercel-sandbox",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-09-04T00:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      },
+      {
+        "id": "dev_4",
+        "title": "루프·하니스·스쿼드… 쏟아지는 AI 신조어, 깃허브가 정리했다",
+        "excerpt": "깃허브 팟캐스트가 루프 엔지니어링, 하니스, 스쿼드, 힐 클라이밍 등 최근 개발자 커뮤니티에서 자주 쓰이는 AI 용어들을 알기 쉽게 풀어냈다.",
+        "body": "AI 에이전트 생태계가 빠르게 진화하면서 새로운 전문 용어들이 쏟아지고 있다. 이번 에피소드는 이런 용어들이 실제로 무엇을 의미하는지, 개발자들의 대화에서 어떻게 쓰이고 있는지를 짚었다.",
+        "url": "https://github.blog/ai-and-ml/decoding-the-new-ai-lingo-loops-harnesses-squads-hill-climbing-oh-my/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-09-03T06:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "bt_1",
+        "title": "테슬라 '사이버캡', 회사의 운명을 가를 갈림길",
+        "excerpt": "핸들도 페달도 없는 2인승 로보택시 '사이버캡'의 정식 출시를 앞두고, 테슬라의 미래를 가를 중대한 분기점이라는 평가가 나온다.",
+        "body": "테슬라는 곧 사이버캡을 공식 론칭할 예정이다. 완전 자율주행을 전제로 한 이 차량은 성공할 경우 회사의 사업 구조 자체를 바꿔놓을 수 있지만, 규제와 기술적 검증이라는 큰 장벽도 남아 있다.",
+        "url": "https://techcrunch.com/2026/09/03/the-cybercab-is-teslas-fork-in-the-road-moment/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-09-04T04:42:48+09:00",
+        "readTime": 4,
+        "imageGradient": 2
+      },
+      {
+        "id": "bt_2",
+        "title": "틱톡, 美 하원 아동안전 청문회 앞두고 회동 돌연 취소",
+        "excerpt": "미국 하원 '중국 특별위원회' 위원장은 틱톡이 아동 안전 관련 질의를 피하기 위해 이달 예정된 공개 원탁회의 참석을 철회했다고 밝혔다.",
+        "body": "위원회는 중국 정부의 틱톡 접근 문제 등을 둘러싼 질의를 위해 틱톡의 최고보안책임자 출석을 요청하며 '선의의 협상'을 이어왔으나, 틱톡이 막판에 회동을 취소하면서 논란이 커지고 있다.",
+        "url": "https://www.theverge.com/policy/989769/tiktok-house-committee-china-kids-online-safety",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-09-04T03:37:57+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "bt_3",
+        "title": "MS, Xbox 클라우드 게이밍 무제한 혜택 폐지 — 얼티밋도 月 15시간 제한",
+        "excerpt": "마이크로소프트가 Xbox 클라우드 게이밍의 무제한 이용 혜택을 축소해, 11월부터 얼티밋 구독자도 월 15시간으로 제한하기로 했다. 동시에 구독 없이 이용할 수 있는 종량제 옵션도 새로 도입한다.",
+        "body": "지난 1년간 모든 게임패스 등급에 무제한으로 제공되던 클라우드 게이밍이 대폭 축소되는 한편, 마이크로소프트는 게임패스 없이도 누구나 클라우드 게이밍에 접근할 수 있는 종량제 요금제를 함께 선보이며 이용자층 확대를 노린다.",
+        "url": "https://www.theverge.com/news/989166/microsoft-xbox-cloud-gaming-hourly-limits-changes",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-09-04T02:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "bt_4",
+        "title": "구글, 지메일·독스·킵에 AI 음성 기능 확대 적용",
+        "excerpt": "구글이 지메일, 구글 독스, 구글 킵에 대화형 AI 음성 기능을 새로 도입했다. 이용자는 음성으로 이메일을 검색하거나 문서 초안을 작성할 수 있다.",
+        "body": "새로운 대화형 기능을 통해 이용자는 음성 명령만으로 이메일을 찾거나 문서를 작성하는 등 구글 워크스페이스 전반의 생산성 도구를 손쉽게 다룰 수 있게 됐다.",
+        "url": "https://techcrunch.com/2026/09/03/google-launches-ai-voice-features-in-gmail-docs-and-keep/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-09-04T01:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 5
+      },
+      {
+        "id": "bt_5",
+        "title": "아마존 Zoox, 로보택시 서비스 라스베이거스 공항까지 확장",
+        "excerpt": "아마존 자율주행 자회사 Zoox가 로보택시 유료 서비스를 시작한 지 몇 주 만에, 핵심 거점인 라스베이거스 공항까지 서비스 지역을 넓혔다.",
+        "body": "Zoox는 라스베이거스에서 유료 로보택시 운행을 시작한 데 이어, 수요가 많은 공항 노선까지 서비스를 확대하며 사업 확장에 속도를 내고 있다.",
+        "url": "https://techcrunch.com/2026/09/03/amazons-zoox-expands-its-robotaxi-service-to-las-vegas-airport/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-09-03T21:12:56+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "Introducing GPT-6 Astra:",
+        "context": "그렉 브록만 OpenAI 사장이 신형 플래그십 모델 GPT-6 Astra의 출시를 공식 발표했다.",
+        "url": "https://x.com/gdb/status/2095598855073255644",
+        "publishedAt": "2026-09-03T19:44:36.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Mark Chen",
+        "handle": "markchen90",
+        "content": "GPT-6 Astra가 등장했습니다! 이것은 우리 연구팀에게 큰 순간입니다 - 사전 훈련, 강화 학습, 사후 훈련에 대한 수년간의 노력이 이제까지 가장 유능하고 정렬된 모델에서 결실을 맺었습니다. 이 모델은 소프트웨어를 구축하고 테스트할 수 있으며, 컴퓨터의 여러 앱을 넘나들어 작업할 수 있고,",
+        "context": "마크 첸 OpenAI 리서치 총괄이 GPT-6 Astra를 오랜 연구의 결실이라고 소개하며, 소프트웨어 구축·테스트와 여러 앱을 넘나드는 작업 수행 능력을 강조했다.",
+        "url": "https://x.com/markchen90/status/2095597534412673109",
+        "publishedAt": "2026-09-03T19:39:21.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Alex Albert",
+        "handle": "alexalbert__",
+        "content": "오늘 Fable 5.1과 함께 발표한 비모델 관련 한 가지로 제가 매우 흥분되는 것은 Enterprise Frontier Safeguards (EFS)입니다.\n\nCEO/CISO가 아니시더라도, 이 블로그 포스트는 대기업들이 AI 도입에 대해 어떻게 생각하고 있는지 살펴보는 것으로, AI가 산업 전반에 퍼질 수 있는 방식에 관심이",
+        "context": "앤트로픽 알렉스 알버트가 Fable 5.1과 함께 발표된 기업용 안전장치 'Enterprise Frontier Safeguards(EFS)'를 소개하며, 대기업의 AI 도입 방식을 다룬 블로그 글을 공유했다.",
+        "url": "https://x.com/alexalbert__/status/2094889286990446769",
+        "publishedAt": "2026-09-01T20:45:01.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Thariq is on vacation",
+        "handle": "trq212",
+        "content": "정말 좋은 모델이에요. 저는 이걸 깊이 파고드는 데 많은 시간을 썼어요- 더 긴 후기가 곧 나올 거예요\n\n하지만 검증이 덜 필요하거나 엣지 케이스가 적은 작업에는 낮은 노력으로 시도해보세요. 노력 전환도 더 이상 프롬프트 캐시를 깨지 않아요.",
+        "context": "앤트로픽 개발자 Thariq이 신규 모델을 심층 리뷰하며, 낮은 노력(low effort) 설정과 프롬프트 캐시 관련 개선 사항을 언급했다.",
+        "url": "https://x.com/trq212/status/2094945951865520458",
+        "publishedAt": "2026-09-02T00:30:11.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Thariq is on vacation",
+        "handle": "trq212",
+        "content": "아, 사과드립니다. 프롬프트 캐시를 깨는 노력 수준 기능은 API에서 이미 라이브 상태지만, 아직 Claude Code에서는 적용되지 않았습니다. 하루 정도 안에 라이브될 예정이니, 준비되면 QT로 알리겠습니다.\n\nOOO 상태였고, 이게 모델 출시와 함께 배포되지 않았다는 걸 미처 몰랐습니다.",
+        "context": "앤트로픽 개발자 Thariq이 신규 모델을 심층 리뷰하며, 낮은 노력(low effort) 설정과 프롬프트 캐시 관련 개선 사항을 언급했다.",
+        "url": "https://x.com/trq212/status/2095367584489038044",
+        "publishedAt": "2026-09-03T04:25:36.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "content": "귀하의 의견이 필요합니다: 이것을 사용하시겠습니까?\n\n이것은 Claude Code를 훨씬 더 확장 가능하게 만드는 방법에 대해 우리가 어떻게 생각하고 있는지에 대한 초기적인 모습을 보여줍니다. 조금 미친 듯하고, 매우 흥미롭습니다.\n\n자세한 내용은 여기: https://github.com/anthropics/claude-code/issues/91870",
+        "context": "앤트로픽 Claude Code 팀의 보리스 체르니가 Claude Code 확장성 개선 아이디어와 백그라운드 컴퓨터 사용, Fable 5.1의 Claude Tag 활용 사례를 공유했다.",
+        "url": "https://x.com/bcherny/status/2095590515765060076",
+        "publishedAt": "2026-09-03T19:11:27.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "content": "배경 컴퓨터 사용은 저평가되고 있다",
+        "context": "앤트로픽 Claude Code 팀의 보리스 체르니가 Claude Code 확장성 개선 아이디어와 백그라운드 컴퓨터 사용, Fable 5.1의 Claude Tag 활용 사례를 공유했다.",
+        "url": "https://x.com/bcherny/status/2095378890370019683",
+        "publishedAt": "2026-09-03T05:10:32.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "content": "Fable 5.1은 Claude Tag를 훨씬 더 유용하게 만듭니다. 여기서 그것은 메트릭 스프레드시트와 Slack 전반의 다른 데이터로부터 막판 리더십 데크를 구축하고, 숫자와 일치하지 않는 벤더 보고서를 발견하며, 계속 진행하기 전에 이를 표시합니다.\n\nClaude Tag는 Team 및 Enterprise 플랜에서 Slack에서",
+        "context": "앤트로픽 Claude Code 팀의 보리스 체르니가 Claude Code 확장성 개선 아이디어와 백그라운드 컴퓨터 사용, Fable 5.1의 Claude Tag 활용 사례를 공유했다.",
+        "url": "https://x.com/bcherny/status/2095276133214491086",
+        "publishedAt": "2026-09-02T22:22:13.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_009",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "이것은 GPT-6 Astra입니다.\n\n컴퓨터에서 할 수 있는 모든 일, Astra가 당신을 위해 빠르게 처리합니다.",
+        "context": "OpenAI 공식 계정이 GPT-6 Astra 출시를 알리며, 사이버보안 능력이 준비 프레임워크상 '치명적' 임계값에 도달했다는 점과 안전 대응 방안을 함께 설명했다.",
+        "url": "https://x.com/OpenAI/status/2095595741528125780",
+        "publishedAt": "2026-09-03T19:32:13.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_010",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "\"Put That There\" 클립은 MIT 미디어 연구소, 크리스 슈만트(Chris Schmandt), 그리고 에릭 훌틴(Eric Hulteen)의 허락으로 제공됩니다.",
+        "context": "OpenAI 공식 계정이 GPT-6 Astra 출시를 알리며, 사이버보안 능력이 준비 프레임워크상 '치명적' 임계값에 도달했다는 점과 안전 대응 방안을 함께 설명했다.",
+        "url": "https://x.com/OpenAI/status/2095527559492731288",
+        "publishedAt": "2026-09-03T15:01:17.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_011",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "Astra를 출시할 준비를 하면서, 우리는 점점 더 강력한 AI를 안전하고 광범위하게 접근 가능하게 만드는 데 집중하고 있습니다.\n\nAstra는 사이버 보안 능력에서 중요한 진전을 나타내며, 우리의 준비 프레임워크(Preparedness Framework)에서 Critical 임계값에 도달했습니다.\n\n우리는 모델을 어떻게",
+        "context": "OpenAI 공식 계정이 GPT-6 Astra 출시를 알리며, 사이버보안 능력이 준비 프레임워크상 '치명적' 임계값에 도달했다는 점과 안전 대응 방안을 함께 설명했다.",
+        "url": "https://x.com/OpenAI/status/2094885578173260259",
+        "publishedAt": "2026-09-01T20:30:17.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_012",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "GPT-6 Astra는 지금까지 컴퓨터 사용, 소프트웨어 엔지니어링, 시각적 이해 분야에서 우리가 만든 최고의 모델입니다.\n\n이 모델을 실제로 활용하는 개발자들의 이야기를 들어보세요:",
+        "context": "OpenAI 개발자 계정이 GPT-6 Astra의 개발자 활용 사례, WebMCP 챌린지 마감 안내, GPT-5.6 Sol을 활용한 마케팅 자동화 사례 등을 공유했다.",
+        "url": "https://x.com/OpenAIDevs/status/2095596020638036311",
+        "publishedAt": "2026-09-03T19:33:20.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_013",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "\"한 번만 더 커밋하자\"라고 말한 모든 사람들에게.\n\n마감 연장:",
+        "context": "OpenAI 개발자 계정이 GPT-6 Astra의 개발자 활용 사례, WebMCP 챌린지 마감 안내, GPT-5.6 Sol을 활용한 마케팅 자동화 사례 등을 공유했다.",
+        "url": "https://x.com/OpenAIDevs/status/2095560148014260690",
+        "publishedAt": "2026-09-03T17:10:47.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_014",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "24시간.\n\nWebMCP 챌린지를 위해 프로젝트를 제출할 시간입니다.\n\n제출 마감은 내일, 9월 3일 오후 1시 PT입니다.",
+        "context": "OpenAI 개발자 계정이 GPT-6 Astra의 개발자 활용 사례, WebMCP 챌린지 마감 안내, GPT-5.6 Sol을 활용한 마케팅 자동화 사례 등을 공유했다.",
+        "url": "https://x.com/OpenAIDevs/status/2095240355910439020",
+        "publishedAt": "2026-09-02T20:00:03.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_015",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "GPT-5.6 Sol은 @ployai 의 @bryantchou 팀이 복잡한 마케팅 캠페인을 조율하는 데 도움을 주며, 시간을 절약하고 비용을 줄이기 위해 서브에이전트를 실험하는 데 사용됩니다.",
+        "context": "OpenAI 개발자 계정이 GPT-6 Astra의 개발자 활용 사례, WebMCP 챌린지 마감 안내, GPT-5.6 Sol을 활용한 마케팅 자동화 사례 등을 공유했다.",
+        "url": "https://x.com/OpenAIDevs/status/2095229096712458327",
+        "publishedAt": "2026-09-02T19:15:18.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_016",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Claude는 이제 Claude Cowork와 Claude Code에서 백그라운드에서 당신의 컴퓨터를 사용할 수 있습니다.\n\n데스크톱에서 할 일을 주면 Claude가 당신이 하는 것처럼 클릭하고, 타이핑하고, 앱을 열어요. 그동안 당신은 다른 일을 할 수 있어요.",
+        "context": "Claude 공식 계정이 Claude Cowork와 Claude Code에서 백그라운드 컴퓨터 사용 기능이 출시됐다고 발표하고, Pro/Max 베타 이용 방법과 Claude 캠퍼스 앰배서더 프로그램 지원 개시를 알렸다.",
+        "url": "https://x.com/claudeai/status/2095226833293685100",
+        "publishedAt": "2026-09-02T19:06:19.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_017",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Pro 및 Max 플랜에서 베타 버전으로 제공되며, macOS 데스크톱 앱에서 사용 가능합니다.\n\n컴퓨터 사용이 처음이라면, 설정 → 일반 → 컴퓨터 사용에서 이를 활성화하세요.\n\n작동 방식과 안전하게 사용하는 방법:",
+        "context": "Claude 공식 계정이 Claude Cowork와 Claude Code에서 백그라운드 컴퓨터 사용 기능이 출시됐다고 발표하고, Pro/Max 베타 이용 방법과 Claude 캠퍼스 앰배서더 프로그램 지원 개시를 알렸다.",
+        "url": "https://x.com/claudeai/status/2095226835743158320",
+        "publishedAt": "2026-09-02T19:06:19.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_018",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Claude 캠퍼스 앰배서더 프로그램의 지원이 시작되었습니다. 올해에는 더 많은 학생들에게 기회를 확대하며, 학부생, 대학원생, 박사/박사후 연구원을 위한 세 가지 트랙을 제공합니다.\n\n여기서 지원하세요: https://anthropic.com/campus",
+        "context": "Claude 공식 계정이 Claude Cowork와 Claude Code에서 백그라운드 컴퓨터 사용 기능이 출시됐다고 발표하고, Pro/Max 베타 이용 방법과 Claude 캠퍼스 앰배서더 프로그램 지원 개시를 알렸다.",
+        "url": "https://x.com/claudeai/status/2095168559873773970",
+        "publishedAt": "2026-09-02T15:14:45.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "일론 머스크는 내년쯤 AI 소프트웨어가 세계 챔피언을 쉽게 꺾는 체스 프로그램처럼 인간의 능력을 압도하는 \"스톡피시(Stockfish) 수준\"에 도달할 것이라고 예측했습니다.\n그는 \"소프트웨어 작성에서 인간이 AI와 경쟁하는 것은 불가능해질 것\"이라며, 코딩 영역에서 AI가 인간 개발자를 완전히 압도할 것이라고 경고했습니다.\n나아가 향후 12~18개월 이내에 코딩뿐만 아니라 모든 형태의 엔지니어링과 디지털 작업 전반에서 AI가 독보적인 성능을 발휘할 것이라고 전망했습니다.\n특이점에 다가설수록 전통적인 개발 직군과 디지털 지식 노동의 일자리 지형에는 근본적인 지각변동이 불가피해 보입니다.",
+        "context": "일론 머스크의 AI 코딩 능력 관련 발언을 정리한 게시물.",
+        "url": "https://www.threads.com/@choi.openai/post/Dc1gzR2j6yr",
+        "publishedAt": "2026-09-03T19:00:06.000Z"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "풀영상: LIVE | Elon Musk, Sam Altman And Nvidia's Jensen Huang Attend G20 Innovation Meeting | APT",
+        "context": "위 게시물과 이어지는 G20 혁신 회의 풀영상 링크 게시물.",
+        "url": "https://www.threads.com/@choi.openai/post/Dc1g0YNj_fO",
+        "publishedAt": "2026-09-03T19:00:15.000Z"
+      },
+      {
+        "id": "threads_003",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "ByteDance Seed 연구진이 실제 공간 영상을 편집 가능한 3D 시뮬레이션 환경으로 바꾸는 Lucida를 공개했습니다.\nLucida는 영상을 통째로 3D로 복원하는 방식이 아니라, 먼저 장면 속 물체를 각각 구분하고 여러 시점의 이미지·마스크·포인트클라우드 정보를 모읍니다.\n이후 가려진 부분까지 포함한 완전한 3D 물체를 생성합니다.",
+        "context": "바이트댄스 시드 연구팀이 공개한 3D 신 모델링 기술 Lucida 소개.",
+        "url": "https://www.threads.com/@choi.openai/post/Dc1Z_L7kpcu",
+        "publishedAt": "2026-09-03T18:00:34.000Z"
+      },
+      {
+        "id": "threads_004",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "프로젝트 주소: Lucida: Parse, Generate, and Place for Composable Real-to-Sim Scene Modeling (lucida-r2s.github.io)",
+        "context": "Lucida 프로젝트 페이지 링크를 공유한 게시물.",
+        "url": "https://www.threads.com/@choi.openai/post/Dc1aAckkmDd",
+        "publishedAt": "2026-09-03T18:00:44.000Z"
+      },
+      {
+        "id": "threads_005",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "0.8B짜리 소형 모델이 특정 작업에서 GPT-5.6 Sol을 이겼습니다.\nShopify가 Qwen3.5-0.8B를 특정 업무에 맞게 미세 조정한 결과인데요.\n범용 AI를 그대로 쓰는 대신 실제 업무에서 나온 결과를 평가하고, 실패 데이터를 다시 학습에 넣어 모델을 계속 개선하는 방식을 사용했습니다.\nShopify CEO Tobi Lütke는 이런 자기개선 학습 구조가 있다면 작은 모델도 특정 업무에서는 대형 모델보다 좋은 성능을 낼 수 있다고 설명했습니다.\n이 학습 파이프라인을 만드는 기반 기술 Tangle도 오픈소스로 공개했습니다.\n모든 업무에 비싼 대형 모델을 호출하는 대신, 반복 업무마다 작고 저렴한 전용 모델을 만들어 쓰는 방식이 꽤 빠르게 늘어날 것 같습니다.",
+        "context": "Shopify의 소형 모델 파인튜닝 사례와 오픈소스 파이프라인 Tangle 소개.",
+        "url": "https://www.threads.com/@choi.openai/post/Dc1TJW2AAY9",
+        "publishedAt": "2026-09-03T17:00:47.000Z"
+      },
+      {
+        "id": "threads_006",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "주소: Tangle - Visual ML Pipeline Editor (tangleml.com)",
+        "context": "Tangle 프로젝트 페이지 링크 게시물.",
+        "url": "https://www.threads.com/@choi.openai/post/Dc1TKloADUT",
+        "publishedAt": "2026-09-03T17:00:57.000Z"
+      },
+      {
+        "id": "threads_007",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "일론 머스크는 AI와 로보틱스가 가져올 생산성 혁신을 강조하며, 과거에 갇히기보다 \"신기술을 적극적으로 시도하고 수용하는 자세\"가 중요하다고 말했습니다.\n자율주행과 휴머노이드 로봇 기술이 본격화되면 글로벌 경제는 연간 20~30조 달러, 즉 세계 경제의 20~30% 규모로 성장할 것이라고 추산했습니다.\n특히 그는 \"손으로 원자를 물리적으로 다루는 일이 아니라면, 디지털 영역의 모든 일은 AI가 처리할 수 있게 될 것\"이라며, 이 시점이 이르면 내년 말쯤 도래할 수 있다고 전망했습니다.",
+        "context": "일론 머스크의 AI·로보틱스 생산성 혁신 전망 발언 정리.",
+        "url": "https://www.threads.com/@choi.openai/post/Dc1MNdXjrmA",
+        "publishedAt": "2026-09-03T16:00:10.000Z"
+      },
+      {
+        "id": "threads_008",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "풀영상: LIVE | Elon Musk, Sam Altman And Nvidia's Jensen Huang Attend G20 Innovation Meeting | APT",
+        "context": "위 게시물과 이어지는 G20 혁신 회의 풀영상 링크 게시물.",
+        "url": "https://www.threads.com/@choi.openai/post/Dc1MOt4DvBI",
+        "publishedAt": "2026-09-03T16:00:21.000Z"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "시뮬레이션에서 훈련된 JEPA 기반 월드모델로 LLM을 접지시키는 시도, 해본 사람 있나요? [토론]",
+        "originalTitle": "Grounding LLMs with JEPA-based world models trained in simulation — has this been tried? [D]",
+        "summary": "머신러닝 연구/실무 커뮤니티에서 화제가 된 게시물.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1w69gvd/grounding_llms_with_jepabased_world_models/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-09-03T23:45:53+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "Mol-JEPA - 멀티모달 분자 파운데이션 모델 [연구]",
+        "originalTitle": "Mol-JEPA - Multimodal molecular foundation model [R]",
+        "summary": "머신러닝 연구/실무 커뮤니티에서 화제가 된 게시물.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1w6i8pr/moljepa_multimodal_molecular_foundation_model_r/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-09-04T04:56:27+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "NeurIPS 시드니, 몇 분 만에 매진 [뉴스]",
+        "originalTitle": "NeurIPS Sydney SOLD OUT in minutes [N]",
+        "summary": "머신러닝 연구/실무 커뮤니티에서 화제가 된 게시물.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1w6gwni/neurips_sydney_sold_out_in_minutes_n/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-09-04T04:09:48+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "공식 확정! 엔비디아, 허깅페이스 129억 달러에 인수",
+        "originalTitle": "It's official! Nvidia to acquire Hugging Face for 12.9 billion dollars.",
+        "summary": "로컬 LLM 구동·튜닝에 관심 많은 커뮤니티의 인기 게시물.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w65uhf/its_official_nvidia_to_acquire_hugging_face_for/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-09-03T21:22:05+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "챗GPT, 클로드, 그록이 동시에 다운됐던 모양이다",
+        "originalTitle": "Apparently ChatGPT, Claude, and Grok were down",
+        "summary": "로컬 LLM 구동·튜닝에 관심 많은 커뮤니티의 인기 게시물.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w6aw2a/apparently_chatgpt_claude_and_grok_were_down/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-09-04T00:38:06+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "K2 Horizon 공개: 프런티어급 성능, 완전히 개방된 모델",
+        "originalTitle": "Introducing K2 Horizon: Frontier Performance, Radically Open",
+        "summary": "로컬 LLM 구동·튜닝에 관심 많은 커뮤니티의 인기 게시물.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1w68rj6/introducing_k2_horizon_frontier_performance/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-09-03T23:19:41+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "엔비디아, 허깅페이스 129억 달러에 인수 - 중립적 AI의 종말인가?",
+        "originalTitle": "Nvidia buys Hugging Face for $12.9B - End of neutral AI?",
+        "summary": "AI 전반을 다루는 커뮤니티의 인기 게시물.",
+        "url": "https://www.reddit.com/r/artificial/comments/1w66hbd/nvidia_buys_hugging_face_for_129b_end_of_neutral/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-09-03T21:49:51+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "상위 3개 프런티어 랩이 동시에 다운된 것 같다. 이런 적 있었나?",
+        "originalTitle": "Top 3 frontier labs seem to be down right now. Ever seen this before?",
+        "summary": "AI 전반을 다루는 커뮤니티의 인기 게시물.",
+        "url": "https://www.reddit.com/r/artificial/comments/1w6a6di/top_3_frontier_labs_seem_to_be_down_right_now/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-09-04T00:12:14+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "소비자 대상 AI가 유료화되기 시작하면 어떤 일이 벌어질까?",
+        "originalTitle": "What will happen to AI once they start making it a non-free service for consumers?",
+        "summary": "AI 전반을 다루는 커뮤니티의 인기 게시물.",
+        "url": "https://www.reddit.com/r/artificial/comments/1w6e81s/what_will_happen_to_ai_once_they_start_making_it/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-09-04T02:36:30+09:00"
+      },
+      {
+        "id": "reddit_010",
+        "title": "GPT-6 Astra | OpenAI 공식 발표",
+        "originalTitle": "GPT-6 Astra | OpenAI",
+        "summary": "OpenAI 관련 소식과 반응을 다루는 커뮤니티 게시물.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1w6hf6g/gpt6_astra_openai/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-09-04T04:27:39+09:00"
+      },
+      {
+        "id": "reddit_011",
+        "title": "OpenAI \"AGI 시대에 오신 것을 환영합니다\" — GPT-6 Astra 공개하며",
+        "originalTitle": "\"Welcome to the AGI era,\" OpenAI says as GPT-6 Astra debuts",
+        "summary": "OpenAI 관련 소식과 반응을 다루는 커뮤니티 게시물.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1w6f10x/welcome_to_the_agi_era_openai_says_as_gpt6_astra/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-09-04T03:04:30+09:00"
+      },
+      {
+        "id": "reddit_012",
+        "title": "GPT Astra 벤치마크 결과",
+        "originalTitle": "GPT Astra benchmarks",
+        "summary": "OpenAI 관련 소식과 반응을 다루는 커뮤니티 게시물.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1w6g0is/gpt_astra_benchmarks/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-09-04T03:38:46+09:00"
+      },
+      {
+        "id": "reddit_013",
+        "title": "분기(branch)를 피하는 프로그래밍 기법",
+        "originalTitle": "Branch‑Avoidant Programming",
+        "summary": "프로그래밍 전반을 다루는 개발자 커뮤니티의 인기 게시물.",
+        "url": "https://www.reddit.com/r/programming/comments/1w630ne/branchavoidant_programming/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-09-03T19:00:28+09:00"
+      },
+      {
+        "id": "reddit_014",
+        "title": "어쩌면 GraphQL이 필요 없을 수도 있다",
+        "originalTitle": "Maybe you don't need GraphQL",
+        "summary": "프로그래밍 전반을 다루는 개발자 커뮤니티의 인기 게시물.",
+        "url": "https://www.reddit.com/r/programming/comments/1w67dpg/maybe_you_dont_need_graphql/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-09-03T22:26:30+09:00"
+      },
+      {
+        "id": "reddit_015",
+        "title": "Zig의 Io.Threaded, 꽤 훌륭하다",
+        "originalTitle": "Zig's Io.Threaded is Neat",
+        "summary": "프로그래밍 전반을 다루는 개발자 커뮤니티의 인기 게시물.",
+        "url": "https://www.reddit.com/r/programming/comments/1w6cr6j/zigs_iothreaded_is_neat/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-09-04T01:44:15+09:00"
+      },
+      {
+        "id": "reddit_016",
+        "title": "GPT-6 Astra 벤치마크 결과",
+        "originalTitle": "Gpt 6 astra benchmarks",
+        "summary": "AI·미래기술 담론을 다루는 커뮤니티의 인기 게시물.",
+        "url": "https://www.reddit.com/r/singularity/comments/1w6f9xo/gpt_6_astra_benchmarks/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-09-04T03:13:16+09:00"
+      },
+      {
+        "id": "reddit_017",
+        "title": "OpenAI \"AGI 시대에 오신 것을 환영합니다\" — GPT-6 Astra 공개하며",
+        "originalTitle": "\"Welcome to the AGI era,\" OpenAI says as GPT-6 Astra debuts",
+        "summary": "AI·미래기술 담론을 다루는 커뮤니티의 인기 게시물.",
+        "url": "https://www.reddit.com/r/singularity/comments/1w6f0jp/welcome_to_the_agi_era_openai_says_as_gpt6_astra/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-09-04T03:04:03+09:00"
+      },
+      {
+        "id": "reddit_018",
+        "title": "GPT-6 Astra 출시 영상",
+        "originalTitle": "GPT-6 Astra Launch Video",
+        "summary": "AI·미래기술 담론을 다루는 커뮤니티의 인기 게시물.",
+        "url": "https://www.reddit.com/r/singularity/comments/1w6gjmb/gpt6_astra_launch_video/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-09-04T03:57:10+09:00"
+      },
+      {
+        "id": "reddit_019",
+        "title": "소프트웨어 개발 일을 장기적으로 계속할 계획인가요?",
+        "originalTitle": "Do you plan on staying in software development long term?",
+        "summary": "경력 개발자들이 모인 커뮤니티에서 화제가 된 게시물.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1w65ks0/do_you_plan_on_staying_in_software_development/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-09-03T21:09:52+09:00"
+      },
+      {
+        "id": "reddit_020",
+        "title": "회의에서 질문만 하는 사람들",
+        "originalTitle": "People who just ask questions in meetings",
+        "summary": "경력 개발자들이 모인 커뮤니티에서 화제가 된 게시물.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1w6hlf2/people_who_just_ask_questions_in_meetings/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-09-04T04:33:48+09:00"
+      },
+      {
+        "id": "reddit_021",
+        "title": "시리아에서 하루 4시간 전기로 버티다 두바이 시니어 엔지니어까지 — 이제는 '너무 비싸다'는 이유로 해고",
+        "originalTitle": "From 4 hours of electricity a day in Syria to senior engineer in Dubai, and now laid off for being “too expensive”",
+        "summary": "경력 개발자들이 모인 커뮤니티에서 화제가 된 게시물.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1w5og2n/from_4_hours_of_electricity_a_day_in_syria_to/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-09-03T06:52:44+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "qb_1",
+        "title": "GPT-6 Astra, 해커뉴스서 뜨거운 반응 — 307점·댓글 149개",
+        "excerpt": "OpenAI의 GPT-6 Astra 공식 발표 페이지가 해커뉴스에서 큰 화제를 모으며 307점, 149개의 댓글을 기록했다.",
+        "body": "커뮤니티에서는 새 모델의 성능과 함께 시스템 카드에 명시된 안전성 평가 결과를 두고 다양한 의견이 오가고 있다.",
+        "url": "https://openai.com/index/gpt-6-astra/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-09-04T03:41:05+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      },
+      {
+        "id": "qb_2",
+        "title": "0.8B급 소형 모델 Qwen3.5, 세레브라스서 초당 1,500토큰 추론",
+        "excerpt": "Qwen 3.8 27B 모델이 세레브라스 플랫폼에서 초당 1,500토큰이라는 빠른 추론 속도로 서비스되기 시작했다.",
+        "body": "고속 추론 전문 하드웨어 업체 세레브라스가 대형 오픈소스 모델의 추론 속도를 한층 끌어올리며, 실시간 애플리케이션에 활용할 수 있는 선택지를 넓히고 있다.",
+        "url": "https://inference-docs.cerebras.ai/models/overview",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-09-04T03:32:13+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "qb_3",
+        "title": "'K2 호라이즌' — 서로 연결된 6개 오픈모델 패밀리 공개",
+        "excerpt": "여러 크기와 특성을 가진 6종의 오픈 모델이 서로 연결된 형태로 구성된 'K2 Horizon' 프로젝트가 공개돼 해커뉴스에서 185점을 기록했다.",
+        "body": "하나의 거대 모델 대신 용도별로 특화된 여러 모델을 연결해 활용하는 접근 방식으로, 최근 업계의 '작고 저렴한 전용 모델' 트렌드와 궤를 같이한다.",
+        "url": "https://ifm.ai/blog/k2/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-09-04T00:36:43+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      },
+      {
+        "id": "qb_4",
+        "title": "챗GPT·클로드·그록, 동시 장애로 해커뉴스 발칵 — \"왜 셋 다 죽었나\"",
+        "excerpt": "챗GPT, 클로드, 그록 세 서비스가 비슷한 시각에 동시 장애를 일으키며 해커뉴스에서 250점, 464개 댓글이 달리는 대형 이슈가 됐다.",
+        "body": "각 서비스의 상태 페이지에서 모두 장애가 확인됐으며, 해커뉴스 이용자들은 세 주요 AI 서비스가 동시에 다운된 원인을 두고 활발히 추측을 주고받았다. 이후 세 서비스 모두 장애가 해소됐다.",
+        "url": "https://news.ycombinator.com/item?id=49551096",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-09-04T00:07:01+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      },
+      {
+        "id": "qb_5",
+        "title": "구글 안티그래비티 이용약관, \"제3자 사용 시 구글 계정 정지될 수도\"",
+        "excerpt": "구글의 에이전틱 코딩 도구 '안티그래비티' 이용약관에 제3자를 통한 사용 시 구글 계정이 정지될 수 있다는 조항이 있다는 지적이 나와 해커뉴스에서 논란이 됐다.",
+        "body": "이 게시물은 207점, 141개 댓글을 기록하며 개발자들 사이에서 약관 해석과 실제 적용 범위를 둘러싼 논쟁을 촉발했다.",
+        "url": "https://twitter.com/GergelyOrosz/status/2095453567955968398",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-09-03T20:01:04+09:00",
+        "readTime": 2,
+        "imageGradient": 5
+      },
+      {
+        "id": "qb_6",
+        "title": "25년 역사의 '.name' 3단계 도메인, 결국 서비스 종료",
+        "excerpt": "Verisign이 관리 단순화를 이유로 .name 최상위 도메인의 3단계(xxx.yyy.name) 등록 서비스 전체 폐지를 제안했고 ICANN이 이를 승인했다. 25년간 운영된 개인 도메인들도 함께 사라지게 된다.",
+        "body": "'.name'은 일반적인 하위 도메인 재판매 방식과 달리 3단계 도메인을 등록기관이 직접 등록하고 WHOIS 기록까지 제공하도록 설계된 독특한 서비스였다. 이 소식은 해커뉴스에서 940점, 269개 댓글을 기록하며 큰 화제가 됐다.",
+        "url": "https://neil.fraser.name/news/2026/09/03/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-09-03T23:54:39+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      }
+    ]
+  }
+}
