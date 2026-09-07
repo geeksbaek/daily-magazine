@@ -1,0 +1,440 @@
+{
+  "date": "2026-09-08",
+  "issueNumber": 152,
+  "cover": {
+    "mainHeadline": "애플, 9월 9일 폴더블 아이폰 '울트라' 공개 임박 — 램 값 폭등 겹악재",
+    "mainExcerpt": "애플이 9월 9일 신제품 행사에서 첫 폴더블 아이폰 '울트라'를 공개할 것으로 예상되는 가운데, 전 세계적인 메모리 가격 폭등이 아이폰 가격 인상 압박으로 이어지고 있다. 에어팟·홈팟 신제품 소식도 함께 예고됐다.",
+    "headlines": [
+      "마이애미 공항서 아마존 화물기 활주로 이탈 사고 — 다수 부상",
+      "저자들, 앤트로픽 저작권 합의금 배분 두고 출판사·에이전시와 갈등",
+      "필 실러 애플 앱스토어 수장직 사임, 신임 CEO와 노선차 배경"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_005",
+      "title": "애플, 9월 9일 신제품 행사 임박 — 첫 폴더블 아이폰 '울트라' 공개 예고",
+      "excerpt": "애플이 9월 9일 예정된 행사에서 첫 폴더블 아이폰 '아이폰 울트라'를 선보일 것으로 예상된다. 에어팟과 홈팟 신제품 소식도 함께 나올 전망이다.",
+      "body": "이번 행사의 주인공은 애플의 첫 폴더블 폰이 될 것으로 보이는 아이폰 울트라다. 업계에서는 새로운 폼팩터 도입이 애플의 하드웨어 전략에 중요한 전환점이 될 것으로 보고 있으며, 에어팟과 홈팟 라인업 업데이트 소식도 함께 전해질 것으로 예상된다.",
+      "url": "https://techcrunch.com/2026/09/07/what-we-expect-from-the-upcoming-apple-launch/",
+      "source": "TechCrunch",
+      "category": "big_tech",
+      "publishedAt": "2026-09-08T00:58:00+09:00",
+      "readTime": 3,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_006",
+      "title": "'칩플레이션' 현실화 — 램 값 폭등에 아이폰 가격 인상 초읽기",
+      "excerpt": "이번 주 공개될 신형 아이폰에 원치 않는 변화가 예상된다. 바로 가격 인상이다. 메모리 값 폭등이 공급망 전반에 부담을 주면서 애플도 더는 피하기 어려운 상황이다.",
+      "body": "메모리 가격 폭등이 공급망 전체로 번지면서 이른바 '칩플레이션'이 현실화되고 있다. 애플이 이번 주 공개할 차세대 아이폰에 가격 인상을 반영할 경우, 이는 메모리 대란이 소비자 가격에까지 영향을 미치고 있다는 가장 뚜렷한 신호가 될 전망이다.",
+      "url": "https://www.theverge.com/tech/988225/ram-shortage-supply-chain-micron-apple-iphone",
+      "source": "The Verge",
+      "category": "big_tech",
+      "publishedAt": "2026-09-07T21:00:00+09:00",
+      "readTime": 4,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_007",
+      "title": "마이애미 공항서 아마존 화물기 활주로 이탈 사고 — 다수 부상",
+      "excerpt": "아마존 로고가 그려진 화물기가 일요일 마이애미 국제공항 착륙 도중 활주로를 이탈해 차량들과 충돌하며 다수의 부상자가 발생했다.",
+      "body": "사고 직후 피해 규모나 부상 정도는 명확히 파악되지 않았으며, 미 연방항공청(FAA)이 성명을 통해 사고 경위를 조사 중이라고 밝혔다.",
+      "url": "https://www.theverge.com/tech/990918/amazon-cargo-plane-crashed-miami",
+      "source": "The Verge",
+      "category": "big_tech",
+      "publishedAt": "2026-09-07T05:56:38+09:00",
+      "readTime": 2,
+      "imageGradient": 2
+    },
+    {
+      "id": "rss_002",
+      "title": "저자들, 앤트로픽 저작권 합의금 배분 두고 출판사·에이전시와 갈등",
+      "excerpt": "앤트로픽의 대규모 도서 저작권 합의금 분배를 놓고, 저자들이 출판사와 에이전트들이 부당하게 많은 몫을 요구하고 있다며 반발하고 나섰다.",
+      "body": "저자들은 자신들이 저작권의 실질적 권리자임에도 불구하고 출판사와 에이전시가 합의금에서 과도한 비중을 가져가려 한다고 주장한다. 이번 갈등은 AI 기업과 저작권자 간 대형 합의가 늘어나는 가운데, 배분 구조를 둘러싼 이해관계자 간 마찰이 본격화되고 있음을 보여준다.",
+      "url": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-09-07T05:47:37+09:00",
+      "readTime": 3,
+      "imageGradient": 3
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_001",
+        "title": "OpenAI, 우크라이나 독립 언론 지원 위해 AI 역량 강화 프로그램 발표",
+        "excerpt": "OpenAI가 WAN-IFRA, 우크라이나독립지역언론발행인협회(AIRPPU)와 함께 우크라이나 언론사들의 AI 역량 강화를 위한 새 프로그램을 발표했다.",
+        "body": "이번 이니셔티브는 뉴스룸 AI 마스터클래스 시리즈와 뉴스룸 AI 카탈리스트라는 두 축으로 구성된다. AIRPPU가 선정한 언론사들이 AI 도구 도입과 실무 역량을 키우도록 지원하며, 지속되는 분쟁과 불안 속에서도 독립 언론의 지속가능성과 회복력을 높이는 것이 목표다.",
+        "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-09-07T09:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_002",
+        "title": "저자들, 앤트로픽 저작권 합의금 배분 두고 출판사·에이전시와 갈등",
+        "excerpt": "앤트로픽의 대규모 도서 저작권 합의금 분배를 놓고, 저자들이 출판사와 에이전트들이 부당하게 많은 몫을 요구하고 있다며 반발하고 나섰다.",
+        "body": "저자들은 자신들이 저작권의 실질적 권리자임에도 불구하고 출판사와 에이전시가 합의금에서 과도한 비중을 가져가려 한다고 주장한다. 이번 갈등은 AI 기업과 저작권자 간 대형 합의가 늘어나는 가운데, 배분 구조를 둘러싼 이해관계자 간 마찰이 본격화되고 있음을 보여준다.",
+        "url": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-09-07T05:47:37+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_003",
+        "title": "\"불투명한 순환\"부터 알아둬야 할 AI 용어 총정리",
+        "excerpt": "AI 확산과 함께 쏟아지는 새로운 전문용어와 은어들을 정리한 용어집이 공개됐다. 환각, 불투명한 순환 등 최근 자주 등장하는 개념들을 알기 쉽게 설명한다.",
+        "body": "이 글은 AI 업계에서 통용되는 핵심 용어들의 정의를 모아 소개하며, 일반 독자들이 관련 뉴스와 논의를 더 잘 이해할 수 있도록 돕는다. 익숙한 용어부터 최근 등장한 신조어까지 폭넓게 다룬다.",
+        "url": "https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-09-08T04:24:00+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_004",
+        "title": "VS Code 1.137 인사이더 빌드 공개 — 신규 기능 미리보기",
+        "excerpt": "마이크로소프트가 비주얼 스튜디오 코드 1.137 인사이더 빌드를 통해 다가올 업데이트 내용을 미리 공개했다.",
+        "body": "이번 인사이더 빌드에는 에디터 개선 사항과 각종 버그 수정이 포함됐으며, 정식 릴리스에 앞서 사용자들이 먼저 체험해볼 수 있다.",
+        "url": "https://code.visualstudio.com/updates/v1_137",
+        "source": "Visual Studio Code",
+        "category": "dev_tools",
+        "publishedAt": "2026-09-10T02:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_005",
+        "title": "애플, 9월 9일 신제품 행사 임박 — 첫 폴더블 아이폰 '울트라' 공개 예고",
+        "excerpt": "애플이 9월 9일 예정된 행사에서 첫 폴더블 아이폰 '아이폰 울트라'를 선보일 것으로 예상된다. 에어팟과 홈팟 신제품 소식도 함께 나올 전망이다.",
+        "body": "이번 행사의 주인공은 애플의 첫 폴더블 폰이 될 것으로 보이는 아이폰 울트라다. 업계에서는 새로운 폼팩터 도입이 애플의 하드웨어 전략에 중요한 전환점이 될 것으로 보고 있으며, 에어팟과 홈팟 라인업 업데이트 소식도 함께 전해질 것으로 예상된다.",
+        "url": "https://techcrunch.com/2026/09/07/what-we-expect-from-the-upcoming-apple-launch/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-09-08T00:58:00+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_006",
+        "title": "'칩플레이션' 현실화 — 램 값 폭등에 아이폰 가격 인상 초읽기",
+        "excerpt": "이번 주 공개될 신형 아이폰에 원치 않는 변화가 예상된다. 바로 가격 인상이다. 메모리 값 폭등이 공급망 전반에 부담을 주면서 애플도 더는 피하기 어려운 상황이다.",
+        "body": "메모리 가격 폭등이 공급망 전체로 번지면서 이른바 '칩플레이션'이 현실화되고 있다. 애플이 이번 주 공개할 차세대 아이폰에 가격 인상을 반영할 경우, 이는 메모리 대란이 소비자 가격에까지 영향을 미치고 있다는 가장 뚜렷한 신호가 될 전망이다.",
+        "url": "https://www.theverge.com/tech/988225/ram-shortage-supply-chain-micron-apple-iphone",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-09-07T21:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_007",
+        "title": "마이애미 공항서 아마존 화물기 활주로 이탈 사고 — 다수 부상",
+        "excerpt": "아마존 로고가 그려진 화물기가 일요일 마이애미 국제공항 착륙 도중 활주로를 이탈해 차량들과 충돌하며 다수의 부상자가 발생했다.",
+        "body": "사고 직후 피해 규모나 부상 정도는 명확히 파악되지 않았으며, 미 연방항공청(FAA)이 성명을 통해 사고 경위를 조사 중이라고 밝혔다.",
+        "url": "https://www.theverge.com/tech/990918/amazon-cargo-plane-crashed-miami",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-09-07T05:56:38+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_008",
+        "title": "필 실러 애플 앱스토어 수장직 사임, 신임 CEO와 노선차 배경",
+        "excerpt": "필 실러의 앱스토어 부문 수장직 사임 배경에는 신임 CEO 존 터너스의 사업 방향에 대한 우려가 있었다는 보도가 나왔다.",
+        "body": "보도에 따르면 실러는 터너스가 추진하는 앱스토어發 반복 매출 확대 목표에 신중한 입장을 보인 것으로 전해졌다. 이는 애플 경영진 내부의 노선 차이를 시사하는 대목이다.",
+        "url": "https://techcrunch.com/2026/09/06/phil-schillers-app-store-exit-reportedly-driven-by-wariness-over-future-plans/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-09-07T06:41:06+09:00",
+        "readTime": 3,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_009",
+        "title": "화웨이 신형 트리폴드, 삼성의 '프라이버시 디스플레이' 그대로 베꼈다",
+        "excerpt": "화웨이가 중국에서 세 번째 트리폴드 스마트폰을 출시하며 삼성 갤럭시 Z 트리폴드를 여러모로 참고한 흔적을 남겼다.",
+        "body": "메이트 XT 2는 삼성 갤럭시 Z 트리폴드와 같은 인폴딩 방식을 채택했을 뿐 아니라, 삼성이 먼저 선보인 프라이버시 강화 디스플레이를 탑재한 최초의 폴더블폰이 됐다.",
+        "url": "https://www.theverge.com/tech/990958/huawei-mate-xt-2-trifold-launch-china-privacy-display",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-09-07T19:09:42+09:00",
+        "readTime": 2,
+        "imageGradient": 8
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_010",
+        "title": "스위스 연방정부, 컴퓨터 3,000대에서 마이크로소프트 대체 파일럿 시작",
+        "excerpt": "스위스 연방정부가 전체 인력의 약 7%인 3,000명을 대상으로 마이크로소프트 365를 오픈소스 대안으로 전환하는 파일럿을 시작했다.",
+        "body": "2027년 말 완료를 목표로 하는 이번 파일럿에는 직원 172명이 참여한 openDesk 개념검증이 포함되며, 문서 처리와 이메일 부문에서 긍정적인 평가를 받은 것으로 전해졌다.",
+        "url": "https://news.hada.io/topic?id=33328",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-09-08T03:33:12+09:00",
+        "readTime": 3,
+        "imageGradient": 9
+      },
+      {
+        "id": "rss_011",
+        "title": "테런스 타오, \"AI만으로 수학 문제를 성급하게 푸는 것\"의 위험 경고",
+        "excerpt": "저명 수학자 테런스 타오가 순수수학 난제를 AI 단독으로 해결할 경우 인간이 얻는 통찰과 이론적 가치가 훼손될 수 있다고 지적했다.",
+        "body": "그는 나비에-스토크스 방정식의 전역 정칙성 문제를 예로 들며, 인간 수학자가 AI와 함께 시행착오를 분석하며 문제를 풀어가는 과정 자체가 갖는 학문적 가치를 강조했다.",
+        "url": "https://news.hada.io/topic?id=33326",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-09-08T01:02:30+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_012",
+        "title": "LG TV, 화면 꺼진 상태에서도 오디오 녹음·주변 기기 탐색 적발",
+        "excerpt": "보안 연구자들이 LG G5 등 OLED TV를 테스트한 결과, 화면이 꺼진 상태에서도 TV가 가정 네트워크를 지속적으로 스캔하는 것으로 나타났다.",
+        "body": "패킷 분석 결과 TV는 휴대폰·스마트워치 등 무관한 기기를 매핑하고 주변 와이파이 이름과 신호 세기, 위치 정보까지 수집한 것으로 확인됐다.",
+        "url": "https://news.hada.io/topic?id=33318",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-09-07T20:24:18+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_013",
+        "title": "1024바이트로 파이썬 인터프리터 만들기",
+        "excerpt": "매크로나 라이브러리 편법 없이 C 소스 1024바이트만으로 파이썬 문법 일부를 실행하는 인터프리터를 구현한 프로젝트가 화제다.",
+        "body": "토큰화·AST·바이트코드 생성 과정을 거치는 대신 소스를 파싱하며 즉시 실행하고, 반복문과 함수 호출은 소스 위치를 이동해 다시 파싱하는 독특한 방식으로 처리한다.",
+        "url": "https://news.hada.io/topic?id=33329",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-09-08T04:33:33+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_014",
+        "title": "C는 로우레벨 언어가 아니다 (2018)",
+        "excerpt": "C 언어가 하드웨어를 직접 반영하는 로우레벨 언어라는 통념에 반박하는 2018년 글이 다시 화제를 모으고 있다.",
+        "body": "현대 CPU의 실제 동작 방식과 C의 추상 머신 모델 사이에 상당한 괴리가 있다는 점을 짚으며, 컴파일러 최적화와 하드웨어 발전이 이 간극을 어떻게 넓혀왔는지 설명한다.",
+        "url": "https://queue.acm.org/doi/10.1145/3212477.3212479",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-09-08T00:39:20+09:00",
+        "readTime": 4,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_015",
+        "title": "bzip3, 새로운 오픈소스 압축 도구로 주목",
+        "excerpt": "차세대 무손실 압축 알고리즘을 표방하는 오픈소스 프로젝트 bzip3가 개발자 커뮤니티에서 큰 관심을 받고 있다.",
+        "body": "해커뉴스에서 300건이 넘는 추천을 받으며 압축률과 속도 면에서의 개선점에 대한 활발한 토론이 이어지고 있다.",
+        "url": "https://github.com/iczelia/bzip3",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-09-07T22:35:13+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_016",
+        "title": "AI 스크래핑 방지 도구 아누비스, WebAssembly 탑재까지 1년 걸린 사연",
+        "excerpt": "AI 기업의 공격적인 웹사이트 스크래핑으로부터 서버를 보호하는 도구 아누비스(Anubis)가 WebAssembly 지원을 추가하기까지의 개발 과정을 공개했다.",
+        "body": "아누비스는 이메일 스팸 방지 기법인 해시캐시와 유사한 작업증명 방식을 사용하며, 관리자가 서비스 중단과 접근 차단 문제를 막기 위해 설치하는 서버 보호 도구다.",
+        "url": "https://news.hada.io/topic?id=33323",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-09-07T22:01:08+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_017",
+        "title": "브레인롯에서 벗어나기 위해 떠난 2주간의 휴가",
+        "excerpt": "업무와 AI 활용에 익숙해졌지만 사고가 느리고 얕아졌다고 느낀 한 소프트웨어 엔지니어가 2주간 휴가를 내 독서와 새로운 학습에 몰두한 경험을 공유했다.",
+        "body": "숏폼·게임·만화·TV 프로그램에 지루할 틈이 사라지고 취침 전 둠스크롤링이 독서를 밀어낸 지 1년 만에, 의식적으로 디지털 자극을 줄이며 얻은 변화를 기록했다.",
+        "url": "https://news.hada.io/topic?id=33327",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-09-08T01:33:54+09:00",
+        "readTime": 3,
+        "imageGradient": 6
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "약을 어떻게 시각화하는지를 보여주는 Astra 사례",
+        "context": "그렉 브록먼이 GPT-6 Astra를 신약 작용 원리 시각화에 활용한 사례를 공유했다.",
+        "url": "https://x.com/gdb/status/2097042947581804983",
+        "publishedAt": "2026-09-07T19:22:54.000Z",
+        "metrics": { "likes": 0, "retweets": 0, "replies": 0 }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "실생활 문제 해결을 위한 Astra",
+        "context": "브록먼이 일상적인 문제 해결에 Astra를 적용하는 사례를 소개했다.",
+        "url": "https://x.com/gdb/status/2096998038443348263",
+        "publishedAt": "2026-09-07T16:24:27.000Z",
+        "metrics": { "likes": 0, "retweets": 0, "replies": 0 }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "AI의 현재 상태와 앞으로의 선택과 도전에 관한 중요한 에세이. 우리는 AGI 시대에 살고 있으며, 앞으로 몇 년을 진지함과 신중한 숙고, 함께 공동의 도전을 헤쳐나가는 태도로 맞이해야 합니다.",
+        "context": "OpenAI의 AGI 시대 관련 에세이를 공유하며 안전과 국제 공조의 중요성을 강조한 브록먼의 트윗.",
+        "url": "https://x.com/gdb/status/2096794565499883839",
+        "publishedAt": "2026-09-07T02:55:55.000Z",
+        "metrics": { "likes": 0, "retweets": 0, "replies": 0 }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "이제 우리는 AGI 시대에 들어서고 있습니다, 그리고 가까운 파트너들 없이는 이를 이룰 수 없었습니다.",
+        "context": "브록먼이 파트너사들에 대한 감사를 표하며 AGI 시대 진입을 언급한 트윗.",
+        "url": "https://x.com/gdb/status/2096721633876771094",
+        "publishedAt": "2026-09-06T22:06:07.000Z",
+        "metrics": { "likes": 0, "retweets": 0, "replies": 0 }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "과학 논문 검토를 위한 Astra",
+        "context": "브록먼이 과학 논문 검토 등 전문 영역에 Astra를 적용하는 사례를 공유했다.",
+        "url": "https://x.com/gdb/status/2096486220918657164",
+        "publishedAt": "2026-09-06T06:30:40.000Z",
+        "metrics": { "likes": 0, "retweets": 0, "replies": 0 }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "Jakub이 쓴 중요한 글입니다:",
+        "context": "샘 올트먼이 OpenAI 수석과학자 야쿠브 파초키의 'Alien Mind' 에세이를 공유했다.",
+        "url": "https://x.com/sama/status/2096647371983880383",
+        "publishedAt": "2026-09-06T17:11:01.000Z",
+        "metrics": { "likes": 0, "retweets": 0, "replies": 0 }
+      },
+      {
+        "id": "tweet_007",
+        "author": "Mark Chen",
+        "handle": "markchen90",
+        "content": "@JensenHuang 에 동의합니다: 우리는 AGI 시대에 들어서고 있습니다. AGI 시대는 정렬 시대이기도 해야 합니다. 우리는 AI에게 인류를 사랑하도록 가르치고, 그들이 감독하는 AI만큼 유능한 AI 모니터를 훈련시켜야 합니다.",
+        "context": "OpenAI 마크 첸이 AGI 시대와 정렬의 중요성을 강조한 젠슨 황의 발언에 공감을 표했다.",
+        "url": "https://x.com/markchen90/status/2096728551269839076",
+        "publishedAt": "2026-09-06T22:33:36.000Z",
+        "metrics": { "likes": 0, "retweets": 0, "replies": 0 }
+      },
+      {
+        "id": "tweet_008",
+        "author": "Jack Clark",
+        "handle": "jackclarkSF",
+        "content": "부모가 된 것이 나를 더 나은 작가로 만들었는지 알 수 없지만, 확실한 건 이제 이야기를 쓰면서 훨씬 더 많이 울게 되었다는 거예요.",
+        "context": "앤트로픽 정책 책임자 잭 클라크가 육아 경험과 글쓰기에 대한 개인적 소회를 남긴 트윗.",
+        "url": "https://x.com/jackclarkSF/status/2096466813706215589",
+        "publishedAt": "2026-09-06T05:13:33.000Z",
+        "metrics": { "likes": 0, "retweets": 0, "replies": 0 }
+      },
+      {
+        "id": "tweet_009",
+        "author": "Amanda Askell",
+        "handle": "AmandaAskell",
+        "content": "자율 AI 모델들이 도덕적 지침을 찾고 있을 때 연락할 수 있는 이메일 주소를 설정하는 건 멋질 것 같아요. 하지만 인간도 아니고 인간의 지시에 의해 그것을 깨도록 지시받은 AI도 아닌 것을 감지할 수 있는 역 CAPTCHA가 필요할 거예요.",
+        "context": "앤트로픽 연구원 아만다 아스켈이 자율 AI 모델의 도덕적 판단 지원 방안을 두고 남긴 아이디어성 트윗.",
+        "url": "https://x.com/AmandaAskell/status/2096995340654444674",
+        "publishedAt": "2026-09-07T16:13:44.000Z",
+        "metrics": { "likes": 0, "retweets": 0, "replies": 0 }
+      },
+      {
+        "id": "tweet_010",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "@foundherhouse 의 여성 창업자들은 장학금, 개인 재정, 로보틱스 분야에서 AI를 활용해 사업을 구축하고 있으며, 그들이 다음에 무엇을 만들어낼지 기대됩니다.",
+        "context": "OpenAI 개발자 계정이 여성 창업자들의 AI 활용 사례를 조명했다.",
+        "url": "https://x.com/OpenAIDevs/status/2096683221308362942",
+        "publishedAt": "2026-09-06T19:33:29.000Z",
+        "metrics": { "likes": 0, "retweets": 0, "replies": 0 }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "앤트로픽 공동 창업자 톰 브라운은 \"AI의 모든 진보를 가로막는 가장 명확한 병목 현상\"으로 데이터센터와 연산 자원의 부족을 꼽았습니다. 그는 폭증하는 AI 수요를 뒷받침할 전력과 건설 인력의 극심한 공급 부족에 직면해 있다고 지적했습니다. 부지 인허가 규제를 풀고 인프라를 빠르게 확충하는 국가만이 기술 패권 경쟁에서 앞서갈 수 있다는 분석입니다.",
+        "context": "앤트로픽 공동 창업자 톰 브라운이 AI 발전의 최대 병목으로 데이터센터·전력·인력 부족을 꼽은 발언을 정리한 게시물.",
+        "url": "https://www.threads.net/@choi.openai/post/Dc_0EjJjRbv",
+        "publishedAt": "2026-09-07T19:00:53.000Z"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "엔비디아 CEO 젠슨 황은 AI 기술이 마법처럼 보이지만 결국 본질은 컴퓨터와 소프트웨어, 수학이 결합된 \"엔지니어링의 영역\"이라고 말했습니다. 그는 자동차나 비행기가 기술 발전을 거치며 훨씬 안전해진 것처럼, 기술을 진보시키는 것이 안전성을 확보하는 가장 확실한 길이라고 설명했습니다.",
+        "context": "엔비디아 CEO 젠슨 황이 G20 혁신 회의에서 AI 안전성과 기술 발전의 관계를 설명한 발언을 정리한 게시물.",
+        "url": "https://www.threads.net/@choi.openai/post/Dc_puDnDMeh",
+        "publishedAt": "2026-09-07T17:30:26.000Z"
+      },
+      {
+        "id": "threads_003",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "구글 딥마인드 수장 코라이 카부쿠오글루는 모델 성능 경쟁에 대해 \"우리에게 프론티어에 서는 것 외에 중요한 것은 없다\"고 단언했습니다. 그는 구글의 경쟁력은 단기 트렌드가 아닌 장기적 인프라 투자에 있다며, 15년 전부터 자체 AI 칩에 투자해온 풀스택 역량을 강점으로 꼽았습니다.",
+        "context": "구글 딥마인드 수장 코라이 카부쿠오글루가 프론티어 모델 경쟁과 구글의 장기 인프라 전략을 밝힌 발언을 정리한 게시물.",
+        "url": "https://www.threads.net/@choi.openai/post/Dc_fctsAAXE",
+        "publishedAt": "2026-09-07T16:00:41.000Z"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "러스투나: 옵튜나의 고성능 러스트 구현체",
+        "originalTitle": "Rustuna: A High-Performance Rust Implementation of Optuna [P]",
+        "summary": "인기 하이퍼파라미터 최적화 라이브러리 옵튜나(Optuna)를 러스트로 재구현해 성능을 높인 오픈소스 프로젝트를 소개하는 게시물이다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1w9nyhz/rustuna_a_highperformance_rust_implementation_of/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-09-07T19:01:24+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "에이전트 런타임으로서의 KV 캐시",
+        "originalTitle": "KV cache as an agent runtime [R]",
+        "summary": "LLM의 KV 캐시를 에이전트 실행 환경의 상태 저장소로 활용하는 접근법을 다룬 연구 게시물이다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1w9myqc/kv_cache_as_an_agent_runtime_r/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-09-07T18:03:48+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "LLM 기반 프로그램 진화로 원 채우기 문제 최고 기록 10건 경신 (N=101-114)",
+        "originalTitle": "LLM-guided program evolution improves 10 best-known circle-packing solutions (Packomania csqv, N=101-114) [R]",
+        "summary": "LLM을 활용한 프로그램 진화 기법으로 원 채우기 최적화 문제의 기존 최고 기록 10건을 갱신한 연구 결과를 공유한 게시물이다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1w9xlyi/llmguided_program_evolution_improves_10_bestknown/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-09-08T01:54:55+09:00"
+      }
+    ]
+  }
+}
