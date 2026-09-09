@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-09-10",
+      "issueNumber": 154,
+      "mainHeadline": "애플, 첫 폴더블 아이폰 'iPhone Duo' 전격 공개 — 워치·건강 기능까지 대규모 라인업",
+      "headlines": [
+        "OpenAI, 폴 크리스티아노 파운데이션 이사회에 영입 — 안전보안위원회 합류",
+        "Cloudflare, Workers 모듈 레지스트리 전면 재설계 — Node.js 호환성 대폭 강화",
+        "Extropic, GPU 대비 최대 140배 저전력 추론 칩 'Z1T' 공개"
+      ]
+    },
+    {
       "date": "2026-09-09",
       "issueNumber": 153,
       "mainHeadline": "OpenAI, 밀레니엄 난제 '나비에-스토크스' 풀었다 — AI 수학 연구의 새 이정표",

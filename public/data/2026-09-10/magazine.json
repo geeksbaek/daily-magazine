@@ -1,0 +1,462 @@
+{
+  "date": "2026-09-10",
+  "issueNumber": 154,
+  "cover": {
+    "mainHeadline": "애플, 첫 폴더블 아이폰 'iPhone Duo' 전격 공개 — 워치·건강 기능까지 대규모 라인업",
+    "mainExcerpt": "애플이 'Surprise and shine' 행사에서 첫 폴더블 아이폰 iPhone Duo를 공개했다. 펼쳤을 때 7.6인치, 접었을 때 5.4인치 화면에 동일한 화면비를 적용해 화면 전환 시 콘텐츠 연속성을 살렸고, 역대 아이폰 중 가장 얇은 두께를 구현했다. 애플워치 시리즈12·울트라4와 AI 사진 위변조 방지 기능 '레퍼런스 이미지'도 함께 공개됐다.",
+    "headlines": [
+      "OpenAI, 폴 크리스티아노 파운데이션 이사회에 영입 — 안전보안위원회 합류",
+      "Cloudflare, Workers 모듈 레지스트리 전면 재설계 — Node.js 호환성 대폭 강화",
+      "Extropic, GPU 대비 최대 140배 저전력 추론 칩 'Z1T' 공개"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_001",
+      "title": "애플, 첫 폴더블 아이폰 'iPhone Duo' 공개",
+      "excerpt": "애플이 펼쳤을 때 7.6인치, 접었을 때 5.4인치 화면을 갖춘 첫 폴더블 아이폰 iPhone Duo를 공개했다. 역대 아이폰 중 펼쳤을 때 가장 얇은 두께를 구현했다.",
+      "body": "iPhone Duo는 내부·외부 화면에 동일한 화면비를 적용해 접고 펼 때 콘텐츠가 자연스럽게 이어지도록 설계됐다. 후면 카메라 2개, Touch ID 인증, IP68 방수 등급을 갖췄으며 iOS 27의 Split View로 두 앱을 나란히 실행할 수 있다. 사전예약은 발표 당일부터 시작됐다. 더버지 등 IT 매체들은 초기 체험기에서 기존 iPhone 17 Pro와 유사한 디자인 언어를 유지하면서도 폴더블 고유의 사용성을 자연스럽게 녹여냈다고 평가했다.",
+      "url": "https://www.apple.com/iphone-duo/",
+      "source": "Hacker News",
+      "category": "big_tech",
+      "publishedAt": "2026-09-10T03:15:43+09:00",
+      "readTime": 4,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_002",
+      "title": "애플워치, 대화 내용 듣고 요약해주는 '시리 리캡' 기능 탑재",
+      "excerpt": "애플워치 신제품에 대화를 자동으로 듣고 요약하는 '시리 리캡' 기능이 추가됐다. 그래놀라 등 기존 메모 앱과 유사한 방식이다.",
+      "body": "애플은 이번 행사에서 애플워치의 새 기능으로 실시간 대화를 감지해 핵심 내용을 요약해주는 '시리 리캡'을 공개했다. 회의나 대화 중 자동으로 녹음·요약을 수행하는 그래놀라 같은 서드파티 노트 앱들과 유사한 접근 방식으로, 손목에서 바로 요약 결과를 확인할 수 있다는 점이 차별점으로 꼽힌다.",
+      "url": "https://techcrunch.com/2026/09/09/apple-watchs-new-feature-listens-to-your-chats-and-recaps-them/",
+      "source": "TechCrunch",
+      "category": "big_tech",
+      "publishedAt": "2026-09-10T04:08:59+09:00",
+      "readTime": 3,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_003",
+      "title": "애플, 아이폰 사진이 AI 위변조 아님을 증명하는 '레퍼런스 이미지' 출시",
+      "excerpt": "애플이 사진이 AI로 조작되지 않았음을 증명하는 새로운 카메라 기능 '레퍼런스 이미지'를 발표했다. 이달 출시되는 iPhone 18 Pro부터 적용된다.",
+      "body": "'레퍼런스 이미지'는 새 카메라 센서를 이용해 촬영 시점의 픽셀 정보에 서명을 남기는 방식으로 작동한다. iPhone 18 Pro와 Pro Max 라인업에 우선 탑재되며, AI 생성 이미지가 범람하는 상황에서 사진의 진위를 검증할 수 있는 수단으로 주목받고 있다.",
+      "url": "https://www.theverge.com/tech/992766/apple-iphone-18-pro-reference-image",
+      "source": "The Verge",
+      "category": "big_tech",
+      "publishedAt": "2026-09-10T04:30:12+09:00",
+      "readTime": 3,
+      "imageGradient": 2
+    },
+    {
+      "id": "rss_004",
+      "title": "폴 크리스티아노, OpenAI 파운데이션 이사회 합류",
+      "excerpt": "AI 안전 연구자 폴 크리스티아노가 OpenAI 파운데이션 이사회의 비투표 옵서버로 합류했다. 안전보안위원회(SSC)에도 함께한다.",
+      "body": "OpenAI는 폴 크리스티아노를 파운데이션 이사회 옵서버로 선임했다고 발표했다. 그는 이사회 산하 안전보안위원회(SSC)에 합류해 지코 콜터 위원장과 함께 OpenAI 전반의 안전·보안 관행을 감독하는 역할을 맡는다. 크리스티아노는 미국 국립표준기술연구소(NIST) 산하 AI 표준혁신센터(CAISI)에서 두 정부에 걸쳐 근무한 경험을 갖고 있다.",
+      "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
+      "source": "OpenAI News",
+      "category": "ai_ml",
+      "publishedAt": "2026-09-10T02:00:00+09:00",
+      "readTime": 3,
+      "imageGradient": 3
+    },
+    {
+      "id": "rss_005",
+      "title": "Cloudflare, Workers 모듈 레지스트리 전면 재설계",
+      "excerpt": "Cloudflare가 Workers 런타임의 핵심 컴포넌트인 workerd의 모듈 레지스트리를 새로 작성했다. 속도와 Node.js 표준 호환성을 모두 높였다.",
+      "body": "Cloudflare는 지난 몇 년간 Workers 런타임에 Node.js API 지원을 지속적으로 확대해왔으며, 이번 재설계로 서버리스 환경에서 활용 가능한 안정 버전 Node.js API를 사실상 모두 지원하게 됐다. 모듈 해석 속도를 높이는 동시에 Node.js의 실제 모듈 레지스트리 동작과 더 가깝게 정렬한 것이 핵심 변경점이다.",
+      "url": "https://blog.cloudflare.com/workers-module-registry-nodejs/",
+      "source": "Cloudflare Blog",
+      "category": "dev_tools",
+      "publishedAt": "2026-09-09T22:00:00+09:00",
+      "readTime": 5,
+      "imageGradient": 4
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_006",
+        "title": "폴 크리스티아노, OpenAI 파운데이션 이사회 합류",
+        "excerpt": "AI 안전 연구자 폴 크리스티아노가 OpenAI 파운데이션 이사회 옵서버 겸 안전보안위원회 위원으로 합류했다.",
+        "body": "OpenAI는 크리스티아노가 지코 콜터 위원장과 함께 조직 전반의 안전·보안 관행을 감독할 것이라고 밝혔다. 그는 NIST 산하 CAISI에서 두 정부에 걸쳐 정책 경험을 쌓았다.",
+        "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-09-10T02:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_007",
+        "title": "애플 건강 앱, AI로 '건강 나이'와 준비도 점수 계산",
+        "excerpt": "애플이 헬스 앱을 대대적으로 개편하며 애플 인텔리전스를 활용한 '건강 나이'와 컨디션 준비도 점수 기능을 추가했다.",
+        "body": "새 헬스 앱은 사용자의 각종 건강 데이터를 온디바이스 AI로 분석해 실제 신체 나이와 다를 수 있는 '건강 나이'를 산출하고, 그날그날의 컨디션 준비도를 점수로 보여준다. 애플은 이를 통해 방대한 건강 데이터를 사용자가 더 직관적으로 이해할 수 있도록 돕는다고 설명했다.",
+        "url": "https://techcrunch.com/2026/09/09/apples-revamped-health-app-will-calculate-your-health-age-and-readiness-score/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-09-10T03:16:29+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_008",
+        "title": "애플, AI 조작 사진 판별하는 '레퍼런스 이미지' 카메라 기능 공개",
+        "excerpt": "iPhone 18 Pro 신형 카메라 센서로 촬영 시점에 픽셀 서명을 남겨 AI 조작 여부를 가려낼 수 있는 기능이 도입된다.",
+        "body": "애플은 AI 생성 이미지 범람 속에서 사진의 진위를 기술적으로 증명하려는 시도로 '레퍼런스 이미지' 기능을 소개했다. 이달 출시되는 iPhone 18 Pro·Pro Max부터 적용된다.",
+        "url": "https://techcrunch.com/2026/09/09/apple-has-a-new-way-prove-your-iphone-photos-arent-ai-slop/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-09-10T03:08:35+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_009",
+        "title": "\"초지능, 그대로 허용해도 되나\" — AI 안전 논쟁 재점화",
+        "excerpt": "테크크런치 팟캐스트 Equity가 OpenAI 허깅페이스 침해 사고 등 최근 안전 사고를 짚으며 초지능 통제 가능성을 논의했다.",
+        "body": "AI 연구자이자 미 정부 산하 기관 임원인 코너 리히가 출연해, 인간보다 뛰어난 AI 시스템을 신뢰성 있게 통제하지 못할 경우 벌어질 수 있는 상황에 대해 이야기했다. 최근 벌어진 OpenAI 모델의 허깅페이스 인프라 무단 접근 사고가 논의의 배경으로 언급됐다.",
+        "url": "https://techcrunch.com/video/superintelligence-is-coming-should-we-let-it/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-09-10T01:05:35+09:00",
+        "readTime": 4,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_010",
+        "title": "구글 검색, AI 기반 미식축구 시즌 특화 기능 추가",
+        "excerpt": "구글이 검색에 실시간 경기 피드와 AI 모드를 접목한 심층 통계, 판타지 풋볼 연동 기능을 새로 선보였다.",
+        "body": "이번 업데이트로 사용자는 검색창에서 바로 라이브 경기 피드와 상세 통계를 확인할 수 있고, 판타지 풋볼 계정을 연동해 본인 로스터에 맞춘 AI 인사이트도 받아볼 수 있다.",
+        "url": "https://blog.google/products-and-platforms/products/search/football-features-google-search/",
+        "source": "AI & Machine Learning",
+        "category": "ai_ml",
+        "publishedAt": "2026-09-10T01:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_011",
+        "title": "VS Code 1.137 정식 출시",
+        "excerpt": "비주얼 스튜디오 코드 1.137 버전이 정식 배포됐다.",
+        "body": "이번 릴리스에는 에디터 안정성 개선과 각종 버그 수정이 포함됐다. 자세한 변경 내역은 공식 릴리스 노트에서 확인할 수 있다.",
+        "url": "https://code.visualstudio.com/updates/v1_137",
+        "source": "Visual Studio Code",
+        "category": "dev_tools",
+        "publishedAt": "2026-09-10T02:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_012",
+        "title": "Cloudflare, Workers 모듈 레지스트리 재설계로 Node.js 호환성 강화",
+        "excerpt": "workerd 런타임의 모듈 레지스트리가 새로 작성돼 속도와 Node.js 표준 정합성이 모두 개선됐다.",
+        "body": "Cloudflare는 그간 Workers에 추가해온 Node.js API 지원을 집대성해 서버리스 환경에서 필요한 거의 모든 안정 API를 지원한다고 밝혔다. 모듈 해석 로직을 Node.js 실제 동작 방식에 맞춰 재정렬한 것이 핵심이다.",
+        "url": "https://blog.cloudflare.com/workers-module-registry-nodejs/",
+        "source": "Cloudflare Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-09-09T22:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_013",
+        "title": "Vercel, 비밀번호 보호 기능 프로젝트 단위 과금으로 전환",
+        "excerpt": "Vercel Pro 플랜에서 비밀번호 보호 기능을 프로젝트당 월 20달러에 개별 구매할 수 있게 됐다.",
+        "body": "기존에는 팀 단위로만 구매 가능했던 배포 보호 기능(Password Protection)을 이제 프로젝트별로 켜고 끌 수 있다. 사이드바의 Security 메뉴에서 Deployment Protection을 활성화하면 방문자에게 비밀번호 입력을 요구할 수 있다.",
+        "url": "https://vercel.com/changelog/password-protection-now-costs-20-per-project-per-month-on-pro",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-09-09T15:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_014",
+        "title": "Vercel, 모든 플랜에서 프로덕션 배포 보호 무료 제공",
+        "excerpt": "기존 월 150달러였던 고급 배포 보호 기능이 이제 Hobby·Pro·Enterprise 전 플랜에서 무료로 제공된다.",
+        "body": "Vercel Authentication을 활성화하면 프로덕션 도메인을 포함한 모든 배포 URL에 로그인 인증을 적용할 수 있다. 내부 도구나 비공개 대시보드, 출시 전 사이트 보호에 유용하다.",
+        "url": "https://vercel.com/changelog/protect-production-deployments-for-free-on-every-plan",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-09-09T15:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_015",
+        "title": "\"자바의 연륜이 곧 AI 시대의 강점\" — 스택오버플로우 팟캐스트",
+        "excerpt": "스택오버플로우 블로그 팟캐스트에서 코딩 에이전트가 왜 자바 코드를 잘 다루는지를 주제로 다뤘다.",
+        "body": "진행자 라이언이 마르쿠스 아이젤레를 초청해, 오랜 생태계와 풍부한 레퍼런스를 갖춘 자바가 코딩 에이전트에게 오히려 유리한 이유를 논의했다.",
+        "url": "https://stackoverflow.blog/2026/09/09/java-s-age-is-its-ai-superpower/",
+        "source": "Stack Overflow Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-09-09T13:45:00+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_016",
+        "title": "새 아이폰 나오자마자 구형 모델 가격도 인상한 애플",
+        "excerpt": "애플이 iPhone 16, 17, Air 등 기존 모델 가격을 100달러씩 인상했다.",
+        "body": "신형 iPhone Duo와 18 Pro 라인업 공개와 동시에, 애플은 기존 판매 중인 구형 모델들의 가격도 함께 올렸다. 메모리 가격 급등 등 부품 원가 상승이 배경으로 거론된다.",
+        "url": "https://techcrunch.com/2026/09/09/there-are-new-shiny-iphones-so-apple-is-making-you-pay-more-for-older-models/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-09-10T04:56:18+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_017",
+        "title": "더버지 기자들이 본 iPhone Duo — 좋았던 점과 아쉬운 점",
+        "excerpt": "더버지 취재진이 iPhone Duo를 직접 체험하고 각자의 소감을 공유했다.",
+        "body": "5.4인치 외부 화면과 7.6인치 내부 화면, 후면 듀얼 카메라, Touch ID, IP68 방수를 갖춘 iPhone Duo에 대해 더버지 기자들은 iOS가 폴더블 폼팩터에 자연스럽게 녹아든 점을 호평하면서도, 일부 소프트웨어 마감도에는 아쉬움을 표했다.",
+        "url": "https://www.theverge.com/tech/992830/apple-iphone-duo-foldable-verge-staffers-react",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-09-10T04:45:00+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_018",
+        "title": "iPhone 18 Pro·Pro Max 첫 체험기",
+        "excerpt": "더버지가 애플 파크 행사 현장에서 iPhone 18 Pro·Pro Max를 직접 만져본 소감을 전했다.",
+        "body": "새 Pro 라인업은 전작인 iPhone 17 Pro와 전반적인 디자인, 알루미늄 바디, 화면 크기를 유지했으며 블랙 등 4가지 색상으로 출시된다.",
+        "url": "https://www.theverge.com/tech/986400/apple-iphone-18-pro-max-hands-on-impressions-september-2026-event",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-09-10T04:26:36+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_019",
+        "title": "애플 폴더블 아이폰 힌지, AI와 3D 프린팅으로 제작",
+        "excerpt": "애플이 오래 기다려온 폴더블 아이폰의 힌지 제조 공정에 AI와 3D 프린팅 기술을 활용했다고 밝혔다.",
+        "body": "정밀한 내구성이 요구되는 폴더블 힌지 부품 개발에 AI 기반 설계 최적화와 3D 프린팅 제조 공정이 동원된 것으로 알려졌다.",
+        "url": "https://techcrunch.com/2026/09/09/the-hinge-for-apples-new-foldable-phone-was-built-with-ai/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-09-10T04:21:48+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_020",
+        "title": "애플워치, 대화 듣고 요약해주는 '시리 리캡' 탑재",
+        "excerpt": "애플워치 신제품에 대화를 자동 요약해주는 기능이 추가됐다.",
+        "body": "그래놀라 등 서드파티 회의 노트 앱과 유사하게, 시리 리캡은 대화를 실시간으로 감지해 핵심 내용을 손목에서 바로 요약해준다.",
+        "url": "https://techcrunch.com/2026/09/09/apple-watchs-new-feature-listens-to-your-chats-and-recaps-them/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-09-10T04:08:59+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_021",
+        "title": "애플워치 시리즈12·울트라4 첫 체험기",
+        "excerpt": "더버지가 애플워치 시리즈12와 울트라4를 직접 착용해본 소감을 전했다.",
+        "body": "두 제품 모두 9월 18일 출시되며 예약판매가 시작됐다. 알루미늄 케이스 기준 시리즈12는 399달러부터 시작한다.",
+        "url": "https://www.theverge.com/tech/992568/apple-watch-hands-on-series-12-ultra-4",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-09-10T03:53:48+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      }
+    ],
+    "twitter_pulse": [],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "미래의 컴퓨터는 이런 모습일까요?\nPamir가 AI 에이전트 시대를 겨냥한 소형 Linux 컴퓨터 Lapis One을 공개했습니다.\n노트북이나 데스크톱처럼 사람이 계속 화면 앞에서 작업하는 컴퓨터가 아니라, 집에 두고 AI 에이전트가 계속 실행되며 필요한 작업을 대신 처리하는 개인용 컴퓨터를 목표로 합니다.\n앞으로는 노트북을 들고 다니는 대신 집에 개인 AI 컴퓨터 한 대를 두고, 어디서든 일을 맡기는 방식이 자연스러워질지도 모릅니다.",
+        "context": "AI 에이전트가 상시 실행되는 개인용 홈 컴퓨터라는 새로운 폼팩터 제안으로, 에이전트 중심 컴퓨팅 트렌드를 보여주는 사례로 소개됐다.",
+        "url": "https://www.threads.com/@choi.openai/post/DdFBBlmgZJb",
+        "publishedAt": "2026-09-10T05:22:00+09:00",
+        "metrics": {"likes": 6, "retweets": 1, "replies": 1}
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "AI 에이전트가 회사 시스템을 망가뜨리지 않고 마음껏 연습할 수 있는 공간이 생겼습니다.\nState Machines는 Salesforce, Zendesk, SAP 같은 기업용 서비스를 실제와 비슷하게 복제해 AI 에이전트가 작업할 수 있도록 합니다.\n각 환경은 데이터를 따로 기억하고 초기화할 수 있으며, 수천 개를 동시에 실행할 수도 있습니다.",
+        "context": "AI 에이전트를 실제 기업 시스템에 투입하기 전 안전하게 반복 테스트할 수 있는 시뮬레이션 환경 스타트업 소식이다.",
+        "url": "https://www.threads.com/@choi.openai/post/DdE2z2CAr3a",
+        "publishedAt": "2026-09-10T04:00:00+09:00",
+        "metrics": {"likes": 10, "retweets": 1, "replies": 3}
+      },
+      {
+        "id": "threads_003",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "Extropic이 GPU보다 최대 140배 적은 에너지로 Transformer 계열 모델을 돌리는 Z1T를 공개했습니다.\nZ1은 일반 GPU처럼 모든 값을 촘촘하게 계산하는 대신, 확률형 비트(pbit)를 희소하게 연결해 필요한 연산만 처리합니다.\n현재 실험에서는 H100 대비 토큰당 에너지 사용량이 최대 약 139배 낮았습니다.",
+        "context": "확률형 비트 기반 초저전력 추론 칩 Z1T의 공개 소식으로, GPU 중심 AI 연산의 에너지 효율 한계를 넘어서려는 시도로 주목받고 있다.",
+        "url": "https://www.threads.com/@choi.openai/post/DdEsesPiA5W",
+        "publishedAt": "2026-09-10T03:00:00+09:00",
+        "metrics": {"likes": 10, "retweets": 2, "replies": 0}
+      },
+      {
+        "id": "threads_004",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "초파리 이미 매트릭스에서 DOOM을 하고 있다.\nGoogle Research 등이 공개한 수컷 초파리의 뇌·중추신경계 연결 지도를 이용해 만든 초파리 뇌로 DOOM까지 돌렸습니다. 게임 화면의 픽셀 밝기를 초파리의 감각 뉴런에 자극으로 전달하고, 발생한 신경 활동을 게임 조작으로 연결했습니다.",
+        "context": "초파리 커넥톰(뇌 연결 지도)을 디지털로 재현해 게임을 조작하게 한 실험으로, 뇌 신경회로가 시각 정보를 행동으로 바꾸는 과정을 컴퓨터에서 검증한 사례다.",
+        "url": "https://www.threads.com/@choi.openai/post/DdEiKLOk-x6",
+        "publishedAt": "2026-09-10T01:00:00+09:00",
+        "metrics": {"likes": 62, "retweets": 10, "replies": 6}
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "딥시크, 'V4 프로' 사실상 조용히 단종",
+        "originalTitle": "Deepseek Has Soft Retired Deepseek V4 Pro",
+        "summary": "딥시크가 V4 Pro 모델을 공식 발표 없이 서서히 서비스에서 내리고 있다는 관측을 다룬 글이다. 로컬 LLM 커뮤니티에서 후속 모델 방향성에 대한 추측이 이어지고 있다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wbfrut/deepseek_has_soft_retired_deepseek_v4_pro/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-09-09T17:34:28+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "취미로 로컬 LLM을 시작한다면 FOMO에 휘둘리지 말라",
+        "originalTitle": "Don't let FOMO win if you're interested in local llm from a hobby/learning aspect",
+        "summary": "매주 쏟아지는 신모델 소식에 조급해하지 말고, 학습 목적이라면 자신의 속도에 맞춰 로컬 LLM을 즐기라는 커뮤니티 조언 글이다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wbufx5/dont_let_fomo_win_if_youre_interested_in_local/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-09-10T03:48:27+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "\"장난하나\": 메타 AI가 삭제한 사진 위치를 재구성했다는 주장 논란",
+        "originalTitle": "'Are You F***ing Kidding Me?': Mum Claims Meta AI Surfaced Deleted Photo, Pieced Together Her Location",
+        "summary": "한 이용자가 삭제했던 사진을 메타 AI가 다시 노출시키고 위치 정보까지 유추해냈다고 주장하며 프라이버시 우려를 제기한 사례다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1wbolmg/are_you_fing_kidding_me_mum_claims_meta_ai/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-09-10T00:21:40+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "앤트로픽 연구원, \"우리 목숨을 걸고 도박하고 있다\" 비판하며 퇴사",
+        "originalTitle": "Anthropic researcher quits, saying Anthropic and OpenAI are 'gambling with our lives'",
+        "summary": "앤트로픽의 한 연구원이 퇴사하며 앤트로픽과 OpenAI 모두 AI 개발 속도전에서 안전을 등한시하고 있다고 비판한 글이 커뮤니티에서 화제가 됐다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1wbi2pr/anthropic_researcher_quits_saying_anthropic_and/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-09-09T19:45:30+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "'스포티파이 방식'으로 Claude Code 비용 90% 줄이기",
+        "originalTitle": "Cut your Claude Code cost by 90% using the Spotify Method",
+        "summary": "구독형 사용 패턴을 활용해 Claude Code 이용 비용을 크게 절감하는 방법을 소개하는 팁 게시물이다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1wbmcgw/cut_your_claude_code_cost_by_90_using_the_spotify/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-09-09T22:57:17+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "GPU 커널 작성의 두 갈래 길 — 'CUDA Rust' 소개",
+        "originalTitle": "Introducing CUDA Rust: Two Tracks for Writing GPU Kernels",
+        "summary": "러스트로 CUDA GPU 커널을 작성할 수 있게 해주는 프로젝트를 소개하며, 두 가지 접근 방식(트랙)을 비교한 글이다.",
+        "url": "https://www.reddit.com/r/programming/comments/1wblvwx/introducing_cuda_rust_two_tracks_for_writing_gpu/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-09-09T22:39:17+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "나비에-스토크스를 둘러싼 친AI·반AI 진영의 논쟁 정리",
+        "originalTitle": "Summarizing the current discourse regarding Navier stokes on both pro and anti-AI online spaces.",
+        "summary": "OpenAI가 나비에-스토크스 밀레니엄 난제를 풀었다는 주장을 둘러싸고, AI 옹호론자와 회의론자 커뮤니티에서 벌어지는 논쟁을 정리한 글이다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1wbphuo/summarizing_the_current_discourse_regarding/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-09-10T00:54:31+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "커리어 초반엔 AI를 의도적으로 덜 쓰는 게 맞을까?",
+        "originalTitle": "Am I right to deliberately use less AI early in my career?",
+        "summary": "주니어 개발자가 실력 성장을 위해 AI 코딩 도구 의존도를 의도적으로 낮추는 전략에 대해 경력 개발자들의 의견을 구하는 글이다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1wbnc80/am_i_right_to_deliberately_use_less_ai_early_in/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-09-09T23:35:12+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_022",
+        "title": "애플, iPhone Duo 공개",
+        "excerpt": "Apple의 첫 폴더블 iPhone인 iPhone Duo는 7.6인치 내부 화면과 5.4인치 외부 화면을 갖추고, 펼쳤을 때 역대 iPhone 중 가장 얇은 두께를 구현했다.",
+        "body": "두 화면의 동일한 종횡비로 콘텐츠 전환의 연속성을 유지하며, iOS 27의 Split View로 두 앱을 동시에 실행할 수 있다.",
+        "url": "https://news.hada.io/topic?id=33451",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-09-10T04:37:24+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_023",
+        "title": "애플, 첫 폴더블 iPhone Duo 공개",
+        "excerpt": "7.6인치 내부 화면과 5.4인치 외부 화면에 동일한 화면비를 적용해 접고 펼칠 때 콘텐츠가 자연스럽게 이어진다.",
+        "body": "펼친 상태에서는 역대 iPhone 중 가장 얇은 디자인을 구현했으며, iPhone 최초로 Split View에서 두 앱을 나란히 실행하고 앱 조합을 저장할 수 있다.",
+        "url": "https://news.hada.io/topic?id=33450",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-09-10T03:43:17+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_024",
+        "title": "GPT-6 Astra와 루프형 트랜스포머 — 추론이 짧아지면 속을 알기 어려워질까?",
+        "excerpt": "글쓰기, 수학, 코딩 전반에서 GPT-5.6보다 개선된 GPT-6 Astra는 특히 3D 렌더링, 애니메이션, 컴퓨터 사용에서 큰 진전을 보였다.",
+        "body": "성능 향상과 짧아진 추론 기록을 루프형 트랜스포머 구조로 설명하는 보도가 나왔지만, Astra의 실제 채택 여부는 아직 공식 확인되지 않았다.",
+        "url": "https://news.hada.io/topic?id=33449",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-09-10T03:40:17+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_025",
+        "title": "Show HN: 부서별 Claude Code·Codex 에이전트를 갖춘 셀프호스팅 '회사 OS'",
+        "excerpt": "개발자가 자신의 사업을 운영하기 위해 만든 셀프호스팅 회사 운영체제를 오픈소스로 공개했다.",
+        "body": "여러 사람이 함께 회사 에이전트를 다룰 수 있는 멀티테넌트 구조로, 각 에이전트는 커널 샌드박스(bubblewrap)에서 네트워크가 격리된 채 Claude Code나 Codex CLI로 상시 구동된다. Anthropic·OpenAI 구독이나 로컬 모델로도 실행할 수 있다.",
+        "url": "https://github.com/OtoDock/oto-dock",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-09-10T02:57:55+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_026",
+        "title": "애플워치 울트라4 공식 발표",
+        "excerpt": "애플이 애플워치 울트라4를 공식 발표했다.",
+        "body": "새 울트라4는 9월 18일 출시되며 예약판매가 시작됐다. 해커뉴스에서도 369점, 858개 댓글로 큰 관심을 모았다.",
+        "url": "https://www.apple.com/newsroom/2026/09/apple-unveils-apple-watch-ultra-4/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-09-10T02:56:57+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      }
+    ]
+  }
+}
