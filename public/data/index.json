@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-09-11",
+      "issueNumber": 155,
+      "mainHeadline": "OpenAI, 250명 투입해 AI로 자사 시스템 취약점 발견·수정 — 사이버 방어 플레이북 전격 공개",
+      "headlines": [
+        "앤트로픽, 역대 최대 규모 위협 인텔리전스 보고서 공개 — Claude 악용 시도 전방위 저지",
+        "OpenAI, 금융 서비스 전용 ChatGPT 출시 — 모건스탠리·에버코어와 공동 개발",
+        "폴 크리스티아노, OpenAI 재단 안전보안위원회 합류"
+      ]
+    },
+    {
       "date": "2026-09-10",
       "issueNumber": 154,
       "mainHeadline": "애플, 첫 폴더블 아이폰 'iPhone Duo' 전격 공개 — 워치·건강 기능까지 대규모 라인업",
