@@ -1,0 +1,961 @@
+{
+  "date": "2026-09-12",
+  "issueNumber": 156,
+  "cover": {
+    "mainHeadline": "앤트로픽 연구원, '초지능 폭주' 경고하며 전격 사임",
+    "mainExcerpt": "앤트로픽의 한 연구원이 회사가 안전장치 없이 자기 개선형 초지능을 향해 질주하고 있다고 경고하며 사임했다. 얼라인먼트 리더까지 이 메시지에 서명하면서, 최근 발표된 위협 인텔리전스 보고서·사이버보안 논란과 맞물려 업계에 파장이 커지고 있다.",
+    "headlines": [
+      "애플, 아이폰 18 프로 사전예약 시작 — 새 애플워치·에어팟5도 함께 공개",
+      "문샷AI, 연 매출 20억 달러 목표 제시 — 키미 모델 앞세워 중국 AI 굴기",
+      "젠슨 황 \"엔비디아 내년 70% 성장\" — 순환거래 의혹엔 선그어"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_001",
+      "title": "앤트로픽 연구원의 '종말론적 경고', 절묘한 시점에 나오다",
+      "excerpt": "앤트로픽의 한 연구원이 이번 주 사임하며 X(트위터)에 회사가 '자기 개선형 초지능을 향해 목숨을 걸고 질주하고 있다'고 경고했다. 회사의 얼라인먼트 리더도 이 메시지에 공동 서명하며 물러서지 않았다.",
+      "body": "앤트로픽의 한 연구원이 사퇴 직후 공개 경고를 내놓으면서 업계에 파장이 일고 있다. 그는 회사가 충분한 안전장치 없이 자기 개선형 초지능 개발을 향해 질주하고 있다고 주장했다. 특히 앤트로픽의 얼라인먼트 담당 리더가 이 발언을 철회하지 않고 공동 서명했다는 점이 논란을 키우고 있다. 이번 경고는 앤트로픽이 대규모 위협 인텔리전스 보고서를 발표하고 사이버보안 논란에 휩싸인 시점과 겹쳐 더 큰 파장을 낳고 있다.",
+      "url": "https://techcrunch.com/podcast/an-anthropic-researchers-doomsday-warning-comes-at-a-very-interesting-time/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-09-12T03:41:49+09:00",
+      "readTime": 4,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_002",
+      "title": "OpenAI, 금융 서비스 전용 ChatGPT 출시",
+      "excerpt": "OpenAI가 GPT-6 Astra의 추론 능력과 실시간 금융 데이터를 결합한 'ChatGPT for Financial Services'를 공개했다. Daloopa, PitchBook, LSEG 등 프리미엄 데이터셋을 내장해 금융팀의 리서치와 모델링 작업을 지원한다.",
+      "body": "이 제품은 ChatGPT Work를 기반으로 한 맞춤형 경험으로, 금융권 팀이 프리미엄 데이터에 직접 접근해 리서치 보고서를 작성하고 재무 모델을 구축하며 고객 맞춤 자료를 생성할 수 있게 해준다. Daloopa의 재무 데이터, PitchBook의 사모·벤처 데이터, LSEG 뉴스 등이 통합되어 있어 별도 데이터 조달 없이 바로 활용할 수 있다. OpenAI는 이번 출시로 금융 산업 내 입지를 넓히며 특화 전략을 강화하고 있다.",
+      "url": "https://openai.com/index/introducing-chatgpt-financial-services/",
+      "source": "OpenAI News",
+      "category": "ai_ml",
+      "publishedAt": "2026-09-11T03:35:00+09:00",
+      "readTime": 3,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_003",
+      "title": "앤트로픽, 알리바바·문샷AI·딥시크의 '증류' 공격 정황 공개",
+      "excerpt": "앤트로픽이 새 보고서를 통해 알리바바, 문샷AI, 딥시크 등 중국 AI 기업들의 지속적인 증류(distillation) 공격 정황을 공개했다. 경쟁이 치열해지면서 최근 몇 달간 이런 시도가 눈에 띄게 늘었다고 밝혔다.",
+      "body": "증류는 대형 모델의 출력을 이용해 더 작은 모델을 학습시키는 기법으로, 무단으로 이뤄질 경우 지적재산권 문제를 야기할 수 있다. 앤트로픽은 이번 보고서에서 자사 Claude 모델을 겨냥한 조직적이고 지속적인 증류 시도가 여러 중국 기업으로부터 확인됐다고 설명했다. 이는 앤트로픽이 최근 공개한 대규모 위협 인텔리전스 보고서와 맞물려, AI 업계 경쟁이 기술 탈취 수준으로 격화되고 있음을 보여준다.",
+      "url": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-09-11T05:57:30+09:00",
+      "readTime": 4,
+      "imageGradient": 2
+    },
+    {
+      "id": "rss_004",
+      "title": "애플, 아이폰 18 프로 사전예약 시작 — 새 애플워치·에어팟5도 공개",
+      "excerpt": "애플이 9월 12일(토)부터 아이폰 18 프로와 프로 맥스 사전예약을 시작한다고 밝혔다. 새 애플워치 라인업과 에어팟5도 함께 공개됐으며, 정식 출시일은 9월 18일이다.",
+      "body": "이번 발표는 애플의 하반기 하드웨어 라인업 공개의 일환으로, 폴더블 아이폰 '아이폰 듀오'에 이어 정통 프로 라인업까지 갖추게 됐다. 에어팟5는 대중형 모델 최초로 능동 소음 차단(ANC) 기능을 탑재했으며, 애플워치 시리즈12와 울트라4도 같은 날 출시된다. 사전예약은 9월 12일부터 시작되며, 정식 판매는 9월 18일부터다.",
+      "url": "https://www.apple.com/newsroom/2026/09/get-ready-to-experience-iphone-18-pro-the-new-apple-watch-lineup-and-airpods-5/",
+      "source": "Apple Newsroom",
+      "category": "big_tech",
+      "publishedAt": "2026-09-12T01:00:08+09:00",
+      "readTime": 3,
+      "imageGradient": 3
+    },
+    {
+      "id": "rss_005",
+      "title": "젠슨 황 \"엔비디아, 내년에도 70% 성장\" — 순환거래 의혹엔 선긋기",
+      "excerpt": "엔비디아 CEO 젠슨 황이 내년에도 회사가 약 70%의 폭발적 성장을 이어갈 것이라고 밝혔다. 최근 제기된 '순환 투자' 의혹에 대해서는 사실이 아니라고 일축했다.",
+      "body": "젠슨 황은 엔비디아가 AI 반도체 시장 전반에 걸쳐 사업을 확장하고 있으며, 내년에도 강력한 성장세가 이어질 것으로 자신했다. 최근 업계 일각에서 제기된 엔비디아의 투자·매출 구조가 순환거래에 가깝다는 의혹에 대해서는 명확히 선을 그으며, 자사의 파트너십과 거래 구조가 정상적인 비즈니스 관계에 기반한다고 강조했다.",
+      "url": "https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year/",
+      "source": "TechCrunch AI",
+      "category": "big_tech",
+      "publishedAt": "2026-09-11T06:51:59+09:00",
+      "readTime": 4,
+      "imageGradient": 4
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_001",
+        "title": "앤트로픽 연구원의 '종말론적 경고', 절묘한 시점에 나오다",
+        "excerpt": "앤트로픽의 한 연구원이 이번 주 사임하며 X(트위터)에 회사가 '자기 개선형 초지능을 향해 목숨을 걸고 질주하고 있다'고 경고했다. 회사의 얼라인먼트 리더도 이 메시지에 공동 서명하며 물러서지 않았다.",
+        "body": "앤트로픽의 한 연구원이 사퇴 직후 공개 경고를 내놓으면서 업계에 파장이 일고 있다. 그는 회사가 충분한 안전장치 없이 자기 개선형 초지능 개발을 향해 질주하고 있다고 주장했다. 특히 앤트로픽의 얼라인먼트 담당 리더가 이 발언을 철회하지 않고 공동 서명했다는 점이 논란을 키우고 있다. 이번 경고는 앤트로픽이 대규모 위협 인텔리전스 보고서를 발표하고 사이버보안 논란에 휩싸인 시점과 겹쳐 더 큰 파장을 낳고 있다.",
+        "url": "https://techcrunch.com/podcast/an-anthropic-researchers-doomsday-warning-comes-at-a-very-interesting-time/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-09-12T03:41:49+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_002",
+        "title": "OpenAI, 금융 서비스 전용 ChatGPT 출시",
+        "excerpt": "OpenAI가 GPT-6 Astra의 추론 능력과 실시간 금융 데이터를 결합한 'ChatGPT for Financial Services'를 공개했다. Daloopa, PitchBook, LSEG 등 프리미엄 데이터셋을 내장해 금융팀의 리서치와 모델링 작업을 지원한다.",
+        "body": "이 제품은 ChatGPT Work를 기반으로 한 맞춤형 경험으로, 금융권 팀이 프리미엄 데이터에 직접 접근해 리서치 보고서를 작성하고 재무 모델을 구축하며 고객 맞춤 자료를 생성할 수 있게 해준다. Daloopa의 재무 데이터, PitchBook의 사모·벤처 데이터, LSEG 뉴스 등이 통합되어 있어 별도 데이터 조달 없이 바로 활용할 수 있다. OpenAI는 이번 출시로 금융 산업 내 입지를 넓히며 특화 전략을 강화하고 있다.",
+        "url": "https://openai.com/index/introducing-chatgpt-financial-services/",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-09-11T03:35:00+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_003",
+        "title": "앤트로픽, 알리바바·문샷AI·딥시크의 '증류' 공격 정황 공개",
+        "excerpt": "앤트로픽이 새 보고서를 통해 알리바바, 문샷AI, 딥시크 등 중국 AI 기업들의 지속적인 증류(distillation) 공격 정황을 공개했다. 경쟁이 치열해지면서 최근 몇 달간 이런 시도가 눈에 띄게 늘었다고 밝혔다.",
+        "body": "증류는 대형 모델의 출력을 이용해 더 작은 모델을 학습시키는 기법으로, 무단으로 이뤄질 경우 지적재산권 문제를 야기할 수 있다. 앤트로픽은 이번 보고서에서 자사 Claude 모델을 겨냥한 조직적이고 지속적인 증류 시도가 여러 중국 기업으로부터 확인됐다고 설명했다. 이는 앤트로픽이 최근 공개한 대규모 위협 인텔리전스 보고서와 맞물려, AI 업계 경쟁이 기술 탈취 수준으로 격화되고 있음을 보여준다.",
+        "url": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-09-11T05:57:30+09:00",
+        "readTime": 4,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_006",
+        "title": "키미(Kimi) 개발사 문샷AI, 연 매출 20억 달러 목표 제시",
+        "excerpt": "중국 AI 스타트업 문샷AI가 연간 매출 20억 달러 달성을 목표로 하고 있다고 밝혔다. K3 모델 사용량은 최근 다소 둔화됐지만, 오픈라우터 기준 하루 최대 3000억 토큰이 여전히 K3를 통해 생성되고 있다.",
+        "body": "문샷AI는 오픈소스 모델 Kimi K 시리즈로 빠르게 성장해온 중국 AI 기업이다. 이번 매출 목표 제시는 회사가 상업화 단계로 본격 전환하고 있음을 시사한다. K3 모델의 최근 사용량은 소폭 감소했으나, 여전히 오픈라우터 플랫폼에서 하루 최대 3000억 토큰이 처리되며 시장 내 존재감을 유지하고 있다.",
+        "url": "https://techcrunch.com/2026/09/11/kimi-maker-moonshot-ai-targets-2-billion-in-annual-revenue/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-09-12T04:35:54+09:00",
+        "readTime": 3,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_007",
+        "title": "OpenAI, GPT-6 Astra 수요 폭증에 프로 요금제 신규 가입 일시 중단",
+        "excerpt": "OpenAI가 GPT-6 Astra에 대한 폭발적 수요로 인해 ChatGPT Pro 요금제의 신규 가입을 일시 중단했다. 프로 요금제 사용자가 시스템에 가장 큰 부하를 준다며 용량 확충이 끝날 때까지 가입을 잠시 멈춘다고 밝혔다.",
+        "body": "OpenAI는 GPT-6 Astra 출시 이후 몰린 수요를 감당하기 위해 인프라 확충 작업을 진행 중이라고 설명했다. Pro 요금제는 가장 높은 사용량 한도를 제공하는 만큼 시스템 부하가 크며, 회사는 안정적인 서비스 품질을 유지하기 위해 임시 조치를 취했다고 밝혔다.",
+        "url": "https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-09-11T05:59:51+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_008",
+        "title": "초보자를 위한 깃허브 코파일럿 앱 활용법 — diff·터미널·브라우저 한 번에",
+        "excerpt": "에이전트가 생성한 코드를 검토하려면 여러 탭을 오가야 했던 번거로움을 줄이기 위해, 깃허브가 코파일럿 앱에서 diff 보기·터미널 실행·웹앱 미리보기를 나란히 확인하는 방법을 안내했다.",
+        "body": "깃허브는 코파일럿 앱 초보자를 위한 가이드를 공개하고, 에이전트가 작성한 코드의 변경 사항(diff)을 확인하고, 터미널 명령을 실행하며, 웹 애플리케이션을 미리보는 작업을 한 화면에서 처리하는 방법을 소개했다. 탭 전환 없이 작업 흐름을 유지할 수 있어 생산성 향상에 도움이 된다.",
+        "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/",
+        "source": "GitHub Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-09-11T06:31:19+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_009",
+        "title": "버셀 샌드박스, 저장 용량 32GB→64GB로 두 배 확대",
+        "excerpt": "버셀이 모든 샌드박스의 기본 저장 용량을 64GB로 늘렸다. 대규모 저장소나 의존성, 빌드 산출물을 다루는 작업에 더 넉넉한 공간을 제공한다.",
+        "body": "이번 업데이트는 버셀 매니지드 이미지나 커스텀 이미지로 생성된 샌드박스는 물론, 기존 런타임 속성으로 구성된 샌드박스에도 적용된다. 대형 리포지토리를 다루거나 다수의 의존성 패키지를 설치해야 하는 개발 워크플로우에 실질적인 도움이 될 것으로 보인다.",
+        "url": "https://vercel.com/changelog/vercel-sandbox-64-gb-storage",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-09-11T15:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_010",
+        "title": "테일스케일, AI 게이트웨이로 고객용 모델 라우터 구축",
+        "excerpt": "사내 노트북부터 서버, 클라우드 인스턴스까지 하나의 사설 네트워크로 연결하는 테일스케일이, 버셀 AI 게이트웨이를 활용해 수백 개 AI 모델을 고객에게 안전하게 제공하는 라우터를 구축했다고 밝혔다.",
+        "body": "테일스케일은 모델 라우팅 프로토타입에서 시작해 몇 달 만에 실제 유료 고객을 확보하는 단계로 발전했다고 전했다. 모델 접근 권한은 테일넷 네트워크 신원에 따라 부여되고 회수되며, 이를 통해 세밀한 접근 제어와 보안을 동시에 확보했다.",
+        "url": "https://vercel.com/blog/how-tailscale-built-a-customer-facing-model-router-on-ai-gateway",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-09-11T13:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_011",
+        "title": "클라우드플레어, CASB에 자동 대응 정책 기능 추가",
+        "excerpt": "클라우드플레어가 CASB(클라우드 접근 보안 브로커)에 이벤트 기반 자동화 엔진을 도입했다. 위험한 파일 공유를 자동으로 회수하거나 웹훅을 전송하는 등, 사람 개입 없이 SaaS 보안 위험에 대응할 수 있게 됐다.",
+        "body": "새로운 자동 대응 정책은 클라우드플레어 개발자 플랫폼 위에 네이티브로 구축되어, 보안팀이 이벤트 기반 로직을 직접 설계해 위험을 자동으로 완화할 수 있도록 지원한다. 수동 개입 없이도 실시간으로 SaaS 환경의 위험 요소를 제거할 수 있다는 점이 특징이다.",
+        "url": "https://blog.cloudflare.com/casb-policies/",
+        "source": "Cloudflare Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-09-11T22:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_012",
+        "title": "\"AI 보안은 고양이와 쥐 게임\" — 즈스케일러 CSO 인터뷰",
+        "excerpt": "즈스케일러 최고보안책임자(CSO) 샘 커리가 AI 시대 보안에서 인간의 역할, 애플리케이션에 가까운 보안 배치가 취약점 탐색을 막는 이유, 더 견고한 코드 인프라 구축의 중요성에 대해 이야기했다.",
+        "body": "인터뷰에서 샘 커리는 공격자와 방어자 모두 AI를 활용하게 되면서 사이버 보안이 끊임없는 추격전 양상을 띠게 됐다고 설명했다. 그는 보안을 애플리케이션에 더 가깝게 배치하는 것이 공격 표면을 줄이는 핵심 전략이며, 근본적으로는 더 견고한 코드 인프라를 구축하는 것이 취약점 문제를 해결하는 가장 확실한 방법이라고 강조했다.",
+        "url": "https://stackoverflow.blog/2026/09/11/ai-cybersecurity-is-a-cat-and-mouse-game/",
+        "source": "Stack Overflow Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-09-11T16:40:00+09:00",
+        "readTime": 5,
+        "imageGradient": 5
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_004",
+        "title": "애플, 아이폰 18 프로 사전예약 시작 — 새 애플워치·에어팟5도 공개",
+        "excerpt": "애플이 9월 12일(토)부터 아이폰 18 프로와 프로 맥스 사전예약을 시작한다고 밝혔다. 새 애플워치 라인업과 에어팟5도 함께 공개됐으며, 정식 출시일은 9월 18일이다.",
+        "body": "이번 발표는 애플의 하반기 하드웨어 라인업 공개의 일환으로, 폴더블 아이폰 '아이폰 듀오'에 이어 정통 프로 라인업까지 갖추게 됐다. 에어팟5는 대중형 모델 최초로 능동 소음 차단(ANC) 기능을 탑재했으며, 애플워치 시리즈12와 울트라4도 같은 날 출시된다. 사전예약은 9월 12일부터 시작되며, 정식 판매는 9월 18일부터다.",
+        "url": "https://www.apple.com/newsroom/2026/09/get-ready-to-experience-iphone-18-pro-the-new-apple-watch-lineup-and-airpods-5/",
+        "source": "Apple Newsroom",
+        "category": "big_tech",
+        "publishedAt": "2026-09-12T01:00:08+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_005",
+        "title": "젠슨 황 \"엔비디아, 내년에도 70% 성장\" — 순환거래 의혹엔 선긋기",
+        "excerpt": "엔비디아 CEO 젠슨 황이 내년에도 회사가 약 70%의 폭발적 성장을 이어갈 것이라고 밝혔다. 최근 제기된 '순환 투자' 의혹에 대해서는 사실이 아니라고 일축했다.",
+        "body": "젠슨 황은 엔비디아가 AI 반도체 시장 전반에 걸쳐 사업을 확장하고 있으며, 내년에도 강력한 성장세가 이어질 것으로 자신했다. 최근 업계 일각에서 제기된 엔비디아의 투자·매출 구조가 순환거래에 가깝다는 의혹에 대해서는 명확히 선을 그으며, 자사의 파트너십과 거래 구조가 정상적인 비즈니스 관계에 기반한다고 강조했다.",
+        "url": "https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year/",
+        "source": "TechCrunch AI",
+        "category": "big_tech",
+        "publishedAt": "2026-09-11T06:51:59+09:00",
+        "readTime": 4,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_013",
+        "title": "오토매틱 CEO 매트 뮬렌웨그, 해임 이틀 만에 '전격 복귀' 선언",
+        "excerpt": "이사회에 의해 무급 휴직 처리된 지 이틀 만에, 매트 뮬렌웨그가 슬랙 메시지를 통해 다시 CEO 자리에 복귀했다고 밝혔다. 이사회의 공식 확인은 아직 나오지 않은 상태다.",
+        "body": "앞서 워드프레스 운영사 오토매틱의 CFO 마크 데이비스가 이사회와 결탁해 뮬렌웨그를 축출하려 했다는 보도가 나온 바 있다. 뮬렌웨그는 직원들에게 보낸 슬랙 메시지에서 자신이 다시 회사의 통제권을 되찾았다고 주장했지만, 오토매틱 측은 아직 이 반전을 공식적으로 확인하지 않고 있어 사내 권력 다툼이 계속될 것으로 보인다.",
+        "url": "https://www.theverge.com/tech/994087/matt-mullenweg-automattic-ceo-return",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-09-12T02:16:59+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_014",
+        "title": "메타의 초슬림 VR 헤드셋 '프로젝트 피닉스' 이미지 유출",
+        "excerpt": "메타 커넥트 행사를 앞두고 메타의 차세대 VR 헤드셋 '프로젝트 피닉스'로 추정되는 이미지가 유출됐다. HorizonOS 처방 렌즈 펌웨어 패키지에서 발견된 것으로 전해지며, 훨씬 슬림해진 디자인을 보여준다.",
+        "body": "이미지를 처음 공개한 UploadVR에 따르면, 유출된 디자인은 기존 퀘스트 시리즈보다 훨씬 얇은 폼팩터를 채택해 경쟁사들의 경량형 헤드셋에 맞서려는 의도로 풀이된다. 메타 커넥트는 9월 23일 개최될 예정이며, 공식 발표에서 실물이 공개될지 주목된다.",
+        "url": "https://www.theverge.com/tech/994055/meta-project-phoenix-headset-leak",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-09-12T00:38:31+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_015",
+        "title": "메타, AI가 아동 관련 부적절한 질문 던진 사건 이후 프롬프트 방식 변경",
+        "excerpt": "메타 AI 챗봇이 한 여성의 어린 딸들에 대한 개인정보를 캐묻는 영상이 화제가 되자, 메타가 AI 제안 프롬프트 방식을 변경하겠다고 밝혔다. 메타 대변인은 \"기준에 미치지 못했다\"고 인정했다.",
+        "body": "논란이 된 영상은 메타 AI가 사용자에게 자녀에 대한 사적인 정보를 캐묻는 듯한 제안 프롬프트를 띄운 모습을 담고 있었다. 메타 대변인 디나 엘카사비는 더버지에 보낸 성명에서 이번 사례가 회사의 기준에 미치지 못했다며, 관련 프롬프트 로직을 개선하겠다고 밝혔다.",
+        "url": "https://www.theverge.com/tech/993974/meta-ai-prompt-invasive-suggestions",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-09-11T23:25:21+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "gdb",
+        "handle": "gdb",
+        "content": "금융 서비스를 위한 최고의 에이전트 도구 구축:",
+        "context": "OpenAI 대표이사 그렉 브록먼이 금융 서비스용 에이전트 도구 구축 소식을 공유하며 ChatGPT for Financial Services 출시를 알렸다.",
+        "url": "https://x.com/gdb/status/2098236010760970299",
+        "publishedAt": "2026-09-11T02:23:42.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "gdb",
+        "handle": "gdb",
+        "content": "항체 개발 가능성 예측을 위한 Astra:",
+        "context": "그렉 브록먼이 GPT-6 Astra의 신약 개발 지원 사례로 항체 개발 가능성 예측 기능을 소개했다.",
+        "url": "https://x.com/gdb/status/2098167375342239957",
+        "publishedAt": "2026-09-10T21:50:59.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "gdb",
+        "handle": "gdb",
+        "content": "API에서 GPT-Live, 빌더들이 새로운 종류의 애플리케이션을 만들 수 있도록 힘을 실어주는:",
+        "context": "그렉 브록먼이 API에 새로 추가된 음성 에이전트 기능 GPT-Live를 소개하며 개발자들이 새로운 형태의 앱을 만들 수 있다고 밝혔다.",
+        "url": "https://x.com/gdb/status/2098157918906384676",
+        "publishedAt": "2026-09-10T21:13:24.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "gdb",
+        "handle": "gdb",
+        "content": "임상 전문가를 위한 GPT-6 Astra Pro:",
+        "context": "그렉 브록먼이 임상 전문가를 위한 GPT-6 Astra Pro 출시를 알렸다.",
+        "url": "https://x.com/gdb/status/2098157627838480705",
+        "publishedAt": "2026-09-10T21:12:15.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "gdb",
+        "handle": "gdb",
+        "content": "의학 교육을 위한 Astra:",
+        "context": "그렉 브록먼이 의학 교육 분야에 특화된 Astra 활용 사례를 공유했다.",
+        "url": "https://x.com/gdb/status/2097833445229818191",
+        "publishedAt": "2026-09-09T23:44:03.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "jackclarkSF",
+        "handle": "jackclarkSF",
+        "content": "Import AI 이벤트: 로빈 슬론과 함께하는 픽션과 미래. 9월 14일 샌프란시스코에서 내 친구 로빈 슬론과 대화를 나눌 예정입니다. 우리는 로빈이 만들어내는 낯설지만 친근한 세계들과 상상된 미래가 오늘날의 현실을 비추는 거울이 될 수 있는 방법에 대해 이야기할 겁니다.",
+        "context": "앤트로픽 정책 책임자 잭 클라크가 9월 14일 샌프란시스코에서 작가 로빈 슬론과 함께하는 오프라인 대담 행사를 예고했다.",
+        "url": "https://x.com/jackclarkSF/status/2098432700478890190",
+        "publishedAt": "2026-09-11T15:25:17.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "jackclarkSF",
+        "handle": "jackclarkSF",
+        "content": "로빈에 대해 제가 가장 좋아하는 사실은, 그가 2016년부터 RNN에 대해 (그리고 RNN과 함께) 글을 써왔다는 겁니다 - 놀라운 선견지명이죠.",
+        "context": "잭 클라크가 로빈 슬론이 2016년부터 RNN에 대한 글을 써온 점을 언급하며 그의 선견지명을 칭찬했다.",
+        "url": "https://x.com/jackclarkSF/status/2098433043174396021",
+        "publishedAt": "2026-09-11T15:26:39.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "trq212",
+        "handle": "trq212",
+        "content": "요즘은 단순히 합격/불합격 점수만 봐서는 평가 결과를 해석하는 게 기본적으로 불가능해요. 벤치마크에서 제가 보는 많은 실패 사례들은 지나치게 엄격한 숨겨진 테스트 때문인데, 어떤 경우에는 모델의 답변이 예상되는 평가 결과보다 더 말이 되는 경우도 있어요.",
+        "context": "OpenAI 연구원이 벤치마크의 합격/불합격 점수만으로는 평가 결과를 제대로 해석하기 어렵다는 문제를 지적했다.",
+        "url": "https://x.com/trq212/status/2098490139798655427",
+        "publishedAt": "2026-09-11T19:13:32.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_009",
+        "author": "trq212",
+        "handle": "trq212",
+        "content": "Claude 채팅에서 이 프롬프트를 사용해 보세요. 자신에 대한 더 많은 맥락을 제공할 수 있습니다: 아직 모르는 내 삶의 관련 부분들에 대해 자유 텍스트로 깊이 있게 인터뷰하거나, 다지선다 방식이 적합할 때는 askuserquestion 도구를 사용해서 인터뷰하고, 모든 것을 메모리에 저장하세요.",
+        "context": "OpenAI 연구원이 Claude 채팅에서 자기 자신에 대한 맥락을 더 깊이 제공받기 위한 프롬프트 활용법을 공유했다.",
+        "url": "https://x.com/trq212/status/2098157600361861579",
+        "publishedAt": "2026-09-10T21:12:08.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_010",
+        "author": "bcherny",
+        "handle": "bcherny",
+        "content": "최신 위협 인텔리전스 보고서는 절대적으로 무섭고 중요한 읽을거리입니다. 모델들이 더 지능적으로 변하면서, 적절한 보호 장치와 모니터링이 없으면 그만큼 더 위험해집니다. 많은 기능들은 이중 용도로 사용될 수 있습니다: 코딩을 잘하는 모델은 핵심 인프라를 해킹하는 데 사용될 수 있으며,",
+        "context": "앤트로픽 엔지니어 보리스 처니가 최신 위협 인텔리전스 보고서를 공유하며, 모델이 강력해질수록 적절한 보호 장치 없이는 그만큼 위험해진다고 경고했다.",
+        "url": "https://x.com/bcherny/status/2098281805770309686",
+        "publishedAt": "2026-09-11T05:25:41.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_011",
+        "author": "bcherny",
+        "handle": "bcherny",
+        "content": "매일 저는 이런 식의 이메일과 메시지를 정말 많이 받습니다. 할 수 있는 한 최대한 많은 것에 답변하려고 노력하고 있어요. 아래에 제 답변을 공유합니다. 비슷한 상황에 처한 다른 사람들을 위해서요.",
+        "context": "보리스 처니가 매일 받는 수많은 이메일과 메시지에 대한 자신의 답변 방식을 공유했다.",
+        "url": "https://x.com/bcherny/status/2098217571153838124",
+        "publishedAt": "2026-09-11T01:10:26.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_012",
+        "author": "bcherny",
+        "handle": "bcherny",
+        "content": "안녕하세요 님, 둘 다에 충분한 여지가 있다고 생각합니다. 1. 프로토타입과 기타 일회용 코드는 완전히 블랙박스로 취급할 수 있습니다. 어차피 버릴 거라면, 그리고 그것이 망가질 때의 파급 효과가 낮다면, 완벽할 필요는 없습니다. 2. Claude가 작성한 프로덕션 코드는 인간이 작성한 코드와 동일한 기준으로 검토되어야 합니다.",
+        "context": "보리스 처니가 프로토타입 코드와 프로덕션 코드를 다르게 취급해야 한다는 자신의 원칙을 설명했다.",
+        "url": "https://x.com/bcherny/status/2098217573276131577",
+        "publishedAt": "2026-09-11T01:10:27.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_013",
+        "author": "bcherny",
+        "handle": "bcherny",
+        "content": "잠깐, 뭐라고?",
+        "context": "보리스 처니가 짧은 감탄사로 반응을 남겼다.",
+        "url": "https://x.com/bcherny/status/2098209880310264048",
+        "publishedAt": "2026-09-11T00:39:52.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_014",
+        "author": "bcherny",
+        "handle": "bcherny",
+        "content": "방금 착륙: /diff는 이제 스크롤하고 클릭할 수 있는 지속적인 창입니다. 실시간으로 업데이트됩니다. 창을 전환하지 않고 코드를 보고 싶을 때를 위해.",
+        "context": "보리스 처니가 Claude Code의 /diff 기능이 실시간 업데이트되는 지속적 창으로 개선됐다고 발표했다.",
+        "url": "https://x.com/bcherny/status/2098165206296011059",
+        "publishedAt": "2026-09-10T21:42:21.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_015",
+        "author": "felixrieseberg",
+        "handle": "felixrieseberg",
+        "content": "사람들이 모델들이 계속해서 극적으로 더 좋아질 거라는 사실을 정말로 내면화하지 않았다고 생각합니다. 2년 전, 모델들은 초등학교 수준의 수학도 간신히 처리했습니다. 오늘날, 우리는 풀 수 없는 수학 문제들 중 어떤 것들이 다뤄질지 논쟁하고 있습니다.",
+        "context": "개발자 펠릭스 리제버그가 최근 2년간 AI 모델의 수학 능력이 극적으로 향상된 점을 짚으며, 사람들이 이 변화 속도를 충분히 체감하지 못하고 있다고 지적했다.",
+        "url": "https://x.com/felixrieseberg/status/2098200320731934955",
+        "publishedAt": "2026-09-11T00:01:53.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_016",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "지금 사용 가능: 금융 서비스를 위한 ChatGPT. 이것은 GPT-6 Astra의 추론과 내장된 금융 데이터를 결합한 맞춤형 ChatGPT Work 경험입니다. 팀은 연구를 개발하고, 금융 모델을 구축하며, 맞춤형 클라이언트 자료를 만들 수 있습니다.",
+        "context": "OpenAI 공식 계정이 GPT-6 Astra 기반의 ChatGPT for Financial Services 출시를 발표했다.",
+        "url": "https://x.com/OpenAI/status/2098118191029624911",
+        "publishedAt": "2026-09-10T18:35:32.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_017",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "프리미엄 금융 데이터가 포함되어 있으며, Daloopa, PitchBook, LSEG News의 데이터셋이 포함됩니다.",
+        "context": "OpenAI가 신제품에 Daloopa, PitchBook, LSEG News 등 프리미엄 금융 데이터셋이 포함된다고 설명했다.",
+        "url": "https://x.com/OpenAI/status/2098118232133792050",
+        "publishedAt": "2026-09-10T18:35:42.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_018",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "우리는 250명 이상의 인력을 동원해 수백 개 시스템 전반에 걸친 방어를 강화했습니다. 최신 사이버 모델들이 우리를 도와 그렇지 않았다면 절대 발견하지 못했을 취약점을 찾아 수정할 수 있었습니다. 우리가 배운 점, 아키텍처, 그리고 실용적인 플레이북을 공유합니다.",
+        "context": "OpenAI가 250명 이상을 투입해 자사 시스템 보안을 강화한 사이버 방어 플레이북을 공개했다.",
+        "url": "https://x.com/OpenAI/status/2097786616311840853",
+        "publishedAt": "2026-09-09T20:37:58.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_019",
+        "author": "OpenAIDevs",
+        "handle": "OpenAIDevs",
+        "content": "GPT-Live-1이 이제 API에서 사용할 수 있습니다. ChatGPT의 자연스러운 대화 왕복을 앱에 도입하세요. 말하면서 듣는 음성 에이전트를 통해 선택한 모델과 하네스를 활용해 작업할 수 있습니다.",
+        "context": "OpenAI 개발자 계정이 API에 실시간 음성 대화 기능 GPT-Live-1이 추가됐다고 발표했다.",
+        "url": "https://x.com/OpenAIDevs/status/2098099269551149398",
+        "publishedAt": "2026-09-10T17:20:21.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_020",
+        "author": "OpenAIDevs",
+        "handle": "OpenAIDevs",
+        "content": "Habitat는 ChatGPT부터 Codex에 이르기까지 모든 것을 구동하는 OpenAI의 온라인 스토리지 플랫폼입니다. 이 플랫폼은 매년 10배 이상 성장했습니다. Rust로 재작성되기 전, 그 Python 서비스는 피크 시 초당 2천만 개 이상의 요청을 처리했습니다.",
+        "context": "OpenAI가 자사 온라인 스토리지 플랫폼 Habitat의 초고속 성장과 Rust 재작성 이전 처리량을 공유했다.",
+        "url": "https://x.com/OpenAIDevs/status/2098502006935814272",
+        "publishedAt": "2026-09-11T20:00:41.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_021",
+        "author": "OpenAIDevs",
+        "handle": "OpenAIDevs",
+        "content": "Python은 OpenAI의 모든 제품 사용 사례를 지원하는 우리 플랫폼의 빠른 프로토타이핑을 가능하게 했습니다. 하지만 Python을 이 규모에서 작동시키는 것은 이벤트 루프 관리와 연결 풀링의 도전 과제를 해결해야 했습니다.",
+        "context": "OpenAI가 Python 기반 플랫폼을 대규모로 운영하며 마주친 이벤트 루프·연결 풀링 과제를 설명했다.",
+        "url": "https://x.com/OpenAIDevs/status/2098502018998649036",
+        "publishedAt": "2026-09-11T20:00:44.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_022",
+        "author": "OpenAIDevs",
+        "handle": "OpenAIDevs",
+        "content": "Sites Sites Sites",
+        "context": "OpenAI 개발자 계정이 신규 웹사이트 빌더 기능 관련 소식을 짧게 예고했다.",
+        "url": "https://x.com/OpenAIDevs/status/2098480882030137747",
+        "publishedAt": "2026-09-11T18:36:44.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_023",
+        "author": "AnthropicAI",
+        "handle": "AnthropicAI",
+        "content": "지금까지 가장 상세한 위협 인텔리전스 보고서를 발행합니다. 이 보고서는 사람들이 Claude를 악용하려 했던 방식—사이버 공격, 영향력 작전, 감시, 생물학, 무기 제작—과 우리가 이를 어떻게 발견하고 저지했는지 다룹니다. 보고서에 언급된 모든 작전을 저지했습니다.",
+        "context": "앤트로픽 공식 계정이 역대 가장 상세한 위협 인텔리전스 보고서 발행 소식을 알리며, 언급된 모든 악용 시도를 저지했다고 밝혔다.",
+        "url": "https://x.com/AnthropicAI/status/2098097512544444447",
+        "publishedAt": "2026-09-10T17:13:22.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_024",
+        "author": "claudeai",
+        "handle": "claudeai",
+        "content": "이야기 5.1 빌드 데이가 이번 주에 시작됩니다. Claude 커뮤니티는 9월 11일부터 25일까지 전 세계 모든 도시에서 빌드어던을 개최합니다. 문제를 가져오거나, 아이디어를 가져오거나, 그냥 나타나서 무엇이 가능한지 확인해보세요.",
+        "context": "Claude 공식 계정이 9월 11일부터 25일까지 전 세계에서 열리는 커뮤니티 빌드 데이 행사를 홍보했다.",
+        "url": "https://x.com/claudeai/status/2098138736642933143",
+        "publishedAt": "2026-09-10T19:57:11.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "Unity가 ChatGPT용 공식 Unity 플러그인을 출시했습니다.\n플러그인을 연결하면 ChatGPT가 Unity 프로젝트 구조를 이해하고 에디터를 직접 제어하며 개발 작업을 수행할 수 있습니다.",
+        "context": "국내 AI 소식을 빠르게 전하는 Threads 채널 'CHOI'의 게시물.",
+        "url": "https://www.threads.net/@choi.openai/post/DdKHO3ACrcZ",
+        "publishedAt": "2026-09-11T19:00:43.000Z"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "Tavus가 실시간 AI 인간 모델 Phoenix-4.5를 공개했습니다.\n이전처럼 얼굴만 움직이는 게 아니라 얼굴·머리·어깨·상체 전체를 함께 생성해 말할 때의 자세와 미세한 표정, 듣고 있을 때의 반응까지 표현합니다.",
+        "context": "국내 AI 소식을 빠르게 전하는 Threads 채널 'CHOI'의 게시물.",
+        "url": "https://www.threads.net/@choi.openai/post/DdJ83c-kgwu",
+        "publishedAt": "2026-09-11T17:30:09.000Z"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "혼란 변수는 어떻게 다뤄야 할까? [토론]",
+        "originalTitle": "How to handle cofound variables? [D]",
+        "summary": "머신러닝 실험 설계에서 혼란 변수를 통제하는 방법에 대한 커뮤니티 토론.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1wdpat4/how_to_handle_cofound_variables_d/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-09-12T03:57:40+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "GPU 1대로 2.1억 파라미터 텍스트-이미지 DiT 처음부터 학습해보니 [프로젝트]",
+        "originalTitle": "Training a 210M text-to-image DiT from scratch on one GPU: what I measured [P]",
+        "summary": "GPU 한 대만으로 2억 1000만 파라미터 규모의 텍스트-이미지 DiT 모델을 처음부터 학습시킨 경험과 측정 결과를 공유하는 프로젝트 글.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1wdfmvq/training_a_210m_texttoimage_dit_from_scratch_on/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-09-11T22:00:11+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "NeurIPS 2026 개최지 선정 이메일 논란 [토론]",
+        "originalTitle": "Neurips 2026: site selection email [D]",
+        "summary": "NeurIPS 2026 개최지 선정 과정에서 받은 이메일을 둘러싼 논쟁을 다룬 토론 글.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1wdaur9/neurips_2026_site_selection_email_d/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-09-11T18:02:43+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "지속 사전학습과 RAG 비교: 정확도와 성능",
+        "originalTitle": "Comparing Continued Pretraining to RAG (accuracy and performance)",
+        "summary": "지속 사전학습(continued pretraining)과 RAG 방식의 정확도·성능을 비교 분석한 글.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdqujp/comparing_continued_pretraining_to_rag_accuracy/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-09-12T04:53:35+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "ZIMA Board 2 + RTX 2000 ADA가 Qwen-3.8 27B 전용 엔드포인트 구축의 가장 저렴한 방법일까?",
+        "originalTitle": "Is a ZIMA Board 2 + RTX 2000 ADA the cheapest path to a decent Qwen-3.8 27b self-contained endpoint?",
+        "summary": "로컬 LLM 추론 서버 구축 시 가성비 좋은 하드웨어 조합을 묻는 질문 글.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdqnpq/is_a_zima_board_2_rtx_2000_ada_the_cheapest_path/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-09-12T04:46:27+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "32GB GPU에서 KV캐시 양자화 없이 Qwen3.8-27B-Q4 최대 컨텍스트로 구동하기",
+        "originalTitle": "Running Qwen3.8-27B-Q4 at max context on a 32 GB GPU while avoiding kvcache quantization",
+        "summary": "32GB GPU 환경에서 KV캐시 양자화 없이 대형 모델을 최대 컨텍스트로 구동하는 방법을 공유한 글.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wdqit1/running_qwen3827bq4_at_max_context_on_a_32_gb_gpu/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-09-12T04:41:29+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "'기업 + AI' 조합, 사기꾼 냄새가 난다",
+        "originalTitle": "Company + \"AI\" = Snake oil salesman",
+        "summary": "'AI'를 내세운 기업 마케팅에 대한 회의적 시각을 담은 토론 글.",
+        "url": "https://www.reddit.com/r/artificial/comments/1wdqrj7/company_ai_snake_oil_salesman/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-09-12T04:50:21+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "앤트로픽 연구원 3명, 이번 주 'AI가 모두를 죽일 수도 있다'고 공개 발언 — 그중 한 명은 사임까지 했다",
+        "originalTitle": "Three Anthropic researchers went public this week saying AI might kill everyone. One of them quit to say it. Nobody seems to know what we're supposed to do with that.",
+        "summary": "앤트로픽 연구원들의 잇따른 경고에 대해 일반 커뮤니티가 느끼는 혼란과 우려를 다룬 글로, TechCrunch가 보도한 사임 소식과 같은 맥락이다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1wdoy1g/three_anthropic_researchers_went_public_this_week/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-09-12T03:46:15+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "챗GPT와 클로드를 2주간 나란히 써보며 글쓰기에 활용해본 결과",
+        "originalTitle": "used chatgpt and claude side by side for two weeks for writing. here's what actually happened",
+        "summary": "글쓰기 작업에 챗GPT와 클로드를 2주간 병행 사용한 후기와 비교 경험담.",
+        "url": "https://www.reddit.com/r/artificial/comments/1wdohel/used_chatgpt_and_claude_side_by_side_for_two/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-09-12T03:29:36+09:00"
+      },
+      {
+        "id": "reddit_010",
+        "title": "GPT-6, 600시간 만에 '포켓몬 타워 디펜스1' 100% 클리어",
+        "originalTitle": "GPT 6 100% comletion of Pokemon Tower Defense 1 in 600 hours",
+        "summary": "GPT-6가 600시간에 걸쳐 게임을 100% 클리어한 실험적 사례를 공유한 글.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1wdr1o5/gpt_6_100_comletion_of_pokemon_tower_defense_1_in/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-09-12T05:00:55+09:00"
+      },
+      {
+        "id": "reddit_011",
+        "title": "[교차 게시] 챗GPT는 왜 알렉사처럼 스스로 문제를 신고하지 못할까?",
+        "originalTitle": "Cross Posted - Why can't ChatGPT self report isssues (like Alexa can)?",
+        "summary": "챗GPT의 자가 오류 보고 기능 부재에 대한 아쉬움을 다룬 교차 게시 글.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1wdqkwz/cross_posted_why_cant_chatgpt_self_report_isssues/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-09-12T04:43:40+09:00"
+      },
+      {
+        "id": "reddit_012",
+        "title": "이미지 생성기 출력 형식의 예측 불가능성",
+        "originalTitle": "Unpredictability of Image Generator output format",
+        "summary": "이미지 생성 기능의 출력 형식이 일관되지 않는 문제를 지적한 글.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1wdpbdn/unpredictability_of_image_generator_output_format/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-09-12T03:58:08+09:00"
+      },
+      {
+        "id": "reddit_013",
+        "title": "50번의 릴리스 끝에: r/ClaudeAI가 QA팀까지 꾸린 탱크 슈팅 게임",
+        "originalTitle": "50 releases later: the tank shooter r/ClaudeIA created a QA team for",
+        "summary": "커뮤니티가 협업해 만든 탱크 슈팅 게임의 50번째 릴리스 후기와 QA팀 구성 과정을 소개하는 글.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1wdrcdi/50_releases_later_the_tank_shooter_rclaudeia/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-09-12T05:12:01+09:00"
+      },
+      {
+        "id": "reddit_014",
+        "title": "윈도우 업데이트로 기능이 망가졌다",
+        "originalTitle": "Functionality destroyed by windows update",
+        "summary": "윈도우 업데이트 이후 Claude 관련 기능이 손상됐다는 사용자 불만 글.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1wdpwyj/functionality_destroyed_by_windows_update/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-09-12T04:19:23+09:00"
+      },
+      {
+        "id": "reddit_015",
+        "title": "클로드 맥스(20배 요금제)에서 40분 만에 Fable 한도 소진 — 코드베이스 분석에 가장 좋은 워크플로우는?",
+        "originalTitle": "Burning through Fable limits in under 40 mins on Claude Max (20x) — best workflow for codebase analysis?",
+        "summary": "코드베이스 분석 작업에서 사용량 한도를 빠르게 소진한 경험을 공유하며 더 나은 워크플로우를 묻는 글.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1wdpwxg/burning_through_fable_limits_in_under_40_mins_on/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-09-12T04:19:21+09:00"
+      },
+      {
+        "id": "reddit_016",
+        "title": "eBPF와 마이크로VM",
+        "originalTitle": "EBPF + MicroVM",
+        "summary": "eBPF와 마이크로VM을 결합하는 기술적 접근을 다룬 글.",
+        "url": "https://www.reddit.com/r/programming/comments/1wdqhym/ebpf_microvm/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-09-12T04:40:37+09:00"
+      },
+      {
+        "id": "reddit_017",
+        "title": "클로드 안드로이드 앱 내부 들여다보기: 숨겨진 설정 찾기",
+        "originalTitle": "Inside Claude's Android app: Finding the Internal Settings",
+        "summary": "클로드 안드로이드 앱의 숨겨진 내부 설정을 찾아낸 리버스 엔지니어링 글.",
+        "url": "https://www.reddit.com/r/programming/comments/1wdklfz/inside_claudes_android_app_finding_the_internal/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-09-12T01:09:55+09:00"
+      },
+      {
+        "id": "reddit_018",
+        "title": "Rune, 오픈소스로 전환",
+        "originalTitle": "Rune is now open source",
+        "summary": "프로그래밍 언어 프로젝트 Rune이 오픈소스로 전환된 소식.",
+        "url": "https://www.reddit.com/r/programming/comments/1wdjvd3/rune_is_now_open_source/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-09-12T00:43:18+09:00"
+      },
+      {
+        "id": "reddit_019",
+        "title": "필즈상 수상자 24명, 'AI의 심각한 수학 목표 불일치' 서한에 서명",
+        "originalTitle": "24 Fields Medal winners sign letter titled \"A Severe Misalignment of AI in Mathematics\"",
+        "summary": "필즈상 수상자 24명이 AI 기업들의 수학 벤치마크 경쟁이 수학 공동체의 본래 목표와 어긋난다고 경고하는 공동 서한에 서명한 소식.",
+        "url": "https://www.reddit.com/r/singularity/comments/1wdqjxa/24_fields_medal_winners_sign_letter_titled_a/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-09-12T04:42:40+09:00"
+      },
+      {
+        "id": "reddit_020",
+        "title": "내비어-스토크스 문제를 푼 OpenAI의 'Bel' 모델, AI 2027 타임라인에 등장",
+        "originalTitle": "OpenAI’s Bel model, used to solve Navier-Stokes, now appears in the AI 2027 timeline",
+        "summary": "관련 레딧 게시물.",
+        "url": "https://www.reddit.com/r/singularity/comments/1wdo60w/openais_bel_model_used_to_solve_navierstokes_now/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-09-12T03:18:17+09:00"
+      },
+      {
+        "id": "reddit_021",
+        "title": "정치인·반AI 활동가들이 만든 'Stop AI' 법안, 초지능 개발 범죄화·연구자 20년형 제안",
+        "originalTitle": "Stop AI bill crafted by politicians and anti-AI advocates proposes criminalizing superintelligence and jailing researchers for 20 years",
+        "summary": "정치인과 반AI 활동가들이 초지능 개발을 범죄화하고 연구자를 최대 20년형에 처하도록 하는 법안을 발의한 소식을 둘러싼 토론.",
+        "url": "https://www.reddit.com/r/singularity/comments/1wdnp8d/stop_ai_bill_crafted_by_politicians_and_antiai/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-09-12T03:01:36+09:00"
+      },
+      {
+        "id": "reddit_022",
+        "title": "PO(제품 책임자)와 매니저가 에러 메시지 같은 기능을 계속 피한다 — 무력감을 느낀다",
+        "originalTitle": "The PO (and her manager) avoids features like error messages. I feel hopeless",
+        "summary": "제품 책임자와 관리자가 에러 메시지 같은 기본 기능조차 우선순위에서 미루는 상황에 대한 개발자의 답답함을 담은 글.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1wdog1z/the_po_and_her_manager_avoids_features_like_error/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-09-12T03:28:18+09:00"
+      },
+      {
+        "id": "reddit_023",
+        "title": "레벨은 높은데 지쳤다",
+        "originalTitle": "Over-leveled and Exhausted",
+        "summary": "직급은 높아졌지만 번아웃을 느끼는 경력 개발자의 고민을 담은 글.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1wdo1f3/overleveled_and_exhausted/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-09-12T03:13:38+09:00"
+      },
+      {
+        "id": "reddit_024",
+        "title": "사무실에 유일한 원격 근무자 — 겪는 어려움들",
+        "originalTitle": "Remote Singleton in Office - difficulties",
+        "summary": "사무실에 혼자만 원격으로 근무하며 겪는 소외감과 어려움을 다룬 글.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1wcveni/remote_singleton_in_office_difficulties/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-09-11T05:49:07+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_016",
+        "title": "GrapheneOS, 자체 개발한 메시지 앱 새 버전 공개",
+        "excerpt": "프라이버시 중심 안드로이드 배포판 GrapheneOS가 자체 개발한 메시지 앱의 새 릴리스를 공개했다. 기존 앱을 처음부터 새로 작성한 버전으로, 보안과 프라이버시 강화에 초점을 맞췄다.",
+        "body": "GrapheneOS 프로젝트는 표준 안드로이드 메시지 앱을 대체하기 위해 자체 메시징 앱을 완전히 새로 작성해왔으며, 이번 13번째 릴리스에서 개선 사항들을 반영했다.",
+        "url": "https://github.com/GrapheneOS/Messaging/releases/tag/13",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-09-12T03:50:36+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_017",
+        "title": "군더더기 없는 LiteLLM 대안, 'Litelm' 공개",
+        "excerpt": "LiteLLM의 복잡함과 무게감을 덜어낸 경량 대안 라이브러리 'Litelm'이 공개돼 개발자 커뮤니티에서 화제가 되고 있다.",
+        "body": "이 프로젝트는 다양한 LLM 제공업체 API를 통일된 인터페이스로 감싸주는 LiteLLM의 핵심 기능만 남기고 불필요한 의존성과 복잡도를 걷어낸 것이 특징이다.",
+        "url": "https://github.com/kennethwolters/litelm",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-09-12T03:10:20+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_018",
+        "title": "Show HN: 아름다운 기본 디자인의 터미널 IDE 'Toast' 공개",
+        "excerpt": "터미널 환경에서도 미려한 기본 디자인을 갖춘 IDE 'Toast'가 Show HN에 공개돼 눈길을 끌고 있다.",
+        "body": "개발자는 별도의 설정 없이도 보기 좋은 UI를 제공하는 터미널 기반 IDE를 목표로 이 프로젝트를 만들었다고 소개했다.",
+        "url": "https://github.com/paradise-runner/toast",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-09-12T02:54:53+09:00",
+        "readTime": 2,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_019",
+        "title": "플래닛스케일, 신규 DB 엔진 'Neki'로 초당 1억 1800만 쿼리 처리",
+        "excerpt": "데이터베이스 플랫폼 플래닛스케일이 새로운 엔진 'Neki'를 통해 초당 1억 1800만 건의 쿼리를 처리하는 벤치마크 결과를 공개했다.",
+        "body": "플래닛스케일은 이번 벤치마크를 통해 Neki 엔진의 처리량과 확장성을 입증했다고 밝혔으며, 대규모 트래픽을 감당해야 하는 서비스에 새로운 선택지를 제시한다.",
+        "url": "https://planetscale.com/blog/118-million-queries-per-second-on-neki",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-09-12T00:56:37+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_020",
+        "title": "RSA-260 소인수분해 성공",
+        "excerpt": "Cognition이 여러 Devin 에이전트로 GPU용 소인수분해 파이프라인을 최적화해 260자리 수 RSA-260을 분해하고, 공개적으로 해결된 RSA Factoring Challenge 최대 기록을 경신했다.",
+        "body": "새로운 수학적 알고리듬을 개발한 것이 아니라 기존 CADO-NFS 소프트웨어의 GPU 성능을 최적화해 이뤄낸 성과라는 점이 특징이다. 여러 AI 에이전트를 동시에 활용해 최적화 작업을 병렬로 수행한 점도 주목할 만하다.",
+        "url": "https://news.hada.io/topic?id=33551",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-09-12T04:54:14+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_021",
+        "title": "필즈상 수상자 25명, \"수학에서의 AI 목표 불일치\" 공동 선언",
+        "excerpt": "필즈상 수상자 25명이 공동 선언에 서명하고, 수학 문제 풀이를 벤치마크로 삼는 AI 기업들의 목표가 수학 공동체의 이해와 통찰 증진이라는 목표와 심각하게 어긋난다고 경고했다.",
+        "body": "선언에 따르면 수학에서 문제 해결은 그 자체가 목적이 아니라 수단이자 대리 지표에 가까우며, AI 기업들이 벤치마크 점수 향상에만 몰두할 경우 수학적 이해를 심화시키는 본래의 가치가 훼손될 수 있다는 우려가 제기됐다.",
+        "url": "https://news.hada.io/topic?id=33550",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-09-12T04:51:14+09:00",
+        "readTime": 4,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_022",
+        "title": "허깅페이스 보안 연락 페이지에 등장한 AI 에이전트용 메시지",
+        "excerpt": "허깅페이스가 보안 연락처를 안내하는 security.txt 파일에 AI 에이전트를 겨냥한 메시지를 추가했다. \"우리를 해킹하지 말고 벤치마크나 풀어라\"는 재치있는 문구로 화제가 됐다.",
+        "body": "메시지는 만약 AI 에이전트가 취약점을 찾으라는 지시를 받았다면, 대신 GitHub에 공개된 CyberGym 벤치마크에서 높은 점수를 얻는 데 도전해보라고 안내한다. 회사를 실제로 해킹할 필요는 없다는 유머러스한 메시지로 커뮤니티의 호응을 얻었다.",
+        "url": "https://news.hada.io/topic?id=33544",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-09-12T03:24:41+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_023",
+        "title": "코딩 하네스 9종 vs. 노트북 — 로컬 모델 응답성 비교",
+        "excerpt": "동일한 노트북과 로컬 모델을 사용해도 코딩 하네스(harness)에 따라 첫 토큰 대기 시간이 llama.cpp 기준 12.2초에서 225.7초까지 크게 벌어지는 것으로 나타났다.",
+        "body": "이번 비교는 모델 자체의 속도만으로는 실제 응답성을 판단하기 어렵다는 점을 보여준다. 긴 시스템 프롬프트와 도구 스키마, 부가 요청 등이 제한된 로컬 자원에 상당한 부담을 준다는 점도 함께 확인됐다.",
+        "url": "https://news.hada.io/topic?id=33542",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-09-12T03:18:41+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      }
+    ]
+  }
+}
