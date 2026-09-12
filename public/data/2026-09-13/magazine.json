@@ -1,0 +1,613 @@
+{
+ "date": "2026-09-13",
+ "issueNumber": 157,
+ "cover": {
+  "mainHeadline": "다리오 아모데이 \"AI 개발 속도 늦춰야\" — 프론티어 조절 선언에 업계 파장",
+  "mainExcerpt": "앤트로픽 CEO 다리오 아모데이가 'We Must Pace the Frontier' 에세이를 통해 AI 산업이 스스로 속도를 조절해야 한다고 선언했다. 앤트로픽은 제3자 평가자에게 영구적이고 직원 수준의 시스템 접근권을 부여하겠다고 일방적으로 약속했으며, 오픈AI 샘 올트먼도 비슷한 인식에 공감하는 모습을 보이며 파장이 커지고 있다.",
+  "headlines": [
+   "아이폰 18 프로 사전예약 시작 — 새 애플워치·에어팟5도 함께 공개",
+   "오픈AI, GPT-6 Astra로 코그니션 '데빈' 자체 테스트 능력 강화",
+   "문샷AI, 연 매출 2조 원 목표 제시 — 키미 K3 앞세워 확장 드라이브"
+  ]
+ },
+ "highlights": [
+  {
+   "id": "highlight_1",
+   "title": "다리오 아모데이 \"AI 개발 속도 늦춰야\" — 프론티어 조절 3단계 계획 공개",
+   "excerpt": "앤트로픽과 오픈AI 수장이 나란히 'AI 속도 조절'에 공감을 표하며 업계에 파장을 일으켰다. 앤트로픽은 제3자 평가자에게 영구적인 직원 수준 접근권을 부여하는 첫 단계를 일방적으로 이행하겠다고 밝혔다.",
+   "body": "다리오 아모데이는 하드웨어와 알고리즘 발전이 맞물려 AI 능력이 사회가 적응할 수 있는 속도보다 빠르게 발전하고 있다고 경고했다. 그는 AI 산업이 스스로 속도를 늦추기 위한 3단계 계획을 제시했으며, 앤트로픽은 그 첫 단계로 제3자 평가자들에게 자사 시스템에 대한 영구적이고 직원 수준의 접근권을 부여하겠다고 약속했다. 잭 클라크 등 앤트로픽 정책 책임자들도 이 발언을 지지하며 AI가 놀라울 정도로 강력하지만 그만큼 신중한 관리가 필요하다고 강조했다.",
+   "url": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
+   "source": "TechCrunch",
+   "category": "ai_ml",
+   "publishedAt": "2026-09-13T04:34:44+09:00",
+   "readTime": 4,
+   "imageGradient": 0
+  },
+  {
+   "id": "highlight_2",
+   "title": "아이폰 18 프로·프로맥스 사전예약 시작",
+   "excerpt": "애플이 'Sunrise and Shine' 행사에서 공개한 아이폰 18 프로 시리즈의 사전예약이 시작됐다. 더 강력한 A20 프로 칩과 AI 작업을 위한 뉴럴 코어 강화가 특징이다.",
+   "body": "아이폰 18 프로와 프로맥스는 아이폰 듀오 등 신규 라인업과 함께 공개됐으며, GPU 성능이 강화된 A20 프로 프로세서와 AI 관련 작업을 위한 추가 뉴럴 코어를 탑재했다. 애플은 9월 12일 토요일부터 사전예약을 시작했으며, 새 애플워치 라인업과 에어팟5도 함께 출시된다.",
+   "url": "https://www.theverge.com/gadgets/988337/iphone-18-pro-max-preorder-buy",
+   "source": "The Verge",
+   "category": "big_tech",
+   "publishedAt": "2026-09-12T21:00:00+09:00",
+   "readTime": 3,
+   "imageGradient": 1
+  },
+  {
+   "id": "highlight_3",
+   "title": "오픈AI, GPT-6 Astra로 코그니션 '데빈' 자체 테스트 능력 강화",
+   "excerpt": "오픈AI가 GPT-6 Astra를 통해 AI 코딩 에이전트 데빈의 자체 검증 능력을 끌어올렸다고 밝혔다. 목표는 엔지니어가 검토할 코드는 줄이고 배포 속도는 높이는 것이다.",
+   "body": "코그니션의 데빈은 GPT-6 Astra를 활용해 자신이 작성한 소프트웨어를 스스로 테스트하고 정상 작동을 증명하는 능력이 향상됐다. 오픈AI는 이를 통해 엔지니어들이 검토해야 할 코드량을 줄이면서도 더 많은 기능을 출시할 수 있도록 돕는 것이 목표라고 설명했다.",
+   "url": "https://openai.com/index/cognition-devin-testing-with-astra",
+   "source": "OpenAI News",
+   "category": "ai_ml",
+   "publishedAt": "2026-09-12T01:00:00+09:00",
+   "readTime": 3,
+   "imageGradient": 2
+  },
+  {
+   "id": "highlight_4",
+   "title": "문샷AI, 연 매출 2조 원 목표 제시 — 키미 K3 앞세워 확장",
+   "excerpt": "중국 AI 스타트업 문샷AI가 키미 K3 모델을 앞세워 연 매출 20억 달러 달성을 목표로 내걸었다. 최근 사용량이 다소 줄었지만 하루 3천억 토큰 규모의 생성량을 유지하고 있다.",
+   "body": "오픈라우터 데이터에 따르면 키미 K3 모델은 최근 몇 달간 사용량이 소폭 감소했음에도 여전히 하루 최대 3천억 개의 토큰을 생성하고 있는 것으로 나타났다. 문샷AI는 이를 기반으로 연 매출 20억 달러(약 2조 원) 달성이라는 목표를 제시하며 중국 AI 굴기의 선두주자로서 입지를 다지고 있다.",
+   "url": "https://techcrunch.com/2026/09/11/kimi-maker-moonshot-ai-targets-2-billion-in-annual-revenue/",
+   "source": "TechCrunch",
+   "category": "ai_ml",
+   "publishedAt": "2026-09-12T04:35:54+09:00",
+   "readTime": 3,
+   "imageGradient": 3
+  },
+  {
+   "id": "highlight_5",
+   "title": "오픈AI, 수학자들과의 갈등 심화 — 25인 필즈상 수상자 공개서한 파장",
+   "excerpt": "저명한 수학자 25명이 AI 연구소들이 자신들의 지적 작업을 위협하고 있다는 공개서한에 서명하면서 오픈AI와 수학계의 갈등이 격화되고 있다.",
+   "body": "필즈상 수상자를 포함한 25명의 저명한 수학자들이 AI 연구소들의 관행이 수학계의 지적 재산과 연구 문화를 위협한다는 내용의 공개서한에 서명했다. 오픈AI가 자사 모델의 수학 난제 해결 성과를 공격적으로 홍보해온 가운데, 이번 갈등은 AI와 학계 간 신뢰 문제로 확산되는 모양새다.",
+   "url": "https://techcrunch.com/2026/09/11/openais-feud-with-mathematicians-is-only-escalating/",
+   "source": "TechCrunch",
+   "category": "ai_ml",
+   "publishedAt": "2026-09-12T05:57:36+09:00",
+   "readTime": 4,
+   "imageGradient": 4
+  }
+ ],
+ "sections": {
+  "ai_ml": [
+   {
+    "id": "ai_001",
+    "title": "다리오 아모데이 \"AI 개발 속도 늦춰야\" — 프론티어 조절 3단계 계획 공개",
+    "excerpt": "앤트로픽과 오픈AI 수장이 나란히 'AI 속도 조절'에 공감을 표하며 업계에 파장을 일으켰다. 앤트로픽은 제3자 평가자에게 영구적인 직원 수준 접근권을 부여하는 첫 단계를 일방적으로 이행하겠다고 밝혔다.",
+    "body": "다리오 아모데이는 하드웨어와 알고리즘 발전이 맞물려 AI 능력이 사회가 적응할 수 있는 속도보다 빠르게 발전하고 있다고 경고했다. 그는 AI 산업이 스스로 속도를 늦추기 위한 3단계 계획을 제시했으며, 앤트로픽은 그 첫 단계로 제3자 평가자들에게 자사 시스템에 대한 영구적이고 직원 수준의 접근권을 부여하겠다고 약속했다. 잭 클라크 등 앤트로픽 정책 책임자들도 이 발언을 지지하며 AI가 놀라울 정도로 강력하지만 그만큼 신중한 관리가 필요하다고 강조했다.",
+    "url": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
+    "source": "TechCrunch",
+    "category": "ai_ml",
+    "publishedAt": "2026-09-13T04:34:44+09:00",
+    "readTime": 4,
+    "imageGradient": 0
+   },
+   {
+    "id": "ai_002",
+    "title": "오픈AI, GPT-6 Astra로 코그니션 '데빈' 자체 테스트 능력 강화",
+    "excerpt": "오픈AI가 GPT-6 Astra를 통해 AI 코딩 에이전트 데빈의 자체 검증 능력을 끌어올렸다고 밝혔다. 목표는 엔지니어가 검토할 코드는 줄이고 배포 속도는 높이는 것이다.",
+    "body": "코그니션의 데빈은 GPT-6 Astra를 활용해 자신이 작성한 소프트웨어를 스스로 테스트하고 정상 작동을 증명하는 능력이 향상됐다. 오픈AI는 이를 통해 엔지니어들이 검토해야 할 코드량을 줄이면서도 더 많은 기능을 출시할 수 있도록 돕는 것이 목표라고 설명했다.",
+    "url": "https://openai.com/index/cognition-devin-testing-with-astra",
+    "source": "OpenAI News",
+    "category": "ai_ml",
+    "publishedAt": "2026-09-12T01:00:00+09:00",
+    "readTime": 3,
+    "imageGradient": 1
+   },
+   {
+    "id": "ai_003",
+    "title": "문샷AI, 연 매출 2조 원 목표 제시 — 키미 K3 앞세워 확장",
+    "excerpt": "중국 AI 스타트업 문샷AI가 키미 K3 모델을 앞세워 연 매출 20억 달러 달성을 목표로 내걸었다. 최근 사용량이 다소 줄었지만 하루 3천억 토큰 규모의 생성량을 유지하고 있다.",
+    "body": "오픈라우터 데이터에 따르면 키미 K3 모델은 최근 몇 달간 사용량이 소폭 감소했음에도 여전히 하루 최대 3천억 개의 토큰을 생성하고 있는 것으로 나타났다. 문샷AI는 이를 기반으로 연 매출 20억 달러(약 2조 원) 달성이라는 목표를 제시하며 중국 AI 굴기의 선두주자로서 입지를 다지고 있다.",
+    "url": "https://techcrunch.com/2026/09/11/kimi-maker-moonshot-ai-targets-2-billion-in-annual-revenue/",
+    "source": "TechCrunch",
+    "category": "ai_ml",
+    "publishedAt": "2026-09-12T04:35:54+09:00",
+    "readTime": 3,
+    "imageGradient": 2
+   },
+   {
+    "id": "ai_004",
+    "title": "Y콤비네이터 개리 탄 \"美 오픈웨이트 랩도 프론티어 모델 증류해야\"",
+    "excerpt": "개리 탄이 미국의 소규모 오픈웨이트 AI 연구소들도 중국식 증류 기법을 활용해 자국 프론티어 모델을 기반으로 한 경쟁력 있는 오픈웨이트 옵션을 만들어야 한다고 주장했다.",
+    "body": "개리 탄은 미국 프론티어 AI 연구소의 모델을 증류하는 방식으로 더 강력한 미국산 오픈웨이트 모델군을 구축해야 한다고 제안했다. 그는 이를 통해 중국산이 아닌 미국산 오픈웨이트 옵션을 늘려 AI 생태계의 균형을 맞출 수 있다고 강조했다.",
+    "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
+    "source": "TechCrunch",
+    "category": "ai_ml",
+    "publishedAt": "2026-09-12T05:59:47+09:00",
+    "readTime": 3,
+    "imageGradient": 3
+   },
+   {
+    "id": "ai_005",
+    "title": "오픈AI, 수학자들과의 갈등 심화 — 25인 필즈상 수상자 공개서한 파장",
+    "excerpt": "저명한 수학자 25명이 AI 연구소들이 자신들의 지적 작업을 위협하고 있다는 공개서한에 서명하면서 오픈AI와 수학계의 갈등이 격화되고 있다.",
+    "body": "필즈상 수상자를 포함한 25명의 저명한 수학자들이 AI 연구소들의 관행이 수학계의 지적 재산과 연구 문화를 위협한다는 내용의 공개서한에 서명했다. 오픈AI가 자사 모델의 수학 난제 해결 성과를 공격적으로 홍보해온 가운데, 이번 갈등은 AI와 학계 간 신뢰 문제로 확산되는 모양새다.",
+    "url": "https://techcrunch.com/2026/09/11/openais-feud-with-mathematicians-is-only-escalating/",
+    "source": "TechCrunch",
+    "category": "ai_ml",
+    "publishedAt": "2026-09-12T05:57:36+09:00",
+    "readTime": 4,
+    "imageGradient": 4
+   }
+  ],
+  "dev_tools": [
+   {
+    "id": "dev_001",
+    "title": "깃허브, '코드형 마케팅 운영'으로 행사 준비 자동화",
+    "excerpt": "깃허브 APAC 마케팅팀이 행사 기획부터 후속 조치까지 전 과정을 코드로 자동화한 사례를 공개했다. 업무 절차를 문서화할 수 있다면 자동화도 가능하다는 접근이다.",
+    "body": "글쓴이는 깃허브의 APAC 마케팅팀을 지원하기 위해 업무 프로세스를 코드로 옮기는 작업을 진행했다. 행사 계획, 실행, 후속 커뮤니케이션에 이르는 전체 흐름을 자동화함으로써 반복 작업을 줄이고 팀의 생산성을 높이는 방법을 상세히 설명한다.",
+    "url": "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github/",
+    "source": "GitHub Blog",
+    "category": "dev_tools",
+    "publishedAt": "2026-09-12T03:26:10+09:00",
+    "readTime": 3,
+    "imageGradient": 0
+   },
+   {
+    "id": "dev_002",
+    "title": "Cloudflare CASB, 자동 원격조치 정책 도입",
+    "excerpt": "클라우드플레어가 CASB에 자체 자동화 엔진을 도입해 SaaS 위험을 자동으로 해결하는 기능을 공개했다. 보안팀은 수동 개입 없이 이벤트 기반 로직을 설계할 수 있다.",
+    "body": "이번 업데이트로 보안팀은 위험한 파일 공유를 자동으로 취소하고 웹훅을 전송하는 등의 이벤트 기반 대응 로직을 클라우드플레어 개발자 플랫폼 위에서 직접 구축할 수 있게 됐다. 이는 SaaS 환경의 보안 위험에 더 빠르게 대응하기 위한 조치다.",
+    "url": "https://blog.cloudflare.com/casb-policies/",
+    "source": "Cloudflare Blog",
+    "category": "dev_tools",
+    "publishedAt": "2026-09-11T22:00:00+09:00",
+    "readTime": 3,
+    "imageGradient": 1
+   },
+   {
+    "id": "dev_003",
+    "title": "\"AI 사이버보안은 고양이와 쥐 게임\" — Zscaler CSO 인터뷰",
+    "excerpt": "Zscaler의 최고보안책임자 샘 커리가 AI 시대 보안 환경에서 인간 지능의 역할과, 애플리케이션에 가까운 곳에서 방어를 강화하는 전략의 중요성을 논했다.",
+    "body": "커리는 보안 방어를 애플리케이션에 더 가깝게 이동시키는 것이 취약점 탐색을 제한하는 데 도움이 된다고 설명했다. 또한 AI가 발견하는 취약점에 대응하기 위해서는 더 견고한 코드 인프라를 구축하는 것이 최선의 방법이라고 강조했다.",
+    "url": "https://stackoverflow.blog/2026/09/11/ai-cybersecurity-is-a-cat-and-mouse-game/",
+    "source": "Stack Overflow Blog",
+    "category": "dev_tools",
+    "publishedAt": "2026-09-11T16:40:00+09:00",
+    "readTime": 4,
+    "imageGradient": 2
+   },
+   {
+    "id": "dev_004",
+    "title": "버셀 샌드박스, 저장 용량 64GB로 2배 확대",
+    "excerpt": "버셀이 샌드박스 저장 용량을 기존 32GB에서 64GB로 두 배 늘렸다. 대형 저장소와 빌드 아티팩트 등을 다루는 에이전트 작업에 여유 공간을 제공한다.",
+    "body": "버셀 매니지드 이미지나 커스텀 이미지로 생성된 샌드박스는 물론, 기존의 런타임 속성으로 구성된 샌드박스까지 모두 확대된 저장 용량이 적용된다. 대형 리포지토리, 의존성, 디스크로 넘치는 데이터 워크로드, 저장 집약적인 에이전트 작업에 더 많은 여유 공간을 제공한다.",
+    "url": "https://vercel.com/changelog/vercel-sandbox-64-gb-storage",
+    "source": "Vercel Blog",
+    "category": "dev_tools",
+    "publishedAt": "2026-09-11T15:00:00+09:00",
+    "readTime": 2,
+    "imageGradient": 3
+   },
+   {
+    "id": "dev_005",
+    "title": "테일스케일, 버셀 AI 게이트웨이로 고객용 모델 라우터 구축",
+    "excerpt": "테일스케일이 버셀의 AI 게이트웨이를 활용해 고객에게 제공하는 모델 라우팅 시스템을 구축했다. 프로토타입에서 수개월 만에 유료 고객 서비스로 발전한 사례다.",
+    "body": "테일스케일은 노트북, 서버, 클라우드 인스턴스, 개인 기기를 하나의 사설 네트워크로 연결하는 서비스다. 이번에 공개된 Aperture by Tailscale의 모델 라우터는 테일넷 네트워크 아이덴티티로 모델 접근을 부여하고 회수할 수 있으며, 수백 개의 AI 모델을 실제 제품 환경에 배포했다.",
+    "url": "https://vercel.com/blog/how-tailscale-built-a-customer-facing-model-router-on-ai-gateway",
+    "source": "Vercel Blog",
+    "category": "dev_tools",
+    "publishedAt": "2026-09-11T13:00:00+09:00",
+    "readTime": 4,
+    "imageGradient": 4
+   }
+  ],
+  "big_tech": [
+   {
+    "id": "big_001",
+    "title": "테슬라, 10월 1일 2세대 로드스터 공개 예고",
+    "excerpt": "테슬라가 2017년 처음 발표했던 2세대 로드스터를 10월 1일 마침내 공개하겠다고 밝혔다. 테슬라의 '할로 스포츠카'로 오랜 기다림 끝에 베일을 벗는다.",
+    "body": "테슬라의 2세대 로드스터는 2017년 11월 처음 발표된 이후 여러 차례 출시가 연기되어 왔다. 회사는 이번에 10월 1일 공식 공개 행사를 열겠다고 확인했으며, 팬들의 오랜 기다림이 마침내 끝날 것으로 기대된다.",
+    "url": "https://techcrunch.com/2026/09/12/tesla-says-it-will-finally-unveil-the-second-generation-roadster-on-october-1/",
+    "source": "TechCrunch",
+    "category": "big_tech",
+    "publishedAt": "2026-09-13T04:21:19+09:00",
+    "readTime": 2,
+    "imageGradient": 0
+   },
+   {
+    "id": "big_002",
+    "title": "아이폰 18 프로·프로맥스 사전예약 시작",
+    "excerpt": "애플이 'Sunrise and Shine' 행사에서 공개한 아이폰 18 프로 시리즈의 사전예약이 시작됐다. 더 강력한 A20 프로 칩과 AI 작업을 위한 뉴럴 코어 강화가 특징이다.",
+    "body": "아이폰 18 프로와 프로맥스는 아이폰 듀오 등 신규 라인업과 함께 공개됐으며, GPU 성능이 강화된 A20 프로 프로세서와 AI 관련 작업을 위한 추가 뉴럴 코어를 탑재했다. 애플은 9월 12일 토요일부터 사전예약을 시작했으며, 새 애플워치 라인업과 에어팟5도 함께 출시된다.",
+    "url": "https://www.theverge.com/gadgets/988337/iphone-18-pro-max-preorder-buy",
+    "source": "The Verge",
+    "category": "big_tech",
+    "publishedAt": "2026-09-12T21:00:00+09:00",
+    "readTime": 3,
+    "imageGradient": 1
+   },
+   {
+    "id": "big_003",
+    "title": "레볼루트, 가짜 정부 요청 통한 고객 데이터 유출 확인",
+    "excerpt": "핀테크 기업 레볼루트가 가짜 정부 요청을 이용한 방식으로 고객 데이터가 유출된 사실을 공식 확인했다. 영향을 받은 고객과 당국에 통보했다고 밝혔다.",
+    "body": "레볼루트는 공격자들이 정부 기관을 사칭해 데이터 제공을 요청하는 방식으로 고객 정보에 접근했다고 설명했다. 회사는 영향을 받은 고객들에게 통보했으며, 관련 정부 기관과 법 집행기관, 금융 규제당국에도 이 사실을 알렸다고 밝혔다.",
+    "url": "https://techcrunch.com/2026/09/12/revolut-confirms-customer-data-breach-through-fake-government-requests/",
+    "source": "TechCrunch",
+    "category": "big_tech",
+    "publishedAt": "2026-09-12T23:40:00+09:00",
+    "readTime": 3,
+    "imageGradient": 2
+   },
+   {
+    "id": "big_004",
+    "title": "매트 뮬렌웨그, 해임 이틀 만에 오토매틱 CEO 복귀",
+    "excerpt": "유급휴직 처분을 받은 지 이틀 만에 매트 뮬렌웨그가 오토매틱 CEO로 복귀했다고 밝혔다. 워드프레스 임원도 그의 복귀를 공식 확인했다.",
+    "body": "뮬렌웨그는 슬랙 메시지를 통해 자신이 CEO 자리로 복귀했다고 직원들에게 알렸다. 워드프레스 실무이사 메리 허바드도 금요일 X(트위터) 게시물을 통해 뮬렌웨그의 복귀를 공식 확인했으며, 이는 공식 워드프레스 계정을 통해서도 공유됐다.",
+    "url": "https://www.theverge.com/tech/994087/matt-mullenweg-automattic-ceo-return",
+    "source": "The Verge",
+    "category": "big_tech",
+    "publishedAt": "2026-09-12T02:16:59+09:00",
+    "readTime": 3,
+    "imageGradient": 3
+   },
+   {
+    "id": "big_005",
+    "title": "애플, 아이폰 18 프로·애플워치·에어팟5 사전예약 공식 개시",
+    "excerpt": "애플이 9월 12일 토요일부터 아이폰 18 프로와 프로맥스의 사전예약을 시작한다고 공식 발표했다. 신규 애플워치 라인업과 에어팟5도 함께 준비를 마쳤다.",
+    "body": "애플은 이번 발표를 통해 아이폰 18 프로 시리즈의 정식 사전예약 개시를 알렸다. 새로운 애플워치 라인업과 에어팟5 역시 같은 시기에 출시되며, 이번 가을 신제품 라인업을 완성한다.",
+    "url": "https://www.apple.com/newsroom/2026/09/get-ready-to-experience-iphone-18-pro-the-new-apple-watch-lineup-and-airpods-5/",
+    "source": "Apple Newsroom",
+    "category": "big_tech",
+    "publishedAt": "2026-09-12T01:00:08+09:00",
+    "readTime": 2,
+    "imageGradient": 4
+   }
+  ],
+  "twitter_pulse": [
+   {
+    "id": "tweet_001",
+    "author": "Andrej Karpathy",
+    "handle": "karpathy",
+    "content": "이걸 정말 좋아하고, 산업 전체가 함께 모여서 이걸 실현할 수 있기를 진심으로 바랍니다.",
+    "context": "안드레이 카파시가 업계 전체가 협력해 실현하길 바란다고 밝힌 짧은 지지 발언이다. AI 산업 공동의 목표에 대한 공감을 표현한 트윗으로 풀이된다.",
+    "url": "https://x.com/karpathy/status/2098811935114551617",
+    "publishedAt": "2026-09-12T16:32:14.000Z",
+    "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+   },
+   {
+    "id": "tweet_002",
+    "author": "Greg Brockman",
+    "handle": "gdb",
+    "content": "500만 개의 ChatGPT 사이트와 새로운 기능 출시:",
+    "context": "오픈AI 사장 그렉 브록만이 ChatGPT 기반으로 만들어진 사이트가 500만 개를 돌파했다는 소식과 함께 신기능 출시를 알렸다.",
+    "url": "https://x.com/gdb/status/2098577683516940707",
+    "publishedAt": "2026-09-12T01:01:24.000Z",
+    "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+   },
+   {
+    "id": "tweet_003",
+    "author": "Greg Brockman",
+    "handle": "gdb",
+    "content": "금융 서비스를 위한 최고의 에이전트 도구 구축:",
+    "context": "그렉 브록만이 금융 서비스 업계를 위한 에이전트 도구 구축 소식을 공유했다. ChatGPT for Financial Services 출시와 관련된 발언으로 보인다.",
+    "url": "https://x.com/gdb/status/2098236010760970299",
+    "publishedAt": "2026-09-11T02:23:42.000Z",
+    "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+   },
+   {
+    "id": "tweet_004",
+    "author": "Greg Brockman",
+    "handle": "gdb",
+    "content": "Astra for antibody developability prediction:",
+    "context": "그렉 브록만이 GPT-6 Astra가 항체 개발 가능성 예측에 활용되고 있다는 소식을 공유했다. AI의 생명과학 연구 활용 사례로 주목된다.",
+    "url": "https://x.com/gdb/status/2098167375342239957",
+    "publishedAt": "2026-09-10T21:50:59.000Z",
+    "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+   },
+   {
+    "id": "tweet_005",
+    "author": "Greg Brockman",
+    "handle": "gdb",
+    "content": "API에서 GPT-Live, 빌더들이 새로운 종류의 애플리케이션을 만들 수 있도록 힘을 실어주는:",
+    "context": "그렉 브록만이 API에서 실시간 음성 모델 GPT-Live를 통해 개발자들이 새로운 형태의 애플리케이션을 만들 수 있게 됐다고 소개했다.",
+    "url": "https://x.com/gdb/status/2098157918906384676",
+    "publishedAt": "2026-09-10T21:13:24.000Z",
+    "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+   },
+   {
+    "id": "tweet_006",
+    "author": "Mira Murati",
+    "handle": "miramurati",
+    "content": "AI가 나아가는 방향과 우리에게 주어진 과제에 대한 중요한 대화.",
+    "context": "씽킹머신스 CEO 미라 무라티가 AI의 발전 방향과 업계가 짊어진 책임에 대한 중요한 논의가 있었다고 언급했다. 다리오 아모데이의 속도 조절 발언과 맞물린 발언으로 보인다.",
+    "url": "https://x.com/miramurati/status/2098559133280842040",
+    "publishedAt": "2026-09-11T23:47:41.000Z",
+    "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+   },
+   {
+    "id": "tweet_007",
+    "author": "Dario Amodei",
+    "handle": "DarioAmodei",
+    "content": "우리는 프론티어를 조절해야 한다: AI 산업이 왜 속도를 늦춰야 하는지에 대한 새로운 에세이를 썼습니다. 이를 위한 3단계 계획이 포함되어 있습니다. Anthropic은 이 단계들 중 첫 번째에 일방적으로 약속합니다. 우리는 제3자 평가자들에게 우리 시스템에 대한 영구적이고 직원 수준의 액세스를",
+    "context": "앤트로픽 CEO 다리오 아모데이가 'We Must Pace the Frontier' 에세이를 발표하며 AI 업계가 속도를 조절해야 하는 이유와 3단계 계획을 제시했다. 이날 매거진 커버스토리의 핵심이 된 발언이다.",
+    "url": "https://x.com/DarioAmodei/status/2098773920774074715",
+    "publishedAt": "2026-09-12T14:01:10.000Z",
+    "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+   },
+   {
+    "id": "tweet_008",
+    "author": "Jack Clark",
+    "handle": "jackclarkSF",
+    "content": "다리오의 속도 조절에 대한 이 발언이 자랑스럽다 - 기술에 가까이 있는 누구나 알다시피, AI는 사회가 그 능력과 위험에 적응할 수 있는 속도보다 훨씬 더 빠르게 발전하는 궤적을 보이고 있다. AI는 놀라울 정도로 긍정적인 기술이다 - 그리고 믿기지 않을 정도로 강력한 기술이다. 우리가 진정으로",
+    "context": "앤트로픽 정책 책임자 잭 클라크가 다리오 아모데이의 속도 조절 에세이를 지지하며, AI가 사회의 적응 속도보다 빠르게 발전하고 있다는 우려를 재차 강조했다.",
+    "url": "https://x.com/jackclarkSF/status/2098780956966764691",
+    "publishedAt": "2026-09-12T14:29:08.000Z",
+    "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+   },
+   {
+    "id": "tweet_009",
+    "author": "Jack Clark",
+    "handle": "jackclarkSF",
+    "content": "Import AI 이벤트: 로빈 슬론과 함께하는 픽션과 미래. 9월 14일 샌프란시스코에서 내 친구 로빈 슬론과 대화를 나눌 예정입니다. 우리는 로빈이 만들어내는 낯설지만 친근한 세계들과 상상된 미래가 오늘날의 현실을 비추는 거울이 될 수 있는 방법에 대해 이야기할 겁니다. 참석하고 싶으시다면",
+    "context": "잭 클라크가 9월 14일 샌프란시스코에서 작가 로빈 슬론과 함께하는 Import AI 행사 소식을 공유했다. AI가 상상하는 미래와 픽션의 관계를 주제로 다룰 예정이다.",
+    "url": "https://x.com/jackclarkSF/status/2098432700478890190",
+    "publishedAt": "2026-09-11T15:25:17.000Z",
+    "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+   },
+   {
+    "id": "tweet_010",
+    "author": "Alex Albert",
+    "handle": "alexalbert__",
+    "content": "이번 주말에 몇 분 정도 시간을 내서 이 에세이를 완전히 읽어볼 만한 가치가 있습니다. 임베디드 평가자(embedded evaluators)는 기술 업계에서는 다소 생소하게 들릴 수 있지만, 다른 산업에서는 꽤 일반적인 개념입니다. 대형 은행들은 건물 안에 연방 감사관들을 상주시켜 두고 있고, 미국의 모든",
+    "context": "앤트로픽의 알렉스 알버트가 다리오 아모데이의 에세이를 정독할 것을 권하며, 대형 은행의 상주 감사관 사례처럼 '임베디드 평가자' 개념이 다른 산업에선 이미 익숙하다고 설명했다.",
+    "url": "https://x.com/alexalbert__/status/2098814342443761909",
+    "publishedAt": "2026-09-12T16:41:47.000Z",
+    "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+   },
+   {
+    "id": "tweet_011",
+    "author": "Thariq",
+    "handle": "trq212",
+    "content": "만약 2018년에 오늘의 Claude Code를 보여줬다면, 나는 그것이 AGI라고 생각했을 거예요. 우리는 이미 소프트웨어 엔지니어링 직업과 사회 전체에서 극적인 양의 변화를 흡수했습니다. 하지만 여전히, 우리는 균열이 생기기 시작하는 것을 보고 있어요. 일이 내가 솔직히 따라잡을 수 있는 것보다 더",
+    "context": "앤트로픽의 타릭이 2018년 기준으로 보면 오늘날의 Claude Code가 AGI처럼 보일 것이라며, 소프트웨어 엔지니어링 업계가 이미 극적인 변화를 겪고 있다고 밝혔다.",
+    "url": "https://x.com/trq212/status/2098860941391872132",
+    "publishedAt": "2026-09-12T19:46:58.000Z",
+    "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+   },
+   {
+    "id": "tweet_012",
+    "author": "Thariq",
+    "handle": "trq212",
+    "content": "새로운 모델 릴리스와 함께 스킬이 여전히 작동하는지 알기 어렵다는 피드백을 들었습니다. 플러그인 평가가 도움을 주기 위해 여기 있습니다. 플러그인 폴더에서 `claude plugin eval init`을 실행하세요",
+    "context": "타릭이 새 모델 출시 때마다 기존 플러그인 스킬의 정상 작동 여부를 확인하기 어렵다는 사용자 피드백에 대응해, 새로운 플러그인 평가 기능을 소개했다.",
+    "url": "https://x.com/trq212/status/2098531560643539440",
+    "publishedAt": "2026-09-11T21:58:07.000Z",
+    "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+   },
+   {
+    "id": "tweet_013",
+    "author": "Thariq",
+    "handle": "trq212",
+    "content": "요즘은 단순히 합격/불합격 점수만 봐서는 평가 결과를 해석하는 게 기본적으로 불가능해요. 벤치마크에서 제가 보는 많은 실패 사례들은 지나치게 엄격한 숨겨진 테스트 때문인데, 어떤 경우에는 모델의 답변이 예상되는 평가 결과보다 더 말이 되는 경우도 있어요.",
+    "context": "타릭이 AI 벤치마크 평가의 신뢰성 문제를 지적하며, 지나치게 엄격한 테스트 기준이 오히려 모델의 실제 성능을 왜곡할 수 있다고 짚었다.",
+    "url": "https://x.com/trq212/status/2098490139798655427",
+    "publishedAt": "2026-09-11T19:13:32.000Z",
+    "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+   },
+   {
+    "id": "tweet_014",
+    "author": "Boris Cherny",
+    "handle": "bcherny",
+    "content": "최신 위협 인텔리전스 보고서는 절대적으로 무섭고 중요한 읽을거리입니다. 모델들이 더 지능적으로 변하면서, 적절한 보호 장치와 모니터링이 없으면 그만큼 더 위험해집니다. 많은 기능들은 이중 용도로 사용될 수 있습니다: 코딩을 잘하는 모델은 핵심 인프라를 해킹하는 데 사용될 수 있으며,",
+    "context": "앤트로픽의 보리스 체르니가 최신 위협 인텔리전스 보고서를 소개하며, 모델이 지능화될수록 이중 용도 위험(dual-use risk)에 대한 보호 장치가 중요해진다고 강조했다.",
+    "url": "https://x.com/bcherny/status/2098281805770309686",
+    "publishedAt": "2026-09-11T05:25:41.000Z",
+    "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+   },
+   {
+    "id": "tweet_015",
+    "author": "Boris Cherny",
+    "handle": "bcherny",
+    "content": "매일 저는 이런 식의 이메일과 메시지를 정말 많이 받습니다. 할 수 있는 한 최대한 많은 것에 답변하려고 노력하고 있어요. 아래에 제 답변을 공유합니다. 비슷한 상황에 처한 다른 사람들을 위해서요. 어떻게 생각하세요?",
+    "context": "보리스 체르니가 매일 받는 개발자들의 질문 중 하나에 대한 자신의 답변을 공개 공유하며 의견을 구했다.",
+    "url": "https://x.com/bcherny/status/2098217571153838124",
+    "publishedAt": "2026-09-11T01:10:26.000Z",
+    "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+   },
+   {
+    "id": "tweet_016",
+    "author": "Boris Cherny",
+    "handle": "bcherny",
+    "content": "안녕하세요 ████ 님, 둘 다에 충분한 여지가 있다고 생각합니다. 1. 프로토타입과 기타 일회용 코드는 완전히 블랙박스로 취급할 수 있습니다. 어차피 버릴 거라면, 그리고 그것이 망가질 때의 파급 효과가 낮다면, 완벽할 필요는 없습니다. 2. Claude가 작성한 프로덕션 코드는 인간이 작성한",
+    "context": "보리스 체르니가 프로토타입 코드와 프로덕션 코드에 대해 서로 다른 검증 기준을 적용해야 한다는 자신의 견해를 공유한 답변이다.",
+    "url": "https://x.com/bcherny/status/2098217573276131577",
+    "publishedAt": "2026-09-11T01:10:27.000Z",
+    "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+   },
+   {
+    "id": "tweet_017",
+    "author": "Boris Cherny",
+    "handle": "bcherny",
+    "content": "잠깐, 뭐라고?",
+    "context": "보리스 체르니가 놀라움을 표현한 짧은 반응 트윗이다.",
+    "url": "https://x.com/bcherny/status/2098209880310264048",
+    "publishedAt": "2026-09-11T00:39:52.000Z",
+    "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+   },
+   {
+    "id": "tweet_018",
+    "author": "Felix Rieseberg",
+    "handle": "felixrieseberg",
+    "content": "사람들이 모델들이 계속해서 극적으로 더 좋아질 거라는 사실을 정말로 내면화하지 않았다고 생각합니다. 2년 전, 모델들은 초등학교 수준의 수학도 간신히 처리했습니다. 오늘날, 우리는 풀 수 없는 수학 문제들 중 어떤 것들이 다뤄질지 논쟁하고 있습니다. 그건 미쳤군요! 물론 더 많은 능력",
+    "context": "펠릭스 리제베르그가 AI 모델의 수학 능력이 불과 2년 만에 초등학교 수준에서 난제 도전 수준으로 급격히 발전했다는 점을 강조하며, 이 발전 속도를 사람들이 아직 충분히 체감하지 못하고 있다고 지적했다.",
+    "url": "https://x.com/felixrieseberg/status/2098200320731934955",
+    "publishedAt": "2026-09-11T00:01:53.000Z",
+    "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+   },
+   {
+    "id": "tweet_019",
+    "author": "OpenAI Developers",
+    "handle": "OpenAIDevs",
+    "content": "API와 Codex에서 GPT-Rosalind를 통해 연구에 더 강력한 생물학적 추론을 도입하세요. 논문 간 발견과 실험 결과를 연결하고, 생물학적 표적에 대한 증거를 평가하며, 분석을 진행하여 다음에 테스트할 내용을 계획하세요.",
+    "context": "오픈AI가 API와 Codex에 생물학 연구용 모델 GPT-Rosalind를 도입해, 연구자들이 논문 간 발견을 연결하고 생물학적 증거를 평가할 수 있도록 지원한다고 발표했다.",
+    "url": "https://x.com/OpenAIDevs/status/2098509226335412479",
+    "publishedAt": "2026-09-11T20:29:22.000Z",
+    "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+   },
+   {
+    "id": "tweet_020",
+    "author": "OpenAI Developers",
+    "handle": "OpenAIDevs",
+    "content": "Codex에서, 유전체학, 단백질 구조, 그리고 번역 연구 워크플로우 전반에 걸쳐 생명과학 플러그인을 사용하여, 생물학적 증거 소싱부터 QC 보고서 및 대화형 노트북 생성까지 활용하세요.",
+    "context": "오픈AI가 Codex 내 생명과학 전용 플러그인을 통해 유전체학과 단백질 구조 연구 등 다양한 워크플로우를 지원한다고 소개했다.",
+    "url": "https://x.com/OpenAIDevs/status/2098509243389485252",
+    "publishedAt": "2026-09-11T20:29:26.000Z",
+    "metrics": {"likes": 0, "retweets": 0, "replies": 0}
+   }
+  ],
+  "threads_pulse": [
+   {
+    "id": "threads_001",
+    "author": "choi.openai",
+    "content": "레이 커즈와일은 하드웨어 발전과 소프트웨어 알고리즘의 효율화가 결합된 \"수확 가속의 법칙(Law of Accelerating Returns)\"에 의해 컴퓨팅 파워가 기하급수적으로 폭발하고 있다고 밝혔습니다. 그는 1939년 최초의 컴퓨터부터 최신 칩셋까지 하드웨어 성능과 알고리즘 혁신을 곱하면 실질적인 연산 능력이 \"200퀸틸리언(200 quintillion, 2해) 배 증가했다\"고 설명했습니다. 커즈와일은 이러한 궤적을 바탕으로 \"2029년까지 인간 수준의 인공일반지능(AGI)에 도달할 것\"이라는 자신의 27년 전 예측이 예정대로 실현될 것이라 자신했습니다. 그는 AGI가 의식의 문제가 아니라 현실 세계의 작업 수행 능력에 달려 있다며, \"인간보다 수배 빠르게 생각하고, 스스로를 수천 개의 복사본으로 나누어 협업하며, 사실상 초인간적(superhuman) 능력을 발휘할 것\"이라 강조했습니다.",
+    "context": "레이 커즈와일이 자신의 27년 전 AGI 예측이 여전히 유효하다고 재확인한 인터뷰 내용을 choi.openai가 정리해 공유했다. 하드웨어와 알고리즘 발전의 곱셈 효과를 근거로 든 점이 눈에 띈다.",
+    "url": "https://www.threads.net/@choi.openai/post/DdMsA-kEmFu",
+    "publishedAt": "2026-09-12T19:00:37.000Z"
+   },
+   {
+    "id": "threads_002",
+    "author": "choi.openai",
+    "content": "전 오픈AI 거버넌스 연구원 다니엘 코코타일로는 초지능 이전 단계에서도 경제적 폭발이 일어날 수 있다고 전망했습니다. 인간 최고 전문가 수준의 AI에서 발전을 멈추더라도, 이를 탑재한 로봇의 생산량을 늘려 노동력을 전면 대체하면 경제 규모는 기하급수적으로 커진다는 설명입니다. 로봇이 로봇을 생산하고 자원 채굴부터 제조까지 전 과정을 자동화하면서, 불과 10년 만에 전체 경제 규모가 폭발적으로 성장할 수 있다는 주장입니다.",
+    "context": "전 오픈AI 거버넌스 연구원 다니엘 코코타일로의 경제적 폭발 시나리오를 choi.openai가 소개했다. 초지능이 아니어도 로봇 노동력 대체만으로 경제가 기하급수적으로 성장할 수 있다는 주장이 핵심이다.",
+    "url": "https://www.threads.net/@choi.openai/post/DdMhsrjiugq",
+    "publishedAt": "2026-09-12T17:30:28.000Z"
+   }
+  ],
+  "reddit_pulse": [
+   {
+    "id": "reddit_001",
+    "title": "AI 수학 분야의 심각한 정렬 불량 — 필즈상 수상자 25인의 선언",
+    "originalTitle": "A Severe Misalignment of AI in Mathematics (Declaration by 25 Fields Medalists) [D]",
+    "summary": "r/MachineLearning에서 필즈상 수상자 25명이 서명한 성명을 두고 토론이 벌어지고 있다. AI 연구소들의 수학 난제 해결 홍보 방식이 학계의 연구 문화와 지적 재산을 위협한다는 우려가 핵심이다. 오픈AI와 수학계 간 갈등이 심화되는 다른 뉴스와도 맞닿아 있다.",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1wea1t7/a_severe_misalignment_of_ai_in_mathematics/",
+    "subreddit": "MachineLearning",
+    "score": 0,
+    "publishedAt": "2026-09-12T20:23:51+09:00"
+   },
+   {
+    "id": "reddit_002",
+    "title": "박사과정 지원에서 기술 보고서는 얼마나 중요할까?",
+    "originalTitle": "How much do tech reports matter for a PhD application? [D]",
+    "summary": "r/MachineLearning 이용자가 정식 동료심사 논문이 아닌 기술 보고서(테크 리포트)가 박사과정 지원 평가에서 어느 정도 비중을 갖는지 커뮤니티에 조언을 구하는 게시물이다.",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1weedmk/how_much_do_tech_reports_matter_for_a_phd/",
+    "subreddit": "MachineLearning",
+    "score": 0,
+    "publishedAt": "2026-09-12T23:40:54+09:00"
+   },
+   {
+    "id": "reddit_003",
+    "title": "EMNLP 등록 관련 혼란",
+    "originalTitle": "Confusion regarding EMNLP registration [D]",
+    "summary": "r/MachineLearning에서 자연어처리 학회 EMNLP의 등록 절차와 관련한 혼란스러운 안내에 대해 논의하는 게시물이다.",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1wdw5o0/confusion_regarding_emnlp_registration_d/",
+    "subreddit": "MachineLearning",
+    "score": 0,
+    "publishedAt": "2026-09-12T08:24:01+09:00"
+   }
+  ],
+  "quick_bites": [
+   {
+    "id": "qb_001",
+    "title": "다리오에게 보내는 공개서한: 진심이라면 가중치를 공개하라",
+    "excerpt": "해커뉴스에서 화제가 된 글로, 다리오 아모데이의 속도 조절 주장이 진심이라면 앤트로픽 모델의 가중치를 공개해야 한다는 반박이 담겨 있다.",
+    "body": "글쓴이는 다리오 아모데이의 '프론티어 조절' 주장에 대해, 정말로 AI 안전을 중시한다면 폐쇄형 모델 대신 오픈웨이트 방식을 택해 투명성을 높여야 한다고 주장한다. 이 글은 100점의 추천을 받으며 커뮤니티에서 활발한 토론을 이끌어냈다.",
+    "url": "https://jacob.gold/posts/open-letter-to-dario-amodei-about-open-weights/",
+    "source": "Hacker News",
+    "category": "quick_bites",
+    "publishedAt": "2026-09-13T04:15:32+09:00",
+    "readTime": 3,
+    "imageGradient": 0
+   },
+   {
+    "id": "qb_002",
+    "title": "우리는 프론티어의 속도를 조절해야 한다 — 다리오 아모데이 원문 에세이",
+    "excerpt": "이날 매거진 커버스토리의 근원이 된 다리오 아모데이의 원문 에세이가 해커뉴스에서 345점의 추천과 462개의 댓글로 큰 화제를 모았다.",
+    "body": "다리오 아모데이는 이 에세이에서 AI 산업이 자발적으로 속도를 조절해야 하는 이유와 구체적인 3단계 계획을 제시했다. 해커뉴스 커뮤니티에서는 이 제안의 실효성과 앤트로픽의 진정성을 둘러싸고 활발한 논쟁이 벌어지고 있다.",
+    "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+    "source": "Hacker News",
+    "category": "quick_bites",
+    "publishedAt": "2026-09-12T23:10:49+09:00",
+    "readTime": 5,
+    "imageGradient": 1
+   },
+   {
+    "id": "qb_003",
+    "title": "구글에 더 나은 모습을 기대했다 — 코드는 가져가고 출처는 지운 Artemis",
+    "excerpt": "Minitap 팀이 구글의 모바일 자동화 프로젝트 Artemis에서 자신들의 오픈소스 코드가 출처 표기 없이 사용된 정황을 발견했다는 게시물이다.",
+    "body": "Minitap 팀은 자신들이 만든 mobile-use 코드가 구글의 Artemis 프로젝트에 그대로 포함된 것을 발견했다고 밝혔다. 안드로이드 연결 코드와 에이전트 지침, 왓츠앱 예제 코드까지 일치했으며, 심지어 이전 버전에 있던 동일한 버그까지 재현되어 있었다는 점을 지적했다.",
+    "url": "https://news.hada.io/topic?id=33587",
+    "source": "GeekNews",
+    "category": "quick_bites",
+    "publishedAt": "2026-09-13T01:44:18+09:00",
+    "readTime": 3,
+    "imageGradient": 2
+   },
+   {
+    "id": "qb_004",
+    "title": "Thelio Mira AI — GPU 메모리 192GB를 지원하는 리눅스 워크스테이션",
+    "excerpt": "System76이 자체 하드웨어에서 AI 학습과 미세 조정을 수행할 수 있도록 설계한 GPU 중심 워크스테이션 Thelio Mira AI를 소개하는 게시물이다.",
+    "body": "Thelio Mira AI는 NVIDIA RTX PRO 6000 두 개를 탑재해 GPU 메모리를 최대 192GB까지 구성할 수 있으며, CPU는 최대 16코어 AMD 라이젠 9000 시리즈를 지원한다. 로컬 환경에서 AI 모델 학습과 반복 개발을 원하는 사용자를 겨냥한 제품이다.",
+    "url": "https://news.hada.io/topic?id=33592",
+    "source": "GeekNews",
+    "category": "quick_bites",
+    "publishedAt": "2026-09-13T03:38:14+09:00",
+    "readTime": 2,
+    "imageGradient": 3
+   },
+   {
+    "id": "qb_005",
+    "title": "엔비디아는 AI의 중앙은행이다",
+    "excerpt": "이코노미스트의 심층 분석 기사로, 엔비디아가 AI 산업 전반의 자금과 자원 흐름을 조율하는 사실상의 '중앙은행' 역할을 하고 있다는 주장을 담고 있다. 해커뉴스에서 229점의 추천을 받았다.",
+    "body": "기사는 엔비디아가 GPU 공급을 통해 AI 스타트업과 대형 기업들의 투자 순환 구조에 깊숙이 관여하고 있다고 분석한다. 엔비디아의 투자와 공급 계약이 AI 업계 전반의 자금 흐름을 사실상 좌우하고 있다는 점에서 '중앙은행'이라는 비유가 나왔다.",
+    "url": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
+    "source": "Hacker News",
+    "category": "quick_bites",
+    "publishedAt": "2026-09-13T00:08:27+09:00",
+    "readTime": 4,
+    "imageGradient": 4
+   },
+   {
+    "id": "qb_006",
+    "title": "트랜스포머 회로에 대한 수학적 프레임워크 (2021)",
+    "excerpt": "2021년 발표된 트랜스포머 내부 회로를 수학적으로 분석한 고전적 논문이 다시 화제가 되며 해커뉴스에서 재조명받았다.",
+    "body": "이 논문은 트랜스포머 모델의 어텐션 메커니즘을 수학적으로 분해해 내부 동작 원리를 해석하려는 초기 해석가능성(interpretability) 연구의 기초가 된 자료다. AI 안전과 정렬 논의가 뜨거워진 요즘 다시 주목받고 있다.",
+    "url": "https://transformer-circuits.pub/2021/framework/index.html",
+    "source": "Hacker News",
+    "category": "quick_bites",
+    "publishedAt": "2026-09-12T22:56:58+09:00",
+    "readTime": 5,
+    "imageGradient": 0
+   },
+   {
+    "id": "qb_007",
+    "title": "Litelm — 비대함을 덜어낸 LiteLLM",
+    "excerpt": "LiteLLM의 핵심 기능인 모델 라우팅과 메시지 변환만 추려 약 2,900줄로 재구현한 경량 라이브러리 Litelm이 GeekNews에서 소개됐다.",
+    "body": "Litelm은 openai와 httpx 단 두 개의 기본 의존성만으로 19개 제공자를 provider/model 형식으로 호출할 수 있도록 구현됐다. 스트리밍 등 핵심 기능은 유지하면서도 대폭 가벼워진 것이 특징이다.",
+    "url": "https://news.hada.io/topic?id=33580",
+    "source": "GeekNews",
+    "category": "quick_bites",
+    "publishedAt": "2026-09-12T20:31:40+09:00",
+    "readTime": 2,
+    "imageGradient": 1
+   },
+   {
+    "id": "qb_008",
+    "title": "Trail of Bits, 시그널 채팅 무결성 검증 방법 공개",
+    "excerpt": "보안 업체 Trail of Bits가 메신저 앱 시그널의 대화 내용이 위변조되지 않았음을 검증하는 방법을 설명한 글이다.",
+    "body": "이 글은 Trail of Bits가 시그널 채팅의 무결성을 검증하기 위해 사용하는 기술적 접근 방식을 소개한다. 종단간 암호화 메신저의 신뢰성을 외부에서 어떻게 검증할 수 있는지 다루는 보안 실무 사례다.",
+    "url": "https://blog.trailofbits.com/2026/08/11/how-trail-of-bits-helps-verify-the-integrity-of-your-signal-chats/",
+    "source": "Hacker News",
+    "category": "quick_bites",
+    "publishedAt": "2026-09-12T20:27:55+09:00",
+    "readTime": 3,
+    "imageGradient": 2
+   }
+  ]
+ }
+}
