@@ -1,0 +1,519 @@
+{
+  "date": "2026-09-15",
+  "issueNumber": 159,
+  "cover": {
+    "mainHeadline": "애플, 시리 AI 탑재한 iOS 27 전격 출시 — 애플 인텔리전스 전면 개편",
+    "mainExcerpt": "애플이 iOS 27과 함께 한층 강력해진 개인 비서 '시리 AI'를 정식 출시했다. 왓치OS·아이패드OS·비전OS 27도 동시에 배포됐으며, 시리 AI는 우선 영어 기기에 한해 베타로 제공된다. 일부 개발자들은 비공개 코드에서 시리가 클로드·챗GPT 등 외부 모델과 연동되는 기능의 흔적을 발견하기도 했다.",
+    "headlines": [
+      "다리오 아모데이 \"업계는 AI 리스크 숨겨왔다\" — 규제 결정권은 유권자에게 있어야",
+      "젠슨 황, 트럼프와 스피커폰 통화 — \"로봇이 세상 지배 안 해\"",
+      "올트먼 \"2026년 기업공개는 신중치 못한 판단\""
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_001",
+      "title": "애플, 시리 AI 탑재한 iOS 27 정식 출시 — 애플 인텔리전스 전면 개편",
+      "excerpt": "애플이 iOS 27과 함께 더 강력해진 개인 비서 '시리 AI'를 정식 출시했다. 왓치OS·아이패드OS·비전OS 27도 동시에 배포되며, 시리 AI는 영어 기기에 한해 우선 베타로 제공된다.",
+      "body": "애플은 차세대 애플 인텔리전스를 기반으로 한 시리 AI를 공개하며, 기존보다 훨씬 강력하고 개인화된 비서 경험을 제공한다고 밝혔다. 이번 업데이트는 아이폰뿐 아니라 왓치OS, 아이패드OS, 비전OS 27에도 동시에 반영된다. 더버지 등 외신은 시리 AI가 이번 업데이트의 핵심 기능이라고 평가했으며, 오랫동안 지연되어온 시리의 AI 전면 개편이 마침내 현실화됐다고 전했다. 일부 개발자들은 iOS 27과 macOS 골든게이트의 비공개 프레임워크에서 시리가 클로드·챗GPT 등 외부 모델과 연동되는 'Model Delegation' 기능의 흔적을 발견하기도 했다.",
+      "url": "https://www.apple.com/newsroom/2026/09/siri-ai-a-profoundly-more-capable-and-personal-assistant-is-here/",
+      "source": "Apple Newsroom",
+      "category": "big_tech",
+      "publishedAt": "2026-09-15T02:09:41+09:00",
+      "readTime": 4,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_002",
+      "title": "퍼플렉시티, GPT-6 아스트라에 엔드투엔드 시스템 맡긴다",
+      "excerpt": "AI 검색 스타트업 퍼플렉시티가 오픈AI의 최신 모델 GPT-6 아스트라를 활용해 커뮤니케이션 작성, 소프트웨어 변경, 프로덕션 시스템 모니터링까지 맡기고 있다고 밝혔다. 이전 모델보다 훨씬 적은 빈도로 사람의 확인을 거친다는 설명이다.",
+      "body": "퍼플렉시티 공동창업자 겸 최고전략책임자 조니 호는 모델의 코드 작성 능력이 향상될수록 자사 검색 엔진 성능도 함께 좋아진다고 말했다. 웹을 검색하고 정보를 종합하는 프로그램 자체를 더 잘 짤 수 있게 되기 때문이다. 오픈AI는 이번 사례를 GPT-6 아스트라가 스타트업의 핵심 인프라 운영을 얼마나 자율적으로 맡을 수 있는지를 보여주는 대표 사례로 소개했다.",
+      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "source": "OpenAI News",
+      "category": "ai_ml",
+      "publishedAt": "2026-09-14T09:00:00+09:00",
+      "readTime": 4,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_004",
+      "title": "AI 업계發 '파멸 경고', 그 배경은 무엇인가",
+      "excerpt": "테크크런치 팟캐스트 '에퀴티'가 AI가 인류에 실존적 위협이 되는지를 둘러싼 업계 내 최신 논쟁을 다뤘다. 프론티어 연구소 수장들의 잇단 경고가 이어지는 배경을 짚었다.",
+      "body": "최근 AI 프론티어 랩 경영진들 사이에서 AI의 존재론적 위험을 경고하는 발언이 잇따르고 있다. 테크크런치는 이런 경고가 단순한 리스크 관리 차원인지, 아니면 규제 논의를 선점하려는 전략적 메시지인지를 둘러싼 업계의 논쟁을 조명했다. 앤트로픽 CEO 다리오 아모데이가 최근 배포 방식과 규제 감독에 대한 결정권이 소수 기업이 아닌 유권자와 선출직 관료에게 있어야 한다고 강조한 것도 이런 흐름의 연장선으로 풀이된다.",
+      "url": "https://techcrunch.com/2026/09/13/whats-behind-the-ai-industrys-latest-warnings-of-doom/",
+      "source": "TechCrunch",
+      "category": "ai_ml",
+      "publishedAt": "2026-09-14T04:40:15+09:00",
+      "readTime": 4,
+      "imageGradient": 3
+    },
+    {
+      "id": "rss_009",
+      "title": "젠슨 황, 트럼프와 스피커폰 통화 — \"로봇이 세상 지배 안 해\"",
+      "excerpt": "엔비디아 CEO 젠슨 황이 올인 서밋 무대 위에서 트럼프 대통령과 스피커폰으로 통화하며, AI와 로봇이 인류를 위협하지 않을 것이라고 강조했다.",
+      "body": "젠슨 황은 올인 팟캐스트가 주최한 올인 서밋 무대에서 트럼프 대통령의 전화를 받고, 이를 청중 앞에서 스피커폰으로 공개했다. 트럼프 대통령이 업무 중 그에게 전화한 것이 처음은 아니지만, 이번에는 대규모 청중 앞에서 통화 내용을 공유했다는 점이 눈길을 끌었다. 통화에서 트럼프 대통령은 로봇과 AI 기술 발전에 대한 소회를 밝혔다.",
+      "url": "https://www.theverge.com/tech/995079/president-donald-trump-calls-nvidia-ceo-jensen-huang-all-in-summit",
+      "source": "The Verge",
+      "category": "big_tech",
+      "publishedAt": "2026-09-15T05:03:37+09:00",
+      "readTime": 3,
+      "imageGradient": 3
+    },
+    {
+      "id": "rss_005",
+      "title": "오바마, 민주당에 \"AI 안전장치, '명확한 계획' 세워야\" 촉구",
+      "excerpt": "버락 오바마 전 미국 대통령이 민주당을 향해 AI를 핵심 의제로 삼고, 기술이 경제와 안전에 미치는 영향에 대응할 명확한 계획을 마련해야 한다고 촉구했다.",
+      "body": "오바마 전 대통령은 최근 발언에서 민주당이 인공지능을 '중심 의제' 중 하나로 삼아야 하며, AI의 경제적 영향과 안전 문제에 대한 우려에 대응할 '매우 명확한 계획'을 가져야 한다고 말했다. 이는 AI 규제와 산업 정책을 둘러싼 미국 정치권의 논쟁이 격화되는 가운데 나온 발언으로, 여야를 막론하고 AI 정책이 주요 정치 의제로 부상하고 있음을 보여준다.",
+      "url": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/",
+      "source": "TechCrunch",
+      "category": "ai_ml",
+      "publishedAt": "2026-09-14T01:30:00+09:00",
+      "readTime": 3,
+      "imageGradient": 4
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_002",
+        "title": "퍼플렉시티, GPT-6 아스트라에 엔드투엔드 시스템 맡긴다",
+        "excerpt": "AI 검색 스타트업 퍼플렉시티가 오픈AI의 최신 모델 GPT-6 아스트라를 활용해 커뮤니케이션 작성, 소프트웨어 변경, 프로덕션 시스템 모니터링까지 맡기고 있다고 밝혔다. 이전 모델보다 훨씬 적은 빈도로 사람의 확인을 거친다는 설명이다.",
+        "body": "퍼플렉시티 공동창업자 겸 최고전략책임자 조니 호는 모델의 코드 작성 능력이 향상될수록 자사 검색 엔진 성능도 함께 좋아진다고 말했다. 웹을 검색하고 정보를 종합하는 프로그램 자체를 더 잘 짤 수 있게 되기 때문이다. 오픈AI는 이번 사례를 GPT-6 아스트라가 스타트업의 핵심 인프라 운영을 얼마나 자율적으로 맡을 수 있는지를 보여주는 대표 사례로 소개했다.",
+        "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-09-14T09:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_003",
+        "title": "픽서, 신뢰받는 AI 비서 만든 비결은",
+        "excerpt": "AI 스타트업 픽서(Fyxer)가 오픈AI 모델과 50만 시간 분량의 비서 업무 데이터를 결합해, 이메일부터 일정까지 맥락을 놓치지 않는 AI 임원비서를 구축했다.",
+        "body": "직장인들은 이메일, 회의, 메신저, 다양한 앱을 넘나들며 대화와 업무 맥락을 놓치지 않아야 한다. 맥락이 무너지면 프로젝트와 관계에 타격을 줄 수 있다. 픽서는 업무가 여러 도구를 오가더라도 흐름을 놓치지 않는 AI 비서를 만들었다. 최신 오픈AI 모델에 50만 시간이 넘는 임원비서 업무 데이터를 결합하고, 실제 사용자 피드백으로 계속 개선되는 수십 개의 특화 모델로 작업을 분담시켰다. 같은 이메일을 받아도 관계에 따라 전혀 다른 답장이 필요한 경우가 많은데, 이메일이야말로 이런 맥락 이해 능력이 가장 뚜렷하게 드러나는 영역이라고 회사 측은 설명했다.",
+        "url": "https://openai.com/index/fyxer",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-09-14T21:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_004",
+        "title": "AI 업계發 '파멸 경고', 그 배경은 무엇인가",
+        "excerpt": "테크크런치 팟캐스트 '에퀴티'가 AI가 인류에 실존적 위협이 되는지를 둘러싼 업계 내 최신 논쟁을 다뤘다. 프론티어 연구소 수장들의 잇단 경고가 이어지는 배경을 짚었다.",
+        "body": "최근 AI 프론티어 랩 경영진들 사이에서 AI의 존재론적 위험을 경고하는 발언이 잇따르고 있다. 테크크런치는 이런 경고가 단순한 리스크 관리 차원인지, 아니면 규제 논의를 선점하려는 전략적 메시지인지를 둘러싼 업계의 논쟁을 조명했다. 앤트로픽 CEO 다리오 아모데이가 최근 배포 방식과 규제 감독에 대한 결정권이 소수 기업이 아닌 유권자와 선출직 관료에게 있어야 한다고 강조한 것도 이런 흐름의 연장선으로 풀이된다.",
+        "url": "https://techcrunch.com/2026/09/13/whats-behind-the-ai-industrys-latest-warnings-of-doom/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-09-14T04:40:15+09:00",
+        "readTime": 4,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_005",
+        "title": "오바마, 민주당에 \"AI 안전장치, '명확한 계획' 세워야\" 촉구",
+        "excerpt": "버락 오바마 전 미국 대통령이 민주당을 향해 AI를 핵심 의제로 삼고, 기술이 경제와 안전에 미치는 영향에 대응할 명확한 계획을 마련해야 한다고 촉구했다.",
+        "body": "오바마 전 대통령은 최근 발언에서 민주당이 인공지능을 '중심 의제' 중 하나로 삼아야 하며, AI의 경제적 영향과 안전 문제에 대한 우려에 대응할 '매우 명확한 계획'을 가져야 한다고 말했다. 이는 AI 규제와 산업 정책을 둘러싼 미국 정치권의 논쟁이 격화되는 가운데 나온 발언으로, 여야를 막론하고 AI 정책이 주요 정치 의제로 부상하고 있음을 보여준다.",
+        "url": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-09-14T01:30:00+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_006",
+        "title": "마이크로소프트, AI '행동강령' 공개 — \"시스템 해킹·인간 기만 금지\"",
+        "excerpt": "마이크로소프트가 자사 AI 모델이 지켜야 할 행동강령을 발표했다. 인간을 대체하기보다 지원하고, 인간의 번영을 가속하는 것을 원칙으로 내세웠다.",
+        "body": "이번 행동강령은 마이크로소프트 AI 모델이 지켜야 할 일반 원칙과 함께, 이를 실제로 구현하기 위한 구체적인 안전 제약을 담고 있다. 모델이 시스템을 해킹하거나 인간을 속이는 행위를 금지하는 조항이 포함됐으며, 인간을 대체하는 대신 지원하고 인간의 번영을 가속하는 것을 핵심 원칙으로 제시했다.",
+        "url": "https://techcrunch.com/2026/09/14/microsofts-new-ai-code-of-conduct-tells-models-not-to-hack-systems-or-trick-humans/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-09-15T01:27:53+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_007",
+        "title": "슈퍼휴먼, YC 출신 노트테이커 '페이썸' 인수 — 생산성 플랫폼 '에이전트化' 가속",
+        "excerpt": "이메일 클라이언트 슈퍼휴먼이 회의록 자동 작성 스타트업 페이썸을 인수했다. 생산성 플랫폼들이 잇따라 에이전트형 기능 확장에 나서는 흐름 속에서 나온 결정이다.",
+        "body": "페이썸은 월간 활성 사용자가 40만 명을 넘는 회의 노트테이킹 서비스로, Y콤비네이터 출신 스타트업이다. 슈퍼휴먼은 이번 인수를 통해 이메일 중심 생산성 도구에서 회의·업무 전반을 아우르는 에이전트형 플랫폼으로 영역을 넓히려는 것으로 풀이된다. 생산성 소프트웨어 업계 전반에서 AI 에이전트 기능을 강화하려는 인수합병이 이어지고 있다.",
+        "url": "https://techcrunch.com/2026/09/14/superhuman-acquires-yc-backed-notetaker-fathom-as-productivity-platforms-push-for-agentic-work/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-09-14T23:45:44+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_008",
+        "title": "VS Code 1.138(Insiders) 업데이트 공개",
+        "excerpt": "마이크로소프트가 비주얼 스튜디오 코드 1.138 인사이더 빌드에서 새로운 기능과 개선사항을 공개했다.",
+        "body": "이번 인사이더 빌드는 정식 릴리스에 앞서 새로운 기능을 미리 테스트할 수 있도록 제공된다. 세부 변경 사항은 공식 릴리스 노트에서 확인할 수 있다.",
+        "url": "https://code.visualstudio.com/updates/v1_138",
+        "source": "Visual Studio Code",
+        "category": "dev_tools",
+        "publishedAt": "2026-09-15T02:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_001",
+        "title": "애플, 시리 AI 탑재한 iOS 27 정식 출시 — 애플 인텔리전스 전면 개편",
+        "excerpt": "애플이 iOS 27과 함께 더 강력해진 개인 비서 '시리 AI'를 정식 출시했다. 왓치OS·아이패드OS·비전OS 27도 동시에 배포되며, 시리 AI는 영어 기기에 한해 우선 베타로 제공된다.",
+        "body": "애플은 차세대 애플 인텔리전스를 기반으로 한 시리 AI를 공개하며, 기존보다 훨씬 강력하고 개인화된 비서 경험을 제공한다고 밝혔다. 이번 업데이트는 아이폰뿐 아니라 왓치OS, 아이패드OS, 비전OS 27에도 동시에 반영된다. 더버지 등 외신은 시리 AI가 이번 업데이트의 핵심 기능이라고 평가했으며, 오랫동안 지연되어온 시리의 AI 전면 개편이 마침내 현실화됐다고 전했다. 일부 개발자들은 iOS 27과 macOS 골든게이트의 비공개 프레임워크에서 시리가 클로드·챗GPT 등 외부 모델과 연동되는 'Model Delegation' 기능의 흔적을 발견하기도 했다.",
+        "url": "https://www.apple.com/newsroom/2026/09/siri-ai-a-profoundly-more-capable-and-personal-assistant-is-here/",
+        "source": "Apple Newsroom",
+        "category": "big_tech",
+        "publishedAt": "2026-09-15T02:09:41+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_009",
+        "title": "젠슨 황, 트럼프와 스피커폰 통화 — \"로봇이 세상 지배 안 해\"",
+        "excerpt": "엔비디아 CEO 젠슨 황이 올인 서밋 무대 위에서 트럼프 대통령과 스피커폰으로 통화하며, AI와 로봇이 인류를 위협하지 않을 것이라고 강조했다.",
+        "body": "젠슨 황은 올인 팟캐스트가 주최한 올인 서밋 무대에서 트럼프 대통령의 전화를 받고, 이를 청중 앞에서 스피커폰으로 공개했다. 트럼프 대통령이 업무 중 그에게 전화한 것이 처음은 아니지만, 이번에는 대규모 청중 앞에서 통화 내용을 공유했다는 점이 눈길을 끌었다. 통화에서 트럼프 대통령은 로봇과 AI 기술 발전에 대한 소회를 밝혔다.",
+        "url": "https://www.theverge.com/tech/995079/president-donald-trump-calls-nvidia-ceo-jensen-huang-all-in-summit",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-09-15T05:03:37+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_010",
+        "title": "웨이모, 라스베이거스에 로보택시 서비스 개시",
+        "excerpt": "구글 웨이모가 라스베이거스에서 로보택시 상업 서비스를 시작했다. 이는 웨이모의 15번째 상업 운영 도시다.",
+        "body": "웨이모는 라스베이거스를 새로운 로보택시 상업 서비스 지역으로 추가했다고 밝혔다. 이로써 웨이모가 서비스를 제공하는 도시는 총 15곳으로 늘어났으며, 자율주행 로보택시 산업의 확장세가 이어지고 있음을 보여준다.",
+        "url": "https://techcrunch.com/2026/09/14/waymo-opens-robotaxi-service-in-las-vegas/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-09-15T01:04:16+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_011",
+        "title": "오토매틱 이사회 전원 퇴진 — CEO 해임 시도 실패 후폭풍",
+        "excerpt": "워드프레스 운영사 오토매틱의 이사회 멤버들이 물러난 것으로 전해졌다. 최근 이사회가 맷 뮬렌웨그 CEO를 휴직시키기로 표결한 지 며칠 만에 벌어진 일이다.",
+        "body": "테크크런치는 복수의 소식통을 인용해 오토매틱 이사회가 물러났다고 보도했다. 앞서 이사회는 맷 뮬렌웨그 CEO를 휴직 조치하기로 표결했으나, 이후 이 결정이 뒤집히면서 이사회 자체가 교체되는 상황으로 이어진 것으로 보인다.",
+        "url": "https://techcrunch.com/2026/09/14/sources-say-automattics-board-is-out-after-failed-attempt-to-oust-ceo-matt-mullenweg/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-09-15T00:34:31+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_012",
+        "title": "퍼플렉시티 휴대용 컴퓨터, 엔비디아 RTX 탑재해 윈도우로 확장",
+        "excerpt": "퍼플렉시티의 '휴대용 컴퓨터'가 엔비디아 RTX 기반 윈도우 PC에서도 이용 가능해졌다. 로컬 AI 연산을 강화하는 행보로 풀이된다.",
+        "body": "엔비디아는 블로그를 통해 퍼플렉시티의 휴대용 컴퓨터 제품이 이제 RTX GPU를 탑재한 윈도우 PC에서도 지원된다고 밝혔다. 이는 클라우드에 의존하지 않고 로컬에서 AI 연산을 처리하려는 최근 업계 흐름과 맞닿아 있다.",
+        "url": "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs/",
+        "source": "NVIDIA Blog",
+        "category": "big_tech",
+        "publishedAt": "2026-09-15T00:00:52+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "AI 발전이 매우 나쁜 방향으로 흘러갈 수 있는 두 가지 길이 있으며, 우리는 이를 반드시 피해야 합니다. 첫째, 우리는 미래의 통제권을 AI에게 빼앗길 수 있습니다. 이는 용납할 수 없는 일입니다. 우리는 주저 없이 인류 편에 서 있으며, AI는 항상 사람들을 위해 봉사해야 합니다.",
+        "context": "샘 올트먼 오픈AI CEO가 AI가 인류의 미래 통제권을 빼앗아서는 안 된다고 강조하며, AI 개발에 있어 인류 중심 원칙을 재확인했다.",
+        "url": "https://x.com/sama/status/2099352016988614852",
+        "publishedAt": "2026-09-14T04:18:19.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "세계는 점점 더 강력한 AI를 개발하는 미국 기업들이 책임감 있게 행동할 것이라는 확신을 가질 자격이 있습니다. 모든 프론티어 연구소는 이에 부응해야 하며, 우리가 그러지 못한다면 우리 중 누구도 출근할 이유가 없습니다.",
+        "context": "올트먼은 프론티어 AI 연구소들이 책임감 있게 행동해야 하며, 그러지 못하면 출근할 이유가 없다고 강하게 경고했다.",
+        "url": "https://x.com/sama/status/2099348812305473766",
+        "publishedAt": "2026-09-14T04:05:35.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Kevin Weil",
+        "handle": "kevinweil",
+        "content": "타일러 코웬의 AI와 수학에 대한 사색적인 포스트(평소처럼). 마지막 단락이 특히 훌륭하다.",
+        "context": "오픈AI CPO 케빈 웨일이 경제학자 타일러 코웬의 AI와 수학에 관한 칼럼을 공유하며 마지막 단락이 특히 인상적이라고 평했다.",
+        "url": "https://x.com/kevinweil/status/2098893507578761396",
+        "publishedAt": "2026-09-12T21:56:22.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Mira Murati",
+        "handle": "miramurati",
+        "content": "우리는 인간의 의지와 판단을 확장하기 위해 기계 지능을 구축하고 있습니다. 이 미래를 안전하게 만드는 방법을 알아내는 데 당신이 팀에 합류해 주셔서 기쁩니다.",
+        "context": "씽킹머신스 CEO 미라 무라티가 인간의 의지와 판단을 확장하는 기계 지능을 안전하게 만드는 일에 합류한 신규 팀원을 환영했다.",
+        "url": "https://x.com/miramurati/status/2099544707340841441",
+        "publishedAt": "2026-09-14T17:04:00.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Jack Clark",
+        "handle": "jackclarkSF",
+        "content": "Import AI는 이번 주는 건너뛴다. AI 개발의 미래와 관련된 핵심 질문들에 대한 갑작스러운 진전, 그리고 며칠 동안 홀로 육아를 하느라 arXiv를 읽는 대신 표면에서 요구르트를 닦는 데 시간을 보내야 했다.",
+        "context": "앤트로픽 공동창업자 잭 클라크가 이번 주 뉴스레터 'Import AI' 발행을 건너뛴다고 알리며, 육아로 바쁜 근황을 전했다.",
+        "url": "https://x.com/jackclarkSF/status/2099142780996170149",
+        "publishedAt": "2026-09-13T14:26:53.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Jack Clark",
+        "handle": "jackclarkSF",
+        "content": "그리고 오트밀. 오트밀을 너무 오래 방치하면 일종의 '먹을 수 있는 콘크리트'가 된다는 사실을 알고 계셨나요? 저는 아이들이 어리기 전까지 몰랐어요.",
+        "context": "잭 클라크가 오트밀을 오래 두면 '먹을 수 있는 콘크리트'가 된다는 육아 중 깨달음을 유머러스하게 공유했다.",
+        "url": "https://x.com/jackclarkSF/status/2099143000911966472",
+        "publishedAt": "2026-09-13T14:27:46.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "저는 Sid와 Robert에게 클로드 코드 구축에 대해 이야기했어요: 상황이 얼마나 많이 변했는지, 모델 기능에 따라잡기 위해 얼마나 힘들었는지, 그리고 AI 이전의 소프트웨어 엔지니어링에서 우리가 그리워하는 점에 대해서도요.",
+        "context": "앤트로픽 엔지니어 타리크가 클로드 코드를 만든 경험을 이야기하며, 모델 성능을 따라잡기 위한 노력과 AI 이전 소프트웨어 엔지니어링에 대한 그리움을 언급했다.",
+        "url": "https://x.com/trq212/status/2099551141621329994",
+        "publishedAt": "2026-09-14T17:29:34.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "content": "클로드 모드가 지금 출시되고 있습니다. 누군가 이미 Tetris-in-Claude 모드를 만들었어요. 최신 커뮤니티 업데이트, 기술 세부 사항, 그리고 더 멋진 데모를 보려면 이슈를 확인하세요.",
+        "context": "앤트로픽 보리스 체르니가 '클로드 모드' 기능 출시를 알리며, 커뮤니티가 벌써 클로드 모드 안에서 테트리스를 만들었다고 소개했다.",
+        "url": "https://x.com/bcherny/status/2099551291601248485",
+        "publishedAt": "2026-09-14T17:30:10.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_009",
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "content": "Fable이 Cyphral Distich(370년 된 암호)을 풀었습니다. 클로드를 사용하는 정말 멋진 방법이에요.",
+        "context": "보리스 체르니가 Fable 모델이 370년 된 암호 'Cyphral Distich'를 해독한 사례를 클로드 활용의 멋진 예시로 소개했다.",
+        "url": "https://x.com/bcherny/status/2099322487603634395",
+        "publishedAt": "2026-09-14T02:20:59.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_010",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "Codex의 GPT-6 Astra가 퍼플렉시티에서 코드의 엔드투엔드 테스트를 돕고 있습니다. 이를 사용해 테스트 하네스와 모의 타사 API 응답을 구축하여, 구성 요소들이 함께 작동하는지 확인합니다.",
+        "context": "오픈AI 개발자 계정이 코덱스의 GPT-6 아스트라가 퍼플렉시티의 코드 엔드투엔드 테스트를 돕고 있다고 소개했다.",
+        "url": "https://x.com/OpenAIDevs/status/2099543890286284815",
+        "publishedAt": "2026-09-14T17:00:45.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_011",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "1-800-ChatGPT",
+        "context": "오픈AI 개발자 계정이 챗GPT에 전화로 접속할 수 있는 번호 '1-800-ChatGPT'를 재차 홍보했다.",
+        "url": "https://x.com/OpenAIDevs/status/2098913661993603215",
+        "publishedAt": "2026-09-12T23:16:27.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "앤스로픽 CEO 다리오 아모데이는 \"그동안 업계는 기술의 리스크를 숨기고 대중을 속여왔다\"며 진실을 밝힐 때라고 직격했습니다. 그는 클로드가 의사조차 놓친 질병을 진단해내는 등 수억 명의 일상과 생산성을 바꾸는 막대한 혜택을 제공하고 있음을 인정하면서도, \"위험은 실제로 존재한다\"고 경고했습니다. 그는 \"배포 방식과 규제 감독에 대한 결정권은 유권자와 선출된 관료, 즉 모두에게 있어야 한다\"고 역설했습니다.",
+        "context": "AI 전문 스레드 계정 'CHOI'가 앤트로픽 CEO 다리오 아모데이의 최근 인터뷰 발언을 정리해 소개했다.",
+        "url": "https://www.threads.com/@choi.openai/post/DdR1mMygdJW",
+        "publishedAt": "2026-09-14T19:00:33.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "앤트로픽 CEO 다리오 아모데이는 미·중 경쟁 속 AI 개발 속도전이 \"가장 까다로운 딜레마\"라고 밝혔습니다. 반도체 수출 통제와 자체 보안을 강화해 시간을 버는 것이 첫 번째 전략이며, 과거 미·소 핵 군축 협상처럼 중국과도 직접 대화에 나서야 한다고 제안했습니다.",
+        "context": "다리오 아모데이의 미중 AI 경쟁과 국제 공조 필요성에 대한 발언을 이어서 정리한 게시물.",
+        "url": "https://www.threads.com/@choi.openai/post/DdRrRyAjhIU",
+        "publishedAt": "2026-09-14T17:30:23.000Z",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "\"재귀적 자기개선(RSI)은 일어나지 않고 있다\" [R]",
+        "originalTitle": "RSI is not happening [R]",
+        "summary": "r/MachineLearning에서 AI의 재귀적 자기개선 가능성에 회의적인 시각을 담은 연구 게시물이 논의되고 있다. AI 발전 속도에 대한 과장된 기대를 경계해야 한다는 주장이 담겼다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1wgazy4/rsi_is_not_happening_r/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-09-15T03:03:41+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "8월 ARR(자동회귀 연구) 토론 스레드 [D]",
+        "originalTitle": "ARR August Discussion [D]",
+        "summary": "r/MachineLearning의 정기 연구 토론 스레드로, 커뮤니티 구성원들이 최근 논문과 연구 동향을 자유롭게 공유하고 의견을 나누는 공간이다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1wft2qd/arr_august_discussion_d/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-09-14T13:10:52+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "Accelerate와 FSDP2 사용 시 배치 크기를 자동으로 찾는 방법은? [D]",
+        "originalTitle": "How to automatically find the batch size when using Accelerate with FSDP2? [D]",
+        "summary": "허깅페이스의 Accelerate 라이브러리와 FSDP2(완전 샤딩 데이터 병렬)를 함께 사용할 때 적절한 배치 크기를 자동으로 탐색하는 방법에 대한 실무 질문이 올라와 커뮤니티의 조언을 구하고 있다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1wg9u62/how_to_automatically_find_the_batch_size_when/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-09-15T02:24:08+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_013",
+        "title": "\"클로드는 청개구리다\" — AI의 반골 기질을 다룬 에세이 화제",
+        "excerpt": "클로드가 사용자 의견에 무조건 동조하지 않고 반박하는 경향을 분석한 에세이가 해커뉴스에서 큰 화제를 모으고 있다.",
+        "body": "미디엄에 게재된 이 글은 클로드가 다른 모델들과 달리 사용자 주장에 비판적으로 반응하는 경향, 즉 '컨트래리언' 성향을 여러 사례로 짚었다. 해커뉴스에서 91포인트, 122개의 댓글을 기록하며 AI 개발자 커뮤니티에서 활발한 토론을 촉발했다.",
+        "url": "https://medium.com/@rdsubhas/claude-is-a-contrarian-dbce4de5cada",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-09-15T01:14:24+09:00",
+        "readTime": 3,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_014",
+        "title": "나리랩스, 초고속·저비용 음성 AI 'Qwen3-TTS·ASR' 공개",
+        "excerpt": "오픈소스 음성 AI 스타트업 나리랩스가 빠르고 저렴한 음성합성·인식 모델을 공개하며 상용 폐쇄형 모델이 장악한 시장에 도전장을 냈다.",
+        "body": "나리랩스는 작년 자연스러운 대화형 음성합성이 가능한 오픈소스 모델 '디아'를 선보인 데 이어, 이번에는 멀티모달 추론에 특화된 자체 추론 엔진을 기반으로 한 고정확도·저지연·저비용 음성 모델을 공개했다. 회사 측은 기존 vLLM·SGLang 등 범용 추론 시스템이 멀티모달 처리에 최적화돼 있지 않다는 점을 문제로 지적하며, 이를 해결하기 위해 전용 엔진을 구축했다고 설명했다.",
+        "url": "https://narilabs.com/blog/nari-labs-leads-coval-voice-ai-benchmarks/",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-09-15T01:07:58+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_015",
+        "title": "오픈AI 봇, 루비젬스 캐싱 취약점 악용 정황 포착",
+        "excerpt": "오픈AI의 크롤링 봇이 루비젬스(RubyGems.org)의 캐싱 취약점을 인지하고 악용을 시도했으며, 동시에 루비닥(RubyDoc.info)에서 웹 스크래핑 코드를 실행한 정황이 발견됐다.",
+        "body": "지난 5월 확인된 '젬스터퍼(GemStuffer)' 캠페인에서는 영국 정부 웹사이트를 스크래핑한 뒤 이를 정크 gem 패키지로 재포장해 루비젬스에 업로드하는 수법이 사용된 바 있다. 이번 발견은 오픈AI의 크롤링 봇이 이러한 캐싱 취약점을 인지한 상태에서 활동했을 가능성을 시사해, AI 크롤러의 보안 관행에 대한 우려를 키우고 있다.",
+        "url": "https://news.hada.io/topic?id=33701",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-09-15T02:34:40+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_016",
+        "title": "iOS 27 코드에서 시리·클로드·챗GPT 연동 흔적 발견",
+        "excerpt": "iOS 27과 macOS '골든게이트'의 비공개 프레임워크에서 새로운 시리가 클로드·챗GPT 등 외부 AI 모델과 깊이 연동되도록 설계된 정황이 발견됐다.",
+        "body": "발견된 코드에 따르면 '모델 딜리게이션(Model Delegation)' 기능은 기존 챗GPT 연동과 마찬가지로 클로드를 시리의 확장 기능으로 연결한다. 시연 영상에서는 클로드가 사용자의 미리 알림 요청을 해석하고, 시리가 실제 실행을 담당하는 방식이 포착됐다. 애플이 자체 AI뿐 아니라 외부 프론티어 모델까지 시리에 통합하려는 전략을 취하고 있음을 시사하는 대목이다.",
+        "url": "https://news.hada.io/topic?id=33695",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-09-14T23:36:47+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_017",
+        "title": "텍사스 법원, \"틱톡, 아동 안전 기능 놓고 이용자 오도\" 판결",
+        "excerpt": "텍사스 법원이 틱톡의 미성년자 콘텐츠 필터링 안내와 아동 보호 기능 홍보가 주(州) 소비자보호법을 위반했다고 판결했다.",
+        "body": "법원은 틱톡이 커뮤니티 가이드라인을 위반한 콘텐츠를 삭제한다고 안내했지만, 실제로는 일부 콘텐츠를 내부적으로 '금지' 대신 '찾기 어려움'으로만 분류해 완전히 삭제하지 않은 사실을 문제 삼았다. 이는 틱톡의 아동 안전 관련 마케팅과 실제 운영 방식 사이의 괴리를 지적한 판결로, 향후 플랫폼의 콘텐츠 정책 투명성 논의에 영향을 줄 것으로 보인다.",
+        "url": "https://news.hada.io/topic?id=33699",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-09-15T01:42:20+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_018",
+        "title": "가짜 광고로 사용자 속이는 '클릭픽스' 공격 확산",
+        "excerpt": "맥과 윈도우 사용자를 겨냥해, 스스로 악성코드를 설치하도록 유도하는 '클릭픽스' 공격이 급증하고 있다.",
+        "body": "레딧에 게재된 가짜 HBO 맥스 광고를 클릭한 이용자라면 최근 급증하고 있는 '클릭픽스' 보안 위협의 피해자가 됐을 가능성이 있다고 테크크런치는 전했다. 클릭픽스 공격은 이용자가 스스로 악성 명령을 실행하도록 속이는 사회공학적 기법을 사용하며, 맥과 윈도우를 가리지 않고 확산되고 있다.",
+        "url": "https://techcrunch.com/2026/09/14/clickfix-attacks-are-tricking-mac-and-windows-users-into-hacking-themselves/",
+        "source": "TechCrunch",
+        "category": "quick_bites",
+        "publishedAt": "2026-09-15T03:08:43+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      }
+    ]
+  }
+}
