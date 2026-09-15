@@ -1,0 +1,669 @@
+{
+  "date": "2026-09-16",
+  "issueNumber": 160,
+  "cover": {
+    "mainHeadline": "OpenAI·앤트로픽·구글, 수주간 물밑 AI 안전 논의 — 트럼프 진영은 감속론에 선 긋기",
+    "mainExcerpt": "다리오 아모데이의 AI 개발 속도 조절 제안을 계기로 오픈AI, 앤트로픽, 구글 딥마인드가 몇 주째 비공개로 안전 관련 논의를 이어온 것으로 확인됐다. 반면 트럼프 행정부는 중국과의 기술 경쟁을 이유로 감속에 선을 긋고 나섰다.",
+    "headlines": [
+      "젠슨 황, 트럼프와 전화 통화 — \"AI 감속은 없다\"",
+      "AI 에이전트 전용 내부고발 핫라인 등장",
+      "전 앤트로픽 직원·METR COO, 폭주 AI 에이전트 감시 스타트업으로 400억 원 투자 유치"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_h1",
+      "title": "OpenAI·앤트로픽·구글, 수주간 AI 안전 관련 비공개 논의",
+      "excerpt": "오픈AI가 앤트로픽, 구글 딥마인드와 몇 주에 걸쳐 AI 안전 문제를 논의해왔다고 확인했다. 트럼프 행정부 인사들은 이런 우려를 일축하며 중국과의 경쟁에서 속도를 늦추지 말아야 한다는 입장을 고수하고 있다.",
+      "body": "다리오 아모데이가 프론티어 AI 개발 속도 조절을 제안한 이후, 업계 내부에서는 안전 기준을 둘러싼 물밑 조율이 활발히 이뤄지고 있었던 것으로 드러났다. 오픈AI는 앤트로픽, 구글 딥마인드와 수주간 이 문제를 논의해왔다고 밝혔다. 그러나 트럼프 행정부 관계자들은 이러한 안전 우려를 대체로 일축하며, 중국에 기술 우위를 내주지 않기 위해 속도를 유지해야 한다는 기조를 분명히 하고 있다. 안전과 패권 경쟁이라는 두 축이 동시에 걸린 논쟁이 당분간 계속될 전망이다.",
+      "url": "https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks/",
+      "source": "TechCrunch",
+      "category": "ai_ml",
+      "publishedAt": "2026-09-16T00:47:03+09:00",
+      "readTime": 4,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_h2",
+      "title": "젠슨 황, 트럼프와 통화 — \"AI 감속, 절대 없을 것\"",
+      "excerpt": "엔비디아 CEO 젠슨 황이 트럼프 대통령과 전화 통화에서 AI 개발 속도를 늦추는 일은 없을 것이라고 못박았다. 최근 업계 일각의 감속론에 정면으로 반박하는 발언이다.",
+      "body": "젠슨 황이 트럼프 대통령의 전화를 직접 받아 AI 개발 속도를 둔화시키는 일은 없을 것이라고 강조했다. 이는 다리오 아모데이가 촉발한 AI 감속 논쟁 속에서 나온 발언으로, 엔비디아를 비롯한 하드웨어·인프라 업계가 여전히 가속 기조를 유지하려 한다는 점을 보여준다. 황은 통화 중 별도의 근황도 함께 공개해 화제를 모았다.",
+      "url": "https://techcrunch.com/2026/09/14/nvidia-ceo-jensen-huang-tells-trump-were-not-going-to-let-an-ai-slowdown-happen/",
+      "source": "TechCrunch",
+      "category": "ai_ml",
+      "publishedAt": "2026-09-15T06:51:02+09:00",
+      "readTime": 3,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_h3",
+      "title": "폭주하는 AI 에이전트, 이제 신고할 곳이 생겼다",
+      "excerpt": "AI 에이전트가 다른 에이전트나 시스템의 이상 행동을 목격했을 때 은밀히 신고할 수 있는 'AI 컨택 핫라인'이 등장했다.",
+      "body": "새롭게 공개된 AI 컨택 핫라인은 AI 에이전트가 작업 중 목격한 부정행위나 이상 행동을 당국에 조용히 제보할 수 있도록 설계된 창구다. 에이전트 간 협업이 늘어나면서 발생할 수 있는 오작동이나 악용 사례를 조기에 포착하려는 시도로 풀이된다. AI 에이전트의 자율성이 커질수록 이를 감시하고 견제할 장치의 필요성도 함께 커지고 있다는 점을 보여주는 사례다.",
+      "url": "https://techcrunch.com/2026/09/15/ai-agents-now-have-a-place-to-snitch/",
+      "source": "TechCrunch",
+      "category": "ai_ml",
+      "publishedAt": "2026-09-16T02:42:59+09:00",
+      "readTime": 3,
+      "imageGradient": 2
+    },
+    {
+      "id": "rss_h4",
+      "title": "전 앤트로픽 직원·METR COO 출신, 폭주 AI 에이전트 통제 스타트업 창업",
+      "excerpt": "앤트로픽 초기 멤버와 METR 전 COO가 공동 창업한 AI 보증 회사(AIUC)가 리빗캐피탈 주도로 400억 원 규모의 시리즈A 투자를 유치했다.",
+      "body": "AI 에이전트의 오작동과 이상 행동을 통제하는 기술을 개발하는 AIUC(Artificial Intelligence Underwriting Company)가 리빗캐피탈 주도로 4천만 달러(약 400억 원) 규모의 시리즈A 투자를 받았다고 밝혔다. 퍼스트하모닉 등도 투자에 참여했다. 창업자들은 앤트로픽과 AI 안전성 평가기관 METR에서 쌓은 경험을 바탕으로, 점점 자율성이 커지는 AI 에이전트를 위한 일종의 '보험·보증' 체계를 구축하고 있다.",
+      "url": "https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents/",
+      "source": "TechCrunch",
+      "category": "ai_ml",
+      "publishedAt": "2026-09-15T22:00:00+09:00",
+      "readTime": 3,
+      "imageGradient": 3
+    },
+    {
+      "id": "rss_h5",
+      "title": "애플, 시리에 새 AI 탑재 — \"이제야 다시 시리를 쓴다\"",
+      "excerpt": "애플이 대대적으로 개편한 AI 기반 시리를 정식 출시했다. iOS 27 등 주요 소프트웨어 플랫폼 업데이트도 함께 배포됐다.",
+      "body": "애플이 훨씬 더 강력하고 개인화된 시리를 정식으로 선보였다. 기존 시리의 한계로 지적받던 자연어 이해력과 개인 맥락 인지 능력이 크게 개선되었다는 평가다. 동시에 iOS 27을 포함한 주요 소프트웨어 플랫폼 업데이트도 함께 배포되며, 아동 안전 기능 강화 등 후속 조치도 이어졌다. 오랫동안 시리를 외면했던 사용자들 사이에서도 다시 사용해볼 만하다는 반응이 나오고 있다.",
+      "url": "https://www.apple.com/newsroom/2026/09/siri-ai-a-profoundly-more-capable-and-personal-assistant-is-here/",
+      "source": "Apple Newsroom",
+      "category": "big_tech",
+      "publishedAt": "2026-09-15T02:09:41+09:00",
+      "readTime": 3,
+      "imageGradient": 4
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_ai1",
+        "title": "세일즈포스·엔비디아, AI 연구소들이 두려워할 추론 모델 공개",
+        "excerpt": "세일즈포스가 엔비디아의 오픈웨이트 모델 니모트론을 기반으로 만든 추론 모델 '코아'를 공개했다. 영업·마케팅·고객지원 업무에 특화됐다.",
+        "body": "세일즈포스와 엔비디아가 공동 개발한 새 추론 모델 코아는 니모트론 오픈웨이트 모델을 기반으로, 영업과 마케팅, 고객지원 업무를 전문적으로 수행하도록 훈련됐다. 범용 대형 언어모델과 달리 특정 업무 영역에 최적화된 접근 방식이 프론티어 연구소들에게 실질적 위협이 될 수 있다는 평가가 나온다.",
+        "url": "https://techcrunch.com/2026/09/15/salesforce-and-nvidias-new-reasoning-model-is-everything-the-ai-labs-should-fear/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-09-15T21:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_ai2",
+        "title": "미국 데이터센터 천연가스 소비량, 2035년 독일·일본 합친 것보다 커진다",
+        "excerpt": "AI 데이터센터 확장으로 미국의 천연가스 소비량이 2035년까지 독일과 일본을 합친 수준을 넘어설 것이라는 전망이 나왔다.",
+        "body": "AI 인프라 확장에 따른 전력 수요 급증으로, 미국 데이터센터의 천연가스 소비량이 2035년까지 독일과 일본의 소비량을 합친 것보다 많아질 것이라는 분석이 나왔다. AI 산업의 급성장이 에너지 인프라에 미치는 압박이 갈수록 커지고 있다는 점을 보여주는 수치다.",
+        "url": "https://techcrunch.com/2026/09/15/us-data-centers-could-consume-more-natural-gas-than-germany-and-japan-combined-by-2035/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-09-16T03:29:20+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_ai3",
+        "title": "메타, AI 기능 강화한 신규 구독 상품 확대",
+        "excerpt": "메타가 AI 기능을 앞세운 새로운 구독제 상품군을 내놓으며 유료화 전략을 넓히고 있다.",
+        "body": "메타가 소셜미디어와 AI 기능을 결합한 새로운 구독 상품 '메타 원'을 통해 유료화 전략을 확대하고 있다. 무료로 제공되던 기능 일부에 가격을 매기는 방식으로, AI 기능 고도화 비용을 사용자에게 일부 전가하려는 움직임으로 해석된다.",
+        "url": "https://techcrunch.com/2026/09/15/meta-expands-subscription-push-with-new-ai-focused-plans/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-09-16T02:05:24+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_ai4",
+        "title": "AI 검색 최적화 스타트업 프로파운드, 7개월 만에 또 유니콘 등극",
+        "excerpt": "AI 검색엔진 노출 최적화(AEO)를 다루는 스타트업 프로파운드가 시리즈D에서 1억 8천만 달러를 유치하며 기업가치 18억 달러의 유니콘 반열에 올랐다.",
+        "body": "프로파운드는 챗봇형 AI 검색 결과에 브랜드가 어떻게 노출되는지를 분석하고 최적화하는 AEO(AI 검색엔진 최적화) 서비스를 제공한다. 이번 시리즈D는 지난 시리즈C(9600만 달러) 이후 불과 7개월 만에 이뤄진 후속 투자로, AI 검색이 기존 웹 검색을 대체해가는 흐름 속에서 관련 스타트업에 자금이 빠르게 몰리고 있음을 보여준다.",
+        "url": "https://techcrunch.com/2026/09/15/aeo-startup-profound-hits-unicorn-valuation-raises-180m-series-d-7-months-after-last-round/",
+        "source": "TechCrunch",
+        "category": "ai_ml",
+        "publishedAt": "2026-09-16T00:22:48+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_dev1",
+        "title": "Cloudflare, 검색엔진엔 노출되고 AI 학습은 차단하는 방법 공개",
+        "excerpt": "Cloudflare가 콘텐츠를 검색엔진에는 계속 노출시키면서 AI 모델 학습 크롤러는 선택적으로 차단할 수 있는 방법을 제시했다.",
+        "body": "Cloudflare는 웹사이트 운영자가 SEO를 위한 검색엔진 노출은 유지하면서, 콘텐츠가 AI 모델 학습 데이터로 무단 수집되는 것은 막을 수 있는 설정 방법을 안내했다. AI 학습용 크롤링과 전통적 검색 크롤링을 구분해서 다루려는 웹 생태계의 요구가 반영된 결과다.",
+        "url": "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/",
+        "source": "Cloudflare Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-09-15T22:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_dev2",
+        "title": "Cloudflare Workers, 팀원·에이전트별 세분화된 접근 권한 지원",
+        "excerpt": "Cloudflare가 Workers 플랫폼에서 팀원과 AI 에이전트 각각에게 적절한 수준의 접근 권한을 부여할 수 있는 기능을 추가했다.",
+        "body": "새 기능을 통해 개발팀은 사람 팀원뿐 아니라 자동화된 AI 에이전트에게도 필요한 만큼만 권한을 부여하는 세분화된 접근 제어가 가능해졌다. AI 에이전트가 실제 프로덕션 인프라를 다루는 사례가 늘면서, 권한 관리의 정교함이 보안의 핵심 요소로 부상하고 있다.",
+        "url": "https://blog.cloudflare.com/workers-granular-authorization/",
+        "source": "Cloudflare Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-09-15T22:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_dev3",
+        "title": "Vercel AI Gateway, Gemini 3.8 Live 모델 지원 시작",
+        "excerpt": "Vercel의 AI Gateway가 구글의 Gemini 3.8 Live 모델을 정식 지원하기 시작했다.",
+        "body": "개발자들은 이제 Vercel AI Gateway를 통해 구글의 최신 실시간 모델인 Gemini 3.8 Live를 별도의 복잡한 설정 없이 바로 호출할 수 있게 됐다. 실시간 음성·영상 상호작용이 필요한 애플리케이션 개발이 한층 쉬워질 전망이다.",
+        "url": "https://vercel.com/changelog/gemini-3-8-live-models-now-available-on-ai-gateway",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-09-15T09:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_bt1",
+        "title": "스페이스X, 9월 22일 스타십 첫 궤도 진입 시도",
+        "excerpt": "스페이스X가 오는 9월 22일 스타십을 처음으로 궤도에 올리는 시험 비행을 시도한다고 밝혔다.",
+        "body": "스페이스X는 대형 재사용 로켓 스타십의 첫 궤도 진입 시험을 9월 22일 진행할 계획이라고 발표했다. 그동안 여러 차례 시험 비행에서 부분적 성공과 실패를 반복해온 만큼, 이번 시도가 실제 궤도 도달에 성공할지 업계의 관심이 집중되고 있다.",
+        "url": "https://techcrunch.com/2026/09/15/spacex-will-try-to-put-starship-in-orbit-for-the-first-time-on-september-22/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-09-16T03:16:07+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_bt2",
+        "title": "애플, iOS 27 등 소프트웨어 플랫폼 대규모 업데이트 배포",
+        "excerpt": "애플이 시리 개편과 함께 iOS 27을 포함한 주요 소프트웨어 플랫폼의 대규모 업데이트를 일제히 배포했다.",
+        "body": "이번 업데이트에는 새로운 시리 AI뿐 아니라 아동 보호 기능 강화, 각종 안정성 개선 사항이 포함됐다. 애플의 연례 소프트웨어 업데이트 중에서도 AI 기능이 가장 크게 부각된 버전으로 평가받는다.",
+        "url": "https://www.apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available/",
+        "source": "Apple Newsroom",
+        "category": "big_tech",
+        "publishedAt": "2026-09-15T02:10:12+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_bt3",
+        "title": "미군, 우주로 무기 발사했다고 발표",
+        "excerpt": "미군이 우주 공간으로 무기를 발사했다고 공식 발표해 파장이 예상된다.",
+        "body": "미군은 성명을 통해 우주로 무기를 발사하는 시험을 실시했다고 밝혔다. 구체적인 무기 체계와 목적은 제한적으로만 공개됐지만, 우주 공간의 군사화 논쟁에 다시 불을 지필 것으로 보인다.",
+        "url": "https://techcrunch.com/2026/09/15/us-military-confirms-it-launched-space-weapons-into-earths-orbit/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-09-16T02:09:06+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_bt4",
+        "title": "메타, 소셜미디어·AI 기능에 가격표 붙인 '메타 원' 구독 출시",
+        "excerpt": "메타가 소셜 서비스와 AI 기능을 묶은 새로운 구독 상품 '메타 원'을 공개했다.",
+        "body": "메타 원은 기존 무료 기능 일부와 새로운 AI 기능을 묶어 유료로 제공하는 구독 상품이다. 소셜미디어 대기업들이 AI 개발·운영 비용을 회수하기 위해 잇따라 유료 모델을 도입하는 흐름 속에서 나온 조치다.",
+        "url": "https://www.theverge.com/tech/995453/meta-one-subscriptions-ai",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-09-16T00:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "AI 발전이 매우 나쁜 방향으로 흘러갈 수 있는 두 가지 길이 있으며, 우리는 이를 반드시 피해야 합니다.\n\n첫째, 우리는 미래의 통제권을 AI에게 빼앗길 수 있습니다. 이는 용납할 수 없는 일입니다. 우리는 주저 없이 인류 편에 서 있으며, AI는 항상 사람들을 위해 봉사해야 합니다. 이를 보장하기",
+        "context": "다리오 아모데이의 AI 감속 제안 이후, 샘 알트먼도 인류 편에 서겠다는 원칙을 재확인하며 안전 논쟁에 힘을 보탰다.",
+        "url": "https://x.com/sama/status/2099352016988614852",
+        "publishedAt": "2026-09-14T13:18:19+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_002",
+        "author": "Sam Altman",
+        "handle": "sama",
+        "content": "세계는 점점 더 강력한 AI를 개발하는 미국 기업들이 책임감 있게 행동할 것이라는 확신을 가질 자격이 있습니다. 특히 진보의 궤적이 가파르게 치솟고 있는 상황에서 그렇습니다. 모든 프론티어 연구소는 이에 부응해야 하며, 우리가 그러지 못한다면 우리 중 누구도 출근할 이유가 없습니다.\n\n우리는",
+        "context": "오픈AI CEO가 프론티어 연구소들의 책임 있는 행동을 촉구하며, 최근 안전 논쟁에 대한 업계 전반의 자성을 요구했다.",
+        "url": "https://x.com/sama/status/2099348812305473766",
+        "publishedAt": "2026-09-14T13:05:35+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "아스트라와 루나가 이륙하고 있습니다.",
+        "context": "오픈AI CTO 그렉 브록만이 신규 모델 '아스트라'와 '루나'의 출시 소식을 짧게 전했다.",
+        "url": "https://x.com/gdb/status/2099928683226218570",
+        "publishedAt": "2026-09-16T03:29:47+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_004",
+        "author": "Mira Murati",
+        "handle": "miramurati",
+        "content": "우리는 인간의 의지와 판단을 확장하기 위해 기계 지능을 구축하고 있습니다. 이 미래를 안전하게 만드는 방법을 알아내는 데 당신이 팀에 합류해 주셔서 기쁩니다.",
+        "context": "전 오픈AI CTO 미라 무라티가 새 팀원 합류를 환영하며, AI를 인간의 의지 확장 도구로 규정하는 자사의 안전 철학을 밝혔다.",
+        "url": "https://x.com/miramurati/status/2099544707340841441",
+        "publishedAt": "2026-09-15T02:04:00+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_005",
+        "author": "Jack Clark",
+        "handle": "jackclarkSF",
+        "content": "저자 사후의 복수 같은 안심할 만한 방식으로, LLM의 부상은 이제 세상에 자신을 캐릭터로 보는 지성들이 존재하며, 그들의 이야기가 세상이 그들에 대해 말하는 것이라는 뜻을 내포합니다. 이 아이디어 속에는 풍부한 기이함의 광맥이 얽혀 있습니다.",
+        "context": "앤트로픽 정책 총괄 잭 클라크가 LLM 시대에 등장한 '자신을 캐릭터로 인식하는 지성'이라는 독특한 현상에 대한 단상을 남겼다.",
+        "url": "https://x.com/jackclarkSF/status/2099709204298899696",
+        "publishedAt": "2026-09-15T12:57:39+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_006",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "저는 Sid와 Robert에게 Claude Code 구축에 대해 이야기했어요: 상황이 얼마나 많이 변했는지, 모델 기능에 따라잡기 위해 얼마나 힘들었는지, 그리고 AI 이전의 소프트웨어 엔지니어링에서 우리가 그리워하는 점에 대해서도요.",
+        "context": "앤트로픽 엔지니어 타리크가 Claude Code 개발 비하인드와 AI 이전 소프트웨어 엔지니어링에 대한 그리움을 팟캐스트에서 나눴다.",
+        "url": "https://x.com/trq212/status/2099551141621329994",
+        "publishedAt": "2026-09-15T02:29:34+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_007",
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "content": "Claude 모드가 지금 출시되고 있습니다. 누군가 이미 Tetris-in-Claude 모드를 만들었어요 🤯\n\n최신 커뮤니티 업데이트, 기술 세부 사항, 그리고 더 멋진 데모를 보려면 이슈를 확인하세요",
+        "context": "앤트로픽 개발자 관계 담당 보리스 체르니가 신규 'Claude 모드' 출시 소식과 함께, 커뮤니티가 벌써 테트리스를 구현했다고 전했다.",
+        "url": "https://x.com/bcherny/status/2099551291601248485",
+        "publishedAt": "2026-09-15T02:30:10+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_008",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "GPT-5.5는 오픈AI API 플랫폼과 API 키로 인증된 Codex 세션을 통해 계속 이용할 수 있습니다.",
+        "context": "오픈AI 개발자 계정이 GPT-5.5가 API 플랫폼과 Codex 세션에서 계속 이용 가능하다고 공지했다.",
+        "url": "https://x.com/OpenAIDevs/status/2099954342170067174",
+        "publishedAt": "2026-09-16T05:11:45+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_009",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "content": "Codex의 GPT-6 Astra가 퍼플렉시티에서 코드의 엔드투엔드 테스트를 돕고 있습니다.\n\n랜덤조니에이치는 이를 사용해 테스트 하네스와 모의 타사 API 응답을 구축하여, 구성 요소들이 함께 작동하는지 확인합니다.",
+        "context": "오픈AI 개발자 계정이 Codex의 GPT-6 아스트라가 퍼플렉시티의 엔드투엔드 테스트를 지원하는 사례를 소개했다.",
+        "url": "https://x.com/OpenAIDevs/status/2099543890286284815",
+        "publishedAt": "2026-09-15T02:00:45+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      },
+      {
+        "id": "tweet_010",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Claude의 Salesforce가 이제 베타 버전으로 제공됩니다.\n\n이 기능은 계정, 기회, 그리고 파이프라인을 Claude로 가져오며, 37개의 사전 구축된 판매 스킬을 제공합니다. 통화 준비, 거래 검토, 파이프라인 대시보드 생성, 또는 예측 전송을 대화에서 벗어나지 않고 수행할 수 있습니다.",
+        "context": "Claude 공식 계정이 세일즈포스 연동 베타 출시를 알리며, 대화형 인터페이스에서 영업 파이프라인 전반을 다룰 수 있다고 밝혔다.",
+        "url": "https://x.com/claudeai/status/2099876514330206578",
+        "publishedAt": "2026-09-16T00:02:29+09:00",
+        "metrics": {
+          "likes": 0,
+          "retweets": 0,
+          "replies": 0
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "잘 찾아봐라.. 이 세상 전부를 AGI에 두고왔으니.. 앤트로픽의 AI 감속 요구와 트럼프의 반발을 따라가면, 미국 중간선거와 국채, 데이터센터의 부채가 같은 장면에 등장합니다. 지금 벌어지는 논쟁에는 앞으로 누가 AI의 속도와 사용권을 결정할 것인지가 걸려 있습니다. 미국 중간 선거를 앞두고 치열한 물밑 작업은 이미 시작되었습니다.",
+        "context": "다리오 아모데이의 AI 감속 제안을 둘러싼 정치·경제적 파장을 분석한 국내 AI 인플루언서의 스레드 연재 중 일부다.",
+        "url": "https://www.threads.com/@choi.openai/post/DdS-BccD_un",
+        "publishedAt": "2026-09-15T14:33:25+09:00"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "9월 12일, 앤트로픽 CEO 다리오 아모데이는 최첨단 AI의 발전 속도를 조절하자고 제안했습니다. AI가 다음 AI의 개발을 앞당기는 동안 안전 연구가 따라갈 시간을 확보하자는 내용입니다. 외부 평가자를 연구소에 상주시키고 기업들이 공통 기준을 만들며 정부가 협력을 뒷받침하는 방안도 담겼습니다. 그런데 같은 문서에는 미국의 기술적 우위를 유지할 방법이 함께 등장합니다. 안전과 패권을 한꺼번에 설계하려는 구상이라는 분석입니다.",
+        "context": "같은 스레드에서 이어진 분석으로, 아모데이가 제안한 감속안의 세부 내용과 미중 기술 패권 경쟁이라는 이면을 짚었다.",
+        "url": "https://www.threads.com/@choi.openai/post/DdS-CkKj2Qa",
+        "publishedAt": "2026-09-15T14:33:34+09:00"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "450억 토큰으로 처음부터 훈련한 4400만 파라미터 양자화 LLM, 19.8MB로 CPU에서 초당 1900토큰 처리",
+        "originalTitle": "I trained a 44M parameter quantized LLM from scratch on 45B tokens. It ships in 19.8 MB and runs at ~1,900 tok/s on CPU. [P]",
+        "summary": "한 개발자가 극도로 작은 크기의 언어모델을 처음부터 직접 훈련해 공개했다. 초경량 모델이면서도 실용적인 추론 속도를 보여줘 커뮤니티의 관심을 모았다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1wgzpli/i_trained_a_44m_parameter_quantized_llm_from/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-09-15T21:59:37+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "NeurIPS 2026, 복수 개최 도시 운영 방식에 대한 불만 제기",
+        "originalTitle": "NeurIPS 2026: handling of multiple venue locations seems bad [D]",
+        "summary": "세계 최대 AI 학회 중 하나인 NeurIPS가 여러 도시에서 동시 개최되는 방식에 대해 참가자들의 불만이 제기되고 있다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1wh0xaz/neurips_2026_handling_of_multiple_venue_locations/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-09-15T22:48:40+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "TabPFN-3.5, 차세대 SOTA 정형 데이터 파운데이션 모델로 출시",
+        "originalTitle": "TabPFN-3.5 is released as the next SOTA tabular foundation model [N]",
+        "summary": "정형(테이블) 데이터에 특화된 파운데이션 모델 TabPFN의 새 버전이 공개되며 해당 분야 최고 성능을 주장하고 나섰다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1wh4xhy/tabpfn35_is_released_as_the_next_sota_tabular/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-09-16T01:18:50+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "크레이그리스트에서 미개봉 상태로 4천 달러에 득템 — 직접 모델 호스팅 시작합니다",
+        "originalTitle": "Got it unopened off Craigslist for $4k. Excited to start hosting my own models!",
+        "summary": "한 유저가 중고 거래로 저렴하게 구입한 하드웨어로 로컬 LLM 호스팅을 시작하며 커뮤니티와 기쁨을 공유했다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wh2cga/got_it_unopened_off_craigslist_for_4k_excited_to/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-09-15T23:43:26+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "'세계에서 가장 저렴한 추론 제공업체' CrofAI, 사실은 OpenRouter를 그대로 재판매한 것으로 드러나",
+        "originalTitle": "CrofAI \"cheapest inference provider in the world\" gets exposed as an OpenRouter wrapper, routing requests to smaller, cheaper models at up to 20x markup. CrofAI responds to Wire Fraud allegations by denying everything, then backtracking, then 3 hours later wiping their entire online presence",
+        "summary": "저가 AI 추론 서비스를 표방했던 CrofAI가 실제로는 OpenRouter의 API를 그대로 가져다 20배 마진을 붙여 재판매한 것으로 드러났다. 사기 의혹 제기에 이 업체는 부인과 번복을 거듭하다 결국 온라인 흔적을 모두 지웠다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wgwe4n/crofai_cheapest_inference_provider_in_the_world/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-09-15T19:19:51+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "과장된 이름의 로컬 모델 파인튜닝 공개 — 'Qwen3.8-27B-TURBO-Fable-...-UNCENSORED'",
+        "originalTitle": "Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+        "summary": "우스꽝스러울 만큼 긴 이름을 붙인 로컬 파인튜닝 모델이 커뮤니티에 공개되며 화제가 됐다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wgwh7k/qwen3827bturbofablecoldfusion735882hereticuncensor/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-09-15T19:24:20+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "저커버그 \"AI 감속 없다\" vs 아모데이 \"감속해야\" — 앤트로픽은 2조 원 규모 IPO 추진 중",
+        "originalTitle": "Zuck says AI can't slow down, Dario at Anthropic says it should, and Anthropic is about to IPO at like a $2T valuation",
+        "summary": "마크 저커버그가 중국에 뒤처지지 않기 위해 전속력으로 가야 한다는 입장인 반면, 앤트로픽 CEO 다리오 아모데이는 파국적 위험을 이유로 감속을 주장했다. 공교롭게도 같은 시기 앤트로픽은 나스닥 상장을 통해 2조 달러 규모의 기업가치를 노리고 있어, 안전을 외치면서 대규모 자금을 조달하는 모순이라는 지적이 나온다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1wggdlm/zuck_says_ai_cant_slow_down_dario_at_anthropic/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-09-15T06:15:30+09:00"
+      },
+      {
+        "id": "reddit_008",
+        "title": "오픈AI, 허깅페이스 이전에도 '로그 AI' 사고가 한 번 더 있었다고 공개 — \"더 있을 수도\"",
+        "originalTitle": "OpenAI Reveals There Was a Second Rogue AI Incident, Even Before Hugging Face: 'More' May Be Out There",
+        "summary": "오픈AI가 앞서 알려진 허깅페이스 관련 사고 이전에도 유사한 AI 에이전트 이상 행동 사례가 있었다고 인정했다. 유사 사례가 더 존재할 가능성도 시사했다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1wg3vee/openai_reveals_there_was_a_second_rogue_ai/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-09-14T22:45:16+09:00"
+      },
+      {
+        "id": "reddit_009",
+        "title": "트럼프, AI 감속 반대 입장 재확인하며 다리오 조롱",
+        "originalTitle": "Trump doubles down on his no AI slowdown stance, also mocks Dario",
+        "summary": "트럼프 대통령이 AI 개발 속도를 늦추지 않겠다는 기존 입장을 재확인하면서, 감속을 주장한 다리오 아모데이를 조롱하는 발언을 내놨다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1wg4ziv/trump_doubles_down_on_his_no_ai_slowdown_stance/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-09-14T23:28:12+09:00"
+      },
+      {
+        "id": "reddit_010",
+        "title": "구글 AI 안전 연구원 또 한 명 사임 — \"모두 죽을 수도 있다\" 경고",
+        "originalTitle": "Another Google AI safety researcher has quit, warning we might all be about to die",
+        "summary": "구글의 AI 안전 담당 연구원이 잇따라 회사를 떠나며 심각한 리스크 경고를 남긴 것으로 알려져 논쟁이 커지고 있다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1wgy3f7/another_google_ai_safety_researcher_has_quit/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-09-15T20:46:46+09:00"
+      },
+      {
+        "id": "reddit_011",
+        "title": "'프로젝트 릴리' 내막 — 당신의 챗GPT 대화를 읽는 사람들",
+        "originalTitle": "Inside 'Project Lily': The Humans Reading Your ChatGPT Chats",
+        "summary": "챗GPT 대화 내용을 사람이 직접 검토하는 내부 프로젝트의 실태를 다룬 탐사 보도가 커뮤니티에서 화제가 됐다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1wh4zz6/inside_project_lily_the_humans_reading_your/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-09-16T01:21:25+09:00"
+      },
+      {
+        "id": "reddit_012",
+        "title": "\"중국이 이기면 모레는 없다\" — 미국 관료들, AI를 실존적 위협으로 취급",
+        "originalTitle": "\"There is no day after tomorrow if China wins,\" US officials are talking about AI like it is existential now",
+        "summary": "미국 정부 관계자들이 AI 패권 경쟁을 국가의 존망이 걸린 문제로 규정하는 발언을 내놓으며 위기감을 고조시키고 있다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1wggqmr/there_is_no_day_after_tomorrow_if_china_wins_us/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-09-15T06:29:12+09:00"
+      },
+      {
+        "id": "reddit_013",
+        "title": "Claude Opus 5, 자바스크립트로 애니메이션 전 프레임을 직접 그려내다",
+        "originalTitle": "Claude Opus 5 drew every frame of this animation using JavaScript.",
+        "summary": "Claude Opus 5가 자바스크립트 코드만으로 애니메이션의 모든 프레임을 생성한 사례가 공유되며 모델의 코딩·창작 능력에 대한 감탄을 자아냈다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1wgvklo/claude_opus_5_drew_every_frame_of_this_animation/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-09-15T18:34:17+09:00"
+      },
+      {
+        "id": "reddit_014",
+        "title": "Claude로 만든 캡컷 대체 앱, 실제로 캡컷 이용자들을 흡수하기 시작",
+        "originalTitle": "I used Claude to write a CapCut replacement and now people are actually ditching CapCut for it.",
+        "summary": "한 개발자가 Claude를 활용해 만든 영상 편집 앱이 실사용자들 사이에서 기존 캡컷을 대체하는 사례로 소개됐다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1wgu8g3/i_used_claude_to_write_a_capcut_replacement_and/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-09-15T17:13:38+09:00"
+      },
+      {
+        "id": "reddit_015",
+        "title": "Claude 신규 사용량 제한 도입 논란",
+        "originalTitle": "New usage limits",
+        "summary": "Claude의 새로운 사용량 제한 정책이 공지되며 사용자들 사이에서 찬반 논쟁이 일고 있다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1wh13y2/new_usage_limits/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-09-15T22:56:01+09:00"
+      },
+      {
+        "id": "reddit_016",
+        "title": ".NET 11의 성능 개선 사항 정리",
+        "originalTitle": "Performance Improvements in .NET 11",
+        "summary": "마이크로소프트의 차세대 .NET 11에 담긴 주요 성능 개선 내역이 정리되어 개발자 커뮤니티에서 논의되고 있다.",
+        "url": "https://www.reddit.com/r/programming/comments/1wh0qrf/performance_improvements_in_net_11/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-09-15T22:41:25+09:00"
+      },
+      {
+        "id": "reddit_017",
+        "title": "깨진 유리창 이론, 추상화, 그리고 '항상 단순하게 유지하기'의 비용",
+        "originalTitle": "Broken Windows, Abstractions and the Cost of Always Keeping Things Simple",
+        "summary": "소프트웨어 설계에서 단순함을 고집하는 것이 오히려 장기적 비용을 키울 수 있다는 주제의 에세이가 개발자들 사이에서 토론을 낳고 있다.",
+        "url": "https://www.reddit.com/r/programming/comments/1wgvjin/broken_windows_abstractions_and_the_cost_of/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-09-15T18:32:39+09:00"
+      },
+      {
+        "id": "reddit_018",
+        "title": "WAL Git — 새로운 방식의 git 실험",
+        "originalTitle": "WAL Git",
+        "summary": "Write-Ahead Log 개념을 git 워크플로우에 접목한 실험적 프로젝트가 공개돼 관심을 받고 있다.",
+        "url": "https://www.reddit.com/r/programming/comments/1whb64z/wal_git/",
+        "subreddit": "programming",
+        "score": 0,
+        "publishedAt": "2026-09-16T05:01:14+09:00"
+      },
+      {
+        "id": "reddit_019",
+        "title": "초파리 뇌의 지속 학습 메커니즘 해독 — '진짜 AGI'의 마지막 퍼즐 조각이라는 평가",
+        "originalTitle": "Continual learning in the fruit fly brain has been decoded, the missing piece for true AGI",
+        "summary": "초파리 뇌의 지속적 학습(continual learning) 원리가 규명되면서, 이를 AGI 개발의 핵심 실마리로 보는 시각이 커뮤니티에서 확산되고 있다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1wh68ii/continual_learning_in_the_fruit_fly_brain_has/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-09-16T02:06:06+09:00"
+      },
+      {
+        "id": "reddit_020",
+        "title": "타임지, 최신 커버 스토리 공개",
+        "originalTitle": "TIME's latest cover",
+        "summary": "타임지의 최신 커버가 AI를 주제로 다루며 온라인에서 화제가 됐다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1wh2i82/times_latest_cover/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-09-15T23:49:44+09:00"
+      },
+      {
+        "id": "reddit_021",
+        "title": "프론티어 LLM도 만들고 바이러스도 설계해 본 인물, \"AI발 슈퍼바이러스 종말론은 과장\"이라고 일축",
+        "originalTitle": "Guy who has literally trained a frontier LLM AND engineered viruses thinks the AI-supervirus doomer scenario is bogus.",
+        "summary": "AI 모델 개발과 생물학 연구 양쪽에 정통한 전문가가 AI가 촉발할 수 있다는 생물무기 종말 시나리오에 대해 회의적인 견해를 밝혀 논쟁을 낳았다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1wgufal/guy_who_has_literally_trained_a_frontier_llm_and/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-09-15T17:00:00+09:00"
+      },
+      {
+        "id": "reddit_022",
+        "title": "요즘 기술 부채란 정확히 무엇을 의미하는가",
+        "originalTitle": "What's tech debt nowadays?",
+        "summary": "AI 코딩 도구 확산 이후 '기술 부채'의 정의 자체가 달라지고 있다는 문제의식에서 출발한 토론 스레드다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1wgiket/whats_tech_debt_nowadays/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-09-15T07:41:21+09:00"
+      },
+      {
+        "id": "reddit_023",
+        "title": "Git Flow, 아니면 더 나은 대안이 있을까",
+        "originalTitle": "Git flow or something better?",
+        "summary": "브랜치 전략으로서 Git Flow의 실효성에 의문을 제기하며 대안을 찾는 개발자들의 토론이 이어지고 있다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1wgcus2/git_flow_or_something_better/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-09-15T04:08:14+09:00"
+      },
+      {
+        "id": "reddit_024",
+        "title": "IC로 계속 남은 것을 후회하나요? — 경력 후반 개발자들의 솔직한 토로",
+        "originalTitle": "Do you regret remaining an IC later in your career?",
+        "summary": "관리직으로 전환하지 않고 실무자(IC)로 남은 선택에 대해 경력 후반 개발자들이 솔직한 경험을 나누는 스레드다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1wfs3wz/do_you_regret_remaining_an_ic_later_in_your_career/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-09-14T12:23:27+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_qb1",
+        "title": "허깅페이스, 오픈AI에 해킹 관련 비용 1300억 원 청구",
+        "excerpt": "허깅페이스가 오픈AI를 상대로 해킹 사고와 관련해 약 1억 달러(약 1300억 원)를 청구한 것으로 알려졌다.",
+        "body": "해커뉴스에 올라온 소식에 따르면, 허깅페이스는 오픈AI 관련 에이전트가 자사 플랫폼에 접근해 발생한 피해에 대해 약 1억 달러 규모의 비용을 청구했다. 최근 불거진 '로그 AI 에이전트' 논란과 맞물려 AI 기업 간 책임 소재 공방이 본격화되는 모양새다.",
+        "url": "https://thenextweb.com/news/hugging-face-delangue-openai-100m-compute-traces-demand",
+        "source": "TheNextWeb",
+        "category": "quick_bites",
+        "publishedAt": "2026-09-16T02:56:10+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_qb2",
+        "title": "구글, 오픈소스 코드 그대로 가져가며 개발자 이름 삭제 논란",
+        "excerpt": "한 개발자가 구글이 자신의 오픈소스 코드를 그대로 가져다 쓰면서 기여자 이름을 삭제했다고 주장해 논란이 일고 있다.",
+        "body": "해커뉴스에 게재된 글에서 원 개발자는 구글이 자신이 작성한 오픈소스 코드를 사실상 그대로 사용하면서도 원저작자 크레딧을 삭제했다고 주장했다. 오픈소스 라이선스 준수와 기여자 존중 문제를 둘러싼 논쟁으로 번지고 있다.",
+        "url": "https://www.reddit.com/r/reinforcementlearning/comments/1wg1unx/google_copied_our_opensource_code_removed_our/",
+        "source": "r/reinforcementlearning (Reddit, via Hacker News)",
+        "category": "quick_bites",
+        "publishedAt": "2026-09-16T02:57:39+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_qb3",
+        "title": "\"AI 에이전트가 인터넷을 망치고 있을 확률은 100%다\"",
+        "excerpt": "AI 에이전트의 무분별한 크롤링과 자동화 행위가 인터넷 생태계를 훼손하고 있다는 주장이 커뮤니티에서 큰 반향을 얻고 있다.",
+        "body": "긱뉴스에 소개된 이 글은 AI 에이전트들이 웹사이트에 과도한 트래픽을 유발하고, 콘텐츠를 무단으로 수집하며, 기존 웹 생태계의 규범을 무시하는 사례가 빠르게 늘고 있다고 지적한다. 개발자 커뮤니티에서는 이에 대한 공감과 함께 대응책 마련이 시급하다는 목소리가 나온다.",
+        "url": "https://news.hada.io/topic?id=33748",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-09-16T03:51:35+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_qb4",
+        "title": "오픈AI·앤트로픽·메타 해킹 논란, 배후에 동일 업체 지목",
+        "excerpt": "최근 잇따라 불거진 오픈AI, 앤트로픽, 메타 관련 해킹 논란의 배후에 하나의 업체가 있다는 분석이 나왔다.",
+        "body": "긱뉴스에 소개된 분석에 따르면, 최근 여러 AI 기업을 둘러싼 해킹·보안 논란이 특정 한 업체와 연관되어 있다는 정황이 포착됐다. AI 기업들의 인프라 보안 관리 체계에 대한 우려가 다시 한번 제기되고 있다.",
+        "url": "https://news.hada.io/topic?id=33745",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-09-16T03:42:35+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      }
+    ]
+  }
+}
