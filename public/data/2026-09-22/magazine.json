@@ -1,0 +1,398 @@
+{
+  "date": "2026-09-22",
+  "issueNumber": 163,
+  "cover": {
+    "mainHeadline": "OpenAI 내부 모델, 수학 난제 100개 이상 해결 — 학계 자문그룹 구성해 파장 관리",
+    "mainExcerpt": "OpenAI가 훈련 중인 새 내부 모델이 나비에-스토크스 문제를 비롯해 수학 전반의 미해결 문제 100개 이상을 풀어내며 업계를 놀라게 했다. 회사는 독립적인 수학자 자문그룹을 구성해 성과의 검증과 공개 절차를 관리하기로 했다.",
+    "headlines": [
+      "메타 AI 에이전트 'Muse', 초기 확산 속도서 ChatGPT 앞질러 — 아마존은 접근 차단",
+      "구글, 899달러 AI 노트북 '구글북' 공개 — 제미니로 데스크톱 재설계",
+      "Cloudflare 파이썬 워커스 정식 출시 — 서버리스에 파이썬 네이티브 지원"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_001",
+      "title": "OpenAI 내부 모델, 수학 난제 100개 이상 해결 — 독립 자문그룹으로 파장 관리 나서",
+      "excerpt": "OpenAI가 내부적으로 훈련 중인 새 모델이 나비에-스토크스 밀레니엄 문제 해결에 이어 수학 전반에서 100개 이상의 미해결 문제를 풀어냈다. 회사는 수학계와 별도로 독립 자문그룹을 구성해 성과 공개와 검증 절차를 관리하기로 했다.",
+      "body": "OpenAI는 8월 28일부터 새로운 내부 모델을 훈련시켜 왔으며, 이 모델은 나비에-스토크스 문제를 포함해 수학 전반에서 100개 이상의 오랜 미해결 문제를 해결했다고 밝혔다. 이는 OpenAI 내부 수학자들도 예상하지 못한 속도였다. 일부 수학자들은 공개서한을 통해 AI가 벤치마크로 미해결 문제를 푸는 것의 부작용을 우려했고, OpenAI는 이에 대응해 독립적인 수학 자문그룹을 구성해 향후 성과의 검증과 공개 방식을 자문받기로 했다. 이 그룹은 OpenAI로부터 급여를 받지 않으며 독립적으로 의견을 낼 수 있다.",
+      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "source": "OpenAI News",
+      "category": "ai_ml",
+      "publishedAt": "2026-09-21T21:00:00+09:00",
+      "readTime": 4,
+      "imageGradient": 0
+    },
+    {
+      "id": "rss_002",
+      "title": "메타 AI 에이전트 'Muse', 초기 확산 속도서 ChatGPT 앞질러",
+      "excerpt": "메타의 새 AI 에이전트 Muse가 미국과 캐나다에서 출시 초반 다운로드 및 일간 활성 사용자 수 면에서 ChatGPT의 모바일 출시 초기 실적을 넘어섰다고 Appfigures 추정치가 밝혔다.",
+      "body": "시장 조사업체 Appfigures의 새로운 추정치에 따르면, 메타의 신규 AI 에이전트 'Muse'가 미국·캐나다 지역에서 ChatGPT가 모바일 버전을 출시했던 시기와 비교해 더 많은 다운로드와 일간 활성 사용자 수를 기록한 것으로 나타났다. 이는 메타가 생성형 AI 에이전트 경쟁에서 빠르게 존재감을 키우고 있음을 보여준다. 다만 아마존은 자체 파운데이션 모델과 추론 플랫폼을 보유하고 있어 Muse의 아마존닷컴 접근을 차단한 상태로, 플랫폼 간 경쟁이 격화되는 양상이다.",
+      "url": "https://techcrunch.com/2026/09/21/metas-muse-is-outpacing-chatgpts-early-mobile-launch/",
+      "source": "TechCrunch AI",
+      "category": "ai_ml",
+      "publishedAt": "2026-09-22T04:19:21+09:00",
+      "readTime": 3,
+      "imageGradient": 1
+    },
+    {
+      "id": "rss_003",
+      "title": "구글, 899달러 '구글북' 공개 — 제미니 중심으로 데스크톱 경험 재설계",
+      "excerpt": "구글이 제미니를 커서, 받아쓰기, 위젯 등 데스크톱 곳곳에 결합한 AI 네이티브 노트북 '구글북'을 899달러에 출시하며 신규 노트북 구매 수요를 노리고 있다.",
+      "body": "구글은 새로운 AI 네이티브 노트북 '구글북(Googlebook)'을 공개했다. 이 제품은 제미니를 커서 동작, 음성 받아쓰기, 위젯 등 데스크톱 경험 전반에 통합해 기존 윈도우·맥 노트북과 차별화를 꾀했다. 가격은 899달러부터 시작하며, 구글은 이를 통해 소비자들이 제미니를 이유로 새 노트북을 구매하도록 유도하려 하고 있다. 첫 다섯 종의 구글북 라인업도 함께 공개됐다.",
+      "url": "https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini/",
+      "source": "TechCrunch AI",
+      "category": "big_tech",
+      "publishedAt": "2026-09-21T23:39:22+09:00",
+      "readTime": 3,
+      "imageGradient": 2
+    },
+    {
+      "id": "rss_004",
+      "title": "Cloudflare 파이썬 워커스 정식 출시 — 서버리스 환경서 파이썬 네이티브 지원",
+      "excerpt": "Cloudflare가 자사 서버리스 플랫폼 워커스에서 파이썬을 정식 지원한다고 발표했다. 개발자들은 별도 트랜스파일 없이 파이썬으로 엣지에서 실행되는 애플리케이션을 만들 수 있다.",
+      "body": "Cloudflare는 파이썬 워커스(Python Workers)가 정식 일반 출시(GA) 단계에 들어섰다고 발표했다. 이를 통해 개발자는 Cloudflare의 글로벌 엣지 네트워크에서 파이썬 코드를 네이티브로 실행할 수 있게 됐으며, 별도의 트랜스파일 과정이 필요 없다. 이번 발표는 Cloudflare가 서버리스 개발자 생태계를 자바스크립트 중심에서 다양한 언어로 확장하려는 전략의 일환으로 풀이된다.",
+      "url": "https://blog.cloudflare.com/python-workers-ga/",
+      "source": "Cloudflare Blog",
+      "category": "dev_tools",
+      "publishedAt": "2026-09-21T22:00:00+09:00",
+      "readTime": 3,
+      "imageGradient": 3
+    },
+    {
+      "id": "rss_005",
+      "title": "NVIDIA, AI 팩토리용 전력·냉각 제품 인증 프로그램 'DSX Ready' 출범",
+      "excerpt": "NVIDIA가 대규모 AI 데이터센터(AI 팩토리)에 필요한 전력 및 냉각 제품을 검증하는 DSX Ready 프로그램을 발표했다.",
+      "body": "NVIDIA는 AI 팩토리 구축에 필요한 전력·냉각 인프라 제품을 사전에 인증하는 'DSX Ready' 프로그램을 출범했다고 밝혔다. 이 프로그램은 파트너사들이 NVIDIA의 차세대 GPU 플랫폼과 호환되는 전력 공급 장치와 냉각 시스템을 표준화된 기준으로 검증받을 수 있도록 지원한다. AI 데이터센터의 전력 소비와 발열이 기하급수적으로 늘어나는 상황에서, 인프라 공급망 전반의 신뢰성을 높이려는 조치로 풀이된다.",
+      "url": "https://blogs.nvidia.com/blog/dsx-ready-ai-factories-power-cooling/",
+      "source": "NVIDIA Blog",
+      "category": "big_tech",
+      "publishedAt": "2026-09-22T03:00:07+09:00",
+      "readTime": 4,
+      "imageGradient": 4
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_006",
+        "title": "OpenAI, 차세대 AI를 위한 국제 표준 마련 촉구 — 재귀적 자기개선(RSI) 시대 대비",
+        "excerpt": "OpenAI가 AI의 재귀적 자기개선(RSI)이 가속화되는 국면에 대비해 각국 연구소와 정부가 공유할 수 있는 평가·보고·거버넌스 표준을 구축해야 한다고 제안했다.",
+        "body": "OpenAI는 AI 연구·개발 자체를 AI가 자동화하는 재귀적 자기개선(RSI) 단계가 다가오면서 AI 발전 속도가 급격히 빨라질 수 있다고 경고했다. 회사는 이런 전환을 안전하게 관리하려면 정렬 연구의 발전과 더불어, 여러 연구소와 국가가 공유할 수 있는 평가·보고·거버넌스 표준이 필요하다고 강조했다. 자동화된 AI 연구가 동시에 AI 안전 연구를 가속할 수도 있다는 전망도 제시했다.",
+        "url": "https://openai.com/index/building-standards-next-phase-ai",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-09-21T19:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_007",
+        "title": "스타트업 V7, GPT-5.6 기반으로 기업용 AI 에이전트에 '기관 기억력' 부여",
+        "excerpt": "AI 스타트업 V7이 GPT-5.6을 활용해 흩어진 기업 문서를 하나의 컨텍스트 그래프로 연결, AI 에이전트가 수백 단계짜리 업무를 처리하도록 돕는다.",
+        "body": "V7은 자사 플랫폼 'V7 Go'에 GPT-5.6 모델을 적용해 기업 내 문서, 데이터룸, 스프레드시트 등에 흩어진 정보를 '컨텍스트 그래프'로 정리한다. 이를 통해 AI 에이전트가 매번 처음부터 맥락을 찾을 필요 없이 금융·보험·부동산 분야의 복잡한 업무를 99.9%의 정확도로, 수십 시간 걸리던 작업을 수 분 내에 처리할 수 있다고 회사는 설명했다. 가장 까다로운 질의에는 GPT-6 Astra도 활용되고 있다.",
+        "url": "https://openai.com/index/v7",
+        "source": "OpenAI News",
+        "category": "ai_ml",
+        "publishedAt": "2026-09-21T09:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_008",
+        "title": "물리학 원리로 LLM 경량화 — 블록 제거를 이징 최적화 문제로 재정의",
+        "excerpt": "연구진이 대형 언어모델의 트랜스포머 블록을 제거하는 압축 기법을 물리학의 스핀 시스템(이징 모델) 최적화 문제로 재구성해 성능 손실을 크게 줄였다.",
+        "body": "새 논문은 어떤 트랜스포머 블록을 제거할지 결정하는 문제를 '제약 이진 최적화(CBO)' 문제로 정식화하고, 이를 스핀 간 상호작용을 갖는 이징 글래스 모델에 대응시켰다. 이 방법으로 Llama-3.3-70B-Instruct 모델을 50% 압축했을 때, 기존 최고 성능의 블록 제거 기법 대비 MMLU 벤치마크 점수를 약 23%포인트 끌어올렸다고 밝혔다.",
+        "url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
+        "source": "Hugging Face - Blog",
+        "category": "ai_ml",
+        "publishedAt": "2026-09-21T22:44:34+09:00",
+        "readTime": 5,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_009",
+        "title": "월드 모델 스타트업들, 여전히 베일에 싸인 기술 — 투자는 몰리는데 정보는 없다",
+        "excerpt": "막대한 투자금과 관심이 쏠리고 있는 월드 모델 분야지만, 창업자부터 데이터 공급업체까지 자신들이 실제로 무엇을 만들고 있는지 밝히기를 꺼리고 있다.",
+        "body": "월드 모델(세계 모델) 스타트업들이 대규모 투자 유치와 화제성을 동시에 누리고 있지만, 정작 구체적인 기술 방식이나 데이터 확보 경로에 대해서는 업계 전반이 함구하고 있다는 지적이 나왔다. 경쟁이 치열해지면서 기술 노출을 극도로 꺼리는 분위기가 투명성 논란으로 이어지고 있다.",
+        "url": "https://techcrunch.com/2026/09/20/world-model-companies-are-keeping-a-lot-of-secrets/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-09-21T05:29:07+09:00",
+        "readTime": 4,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_010",
+        "title": "AI 업계, 정말 '속도 조절'에 나설 준비가 됐나",
+        "excerpt": "AI 경영진들이 개발 속도를 늦추자고 말하는 것이 실제 진심인지를 두고 업계 안팎에서 회의적인 시각이 제기됐다.",
+        "body": "최근 일부 AI 기업 경영진들이 개발 속도 조절(Pace the Frontier) 필요성을 언급하고 나섰지만, 이것이 실질적인 정책 변화로 이어질지에 대해서는 회의적인 반응이 많다. 경쟁 압박과 투자 유치 경쟁이 여전한 상황에서 '감속' 발언이 실제 행동으로 이어지기 어렵다는 지적이 나온다.",
+        "url": "https://techcrunch.com/2026/09/20/is-the-ai-industry-really-ready-to-slow-down/",
+        "source": "TechCrunch AI",
+        "category": "ai_ml",
+        "publishedAt": "2026-09-21T03:56:04+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_011",
+        "title": "Vercel AI 게이트웨이, Grok 4.7 지원 시작 — 출시 기념 40% 할인",
+        "excerpt": "Vercel이 AI 게이트웨이·fx·eval 제품군에서 xAI의 신형 모델 Grok 4.7을 지원하기 시작했으며, 출시 기념으로 40% 할인을 제공한다.",
+        "body": "Vercel은 자사 AI 게이트웨이 서비스에 Grok 4.7 모델 지원을 추가했다고 발표했다. 개발자들은 별도 설정 없이 Vercel의 통합 API를 통해 Grok 4.7을 호출할 수 있으며, 출시를 기념해 한시적으로 40% 할인된 가격에 이용할 수 있다.",
+        "url": "https://vercel.com/changelog/grok-4-7-now-available-and-40-off-on-ai-gateway-fx-eve",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-09-21T09:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_012",
+        "title": "Vercel 배포 화면에 청구 대상 시간·CPU 사용량 표시 추가",
+        "excerpt": "Vercel이 대시보드의 배포 상세 화면에 실제 과금되는 실행 시간과 CPU 사용량(분 단위)을 함께 표시하도록 업데이트했다.",
+        "body": "Vercel은 개발자들이 비용을 더 명확히 파악할 수 있도록 배포 상세 페이지에 청구 대상 실행 시간과 CPU 사용 시간(분)을 함께 노출하는 기능을 추가했다. 이를 통해 팀들은 어떤 배포가 비용을 많이 소모하는지 더 쉽게 진단할 수 있다.",
+        "url": "https://vercel.com/changelog/deployments-now-show-billable-duration-and-cpu-minutes",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-09-22T00:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_013",
+        "title": "Vercel Connect, 마이크로소프트 팀즈 연동 지원",
+        "excerpt": "Vercel Connect가 마이크로소프트 팀즈와의 연동을 새롭게 지원하기 시작해, 배포 및 협업 알림을 팀즈 채널에서 바로 받아볼 수 있게 됐다.",
+        "body": "Vercel은 협업 도구 연동 기능인 Vercel Connect에 마이크로소프트 팀즈 지원을 추가했다. 이제 팀들은 슬랙뿐 아니라 팀즈 채널에서도 배포 상태나 프리뷰 링크 등의 알림을 실시간으로 받아볼 수 있다.",
+        "url": "https://vercel.com/changelog/vercel-connect-microsoft-teams",
+        "source": "Vercel Blog",
+        "category": "dev_tools",
+        "publishedAt": "2026-09-22T02:10:00+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_014",
+        "title": "파라마운트, 소송 합의로 1100억 달러 규모 워너브라더스 인수 걸림돌 해소",
+        "excerpt": "파라마운트가 자사의 1100억 달러 규모 워너브라더스 인수를 막고 있던 소송을 합의로 해결하며 거래 성사에 한 걸음 더 다가섰다.",
+        "body": "파라마운트는 워너브라더스 인수를 저지하던 소송을 합의로 마무리했다고 밝혔다. 이번 합의로 1100억 달러 규모의 대형 미디어 인수합병이 진행될 수 있는 법적 장애물이 제거됐으며, 업계에서는 미디어 지형 재편에 속도가 붙을 것으로 보고 있다.",
+        "url": "https://www.theverge.com/entertainment/998302/paramount-warner-bros-discovery-merger-settlement",
+        "source": "The Verge",
+        "category": "big_tech",
+        "publishedAt": "2026-09-22T02:42:15+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_015",
+        "title": "삼성그룹, 원자력 스타트업 카이로스 파워에 최대 1억 달러 투자",
+        "excerpt": "삼성 계열사들이 차세대 원자로 스타트업 카이로스 파워에 최대 1억 달러를 투자하며 AI 데이터센터용 전력 확보 경쟁에 뛰어들었다.",
+        "body": "삼성그룹 계열사들이 소형모듈원자로(SMR) 스타트업 카이로스 파워에 최대 1억 달러를 투자한다고 밝혔다. AI 데이터센터의 전력 수요가 급증하는 가운데, 대형 IT·전자 기업들이 안정적인 전력 공급원 확보를 위해 원자력 스타트업 투자에 나서는 흐름이 이어지고 있다.",
+        "url": "https://techcrunch.com/2026/09/21/kairos-power-gets-up-to-100m-from-samsung-group-to-build-nuclear-reactor-for-google/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-09-22T03:23:05+09:00",
+        "readTime": 3,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_016",
+        "title": "건강관리 기업 오우라, 22억 달러 규모 IPO — 실익은 기존 주주에 집중",
+        "excerpt": "웨어러블 반지 제조사 오우라가 22억 달러 규모로 기업공개를 진행하지만, 실질적 이익은 대부분 기존 주주들에게 돌아갈 것으로 분석된다.",
+        "body": "오우라(Oura)가 22억 달러 규모의 기업공개(IPO)를 추진한다. 그러나 이번 공모는 신규 자금 조달보다 기존 투자자들의 자금 회수 성격이 강해, 회사 성장 자금으로 쓰이기보다 초기 주주들에게 돌아가는 몫이 크다는 분석이 나온다.",
+        "url": "https://techcrunch.com/2026/09/21/ouras-2-2b-ipo-is-mostly-a-payday-for-existing-shareholders/",
+        "source": "TechCrunch",
+        "category": "big_tech",
+        "publishedAt": "2026-09-22T01:45:47+09:00",
+        "readTime": 3,
+        "imageGradient": 0
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tweet_001",
+        "author": "Jack Clark",
+        "handle": "jackclarkSF",
+        "content": "\"stochastic parrot\"는 2021-2025년에 걸쳐 전파된 모방적으로 적합한 인지 바이러스였습니다; 그것은 AI 발전의 본질에 대해 많은 재능 있는 사람들을 일시적으로 눈멀게 했고, 그들이 상황에 대한 대응을 함께 고민할 수 있었던 결정적인 몇 년을 소모하게 만들었습니다.",
+        "context": "앤트로픽 공동창업자이자 정책 대표인 잭 클라크가 'stochastic parrot(확률적 앵무새)' 프레임이 AI 능력의 본질을 오판하게 만들었다는 견해를 밝힌 트윗이다. AI 발전 속도에 대한 업계 내부의 자성적 시각을 보여준다.",
+        "url": "https://x.com/jackclarkSF/status/2101681347853242682",
+        "publishedAt": "2026-09-20T14:34:15.000Z",
+        "metrics": { "likes": 0, "retweets": 0, "replies": 0 }
+      },
+      {
+        "id": "tweet_002",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "우리는 OpenAI가 AI와 수학 분야의 발전을 책임감 있게 공유할 수 있도록, 수학자들로 구성된 독립적인 자문 그룹과 협력하고 있습니다.\n\n이 그룹은 새로운 수학적 결과의 평가와 전달 방법, 학술 및 전문 표준의 유지, 그리고 수학 연구와 학습을 지원하는 도구 개발에 대한 자문을 제공할 것입니다.",
+        "context": "OpenAI 공식 계정이 수학 자문그룹 구성 소식을 공지한 트윗으로, 오늘자 커버 스토리와 직결되는 내용이다. 회사가 AI의 수학적 성과 공개를 외부 전문가와 함께 관리하겠다는 의지를 밝혔다.",
+        "url": "https://x.com/OpenAI/status/2102093145051943229",
+        "publishedAt": "2026-09-21T17:50:35.000Z",
+        "metrics": { "likes": 0, "retweets": 0, "replies": 0 }
+      },
+      {
+        "id": "tweet_003",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "비디오 게임에는 현실에서는 정말로 얻기 어려운 높은 위험과 책임을 젊은이들에게 주는 무언가가 있어요.\n\n하지만 그건 아주 미세한 경계선이고, 어느 시점에선가 졸업해야 해요.",
+        "context": "OpenAI 소속 엔지니어 Thariq이 비디오 게임과 젊은 세대의 성장 경험에 대해 개인적인 견해를 남긴 트윗으로, AI 업계 인사들의 일상적 단상을 보여준다.",
+        "url": "https://x.com/trq212/status/2101844435353145452",
+        "publishedAt": "2026-09-21T01:22:18.000Z",
+        "metrics": { "likes": 0, "retweets": 0, "replies": 0 }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "threads_001",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "사람들이 AI 발전을 얼마나 선형적으로 생각하는지 모른다. 2024년 말만 해도 AI 연구자들은 AI가 밀레니엄 문제를 푸는 시점을 2054년쯤으로 예상했었다. 그런데 불과 2년도 지나지 않아 그 예상이 무너졌다. AI는 일정한 속도로 발전하지 않는다. 성능이 좋아질수록 연구와 개발 자체에도 AI가 투입되고 있다. 이 속도를 계속 보고 있으면 '특이점이 코앞에 있다'는 말도 더 이상 먼 미래 이야기가 아니다.",
+        "context": "국내 AI 인플루언서 CHOI가 OpenAI의 수학 난제 해결 소식을 계기로, AI 발전이 선형적이지 않고 가속화되고 있다는 견해를 밝힌 게시물이다. 오늘자 커버 스토리와 맞닿아 있다.",
+        "url": "https://www.threads.com/@choi.openai/post/Ddj3LxNDJ4-",
+        "publishedAt": "2026-09-21T19:00:45.000Z"
+      },
+      {
+        "id": "threads_002",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "엔비디아 CEO 젠슨 황은 AI가 수조 달러 규모의 거대한 산업을 형성하며 글로벌 경제 구조를 재편하고 있다고 강조했다. 전 세계 100조 달러 경제 중 약 15조 달러가 더 높은 지능의 혜택을 받을 수 있는 정보 작업 영역이라고 분석했으며, 데이터센터를 '지능을 생산하는 AI 팩토리'라고 표현했다. 이번 AI 혁명이 미국을 재산업화할 절호의 기회를 열어주고 있으며, 전기기사·건설·배관 등 블루칼라 일자리도 폭발적으로 늘고 있다고 설명했다.",
+        "context": "젠슨 황의 인터뷰 내용을 정리한 게시물로, 오늘자 NVIDIA DSX Ready 발표와 함께 AI 인프라 산업의 경제적 파급력을 조망한다.",
+        "url": "https://www.threads.com/@choi.openai/post/Ddjs1aACBXM",
+        "publishedAt": "2026-09-21T17:30:19.000Z"
+      },
+      {
+        "id": "threads_003",
+        "author": "CHOI",
+        "handle": "choi.openai",
+        "content": "RSI(재귀적 자기개선)가 생각보다 가까워지고 있다. The Information에 따르면 오픈AI에서는 AI가 GPU 커널을 작성하고 최적화하며, 일부 실험은 과거 수년에서 약 1주일 수준까지 줄었다고 한다. 최근 앤트로픽의 다리오 아모데이는 AI 개발 속도를 늦추자는 'Pace the Frontier'를 제안했고 샘 알트만과 일론 머스크도 동의했지만, 젠슨 황과 마크 저커버그는 공동 감속에 반대했다. AI가 AI 연구 자체를 자동화하기 시작한 시점에 업계가 동시에 감속론을 꺼낸 것은 우연이 아닐 것이라는 분석이다.",
+        "context": "OpenAI의 재귀적 자기개선(RSI) 관련 표준화 발표와 맞물려, 업계 리더들의 속도 조절 논쟁을 정리한 게시물이다.",
+        "url": "https://www.threads.com/@choi.openai/post/DdjkSJNj2zd",
+        "publishedAt": "2026-09-21T16:15:36.000Z"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "reddit_001",
+        "title": "가격이 오르는 걸 지켜보는 기분",
+        "originalTitle": "How it feels watching prices go up",
+        "summary": "LocalLLaMA 서브레딧에서 최근 GPU 및 API 요금 인상을 두고 이용자들이 씁쓸한 반응을 밈으로 공유한 게시물이다. 로컬 LLM 커뮤니티의 하드웨어·API 비용 상승에 대한 피로감이 드러난다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmga1r/how_it_feels_watching_prices_go_up/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "publishedAt": "2026-09-22T00:38:08+09:00"
+      },
+      {
+        "id": "reddit_002",
+        "title": "OpenAI, 수학 난제 100개 풀었다는 소식에 r/singularity 반응 폭발",
+        "originalTitle": "OpenAI solved 100 open problems in math",
+        "summary": "OpenAI의 내부 모델이 수학 난제 100개 이상을 해결했다는 공식 발표를 두고 r/singularity 이용자들이 AGI 도달 시점에 대한 기대와 우려를 쏟아내고 있다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1wml775/openai_solved_100_open_problems_in_math/",
+        "subreddit": "singularity",
+        "score": 0,
+        "publishedAt": "2026-09-22T03:32:46+09:00"
+      },
+      {
+        "id": "reddit_003",
+        "title": "프레임워크 없이 로컬 LLM이 즉시 사실을 학습·수정하게 하는 프로토타입 공개",
+        "originalTitle": "I built a framework-free prototype learner that lets local LLMs learn and correct facts instantly (1.6x-4x faster than backprop)[R]",
+        "summary": "한 연구자가 별도 프레임워크 없이 로컬 LLM이 실시간으로 사실을 학습하고 정정할 수 있는 경량 학습기를 공개해 r/MachineLearning에서 논의되고 있다. 기존 역전파 방식보다 1.6~4배 빠르다고 주장한다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1wmn76r/i_built_a_frameworkfree_prototype_learner_that/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "publishedAt": "2026-09-22T04:44:28+09:00"
+      },
+      {
+        "id": "reddit_004",
+        "title": "트럼프, AI를 '슈피리어' 혹은 '익스트림' 인텔리전스로 개명하려다 조롱 세례",
+        "originalTitle": "Trump brutally mocked over bizarre effort to rename AI 'superior' or 'extreme' intelligence",
+        "summary": "트럼프 측이 'AI'라는 명칭을 '슈피리어 인텔리전스' 등으로 바꾸자고 제안한 사실이 알려지며 r/artificial에서 조롱과 비판이 쏟아지고 있다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1wmdj0v/trump_brutally_mocked_over_bizarre_effort_to/",
+        "subreddit": "artificial",
+        "score": 0,
+        "publishedAt": "2026-09-21T22:56:33+09:00"
+      },
+      {
+        "id": "reddit_005",
+        "title": "[공지] Claude Code, 프롬프트 제안 기능 끄면 사용량 약 10% 절약 가능",
+        "originalTitle": "PSA - Claude Code: Turn off Prompt Suggestions, save ~10% of your limits/spend",
+        "summary": "Claude Code 사용자가 프롬프트 제안 기능을 끄면 토큰 사용량과 비용을 약 10% 절감할 수 있다는 팁을 공유해 r/ClaudeAI에서 화제가 되고 있다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1wm8adm/psa_claude_code_turn_off_prompt_suggestions_save/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "publishedAt": "2026-09-21T18:50:22+09:00"
+      },
+      {
+        "id": "reddit_006",
+        "title": "레거시 제품을 계속 유지하는 걸 어떻게 정당화하나요?",
+        "originalTitle": "How do you justify keeping a legacy product alive?",
+        "summary": "경력 개발자들이 모인 r/ExperiencedDevs에서 오래된 레거시 제품의 유지보수를 조직 내에서 어떻게 설득하고 정당화하는지에 대한 경험담을 나누고 있다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1wm0lc8/how_do_you_justify_keeping_a_legacy_product_alive/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "publishedAt": "2026-09-21T11:44:51+09:00"
+      },
+      {
+        "id": "reddit_007",
+        "title": "내부자 \"OpenAI·앤트로픽, 연방정부 개입 유도하려 AI 보안 위협 과장했다\"",
+        "originalTitle": "OpenAI and Anthropic oversold AI security breaches to pressure feds into protecting turf: insiders",
+        "summary": "업계 내부자들의 발언을 인용한 보도가 r/OpenAI에 공유되며, OpenAI와 앤트로픽이 연방 차원의 규제·보호를 이끌어내기 위해 AI 관련 보안 위협을 실제보다 부풀렸다는 의혹이 논쟁을 낳고 있다.",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1wmddek/openai_and_anthropic_oversold_ai_security/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "publishedAt": "2026-09-21T22:50:12+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_017",
+        "title": "AI 코딩이 CI를 병목으로 만들었다 — Linear의 CI 재설계기",
+        "excerpt": "Linear가 AI 코딩 도구 확산으로 늘어난 CI 부하를 감당하기 위해 CI 파이프라인을 전면 재설계한 경험을 공유했다.",
+        "body": "생산성 도구 기업 Linear는 AI 코딩 어시스턴트 사용이 늘면서 커밋과 PR 생성 속도가 빨라져 기존 CI 파이프라인이 병목 지점이 됐다고 밝혔다. 이에 회사는 CI 인프라를 재설계해 처리량을 끌어올린 과정을 상세히 공유했다.",
+        "url": "https://linear.app/now/ci-bottleneck-reworked",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-09-22T04:23:33+09:00",
+        "readTime": 4,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_018",
+        "title": "월가, AI 데이터센터 붐에 회의적 시선 커진다",
+        "excerpt": "뉴욕타임스 보도에 따르면 월가 투자자들이 AI 데이터센터 관련 기업들의 기업공개와 투자 붐에 점점 더 신중한 태도를 보이고 있다.",
+        "body": "AI 데이터센터 건설 붐에 막대한 자금이 몰렸지만, 최근 월가 투자자들 사이에서는 과잉 투자와 수익성에 대한 우려가 커지고 있다는 분석이 나왔다. 관련 기업들의 IPO 흥행 여부에도 신중론이 확산되는 분위기다.",
+        "url": "https://www.nytimes.com/2026/09/21/business/ai-data-center-ipos.html",
+        "source": "Hacker News",
+        "category": "quick_bites",
+        "publishedAt": "2026-09-22T04:14:30+09:00",
+        "readTime": 4,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_019",
+        "title": "GeekNews, 'Grok 4.7' 출시 소식 공유",
+        "excerpt": "국내 개발자 커뮤니티 GeekNews에서도 xAI의 신형 모델 Grok 4.7 출시 소식이 주요 화제로 다뤄졌다.",
+        "body": "GeekNews 커뮤니티에서 xAI의 새 모델 Grok 4.7 출시 소식이 공유되며 국내 개발자들 사이에서도 관심이 이어지고 있다. Cursor 등 코딩 도구와의 연동 소식도 함께 언급됐다.",
+        "url": "https://news.hada.io/topic?id=34077",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-09-22T02:49:35+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_020",
+        "title": "AI 챗봇, 금융 질문에 '대부분' 잘못된 답변 내놔",
+        "excerpt": "국내 GeekNews 커뮤니티에서 주요 AI 챗봇들이 금융 관련 질문에 상당수 부정확한 답변을 내놓는다는 조사 결과가 화제가 됐다.",
+        "body": "한 조사에 따르면 대중적으로 쓰이는 AI 챗봇 여러 종이 금융 관련 질문에 대해 상당 비율 부정확하거나 오해의 소지가 있는 답변을 내놓은 것으로 나타났다. GeekNews 이용자들은 AI를 금융 의사결정에 그대로 활용하는 것의 위험성을 지적했다.",
+        "url": "https://news.hada.io/topic?id=34070",
+        "source": "GeekNews",
+        "category": "quick_bites",
+        "publishedAt": "2026-09-21T23:31:22+09:00",
+        "readTime": 3,
+        "imageGradient": 3
+      }
+    ]
+  }
+}
