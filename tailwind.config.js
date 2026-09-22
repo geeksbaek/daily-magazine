@@ -5,30 +5,22 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        serif: ['"Playfair Display"', 'Georgia', 'serif'],
-        sans: ['"DM Sans"', 'system-ui', 'sans-serif'],
-        mono: ['"DM Mono"', 'monospace'],
+        display: ['Hahmlet', '"Noto Serif KR"', '"Apple SD Gothic Neo"', 'serif'],
+        text: ['"Pretendard Variable"', 'Pretendard', '-apple-system', 'BlinkMacSystemFont', 'system-ui', '"Apple SD Gothic Neo"', 'sans-serif'],
       },
       colors: {
-        ink: {
-          50: '#FAFAF7',
-          100: '#F4F4EE',
-          200: '#E8E8DF',
-          300: '#D1D1C4',
-          400: '#A8A898',
-          500: '#807F6E',
-          600: '#5C5B4C',
-          700: '#3D3C30',
-          800: '#252419',
-          900: '#141409',
-          950: '#0A0A04',
-        },
-        accent: '#C8102E',
-        'accent-dark': '#FF3355',
+        paper: { DEFAULT: 'var(--paper)', 2: 'var(--paper-2)', 3: 'var(--paper-3)' },
+        ink: { DEFAULT: 'var(--ink)', 2: 'var(--ink-2)', 3: 'var(--ink-3)' },
+        rule: { DEFAULT: 'var(--rule)', 2: 'var(--rule-2)' },
+        accent: { DEFAULT: 'var(--accent)', ink: 'var(--accent-ink)', soft: 'var(--accent-soft)' },
+        mark: { DEFAULT: 'var(--mark)', ink: 'var(--mark-ink)' },
       },
-      letterSpacing: {
-        widest: '0.25em',
-        'ultra-wide': '0.35em',
+      maxWidth: {
+        wrap: '1180px',
+        prose: '640px',
+      },
+      screens: {
+        xs: '420px',
       },
     },
   },

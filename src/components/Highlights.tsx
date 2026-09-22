@@ -1,80 +1,48 @@
 import type { Article } from '../types/magazine'
-import SectionHeader from './SectionHeader'
-import MagazineArticle from './MagazineArticle'
+import SectionShell from './SectionShell'
+import SourceLine from './SourceLine'
+import ArticleBody from './ArticleBody'
 
 interface Props {
   articles: Article[]
 }
 
+/** Lead story large on the left, the rest stacked on the right. */
 export default function Highlights({ articles }: Props) {
-  const [featured, ...rest] = articles
-  const secondary = rest.slice(0, 2)
-  const tertiary = rest.slice(2, 4)
+  if (!articles || articles.length === 0) return null
+  const [lead, ...rest] = articles
 
   return (
-    <section
-      id="highlights"
-      className="magazine-section py-16 lg:py-20"
-      style={{ backgroundColor: 'var(--bg)' }}
-    >
-      <div className="max-w-[1440px] mx-auto px-6 lg:px-10">
-        <SectionHeader
-          number="01"
-          title="Today's Highlights"
-          subtitle="주요 뉴스 딥다이브"
-        />
+    <SectionShell id="highlights" title="오늘의 주요 기사" subtitle="Highlights" count={articles.length}>
+      <div className={rest.length > 0 ? 'lg:grid lg:grid-cols-[minmax(0,1fr)_340px] lg:gap-x-14' : ''}>
+        <article className="min-w-0">
+          <h3 className="font-display text-[28px] font-bold leading-[1.3] tracking-[-0.01em] text-ink sm:text-[34px] lg:text-[36px]">
+            <a href={lead.url} target="_blank" rel="noopener noreferrer" className="title-link">
+              {lead.title}
+            </a>
+          </h3>
+          <p className="mt-5 max-w-prose text-[17px] leading-[1.75] text-ink-2">{lead.excerpt}</p>
+          <SourceLine article={lead} className="mt-4" />
+          <ArticleBody article={lead} size="lg" />
+        </article>
 
-        {/* Primary: featured article with magazine layout */}
-        {featured && (
-          <div
-            className="pb-10 mb-8 border-b"
-            style={{ borderColor: 'var(--border)' }}
-          >
-            <MagazineArticle article={featured} variant="featured" />
-          </div>
-        )}
-
-        {/* Secondary: 2-column magazine layout */}
-        {secondary.length > 0 && (
-          <div
-            className="grid grid-cols-1 lg:grid-cols-2 gap-0 mb-0"
-          >
-            {secondary.map((article, i) => (
-              <div
-                key={article.id}
-                className={`py-6 ${
-                  i === 0 && secondary.length > 1
-                    ? 'lg:border-r lg:pr-8'
-                    : 'lg:pl-8'
-                }`}
-                style={{ borderColor: 'var(--border)' }}
-              >
-                <MagazineArticle
-                  article={article}
-                  variant="standard"
-                  showDecoration={false}
-                />
-              </div>
-            ))}
-          </div>
-        )}
-
-        {/* Tertiary row: compact cards */}
-        {tertiary.length > 0 && (
-          <div
-            className="border-t pt-2"
-            style={{ borderColor: 'var(--border)' }}
-          >
-            {tertiary.map(article => (
-              <MagazineArticle
-                key={article.id}
-                article={article}
-                variant="compact"
-              />
+        {rest.length > 0 && (
+          <div className="mt-10 border-t border-rule-2 lg:mt-0 lg:border-t-0 lg:border-l lg:border-rule lg:pl-10">
+            {rest.map(a => (
+              <article key={a.id} className="border-b border-rule py-5 first:pt-5 last:border-b-0 last:pb-0 lg:first:pt-0">
+                <h4 className="font-display text-[19px] font-semibold leading-[1.4] text-ink">
+                  <a href={a.url} target="_blank" rel="noopener noreferrer" className="title-link">
+                    {a.title}
+                  </a>
+                </h4>
+                <p className="clamp-3 mt-2 text-[14.5px] leading-[1.65] text-ink-2">{a.excerpt}</p>
+                <SourceLine article={a} className="mt-2.5" showTime={false} />
+                <ArticleBody article={a} />
+              </article>
             ))}
           </div>
         )}
       </div>
-    </section>
+    </SectionShell>
   )
 }

@@ -3,178 +3,137 @@ import { formatIssueDate } from '../utils/format'
 import ThemeSwitcher from './ThemeSwitcher'
 import type { ThemeId } from '../hooks/useTheme'
 
+export interface SectionLink {
+  id: string
+  label: string
+  count: number
+}
+
 interface Props {
   date: string
   issueNumber: number
+  sections: SectionLink[]
+  view: 'magazine' | 'archive'
   themeId: ThemeId
   onSetTheme: (id: ThemeId) => void
   onShowArchive: () => void
+  onHome: () => void
+  onJump: (id: string) => void
 }
 
-const SECTIONS = [
-  { id: 'highlights', label: 'Highlights' },
-  { id: 'ai-ml', label: 'AI & ML' },
-  { id: 'dev-tools', label: 'Dev Tools' },
-  { id: 'big-tech', label: 'Big Tech' },
-  { id: 'twitter-pulse', label: 'X' },
-  { id: 'threads-pulse', label: 'Threads' },
-  { id: 'reddit-pulse', label: 'Reddit' },
-  { id: 'quick-bites', label: 'Quick Bites' },
-]
+export function Wordmark({ className = '' }: { className?: string }) {
+  return (
+    <span className={`font-display font-extrabold leading-none tracking-[-0.03em] text-ink ${className}`}>
+      GEEK<span className="text-accent">/</span>DAILY
+    </span>
+  )
+}
 
-export default function MagazineNav({ date, issueNumber, themeId, onSetTheme, onShowArchive }: Props) {
-  const [activeSection, setActiveSection] = useState('')
+export default function MagazineNav({ date, issueNumber, sections, view, themeId, onSetTheme, onShowArchive, onHome, onJump }: Props) {
+  const [active, setActive] = useState('')
   const [scrolled, setScrolled] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
 
   useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 60)
-      const sectionEls = SECTIONS.map(s => ({
-        id: s.id,
-        el: document.getElementById(s.id),
-      })).filter(s => s.el)
-      const scrollPos = window.scrollY + 120
+    const onScroll = () => {
+      setScrolled(window.scrollY > 24)
+      const pos = window.scrollY + 120
       let current = ''
-      for (const { id, el } of sectionEls) {
-        if (el && el.offsetTop <= scrollPos) current = id
+      for (const s of sections) {
+        const el = document.getElementById(s.id)
+        if (el && el.offsetTop <= pos) current = s.id
       }
-      setActiveSection(current)
+      setActive(current)
     }
-    window.addEventListener('scroll', handleScroll, { passive: true })
-    return () => window.removeEventListener('scroll', handleScroll)
-  }, [])
+    onScroll()
+    window.addEventListener('scroll', onScroll, { passive: true })
+    return () => window.removeEventListener('scroll', onScroll)
+  }, [sections])
 
-  const scrollTo = (id: string) => {
-    const el = document.getElementById(id)
-    if (el) window.scrollTo({ top: el.offsetTop - 72, behavior: 'smooth' })
-    setMenuOpen(false)
-  }
-
-  const scrollToCover = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' })
-    setMenuOpen(false)
-  }
+  const jump = (id: string) => { onJump(id); setMenuOpen(false) }
 
   return (
     <nav
+      className="fixed inset-x-0 top-0 z-50 border-b transition-colors"
       style={{
-        backgroundColor: scrolled ? 'var(--bg-surface)' : 'var(--bg)',
-        borderBottomColor: 'var(--border)',
-        transition: 'background-color 0.2s ease, box-shadow 0.2s ease',
-        boxShadow: scrolled ? '0 1px 0 var(--border)' : 'none',
+        backgroundColor: scrolled || menuOpen ? 'var(--paper)' : 'transparent',
+        borderColor: scrolled || menuOpen ? 'var(--rule)' : 'transparent',
       }}
-      className="fixed top-0 left-0 right-0 z-50"
+      aria-label="주 메뉴"
     >
-      <div className="max-w-[1440px] mx-auto px-6 lg:px-10">
-        <div className="flex items-center justify-between h-[60px]">
-          {/* Logo */}
-          <button onClick={scrollToCover} className="flex items-center gap-3 shrink-0">
-            <span
-              className="font-serif font-black text-[18px] tracking-[-0.02em] leading-none"
-              style={{ color: 'var(--text)' }}
-            >
-              GEEK<span style={{ color: 'var(--accent)' }}>/</span>DAILY
-            </span>
-            <span
-              className="hidden sm:block text-[10px] font-mono tracking-widest border px-1.5 py-0.5"
-              style={{ color: 'var(--text-muted)', borderColor: 'var(--border)' }}
-            >
-              #{String(issueNumber).padStart(3, '0')}
-            </span>
-          </button>
+      <div className="wrap flex h-14 items-center justify-between gap-4">
+        <button type="button" onClick={onHome} className="flex shrink-0 items-baseline gap-2.5" aria-label="첫 화면으로">
+          <Wordmark className="text-[19px]" />
+          <span className="hidden text-[12px] text-ink-3 tabular sm:inline">제{issueNumber}호</span>
+        </button>
 
-          {/* Desktop section links */}
-          <div className="hidden lg:flex items-center gap-0">
-            {SECTIONS.map(s => (
+        {view === 'magazine' && (
+          <div className="hidden min-w-0 items-center lg:flex">
+            {sections.map(s => (
               <button
                 key={s.id}
-                onClick={() => scrollTo(s.id)}
-                className="px-3 py-1.5 text-[11px] font-sans font-medium tracking-wide transition-colors"
-                style={{
-                  color: activeSection === s.id ? 'var(--accent)' : 'var(--text-secondary)',
-                  letterSpacing: '0.05em',
-                }}
+                type="button"
+                onClick={() => jump(s.id)}
+                className="px-2.5 py-1.5 text-[13px] transition-colors"
+                style={{ color: active === s.id ? 'var(--accent)' : 'var(--ink-2)', fontWeight: active === s.id ? 600 : 500 }}
               >
                 {s.label}
               </button>
             ))}
           </div>
+        )}
 
-          {/* Right controls */}
-          <div className="flex items-center gap-1">
-            <span
-              className="hidden md:block text-[11px] font-mono mr-1"
-              style={{ color: 'var(--text-muted)' }}
-            >
-              {formatIssueDate(date)}
-            </span>
-
-            <button
-              onClick={onShowArchive}
-              className="hidden md:flex items-center gap-1 text-[11px] font-medium px-3 py-1.5 transition-colors"
-              style={{ color: 'var(--text-secondary)' }}
-            >
-              <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
-                <rect x="1" y="1" width="10" height="2.5" rx="0.5" stroke="currentColor" strokeWidth="1"/>
-                <rect x="1" y="5" width="10" height="2.5" rx="0.5" stroke="currentColor" strokeWidth="1"/>
-                <rect x="1" y="9" width="6" height="2.5" rx="0.5" stroke="currentColor" strokeWidth="1"/>
+        <div className="flex items-center gap-1">
+          <span className="hidden pr-2 text-[12.5px] text-ink-3 tabular md:inline">{formatIssueDate(date)}</span>
+          <button
+            type="button"
+            onClick={view === 'archive' ? onHome : onShowArchive}
+            className="hidden h-9 items-center px-3 text-[13px] font-medium text-ink-2 transition-colors hover:text-ink md:flex"
+          >
+            {view === 'archive' ? '최신 호' : '지난 호'}
+          </button>
+          <ThemeSwitcher themeId={themeId} onSetTheme={onSetTheme} />
+          <button
+            type="button"
+            onClick={() => setMenuOpen(o => !o)}
+            className="flex h-9 w-9 items-center justify-center text-ink-2 lg:hidden"
+            aria-expanded={menuOpen}
+            aria-label={menuOpen ? '메뉴 닫기' : '메뉴 열기'}
+          >
+            {menuOpen ? (
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" aria-hidden="true">
+                <path d="M2 2l12 12M14 2 2 14" />
               </svg>
-              아카이브
-            </button>
-
-            {/* Theme switcher */}
-            <ThemeSwitcher themeId={themeId} onSetTheme={onSetTheme} />
-
-            {/* Mobile menu toggle */}
-            <button
-              onClick={() => setMenuOpen(!menuOpen)}
-              className="lg:hidden w-8 h-8 flex items-center justify-center"
-              style={{ color: 'var(--text-secondary)' }}
-            >
-              {menuOpen ? (
-                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                  <line x1="2" y1="2" x2="14" y2="14" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
-                  <line x1="14" y1="2" x2="2" y2="14" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
-                </svg>
-              ) : (
-                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                  <line x1="2" y1="4" x2="14" y2="4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
-                  <line x1="2" y1="8" x2="14" y2="8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
-                  <line x1="2" y1="12" x2="10" y2="12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
-                </svg>
-              )}
-            </button>
-          </div>
+            ) : (
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" aria-hidden="true">
+                <path d="M2 4h12M2 8h12M2 12h8" />
+              </svg>
+            )}
+          </button>
         </div>
       </div>
 
-      {/* Mobile menu */}
       {menuOpen && (
-        <div
-          className="lg:hidden border-t"
-          style={{ backgroundColor: 'var(--bg-surface)', borderColor: 'var(--border)' }}
-        >
-          <div className="max-w-[1440px] mx-auto px-6 py-3 flex flex-col gap-0">
-            {SECTIONS.map(s => (
+        <div className="border-t border-rule bg-paper lg:hidden">
+          <div className="wrap py-2">
+            {view === 'magazine' && sections.map(s => (
               <button
                 key={s.id}
-                onClick={() => scrollTo(s.id)}
-                className="text-left py-2.5 text-[13px] font-medium border-b last:border-0 transition-colors"
-                style={{
-                  color: activeSection === s.id ? 'var(--accent)' : 'var(--text)',
-                  borderColor: 'var(--border)',
-                }}
+                type="button"
+                onClick={() => jump(s.id)}
+                className="flex w-full items-baseline justify-between border-b border-rule py-3 text-left text-[15px] font-medium"
+                style={{ color: active === s.id ? 'var(--accent)' : 'var(--ink)' }}
               >
-                {s.label}
+                <span>{s.label}</span>
+                <span className="text-[12.5px] text-ink-3 tabular">{s.count}</span>
               </button>
             ))}
             <button
-              onClick={() => { onShowArchive(); setMenuOpen(false) }}
-              className="text-left py-2.5 text-[13px] font-medium"
-              style={{ color: 'var(--text-secondary)' }}
+              type="button"
+              onClick={() => { if (view === 'archive') onHome(); else onShowArchive(); setMenuOpen(false) }}
+              className="w-full py-3 text-left text-[15px] font-medium text-ink-2"
             >
-              아카이브
+              {view === 'archive' ? '최신 호로' : '지난 호 보기'}
             </button>
           </div>
         </div>

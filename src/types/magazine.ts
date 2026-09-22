@@ -1,3 +1,5 @@
+export type Tier = 1 | 2 | 3
+
 export interface Article {
   id: string
   title: string
@@ -5,10 +7,20 @@ export interface Article {
   body?: string // 상세 본문 — 원문을 완전히 이해할 수 있는 수준의 장문 요약
   url: string
   source: string
+  publisher?: string // 원 발행처 (source가 애그리게이터일 때)
+  tier?: Tier // 1 = 1차 출처(공식 발표·원문), 2 = 전문 매체, 3 = 2차 보도
+  hnUrl?: string // Hacker News 토론 링크
   category: string
   publishedAt: string
   readTime?: number
   imageGradient?: number // 0-7, for deterministic placeholder gradient
+}
+
+export interface QuotedTweet {
+  author: string
+  handle: string
+  content: string
+  url?: string
 }
 
 export interface Tweet {
@@ -18,12 +30,15 @@ export interface Tweet {
   content: string
   thread?: string[] // 자기 답글로 이어쓰기한 내용 (순서대로)
   context?: string // 트윗 맥락 설명 — 배경 지식 없이도 이해 가능하도록
+  retweetedBy?: string // 리포스트한 팔로우 계정의 핸들 (content는 원 작성자의 것)
+  quoted?: QuotedTweet
   url: string
   publishedAt: string
   metrics?: {
     likes: number
     retweets: number
     replies: number
+    views?: number
   }
 }
 
@@ -35,6 +50,7 @@ export interface RedditPost {
   url: string
   subreddit: string
   score: number
+  numComments?: number
   publishedAt: string
 }
 
@@ -50,6 +66,7 @@ export interface ThreadsPost {
   platform: 'threads'
 }
 
+/** @deprecated community_pulse는 더 이상 생성되지 않는다. 과거 호 호환용. */
 export interface CommunityPost {
   id: string
   title: string
@@ -73,9 +90,10 @@ export interface Magazine {
     dev_tools: Article[]
     big_tech: Article[]
     twitter_pulse: Tweet[]
-    threads_pulse: ThreadsPost[]
+    threads_pulse?: ThreadsPost[]
     reddit_pulse: RedditPost[]
-    community_pulse: CommunityPost[]
+    /** @deprecated */
+    community_pulse?: CommunityPost[]
     quick_bites: Article[]
   }
   podcast?: {

@@ -1,122 +1,68 @@
 import type { ArchiveEntry } from '../types/magazine'
-import { formatIssueDate } from '../utils/format'
+import { issueParts, formatIssueNo } from '../utils/format'
 
 interface Props {
   issues: ArchiveEntry[]
+  currentDate: string
   onSelectIssue: (date: string) => void
-  onBack: () => void
 }
 
-export default function Archive({ issues, onSelectIssue, onBack }: Props) {
+/** Past issues as a stack of small calendar leaves. */
+export default function Archive({ issues, currentDate, onSelectIssue }: Props) {
   return (
-    <div
-      className="min-h-screen"
-      style={{ backgroundColor: 'var(--bg)' }}
-    >
-      <div className="max-w-[1440px] mx-auto px-6 lg:px-10 pt-[80px] pb-20">
-        {/* Header */}
-        <div className="py-10 border-b mb-10" style={{ borderColor: 'var(--border-strong)' }}>
-          <button
-            onClick={onBack}
-            className="flex items-center gap-2 mb-6 text-[12px] font-mono transition-opacity hover:opacity-60"
-            style={{ color: 'var(--text-secondary)' }}
-          >
-            <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-              <path d="M9 2L4 7l5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-            </svg>
-            최신 이슈로 돌아가기
-          </button>
-          <h1
-            className="font-serif font-black leading-none mb-2"
-            style={{
-              fontSize: 'clamp(40px, 6vw, 80px)',
-              color: 'var(--text)',
-              letterSpacing: '-0.02em',
-            }}
-          >
-            Archive
-          </h1>
-          <p className="text-[14px] font-sans" style={{ color: 'var(--text-secondary)' }}>
-            {issues.length}개 이슈 · 매일 아침 6시 발행
-          </p>
-        </div>
+    <section className="wrap min-h-screen pt-[88px] pb-24">
+      <header className="border-b border-rule-2 pb-8">
+        <h1 className="font-display text-[36px] font-bold leading-tight tracking-[-0.01em] text-ink sm:text-[44px]">
+          지난 호
+        </h1>
+        <p className="mt-2 text-[14px] text-ink-2 tabular">
+          {issues.length}개 호. 매일 아침 6시에 새 호가 나옵니다.
+        </p>
+      </header>
 
-        {/* Issues list */}
-        <div className="space-y-0">
-          {issues.map((issue, idx) => (
-            <button
-              key={issue.date}
-              onClick={() => onSelectIssue(issue.date)}
-              className="group w-full text-left py-6 border-b flex items-start gap-6 transition-opacity hover:opacity-60"
-              style={{ borderColor: 'var(--border)' }}
-            >
-              {/* Issue meta */}
-              <div className="shrink-0 w-28">
-                <div
-                  className="text-[10px] font-mono tracking-widest mb-1"
-                  style={{ color: 'var(--text-muted)' }}
-                >
-                  NO.{String(issue.issueNumber).padStart(3, '0')}
-                </div>
-                <div
-                  className="text-[12px] font-mono"
-                  style={{ color: 'var(--text-secondary)' }}
-                >
-                  {formatIssueDate(issue.date)}
-                </div>
-                {idx === 0 && (
-                  <div
-                    className="mt-1.5 text-[9px] font-mono tracking-widest px-1.5 py-0.5 inline-block"
-                    style={{
-                      backgroundColor: 'var(--accent)',
-                      color: 'white',
-                      letterSpacing: '0.15em',
-                    }}
-                  >
-                    LATEST
+      <ul>
+        {issues.map(issue => {
+          const { year, month, day, weekday } = issueParts(issue.date)
+          const isCurrent = issue.date === currentDate
+          return (
+            <li key={issue.date} className="border-b border-rule">
+              <button
+                type="button"
+                onClick={() => onSelectIssue(issue.date)}
+                className="group grid w-full grid-cols-[72px_minmax(0,1fr)] gap-x-5 py-6 text-left sm:grid-cols-[96px_minmax(0,1fr)] sm:gap-x-8"
+                aria-current={isCurrent ? 'page' : undefined}
+              >
+                <div className="border border-rule bg-paper-2 px-2 pb-2 pt-1.5 text-center">
+                  <div className="text-[11px] text-ink-3 tabular">{year}.{String(month).padStart(2, '0')}</div>
+                  <div className="font-display text-[34px] font-extrabold leading-none text-ink tabular sm:text-[44px]" style={{ letterSpacing: '-0.04em' }}>
+                    {day}
                   </div>
-                )}
-              </div>
-
-              {/* Headline */}
-              <div className="flex-1 min-w-0">
-                <h3
-                  className="font-serif font-semibold text-[18px] lg:text-[22px] leading-snug mb-3"
-                  style={{ color: 'var(--text)', letterSpacing: '-0.01em' }}
-                >
-                  {issue.mainHeadline}
-                </h3>
-                <div className="flex flex-wrap gap-x-4 gap-y-1">
-                  {issue.headlines.map((h, i) => (
-                    <span
-                      key={i}
-                      className="text-[12px] font-sans"
-                      style={{ color: 'var(--text-muted)' }}
-                    >
-                      {h}
-                    </span>
-                  ))}
+                  <div className="mt-1 text-[11px] text-ink-2">{weekday.slice(0, 1)}</div>
                 </div>
-              </div>
-
-              {/* Arrow */}
-              <div className="shrink-0 mt-1 opacity-0 group-hover:opacity-100 transition-opacity">
-                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" style={{ color: 'var(--text-muted)' }}>
-                  <path d="M3 8h10M10 5l3 3-3 3" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
-              </div>
-            </button>
-          ))}
-        </div>
-
-        {issues.length === 0 && (
-          <div className="py-20 text-center">
-            <p className="font-serif text-[24px]" style={{ color: 'var(--text-muted)' }}>
-              아직 발행된 이슈가 없습니다
-            </p>
-          </div>
-        )}
-      </div>
-    </div>
+                <div className="min-w-0">
+                  <div className="flex flex-wrap items-baseline gap-x-3 text-[12.5px] tabular">
+                    <span className="text-accent">{formatIssueNo(issue.issueNumber)}</span>
+                    {isCurrent && <span className="text-ink-3">지금 보는 호</span>}
+                  </div>
+                  <h2 className="mt-1.5 font-display text-[19px] font-semibold leading-[1.4] text-ink transition-colors group-hover:text-accent sm:text-[22px]">
+                    {issue.mainHeadline}
+                  </h2>
+                  {issue.headlines.length > 0 && (
+                    <ul className="mt-3 space-y-1.5 text-[14px] leading-[1.55] text-ink-2">
+                      {issue.headlines.map((h, i) => (
+                        <li key={i} className="flex gap-2">
+                          <span aria-hidden="true" className="mt-[9px] h-[3px] w-[3px] shrink-0 rounded-full bg-ink-3" />
+                          <span>{h}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </div>
+              </button>
+            </li>
+          )
+        })}
+      </ul>
+    </section>
   )
 }
