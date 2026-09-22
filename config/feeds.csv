@@ -1,19 +1,73 @@
-Title,RSS URL,Website,Category
-OpenAI News,https://openai.com/news/rss.xml,https://openai.com/news,ai_ml
-Hugging Face - Blog,https://huggingface.co/blog/feed.xml,https://huggingface.co/blog,ai_ml
-LangChain Blog,https://blog.langchain.dev/rss/,https://blog.langchain.dev,ai_ml
-AI & Machine Learning,https://blog.google/technology/ai/rss/,https://blog.google,ai_ml
-Microsoft Research,https://www.microsoft.com/en-us/research/feed/,https://www.microsoft.com/research,ai_ml
-TechCrunch AI,https://techcrunch.com/category/artificial-intelligence/feed/,https://techcrunch.com,ai_ml
-GitHub Blog,https://github.blog/feed/,https://github.blog,dev_tools
-Vercel Blog,https://vercel.com/atom,https://vercel.com/blog,dev_tools
-Docker Blog,https://www.docker.com/blog/feed/,https://www.docker.com/blog,dev_tools
-Stack Overflow Blog,https://stackoverflow.blog/feed/,https://stackoverflow.blog,dev_tools
-Visual Studio Code,https://code.visualstudio.com/feed.xml,https://code.visualstudio.com,dev_tools
-Cloudflare Blog,https://blog.cloudflare.com/rss/,https://blog.cloudflare.com,dev_tools
-NVIDIA Blog,https://blogs.nvidia.com/feed/,https://blogs.nvidia.com,big_tech
-Apple Newsroom,https://www.apple.com/newsroom/rss-feed.rss,https://www.apple.com/newsroom,big_tech
-The Verge,https://www.theverge.com/rss/index.xml,https://www.theverge.com,big_tech
-TechCrunch,https://techcrunch.com/feed/,https://techcrunch.com,big_tech
-Hacker News,https://hnrss.org/frontpage,https://news.ycombinator.com,quick_bites
-GeekNews,https://news.hada.io/rss/news,https://news.hada.io,quick_bites
+Title,RSS URL,Website,Category,Tier,Publisher
+OpenAI News,https://openai.com/news/rss.xml,https://openai.com/news,ai_ml,1,OpenAI
+Google DeepMind,https://deepmind.google/blog/rss.xml,https://deepmind.google/blog,ai_ml,1,Google
+Google AI Blog,https://blog.google/technology/ai/rss/,https://blog.google/technology/ai,ai_ml,1,Google
+Google Research,https://research.google/blog/rss/,https://research.google/blog,ai_ml,1,Google
+Hugging Face Blog,https://huggingface.co/blog/feed.xml,https://huggingface.co/blog,ai_ml,1,Hugging Face
+Microsoft Research,https://www.microsoft.com/en-us/research/feed/,https://www.microsoft.com/research,ai_ml,1,Microsoft
+NVIDIA Technical Blog,https://developer.nvidia.com/blog/feed,https://developer.nvidia.com/blog,ai_ml,1,NVIDIA
+AWS Machine Learning Blog,https://aws.amazon.com/blogs/machine-learning/feed/,https://aws.amazon.com/blogs/machine-learning,ai_ml,1,Amazon
+Apple Machine Learning Research,https://machinelearning.apple.com/rss.xml,https://machinelearning.apple.com,ai_ml,1,Apple
+BAIR Blog,https://bair.berkeley.edu/blog/feed.xml,https://bair.berkeley.edu/blog,ai_ml,1,UC Berkeley
+Simon Willison,https://simonwillison.net/atom/everything/,https://simonwillison.net,ai_ml,2,Simon Willison
+Import AI,https://importai.substack.com/feed,https://importai.substack.com,ai_ml,2,Import AI
+Interconnects,https://www.interconnects.ai/feed,https://www.interconnects.ai,ai_ml,2,Interconnects
+Latent Space,https://www.latent.space/feed,https://www.latent.space,ai_ml,2,Latent Space
+Ahead of AI,https://magazine.sebastianraschka.com/feed,https://magazine.sebastianraschka.com,ai_ml,2,Sebastian Raschka
+MIT Technology Review AI,https://www.technologyreview.com/topic/artificial-intelligence/feed,https://www.technologyreview.com,ai_ml,2,MIT Technology Review
+TechCrunch AI,https://techcrunch.com/category/artificial-intelligence/feed/,https://techcrunch.com,ai_ml,2,TechCrunch
+Ars Technica AI,https://arstechnica.com/ai/feed/,https://arstechnica.com/ai,ai_ml,2,Ars Technica
+The Verge AI,https://www.theverge.com/rss/ai-artificial-intelligence/index.xml,https://www.theverge.com/ai-artificial-intelligence,ai_ml,2,The Verge
+VentureBeat AI,https://venturebeat.com/category/ai/feed/,https://venturebeat.com/category/ai,ai_ml,2,VentureBeat
+GitHub Blog,https://github.blog/feed/,https://github.blog,dev_tools,1,GitHub
+GitHub Changelog,https://github.blog/changelog/feed/,https://github.blog/changelog,dev_tools,1,GitHub
+Visual Studio Code,https://code.visualstudio.com/feed.xml,https://code.visualstudio.com,dev_tools,1,Microsoft
+Cursor Changelog,https://cursor.com/changelog/rss.xml,https://cursor.com/changelog,dev_tools,1,Cursor
+Vercel Blog,https://vercel.com/atom,https://vercel.com/blog,dev_tools,1,Vercel
+Cloudflare Blog,https://blog.cloudflare.com/rss/,https://blog.cloudflare.com,dev_tools,1,Cloudflare
+Docker Blog,https://www.docker.com/blog/feed/,https://www.docker.com/blog,dev_tools,1,Docker
+Rust Blog,https://blog.rust-lang.org/feed.xml,https://blog.rust-lang.org,dev_tools,1,Rust Foundation
+Go Blog,https://go.dev/blog/feed.atom,https://go.dev/blog,dev_tools,1,Go
+Swift.org Blog,https://www.swift.org/atom.xml,https://www.swift.org/blog,dev_tools,1,Swift
+Apple Developer News,https://developer.apple.com/news/rss/news.rss,https://developer.apple.com/news,dev_tools,1,Apple
+Node.js Blog,https://nodejs.org/en/feed/blog.xml,https://nodejs.org/en/blog,dev_tools,1,Node.js
+Bun Blog,https://bun.sh/rss.xml,https://bun.sh/blog,dev_tools,1,Bun
+Chrome for Developers,https://developer.chrome.com/static/blog/feed.xml,https://developer.chrome.com/blog,dev_tools,1,Google
+Mozilla Hacks,https://hacks.mozilla.org/feed/,https://hacks.mozilla.org,dev_tools,1,Mozilla
+WebKit Blog,https://webkit.org/feed/,https://webkit.org/blog,dev_tools,1,Apple
+Kubernetes Blog,https://kubernetes.io/feed.xml,https://kubernetes.io/blog,dev_tools,1,Kubernetes
+AWS News Blog,https://aws.amazon.com/blogs/aws/feed/,https://aws.amazon.com/blogs/aws,dev_tools,1,Amazon
+Google Cloud Blog,https://cloudblog.withgoogle.com/rss/,https://cloud.google.com/blog,dev_tools,1,Google
+Supabase Blog,https://supabase.com/rss.xml,https://supabase.com/blog,dev_tools,1,Supabase
+JetBrains Blog,https://blog.jetbrains.com/feed/,https://blog.jetbrains.com,dev_tools,1,JetBrains
+Python Insider,https://blog.python.org/feeds/posts/default,https://blog.python.org,dev_tools,1,Python
+React Blog,https://react.dev/rss.xml,https://react.dev/blog,dev_tools,1,React
+Tailwind CSS Blog,https://tailwindcss.com/feeds/feed.xml,https://tailwindcss.com/blog,dev_tools,1,Tailwind Labs
+Stripe Blog,https://stripe.com/blog/feed.rss,https://stripe.com/blog,dev_tools,1,Stripe
+Netflix Tech Blog,https://netflixtechblog.com/feed,https://netflixtechblog.com,dev_tools,1,Netflix
+Meta Engineering,https://engineering.fb.com/feed/,https://engineering.fb.com,dev_tools,1,Meta
+Stack Overflow Blog,https://stackoverflow.blog/feed/,https://stackoverflow.blog,dev_tools,2,Stack Overflow
+Apple Newsroom,https://www.apple.com/newsroom/rss-feed.rss,https://www.apple.com/newsroom,big_tech,1,Apple
+Google Blog,https://blog.google/rss/,https://blog.google,big_tech,1,Google
+Microsoft Official Blog,https://blogs.microsoft.com/feed/,https://blogs.microsoft.com,big_tech,1,Microsoft
+Meta Newsroom,https://about.fb.com/news/feed/,https://about.fb.com/news,big_tech,1,Meta
+Amazon News,https://www.aboutamazon.com/news/rss,https://www.aboutamazon.com/news,big_tech,1,Amazon
+NVIDIA Blog,https://blogs.nvidia.com/feed/,https://blogs.nvidia.com,big_tech,1,NVIDIA
+The Verge,https://www.theverge.com/rss/index.xml,https://www.theverge.com,big_tech,2,The Verge
+Ars Technica,https://feeds.arstechnica.com/arstechnica/index,https://arstechnica.com,big_tech,2,Ars Technica
+TechCrunch,https://techcrunch.com/feed/,https://techcrunch.com,big_tech,2,TechCrunch
+Engadget,https://www.engadget.com/rss.xml,https://www.engadget.com,big_tech,2,Engadget
+9to5Mac,https://9to5mac.com/feed/,https://9to5mac.com,big_tech,2,9to5Mac
+MacRumors,https://feeds.macrumors.com/MacRumors-All,https://www.macrumors.com,big_tech,2,MacRumors
+Wired,https://www.wired.com/feed/rss,https://www.wired.com,big_tech,2,Wired
+MIT Technology Review,https://www.technologyreview.com/feed/,https://www.technologyreview.com,big_tech,2,MIT Technology Review
+The Register,https://www.theregister.com/headlines.atom,https://www.theregister.com,big_tech,2,The Register
+Techmeme,https://www.techmeme.com/feed.xml,https://www.techmeme.com,big_tech,3,Techmeme
+Lobsters,https://lobste.rs/rss,https://lobste.rs,quick_bites,3,Lobsters
+GeekNews,https://news.hada.io/rss/news,https://news.hada.io,quick_bites,3,GeekNews
+카카오 기술블로그,https://tech.kakao.com/blog/feed,https://tech.kakao.com/blog,quick_bites,1,카카오
+우아한형제들 기술블로그,https://techblog.woowahan.com/feed/,https://techblog.woowahan.com,quick_bites,1,우아한형제들
+네이버 D2,https://d2.naver.com/d2.atom,https://d2.naver.com,quick_bites,1,네이버
+토스 기술블로그,https://toss.tech/rss.xml,https://toss.tech,quick_bites,1,토스
+LINE 기술블로그,https://techblog.lycorp.co.jp/ko/feed/index.xml,https://techblog.lycorp.co.jp/ko,quick_bites,1,LY Corporation
+당근 기술블로그,https://medium.com/feed/daangn,https://medium.com/daangn,quick_bites,1,당근

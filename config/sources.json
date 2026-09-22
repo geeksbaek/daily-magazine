@@ -1,0 +1,155 @@
+{
+  "x": {
+    "user": "jooooongyeol",
+    "profile_dir": "~/.daily-magazine/x-profile",
+    "window_hours": 48,
+    "max_tweets": 1500,
+    "max_scrolls": 250,
+    "include_retweets": true,
+    "include_replies_to_others": false
+  },
+  "threads": {
+    "accounts": [
+      "choi.openai"
+    ],
+    "window_hours": 48
+  },
+  "reddit": {
+    "subreddits": [
+      "MachineLearning",
+      "LocalLLaMA",
+      "artificial",
+      "OpenAI",
+      "ClaudeAI",
+      "programming",
+      "singularity",
+      "ExperiencedDevs"
+    ],
+    "per_sub": 8,
+    "window_hours": 48,
+    "exclude_title_keywords": [
+      "self-promotion",
+      "weekly",
+      "monthly",
+      "daily thread",
+      "megathread",
+      "discussion thread"
+    ]
+  },
+  "hackernews": {
+    "min_points": 100,
+    "window_hours": 48,
+    "max_items": 60
+  },
+  "rss": {
+    "collect_window_hours": 72,
+    "per_feed": 20,
+    "fulltext_tiers": [
+      1
+    ],
+    "fulltext_max": 30,
+    "fulltext_budget_sec": 240,
+    "fulltext_chars": 6000
+  },
+  "sites": [
+    {
+      "name": "Anthropic News",
+      "publisher": "Anthropic",
+      "sitemap": "https://www.anthropic.com/sitemap.xml",
+      "include": "^https://www\\.anthropic\\.com/news/[^/]+$",
+      "category": "ai_ml",
+      "tier": 1,
+      "max_pages": 15
+    },
+    {
+      "name": "Anthropic Research",
+      "publisher": "Anthropic",
+      "sitemap": "https://www.anthropic.com/sitemap.xml",
+      "include": "^https://www\\.anthropic\\.com/research/[^/]+$",
+      "category": "ai_ml",
+      "tier": 1,
+      "max_pages": 10
+    },
+    {
+      "name": "Anthropic Engineering",
+      "publisher": "Anthropic",
+      "sitemap": "https://www.anthropic.com/sitemap.xml",
+      "include": "^https://www\\.anthropic\\.com/engineering/[^/]+$",
+      "category": "dev_tools",
+      "tier": 1,
+      "max_pages": 10
+    },
+    {
+      "name": "Claude Blog",
+      "publisher": "Anthropic",
+      "sitemap": "https://claude.com/sitemap.xml",
+      "include": "^https://claude\\.com/blog/[^/]+$",
+      "category": "dev_tools",
+      "tier": 1,
+      "max_pages": 15
+    }
+  ],
+  "candidates": {
+    "publish_window_hours": 48,
+    "history_issues": 14,
+    "per_publisher_cap": 6,
+    "per_author_cap": 4,
+    "per_subreddit_cap": 5,
+    "max_articles": 220,
+    "max_tweets": 120,
+    "title_similarity_threshold": 0.5,
+    "story_history_similarity": 0.6,
+    "per_publisher_cap_by_tier": {
+      "1": 6,
+      "2": 5,
+      "3": 14
+    }
+  },
+  "sections": {
+    "highlights": {
+      "min": 4,
+      "max": 5
+    },
+    "ai_ml": {
+      "min": 4,
+      "max": 6
+    },
+    "dev_tools": {
+      "min": 3,
+      "max": 5
+    },
+    "big_tech": {
+      "min": 3,
+      "max": 4
+    },
+    "quick_bites": {
+      "min": 4,
+      "max": 6
+    },
+    "twitter_pulse": {
+      "min": 5,
+      "max": 8
+    },
+    "reddit_pulse": {
+      "min": 3,
+      "max": 5
+    },
+    "threads_pulse": {
+      "min": 0,
+      "max": 2
+    }
+  },
+  "publish": {
+    "per_publisher_max": 3,
+    "per_tweet_author_max": 2,
+    "per_subreddit_max": 2,
+    "min_total_articles": 12,
+    "min_candidate_articles": 20,
+    "site_url": "https://geeksbaek.github.io/daily-magazine/",
+    "body": {
+      "min_chars": 600,
+      "min_ratio": 4.0,
+      "max_overlap": 0.45
+    }
+  }
+}
