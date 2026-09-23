@@ -14,6 +14,7 @@ import QuickBites from './components/QuickBites'
 import Archive from './components/Archive'
 import PodcastPlayer from './components/PodcastPlayer'
 import Footer from './components/Footer'
+import ReadingProgress from './components/ReadingProgress'
 
 const BASE = import.meta.env.BASE_URL
 type View = 'magazine' | 'archive'
@@ -144,6 +145,7 @@ export default function App() {
           <Archive issues={archiveIndex.issues} currentDate={currentDate} onSelectIssue={selectIssue} />
         ) : (
           <main>
+            <ReadingProgress issueNumber={magazine.issueNumber} date={currentDate} sections={links} onJump={scrollToId} />
             <Cover
               magazine={magazine}
               contents={links}

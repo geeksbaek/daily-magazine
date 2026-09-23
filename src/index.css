@@ -168,3 +168,125 @@
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { background: var(--paper); }
 ::-webkit-scrollbar-thumb { background: var(--rule-2); border-radius: 3px; }
+
+/* ── Reading progress ───────────────────────────────────────── */
+@layer components {
+  /* narrow screens: hairline under the nav */
+  .progress-line {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 60;
+    height: 2px;
+    background: var(--accent);
+    transform-origin: 0 50%;
+    pointer-events: none;
+  }
+
+  /* wide screens: fixed rail in the left margin beside the 700px reading column */
+  .progress-rail { display: none; }
+
+  @media (min-width: 1240px) {
+    .progress-line { display: none; }
+    .progress-rail {
+      display: flex;
+      flex-direction: column;
+      position: fixed;
+      z-index: 40;
+      top: 96px;
+      left: 32px;
+      width: min(240px, calc((100vw - 700px) / 2 - 64px));
+      max-height: calc(100vh - 128px);
+      font-size: 13px;
+      color: var(--ink-2);
+    }
+    .progress-rail__title {
+      font-family: var(--r-serif-display, inherit);
+      font-size: 17px;
+      font-weight: 700;
+      line-height: 1.35;
+      color: var(--ink);
+    }
+    .progress-rail__title span {
+      display: block;
+      margin-top: 2px;
+      font-size: 13px;
+      font-weight: 400;
+      color: var(--ink-3);
+    }
+    .progress-rail__label {
+      margin-top: 28px;
+      font-size: 11.5px;
+      letter-spacing: 0.12em;
+      color: var(--ink-3);
+    }
+    .progress-rail__tree {
+      margin: 10px 0 0;
+      padding: 0;
+      list-style: none;
+      overflow-y: auto;
+    }
+    .progress-rail__tree button {
+      display: flex;
+      width: 100%;
+      align-items: baseline;
+      gap: 8px;
+      padding: 5px 0;
+      text-align: left;
+      color: var(--ink-3);
+      transition: color 0.15s ease;
+    }
+    .progress-rail__tree button:hover { color: var(--ink); }
+    .progress-rail__tree button[data-active='true'] { color: var(--ink); font-weight: 700; }
+    .progress-rail__glyph { flex: none; color: var(--rule-2); font-weight: 400; }
+    .progress-rail__tree button[data-active='true'] .progress-rail__glyph { color: var(--accent); }
+    .progress-rail__count {
+      margin-left: auto;
+      padding-left: 8px;
+      font-size: 11.5px;
+      font-weight: 400;
+      font-variant-numeric: tabular-nums;
+      color: var(--ink-3);
+    }
+    .progress-rail__meter {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 28px;
+    }
+    /* unread part: a quiet dotted track */
+    .progress-rail__bar {
+      position: relative;
+      flex: 1;
+      height: 14px;
+      background-image: radial-gradient(circle, var(--rule-2) 0.9px, transparent 1.1px);
+      background-size: 4px 4px;
+    }
+    /* read part: a dense checker, like ink filling the leaf */
+    .progress-rail__fill {
+      position: absolute;
+      inset: 0 auto 0 0;
+      background-color: var(--paper);
+      background-image:
+        linear-gradient(45deg, var(--ink) 25%, transparent 25%, transparent 75%, var(--ink) 75%),
+        linear-gradient(45deg, var(--ink) 25%, transparent 25%, transparent 75%, var(--ink) 75%);
+      background-size: 4px 4px;
+      background-position: 0 0, 2px 2px;
+      transition: width 0.12s linear;
+    }
+    .progress-rail__pct {
+      min-width: 3.2em;
+      text-align: right;
+      font-size: 13px;
+      font-variant-numeric: tabular-nums;
+      color: var(--ink);
+    }
+    .progress-rail__hint {
+      margin-top: 10px;
+      font-size: 11.5px;
+      letter-spacing: 0.04em;
+      color: var(--ink-3);
+    }
+  }
+}
