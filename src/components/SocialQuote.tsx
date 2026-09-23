@@ -1,5 +1,6 @@
 import type { QuotedTweet } from '../types/magazine'
 import { formatClock, formatCount } from '../utils/format'
+import Marked from './Marked'
 
 export type Platform = 'x' | 'threads'
 
@@ -68,11 +69,11 @@ export default function SocialQuote(p: Props) {
         <span className="text-ink-3"><PlatformGlyph platform={p.platform} /></span>
       </div>
 
-      <blockquote className="mt-4 font-display text-[17px] font-medium leading-[1.75] text-ink">
-        <p>{p.content}</p>
+      <blockquote className="mt-4 whitespace-pre-line font-display text-[17px] font-medium leading-[1.75] text-ink">
+        <p><Marked text={p.content} /></p>
         {p.thread && p.thread.length > 0 && (
           <div className="mt-3 space-y-3 border-l-2 border-rule-2 pl-4 text-[15.5px] font-normal leading-[1.7] text-ink-2">
-            {p.thread.map((t, i) => <p key={i}>{t}</p>)}
+            {p.thread.map((t, i) => <p key={i}><Marked text={t} /></p>)}
           </div>
         )}
       </blockquote>
@@ -95,7 +96,7 @@ export default function SocialQuote(p: Props) {
       {p.context && (
         <p className="mt-4 text-[14px] leading-[1.7] text-ink-2">
           <span className="mr-1.5 font-semibold text-ink">맥락</span>
-          {p.context}
+          <Marked text={p.context} />
         </p>
       )}
 

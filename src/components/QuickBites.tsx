@@ -2,6 +2,7 @@ import type { Article } from '../types/magazine'
 import SectionShell from './SectionShell'
 import SourceLine from './SourceLine'
 import ArticleBody from './ArticleBody'
+import Marked from './Marked'
 
 interface Props {
   articles: Article[]
@@ -20,7 +21,7 @@ export default function QuickBites({ articles }: Props) {
                 {a.title}
               </a>
             </h3>
-            <p className="mt-2 text-[14px] leading-[1.65] text-ink-2">{a.excerpt}</p>
+            <p className="mt-2 text-[14px] leading-[1.65] text-ink-2"><Marked text={a.excerpt} /></p>
             <SourceLine article={a} className="mt-2.5" showTime={false} />
             <ArticleBody article={a} />
           </article>

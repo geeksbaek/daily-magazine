@@ -1,6 +1,7 @@
 import type { RedditPost } from '../types/magazine'
 import SectionShell from './SectionShell'
 import { formatClock, formatCount } from '../utils/format'
+import Marked from './Marked'
 
 interface Props {
   posts?: RedditPost[]
@@ -45,7 +46,7 @@ export default function RedditPulse({ posts }: Props) {
                 <p className="mt-1 text-[13px] leading-snug text-ink-3">{post.originalTitle}</p>
               )}
               {post.summary && (
-                <p className="mt-2.5 max-w-prose text-[14.5px] leading-[1.7] text-ink-2">{post.summary}</p>
+                <p className="mt-2.5 max-w-prose text-[14.5px] leading-[1.7] text-ink-2"><Marked text={post.summary} /></p>
               )}
               <div className="mt-2.5 flex flex-wrap items-center gap-x-4 text-[12.5px] text-ink-3 tabular">
                 <span>{formatClock(post.publishedAt)}</span>

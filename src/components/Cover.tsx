@@ -1,6 +1,7 @@
 import type { Magazine } from '../types/magazine'
 import { issueParts, formatIssueNo } from '../utils/format'
 import type { SectionLink } from './MagazineNav'
+import Marked from './Marked'
 
 interface Props {
   magazine: Magazine
@@ -75,7 +76,7 @@ export default function Cover({ magazine, contents, onReadIssue, onJump }: Props
             {cover.mainHeadline}
           </h1>
           <p className="mt-6 max-w-prose text-[17px] leading-[1.75] text-ink-2 sm:text-[18px]">
-            {cover.mainExcerpt}
+            <Marked text={cover.mainExcerpt} />
           </p>
 
           {cover.headlines.length > 0 && (

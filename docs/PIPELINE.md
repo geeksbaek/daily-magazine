@@ -42,7 +42,7 @@ publish.py   재검증 → public/data/<date>/ + index.json → commit/push → 
 1. `build_candidates.py`: 같은 dedupe_key 1건, 과거 14호 URL 제외, 제목 유사도로 `seenStory` 표시.
 2. 같은 스토리 클러스터링: 링크 URL 일치 → 제목 토큰(어간 처리) Jaccard ≥ 0.5 또는 공유 토큰 ≥ 3 & 짧은 제목의 60% 이상. 대표는 tier가 낮은(1차) 출처.
 3. LLM 규칙: highlights와 섹션 배타, 클러스터당 1건, 의미상 같은 사건 1건.
-4. `validate.py`: highlights + 모든 섹션에서 URL/id/클러스터 중복 → 오류. 과거 14호 URL 재사용 → 오류. publisher 3 / 트윗 작성자 2 / 서브레딧 2 초과 → 오류. CI(`--ci`)에서도 최신 호를 다시 검사한다.
+4. `validate.py`: highlights + 모든 섹션에서 URL/id/클러스터 중복 → 오류. 과거 14호 URL 재사용 → 오류. publisher 3 / 트윗 작성자 2 / 서브레딧 2 초과 → 오류. CI(`--ci`)에서도 최신 호를 다시 검사한다. 본문·요약·트윗의 `==하이라이트==` 표시도 검사한다(body 1–3개, 나머지 필드 0–1개, 제목·인용 트윗 금지, 4–140자, 필드의 40% 이하).
 
 ## X 수집 상세 (`collect_x.py`)
 

@@ -332,3 +332,12 @@ class SeenStore:
         cutoff = (as_of() - timedelta(days=120)).isoformat()  # prune: keeps the file small
         keep = {k: v for k, v in self.data.items() if v >= cutoff or v == self.meta.get("bootstrapped_at")}
         save_json(self.path, {"_meta": self.meta, **dict(sorted(keep.items()))})
+
+
+# Editor's highlights: `==phrase==` inside reader-facing text (rendered as a highlighter stroke).
+MARK_RE = re.compile(r"==([^=\n]+?)==")
+
+
+def unmark(text: str | None) -> str:
+    """Text with highlight markers removed (for length/overlap checks and plain-text uses)."""
+    return MARK_RE.sub(r"\1", text or "")

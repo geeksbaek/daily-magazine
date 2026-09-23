@@ -18,6 +18,7 @@
   --accent-soft: rgba(154, 74, 31, 0.09);
   --mark: #ecc978;
   --mark-ink: #2b2419;
+  --hl: rgba(236, 196, 104, 0.45);
   /* Serif for titles only; running text is set in a sturdy screen sans
      (thin brush-serif body text was hard to read). Literata is reserved
      for ornamental numerals. */
@@ -41,6 +42,7 @@
   --accent-soft: rgba(227, 165, 118, 0.12);
   --mark: #d8b35e;
   --mark-ink: #231d0e;
+  --hl: rgba(216, 170, 80, 0.26);
   color-scheme: dark;
 }
 
@@ -376,14 +378,12 @@
   font-weight: 600;
 }
 
-/* collapsed: the title already links out, so only offer "본문 읽기" */
-[data-design="reader"] main button[aria-expanded="false"] + div { display: none; }
 /* no body to expand: a lone "원문 보기" repeats the title link, so drop it (HN 토론 stays) */
 [data-design="reader"] div.mt-3:has(> div.flex:only-child > a:only-child) { display: none; }
 /* …and when HN 토론 is there too, keep only that (expander rows start with a button, so unaffected) */
 [data-design="reader"] div.mt-3 > div.flex:only-child > a:first-child { display: none; }
 [data-design="reader"] div.mt-3:has(> div.flex:only-child > a + a) { margin-top: 6px; }
-[data-design="reader"] main button[aria-expanded] {
+[data-design="reader"] [data-part="read-body"] {
   font-family: var(--r-text);
   font-size: 14.5px;
   font-weight: 700;
@@ -391,10 +391,9 @@
   padding-block: 8px;
   margin-block: -8px;
 }
-[data-design="reader"] main button[aria-expanded] svg { width: 9px; height: 9px; }
 [data-design="reader"] .link-ink { text-decoration-color: var(--rule-2); }
 
-/* expanded body: the reason this design exists */
+/* long-form body (shown in the reader dialog) */
 [data-design="reader"] .prose-body {
   font-family: var(--r-text);
   font-size: 17px !important;
@@ -406,25 +405,6 @@
   hanging-punctuation: first;
 }
 [data-design="reader"] .prose-body p + p { margin-top: 1em; }
-[data-design="reader"] .expand > div > div:last-child {
-  padding-top: 18px;
-  padding-bottom: 6px;
-}
-[data-design="reader"] .expand > div > .prose-body {
-  border-left: 0;
-  padding-left: 0;
-  margin-top: 10px;
-  padding-top: 0;
-}
-/* a short centred hairline marks where the body begins — not a quotation rule */
-[data-design="reader"] .expand > div > .prose-body::before {
-  content: '';
-  display: block;
-  width: 36px;
-  margin: 14px auto 22px;
-  border-top: 1px solid var(--rule-2);
-}
-
 /* ── Highlights ────────────────────────────────────────────── */
 [data-design="reader"] #highlights div:has(> [data-part="lead"]) { display: block; }
 [data-design="reader"] [data-part="lead-title"] {

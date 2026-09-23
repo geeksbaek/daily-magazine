@@ -15,8 +15,8 @@ from datetime import timedelta
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from lib import (dedupe_key, has_hangul, iter_magazine_items, load_config,  # noqa: E402
-                 load_history, load_json, parse_iso, run_dir)
+from lib import (MARK_RE, dedupe_key, has_hangul, iter_magazine_items, load_config,  # noqa: E402
+                 load_history, load_json, parse_iso, run_dir, unmark)
 
 ARTICLE_SECTIONS = ("ai_ml", "dev_tools", "big_tech", "quick_bites")
 SOCIAL_SECTIONS = ("twitter_pulse", "threads_pulse", "reddit_pulse")
@@ -231,6 +231,9 @@ def main() -> int:
         if n > int(pub.get("per_subreddit_max", 2)):
             errors.append(f"subreddit cap: r/{s} appears {n}×")
 
+    # ---------------------------------------------------------------- highlight marks
+    check_marks(mag, errors)
+
     # ---------------------------------------------------------------- history
     hist = load_history(int(cfg.get("candidates", {}).get("history_issues", 14)), date)
     for where, item in iter_magazine_items(mag):
@@ -253,7 +256,7 @@ def check_article(a, where, c_articles, cands, errors, korean, unique, age_ok, s
     age_ok(a, where)
     publisher = a.get("publisher") or a.get("source") or ""
     per_publisher[publisher] = per_publisher.get(publisher, 0) + 1
-    body, excerpt = (a.get("body") or "").strip(), (a.get("excerpt") or "").strip()
+    body, excerpt = unmark(a.get("body")).strip(), unmark(a.get("excerpt")).strip()
     if body:
         bcfg = pub.get("body", {})
         min_chars, min_ratio, max_overlap = int(bcfg.get("min_chars", 600)), float(bcfg.get("min_ratio", 4.0)), float(bcfg.get("max_overlap", 0.45))
@@ -286,6 +289,54 @@ def check_article(a, where, c_articles, cands, errors, korean, unique, age_ok, s
             errors.append(f"{where}: SAME STORY as {seen_clusters[cid]} (cluster {cid})")
         else:
             seen_clusters[cid] = where
+
+
+# (field, min, max) marks per reader-facing text; anything not listed must carry none
+_ARTICLE_MARKS = {"excerpt": (0, 1), "body": (1, 3)}
+_SOCIAL_MARKS = {"content": (0, 1), "context": (0, 1), "summary": (0, 1)}
+
+
+def _marks(text, where, lo, hi, errors):
+    if not isinstance(text, str) or "==" not in text and lo == 0:
+        return
+    spans = MARK_RE.findall(text)
+    if "==" in MARK_RE.sub("", text):
+        errors.append(f"{where}: stray or unbalanced '==' highlight marker")
+    if not lo <= len(spans) <= hi:
+        errors.append(f"{where}: {len(spans)} highlight(s), need {lo}–{hi}")
+    for sp in spans:
+        if sp != sp.strip() or not 4 <= len(sp) <= 140:
+            errors.append(f"{where}: highlight {sp[:30]!r}… must be 4–140 chars without edge spaces")
+    plain = unmark(text)
+    if plain and sum(map(len, spans)) > 0.4 * len(plain):
+        errors.append(f"{where}: highlights cover more than 40% of the text")
+
+
+def check_marks(mag, errors):
+    """`==phrase==` highlights: balanced, few per field, never in titles/headlines/quotes."""
+    cover = mag.get("cover") or {}
+    _marks(cover.get("mainHeadline"), "cover.mainHeadline", 0, 0, errors)
+    _marks(cover.get("mainExcerpt"), "cover.mainExcerpt", 0, 1, errors)
+    for i, h in enumerate(cover.get("headlines") or []):
+        _marks(h, f"cover.headlines[{i}]", 0, 0, errors)
+    seen: dict[str, int] = {}
+    for sec, item in iter_magazine_items(mag):
+        seen[sec] = seen.get(sec, -1) + 1
+        where = f"{sec}[{seen[sec]}]"
+        if "body" in item or "excerpt" in item:
+            for k in ("title", "originalTitle"):
+                _marks(item.get(k), f"{where}.{k}", 0, 0, errors)
+            for k, (lo, hi) in _ARTICLE_MARKS.items():
+                if item.get(k):
+                    _marks(item[k], f"{where}.{k}", lo, hi, errors)
+        else:
+            for k in ("title", "originalTitle", "author"):
+                _marks(item.get(k), f"{where}.{k}", 0, 0, errors)
+            for k, (lo, hi) in _SOCIAL_MARKS.items():
+                _marks(item.get(k), f"{where}.{k}", lo, hi, errors)
+            for j, t in enumerate(item.get("thread") or []):
+                _marks(t, f"{where}.thread[{j}]", 0, 1, errors)
+            _marks((item.get("quoted") or {}).get("content"), f"{where}.quoted", 0, 0, errors)
 
 
 def _tokens(s: str) -> set[str]:

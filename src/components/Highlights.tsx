@@ -2,6 +2,7 @@ import type { Article } from '../types/magazine'
 import SectionShell from './SectionShell'
 import SourceLine from './SourceLine'
 import ArticleBody from './ArticleBody'
+import Marked from './Marked'
 
 interface Props {
   articles: Article[]
@@ -21,9 +22,9 @@ export default function Highlights({ articles }: Props) {
               {lead.title}
             </a>
           </h3>
-          <p className="mt-5 max-w-prose text-[17px] leading-[1.75] text-ink-2">{lead.excerpt}</p>
+          <p className="mt-5 max-w-prose text-[17px] leading-[1.75] text-ink-2"><Marked text={lead.excerpt} /></p>
           <SourceLine article={lead} className="mt-4" />
-          <ArticleBody article={lead} size="lg" />
+          <ArticleBody article={lead} />
         </article>
 
         {rest.length > 0 && (
@@ -35,7 +36,7 @@ export default function Highlights({ articles }: Props) {
                     {a.title}
                   </a>
                 </h4>
-                <p className="clamp-3 mt-2 text-[14.5px] leading-[1.65] text-ink-2">{a.excerpt}</p>
+                <p className="clamp-3 mt-2 text-[14.5px] leading-[1.65] text-ink-2"><Marked text={a.excerpt} /></p>
                 <SourceLine article={a} className="mt-2.5" showTime={false} />
                 <ArticleBody article={a} />
               </article>

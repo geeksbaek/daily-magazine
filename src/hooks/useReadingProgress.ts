@@ -26,7 +26,7 @@ export function useReadingProgress(sections: SectionLink[]) {
     measure()
     window.addEventListener('scroll', schedule, { passive: true })
     window.addEventListener('resize', schedule)
-    // expanding/collapsing article bodies changes the page height without scrolling
+    // late fonts, the podcast script expander etc. change the page height without scrolling
     const ro = new ResizeObserver(schedule)
     ro.observe(document.body)
     return () => {
