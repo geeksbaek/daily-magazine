@@ -290,3 +290,45 @@ def load_history(n_issues: int, before_date: str) -> dict:
             if len(toks) >= 3:
                 titles.append((issue["date"], toks))
     return {"dates": dates, "urls": urls, "ids": ids, "titles": titles}
+
+# --------------------------------------------------------------------------- first-seen state
+
+STATE_DIR = Path(os.path.expanduser(os.environ.get("DM_STATE_DIR", "~/.daily-magazine/state")))
+
+
+class SeenStore:
+    """Persistent {dedupe_key: first-seen as_of} per collector.
+
+    Sources that backdate posts (OpenAI adds RSS items with an earlier pubDate hours later) or
+    publish pages without any date can't be windowed by publish date alone. A URL that was NOT
+    present in any earlier run is new, whatever date it shows. The very first run only records
+    (bootstrap) so the existing archive is not mistaken for news.
+    """
+
+    def __init__(self, name: str):
+        self.path = STATE_DIR / f"seen_{name}.json"
+        raw = load_json(self.path, None)
+        self.bootstrapped = raw is not None
+        raw = raw or {}
+        self.meta = raw.get("_meta", {"bootstrapped_at": as_of().isoformat()})
+        self.data: dict[str, str] = {k: v for k, v in raw.items() if k != "_meta"}
+
+    def mark(self, key: str) -> datetime:
+        """Record key (if new) and return its first-seen instant."""
+        if key not in self.data:
+            self.data[key] = as_of().isoformat()
+        return datetime.fromisoformat(self.data[key])
+
+    def is_new(self, key: str, within_hours: int) -> bool:
+        """First seen within the window, and not merely part of the bootstrap snapshot."""
+        if not self.bootstrapped or key not in self.data:
+            return False
+        seen = self.data[key]
+        if seen == self.meta.get("bootstrapped_at"):
+            return False
+        return datetime.fromisoformat(seen) >= as_of() - timedelta(hours=within_hours)
+
+    def save(self) -> None:
+        cutoff = (as_of() - timedelta(days=120)).isoformat()  # prune: keeps the file small
+        keep = {k: v for k, v in self.data.items() if v >= cutoff or v == self.meta.get("bootstrapped_at")}
+        save_json(self.path, {"_meta": self.meta, **dict(sorted(keep.items()))})

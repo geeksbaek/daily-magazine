@@ -121,6 +121,9 @@ def main() -> int:
         if not dt:
             errors.append(f"{where}.publishedAt invalid: {item.get('publishedAt')!r}")
             return
+        seen_dt = parse_iso(item.get("firstSeenAt", "")) if item.get("firstSeenAt") else None
+        if seen_dt and seen_dt > dt and (as_of_dt - dt) <= timedelta(days=7):
+            dt = seen_dt  # backdated post that only appeared recently (collector-verified)
         if as_of_dt and (as_of_dt - dt) > max_age:
             errors.append(f"{where}: older than {max_age.total_seconds()/3600:.0f}h ({item['publishedAt']})")
         if as_of_dt and dt > as_of_dt + timedelta(hours=2):
@@ -273,7 +276,7 @@ def check_article(a, where, c_articles, cands, errors, korean, unique, age_ok, s
             return
         if not body and where.split("[")[0] != "quick_bites" and c.get("contentSource") in ("jina", "direct", "feed"):
             errors.append(f"{where}: body required — full text is available (contentSource={c['contentSource']})")
-        for k in ("url", "source", "publishedAt"):
+        for k in ("url", "source", "publishedAt", "firstSeenAt"):
             if a.get(k) != c.get(k):
                 errors.append(f"{where}.{k} differs from candidate: {a.get(k)!r} != {c.get(k)!r}")
         if a.get("title", "").strip() == c["title"].strip():

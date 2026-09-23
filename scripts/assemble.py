@@ -106,6 +106,8 @@ def main() -> int:
             if c.get("contentSource") not in ("jina", "direct", "feed"):
                 errors.append(f"{where}: body not allowed — candidate has no full text (contentSource={c.get('contentSource')})")
             out["body"] = item["body"].strip()
+        if c.get("lateArrival"):
+            out["firstSeenAt"] = c["firstSeenAt"]
         if c.get("hnUrl"):
             out["hnUrl"] = c["hnUrl"]
             out["points"] = c.get("points", 0)

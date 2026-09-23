@@ -50,7 +50,7 @@ cd "$REPO"
 run_with_budget rss     420 "$PY" scripts/collect_rss.py &     P1=$!
 run_with_budget hn      120 "$PY" scripts/collect_hn.py &      P2=$!
 run_with_budget sites   300 "$PY" scripts/collect_sites.py &   P4=$!
-run_with_budget reddit  600 "$PY" scripts/collect_reddit.py &  P3=$!
+run_with_budget reddit  900 "$PY" scripts/collect_reddit.py &  P3=$!
 run_with_budget x      1500 "$PY" scripts/collect_x.py ;       X_RC=$?
 run_with_budget threads 240 "$PY" scripts/collect_threads.py ; T_RC=$?
 wait $P1; wait $P2; wait $P3; wait $P4

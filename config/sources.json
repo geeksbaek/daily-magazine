@@ -43,23 +43,36 @@
   },
   "rss": {
     "collect_window_hours": 72,
-    "per_feed": 20,
+    "per_feed": 40,
     "fulltext_tiers": [
       1
     ],
     "fulltext_max": 30,
     "fulltext_budget_sec": 240,
-    "fulltext_chars": 6000
+    "fulltext_chars": 6000,
+    "late_arrival_hours": 48,
+    "late_arrival_max_age_days": 7
   },
   "sites": [
+    {
+      "name": "OpenAI (sitemap)",
+      "publisher": "OpenAI",
+      "sitemap": "https://openai.com/sitemap.xml",
+      "include": "^https://openai\\.com/index/[a-z0-9-]+/?$",
+      "discovery": "new_urls",
+      "category": "ai_ml",
+      "tier": 1,
+      "max_pages": 15
+    },
     {
       "name": "Anthropic News",
       "publisher": "Anthropic",
       "sitemap": "https://www.anthropic.com/sitemap.xml",
-      "include": "^https://www\\.anthropic\\.com/news/[^/]+$",
+      "include": "^https://www\\.anthropic\\.com/(news/[^/]+|claude-[a-z0-9-]+)$",
       "category": "ai_ml",
       "tier": 1,
-      "max_pages": 15
+      "max_pages": 15,
+      "listing": "https://www.anthropic.com/news"
     },
     {
       "name": "Anthropic Research",
@@ -68,7 +81,8 @@
       "include": "^https://www\\.anthropic\\.com/research/[^/]+$",
       "category": "ai_ml",
       "tier": 1,
-      "max_pages": 10
+      "max_pages": 10,
+      "listing": "https://www.anthropic.com/research"
     },
     {
       "name": "Anthropic Engineering",
@@ -77,7 +91,8 @@
       "include": "^https://www\\.anthropic\\.com/engineering/[^/]+$",
       "category": "dev_tools",
       "tier": 1,
-      "max_pages": 10
+      "max_pages": 10,
+      "listing": "https://www.anthropic.com/engineering"
     },
     {
       "name": "Claude Blog",
@@ -86,7 +101,8 @@
       "include": "^https://claude\\.com/blog/[^/]+$",
       "category": "dev_tools",
       "tier": 1,
-      "max_pages": 15
+      "max_pages": 15,
+      "listing": "https://claude.com/blog"
     }
   ],
   "candidates": {

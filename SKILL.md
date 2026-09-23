@@ -36,6 +36,7 @@ cd /Users/jongyeol/GitHub/daily-magazine && bash scripts/collect_all.sh
 ## Step 2: 후보 읽고 선정
 
 1. `/tmp/daily-magazine/<날짜>/candidates_brief.md` 를 읽는다 (카테고리별 한 줄 목록. `cluster=`는 같은 스토리 묶음, `seenStory=`는 최근 호에 실린 스토리와 유사, `NNh`는 24시간이 지난 기사).
+   `late:` 표시는 게시일은 이전이지만 방금 처음 공개된 글(소급 게시·날짜 없는 발표 페이지)이다. 신규 기사로 취급한다.
 2. 선정 후보의 상세는 `candidates.json`에서 해당 `id` 항목을 찾아 읽는다 (`content`/`description`, 트윗 `text`/`thread`/`quoted`, 레딧 `body`).
 
 ### 선정 규칙 (validate.py가 기계적으로 검사한다)

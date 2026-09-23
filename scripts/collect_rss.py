@@ -21,7 +21,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import feedparser  # noqa: E402
 from html.parser import HTMLParser  # noqa: E402
 
-from lib import (CONFIG_DIR, USER_AGENT, as_of, dedupe_key, iso_kst, load_config, log,  # noqa: E402
+from lib import (CONFIG_DIR, USER_AGENT, SeenStore, as_of, dedupe_key, iso_kst, load_config, log,  # noqa: E402
                  result_envelope, run_dir, save_json, strip_html, struct_to_dt)
 
 socket.setdefaulttimeout(20)
@@ -110,7 +110,7 @@ def fetch_fulltext(url: str, max_chars: int) -> tuple[str, str]:
     return "", ""
 
 
-def parse_feed(row: dict, cfg: dict, cutoff):
+def parse_feed(row: dict, cfg: dict, cutoff, seen: SeenStore | None = None):
     url = row["RSS URL"].strip()
     source = row["Title"].strip()
     items, err = [], None
@@ -124,12 +124,18 @@ def parse_feed(row: dict, cfg: dict, cutoff):
         for entry in d.entries[: cfg["per_feed"]]:
             pub = struct_to_dt(getattr(entry, "published_parsed", None)) or \
                   struct_to_dt(getattr(entry, "updated_parsed", None))
-            if not pub or pub < cutoff:
-                continue
             title = strip_html(entry.get("title", ""))
             link = (entry.get("link") or "").strip()
-            if not title or not link:
+            if not pub or not title or not link:
                 continue
+            key = dedupe_key(link)
+            first_seen = seen.mark(key) if seen else None
+            late = False
+            if pub < cutoff:
+                # backdated item that only just appeared in the feed → still news today
+                if not (seen and seen.is_new(key, cfg["late_arrival_hours"]) and pub >= as_of() - timedelta(days=cfg["late_arrival_max_age_days"])):
+                    continue
+                late = True
             desc = strip_html(entry.get("summary", "") or entry.get("description", ""))
             content = ""
             if entry.get("content"):
@@ -145,6 +151,7 @@ def parse_feed(row: dict, cfg: dict, cutoff):
                 "publishedAt": iso_kst(pub),
                 "description": desc[:800],
                 "content": content[:cfg["fulltext_chars"]],
+                **({"lateArrival": True, "firstSeenAt": first_seen.isoformat()} if late else {}),
             })
     except Exception as e:  # noqa: BLE001
         err = f"{source}: {str(e)[:160]}"
@@ -158,19 +165,26 @@ def main() -> int:
     cfg.setdefault("fulltext_tiers", [1])
     cfg.setdefault("fulltext_max", 40)
     cfg.setdefault("fulltext_chars", 3000)
+    cfg.setdefault("late_arrival_hours", 48)
+    cfg.setdefault("late_arrival_max_age_days", 7)
     cutoff = as_of() - timedelta(hours=cfg["collect_window_hours"])
+    seen = SeenStore("rss")
 
     with open(CONFIG_DIR / "feeds.csv", encoding="utf-8") as f:
         rows = [r for r in csv.DictReader(f) if r.get("RSS URL")]
 
     all_items, errors = [], []
     with cf.ThreadPoolExecutor(max_workers=8) as ex:
-        for source, items, err in ex.map(lambda r: parse_feed(r, cfg, cutoff), rows):
+        for source, items, err in ex.map(lambda r: parse_feed(r, cfg, cutoff, seen), rows):
             log(f"{'✓' if not err else '✗'} {source}: {len(items)}" + (f" — {err}" if err else ""))
             all_items.extend(items)
             if err:
                 errors.append(err)
 
+    seen.save()
+    late = [it for it in all_items if it.get("lateArrival")]
+    if late:
+        log(f"late arrivals (backdated, first seen now): {len(late)} — " + "; ".join(f"{i['source']}: {i['title'][:40]}" for i in late[:5]))
     # de-dup identical links inside the raw set (same story syndicated to two feeds of one publisher)
     seen, uniq = set(), []
     for it in sorted(all_items, key=lambda x: (x["tier"], x["publishedAt"])):

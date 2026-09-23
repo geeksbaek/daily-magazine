@@ -42,7 +42,7 @@ def main() -> int:
     for sub in subs:
         url = f"https://www.reddit.com/r/{sub}/top/.rss?t=day&limit=50"
         raw = None
-        backoff = (0, 12, 30, 60)  # reddit answers 429 to bursts; wait it out
+        backoff = (0, 15, 40)  # reddit answers 429 to bursts; wait it out (bounded: 8 subs must fit the budget)
         for attempt, delay in enumerate(backoff):
             if delay:
                 time.sleep(delay)
@@ -90,6 +90,9 @@ def main() -> int:
             if kept >= per_sub:
                 break
         log(f"✓ r/{sub}: {kept}")
+        # checkpoint after every subreddit: a timeout kill keeps everything collected so far
+        save_json(run_dir() / "reddit.json", result_envelope("reddit", sorted(items, key=lambda x: (x["subreddit"], x["rank"])),
+                                                             errors + [f"in progress: {sub} done"], subreddits=subs))
         time.sleep(3.0)  # be polite; reddit rate-limits bursts
 
     items.sort(key=lambda x: (x["subreddit"], x["rank"]))

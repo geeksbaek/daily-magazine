@@ -117,9 +117,12 @@ def main() -> int:
     dropped = {"old": 0, "history_url": 0, "dup_url": 0, "publisher_cap": 0}
     articles, seen_keys, per_pub = [], set(), {}
     raw_articles.sort(key=lambda a: (a["tier"], a["publishedAt"], a["url"]))  # deterministic before caps
-    for a in sorted(raw_articles, key=lambda a: (a["publishedAt"], a["url"]), reverse=True):
+    # same URL from several collectors: keep the copy with a real publish date (RSS) over a
+    # first-seen-dated sitemap copy, then newest first
+    for a in sorted(raw_articles, key=lambda a: (a.get("dateSource") == "first_seen", -parse_iso(a["publishedAt"]).timestamp(), a["url"])):
         dt = parse_iso(a["publishedAt"])
-        if not dt or dt < cutoff or dt > as_of() + timedelta(hours=1):
+        eff = max(dt, parse_iso(a["firstSeenAt"])) if (dt and a.get("lateArrival")) else dt
+        if not dt or eff < cutoff or dt > as_of() + timedelta(hours=1):
             dropped["old"] += 1
             continue
         if a["dedupe_key"] in history["urls"]:
@@ -166,10 +169,12 @@ def main() -> int:
         out_articles.append({
             "id": a["id"], "title": a["title"], "url": a["url"], "source": a["source"], "publisher": a["publisher"],
             "category": a["category"], "tier": a["tier"], "publishedAt": a["publishedAt"],
-            "ageHours": round(hours_ago(a["publishedAt"]), 1), "fresh": hours_ago(a["publishedAt"]) <= 24,
+            "ageHours": round(hours_ago(a["publishedAt"]), 1),
+            "fresh": hours_ago(a.get("firstSeenAt") or a["publishedAt"]) <= 24,
             "description": a.get("description", ""), "content": a.get("content", ""),
             "contentSource": a.get("content_source", "description"),
             **({"hnUrl": a["hnUrl"], "points": a["points"], "numComments": a["numComments"]} if "hnUrl" in a else {}),
+            **({"lateArrival": True, "firstSeenAt": a["firstSeenAt"]} if a.get("lateArrival") else {}),
             "clusterId": a["clusterId"], "clusterSize": a["clusterSize"], "clusterMembers": a["clusterMembers"],
             "seenStory": a["seenStory"],
         })
@@ -284,7 +289,9 @@ def write_brief(path: Path, c: dict) -> None:
                 flags.append(f"cluster={a['clusterId']}×{a['clusterSize']}")
             if a["seenStory"]:
                 flags.append(f"seenStory={a['seenStory']}")
-            if not a["fresh"]:
+            if a.get("lateArrival"):
+                flags.append("late: 게시일은 이전이나 방금 처음 공개됨")
+            elif not a["fresh"]:
                 flags.append(f"{a['ageHours']:.0f}h")
             extra = f" · HN {a['points']}pt/{a['numComments']}c" if "points" in a else ""
             lines.append(f"- `{a['id']}` [T{a['tier']} {a['source']}]{extra} {a['title']}"

@@ -27,6 +27,16 @@ publish.py   재검증 → public/data/<date>/ + index.json → commit/push → 
 - **dedupe_key**: 발행 URL은 원본 그대로. 중복 판정에만 쓰는 보수적 정규화(https, host 소문자, www 제거, utm/fbclid 등 제거, trailing slash 제거, reddit 슬러그 제거).
 - **정렬/동점**: 모든 목록은 (기준값, id/url) 튜플로 정렬해 동점 순서가 고정된다.
 
+## 누락 방지: 처음 본 시각 (`~/.daily-magazine/state/seen_*.json`)
+
+게시일만으로 창을 거르면 두 종류를 놓친다. ① OpenAI처럼 RSS에 **소급 날짜로 뒤늦게** 추가되는 글, ② DevDay 발표처럼 **날짜가 없는 페이지**. 수집기마다 URL별 최초 발견 시각을 저장하고:
+
+- 이전 실행에 없던 URL이 표시 날짜 7일 이내면 `lateArrival: true`, `firstSeenAt`과 함께 후보에 포함 (발행 창·검증은 `max(publishedAt, firstSeenAt)` 기준)
+- 날짜 없는 페이지는 신규일 때만 `dateSource: first_seen`으로 포함 (sitemap `lastmod`는 재배포마다 바뀌므로 절대 게시일로 쓰지 않음)
+- OpenAI는 RSS + sitemap `/index/` 신규 URL 탐지(`discovery: new_urls`). 같은 URL은 실제 게시일이 있는 RSS 쪽을 남김
+- Anthropic/Claude는 sitemap이 늦게 반영되므로 목록 페이지(`listing`) 상단 링크도 함께 확인. 모델 발표는 `/news/`가 아니라 최상위(`/claude-opus-5-5`)에 올라온다
+- 첫 실행은 기준선만 기록(bootstrap). 신규 판정은 48시간 유지되어 실패한 실행 다음 날 재시도된다
+
 ## 중복 방지 (4겹)
 
 1. `build_candidates.py`: 같은 dedupe_key 1건, 과거 14호 URL 제외, 제목 유사도로 `seenStory` 표시.
@@ -38,7 +48,8 @@ publish.py   재검증 → public/data/<date>/ + index.json → commit/push → 
 
 - 전용 Chromium 프로필(`~/.daily-magazine/x-profile`)에 **한 번** `python3 scripts/x_login.py`로 로그인한다. 이후 headless로 재사용. 로그인 계정이 `config/sources.json → x.user`와 다르면 중단(exit 2).
 - 팔로잉 목록: `x.com/<user>/following`을 스크롤하며 `Following` GraphQL 응답을 가로채 user id + handle 수집. `friends_count`와 비교해 `complete/partial` 기록 → `x_following.json`.
-- 트윗: `x.com/home`의 **Following** 탭(팔로잉 계정의 최신순 피드)을 스크롤하며 `HomeLatestTimeline` 응답을 가로채 48h 창까지 수집. promoted 제외, 팔로우하지 않는 계정 제외, 비공개 계정 제외.
+- 팔로잉 수는 프로필 헤더에서 읽어 목록 완결성을 판정(`complete`여야 팔로우 필터 적용).
+- 트윗: `x.com/home`의 팔로잉 탭(UI 언어 무관하게 두 번째 탭)을 선택하고 **`HomeLatestTimeline` 응답만** 받는다. 알고리즘 "추천" 피드(`HomeTimeline`)는 대부분 팔로우하지 않은 계정이라 아예 캡처하지 않는다. 매 스크롤마다 다음 페이지 응답을 기다리며 48h 경계까지 수집. promoted·비팔로우·비공개 계정 제외.
 - 정책(`config/sources.json`): 리트윗 포함(원작성자 기준, `retweetedBy` 기록), 타인에 대한 답글 제외, 자기 답글은 루트 트윗의 `thread`로 병합.
 - 폴백: GraphQL 응답이 0건이면 DOM 파싱, 타임라인이 5건 미만이면 계정별 방문(`--mode accounts`).
 - 스키마 변화 대비: `__typename == "Tweet"/"User"`를 재귀 탐색하고, `legacy`/`core` 두 위치의 이름 필드를 모두 지원.

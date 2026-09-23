@@ -17,6 +17,7 @@ Exit codes: 0 ok, 1 nothing collected, 2 not logged in / wrong account (run scri
 from __future__ import annotations
 
 import argparse
+import re
 import sys
 import time
 from datetime import datetime, timedelta
@@ -29,20 +30,58 @@ from x_browser import (ResponseSink, dom_tweets, dump, extract_tweets, extract_u
 
 
 def scroll(page, px: int = 2500, pause_ms: int = 1500):
+    page.mouse.move(640, 700)  # wheel events go to the element under the pointer
     page.mouse.wheel(0, px)
     page.wait_for_timeout(pause_ms)
 
 
+def scroll_for_more(page, sink, timeout_ms: int = 12000) -> bool:
+    """Jump to the bottom and wait until the infinite list fetches its next page."""
+    before = len(sink.payloads)
+    page.mouse.move(640, 700)
+    deadline = timeout_ms
+    while deadline > 0:
+        page.evaluate("window.scrollTo(0, document.documentElement.scrollHeight)")
+        page.mouse.wheel(0, 1200)
+        page.wait_for_timeout(1000)
+        deadline -= 1000
+        if len(sink.payloads) > before:
+            page.wait_for_timeout(600)  # let the response render so the next bottom is further down
+            return True
+        if deadline % 4000 == 0:  # nudge: scroll up a little and back, X sometimes needs it
+            page.mouse.wheel(0, -1500)
+            page.wait_for_timeout(400)
+    return False
+
+
+def profile_following_count(page, user: str) -> int | None:
+    """'N Following' / 'N 팔로잉' link on the profile header (locale independent: parse the number)."""
+    page.goto(f"https://x.com/{user}", wait_until="domcontentloaded")
+    try:
+        link = page.locator(f'a[href="/{user}/following" i]').first
+        link.wait_for(timeout=15000)
+        txt = link.inner_text().replace(",", "")
+    except Exception:  # noqa: BLE001
+        return None
+    m = re.search(r"([\d.]+)\s*([KkMm천만]?)", txt)
+    if not m:
+        return None
+    n = float(m.group(1))
+    mult = {"k": 1e3, "K": 1e3, "m": 1e6, "M": 1e6, "천": 1e3, "만": 1e4}.get(m.group(2), 1)
+    return int(round(n * mult))
+
+
 def collect_following(page, user: str, max_scrolls: int, raw_dir: Path) -> dict:
+    profile_count = profile_following_count(page, user)
     sink = ResponseSink(page, r"/graphql/[^/]+/Following\b|/graphql/[^/]+/UserByScreenName\b")
     page.goto(f"https://x.com/{user}/following", wait_until="domcontentloaded")
     page.wait_for_timeout(4000)
-    expected = None
+    expected = profile_count
     users: dict[str, dict] = {}
     idle = 0
     for i in range(max_scrolls):
         for u in extract_users(sink.payloads):
-            if u["handle"].lower() == user.lower() and u.get("followingCount") is not None:
+            if u["handle"].lower() == user.lower() and u.get("followingCount") is not None and expected is None:
                 expected = u["followingCount"]
             elif u["handle"].lower() != user.lower():
                 users[u["id"]] = u
@@ -85,17 +124,25 @@ def collect_following(page, user: str, max_scrolls: int, raw_dir: Path) -> dict:
 
 
 def collect_timeline(page, cutoff: datetime, max_scrolls: int, max_tweets: int, raw_dir: Path) -> tuple[list, dict]:
-    sink = ResponseSink(page, r"/graphql/[^/]+/HomeLatestTimeline\b|/graphql/[^/]+/HomeTimeline\b")
+    # ONLY the chronological "Following" feed (HomeLatestTimeline). The algorithmic "For you"
+    # feed (HomeTimeline) is mostly accounts the user does not follow, so it is never captured.
+    sink = ResponseSink(page, r"/graphql/[^/]+/HomeLatestTimeline\b")
     page.goto("https://x.com/home", wait_until="domcontentloaded")
     page.wait_for_timeout(4000)
-    # select the "Following" (latest) tab
+    # select the Following tab — UI language varies ("Following", "팔로잉", …); it is the 2nd tab
     try:
-        tab = page.get_by_role("tab", name="Following").first
-        tab.wait_for(timeout=15000)
-        tab.click()
+        tabs = page.locator('[data-testid="primaryColumn"] [role="tablist"] [role="tab"]')
+        tabs.first.wait_for(timeout=15000)
+        named = page.get_by_role("tab", name=re.compile(r"^(Following|팔로잉|フォロー中)$"))
+        tab = named.first if named.count() else tabs.nth(1)
+        if tab.get_attribute("aria-selected") != "true":
+            tab.click()
         page.wait_for_timeout(3500)
     except Exception as e:  # noqa: BLE001
-        log(f"  ⚠️ could not click Following tab: {e}")
+        log(f"  ⚠️ could not select the Following tab: {e}")
+    if not sink.payloads:  # tab was already selected before the listener saw the first page → reload once
+        page.reload(wait_until="domcontentloaded")
+        page.wait_for_timeout(4000)
     older_batches = 0
     seen: dict[str, dict] = {}
     idle = 0
@@ -117,19 +164,20 @@ def collect_timeline(page, cutoff: datetime, max_scrolls: int, max_tweets: int, 
             if batch_oldest:
                 oldest_overall = min(oldest_overall, batch_oldest) if oldest_overall else batch_oldest
                 older_batches = older_batches + 1 if batch_oldest < cutoff else 0
-        if older_batches >= 2 or len(seen) >= max_tweets or idle >= 8:
+        if older_batches >= 2 or len(seen) >= max_tweets or idle >= 4:
             break
-        scroll(page, 3000, 1400)
-        if i % 10 == 0:
+        if not scroll_for_more(page, sink):
+            idle += 1
+        if i % 5 == 0:
             log(f"  timeline: {len(seen)} tweets, oldest={oldest_overall.isoformat() if oldest_overall else '?'} "
                 f"(scroll {i}, {new_payloads} new responses)")
     dom_used = False
-    if not seen:  # schema changed? fall back to DOM
+    if not seen and sink.count:  # responses arrived but nothing parsed → schema changed, fall back to DOM
         dom_used = True
         for t in dom_tweets(page):
             seen[t["id"]] = t
     dump(raw_dir / "timeline_responses.json", sink.payloads)
-    meta = {"responses": sink.count, "scrolls": i + 1, "reached_cutoff": older_batches >= 2, "idle_stop": idle >= 8,
+    meta = {"responses": sink.count, "scrolls": i + 1, "reached_cutoff": older_batches >= 2, "idle_stop": idle >= 4,
             "oldest": oldest_overall.isoformat() if oldest_overall else None, "dom_fallback": dom_used,
             "response_errors": sink.errors[:20]}
     return list(seen.values()), meta
