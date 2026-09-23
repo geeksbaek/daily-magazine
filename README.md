@@ -14,7 +14,7 @@ bash scripts/collect_all.sh     # 오늘 후보 수집
 
 ## 디자인
 
-상단 네비게이션의 디자인 버튼으로 다섯 가지 디자인(대판 신문·스위스·읽기 모드·콘솔·터미널)을 고를 수 있다. 선택은 브라우저에 저장되고 `?design=<id>`로 지정할 수도 있다.
+현재 디자인은 "읽기 모드"(`reader`) 하나다. 디자인이 둘 이상이면 네비게이션에 선택 버튼이 자동으로 나타나고, 선택은 브라우저에 저장되며 `?design=<id>`로 지정할 수도 있다.
 
 - 디자인 하나 = `src/designs/<id>/meta.json` + `style.css`. 폴더를 추가하면 자동 등록된다(`src/designs/registry.ts`).
 - `style.css`의 모든 규칙은 `[data-design="<id>"]` 아래로 한정한다. 공통 구조는 컴포넌트의 `data-part` 속성으로 겨냥한다.

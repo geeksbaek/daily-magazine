@@ -2,7 +2,7 @@
   "id": "reader",
   "name": "읽기 모드",
   "description": "세피아 종이 위 좁은 한 단, 본문을 오래 읽기 좋은 조판.",
-  "order": 2,
+  "order": 0,
   "swatch": [
     "#f5eddc",
     "#2b2419",

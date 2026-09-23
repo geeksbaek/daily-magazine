@@ -403,11 +403,11 @@
   hanging-punctuation: first;
 }
 [data-design="reader"] .prose-body p + p { margin-top: 0.35em; text-indent: 1em; }
-[data-design="reader"] .expand[data-open="true"] > div > div:last-child {
+[data-design="reader"] .expand > div > div:last-child {
   padding-top: 18px;
   padding-bottom: 6px;
 }
-[data-design="reader"] .expand[data-open="true"] > div > .prose-body {
+[data-design="reader"] .expand > div > .prose-body {
   border-left: 0;
   padding-left: 0;
   margin-top: 10px;

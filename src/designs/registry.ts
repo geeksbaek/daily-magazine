@@ -18,4 +18,4 @@ import.meta.glob('./*/style.css', { eager: true })
 
 export const DESIGNS: DesignMeta[] = Object.values(metas).sort((a, b) => a.order - b.order || a.id.localeCompare(b.id))
 /** Lowest `order` wins: the design ranked first by the judge panel. */
-export const DEFAULT_DESIGN = DESIGNS[0]?.id ?? 'broadsheet'
+export const DEFAULT_DESIGN = DESIGNS[0]?.id ?? 'reader'
