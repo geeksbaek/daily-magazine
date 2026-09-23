@@ -106,7 +106,10 @@ export default function App() {
   const showArchive = () => { setView('archive'); window.scrollTo({ top: 0 }) }
   const selectIssue = async (date: string) => { await loadMagazine(date); goHome() }
 
-  if (loading) {
+  // Only the first load swaps in the full-screen shell. Switching issues keeps the nav mounted:
+  // if the fixed nav disappears even briefly, iOS home-screen web apps switch the status bar
+  // to a translucent blur edge and never switch it back.
+  if (loading && !magazine) {
     return (
       <Shell>
         <p className="text-[14px] text-ink-2">오늘 호를 펼치는 중</p>
@@ -114,7 +117,7 @@ export default function App() {
     )
   }
 
-  if (error || !magazine) {
+  if (!magazine) {
     return (
       <Shell>
         <p className="text-[14px] text-ink-2">{error ?? '표시할 호가 없습니다.'}</p>
@@ -144,6 +147,10 @@ export default function App() {
           onJump={scrollToId}
           progress={view === 'magazine' ? progress.pct : null}
         />
+
+        {error && (
+          <p role="alert" className="wrap pt-[88px] text-[14px] text-accent">{error}</p>
+        )}
 
         {view === 'archive' && archiveIndex ? (
           <Archive issues={archiveIndex.issues} currentDate={currentDate} onSelectIssue={selectIssue} />

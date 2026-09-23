@@ -58,9 +58,11 @@ export default function MagazineNav({ date, issueNumber, sections, view, themeId
   const jump = (id: string) => { onJump(id); setMenuOpen(false) }
 
   return (
+    // No colour transition here: while the fixed nav animates, iOS home-screen web apps stop
+    // treating it as a solid top bar and blur the status-bar edge over it for good.
     <nav
       data-part="nav"
-      className="nav-bar fixed inset-x-0 top-0 z-50 border-b bg-paper transition-colors"
+      className="nav-bar fixed inset-x-0 top-0 z-50 border-b bg-paper"
       style={{ borderColor: scrolled || menuOpen ? 'var(--rule)' : 'transparent' }}
       aria-label="주 메뉴"
     >
