@@ -51,7 +51,9 @@ export default function ReadingProgress({ issueNumber, date, sections, pct, acti
             aria-valuemax={100}
             aria-valuenow={pct}
           >
-            <div className="progress-rail__fill" style={{ width: `${pct}%` }} />
+            <div className="progress-rail__fill" style={{ transform: `translateX(${pct - 100}%)` }}>
+              <div className="progress-rail__ink" style={{ transform: `translateX(${100 - pct}%)` }} />
+            </div>
           </div>
           <span className="progress-rail__pct">{pct}%</span>
         </div>

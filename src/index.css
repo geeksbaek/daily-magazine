@@ -190,12 +190,15 @@
     pointer-events: none;
   }
 
-  /* narrow screens: hairline along the nav's bottom edge */
+  /* narrow screens: hairline along the nav's bottom edge. It stays inside the nav's
+     box and on its own compositing layer: when it spilled past the fixed nav, iOS
+     Safari left stale slivers of it on the page as it shrank on scroll-up. */
   .progress-line {
     position: absolute;
     left: 0;
     right: 0;
-    bottom: -1px;
+    bottom: 0;
+    will-change: transform;
     z-index: 1;
     height: 2px;
     background: var(--accent);
@@ -296,18 +299,26 @@
       height: 14px;
       background-image: radial-gradient(circle, var(--rule-2) 0.9px, transparent 1.1px);
       background-size: 4px 4px;
+      overflow: hidden;
+      contain: paint;
     }
     /* read part: a dense checker, like ink filling the leaf */
-    .progress-rail__fill {
+    /* the fill slides in as a mask (outer) over a pattern that counter-slides (inner),
+       so progress moves by compositing transforms, never by repainting a width */
+    .progress-rail__fill,
+    .progress-rail__ink {
       position: absolute;
-      inset: 0 auto 0 0;
+      inset: 0;
+      will-change: transform;
+    }
+    .progress-rail__fill { overflow: hidden; }
+    .progress-rail__ink {
       background-color: var(--paper);
       background-image:
         linear-gradient(45deg, var(--ink) 25%, transparent 25%, transparent 75%, var(--ink) 75%),
         linear-gradient(45deg, var(--ink) 25%, transparent 25%, transparent 75%, var(--ink) 75%);
       background-size: 4px 4px;
       background-position: 0 0, 2px 2px;
-      transition: width 0.12s linear;
     }
     .progress-rail__pct {
       min-width: 3.2em;
