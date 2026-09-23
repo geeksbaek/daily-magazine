@@ -119,8 +119,11 @@ def collect_following(page, user: str, max_scrolls: int, raw_dir: Path) -> dict:
         status = "near_complete"  # X's count includes suspended/deactivated accounts
     else:
         status = "partial"
+    # UserByScreenName bodies are sometimes evicted before we read them; the count comes from the
+    # profile header anyway, so only Following-page errors matter
+    errs = [e for e in sink.errors if not e.startswith("UserByScreenName") and "/UserByScreenName" not in e]
     return {"user": user, "expected": expected, "count": len(lst), "status": status, "accounts": lst,
-            "errors": sink.errors}
+            "errors": errs}
 
 
 def collect_timeline(page, cutoff: datetime, max_scrolls: int, max_tweets: int, raw_dir: Path) -> tuple[list, dict]:

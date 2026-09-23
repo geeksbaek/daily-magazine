@@ -67,14 +67,16 @@ def fetch_page(url: str) -> tuple[str, str]:
         if getattr(e, "code", None) not in (401, 403, 429, 503):
             raise
     raw = ""
-    for delay in (0, 8, 20):  # r.jina.ai rate-limits bursts with 403/429
+    for delay in (0, 8):  # r.jina.ai rate-limits bursts with 403/429
         time.sleep(delay)
         try:
             raw = fetch_bytes(f"https://r.jina.ai/{url}", timeout=40, accept="text/plain").decode("utf-8", errors="replace")
             break
         except Exception as e:  # noqa: BLE001
-            if getattr(e, "code", None) not in (403, 429) or delay == 20:
+            if getattr(e, "code", None) not in (403, 429):
                 raise
+    if not raw:  # both blocked (Cloudflare challenge) → a real browser passes it
+        return fetch_browser(url)
     title = re.search(r"^Title:\s*(.+)$", raw, re.M)
     pub = re.search(r"^Published Time:\s*(\S+)", raw, re.M)
     body = re.sub(r"^.*?Markdown Content:\s*", "", raw, count=1, flags=re.S)
@@ -85,6 +87,38 @@ def fetch_page(url: str) -> tuple[str, str]:
     if pub:
         fake_html += f'<meta property="article:published_time" content="{pub.group(1)}">'
     return fake_html, body
+
+
+_BROWSER = None
+
+
+def fetch_browser(url: str) -> tuple[str, str]:
+    """Last resort for bot-protected pages: headless Chromium, waiting out the challenge page."""
+    global _BROWSER
+    from x_browser import launch  # lazy: playwright only when needed
+    if _BROWSER is None:
+        _BROWSER = launch()
+        import atexit
+        atexit.register(lambda: (_BROWSER[1].close(), _BROWSER[0].stop()))
+    page = _BROWSER[1].new_page()
+    try:
+        page.goto(url, wait_until="domcontentloaded", timeout=30000)
+        for _ in range(20):
+            if "just a moment" not in page.title().lower():
+                break
+            page.wait_for_timeout(1000)
+        page.wait_for_timeout(1500)
+        html = page.content()
+    finally:
+        page.close()
+    if "just a moment" in html[:3000].lower():
+        raise RuntimeError("bot challenge not passed")
+    ex = _TextExtractor()
+    try:
+        ex.feed(html)
+    except Exception:  # noqa: BLE001
+        pass
+    return html, ex.text()
 
 
 def page_date(text: str, html: str) -> datetime | None:

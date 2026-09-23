@@ -51,6 +51,17 @@ cd /Users/jongyeol/GitHub/daily-magazine && bash scripts/collect_all.sh
 - quick_bites: Hacker News·Lobsters·GeekNews·한국 기술블로그 등 짧게 소개할 만한 것.
 - 트윗: 리트윗(`RT by @…`)도 가능하지만 원작성자 기준으로 판단. 같은 내용의 트윗·기사는 하나만.
 
+### 선정 기사 본문 보강 (필수)
+
+선정한 highlights·ai_ml·dev_tools·big_tech 기사 중 `contentSource: description`(요약문만 있음)인 것은 본문을 다시 가져온다. 수집 단계의 본문 보강은 시간 제한이 있고, openai.com처럼 봇 차단이 있는 사이트는 실제 브라우저로만 열리기 때문이다.
+
+```bash
+cd /Users/jongyeol/GitHub/daily-magazine && python3 scripts/enrich.py <id> <id> ...
+```
+
+- 실패한 기사는 한두 번 더 시도한다(간헐적으로 통과). 끝내 실패하면 body 없이 싣거나, 본문이 있는 다른 기사로 교체한다.
+- 원문이 잘려 사실이 부족한 기사는 해석으로 분량을 채우지 말고 제외한다.
+
 ## Step 3: draft.json 작성
 
 `/tmp/daily-magazine/<날짜>/draft.json` 에 아래 형식으로 저장한다. **허용된 필드 외에는 아무것도 넣지 않는다.**

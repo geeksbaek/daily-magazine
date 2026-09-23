@@ -119,7 +119,14 @@ def main() -> int:
     raw_articles.sort(key=lambda a: (a["tier"], a["publishedAt"], a["url"]))  # deterministic before caps
     # same URL from several collectors: keep the copy with a real publish date (RSS) over a
     # first-seen-dated sitemap copy, then newest first
-    for a in sorted(raw_articles, key=lambda a: (a.get("dateSource") == "first_seen", -parse_iso(a["publishedAt"]).timestamp(), a["url"])):
+    # same URL from several collectors: keep the primary source (lowest tier) with a real publish date;
+    # a Hacker News copy only lends its points/discussion link to the kept article
+    by_key_best: dict[str, dict] = {}
+    for a in sorted(raw_articles, key=lambda a: (a.get("dateSource") == "first_seen", a["tier"], -parse_iso(a["publishedAt"]).timestamp(), a["url"])):
+        best = by_key_best.setdefault(a["dedupe_key"], a)
+        if best is not a and "hnUrl" in a and "hnUrl" not in best:
+            best.update(hnUrl=a["hnUrl"], points=a["points"], numComments=a["numComments"])
+    for a in sorted(raw_articles, key=lambda a: (by_key_best[a["dedupe_key"]] is not a, -parse_iso(a["publishedAt"]).timestamp(), a["url"])):
         dt = parse_iso(a["publishedAt"])
         eff = max(dt, parse_iso(a["firstSeenAt"])) if (dt and a.get("lateArrival")) else dt
         if not dt or eff < cutoff or dt > as_of() + timedelta(hours=1):
