@@ -44,6 +44,9 @@ export function useTheme() {
 
   useEffect(() => {
     document.documentElement.classList.toggle('dark', resolved === 'dark')
+    // tint the browser / home-screen app status bar to match the paper
+    const paper = getComputedStyle(document.documentElement).getPropertyValue('--paper').trim()
+    document.querySelector('meta[name="theme-color"]')?.setAttribute('content', paper || (resolved === 'dark' ? '#1f1c18' : '#f5eddc'))
   }, [resolved])
 
   useEffect(() => {

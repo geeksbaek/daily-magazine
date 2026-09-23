@@ -82,3 +82,8 @@ export function hostOf(url: string): string {
     return ''
   }
 }
+
+/** Bottom edge of the fixed nav in viewport px (includes the notch/status-bar safe area). */
+export function navBottom(): number {
+  return document.querySelector('[data-part="nav"]')?.getBoundingClientRect().bottom ?? 56
+}

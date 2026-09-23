@@ -13,14 +13,11 @@ interface Props {
 /**
  * Scroll progress for the whole issue.
  * Wide screens: a fixed left rail (issue title, section tree with the current section marked,
- * a patterned progress bar with a percentage). Narrow screens: a hairline bar under the nav
- * (the percentage itself sits in the nav — see MagazineNav).
+ * a patterned progress bar with a percentage). Narrow screens: the nav carries a hairline bar and the percentage (see MagazineNav).
  */
 export default function ReadingProgress({ issueNumber, date, sections, pct, active, onJump }: Props) {
   return (
     <>
-      <div className="progress-line" aria-hidden="true" style={{ transform: `scaleX(${pct / 100})` }} />
-
       <aside className="progress-rail" aria-label="읽기 진행">
         <p className="progress-rail__title">
           제{issueNumber}호

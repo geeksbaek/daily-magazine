@@ -14,6 +14,7 @@ import QuickBites from './components/QuickBites'
 import Archive from './components/Archive'
 import PodcastPlayer from './components/PodcastPlayer'
 import Footer from './components/Footer'
+import { navBottom } from './utils/format'
 import ReadingProgress from './components/ReadingProgress'
 import { useReadingProgress } from './hooks/useReadingProgress'
 
@@ -39,7 +40,7 @@ function sectionLinks(m: Magazine): SectionLink[] {
 function scrollToId(id: string) {
   const el = document.getElementById(id)
   if (!el) return
-  const top = el.getBoundingClientRect().top + window.scrollY - 56
+  const top = el.getBoundingClientRect().top + window.scrollY - navBottom()
   window.scrollTo({ top, behavior: 'smooth' })
 }
 

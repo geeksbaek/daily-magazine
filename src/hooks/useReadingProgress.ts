@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react'
+import { navBottom } from '../utils/format'
 import type { SectionLink } from '../components/MagazineNav'
-
-const NAV_OFFSET = 120
 
 /** Whole-page scroll percentage and the section currently under the nav. */
 export function useReadingProgress(sections: SectionLink[]) {
@@ -15,10 +14,11 @@ export function useReadingProgress(sections: SectionLink[]) {
       const doc = document.documentElement
       const max = doc.scrollHeight - window.innerHeight
       setPct(max > 0 ? Math.min(100, Math.max(0, Math.round((window.scrollY / max) * 100))) : 0)
+      const line = navBottom() + 64
       let current = ''
       for (const s of sections) {
         const el = document.getElementById(s.id)
-        if (el && el.getBoundingClientRect().top <= NAV_OFFSET) current = s.id
+        if (el && el.getBoundingClientRect().top <= line) current = s.id
       }
       setActive(current)
     }

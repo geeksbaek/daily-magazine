@@ -1,7 +1,7 @@
 import { useId, useRef, useState } from 'react'
 import { flushSync } from 'react-dom'
 import type { Article } from '../types/magazine'
-import { paragraphs } from '../utils/format'
+import { navBottom, paragraphs } from '../utils/format'
 
 interface Props {
   article: Article
@@ -28,7 +28,7 @@ export default function ArticleBody({ article, size = 'md' }: Props) {
     const before = btn?.getBoundingClientRect().top ?? 0
     flushSync(() => { setAnimate(false); setOpen(false) })
     if (!btn) return
-    const navH = 72
+    const navH = navBottom() + 16
     if (before >= navH && before <= window.innerHeight) {
       // toggle was on screen: keep it pinned where the reader's eye is
       window.scrollBy({ top: btn.getBoundingClientRect().top - before, behavior: 'instant' as ScrollBehavior })

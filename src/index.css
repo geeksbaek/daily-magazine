@@ -175,13 +175,28 @@
 
 /* ── Reading progress ───────────────────────────────────────── */
 @layer components {
-  /* narrow screens: hairline under the nav */
-  .progress-line {
-    position: fixed;
+  /* The nav is always opaque and clears the status bar / notch (home-screen web apps
+     draw the page under it with viewport-fit=cover). ::before paints paper above the
+     nav so scrolled content never shows through a gap or during overscroll. */
+  .nav-bar { padding-top: env(safe-area-inset-top); }
+  .nav-bar::before {
+    content: '';
+    position: absolute;
     left: 0;
     right: 0;
-    top: 0;
-    z-index: 60;
+    bottom: 100%;
+    height: 100vh;
+    background: var(--paper);
+    pointer-events: none;
+  }
+
+  /* narrow screens: hairline along the nav's bottom edge */
+  .progress-line {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -1px;
+    z-index: 1;
     height: 2px;
     background: var(--accent);
     transform-origin: 0 50%;
@@ -213,10 +228,10 @@
       flex-direction: column;
       position: fixed;
       z-index: 40;
-      top: 96px;
-      left: 32px;
+      top: calc(96px + env(safe-area-inset-top));
+      left: calc(32px + env(safe-area-inset-left));
       width: min(240px, calc((100vw - 700px) / 2 - 64px));
-      max-height: calc(100vh - 128px);
+      max-height: calc(100vh - 128px - env(safe-area-inset-top));
       font-size: 13px;
       color: var(--ink-2);
     }

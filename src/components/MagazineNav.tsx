@@ -60,11 +60,8 @@ export default function MagazineNav({ date, issueNumber, sections, view, themeId
   return (
     <nav
       data-part="nav"
-      className="fixed inset-x-0 top-0 z-50 border-b transition-colors"
-      style={{
-        backgroundColor: scrolled || menuOpen ? 'var(--paper)' : 'transparent',
-        borderColor: scrolled || menuOpen ? 'var(--rule)' : 'transparent',
-      }}
+      className="nav-bar fixed inset-x-0 top-0 z-50 border-b bg-paper transition-colors"
+      style={{ borderColor: scrolled || menuOpen ? 'var(--rule)' : 'transparent' }}
       aria-label="주 메뉴"
     >
       <div className="wrap flex h-14 items-center justify-between gap-4">
@@ -120,6 +117,10 @@ export default function MagazineNav({ date, issueNumber, sections, view, themeId
           </button>
         </div>
       </div>
+
+      {progress !== null && (
+        <div className="progress-line" aria-hidden="true" style={{ transform: `scaleX(${progress / 100})` }} />
+      )}
 
       {menuOpen && (
         <div className="border-t border-rule bg-paper lg:hidden">
