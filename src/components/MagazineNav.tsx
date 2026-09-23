@@ -22,6 +22,8 @@ interface Props {
   onShowArchive: () => void
   onHome: () => void
   onJump: (id: string) => void
+  /** whole-issue scroll percentage; null hides the indicator */
+  progress?: number | null
 }
 
 export function Wordmark({ className = '' }: { className?: string }) {
@@ -32,7 +34,7 @@ export function Wordmark({ className = '' }: { className?: string }) {
   )
 }
 
-export default function MagazineNav({ date, issueNumber, sections, view, themeId, onSetTheme, designId, onSetDesign, onShowArchive, onHome, onJump }: Props) {
+export default function MagazineNav({ date, issueNumber, sections, view, themeId, onSetTheme, designId, onSetDesign, onShowArchive, onHome, onJump, progress = null }: Props) {
   const [active, setActive] = useState('')
   const [scrolled, setScrolled] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
@@ -88,6 +90,7 @@ export default function MagazineNav({ date, issueNumber, sections, view, themeId
         )}
 
         <div className="flex items-center gap-1">
+          {progress !== null && scrolled && <NavProgress pct={progress} />}
           <span className="hidden pr-2 text-[12.5px] text-ink-3 tabular md:inline">{formatIssueDate(date)}</span>
           <button
             type="button"
@@ -144,5 +147,23 @@ export default function MagazineNav({ date, issueNumber, sections, view, themeId
         </div>
       )}
     </nav>
+  )
+}
+
+/** Narrow screens only (the wide-screen rail shows its own): a small ring plus the percentage. */
+function NavProgress({ pct }: { pct: number }) {
+  const r = 6.5
+  const c = 2 * Math.PI * r
+  return (
+    <span className="nav-progress" role="progressbar" aria-label="이번 호를 읽은 정도" aria-valuemin={0} aria-valuemax={100} aria-valuenow={pct}>
+      <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true">
+        <circle cx="8" cy="8" r={r} fill="none" stroke="var(--rule-2)" strokeWidth="1.5" />
+        <circle
+          cx="8" cy="8" r={r} fill="none" stroke="var(--accent)" strokeWidth="1.5" strokeLinecap="round"
+          strokeDasharray={c} strokeDashoffset={c * (1 - pct / 100)} transform="rotate(-90 8 8)"
+        />
+      </svg>
+      {pct}%
+    </span>
   )
 }

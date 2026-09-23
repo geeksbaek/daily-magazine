@@ -18,10 +18,11 @@
   --accent-soft: rgba(154, 74, 31, 0.09);
   --mark: #ecc978;
   --mark-ink: #2b2419;
-  /* Korean faces first so Latin/digits come from each face's own harmonised
-     Latin; Literata is reserved for ornamental numerals only. */
-  --r-serif-display: 'Noto Serif KR', 'Gowun Batang', serif;
-  --r-serif-text: 'Gowun Batang', 'Noto Serif KR', serif;
+  /* Serif for titles only; running text is set in a sturdy screen sans
+     (thin brush-serif body text was hard to read). Literata is reserved
+     for ornamental numerals. */
+  --r-serif-display: 'Noto Serif KR', serif;
+  --r-text: 'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, system-ui, 'Apple SD Gothic Neo', sans-serif;
   --r-measure: 700px;
   color-scheme: light;
 }
@@ -45,7 +46,8 @@
 
 /* ── Base type ─────────────────────────────────────────────── */
 :root[data-design="reader"] body {
-  font-family: 'Pretendard Variable', Pretendard, -apple-system, system-ui, sans-serif;
+  font-family: var(--r-text);
+  letter-spacing: -0.005em;
   text-rendering: optimizeLegibility;
   font-kerning: normal;
 }
@@ -74,7 +76,7 @@
 [data-design="reader"] [data-part="nav"] .font-display .text-accent,
 [data-design="reader"] [data-part="footer"] .font-display .text-accent { color: var(--ink-3); font-weight: 400; }
 [data-design="reader"] [data-part="nav"] div.lg\:hidden button {
-  font-family: var(--r-serif-text);
+  font-family: var(--r-text);
   font-size: 16px;
   border-color: var(--rule);
 }
@@ -103,7 +105,7 @@
 [data-design="reader"] [data-part="cover-leaf"] .leaf-binding { display: none; }
 [data-design="reader"] [data-part="cover-leaf"] > div { padding: 0; }
 [data-design="reader"] [data-part="cover-leaf"] > div > p:first-child {
-  font-family: var(--r-serif-text);
+  font-family: var(--r-text);
   font-size: 13px;
   letter-spacing: 0.16em;
   color: var(--ink-3);
@@ -128,7 +130,7 @@
   margin: 14px auto 0;
   padding-top: 0;
   border-top: 0;
-  font-family: var(--r-serif-text);
+  font-family: var(--r-text);
   font-size: 14px;
 }
 [data-design="reader"] [data-part="cover-leaf"] > div > div > span:first-child { font-weight: 400; color: var(--ink-2); }
@@ -150,7 +152,7 @@
 [data-design="reader"] #cover > .grid > div:last-child::before {
   content: '이번 호의 이야기';
   display: block;
-  font-family: var(--r-serif-text);
+  font-family: var(--r-text);
   font-size: 13px;
   letter-spacing: 0.12em;
   padding-left: 0.12em;
@@ -165,7 +167,7 @@
   text-wrap: balance;
 }
 [data-design="reader"] #cover > .grid > div:last-child > p {
-  font-family: var(--r-serif-text);
+  font-family: var(--r-text);
   font-size: 17px;
   line-height: 1.85;
   color: var(--ink-2);
@@ -184,7 +186,7 @@
   padding: 0 0 3px;
   background: transparent;
   color: var(--accent);
-  font-family: var(--r-serif-text);
+  font-family: var(--r-text);
   font-size: 16px;
   font-weight: 600;
   border-bottom: 1px solid currentColor;
@@ -203,7 +205,7 @@
   counter-reset: rtoc;
 }
 [data-design="reader"] #cover nav[aria-label="목차"] > p {
-  font-family: var(--r-serif-text);
+  font-family: var(--r-text);
   font-size: 13px;
   letter-spacing: 0.12em;
   color: var(--ink-3);
@@ -216,7 +218,7 @@
   align-items: baseline;
   gap: 0;
   padding: 7px 0;
-  font-family: var(--r-serif-text);
+  font-family: var(--r-text);
   font-size: 16px;
   color: var(--ink);
 }
@@ -247,7 +249,7 @@
 }
 [data-design="reader"] #cover nav[aria-label="목차"] button > span:last-child::after {
   content: '편';
-  font-family: var(--r-serif-text);
+  font-family: var(--r-text);
   font-size: 13.5px;
   margin-left: 2px;
 }
@@ -327,7 +329,7 @@
   margin: 0 8px;
 }
 [data-design="reader"] [data-part="section-head"] > p.tabular {
-  font-family: var(--r-serif-text);
+  font-family: var(--r-text);
   font-style: normal;
   font-size: 13.5px;
 }
@@ -382,7 +384,7 @@
 [data-design="reader"] div.mt-3 > div.flex:only-child > a:first-child { display: none; }
 [data-design="reader"] div.mt-3:has(> div.flex:only-child > a + a) { margin-top: 6px; }
 [data-design="reader"] main button[aria-expanded] {
-  font-family: var(--r-serif-text);
+  font-family: var(--r-text);
   font-size: 14.5px;
   font-weight: 700;
   color: var(--accent);
@@ -394,15 +396,16 @@
 
 /* expanded body: the reason this design exists */
 [data-design="reader"] .prose-body {
-  font-family: var(--r-serif-text);
-  font-size: 18px !important;
-  line-height: 1.9 !important;
+  font-family: var(--r-text);
+  font-size: 17px !important;
+  line-height: 1.85 !important;
+  letter-spacing: -0.01em;
   color: var(--ink);
   max-width: none;
   padding-top: 20px;
   hanging-punctuation: first;
 }
-[data-design="reader"] .prose-body p + p { margin-top: 0.35em; text-indent: 1em; }
+[data-design="reader"] .prose-body p + p { margin-top: 1em; }
 [data-design="reader"] .expand > div > div:last-child {
   padding-top: 18px;
   padding-bottom: 6px;
@@ -430,9 +433,9 @@
   font-weight: 700;
 }
 [data-design="reader"] [data-part="lead"] > p {
-  font-family: var(--r-serif-text);
-  font-size: 17.5px;
-  line-height: 1.85;
+  font-family: var(--r-text);
+  font-size: 17px;
+  line-height: 1.8;
   color: var(--ink-2);
   margin-top: 16px;
   max-width: none;
@@ -449,7 +452,7 @@
 [data-design="reader"] [data-part="highlight"]:last-child { padding-bottom: 0; }
 [data-design="reader"] [data-part="highlight"] h4 { font-size: 19.5px; line-height: 1.45; font-weight: 600; }
 [data-design="reader"] [data-part="highlight"] > p {
-  font-family: var(--r-serif-text);
+  font-family: var(--r-text);
   font-size: 16px;
   line-height: 1.8;
   -webkit-line-clamp: unset;
@@ -470,10 +473,11 @@
   letter-spacing: -0.01em;
 }
 [data-design="reader"] [data-part="article"] > div:last-child > p {
-  font-family: var(--r-serif-text);
-  font-size: 16.5px;
+  font-family: var(--r-text);
+  font-size: 16px;
   line-height: 1.8;
   margin-top: 10px;
+  color: var(--ink-2);
   max-width: none;
 }
 
@@ -499,10 +503,10 @@
   margin-top: 16px;
   padding-left: 20px;
   border-left: 2px solid var(--accent);
-  font-family: var(--r-serif-text);
-  font-size: 16.5px;
+  font-family: var(--r-text);
+  font-size: 16px;
   font-weight: 400;
-  line-height: 1.85;
+  line-height: 1.8;
 }
 [data-design="reader"] #threads-pulse [data-part="quote"] blockquote { border-left-color: var(--rule-2); }
 [data-design="reader"] [data-part="quote"] blockquote > div {
@@ -513,13 +517,13 @@
 }
 [data-design="reader"] [data-part="quote"] > p:has(> span) {
   margin-top: 16px;
-  font-family: var(--r-serif-text);
+  font-family: var(--r-text);
   font-size: 15px;
   line-height: 1.8;
   color: var(--ink-2);
 }
 [data-design="reader"] [data-part="quote"] > p:has(> span) > span:first-child {
-  font-family: var(--r-serif-text);
+  font-family: var(--r-text);
   color: var(--accent);
 }
 [data-design="reader"] [data-part="quote"] > blockquote + div {
@@ -561,7 +565,7 @@
 }
 [data-design="reader"] [data-part="reddit"] h3 { font-size: 18.5px; line-height: 1.45; }
 [data-design="reader"] [data-part="reddit"] p.max-w-prose {
-  font-family: var(--r-serif-text);
+  font-family: var(--r-text);
   font-size: 15.5px;
   line-height: 1.8;
 }
@@ -587,8 +591,8 @@
 }
 [data-design="reader"] [data-part="bite"] h3 { font-size: 16.5px; line-height: 1.5; font-weight: 600; }
 [data-design="reader"] [data-part="bite"] > p {
-  font-family: var(--r-serif-text);
-  font-size: 14.5px;
+  font-family: var(--r-text);
+  font-size: 15px;
   line-height: 1.75;
   margin-top: 4px;
 }
@@ -613,4 +617,4 @@
   margin-bottom: 12px;
 }
 [data-design="reader"] [data-part="footer"] .font-display { font-size: 18px; letter-spacing: 0.02em; }
-[data-design="reader"] [data-part="footer"] p { font-family: var(--r-serif-text); font-size: 14px; line-height: 1.8; }
+[data-design="reader"] [data-part="footer"] p { font-family: var(--r-text); font-size: 14px; line-height: 1.8; }

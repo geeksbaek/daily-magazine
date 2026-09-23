@@ -38,9 +38,8 @@
   }
 
   html {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
     text-size-adjust: 100%;
+    touch-action: pan-x pan-y; /* no pinch or double-tap zoom */
     overflow-x: clip;
   }
   body {
@@ -52,6 +51,11 @@
     overflow-x: clip;
     word-break: keep-all;
     overflow-wrap: anywhere;
+  }
+  /* grayscale smoothing thins strokes on macOS; only light-on-dark text benefits from it */
+  html.dark {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
   * { box-sizing: border-box; }
   ::selection { background-color: var(--accent); color: var(--accent-ink); }
@@ -184,11 +188,26 @@
     pointer-events: none;
   }
 
+  /* narrow screens: percentage in the nav, beside the menu button */
+  .nav-progress {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding-right: 6px;
+    font-size: 12.5px;
+    font-weight: 500;
+    font-variant-numeric: tabular-nums;
+    color: var(--ink-2);
+    min-width: 3.9em;
+  }
+  .nav-progress svg circle:last-child { transition: stroke-dashoffset 0.12s linear; }
+
   /* wide screens: fixed rail in the left margin beside the 700px reading column */
   .progress-rail { display: none; }
 
   @media (min-width: 1240px) {
-    .progress-line { display: none; }
+    .progress-line,
+    .nav-progress { display: none; }
     .progress-rail {
       display: flex;
       flex-direction: column;

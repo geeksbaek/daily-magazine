@@ -15,6 +15,7 @@ import Archive from './components/Archive'
 import PodcastPlayer from './components/PodcastPlayer'
 import Footer from './components/Footer'
 import ReadingProgress from './components/ReadingProgress'
+import { useReadingProgress } from './hooks/useReadingProgress'
 
 const BASE = import.meta.env.BASE_URL
 type View = 'magazine' | 'archive'
@@ -98,6 +99,7 @@ export default function App() {
   }
 
   const links = useMemo(() => (magazine ? sectionLinks(magazine) : []), [magazine])
+  const progress = useReadingProgress(links)
 
   const goHome = () => { setView('magazine'); window.scrollTo({ top: 0 }) }
   const showArchive = () => { setView('archive'); window.scrollTo({ top: 0 }) }
@@ -139,13 +141,14 @@ export default function App() {
           onShowArchive={showArchive}
           onHome={goHome}
           onJump={scrollToId}
+          progress={view === 'magazine' ? progress.pct : null}
         />
 
         {view === 'archive' && archiveIndex ? (
           <Archive issues={archiveIndex.issues} currentDate={currentDate} onSelectIssue={selectIssue} />
         ) : (
           <main>
-            <ReadingProgress issueNumber={magazine.issueNumber} date={currentDate} sections={links} onJump={scrollToId} />
+            <ReadingProgress issueNumber={magazine.issueNumber} date={currentDate} sections={links} pct={progress.pct} active={progress.active} onJump={scrollToId} />
             <Cover
               magazine={magazine}
               contents={links}

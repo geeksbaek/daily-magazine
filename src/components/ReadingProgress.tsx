@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react'
 import type { SectionLink } from './MagazineNav'
 import { formatIssueDate } from '../utils/format'
 
@@ -6,49 +5,18 @@ interface Props {
   issueNumber: number
   date: string
   sections: SectionLink[]
+  pct: number
+  active: string
   onJump: (id: string) => void
 }
-
-const NAV_OFFSET = 120
 
 /**
  * Scroll progress for the whole issue.
  * Wide screens: a fixed left rail (issue title, section tree with the current section marked,
- * a patterned progress bar with a percentage). Narrow screens: a hairline bar under the nav.
+ * a patterned progress bar with a percentage). Narrow screens: a hairline bar under the nav
+ * (the percentage itself sits in the nav — see MagazineNav).
  */
-export default function ReadingProgress({ issueNumber, date, sections, onJump }: Props) {
-  const [pct, setPct] = useState(0)
-  const [active, setActive] = useState('')
-
-  useEffect(() => {
-    let raf = 0
-    const measure = () => {
-      raf = 0
-      const doc = document.documentElement
-      const max = doc.scrollHeight - window.innerHeight
-      setPct(max > 0 ? Math.min(100, Math.max(0, Math.round((window.scrollY / max) * 100))) : 0)
-      let current = ''
-      for (const s of sections) {
-        const el = document.getElementById(s.id)
-        if (el && el.getBoundingClientRect().top <= NAV_OFFSET) current = s.id
-      }
-      setActive(current)
-    }
-    const schedule = () => { if (!raf) raf = requestAnimationFrame(measure) }
-    measure()
-    window.addEventListener('scroll', schedule, { passive: true })
-    window.addEventListener('resize', schedule)
-    // expanding/collapsing article bodies changes the page height without scrolling
-    const ro = new ResizeObserver(schedule)
-    ro.observe(document.body)
-    return () => {
-      window.removeEventListener('scroll', schedule)
-      window.removeEventListener('resize', schedule)
-      ro.disconnect()
-      if (raf) cancelAnimationFrame(raf)
-    }
-  }, [sections])
-
+export default function ReadingProgress({ issueNumber, date, sections, pct, active, onJump }: Props) {
   return (
     <>
       <div className="progress-line" aria-hidden="true" style={{ transform: `scaleX(${pct / 100})` }} />
