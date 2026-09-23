@@ -1,6 +1,7 @@
 import { useState, useEffect, useMemo } from 'react'
 import type { Magazine, ArchiveIndex } from './types/magazine'
 import { useTheme, ThemeProvider } from './hooks/useTheme'
+import { useDesign } from './hooks/useDesign'
 import MagazineNav, { Wordmark, type SectionLink } from './components/MagazineNav'
 import Cover from './components/Cover'
 import Highlights from './components/Highlights'
@@ -53,6 +54,7 @@ function Shell({ children }: { children: React.ReactNode }) {
 
 export default function App() {
   const { themeId, resolved, setTheme } = useTheme()
+  const { designId, setDesign } = useDesign()
   const [view, setView] = useState<View>('magazine')
   const [magazine, setMagazine] = useState<Magazine | null>(null)
   const [archiveIndex, setArchiveIndex] = useState<ArchiveIndex | null>(null)
@@ -129,6 +131,8 @@ export default function App() {
           issueNumber={magazine.issueNumber}
           sections={links}
           view={view}
+          designId={designId}
+          onSetDesign={setDesign}
           themeId={themeId}
           onSetTheme={setTheme}
           onShowArchive={showArchive}

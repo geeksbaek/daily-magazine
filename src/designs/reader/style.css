@@ -1,0 +1,616 @@
+/* ─────────────────────────────────────────────────────────────
+   읽기 모드 (reader): a calm long-form reading column.
+   Warm sepia paper, one narrow measure, book typography,
+   hairline dividers, a title-page cover and a chaptered body.
+   ───────────────────────────────────────────────────────────── */
+
+:root[data-design="reader"] {
+  --paper: #f5eddc;
+  --paper-2: #eee3cd;
+  --paper-3: #e5d8bd;
+  --ink: #2b2419;
+  --ink-2: #4f4536;
+  --ink-3: #6b5f4d;
+  --rule: #d8c8a6;
+  --rule-2: #c7b695;
+  --accent: #9a4a1f;
+  --accent-ink: #fbf5e9;
+  --accent-soft: rgba(154, 74, 31, 0.09);
+  --mark: #ecc978;
+  --mark-ink: #2b2419;
+  /* Korean faces first so Latin/digits come from each face's own harmonised
+     Latin; Literata is reserved for ornamental numerals only. */
+  --r-serif-display: 'Noto Serif KR', 'Gowun Batang', serif;
+  --r-serif-text: 'Gowun Batang', 'Noto Serif KR', serif;
+  --r-measure: 700px;
+  color-scheme: light;
+}
+
+:root[data-design="reader"].dark {
+  --paper: #1f1c18;
+  --paper-2: #28241f;
+  --paper-3: #322d26;
+  --ink: #e8dfcf;
+  --ink-2: #c2b6a3;
+  --ink-3: #a09482;
+  --rule: #3f392f;
+  --rule-2: #544c41;
+  --accent: #e3a576;
+  --accent-ink: #1f1c18;
+  --accent-soft: rgba(227, 165, 118, 0.12);
+  --mark: #d8b35e;
+  --mark-ink: #231d0e;
+  color-scheme: dark;
+}
+
+/* ── Base type ─────────────────────────────────────────────── */
+:root[data-design="reader"] body {
+  font-family: 'Pretendard Variable', Pretendard, -apple-system, system-ui, sans-serif;
+  text-rendering: optimizeLegibility;
+  font-kerning: normal;
+}
+[data-design="reader"] .font-display {
+  font-family: var(--r-serif-display);
+  font-optical-sizing: auto;
+}
+[data-design="reader"] ::selection { background-color: var(--mark); color: var(--mark-ink); }
+
+/* ── One narrow column for everything ─────────────────────── */
+[data-design="reader"] .wrap {
+  max-width: var(--r-measure);
+  padding-left: 22px;
+  padding-right: 22px;
+}
+@media (min-width: 768px) {
+  [data-design="reader"] .wrap { padding-left: 32px; padding-right: 32px; }
+}
+
+/* ── Nav: minimal chrome, table of contents behind the menu ── */
+[data-design="reader"] [data-part="nav"] > .wrap { height: 52px; }
+[data-design="reader"] [data-part="nav"] .lg\:flex { display: none; }
+[data-design="reader"] [data-part="nav"] button.lg\:hidden { display: flex; }
+[data-design="reader"] [data-part="nav"] div.lg\:hidden { display: block; }
+[data-design="reader"] [data-part="nav"] .font-display { font-size: 17px; letter-spacing: 0.02em; font-weight: 700; }
+[data-design="reader"] [data-part="nav"] .font-display .text-accent,
+[data-design="reader"] [data-part="footer"] .font-display .text-accent { color: var(--ink-3); font-weight: 400; }
+[data-design="reader"] [data-part="nav"] div.lg\:hidden button {
+  font-family: var(--r-serif-text);
+  font-size: 16px;
+  border-color: var(--rule);
+}
+[data-design="reader"] [data-part="nav"] div.lg\:hidden button > span:last-child:not(:first-child)::after {
+  content: '편';
+  margin-left: 1px;
+}
+
+/* ── Cover as a book's title page ──────────────────────────── */
+[data-design="reader"] #cover { padding-top: 96px; }
+[data-design="reader"] #cover > .grid {
+  grid-template-columns: minmax(0, 1fr);
+  row-gap: 0;
+}
+[data-design="reader"] #cover > .grid > div:first-child { display: contents; }
+
+/* date plate */
+[data-design="reader"] [data-part="cover-leaf"] {
+  order: 1;
+  width: 100%;
+  max-width: none;
+  border: 0;
+  background: transparent;
+  text-align: center;
+}
+[data-design="reader"] [data-part="cover-leaf"] .leaf-binding { display: none; }
+[data-design="reader"] [data-part="cover-leaf"] > div { padding: 0; }
+[data-design="reader"] [data-part="cover-leaf"] > div > p:first-child {
+  font-family: var(--r-serif-text);
+  font-size: 13px;
+  letter-spacing: 0.16em;
+  color: var(--ink-3);
+  padding-left: 0.16em; /* optically recentre letter-spaced line */
+}
+[data-design="reader"] [data-part="cover-day"] {
+  font-family: 'Literata', serif;
+  font-weight: 400 !important;
+  font-style: italic;
+  font-size: clamp(96px, 26vw, 136px) !important;
+  letter-spacing: -0.03em !important;
+  line-height: 1 !important;
+  margin-top: 6px;
+  color: var(--ink);
+}
+[data-design="reader"] [data-part="cover-leaf"] > div > div {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 0;
+  width: max-content;
+  margin: 14px auto 0;
+  padding-top: 0;
+  border-top: 0;
+  font-family: var(--r-serif-text);
+  font-size: 14px;
+}
+[data-design="reader"] [data-part="cover-leaf"] > div > div > span:first-child { font-weight: 400; color: var(--ink-2); }
+[data-design="reader"] [data-part="cover-leaf"] > div > div > span:first-child::after {
+  content: '·';
+  margin: 0 10px;
+  color: var(--ink-3);
+}
+[data-design="reader"] [data-part="cover-leaf"] > div > div > span:last-child { color: var(--accent); }
+
+/* lead block */
+[data-design="reader"] #cover > .grid > div:last-child {
+  order: 2;
+  margin-top: 44px;
+  padding-top: 40px;
+  border-top: 1px solid var(--rule);
+}
+[data-design="reader"] #cover > .grid > div:last-child { text-align: center; }
+[data-design="reader"] #cover > .grid > div:last-child::before {
+  content: '이번 호의 이야기';
+  display: block;
+  font-family: var(--r-serif-text);
+  font-size: 13px;
+  letter-spacing: 0.12em;
+  padding-left: 0.12em;
+  color: var(--ink-3);
+  margin-bottom: 16px;
+}
+[data-design="reader"] [data-part="cover-headline"] {
+  font-size: clamp(23px, 5.4vw, 29px) !important;
+  line-height: 1.5 !important;
+  letter-spacing: -0.015em !important;
+  font-weight: 600;
+  text-wrap: balance;
+}
+[data-design="reader"] #cover > .grid > div:last-child > p {
+  font-family: var(--r-serif-text);
+  font-size: 17px;
+  line-height: 1.85;
+  color: var(--ink-2);
+  margin-top: 18px;
+  text-wrap: pretty;
+}
+@media (max-width: 639px) {
+  /* a long centred paragraph is hard to read on a phone: centre the title, set the dek flush */
+  [data-design="reader"] #cover > .grid > div:last-child > p { text-align: left; font-size: 16.5px; }
+}
+/* the three secondaries reappear under 주요 기사 a screen later — skip the repeat */
+[data-design="reader"] #cover [data-part="cover-headline"] ~ ul { display: none; }
+[data-design="reader"] #cover > .grid > div:last-child > button {
+  margin-top: 28px;
+  height: auto;
+  padding: 0 0 3px;
+  background: transparent;
+  color: var(--accent);
+  font-family: var(--r-serif-text);
+  font-size: 16px;
+  font-weight: 600;
+  border-bottom: 1px solid currentColor;
+}
+[data-design="reader"] #cover > .grid > div:last-child > button::after { content: '\00a0↓'; }
+[data-design="reader"] #cover > .grid > div:last-child > button:hover {
+  background: transparent;
+  color: var(--ink);
+}
+
+/* contents: a book's 차례 with dotted leaders, visible on phones too */
+[data-design="reader"] #cover nav[aria-label="목차"] {
+  order: 3;
+  display: block;
+  margin-top: 56px;
+  counter-reset: rtoc;
+}
+[data-design="reader"] #cover nav[aria-label="목차"] > p {
+  font-family: var(--r-serif-text);
+  font-size: 13px;
+  letter-spacing: 0.12em;
+  color: var(--ink-3);
+  text-align: center;
+  margin-bottom: 14px;
+}
+[data-design="reader"] #cover nav[aria-label="목차"] ul { border-top: 0; margin-top: 0; }
+[data-design="reader"] #cover nav[aria-label="목차"] li { border-bottom: 0; counter-increment: rtoc; }
+[data-design="reader"] #cover nav[aria-label="목차"] button {
+  align-items: baseline;
+  gap: 0;
+  padding: 7px 0;
+  font-family: var(--r-serif-text);
+  font-size: 16px;
+  color: var(--ink);
+}
+[data-design="reader"] #cover nav[aria-label="목차"] button::before {
+  content: counter(rtoc);
+  flex: 0 0 28px;
+  font-family: 'Literata', serif;
+  font-style: italic;
+  font-size: 14px;
+  color: var(--ink-3);
+}
+[data-design="reader"] #cover nav[aria-label="목차"] button > span:first-child { flex: 0 1 auto; }
+[data-design="reader"] #cover nav[aria-label="목차"] button::after {
+  content: '';
+  order: 2;
+  flex: 1 1 auto;
+  min-width: 24px;
+  margin: 0 10px;
+  border-bottom: 1.5px dotted var(--rule-2);
+  align-self: center;
+  transform: translateY(3px);
+}
+[data-design="reader"] #cover nav[aria-label="목차"] button > span:last-child {
+  order: 3;
+  font-family: 'Literata', serif;
+  font-size: 14px;
+  color: var(--ink-3);
+}
+[data-design="reader"] #cover nav[aria-label="목차"] button > span:last-child::after {
+  content: '편';
+  font-family: var(--r-serif-text);
+  font-size: 13.5px;
+  margin-left: 2px;
+}
+[data-design="reader"] #cover nav[aria-label="목차"] button:hover > span:first-child { color: var(--accent); }
+
+/* perforation → a typographic section break */
+[data-design="reader"] [data-part="perforation"] {
+  height: auto;
+  margin-top: 64px;
+  background: none;
+  text-align: center;
+  line-height: 1;
+}
+[data-design="reader"] [data-part="perforation"]::before {
+  content: '*   *   *';
+  white-space: pre;
+  font-family: 'Literata', serif;
+  font-size: 18px;
+  color: var(--ink-3);
+}
+
+/* ── Sections as chapters ──────────────────────────────────── */
+[data-design="reader"] main { counter-reset: rsec; }
+[data-design="reader"] [data-part="section"] {
+  counter-increment: rsec;
+  border-top: 0;
+}
+[data-design="reader"] [data-part="section"] > .wrap { padding-top: 56px; padding-bottom: 56px; position: relative; }
+[data-design="reader"] [data-part="section"] > .wrap::before {
+  /* a hairline the width of the text column, not the viewport */
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 22px;
+  right: 22px;
+  border-top: 1px solid var(--rule);
+}
+@media (min-width: 768px) {
+  [data-design="reader"] [data-part="section"] > .wrap::before { left: 32px; right: 32px; }
+}
+[data-design="reader"] #cover + [data-part="section"] > .wrap::before { display: none; }
+[data-design="reader"] #cover + [data-part="section"] > .wrap { padding-top: 48px; }
+
+[data-design="reader"] [data-part="section"] > .wrap > div { display: block; }
+[data-design="reader"] [data-part="section-head"] {
+  position: static;
+  margin-bottom: 36px;
+  text-align: center;
+}
+[data-design="reader"] [data-part="section-head"]::before {
+  content: counter(rsec);
+  display: block;
+  font-family: 'Literata', serif;
+  font-style: italic;
+  font-size: 30px;
+  line-height: 1;
+  color: var(--accent);
+  margin-bottom: 12px;
+}
+[data-design="reader"] [data-part="section-title"] {
+  font-size: 23px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+[data-design="reader"] [data-part="section-head"] > p {
+  display: inline;
+  margin: 0;
+  font-family: 'Literata', serif;
+  font-style: italic;
+  font-size: 14px;
+  color: var(--ink-3);
+}
+[data-design="reader"] [data-part="section-head"] > h2 + p { display: inline-block; margin-top: 6px; }
+[data-design="reader"] [data-part="section-head"] > p + p::before {
+  content: '·';
+  font-style: normal;
+  margin: 0 8px;
+}
+[data-design="reader"] [data-part="section-head"] > p.tabular {
+  font-family: var(--r-serif-text);
+  font-style: normal;
+  font-size: 13.5px;
+}
+
+/* bigger breaks: into the social block, and into the short reads */
+[data-design="reader"] #twitter-pulse,
+[data-design="reader"] #quick-bites { margin-top: 32px; }
+[data-design="reader"] #twitter-pulse > .wrap::before,
+[data-design="reader"] #quick-bites > .wrap::before {
+  border-top: 3px double var(--rule-2);
+}
+
+/* ── Shared: source line / meta ───────────────────────────── */
+[data-design="reader"] [data-part="article"] > div:first-child,
+[data-design="reader"] [data-part="lead"] > p + div {
+  flex-direction: row;
+  align-items: center;
+  padding-top: 0;
+  font-size: 12.5px;
+  color: var(--ink-3);
+}
+/* source lines: separator trails each item so a wrapped line never starts with '·' */
+[data-design="reader"] [data-part="article"] > div:first-child,
+[data-design="reader"] [data-part="lead"] > p + div,
+[data-design="reader"] [data-part="highlight"] > p + div,
+[data-design="reader"] [data-part="bite"] > p + div {
+  flex-wrap: wrap;
+  column-gap: 8px;
+  row-gap: 2px;
+}
+[data-design="reader"] [data-part="article"] > div:first-child > span:not(:last-child)::after,
+[data-design="reader"] [data-part="lead"] > p + div > span:not(:last-child)::after,
+[data-design="reader"] [data-part="highlight"] > p + div > span:not(:last-child)::after,
+[data-design="reader"] [data-part="bite"] > p + div > span:not(:last-child)::after {
+  content: '·';
+  margin-left: 8px;
+  font-weight: 400;
+  color: var(--ink-3);
+}
+[data-design="reader"] span[title="공식 발표·원문 등 1차 출처"] {
+  background: transparent;
+  color: var(--accent);
+  padding: 0;
+  font-weight: 600;
+}
+
+/* collapsed: the title already links out, so only offer "본문 읽기" */
+[data-design="reader"] main button[aria-expanded="false"] + div { display: none; }
+/* no body to expand: a lone "원문 보기" repeats the title link, so drop it (HN 토론 stays) */
+[data-design="reader"] div.mt-3:has(> div.flex:only-child > a:only-child) { display: none; }
+/* …and when HN 토론 is there too, keep only that (expander rows start with a button, so unaffected) */
+[data-design="reader"] div.mt-3 > div.flex:only-child > a:first-child { display: none; }
+[data-design="reader"] div.mt-3:has(> div.flex:only-child > a + a) { margin-top: 6px; }
+[data-design="reader"] main button[aria-expanded] {
+  font-family: var(--r-serif-text);
+  font-size: 14.5px;
+  font-weight: 700;
+  color: var(--accent);
+  padding-block: 8px;
+  margin-block: -8px;
+}
+[data-design="reader"] main button[aria-expanded] svg { width: 9px; height: 9px; }
+[data-design="reader"] .link-ink { text-decoration-color: var(--rule-2); }
+
+/* expanded body: the reason this design exists */
+[data-design="reader"] .prose-body {
+  font-family: var(--r-serif-text);
+  font-size: 18px !important;
+  line-height: 1.9 !important;
+  color: var(--ink);
+  max-width: none;
+  padding-top: 20px;
+  hanging-punctuation: first;
+}
+[data-design="reader"] .prose-body p + p { margin-top: 0.35em; text-indent: 1em; }
+[data-design="reader"] .expand[data-open="true"] > div > div:last-child {
+  padding-top: 18px;
+  padding-bottom: 6px;
+}
+[data-design="reader"] .expand[data-open="true"] > div > .prose-body {
+  border-left: 0;
+  padding-left: 0;
+  margin-top: 10px;
+  padding-top: 0;
+}
+/* a short centred hairline marks where the body begins — not a quotation rule */
+[data-design="reader"] .expand > div > .prose-body::before {
+  content: '';
+  display: block;
+  width: 36px;
+  margin: 14px auto 22px;
+  border-top: 1px solid var(--rule-2);
+}
+
+/* ── Highlights ────────────────────────────────────────────── */
+[data-design="reader"] #highlights div:has(> [data-part="lead"]) { display: block; }
+[data-design="reader"] [data-part="lead-title"] {
+  font-size: clamp(25px, 5.6vw, 31px);
+  line-height: 1.4;
+  font-weight: 700;
+}
+[data-design="reader"] [data-part="lead"] > p {
+  font-family: var(--r-serif-text);
+  font-size: 17.5px;
+  line-height: 1.85;
+  color: var(--ink-2);
+  margin-top: 16px;
+  max-width: none;
+}
+[data-design="reader"] [data-part="lead"] > p + div { margin-top: 14px; }
+[data-design="reader"] #highlights [data-part="lead"] + div {
+  margin-top: 40px;
+  padding-left: 0;
+  border-left: 0;
+  border-top: 1px solid var(--rule);
+}
+[data-design="reader"] [data-part="highlight"] { padding: 24px 0; }
+[data-design="reader"] [data-part="highlight"]:first-child { padding-top: 24px; }
+[data-design="reader"] [data-part="highlight"]:last-child { padding-bottom: 0; }
+[data-design="reader"] [data-part="highlight"] h4 { font-size: 19.5px; line-height: 1.45; font-weight: 600; }
+[data-design="reader"] [data-part="highlight"] > p {
+  font-family: var(--r-serif-text);
+  font-size: 16px;
+  line-height: 1.8;
+  -webkit-line-clamp: unset;
+  display: block;
+}
+
+/* ── News rows ─────────────────────────────────────────────── */
+[data-design="reader"] [data-part="article"] {
+  display: block;
+  padding: 30px 0;
+}
+[data-design="reader"] [data-part="article"]:first-child { padding-top: 0; }
+[data-design="reader"] [data-part="article"] > div:first-child { margin-bottom: 8px; }
+[data-design="reader"] [data-part="article-title"] {
+  font-size: 20.5px;
+  line-height: 1.45;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+[data-design="reader"] [data-part="article"] > div:last-child > p {
+  font-family: var(--r-serif-text);
+  font-size: 16.5px;
+  line-height: 1.8;
+  margin-top: 10px;
+  max-width: none;
+}
+
+/* ── Social: quiet quotations ─────────────────────────────── */
+[data-design="reader"] #twitter-pulse [data-part="section-head"] + div > div,
+[data-design="reader"] #threads-pulse [data-part="section-head"] + div > div { column-count: 1; }
+[data-design="reader"] #threads-pulse [data-part="section-head"] + div > * { max-width: none; }
+[data-design="reader"] [data-part="quote"] { padding: 30px 0; }
+[data-design="reader"] [data-part="quote"] > div:first-of-type > span:first-child {
+  width: 30px;
+  height: 30px;
+  background: transparent;
+  border: 1px solid var(--rule-2);
+  font-family: 'Literata', serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 12px;
+  color: var(--ink-2);
+}
+[data-design="reader"] [data-part="quote"] > div:first-of-type > div > div:first-child { font-size: 14.5px; }
+[data-design="reader"] [data-part="quote"] blockquote {
+  position: relative;
+  margin-top: 16px;
+  padding-left: 20px;
+  border-left: 2px solid var(--accent);
+  font-family: var(--r-serif-text);
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 1.85;
+}
+[data-design="reader"] #threads-pulse [data-part="quote"] blockquote { border-left-color: var(--rule-2); }
+[data-design="reader"] [data-part="quote"] blockquote > div {
+  border-left: 0;
+  padding-left: 0;
+  font-size: 15.5px;
+  line-height: 1.8;
+}
+[data-design="reader"] [data-part="quote"] > p:has(> span) {
+  margin-top: 16px;
+  font-family: var(--r-serif-text);
+  font-size: 15px;
+  line-height: 1.8;
+  color: var(--ink-2);
+}
+[data-design="reader"] [data-part="quote"] > p:has(> span) > span:first-child {
+  font-family: var(--r-serif-text);
+  color: var(--accent);
+}
+[data-design="reader"] [data-part="quote"] > blockquote + div {
+  background: transparent;
+  border-color: var(--rule);
+}
+
+/* ── Reddit ────────────────────────────────────────────────── */
+[data-design="reader"] [data-part="reddit"] {
+  padding: 26px 0;
+  grid-template-columns: 40px minmax(0, 1fr);
+  column-gap: 14px;
+}
+@media (min-width: 640px) {
+  [data-design="reader"] [data-part="reddit"] { grid-template-columns: 52px minmax(0, 1fr); column-gap: 20px; }
+}
+[data-design="reader"] [data-part="reddit"] > div:first-child { text-align: left; }
+[data-design="reader"] [data-part="reddit"] > div:first-child svg { margin-left: 0; color: var(--accent); }
+[data-design="reader"] #reddit-pulse [data-part="section-head"] + div > div { margin-top: -26px; }
+/* no score and no comment count (Reddit JSON blocked): drop the empty vote gutter */
+[data-design="reader"] [data-part="reddit"]:has(> div:first-child > [aria-label="추천 수 없음"]):not(:has(> div:first-child > div + div)) {
+  grid-template-columns: minmax(0, 1fr);
+}
+[data-design="reader"] [data-part="reddit"]:has(> div:first-child > [aria-label="추천 수 없음"]):not(:has(> div:first-child > div + div)) > div:first-child {
+  display: none;
+}
+[data-design="reader"] [data-part="reddit"] > div:first-child .font-display {
+  font-family: 'Literata', serif;
+  font-size: 17px;
+  font-weight: 500;
+}
+[data-design="reader"] [data-part="reddit"] > div:last-child > a:first-child {
+  background: transparent;
+  padding: 0;
+  font-family: 'Literata', serif;
+  font-style: italic;
+  font-size: 13.5px;
+  font-weight: 500;
+}
+[data-design="reader"] [data-part="reddit"] h3 { font-size: 18.5px; line-height: 1.45; }
+[data-design="reader"] [data-part="reddit"] p.max-w-prose {
+  font-family: var(--r-serif-text);
+  font-size: 15.5px;
+  line-height: 1.8;
+}
+
+/* ── Quick bites: a numbered list of short notes ───────────── */
+[data-design="reader"] #quick-bites [data-part="section-head"] + div > div { column-count: 1; counter-reset: rbite; margin-top: -8px; }
+[data-design="reader"] [data-part="bite"] {
+  counter-increment: rbite;
+  position: relative;
+  padding: 14px 0 14px 36px;
+}
+[data-design="reader"] [data-part="bite"]:last-child { padding-bottom: 0; }
+[data-design="reader"] [data-part="bite"]::before {
+  content: counter(rbite);
+  position: absolute;
+  left: 0;
+  top: 15px;
+  width: 24px;
+  font-family: 'Literata', serif;
+  font-style: italic;
+  font-size: 15px;
+  color: var(--accent);
+}
+[data-design="reader"] [data-part="bite"] h3 { font-size: 16.5px; line-height: 1.5; font-weight: 600; }
+[data-design="reader"] [data-part="bite"] > p {
+  font-family: var(--r-serif-text);
+  font-size: 14.5px;
+  line-height: 1.75;
+  margin-top: 4px;
+}
+[data-design="reader"] [data-part="bite"] > p + div { margin-top: 6px; }
+
+/* ── Footer: colophon ──────────────────────────────────────── */
+[data-design="reader"] [data-part="footer"] { border-top: 0; margin-top: -24px; }
+[data-design="reader"] [data-part="footer"] > .wrap {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 32px;
+  padding-bottom: 72px;
+  gap: 18px;
+}
+[data-design="reader"] [data-part="footer"] > .wrap::before {
+  content: '*   *   *';
+  white-space: pre;
+  font-family: 'Literata', serif;
+  font-size: 18px;
+  color: var(--ink-3);
+  margin-bottom: 12px;
+}
+[data-design="reader"] [data-part="footer"] .font-display { font-size: 18px; letter-spacing: 0.02em; }
+[data-design="reader"] [data-part="footer"] p { font-family: var(--r-serif-text); font-size: 14px; line-height: 1.8; }

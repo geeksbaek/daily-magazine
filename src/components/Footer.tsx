@@ -10,7 +10,7 @@ interface Props {
 
 export default function Footer({ date, issueNumber, onTop, onShowArchive }: Props) {
   return (
-    <footer className="border-t border-rule-2">
+    <footer data-part="footer" className="border-t border-rule-2">
       <div className="wrap flex flex-col gap-6 py-10 sm:flex-row sm:items-end sm:justify-between">
         <div>
           <Wordmark className="text-[22px]" />

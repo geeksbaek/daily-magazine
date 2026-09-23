@@ -13,7 +13,7 @@ export default function RedditPulse({ posts }: Props) {
     <SectionShell id="reddit-pulse" title="레딧에서" subtitle="Reddit" count={posts.length} unit="건">
       <div className="-mt-5">
         {posts.map(post => (
-          <article key={post.id} className="grid grid-cols-[52px_minmax(0,1fr)] gap-x-4 border-b border-rule py-5 last:border-b-0 last:pb-0 sm:grid-cols-[64px_minmax(0,1fr)] sm:gap-x-6">
+          <article key={post.id} data-part="reddit" className="grid grid-cols-[52px_minmax(0,1fr)] gap-x-4 border-b border-rule py-5 last:border-b-0 last:pb-0 sm:grid-cols-[64px_minmax(0,1fr)] sm:gap-x-6">
             <div className="pt-1 text-center">
               <div className="font-display text-[20px] font-bold leading-none text-ink tabular" aria-label={post.score > 0 ? `추천 ${post.score}` : '추천 수 없음'}>
                 <svg width="10" height="7" viewBox="0 0 10 7" aria-hidden="true" className={`mx-auto text-ink-3 ${post.score > 0 ? 'mb-1' : 'opacity-60'}`} fill="currentColor">

@@ -23,6 +23,7 @@ export default function Cover({ magazine, contents, onReadIssue, onJump }: Props
         {/* Calendar leaf */}
         <div className="flex gap-6 lg:block">
           <div
+            data-part="cover-leaf"
             className="w-full max-w-[300px] shrink-0 border border-rule bg-paper-2 sm:w-[200px] lg:w-full"
             style={{ containerType: 'inline-size' }}
           >
@@ -30,6 +31,7 @@ export default function Cover({ magazine, contents, onReadIssue, onJump }: Props
             <div className="px-5 pb-5 pt-4 sm:px-6">
               <p className="text-[13px] text-ink-2 tabular">{year}년 {month}월</p>
               <p
+                data-part="cover-day"
                 className="whitespace-nowrap font-display font-extrabold leading-[0.95] text-ink tabular"
                 // sized by the leaf's own width (container query units) so it never spills out of the card
                 style={{ fontSize: 'clamp(80px, 60cqw, 168px)', letterSpacing: '-0.05em' }}
@@ -66,6 +68,7 @@ export default function Cover({ magazine, contents, onReadIssue, onJump }: Props
         {/* Lead */}
         <div className="min-w-0 lg:pt-2">
           <h1
+            data-part="cover-headline"
             className="font-display font-bold leading-[1.22] tracking-[-0.015em] text-ink"
             style={{ fontSize: 'clamp(28px, 4.4vw, 54px)' }}
           >
@@ -95,7 +98,7 @@ export default function Cover({ magazine, contents, onReadIssue, onJump }: Props
         </div>
       </div>
 
-      <div className="perforation mt-12 lg:mt-16" aria-hidden="true" />
+      <div data-part="perforation" className="perforation mt-12 lg:mt-16" aria-hidden="true" />
     </section>
   )
 }

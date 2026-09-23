@@ -14,6 +14,10 @@
           var s = q === 'light' || q === 'dark' || q === 'system' ? q : localStorage.getItem('gd-theme-v3');
           var dark = s === 'dark' || ((s === null || s === 'system') && window.matchMedia('(prefers-color-scheme: dark)').matches);
           if (dark) document.documentElement.classList.add('dark');
+          var dq = new URLSearchParams(location.search).get('design');
+          var ok = ['broadsheet', 'swiss', 'reader', 'console', 'terminal'];
+          var ds = dq && ok.indexOf(dq) >= 0 ? dq : localStorage.getItem('gd-design-v1');
+          document.documentElement.dataset.design = ok.indexOf(ds) >= 0 ? ds : 'broadsheet';
         } catch (e) {}
       })();
     </script>

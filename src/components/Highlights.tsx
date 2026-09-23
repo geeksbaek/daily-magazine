@@ -15,8 +15,8 @@ export default function Highlights({ articles }: Props) {
   return (
     <SectionShell id="highlights" title="오늘의 주요 기사" subtitle="Highlights" count={articles.length}>
       <div className={rest.length > 0 ? 'lg:grid lg:grid-cols-[minmax(0,1fr)_340px] lg:gap-x-14' : ''}>
-        <article className="min-w-0">
-          <h3 className="font-display text-[28px] font-bold leading-[1.3] tracking-[-0.01em] text-ink sm:text-[34px] lg:text-[36px]">
+        <article data-part="lead" className="min-w-0">
+          <h3 data-part="lead-title" className="font-display text-[28px] font-bold leading-[1.3] tracking-[-0.01em] text-ink sm:text-[34px] lg:text-[36px]">
             <a href={lead.url} target="_blank" rel="noopener noreferrer" className="title-link">
               {lead.title}
             </a>
@@ -29,7 +29,7 @@ export default function Highlights({ articles }: Props) {
         {rest.length > 0 && (
           <div className="mt-10 border-t border-rule-2 lg:mt-0 lg:border-t-0 lg:border-l lg:border-rule lg:pl-10">
             {rest.map(a => (
-              <article key={a.id} className="border-b border-rule py-5 first:pt-5 last:border-b-0 last:pb-0 lg:first:pt-0">
+              <article key={a.id} data-part="highlight" className="border-b border-rule py-5 first:pt-5 last:border-b-0 last:pb-0 lg:first:pt-0">
                 <h4 className="font-display text-[19px] font-semibold leading-[1.4] text-ink">
                   <a href={a.url} target="_blank" rel="noopener noreferrer" className="title-link">
                     {a.title}

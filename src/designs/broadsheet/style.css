@@ -1,0 +1,1037 @@
+/* ============================================================
+   BROADSHEET — 조간 대판 신문
+   Blackletter nameplate, double rules, serif everything,
+   dense ruled columns, restrained black and newspaper red.
+   ============================================================ */
+
+:root[data-design="broadsheet"] {
+  --paper: #f2eee3;
+  --paper-2: #e9e4d5;
+  --paper-3: #ddd6c4;
+  --ink: #1a1714;
+  --ink-2: #3f3a33;
+  --ink-3: #5c564b;
+  --rule: #cbc3ae;
+  --rule-2: #1a1714;
+  --accent: #b0141c;
+  --accent-ink: #fbf8f1;
+  --accent-soft: rgba(176, 20, 28, 0.08);
+  --mark: #1a1714;
+  --mark-ink: #f2eee3;
+  --bs-serif: "Noto Serif KR", "Nanum Myeongjo", "AppleMyungjo", serif;
+  --bs-display: "Playfair Display", "Noto Serif KR", "AppleMyungjo", serif;
+  --bs-latin: "Libre Caslon Text", "Noto Serif KR", serif;
+  --bs-blackletter: "Grenze Gotisch", "Playfair Display", serif;
+  --bs-opinion: #e9e4d5;
+}
+
+:root[data-design="broadsheet"].dark {
+  --paper: #15130f;
+  --paper-2: #1d1a15;
+  --paper-3: #29251d;
+  --ink: #ede6d4;
+  --ink-2: #c9c1ad;
+  --ink-3: #a29a86;
+  --rule: #3b362b;
+  --rule-2: #d8d0bb;
+  --accent: #f0625a;
+  --accent-ink: #15130f;
+  --accent-soft: rgba(240, 98, 90, 0.12);
+  --mark: #ede6d4;
+  --mark-ink: #15130f;
+  --bs-opinion: #221e17;
+}
+:root[data-design="broadsheet"].dark :is(#threads-pulse, #reddit-pulse) {
+  border-top: 1px solid var(--rule);
+}
+
+/* ---------- Base type ---------- */
+:root[data-design="broadsheet"] body {
+  font-family: var(--bs-serif);
+  font-feature-settings: "lnum" 1;
+}
+[data-design="broadsheet"] .font-display {
+  font-family: var(--bs-display);
+  font-variant-numeric: lining-nums;
+}
+[data-design="broadsheet"] ::selection { background: var(--accent); color: var(--accent-ink); }
+
+/* Section-head English subtitles, dateline labels: Latin small caps */
+[data-design="broadsheet"] .bs-sc,
+[data-design="broadsheet"] [data-part="section-head"] > h2 + p {
+  font-family: "Playfair Display SC", var(--bs-latin);
+  font-variant: normal;
+  text-transform: lowercase;
+  letter-spacing: 0.12em;
+}
+
+/* ---------- Nav ---------- */
+[data-design="broadsheet"] [data-part="nav"] button[aria-label="첫 화면으로"] > span:first-child {
+  font-family: var(--bs-display);
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  font-size: 19px;
+}
+[data-design="broadsheet"] [data-part="nav"] button[aria-label="첫 화면으로"] > span:first-child > span {
+  color: var(--accent);
+}
+[data-design="broadsheet"] [data-part="nav"] button[aria-label="첫 화면으로"] > span:nth-child(2) {
+  font-family: var(--bs-serif);
+  color: var(--ink-2);
+  letter-spacing: 0.04em;
+}
+[data-design="broadsheet"] [data-part="nav"] .lg\:flex > button {
+  font-size: 13.5px;
+  padding: 6px 9px;
+  position: relative;
+}
+[data-design="broadsheet"] [data-part="nav"] .lg\:flex > button + button::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 1px;
+  height: 11px;
+  margin-top: -5px;
+  background: var(--rule);
+}
+[data-design="broadsheet"] [data-part="nav"] .lg\:flex > button[style*="var(--accent)"],
+[data-design="broadsheet"] [data-part="nav"] button[aria-current="true"],
+[data-design="broadsheet"] [data-part="nav"] button[aria-current="location"] {
+  box-shadow: inset 0 -2px 0 var(--accent);
+}
+
+/* ---------- Cover: nameplate + front page ---------- */
+[data-design="broadsheet"] #cover {
+  padding-top: 72px;
+}
+/* The nameplate */
+[data-design="broadsheet"] #cover::before {
+  content: "Geek\2009 /\2009 Daily";
+  display: block;
+  text-align: center;
+  font-family: var(--bs-blackletter);
+  font-weight: 700;
+  font-size: clamp(54px, 14vw, 128px);
+  line-height: 1;
+  color: var(--ink);
+  padding: 6px 0 14px;
+  border-bottom: 1px solid var(--ink);
+  box-shadow: 0 3px 0 -1px var(--paper), 0 4px 0 -1px var(--ink);
+  margin-bottom: 26px;
+  white-space: nowrap;
+}
+[data-design="broadsheet"] #cover::after {
+  content: "";
+  display: none;
+}
+
+/* grid: lead story wide on the left, an "ear" + index column on the right */
+[data-design="broadsheet"] #cover > div:first-child {
+  row-gap: 28px;
+}
+@media (min-width: 1024px) {
+  [data-design="broadsheet"] #cover > div:first-child {
+    grid-template-columns: minmax(0, 1fr) 250px;
+    column-gap: 0;
+  }
+  [data-design="broadsheet"] #cover > div:first-child > :has([data-part="cover-leaf"]) {
+    order: 2;
+    border-left: 1px solid var(--rule-2);
+    padding-left: 28px;
+    margin-left: 32px;
+  }
+  [data-design="broadsheet"] #cover > div:first-child > :has([data-part="cover-headline"]) {
+    order: 1;
+    padding-top: 0;
+  }
+}
+/* Below desktop: the banner headline leads; dateline strip above it, index after the teasers */
+@media (max-width: 1023.98px) {
+  [data-design="broadsheet"] #cover > div:first-child > :has([data-part="cover-leaf"]) {
+    display: contents;
+  }
+  [data-design="broadsheet"] [data-part="cover-leaf"] { order: 0; }
+  [data-design="broadsheet"] #cover > div:first-child > :has([data-part="cover-headline"]) { order: 1; }
+  [data-design="broadsheet"] #cover nav[aria-label="목차"] { order: 2; }
+}
+
+/* Ear + index wrapper (desktop column) */
+@media (min-width: 1024px) {
+  [data-design="broadsheet"] #cover > div:first-child > :has([data-part="cover-leaf"]) {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 22px;
+  }
+}
+
+/* The ear: a boxed dateline with double border */
+[data-design="broadsheet"] [data-part="cover-leaf"] {
+  width: 100%;
+  max-width: none;
+  background: transparent;
+  border: 3px double var(--rule-2);
+  text-align: center;
+}
+[data-design="broadsheet"] [data-part="cover-leaf"] .leaf-binding {
+  display: none;
+}
+[data-design="broadsheet"] [data-part="cover-leaf"] > div:last-child {
+  padding: 14px 16px 14px;
+}
+[data-design="broadsheet"] [data-part="cover-leaf"] > div:last-child > p:first-child {
+  font-size: 12.5px;
+  letter-spacing: 0.18em;
+  color: var(--ink-2);
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 8px;
+}
+[data-design="broadsheet"] [data-part="cover-day"] {
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-size: 108px !important;
+  letter-spacing: -0.02em !important;
+  line-height: 1 !important;
+  padding: 8px 0 2px;
+}
+[data-design="broadsheet"] [data-part="cover-leaf"] > div:last-child > div {
+  border-top: 1px solid var(--rule-2);
+  justify-content: center;
+  gap: 12px;
+  margin-top: 6px;
+  padding-top: 9px;
+  font-size: 13.5px;
+}
+[data-design="broadsheet"] [data-part="cover-leaf"] > div:last-child > div > span:last-child {
+  color: var(--accent);
+  font-weight: 600;
+}
+[data-design="broadsheet"] [data-part="cover-leaf"] > div:last-child > div > span:first-child::after {
+  content: "·";
+  margin-left: 12px;
+  color: var(--ink-3);
+}
+
+/* Below desktop ear: horizontal dateline strip */
+@media (max-width: 1023.98px) {
+  [data-design="broadsheet"] [data-part="cover-leaf"] > div:last-child {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    grid-template-rows: auto auto;
+    column-gap: 18px;
+    align-items: center;
+    text-align: left;
+    padding: 10px 16px;
+  }
+  [data-design="broadsheet"] [data-part="cover-day"] {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    font-size: 76px !important;
+    padding: 0 16px 0 0;
+    border-right: 1px solid var(--rule);
+  }
+  [data-design="broadsheet"] [data-part="cover-leaf"] > div:last-child > p:first-child {
+    grid-column: 2;
+    grid-row: 1;
+    align-self: end;
+    padding-bottom: 6px;
+  }
+  [data-design="broadsheet"] [data-part="cover-leaf"] > div:last-child > div {
+    grid-column: 2;
+    grid-row: 2;
+    border-top: 0;
+    align-self: start;
+    justify-content: flex-start;
+    margin-top: 0;
+    padding-top: 6px;
+  }
+}
+
+/* Index ("이번 호에 실린 것") — shown on every width */
+[data-design="broadsheet"] #cover nav[aria-label="목차"] {
+  display: block;
+  margin-top: 0;
+}
+[data-design="broadsheet"] #cover nav[aria-label="목차"] > p {
+  font-size: 12.5px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  color: var(--ink);
+  text-align: center;
+  padding-bottom: 6px;
+  border-bottom: 3px double var(--rule-2);
+}
+[data-design="broadsheet"] #cover nav[aria-label="목차"] > ul {
+  margin-top: 0;
+  border-top: 0;
+  counter-reset: bs-idx 1;
+}
+[data-design="broadsheet"] #cover nav[aria-label="목차"] li {
+  counter-increment: bs-idx;
+  border-bottom: 1px dotted var(--rule);
+}
+[data-design="broadsheet"] #cover nav[aria-label="목차"] li button {
+  font-size: 14px;
+  padding: 7px 0;
+  justify-content: flex-start;
+}
+[data-design="broadsheet"] #cover nav[aria-label="목차"] li button::before {
+  content: counter(bs-idx) "면";
+  flex: 0 0 34px;
+  font-size: 12px;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+}
+[data-design="broadsheet"] #cover nav[aria-label="목차"] li button > span:last-child {
+  margin-left: auto;
+  color: var(--ink-2);
+}
+@media (max-width: 639.98px) {
+  [data-design="broadsheet"] #cover nav[aria-label="목차"] > ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 22px;
+  }
+}
+
+/* Lead story */
+[data-design="broadsheet"] [data-part="cover-headline"] {
+  font-family: var(--bs-display);
+  font-weight: 800;
+  font-size: clamp(30px, 4.6vw, 56px) !important;
+  line-height: 1.2 !important;
+  letter-spacing: -0.012em !important;
+  text-align: left;
+  text-wrap: balance;
+  word-break: keep-all;
+}
+[data-design="broadsheet"] #cover [data-part="cover-headline"] + p {
+  max-width: 40em;
+  margin-top: 20px;
+  font-size: 16.5px;
+  line-height: 1.8;
+  color: var(--ink);
+  padding-top: 16px;
+  border-top: 1px solid var(--rule);
+}
+[data-design="broadsheet"] #cover [data-part="cover-headline"] + p::first-letter {
+  float: left;
+  font-family: var(--bs-display);
+  font-weight: 800;
+  font-size: 3.35em;
+  line-height: 0.95;
+  padding: 4px 8px 0 0;
+  color: var(--accent);
+}
+
+/* Cover teasers: three ruled columns */
+[data-design="broadsheet"] #cover > div:first-child > div:last-child > ul {
+  margin-top: 26px;
+  border-top: 3px double var(--rule-2);
+  counter-reset: bs-teaser;
+}
+[data-design="broadsheet"] #cover > div:first-child > div:last-child > ul > li {
+  counter-increment: bs-teaser;
+  font-family: var(--bs-display);
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.45;
+  padding: 12px 0;
+}
+[data-design="broadsheet"] #cover > div:first-child > div:last-child > ul > li::before {
+  content: "관련 " counter(bs-teaser);
+  display: block;
+  font-family: var(--bs-serif);
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  color: var(--accent);
+  margin-bottom: 4px;
+}
+@media (min-width: 768px) {
+  [data-design="broadsheet"] #cover > div:first-child > div:last-child > ul {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    border-bottom: 1px solid var(--rule-2);
+  }
+  [data-design="broadsheet"] #cover > div:first-child > div:last-child > ul > li {
+    border-bottom: 0;
+    padding: 14px 20px 16px;
+  }
+  [data-design="broadsheet"] #cover > div:first-child > div:last-child > ul > li:first-child {
+    padding-left: 0;
+  }
+  [data-design="broadsheet"] #cover > div:first-child > div:last-child > ul > li:last-child {
+    padding-right: 0;
+  }
+  [data-design="broadsheet"] #cover > div:first-child > div:last-child > ul > li + li {
+    border-left: 1px solid var(--rule);
+  }
+}
+
+/* CTA: an outlined press button (no bright block in dark mode) */
+[data-design="broadsheet"] #cover button.bg-ink {
+  background: transparent;
+  color: var(--ink);
+  border: 0;
+  border-top: 3px double var(--rule-2);
+  border-bottom: 1px solid var(--rule-2);
+  box-shadow: none;
+  height: 42px;
+  padding: 0 4px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  margin-top: 26px;
+}
+[data-design="broadsheet"] #cover button.bg-ink::after {
+  content: "\2009\2192";
+  color: var(--accent);
+  letter-spacing: 0;
+}
+[data-design="broadsheet"] #cover button.bg-ink:hover {
+  background: transparent;
+  color: var(--accent);
+}
+
+/* Perforation → heavy + hairline press rule */
+[data-design="broadsheet"] #cover > [data-part="perforation"] {
+  height: 7px;
+  background: none;
+  border-top: 4px solid var(--rule-2);
+  border-bottom: 1px solid var(--rule-2);
+  margin-top: 40px;
+}
+[data-design="broadsheet"] #highlights [data-part="section-head"] {
+  border-top-width: 0;
+  padding-top: 0;
+}
+
+/* ---------- Sections: running flag + page numbers ---------- */
+[data-design="broadsheet"] main {
+  counter-reset: bs-page 1;
+}
+[data-design="broadsheet"] [data-part="section"] {
+  counter-increment: bs-page;
+  border-top: 0;
+}
+[data-design="broadsheet"] [data-part="section"] > .wrap {
+  padding-top: 28px;
+  padding-bottom: 36px;
+}
+@media (min-width: 1024px) {
+  [data-design="broadsheet"] [data-part="section"] > .wrap {
+    padding-top: 36px;
+    padding-bottom: 44px;
+  }
+}
+[data-design="broadsheet"] [data-part="section"] > .wrap > div {
+  display: block;
+}
+[data-design="broadsheet"] [data-part="section-head"] {
+  position: static;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  column-gap: 14px;
+  row-gap: 2px;
+  border-top: 4px solid var(--rule-2);
+  border-bottom: 1px solid var(--rule-2);
+  padding: 9px 0 8px;
+  margin-bottom: 22px;
+}
+[data-design="broadsheet"] [data-part="section-title"] {
+  font-family: var(--bs-serif);
+  font-size: 23px;
+  font-weight: 900;
+  letter-spacing: -0.01em;
+  line-height: 1.25;
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+[data-design="broadsheet"] [data-part="section-title"]::before {
+  content: counter(bs-page) "면";
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--accent-ink);
+  background: var(--accent);
+  padding: 2px 7px 3px;
+  line-height: 1.3;
+  position: relative;
+  top: -3px;
+  font-variant-numeric: tabular-nums;
+}
+[data-design="broadsheet"] [data-part="section-head"] > h2 + p {
+  margin-top: 0;
+  font-size: 13px;
+  color: var(--ink-2);
+}
+[data-design="broadsheet"] [data-part="section-head"] > p:last-of-type:not(:first-of-type) {
+  margin-top: 0;
+  margin-left: auto;
+  font-size: 12.5px;
+  color: var(--ink-2);
+  letter-spacing: 0.06em;
+}
+
+@media (max-width: 639.98px) {
+  [data-design="broadsheet"] [data-part="section-head"] { flex-wrap: nowrap; }
+  [data-design="broadsheet"] [data-part="section-title"] { flex-shrink: 0; }
+  [data-design="broadsheet"] [data-part="section-head"] > h2 + p {
+    min-width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  [data-design="broadsheet"] [data-part="section-head"] > p:last-of-type:not(:first-of-type) { flex-shrink: 0; }
+}
+
+/* SourceLine / meta: small, inline */
+[data-design="broadsheet"] [data-part="article"] > div:first-child,
+[data-design="broadsheet"] [data-part="highlight"] > div.flex,
+[data-design="broadsheet"] [data-part="bite"] > div.flex {
+  font-size: 12px;
+  color: var(--ink-3);
+}
+[data-design="broadsheet"] [title="공식 발표·원문 등 1차 출처"] {
+  background: transparent;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: 0;
+  font-size: 10.5px;
+  letter-spacing: 0.04em;
+  padding: 0 4px;
+  line-height: 15px;
+}
+
+/* Hide the lone "원문 보기" when the headline itself is the link */
+[data-design="broadsheet"] :is([data-part="article"], [data-part="highlight"], [data-part="bite"], [data-part="lead"]) div.mt-3:has(> div.flex > a:only-child) {
+  display: none;
+}
+[data-design="broadsheet"] :is([data-part="article"], [data-part="highlight"], [data-part="bite"], [data-part="lead"]) div.mt-3 {
+  margin-top: 8px;
+}
+[data-design="broadsheet"] :is([data-part="article"], [data-part="highlight"], [data-part="bite"], [data-part="lead"]) div.mt-3 > div.flex {
+  font-size: 12.5px;
+}
+
+/* ---------- Highlights: lead split + four ruled columns ---------- */
+[data-design="broadsheet"] #highlights [data-part="section-head"] + div > div {
+  display: block;
+}
+[data-design="broadsheet"] [data-part="lead"] {
+  padding-bottom: 22px;
+}
+[data-design="broadsheet"] [data-part="lead"]::before {
+  content: "1면에서 이어짐";
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: var(--accent);
+  margin-bottom: 8px;
+}
+[data-design="broadsheet"] [data-part="lead-title"] {
+  font-family: var(--bs-display);
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 1.28;
+  text-wrap: balance;
+  word-break: keep-all;
+}
+[data-design="broadsheet"] [data-part="lead"] > p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--ink);
+  max-width: none;
+  margin-top: 14px;
+}
+@media (min-width: 1024px) {
+  [data-design="broadsheet"] [data-part="lead"] {
+    display: grid;
+    grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
+    grid-template-rows: auto auto auto 1fr;
+    column-gap: 36px;
+  }
+  [data-design="broadsheet"] [data-part="lead"]::before {
+    grid-column: 1 / -1;
+    grid-row: 1;
+  }
+  [data-design="broadsheet"] [data-part="lead-title"] {
+    grid-column: 1;
+    grid-row: 2 / span 3;
+    font-size: 30px;
+    line-height: 1.28;
+  }
+  [data-design="broadsheet"] [data-part="lead"] > :not(h3) {
+    grid-column: 2;
+    border-left: 1px solid var(--rule);
+    padding-left: 28px;
+    margin-left: -8px;
+  }
+  [data-design="broadsheet"] [data-part="lead"] > p {
+    margin-top: 0;
+    padding-top: 4px;
+  }
+  [data-design="broadsheet"] [data-part="lead"] > div {
+    margin-top: 0;
+    padding-top: 12px;
+  }
+}
+/* the other highlights */
+[data-design="broadsheet"] [data-part="lead"] + div {
+  margin-top: 0;
+  border-top: 3px double var(--rule-2);
+  border-left: 0;
+  padding-left: 0;
+}
+[data-design="broadsheet"] [data-part="highlight"] {
+  padding: 16px 0;
+  border-bottom: 1px solid var(--rule);
+}
+[data-design="broadsheet"] [data-part="highlight"] h4 {
+  font-family: var(--bs-display);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.42;
+}
+[data-design="broadsheet"] [data-part="highlight"] > p {
+  font-size: 14.5px;
+  line-height: 1.7;
+  color: var(--ink-2);
+}
+@media (min-width: 768px) {
+  [data-design="broadsheet"] [data-part="lead"] + div {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  [data-design="broadsheet"] [data-part="highlight"] {
+    padding: 18px 22px 4px;
+    border-bottom: 0;
+  }
+  [data-design="broadsheet"] [data-part="highlight"]:nth-child(2n+1) { padding-left: 0; }
+  [data-design="broadsheet"] [data-part="highlight"]:nth-child(2n) { border-left: 1px solid var(--rule); padding-right: 0; }
+  [data-design="broadsheet"] [data-part="highlight"]:nth-child(n+3) { border-top: 1px solid var(--rule); }
+}
+@media (min-width: 1024px) {
+  [data-design="broadsheet"] [data-part="lead"] + div {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  [data-design="broadsheet"] [data-part="highlight"],
+  [data-design="broadsheet"] [data-part="highlight"]:nth-child(n) {
+    padding: 18px 20px 0;
+    border-top: 0;
+    border-left: 1px solid var(--rule);
+  }
+  [data-design="broadsheet"] [data-part="highlight"]:first-child {
+    padding-left: 0;
+    border-left: 0;
+  }
+  [data-design="broadsheet"] [data-part="highlight"]:last-child {
+    padding-right: 0;
+  }
+}
+
+/* ---------- News sections: dense ruled columns ---------- */
+[data-design="broadsheet"] :is(#ai-ml, #dev-tools, #big-tech) [data-part="section-head"] + div > div {
+  margin-bottom: 0;
+}
+/* Row-aligned grid with column rules drawn as background hairlines */
+@media (min-width: 768px) {
+  [data-design="broadsheet"] :is(#ai-ml, #dev-tools, #big-tech) [data-part="section-head"] + div > div {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 40px;
+    row-gap: 0;
+    background-image: linear-gradient(var(--rule), var(--rule));
+    background-size: 1px 100%;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+  }
+}
+@media (min-width: 1024px) {
+  [data-design="broadsheet"] :is(#ai-ml, #dev-tools, #big-tech) [data-part="section-head"] + div > div {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    background-image: linear-gradient(var(--rule), var(--rule)), linear-gradient(var(--rule), var(--rule));
+    background-size: 1px 100%, 1px 100%;
+    background-position: calc((100% - 80px) / 3 + 20px) 0, calc((100% - 80px) * 2 / 3 + 60px) 0;
+  }
+}
+[data-design="broadsheet"] [data-part="article"] {
+  display: block;
+  break-inside: avoid;
+  padding: 0 0 16px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid var(--rule);
+}
+[data-design="broadsheet"] [data-part="article"]:last-child {
+  border-bottom: 0;
+  margin-bottom: 0;
+}
+/* in the grid, rules sit above every story after the first row so they align across columns */
+@media (min-width: 768px) {
+  [data-design="broadsheet"] :is(#ai-ml, #dev-tools, #big-tech) [data-part="article"] {
+    border-bottom: 0;
+    margin: 0;
+    padding: 0 0 20px;
+  }
+  [data-design="broadsheet"] :is(#ai-ml, #dev-tools, #big-tech) [data-part="article"]:nth-child(n+3) {
+    border-top: 1px solid var(--rule);
+    padding-top: 16px;
+  }
+}
+@media (min-width: 1024px) {
+  [data-design="broadsheet"] :is(#ai-ml, #dev-tools, #big-tech) [data-part="article"]:nth-child(3) {
+    border-top: 0;
+    padding-top: 0;
+  }
+  [data-design="broadsheet"] :is(#ai-ml, #dev-tools, #big-tech) [data-part="article"]:nth-child(n+4) {
+    border-top: 1px solid var(--rule);
+    padding-top: 16px;
+  }
+  /* lead story holds column one for two rows when there are enough stories */
+  [data-design="broadsheet"] :is(#ai-ml, #dev-tools, #big-tech) [data-part="article"]:first-child:nth-last-child(n+4) {
+    grid-row: span 2;
+  }
+}
+[data-design="broadsheet"] [data-part="article"] > div:first-child {
+  flex-direction: row;
+  align-items: center;
+  gap: 4px 8px;
+  padding-top: 0;
+  margin-bottom: 6px;
+}
+[data-design="broadsheet"] [data-part="article"] > div:first-child > span:first-child {
+  color: var(--ink);
+  font-weight: 700;
+}
+[data-design="broadsheet"] [data-part="article-title"] {
+  font-family: var(--bs-display);
+  font-size: 18.5px;
+  font-weight: 700;
+  line-height: 1.42;
+  letter-spacing: -0.005em;
+}
+[data-design="broadsheet"] [data-part="article"]:first-child [data-part="article-title"] {
+  font-size: 23px;
+  font-weight: 800;
+  line-height: 1.32;
+}
+[data-design="broadsheet"] [data-part="article"] [data-part="article-title"] + p {
+  margin-top: 7px;
+  font-size: 14.5px;
+  line-height: 1.72;
+  color: var(--ink-2);
+  max-width: none;
+}
+
+/* ---------- Opinion pages: X, Threads, Reddit on a tinted sheet ---------- */
+[data-design="broadsheet"] :is(#twitter-pulse, #threads-pulse, #reddit-pulse) {
+  background: var(--bs-opinion);
+}
+[data-design="broadsheet"] #twitter-pulse {
+  border-top: 4px solid var(--rule-2);
+  position: relative;
+}
+[data-design="broadsheet"] #twitter-pulse::before {
+  content: "여론 · 광장";
+  display: block;
+  text-align: center;
+  font-size: 12.5px;
+  font-weight: 700;
+  letter-spacing: 0.5em;
+  padding-left: 0.5em;
+  color: var(--ink);
+  padding-top: 18px;
+}
+[data-design="broadsheet"] #twitter-pulse > .wrap {
+  padding-top: 18px;
+}
+[data-design="broadsheet"] :is(#twitter-pulse, #threads-pulse) .cols-2 {
+  column-gap: 40px;
+  column-rule: 1px solid var(--rule);
+  max-width: none;
+  margin-top: 0;
+}
+@media (min-width: 1024px) {
+  [data-design="broadsheet"] :is(#twitter-pulse, #threads-pulse) .cols-2 {
+    column-count: 3;
+  }
+}
+[data-design="broadsheet"] [data-part="quote"] {
+  break-inside: avoid;
+  padding: 4px 0 18px;
+  margin-bottom: 18px;
+  border-bottom: 1px solid var(--rule);
+}
+[data-design="broadsheet"] [data-part="quote"]:last-child {
+  border-bottom: 0;
+  margin-bottom: 0;
+}
+/* avatar → square ink stamp */
+[data-design="broadsheet"] [data-part="quote"] > div:first-of-type > span[aria-hidden="true"] {
+  border-radius: 0;
+  background: var(--ink);
+  color: var(--paper);
+  font-family: var(--bs-latin);
+  font-size: 12px;
+  width: 32px;
+  height: 32px;
+}
+[data-design="broadsheet"] [data-part="quote"] > div:first-of-type > div > div:first-child {
+  font-weight: 700;
+  font-size: 14.5px;
+}
+[data-design="broadsheet"] [data-part="quote"] blockquote {
+  position: relative;
+  margin-top: 12px;
+  font-family: var(--bs-serif);
+  font-size: 15.5px;
+  font-weight: 500;
+  line-height: 1.75;
+  padding-left: 30px;
+}
+[data-design="broadsheet"] [data-part="quote"] blockquote::before {
+  content: "\201C";
+  position: absolute;
+  left: -1px;
+  top: -4px;
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 1;
+  color: var(--accent);
+}
+[data-design="broadsheet"] [data-part="quote"] blockquote > div {
+  font-size: 14.5px;
+  border-left-color: var(--rule);
+}
+[data-design="broadsheet"] [data-part="quote"] > p:not(:first-child) {
+  font-size: 13.5px;
+  line-height: 1.72;
+  color: var(--ink-2);
+  border-top: 1px dotted var(--rule);
+  padding-top: 10px;
+  margin-top: 14px;
+}
+[data-design="broadsheet"] [data-part="quote"] > p:not(:first-child) > span:first-child {
+  color: var(--accent);
+  font-weight: 700;
+}
+[data-design="broadsheet"] [data-part="quote"] > div.border {
+  background: var(--paper);
+  border-color: var(--rule);
+}
+[data-design="broadsheet"] [data-part="quote"] figcaption {
+  font-size: 12px;
+  color: var(--ink-3);
+  margin-top: 10px;
+}
+
+/* Reddit: two ruled columns, red vote numerals */
+[data-design="broadsheet"] #reddit-pulse [data-part="section-head"] + div > div {
+  margin-top: 0;
+}
+@media (min-width: 1024px) {
+  [data-design="broadsheet"] #reddit-pulse [data-part="section-head"] + div > div {
+    column-count: 2;
+    column-gap: 40px;
+    column-rule: 1px solid var(--rule);
+  }
+}
+[data-design="broadsheet"] [data-part="reddit"] {
+  break-inside: avoid;
+  padding: 0 0 16px;
+  margin-bottom: 16px;
+  grid-template-columns: 50px minmax(0, 1fr);
+  column-gap: 16px;
+}
+[data-design="broadsheet"] [data-part="reddit"]:last-child {
+  margin-bottom: 0;
+}
+[data-design="broadsheet"] [data-part="reddit"]:has([aria-label="추천 수 없음"]) {
+  grid-template-columns: 12px minmax(0, 1fr);
+}
+[data-design="broadsheet"] [data-part="reddit"]:has([aria-label="추천 수 없음"]) > div:first-child {
+  border-right: 0;
+  padding-right: 0;
+  padding-top: 7px;
+}
+[data-design="broadsheet"] [data-part="reddit"]:has([aria-label="추천 수 없음"]) > div:first-child svg {
+  opacity: 1;
+}
+[data-design="broadsheet"] [data-part="reddit"] > div:first-child {
+  border-right: 1px solid var(--rule);
+  padding-right: 12px;
+  padding-top: 2px;
+}
+[data-design="broadsheet"] [data-part="reddit"] > div:first-child > div:first-child {
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-size: 19px;
+  color: var(--accent);
+}
+[data-design="broadsheet"] [data-part="reddit"] > div:first-child svg {
+  color: var(--accent);
+}
+[data-design="broadsheet"] [data-part="reddit"] > div:first-child > div:last-child:not(:first-child) {
+  color: var(--ink-2);
+  font-size: 11.5px;
+}
+[data-design="broadsheet"] [data-part="reddit"] > div:last-child > a:first-child {
+  background: transparent;
+  border-radius: 0;
+  padding: 0;
+  color: var(--ink);
+  font-family: var(--bs-latin);
+  font-weight: 700;
+  font-size: 12.5px;
+  letter-spacing: 0.02em;
+  border-bottom: 1px solid var(--accent);
+}
+[data-design="broadsheet"] [data-part="reddit"] h3 {
+  font-family: var(--bs-display);
+  font-size: 17.5px;
+  font-weight: 700;
+  margin-top: 6px;
+}
+[data-design="broadsheet"] [data-part="reddit"] h3 + p {
+  font-family: var(--bs-latin);
+  font-style: italic;
+  font-synthesis: none;
+  color: var(--ink-3);
+  font-size: 12.5px;
+}
+[data-design="broadsheet"] [data-part="reddit"] p.max-w-prose {
+  font-size: 14px;
+  line-height: 1.7;
+  margin-top: 6px;
+}
+[data-design="broadsheet"] [data-part="reddit"] > div:last-child > div:last-child {
+  font-size: 12px;
+  margin-top: 6px;
+}
+
+/* ---------- Quick bites: numbered briefs ---------- */
+[data-design="broadsheet"] #quick-bites {
+  border-top: 4px solid var(--rule-2);
+}
+[data-design="broadsheet"] #quick-bites .cols-2 {
+  margin-top: 0;
+  column-gap: 32px;
+  column-rule: 1px solid var(--rule);
+  counter-reset: bs-bite;
+}
+@media (min-width: 1024px) {
+  [data-design="broadsheet"] #quick-bites .cols-2 {
+    column-count: 4;
+  }
+}
+[data-design="broadsheet"] [data-part="bite"] {
+  counter-increment: bs-bite;
+  break-inside: avoid;
+  padding: 0 0 14px;
+  margin-bottom: 14px;
+}
+[data-design="broadsheet"] [data-part="bite"]:last-child {
+  margin-bottom: 0;
+}
+@media (min-width: 1024px) {
+  [data-design="broadsheet"] [data-part="bite"] { border-bottom: 0; padding-bottom: 0; }
+}
+[data-design="broadsheet"] [data-part="bite"]::before {
+  content: counter(bs-bite, decimal-leading-zero);
+  display: block;
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 1;
+  color: var(--accent);
+  padding-bottom: 6px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid var(--rule-2);
+  width: 30px;
+}
+[data-design="broadsheet"] [data-part="bite"] h3 {
+  font-family: var(--bs-display);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.45;
+}
+[data-design="broadsheet"] [data-part="bite"] h3 + p {
+  font-size: 13.5px;
+  line-height: 1.65;
+  margin-top: 5px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+[data-design="broadsheet"] [data-part="bite"] > div.flex {
+  margin-top: 6px;
+}
+
+/* ---------- Footer: colophon ---------- */
+[data-design="broadsheet"] [data-part="footer"] {
+  border-top: 4px solid var(--rule-2);
+  box-shadow: inset 0 3px 0 var(--paper), inset 0 4px 0 var(--rule-2);
+}
+[data-design="broadsheet"] [data-part="footer"] > .wrap {
+  padding-top: 32px;
+}
+[data-design="broadsheet"] [data-part="footer"] .font-display {
+  font-family: var(--bs-display);
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  font-size: 30px;
+}
+[data-design="broadsheet"] [data-part="footer"] .font-display > span {
+  color: var(--accent);
+}
+
+/* ---------- Headline wrapping: no orphans ---------- */
+[data-design="broadsheet"] :is([data-part="article-title"], [data-part="highlight"] h4, [data-part="reddit"] h3, [data-part="bite"] h3) {
+  text-wrap: pretty;
+  word-break: keep-all;
+}
+[data-design="broadsheet"] #cover [data-part="cover-headline"] ~ ul > li {
+  text-wrap: pretty;
+  word-break: keep-all;
+}
+
+/* ---------- Links & controls ---------- */
+[data-design="broadsheet"] .title-link:hover {
+  color: var(--accent);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+[data-design="broadsheet"] .link-ink {
+  text-decoration-color: var(--rule);
+}
+[data-design="broadsheet"] [data-part="design-switcher"] ul {
+  border-color: var(--rule-2);
+  border-radius: 0;
+  box-shadow: 4px 4px 0 var(--rule-2);
+}
+
+/* Briefs below desktop: numeral hangs beside the headline */
+@media (max-width: 1023.98px) {
+  [data-design="broadsheet"] [data-part="bite"] {
+    display: grid;
+    grid-template-columns: 40px minmax(0, 1fr);
+    align-items: start;
+  }
+  [data-design="broadsheet"] [data-part="bite"]::before {
+    grid-column: 1;
+    grid-row: 1 / span 4;
+    font-size: 20px;
+    border-bottom: 0;
+    padding: 2px 0 0;
+    margin: 0;
+    width: auto;
+  }
+  [data-design="broadsheet"] [data-part="bite"] > * {
+    grid-column: 2;
+  }
+}

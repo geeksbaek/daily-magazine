@@ -1,0 +1,14 @@
+{
+  "id": "reader",
+  "name": "읽기 모드",
+  "description": "세피아 종이 위 좁은 한 단, 본문을 오래 읽기 좋은 조판.",
+  "order": 2,
+  "swatch": [
+    "#f5eddc",
+    "#2b2419",
+    "#9a4a1f"
+  ],
+  "fonts": [
+    "https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Literata:ital,opsz,wght@0,7..72,400..700;1,7..72,400..600&family=Noto+Serif+KR:wght@400;500;600;700&display=swap"
+  ]
+}

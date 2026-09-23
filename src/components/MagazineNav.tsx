@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { formatIssueDate } from '../utils/format'
 import ThemeSwitcher from './ThemeSwitcher'
+import DesignSwitcher from './DesignSwitcher'
 import type { ThemeId } from '../hooks/useTheme'
 
 export interface SectionLink {
@@ -16,6 +17,8 @@ interface Props {
   view: 'magazine' | 'archive'
   themeId: ThemeId
   onSetTheme: (id: ThemeId) => void
+  designId: string
+  onSetDesign: (id: string) => void
   onShowArchive: () => void
   onHome: () => void
   onJump: (id: string) => void
@@ -29,7 +32,7 @@ export function Wordmark({ className = '' }: { className?: string }) {
   )
 }
 
-export default function MagazineNav({ date, issueNumber, sections, view, themeId, onSetTheme, onShowArchive, onHome, onJump }: Props) {
+export default function MagazineNav({ date, issueNumber, sections, view, themeId, onSetTheme, designId, onSetDesign, onShowArchive, onHome, onJump }: Props) {
   const [active, setActive] = useState('')
   const [scrolled, setScrolled] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
@@ -54,6 +57,7 @@ export default function MagazineNav({ date, issueNumber, sections, view, themeId
 
   return (
     <nav
+      data-part="nav"
       className="fixed inset-x-0 top-0 z-50 border-b transition-colors"
       style={{
         backgroundColor: scrolled || menuOpen ? 'var(--paper)' : 'transparent',
@@ -92,6 +96,7 @@ export default function MagazineNav({ date, issueNumber, sections, view, themeId
           >
             {view === 'archive' ? '최신 호' : '지난 호'}
           </button>
+          <DesignSwitcher designId={designId} onSetDesign={onSetDesign} />
           <ThemeSwitcher themeId={themeId} onSetTheme={onSetTheme} />
           <button
             type="button"

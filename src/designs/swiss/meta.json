@@ -1,0 +1,14 @@
+{
+  "id": "swiss",
+  "name": "스위스",
+  "description": "굵은 산세리프와 큰 번호, 빨간 한 점으로 짠 엄격한 그리드.",
+  "order": 1,
+  "swatch": [
+    "#f6f6f3",
+    "#0f0f0f",
+    "#c9170d"
+  ],
+  "fonts": [
+    "https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700;800;900&display=swap"
+  ]
+}

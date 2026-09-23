@@ -50,7 +50,7 @@ export default function SocialQuote(p: Props) {
   if (m?.views) stats.push(`조회 ${formatCount(m.views)}`)
 
   return (
-    <figure className="border-b border-rule py-6 last:border-b-0 last:pb-0">
+    <figure data-part="quote" className="border-b border-rule py-6 last:border-b-0 last:pb-0">
       {p.retweetedBy && (
         <p className="mb-2.5 text-[12.5px] text-ink-3">@{p.retweetedBy.replace(/^@/, '')} 님이 리포스트</p>
       )}
