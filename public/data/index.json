@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-09-30",
+      "issueNumber": 171,
+      "mainHeadline": "오픈AI, ChatGPT에 오피스 수트를 붙였다 — Space·Pages·협업 슬라이드 공개",
+      "headlines": [
+        "GPT-6.1 Sol 공개 — 코딩·컴퓨터 사용·전문 업무에서 Astra 표준 요금의 5분의 1로 근접한 성능",
+        "Anthropic 레드팀: GLM-5.3은 스스로 익스플로잇을 만들고, 안전장치는 64~100% 우회된다",
+        "Claude Sonnet 5.5가 claude.ai 무료 티어의 기본 모델이 됐다"
+      ]
+    },
+    {
       "date": "2026-09-29",
       "issueNumber": 170,
       "mainHeadline": "앤트로픽 클로드 소네트 5.5 공개 — 30% 빠르고 30% 저렴해진 일상 작업용 모델",
