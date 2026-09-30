@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-10-01",
+      "issueNumber": 172,
+      "mainHeadline": "구글, 출력 100만 토큰의 프런티어 모델 Gemini 4 Argon 공개",
+      "headlines": [
+        "OpenAI 데브데이 2026 — 상시 에이전트 dots와 GPT-6.1 Sol 공개",
+        "클라우드플레어, AI가 쓴 만큼 퍼블리셔에 지급하는 Pay Per Use 베타",
+        "OpenAI 연구 총괄, 허깅페이스 해킹 후폭풍에 “같은 묶음의 사고”"
+      ]
+    },
+    {
       "date": "2026-09-30",
       "issueNumber": 171,
       "mainHeadline": "오픈AI, ChatGPT에 오피스 수트를 붙였다 — Space·Pages·협업 슬라이드 공개",
