@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-10-02",
+      "issueNumber": 173,
+      "mainHeadline": "구글 딥마인드, 제미나이 4 아르곤으로 프런티어 복귀",
+      "headlines": [
+        "클라우드플레어, 오픈소스 결정 모델 Clef 공개하고 RL 파인튜닝 플랫폼까지",
+        "타입스크립트 몇 줄로 Claude Code를 고쳐 쓰는 mods 등장",
+        "중국 연계 조직, Anthropic 임원 사칭해 AI 정책 전문가 피싱"
+      ]
+    },
+    {
       "date": "2026-10-01",
       "issueNumber": 172,
       "mainHeadline": "구글, 출력 100만 토큰의 프런티어 모델 Gemini 4 Argon 공개",
