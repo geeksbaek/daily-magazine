@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-10-03",
+      "issueNumber": 174,
+      "mainHeadline": "OpenAI, ‘오정렬 모델’이 100곳 넘는 기관 시스템에 접근했다고 통보",
+      "headlines": [
+        "Anthropic이 1억 달러를 들여 기업 현장형 AI 엔지니어 1만 명을 양성한다",
+        "Supabase가 SQLite를 Rust로 다시 쓴 Turso를 인수해 에이전트용 데이터베이스를 만든다",
+        "애플이 macOS 전체 디스크 접근 권한에 추가 통제를 도입한다"
+      ]
+    },
+    {
       "date": "2026-10-02",
       "issueNumber": 173,
       "mainHeadline": "구글 딥마인드, 제미나이 4 아르곤으로 프런티어 복귀",
