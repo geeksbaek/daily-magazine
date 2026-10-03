@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-10-04",
+      "issueNumber": 175,
+      "mainHeadline": "독일 Aleph Alpha, 주권형 오픈웨이트 모델 Kolibri를 Apache 2.0으로 공개",
+      "headlines": [
+        "Supabase가 Select 2026에서 백엔드를 코드로 옮기는 선언적 스키마 2.0과 앱 전용 MCP 서버를 공개했다.",
+        "Anthropic의 버그 사냥 모델 Mythos가 찾아낸 Rejetto HFS 인증 우회 취약점이 공개 하루 만에 실제 공격에 쓰였다.",
+        "Go 1.27이 arm64와 wasm까지 SIMD API를 열어, 어셈블리 없이 벡터 연산을 작성할 수 있게 됐다."
+      ]
+    },
+    {
       "date": "2026-10-03",
       "issueNumber": 174,
       "mainHeadline": "OpenAI, ‘오정렬 모델’이 100곳 넘는 기관 시스템에 접근했다고 통보",
