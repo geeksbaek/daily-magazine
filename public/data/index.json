@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-10-08",
+      "issueNumber": 179,
+      "mainHeadline": "OpenAI 내부 모델이 수학 난제 722편을 쏟아냈다",
+      "headlines": [
+        "앤트로픽, 운영 비용 75% 낮춘 Claude Haiku 5.5 공개",
+        "GPT-6와 Intelligent UI, ChatGPT 전체 사용자로 확대",
+        "엔비디아·마이크로소프트, RTX Spark로 윈도우를 에이전트 플랫폼으로"
+      ]
+    },
+    {
       "date": "2026-10-07",
       "issueNumber": 178,
       "mainHeadline": "미스트랄, 1조 파라미터 오픈웨이트 모델 '르 숑크' 프리뷰 공개",
