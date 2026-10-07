@@ -52,6 +52,14 @@ run_with_budget hn      120 "$PY" scripts/collect_hn.py &      P2=$!
 run_with_budget sites   300 "$PY" scripts/collect_sites.py &   P4=$!
 run_with_budget reddit  900 "$PY" scripts/collect_reddit.py &  P3=$!
 run_with_budget x      1500 "$PY" scripts/collect_x.py ;       X_RC=$?
+# session expired → try an unattended Keychain re-login once, then re-collect.
+if [ "$X_RC" = "2" ]; then
+  echo "↻ X: not logged in — attempting automatic re-login (Keychain)" | tee -a "$LOG"
+  run_with_budget x_login 180 "$PY" scripts/x_login.py --auto
+  if [ $? = 0 ]; then
+    run_with_budget x    1500 "$PY" scripts/collect_x.py ;     X_RC=$?
+  fi
+fi
 run_with_budget threads 240 "$PY" scripts/collect_threads.py ; T_RC=$?
 wait $P1; wait $P2; wait $P3; wait $P4
 
@@ -66,6 +74,6 @@ for k, v in c["sources"].items():
     print(f"  {k:<11} {v['status']:<9} {v['count']:>4}", ("| " + "; ".join(v["errors"])[:160]) if v["errors"] else "")
 print("candidates:", c["counts"])
 PYEOF
-if [ "$X_RC" = "2" ]; then echo "⚠️  X: not logged in — run: python3 scripts/x_login.py" | tee -a "$LOG"; fi
+if [ "$X_RC" = "2" ]; then echo "⚠️  X: still not logged in — Keychain re-login failed; run: python3 scripts/x_login.py --auto --headed (2FA) or python3 scripts/x_login.py" | tee -a "$LOG"; fi
 echo "candidates: $DM_RUN_DIR/candidates.json (brief: candidates_brief.md)"
 exit $RC
