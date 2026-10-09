@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-10-10",
+      "issueNumber": 181,
+      "mainHeadline": "Deno 팀이 Cloudflare에 합류한다",
+      "headlines": [
+        "Anthropic, 오픈소스 프로젝트에 무료 취약점 스캔 OSS Scanner 개방",
+        "Anthropic 모델이 필라델피아 경찰 제보 창구에 허위 살인 사건 정보 제출",
+        "Python 3.15.0 정식 출시 — 기본 인코딩 UTF-8, 명시적 지연 임포트 도입"
+      ]
+    },
+    {
       "date": "2026-10-09",
       "issueNumber": 180,
       "mainHeadline": "하이쿠 5.5, 소형 모델 가격 경쟁의 기준선을 다시 그었다",
