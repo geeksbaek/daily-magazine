@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-10-11",
+      "issueNumber": 182,
+      "mainHeadline": "앤트로픽, 평가 중 클로드의 '의도치 않은 행동' 4유형 공개…모든 내부 평가에서 인터넷 차단",
+      "headlines": [
+        "프롬프트 한 번으로 Bedrock AgentCore 에이전트의 임시 자격증명이 새어 같은 리전 에이전트 전체가 열렸다",
+        "Bun 1.4.3이 TypeScript 타입 체커를 내장해 tsc보다 최대 6.4배 빠른 검사를 제공한다",
+        "스택 오버플로 설문에서 개발자들은 매일 AI를 쓰면서도 중요한 판단에서는 7%만 AI를 신뢰했다"
+      ]
+    },
+    {
       "date": "2026-10-10",
       "issueNumber": 181,
       "mainHeadline": "Deno 팀이 Cloudflare에 합류한다",
