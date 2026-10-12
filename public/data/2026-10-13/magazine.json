@@ -1,0 +1,564 @@
+{
+  "date": "2026-10-13",
+  "issueNumber": 184,
+  "asOf": "2026-10-12T20:03:00+00:00",
+  "cover": {
+    "mainHeadline": "메타, 에이전트용 프런티어 모델 'Muse Wonder' 공개",
+    "mainExcerpt": "메타가 Muse Spark로 다진 기반 위에 지금까지 만든 가장 강력한 모델이라고 밝힌 Muse Wonder와 Muse Wonder Full을 공개했다. 개인용·업무용 에이전트 작업에서 최고 수준 성능을 주장하며, Meta Model API와 Muse Code에서 바로 쓸 수 있다.",
+    "headlines": [
+      "앤트로픽 레드팀, 소형 AI 모델이 데이터센터 없이 저가 IoT 기기에서 자가 복제할 수 있는 수준에 몇 달 앞까지 왔다고 경고",
+      "우크라이나 드론이 얀덱스의 러시아 데이터센터 세 곳을 잇따라 타격해 클라우드와 결제 서비스가 며칠째 멈췄다",
+      "마이크로소프트가 자체 가속기 Azure Maia를 2027년부터 멀티기가와트 규모로 확장해 주력 추론 시스템으로 삼는다"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_9c8dc2fb4e",
+      "title": "메타, 에이전트용 프런티어 모델 'Muse Wonder' 공개",
+      "originalTitle": "Introducing Muse Wonder and Muse Wonder Full: Frontier Models for Agents",
+      "excerpt": "새 모델에는 대화를 넘나들며 중요한 내용을 기억하는 Active Memory와, 작업이 어려워지면 다른 방법을 시도하고 오류에서 회복하는 Active Focus가 들어갔다. 중요한 일을 실행하기 전에는 먼저 확인을 받는 동작도 포함된다.",
+      "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/",
+      "source": "Meta Newsroom",
+      "publisher": "Meta",
+      "tier": 1,
+      "category": "big_tech",
+      "publishedAt": "2026-10-13T02:08:05+09:00",
+      "readTime": 3,
+      "imageGradient": 0,
+      "body": "메타는 14개월 전 AI 조직 전면 개편을 시작했고, 그 기간에 기반 재구축에서 프런티어 경쟁으로 단계를 옮겼다고 밝혔다. 이번에 공개한 Muse Wonder 시리즈는 앞서 내놓은 Muse Spark에서 다진 토대 위에 올린 것으로, Muse Wonder와 상위 모델 Muse Wonder Full 두 가지로 구성된다.\n\n메타가 내세우는 강점은 추상적인 지능 지표가 아니라 구체적 업무다. 보험 청구를 처리하거나 임대차 계약서를 이해하고 누군가의 재무 상황을 파악하는 일처럼, 눈앞의 정보를 해석해 문제를 풀어내야 하는 작업을 겨냥했다고 설명한다. ==법률·금융·헬스 같은 전문 영역과 함께 게임부터 신규 사업용 앱까지 만드는 프런티어급 코딩 성능을 함께 내세웠다.==\n\n개인 에이전트가 실제 일을 대신하려면 메시지와 캘린더, 문서를 넘나들어야 한다. 메타는 그래서 Muse Wonder 계열을 허락 없이 개인정보를 공유하지 않도록, 실제로 해로운 행위를 돕는 요청은 거절하도록, 그리고 보안을 강화하고 사이버 공격 방어를 돕도록 훈련했다고 밝혔다. 개발자와 보안팀이 자기 코드의 결함을 찾는 작업은 그대로 할 수 있게 남겨뒀다.\n\n모델 학습과 평가, 공개는 메타 슈퍼인텔리전스 스케일링 프레임워크의 기준에 따랐으며, 추가 안전 평가를 담은 전체 보고서는 추후 공개한다고 했다. ==Muse Wonder는 Meta Model API와 Muse Code에서 바로 쓸 수 있고, 구독자를 시작으로 Muse 제품에 순차 적용된다.=="
+    },
+    {
+      "id": "web_745c375865",
+      "title": "데이터센터 없이도 AI가 스스로 복제할 수 있다",
+      "originalTitle": "AI models may be capable of self-replicating without access to a datacenter",
+      "excerpt": "자율 복제라는 오래된 우려가 이번에는 실험 숫자로 돌아왔다. 비싼 가속기가 꼭 필요하지는 않다는 쪽이 불편한 대목이다.",
+      "url": "https://www.anthropic.com/research/self-replicating-ai",
+      "source": "Anthropic Research",
+      "publisher": "Anthropic",
+      "tier": 1,
+      "category": "ai_ml",
+      "publishedAt": "2026-10-13T04:15:04+09:00",
+      "readTime": 6,
+      "imageGradient": 1,
+      "body": "앤트로픽 프런티어 레드팀의 윌리엄 저우와 대니얼 프리먼은 소형 AI 모델이 상용 IoT 기기에서 스스로 복제할 수 있는 수준에 몇 달 앞까지 와 있다는 실험 결과를 내놨다. ==9B 모델은 테스트한 9종 하드웨어 가운데 8종에서 추론을 띄우는 데 성공했다.== 30B 이하 모델은 복제에 필요한 개별 단계를 이미 상당 부분 수행하지만, 처음부터 끝까지 이어 붙이는 과정에서 실수를 낸다.\n\n단순화한 평가에서는 GLM-5.2급 이상 모델이 끝에서 끝까지 복제를 완수했다. 소형 모델이 지금까지의 개선 속도를 유지하면 올해 안에 그 수준에 도달한다는 것이 연구팀의 추정이다. 실제 시연으로는 대당 55달러 수준의 저가 안드로이드 TV 박스 15대를 연결해 Gemma4-26B-A4B를 분산 구동했고 초당 0.39토큰이 나왔다. 각 박스가 모델 레이어 두 개씩을 들고 있는 구조다.\n\n연구팀은 자율 복제·적응을 표적 탐색, 실행 권한 확보, 추론 환경 구축, 새 호스트에서 전파 계속의 네 단계로 나눴다. 앞의 두 단계는 소형 모델도 적절한 도구만 주면 사이버 익스플로잇을 해낸다는 선행 연구가 이미 있어 이번 실험에서는 다루지 않고, 침해된 기기 위에 추론을 세우는 비교적 덜 측정된 단계에 집중했다. 데이터센터 GPU가 명백한 고가치 표적이지만, 값싸고 방어가 허술한 IoT 기기 봇넷만으로도 쓸 만한 모델을 돌릴 연산이 모인다는 점이 이번 보고의 핵심이다.\n\n이런 복제체는 ==끌 수 있는 중앙 지점이 없어 차단이 어렵고==, 기존 악성코드와 달리 처음 보는 기기를 스스로 파악해 적응한다. 다만 배가 시간이 며칠 단위로 느릴 것으로 봤고, 모델 가중치를 들고 다니는 복제체는 그보다 조금 뒤에 가능해질 것으로 전망했다."
+    },
+    {
+      "id": "rss_c25f6308f7",
+      "title": "우크라이나 드론, 얀덱스 데이터센터 세 곳 타격 — 클라우드와 결제 마비",
+      "originalTitle": "Ukrainian drone strikes on Yandex datacenters knock cloud and payments offline",
+      "excerpt": "'러시아의 구글' 얀덱스가 러시아 내 데이터센터 다섯 곳 중 세 곳을 드론 공격으로 잃었다. 클라우드와 결제 서비스가 며칠째 돌아오지 않고 있다.",
+      "url": "https://www.theregister.com/security/2026/10/12/ukrainian-drone-strikes-on-yandex-datacenters-knock-cloud-and-payments-offline/5302577",
+      "source": "The Register",
+      "publisher": "The Register",
+      "tier": 2,
+      "category": "big_tech",
+      "publishedAt": "2026-10-12T22:45:00+09:00",
+      "readTime": 4,
+      "imageGradient": 3,
+      "body": "우크라이나 드론은 10월 7~8일 밤 얀덱스의 사소보 데이터센터를 '심각하게 손상'시켜 전면 중단을 일으켰다. 9일 아침에는 칼루가 데이터센터가 표적이 되어 인프라 일부가 오프라인으로 내려갔고, 일요일 아침에는 Yandex Pay를 받치는 블라디미르 사이트가 세 번째로 맞았다.\n\n핀테크 부문을 이끄는 디마 피로고프는 텔레그램에서 사용자 돈은 안전하다면서도 복구 시점은 제시하지 못했다. 얀덱스는 가장 많이 쓰이는 서비스를 우선 복구한다며 Alice AI 어시스턴트와 메일, 지도, 검색, 택시의 접근이 돌아오고 있다고 밝혔다. 공용 클라우드인 Yandex Cloud는 상태 페이지에 광범위한 장애가 표시된 상태로, 콘솔과 API는 일부 접근이 가능하지만 플랫폼 전반의 가용성은 들쭉날쭉하다. 회사는 호스팅을 대체 사이트로 옮기고 자원을 예비로 확보해 두라고 권고했다.\n\n==네트워크 모니터링 기관 넷블록스는 10월 11일 Yandex Cloud의 네트워크 연결성이 평시의 30% 수준이라고 보고했다.== 젤렌스키 대통령은 이번 공격이 키이우 데이터센터를 겨냥한 러시아 공격에 대한 대응이라고 설명했다. BBC는 9월 러시아 드론이 키이우의 업무용 건물을 타격해 네 명이 숨지고 데이터센터가 손상되면서 약 10만 가구가 인터넷을 잃었다고 전했다.\n\n검색부터 결제까지 구글과 비슷한 영역을 아우른 사업 구조가 그대로 약점이 됐다. ==데이터센터 한 곳의 물리적 손상이 결제 서비스 중단으로 곧바로 이어졌다.== 러시아와 우크라이나가 에너지 인프라 공격을 멈추는 데 합의했다는 트럼프 대통령의 발표도 나왔지만, 키이우는 사전에 알지 못했다고 밝혔고 몇 시간 뒤 러시아는 우크라이나 발전소를 미사일로 공격했다."
+    },
+    {
+      "id": "rss_87249271f5",
+      "title": "마이크로소프트, Azure Maia를 멀티기가와트로 확장한다",
+      "originalTitle": "Microsoft to expand Azure Maia system to multi-gigawatt deployments",
+      "excerpt": "엔비디아 칩을 사들이는 대신 직접 설계한 가속기로 추론을 돌리는 전략이 다음 단계로 들어섰다. 전력 효율이 곧 경쟁 지표가 됐다.",
+      "url": "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/",
+      "source": "Microsoft Official Blog",
+      "publisher": "Microsoft",
+      "tier": 1,
+      "category": "big_tech",
+      "publishedAt": "2026-10-12T22:01:29+09:00",
+      "readTime": 5,
+      "imageGradient": 5,
+      "body": "마이크로소프트가 자체 AI 가속기 계열인 Azure Maia를 2027년부터 멀티기가와트 규모로 확장하겠다고 밝혔다. Maia 200은 이미 프로덕션에 들어가 Microsoft Copilot 워크로드를 처리하고 MAI 팀의 차세대 모델 개발을 받치고 있으며, GitHub Copilot과 Microsoft Foundry가 연말까지 뒤따른다. 이 하드웨어 위에서 OpenAI 모델과 마이크로소프트 자체 MAI 모델, 주요 오픈소스 모델 계열이 함께 돌아간다.\n\nMaia 200은 미국과 유럽, 호주에 배포되는 중이다. ==팀즈와 코파일럿, 코워크에 내장된 AI 기능에서 선도 GPU 인프라 대비 최대 1.7배 많은 와트당 토큰을 낸다고 했다.== 실리콘 개발에 수년이 걸리기 때문에 소프트웨어와 하드웨어 팀이 미리 함께 설계해 메모리 용량과 대역폭, 하나처럼 묶이는 가속기 수를 요구사항으로 번역했다는 설명이다.\n\n2027년 등장할 Maia 300은 긴 컨텍스트 추론과 지연에 민감한 대화, 여러 단계를 이어가는 에이전트 작업을 겨냥한 통합 시스템이다. ==마이크로소프트는 Maia 300이 선도 GPU 기반 시스템 대비 메가와트당 토큰을 40% 더 낼 것으로 본다.== 가속기 96개를 꽉 채운 구성에서는 Maia 200 대비 랙 단위 토큰 처리량이 최대 7배에 이른다고 밝혔다.\n\n두 세대가 함께 받칠 대상도 구체적으로 열거했다. 깃허브가 코딩 경험을 더 효율적으로 제공하도록 돕는 다단계 에이전트 작업, Microsoft Foundry가 다양한 아키텍처와 배포 환경을 지원하도록 돕는 클라우드 규모 모델 서빙, MAI 팀의 추론과 데이터 생성, 그리고 Dragon Copilot이 임상의의 행정 부담을 줄이도록 돕는 지연 민감형 상호작용이다."
+    },
+    {
+      "id": "rss_64b8fb1d42",
+      "title": "엔비디아, OCP에 Vera Rubin 랙 설계를 기부했다",
+      "originalTitle": "OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide",
+      "excerpt": "메가와트에서 기가와트로 커지는 AI 팩토리를 짓는 데는 연산만으로 부족하다. 엔비디아가 OCP 글로벌 서밋에서 차세대 AI 인프라의 공통 토대를 만들겠다며 설계를 공개했다.",
+      "url": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
+      "source": "NVIDIA Blog",
+      "publisher": "NVIDIA",
+      "tier": 1,
+      "category": "big_tech",
+      "publishedAt": "2026-10-13T00:00:25+09:00",
+      "readTime": 5,
+      "imageGradient": 0,
+      "body": "==엔비디아가 산호세에서 열린 OCP 글로벌 서밋에서 Vera Rubin 랙과 컴퓨트 트레이 설계를 개방형 MGX 아키텍처를 통해 OCP에 기부했다.== 개방 표준이 AI 인프라를 더 빠르고 효율적이고 안정적으로 확장하는 데 쓰이고 있다는 것이 발표의 전제다. 이번 기여는 AI 팩토리 자체와 그것을 먹이는 전력망, 그리고 가속 컴퓨팅의 심장인 랙 스케일 아키텍처에 걸쳐 있다.\n\n함께 나온 발표도 여러 건이다. 엔비디아와 하이퍼스케일러들이 AI 팩토리 설계 표준과 전력망 복원력 표준을 공개했고, NVIDIA DSX AI Factory용 오픈소스 소프트웨어 컴포넌트가 나왔다. 메타와는 Spectrum-X 이더넷 SuperNIC과 Spectrum-6로 개방형 AI 네트워킹을 진전시켰고, 시스코와는 400Gb/s 기반 네트워킹 패브릭용 업계 첫 모듈인 USFP 표준을, 구글과는 차기 ConnectX-10 SuperNIC과 BlueField DPU의 Falcon Transport 지원을 발표했다. 비전베이는 Vera Rubin 세대를 위한 800V DC AI 팩토리 설계를 내놨다.\n\n표준 자체는 MGX 1.2 규격으로 정리됐다. 랙 단위 블라인드메이트 액체 냉각, 상호 운용 가능한 랙 스케일 인터커넥트, 고출력 AI 시스템용 액체 냉각 5,000A 버스바가 들어가고 19인치 장비 기본 지원과 고밀도 랙 설계가 추가됐다. 구성 가능한 I/O 베이와 팬 없는 액체 냉각 컴퓨트 트레이, 표준화된 전력·냉각 인터페이스로 모듈성을 넓혔으며 ==랙 배치는 최대 250kW까지 지원한다.==\n\n눈에 띄는 쪽은 Vera CPU 랙이다. Vera Rubin NVL72가 대규모 학습과 추론의 토대라면, Vera CPU 랙은 도구 호출과 오케스트레이션, 샌드박스 실행을 받치도록 설계돼 에이전트가 애플리케이션과 데이터, 서비스와 실시간으로 상호작용하게 만든다. 3세대 MGX 랙 아키텍처 위에 올려 연산과 네트워킹, 전력, 냉각을 하나의 모듈형 플랫폼으로 묶는 설계 원칙을 공유한다."
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_55338a2f5e",
+        "title": "ReplaySSM: 상태를 저장하지 말고 입력을 캐시하라",
+        "originalTitle": "ReplaySSM: Rethinking State Storage for Faster Hybrid-Model Decoding",
+        "excerpt": "서빙 현장에서 체감 지연을 깎는 범인이 엉뚱한 곳에 있었다. 교정 방법은 이미 두 곳의 상용 서비스에 들어가 있다.",
+        "url": "https://developer.nvidia.com/blog/replayssm-rethinking-state-storage-for-faster-hybrid-model-decoding/",
+        "source": "NVIDIA Technical Blog",
+        "publisher": "NVIDIA",
+        "tier": 1,
+        "category": "ai_ml",
+        "publishedAt": "2026-10-13T01:00:54+09:00",
+        "readTime": 5,
+        "imageGradient": 7,
+        "body": "하이브리드 모델은 상태공간모델(SSM) 레이어 사이에 소수의 어텐션 레이어를 끼워 넣는다. 엔비디아 Nemotron 3, Qwen3.5부터 Qwen3.8, Kimi-K3, GLM-5.3-Flash가 모두 이 방식이고 SSM 레이어로는 Mamba-2나 Gated DeltaNet, Kimi Delta Attention을 쓴다. SSM 레이어는 컨텍스트 길이에 따라 커지는 KV 캐시 대신 고정 크기 상태를 쓰기 때문에 디코딩이 빠를 것으로 기대되는 쪽이다.\n\n문제는 서빙 배치 크기에서 드러난다. ==컨텍스트 10만 토큰까지는 어텐션이 아니라 SSM 레이어가 지연의 병목이 될 수 있다.== Mamba-2 레이어는 토큰 하나를 디코딩할 때마다 고대역폭 메모리에서 상태를 읽어 감쇠와 랭크-1 업데이트를 적용하고, 출력을 계산한 뒤 다시 상태를 써 넣는다. 상태가 이번 토큰의 출력을 만드는 일과 다음 토큰의 상태가 되는 일을 동시에 하기 때문에 매 스텝 전체 상태가 오간다.\n\nReplaySSM은 상태를 체크포인트와 최근 입력 버퍼로 나눠 표현한다. 출력 계산을 상태 업데이트에서 떼어내고 ==버퍼가 찰 때만 체크포인트를 기록해== 상태 트래픽, 추측 디코딩을 위한 롤백, 양자화된 상태의 오차 누적이라는 세 가지 문제를 함께 다룬다. 기존 방식에서 추측 디코딩과 양자화를 SSM 레이어에 적용하기 까다로웠던 이유가 바로 상태를 매 스텝 갱신하는 구조였다.\n\n논문은 'ReplaySSM: Cache SSM Inputs, Not State'로 arXiv에 공개됐고 코드는 깃허브에 있다. TensorRT-LLM과 vLLM, FlashInfer에 통합돼 있으며 GLM-5.3-Flash와 Kimi-K3에서는 이미 프로덕션으로 돌아간다. 엔비디아와 프린스턴 Dao AI Lab의 공동 작업이다."
+      },
+      {
+        "id": "rss_8a70427187",
+        "title": "AI 튜터를 평가하려 학생을 시뮬레이션한다 — 마이크로소프트 StudentSim",
+        "originalTitle": "Simulating student learning for better AI tutoring",
+        "excerpt": "AI 튜터가 좋아지려면 학생의 반응이 필요한데, 사람을 모아 받는 피드백은 느리고 비싸고 확장하기 어렵다. 마이크로소프트 리서치가 학생별 시뮬레이터를 학습시켜 그 자리를 메우려 한다.",
+        "url": "https://www.microsoft.com/en-us/research/blog/simulating-student-learning-for-better-ai-tutoring/",
+        "source": "Microsoft Research",
+        "publisher": "Microsoft",
+        "tier": 1,
+        "category": "ai_ml",
+        "publishedAt": "2026-10-13T01:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 6,
+        "body": "StudentSim은 실제 학습자에게 시험하기 전 단계에서 AI 튜터를 평가하고 개선하기 위한 연구 시스템이다. 제품이 아니고 교실에 배포되지 않았으며 교사를 대체하려는 것도 아니라고 연구팀은 선을 그었다. ==공개된 비식별 학습자 기록만 사용해 학생 한 명마다 맞춘 시뮬레이터를 학습시키며, 개인 식별 정보는 어느 단계에서도 쓰지 않는다.==\n\n평가 방식은 두 가지 교육학적 축으로 나뉜다. 시뮬레이터가 특정 학생처럼 답하는지, 그리고 튜터의 안내를 받은 뒤 답이 바뀌는지다. 체스와 제2언어 영어 작문, 수학 세 영역에서 측정했고 주요 베이스라인을 앞섰으며, AI 튜터를 학습시킬 때 쓸 만한 피드백 신호를 제공했다고 밝혔다.\n\n연구는 StudentSimEval이라는 벤치마크와 평가 프로토콜도 함께 내놨다. 단순히 대형 언어 모델에 '수학을 어려워하는 초등학생 역할을 해라'고 지시하는 방식은 말투와 불확실성 표현은 흉내 내지만, ==학습자의 실제 능력 경계를 유지하지 못한다는 것이 핵심 문제다.== 어린 학생의 목소리로 말하면서 그 학생 수준을 훨씬 넘는 지식과 추론을 그대로 쓸 수 있다는 뜻이다.\n\nAI 튜터 연구에서 '안내가 전달된 뒤 무슨 일이 일어났는가'는 사람을 대상으로 한 학습 연구 없이는 답하기 어려웠다. 학생이 원래 실수를 고쳤는지, 힌트가 추론을 도왔는지 아니면 답을 너무 많이 알려줬는지, 다른 학생에게는 다른 종류의 지원이 필요한지 같은 질문이다. 시뮬레이터는 그 피드백의 일부를 연구 단계에서 앞당겨 주는 초기 신호이며 실제 학습자 테스트를 대신하지는 않는다."
+      },
+      {
+        "id": "rss_13b0230e9d",
+        "title": "클로드가 멀티에이전트 구성을 스스로 짠다 — 앤트로픽 다이내믹 워크플로",
+        "originalTitle": "How Anthropic’s Dynamic Workflows Coordinate Claude Agents",
+        "excerpt": "누가 무엇을 맡을지 정하는 일까지 넘긴다면 개발자에게 남는 몫은 무엇인가. 금요일 공개된 기능이 그 질문을 던진다.",
+        "url": "https://www.latent.space/p/claude-dynamic-workflows",
+        "source": "Latent Space",
+        "publisher": "Latent Space",
+        "tier": 2,
+        "category": "ai_ml",
+        "publishedAt": "2026-10-13T03:18:17+09:00",
+        "readTime": 6,
+        "imageGradient": 3,
+        "body": "앤트로픽 기술 스태프 CJ 아빌라와 해리슨 스톨은 AI Engineer New York 2026 첫날 워크숍에서 Claude Managed Agents의 오케스트레이션을 다뤘다. 이 자리에서 소개된 '다이내믹 워크플로', 발표자들이 줄여 '플로'라고 부른 기능은 '가장 야심 찬 워크로드를 위해 만든 새로운 멀티에이전트 오케스트레이션'으로 정의됐다.\n\n두 사람은 켄 톰슨의 초기 유닉스부터 리누스 토르발스 한 명에서 신뢰받는 메인테이너 계층으로 진화한 리눅스까지 과거 운영체제 프로젝트를 끌어왔다. ==에이전트도 큰 프로젝트를 해내려면 같은 수준의 조직화가 필요하다는 것이 이들이 끌어낸 교훈이다.== 아빌라는 수많은 에이전트가 쏟아내는 PR을 깃허브에서 승인하며 사람이 병목이자 파열점이 되는 느낌을 이야기했다.\n\n동작 방식은 이렇다. 리드 에이전트가 작업을 어떻게 해낼지 계획을 세우고, 클로드가 오케스트레이션 프로그램을 직접 작성해 에이전트를 띄우고 결과를 모으고 정보 흐름을 관리한다. 스톨은 ==클로드가 자기 멀티에이전트 토폴로지 전체를 스스로 오케스트레이션하게 맡길 수 있다고== 표현했다. 기존 Claude Managed Agents에서는 개발자가 코디네이터와 서브에이전트 명단을 구성해야 했다.\n\n여러 단계에 걸쳐 각각 검증 가능한 작업 단위를 끝내면서도 그 사이의 연결을 사람이 관리하지 않아도 된다는 것이 이들이 내세우는 차이다. 원하면 에이전트 설정에서 미리 구성한 서브에이전트를 넣을 수도 있다. 다이내믹 워크플로는 개발자가 클로드에 접근할 때 쓰는 인터페이스인 Claude Console에서 제공된다."
+      },
+      {
+        "id": "rss_024d9eece6",
+        "title": "베드록, 동남아 5개 리전에서 OpenAI GPT-6 교차 리전 추론 지원",
+        "originalTitle": "Accessing OpenAI GPT models on Amazon Bedrock with global cross-Region inference in Thailand, Malaysia, Singapore, Indonesia, and Taiwan",
+        "excerpt": "단일 리전 추론은 현지 용량을 넘는 수요에서 스로틀이 걸린다. 태국·말레이시아·싱가포르·인도네시아·대만 팀이 최신 OpenAI 모델을 그 한계 밖에서 쓸 수 있게 됐다.",
+        "url": "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-models-on-amazon-bedrock-with-global-cross-region-inference-in-thailand-malaysia-singapore-indonesia-and-taiwan/",
+        "source": "AWS Machine Learning Blog",
+        "publisher": "Amazon",
+        "tier": 1,
+        "category": "ai_ml",
+        "publishedAt": "2026-10-13T02:52:22+09:00",
+        "readTime": 5,
+        "imageGradient": 0,
+        "body": "Amazon Bedrock이 다섯 개 리전 전체에서 OpenAI GPT-6 Sol과 GPT-6 Luna를 글로벌 교차 리전 추론으로 제공하고, GPT-6 Astra는 아시아 태평양 싱가포르 리전에서 제공한다. 세 모델 모두 bedrock-runtime 엔드포인트에서 쓰며, ==모델 ID 대신 글로벌 교차 리전 추론 프로파일 ID를 넘기면 호출 방식이 바뀐다.==\n\nGPT-6 계열은 세 모델로 나뉜다. GPT-6 Sol은 주중 내내 수행하는 복잡한 작업에 강한 추론과 코딩을, GPT-6 Luna는 반복적인 작업을 대량으로 돌리는 쪽을, GPT-6 Astra는 복잡한 추론과 코딩, 긴 문서 작업을 맡는다. 세 모델 모두 텍스트와 이미지 입력, 클라이언트 측 도구 사용, 프롬프트 캐싱을 지원하며 추론 강도 단계에서 갈린다. Sol과 Luna는 none부터 max까지 받고 Astra는 none을 뺀 나머지를 받는다.\n\n교차 리전 추론은 모델이 배포된 상용 AWS 리전들로 요청을 분산해 베드록 용량에 더 넓게 접근하게 한다. 호출을 날린 곳이 소스 리전이고 처리할 목적지 리전은 베드록이 고른다. ==과금과 쿼터 추적, CloudTrail, CloudWatch는 모두 소스 리전에 그대로 남는다.==\n\n글에서는 싱가포르 리전에서 Converse API와 OpenAI 호환 API, 코딩 클라이언트로 호출하는 방법과 함께 IAM과 서비스 제어 정책 설정, 쿼터 관리, 모니터링을 다룬다. 프로파일 가용성과 리전 지원은 AWS가 리전과 프로파일을 추가하면서 바뀌므로 모델 카드에서 확인하라고 덧붙였다."
+      },
+      {
+        "id": "rss_b3d04b5f80",
+        "title": "장면이 암시하는 것을 읽는 능력, 사람과 모델의 간격은 아직 넓다",
+        "originalTitle": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
+        "excerpt": "엘로리안과 스케일 AI가 장면이 암시하지만 드러내지 않는 정보를 모델이 어떻게 추론하는지 측정하는 벤치마크를 내놨다. 사람과 최고 성능 모델의 점수 차가 크게 벌어졌다.",
+        "url": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
+        "source": "Import AI",
+        "publisher": "Import AI",
+        "tier": 2,
+        "category": "ai_ml",
+        "publishedAt": "2026-10-12T21:30:39+09:00",
+        "readTime": 6,
+        "imageGradient": 0,
+        "body": "Humanity's Sixth Sense는 이미지 288장과 17.6시간 분량의 짧은 영상 234편을 포함해 522개 문항으로 구성된다. 책장 사진을 두고 책을 더 넣을 수 있는지 묻거나, 말이 쟁기를 끄는 사진에서 사슬이 쟁기의 끌림 하중을 버티는지 묻는 식이다. 문항은 시간·인과 역학, 물리·공간 논리, 사회적 이해, 추상·맥락 추론 네 범주로 나뉜다.\n\n==사람의 종합 pass@1은 93.1인데 가장 잘한 AI인 GPT 6 Astra는 53.6에 머물렀다.== 범주별로는 이미지 55.6, 영상 51.1, 시간 58.2, 공간 53.6으로 큰 편차가 없었다. 중국 오픈웨이트 모델은 더 낮아 GLM-5.3-flash가 26.8, Kimi K3가 25.5를 받았다. 실패의 주된 유형은 답을 결정하는 세부를 놓친 경우가 21%, 물체나 사람, 역할을 잘못 식별한 경우가 20%였다.\n\n뉴스레터는 이 결과를 두 방향으로 읽는다. 하나는 현재 시스템의 결함이고, 다른 하나는 ==별도의 공간 인식 세계 모델 없이도 LLM이 이 정도를 해낸다는 사실 자체다.== 진짜 시각 추론에는 2D·3D 세계 모델을 먼저 만들어야 한다는 오랜 주장에 대한 반론이 된다는 것이다.\n\n같은 호는 AI 경쟁이 우주로 번지는 흐름도 다룬다. 스타십 같은 플랫폼으로 궤도 수송 능력이 늘면서 2030년대에 우주 기반 전력과 연산, 제조가 본격화되는데, AI 시스템이 우주 구축을 가속하는 동시에 특정 국가나 AI가 복합적 우위를 쥐는 새로운 위험을 함께 짚었다."
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_90b1ffc272",
+        "title": "도커 허브, 계정에서 조직으로 전환할 때 액세스 토큰이 넘어갔다",
+        "originalTitle": "Docker Hub security advisory: personal access tokens transferred during account-to-organization conversions",
+        "excerpt": "2년 넘게 열려 있던 구멍이 지난달 말 신고로 닫혔다. 남의 이름으로 컨테이너 이미지를 밀어 넣을 수 있는 종류의 결함이었다.",
+        "url": "https://www.docker.com/blog/docker-hub-security-advisory-cve-2026-105445/",
+        "source": "Docker Blog",
+        "publisher": "Docker",
+        "tier": 1,
+        "category": "dev_tools",
+        "publishedAt": "2026-10-13T01:00:00+09:00",
+        "readTime": 6,
+        "imageGradient": 2,
+        "body": "2026년 9월 30일 보안 연구자들이 도커 허브의 ID·접근 관리 취약점을 취약점 공개 프로그램으로 신고했다. 도커는 보고를 확인한 뒤 ==네 시간이 채 지나지 않아 같은 날 오후 수정을 프로덕션에 배포했다.== 이후 결함이 들어간 시점까지 모든 계정 전환을 되짚어 10월 2일 영향 가능 사용자와 조직 소유자 전원에게 통지했다. CVE-2026-105445로 추적된다.\n\n도커 허브는 레포지토리를 계정 간에 옮기는 기능이 없어, 개인 계정을 조직으로 전환하는 것이 기존 docker pull을 깨뜨리지 않고 소유권을 넘기는 유일한 길이었다. 2024년 8월 26일부터 이 전환은 전환되는 계정의 개인 액세스 토큰을 새 조직 소유자에게 재할당했는데, 토큰 소유자 레코드만 바꾸고 비밀값은 교체하거나 폐기하지 않았다. 지정된 소유자에게는 확인을 묻지도, 통지하지도 않았다.\n\n공격 흐름은 단순하다. 공격자가 계정을 만들어 토큰을 발급하고, 그 계정을 조직으로 전환하면서 표적 사용자를 소유자로 지정한다. 그러면 공격자가 비밀값을 그대로 쥔 토큰이 표적 사용자의 권한 범위로 활성 상태를 유지한다. ==토큰 범위 안에서 공격자는 표적의 레포지토리와 표적이 접근 권한을 가진 조직에서 이미지를 가져오고 올리고 지울 수 있었다.==\n\n정당한 이름으로 이미지를 배포할 수 있다는 점 때문에 도커는 이를 소프트웨어 공급망 위험으로 보고 심각도를 critical로 매겼다. 다만 웹 인터페이스 접근은 주지 않았고, 표적의 비밀번호나 이메일, 2단계 인증 설정을 바꾸거나 계정을 탈취하는 데는 쓸 수 없었다. 10월 2일 안내 메일을 받지 않았다면 영향 범위 밖이라는 것이 도커의 설명이다."
+      },
+      {
+        "id": "rss_5b99838803",
+        "title": "클라우드플레어, 로그를 내보내기 전에 SQL로 걸러내고 가린다",
+        "originalTitle": "Filter, reshape, and redact logs before export with Transformers",
+        "excerpt": "SIEM이나 오브젝트 스토리지로 로그를 보내기 전에 헬스체크를 빼고 민감 필드를 지우려면 보통 별도 처리 서비스를 띄워야 했다. 그 단계가 Logpush 안으로 들어왔다.",
+        "url": "https://blog.cloudflare.com/transformers-on-logpush/",
+        "source": "Cloudflare Blog",
+        "publisher": "Cloudflare",
+        "tier": 1,
+        "category": "dev_tools",
+        "publishedAt": "2026-10-12T23:44:59+09:00",
+        "readTime": 5,
+        "imageGradient": 3,
+        "body": "Logpush는 로그를 가능한 빠르게 배치로 전달해 거의 실시간에 가까운 정보를 제공한다. 지난 버스데이 위크에 클라우드플레어는 Logpush를 모든 셀프서브 플랜에서 쓸 수 있게 하고 Transformers를 정식 출시했다. 이번 글은 그 Transformers가 내보내기 파이프라인 안에서 어떻게 동작하는지를 들여다본다.\n\n트랜스포머는 특정 Logpush 데이터셋을 대상으로 쓰는 SQL 쿼리다. ==Logpush가 각 배치에 쿼리를 적용해 WHERE 절에 맞지 않는 레코드를 제거하고, 남은 레코드는 SELECT 결과가 그대로 내보낼 레코드가 된다.== 필드를 추가하고 이름을 바꾸고 삭제하고 중첩해 구조를 바꿀 수 있으며 결과는 NDJSON으로 나간다.\n\n쓰는 쪽의 이득은 두 가지다. 여러 CDN에서 로그를 모으는 팀은 정적 provider 필드를 붙여 레코드를 분석 플랫폼에 닿기 전에 정규화할 수 있다. 그리고 ==도착하자마자 버리는 레코드를 내보내고 적재하고 저장하는 비용을 앞단에서 걷어낼 수 있다.== 예시로는 클라이언트 IP 일부를 가리고 provider와 오류 정보를 붙이고 쓰지 않는 필드를 빼고 내부 트래픽을 걸러내 팀이 정의한 스키마에 맞추는 변환을 들었다.\n\n트랜스포머는 대시보드의 Transformer Studio나 API로 만들고 미리 보고 관리한다. 저장할 때마다 새 버전이 생겨 변경 이력을 되짚을 수 있고, 같은 데이터셋을 쓰는 NDJSON Logpush 작업에 붙여 쓴다. 클라우드플레어는 고성능 내보내기 파이프라인 안에 SQL 변환 엔진을 심으면서 성능과 자원 사용을 예측 가능하게 유지했다고 설명했다."
+      },
+      {
+        "id": "rss_39f26c94da",
+        "title": "깃허브, 커밋을 실제로 푸시한 사람을 기록하기 시작했다",
+        "originalTitle": "Push attribution for commits in limited public preview",
+        "excerpt": "author와 committer 필드는 푸시하는 클라이언트가 넘기는 문자열일 뿐이다. 깃허브가 인증된 푸셔 신원을 커밋마다 따로 붙여 UI와 API에 드러낸다.",
+        "url": "https://github.blog/changelog/2026-10-12-push-attribution-public-preview",
+        "source": "GitHub Changelog",
+        "publisher": "GitHub",
+        "tier": 1,
+        "category": "dev_tools",
+        "publishedAt": "2026-10-13T01:30:11+09:00",
+        "readTime": 2,
+        "imageGradient": 6,
+        "body": "깃허브가 각 커밋을 푸시한 인증 사용자를 영구 기록하고, 기존 author·committer 필드와 나란히 푸셔 신원을 UI와 API에 노출하기 시작했다. 커밋의 author와 committer는 레포지토리 쓰기 권한만 있으면 아무 이름과 이메일로나 채울 수 있는 문자열이다. ==권한이 낮은 계정을 탈취한 공격자가 신뢰받는 메인테이너 명의로 커밋을 위조해 리뷰 정책을 우회하고 감사 추적을 흐릴 수 있었다.==\n\n깃허브는 이미 푸시 자체를 인증하고 있었다. 이번 릴리스는 그 인증 결과를 커밋 단위로 영구히 남기는 쪽이다. 어떤 author·committer 메타데이터가 적혀 있든 모든 커밋에는 그와 무관하게 인증된 푸셔 신원이 붙는다.\n\n함께 들어온 것은 'Committer must match pusher'라는 새 레포지토리 룰 조건이다. ==committer 메타데이터가 인증된 푸셔의 검증된 이메일 주소와 맞지 않으면 푸시를 막는다.== 커밋 신원 위조 경로를 닫는 장치로, 더 엄격한 신원 요구를 걸려면 룰셋에 이 규칙을 추가하면 된다.\n\n운영 쪽에서는 검증되지 않은 메타데이터에 의존하는 대신 푸셔 신원으로 수상한 활동을 점검하거나 보안 조사를 앞당길 수 있다. 푸셔 신원은 커밋이 보이는 모든 곳에 함께 표시된다. Push attribution은 깃허브 엔터프라이즈 고객을 위한 제한 공개 프리뷰로 제공되며, 참여를 원하면 계정 담당팀에 요청해야 한다."
+      },
+      {
+        "id": "rss_551b977358",
+        "title": "인스타그램 라이브 송출이 Media over QUIC으로 옮겨갔다",
+        "originalTitle": "Shipping Media Over QUIC at Meta Scale for Instagram Live Ingest",
+        "excerpt": "RTMP와 HLS, WebRTC, 자체 프로토콜 RUSH까지 갈라진 미디어 스택을 하나로 모으려는 시도다. 메타가 iOS와 안드로이드 라이브 수집에 MoQ를 실제로 띄웠다.",
+        "url": "https://engineering.fb.com/2026/10/12/video-engineering/shipping-media-over-quic-at-meta-scale-for-instagram-live-ingest/",
+        "source": "Meta Engineering",
+        "publisher": "Meta",
+        "tier": 1,
+        "category": "dev_tools",
+        "publishedAt": "2026-10-13T01:01:32+09:00",
+        "readTime": 6,
+        "imageGradient": 4,
+        "body": "==인스타그램 라이브는 iOS와 안드로이드에서 라이브 영상 수집에 개방 표준 전송 프로토콜인 Media over QUIC을 쓰고 있다.== 송출과 재생 모두를 염두에 두고 설계된 전송 계층이라, 지연이 더 낮고 불안정한 네트워크에서 더 버티며 크리에이터와 시청자에게 더 빠르게 반응하는 구조로 가는 토대가 된다는 것이 메타의 설명이다. 메타 내 여러 팀이 별도 프로토콜 스택을 다시 쌓지 않고도 같은 토대를 쓸 수 있다는 점도 들었다.\n\n인터넷은 문제마다 다른 미디어 프로토콜을 쌓아 왔다. 송출에는 RTMP, 재생에는 HLS와 DASH, 실시간 통화에는 WebRTC, 그 어디에도 깔끔히 들어맞지 않는 경우를 위해 메타는 RUSH를 만들었다. ==같은 앱에서 라이브를 켠 뒤 음성 통화를 하면 서로 다른 세 개의 프로토콜 스택을 거치게 되고==, 각각 별도의 서빙 인프라와 모니터링, 운영 전문성을 요구한다.\n\nMoQ는 QUIC 전송 계층 위에서 저지연 미디어 전달을 가능하게 하는 IETF 표준 초안으로, 메타와 구글, 아카마이, 시스코, 클라우드플레어, 학계가 함께 개발하고 있다. 핵심 추상화는 트랙이다. 퍼블리셔가 밀어 넣고 서브스크라이버가 릴레이 네트워크를 통해 받는 주소 지정 가능한 미디어 오브젝트 스트림이며, 릴레이는 미디어 페이로드를 해석하지 않고 MoQ 프레이밍과 전달 메타데이터만 이해해 캐시하고 전달한다.\n\n메타는 거의 10년간 RTMP를 넘기 위해 만든 자체 QUIC 기반 프로토콜 RUSH로 라이브를 돌렸다. RUSH가 QUIC으로 대규모 라이브 미디어를 운반할 수 있음을 증명했고 MoQ의 선행 주자가 됐으며, 그 운영 경험이 MoQ에 베팅한 근거가 됐다. 라이브 영상과 실시간 AI, 생성형 제작 도구가 같은 제품 표면을 공유하면서 용도 사이의 경계가 흐려지고 있다는 판단도 함께다."
+      },
+      {
+        "id": "rss_ce9e3e86b1",
+        "title": "SRE 책 10년, 2판이 나온다",
+        "originalTitle": "10 Years of the SRE book: Announcing the second edition of \"Site Reliability Engineering”",
+        "excerpt": "1판이 나왔을 때 많은 조직은 초기 클라우드 이전과 모놀리식 탈출을 고민하고 있었다. 지금의 과제는 클라우드 도입이 아니라 거대한 복잡성 속에서 신뢰성을 지키는 일이다.",
+        "url": "https://cloud.google.com/blog/products/devops-sre/sre-book-second-edition/",
+        "source": "Google Cloud Blog",
+        "publisher": "Google",
+        "tier": 1,
+        "category": "dev_tools",
+        "publishedAt": "2026-10-13T01:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 4,
+        "body": "구글이 'Site Reliability Engineering' 2판을 발표했다. 1판 시점과 달리 지금 조직들은 높은 속도로 전 세계 규모의 소프트웨어를 내보내고 있고, 시스템 경계는 복잡해지고 의존성은 깊어지고 실패 양상은 더 복잡하고 피해가 크다. ==생성형 AI 같은 자원 집약적 워크로드의 폭증이 인프라 관리의 경제성과 운영 요구사항 자체를 바꿔놨다는 것이 개정의 배경이다.==\n\n2판은 지난 10년간 SRE 관행이 수작업과 개별 과제에서 자동화된 플랫폼 역량으로 옮겨간 과정을 짚는다. SLO와 에러 버짓은 2016년의 기본 가용성 지표와 수동 정책에서 사용자 중심 다계층 SLO, 동적 소진율 알림, 자동 정책 집행으로 성숙했다. 모니터링은 정적 대시보드와 수동 알림 분류에서 OpenTelemetry와 분산 트레이싱, 자동 이상 상관 분석으로 넘어갔다.\n\n자동화는 개별 작업용 커스텀 스크립트에서 선언적 코드형 인프라와 내부 개발자 플랫폼, 자기 치유 시스템으로 바뀌었고, 신뢰성 테스트는 예정된 게임데이와 합성 부하 테스트에만 의존하지 않고 지속적 복원력 점검과 프로덕션 카나리 검증을 품는다. 용량 관리는 수동 프로비저닝과 정적 예측 대신 ==동적 오토스케일링과 FinOps 정렬, GPU·TPU 워크로드 전용 비용·클러스터 최적화로== 대체됐다.\n\n조직 모델도 특정 애플리케이션에 붙은 전담 팀을 넘어 하이브리드 모델, 플랫폼 엔지니어링 통합, 제품팀에 심어진 신뢰성 챔피언으로 넓어졌다. 책은 SRE와 AI의 양방향 관계도 다룬다. 대규모 GPU·TPU 클러스터의 하드웨어 신뢰성 관리처럼 대형 언어 모델과 파운데이션 모델을 운영할 때 생기는 새로운 과제를 방법론으로 정리했다."
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_b865794ab8",
+        "title": "AMD, OCP에서 에이전트 실행용 랙 'Helion' 공개",
+        "originalTitle": "AMD unveils Helion racks for AI agents at OCP summit",
+        "excerpt": "기존 Helios가 프런티어 학습과 대규모 추론을 맡는다면 새 Helion은 에이전트 실행을 겨냥한다. 한 글자 차이 이름이 혼동을 부른다는 지적도 함께 나왔다.",
+        "url": "https://www.theregister.com/systems/2026/10/12/amd-unveils-helion-racks-for-ai-agents-at-ocp-summit/5302652",
+        "source": "The Register",
+        "publisher": "The Register",
+        "tier": 2,
+        "category": "big_tech",
+        "publishedAt": "2026-10-13T00:51:36+09:00",
+        "readTime": 3,
+        "imageGradient": 2,
+        "body": "AMD가 산호세에서 열린 OCP 서밋 2026에서 랙 스케일 AI 제품군에 에이전트 실행용 설계를 추가했다. 새 레퍼런스 설계 이름은 Helion으로, CPU만 쓰는 구성과 CPU·GPU 통합 배치, 액체 냉각과 공기 냉각 버전을 모두 제공한다. ==AMD의 CPU와 가속기를 중심에 둔 OCP 준수 에이전틱 AI 인프라 설계도라는 위치다.==\n\n구성에 따라 Venice Epyc 256코어 버전을 담은 컴퓨트 노드로 Zen 6 CPU 코어를 최대 32,768개, Instinct MI350P 가속기를 최대 16개, 네트워킹 대역폭을 최대 102Tbps까지 올린다고 광고한다. CPU 전용 하이퍼스케일 구성은 에이전트 실행에 전용 용량을 주고 모델 추론 인프라는 따로 연결하며, 엔터프라이즈 구성은 에이전트 실행과 GPU 추론, 보조 워크로드를 한 랙에 합친다.\n\n블레이드도 밀집형과 균형형, 고성능형으로 갈린다. 밀집 배치에는 400W급 EPYC 9006을, 성능 블레이드에는 코어를 96개로 줄이고 5GHz로 끌어올린 버전을, 균형 블레이드에는 600W급 256코어 프로세서를 쓴다. 5U 서버에 Instinct MI350P 여덟 장을 담은 GPU 추론 블레이드와, 데이터베이스·스토리지 서버나 기술 연산용 범용 블레이드도 있다.\n\nAMD 컴퓨트·엔터프라이즈 AI 담당 SVP 댄 맥나마라는 에이전틱 AI가 단일 워크로드가 아니라며 워크로드마다 다른 연산 요구에 적응하는 인프라가 필요하다고 말했다. ==AMD는 Helion 규격을 OCP에 기여해 커뮤니티가 가져다 쓰고 발전시킬 수 있게 할 계획이다.== 파트너가 만든 구성은 2026년 11월로 예정돼 있고, 시스코와 델, HPE, 폭스콘, 레노버, 슈퍼마이크로 등이 참여한다."
+      },
+      {
+        "id": "rss_c9a52a176b",
+        "title": "구글, 질병을 분자부터 환자까지 좇은 연구 성과를 모아 공개",
+        "originalTitle": "Applying technology to understand and treat disease",
+        "excerpt": "AI가 신약 후보를 실제로 골라낸 사례를 찾는다면 참고할 목록이다. 기초 생물학에서 환자까지 이어지는 구간을 훑는다.",
+        "url": "https://blog.google/innovation-and-ai/technology/health/ai-health-research/",
+        "source": "Google Blog",
+        "publisher": "Google",
+        "tier": 1,
+        "category": "big_tech",
+        "publishedAt": "2026-10-13T02:30:00+09:00",
+        "readTime": 4,
+        "imageGradient": 2,
+        "body": "구글은 세포 수준의 기초 발견부터 실험실 분석, 환자 영향까지 걸친 건강 연구와 도구를 정리해 공개했다. ==지난 5년간 질병 이해와 대응에 관한 동료 심사 논문 90편을 냈고 인용은 9만 회를 넘었다.== 임상의와 학술기관, 연구자와 협업해 발견이 실험실을 벗어나 환자에게 이르도록 하는 것이 목표라고 밝혔다.\n\n질병의 작동 원리를 읽는 쪽에는 AlphaGenome Atlas가 있다. 인간 게놈의 한 글자 변이가 분자생물학에 어떤 영향을 주는지에 대한 예측을 모은 가장 포괄적인 카탈로그라는 설명이다. 초기 단계 생물학 모델을 연구자가 함께 쓰는 도구로 놓고, 분자와 유전, 세포 수준에서 질병이 어떻게 작동하는지 드러내는 방향이다.\n\n구체적 사례도 붙였다. 바르셀로나 세계보건연구소 연구진은 AlphaFold로 화합물 3만 종을 가상 스크리닝해 샤가스병에 대한 항기생충 활성을 찾았고, 이미 FDA 승인을 받은 약물 두 개를 용도 변경 후보로 추렸다. 샤가스병은 약 800만 명이 앓는 소외 열대질환으로 방치하면 생명을 위협하는 합병증으로 이어진다.\n\n엑서터 대학 연구진은 AlphaGenome Atlas로 5만 4천여 명의 게놈 데이터를 훑었다. ==영향 없는 변이가 만드는 배경 잡음 속에서 체내 핵심 단백질의 양을 좌우하는 희귀 변이를 짚어냈다.== 노화와 연결된 PLA2G7, 세포의 산소 센서 역할을 하는 EGLN1이 그렇게 나온 결과다."
+      },
+      {
+        "id": "rss_4e42c6d705",
+        "title": "구글, 픽셀 워치와 핏비트 에어 사이를 메우는 '핏비트 엣지'",
+        "originalTitle": "Google Fitbit Edge: Our all-new smartest fitness tracker ever",
+        "excerpt": "시계는 과하고 밴드는 아쉬운 쪽을 겨눈 물건이다. 얇아졌는데 표시 영역은 오히려 커졌다고 주장한다.",
+        "url": "https://blog.google/products-and-platforms/devices/fitbit/google-fitbit-edge/",
+        "source": "Google Blog",
+        "publisher": "Google",
+        "tier": 1,
+        "category": "big_tech",
+        "publishedAt": "2026-10-12T22:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 2,
+        "body": "구글이 차세대 피트니스 트래커 Google Fitbit Edge를 사전 주문으로 공개했다. 픽셀 워치 같은 고급 스마트워치와 핏비트 에어처럼 가볍고 화면 없는 웨어러블 사이에서 자리를 찾는 사람이 많다는 것이 제품의 전제다. ==재활용 알루미늄 케이스에 손목을 따라 흐르는 얇은 본체로, 가벼운 설계에도 주말에서 주말까지 가는 배터리를 낸다고 밝혔다.==\n\n먼저 픽셀 워치 같은 스마트워치 라인과 화면 없는 핏비트 에어에 들어갔던 구글 헬스 코치가 이번에 가장 얇고 한눈에 보는 기기로 내려왔다. 지능형 개인화 코칭 경험을 그대로 옮기면서 핏비트의 건강 데이터 축적과 구글의 디자인, 일상 도움 기능을 합쳤다는 설명이다.\n\n화면은 얇은 두께에도 역대 트래커 중 가장 크고 밝다고 내세운다. ==이전 트래커보다 46% 넓은 표시 영역에, 직사광선 아래에서도 읽히는 밝기를 제공한다.== 하이브리드 OLED 디스플레이에 한눈에 보는 타일과 표현력 있는 시계 화면을 올려 통계 사이를 직관적으로 오가게 했다.\n\n경주를 준비하든 빡빡한 일정을 돌리든 지속 가능한 습관을 만들든, 손목 위의 동반자가 동기를 유지하게 돕는다는 것이 제품 메시지다. 레이스 훈련용 고기능 워치와 조용한 단순함 사이에서 어느 쪽도 고르지 못했던 사용자층이 이 제품의 과녁이다."
+      },
+      {
+        "id": "rss_de69746aab",
+        "title": "코지마의 'P.T.', 10여 년 만에 PC 포팅으로 보존된다",
+        "originalTitle": "Long-lost horror gaming cult classic P.T. gets a much-needed PC port",
+        "excerpt": "지금까지 공식적으로 P.T.를 하려면 배포 시기에 내려받아 둔 PS4가 필요했다. 한 개발자가 원본 파일로 PC 실행 파일을 만드는 도구를 내놨다.",
+        "url": "https://arstechnica.com/gaming/2026/10/long-lost-horror-gaming-cult-classic-p-t-gets-a-much-needed-pc-port/",
+        "source": "Ars Technica",
+        "publisher": "Ars Technica",
+        "tier": 2,
+        "category": "big_tech",
+        "publishedAt": "2026-10-13T01:01:08+09:00",
+        "readTime": 2,
+        "imageGradient": 1,
+        "body": "코지마 히데오가 취소된 '사일런트 힐스' 프로젝트를 위해 만든 '플레이어블 트레일러' P.T.는 10년 넘게 배포 기간에 내려받아 둔, 점점 희귀해지는 PS4로만 공식 플레이가 가능했다. ==개발자 로리안 자비에르는 원본 PS4 파일에서 x86 PC 실행 파일을 만드는 포팅 도구로 이 게임을 보존하려 한다.==\n\n오픈소스 포팅 작업은 P.T. 엔진을 C++와 Vulkan으로 다시 만들고, 원본 PS4 게임 파일을 써서 모든 레벨과 모델, 텍스처, 사운드, 스크립트, 컷신을 재현한다고 깃허브 설명에 적혀 있다. 즉 정당하게 복호화한 원본 사본이 없으면 플레이 가능한 PC 버전을 만들 수 없다.\n\n원본 파일에 의존하는 방식 덕에 이 포팅은 PC 사용자를 위해 P.T.의 분위기를 모방했던 이전 취미 프로젝트들보다 원본에 가깝다. ==최근 PS4 에뮬레이터도 P.T.를 완주 가능한 수준에 도달했지만==, 네이티브 포팅에는 업스케일링과 프레임 생성, 카메라 모드, 실험적 3인칭과 VR 지원, 사용되지 않은 콘텐츠를 포함한 게임 내 자산을 보고 듣는 박물관 섹션 같은 추가 기능이 붙는다.\n\n자비에르는 'P.T.가 아직 설치된 콘솔 말고 다른 어딘가에서도 계속 존재할 자격이 있다고 생각해' 작업을 시작했다고 말했다."
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tw_2109430343346581527",
+        "author": "Tibo",
+        "handle": "thsottiaux",
+        "content": "7일차. ==Codex와 Work에서 쓸 때 GPT-6.1 Sol의 기본 컨텍스트 길이를 272k에서 500k로 올렸다.== 약 80% 증가다. 앞으로 더 올릴 생각이지만, 이번 조정은 컴팩션이 일어나는 빈도를 줄이고 많은 맥락과 뉘앙스를 오래 유지해야 하는 작업에 도움이 된다. 신중하게 테스트했고 대부분의 사용자에게 새로운 최적점이다. 원하면 더 높거나 낮게 직접 바꿀 수 있으며 GPT-6.1 Sol의 최대 컨텍스트 길이는 1M이다.",
+        "context": "OpenAI 쪽에서 'Day N' 형식으로 연일 변경 사항을 알리는 계정의 게시물이다. 기본 컨텍스트 길이는 에이전트형 코딩에서 대화가 압축되는 빈도를 좌우하기 때문에, 기본값이 두 배 가까이 늘어나면 긴 작업의 체감이 달라진다.",
+        "url": "https://x.com/thsottiaux/status/2109430343346581527",
+        "publishedAt": "2026-10-12T08:45:59+09:00",
+        "metrics": {
+          "likes": 13839,
+          "retweets": 548,
+          "replies": 1741,
+          "views": 1944267
+        },
+        "thread": [
+          "이번 변경과 함께, 구독에서 사용량을 끌어 쓸 때는 GPT-6.1 Sol에 긴 컨텍스트 요금을 부과하지 않는다."
+        ]
+      },
+      {
+        "id": "tw_2109684519896780938",
+        "author": "jpark",
+        "handle": "jparkjmc",
+        "content": "재귀적 자기 개선을 측정하는 새로운 업계 표준 DeepRSI를 공개한다. 기존 벤치마크의 과제는 기여자 기반이고 시야가 짧았다(약 12시간). DeepRSI에서는 진행 중인 비공개 연구에서 실제로 끌어온 ML 과제를 ==에이전트가 48시간 동안 붙들고 일하게 한다.==",
+        "context": "재귀적 자기 개선은 AI가 스스로를 개선하는 고리를 뜻하는데, 그동안의 측정 기준은 짧은 과제에 머물러 있었다. 과제 길이를 48시간으로 늘리고 진행 중인 실제 연구를 쓰는 구성은 벤치마크 오염을 피하려는 시도이기도 하다.",
+        "url": "https://x.com/jparkjmc/status/2109684519896780938",
+        "publishedAt": "2026-10-13T01:36:00+09:00",
+        "metrics": {
+          "likes": 639,
+          "retweets": 85,
+          "replies": 107,
+          "views": 44473
+        },
+        "retweetedBy": "JeffDean"
+      },
+      {
+        "id": "tw_2109384286763958742",
+        "author": "Addy Osmani",
+        "handle": "addyosmani",
+        "content": "에이전트가 '대규모에서는 평균적으로 훨씬 나은 코드를 쓴다'는 말은 맞다. 그 '대규모'는 검증에서 나온다. 에이전트는 확인을 값싸게 만든다. 좋은 코드를 비싸게 만들던 것들, 테스트와 벤치마크와 명세와 실제 E2E 실행이 이제는 에이전트에게 요청하면 되는 값싼 일이 됐다. ==그래서 우리 일은 모든 줄을 리뷰하기보다 에이전트가 스스로 돌릴 수 있는 루프를 만들기에 가까워진다.== 에이전트가 뭔가를 틀리면 공유 설정이나 훅, 테스트로 적어 두어 같은 일이 두 번 생기지 않게 하라. 무엇을 출시할지는 사람이 책임지지만, 이제는 디프가 아니라 증거를 리뷰한다.",
+        "context": "애디 오스마니가 쓴 글로, 에이전트에게 코드 리뷰를 맡기면 슬롯머신처럼 매번 새 버그를 찾아낸다는 다른 개발자의 지적에 답하는 맥락이다. 언제 코드가 다 됐다고 판단할지를 사람의 눈이 아니라 검증 루프로 옮기자는 주장이다.",
+        "url": "https://x.com/addyosmani/status/2109384286763958742",
+        "publishedAt": "2026-10-12T05:42:59+09:00",
+        "metrics": {
+          "likes": 584,
+          "retweets": 49,
+          "replies": 79,
+          "views": 42377
+        },
+        "quoted": {
+          "author": "lauren",
+          "handle": "poteto",
+          "url": "https://x.com/poteto/status/2109110547824378140",
+          "content": "코드베이스에는 늘 슬롭이 있었다. 임베디드처럼 미션 크리티컬한 영역 밖에서는 코드가 완벽해야 하는 경우가 드물기 때문에 우리는 그걸 받아들여 왔다. 소프트웨어 엔지니어링은 끊임없이 변하고 거의 유기적인 것을 만드는 독특한 공학이다. 사용자 취향이 바뀌고 멘탈 모델이 진화하고 기능이 생겼다 사라진다. 솔직히 나와 오래 코딩해 온 많은 사람들은 2024년 무렵만 해도 에이전트가 프로덕션 코드를 쓸 거라고 믿지 않았다. 우리의 아름다운 코드베이스에 들어올 슬롭은 어떡하나 싶었다. 그런데 그 전에도 사람이 만든 슬롭은 있었다."
+        }
+      },
+      {
+        "id": "tw_2109684324048236713",
+        "author": "Kevin Whinnery",
+        "handle": "kevinwhinnery",
+        "content": "OpenAI Agents API에 큰 업데이트. ==샌드박스 사전 워밍==으로 지연을 크게 줄인다. 작동 방식은 스레드에서 설명한다.",
+        "context": "에이전트가 코드를 실행할 샌드박스를 띄우는 시간은 응답 지연의 큰 부분을 차지한다. 샌드박스를 미리 준비해 두는 방식으로 그 비용을 걷어내겠다는 변경이다.",
+        "url": "https://x.com/kevinwhinnery/status/2109684324048236713",
+        "publishedAt": "2026-10-13T01:35:13+09:00",
+        "metrics": {
+          "likes": 83,
+          "retweets": 17,
+          "replies": 6,
+          "views": 9994
+        },
+        "retweetedBy": "OpenAIDevs"
+      },
+      {
+        "id": "tw_2109633028897321352",
+        "author": "Serhii Shchoholiev",
+        "handle": "sshchoholiev",
+        "content": "다중 레이블 문서 분류는 Decision 모델에 아주 잘 맞는 용례다. OpenAI의 Decisions API는 에이전트의 93.5% 대비 ==98.1% F1을 내면서 비용은 7분의 1, p90 지연은 28배 낮았다.==",
+        "context": "에이전트에 모든 판단을 맡기는 대신 분류나 판정 같은 좁은 작업을 전용 모델로 떼어내는 접근의 실측값이다. 같은 작업을 범용 에이전트로 돌릴 때와의 비용·지연 차이를 구체적인 수치로 보여준다.",
+        "url": "https://x.com/sshchoholiev/status/2109633028897321352",
+        "publishedAt": "2026-10-12T22:11:23+09:00",
+        "metrics": {
+          "likes": 25,
+          "retweets": 1,
+          "replies": 1,
+          "views": 3288
+        },
+        "retweetedBy": "OpenAIDevs"
+      },
+      {
+        "id": "tw_2109664228193751076",
+        "author": "David Soria Parra",
+        "handle": "dsp_",
+        "content": "월급을 다시 Claude API 토큰에 쏟아붓는 것도 순환 금융이라고 해야 할까?",
+        "context": "AI 업계의 순환 투자 구조를 두고 오가는 농담이다. 개인 개발자가 모델 사용료로 지출하는 금액이 만만치 않다는 정서가 깔려 있다.",
+        "url": "https://x.com/dsp_/status/2109664228193751076",
+        "publishedAt": "2026-10-13T00:15:22+09:00",
+        "metrics": {
+          "likes": 35,
+          "retweets": 3,
+          "replies": 4,
+          "views": 1736
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "th_DeaCqKekajB",
+        "author": "choi.openai",
+        "handle": "choi.openai",
+        "content": "Intelligent Internet CEO 에마드 모스타크는 초경량 양자화 기술로 프런티어 AI 모델의 인프라 진입 장벽이 완전히 무너졌다고 밝혔다. 최신 Qwen 27B 모델을 1.58비트로 양자화한 결과 ==성능 손실은 5%에 불과한 반면 모델 용량은 6GB 수준으로 줄었다.== 연초 수백 달러를 내야 했던 수준의 모델이 6GB RAM을 갖춘 일반 기기나 RTX 5090 GPU에서 초당 300토큰으로 돌아갈 수 있다는 뜻이다. 그는 초거대 엔비디아 GPU 클러스터가 필요했던 지능이 이제 8GB RAM의 흔한 PC에서도 거대한 군집으로 무한 복제될 수 있다고 강조했다.",
+        "context": "영상 인터뷰를 한국어로 정리해 올리는 계정의 게시물이다. 폐쇄형 AI의 독점 구도가 비용 절감과 로컬 온디바이스 배포로 흔들리고, 1인 개발자와 오픈소스 진영이 주도하는 생산성 변화가 시작됐다는 주장으로 이어진다.",
+        "url": "https://www.threads.com/@choi.openai/post/DeaCqKekajB",
+        "publishedAt": "2026-10-13T05:00:00+09:00",
+        "platform": "threads"
+      },
+      {
+        "id": "th_DeZ74-WiGxe",
+        "author": "choi.openai",
+        "handle": "choi.openai",
+        "content": "피터 틸은 지난 수십 년간 이어진 기술 침체론에 대한 생각을 일부 바꿨다고 밝혔다. 1970년대 이후 소프트웨어와 인터넷 같은 '비트의 세계'는 진보했으나 원자력과 우주, 화학공학 같은 '원자의 세계'는 심각한 정체를 겪으며 사회적 양극화와 제로섬 갈등을 낳았다는 분석이다. 90년대 인터넷조차 문명 전체를 도약시키기엔 한계가 있었다고 봤다. 다만 그는 ==AI는 인터넷보다 거대하며 경제 성장을 다시 가속할 잠재력을 지녔다고== 진단했다.",
+        "context": "영상 인터뷰 내용을 한국어로 요약해 전하는 게시물이다. 기술 침체론을 오래 주장해 온 인물이 AI를 그 예외로 두는 지점이 논점이다.",
+        "url": "https://www.threads.com/@choi.openai/post/DeZ74-WiGxe",
+        "publishedAt": "2026-10-13T04:00:52+09:00",
+        "platform": "threads"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "rd_1x3unnr",
+        "title": "딥마인드 기상 모델, 허리케인을 상륙 11일 전에 포착했다",
+        "originalTitle": "Google DeepMind’s AI weather model picked up Hurricane Isaias 11 days before landfall, pinned where it would hit 4 days out and nailed its peak strength 3 days out—potentially giving communities days more time to evacuate and prepare",
+        "summary": "구글 딥마인드의 AI 기상 모델이 허리케인 아이사이아스를 상륙 11일 전에 포착하고 ==4일 전에 상륙 지점을 특정하고 3일 전에 최대 강도를 맞혔다는== 내용이다. 주민들이 대피와 준비에 며칠을 더 벌 수 있다는 점에서 주목받았다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1x3unnr/google_deepminds_ai_weather_model_picked_up/",
+        "subreddit": "singularity",
+        "score": 0,
+        "rank": 1,
+        "publishedAt": "2026-10-12T15:37:32+09:00"
+      },
+      {
+        "id": "rd_1x3yeti",
+        "title": "리누스 토르발스, LLM으로 커널 코드를 읽히게 만들고 버그 셋을 더 찾았다",
+        "originalTitle": "Linus Torvalds Used AI To Make Code Decipherable & Uncovered More Bugs",
+        "summary": "토르발스는 assoc-array-fixes 태그에 닐스 올로게가 보고한 assoc_array 라이브러리 버그의 패치가 '따라가기엔 너무 난해해' 자신이 늘 설파하던 대로 최신 LLM 도구로 코드를 파악했다고 적었다. 큰 함수들을 쪼개 읽히게 만든 뒤 유저 공간 테스트 하네스로 돌렸고, ==보고된 버그를 확인한 것은 물론 2013년 최초 커밋까지 거슬러 올라가는 버그 세 개를 더 찾아냈다.==",
+        "url": "https://www.reddit.com/r/singularity/comments/1x3yeti/linus_torvalds_used_ai_to_make_code_decipherable/",
+        "subreddit": "singularity",
+        "score": 0,
+        "rank": 2,
+        "publishedAt": "2026-10-12T19:34:04+09:00"
+      },
+      {
+        "id": "rd_1x3th4p",
+        "title": "Decision 3.0, 0.6B부터 27B까지 열린 멀티모달 판정 모델",
+        "originalTitle": "Decision 3.0: open, multimodal decision models from 0.6B to 27B. Ranks #1 on both Jev Decision Index boards",
+        "summary": "vLLM Semantic Router 팀과 함께 Apache-2.0으로 공개한 판정 모델 계열로, Qwen3.5의 0.8B부터 9B와 Qwen3.8-27B 위에 올려 텍스트와 이미지, 영상을 읽는다. ==선택과 예·아니오, 점수 세 가지 판정 유형을 텍스트 생성 없이 모든 답에 확률로 내놓고==, 같은 입력에 대한 여러 질문을 한 번의 호출로 각각 별도 포워드 패스로 처리한다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3th4p/decision_30_open_multimodal_decision_models_from/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "rank": 1,
+        "publishedAt": "2026-10-12T14:26:01+09:00"
+      },
+      {
+        "id": "rd_1x41myz",
+        "title": "Qwen, 초장기 과제용 에이전트 강화학습 프레임워크 QwenGyre 공개",
+        "originalTitle": "Qwen released QwenGyre - RL framework for training AI agents on extremely long complex tasks",
+        "summary": "탄력적 스케줄러가 롤아웃과 학습 사이에 GPU를 재배치해 실행을 끊지 않으면서 Colocate 대비 최대 1.85배, Async 대비 1.78배 속도를 낸다. 분기되는 실행을 접두사를 공유하는 궤적 트리로 바꿔 학습 샘플을 중복 없이 제한하고, ==롤아웃당 약 70만 토큰 규모에서 NL2RepoBench를 52.5%에서 58.5%로 올리며 학습 시간을 약 44% 줄였다.==",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x41myz/qwen_released_qwengyre_rl_framework_for_training/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "rank": 2,
+        "publishedAt": "2026-10-12T22:18:10+09:00"
+      },
+      {
+        "id": "rd_1x3nkty",
+        "title": "Opus 5.5로 스타폭스와 소닉 CD를 디컴파일해 네이티브 이식했다",
+        "originalTitle": "Opus 5.5 is INSANE at decompilation / ports",
+        "summary": "작성자는 별도 스킬 없이 Opus 5.5만으로 스타폭스와 스타폭스 2, 소닉 CD를 윈도와 맥, 리눅스용으로 디컴파일하고 이식했다고 전한다. ==클로드가 롬을 분석해 고수준 하드웨어 런타임을 만들고 해상도와 프레임레이트, 오디오, 컨트롤러 지원까지 붙였으며==, 추출한 소스를 직접 고쳐 SuperFX 오버클럭과 소닉 CD의 16:9 지원을 구현했다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1x3nkty/opus_55_is_insane_at_decompilation_ports/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "rank": 2,
+        "publishedAt": "2026-10-12T09:12:14+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_859a8e76f6",
+        "title": "토스증권이 Milvus 사이징 기준을 직접 만든 기록",
+        "originalTitle": "CPU 뼛속까지 써먹고, Milvus 사이징 기준을 만들기까지",
+        "excerpt": "온프레미스에서 벡터 검색을 올리기 전에 필요한 CPU와 메모리 규모를 가늠해야 했는데, 공개 벤치마크의 QPS만으로는 자사 장비의 처리량과 지연을 알 수 없었다. 인덱스와 검색 설정을 바꿔가며 측정하고 ==CPU와 메모리 배치를 조정해 처리량을 41% 높였다.==",
+        "url": "https://toss.tech/article/milvus-optimization-and-sizing",
+        "source": "토스 기술블로그",
+        "publisher": "토스",
+        "tier": 1,
+        "category": "quick_bites",
+        "publishedAt": "2026-10-12T10:00:00+09:00",
+        "readTime": 8,
+        "imageGradient": 7
+      },
+      {
+        "id": "rss_065815f248",
+        "title": "포스트그레스가 느린 게 아니라 스토리지가 느린 것이다",
+        "originalTitle": "Postgres가 느린 게 아니라 스토리지가 느린 것이다",
+        "excerpt": "33억 행 테이블에 무작위 UPDATE를 걸어 같은 부하를 돌렸을 때 ==로컬 NVMe가 3,000 IOPS 기본 gp3 EBS보다 처리량이 9.24배 높았다.== 작업 데이터가 메모리와 운영체제 페이지 캐시를 넘어서면 물리 I/O가 늘어난다는 점을 짚는다. 해당 워크로드와 스토리지 구성에 한정된 결과다.",
+        "url": "https://news.hada.io/topic?id=35244",
+        "source": "GeekNews",
+        "publisher": "GeekNews",
+        "tier": 3,
+        "category": "quick_bites",
+        "publishedAt": "2026-10-12T21:39:00+09:00",
+        "readTime": 2,
+        "imageGradient": 3
+      },
+      {
+        "id": "rss_8614958905",
+        "title": "Z.ai, 법률 특화 모델 GLM-Legal 공개",
+        "originalTitle": "GLM-Legal",
+        "excerpt": "경량 GLM-5.3-Flash를 기반으로 법률 지식뿐 아니라 원문 문서 분석부터 논증 구성과 최종 결과물 작성까지 수행하도록 훈련한 법률 특화 모델이다. 자체 평가에서 ==Harvey LAB 전체 통과율 19.2%==를 기록해 기반 모델보다 12.5%포인트 높았다고 밝혔다.",
+        "url": "https://news.hada.io/topic?id=35252",
+        "source": "GeekNews",
+        "publisher": "GeekNews",
+        "tier": 3,
+        "category": "quick_bites",
+        "publishedAt": "2026-10-13T03:42:24+09:00",
+        "readTime": 2,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_ba8f328a1f",
+        "title": "프랑스 슈퍼마켓 냉장 설비, 사이버공격으로 멈췄다",
+        "originalTitle": "프랑스 슈퍼마켓, ‘전례 없는’ 사이버공격으로 냉장 설비 가동 중단",
+        "excerpt": "E. Leclerc와 Intermarche, Cooperative U 등 프랑스 주요 유통 체인이 피해를 확인했다. ==수백 개 매장의 냉장 설비 온도가 올라 신선식품과 냉동식품을 폐기해야 하는 상황이 발생했다.== 확인된 피해 대상은 Intermarche와 Netto 매장 최소 300곳이다.",
+        "url": "https://news.hada.io/topic?id=35250",
+        "source": "GeekNews",
+        "publisher": "GeekNews",
+        "tier": 3,
+        "category": "quick_bites",
+        "publishedAt": "2026-10-13T02:31:39+09:00",
+        "readTime": 2,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_f4269c508e",
+        "title": "if(kakao)26, 모든 세션을 온라인 라이브로 공개",
+        "originalTitle": "if(kakao)26, 온라인 라이브로 함께해요!",
+        "excerpt": "10월 13일과 14일 카카오 AI 캠퍼스에서 if(kakao)26이 열린다. ==키노트를 포함한 모든 발표 세션이 라이브 스트리밍으로 제공되며 누구나 시청할 수 있다.== 첫째 날은 '모든 연결에 지능을', 둘째 날은 '기술이 신뢰가 되는 순간'을 중심에 두고, 행사 종료 후에는 녹화 영상이 제공된다.",
+        "url": "https://tech.kakao.com/posts/839",
+        "source": "카카오 기술블로그",
+        "publisher": "카카오",
+        "tier": 1,
+        "category": "quick_bites",
+        "publishedAt": "2026-10-12T00:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 5
+      }
+    ]
+  }
+}
