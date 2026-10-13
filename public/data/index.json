@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-10-14",
+      "issueNumber": 185,
+      "mainHeadline": "구글, 프런티어 모델 Gemini 4 Argon 전 세계 정식 공개",
+      "headlines": [
+        "앤트로픽, 하루 머지 3만 건에 git을 버리고 자체 버전관리 Scion으로 이전",
+        "메타, 프런티어급 Muse Wonder 공개하며 14개월 만에 선두권 바로 아래로",
+        "애플, HomeView와 HomePod mini 2, Apple TV 4K로 스마트홈 전략 재부팅"
+      ]
+    },
+    {
       "date": "2026-10-13",
       "issueNumber": 184,
       "mainHeadline": "메타, 에이전트용 프런티어 모델 'Muse Wonder' 공개",

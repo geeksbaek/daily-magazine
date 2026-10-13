@@ -1,0 +1,606 @@
+{
+  "date": "2026-10-14",
+  "issueNumber": 185,
+  "asOf": "2026-10-13T20:04:00+00:00",
+  "cover": {
+    "mainHeadline": "구글, 프런티어 모델 Gemini 4 Argon 전 세계 정식 공개",
+    "mainExcerpt": "구글이 Gemini 4 Argon을 개발자와 기업, 구독자에게 동시에 열었다. 코딩과 금융, 법률, 사이버보안, 과학처럼 여러 단계를 거쳐야 하는 작업을 겨냥한 모델로, ==경제 영역 성능을 측정하는 Vals Index에서 1위에 올랐다==고 밝혔다. 도입가는 입력 100만 토큰당 2달러, 출력 100만 토큰당 10달러다.",
+    "headlines": [
+      "앤트로픽, 하루 머지 3만 건에 git을 버리고 자체 버전관리 Scion으로 이전",
+      "메타, 프런티어급 Muse Wonder 공개하며 14개월 만에 선두권 바로 아래로",
+      "애플, HomeView와 HomePod mini 2, Apple TV 4K로 스마트홈 전략 재부팅"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_66cb1e6884",
+      "title": "구글, 프런티어 모델 Gemini 4 Argon 전 세계 정식 공개",
+      "originalTitle": "Gemini 4 Argon: Built to solve your hardest problems",
+      "excerpt": "구글이 사내 최난도 엔지니어링 문제에 먼저 투입해 본 모델을 외부에 공개했다. 발표에는 크롬 코드 정리부터 양자컴퓨팅과 핵융합 연구까지 적용 사례가 함께 담겼다.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "source": "Google AI Blog",
+      "publisher": "Google",
+      "tier": 1,
+      "category": "ai_ml",
+      "publishedAt": "2026-10-14T01:00:00+09:00",
+      "readTime": 4,
+      "imageGradient": 4,
+      "body": "Argon은 AI Studio와 Gemini 플랫폼의 유료 API를 통해 개발자와 기업에 열렸고, Google AI Ultra 구독자는 Antigravity에서, Ultra와 Pro 구독자는 Gemini 앱과 검색의 AI 모드에서 쓸 수 있다. 구글은 코딩과 금융, 법률, 사이버보안, 과학 영역의 복잡한 실무 과제에서 다른 프런티어 모델을 앞섰다고 설명했다.\n\n사내 적용 수치가 함께 공개됐다. ==Antigravity에서 Argon을 쓴 팀들은 에이전트 코드 제출이 35% 이상 늘고 코드 롤백은 3분의 1가까이 줄었다.== 크롬 팀은 약 600만 줄에 달하는 레거시 폴더에서 브라우저 기능 코드와 핵심 웹페이지 처리 로직을 분리하는 작업에 모델을 투입했다.\n\n구글이 제시한 활용 갈래는 네 가지다. 대규모 코드베이스 리팩터링과 최적화, 법률과 금융, 과학 업무 흐름의 최적화, 치명적 보안 취약점의 탐색과 패치, 그리고 양자컴퓨팅과 핵융합, 생명과학에서의 새로운 돌파다. 모델 발표를 벤치마크 점수가 아니라 깊은 작업 단위로 묶어 설명한 셈이다.\n\n다만 공개된 근거는 구글 자체 측정과 내부 사례에 기대고 있다. ==가격 역시 도입가로 못 박아 두어, 외부 팀이 비용을 전제로 워크플로를 설계하기에는 아직 변수가 남아 있다.== 캐시된 입력에 95% 할인을 적용한다는 점은 반복 호출이 많은 에이전트 작업에 유리하지만, 그 할인 폭이 언제까지 유지되는지는 밝히지 않았다."
+    },
+    {
+      "id": "web_d6e89e4381",
+      "title": "앤트로픽, git을 버리고 만든 사내 버전관리 시스템 Scion",
+      "originalTitle": "Redesigning source control at Anthropic",
+      "excerpt": "코딩이 아니라 사람 규모에 맞춰 만든 개발 인프라가 병목이 됐다는 진단에서 출발했다. 엔지니어들과 Claude가 다섯 달 만에 모노레포 전체를 새 시스템으로 옮겼다.",
+      "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+      "source": "Anthropic Engineering",
+      "publisher": "Anthropic",
+      "tier": 1,
+      "category": "dev_tools",
+      "publishedAt": "2026-10-14T01:27:06+09:00",
+      "readTime": 6,
+      "imageGradient": 1,
+      "body": "앤트로픽의 모노레포에 하루 머지되는 코드 변경은 5월 평균 약 2,500건에서 9월에는 3만 건을 넘겼다. 메인 브랜치 히스토리만 약 100GB, 압축된 작업 사본은 25GB가 넘는다. ==CI 체크아웃은 하루 약 2,500만 회인데, 이를 그대로 git으로 받아오면 하루 600PB가 넘는 트래픽이 된다.==\n\nScion의 전제는 git과 정반대다. 클라이언트가 대부분 에이전트와 작업 잡이라 항상 온라인이라고 보고, 서버가 파일 히스토리와 blame 조회, 커밋 생성, 머지와 리베이스를 모두 처리한다. 클라이언트는 제한된 로컬 객체 캐시를 유지하고 작업 사본을 디스크에 배치하며 파일시스템 변경을 감시하는 역할만 맡는다.\n\n클라이언트가 쓰는 모든 소스 관리 질의를 API로도 노출한 점이 또 하나의 축이다. ==자동 bisect와 revert 파이프라인처럼 저장소 복제본 없이 돌아가는 내부 도구가 이 구조에서 나왔다.== git 시절에는 수백 개의 내부 미러를 운영하며 버텼지만, 머지 속도가 올라가면서 운영 난도도 함께 올라갔다.\n\n구글의 Piper와 메타의 Sapling 같은 선행 사례를 참고했고, 같은 기간에 코드 리뷰 도구 Antique와 코드 검색, 소스 관리 IAM도 함께 만들었다. 앤트로픽은 대부분의 조직이 당장 같은 문제를 겪지는 않을 것이라고 전제하면서도, AI 코딩 도구를 쓰는 곳이라면 머지않아 같은 압력 지점을 만날 것이라고 덧붙였다.",
+      "hnUrl": "https://news.ycombinator.com/item?id=50073633",
+      "points": 267,
+      "numComments": 228
+    },
+    {
+      "id": "rss_a2c304623a",
+      "title": "메타, 프런티어급 모델군 Muse Wonder 공개",
+      "originalTitle": "[AINews] Meta Muse Wonder & Wonder Full: MSL’s Claude 5.5-tier Frontier Model",
+      "excerpt": "메타 슈퍼인텔리전스 랩이 2세대 모델군을 내놓으며 개인과 전문 영역의 에이전트 작업에서 최고 성능을 주장했다. 제3자 평가에서는 선두 바로 아래에 자리를 잡았다.",
+      "url": "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder",
+      "source": "Latent Space",
+      "publisher": "Latent Space",
+      "tier": 2,
+      "category": "ai_ml",
+      "publishedAt": "2026-10-13T18:37:04+09:00",
+      "readTime": 6,
+      "imageGradient": 5,
+      "body": "공개된 모델은 빠른 프런티어 모델 Muse Wonder와 최대 추론 등급인 Muse Wonder Full 두 가지다. Wonder는 메타 모델 API와 Muse Code로 쓸 수 있고, Full은 Muse Code 구독자 전용이다. 저커버그는 Muse Spark가 1세대였고 Wonder는 프런티어로 데려가는 훨씬 크고 진전된 모델군이라고 설명했다.\n\n독립 평가 수치가 위치를 분명히 보여준다. Artificial Analysis 인텔리전스 인덱스 v4.3에서 Wonder Full은 56점, Wonder는 52점으로 Muse Spark 1.3의 48점에서 올라섰고, 선두는 58점의 Opus 5.5다. ==Terminal-Bench 4.0 점수는 33%에서 57%로 뛰어, 상승폭이 가장 큰 영역은 에이전트 과제였다.==\n\n알렉산드르 왕이 내세운 특징은 세 가지다. 며칠과 몇 주 단위로 이어지는 Active Memory, 막힌 지점을 뚫고 과업을 끝내는 Active Focus, 그리고 금융과 법률에서의 도메인 전문성이다. Spark 1.3과 Wonder 사이의 간격이 6주에 불과했다는 점도 함께 거론됐다.\n\n출시 당일에는 두 모델이 Muse Code 사용량 한도를 비정상적으로 빠르게 소진하는 문제가 나와, 같은 날 수정되고 전체 사용자 쿼터가 초기화됐다. ==안전성에 대해서는 적대적 지시에 대한 견고성과 개인정보 처리를 훈련에 반영했다고만 밝혔고, 상세한 시스템 카드는 함께 제시되지 않았다.=="
+    },
+    {
+      "id": "rss_f2f66b9166",
+      "title": "애플, 스마트 디스플레이 HomeView 앞세워 스마트홈 전략 재부팅",
+      "originalTitle": "Apple Reboots Its Smart-Home Strategy With New Hardware and a ‘Home Collection’",
+      "excerpt": "아마존과 구글이 10년간 주도해 온 영역에 애플이 새 기기 세 종과 협업 액세서리 라인업으로 다시 들어섰다. 올해 손본 Siri AI가 이 집 안 시스템의 머리 역할을 맡는다.",
+      "url": "https://www.wired.com/story/apple-overhauls-its-smart-home-play-with-new-hardware-and-a-home-collection/",
+      "source": "Wired",
+      "publisher": "Wired",
+      "tier": 2,
+      "category": "big_tech",
+      "publishedAt": "2026-10-13T22:00:00+09:00",
+      "readTime": 6,
+      "imageGradient": 5,
+      "body": "뉴욕에서 열린 미디어 전용 행사에서 공개된 기기는 애플의 첫 스마트 디스플레이 HomeView, HomePod mini 2, 그리고 4세대 Apple TV 4K다. 여기에 LG와 슈나이더 일렉트릭과 함께 만든 비디오 도어벨과 온도조절기, 보안 카메라가 Apple Home Collection이라는 이름으로 붙었다.\n\nHomeView는 스피커 베이스 위에 7인치 정사각 디스플레이를 올린 조리대형 기기로, 가격은 299달러이고 예약을 받아 11월 13일 미국과 영국, 호주, 캐나다, 뉴질랜드, 인도, 싱가포르, 남아프리카공화국에서 판매된다. ==화면은 iPhone이나 iPad를 닮았지만 독자 운영체제인 HomeView 소프트웨어로 돌아가고 App Store는 없다.== 메시지와 사파리, 페이스타임에 Spotify 같은 선별된 서드파티 미디어 앱이 더해지고, iPhone에 CarPlay용 앱이 깔려 있으면 그 앱도 올라온다.\n\niCloud 프로필은 최대 여섯 개까지 쓸 수 있고, 기기 카메라가 얼굴을 인식하면 그 사람에게만 보이는 화면이 뜬다. 다만 이 개인화는 해당 iPhone이 같은 와이파이에 있고 최근에 잠금 해제된 상태여야 작동한다. ==제대로 쓰려면 Apple Intelligence를 지원하는 iPhone 15 Pro 이상이 필요하고, iPad로는 초기 설정조차 할 수 없다.==\n\n애플의 약점은 줄곧 기기 생태계였다. 전구와 스위치, 블라인드를 플랫폼 구분 없이 묶어 주는 Matter 표준이 HomeKit 지원 범위를 넓혔고, 애플은 LG 실내 카메라 200달러, 실외 카메라 300달러 같은 협업 제품으로 그 빈자리를 직접 메우려 하고 있다."
+    },
+    {
+      "id": "web_fcf6e42179",
+      "title": "앤트로픽, 증류 공격 방어로 데이터 수집 90~99% 차단",
+      "originalTitle": "Strengthening our defenses against distillation attacks",
+      "excerpt": "모델의 능력을 몰래 복제해 가는 산업 규모 캠페인에 맞선 대응을 공개했다. 모든 모델 개발사가 마주할 문제라며 방법과 그 대가를 함께 적었다.",
+      "url": "https://www.anthropic.com/research/distillation-defenses",
+      "source": "Anthropic Research",
+      "publisher": "Anthropic",
+      "tier": 1,
+      "category": "ai_ml",
+      "publishedAt": "2026-10-12T18:30:00+09:00",
+      "readTime": 6,
+      "imageGradient": 5,
+      "body": "증류 공격은 허가 없이 한 모델의 능력을 추출해 다른 모델에 옮기는 작업으로, 보통 부정 계정 네트워크를 통해 이뤄진다. 가장 값나가는 재료는 최종 출력이 아니라 Claude가 답하기 전에 적어 내려가는 추론 전사다. 더 작은 모델이 답에 이르는 과정까지 함께 배울 수 있기 때문이다.\n\n초기 조치는 추론을 사용자에게 보여주기 전에 요약하는 것이었다. ==Claude Opus 4.8의 전체 전사로 학습한 모델은 SWE-bench Verified에서 80.4%를 기록했지만, 요약된 전사만으로 학습하자 71.8%로 떨어졌다.== 그러자 공격자들은 수동 수집에서 능동 추출로 옮겨 갔고, 앞선 추론을 글자 그대로 출력하라는 단순한 지시부터 한 연구소가 1만 2천 건의 요청을 서로 다른 방식으로 시도한 사례까지 나왔다.\n\n앤트로픽이 든 우려는 두 가지다. 하나는 안전장치가 비례해 갖춰지지 않은 모델이 프런티어에 근접하는 상황이다. Zhipu는 GLM-5.3을 만들며 선도 미국 모델들의 사이버 역량을 증류했고, Claude Fable 5를 시도했다가 사이버 안전장치가 공격 성능을 떨어뜨리자 구형 Claude와 다른 연구소 모델로 바꿨다. 다른 하나는 안보 위험으로, Moonshot의 Kimi에 들어온 요청이 Claude로 몰래 전달된 사례에서는 특정 인물의 CCTV 영상을 분석해 달라는 요청까지 있었다.\n\n이 방어는 공짜가 아니다. ==앤트로픽은 증류 세력에서 들어오는 수조 토큰 규모의 유료 트래픽을 돌려보냈고, 정식 사용자 일부도 연동을 수정해야 했다.== 초기 증거로는 수집된 데이터가 90~99% 줄어든 것으로 추정된다고 밝혔다."
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_8b0463614a",
+        "title": "Gemini 4 Argon, 로봇 스택 전반을 겨냥한 물리 추론 모델로",
+        "originalTitle": "Gemini 4 Argon for Robotics",
+        "excerpt": "같은 모델을 로봇 개발의 전 단계에 붙여 쓰는 그림을 구글이 내놓았다. 3D 공간 문제를 푸는 능력을 측정하는 벤치마크에서 다른 프런티어 모델을 모두 앞섰다고 밝혔다.",
+        "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+        "source": "Google DeepMind",
+        "publisher": "Google",
+        "tier": 1,
+        "category": "ai_ml",
+        "publishedAt": "2026-10-14T01:01:58+09:00",
+        "readTime": 5,
+        "imageGradient": 5,
+        "body": "구글은 Argon이 물리 이해와 코드 생성, 시각과 의미를 함께 다루는 추론에서 단계적 도약을 이뤘다고 설명한다. ==3D 환경의 물리와 공간 문제를 다루는 Embodied Reasoning 벤치마크에서 순수 추론만으로 87%를 기록했다.==\n\n발표는 네 갈래 활용으로 묶였다. 로봇 제어, 카메라 피드나 사람의 1인칭 영상, 손으로 그린 스케치에서 물리적으로 보정된 시뮬레이션 트윈을 만들어 내는 Real2Sim, 손재주와 진행도 추정을 포함한 물리 이해, 그리고 시뮬레이션을 통한 동작 개선과 하드웨어상의 반복적 자기 개선이다.\n\n대표 사례는 보스턴 다이내믹스의 4족 로봇 Spot이다. 다리 12자유도와 팔 6자유도를 가진 이 로봇에 발판식 쓰레기통에 음료 캔을 버리는 새 기술을 익히게 했다. ==Argon은 먼저 발판 쓰레기통의 관절 구조를 담은 MuJoCo 디지털 트윈을 만들어 동작을 연습한 뒤 실제 페달을 밟았다.== 프롬프트에는 발을 내리기 전 전면 카메라로 발 위치를 확인하고, 검증 에이전트 두 개로 페달 밟기와 손의 3D 정렬을 각각 확인하라는 지시가 들어 있었다.\n\n단순 로봇 팔의 제로샷 제어와 영상 월드 모델의 폐루프 조종도 같은 범주로 제시됐다. 다만 공개된 내용은 대표 프롬프트와 시연 영상 중심이고, 성공률이나 실패 사례를 체계적으로 정리한 자료는 함께 제시되지 않았다."
+      },
+      {
+        "id": "rss_550c4c02e9",
+        "title": "24B 가운데 2B만 켜는 온디바이스 추론 에이전트 LFM2.5-24B-A2B",
+        "originalTitle": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+        "excerpt": "토큰마다 활성 파라미터를 2B로 묶어, 추론을 켜 둔 에이전트를 내 하드웨어에서 계속 돌리는 쪽을 노린 모델이다. 총 파라미터와 활성 파라미터가 더 많은 경쟁 모델과 에이전트 과제에서 맞붙는다고 주장한다.",
+        "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+        "source": "Hugging Face Blog",
+        "publisher": "Hugging Face",
+        "tier": 1,
+        "category": "ai_ml",
+        "publishedAt": "2026-10-14T02:05:48+09:00",
+        "readTime": 5,
+        "imageGradient": 0,
+        "body": "LFM2.5-24B-A2B는 총 24B 파라미터 가운데 토큰당 2B만 활성화되는 추론 전용 모델이다. 답하기 전에 항상 사고 과정을 먼저 내놓고, 도구를 호출하며, 널리 쓰이는 에이전트 하네스 안에서 다단계 과업을 처리한다.\n\n구조는 전작 LFM2-24B-A2B를 그대로 가져왔다. 40개 층, MoE 블록마다 64개 전문가와 top-4 라우팅, 게이트가 달린 짧은 컨볼루션과 GQA를 섞은 하이브리드다. ==컨텍스트 창은 32K에서 131K로 늘었고, 토크나이저를 제자리에서 확장해 어휘를 65K에서 128K로 두 배로 키워 비라틴 문자 토큰화를 개선했다.==\n\n학습은 사전학습을 약 17T 토큰에서 33T 토큰으로 늘리고, 중간학습에서 32K 컨텍스트로 2T 토큰을 추론과 수학, 코드, 지시 따르기 쪽에 가중해 더했다. 에이전트와 도구 사용 과제를 보는 LiveClaw에서는 48.09점으로, 총 파라미터와 활성 파라미터가 약 50% 더 많은 Qwen3.6-35B-A3B의 38.19점을 앞섰다고 제시했다.\n\n속도 수치도 함께 나왔다. ==애플 M5 Max에서 초당 184토큰, 엔비디아 B300 한 장에서는 출력 기준 초당 최대 2만 1천 토큰이다.== 활성 파라미터가 작으니 추론 토큰 하나하나가 싸다는 것이 이 모델의 판매 논리인데, 총 24B를 메모리에 올려야 한다는 전제는 그대로 남는다."
+      },
+      {
+        "id": "rss_01fed55796",
+        "title": "엔비디아, Run:ai 플랫폼 전체를 오픈소스로 공개",
+        "originalTitle": "NVIDIA Run:ai Is Now Open Source as Part of NVIDIA DSX AI Factory Platform",
+        "excerpt": "쿠버네티스 위에서 GPU와 AI 워크로드를 배분해 온 상용 플랫폼이 소스째 열렸다. 플랫폼 전체를 쓰거나 네 개 구성요소만 따로 가져다 쓸 수도 있다.",
+        "url": "https://developer.nvidia.com/blog/nvidia-runai-is-now-open-source-as-part-of-nvidia-dsx-ai-factory-platform/",
+        "source": "NVIDIA Technical Blog",
+        "publisher": "NVIDIA",
+        "tier": 1,
+        "category": "ai_ml",
+        "publishedAt": "2026-10-13T23:19:40+09:00",
+        "readTime": 4,
+        "imageGradient": 5,
+        "body": "엔비디아가 Run:ai 플랫폼 전부를 오픈소스로 공개하고, 이를 NVIDIA DSX AI Factory 플랫폼의 개방형 토대로 삼았다. 고객과 개발자, 생태계 파트너가 프로덕션 수준의 AI 워크로드와 GPU 오케스트레이션 기능에 직접 접근할 수 있게 됐다.\n\nRun:ai는 몇 해 동안 쿠버네티스 위에서 GPU 자원을 동적으로 할당하고, 데이터 처리와 학습부터 추론까지 워크로드의 전 생애주기를 관리하는 역할을 해 왔다. ==이번 공개에는 플랫폼 전체와 함께 KAI Scheduler, GPU Fractioning Operator, KAI Resource Management, Workload Map 네 구성요소가 포함되며, 각각 따로 도입할 수도 있다.==\n\n엔비디아가 내세우는 효과는 DSX 생태계 파트너와 AI 클라우드가 워크로드 처리량을 높이고 GPU 활용률을 개선하며 공유 AI 인프라를 더 효율적으로 운영하게 하는 것이다. 플랫폼 팀은 통합된 전체로 채택하거나, 자사 제품과 서비스의 토대로 삼거나, 필요한 구성요소만 끼워 넣는 세 가지 선택지를 갖는다.\n\n==오픈소스로 직접 배포하는 길과 DSX 생태계 파트너 제품을 통해 받는 길이 함께 열려 있다.== 다만 개방의 범위가 DSX 플랫폼 확장이라는 상업적 목표와 묶여 있다는 점은 읽는 쪽에서 감안할 부분이다."
+      },
+      {
+        "id": "rss_a0ae48bb6d",
+        "title": "오픈 모델의 이익과 위험, 어디서 균형을 잡을 것인가",
+        "originalTitle": "Open models have real benefits. Do they outweigh the risks?",
+        "excerpt": "누구나 내려받을 수 있는 모델을 어디까지 허용할지를 두고 벌어지는 논쟁을 한 번에 정리한 해설이다. 입장 차이 뒤에는 돈이 걸린 이해관계도 함께 있다.",
+        "url": "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/",
+        "source": "MIT Technology Review AI",
+        "publisher": "MIT Technology Review",
+        "tier": 2,
+        "category": "ai_ml",
+        "publishedAt": "2026-10-13T19:00:00+09:00",
+        "readTime": 6,
+        "imageGradient": 1,
+        "body": "발단은 앤트로픽이 지난달 말 내놓은 보고서다. 중국 기업 Z.ai가 8월에 공개한 GLM-5.3이 누구나 내려받아 수정할 수 있다는 점에서 대규모 사이버공격 위험을 안고 있다는 주장이었다. ==이 주장은 프런티어 모델을 개방할 것인가 연구소 안에 둘 것인가를 두고 오래 이어져 온 논쟁의 최신 국면이다.==\n\n공개 석상의 대립은 이해관계와 겹친다. 사람들이 오픈 모델을 돌리려 자체 하드웨어를 계속 사들이면 득을 보는 엔비디아의 젠슨 황은 미국이 오픈 모델을 더 많이 만들어야 한다고 열성적으로 주장한다. 값싸고 강력한 모델이 자사 사업을 흔들 수 있는 앤트로픽의 다리오 아모데이는 더 신중한 접근을 주장한다.\n\n그렇다고 상업적 동기만 있는 것은 아니다. 텍사스대 오스틴 정보대학원의 데이비드 그레이 위더 조교수는 개방 논쟁에서 어디에 서느냐가 AI 자체를 어떻게 보느냐에 상당히 좌우된다고 말한다. 안전을 걱정하는 쪽은 악용 가능성을, 실용적 잠재력을 보는 쪽은 소수 기업의 문 안에 힘이 갇히는 문제를 먼저 본다.\n\n==선택지는 전면 금지와 무제한 공개 사이에 넓게 펼쳐져 있지만, 어느 지점을 고르더라도 안전과 민주화 사이의 교환은 남는다.== 폐쇄 모델이 웹과 앱, API로만 접근되는 것과 달리 오픈 모델은 모델 가중치가 공개돼 직접 내려받을 수 있다는 정의 차이가 그 교환의 출발점이다."
+      },
+      {
+        "id": "rss_45ad9337ee",
+        "title": "문 닫는 스타트업의 데이터가 AI 학습 자료로 팔린다",
+        "originalTitle": "AI labs are buying data from dead startups to train their models",
+        "excerpt": "폐업 과정을 돕는 서비스들이 코드와 업무 기록을 AI 연구소에 중개하기 시작했다. 한때 금기처럼 여겨졌던 거래가 흔한 일이 되고 있다.",
+        "url": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/",
+        "source": "MIT Technology Review AI",
+        "publisher": "MIT Technology Review",
+        "tier": 2,
+        "category": "ai_ml",
+        "publishedAt": "2026-10-13T18:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 6,
+        "body": "암호화폐 스타트업을 정리하던 킬런 미스켈은 사용자가 익명이고 회사도 몇 해밖에 안 돼 데이터에 값이 없다고 생각했다. ==결과적으로 코드베이스로 약 2만 5천 달러를 받았고, 구글과 Notion, 피그마, 슬랙에 남은 업무 데이터 값으로 1만 5천 달러 안팎이 더 들어올 예정이다.==\n\n거래를 중개한 곳은 SimpleClosure다. 폐업하는 스타트업을 상대하는 새 성장 영역의 한 축으로, 4월에 데이터 판매를 서비스에 더했다. Asset Hub 플랫폼은 창업자가 코드와 이메일, 채팅, 문서 같은 업무 데이터를 팔 수 있게 돕는데, 150건이 넘는 거래를 처리했고 2026년 말까지 스타트업에 1천만 달러 이상을 돌려줄 것으로 본다.\n\n수요가 갑자기 생긴 시점은 지난해다. 학습 데이터를 다루는 연구소들이 공개 데이터와 합성 데이터의 한계에 부딪히면서다. Surge AI는 고객사 AI 에이전트가 복잡한 IT 아키텍처를 디버깅하거나 항소 이유서를 쓰는 식의 과업을 연습하는 강화학습 체육관을 만들기 위해 데이터를 사들인다. 의견 충돌이나 까다로운 판단이 담긴 기록을 특히 찾는다.\n\n==카타와 AngelList 추산으로 최근 몇 해 폐업은 매년 26~56% 늘었고, SimpleClosure 거래의 47%에는 이제 코드나 데이터 판매가 포함된다.== 경쟁사 Sunset은 인원수와 운영 기간, 데이터 양, 팀이 도구를 쓴 방식으로 값을 매긴다며, 아무도 값을 못 본 톱밥 같은 운영 부산물에 실은 큰 가치가 있다고 말한다."
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_209aa195cf",
+        "title": "수백만 개 데이터베이스를 버티게 만든 Cloudflare D1의 컨트롤 플레인",
+        "originalTitle": "Under the hood, off the hot path: How D1 scales to millions of databases",
+        "excerpt": "애플리케이션 하나에 큰 클러스터 하나를 두던 전제가 바이브 코딩과 함께 뒤집혔다. 사용자별, 테넌트별로 작은 데이터베이스를 수없이 만드는 쪽으로 수요가 옮겨 갔다.",
+        "url": "https://blog.cloudflare.com/d1-control-plane/",
+        "source": "Cloudflare Blog",
+        "publisher": "Cloudflare",
+        "tier": 1,
+        "category": "dev_tools",
+        "publishedAt": "2026-10-14T01:20:18+09:00",
+        "readTime": 6,
+        "imageGradient": 1,
+        "body": "D1은 SQLite 기반의 서버리스 관리형 데이터베이스로, 수백만 개를 만들고 쓴 만큼만 내는 구조다. 문제는 질의 경로를 중앙 병목으로 밀어 넣지 않으면서 수백만 개 규모의 컨트롤 플레인을 어떻게 확장하느냐였다.\n\n성장 수치가 그 압력을 보여준다. ==삭제되지 않은 라이브 데이터베이스 수는 1년 사이 15배, 2년 사이 65배로 늘었고, 하루에 한 번이라도 질의가 실행된 활성 데이터베이스는 1년 사이 18배가 됐다.== 클라우드플레어는 예상 성장을 크게 웃도는 목표를 잡고 주기적으로 부하 테스트를 돌리며 최적화 지점을 골랐다.\n\n이미 큰 플랫폼들이 일반 사용자와 같은 도구로 D1 위에 올라와 있다. OpenAI의 ChatGPT Sites 쪽에서는 사용자가 대시보드와 게임, 도구에 커스텀 지표와 리더보드, 댓글 같은 기능을 붙일 때 D1이 단순하고 확장 가능한 길을 준다고 말한다.\n\n글은 D1 컨트롤 플레인의 동작을 뜯어보는 심층 해설이자, 클라우드플레어가 자사 컨트롤 플레인을 어떻게 만드는지 보여주는 자료로 쓰였다. ==여기 나온 구조 패턴은 D1 사용자뿐 아니라 클라우드플레어 개발자 플랫폼 위에 무언가를 올리는 쪽이라면 그대로 가져다 쓸 수 있다는 것이 저자들의 설명이다.=="
+      },
+      {
+        "id": "rss_49fe8a3fc3",
+        "title": "GitHub, 시크릿 탐지를 전용 분류기로 갈아탔다",
+        "originalTitle": "GitHub’s model for secret detection: Finding more secrets with less noise",
+        "excerpt": "같은 문자열이 실제 자격증명일 수도, 문서의 예시일 수도 있다는 점이 제네릭 시크릿 탐지의 난점이었다. GitHub는 주변 코드와 텍스트의 맥락을 읽는 모델을 자체 학습시켜 그 균형을 다시 잡았다.",
+        "url": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/",
+        "source": "GitHub Blog",
+        "publisher": "GitHub",
+        "tier": 1,
+        "category": "dev_tools",
+        "publishedAt": "2026-10-14T02:56:33+09:00",
+        "readTime": 5,
+        "imageGradient": 4,
+        "body": "시크릿 스캐닝은 두 시점에 작동한다. 푸시를 받아들이기 전에 변경을 검사해 시크릿이 저장소에 들어오는 것을 막는 푸시 보호, 그리고 커밋된 뒤 저장소 내용을 계속 훑어 경고를 만드는 사후 스캔이다.\n\n새 분류기의 효과는 이전 LLM 기반 파이프라인과의 비교로 제시됐다. ==사후 스캔의 중간 실행 시간은 86% 줄었고, 원격 LLM 호출을 컴팩트 모델로 바꾸면서 서빙 비용은 98% 낮아졌으며, 소유자 가중 경고 정밀도 기준 수용률은 11.5% 올랐다.==\n\n속도가 확보되자 적용 범위가 넓어졌다. ==전에는 커밋 이후에만 가능했던 제네릭 시크릿 탐지를 푸시 보호 단계까지 끌어와, 개발자가 푸시를 완료하기 전에 결과를 돌려줄 수 있게 됐다.== 모델이 파일에서 시크릿을 찾아내면 푸시 보호가 그 커밋을 막는다.\n\nGitHub는 탐지가 너무 적으면 실제 자격증명이 저장소에 남고, 경고가 너무 많으면 개발자가 시크릿이 아닌 문자열을 들여다보며 시간을 쓴다는 점을 설계의 출발점으로 들었다. 구조화된 자격증명은 대체로 식별 가능한 고유 형태를 갖고 있어 규칙 기반 탐지가 통하지만, 그런 단서가 없는 쪽에서는 모델이 맥락을 읽어 주는 수밖에 없다.\n\n그래서 GitHub는 범용 모델을 가져다 쓰는 대신 자사 제품 요구에 맞춰 분류기를 따로 학습시켰고, 대규모 스캔에 필요한 속도와 효율 조건을 함께 만족시키는 것을 설계 목표로 삼았다. 어떻게 설계하고 학습시키고 평가했는지를 뜯어보는 것이 이 글의 본문이며, 동반 글에서는 AI로 빨라진 개발 속도에 맞춰 시크릿 보호도 함께 확장돼야 한다는 배경을 따로 다뤘다."
+      },
+      {
+        "id": "rss_ead1f2c858",
+        "title": "메타, 광고 추천을 중앙 모델 하나로 모은 GEM 새 세대",
+        "originalTitle": "Meta’s Generative Ads Model (GEM): Scaling the Central Model and Compute Engine for Frontier Ads AI",
+        "excerpt": "페이스북과 인스타그램, 릴스를 따로 최적화하던 구조를 단일 파운데이션 모델로 합쳤다. 추천 시스템에는 잘 들지 않던 트랜스포머식 스케일링을 하드웨어와 함께 설계해 끌어왔다.",
+        "url": "https://engineering.fb.com/2026/10/13/ml-applications/generative-ads-model-gem-scaling-frontier-ads-ai/",
+        "source": "Meta Engineering",
+        "publisher": "Meta",
+        "tier": 1,
+        "category": "dev_tools",
+        "publishedAt": "2026-10-14T01:01:00+09:00",
+        "readTime": 5,
+        "imageGradient": 2,
+        "body": "GEM은 메타가 지난해 공개한 업계 최대 규모의 추천 시스템 파운데이션 모델이다. 2026년 세대는 도메인별 개별 최적화에서 벗어나 메타의 모든 광고 플랫폼의 데이터와 신호를 함께 학습하는 중앙 모델로 옮겼고, 인지부터 고려, 전환까지 퍼널 전체를 이어서 최적화한다.\n\n성과는 수치로 제시됐다. ==메타의 광고 지면과 목표 전반에서 전환은 18.9%, 광고 클릭률은 12% 개선됐고, 지난 1년간 페이스북 5.8%, 인스타그램 4.1%, 사이트 외부 전환 1.6%의 추가 상승이 더해졌다.== 상단 퍼널 지면과 깊은 퍼널 목표에 걸쳐 나온 결과라는 설명이다.\n\n기술적 축은 스케일링 곡선을 꺾는 것이었다. 추천 모델은 이질적 피처가 방대하고 분포가 계속 움직여 트랜스포머로는 비슷한 스케일링 성질이 나오지 않는다. ==메타는 최신 GPU 하드웨어와 함께 설계한 LLM 스타일 아키텍처 Kunlun으로 더 크고 깊은 모델을 비용 효율적으로 만들고 사용자 이력에 대한 장문 컨텍스트 학습을 가능하게 해, 모델 복잡도를 2.5배로 끌어올렸다.==\n\n후처리 학습 기법으로 모든 광고 후보를 실시간으로 평가하지 않고도 지연 예산을 더 확보한 점, 훈련 스택 자체를 크게 효율화한 점도 함께 제시됐다. 다만 공개된 수치는 모두 메타 자체 측정이다."
+      },
+      {
+        "id": "rss_26f69b8a03",
+        "title": "AI 제품의 가격은 SaaS와 다르게 움직인다",
+        "originalTitle": "The “alien” economics of AI monetization",
+        "excerpt": "변동 비용과 예측하기 어려운 수요 때문에 사용량 기반 가격이 기본값이 됐다. 수익화 콘퍼런스에서 반복적으로 등장한 접근들을 한자리에 모은 글이다.",
+        "url": "https://stripe.com/blog/economics-of-ai-monetization",
+        "source": "Stripe Blog",
+        "publisher": "Stripe",
+        "tier": 1,
+        "category": "dev_tools",
+        "publishedAt": "2026-10-13T09:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 4,
+        "body": "포브스 AI 50 기업의 3분의 2가 어떤 형태로든 사용량 기반 가격을 쓴다. 메트로놈 공동창업자 스콧 우디는 지금의 선도 기업들이 전통적인 SaaS 사업에는 외계인처럼 보일 방식으로 움직인다고 표현했다. ==가격을 훨씬 빠르게 반복하고, ARR보다 시장 점유를 앞세우며, 여러 시장 진입 전략을 동시에 밀어붙인다는 것이다.==\n\n1년 전만 해도 사용량 기반 가격이 구독을 밀어낼 것이라는 예상이 흔했다. 실제로는 구독이 남아 변동 사용량을 묶는 포장재 역할을 하고 있고, 그 수단으로 크레딧이 자주 쓰인다.\n\nFin의 수익화 담당 제품 디렉터 아이슬링 오라일리는 자사 가격 모델의 변화를 사례로 들었다. 플랫폼 구독에서 출발해 Fin AI Agent 출시와 함께 성과 기반 가격을 도입했고, 처음에는 에이전트가 해결한 상담 건마다 비용을 받았다. 제품이 상품 추천과 리드 검증, 미팅 예약 같은 행동으로 넓어지면서 단일 과금 지표가 고객 가치를 담지 못하게 됐다.\n\n==Fin은 과금 가능한 성과를 여러 개로 늘려 고객이 상담 유형별로 원하는 성과를 골라 그 가치에 따라 내도록 했고, 크레딧 풀을 약정해 두고 성과별 예측 없이 차감하도록 만들었다.== 행동에는 구독, 에이전트 작업에는 사용량, 여러 단위를 묶는 데는 크레딧을 쓰는 층층 구조가 자리 잡는 모습이다. 예측 가능성 자체가 제품 기능이 되고 있다는 지적도 함께 나왔다."
+      },
+      {
+        "id": "rss_81d396dabe",
+        "title": "파이썬 3.16 첫 알파 공개, 최종 릴리스는 2027년 10월",
+        "originalTitle": "Python 3.16.0 alpha 1 is now available",
+        "excerpt": "아직 들어올 기능이 많이 남은 단계의 개발자 프리뷰다. 라이브러리나 애플리케이션을 유지하는 쪽에 시험 적용과 보고를 요청했다.",
+        "url": "https://blog.python.org/2026/10/python-3160-alpha-1-is-now-available/",
+        "source": "Python Insider",
+        "publisher": "Python",
+        "tier": 1,
+        "category": "dev_tools",
+        "publishedAt": "2026-10-13T09:00:00+09:00",
+        "readTime": 3,
+        "imageGradient": 1,
+        "body": "Python 3.16.0a1은 계획된 일곱 번의 알파 가운데 첫 번째다. 프로덕션 환경에서의 사용은 권장되지 않는 프리뷰 릴리스다.\n\n일정이 함께 공개됐다. ==기능은 베타 단계가 시작되는 2027년 5월 4일 전까지 추가될 수 있고, 필요하면 릴리스 후보 단계인 2027년 7월 27일까지 수정되거나 삭제될 수 있다.== 최종 릴리스는 2027년 10월 5일로 잡혀 있고, 다음 알파인 3.16.0a2는 2026년 11월 10일 예정이다. 전체 일정은 PEP 826에 정리돼 있다.\n\n코어 팀은 라이브러리나 애플리케이션 유지관리자에게 이번 알파로 시험해 보고 결과를 알려 달라고 요청했다. 파이썬 버그는 CPython 이슈 트래커로 보고하면 된다. ==지금까지 들어간 변경은 What's new in Python 3.16 문서에서 확인할 수 있다.==\n\n이번 공지에는 알파부터 최종 버전까지 릴리스마다 영화 한 쌍을 짝지어 소개하는 Python 3.16 영화제 코너가 새로 붙었다. CPython을 만드는 일이 팀 스포츠이며 매 릴리스가 커뮤니티의 시간과 기량, 헌신을 반영한다는 취지에서, 협업과 장인정신을 기념하겠다는 설명이다. 공지에는 코어 팀원이 다음 발표에서 강조하고 싶은 기능이 있으면 알려 달라는 내부용 안내와 함께, 3.16 문서와 변경 로그, 파이썬 소프트웨어 재단 후원 경로도 자료로 묶여 있다. 알파 단계의 목적은 결국 생태계가 미리 깨져 보는 것이어서, 의존성이 많은 프로젝트라면 이 시점의 시험 실행이 2027년 가을의 전환 비용을 줄여 준다."
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_1d1ddc5321",
+        "title": "페이스북, 피드 추천을 사용자가 말로 고치게 한다",
+        "originalTitle": "Your Algorithm, Your Words: New Ways to Shape What You See on Facebook",
+        "excerpt": "보고 싶은 주제를 직접 적어 넣으면 추천이 바로 반응하는 도구가 들어왔다. 랭킹 시스템에 사용자가 직접 개입하는 통로를 만든 것이다.",
+        "url": "https://about.fb.com/news/2026/10/introducing-your-algorithm-facebook/",
+        "source": "Meta Newsroom",
+        "publisher": "Meta",
+        "tier": 1,
+        "category": "big_tech",
+        "publishedAt": "2026-10-14T01:00:29+09:00",
+        "readTime": 3,
+        "imageGradient": 1,
+        "body": "메타는 피드와 릴스에서 보고 싶은 것을 사용자가 자기 말로 알려 줄 수 있는 AI 기반 도구를 공개했다. 모든 게시물의 점 세 개 메뉴를 손봐 이 기능들에 더 쉽게 닿도록 했다.\n\n핵심은 내 알고리즘이다. ==피드와 릴스에서 보고 싶은 주제를 직접 추가하고 관리하는 전용 공간으로, 점 세 개 메뉴에서 열 수 있다.== 메타는 이를 무엇에 관심이 있는지 그대로 알려 주는 자리라고 설명한다.\n\n피드백 경로도 넓어졌다. 관심 있음이나 관심 없음을 누르면 무엇이 좋았고 무엇이 싫었는지 묻는 후속 질문이 뜰 수 있고, 더 보고 싶은 것과 덜 보고 싶은 것을 자기 말로 적으면 추천이 실시간으로 갱신된다. ==대화에 가까운 방식으로 사용자가 직접 경험을 손보게 하는 것이 이번 변경의 방향이다.==\n\n메타는 기존 랭킹 시스템이 좋아요와 댓글, 시청을 비롯한 수천 가지 신호로 관심사를 추론하는 데 이미 상당히 능해졌다고 전제한 뒤, 이제 대규모 언어 모델을 랭킹 시스템에 더 많이 쓰고 있다고 밝혔다. 추론에 기대던 자리에 사용자의 직접 진술을 끼워 넣는 셈이다.\n\n메타는 이 변경의 결과로 추천이 더 관련성 높고, 더 미묘하며, 더 사용자 자신에 가까워질 것이라고 말한다. 랭킹과 추천을 결정하는 알고리즘과 사용자가 직접 상호작용할 수 있게 됐다는 점이 회사가 내세우는 핵심이다. 페이스북이 가장 좋을 때는 사용자가 실제로 관심 있는 것을 더 찾고 더 하게 도울 때라는 전제에서 출발했다는 설명도 함께 붙었다."
+      },
+      {
+        "id": "rss_6bad21365a",
+        "title": "마이크로소프트, 차세대 Azure Maia 랙을 기가와트 규모로 깐다",
+        "originalTitle": "Microsoft plans multi-gigawatt rollout of next-gen Azure Maia AI accelerator racks",
+        "excerpt": "에이전트 추론에 맞춰 칩부터 랙, 데이터센터까지 하나로 묶겠다는 그림이다. 올해 발표한 Maia 200이 프로덕션에 들어간 가운데 후속 칩의 일정이 공개됐다.",
+        "url": "https://www.theregister.com/systems/2026/10/13/microsoft-plans-multi-gigawatt-rollout-of-next-gen-azure-maia-ai-accelerator-racks/5302802",
+        "source": "The Register",
+        "publisher": "The Register",
+        "tier": 2,
+        "category": "big_tech",
+        "publishedAt": "2026-10-13T22:30:00+09:00",
+        "readTime": 3,
+        "imageGradient": 7,
+        "body": "마이크로소프트는 올해 발표한 Azure Maia 200이 이미 프로덕션 워크로드를 처리하고 있고, 후속인 Azure Maia 300이 2027년으로 계획돼 있다고 밝혔다. Maia 300은 칩 하나가 아니라 완전한 지능형 시스템으로 설명된다.\n\n성능 주장은 랙 단위로 제시됐다. ==가속기 96개를 채운 구성이 Maia 200 대비 랙 규모 토큰 처리량을 최대 7배로 끌어올리고, 선도적인 GPU 기반 시스템보다 메가와트당 토큰을 40% 더 낸다는 것이다.== 가속기마다 HBM4 메모리 여덟 스택을 달아 최대 18TB/s의 피크 메모리 대역폭을 제공한다.\n\n설계 기조는 추론 우선이다. 클라우드와 AI 부문 수석부사장 스콧 거스리는 긴 컨텍스트, 메모리 집약적이고 디코드가 많은 워크로드에 맞춘 아키텍처라고 설명했다. 여러 단계 실행과 긴 컨텍스트 디코딩, 도구 사용이 섞인 에이전트 워크로드가 추론의 연산 성격과 산술 강도를 바꿔 놓기 때문에 시스템 수준의 통합이 필요하다는 논리다.\n\n엔비디아가 GPU 가속기로, AMD가 Helion과 Helios 인프라로 먼저 간 랙 규모 접근과 닮은 방향이기도 하다. ==내부 통합을 강조하는 이 흐름은 기술 스택 전반의 파트너십을 내세웠던 2024년 AI 접근 원칙과는 대비된다.=="
+      },
+      {
+        "id": "rss_d01ed950c6",
+        "title": "IMF, AI 거품이 터지면 세계 경제가 함께 흔들린다",
+        "originalTitle": "AI bubble could burst and take global economy with it, IMF warns",
+        "excerpt": "AI에 쏟아진 돈이 기대한 이익을 내지 못할 경우를 금융 안정 보고서가 정면으로 다뤘다. 경고에 합류한 기관이 하나 더 늘었다.",
+        "url": "https://www.theregister.com/ai-and-ml/2026/10/13/ai-bubble-could-burst-and-take-global-economy-with-it-imf-warns/5302781",
+        "source": "The Register",
+        "publisher": "The Register",
+        "tier": 2,
+        "category": "big_tech",
+        "publishedAt": "2026-10-13T21:44:00+09:00",
+        "readTime": 4,
+        "imageGradient": 1,
+        "body": "국제통화기금은 화요일 발표한 글로벌 금융안정보고서에서 금융시장이 AI발 조정에 점점 더 노출되고 있다고 경고했다. AI 투자는 시장과 경제 성장을 받쳐 왔지만, 약속된 이익이 실현되지 않으면 호황이 빠르게 불황으로 돌아설 수 있다는 것이다.\n\n구조적 취약점으로는 두 가지가 지목됐다. ==거대 기술기업이 수십억 달러를 차입하고 투자자들이 같은 소수 기업에 몰려 있어, 매도가 시작되면 실리콘밸리 밖까지 숙취가 번진다는 점이다.== 또 하나는 AI 기업들이 서로의 투자자이자 금융 제공자이자 고객이 되는 순환 금융 구조로, 한 곳의 재무 문제가 곧 다른 곳의 문제가 된다.\n\n같은 우려를 내놓은 곳은 더 있다. 제프리스의 전략가 크리스 우드는 미국의 AI 지출 경쟁이 대규모 자본 파괴로 이어질 수 있다며, 더 저렴한 중국산 오픈소스 모델이 미국 기술기업이 기대하는 수익을 위협한다고 지적했다. 국제결제은행도 6월에 AI 호황이 과거 금융 거품과 불편하게 닮았다고 경고했다.\n\nIMF는 금융 안정을 위협하는 요인으로 국채 금리 상승과 사이버공격도 함께 들었다. ==은행들이 같은 소수의 클라우드 제공자와 소프트웨어 공급사에 의존하게 되면서 공동 장애점이 생겼고, 주요 은행이나 핵심 기술 제공자가 공격으로 멈추면 결제부터 줄줄이 흔들릴 수 있다는 분석이다.=="
+      },
+      {
+        "id": "rss_473e7b824b",
+        "title": "OpenAI와 앤트로픽, 영국 의회에서 우리를 규제하라",
+        "originalTitle": "OpenAI and Anthropic Tell British Lawmakers: Regulate Us",
+        "excerpt": "자발적 약속만으로는 안전을 담보할 수 없다는 발언이 의회 기록으로 남았다. 같은 자리에서 구글 딥마인드와 메타는 새 법안 지지를 거부했다.",
+        "url": "https://www.wired.com/story/openai-and-anthropic-tell-british-lawmakers-regulate-us/",
+        "source": "Wired",
+        "publisher": "Wired",
+        "tier": 2,
+        "category": "big_tech",
+        "publishedAt": "2026-10-14T04:35:29+09:00",
+        "readTime": 6,
+        "imageGradient": 5,
+        "body": "영국 하원 기업과 혁신, 과학, 무역 위원회는 화요일 증거 청취를 열어 프런티어 AI 기업 네 곳과 내부고발자가 된 전직 직원 네 명, 고위 공무원들을 불렀다. 앤트로픽의 유럽 책임자 리암 부스-스미스는 법정 체계가 필요하냐는 질문에 규칙은 구속력이 있어야 한다고 답하며, 기업에 구속력 있는 규칙이 있어야 하고 자발적 약속만으로는 충분하지 않다고 일관되게 믿어 왔다고 말했다.\n\nOpenAI 부사장 톰 더프 고든은 더 조심스러웠지만 법정 체계와 국제 협약을 지지했다. ==사고 보고부터 시작해 의무화해야 하는 요소가 있어야 한다며, 프런티어 위험에 대한 모든 것을 자발적 약속에 기대는 것은 좋은 장기 계획이 아니라고 말했다.==\n\n경쟁사들은 따라오지 않았다. 구글 딥마인드의 오언 라터는 법정 체계를 지지하느냐는 직접적인 질문에 표준에 집중하는 것이 우리가 할 일이라고 답했고, 메타의 롭 셔먼은 영국에 이미 규제기관이 있다며 의원들에게 백지에 쓰는 것이 아니라고 말했다.\n\n위원장 리암 번은 청문회 뒤, 지구상에서 가장 부유한 기업들 사이의 의견 차를 드러내고 자발적 자율규제에 의존할 수 없음을 보여주는 것이 목적이었다고 밝혔다. ==같은 날 몇백 미터 떨어진 곳에서는 MI5 국장 켄 매컬럼이 연례 위협 보고에서 AI 오용 가운데 가장 무게를 두는 것은 생물무기의 판을 바꿀 가능성이라고 경고했다.=="
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tw_2109783335296008414",
+        "author": "SpaceX Super Intelligence",
+        "handle": "SpaceXSI",
+        "content": "Grok과 Cursor, X Premium의 요금제를 하나로 통합했습니다. The X Subscription을 소개합니다.",
+        "context": "머스크 계열 제품의 구독을 하나로 묶는 변화를 알린 발표다. ==코드 에디터 Cursor가 같은 구독 안에 들어온다== 는 점이 개발자 쪽에서 특히 눈에 띄는 대목이다.",
+        "url": "https://x.com/SpaceXSI/status/2109783335296008414",
+        "publishedAt": "2026-10-13T08:08:39+09:00",
+        "metrics": {
+          "likes": 15538,
+          "retweets": 1751,
+          "replies": 1318,
+          "views": 4694740
+        },
+        "thread": [
+          "Cursor에서 AI로 코딩하고, Bot으로 업무를 처리하고, Grok으로 대화하며 창작하고, X Premium의 모든 기능을 함께 누리세요."
+        ]
+      },
+      {
+        "id": "tw_2110095403198849132",
+        "author": "OpenAI Newsroom",
+        "handle": "OpenAINewsroom",
+        "content": "사무실 한 곳에 숨겨져 있던 정교한 녹음 장치를 발견했습니다. 우리 모델을 이용해 장치의 정체와 출처를 파악했고, 특정 직원이 며칠 전에 설치했다는 사실을 확인했습니다. 이 사안을 FBI에 넘겼고, 신속하게 움직여 체포까지 이끈 요원과 검사들에게 감사합니다. FBI의 수사는 진행 중이며 우리는 계속 협조할 것입니다.\n\n현재까지 이 인물이 모델 가중치나 소스 코드, 고객 데이터에 부적절하게 접근하거나 유출했다는 징후는 없습니다. 해당 직원은 해고됐습니다.\n\n==우리는 기술과 데이터, 사람을 보호하는 일을 국가적 중요성을 가진 사안으로 여깁니다.== 보안 프로그램은 내부자 위험부터 사이버 범죄자, 국가 행위자까지 폭넓은 위협에 대응하도록 설계돼 있으며, 이번 사례는 AI가 이처럼 정교한 보안 위협을 다루는 데 어떻게 도움이 되는지 보여줍니다.",
+        "context": "OpenAI 뉴스룸 계정이 올린 공식 발표다. 자사 모델을 내부 보안 사건 조사에 직접 투입했다는 설명이 함께 담겨 있어, 회사가 내부자 위험을 어떻게 다루는지 보여주는 사례로 읽힌다.",
+        "url": "https://x.com/OpenAINewsroom/status/2110095403198849132",
+        "publishedAt": "2026-10-14T04:48:42+09:00",
+        "metrics": {
+          "likes": 508,
+          "retweets": 66,
+          "replies": 61,
+          "views": 20549
+        }
+      },
+      {
+        "id": "tw_2110063893016096831",
+        "author": "Greg Brockman",
+        "handle": "gdb",
+        "content": "GPT-5.6 Sol과 함께 6일, 컴퓨트 4만 달러로 크롬의 치명적 취약점을 찾아냈습니다. 약 10억 명의 사용자에게 영향을 줄 수 있는 취약점으로, 2026년 구글의 첫 풀체인 보상을 받았습니다. ==방어하는 쪽도 이런 도구로 자기 소프트웨어를 전례 없는 수준까지 단단하게 만들 수 있다는 기회를 보여줍니다.==",
+        "context": "OpenAI 사장 그레그 브록먼이 보안 기업 XBOW의 사례를 인용하며 적은 글이다. 공격자와 방어자 양쪽에서 취약점 발굴 비용이 함께 내려가고 있다는 주장이 핵심이다.",
+        "url": "https://x.com/gdb/status/2110063893016096831",
+        "publishedAt": "2026-10-14T02:43:29+09:00",
+        "metrics": {
+          "likes": 1979,
+          "retweets": 109,
+          "replies": 112,
+          "views": 132166
+        },
+        "quoted": {
+          "author": "Oege de Moor",
+          "handle": "oegerikus",
+          "url": "https://x.com/oegerikus/status/2110032518674018367",
+          "content": "구글 크롬 역사상 두 번째로, 구글이 풀체인 익스플로잇에 25만 달러 보상을 지급했습니다. 받은 쪽은 XBOW입니다. 전말을 풀어 보겠습니다.\n\n2026년 초 몰타에서 열린 전사 회의에서 저는 팀에 무모한 과제를 던졌습니다. 8월에 열리는 연례 보안 콘퍼런스 블랙햇까지 크롬의 풀체인 익스플로잇을 만들어 내라는 것이었습니다.\n\nXBOW가 웹 애플리케이션을 넘어 데스크톱 소프트웨어와 서버, 기기로 갈 수 있는지를 확인하는 데 이보다 나은 시험은 없다고 봤습니다.\n\n크롬은 세계에서 가장 단단하게 방어된 소프트웨어 가운데 하나이고, 전 세계 인구의 절반 이상이 씁니다.\n\n풀체인 익스플로잇은 공격자가 기기를 완전히 장악하게 해 줍니다. 사용자가 입력하는 모든 이메일과 비밀번호, 은행 로그인을 읽을 수 있게 됩니다. 무언가를 내려받거나 피싱 링크를 누를 필요도 없습니다. 잘못된 사이트를 방문하는 것만으로 충분합니다.\n\n그래서 moyix와 안드레스 룩센버그, 바울 리, 빌럼 핑커스가 다섯 번째 팀원인 OpenAI의 GPT-5.6 Sol과 함께 이 과제에 뛰어들었습니다.\n\n이길 수 있다고 생각한 체인을 만들었지만, 구글은 그중 하나의 버그를 이미 알고 있다고 알려 왔습니다.\n\n우리는 이미 블랙햇과 데프콘 참석을 위해 라스베이거스에 있었고, 팀은 성과 없이 돌아가고 싶지 않았습니다.\n\n그래서 브렌던과 에이전트들이 단 6일 만에 새로운 익스플로잇을 만들었습니다.\n\n구글에 제출하고 기다렸습니다.\n\n불가능했어야 할 일을 해냈다는 소식이 왔습니다. 25만 달러의 풀체인 보상이었고, 구글의 2026년 규정 아래 처음 지급된 것이었습니다.\n\n윈도우에서 크롬을 쓰는 10억 명에게 영향을 주는 익스플로잇을 만드는 데 6일과 컴퓨트 4만 달러가 들었습니다. 정보기관 출신 한 사람은 자기 팀이라면 이런 취약점에 6개월을 썼을 것이라고 말했습니다.\n\n제가 얻은 결론은 이렇습니다. 정말로 치명적인 취약점을 찾는 비용이 공격자와 방어자 모두에게 함께 무너지고 있습니다. 강력한 모델을 제한하는 것은 답이 아닙니다. GPT-5.6 Sol은 이미 공개돼 있습니다.\n\n하지만 방어하는 쪽에는 공격자가 결코 가질 수 없는 이점이 하나 있습니다. 자기 코드를 먼저 시험해 볼 수 있다는 것입니다.\n\n당신의 소프트웨어가 공격 가능하다고 가정하십시오. 당신의 버그를 노리는 쪽도 우리와 같은 재료를 갖고 있습니다.\n\n긴급한 일이지만 공황에 빠질 일은 아닙니다.\n\nXBOW는 지금 컴파일된 소프트웨어, 즉 데스크톱 애플리케이션과 서버, 임베디드 기기를 시험하는 자율 제품을 개발하고 있고, 그 제품을 함께 설계할 세계 최고의 조직들과 협력하고 있습니다.\n\n그중 한 곳이 되고 싶다면 연락 주십시오.\n\n추신. 크롬에 업데이트 버튼이 보이면 그때마다 재시작하세요."
+        }
+      },
+      {
+        "id": "tw_2109678174468534511",
+        "author": "Z.ai",
+        "handle": "Zai_org",
+        "content": "GLM-Legal을 공개합니다. GLM-5.3-Flash를 기반으로 만들었고, ==주요 법률 벤치마크에서 프런티어 모델과 대등한 성능을 냅니다.== 계약 검토와 증거 분석, 컴플라이언스처럼 실제 법률 업무를 겨냥해 설계했습니다.",
+        "context": "중국 Z.ai가 내놓은 법률 특화 모델이다. 같은 회사의 GLM-5.3은 앤트로픽이 사이버 위험을 지적한 오픈 모델이기도 해서, 개방 모델 논쟁의 한가운데 있는 곳의 수직 특화 전략으로도 읽힌다.",
+        "url": "https://x.com/Zai_org/status/2109678174468534511",
+        "publishedAt": "2026-10-13T01:10:47+09:00",
+        "metrics": {
+          "likes": 6748,
+          "retweets": 508,
+          "replies": 287,
+          "views": 615374
+        }
+      },
+      {
+        "id": "tw_2109740777245172157",
+        "author": "Sholto Douglas",
+        "handle": "_sholtodouglas",
+        "content": "모델이 그렇게 좋다면 새로 나온 소프트웨어는 다 어디 있느냐는 질문이 1년쯤 이어져 왔다. 늘 그랬듯, 미래의 초기 징후는 게임에서 먼저 보인다.",
+        "context": "다른 사용자의 경험을 인용하며 적은 글이다. 디컴파일된 고전 게임에 모델이 곧바로 기능을 붙여 넣는 장면을, 새로운 소프트웨어가 어디서 먼저 나타나는지에 대한 답으로 제시했다.",
+        "url": "https://x.com/_sholtodouglas/status/2109740777245172157",
+        "publishedAt": "2026-10-13T05:19:33+09:00",
+        "metrics": {
+          "likes": 844,
+          "retweets": 37,
+          "replies": 33,
+          "views": 39458
+        },
+        "quoted": {
+          "author": "Peter Schmidt-Nielsen",
+          "handle": "ptrschmdtnlsn",
+          "url": "https://x.com/ptrschmdtnlsn/status/2109696268390089187",
+          "content": "참 이상한 미래다. 로버트 마일스와 헤일로: 컴뱃 이볼브드를 처음 해 보고 싶었고 화면 두 대로 로컬 멀티플레이를 하고 싶었는데, 모델이 디컴파일된 코드에 그 기능을 곧바로 넣어 줬다."
+        }
+      },
+      {
+        "id": "tw_2109882094633762909",
+        "author": "Theo - t3.gg",
+        "handle": "theo",
+        "content": "월 200달러짜리 Claude Code 구독은 지금 소프트웨어 업계에서 가성비가 가장 좋은 상품 가운데 하나다. 한도에 걸리지 않고 끝낼 수 있는 작업량이 정말 말이 안 된다.",
+        "context": "개발자 대상 콘텐츠로 알려진 사용자가 올린 평가다. 에이전트 코딩 도구의 정액 구독이 실제 작업량 대비 어떻게 받아들여지는지 보여주는 반응이다.",
+        "url": "https://x.com/theo/status/2109882094633762909",
+        "publishedAt": "2026-10-13T14:41:05+09:00",
+        "metrics": {
+          "likes": 3892,
+          "retweets": 77,
+          "replies": 255,
+          "views": 97353
+        },
+        "retweetedBy": "dsp_"
+      },
+      {
+        "id": "tw_2110087611763368271",
+        "author": "Cursor",
+        "handle": "cursor_ai",
+        "content": "Cursor에서 Gemini 4 Argon을 쓸 수 있습니다. 기본 노력 설정에서 ==CursorBench 52.8%를 기록했습니다.== Opus 5.5와 같은 수준입니다. 가격은 입력 100만 토큰당 2달러, 출력 100만 토큰당 10달러입니다.",
+        "context": "에디터 쪽에서 나온 서드파티 측정값이다. 모델이 공개된 날 실제 코딩 도구 안에서 어느 정도 성능이 나오는지 가늠해 볼 수 있는 수치다.",
+        "url": "https://x.com/cursor_ai/status/2110087611763368271",
+        "publishedAt": "2026-10-14T04:17:44+09:00",
+        "metrics": {
+          "likes": 758,
+          "retweets": 39,
+          "replies": 71,
+          "views": 29051
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "th_Decgor5ChSU",
+        "author": "choi.openai",
+        "handle": "choi.openai",
+        "content": "Scaledown이 특정 작업에 특화된 AI 모델 CDM을 공개했습니다. 일반적인 LLM처럼 답변을 한 글자씩 생성하지 않고, 입력에서 필요한 결과를 바로 찾아내는 방식입니다. 문서 분류와 정보 추출, 요약을 위한 세 가지 모델을 제공하며, 예를 들어 300페이지짜리 PDF에서 마감일만 뽑아낼 수 있습니다. ==개발사에 따르면 주요 LLM API보다 최대 200배 빠르고 467배 저렴하며, 입력 100만 토큰당 0.05달러입니다.==",
+        "context": "한국어로 AI 소식을 정리하는 계정이 올린 소개다. 분류와 추출, 요약처럼 형식이 정해진 작업에서는 생성형 LLM 대신 작고 특화된 모델을 쓰는 선택지가 늘고 있다는 흐름 속에 있다.",
+        "url": "https://www.threads.com/@choi.openai/post/Decgor5ChSU",
+        "publishedAt": "2026-10-14T04:00:26+09:00",
+        "platform": "threads"
+      },
+      {
+        "id": "th_DebeO0Yj-tk",
+        "author": "choi.openai",
+        "handle": "choi.openai",
+        "content": "수원에서 OpenAI DevDay 커뮤니티 밋업이 열립니다. 10월 24일 토요일 낮 12시 30분부터 오후 6시까지, 경기도 수원시 팔달구에 있는 노르디스케 스페이스에서 60명 규모로 진행됩니다. OpenAI Codex Ambassador가 주최하는 커뮤니티 행사입니다.",
+        "context": "DevDay에서 발표된 주요 소식을 함께 살펴보고 실제 AI 활용 사례와 경험을 나누는 자리로 소개됐다. 수도권에서 열리는 오프라인 개발자 모임을 찾는 독자에게 참고가 될 만하다.",
+        "url": "https://www.threads.com/@choi.openai/post/DebeO0Yj-tk",
+        "publishedAt": "2026-10-13T18:20:11+09:00",
+        "platform": "threads"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "rd_1x4e58k",
+        "title": "55달러짜리 안드로이드 TV 박스 15대에 26B 모델을 돌렸다",
+        "originalTitle": "Anthropic ran a 26B model across 15 off-brand Android TV boxes worth $55 each — an AI worm with no central point to shut off",
+        "summary": "앤트로픽이 한 대 55달러짜리 비정품 안드로이드 TV 박스 15대에 26B 모델을 나눠 돌렸다는 내용이 공유됐다. ==중앙에 끌 지점이 없는 AI 웜이 가능하다는 함의가 토론의 중심이 됐다.==",
+        "url": "https://www.reddit.com/r/artificial/comments/1x4e58k/anthropic_ran_a_26b_model_across_15_offbrand/",
+        "subreddit": "artificial",
+        "score": 0,
+        "rank": 1,
+        "publishedAt": "2026-10-13T06:13:08+09:00"
+      },
+      {
+        "id": "rd_1x530mt",
+        "title": "OpenAI의 나비에-스토크스 증명, 알려진 것과 달랐다",
+        "originalTitle": "OpenAI’s blockbuster Navier-Stokes proof isn’t what we thought it was",
+        "summary": "화제가 됐던 증명이 처음 알려진 내용과는 다르다는 지적이 공유됐다. AI가 내놓은 수학 성과를 어떻게 검증하고 받아들여야 하는지에 대한 논의로 이어졌다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1x530mt/openais_blockbuster_navierstokes_proof_isnt_what/",
+        "subreddit": "artificial",
+        "score": 0,
+        "rank": 2,
+        "publishedAt": "2026-10-14T02:30:11+09:00"
+      },
+      {
+        "id": "rd_1x4t4k2",
+        "title": "OpenAI 연구자 룬, 정렬은 해결되지 않았다",
+        "originalTitle": "OpenAI researcher Roon: \"alignment has not been solved. if this is true, then racing into RSI is a folly that is unprecedented in world history. we will need to significantly slow the frontier of research soon\".",
+        "summary": "정렬이 해결되지 않았다고 전제한 뒤, 그렇다면 재귀적 자기 개선으로 달려가는 것은 세계사에 전례 없는 무모함이라고 적은 발언이 공유됐다. ==머지않아 연구 프런티어의 속도를 상당히 늦춰야 할 것이라는 주장이다.==",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1x4t4k2/openai_researcher_roon_alignment_has_not_been/",
+        "subreddit": "OpenAI",
+        "score": 0,
+        "rank": 3,
+        "publishedAt": "2026-10-13T19:33:16+09:00"
+      },
+      {
+        "id": "rd_1x4k8pa",
+        "title": "Claude Opus 5.5가 쓴 오보에 협주곡, 청취자 60%가 사람 작품으로 들었다",
+        "originalTitle": "Claude Opus 5.5 wrote an oboe concerto that 60% of listeners thought was human-composed—higher than actual pieces by Handel at 58% and Vivaldi at 43%",
+        "summary": "Claude Opus 5.5가 작곡한 오보에 협주곡을 두고 청취자의 60%가 사람이 쓴 곡이라고 답했다는 결과가 공유됐다. ==같은 조사에서 헨델의 실제 곡은 58%, 비발디는 43%였다.== 사람이 만든 음악과의 구분이 생각만큼 선명하지 않다는 쪽으로 논의가 흘렀다.",
+        "url": "https://www.reddit.com/r/singularity/comments/1x4k8pa/claude_opus_55_wrote_an_oboe_concerto_that_60_of/",
+        "subreddit": "singularity",
+        "score": 0,
+        "rank": 5,
+        "publishedAt": "2026-10-13T10:51:46+09:00"
+      },
+      {
+        "id": "rd_1x4s9hp",
+        "title": "사진 여섯 장으로 몇 년 묵은 포트홀을 이틀 만에 고쳤다",
+        "originalTitle": "Someone used Claude to get a years-old pothole fixed in two days",
+        "summary": "네덜란드의 한 사무실이 몇 년을 민원해도 움직이지 않던 포트홀 이야기가 공유됐다. 사진 여섯 장을 받은 Claude가 구멍을 3D로 재구성하고 시속 30km로 부딪히는 상황을 시뮬레이션했다. ==그 영상이 시청에 전달된 뒤 보수까지 이틀이 걸렸다.==",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1x4s9hp/someone_used_claude_to_get_a_yearsold_pothole/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "rank": 1,
+        "publishedAt": "2026-10-13T18:41:02+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_bb0b49818b",
+        "title": "토스가 서비스 팀마다 반복되던 AI 작업을 플랫폼으로 묶은 방법",
+        "originalTitle": "서비스 개발에 집중할 수 있는 AI 플랫폼 만들기",
+        "excerpt": "모델을 호출하는 일 자체는 어렵지 않지만, 실제 서비스에 붙이려면 쓸 모델과 데이터 처리 범위, 예상 비용과 필요한 처리 용량을 매번 따져야 한다. ==공급자별 연동과 권한 확인, 사용량 집계를 플랫폼이 맡게 했다.== 운영을 시작한 뒤 호출 실패 원인과 요청 폭주 대응까지 플랫폼 쪽에서 확인할 수 있게 설계했다.",
+        "url": "https://toss.tech/article/ai-platform-foundation",
+        "source": "토스 기술블로그",
+        "publisher": "토스",
+        "tier": 1,
+        "category": "quick_bites",
+        "publishedAt": "2026-10-13T10:34:00+09:00",
+        "readTime": 8,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_1140736dbc",
+        "title": "캐릭터닷AI, 법원 감독 매각을 위해 자발적 파산 절차 개시",
+        "originalTitle": "Character.ai, 자발적 챕터 11 파산 절차 개시",
+        "excerpt": "Character.ai가 법원 감독 아래 회사를 매각하기 위해 자발적 챕터 11 절차를 개시했다. 지난 1년간 법률과 규제, 운영에서 어려움이 이어졌다. ==이사회는 대안을 검토한 뒤 법원 감독 매각이 최선의 기회라고 판단했다.==",
+        "url": "https://news.hada.io/topic?id=35307",
+        "source": "GeekNews",
+        "publisher": "GeekNews",
+        "tier": 3,
+        "category": "quick_bites",
+        "publishedAt": "2026-10-14T03:33:05+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_a4a1a4a14c",
+        "title": "임베딩 모델을 음성 인식에 돌려쓴 온디바이스 전사 실험",
+        "originalTitle": "MacBook Air에서 1시간 분량 오디오를 약 13초 만에 전사",
+        "excerpt": "Embedding Gemma Transcribe는 구글의 멀티모달 임베딩 모델 EmbeddingGemma 2를 음성 인식에 활용한다. ==기본형 맥북 에어에서 1시간 분량 오디오를 약 13초 만에 기기 안에서 전사한다.== 오디오 인코더는 그대로 두고 짧은 오디오 구간을 텍스트 공간으로 옮기는 방식이다.",
+        "url": "https://news.hada.io/topic?id=35302",
+        "source": "GeekNews",
+        "publisher": "GeekNews",
+        "tier": 3,
+        "category": "quick_bites",
+        "publishedAt": "2026-10-13T23:37:50+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_a12cd0f45d",
+        "title": "모질라, 기업용 Firefox Enterprise 공개",
+        "originalTitle": "Mozilla, Firefox Enterprise 공개",
+        "excerpt": "규제와 보안에 민감한 조직을 위한 기업용 브라우저로, 브라우저 관리와 정책, 데이터를 자체 인프라에서 통제하도록 설계됐다. 조직이 데이터와 정책, 관리 기능이 어디에 있는지를 직접 정하고 감사할 수 있다. ==온프레미스 배포를 지원한다.==",
+        "url": "https://news.hada.io/topic?id=35301",
+        "source": "GeekNews",
+        "publisher": "GeekNews",
+        "tier": 3,
+        "category": "quick_bites",
+        "publishedAt": "2026-10-13T23:34:50+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "hn_50069499",
+        "title": "러스트 차용 검사기에서 11년 묵은 unsoundness 버그",
+        "originalTitle": "11 year old unsoundness bugs found in Rust borrow checker",
+        "excerpt": "러스트의 차용 검사기에서 11년 동안 드러나지 않았던 unsoundness 버그들이 발견돼 언어 저장소의 이슈로 보고됐다. 메모리 안전성을 컴파일 시점에 보장한다는 언어의 핵심 약속과 바로 맞닿은 영역이다.",
+        "url": "https://github.com/rust-lang/rust/issues/164250",
+        "source": "Hacker News",
+        "publisher": "Hacker News",
+        "tier": 3,
+        "category": "quick_bites",
+        "publishedAt": "2026-10-13T19:27:00+09:00",
+        "readTime": 2,
+        "imageGradient": 2,
+        "hnUrl": "https://news.ycombinator.com/item?id=50069499",
+        "points": 603,
+        "numComments": 340
+      },
+      {
+        "id": "hn_50073221",
+        "title": "해커뉴스에 글이 오른 뒤 사이트가 AI 봇 트래픽에 잠겼다",
+        "originalTitle": "I posted to HN, and then my website was flooded with AI bot traffic",
+        "excerpt": "글이 해커뉴스에 오른 직후 자신의 웹사이트가 AI 봇 트래픽으로 넘쳐났다는 기록이다. 어떤 요청이 어떤 규모로 들어왔는지를 직접 들여다본 사례다.",
+        "url": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
+        "source": "Hacker News",
+        "publisher": "Hacker News",
+        "tier": 3,
+        "category": "quick_bites",
+        "publishedAt": "2026-10-14T00:25:50+09:00",
+        "readTime": 2,
+        "imageGradient": 0,
+        "hnUrl": "https://news.ycombinator.com/item?id=50073221",
+        "points": 163,
+        "numComments": 94
+      }
+    ]
+  }
+}
