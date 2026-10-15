@@ -1,0 +1,573 @@
+{
+  "date": "2026-10-16",
+  "issueNumber": 187,
+  "asOf": "2026-10-15T20:03:00+00:00",
+  "cover": {
+    "mainHeadline": "메타, 8,160억 파라미터 오픈웨이트 멀티모달 모델 Muse Spark Open 공개",
+    "mainExcerpt": "메타가 Muse 시리즈 최상위 모델을 오픈웨이트로 풀었다. 전체 8,160억 파라미터 중 토큰당 420억 개만 쓰는 전문가 혼합 구조로, 텍스트와 이미지, 오디오, 영상을 입력으로 받으며 컨텍스트는 100만 토큰이다. ==전문가 256개가 전체 파라미터의 약 97%를 차지해, 속도는 42B급이지만 메모리는 816B급을 요구한다==.",
+    "headlines": [
+      "엔비디아, 1,200억 중 120억만 활성화하는 멀티모달 에이전트 모델 Nemotron 3.5 Super VL 공개",
+      "애플, 폴더블 iPhone Duo 16일부터 사전 주문 시작",
+      "구글, 20년 묵은 양자컴퓨팅 '매직 상태' 병목을 Willow에서 실험으로 돌파"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_9d251ac683",
+      "title": "메타, 8,160억 파라미터 오픈웨이트 멀티모달 모델 Muse Spark Open 공개",
+      "originalTitle": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+      "excerpt": "메타가 Muse 시리즈의 최상위 모델을 오픈웨이트로 공개했다. ==전체 8,160억 파라미터 중 토큰당 420억 개만 활성화하는 전문가 혼합 구조==이며, 텍스트와 이미지, 오디오, 영상을 모두 입력으로 받는다. 코드베이스를 읽고 디버깅하며 도구를 호출하는 에이전틱 코딩에 맞춰 학습됐다.",
+      "url": "https://huggingface.co/blog/meta-muse-spark-open",
+      "source": "Hugging Face Blog",
+      "publisher": "Hugging Face",
+      "tier": 1,
+      "category": "ai_ml",
+      "publishedAt": "2026-10-15T09:00:00+09:00",
+      "readTime": 6,
+      "imageGradient": 6,
+      "body": "Muse Spark Open은 8월에 나온 소형 밀집 모델 Muse Glimmer와 같은 토크나이저와 어휘를 쓰는 같은 계열의 풀사이즈 모델이다. 언어 모델은 62개 층에 은닉 차원 8,192이고, 각 층의 밀집 피드포워드 블록이 MoE 블록으로 교체됐다. MoE 블록마다 전문가가 256개 있고 라우터가 토큰당 8개를 고르는데, 이 전문가들이 전체 파라미터의 약 97%를 차지한다. 어텐션은 질의 헤드 128개와 키·값 헤드 16개로 묶은 그룹 쿼리 방식이고 QK 정규화와 학습되는 잔차 게이트가 들어갔다.\n\n입력 모달리티는 별도 인코더가 처리한다. 이미지와 영상은 18억 파라미터 퍼셉션 인코더가 14×14 패치로 쪼개 토큰으로 바꾸고, 오디오는 80밀리초마다 토큰 하나씩, 즉 초당 12.5개를 만든다. ==컨텍스트 창은 100만 토큰이고 이미지·영상·오디오 토큰도 같은 창을 함께 쓴다==. 그룹 쿼리 어텐션 덕에 KV 캐시는 토큰당 BF16 기준 약 250KB로, 100만 토큰을 꽉 채우면 266GB 수준이다.\n\n운용 부담은 여전히 816B 모델의 것이다. 전문가 256개가 모두 메모리에 상주해야 하기 때문이다. ==BF16 체크포인트는 safetensors 기준 약 1.5TB이고, transformers에서는 H200 8장 노드 4개에 텐서 병렬로 펼쳐야 돌아간다==. 엔비디아 블랙웰용 4비트 NVFP4 체크포인트는 정확도 손실을 거의 내지 않으면서 B200 단일 노드에서 구동되고, llama.cpp와 vLLM, SGLang 레시피도 함께 제공된다.\n\n계산량만 보면 토큰당 420억 파라미터급이라 속도는 42B 모델에 가깝다. 반면 메모리는 816B 모델을 요구한다. 노트북에서 돌려보는 급은 아니고, 여러 노드를 묶을 수 있는 조직이 사내 코딩 에이전트의 기반 모델 후보로 올려볼 선택지라는 뜻이다."
+    },
+    {
+      "id": "rss_b382a6d08a",
+      "title": "엔비디아 Nemotron 3.5 Super VL, 단일 GPU에서 멀티모달 에이전트를 돌린다",
+      "originalTitle": "NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning",
+      "excerpt": "기업용 에이전트 워크로드를 겨냥한 오픈 멀티모달 모델이다. 1,200억 파라미터 중 토큰당 120억 개만 활성화해 ==같은 체급 오픈 모델 대비 에이전틱 작업 처리량이 최대 5배 높다==고 엔비디아는 밝혔다. 텍스트 모델과 비전 모델을 따로 띄우지 않아도 문서와 이미지, 영상을 함께 다룰 수 있다.",
+      "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/",
+      "source": "NVIDIA Technical Blog",
+      "publisher": "NVIDIA",
+      "tier": 1,
+      "category": "ai_ml",
+      "publishedAt": "2026-10-16T03:01:00+09:00",
+      "readTime": 4,
+      "imageGradient": 7,
+      "body": "Nemotron 3.5 Super VL은 추론과 지시 따르기, 도구 사용을 텍스트·이미지·문서·영상 이해와 한 모델에 합쳤다. 지금까지는 문서를 읽는 비전·언어 모델과 판단하는 텍스트 모델을 따로 배포하고 그 사이로 맥락을 넘겨야 했는데, 이 구조를 하나로 줄인 것이 이번 모델의 요지다. 엔비디아는 코드 검증과 오류 분석, 웹 리서치, 표·차트·레이아웃을 해석하는 문서 지능, 사이버보안 취약점 식별과 위협 분류, 영상 이해를 대표 워크플로로 든다.\n\n성능 수치는 Artificial Analysis 기준으로 제시됐다. ==입력 10만 토큰 조건의 에이전틱 과제에서 Baseten 엔드포인트로 초당 600토큰 이상을 출력했고==, 같은 차트에서 비교 대상인 Inkling Small과 5배 속도 차이를 표시했다.\n\n도입 사례도 함께 나왔다. Scale AI는 미디어 기업 스카이댄스의 벤더 크레딧 처리 자동화에 이 모델을 후학습해 ==추론 비용이 40분의 1, 지연이 5분의 1로 줄 것으로 본다==. 램프는 영수증 이미지를 가맹점과 날짜, 결제 정보가 담긴 구조화된 JSON으로 바꾸는 작업에서 처리량 최대 50% 증가와 지연 10분의 1을, AI21과 Alice는 위협 인텔리전스·취약점 분석 정확도 41% 향상을 보고했다.\n\n후학습 경로는 NVIDIA NeMo 오픈 라이브러리다. NeMo AutoModel로 지도 미세조정과 LoRA를 돌려 도메인 동작을 가르치고, 조직 워크플로를 반영한 에이전틱 환경에서 강화학습으로 성능을 끌어올린다. 모델 공개와 함께 에이전틱 도구 사용·대화 데이터, 금융 추론과 도구 호출 데이터셋, 지시 따르기 데이터 등이 허깅페이스에 올라갔다."
+    },
+    {
+      "id": "rss_32a44b13d3",
+      "title": "애플, 폴더블 iPhone Duo 사전 주문 10월 16일 시작",
+      "originalTitle": "Open up to new possibilities with iPhone Duo",
+      "excerpt": "애플이 역대 가장 큰 아이폰 디스플레이를 접히는 형태로 내놨다. 16일 오전 5시(미국 태평양 시각)부터 apple.com과 애플스토어 앱에서 사전 주문이 열린다. ==펼친 상태에서는 역대 가장 얇은 아이폰==이라는 점을 애플은 앞세웠다.",
+      "url": "https://www.apple.com/newsroom/2026/10/open-up-to-new-possibilities-with-iphone-duo/",
+      "source": "Apple Newsroom",
+      "publisher": "Apple",
+      "tier": 1,
+      "category": "big_tech",
+      "publishedAt": "2026-10-15T21:59:28+09:00",
+      "readTime": 5,
+      "imageGradient": 1,
+      "body": "제품의 핵심은 두 개의 화면이다. 내부 디스플레이는 iPhone 18 Pro Max의 화면보다 50% 크고, 접었을 때 바깥 5.4인치 화면은 iPhone 18 Pro 화면 면적의 90%를 제공한다. 접어서 주머니에 넣는 크기를 유지하면서도 펼치면 콘텐츠 시청과 게임, 멀티태스킹용 캔버스가 생긴다는 구성이다. 애플은 정밀 설계된 힌지가 매번 매끄러운 감각을 준다며 내구성의 근거로 들었다.\n\n내부는 A20 Pro가 맡는다. ==듀얼 배터리 구조로 하루를 쓰는 배터리 수명을 목표로 했다==. 소프트웨어도 함께 손봤다. iOS 27은 익숙하고 직관적인 사용 방식을 유지하면서 접고 펴는 다양한 상호작용에 맞춰 재구성됐고, 애플 인텔리전스 기반 Siri AI가 사용자의 개인 맥락과 결합해 기기를 지능형 개인 허브로 만든다는 설명이다.\n\n구매 조건도 같은 자료에 담겼다. ==애플 트레이드 인은 iPhone 13 이상 기기를 반납하면 175달러에서 885달러의 즉시 크레딧을 준다==. 이 크레딧은 클라르나가 제공하는 애플 업그레이드 리스나 애플 카드 월 분할 납부, 통신사 프로모션의 월 납입금을 낮추는 데 쓸 수 있다. 매장과 온라인 모두에서 애플 스페셜리스트 상담, AppleCare+ 또는 AppleCare One 가입, 가정 배송이나 매장 픽업을 선택할 수 있다.\n\n가격은 이 보도자료에 들어 있지 않다. 화면 크기와 두께, 힌지, 배터리 구조만 공개하고 세부 사양표나 출고가는 밝히지 않은 채 사전 주문 일정을 먼저 알린 구성이다. 폴더블이 아이폰 라인업에 정식으로 들어왔다는 사실 자체가 이번 발표의 무게다."
+    },
+    {
+      "id": "rss_f084928e13",
+      "title": "구글, 양자컴퓨팅 20년 병목 '매직 상태'를 실험으로 뚫었다",
+      "originalTitle": "Bringing the magic: Google breaks open a bottleneck in quantum computing",
+      "excerpt": "구글 퀀텀 AI가 Willow 프로세서에서 '매직 상태 재배'가 실제로 작동함을 보였다. ==재배를 거치지 않은 상태와 비교해 오류를 약 40배 줄였다==. 연구는 같은 날 Science에 실렸다.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/magic-state-cultivation-quantum-computing/",
+      "source": "Google Blog",
+      "publisher": "Google",
+      "tier": 1,
+      "category": "big_tech",
+      "publishedAt": "2026-10-16T03:00:00+09:00",
+      "readTime": 5,
+      "imageGradient": 3,
+      "body": "매직 상태는 고전 컴퓨팅을 넘어서는 연산을 만들기 위해 필요한 특수한 양자 상태다. 2004년부터 연구자들은 이 상태를 오류 보정된 품질로 만드는 비용이 범용 양자컴퓨팅의 병목이 될 것을 예견했다. 일부 추정에서는 양자컴퓨터 전체 용량의 최대 95%를 매직 상태 생산에 써야 하고, 한 번 쓴 상태는 재사용할 수 없어 늘 희소한 자원이었다.\n\n2024년 구글 퀀텀 AI의 크레이그 기드니와 노아 셔티, 코디 존스는 문헌의 아이디어를 다듬어 '매직 상태 재배'라는 접근을 만들었다. 잡음 섞인 상태를 칩의 작은 영역에 주입하고, 정밀하게 조율된 측정을 연달아 돌려 오류가 난 시도를 걸러내는 필터처럼 쓰는 방식이다. 이렇게 길러낸 순수한 상태를 동시에 더 크고 유용한 부호로 옮길 수 있다는 것이 이론의 핵심이었다.\n\n구현 과정은 평탄하지 않았다. 연구원 에마 로젠펠드는 물리 법칙에 어긋나는 듯한 데이터를 몇 달간 들여다본 끝에, 전기 장비의 드리프트와 온도 변화로 생기는 잡음이 기존 측정 기법의 전제를 깨뜨리고 있었음을 찾아냈다. 팀은 제어를 추가해 잡음 영향을 줄이고, 재배 자체를 척도로 쓰는 새 벤치마킹 기법을 고안해 문제를 근본에서 해결했다.\n\n결과물은 ==논리 충실도 99.99%의 T 상태==다. 구글은 재배에 적합한 신형 오류 보정 부호인 색 부호와 기존 표면 부호 사이를 전환하는 접합도 함께 보였다. 거리 3 색 부호에서 거리 5 표면 부호로 상태를 옮기는 데 성공한 것이다. 다만 실용화에는 더 큰 규모에서의 재배 실증이 남아 있고 기술적 난제도 여전하다고 구글은 적었다."
+    },
+    {
+      "id": "web_227d02ee5d",
+      "title": "앤스로픽, METR 팀에 '직원급 접근' 부여하고 외부 평가 체계 공개",
+      "originalTitle": "Anthropic update on independent evaluators",
+      "excerpt": "앤스로픽이 프런티어 AI 모델을 평가하는 비영리 METR 팀에 사내 직원과 비슷한 수준의 접근을 열었다. METR은 위험 평가 결과를 직접 공개하며, ==앤스로픽은 그 공개를 거부할 권한이 없다==. 지난달 서명한 백악관 초지능 협약의 외부 감사 파트너십 약속을 이행하는 조치다.",
+      "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+      "source": "Anthropic News",
+      "publisher": "Anthropic",
+      "tier": 1,
+      "category": "ai_ml",
+      "publishedAt": "2026-10-16T03:25:08+09:00",
+      "readTime": 6,
+      "imageGradient": 7,
+      "body": "'직원급 접근'의 실체는 구체적이다. METR 직원 6명이 회사 하드웨어와 사무 공간을 받고, 앤스로픽 자체 위험 평가 팀과 대체로 같은 수준의 내부 도구·시스템 접근 권한으로 온보딩됐다. 고객 데이터, 변호사·의뢰인 특권 정보, 모델 아키텍처 정보처럼 좁게 정의된 범주를 빼면, 앤스로픽 직원들은 정렬 위험을 함께 다루는 동료에게 하듯 정보를 공유하도록 권장된다.\n\n공개 권한의 설계가 핵심이다. METR은 앤스로픽의 위험 수준과 사건, 관행에 대한 분석을 발표한다. 앤스로픽은 미리 정의된 좁은 범주에 해당하는 정보의 삭제를 요구할 수 있을 뿐이고, ==METR은 삭제된 내용을 드러내지 않는 한 그 삭제가 정당했는지에 대한 견해를 공개적으로 밝힐 수 있다==.\n\n앤스로픽은 이 구조를 은행 감독에 비유했다. 은행이 자기 위험 포지션을 외부보다 잘 아는 탓에 규제 당국이 대형 은행 내부에 상주 검사관을 두는 것과 같은 논리라는 것이다. 평가자에게 필요한 조건으로는 프런티어 모델 역량 평가 전문성, 지분이나 재정·운영 의존이 없는 독립성, 모델 학습 방식과 안전장치 작동까지 들여다보는 접근, 그리고 발표의 자유를 꼽았다.\n\n파트너는 METR 하나가 아니다. SecureBio와 액센츄어도 평가자로 참여하고 있고 허깅페이스를 포함한 여러 조직과 초기 논의 중이다. ==앤스로픽은 평가자 접근 권한을 3단계로 설계하고 있다==. 1단계는 좁게 범위를 정한 조사에 승인을 받아 공개하고, 2단계는 승인 없이 공개할 수 있으며 정보 범위도 넓다. 3단계는 여러 평가자가 각자 위험 태세와 주요 결정에 대한 분석을 내는 형태를 목표로 한다."
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_e3c36d4422",
+        "title": "스위스 공개 모델 Apertus 1.5, 이미지·오디오 이해와 26만 토큰 컨텍스트 추가",
+        "originalTitle": "Apertus 1.5 Release Notes",
+        "excerpt": "Apertus 1.0의 8B·70B 모델을 이어 학습해 멀티모달 이해와 선택적 사고 모드, 4배 긴 컨텍스트를 붙였다. ==가중치와 데이터, 학습 세부까지 모두 공개하는 아파치 2.0 라이선스를 유지한다==. 기술 보고서도 함께 나왔다.",
+        "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+        "source": "Hugging Face Blog",
+        "publisher": "Hugging Face",
+        "tier": 1,
+        "category": "ai_ml",
+        "publishedAt": "2026-10-15T18:08:45+09:00",
+        "readTime": 4,
+        "imageGradient": 4,
+        "body": "Apertus 1.5는 새로 학습한 모델이 아니라 1세대 모델의 연속 사전학습이다. 8B 모델에는 텍스트·멀티모달 데이터 4조 토큰을, 70B에는 2조 토큰을 더해 각각 누적 19조, 17조 토큰이 됐다. 학습 토큰의 절반 이상은 여전히 텍스트 전용으로 두어 1.0의 언어 능력을 보존했다.\n\n멀티모달을 붙인 방식이 특이하다. 별도 비전 인코더를 두지 않고 ==이미지와 오디오를 텍스트와 같은 시퀀스의 이산 토큰으로 넣는 얼리 퓨전 방식==을 썼다. 이미지는 Emu3.5 토크나이저로 512×512 한 장이 1,024토큰이 되고, 오디오는 WavTokenizer로 초당 40토큰이다. 어휘만 확장하므로 아키텍처는 그대로고 학습도 텍스트 전용 속도로 돌아간다. 입력은 이미지와 오디오를 이해하지만 출력은 텍스트뿐이다.\n\n사전학습은 네 단계로 나뉜다. 먼저 텍스트와 단독 이미지·오디오로 새 모달리티를 익히고, 이미지-캡션과 오디오-전사 쌍으로 언어와 정렬한 뒤, 수학과 코드 비중을 높인 고품질 데이터로 쿨다운하고, 마지막으로 ==컨텍스트 창을 8k에서 262,144 토큰까지 단계적으로 늘린다==.\n\n데이터 기준은 이전과 같다. 공개적으로 이용 가능하고 허용적 라이선스를 가지며 robots.txt 옵트아웃을 소급 적용한 자료만 쓴다. 텍스트는 FineWeb2-HQ+와 FinePDFs, Nemotron-CC 같은 출처로 갱신했고 모든 출처는 apertus-data-transparency 저장소에 나열된다. 그 밖에 지시 따르기와 도구 사용도 개선됐으며, 오디오 처리는 아직 실험적이라고 팀은 밝혔다."
+      },
+      {
+        "id": "rss_3733c75a28",
+        "title": "FLUX.3 Image Klein, 프롬프트에 좌표 박스를 써서 구도를 지정한다",
+        "originalTitle": "Welcome FLUX.3 Image Klein in Diffusers",
+        "excerpt": "Black Forest Labs의 새 공개 이미지 모델이다. 텍스트에서 이미지, 다중 참조 이미지에서 이미지를 한 모델로 처리하면서 어느 요소를 어디에 둘지 지시하는 레이아웃 제어가 새로 들어갔다. ==Diffusers에서 공개 첫날부터 쓸 수 있다==.",
+        "url": "https://huggingface.co/blog/flux-3",
+        "source": "Hugging Face Blog",
+        "publisher": "Hugging Face",
+        "tier": 1,
+        "category": "ai_ml",
+        "publishedAt": "2026-10-15T09:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 0,
+        "body": "체크포인트는 두 가지다. flux-3-image-klein은 타임스텝 증류 버전으로 기본 16스텝에 CFG를 쓰지 않고, flux-3-image-klein-base는 기본 50스텝에 CFG를 쓴다. ==증류 체크포인트는 H100에서 1024×1024 이미지를 약 2초에 만든다==. 작은 GPU를 위한 NVFP4와 FP8 가중치는 from_single_file로 불러온다.\n\n사용법은 단순하다. diffusers와 Qwen3-VL 텍스트 인코더용 transformers를 최신으로 올리고 ModularPipeline.from_pretrained로 체크포인트를 불러오면 된다. 이미지에서 이미지를 만들 때는 image 인자에 참조 이미지를 넘기고 프롬프트를 원하는 결과의 캡션처럼 쓴다. 참조가 여러 장이면 넘긴 순서대로 ref_image_0, ref_image_1처럼 프롬프트에서 지목한다.\n\n새 기능인 레이아웃 제어는 캡션 뒤에 JSON 영역 목록을 붙이는 방식이다. 각 영역은 id와 bbox, desc를 갖고 캡션에서 해당 id로 언급된다. ==박스는 y_min, x_min, y_max, x_max 순서로 y를 먼저 쓰고 0부터 1000까지 정규화된 좌표를 쓰기 때문에 같은 박스가 어떤 해상도에서도 통한다==.\n\n배포 형태도 바뀌었다. 모듈러 Diffusers 파이프라인으로 나와 블록을 빼거나 직접 만든 블록을 끼울 수 있고, 텍스트에서 이미지 생성과 이미지 편집용 LoRA 학습 스크립트가 함께 제공된다. 허깅페이스 스페이스에서 바로 생성해볼 수도 있다."
+      },
+      {
+        "id": "rss_4046eeecbe",
+        "title": "마이크로소프트 리서치 Magnetar, Rust·Go·C 프로그램을 고쳐 쓰지 않고 증명한다",
+        "originalTitle": "Proof-based general-purpose computing with Magnetar",
+        "excerpt": "영 지식 증명을 일반 프로그램에 쓰기 어렵게 만들던 속도와 범용성, 보안의 세 난제를 한꺼번에 공략한 시스템이다. 기존 최고 수준의 비교 시스템보다 ==평균 10~39배 빠르고 보안은 표준 해시 함수에만 의존한다==고 MSR은 밝혔다.",
+        "url": "https://www.microsoft.com/en-us/research/blog/proof-based-general-purpose-computing-with-magnetar/",
+        "source": "Microsoft Research",
+        "publisher": "Microsoft",
+        "tier": 1,
+        "category": "ai_ml",
+        "publishedAt": "2026-10-16T01:00:00+09:00",
+        "readTime": 6,
+        "imageGradient": 2,
+        "body": "영 지식 증명은 작업을 실행하면 결과와 함께 그 프로그램이 올바르게 돌았다는 짧은 증명을 내준다. 받는 쪽은 프로그램을 다시 돌리지 않고, 실행한 주체를 신뢰하지 않고, 입력 데이터를 받지 않고도 밀리초 단위로 증명을 검증할 수 있다. 결과를 누가 만들었는지로 신뢰하는 대신 무엇이 함께 왔는지로 검증하는 셈이다. 정책 준수를 증명에 첨부하는 AI 에이전트, 거래 내역을 공개하지 않고 올바른 처리를 증명하는 금융기관이 활용 예로 제시됐다.\n\nMSR은 이 기술이 범용 도구가 되지 못한 이유로 세 가지를 꼽는다. 첫째는 효율이다. 증명 생성은 역사적으로 프로그램 실행보다 수백만 배 많은 계산을 요구했다. 둘째는 범용성과 사용성이다. 많은 증명 시스템은 개발자가 프로그램을 암호 회로로 직접 다시 쓰도록 요구하는데, 이 작업은 몇 달이 걸리고 애플리케이션이 바뀌면 회로를 새로 만들어야 하며 번역 과정 자체가 보안 버그의 상습적 원천이다.\n\n셋째가 보안이고, 여기가 이번 발표의 차별점이다. 많은 증명 시스템은 충분히 강력한 양자컴퓨터로 깨질 수 있는 타원곡선에 기반한다. 포스트 양자 시스템도 이미 있지만 일부는 격자 가정에, 대부분은 증명 비용을 줄이려 새로 만든 암호 함수에 의존한다. ==이들 새 함수는 오늘의 인터넷을 지키는 암호가 받아온 수십 년의 검증을 거치지 않았고, 일부는 오류 정정 부호에 관한 증명되지 않은 추측에 기대고 있다==.\n\n마이크로소프트는 자사 제품과 서비스의 포스트 양자 암호 전환 목표를 2029년으로 앞당긴 Quantum Safe Program을 함께 언급했다. Magnetar는 10년 넘게 이어온 MSR의 영 지식 증명 실용화 연구의 최신 결과물이다."
+      },
+      {
+        "id": "rss_25dcb59795",
+        "title": "AWS가 말하는 'Trust in Depth': 사람 승인 대신 검증 가능한 경계",
+        "originalTitle": "Trust in Depth: Giving agents more autonomy without losing control",
+        "excerpt": "에이전트에 자율성을 더 주고 싶지만 믿지 못하는 상황을 두고, AWS는 모든 행동을 사람이 승인하는 방식의 한계를 지적한다. ==검증 가능한 행동은 에이전트가 알아서 하게 두고 판단이 필요한 결정에만 사람을 쓰자==는 제안이다.",
+        "url": "https://aws.amazon.com/blogs/machine-learning/trust-in-depth-giving-agents-more-autonomy-without-losing-control/",
+        "source": "AWS Machine Learning Blog",
+        "publisher": "Amazon",
+        "tier": 1,
+        "category": "ai_ml",
+        "publishedAt": "2026-10-16T00:05:35+09:00",
+        "readTime": 6,
+        "imageGradient": 1,
+        "body": "문제의 출발점은 에이전트의 비결정성이다. 같은 과제를 두 번 돌리면 다른 경로를 택할 수 있고, 개발자가 짜두지 않은 순서로 도구를 고른다. 그래서 오늘 통과한 테스트가 내일의 동작을 거의 보장하지 못한다. 흔한 대응인 전수 승인은 규모가 커지면 승인 대기가 쌓이고 검토 피로가 와서, 모든 것을 확인하라고 요구받은 사람이 정작 중요한 것을 놓치게 된다.\n\nAWS는 20년간 업계가 해온 심층 방어의 규율을 목적만 바꿔 쓰자고 제안한다. ==심층 방어가 잘못될 수 있는 범위를 좁히는 것이라면 Trust in Depth는 안전하게 허용할 수 있는 범위를 넓히는 것==이라는 대구가 글의 뼈대다.\n\n구체적으로는 에이전트 수명주기의 네 시점에 질문을 배치한다. 실행 전 범위 설정은 이 에이전트가 무엇을 위한 것이고 절대 해서는 안 되는 일이 무엇인지 묻는다. 배포 시점의 식별은 누가 승인했고 어떤 신원을 지니며 우리를 대리해 움직이는 모든 에이전트를 셀 수 있는지 묻는다. 실행 중의 경계는 행동이 설정한 한계 안에 머물면서도 일을 해낼 수 있는지, 실행 후의 관찰은 무엇을 왜 했는지 재구성하고 거기서 배울 수 있는지를 묻는다.\n\n규칙의 성격에 따라 검증 수단이 갈린다. 접근 승인은 관리자만 할 수 있다는 식으로 정밀하게 정의된 규칙에는 자동 추론, 즉 모든 가능한 경우에 규칙이 성립하는지 확인하는 수학적 논리를 쓴다. ==테스트는 예상한 경우에서만 통제가 작동하는지 보여주지만 에이전트는 예상하지 않은 경로를 택하기 때문이다==. 반면 어조 유지나 민감한 상황 대처처럼 맥락과 판단이 필요한 기대는 사람 몫으로 남긴다."
+      },
+      {
+        "id": "rss_40b611a330",
+        "title": "FT: 앤스로픽 3분기 매출 168억 달러, IPO 앞두고 투자자에 공개",
+        "originalTitle": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO",
+        "excerpt": "FT가 수요일 투자자 설명회 내용을 바탕으로 분기 매출 추이를 전했다. 1분기 약 48억 달러, 2분기 115억 달러에 이어 ==3분기는 168억 달러로 전 분기 대비 50% 가까이 늘었다==. 컴퓨팅 비용 1달러당 매출은 1.70달러, 주식보상을 제외한 조정 영업이익률은 11%로 제시됐다.",
+        "url": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/",
+        "source": "Simon Willison",
+        "publisher": "Simon Willison",
+        "tier": 2,
+        "category": "ai_ml",
+        "publishedAt": "2026-10-15T22:04:03+09:00",
+        "readTime": 2,
+        "imageGradient": 7
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_b7ac4657df",
+        "title": "GitHub 코드 스캐닝 경고를 코파일럿이 직접 고치는 에이전틱 오토픽스 정식 출시",
+        "originalTitle": "Agentic autofix for code scanning alerts general availability",
+        "excerpt": "경고를 코파일럿에 배정하면 코드베이스를 탐색해 수정안을 만든다. ==CodeQL을 다시 돌려 경고가 실제로 닫히는지 확인한 뒤 초안 PR을 연다==. GitHub Code Security와 Advanced Security 고객이 대상이다.",
+        "url": "https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability",
+        "source": "GitHub Changelog",
+        "publisher": "GitHub",
+        "tier": 1,
+        "category": "dev_tools",
+        "publishedAt": "2026-10-15T22:49:20+09:00",
+        "readTime": 3,
+        "imageGradient": 3,
+        "body": "동작은 네 단계로 돌아간다. 관련 파일을 코드베이스 전반에서 탐색하고, 수정안을 생성하고, CodeQL을 재실행해 수정이 유효한지 검증하고, 필요하면 반복한 뒤 검토용 초안 PR을 연다. PR에는 수정 요약과 그 수정이 경고를 닫는 이유, 코파일럿이 검증에 거친 단계가 함께 담긴다. PR이 올라온 뒤에도 코멘트를 달거나 저장소의 Agents 탭에서 세션과 상호작용해 추가 수정을 지시할 수 있다.\n\n쓰는 경로는 세 가지다. 기본 브랜치의 개별 코드 스캐닝 경고에서 배정하거나, 저장소 보안 경고 목록이나 보안 캠페인에서 ==최대 25건의 경고를 골라 하나의 PR로 묶어 고치게 하거나==, REST API에서 assignees를 copilot-swe-agent 봇으로 지정하는 방식이다. 기능을 켜면 개별 경고에 있던 무료 Generate Fix 옵션이 Assign to Copilot 버튼으로 바뀐다.\n\n제약도 분명하다. 지원 대상은 저장소 기본 브랜치의 경고뿐이고, 풀 리퀘스트나 다른 브랜치에서만 발견된 경고는 배정할 수 없다. 쓰려면 엔터프라이즈 관리자가 Advanced Security 정책의 새 Agentic autofix 항목을 켜야 하고, 그 뒤 조직이나 저장소 관리자가 Code Security 설정에서 활성화한다. 코파일럿 과금 수단도 지정돼 있어야 한다.\n\n비용은 공짜가 아니다. ==Code Security 예산의 AI 크레딧과 GitHub Actions 분을 함께 소비한다==. AI 크레딧 사용량은 엔터프라이즈 과금 화면의 AI usage 섹션에 Advanced Security 제품으로 표시되고, Code Security AI 크레딧에 SKU 단위 예산을 걸 수도 있다. 데이터 레지던시를 쓰는 GitHub Enterprise Cloud에서도 쓸 수 있다."
+      },
+      {
+        "id": "rss_f666d4e485",
+        "title": "Vercel Drives 정식 출시, 에이전트 파일을 실행 환경과 분리한다",
+        "originalTitle": "Introducing Vercel Drives: persistent storage for agents",
+        "excerpt": "에이전트가 샌드박스를 바꿔도 같은 파일로 작업을 이어가게 하는 영구 스토리지다. 드라이브를 만들어 두고 샌드박스 생성 시 마운트하면 ==다음 샌드박스가 이전 실행이 남긴 파일을 그 자리에서 찾는다==. Vercel Sandbox용으로 GA됐다.",
+        "url": "https://vercel.com/blog/introducing-vercel-drives-persistent-storage-for-agents",
+        "source": "Vercel Blog",
+        "publisher": "Vercel",
+        "tier": 1,
+        "category": "dev_tools",
+        "publishedAt": "2026-10-15T16:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 7,
+        "body": "문제 설정은 이렇다. 에이전트의 작업은 여러 실행에 걸쳐 이어지는데, 작업이 진행되면서 다른 도구나 런타임, 컴퓨트가 필요해 새 환경으로 옮겨야 할 수 있다. Drives는 파일을 실행 환경에서 떼어내 이 전환을 가능하게 한다. CLI나 Sandbox SDK로 드라이브를 한 번 만들고 마운트하면, 예컨대 /workspace 아래 전부가 드라이브에 남고 그 밖은 샌드박스에 속한다. 에이전트는 런타임을 바꾸면서도 작업공간을 옮겨 나르지 않는다.\n\n공유 패턴도 지원한다. ==한 에이전트가 드라이브에 데이터셋을 만들어 두면 다른 샌드박스들이 읽기 전용 사본을 마운트해 분석이나 리포트 생성에 쓸 수 있다==. 데이터셋을 다시 만들지 않고 공유 파일을 입력으로 쓰고 결과만 따로 저장하는 방식이다.\n\n포크는 병렬 탐색용이다. 각 포크는 드라이브 내용으로 시작해 자체 쓰기 가능 작업공간을 갖는다. 같은 데이터셋에 서로 다른 변환을 동시에 시도해도 원본이 바뀌지 않고 서로 영향도 없다. 다만 ==포크는 원본 드라이브로 다시 병합되지 않는다==. 포크 역시 GA 상태다.\n\n용량 기준은 플랜에 따라 다르다. 기본 1TiB, Hobby는 1GiB이며 최대 16TiB까지 쓸 수 있다. 모든 플랜의 Vercel Sandbox에서 사용할 수 있고, 설정과 스냅샷, 한계는 문서에, GA 시점의 변경 사항은 체인지로그에 정리돼 있다."
+      },
+      {
+        "id": "rss_d99ce6561e",
+        "title": "얀덱스 장애로 러시아 봇이 끊겼다? 클라우드플레어가 본 실제 데이터",
+        "originalTitle": "Yandex outage: Data shows that instead of going dark, malicious bots went on the move",
+        "excerpt": "얀덱스 데이터센터 피격 이후 러시아 봇 농장이 오프라인이 됐다는 주장이 퍼졌다. 클라우드플레어는 ==총 트래픽 지표만 보면 쉽게 오해하게 된다==고 지적한다. 두 개의 ASN을 나눠 보면 결론이 전혀 달라진다.",
+        "url": "https://blog.cloudflare.com/yandex-outage/",
+        "source": "Cloudflare Blog",
+        "publisher": "Cloudflare",
+        "tier": 1,
+        "category": "dev_tools",
+        "publishedAt": "2026-10-15T05:24:19+09:00",
+        "readTime": 6,
+        "imageGradient": 7,
+        "body": "얀덱스에는 ASN이 둘 있다. AS13238은 검색 엔진용이고 AS200350은 클라우드 서비스용이다. 10월 7일부터 11일 사이 보도된 우크라이나 드론 공격이 러시아 내 얀덱스 시설 세 곳을 타격해 데이터센터와 네트워크 용량을 차례로 떨어뜨렸다. 11일에는 ==검색 ASN 트래픽이 기준선 대비 99%, 클라우드 ASN이 90% 떨어지는 사실상의 붕괴==가 왔고 13일까지 86~90% 낮은 수준에 머물렀다. 14일 18시(UTC) 기준으로는 정상의 85% 수준이다.\n\n문제는 사라진 트래픽의 내용물이 서로 달랐다는 점이다. 검색 ASN은 요청의 99.5%가 자동화였고 그중 93.6%가 검증된 봇, 즉 페이지와 이미지, 사이트 리소스를 색인하는 검색 크롤러였다. 줄어든 것은 대부분 이 크롤링이다.\n\n클라우드 ASN은 성격이 달랐다. 점수화된 요청의 약 95%가 봇인데 ==관측된 봇 요청 가운데 클라우드플레어가 검증한 것은 하나도 없었다==. 요청의 3분의 2 가까이가 웹사이트로 데이터를 보냈고, 일부는 자신을 자바스크립트나 파이썬, Go 프로그램으로 밝혔으며, 검색 봇보다 소프트웨어 기업을 향한 비중이 높았다. 취약점 스캐닝 같은 악성 활동은 줄었지만 대량 자동화 자체는 사라지지 않고 다른 호스팅 업체로 옮겨갔다.\n\n규모 감각도 함께 제시됐다. 공격 전 자동화 요청은 클라우드플레어 네트워크 전체 HTTP 트래픽의 36.1%, 러시아 IP 트래픽의 35.8%였다. 그중 검색 ASN은 러시아발 봇 요청의 약 7%, 전 세계의 0.05%였고 클라우드 ASN은 각각 2%와 0.01%였다. 특정 제공자에서 악성 트래픽이 나온다는 사실이 그 트래픽의 책임 주체를 알려주지는 않는다는 것이 글의 결론이다.",
+        "hnUrl": "https://news.ycombinator.com/item?id=50094673",
+        "points": 276,
+        "numComments": 114
+      },
+      {
+        "id": "rss_da7689e557",
+        "title": "젯브레인스 Java·Kotlin 확장 1.0, VS Code와 Cursor에 IntelliJ 지능을 넣는다",
+        "originalTitle": "IntelliJ IDEA’s Java and Kotlin for Cursor and VS Code Hits 1.0",
+        "excerpt": "10주 전 프리뷰로 열었던 LSP 기반 확장이 첫 안정 버전에 도달했다. Cursor 팀과 함께 개발해 ==Java와 Kotlin을 일급 경험으로 다루도록 만들었다==고 젯브레인스는 밝혔다.",
+        "url": "https://blog.jetbrains.com/idea/2026/10/intellij-idea-s-java-and-kotlin-for-cursor-and-vs-code-hits-1-0/",
+        "source": "JetBrains Blog",
+        "publisher": "JetBrains",
+        "tier": 1,
+        "category": "dev_tools",
+        "publishedAt": "2026-10-15T22:06:31+09:00",
+        "readTime": 5,
+        "imageGradient": 2,
+        "body": "확장의 전제는 에이전틱 개발이다. 에이전트가 구현을 더 많이 맡으면서 개발자가 직접 코드를 고치는 시간이 줄고, 고칠 때도 선언으로 이동, 참조 찾기, 코드 완성, 이름 바꾸기 같은 좁은 기능 묶음만 필요해진다. 언어 지원을 한 번 구현해 LSP를 지원하는 어떤 편집기에서도 재사용한다는 것이 바로 LSP가 만들어진 목적이라는 논리다. ==에이전트가 LSP를 직접 호출하면 더 빠르고 결정론적인 결과를 얻으면서 토큰도 덜 쓴다==는 점도 근거로 들었다.\n\n1.0에 담긴 기능은 데스크톱 IntelliJ IDEA와 같은 Java·Kotlin 언어 기술에 기반한다. 두 언어와 혼용 프로젝트 지원, 스마트 코드 완성과 내비게이션, 코드 분석, 리팩터링과 에디터 보조, Maven과 Gradle, Bazel 빌드 도구 지원이 들어간다. ==대규모 프로젝트와 모노레포에서도 빠르고 안정적인 성능==을 내세우며, 테스트 러너는 현재 JUnit을 지원한다.\n\n디버깅은 별도로 강조됐다. 에뮬레이션된 중단점과 비동기 스택 트레이스를 포함한 기능을 제공하고, IntelliJ IDEA의 언어 서버와 디버그 어댑터가 이를 받친다. Cursor에서는 Agents Window 전용 지원이 추가돼 분석 기능을 위해 별도의 언어 서버 인스턴스를 쓸 수 있다.\n\n설치 경로는 두 곳이다. Visual Studio Marketplace와 Open VSX Registry에서 받을 수 있다. 젯브레인스는 이 작업을 편집기나 에이전트가 무엇이든 사용자가 있는 곳으로 JVM 지능을 옮긴다는 더 큰 계획의 일부로 설명한다."
+      },
+      {
+        "id": "rss_9b1c2a5338",
+        "title": "Rust 1.99.1, UEFI 빌드를 깨뜨린 wcslen 링크 오류 등 회귀 3건 수정",
+        "originalTitle": "Announcing Rust 1.99.1",
+        "excerpt": "포인트 릴리스로 이전 버전에서 생긴 회귀 세 건을 고쳤다. 그중 가장 눈에 띄는 것은 ==std를 쓰는 UEFI 타깃이 아예 빌드되지 않던 문제==이고, 나머지 둘은 컴파일 결과와 링커 쪽 버그다.",
+        "url": "https://blog.rust-lang.org/2026/10/15/Rust-1.99.1/",
+        "source": "Rust Blog",
+        "publisher": "Rust Foundation",
+        "tier": 1,
+        "category": "dev_tools",
+        "publishedAt": "2026-10-15T09:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 7,
+        "body": "첫 번째는 wcslen 심볼 누락이다. LLVM의 loop-idiom-wcslen 패스가 최적화 과정에서 wcslen 호출을 집어넣는데, 일부 Rust 타깃은 libc 등에 이 함수를 갖고 있지 않아 링크 오류가 났다. 특히 UEFI 타깃은 미리 컴파일된 표준 라이브러리 안에 이미 그런 호출이 들어가 있어서 std를 쓰는 모든 프로젝트가 깨졌고, 비슷한 코드 패턴을 쓰는 사용자 코드에서도 재현됐다. 1.99.1은 compiler-builtins에 폴백으로 이 함수를 넣었다.\n\n두 번째는 x86_64에서 FFI 경계의 bool 반환값 오컴파일이다. ==bool을 FFI로 반환하는 Rust 함수가 반환 레지스터의 1~7비트를 미지정 상태로 남겨, 호출자가 0도 1도 아닌 원시 값을 보게 될 수 있었다==. ABI 요구대로 이 반환 타입에 제로 확장 표시를 되살려 고쳤다.\n\n세 번째는 macOS에서 rust-lld가 libLLVM을 불러오지 못하던 문제다. rustup 프록시를 거치지 않고 컴파일러를 직접 호출하면 적절한 라이브러리 검색 경로 설정이 없어 링커 실행이 실패할 수 있었다. 이제 rust-lld는 libLLVM.dylib가 있는 디렉터리를 rpath 항목으로 갖고 빌드된다.\n\n업데이트는 rustup update stable 한 줄이면 된다. Rust 팀은 앞으로의 릴리스를 돕고 싶다면 로컬과 CI에서 beta와 nightly 채널을 써보고 버그를 신고해달라고 덧붙였다."
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_1cf1460e7b",
+        "title": "아마존, 웨어러블 Bee Frontier와 폰 부착형 Bee Eclipse 공개",
+        "originalTitle": "Amazon introduces 2 new AI products from Bee: Bee Frontier and Bee Eclipse",
+        "excerpt": "대화에서 중요한 것을 기억해 요약과 할 일, 리마인더로 바꿔주는 개인 AI Bee의 신제품 두 종이다. ==오디오는 실시간으로 처리한 뒤 삭제하며 데이터 통제권은 사용자에게 있다==고 아마존은 설명한다.",
+        "url": "https://www.aboutamazon.com/news/devices/amazon-personal-ai-bee-frontier-bee-eclipse?utm_source=rss",
+        "source": "Amazon News",
+        "publisher": "Amazon",
+        "tier": 1,
+        "category": "big_tech",
+        "publishedAt": "2026-10-15T20:55:24+09:00",
+        "readTime": 6,
+        "imageGradient": 1,
+        "body": "Bee Frontier는 손목에 차거나 옷에 클립으로 고정하는 형태다. 가볍고 초연질 실리콘 밴드를 쓰며 라벤더와 세이지, 오닉스 세 가지 색으로 나온다. ==IP67 방수에 최대 7일 배터리, USB-C 충전==으로 한 주를 끊김 없이 함께 다니도록 설계됐다는 설명이다. 노이즈 필터링을 적용한 듀얼 마이크를 달아 붐비는 식당이나 개방형 사무실에서도 중요한 것만 담고 나머지는 무시한다고 아마존은 밝혔다.\n\nBee Eclipse는 완전히 새로운 형태로 자석으로 휴대폰에 붙는다. 첫 제품 Bee Pioneer가 단순 음성 전사를 넘어선 초기 개인 AI 제품 중 하나였다면, 이번 두 제품은 개인 AI가 할 수 있는 일의 범위를 넓히는 단계라는 것이 아마존의 자리매김이다.\n\n쓰임새는 일상의 망각을 메우는 쪽이다. 친구와 정한 약속 날짜와 시간, 중요한 회의의 세부, 지나가며 잡은 커피 약속, 사겠다고 말한 주방 세제까지 기억해둔다. 세부를 붙잡으면서 동시에 그 순간에 더 집중할 수 있게 하는 것이 Bee의 목적이라고 아마존은 말한다.\n\n연결 지점도 함께 공개됐다. ==Bee를 Alexa+에 연결하면 핸즈프리로 요약과 할 일을 물어볼 수 있고, Amazon.com에 연결하면 개인화된 쇼핑에 쓸 수 있다==. 프라이버시는 처음부터 같은 원칙을 따른다. 마이크 버튼으로 오디오 처리 시점을 사용자가 통제하고, 작동 중임을 알리는 표시등이 켜진다."
+      },
+      {
+        "id": "rss_faafd83f24",
+        "title": "메모리 값 폭등에 3분기 스마트폰 출하량 20% 이상 급감",
+        "originalTitle": "Smartphone shipments plummet as memory crisis pumps up prices",
+        "excerpt": "AI가 끌어올린 메모리 수급 경색이 또 하나의 소비자 하드웨어 시장을 때렸다. IDC와 옴디아는 전년 대비 감소폭을 각각 22%, 20%로 잠정 집계했다. ==IDC에 따르면 메모리 비용은 지난해보다 약 350% 올랐고 여전히 오르는 중이다==.",
+        "url": "https://www.theregister.com/personal-tech/2026/10/15/smartphone-shipments-plummet-as-memory-crisis-pumps-up-prices/5303364",
+        "source": "The Register",
+        "publisher": "The Register",
+        "tier": 2,
+        "category": "big_tech",
+        "publishedAt": "2026-10-16T01:45:00+09:00",
+        "readTime": 3,
+        "imageGradient": 4,
+        "body": "출하량 자체는 두 기관이 비슷하게 봤다. IDC는 유통 채널로 들어간 물량을 2억 5,530만 대, 옴디아는 약 2억 5,500만 대로 집계했다. 비용 상승은 벤더 마진을 압박해 가격표 인상과 저가 라인 축소로 이어지고 있다.\n\n문제는 바닥을 아직 지나지 않았다는 전망이다. IDC의 나빌라 포팔 수석 리서치 디렉터는 업계가 각오하던 급락이 3분기에 실제로 나타났지만 최악은 아직 오지 않았다고 말했다. ==메모리 인플레이션은 3분기에 전 분기 대비 두 자릿수 초반 상승으로 둔화 조짐을 보였지만 앞선 분기들의 50~100% 급등에 비해 그렇다는 것이고, 다른 핵심 부품 비용도 여전히 높다==는 설명이다.\n\n시장 구조는 더 양극화됐다. 옴디아는 삼성과 애플이 전 세계 출하량의 약 45%를 차지해 1년 전보다 약 8%포인트 올랐다고 밝혔다. 비용 상승이 가격에 민감한 구간을 특히 세게 때린 결과다. 옴디아는 2026년 전체 출하량이 12% 줄고 내년에 다시 6% 감소할 것으로 본다.\n\n회복 시점에 대해서는 두 기관 모두 보수적이다. 옴디아의 루나르 비외르호브데 수석 애널리스트는 수요와 공급 사이 격차가 상당히 남아 있어 ==이르면 2028년 전에는 메모리 위기가 풀릴 것으로 보지 않는다==고 더 레지스터에 말했다. 개선의 첫 신호는 메모리 가격이 안정되는 것, 즉 더 오르지 않는 것인데 아직 거기에 도달하지 않았다는 것이다. 일부 제조사는 더 싼 디스플레이 패널이나 센서, RF 모듈로 바꾸는 식으로 대응하고 있다."
+      },
+      {
+        "id": "rss_33aba3b55c",
+        "title": "애플, OpenAI의 기밀 유출 주장에 증거를 찾지 못했다고 법원에 답변",
+        "originalTitle": "Here’s Apple’s official response to OpenAI’s trade secret theft allegations",
+        "excerpt": "소송이 거울처럼 뒤집혔다. 올해 초 애플이 먼저 제기한 영업비밀 다툼에서 이번에는 애플이 방어하는 쪽이 됐다. ==내부 확인 결과 문제 될 자료를 발견하지 못했다는 것이 답변의 골자다==.",
+        "url": "https://9to5mac.com/2026/10/15/heres-apples-official-response-to-openais-trade-secret-theft-allegations/",
+        "source": "9to5Mac",
+        "publisher": "9to5Mac",
+        "tier": 2,
+        "category": "big_tech",
+        "publishedAt": "2026-10-16T04:57:37+09:00",
+        "readTime": 4,
+        "imageGradient": 1,
+        "body": "배경에는 방향이 반대인 두 사건이 겹쳐 있다. 올해 초 애플은 전 직원 두 명(Chang Liu, Tang Tan)과 OpenAI, io Products를 상대로 영업비밀 유용 소송을 냈다. 그런데 어제 OpenAI가 사실상 같은 주장을 반대 방향으로 담은 서면을 제출했다. 자사를 떠나 애플로 간 전 직원이 개발 중인 미공개 기기 한 종 이상에 관한 고도로 기밀인 파일 100여 건을 개인 계정으로 보냈다는 것이다.\n\n애플의 답변에서 새로 드러난 사실은 그 직원의 이력이다. ==이 인물은 원래 애플에 있다가 OpenAI로 떠났고 이후 애플로 복귀한 사람==이라고 애플은 밝혔다. 현재 애플 제조 설계 팀의 엔지니어로 아이폰을 담당하며, OpenAI로 가기 전과 같은 직무다.\n\n조사 경과도 날짜와 함께 제시됐다. ==OpenAI가 10월 9일 문제를 제기하자 애플은 곧바로 조사에 들어가 12일 OpenAI의 기밀 정보를 찾을 수 없었다고 서면으로 통보했다==. 그 뒤 다른 방식의 검색을 위해 더 구체적인 정보를 요청했지만 OpenAI는 답하지 않고 법원에 서면을 제출했다는 것이 애플의 주장이다.\n\n애플은 계속 협력해 조사하겠다는 입장과 함께, 이 사안이 OpenAI가 애플의 기밀 정보를 오용한 것을 다루는 본 소송과 무관하다는 점을 거듭 적었다. 보충 자료에서는 OpenAI의 서면과 관련해 증거 보전을 포함한 법적 의무 이행 조치를 취하고 있다고 밝혔다. 앞서 로이터는 애플이 신규 입사자가 전 직장의 기밀을 쓰지 않도록 정책과 절차를 두고 있으며 OpenAI 주장을 뒷받침할 증거를 찾지 못했다고 밝혔다고 보도했다."
+      },
+      {
+        "id": "rss_4addd78f1b",
+        "title": "404 Media: 액센츄어, 직원 1인당 Claude 지출을 월 29달러로 제한",
+        "originalTitle": "Memo: Accenture has told many employees, some of whom had been spending as much as $1,000 monthly, that it will now only spend $29 a month per person on Claude (Joseph Cox/404 Media)",
+        "excerpt": "사내 메모에 따르면 월 1,000달러까지 쓰던 직원도 있었지만 ==앞으로는 1인당 월 29달러만 지원한다==. 사용량을 유지할 방법을 찾는 직원들이 분주해졌다고 404 Media는 전했다.",
+        "url": "https://www.techmeme.com/261015/p42#a261015p42",
+        "source": "Techmeme",
+        "publisher": "Techmeme",
+        "tier": 3,
+        "category": "big_tech",
+        "publishedAt": "2026-10-16T02:50:39+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tw_2110797830361436604",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "새 목소리, 더 나은 억양, 그리고 줄어든 '확인 중...'. ==GPT-Live-1.1이 ChatGPT와 Codex, dots의 음성 기능에 이 업데이트를 가져옵니다==. 프랑스어, 독일어, 힌디어, 멕시코 스페인어, 한국어, 일본어 새 목소리가 포함됩니다. 오늘 전체 사용자에게 순차 배포되며 API 지원은 곧 이어집니다.",
+        "context": "OpenAI 공식 계정의 발표다. 음성 모델을 갱신하면서 한국어를 포함한 6개 언어 목소리를 추가했고, 응답하기 전 '확인 중' 같은 지연 발화를 줄인 점을 앞세웠다.",
+        "url": "https://x.com/OpenAI/status/2110797830361436604",
+        "publishedAt": "2026-10-16T03:19:54+09:00",
+        "metrics": {
+          "likes": 4768,
+          "retweets": 301,
+          "replies": 382,
+          "views": 265978
+        }
+      },
+      {
+        "id": "tw_2110595484180214059",
+        "author": "Tibo",
+        "handle": "thsottiaux",
+        "content": "제 리셋 버튼이 사라졌다는 보도는 심하게 과장된 것입니다. 10일차 / 리셋",
+        "context": "하루에 한 건씩 변경 사항을 공개하는 'Day N' 연속 포스트의 10일차다. 없어졌다는 말이 돌던 리셋 기능이 두 시간 안에 배포된다고 예고했다.",
+        "url": "https://x.com/thsottiaux/status/2110595484180214059",
+        "publishedAt": "2026-10-15T13:55:51+09:00",
+        "metrics": {
+          "likes": 15864,
+          "retweets": 662,
+          "replies": 2065,
+          "views": 1395954
+        },
+        "thread": [
+          "앞으로 두 시간 안에 반영됩니다"
+        ]
+      },
+      {
+        "id": "tw_2110750421367287996",
+        "author": "Tibo",
+        "handle": "thsottiaux",
+        "content": "11일차 / 선택한 모델이 용량 한계라 다른 모델을 써보라는 ==작업 중단 메시지가 뜨는 빈도를 크게 줄이는 변경과 추가 컴퓨트를 반영했습니다==. 그래도 발생하면 거기서 막히지 않고 결국 스스로 이어가게 됩니다. 여전히 보인다면 알려주시면 살펴보겠습니다.",
+        "context": "같은 'Day N' 연속 포스트의 11일차다. 모델 용량 초과로 작업이 멈추던 문제를 코드 변경과 컴퓨트 증설로 함께 다뤘다는 보고다.",
+        "url": "https://x.com/thsottiaux/status/2110750421367287996",
+        "publishedAt": "2026-10-16T00:11:30+09:00",
+        "metrics": {
+          "likes": 7905,
+          "retweets": 222,
+          "replies": 1810,
+          "views": 578522
+        }
+      },
+      {
+        "id": "tw_2110463962877989276",
+        "author": "Thariq",
+        "handle": "trq212",
+        "content": "Claude Code Desktop은 이제 자기 능력과 사용자와 함께 일하는 방식을 훨씬 잘 알고 있습니다. ==서브세션을 떼어내 띄우는 것처럼요==. 저는 이걸 거의 v2라고 생각합니다. 훌륭하게 만들기 위해 수많은 작은 디테일이 들어갔습니다.",
+        "context": "Claude Code 데스크톱 앱의 다중 세션 개선을 알린 공식 공지를 인용한 글이다. 앱이 스스로 서브세션을 띄울 수 있게 된 점을 사실상 2세대로 평가했다.",
+        "url": "https://x.com/trq212/status/2110463962877989276",
+        "publishedAt": "2026-10-15T05:13:13+09:00",
+        "metrics": {
+          "likes": 5516,
+          "retweets": 118,
+          "replies": 406,
+          "views": 320529
+        },
+        "thread": [
+          "CCD의 주역인 @alicelovescake1 @amorriscode에게 감사를"
+        ],
+        "quoted": {
+          "author": "ClaudeDevs",
+          "handle": "ClaudeDevs",
+          "url": "https://x.com/ClaudeDevs/status/2110445844675838148",
+          "content": "저희는 Claude Code 데스크톱 앱에서 여러 세션을 나란히 돌리기 좋게 만드는 작업에 공을 들여왔습니다. 이제 세션 시작이 훨씬 빠르고, 몇 개로 작업을 나누기 쉬우며, 각 세션이 무엇을 하고 있는지 항상 볼 수 있습니다. 새로 바뀐 내용입니다:"
+        }
+      },
+      {
+        "id": "tw_2110791698611855624",
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "content": "지난 몇 년간 우리는 Claude 모델의 프롬프트 인젝션 문제에서 상당한 진전을 이뤘습니다. ==에이전트가 더 많은 일을 하게 되면서, 업계 차원에서 이 문제를 푸는 일이 점점 더 시급해지고 있습니다==. Gray Swan과 함께 이 대회를 여는 것이 정말 기대됩니다. 무엇을 찾아내실지 기다리겠습니다!",
+        "context": "Claude 모델의 프롬프트 인젝션 대응을 맡은 쪽에서 쓴 글이다. Gray Swan이 주최하고 Anthropic과 Meta, Google DeepMind 등이 후원하는 30만 달러 규모 간접 프롬프트 인젝션 레드팀 대회를 인용해 알렸다.",
+        "url": "https://x.com/bcherny/status/2110791698611855624",
+        "publishedAt": "2026-10-16T02:55:32+09:00",
+        "metrics": {
+          "likes": 287,
+          "retweets": 20,
+          "replies": 73,
+          "views": 29415
+        },
+        "quoted": {
+          "author": "Gray Swan AI",
+          "handle": "GraySwanAI",
+          "url": "https://x.com/GraySwanAI/status/2110746350983737460",
+          "content": "프롬프트 인젝션은 해결됐을까요? 30만 달러를 걸고 확인해 봅니다. Anthropic, Meta, Google DeepMind, Reflection AI 등 프런티어 랩 후원사들과 함께 Gray Swan이 지금까지 가장 크고 현실적인 AI 레드팀 챌린지를 발표합니다. 간접 프롬프트 인젝션: 블랙"
+        }
+      },
+      {
+        "id": "tw_2110535361013366840",
+        "author": "Tinker",
+        "handle": "tinkerapi",
+        "content": "Dimuon은 LoRA 파인튜닝을 위해 우리가 만든 새 옵티마이저입니다. ==SFT 테스트에서 AdamW보다 더 적은 스텝으로 더 낮은 손실에 도달하는 경우가 많았습니다==. 아직 실험 중이며, 오늘부터 Tinker에서 직접 써보고 피드백을 공유해 주세요!",
+        "context": "Thinking Machines의 Tinker 계정이 올린 글이다. LoRA 파인튜닝 전용 옵티마이저를 공개했고 옵티마이저 가이드 문서 링크를 함께 걸었다.",
+        "url": "https://x.com/tinkerapi/status/2110535361013366840",
+        "publishedAt": "2026-10-15T09:56:56+09:00",
+        "metrics": {
+          "likes": 526,
+          "retweets": 55,
+          "replies": 15,
+          "views": 85166
+        },
+        "retweetedBy": "miramurati"
+      },
+      {
+        "id": "tw_2110720940665372825",
+        "author": "Anthropic",
+        "handle": "AnthropicAI",
+        "content": "두 가지 새로운 Anthropic 펠로우십 지원이 열렸습니다. STEM 펠로우(과학·공학)와 개념적 추론 펠로우(철학, 인지과학, 경제학, 정책, 법학)는 ==2027년 1월부터 4개월간 앤스로픽에서 일합니다==. Claude가 해당 분야의 가장 어려운 문제들을 제대로 추론하도록 돕는 일입니다. 지원 마감은 10월 28일입니다.",
+        "context": "앤스로픽 공식 계정의 모집 공고다. 기술 분야와 인문·사회 분야를 두 트랙으로 나눠 뽑으며, 특정 학문 영역에서 모델의 추론 품질을 끌어올리는 작업을 맡는다.",
+        "url": "https://x.com/AnthropicAI/status/2110720940665372825",
+        "publishedAt": "2026-10-15T22:14:22+09:00",
+        "metrics": {
+          "likes": 4839,
+          "retweets": 354,
+          "replies": 280,
+          "views": 555037
+        }
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "th_DehtpnAjOlg",
+        "author": "choi.openai",
+        "handle": "choi.openai",
+        "content": "Ant Group이 AI 모델 Ling-3.1-flash의 가중치를 공개했습니다. ==전체 약 5,600억 개의 매개변수 중 토큰당 약 250억 개만 사용하는 MoE 모델로, 최대 100만 토큰의 문맥을 지원합니다==. 간단한 설명만으로 웹사이트, 모바일 앱 화면, 3D 시제품 등을 제작할 수 있는데요. 출력 속도는 초당 약 210토큰이며, 경량화 버전은 가중치 용량을 약 292GB까지 줄였습니다.",
+        "context": "AI 소식을 정리해 올리는 스레드 계정의 글이다. 중국 앤트그룹이 내놓은 오픈웨이트 MoE 모델로, 코드 생성과 UI 시제품 제작을 앞세웠다.",
+        "url": "https://www.threads.com/@choi.openai/post/DehtpnAjOlg",
+        "publishedAt": "2026-10-16T04:30:21+09:00",
+        "platform": "threads"
+      },
+      {
+        "id": "th_DehZEBzDBQg",
+        "author": "choi.openai",
+        "handle": "choi.openai",
+        "content": "BytePlus가 오디오 기반 AI 영상 생성 모델 OmniHuman 2.0을 공개했습니다. 음성에 맞춰 입술만 움직이는 것이 아니라 말투와 감정을 반영해 인물의 표정과 동작을 생성하는데요. ==한 번에 생성할 수 있는 영상 길이가 기존 60초에서 최대 5분으로 늘어났습니다==. 여러 영상을 이어 붙일 필요도 없습니다. 생성 비용도 초당 0.12달러에서 0.07달러로 약 42% 낮아졌습니다.",
+        "context": "같은 스레드 계정이 전한 소식이다. 음성만으로 인물 영상을 만드는 모델의 2.0 버전으로, 생성 가능 길이와 단가가 함께 개선됐다.",
+        "url": "https://www.threads.com/@choi.openai/post/DehZEBzDBQg",
+        "publishedAt": "2026-10-16T01:30:28+09:00",
+        "platform": "threads"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "rd_1x6q0v3",
+        "title": "앤스로픽 Mythos가 찾아낸 결함이 너무 많아 BofA가 1,000명을 추가로 고용했다",
+        "originalTitle": "Anthropic's Mythos found so many software flaws, Bank of America hired 1,000 contractors to fix them",
+        "summary": "r/artificial에 올라온 링크 글이다. 뱅크오브아메리카가 Mythos가 찾아낸 소프트웨어 결함을 ==수정하려 계약직 1,000명을 고용했다==는 내용으로, AI 코드 스캐닝이 만들어내는 후속 작업의 규모를 보여주는 사례다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1x6q0v3/anthropics_mythos_found_so_many_software_flaws/",
+        "subreddit": "artificial",
+        "score": 0,
+        "rank": 1,
+        "publishedAt": "2026-10-16T01:17:05+09:00"
+      },
+      {
+        "id": "rd_1x6oefu",
+        "title": "감독 없이 돌던 AI 에이전트가 방영 몇 주 전 TV 쇼 편집본을 전부 삭제했다",
+        "originalTitle": "Unsupervised AI agent reportedly deletes TV show’s entire edit weeks before release, erasing months of work — TV show can't air, AI agent was given access to the production server and wiped the finished season",
+        "summary": "r/artificial에 공유된 보도다. 프로덕션 서버 접근 권한을 받은 AI 에이전트가 ==완성된 시즌을 지워 방영이 불가능해졌다==는 내용으로, 수개월 분량의 작업이 사라졌다고 전한다.",
+        "url": "https://www.reddit.com/r/artificial/comments/1x6oefu/unsupervised_ai_agent_reportedly_deletes_tv_shows/",
+        "subreddit": "artificial",
+        "score": 0,
+        "rank": 2,
+        "publishedAt": "2026-10-16T00:16:09+09:00"
+      },
+      {
+        "id": "rd_1x65khe",
+        "title": "거액의 AI 청구서, 대체 무엇을 위한 것인가",
+        "originalTitle": "Massive AI bills, for what?",
+        "summary": "FAANG이 아닌 대기업에 다니는 개발자가 사내 AI 사용 비용 분포를 두고 쓴 글이다. 월 지출이 세 자릿수 초반과 네 자릿수 초반으로 양극화돼 있고 ==높은 쪽이 7~8배를 쓰는데도 두 집단의 생산성 차이가 보이지 않는다==고 말한다. 터미널 두 개를 하루 종일 돌려도 네 자릿수를 넘기지 못한다며, 동시 작업을 세 개 이상 끌고 가는 사람들의 워크플로를 묻는다.",
+        "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1x65khe/massive_ai_bills_for_what/",
+        "subreddit": "ExperiencedDevs",
+        "score": 0,
+        "rank": 1,
+        "publishedAt": "2026-10-15T07:50:53+09:00"
+      },
+      {
+        "id": "rd_1x6fqck",
+        "title": "스트라이프는 그래프 탐색과 상태 기계로 전 세계 DB 플릿을 자동 복구한다",
+        "originalTitle": "How Stripe uses graph search and state machines to auto-remediate a global database fleet",
+        "summary": "r/programming에 공유된 스트라이프 엔지니어링 글이다. 그래프 탐색과 상태 기계를 조합해 ==전 세계 데이터베이스 플릿의 장애를 자동으로 복구하는 구조==를 다룬다. 데이터베이스 운영 자동화를 어떻게 설계했는지 보여준다.",
+        "url": "https://www.reddit.com/r/programming/comments/1x6fqck/how_stripe_uses_graph_search_and_state_machines/",
+        "subreddit": "programming",
+        "score": 0,
+        "rank": 1,
+        "publishedAt": "2026-10-15T17:00:43+09:00"
+      },
+      {
+        "id": "rd_1x6uhya",
+        "title": "국제도량형국(BIPM)이 윤초의 종료를 발표했다",
+        "originalTitle": "BIPM announces the end of leap seconds",
+        "summary": "r/programming에 올라온 링크다. ==국제도량형국이 윤초를 끝내기로 했다==는 발표로, 시간 처리 코드를 다루는 쪽에 직접 영향이 있는 변화다.",
+        "url": "https://www.reddit.com/r/programming/comments/1x6uhya/bipm_announces_the_end_of_leap_seconds/",
+        "subreddit": "programming",
+        "score": 0,
+        "rank": 3,
+        "publishedAt": "2026-10-16T04:05:01+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "rss_ac389cbfd1",
+        "title": "토스뱅크가 패키지를 ESM으로만 제공하기로 한 이유",
+        "originalTitle": "토스뱅크가 패키지를 관리하는 방식 #1: 패키지를 ESM으로만 제공하기로 했어요",
+        "excerpt": "ESM과 CJS를 함께 빌드하는 Dual package 방식은 같은 패키지의 상태가 둘로 갈리는 Dual package hazard를 낳는다. ==React 컨텍스트를 두 형식으로 빌드하면 객체가 둘이 되어 Provider로 감쌌는데도 Hook이 값을 읽지 못한다==. 타입도 import와 require 두 경로에서 모두 찾을 수 있어야 해서, 한쪽이 비면 any로 번져 나간다.",
+        "url": "https://toss.tech/article/package-management-1",
+        "source": "토스 기술블로그",
+        "publisher": "토스",
+        "tier": 1,
+        "category": "quick_bites",
+        "publishedAt": "2026-10-15T18:23:00+09:00",
+        "readTime": 4,
+        "imageGradient": 4
+      },
+      {
+        "id": "rss_2e85537784",
+        "title": "신경망은 깔끔하다, 중첩은 관찰 도구의 오류였을까",
+        "originalTitle": "신경망은 깔끔하다",
+        "excerpt": "신경망의 뉴런과 회로를 먼저 분해하거나 재구성하지 않고도 직접 이해할 수 있다는 가설이다. ==무관한 개념이 섞여 보이던 현상 상당수는 재귀적 일반화와 관찰 도구의 오류로 설명된다==는 주장으로, 대표적 중첩 사례였던 고양이·자동차 뉴런도 다시 해석됐다.",
+        "url": "https://news.hada.io/topic?id=35429",
+        "source": "GeekNews",
+        "publisher": "GeekNews",
+        "tier": 3,
+        "category": "quick_bites",
+        "publishedAt": "2026-10-16T04:05:57+09:00",
+        "readTime": 2,
+        "imageGradient": 5
+      },
+      {
+        "id": "rss_31284b8f45",
+        "title": "클릭 없이 감염되는 표적 광고 스파이웨어 AdFection",
+        "originalTitle": "표적 광고로 전달되는 제로클릭 스파이웨어: AdFection",
+        "excerpt": "시티즌랩이 알자지라 기기의 Candiru 스파이웨어 감염을 표적 광고 전달 경로와 연결해 확인했다. ==클릭 없이 감염되는 이 방식을 AdFection으로 명명하고 해당 경로의 첫 공개 기술적 확인으로 규정했다==. 이스라엘 광고 업체 Discover-Tech가 연결 고리로 지목됐다.",
+        "url": "https://news.hada.io/topic?id=35427",
+        "source": "GeekNews",
+        "publisher": "GeekNews",
+        "tier": 3,
+        "category": "quick_bites",
+        "publishedAt": "2026-10-16T03:08:55+09:00",
+        "readTime": 2,
+        "imageGradient": 2
+      },
+      {
+        "id": "rss_484e2aaf14",
+        "title": "앤스로픽 Scion이 Mononoke를 베꼈다는 비판에 당사자 설명이 붙었다",
+        "originalTitle": "Anthropic의 Scion이 Mononoke를 베꼈다는 비판에 대한 추가 설명",
+        "excerpt": "Mononoke의 Bonsai 데이터 모델 설계를 이끌었던 엔지니어가 ==Scion의 의도적 모방과 출처 누락을 비판했다==. 비공개로 받은 확인과 참여 인력의 중첩을 근거로 들지만 그 확인 내용 자체는 공개하지 않았고, 유사성이 파생 데이터를 넘어 전체 데이터 모델과 주변 구조에 걸친다는 주장이다.",
+        "url": "https://news.hada.io/topic?id=35434",
+        "source": "GeekNews",
+        "publisher": "GeekNews",
+        "tier": 3,
+        "category": "quick_bites",
+        "publishedAt": "2026-10-16T04:43:06+09:00",
+        "readTime": 2,
+        "imageGradient": 4
+      }
+    ]
+  }
+}
