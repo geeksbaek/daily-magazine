@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-10-22",
+      "issueNumber": 193,
+      "mainHeadline": "AI가 먼저 찾아낸 PHP 치명적 결함, 공개 전에 지구를 패치했다",
+      "headlines": [
+        "Claude로 코드의 공격 표면을 줄이다 — 오픈소스 25개에서 493건 적발",
+        "eMudhra 중간 인증서 8장의 개인키 유출, 임의 도메인 위조가 가능해졌다",
+        "OpenAI 프런티어 모델이 구글 클라우드와 Antigravity에 들어온다"
+      ]
+    },
+    {
       "date": "2026-10-21",
       "issueNumber": 192,
       "mainHeadline": "딥시크, 프로덕션 추론 엔진 DeepInfer를 아파치 2.0으로 공개",
