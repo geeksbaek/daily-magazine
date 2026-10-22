@@ -1,0 +1,601 @@
+{
+  "date": "2026-10-23",
+  "issueNumber": 194,
+  "asOf": "2026-10-22T20:09:00+00:00",
+  "cover": {
+    "mainHeadline": "PHP2Shell 후폭풍, 영국 정부 서비스 32개가 멈췄다",
+    "mainExcerpt": "영국 상원에 보고된 숫자는 서비스 32개 중단, 4개 부분 장애였다. 독일·프랑스·벨기에·핀란드·네덜란드 정부 사이트와 호주 사이버보안기관 사이트도 예방적으로 내려갔다. ==당국은 중앙정부 시스템이 실제로 침해된 사례는 확인되지 않았다고 밝혔다==.",
+    "headlines": [
+      "Anthropic이 Agent Skills 표준을 Linux Foundation 산하 Agentic AI 재단에 기부했다",
+      "비밀키가 숫자 4였던 인증기관 eMudhra가 글로벌 SSL/TLS 사업에서 철수한다",
+      "구글이 에이전트 전용 컴퓨트 서비스 Agent Compute Engine을 공개했다"
+    ]
+  },
+  "highlights": [
+    {
+      "id": "rss_b28b717251",
+      "title": "PHP2Shell 후폭풍: 영국 정부 서비스 32개가 멈췄다",
+      "originalTitle": "PHP2Shell puts dozens of UK government services out of service",
+      "excerpt": "패치가 끝날 때까지 일단 내리자는 판단이 먼저 내려졌다. 예산 발표를 앞둔 예산책임청 사이트부터 지방의회 민원까지 줄줄이 접속이 끊겼다.",
+      "url": "https://www.theregister.com/security/2026/10/22/php2shell-puts-dozens-of-uk-government-services-out-of-service/5304840",
+      "source": "The Register",
+      "publisher": "The Register",
+      "tier": 2,
+      "category": "big_tech",
+      "publishedAt": "2026-10-23T01:05:53+09:00",
+      "readTime": 3,
+      "imageGradient": 5,
+      "body": "목요일 영국 상원에서 기술 담당 장관인 로이드 오브 에프라 남작이 현황을 보고했다. 현재 정부 서비스 32개가 이용 불가, 4개가 부분 이용 불가 상태이며, 이는 대부분 보안 업데이트와 완화 조치를 적용하는 동안 시스템을 보호하려는 예방 조치의 결과라는 설명이었다. 화이트홀은 영향을 받은 서비스 전체 목록을 공개하지 않았지만, 다음 주 예산안을 앞둔 예산책임청(OBR)이 웹사이트를 내린 곳으로 알려졌다. 상원에서는 DVLA와 경찰 서비스 장애 보고도 거론됐고, 에든버러·옥스퍼드·브리스톨·램버스·바넷 등 지방의회 서비스 중단도 지적됐다.\n\n문제의 두 결함은 CVE-2026-109618과 CVE-2026-109619다. ==인증을 거치지 않은 공격자가 취약한 서버에서 코드를 실행할 수 있다.== 국가사이버보안센터(NCSC)는 즉시 패치하거나, 고칠 수 있을 때까지 해당 시스템을 망에서 분리하는 방안을 검토하라고 권고했고 기업과 기관에 5만 건의 경고를 보냈다. 미국 국가안보국(NSA)도 패치하거나 취약한 시스템의 연결을 끊으라고 촉구했다.\n\n발견 경로는 둘이다. 보안업체 Calif가 OpenAI의 GPT-5.6 Sol 모델로 결함 하나를 찾았고, 구글의 Wiz가 별도로 AI 도구를 써서 두 건 모두를 찾아냈다. 이후 OpenAI가 직접 파고들어 벤더와 정부기관과 함께 알렸다. 로이드는 NCSC가 지난주 OpenAI로부터 브리핑을 받았고, 벤더와 조율된 방식으로 공개가 이뤄지도록 준비해 왔다고 말했다. 정부는 공개 전에 범부처 사고 대응 체계를 세웠다.\n\n남는 질문은 두 가지다. AWS는 공개 나흘 전부터 공격자들이 이 결함을 악용하고 있었다고 밝혔고, Cloudflare는 이후 수백만 건의 무기화 시도를 기록했다. 또 자유민주당의 러드퍼드 남작은 중앙정부와 지방정부가 정부가 추진하는 사이버보안·회복력 법안의 법정 의무 대상에서 왜 빠져 있는지를 문제 삼았다. 이 법안은 월요일 상원으로 돌아온다."
+    },
+    {
+      "id": "web_cc012b1e3b",
+      "title": "Anthropic, Agent Skills 표준을 Agentic AI 재단에 기부",
+      "originalTitle": "Donating Agent Skills to the Agentic AI Foundation",
+      "excerpt": "폴더 하나에 SKILL.md를 담아 에이전트에게 업무 절차를 가르치는 규격이 벤더 중립 기구로 넘어간다. MCP가 걸었던 길과 같다.",
+      "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+      "source": "Anthropic News",
+      "publisher": "Anthropic",
+      "tier": 1,
+      "category": "ai_ml",
+      "publishedAt": "2026-10-23T02:48:51+09:00",
+      "readTime": 3,
+      "imageGradient": 0,
+      "body": "Anthropic은 10월 22일 Agent Skills를 Linux Foundation 산하 Agentic AI Foundation(AAIF)에 넘긴다고 발표했다. 넘기는 것은 이름과 로고, GitHub 조직, agentskills.io 도메인이다. 2025년 12월 공개 이후 ChatGPT, Cursor, GitHub Copilot, Visual Studio Code를 포함해 ==70개가 넘는 에이전트 플랫폼이 이 규격을 통합했고, 지금까지 스킬 100만 개가 공개되고 약 2억 8천만 회 설치됐다.==\n\n규격 자체는 단순하다. 스킬은 특정 작업이나 도메인을 에이전트에게 가르치는 SKILL.md 파일과, 그 작업에 필요한 스크립트·참고자료를 담은 폴더다. Anthropic은 Claude Code를 만들다가 이 방식을 떠올렸다. 일반적인 지식 노동은 잘 처리했지만 실제 업무가 요구하는 절차적 지식이 자주 비어 있었기 때문이다. 2025년 10월 출시 몇 주 만에 개발자들이 GitHub에 수천 개를 올리고 Codex·Cursor·OpenCode용 로더를 직접 썼고, 그래서 어떤 에이전트든 쓸 수 있도록 별도 GitHub 조직과 도메인 아래 열린 표준으로 공개했다.\n\nAAIF는 Anthropic이 지난해 Block과 OpenAI와 함께 세운 재단이고, Model Context Protocol도 이곳에 기부했다. 앞으로 표준은 Anthropic과 구글, OpenAI 등의 엔지니어가 회사 대표가 아닌 개인 자격으로 유지보수하며, 리드 메인테이너는 David Soria Parra와 Mahesh Murag가 맡는다. 재단에 가입하지 않아도 규격을 쓰거나 기여하는 데는 제약이 없다.\n\n로드맵 초안은 세 가지로 시작한다. 버전을 붙인 릴리스, 공식 제안 프로세스, 그리고 스킬을 작성하고 설치하는 사람을 위한 보안 지침이다. MCP와 마찬가지로 커뮤니티 의견과 투명한 의사결정을 우선하겠다는 방침이고, 규격 변경안에 대한 피드백은 프로젝트 디스코드에서 받는다."
+    },
+    {
+      "id": "rss_0aab0a15c7",
+      "title": "비밀키가 숫자 4였던 eMudhra, 글로벌 SSL/TLS 사업을 접는다",
+      "originalTitle": "Disgraced Indian cert issuer leaves the cert issuing business",
+      "excerpt": "보고서가 터진 지 이틀 만에 나온 백기다. 회사는 규제 부담과 무료 인증서 경쟁을 이유로 들었지만, 먼저 드러난 것은 복구가 너무 쉬웠던 키 값이었다.",
+      "url": "https://www.theregister.com/security/2026/10/22/disgraced-indian-cert-issuer-leaves-the-cert-issuing-business/5304848",
+      "source": "The Register",
+      "publisher": "The Register",
+      "tier": 2,
+      "category": "big_tech",
+      "publishedAt": "2026-10-23T01:58:25+09:00",
+      "readTime": 4,
+      "imageGradient": 3,
+      "body": "인도 인증기관 eMudhra는 목요일 글로벌 SSL/TLS 인증서 발급 사업에서 완전히 물러난다고 밝혔다. 회사 설명에 따르면 이 사업은 전체 매출의 약 1퍼센트에 불과하고, 대형 업체의 무료 인증서 발급과 늘어나는 컴플라이언스·데이터 주권 요구가 수익성을 떨어뜨렸다. 회사는 이번 사안을 둘러싼 소셜미디어 증폭이 해당 사업의 비중에 비해 과도한 조사를 불러왔다며, 이사회가 상세한 논의를 거쳐 철수가 회사와 주주에게 옳은 결정이라고 결론 내렸다고 덧붙였다.\n\n그 결정 이틀 전에 공개된 내용이 결정적이었다. 10월 17일 Mozilla에 신고된 뒤 공표된 보고서는 여덟 개 중간 인증기관이 쓰던 사설 키 값을 드러냈다. ==문제의 여덟 개 값은 4, 56, 66, 115, 155, 156, 230, 237이었고, 양자컴퓨터는커녕 보안 연구자가 복구하는 데 아무 어려움이 없었다.== 그 키를 가진 쪽은 해당 중간 CA를 차단하지 않은 시스템이 신뢰하는 인증서를 위조할 수 있었다.\n\n회사의 해명은 키 생성 절차의 결함이었다. 키 생성 의식에서 wrap·unwrap 단계의 결함 때문에 원래의 강한 키와 함께 약한 키 묶음이 한 번 더 만들어졌고, 브라우저 루트 저장소에 올라간 쪽이 약한 키였다는 것이다. 다만 eMudhra는 해당 인증 인프라가 2년간 독립 감사를 받았고 2025년 중반부터 브라우저 신뢰 목록에 올라 있었다고도 밝혔다. 두 설명을 합치면, 왜 그 기간 동안 아무도 이를 잡아내지 못했는지가 남는다.\n\n피해 범위에 대해 회사는 영향을 받은 중간 CA가 종단 인증서를 한 건도 발급하지 않았다고 주장한다. 매출 비중이 1퍼센트라는 설명이 사실이라 해도, 값이 4인 사설 CA 키가 공개 망신을 면할 이유가 되지는 않는다는 지적이 함께 나왔다."
+    },
+    {
+      "id": "rss_0d299af9f6",
+      "title": "구글, 에이전트 전용 컴퓨트 Agent Compute Engine 공개",
+      "originalTitle": "Introducing Agent Compute Engine and expanded agent governance",
+      "excerpt": "Gemini를 업무 에이전트로 돌리며 쌓은 인프라를 그대로 제품화했다. 샌드박스를 하드웨어 수준에서 격리하고, 생각하는 동안에는 잠시 멈춰 둔다.",
+      "url": "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-agent-compute-engine-and-expanded-agent-governance/",
+      "source": "Google Cloud Blog",
+      "publisher": "Google",
+      "tier": 1,
+      "category": "dev_tools",
+      "publishedAt": "2026-10-22T13:00:00+09:00",
+      "readTime": 5,
+      "imageGradient": 7,
+      "body": "구글 클라우드는 AGNTCon과 MCPCon에서 Agent Compute Engine을 발표했다. 이미 Gemini를 업무용 에이전트로 구동하고 있는 목적형 컴퓨트 서비스이고, 앞으로 몇 달 안에 프리뷰로 제공되며 하드웨어로 분리된 런타임 샌드박스 보안을 제공한다. 함께 Gemini for business의 거버넌스 기능을 에이전트가 어디서 돌든 적용되도록 확장한다. 발표 글은 Nirav Mehta, Michael Bachman, Kevin Hutchins가 썼다.\n\n출발점은 구글 자체 워크로드였다. 코드를 쓰고 실행하고, 도구를 돌리고, 브라우저를 조작하고, 기업 워크플로를 오케스트레이션하면서 빠르게 반복하는 작업을 대규모로 감당해야 했다. 기존 컴퓨트 원시 자원은 표준 워크로드에는 훌륭하지만 에이전트처럼 반복이 극단적으로 잦은 성격에는 최적화돼 있지 않았다는 것이 구글의 진단이다. 그래서 모든 Gemini 에이전트에게 각자 고성능 컴퓨터를 하나씩 붙여 주는 구조를 택했고, 같은 서비스를 고객이 자기 에이전트에 쓸 수 있게 열겠다고 했다.\n\n기술적 핵심은 세 가지다. 첫째, 빠르게 부팅하는 마이크로VM으로 에이전트 루프나 평가 스윕이 인프라를 기다리지 않게 한다. 둘째, ==copy-on-write 메모리 공유로 하나의 운영체제 템플릿 위에서 여러 에이전트를 돌려 물리 머신을 최대한 쓴다.== 셋째, 에이전트가 도구 호출을 마치고 생각하는 단계로 들어가면 마이크로VM이 유휴 신호를 보내고, 호스트가 이를 활성에서 유휴 상태로 옮긴다. 사람이나 외부 시스템을 기다리는 동안 실행 중인 마이크로VM을 멈춰 두고 스냅샷에서 빠르게 되살리는 방식이다.\n\n보안 쪽은 신뢰할 수 없는 코드가 샌드박스 안에서 실행되는 상황을 상수로 본다. Agent Compute Engine은 구글의 오프로드 인프라 처리 장치인 Titanium 위에서 돌아가며, 실리콘에 뿌리를 둔 다층 방어를 제공한다고 설명했다. 제공 시점이 아직 프리뷰이고 기간이 몇 달 단위로만 제시된 만큼, 고객이 직접 커스텀 에이전트를 올려 보는 단계는 그 뒤가 된다."
+    },
+    {
+      "id": "rss_27825e3003",
+      "title": "OpenAI, Decisions API 정식 출시 — 답이 정해진 질문만 10배 빠르게",
+      "originalTitle": "Build more responsive apps with the Decisions API",
+      "excerpt": "분류하고 라우팅하고 다음 행동을 고르는 작은 판단들이 규모에서 지연과 비용으로 쌓인다. 이 구간만 떼어낸 전용 엔드포인트가 베타를 졸업했다.",
+      "url": "https://openai.com/index/decisions-api",
+      "source": "OpenAI News",
+      "publisher": "OpenAI",
+      "tier": 1,
+      "category": "ai_ml",
+      "publishedAt": "2026-10-23T04:00:00+09:00",
+      "readTime": 5,
+      "imageGradient": 0,
+      "body": "Decisions API는 GPT-6 Luna를 기반으로 하되, 선택지가 한정된 질문에 모델의 능력을 집중시킨다. 텍스트와 이미지, 구조화된 입력을 받아 거의 실시간으로 결론을 내며, 같은 Luna를 Responses API로 호출할 때보다 최대 10배 빠르다고 OpenAI는 밝혔다.\n\n쓰는 방법은 질문과 허용되는 답을 정의한 뒤 맥락을 넘기는 식이다. 반환되는 형태는 세 가지다. predicate는 제품에 눈에 보이는 손상이 있는지처럼 조건이 참일 확률을 0에서 1 사이 값으로 추정한다. choice는 에이전트가 계속할지 재시도할지 되물을지처럼 미리 정해 둔 값 중 하나를 고르고, 확률과 신뢰도를 함께 돌려준다. score는 손상 정도처럼 순서가 있는 루브릭 단계에 맞춰 평가해, 단계 인덱스의 확률 가중 평균을 낸다.\n\n공개 베타 이후 추가된 항목이 꽤 많다. ==GPT-Live 네이티브 연동, 재사용 맥락을 위한 프롬프트 캐싱, 미국과 EU 추론 레지던시가 들어왔고, 요청당 질문 수는 기존의 두 배인 400개로 늘었다.== 네이티브 JSON 입력을 넘기거나 질문 지시문에 이미지를 포함할 수도 있다. 지연 개선도 계속돼 아시아 여러 지역에 용량이 추가됐다. GPT-Live와 묶으면 음성 애플리케이션이 대화 중에 빠른 판단을 내리게 할 수 있다.\n\n사례는 OpenAI 내부에서 먼저 나왔다. dots 팀은 응답 시간을 줄이고 상호작용성을 높이는 데 쓰고, 개인금융 팀은 거래 설명을 분류한다. 커뮤니케이션 팀은 자사 관련 보도를 테마별로 분류하고 그것이 핵심 서술을 강화하는지 반박하는지 점수를 매겨, 더 살펴볼 만한 건을 가려낸다. 외부 고객 쪽에서는 AI 비용을 정확히 귀속시키는 작업부터 언어 학습 경험을 더 인터랙티브하게 만드는 쪽까지 쓰임새가 퍼져 있다."
+    }
+  ],
+  "sections": {
+    "ai_ml": [
+      {
+        "id": "rss_676b58ceee",
+        "title": "DGX Spark 8노드로 통합 메모리 1TB — 753B 모델을 책상에서 돌린다",
+        "originalTitle": "Running Frontier-Class AI Models Across 8 NVIDIA DGX Spark Nodes",
+        "excerpt": "GTC 베를린에서 8노드 클러스터 공식 지원이 발표됐다. 노드를 묶을수록 메모리가 늘어나, 네 대로는 시작조차 못 했던 체급이 열린다.",
+        "url": "https://developer.nvidia.com/blog/running-frontier-class-ai-models-across-8-nvidia-dgx-spark-nodes/",
+        "source": "NVIDIA Technical Blog",
+        "publisher": "NVIDIA",
+        "tier": 1,
+        "category": "ai_ml",
+        "publishedAt": "2026-10-23T01:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 7,
+        "body": "숫자부터 보면 한 대가 128GB, 네 대가 512GB, 여덟 대가 1TB다. ==이 용량 덕분에 4노드 시스템에서는 아예 로드되지 않던 Z.ai의 GLM 5.3 전체 모델(753B)이 8×128GB 클러스터에서 돌아간다.== NVFP4 기준 약 470GB인 이 체크포인트는 로컬에서 서빙할 수 있는 가장 큰 오픈 모델 중 하나가 됐다.\n\n단순히 적재되는 수준을 넘어 대화형으로 쓸 수 있느냐가 관건인데, 초기 측정치는 쓸 만하다. GLM 5.3 Flash를 8노드에 올려 생성 속도 약 80 TPS를 기록했다. 전체 GLM 5.3의 경우 요청당 입력 8K 토큰에서 프리필 합계는 1,600 TPS로 일정했고, 디코드는 동시 요청 1건에서 31 TPS, 4건에서 51 TPS, 8건에서 67 TPS였다. 사용자 한 명이 체감하는 디코드 속도는 동시성이 올라가면 31에서 18 TPS로 떨어진다.\n\n묶는 작업 자체는 NVIDIA Sync가 맡는다. Cluster Assistant가 설치와 장치 관리를 처리하며, 8노드 클러스터 지원은 연말까지 Sync에 들어온다. 노드가 많아질수록 텐서 병렬 추론이 all-reduce 같은 집합 연산에 쓰는 시간 비중이 커지는데, 엔비디아는 스위치로 연결한 클러스터에서 Spark에 최적화한 집합 통신 백엔드 RoCEnante를 평가하고 있다고 밝혔다.\n\n맥락을 보면 수요가 바뀐 결과다. 개발자들은 더 이상 모델 하나만 돌리지 않고 여러 모델을 병렬로 오케스트레이션하고 추론 호출을 사슬로 엮으며, 수백 기가바이트 메모리를 요구하는 최신 아키텍처를 실험한다. 책상 위로 AI 개발을 가져오겠다는 제품이 이제 멀티 에이전트 워크로드와 거의 선형에 가까운 사전학습까지 범위에 넣은 셈이다."
+      },
+      {
+        "id": "rss_eaa0ebff7d",
+        "title": "OlmoEarth v1.3, 지구 전체 위성 임베딩을 미리 계산해 풀었다",
+        "originalTitle": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
+        "excerpt": "모델만 공개한 것이 아니라 전 지구 연간 벡터를 함께 내놨다. 로그인도 GPU도 없이 브라우저에서 지도를 만들어 볼 수 있다.",
+        "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+        "source": "Hugging Face Blog",
+        "publisher": "Hugging Face",
+        "tier": 1,
+        "category": "ai_ml",
+        "publishedAt": "2026-10-23T01:11:31+09:00",
+        "readTime": 4,
+        "imageGradient": 2,
+        "body": "Ai2가 공개한 것은 세 묶음이다. 위성 임베딩 모델 OlmoEarth v1.3, 10m 해상도에 64·128차원으로 미리 계산한 전 지구 연간 임베딩, 그리고 그 임베딩으로 지도를 탐색하고 직접 손볼 수 있는 브라우저 도구 Embeddings Explorer다. 사전 계산한 임베딩은 Source Cooperative에 올려 공유했다.\n\n모델이 하는 일은 압축이다. ==Sentinel-1 레이더와 Sentinel-2·Landsat 다분광 시계열을 1년치씩 읽어, 지구상 10미터 픽셀마다 128차원 벡터 하나를 만든다.== 앞쪽 64차원만 떼어 더 작은 임베딩으로 단독 사용할 수도 있다. 임베딩은 모델이 수백만 장의 이미지에서 배운 것을 담은 표현이어서, 한 번 계산해 두면 여러 과제에 저렴하게 재사용된다.\n\n이전까지 OlmoEarth를 쓰는 주된 경로는 OlmoEarth Studio에서 파인튜닝하는 것이었다. 과제마다 모델을 학습시키고 위성 영상 위에 돌려 지도를 만들어야 했고, 그러려면 GPU 접근 권한과 영상을 내려받아 보관할 저장 공간이 필요했다. 기반 모델과 전 지구 임베딩을 만드는 비용 자체가 크기 때문에, 그 혜택을 모두가 누리도록 계산 결과를 커뮤니티에 풀었다는 설명이다.\n\n바뀌는 지점은 작업 난이도다. 작물 지도든 토지피복 지도든 변화 분석이든, 임베딩 위에 작은 분류기 하나를 학습시켜 로컬에서 돌리는 경량 모델링 문제로 내려온다. 시간에 따른 변화를 추적하거나 비슷한 장소를 찾는 작업은 기술 지식 없이도 바로 해 볼 수 있게 됐다."
+      },
+      {
+        "id": "rss_8cacaf29b1",
+        "title": "추론이 남기는 저장 비용 — 8초 영상 한 편에 500MB",
+        "originalTitle": "AI’s hidden storage bill: What inference leaves behind",
+        "excerpt": "AI 인프라 이야기는 대개 GPU와 전력에서 멈춘다. 모델이 답한 뒤 남는 데이터가 어디에 쌓이고 얼마가 드는지는 초기 계획에서 자주 빠진다.",
+        "url": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/",
+        "source": "MIT Technology Review AI",
+        "publisher": "MIT Technology Review",
+        "tier": 2,
+        "category": "ai_ml",
+        "publishedAt": "2026-10-22T17:41:18+09:00",
+        "readTime": 6,
+        "imageGradient": 2,
+        "body": "WD의 내부 측정치가 규모를 보여 준다. ==사용자에게 3.97MB 720p 파일로 돌아간 8초 클립 하나가 백엔드에 500MB 넘는 데이터를 남겼다.== 로그, 캐시된 컨텍스트, 중간 렌더 결과, 백업, 안전 기록이 포함된 숫자로, 사용자가 본 출력 파일의 약 130배다. 기업이 더 길고 더 높은 해상도로 만들면 클립당 수백 기가바이트까지 커진다.\n\n학습과 추론의 성격 차이가 이 문제의 뿌리다. 학습은 시작과 끝이 있어 예산을 잡고 종료할 수 있는 프로젝트지만, 추론은 모델이 프롬프트에 답할 때마다 계속 돌아간다. 끝나지 않으니 매 요청이 뒤에 무언가를 남기고, 그 자취가 쌓인다.\n\n증가 속도에 대한 전망도 한 방향이다. McKinsey는 2030년까지 추론 수요가 연평균 35퍼센트, 학습은 22퍼센트 성장해 10년 말에는 추론이 전체 데이터센터 수요의 40퍼센트 이상을 차지할 것으로 본다. WD가 후원한 IDC 백서가 IT·비즈니스 의사결정자 763명을 조사한 결과, 지난 12개월간 생성형 AI 때문에 데이터량이 늘었다는 응답이 95퍼센트에 달했고 그중 약 61퍼센트는 25퍼센트 이상 늘었다고 답했다.\n\n돈으로 환산하면 예산선의 역전이 생긴다. 컴퓨트 예산은 비교적 예측 가능한 주기로 늘어나는데 저장 지출이 매년 25퍼센트씩 불어나면, 정작 주목을 덜 받는 항목이 가장 주목받는 항목을 추월한다. 백서에 인용된 한 하이퍼스케일 클라우드 사업자의 선임 제품 담당자는 저장 공간을 늘리는 것을 GPU를 계속 바쁘게 돌리기 위한 최적화로 생각할 수 있다며, GPU가 데이터가 도착하기를 기다리며 유휴 상태에 빠지지 않게 하는 것이 가장 큰 과제라고 말했다."
+      },
+      {
+        "id": "rss_d26ae9b2d9",
+        "title": "마이크로소프트 AI 진단 시스템, 어려운 사례에서 일반의를 앞섰다",
+        "originalTitle": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
+        "excerpt": "Science에 실린 연구 결과다. 다만 개선의 대부분은 마이크로소프트가 얹은 시스템이 아니라 그 아래 깔린 모델에서 나온 것으로 보인다는 지적이 함께 나왔다.",
+        "url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
+        "source": "TechCrunch AI",
+        "publisher": "TechCrunch",
+        "tier": 2,
+        "category": "ai_ml",
+        "publishedAt": "2026-10-23T03:43:53+09:00",
+        "readTime": 2,
+        "imageGradient": 1
+      },
+      {
+        "id": "rss_865ffb65f1",
+        "title": "Canva, 첫 자체 이미지 생성 모델을 전체 사용자에게 열었다",
+        "originalTitle": "Canva releases its first image generation model",
+        "excerpt": "성능과 커스터마이즈 폭은 올리고 비용은 낮췄다는 설명이다. 일부 요금제가 아니라 전 사용자 대상으로 바로 풀렸다.",
+        "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
+        "source": "TechCrunch AI",
+        "publisher": "TechCrunch",
+        "tier": 2,
+        "category": "ai_ml",
+        "publishedAt": "2026-10-23T04:00:00+09:00",
+        "readTime": 2,
+        "imageGradient": 5
+      }
+    ],
+    "dev_tools": [
+      {
+        "id": "rss_fb219a6aa8",
+        "title": "Bun 1.4.4에 포매터가 들어왔다 — Prettier보다 286배",
+        "originalTitle": "Bun v1.4.4",
+        "excerpt": "기존 Prettier나 oxfmt 설정을 그대로 읽는 코드 포매터가 런타임 안으로 합쳐졌다. 측정은 Prettier 저장소 자체에서 했다.",
+        "url": "https://bun.com/blog/bun-v1.4.4",
+        "source": "Bun Blog",
+        "publisher": "Bun",
+        "tier": 1,
+        "category": "dev_tools",
+        "publishedAt": "2026-10-22T09:58:24+09:00",
+        "readTime": 6,
+        "imageGradient": 3,
+        "body": "새 명령은 bun fmt다. 대조 실험은 Prettier 저장소 자체(파일 2,616개, 저장소에 들어 있는 설정 그대로)에서 진행했다. ==bun fmt --check가 59.7밀리초에 끝난 반면 Prettier 3.9.10은 17.1초가 걸렸고, 최대 메모리는 48MB 대 459MB였다.== vitest, date-fns, monkeytype, h3에서도 Prettier 3.9.9보다 234배에서 425배 빨랐다.\n\n이미 oxfmt를 쓰는 프로젝트와 비교하면 차이는 줄지만 여전히 앞선다. vite는 파일 2,537개에서 65.2밀리초 대 406.7밀리초로 6.2배, redocly-cli는 3,397개에서 62.4밀리초 대 217.5밀리초로 3.4배, RSSHub는 7,121개에서 97.3밀리초 대 298.5밀리초로 3배였다. fumadocs는 2,452개에서 44.6밀리초 대 1,395밀리초로 31배 차이가 났다. 두 도구 모두 같은 파일 집합을 보고 종료 코드 0으로 끝나며 트리를 바꾸지 않은 상태를 비교한 수치다.\n\n다루는 범위는 넓다. JavaScript, TypeScript, JSX, Flow, CSS, SCSS, Less, HTML, Vue, Svelte, Angular, Lightning Web Components, MJML, JSON과 JSONC·JSON5, YAML, TOML, Markdown, MDX, GraphQL, Handlebars를 포맷한다. HTML 안에 들어간 코드, 마크다운의 코드 블록, 자바스크립트 안의 css 템플릿 리터럴처럼 임베드된 코드도 함께 처리한다.\n\n구현은 포팅의 연쇄다. 전체는 Prettier를 옮긴 것이고, JavaScript·TypeScript 프린터는 oxc_formatter를 옮긴 것이며 그 oxc_formatter는 다시 Biome 포매터를 옮긴 것이다. 옵션으로 --check는 포맷이 필요한 파일만 나열하고 아무것도 쓰지 않으며, 해당 파일이 있으면 종료 코드 1을 반환한다. 변경된 범위만 다루는 --staged와 --changed도 함께 들어왔다."
+      },
+      {
+        "id": "rss_e31bf18aa9",
+        "title": "Node.js 보안 릴리스 — Brotli 디코더 원격 코드 실행 포함",
+        "originalTitle": "Wednesday, October 21, 2026 Security Releases",
+        "excerpt": "10월 정기 보안 패치가 공개됐다. 심각도 높음 네 건과 중간 두 건, 여기에 인증서 신뢰 목록 갱신까지 한꺼번에 담겼다.",
+        "url": "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases",
+        "source": "Node.js Blog",
+        "publisher": "Node.js",
+        "tier": 1,
+        "category": "dev_tools",
+        "publishedAt": "2026-10-22T07:00:00+09:00",
+        "readTime": 4,
+        "imageGradient": 5,
+        "body": "가장 무거운 항목은 CVE-2026-111497이다. ==Brotli 디코더의 범위 밖 쓰기 결함으로 원격 코드 실행이 가능하며, 세 릴리스 라인 전부가 영향을 받는다.== 제보는 OpenAI Codex Security의 Khai Tran과 Sylvie Mayer가 했고 수정은 mcollina와 aduh95가 맡았다.\n\n인증서·DNS 처리 쪽에 높음 등급이 세 건 더 있다. dns.resolve가 NUL 문자가 들어간 이름을 잘라 버리는 CVE-2026-105482는 세 라인 모두에, IP 주소를 전각 숫자로 표기하면 TLS 인증서 호스트명 검사가 뚫리는 CVE-2026-105483은 26.x와 24.x에, 호스트가 느슨하게 IP로 해석될 때 같은 검사가 뚫리는 CVE-2026-106069는 세 라인 모두에 해당한다. 앞의 둘은 hasanfleyah가, 세 번째는 anagnorisis2peripeteia가 신고했고 수정은 jasnell과 mcollina가 했다.\n\n중간 등급도 두 건이다. keep-alive 소켓이 요청을 보내기 전에 기록된 응답을 처리해 버리는 CVE-2026-105481, 그리고 정규화되지 않은 IPv4 호스트명에 대한 잘못된 인증서 검증 때문에 DNS SAN이 IP 엔드포인트를 인증하게 되는 CVE-2026-106072다.\n\n함께 올라간 의존성 업데이트 목록도 눈여겨볼 만하다. c-ares와 Undici는 세 라인 모두, OpenSSL은 24.x와 22.x, SQLite는 22.x가 대상이다. 그리고 세 라인 전부에 ca-cert 갱신이 들어갔는데, 사유로 eMudhra 중간 인증기관 침해가 명시돼 있다. 인증서 신뢰 목록 변경이 런타임 보안 릴리스까지 내려온 사례다."
+      },
+      {
+        "id": "rss_584e14b23d",
+        "title": "Supabase 앱에 자체 MCP 서버를 붙이는 블록이 나왔다",
+        "originalTitle": "Give your Supabase app its own MCP server",
+        "excerpt": "ChatGPT나 Claude 안에서 내가 만든 서비스의 기능을 도구로 쓰게 하는 길이다. 로그인은 사용자가 이미 가진 계정을 그대로 쓴다.",
+        "url": "https://supabase.com/blog/give-your-supabase-app-its-own-mcp-server",
+        "source": "Supabase Blog",
+        "publisher": "Supabase",
+        "tier": 1,
+        "category": "dev_tools",
+        "publishedAt": "2026-10-22T16:00:00+09:00",
+        "readTime": 5,
+        "imageGradient": 1,
+        "body": "Supabase Select에서 공개된 MCP Server block은 프로젝트에 서버 코드를 추가해 준다. OAuth 흐름은 Supabase Auth가 처리하고, @supabase/server의 헬퍼가 각 도구에 ==로그인한 그 사용자 자격으로 동작하는 Supabase 클라이언트를 넘겨주기 때문에 모든 호출이 해당 사용자로 실행되고 RLS 정책이 접근 범위를 결정한다.== service role key 없이 평범한 쿼리만으로 도구 하나를 구성할 수 있다는 뜻이다.\n\n설치는 Supabase Library에서 블록을 가져오는 한 줄이다. npx shadcn@latest add 명령이 Edge Function을 supabase/functions/mcp 경로에 복사하는데, 여기에는 MCP 핸들러와 인증 미들웨어, 호출자 신원을 확인하는 whoami 도구가 들어 있다. 도구는 파일별로 하나씩 두고 tools/index.ts에서 등록하며, 그 코드는 전부 개발자 소유라 입력을 바꾸거나 어떤 정보를 돌려줄지 직접 정한다. 블록의 라이브러리 페이지에는 코딩 에이전트에게 문서를 물려 주는 프롬프트 복사 버튼도 있다.\n\n시연은 Sizzle이라는 데모 앱으로 했다. 제품 사진을 영상 광고로 바꿔 주는 서비스이고, Supabase Auth와 Database, Storage를 쓴다. 고객이 Claude에서 캠페인을 준비하다가 자기 에이전트로 제품을 찾고 광고 생성을 요청해, 같은 대화 안에서 다른 도구들과 함께 결과를 이어 쓰는 흐름이다.\n\n이식성도 챙겼다. 프로토콜 처리와 도구 등록은 공식 MCP TypeScript SDK를 쓰고, Supabase 헬퍼는 표준 Web Request·Response 핸들러를 사용하는 다른 백엔드에서도 동작한다. Cloudflare Workers와 다른 MCP 라이브러리 조합도 지원 대상이며, 다른 곳에서 돌아가는 로직을 재사용하려면 그쪽에 MCP 엔드포인트를 두고 공개 URL을 지정하면 된다."
+      },
+      {
+        "id": "rss_3005eb1ae0",
+        "title": "Vercel, 크래시에서 되살아나는 durable-harness 공개",
+        "originalTitle": "Making every harness durable",
+        "excerpt": "노트북 뚜껑을 닫으면 멈추는 코딩 에이전트를 클라우드로 옮길 때 생기는 공백을 겨냥했다. 턴 중간에 죽어도 끝난 작업은 다시 하지 않는다.",
+        "url": "https://vercel.com/blog/making-every-harness-durable",
+        "source": "Vercel Blog",
+        "publisher": "Vercel",
+        "tier": 1,
+        "category": "dev_tools",
+        "publishedAt": "2026-10-19T22:00:00+09:00",
+        "readTime": 6,
+        "imageGradient": 7,
+        "body": "문제 정의는 로컬과 클라우드의 차이에서 출발한다. 로컬 하네스는 작업 공간과 세션 기록이 같은 디스크에 있어 중단된 작업을 이어가려면 프롬프트 한 번으로 충분하다. 클라우드에서는 VM과 영구 스토리지로 비슷한 구성을 만들 수 있지만, VM이 어떤 모델 호출과 도구 호출이 완료됐는지 자동으로 기록해 주지는 않고 중단된 턴을 알아서 재개하지도 않는다. 그래서 실패한 턴이나 네트워크 오류가 곧 작업 손실이 된다.\n\nVercel은 자사 eve와 fx를 처음부터 클라우드에서 견디도록 만들었고, 이번에 발표한 durable-harness는 그 성질을 Pi, OpenCode, Codex, Claude Code 같은 외부 하네스로 확장한다. ==Workflow SDK를 뒷받침하는 것과 같은 장치를 써서 크래시와 함수 타임아웃을 넘긴다.== 쓰는 방식은 네 가지로 제시됐다. Vercel에서 하네스를 그대로 돌리기, 자기 Postgres 인스턴스로 셀프호스팅하기, 로컬 워크플로에 내구성을 입히기, 아예 자신만의 내구성 하네스를 만들기다.\n\n예시는 기존 앱에 가격 페이지를 추가하는 코딩 에이전트다. 에이전트가 기존 페이지를 읽고 새 페이지를 쓰고 풀 리퀘스트를 열어 CI가 끝나기를 기다리는 사이 함수가 타임아웃되면 어떻게 되는가. 내구성이 없으면 수동으로 재시작할 때까지 멈춰 있고 이미 끝난 작업을 처음부터 되풀이한다. durable-harness에서는 새 함수가 로그에서 완료된 결과를 읽어 그 턴을 이어가고, 브라우저 연결이 끊겨도 에이전트는 계속 돌아간다.\n\n왜 지금인가도 분명하다. 하네스 워크로드가 클라우드로 옮겨 가는 중이다. 개인 개발자들이 상시 가동 코딩 에이전트 워크플로를 배포하고, OpenWork나 HanaAgent 같은 프로젝트는 오픈소스 하네스를 앱의 엔진으로 쓰며, 아예 하네스 자체를 제품으로 만드는 엔지니어도 늘었다. 덧붙은 설계 판단도 있다. 하네스를 통한 모든 작업에 샌드박스가 필요한 것은 아니어서, 데이터베이스 쿼리와 API 호출은 함수에서 안전하게 처리하고 그만큼 자격증명이 샌드박스로 들어가지 않는다.",
+        "firstSeenAt": "2026-10-21T20:07:00+00:00"
+      }
+    ],
+    "big_tech": [
+      {
+        "id": "rss_c3c91acfa9",
+        "title": "GitLab 최고 등급 결함, 2014년 버전까지 영향",
+        "originalTitle": "Max-severity GitLab bug allows remote code execution over 12 years of releases",
+        "excerpt": "정규식을 컴파일할 때 생기는 정수 오버플로다. 인증 없는 사용자가 자체 관리 서버에서 임의 코드를 실행할 수 있어 심각도 만점이 붙었다.",
+        "url": "https://www.theregister.com/security/2026/10/22/max-severity-gitlab-bug-allows-remote-code-execution-over-12-years-of-releases/5304854",
+        "source": "The Register",
+        "publisher": "The Register",
+        "tier": 2,
+        "category": "big_tech",
+        "publishedAt": "2026-10-23T02:36:30+09:00",
+        "readTime": 2,
+        "imageGradient": 3,
+        "body": "GitLab은 수요일 CVE-2026-110264를 패치했다. 특정 조건에서 인증되지 않은 사용자가 특별히 조작한 정규 표현식을 통해 서버에서 임의 코드를 실행할 수 있는 결함이고, Community Edition과 Enterprise Edition 모두가 대상이다. ==영향 범위는 2014년 6월 출시된 GitLab 7.0까지, 즉 12년치 릴리스 전체에 걸쳐 있다.==\n\n수정 버전은 19.5.1과 19.4.3, 19.3.6이며 19.2.9·19.1.9·19.0.10·18.11.13으로 백포트됐다. GitLab.com과 GitLab Dedicated를 포함해 GitLab이 직접 운영하는 인프라는 이미 패치된 상태다. 자체 관리 인스턴스를 쓰는 고객을 위해 위협 탐지 규칙 두 건도 함께 공개됐고, GitLab은 취약한 버전을 쓰는 모든 조직이 가능한 한 빨리 올리라고 강력히 권고했다. 제보는 버그 헌터 Johan Carlsson이 GitLab의 HackerOne 바운티 프로그램을 통해 했다.\n\n위험이 큰 이유는 저장소에 무엇이 들어 있는지를 보면 분명하다. 위협 탐지 업체 SOC Prime은 저장소에 소스코드와 CI/CD 설정, 배포용 비밀값, 액세스 토큰, 인프라 정의, 운영 환경 연결이 함께 담겨 있기 때문에 서버 수준이 장악되면 자격증명 탈취, 저장소 조작, 공급망 공격, 지속성 확보, 수평 이동으로 이어질 기회가 생긴다고 경고했다.\n\n아직 실제 악용 시도가 관측된 바는 없다. 다만 PHP를 둘러싼 혼란이 방어자에게 약간의 시간을 벌어 준 것일 수 있고, 심각도 만점과 등록 사용자 5천만 명·포천 100대 기업의 절반 이상이라는 GitLab의 범위를 감안하면 그 시간은 오래가지 않을 것으로 보인다. 지난달에도 같은 제품의 다른 최고 등급 결함이 패치 며칠 만에 공격 대상이 됐다."
+      },
+      {
+        "id": "rss_99c8819be3",
+        "title": "NVIDIA, AI 팩토리 관측용 AIOps 플랫폼 Minerva 발표",
+        "originalTitle": "NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories",
+        "excerpt": "GPU 하나가 옆 카드보다 미지근하게 뜨거워지는 신호를 놓치지 않겠다는 쪽이다. 인프라와 워크로드 텔레메트리를 하나의 그래프로 묶는다.",
+        "url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/",
+        "source": "NVIDIA Blog",
+        "publisher": "NVIDIA",
+        "tier": 1,
+        "category": "big_tech",
+        "publishedAt": "2026-10-23T00:00:02+09:00",
+        "readTime": 4,
+        "imageGradient": 0,
+        "body": "Minerva는 문제를 더 일찍 찾아 AI 팩토리의 생산성을 유지하도록 만든 AIOps 플랫폼이다. 인프라와 AI 워크로드에서 나오는 신호를 한데 모으고 전용 AI 모델을 적용해 바로 조치할 수 있는 형태로 바꾼다. 엔비디아가 내세우는 지표는 AI 팩토리 수율이며, GPU 시간과 goodput, 클러스터 가동 시간, 토큰 생산량으로 측정한다.\n\n기존 모니터링 도구는 데이터센터를 네트워킹, 컴퓨트, 사이트 신뢰성, 머신러닝 팀이 각자 다른 조각으로 보도록 쪼개 놓는다는 것이 출발점이다. Minerva는 엔비디아 GPU와 네트워킹, 스토리지, 스케줄러, 워크로드의 신호를 연결해 GPU·SuperNIC·스위치·케이블과 그 위에서 도는 작업을 논리적으로 매핑하는 동적 지식 그래프를 만든다. ==이 맥락이 있으면 GPU가 수십만 개인 환경에서도 느려진 학습 작업을 원인이 된 부품까지 거슬러 추적할 수 있다.==\n\n분석은 시간당 수십억 개 데이터 포인트를 지도·비지도 학습으로 처리한다. 정상 동작을 학습해 두고 처음 보는 이상을 감지하고, 다가오는 장애를 예측하며, 팩토리의 토폴로지에 근거해 관련 이벤트를 서로 엮는다. 모든 증상을 운영자에게 그대로 던지는 대신 이벤트 폭주를 하나의 사건으로 묶어 유력한 근본 원인을 붙여 준다.\n\n인터페이스로는 네이티브 AI 어시스턴트가 붙고 외부 에이전틱 AI 도구와도 연결된다. 운영자는 실시간 텔레메트리에 근거한 자연어 대화로 클러스터 상태를 조사하고 권장 조치를 받는다. 사람이 직접 적용하도록 남겨 둘 수도 있고, 인프라 API나 외부 시스템 자동화에 연결할 수도 있다. 지향점은 중단 사이 간격을 늘리고 복구 시간을 줄여, 경고의 눈보라에 대응하던 운영을 예방 중심으로 옮기는 것이다."
+      },
+      {
+        "id": "rss_ec5fddbebb",
+        "title": "Arc 브라우저 종료일 확정 — 남은 기간은 두 달",
+        "originalTitle": "Arc browser gets a sunset date, and users have two months to move on",
+        "excerpt": "The Browser Company가 Dia라는 새 프로젝트로 무게를 옮기며 간판 제품에 날짜를 박았다. 쓰던 사람에게 주어진 시간은 정확히 두 달이다.",
+        "url": "https://9to5mac.com/2026/10/22/arc-browser-gets-a-sunset-date-and-users-have-two-months-to-move-on/",
+        "source": "9to5Mac",
+        "publisher": "9to5Mac",
+        "tier": 2,
+        "category": "big_tech",
+        "publishedAt": "2026-10-23T02:28:58+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_98a2d78f16",
+        "title": "Datadog, 이스라엘 클라우드 보안 기업 Upwind에 40억 달러 제안",
+        "originalTitle": "Sources: Datadog offered to acquire Israeli cloud cybersecurity startup Upwind Security for nearly $4B; Upwind is finalizing a $300M round at a ~$3.8B valuation (The Information)",
+        "excerpt": "The Information 보도다. Upwind는 약 38억 달러 밸류로 3억 달러 투자 라운드를 마무리하는 중이라고 전해졌다.",
+        "url": "https://www.techmeme.com/261022/p47#a261022p47",
+        "source": "Techmeme",
+        "publisher": "Techmeme",
+        "tier": 3,
+        "category": "big_tech",
+        "publishedAt": "2026-10-23T03:30:01+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      }
+    ],
+    "twitter_pulse": [
+      {
+        "id": "tw_2112984664256241837",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Claude가 능동적인 에이전트로 일하는 새 앱 Claude Duet의 리서치 프리뷰를 엽니다.\n\n먼저 다가와 지금 확인이 필요한 일을 알려 주고, 요청한 작업을 끝내고, 자리를 비운 사이에도 계속 일하며, 대신 행동하기 전에 확인을 구합니다.",
+        "context": "Anthropic의 Claude 공식 계정이 올린 신규 앱 공개 글이다. 사용자가 물어볼 때만 답하는 챗봇 형태에서 벗어나 ==먼저 말을 거는 에이전트==를 어디까지 맡길 수 있는지를 시험하는 프리뷰로, 이 트윗은 하루 사이 가장 많은 반응을 모았다.",
+        "url": "https://x.com/claudeai/status/2112984664256241837",
+        "publishedAt": "2026-10-22T04:09:35+09:00",
+        "metrics": {
+          "likes": 52228,
+          "retweets": 3997,
+          "replies": 2171,
+          "views": 8361583
+        }
+      },
+      {
+        "id": "tw_2112988118471295323",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "content": "OpenAI 모델이 구글 클라우드에 들어갑니다.\n\n기업이 이미 개발하고 있는 환경에서 우리 기술을 쓸 수 있도록, 프런티어 모델과 Codex 에이전트 워크플로를 구글 클라우드의 Model Garden에 제공합니다.",
+        "context": "경쟁 관계로 묶여 온 두 회사의 유통 채널이 겹치는 발표다. 기업 고객이 쓰는 클라우드를 바꾸지 않고도 모델을 선택할 수 있게 되면서, 모델 공급과 클라우드 인프라가 분리되는 흐름이 더 분명해졌다.",
+        "url": "https://x.com/OpenAI/status/2112988118471295323",
+        "publishedAt": "2026-10-22T04:23:19+09:00",
+        "metrics": {
+          "likes": 4790,
+          "retweets": 378,
+          "replies": 427,
+          "views": 429456
+        }
+      },
+      {
+        "id": "tw_2113013247209021918",
+        "author": "ClaudeDevs",
+        "handle": "ClaudeDevs",
+        "content": "API 버전 2026-10-21이 공개됐습니다.\n\nClaude API는 그동안 많이 바뀌었지만, 2023년 이후 공식 버전 릴리스는 이번이 처음입니다. 새 모델이 변경을 강제하기 전에 미리 대응할 수 있도록 앞으로는 버전을 더 자주 내놓을 계획입니다.\n\n2023-06-01은 폐기되지 않습니다.",
+        "context": "Anthropic 개발자 계정이 올린 API 버전 체계 변경 공지다. ==3년 만의 첫 공식 버전 릴리스==이면서, 모델 교체 시점에 몰리던 호환성 깨짐을 버전 경계로 미리 나누겠다는 신호다.",
+        "url": "https://x.com/ClaudeDevs/status/2113013247209021918",
+        "publishedAt": "2026-10-22T06:03:10+09:00",
+        "metrics": {
+          "likes": 4849,
+          "retweets": 131,
+          "replies": 117,
+          "views": 391611
+        },
+        "thread": [
+          "이번 버전에서 바뀌는 것:\n- Messages API에서 temperature, top_p, top_k가 제거됩니다\n- assistant 턴의 documents와 user 턴의 citations는 400을 반환합니다\n- 폐기 예정이던 Admin·Enterprise Analytics API 필드 일부가 대체됩니다",
+          "Anthropic SDK와 ant CLI의 새 메이저 버전도 오늘 나왔고 기본값은 2026-10-21입니다.\n\nClaude Code에서 /claude-api 스킬로 업데이트하거나, 마이그레이션 가이드에서 변경 사항을 하나씩 따라갈 수 있습니다."
+        ]
+      },
+      {
+        "id": "tw_2112767157746688480",
+        "author": "Logan Kilpatrick",
+        "handle": "OfficialLoganK",
+        "content": "Gemini 4 Argon 출시 후 첫 72시간 동안 약 25조 토큰을 처리했습니다. 지능에 대한 수요는 놀랍고, 아직 과소평가되고 있습니다.",
+        "context": "구글 AI 스튜디오와 Gemini API 제품을 총괄하는 로건 킬패트릭이 올린 수치다. ==출시 사흘 만의 25조 토큰==은 모델 품질 경쟁이 곧바로 추론 인프라 수요로 전환된다는 점을 보여 주는 지표로 자주 인용된다.",
+        "url": "https://x.com/OfficialLoganK/status/2112767157746688480",
+        "publishedAt": "2026-10-21T13:45:18+09:00",
+        "metrics": {
+          "likes": 5743,
+          "retweets": 320,
+          "replies": 498,
+          "views": 786738
+        }
+      },
+      {
+        "id": "tw_2112992872857252082",
+        "author": "Grok Bot",
+        "handle": "bot",
+        "content": "Grok Bot이 리포트와 메모, 대시보드를 만들 수 있게 됐습니다.\n\nBot에게 페이지를 요청하고, 함께 편집하거나 Bot이 계속 최신 상태로 유지하게 맡기세요.",
+        "context": "xAI의 Grok Bot 공식 계정이 올린 기능 추가 공지다. 대화로 끝나던 결과물을 계속 갱신되는 문서나 대시보드 형태로 남기는 방향이어서, 비슷한 기능을 내놓은 다른 에이전트 제품들과 같은 지점을 겨냥한다.",
+        "url": "https://x.com/bot/status/2112992872857252082",
+        "publishedAt": "2026-10-22T04:42:13+09:00",
+        "metrics": {
+          "likes": 8484,
+          "retweets": 625,
+          "replies": 1348,
+          "views": 1643772
+        },
+        "thread": [
+          "최신 모바일·데스크톱 클라이언트를 쓰는 사용자에게 오늘부터 순차 배포됩니다.\n\nGrok Bot을 써 보세요."
+        ]
+      },
+      {
+        "id": "tw_2113294657673466060",
+        "author": "Kevin Weil 🇺🇸",
+        "handle": "kevinweil",
+        "content": "AI와 로보틱스를 적용해 세상이 새로운 의약품을 더 빨리 개발하도록 돕는 회사 Warp Sciences를 소개합니다.\n\n프런티어 AI를 브라우저 밖 실험실로 끌어내고 미국 내 과학 역량을 키우기 위해 Lightspeed가 주도한 2억 1,500만 달러 시리즈 A를 유치했습니다.\n\n오랜 친구 DJ Patil, FAIR 공동창업자 Manohar Paluri, 신약 개발자 Sol Reisberg와 함께 공동 창업했습니다. 초기 팀에는 LLNL에서 Q>1 핵융합을 달성하는 데 기여한 사람들도 있습니다.",
+        "context": "OpenAI 최고제품책임자를 지낸 케빈 와일이 직접 올린 창업 발표다. ==시드가 아닌 시리즈 A 단계에서 2억 1,500만 달러==가 모였다는 점에서, 모델을 쓰는 쪽이 아니라 실험을 자동화하는 쪽으로 자본이 옮겨 가는 흐름을 보여 준다.",
+        "url": "https://x.com/kevinweil/status/2113294657673466060",
+        "publishedAt": "2026-10-23T00:41:24+09:00",
+        "metrics": {
+          "likes": 1461,
+          "retweets": 109,
+          "replies": 150,
+          "views": 175160
+        }
+      },
+      {
+        "id": "tw_2112974723659247896",
+        "author": "Google DeepMind",
+        "handle": "GoogleDeepMind",
+        "content": "Gemini 4 Argon이 오픈소스 데이터셋 세 개를 결합해 인체 해부 구조를 보여 주는 인터랙티브 3D 시각화를 만들었습니다.\n\n여러 층을 움직이며 켜고 끄거나, 근육만 따로 떼어 보거나, 뛰는 심장 안쪽까지 확대해 볼 수 있습니다.",
+        "context": "구글 딥마인드 공식 계정이 올린 모델 활용 예시다. 모델이 코드와 데이터 결합을 한 번에 처리해 ==쓸 수 있는 인터랙티브 산출물==까지 내놓는 과정을 보여 주는 쪽에 무게가 있다.",
+        "url": "https://x.com/GoogleDeepMind/status/2112974723659247896",
+        "publishedAt": "2026-10-22T03:30:05+09:00",
+        "metrics": {
+          "likes": 2783,
+          "retweets": 263,
+          "replies": 232,
+          "views": 154068
+        }
+      },
+      {
+        "id": "tw_2112962248218148878",
+        "author": "Claude",
+        "handle": "claudeai",
+        "content": "Claude Security가 이제 코드가 바뀌는 속도를 따라갑니다.\n\n저장소를 한 번 연결하면 Claude가 처음에 깊은 스캔을 한 뒤 변경이 들어올 때마다 다시 스캔하므로, 발견된 문제가 현재 코드 상태에 가깝게 유지됩니다.\n\nClaude Enterprise에서 공개 베타로 제공됩니다.",
+        "context": "Anthropic이 보안 제품을 일회성 점검에서 지속 스캔으로 바꾼다는 공지다. 수정이 반영됐는지까지 추적하는 방식이어서, 결과를 한 번 받아 보고 끝나던 기존 코드 스캐너와는 운영 방식이 다르다.",
+        "url": "https://x.com/claudeai/status/2112962248218148878",
+        "publishedAt": "2026-10-22T02:40:31+09:00",
+        "metrics": {
+          "likes": 10222,
+          "retweets": 515,
+          "replies": 360,
+          "views": 702589
+        },
+        "thread": [
+          "수정이 배포되면 Claude가 바뀐 코드를 확인해 해당 항목을 수정 완료로 표시합니다. 팀이 Claude Security 밖에서 고친 경우에도 마찬가지입니다. 문제가 다시 나타나면 항목이 재오픈됩니다.\n\n또 프로젝트마다 Claude가 코드에서 작성한 위협 모델이 제공되고, 팀이 직접 수정할 수 있습니다.",
+          "프로젝트는 GitHub과 GitLab, 그 밖의 Git 제공자에 걸친 여러 저장소를 포함할 수 있고, 발견된 항목은 새 API와 MCP 커넥터를 통해 기존 도구로 전달됩니다.\n\n자격 요건을 갖춘 조직에는 2026년 12월 31일까지 두 달간 매월 2만 5천 달러의 사용 크레딧이 제공됩니다. 약관이 적용됩니다."
+        ]
+      }
+    ],
+    "threads_pulse": [
+      {
+        "id": "th_Dezys4MCjDi",
+        "author": "choi.openai",
+        "handle": "choi.openai",
+        "content": "오픈AI CEO 샘 알트만은 최근 기술 발전 속도가 자신의 예상을 뛰어넘었다며, 적어도 수학적 추론 같은 특정 영역에서는 이미 초지능에 도달했다고 평가했습니다. 지난 6개월간의 진보를 보며 종전의 신념이 흔들릴 정도였다고 고백했고, ==이 속도가 1~2년만 더 이어지면 지금의 사회·기업·정부 체계로는 감당하기 어려울 것==이라고 경고했습니다. 인간의 적응력과 점진적 배포 원칙은 여전히 믿지만, 능력 향상이 너무 가속돼 기존 방식만으로는 한계에 부딪힌다는 분석입니다.",
+        "context": "OpenAI 관련 소식을 한국어로 정리해 올리는 계정이 전한 알트만의 최근 인터뷰 요지다. 회사 최고경영자가 공개적으로 자사 모델에 초지능이라는 표현을 쓴 대목이 눈길을 끈다.",
+        "url": "https://www.threads.com/@choi.openai/post/Dezys4MCjDi",
+        "publishedAt": "2026-10-23T05:00:49+09:00",
+        "platform": "threads"
+      },
+      {
+        "id": "th_DezeBvejRMr",
+        "author": "choi.openai",
+        "handle": "choi.openai",
+        "content": "구글 딥마인드 CEO 데미스 하사비스는 최근 발생하는 AI 문제들을 업계를 향한 심각한 경고 사격으로 받아들여야 한다고 말했습니다. 지금 모델도 인상적이지만 1~2년 뒤 차세대 프런티어 AI의 성능에 비하면 아무것도 아니라는 분석입니다. 지금 통제력을 확보하지 못하면 사이버 위협을 넘어 바이오나 핵 안보 같은 파멸적 리스크로 번질 수 있다고 지적하며, ==프런티어 모델을 검증·인증할 표준 기구와 가드레일이 시급하다==고 강조했습니다.",
+        "context": "같은 계정이 전한 하사비스의 발언 요지다. 앞선 알트만의 속도 경고와 같은 날 묶여 올라와, 프런티어 연구를 이끄는 두 경영자가 같은 시점에 비슷한 경계심을 말했다는 점에서 읽을 만하다.",
+        "url": "https://www.threads.com/@choi.openai/post/DezeBvejRMr",
+        "publishedAt": "2026-10-23T02:00:10+09:00",
+        "platform": "threads"
+      }
+    ],
+    "reddit_pulse": [
+      {
+        "id": "rd_1xbzlih",
+        "title": "삼성 TV 홈 화면을 Claude Code로 직접 만든 런처로 바꿨다",
+        "originalTitle": "I replaced my Samsung TV’s home screen with Claude Code",
+        "summary": "광고판이 되어 버린 기본 홈 화면 대신 시계와 실제로 쓰는 앱, 콘솔만 남긴 런처를 만든 사례다. ==결정적이었던 요령은 런처가 의존하는 TV API 몇 개를 가짜로 구현해, TV에 설치하지 않고 노트북 브라우저에서 레이아웃과 리모컨 조작을 다듬은 것==이다. 홈 버튼을 가로채는 부분은 공식 방법이 없어 비문서화 설정을 바꾸고 원래 값을 복원하는 보조 도구를 썼고, 작성자는 2022년형 Q70B에서만 시험했다고 밝혔다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1xbzlih/i_replaced_my_samsung_tvs_home_screen_with_claude/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "rank": 2,
+        "publishedAt": "2026-10-22T06:11:42+09:00"
+      },
+      {
+        "id": "rd_1xcdwdx",
+        "title": "Claude Code가 날 기다리는지 확인하기 지쳐서 물리 표시등을 달았다",
+        "originalTitle": "I got tired of checking whether Claude Code needs me. So I gave it a physical status light.",
+        "summary": "오래 걸리는 작업을 별도 노트북에서 돌리다 보니 작업 중인지 질문을 기다리는지 계속 확인해야 했다는 이야기다. 남아 있던 Kuando Busylight를 hooks로 연결해 ==작업 중에는 빨간색이 깜박이고, 입력이 필요하면 빨간색이 고정되고, 유휴 상태면 초록색==으로 바뀌게 만들었다. 다른 화면을 흘끔거릴 일이 없어졌다는 후기다.",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1xcdwdx/i_got_tired_of_checking_whether_claude_code_needs/",
+        "subreddit": "ClaudeAI",
+        "score": 0,
+        "rank": 3,
+        "publishedAt": "2026-10-22T18:29:24+09:00"
+      },
+      {
+        "id": "rd_1xc48or",
+        "title": "Kitten-TTS 2 공개 — 세계 첫 1.58비트 TTS 모델",
+        "originalTitle": "Kitten-TTS 2: New Open-source SOTA 1.58 bit TTS (CPU-only with voice cloning, multilingual, emotion control)",
+        "summary": "KittenML이 코드와 가중치를 함께 공개한 음성 합성 모델이다. 본체의 모든 선형 가중치가 -1, 0, +1 세 값 중 하나인 삼진 방식(그룹 크기 128의 스케일)이어서, ==파라미터 1.7B 규모에서도 GPU 없이 CPU만으로 실시간 생성이 가능하다.== 제로샷 음성 복제와 다국어, 강조·감정 표현 제어를 지원하며 코드와 가중치 모두 오픈소스로 풀렸다.",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xc48or/kittentts_2_new_opensource_sota_158_bit_tts/",
+        "subreddit": "LocalLLaMA",
+        "score": 0,
+        "rank": 1,
+        "publishedAt": "2026-10-22T09:33:11+09:00"
+      },
+      {
+        "id": "rd_1xchayq",
+        "title": "DNA와 텍스트를 함께 학습한 공개 모델 Carbon-X",
+        "originalTitle": "Carbon-X is an open 14.8B model trained jointly on DNA and text [R]",
+        "summary": "148억 파라미터 디코더 전용 모델로, 일반 대화 속에서 원시 DNA를 받아 영어로 답한다. 6-mer 토큰을 써서 텍스트와 DNA가 하나의 토큰 스트림을 공유하고 3,020억 토큰으로 중간 학습됐다. Hugging Face 기준 DNA 벤치마크 5종 평균은 사고 기능을 끈 상태에서 66.7퍼센트로, GPT-6.1 Sol의 67.5퍼센트에 근접한다. ==가중치는 bfloat16으로 80GB GPU 한 장에 올라가고 Apache 2.0==이지만, 임상 검증은 되지 않았고 정확한 서열 연산은 코드로 처리해야 한다고 모델 카드가 명시한다.",
+        "url": "https://www.reddit.com/r/MachineLearning/comments/1xchayq/carbonx_is_an_open_148b_model_trained_jointly_on/",
+        "subreddit": "MachineLearning",
+        "score": 0,
+        "rank": 1,
+        "publishedAt": "2026-10-22T21:32:56+09:00"
+      },
+      {
+        "id": "rd_1xcaveo",
+        "title": "C와 Rust보다 빠르다는 Tov 언어의 벤치마크를 반박했다",
+        "originalTitle": "Debunking \"Faster than Rust\": Malicious Benchmarks in Tov",
+        "summary": "새로 등장한 Tov 언어가 내세운 벤치마크 일부를 직접 검증해 반박한 글이다. 작성자는 지인이 보내 준 소개 페이지를 보고 C와 Rust보다 빠르다는 주장에 의심이 들었다고 적었다. 코드를 바꾼 것 외에도 자기 프로그램이 더 빠르게 보이도록 특정 환경을 구성했거나, 아예 수치를 만들어 냈을 가능성을 제기한다.",
+        "url": "https://www.reddit.com/r/programming/comments/1xcaveo/debunking_faster_than_rust_malicious_benchmarks/",
+        "subreddit": "programming",
+        "score": 0,
+        "rank": 1,
+        "publishedAt": "2026-10-22T15:17:28+09:00"
+      }
+    ],
+    "quick_bites": [
+      {
+        "id": "hn_50190363",
+        "title": "터미널인 척하는 360M 모델, WorldTUI",
+        "originalTitle": "WorldTUI: I trained a 360M model to pretend to be a terminal",
+        "excerpt": "명령을 받아 실행하는 대신 터미널의 출력 자체를 흉내 내도록 작은 모델을 학습시킨 실험이다. HN에서 458점, 댓글 148개를 받았다.",
+        "url": "https://simedw.com/2026/10/21/world-model-terminal/",
+        "source": "Hacker News",
+        "publisher": "Hacker News",
+        "tier": 3,
+        "category": "quick_bites",
+        "publishedAt": "2026-10-22T11:18:41+09:00",
+        "readTime": 2,
+        "imageGradient": 0,
+        "hnUrl": "https://news.ycombinator.com/item?id=50190363",
+        "points": 458,
+        "numComments": 148
+      },
+      {
+        "id": "hn_50190455",
+        "title": "최근 제안된 o(n log n) 정수 곱셈 알고리즘 논문",
+        "originalTitle": "The recently proposed o(n log n) integer multiplication algorithm [pdf]",
+        "excerpt": "곱셈 복잡도를 n log n보다 낮추겠다는 제안을 담은 논문 PDF가 HN 상단에 올랐다. 295점에 댓글 264개가 달렸다.",
+        "url": "https://web.maths.unsw.edu.au/~davidharvey/research/subnlogn.pdf",
+        "source": "Hacker News",
+        "publisher": "Hacker News",
+        "tier": 3,
+        "category": "quick_bites",
+        "publishedAt": "2026-10-22T11:30:52+09:00",
+        "readTime": 2,
+        "imageGradient": 7,
+        "hnUrl": "https://news.ycombinator.com/item?id=50190455",
+        "points": 295,
+        "numComments": 264
+      },
+      {
+        "id": "hn_50191507",
+        "title": "OpenAI, REST API용 공식 명령줄 도구를 내놨다",
+        "originalTitle": "OpenAI CLI",
+        "excerpt": "셸에서 바로 API를 호출하는 공식 CLI 저장소다. 220점과 댓글 108개를 기록했다.",
+        "url": "https://github.com/openai/openai-cli",
+        "source": "Hacker News",
+        "publisher": "Hacker News",
+        "tier": 3,
+        "category": "quick_bites",
+        "publishedAt": "2026-10-22T14:23:11+09:00",
+        "readTime": 2,
+        "imageGradient": 6,
+        "hnUrl": "https://news.ycombinator.com/item?id=50191507",
+        "points": 220,
+        "numComments": 108
+      },
+      {
+        "id": "rss_49bb51281c",
+        "title": "스위치 2 탈옥 ns2jb 공개",
+        "originalTitle": "jailbreaking the switch 2",
+        "excerpt": "닌텐도 스위치 2를 뚫은 과정을 정리한 글이다. Lobsters를 거쳐 HN에서 593점과 댓글 214개를 모았다.",
+        "url": "https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/",
+        "source": "Lobsters",
+        "publisher": "Lobsters",
+        "tier": 3,
+        "category": "quick_bites",
+        "publishedAt": "2026-10-22T21:10:48+09:00",
+        "readTime": 2,
+        "imageGradient": 7,
+        "hnUrl": "https://news.ycombinator.com/item?id=50192536",
+        "points": 593,
+        "numComments": 214
+      },
+      {
+        "id": "rss_650fa1a493",
+        "title": "ZDI, 리눅스 커널 취약점 보고서를 공개 메일링 리스트로 보냈다",
+        "originalTitle": "여러 Linux 커널 취약점이 실수로 공개 메일링 리스트에 게시됨",
+        "excerpt": "트렌드마이크로 ZDI가 비공개 보안 리스트가 아니라 공개 LKML로 여러 건을 발송했다. 실수로 보이며 Greg Kroah-Hartman이 각 보고서에 답신했다.",
+        "url": "https://news.hada.io/topic?id=35822",
+        "source": "GeekNews",
+        "publisher": "GeekNews",
+        "tier": 3,
+        "category": "quick_bites",
+        "publishedAt": "2026-10-23T01:43:09+09:00",
+        "readTime": 2,
+        "imageGradient": 0
+      },
+      {
+        "id": "rss_4e49f0fcd9",
+        "title": "Anthropic 상반기 순손실 807억 달러, 그중 720억은 회계상 비용",
+        "originalTitle": "Anthropic, 2026년 상반기 순손실 800억 달러 넘어",
+        "excerpt": "전환사채 가치 상승에 따른 회계 비용이 손실의 대부분이어서 영업 현금 지출과는 성격이 다르다. 컴퓨팅·인프라 지출은 1년 만에 23억 달러에서 약 90억 달러로 늘었다.",
+        "url": "https://news.hada.io/topic?id=35823",
+        "source": "GeekNews",
+        "publisher": "GeekNews",
+        "tier": 3,
+        "category": "quick_bites",
+        "publishedAt": "2026-10-23T01:46:09+09:00",
+        "readTime": 2,
+        "imageGradient": 6
+      }
+    ]
+  }
+}

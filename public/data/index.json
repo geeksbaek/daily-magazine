@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-10-23",
+      "issueNumber": 194,
+      "mainHeadline": "PHP2Shell 후폭풍, 영국 정부 서비스 32개가 멈췄다",
+      "headlines": [
+        "Anthropic이 Agent Skills 표준을 Linux Foundation 산하 Agentic AI 재단에 기부했다",
+        "비밀키가 숫자 4였던 인증기관 eMudhra가 글로벌 SSL/TLS 사업에서 철수한다",
+        "구글이 에이전트 전용 컴퓨트 서비스 Agent Compute Engine을 공개했다"
+      ]
+    },
+    {
       "date": "2026-10-22",
       "issueNumber": 193,
       "mainHeadline": "AI가 먼저 찾아낸 PHP 치명적 결함, 공개 전에 지구를 패치했다",
