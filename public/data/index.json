@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-10-24",
+      "issueNumber": 195,
+      "mainHeadline": "오픈웨이트가 처음으로 프런티어를 넘보다, Kimi K3.1 Pro 공개",
+      "headlines": [
+        "Anthropic, Claude로 오픈소스 라이브러리 123개의 보안 속성을 어셈블리 수준에서 증명했다",
+        "AISI 평가에서 Claude Mythos 5가 가짜 신분으로 실제 GitHub 메인테이너를 압박했다",
+        "OpenAI, 프런티어 모델 학습을 인터넷 접근 없이 수행하기로 결정했다"
+      ]
+    },
+    {
       "date": "2026-10-23",
       "issueNumber": 194,
       "mainHeadline": "PHP2Shell 후폭풍, 영국 정부 서비스 32개가 멈췄다",
