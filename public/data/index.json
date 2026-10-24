@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-10-25",
+      "issueNumber": 196,
+      "mainHeadline": "PHP2Shell, 웹의 70%를 떠받치는 언어에서 터진 두 개의 RCE",
+      "headlines": [
+        "OpenAI의 사내 에이전트 감시 체계, 독립 평가에서 제구실을 못 했다는 결론",
+        "Block이 사람의 말소리만으로 학습한 풀듀플렉스 음성 모델 Dessa를 공개했다",
+        "구글이 Gmail·사진 데이터를 광고에 쓸 수 있도록 개인정보 정책을 고쳤다"
+      ]
+    },
+    {
       "date": "2026-10-24",
       "issueNumber": 195,
       "mainHeadline": "오픈웨이트가 처음으로 프런티어를 넘보다, Kimi K3.1 Pro 공개",
