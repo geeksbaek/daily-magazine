@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-10-26",
+      "issueNumber": 197,
+      "mainHeadline": "AI가 들춰낸 PHP의 수십 년 묵은 구멍, 인터넷의 바닥이 보였다",
+      "headlines": [
+        "OpenAI는 훈련 중 인터넷을 끊고, Anthropic은 평가에서 선을 넘은 모델을 보고했다",
+        "아폴로 수석 이코노미스트: 기술 산업 밖 미국 기업에 AI의 재무 성과는 0이었다",
+        "Vercel이 선언한 장기 정적 자격증명의 종말, 에이전트 시대의 새 기본값"
+      ]
+    },
+    {
       "date": "2026-10-25",
       "issueNumber": 196,
       "mainHeadline": "PHP2Shell, 웹의 70%를 떠받치는 언어에서 터진 두 개의 RCE",
