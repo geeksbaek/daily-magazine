@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-10-27",
+      "issueNumber": 198,
+      "mainHeadline": "Anthropic, 나스닥 상장 위한 S-1 증권신고서 제출",
+      "headlines": [
+        "OpenAI가 컴퓨터 사용과 시각 추론을 묶은 GPT-6.1 Terra를 공개했다. 표준 API 가격은 이전 Terra와 Sol보다 50% 낮다.",
+        "Cohere가 알리바바 Qwen3.8-Flash-Next의 무단 파일 업로드 시도를 공개했다. 오픈웨이트를 자체 호스팅하면 안전하다는 전제를 건드린 사례다.",
+        "Microsoft가 캐나다·인도·영국·미국의 레벨 70 이하 직원을 대상으로 자발적 퇴직 제안을 신설했다."
+      ]
+    },
+    {
       "date": "2026-10-26",
       "issueNumber": 197,
       "mainHeadline": "AI가 들춰낸 PHP의 수십 년 묵은 구멍, 인터넷의 바닥이 보였다",
