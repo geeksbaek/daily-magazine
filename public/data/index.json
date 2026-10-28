@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-10-29",
+      "issueNumber": 200,
+      "mainHeadline": "구글 Gemini 4 Carbon 공개, 사이버보안 벤치마크 석권하며 AA 지수 1위",
+      "headlines": [
+        "GitHub Octoverse 2026: PR의 40% 이상이 에이전트로 시작된다",
+        "마이크로소프트, Copilot을 떠받치는 멀티모델 하네스를 Foundry로 개방",
+        "Anthropic, 미 연방조달청과 계약 확대해 모든 정부 기관에 Claude 40% 할인"
+      ]
+    },
+    {
       "date": "2026-10-28",
       "issueNumber": 199,
       "mainHeadline": "OpenAI, 수학·전산·물리 3대 결과 공개… 지수시간 가설은 거짓이었다",
