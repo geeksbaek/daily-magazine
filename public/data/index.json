@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-10-31",
+      "issueNumber": 202,
+      "mainHeadline": "AI 투자 청구서에 놀란 월가, 미국 기술주 이틀째 급락",
+      "headlines": [
+        "바이낸스 63억 달러 해킹, 대부분 20분 만에 빠져나갔다",
+        "Cursor 마켓플레이스의 Claude Code 확장에 SSH 백도어",
+        "Cloudflare, eMudhra ‘숫자 4’ 키로 위조된 인증서 포착"
+      ]
+    },
+    {
       "date": "2026-10-30",
       "issueNumber": 201,
       "mainHeadline": "오픈AI, 모델 스펙을 '5대 가치' 중심으로 전면 재편",
