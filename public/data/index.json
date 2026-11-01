@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-11-02",
+      "issueNumber": 204,
+      "mainHeadline": "FBI ‘바이낸스 63억 달러 해킹은 북한 TraderTraitor 소행’…바이낸스는 자체 자금으로 손실 메우고 출금 재개",
+      "headlines": [
+        "구글 궤도 AI 위성 Suncatcher, 우주에서 Gemma 4로 첫 추론 성공",
+        "크레디세종, ChatGPT Enterprise 파일럿 ROI 954%…한 달 만에 전사 도입",
+        "AWS, 에이전트 시대의 Bedrock 비용 관리 5단계 플레이북 공개"
+      ]
+    },
+    {
       "date": "2026-11-01",
       "issueNumber": 203,
       "mainHeadline": "OpenAI, 새 투자 라운드 목표 300억→200억 달러로 축소…확보액은 110억 달러",
