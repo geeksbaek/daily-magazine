@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-11-01",
+      "issueNumber": 203,
+      "mainHeadline": "OpenAI, 새 투자 라운드 목표 300억→200억 달러로 축소…확보액은 110억 달러",
+      "headlines": [
+        "ChatGPT 공유 링크 하나로 계정 탈취…MathLive·YouTube oEmbed 엮은 공격 체인",
+        "구글 'AI 모드가 검색 매출 잠식' 인정 후 시가총액 급락, AI 약세장 우려",
+        "피해자 몸값을 LLM이 매기는 인포스틸러 'Volta-Autodoxer' 발견"
+      ]
+    },
+    {
       "date": "2026-10-31",
       "issueNumber": 202,
       "mainHeadline": "AI 투자 청구서에 놀란 월가, 미국 기술주 이틀째 급락",
