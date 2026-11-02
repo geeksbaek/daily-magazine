@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-11-03",
+      "issueNumber": 205,
+      "mainHeadline": "Anthropic, 3분기 매출 170억 달러… 8,954억 달러 컴퓨트 약정 공개",
+      "headlines": [
+        "Marvell, Lumentum을 1,150억 달러에 인수",
+        "GPT-6 Astra, 가중치 0.016% 수정으로 Qwen 수학 점수 6배",
+        "GitHub, 12월 2일부터 pull_request_target 기본 차단"
+      ]
+    },
+    {
       "date": "2026-11-02",
       "issueNumber": 204,
       "mainHeadline": "FBI ‘바이낸스 63억 달러 해킹은 북한 TraderTraitor 소행’…바이낸스는 자체 자금으로 손실 메우고 출금 재개",
