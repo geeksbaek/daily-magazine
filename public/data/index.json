@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-11-04",
+      "issueNumber": 206,
+      "mainHeadline": "바이낸스 63억 달러 해킹, 가짜 채용 면접에서 시작됐다",
+      "headlines": [
+        "애플, Siri AI를 모든 개발자에게 개방",
+        "ChatGPT 주간 사용자 12억 명, 검색량은 구글의 20%",
+        "NYT 등 언론사, 'AI 기업에 기사 재판매' 혐의로 Brave 제소"
+      ]
+    },
+    {
       "date": "2026-11-03",
       "issueNumber": 205,
       "mainHeadline": "Anthropic, 3분기 매출 170억 달러… 8,954억 달러 컴퓨트 약정 공개",
