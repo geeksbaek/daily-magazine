@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-11-05",
+      "issueNumber": 207,
+      "mainHeadline": "OpenAI, Git 리뷰 도구 스타트업 Pierre 인수… Codex를 소스 컨트롤 허브로",
+      "headlines": [
+        "Go 1.27, 15년 만의 JSON 대수술… encoding/json/v2 정식 출시",
+        "Cloudflare, '개인 에이전트' 트래픽 분석과 에이전트별 접근 정책 공개",
+        "CUDA 13.5, Vera Rubin 정식 지원과 MPS v3로 GPU 공유 세분화"
+      ]
+    },
+    {
       "date": "2026-11-04",
       "issueNumber": 206,
       "mainHeadline": "바이낸스 63억 달러 해킹, 가짜 채용 면접에서 시작됐다",
