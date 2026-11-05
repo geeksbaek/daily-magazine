@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-11-06",
+      "issueNumber": 208,
+      "mainHeadline": "OpenAI, 보안 특화 GPT-6 Cyber 공개…사이버 위험 등급 'Critical'로 상향",
+      "headlines": [
+        "musl 리눅스 OpenSSH, 긴 비밀번호 하나로 잠긴 계정 뚫리는 'sshole' 공개",
+        "Claude, 은행·카드 계좌 연결해 지출 분석하는 Personal Finance 베타 출시",
+        "NVIDIA, 자율주행·로봇용 월드 시뮬레이션 모델 Cosmos 3 Nano 4종 공개"
+      ]
+    },
+    {
       "date": "2026-11-05",
       "issueNumber": 207,
       "mainHeadline": "OpenAI, Git 리뷰 도구 스타트업 Pierre 인수… Codex를 소스 컨트롤 허브로",
