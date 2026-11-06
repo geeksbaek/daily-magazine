@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-11-07",
+      "issueNumber": 209,
+      "mainHeadline": "OpenAI 사이버 모델, 리눅스 커널에서 root 탈취 익스플로잇 948개 찾아냈다",
+      "headlines": [
+        "Claude, EVE 온라인 가상 시장서 세대마다 수익 껑충…배신자 에이전트는 못 잡아",
+        "GitHub 새 Git 저장소 Rubicon, 한 저장소에 초당 7,200 푸시",
+        "중국 오픈 모델 해킹 과제 성공률 73%…비공개 최상위 모델 턱밑"
+      ]
+    },
+    {
       "date": "2026-11-06",
       "issueNumber": 208,
       "mainHeadline": "OpenAI, 보안 특화 GPT-6 Cyber 공개…사이버 위험 등급 'Critical'로 상향",
