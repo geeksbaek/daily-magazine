@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-11-09",
+      "issueNumber": 211,
+      "mainHeadline": "골드만삭스, 트레이더·뱅커의 Claude Code 사용 막았다",
+      "headlines": [
+        "애플 터너스 CEO, 페더리기에게 AI 로드맵 가속 주문",
+        "Cursor, 빌드부터 배포까지 한 번에 끝내는 '라이브 앱' 출시",
+        "macOS 27.3, AI 에이전트의 전체 디스크 접근 허용 경로 좁힌다"
+      ]
+    },
+    {
       "date": "2026-11-08",
       "issueNumber": 210,
       "mainHeadline": "앤스로픽, 에이전트가 '잠자며' 기억을 정리하는 메모리 설계 공개",
