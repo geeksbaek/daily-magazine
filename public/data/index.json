@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-11-10",
+      "issueNumber": 212,
+      "mainHeadline": "앤트로픽, Claude Fable 5.2·Mythos 5.2 공개… 더 싸고 빨라진 최상위 모델",
+      "headlines": [
+        "구글, 기밀 추론용 TPU 8tx와 초장문 컨텍스트용 TPU 8i Max 추가",
+        "메타, 100만 토큰당 10센트짜리 에이전트 실행 모델 Muse Ember 출시",
+        "Vercel AI Gateway 11월 지표: 결정 모델이 요청 26% 차지, 신규 팀은 앤트로픽을 2배 선택"
+      ]
+    },
+    {
       "date": "2026-11-09",
       "issueNumber": 211,
       "mainHeadline": "골드만삭스, 트레이더·뱅커의 Claude Code 사용 막았다",
