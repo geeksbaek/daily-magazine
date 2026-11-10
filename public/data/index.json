@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-11-11",
+      "issueNumber": 213,
+      "mainHeadline": "Anthropic, 나스닥 상장 로드쇼 돌입…희망 공모가 주당 70~78달러",
+      "headlines": [
+        "Git, 재귀 클론만으로 코드 실행되는 취약점 등 6건 패치",
+        "NVIDIA, 에이전트 보안 런타임 OpenShell을 CNCF에 기증",
+        "ChatGPT에 기업 프로필과 Business Agent 도입"
+      ]
+    },
+    {
       "date": "2026-11-10",
       "issueNumber": 212,
       "mainHeadline": "앤트로픽, Claude Fable 5.2·Mythos 5.2 공개… 더 싸고 빨라진 최상위 모델",
