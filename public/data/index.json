@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-11-12",
+      "issueNumber": 214,
+      "mainHeadline": "AWS, 거의 모든 AWS 서비스를 노트북에서 돌리는 오픈소스 'AWS Emulator' 공개",
+      "headlines": [
+        "OpenAI, 연구 인프라 전체의 모델 작업을 35초 안에 멈추는 'Control Room' 공개",
+        "JetBrains IDE에 에이전트 관제탑 'Air' 정식 탑재… Claude·Codex·Copilot 한 곳에서",
+        "Google, 생성 없이 한 번에 최대 1,000개 판단을 내리는 Gemini Decisions API 출시"
+      ]
+    },
+    {
       "date": "2026-11-11",
       "issueNumber": 213,
       "mainHeadline": "Anthropic, 나스닥 상장 로드쇼 돌입…희망 공모가 주당 70~78달러",
