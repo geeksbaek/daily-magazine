@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-11-13",
+      "issueNumber": 215,
+      "mainHeadline": "구글 Gemini 4 Hydrogen 출시… 3.8 Flash보다 2.5배 빠른 '실행 담당' 모델",
+      "headlines": [
+        "젠슨 황 사임, 엔비디아의 오픈소스 AI 지원에 물음표",
+        "Apache HTTP Server HTTP/2 모듈에 인증 없는 원격 코드 실행 취약점",
+        "Rust 1.100.0 출시… 10년 걸린 never 타입 마침내 안정화"
+      ]
+    },
+    {
       "date": "2026-11-12",
       "issueNumber": 214,
       "mainHeadline": "AWS, 거의 모든 AWS 서비스를 노트북에서 돌리는 오픈소스 'AWS Emulator' 공개",
