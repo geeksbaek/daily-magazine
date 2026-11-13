@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-11-14",
+      "issueNumber": 216,
+      "mainHeadline": "Cloudflare '사흘 새 AI 침투 테스트 프레임워크 50여 종이 고객을 스캔'… 트래픽 30배 급증",
+      "headlines": [
+        "OpenAI 'ChatGPT Wallet' 출시… 에이전트 dots가 결제까지 대신한다",
+        "llama.cpp·ggml, 3년 반 만에 v1.0.0… API·ABI 안정성 약속",
+        "MS 365 장애 하루 넘게 이어져… '단일 벤더 의존'의 대가 드러나"
+      ]
+    },
+    {
       "date": "2026-11-13",
       "issueNumber": 215,
       "mainHeadline": "구글 Gemini 4 Hydrogen 출시… 3.8 Flash보다 2.5배 빠른 '실행 담당' 모델",
