@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-11-15",
+      "issueNumber": 217,
+      "mainHeadline": "중국 AI 모델에 남은 '블랙웰 지문'… 전 OpenAI 엔지니어 '수출 통제 뚫렸다'",
+      "headlines": [
+        "Lovable로 만든 앱 7천여 곳에서 개인정보 노출… 여권 정보·채팅 20만 건까지",
+        "Cloudflare, AI 에이전트용 브라우저 엔진 Kitesurf 오픈소스로 공개",
+        "구글, Antigravity /teamwork로 2013년 정보이론 난제 증명"
+      ]
+    },
+    {
       "date": "2026-11-14",
       "issueNumber": 216,
       "mainHeadline": "Cloudflare '사흘 새 AI 침투 테스트 프레임워크 50여 종이 고객을 스캔'… 트래픽 30배 급증",
