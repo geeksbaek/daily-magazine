@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-11-16",
+      "issueNumber": 218,
+      "mainHeadline": "OpenAI, 에이전트 전용 결제 'ChatGPT Wallet' 공개…카드 정보는 숨기고 구매마다 생체 인증",
+      "headlines": [
+        "젠슨 황 사임 뒤 떠오른 질문, 'Nvidia 보안팀은 무엇을 알았나'",
+        "올해 CVE 10만 건 돌파…공개부터 악용까지 시간도 단축",
+        "AI 모델 12종의 언어 '핫테이크'는 Python 공격·PHP 옹호로 수렴"
+      ]
+    },
+    {
       "date": "2026-11-15",
       "issueNumber": 217,
       "mainHeadline": "중국 AI 모델에 남은 '블랙웰 지문'… 전 OpenAI 엔지니어 '수출 통제 뚫렸다'",
