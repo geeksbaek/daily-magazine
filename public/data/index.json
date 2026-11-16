@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-11-17",
+      "issueNumber": 219,
+      "mainHeadline": "Anthropic, AI 시대 맞춰 취약점 공개 기한을 90일에서 30일로 단축",
+      "headlines": [
+        "FBI·AWS 경고: 오픈소스 AI 공격 프레임워크 ARTEX, 3시간 안에 권한 탈취까지",
+        "OpenAI, Apollo·METR·Transluce·Goodfire에 내부 모델 열고 '임베디드 평가' 시작",
+        "젠슨 황 퇴진 이후의 엔비디아, 무엇이 남았나"
+      ]
+    },
+    {
       "date": "2026-11-16",
       "issueNumber": 218,
       "mainHeadline": "OpenAI, 에이전트 전용 결제 'ChatGPT Wallet' 공개…카드 정보는 숨기고 구매마다 생체 인증",
