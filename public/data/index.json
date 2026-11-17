@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-11-18",
+      "issueNumber": 220,
+      "mainHeadline": "OpenAI, GPT-6.2 Astra·Sol 공개… 더 적은 토큰으로 프런티어 성능",
+      "headlines": [
+        "MS 이그나이트: Copilot을 '업무의 OS'로, 자체 MAI 모델 가중치까지 라이선스",
+        "구글 Gemini, 전화·결제까지 대신하는 비서 기능 6개국 무료 배포",
+        "웨이모, 캘리포니아 DMV 명령에 전국 고속도로 운행 중단"
+      ]
+    },
+    {
       "date": "2026-11-17",
       "issueNumber": 219,
       "mainHeadline": "Anthropic, AI 시대 맞춰 취약점 공개 기한을 90일에서 30일로 단축",
