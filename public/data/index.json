@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-11-19",
+      "issueNumber": 221,
+      "mainHeadline": "Nginx에 인증 없는 원격 코드 실행 취약점… AI가 10년 묵은 버그를 끌어냈다",
+      "headlines": [
+        "OpenJDK Base64 디코더의 'Java4Shell', Jira·Jenkins를 인증 없이 뚫는다",
+        "GPT-6.2 Astra·Sol 출시… 비용 효율은 최고, 평가는 극과 극",
+        "마이크로소프트 공식 파이썬 에이전트 프레임워크, PyPI에서 탈취돼 악성코드 유포"
+      ]
+    },
+    {
       "date": "2026-11-18",
       "issueNumber": 220,
       "mainHeadline": "OpenAI, GPT-6.2 Astra·Sol 공개… 더 적은 토큰으로 프런티어 성능",
