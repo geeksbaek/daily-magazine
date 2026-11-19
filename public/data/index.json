@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-11-20",
+      "issueNumber": 222,
+      "mainHeadline": "Anthropic, 주당 83달러에 IPO 공모가 확정… 나스닥 티커 'ANT'",
+      "headlines": [
+        "구글 Gemini, 맥에서 앱·파일을 직접 다루는 컴퓨터 사용 기능 추가",
+        "OpenAI, Codex 에이전트가 성능 회귀를 찾고 고치는 'Performance Factory' 공개",
+        "구글 Chrome 팀, AI 에이전트 훈련용 가짜 인터넷 'Mirror Dimension' 구축"
+      ]
+    },
+    {
       "date": "2026-11-19",
       "issueNumber": 221,
       "mainHeadline": "Nginx에 인증 없는 원격 코드 실행 취약점… AI가 10년 묵은 버그를 끌어냈다",
