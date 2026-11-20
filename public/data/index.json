@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-11-21",
+      "issueNumber": 223,
+      "mainHeadline": "리만 가설, 같은 주에 두 개의 증명… Claude와 함께 한 Lean 증명, 12년을 쏟은 인간의 증명",
+      "headlines": [
+        "Anthropic IPO 마감… 그린슈 행사로 935억 달러 조달, 7개 반도체·클라우드 기업에 260억 달러 사모 배정",
+        "AI 에이전트가 스스로 0-day 찾아 대학 서버 장악… 아마존, 중국 연계 공격 사례 공개",
+        "OpenAI, 적대적 증류 대응 공개… 추론 과정 추출 공격 성공률 54%→0.2%"
+      ]
+    },
+    {
       "date": "2026-11-20",
       "issueNumber": 222,
       "mainHeadline": "Anthropic, 주당 83달러에 IPO 공모가 확정… 나스닥 티커 'ANT'",
