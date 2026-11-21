@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-11-22",
+      "issueNumber": 224,
+      "mainHeadline": "리만 가설, 하루 사이 두 번 '증명'됐다 — 하나는 Claude와, 하나는 12년의 손작업으로",
+      "headlines": [
+        "Google Duplex 10년의 진화 — 이제 Gemini가 가게에 직접 전화를 건다",
+        "Rails·Sinatra 기본 설정에서 인증 없이 뚫리는 Ruby 취약점 ruby2shell",
+        "Java4Shell: AVX-512 CPU의 JVM Base64 디코더에서 메모리 손상 취약점"
+      ]
+    },
+    {
       "date": "2026-11-21",
       "issueNumber": 223,
       "mainHeadline": "리만 가설, 같은 주에 두 개의 증명… Claude와 함께 한 Lean 증명, 12년을 쏟은 인간의 증명",
