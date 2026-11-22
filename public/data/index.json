@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-11-23",
+      "issueNumber": 225,
+      "mainHeadline": "OpenAI, 비공개였던 사전학습 지표 공개… '이르면 2027년 AI 발전이 눈사태처럼 온다'",
+      "headlines": [
+        "OpenRouter, 프롬프트 유출 정황 제공사 3곳 퇴출하고 125개 엔드포인트 무보존 자격 박탈",
+        "엔비디아·마이크로소프트, Azure Vera Rubin부터 윈도 PC까지 AI 협력 확대",
+        "Anthropic 전력 87%는 가스·11%는 석탄… 2028년 배출이 캘리포니아 발전 부문 넘을 수도"
+      ]
+    },
+    {
       "date": "2026-11-22",
       "issueNumber": 224,
       "mainHeadline": "리만 가설, 하루 사이 두 번 '증명'됐다 — 하나는 Claude와, 하나는 12년의 손작업으로",
