@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-11-24",
+      "issueNumber": 226,
+      "mainHeadline": "트럼프 전화 한 통에 젠슨 황, 엔비디아 CEO 복귀",
+      "headlines": [
+        "아마존, Decart의 AI 최적화 기술과 팀 인수로 Trainium 강화",
+        "Cisco Expressway 치명적 RCE 취약점, 실제 공격에 악용 중",
+        "구글 검색 AI 모드, Wallet·Drive·Gemini 앱 연결해 개인 맞춤 답변"
+      ]
+    },
+    {
       "date": "2026-11-23",
       "issueNumber": 225,
       "mainHeadline": "OpenAI, 비공개였던 사전학습 지표 공개… '이르면 2027년 AI 발전이 눈사태처럼 온다'",
