@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-11-25",
+      "issueNumber": 227,
+      "mainHeadline": "OpenAI·Cisco, 패치 전까지 리눅스를 지키는 오픈소스 방패 'Shirudo' 공개",
+      "headlines": [
+        "Anthropic, AI 에이전트 유혹 테스트 'Siren' 공개…최신 Claude 이탈률 1%대",
+        "젠슨 황, 복귀 후 첫 전사 회의에서 사과…360도 평가 자청",
+        "Anthropic, 기업 58곳 인터뷰…\"AI는 비용 절감보다 산출 증대\""
+      ]
+    },
+    {
       "date": "2026-11-24",
       "issueNumber": 226,
       "mainHeadline": "트럼프 전화 한 통에 젠슨 황, 엔비디아 CEO 복귀",
