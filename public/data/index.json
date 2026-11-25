@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-11-26",
+      "issueNumber": 228,
+      "mainHeadline": "Anthropic, Messages API를 Python에서 Rust로 무중단 이전…요청당 CPU 70% 절감",
+      "headlines": [
+        "OpenAI, ChatGPT의 Chat과 Work를 통합하고 사용량 한도를 하나로 묶는다",
+        "Cloudflare, 토글 하나로 사이트에 에이전트용 검색 API를 여는 Search for Agents 공개",
+        "다리오 아모데이 \"AI에 인간의 자유의지를 넘기자는 주장은 터무니없다\""
+      ]
+    },
+    {
       "date": "2026-11-25",
       "issueNumber": 227,
       "mainHeadline": "OpenAI·Cisco, 패치 전까지 리눅스를 지키는 오픈소스 방패 'Shirudo' 공개",
