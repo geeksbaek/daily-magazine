@@ -1,6 +1,16 @@
 {
   "issues": [
     {
+      "date": "2026-11-27",
+      "issueNumber": 229,
+      "mainHeadline": "OpenAI, GPT-6가 전용 생물학 모델 없이 단백질을 설계했다고 밝혔다",
+      "headlines": [
+        "마이크로소프트, 중국·북한 조직이 오픈소스 AI 침투 도구 ARTEX를 공격에 쓰고 있다고 경고",
+        "행렬 곱셈 지수와 푸리에 변환까지, AI가 내놓는 수학 증명이 읽는 속도를 앞질렀다",
+        "독립 브라우저 Ladybird가 알파 단계에 들어서며 네 번째 웹 엔진 후보가 됐다"
+      ]
+    },
+    {
       "date": "2026-11-26",
       "issueNumber": 228,
       "mainHeadline": "Anthropic, Messages API를 Python에서 Rust로 무중단 이전…요청당 CPU 70% 절감",
